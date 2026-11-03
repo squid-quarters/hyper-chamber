@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { pushState, replaceState } from '$app/navigation';
+	import { goto } from '$app/navigation';
 	import { references } from '#lib/catalog';
 	import {
 		filterReferences,
@@ -10,7 +10,16 @@
 		type PersonalEntry,
 		type PracticeStatus,
 	} from '@hyper-chamber/reference';
-	import { loadLibrary, saveLibrary, parseBackup, createBackup, blankEntry } from '#lib/personal';
+	import {
+		loadLibrary,
+		persistChanges,
+		mergePending,
+		parseBackup,
+		createBackup,
+		blankEntry,
+		STORAGE_KEY,
+		type LibraryPatches,
+	} from '#lib/personal';
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	let query = $state('');
 	let kind = $state('all');
@@ -19,6 +28,7 @@
 	let selectedId = $state(references[0]?.id ?? '');
 	let focused = $state(false);
 	let library = $state<PersonalLibrary>({});
+	let pendingChanges = $state<LibraryPatches>({});
 	let storageError = $state<string | null>(null);
 	let message = $state('');
 	let help: HTMLDialogElement;
@@ -63,7 +73,7 @@
 		if (situation !== 'all') u.searchParams.set('situation', situation);
 		if (savedOnly) u.searchParams.set('saved', '1');
 		if (selectedId) u.searchParams.set('entry', selectedId);
-		const navigation = push ? pushState(u, {}) : replaceState(u, {});
+		const navigation = goto(u, { shallow: true, replace: !push });
 		navigation.catch(() => {
 			message = 'The reference is open, but its URL could not be updated.';
 		});
@@ -81,11 +91,32 @@
 	}
 	function updatePersonal(patch: Partial<PersonalEntry>) {
 		if (!selected || !ready) return;
+		if (patch.status !== undefined) patch = { ...patch, revision: selected.revision };
 		library = {
 			...library,
 			[selected.id]: { ...blankEntry(selected), ...library[selected.id], ...patch },
 		};
-		storageError = saveLibrary(library);
+		pendingChanges = {
+			...pendingChanges,
+			[selected.id]: { ...pendingChanges[selected.id], ...patch },
+		};
+		persistPending();
+	}
+	function persistPending() {
+		const result = persistChanges(library, pendingChanges);
+		library = result.library;
+		pendingChanges = result.pending;
+		storageError = result.error;
+	}
+	function syncFromStorage(event: StorageEvent) {
+		if (event.key !== STORAGE_KEY && event.key !== null) return;
+		const loaded = loadLibrary();
+		if (loaded.error) {
+			storageError = loaded.error;
+			return;
+		}
+		library = mergePending(loaded.library, library, pendingChanges);
+		if (Object.keys(pendingChanges).length === 0) storageError = null;
 	}
 	function exportData() {
 		const url = URL.createObjectURL(
@@ -104,9 +135,11 @@
 		if (!file) return;
 		try {
 			const imported = parseBackup(await file.text());
-			library = { ...library, ...imported };
-			storageError = saveLibrary(library);
-			message = 'Backup imported. Matching entries were updated.';
+			pendingChanges = { ...pendingChanges, ...imported };
+			persistPending();
+			message = storageError
+				? 'Backup loaded for this session. Browser storage could not save it.'
+				: 'Backup imported. Matching entries were updated.';
 		} catch (e) {
 			message = e instanceof Error ? e.message : 'This backup could not be imported.';
 		}
@@ -121,7 +154,11 @@
 		readUrl();
 		ready = true;
 		window.addEventListener('popstate', readUrl);
-		return () => window.removeEventListener('popstate', readUrl);
+		window.addEventListener('storage', syncFromStorage);
+		return () => {
+			window.removeEventListener('popstate', readUrl);
+			window.removeEventListener('storage', syncFromStorage);
+		};
 	});
 </script>
 

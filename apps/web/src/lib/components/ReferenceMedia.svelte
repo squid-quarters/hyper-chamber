@@ -42,7 +42,16 @@
 			height="720"
 			aria-label={`${reference.title} source clip`}
 			onerror={() => (error = 'This clip could not load. Open the original source below.')}
-		></video>
+		>
+			{#if reference.media.descriptionTrack}
+				<track
+					kind="descriptions"
+					src={reference.media.descriptionTrack}
+					srclang="en"
+					label="English action descriptions"
+				/>
+			{/if}
+		</video>
 		<div class="player-toolbar">
 			<button class="button small" onclick={replay}><span aria-hidden="true">↻</span> Replay</button
 			>
@@ -86,14 +95,15 @@
 					onclick={() => seek(frame.at, frame.id)}
 					disabled={!reference.media.clip}
 					aria-label={`Seek to ${frame.label}, ${frame.at.toFixed(1)} seconds`}
+					aria-describedby={`${reference.id}-${frame.id}-description`}
 					><div class="frame-image">
 						<img src={frame.src} alt={frame.alt} loading="lazy" width="640" height="360" /><span
 							class="frame-number">0{i + 1}</span
 						>
 					</div>
-					<span class="frame-caption">{frame.label}<span>{frame.at.toFixed(1)}s</span></span
-					></button
-				>
+					<span class="frame-caption">{frame.label}<span>{frame.at.toFixed(1)}s</span></span>
+					<span class="sr-only" id={`${reference.id}-${frame.id}-description`}>{frame.alt}</span>
+				</button>
 			</li>
 		{/each}
 	</ol>

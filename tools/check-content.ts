@@ -15,6 +15,7 @@ for (const ref of catalog) {
 	for (const asset of [
 		ref.media.poster,
 		ref.media.clip,
+		ref.media.descriptionTrack,
 		...ref.media.frames.map(frame => frame.src),
 	].filter((asset): asset is string => Boolean(asset))) {
 		const target = resolve(root, 'apps/web/static', asset.slice(1));

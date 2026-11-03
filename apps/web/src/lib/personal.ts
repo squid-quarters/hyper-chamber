@@ -40,6 +40,12 @@ const backupSchema = z.strictObject({
 type ReadableStorage = Pick<Storage, 'getItem'>;
 type WritableStorage = Pick<Storage, 'setItem'>;
 type LoadResult = {library: PersonalLibrary; error: string | null};
+export type LibraryPatches = Record<string, Partial<PersonalEntry>>;
+type PersistResult = {
+	library: PersonalLibrary;
+	pending: LibraryPatches;
+	error: string | null;
+};
 
 function errorMessage(error: unknown): string {
 	return error instanceof Error ? error.message : 'An unexpected storage error occurred.';
@@ -125,4 +131,58 @@ export function saveLibrary(
 	} catch {
 		return 'Practice changes are still available in this session, but browser storage could not save them. Export a backup before closing the page.';
 	}
+}
+
+/** Rebase explicit local fields onto the newest library, without mutating either input. */
+export function mergePending(
+	latest: PersonalLibrary,
+	current: PersonalLibrary,
+	pending: LibraryPatches,
+): PersonalLibrary {
+	const merged = {...latest};
+	for (const [id, patch] of Object.entries(pending)) {
+		if (!referenceIdPattern.test(id)) {
+			throw new Error('Pending reference IDs must be lowercase slugs.');
+		}
+		// New references get their defaults from the caller's current entry. Full
+		// imported entries need no fallback; existing persisted fields stay newest.
+		merged[id] = entrySchema.parse({...(latest[id] ?? current[id]), ...patch});
+	}
+	return merged;
+}
+
+/** Read before saving so a stale tab only replaces fields the learner actually edited. */
+export function persistChanges(
+	current: PersonalLibrary,
+	pending: LibraryPatches,
+	storage?: (ReadableStorage & WritableStorage) | null,
+): PersistResult {
+	let inMemory: PersonalLibrary;
+	try {
+		inMemory = mergePending(current, current, pending);
+	} catch (error) {
+		return {
+			library: current,
+			pending,
+			error: `Practice changes could not be saved. ${errorMessage(error)}`,
+		};
+	}
+	// loadLibrary is intentionally quiet during SSR, but a save cannot succeed there.
+	const loaded = loadLibrary(
+		storage === undefined && typeof window === 'undefined' ? null : storage,
+	);
+	if (loaded.error) return {library: inMemory, pending, error: loaded.error};
+	let merged: PersonalLibrary;
+	try {
+		merged = mergePending(loaded.library, current, pending);
+	} catch (error) {
+		return {
+			library: inMemory,
+			pending,
+			error: `Practice changes could not be saved. ${errorMessage(error)}`,
+		};
+	}
+	if (Object.keys(pending).length === 0) return {library: merged, pending: {}, error: null};
+	const error = saveLibrary(merged, storage);
+	return {library: merged, pending: error ? pending : {}, error};
 }

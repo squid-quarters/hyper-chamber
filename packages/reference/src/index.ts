@@ -48,6 +48,7 @@ export const referenceSchema = z
 		}),
 		media: z.object({
 			clip: localMedia.optional(),
+			descriptionTrack: localMedia.optional(),
 			poster: localMedia,
 			frames: z
 				.array(

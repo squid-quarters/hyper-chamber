@@ -4,7 +4,9 @@ import {
 	blankEntry,
 	createBackup,
 	loadLibrary,
+	mergePending,
 	parseBackup,
+	persistChanges,
 	saveLibrary,
 	STORAGE_KEY,
 } from './personal';
@@ -95,6 +97,171 @@ describe('personal backups', () => {
 		const first = blankEntry(reference);
 		first.note = 'Changed';
 		expect(blankEntry(reference)).toEqual({saved: false, status: 'untried', note: '', revision: 3});
+	});
+});
+
+describe('merging edits from multiple tabs', () => {
+	it('keeps another tab’s note on a different reference when saving a stale tab', () => {
+		const storage = memoryStorage(createBackup(library));
+		const staleTab = loadLibrary(storage).library;
+		const latest: PersonalLibrary = {
+			...library,
+			'other-reference': {...library['yoga-test'], note: 'Written in another tab'},
+		};
+		saveLibrary(latest, storage);
+		const result = persistChanges(staleTab, {'yoga-test': {saved: false}}, storage);
+		expect(result.error).toBeNull();
+		expect(result.pending).toEqual({});
+		expect(loadLibrary(storage).library).toEqual({
+			...latest,
+			'yoga-test': {...latest['yoga-test'], saved: false},
+		});
+	});
+
+	it('updates only the edited field on a reference changed in another tab', () => {
+		const storage = memoryStorage(createBackup(library));
+		const staleTab = loadLibrary(storage).library;
+		saveLibrary(
+			{'yoga-test': {...library['yoga-test'], note: 'New note from another tab'}},
+			storage,
+		);
+		const result = persistChanges(staleTab, {'yoga-test': {status: 'reliable'}}, storage);
+		expect(result.library['yoga-test']).toEqual({
+			...library['yoga-test'],
+			note: 'New note from another tab',
+			status: 'reliable',
+		});
+		expect(loadLibrary(storage).library).toEqual(result.library);
+	});
+
+	it('uses current defaults for a newly edited entry while retaining all latest entries', () => {
+		const latest = library;
+		const current = {
+			'new-reference': {saved: false, status: 'untried' as const, note: '', revision: 4},
+		};
+		const pending = {'new-reference': {note: 'First note'}};
+		const merged = mergePending(latest, current, pending);
+		expect(merged).toEqual({
+			...latest,
+			'new-reference': {...current['new-reference'], note: 'First note'},
+		});
+		expect(current['new-reference'].note).toBe('');
+		expect(latest).toEqual(library);
+	});
+
+	it('reapplies pending local fields to storage events without resurrecting stale entries', () => {
+		const current = {
+			...library,
+			'removed-reference': {...library['yoga-test'], note: 'Stale entry'},
+		};
+		const latest = {'yoga-test': {...library['yoga-test'], status: 'reliable' as const}};
+		expect(mergePending(latest, current, {'yoga-test': {note: 'Unsaved local note'}})).toEqual({
+			'yoga-test': {...latest['yoga-test'], note: 'Unsaved local note'},
+		});
+	});
+
+	it('retries pending fields after quota failure against the newest stored data', () => {
+		const storage = memoryStorage(createBackup(library));
+		const write = storage.setItem.getMockImplementation()!;
+		storage.setItem.mockImplementationOnce(() => {
+			throw new Error('QuotaExceededError');
+		});
+		const pending = {'yoga-test': {note: 'Keep this unsaved note'}};
+		const failed = persistChanges(library, pending, storage);
+		expect(failed.error).toMatch(/Export a backup/);
+		expect(failed.pending).toEqual(pending);
+		expect(failed.library['yoga-test'].note).toBe('Keep this unsaved note');
+		expect(loadLibrary(storage).library).toEqual(library);
+		write(STORAGE_KEY, createBackup({'yoga-test': {...library['yoga-test'], saved: false}}));
+		const retried = persistChanges(failed.library, failed.pending, storage);
+		expect(retried.error).toBeNull();
+		expect(retried.pending).toEqual({});
+		expect(loadLibrary(storage).library['yoga-test']).toEqual({
+			...library['yoga-test'],
+			saved: false,
+			note: 'Keep this unsaved note',
+		});
+	});
+
+	it.each(['{broken', JSON.stringify({version: 9, entries: {}})])(
+		'refuses to overwrite an unreadable backup and retains local edits for export',
+		raw => {
+			const storage = memoryStorage(raw);
+			const pending = {'yoga-test': {note: 'In-memory note'}};
+			const result = persistChanges(library, pending, storage);
+			expect(result.error).toContain('left unchanged');
+			expect(result.library['yoga-test'].note).toBe('In-memory note');
+			expect(result.pending).toEqual(pending);
+			expect(storage.setItem).not.toHaveBeenCalled();
+			expect(storage.getItem(STORAGE_KEY)).toBe(raw);
+		},
+	);
+
+	it('does not write when reading storage is blocked', () => {
+		const storage = {
+			getItem: vi.fn(() => {
+				throw new Error('SecurityError');
+			}),
+			setItem: vi.fn(),
+		};
+		const pending = {'yoga-test': {saved: false}};
+		const result = persistChanges(library, pending, storage);
+		expect(result.error).toMatch(/blocked or unavailable/);
+		expect(result.library['yoga-test'].saved).toBe(false);
+		expect(result.pending).toEqual(pending);
+		expect(storage.setItem).not.toHaveBeenCalled();
+	});
+
+	it('merges full imported entries into fresh storage without discarding unrelated progress', () => {
+		const storage = memoryStorage(createBackup({'other-reference': library['yoga-test']}));
+		const imported = {'yoga-test': {...library['yoga-test'], note: 'Imported note'}};
+		const result = persistChanges({}, imported, storage);
+		expect(result.error).toBeNull();
+		expect(loadLibrary(storage).library).toEqual({
+			'other-reference': library['yoga-test'],
+			...imported,
+		});
+	});
+
+	it('reads fresh state without writing when there are no pending edits', () => {
+		const storage = memoryStorage(createBackup(library));
+		expect(persistChanges({}, {}, storage)).toEqual({library, pending: {}, error: null});
+		expect(storage.setItem).not.toHaveBeenCalled();
+	});
+
+	it('retains pending edits when browser storage is unavailable during SSR', () => {
+		vi.stubGlobal('window', undefined);
+		const pending = {'yoga-test': {note: 'Keep in memory'}};
+		const result = persistChanges(library, pending);
+		expect(result.library['yoga-test'].note).toBe('Keep in memory');
+		expect(result.pending).toEqual(pending);
+		expect(result.error).toMatch(/blocked or unavailable/);
+	});
+
+	it('handles the browser storage getter throwing before any read or write', () => {
+		vi.stubGlobal(
+			'window',
+			Object.defineProperty({}, 'localStorage', {
+				get() {
+					throw new Error('SecurityError');
+				},
+			}),
+		);
+		const pending = {'yoga-test': {status: 'reliable' as const}};
+		const result = persistChanges(library, pending);
+		expect(result.library['yoga-test'].status).toBe('reliable');
+		expect(result.pending).toEqual(pending);
+		expect(result.error).toMatch(/blocked or unavailable/);
+	});
+
+	it('does not save invalid pending state or discard its recovery information', () => {
+		const storage = memoryStorage(createBackup(library));
+		const pending = {'yoga-test': {note: 'x'.repeat(4001)}};
+		const result = persistChanges(library, pending, storage);
+		expect(result.error).toMatch(/could not be saved/);
+		expect(result.library).toEqual(library);
+		expect(result.pending).toEqual(pending);
+		expect(storage.setItem).not.toHaveBeenCalled();
 	});
 });
 
