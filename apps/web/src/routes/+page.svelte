@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
-	import { references } from '#lib/catalog';
+	import { game, subjectName, references } from '#lib/catalog';
 	import {
 		filterReferences,
 		sourceLink,
@@ -163,9 +163,9 @@
 </script>
 
 <svelte:head
-	><title>Hyper Chamber — Dhalsim reference</title><meta
+	><title>Hyper Chamber — {subjectName} reference</title><meta
 		name="description"
-		content="A compact Dhalsim reference for Street Fighter 6. Replay source clips, inspect key moments and keep your own practice notes."
+		content={`A compact ${subjectName} reference for ${game.name}. Replay source clips, inspect key moments and keep your own practice notes.`}
 	/></svelte:head
 >
 <a class="skip-link" href="#reference">Skip to selected reference</a>
@@ -183,22 +183,20 @@
 			<button onclick={() => help.showModal()}>Notation <span aria-hidden="true">?</span></button
 			><button onclick={() => backup.showModal()}
 				>Your library <span aria-hidden="true">↗</span></button
-			><a
-				class="guide-link"
-				href="https://sf6-lab.net/en/fighters/dhalsim"
-				target="_blank"
-				rel="noreferrer">Guides on SF6 Lab ↗</a
 			>
+			{#each game.guides as guide}
+				<a class="guide-link" href={guide.url} target="_blank" rel="noreferrer">{guide.label} ↗</a>
+			{/each}
 		</nav>
 	</header>
 	<main>
-		<section class="character-band" aria-label="Current character">
+		<section class="character-band" aria-label="Current reference collection">
 			<div class="character-name">
-				<span class="eyebrow">STREET FIGHTER 6 / CHARACTER FILE 01</span>
-				<h1>DHALSIM<span class="title-dot">.</span></h1>
+				<span class="eyebrow">{game.name.toUpperCase()} / REFERENCE FILE</span>
+				<h1>{subjectName.toUpperCase()}<span class="title-dot">.</span></h1>
 			</div>
 			<p>A reference within reach.<br /><span>Combos, setups and the moments between.</span></p>
-			<span class="character-seal" aria-hidden="true">ध्यान</span>
+			<span class="character-seal" aria-hidden="true">HC</span>
 		</section>
 		{#if storageError}<p class="global-notice" role="alert">
 				{storageError} Your changes are available in this session; export a backup to keep them.
@@ -306,10 +304,8 @@
 			<article class="reference-detail" aria-label="Selected reference">
 				{#if selected && personal}
 					<div class="detail-toolbar">
-						<span class="eyebrow">DHALSIM / {selected.kind.toUpperCase()}</span><button
-							class="text-button"
-							aria-pressed={focused}
-							onclick={() => (focused = !focused)}
+						<span class="eyebrow">{subjectName.toUpperCase()} / {selected.kind.toUpperCase()}</span
+						><button class="text-button" aria-pressed={focused} onclick={() => (focused = !focused)}
 							>{focused ? '↙ Exit focus' : '↗ Focus view'}</button
 						>
 					</div>
@@ -372,9 +368,9 @@
 								{#each selected.notes as note}<li>{note}</li>{/each}
 							</ul>
 							<div class="resource-line">
-								<span>Drive <strong>{selected.resources.drive}</strong></span><span
-									>Super <strong>{selected.resources.super}</strong></span
-								>
+								{#each Object.entries(selected.resources) as [resource, value]}
+									<span>{game.resourceLabels[resource]} <strong>{value}</strong></span>
+								{/each}
 							</div>
 						</section>
 						<section class="personal-panel">
@@ -443,15 +439,15 @@
 							</div>
 						</section>{/if}
 				{:else}<div class="empty">
-						<h2 id="reference">No references available</h2>
-						<p>The compendium will appear here when reviewed entries are available.</p>
+						<h2 id="reference">No {subjectName} references available</h2>
+						<p>The {game.name} compendium will appear here when reviewed entries are available.</p>
 					</div>{/if}
 			</article>
 		</div>
 	</main>
 	<footer class="site-footer">
 		<span>HYPER CHAMBER</span>
-		<p>Independent reference. Street Fighter is a trademark of Capcom.</p>
+		<p>Independent reference. Game names and characters belong to their respective owners.</p>
 		<span>Keep it within reach.</span>
 	</footer>
 </div>
@@ -460,27 +456,23 @@
 		<h2 id="notation-title">Read the notation</h2>
 		<button class="button small" onclick={() => help.close()}>Close ×</button>
 	</div>
-	<p>Directions assume your character faces right. Mirror them when facing left.</p>
+	<p>{game.notation.description}</p>
 	<div class="notation-help">
-		<div
-			class="numpad"
-			aria-label="Direction notation: 7 up back, 8 up, 9 up forward, 4 back, 5 neutral, 6 forward, 1 down back, 2 down, 3 down forward"
-		>
-			{#each ['7 ↖', '8 ↑', '9 ↗', '4 ←', '5 ·', '6 →', '1 ↙', '2 ↓', '3 ↘'] as key}<span
-					>{key}</span
-				>{/each}
-		</div>
+		{#if game.notation.numpad}
+			<div
+				class="numpad"
+				aria-label="Direction notation: 7 up back, 8 up, 9 up forward, 4 back, 5 neutral, 6 forward, 1 down back, 2 down, 3 down forward"
+			>
+				{#each ['7 ↖', '8 ↑', '9 ↗', '4 ←', '5 ·', '6 →', '1 ↙', '2 ↓', '3 ↘'] as key}<span
+						>{key}</span
+					>{/each}
+			</div>
+		{/if}
 		<dl>
-			<dt>LP / MP / HP</dt>
-			<dd>Light / medium / heavy punch</dd>
-			<dt>LK / MK / HK</dt>
-			<dd>Light / medium / heavy kick</dd>
-			<dt>j. / cr. / st. / b.</dt>
-			<dd>Jumping / crouching / standing / back</dd>
-			<dt>DR / DRC / DI / OD / SA / CH</dt>
-			<dd>Drive Rush / cancel Drive Rush / Drive Impact / Overdrive / Super Art / Counter Hit</dd>
-			<dt>xx / > / →</dt>
-			<dd>Cancel / next action</dd>
+			{#each game.notation.legend as item}
+				<dt>{item.term}</dt>
+				<dd>{item.meaning}</dd>
+			{/each}
 		</dl>
 	</div>
 	<p class="muted">

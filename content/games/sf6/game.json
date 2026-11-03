@@ -1,0 +1,46 @@
+{
+	"id": "sf6",
+	"name": "Street Fighter 6",
+	"resourceLabels": {
+		"drive": "Drive",
+		"super": "Super"
+	},
+	"notation": {
+		"description": "Directions assume your character faces right. Mirror them when facing left.",
+		"numpad": true,
+		"legend": [
+			{
+				"term": "LP / MP / HP",
+				"meaning": "Light / medium / heavy punch"
+			},
+			{
+				"term": "LK / MK / HK",
+				"meaning": "Light / medium / heavy kick"
+			},
+			{
+				"term": "j. / cr. / st. / b.",
+				"meaning": "Jumping / crouching / standing / back"
+			},
+			{
+				"term": "DR / DRC / DI / OD / SA / CH",
+				"meaning": "Drive Rush / cancel Drive Rush / Drive Impact / Overdrive / Super Art / Counter Hit"
+			},
+			{
+				"term": "xx / > / →",
+				"meaning": "Cancel / next action"
+			}
+		]
+	},
+	"guides": [
+		{
+			"label": "Guides on SF6 Lab",
+			"url": "https://sf6-lab.net/en/fighters/dhalsim"
+		}
+	],
+	"characters": [
+		{
+			"id": "dhalsim",
+			"name": "Dhalsim"
+		}
+	]
+}

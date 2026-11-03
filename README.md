@@ -1,6 +1,6 @@
 # Hyper Chamber
 
-A visual Street Fighter 6 compendium for quick reference beside the game. Start with Dhalsim: each entry keeps its input notation, conditions, individual replay clip, selected frames, and quick notes together.
+A visual fighting-game compendium for quick reference beside the game. The first library is Street Fighter 6 / Dhalsim: each entry keeps its input notation, conditions, individual replay clip, selected frames, and quick notes together.
 
 Guides and longer lessons link to [SF6 Lab](https://sf6-lab.net/en/fighters/dhalsim). Hyper Chamber focuses on finding and inspecting individual references.
 
@@ -35,7 +35,7 @@ This repository starts private. No open-source license or public media redistrib
 
 - `apps/web`: SvelteKit reader and browser-local personal library.
 - `packages/reference`: shared catalog types, validation, and search.
-- `content/dhalsim`: curated references, separate from personal data.
+- `content/games`: curated references, separate from personal data.
 - `tools/ingest`: repeatable extraction and preparation tools.
 - `docs`: product, source, design, and architecture decisions.
 

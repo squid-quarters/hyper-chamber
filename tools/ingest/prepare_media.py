@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 STATIC = (ROOT / 'apps/web/static').resolve()
-CATALOG = ROOT / 'content/dhalsim/references.json'
+CATALOG = ROOT / 'content/games/sf6/references/dhalsim.json'
 
 
 def media_path(value):
@@ -75,13 +75,14 @@ def prepare(reference, source, offset):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('source', type=Path, help='Full video or an accurately bounded source segment')
+    parser.add_argument('--catalog', type=Path, default=CATALOG, help='Reference JSON file to prepare')
     parser.add_argument('--source-offset', type=float, default=0,
                         help='Original-video time at which this source file begins')
     parser.add_argument('--ids', nargs='+', required=True, help='Reviewed reference IDs to prepare')
     args = parser.parse_args()
     if not args.source.is_file() or not math.isfinite(args.source_offset) or args.source_offset < 0:
         parser.error('Provide a local source file and a finite nonnegative offset')
-    catalog = json.loads(CATALOG.read_text(encoding='utf-8'))
+    catalog = json.loads(args.catalog.read_text(encoding='utf-8'))
     selected = [entry for entry in catalog if entry['id'] in args.ids]
     missing = set(args.ids) - {entry['id'] for entry in selected}
     if missing:

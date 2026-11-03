@@ -1,9 +1,35 @@
 import {describe, expect, it} from 'vitest';
-import {filterReferences, parseCatalog, referenceSchema, sourceLink, type Reference} from './index';
+import {
+	filterReferences,
+	gameDefinitionSchema,
+	parseCatalog,
+	referenceSchema,
+	sourceLink,
+	type GameDefinition,
+	type Reference,
+} from './index';
+
+function game(patch: Partial<GameDefinition> = {}): GameDefinition {
+	return {
+		id: 'sf6',
+		name: 'Street Fighter 6',
+		resourceLabels: {drive: 'Drive', super: 'Super'},
+		notation: {
+			description: 'Directions assume the character faces right.',
+			numpad: true,
+			legend: [{term: 'LP', meaning: 'Light punch'}],
+		},
+		guides: [{label: 'Reference guide', url: 'https://example.test/guide'}],
+		characters: [{id: 'dhalsim', name: 'Dhalsim'}],
+		...patch,
+	};
+}
 
 function reference(patch: Partial<Reference> = {}): Reference {
 	return {
 		id: 'yoga-test',
+		gameId: 'sf6',
+		participants: [{id: 'main', characterId: 'dhalsim'}],
 		revision: 1,
 		title: 'Yoga Test',
 		summary: 'A practice reference for timing.',
@@ -135,12 +161,179 @@ describe('catalog boundaries', () => {
 
 	it('requires an HTTPS source', () => {
 		const valid = reference();
+		for (const url of ['http://www.youtube.com/watch?v=test', '/video', 'not-a-url']) {
+			expect(referenceSchema.safeParse({...valid, source: {...valid.source, url}}).success).toBe(
+				false,
+			);
+		}
+	});
+});
+
+describe('game definitions and participant context', () => {
+	const fictionalGame = game({
+		id: 'test-arena',
+		name: 'Fictional Pair Arena',
+		resourceLabels: {energy: 'Energy', teamwork: 'Teamwork'},
+		notation: {
+			description: 'Fictional test notation.',
+			numpad: false,
+			legend: [{term: 'A', meaning: 'Action button A'}],
+		},
+		guides: [],
+		characters: [
+			{id: 'alpha', name: 'Alpha'},
+			{id: 'beta', name: 'Beta'},
+		],
+	});
+	function teamReference(patch: Partial<Reference> = {}): Reference {
+		return reference({
+			id: 'team-sequence',
+			gameId: 'test-arena',
+			participants: [
+				{id: 'lead', characterId: 'alpha'},
+				{id: 'partner', characterId: 'beta'},
+			],
+			notation: 'A > B',
+			inputs: [
+				{id: 'opening', actorId: 'lead', notation: 'A', label: 'Opening action'},
+				{id: 'handoff', actorId: 'partner', notation: 'B', label: 'Partner follow-up'},
+			],
+			resources: {energy: 'Available', teamwork: 'Available'},
+			...patch,
+		});
+	}
+
+	it('accepts a new game identity, custom notation and resources without a global game enum', () => {
+		expect(gameDefinitionSchema.parse(fictionalGame)).toEqual(fictionalGame);
+		const team = teamReference();
+		expect(parseCatalog([team], [fictionalGame])).toEqual([team]);
+	});
+
+	it.each(['http://example.test/guide', 'javascript:alert(1)', '/guide'])(
+		'rejects a guide URL that is not HTTPS: %s',
+		url => {
+			expect(gameDefinitionSchema.safeParse(game({guides: [{label: 'Guide', url}]})).success).toBe(
+				false,
+			);
+		},
+	);
+
+	it('rejects invalid game, character and resource identifiers', () => {
+		expect(gameDefinitionSchema.safeParse(game({id: '../game'})).success).toBe(false);
 		expect(
-			referenceSchema.safeParse({
-				...valid,
-				source: {...valid.source, url: 'http://www.youtube.com/watch?v=test'},
-			}).success,
+			gameDefinitionSchema.safeParse(game({characters: [{id: 'Invalid Character', name: 'Name'}]}))
+				.success,
 		).toBe(false);
+		for (const key of ['Invalid Resource', '__proto__']) {
+			expect(
+				gameDefinitionSchema.safeParse(game({resourceLabels: Object.fromEntries([[key, 'Label']])}))
+					.success,
+			).toBe(false);
+		}
+	});
+
+	it('rejects duplicate character identities within a game and duplicate game profiles', () => {
+		expect(
+			gameDefinitionSchema.safeParse(
+				game({characters: [game().characters[0], game().characters[0]]}),
+			).success,
+		).toBe(false);
+		expect(() => parseCatalog([reference()], [game(), game()])).toThrow(/Game IDs must be unique/);
+	});
+
+	it('keeps the existing single-participant reference and revision intact', () => {
+		const single = reference();
+		expect(parseCatalog([single], [game()])).toEqual([single]);
+		expect(single.inputs[0].actorId).toBeUndefined();
+		expect(single.id).toBe('yoga-test');
+		expect(single.revision).toBe(1);
+	});
+
+	it('requires game and participant identity and rejects duplicate participant IDs', () => {
+		const {gameId: _gameId, ...missingGame} = reference();
+		expect(referenceSchema.safeParse(missingGame).success).toBe(false);
+		expect(referenceSchema.safeParse(reference({gameId: 'Invalid Game'})).success).toBe(false);
+		expect(referenceSchema.safeParse(reference({participants: []})).success).toBe(false);
+		expect(() =>
+			parseCatalog([
+				teamReference({
+					participants: [
+						{id: 'lead', characterId: 'alpha'},
+						{id: 'lead', characterId: 'beta'},
+					],
+				}),
+			]),
+		).toThrow(/Participant IDs must be unique/);
+	});
+
+	it('requires every step in a multi-participant sequence to identify its actor', () => {
+		const team = teamReference();
+		const {actorId: _actorId, ...unattributed} = team.inputs[1];
+		expect(() => parseCatalog([{...team, inputs: [team.inputs[0], unattributed]}])).toThrow(
+			/actor/i,
+		);
+	});
+
+	it('rejects an actor outside the reference participants even for a single participant', () => {
+		const single = reference();
+		expect(() =>
+			parseCatalog([{...single, inputs: [{...single.inputs[0], actorId: 'unknown'}]}]),
+		).toThrow(/actor/i);
+	});
+
+	it('validates game membership only when profiles are supplied', () => {
+		const unknown = reference({gameId: 'another-game'});
+		expect(parseCatalog([unknown])).toEqual([unknown]);
+		expect(() => parseCatalog([unknown], [game()])).toThrow(/Unknown game/);
+		expect(() => parseCatalog([reference()], [])).toThrow(/Unknown game/);
+	});
+
+	it('validates each participant’s character against its own game', () => {
+		const invalid = reference({participants: [{id: 'main', characterId: 'alpha'}]});
+		expect(() => parseCatalog([invalid], [game(), fictionalGame])).toThrow(/character/i);
+		expect(parseCatalog([invalid])).toEqual([invalid]);
+	});
+
+	it('retains arbitrary resource fields without profiles and rejects unregistered resources with profiles', () => {
+		const custom = reference({resources: {unregistered: 'Available'}});
+		expect(parseCatalog([custom])[0].resources).toEqual({unregistered: 'Available'});
+		expect(() => parseCatalog([custom], [game()])).toThrow(/resource/i);
+		const wrongGameResources = teamReference({resources: {drive: 'Available'}});
+		expect(() => parseCatalog([wrongGameResources], [fictionalGame])).toThrow(/resource/i);
+		const reservedKey = reference({resources: Object.fromEntries([['__proto__', 'Available']])});
+		expect(() => parseCatalog([reservedKey], [game()])).toThrow(/resource/i);
+	});
+
+	it('rejects related references in another game even without registered profiles', () => {
+		const first = reference({relatedIds: ['team-sequence']});
+		expect(() => parseCatalog([first, teamReference()])).toThrow(/same game/i);
+		expect(() => parseCatalog([first, teamReference()], [game(), fictionalGame])).toThrow(
+			/same game/i,
+		);
+	});
+
+	it('keeps reference IDs globally unique across games', () => {
+		expect(() =>
+			parseCatalog([reference(), teamReference({id: 'yoga-test'})], [game(), fictionalGame]),
+		).toThrow(/Reference IDs must be unique/);
+	});
+
+	it('combines a game filter with text, kind, situation and saved filters', () => {
+		const first = reference();
+		const team = teamReference({title: 'Yoga Team Test'});
+		const catalog = [first, team];
+		expect(
+			filterReferences(catalog, {
+				gameId: 'test-arena',
+				query: 'Yoga',
+				kind: 'combo',
+				situation: 'corner',
+				savedIds: new Set([first.id, team.id]),
+			}),
+		).toEqual([team]);
+		expect(filterReferences(catalog, {gameId: 'sf6', savedIds: new Set([team.id])})).toEqual([]);
+		expect(filterReferences(catalog, {gameId: 'unknown'})).toEqual([]);
+		expect(filterReferences(catalog)).toEqual(catalog);
 	});
 });
 
