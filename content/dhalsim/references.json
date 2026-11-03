@@ -1,0 +1,470 @@
+[
+	{
+		"id": "dhalsim-light-blast",
+		"revision": 1,
+		"title": "Lights into medium Blast",
+		"summary": "A short light confirm with a standing-opponent restriction.",
+		"kind": "combo",
+		"situations": ["Light confirm", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > cr.LP > M Yoga Blast",
+		"inputs": [
+			{
+				"id": "standing-light",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "crouching-light",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "medium-blast",
+				"notation": "M Yoga Blast",
+				"label": "Medium Yoga Blast",
+				"cue": "The source marks this route as standing-only."
+			}
+		],
+		"conditions": ["Close range", "Opponent standing"],
+		"notes": [
+			"Check the opponent’s posture before choosing this route.",
+			"The demonstration finishes with medium Yoga Blast; no Drive Rush is used."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["dhalsim-light-drive-blast", "dhalsim-blast-teleport"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 53.32,
+			"end": 55.82
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-light-blast/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-light-blast/frame-1.jpg",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/dhalsim/dhalsim-light-blast/frame-1.jpg",
+					"alt": "Dhalsim’s standing light punch connects at close range.",
+					"label": "Standing light punch",
+					"at": 0.36
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/dhalsim/dhalsim-light-blast/frame-2.jpg",
+					"alt": "Dhalsim follows with crouching light punch against the standing opponent.",
+					"label": "Crouching light punch",
+					"at": 0.7
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/dhalsim/dhalsim-light-blast/frame-3.jpg",
+					"alt": "Medium Yoga Blast connects and launches the opponent.",
+					"label": "Medium Blast",
+					"at": 1.08
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/dhalsim/dhalsim-light-blast/frame-4.jpg",
+					"alt": "The opponent falls after the medium Blast finish.",
+					"label": "Knockdown",
+					"at": 1.6
+				}
+			]
+		}
+	},
+	{
+		"id": "dhalsim-low-sa3",
+		"revision": 1,
+		"title": "Low confirm into Level 3",
+		"summary": "Spend Super meter from a low light starter without Drive Rush.",
+		"kind": "combo",
+		"situations": ["Low confirm", "Midscreen"],
+		"outcomes": ["Super finish", "Damage"],
+		"notation": "cr.LK > cr.LP > SA3",
+		"inputs": [
+			{
+				"id": "low-light",
+				"notation": "cr.LK",
+				"label": "Crouching light kick",
+				"cue": "The low kick is the starter shown here."
+			},
+			{
+				"id": "crouching-light",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "level-three",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": ["Close range", "Level 3 Super available"],
+		"notes": [
+			"This clip demonstrates the Level 3 branch of the source’s low-confirm example.",
+			"The starter is crouching light kick, followed by crouching light punch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 3"
+		},
+		"relatedIds": ["dhalsim-light-blast"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 63.8,
+			"end": 69.73
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-low-sa3/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-low-sa3/frame-1.jpg",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/dhalsim/dhalsim-low-sa3/frame-1.jpg",
+					"alt": "Crouching light kick connects with the opponent’s lower body.",
+					"label": "Low starter",
+					"at": 0.55
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/dhalsim/dhalsim-low-sa3/frame-2.jpg",
+					"alt": "Crouching light punch follows the low starter.",
+					"label": "Light punch follow-up",
+					"at": 0.8
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/dhalsim/dhalsim-low-sa3/frame-3.jpg",
+					"alt": "Dhalsim activates his Level 3 Super Art after the lights.",
+					"label": "Level 3 activation",
+					"at": 1.3
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/dhalsim/dhalsim-low-sa3/frame-4.jpg",
+					"alt": "The Level 3 cinematic reaches its finishing hit.",
+					"label": "Super finish",
+					"at": 5.5
+				}
+			]
+		}
+	},
+	{
+		"id": "dhalsim-light-drive-blast",
+		"revision": 1,
+		"title": "Drive Rush into medium Blast",
+		"summary": "Extend a light confirm through back medium punch into a Blast finish.",
+		"kind": "combo",
+		"situations": ["Light confirm", "Midscreen", "Drive Rush"],
+		"outcomes": ["Knockdown", "Oki"],
+		"notation": "st.LP > cr.LP > DRC > cr.LP > b.MP > M Yoga Blast",
+		"inputs": [
+			{
+				"id": "standing-light",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "first-crouching-light",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "drive-rush",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "rush-light",
+				"notation": "cr.LP",
+				"label": "Crouching light punch after Drive Rush"
+			},
+			{
+				"id": "back-medium",
+				"notation": "b.MP",
+				"label": "Back medium punch"
+			},
+			{
+				"id": "medium-blast",
+				"notation": "M Yoga Blast",
+				"label": "Medium Yoga Blast"
+			}
+		],
+		"conditions": ["Close range", "Drive available for a cancel Drive Rush"],
+		"notes": [
+			"This entry shows the medium Blast ending.",
+			"The source recommends medium Blast for oki and shows a separate heavy Blast damage extension."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["dhalsim-light-blast", "dhalsim-blast-teleport"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 69.73,
+			"end": 72.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-light-drive-blast/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-light-drive-blast/frame-1.jpg",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/dhalsim/dhalsim-light-drive-blast/frame-1.jpg",
+					"alt": "Dhalsim begins with standing light punch into crouching light punch.",
+					"label": "Light starter",
+					"at": 0.36
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/dhalsim/dhalsim-light-drive-blast/frame-2.jpg",
+					"alt": "The green Drive Rush effect appears as Dhalsim extends the light confirm.",
+					"label": "Cancel Drive Rush",
+					"at": 0.88
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/dhalsim/dhalsim-light-drive-blast/frame-3.jpg",
+					"alt": "Back medium punch lifts the opponent after the rushed crouching light punch.",
+					"label": "Back medium punch",
+					"at": 1.85
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/dhalsim/dhalsim-light-drive-blast/frame-4.jpg",
+					"alt": "Medium Yoga Blast catches the opponent in front of Dhalsim.",
+					"label": "Medium Blast",
+					"at": 2.2
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/dhalsim/dhalsim-light-drive-blast/frame-5.jpg",
+					"alt": "The opponent falls after medium Blast.",
+					"label": "Knockdown",
+					"at": 2.7
+				}
+			]
+		}
+	},
+	{
+		"id": "dhalsim-counter-hit-anti-air",
+		"revision": 1,
+		"title": "Counter-hit anti-air into slide",
+		"summary": "Convert an airborne counter hit through Drive Rush and heavy Blast.",
+		"kind": "combo",
+		"situations": ["Anti-air", "Counter hit", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.HP (CH) > DR > b.MP > H Yoga Blast > cr.HK",
+		"inputs": [
+			{
+				"id": "counter-hit-lance",
+				"notation": "b.HP (CH)",
+				"label": "Back heavy punch on counter hit",
+				"cue": "The source marks the starter as counter-hit only."
+			},
+			{
+				"id": "drive-rush",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "back-medium",
+				"notation": "b.MP",
+				"label": "Back medium punch"
+			},
+			{
+				"id": "heavy-blast",
+				"notation": "H Yoga Blast",
+				"label": "Heavy Yoga Blast"
+			},
+			{
+				"id": "heavy-slide",
+				"notation": "cr.HK",
+				"label": "Crouching heavy kick / heavy slide"
+			}
+		],
+		"conditions": [
+			"Opponent airborne",
+			"Back heavy punch scores a counter hit",
+			"Drive available for Drive Rush"
+		],
+		"notes": [
+			"Keep the counter-hit requirement attached to this route.",
+			"The heavy slide follows heavy Yoga Blast; it does not replace the Blast."
+		],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["dhalsim-light-drive-blast"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 283.0,
+			"end": 286.44
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-counter-hit-anti-air/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-counter-hit-anti-air/frame-1.jpg",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/dhalsim/dhalsim-counter-hit-anti-air/frame-1.jpg",
+					"alt": "Back heavy punch reaches the airborne opponent and scores a counter hit.",
+					"label": "Counter-hit anti-air",
+					"at": 0.5
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/dhalsim/dhalsim-counter-hit-anti-air/frame-2.jpg",
+					"alt": "Dhalsim activates Drive Rush beneath the launched opponent.",
+					"label": "Drive Rush",
+					"at": 1.0
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/dhalsim/dhalsim-counter-hit-anti-air/frame-3.jpg",
+					"alt": "Back medium punch catches the opponent after Drive Rush.",
+					"label": "Back medium punch",
+					"at": 1.42
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/dhalsim/dhalsim-counter-hit-anti-air/frame-4.jpg",
+					"alt": "Heavy Yoga Blast connects underneath the airborne opponent.",
+					"label": "Heavy Blast",
+					"at": 1.8
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/dhalsim/dhalsim-counter-hit-anti-air/frame-5.jpg",
+					"alt": "Crouching heavy kick slides into the falling opponent to finish the conversion.",
+					"label": "Heavy slide",
+					"at": 2.55
+				}
+			]
+		}
+	},
+	{
+		"id": "dhalsim-blast-teleport",
+		"revision": 1,
+		"title": "Medium Blast into teleport",
+		"summary": "Move to the other side after a grounded medium Blast knockdown.",
+		"kind": "setup",
+		"situations": ["Midscreen", "After knockdown"],
+		"outcomes": ["Oki", "Side switch"],
+		"notation": "M Yoga Blast > forward Yoga Teleport",
+		"inputs": [
+			{
+				"id": "medium-blast",
+				"notation": "M Yoga Blast",
+				"label": "Medium Yoga Blast",
+				"cue": "Use the grounded knockdown demonstrated here."
+			},
+			{
+				"id": "ground-teleport",
+				"notation": "Forward teleport",
+				"label": "Forward ground Yoga Teleport",
+				"cue": "The ground teleport is shown; the air-teleport variation is separate."
+			}
+		],
+		"conditions": ["Grounded medium Yoga Blast connects", "Midscreen spacing as demonstrated"],
+		"notes": [
+			"Teleport after the Blast finish to arrive on the other side.",
+			"The reference ends at the arrival position; choose your next action separately."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["dhalsim-light-blast", "dhalsim-light-drive-blast"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 458.35,
+			"end": 460.08
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-blast-teleport/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-blast-teleport/frame-1.jpg",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/dhalsim/dhalsim-blast-teleport/frame-1.jpg",
+					"alt": "Medium Yoga Blast connects with the grounded opponent.",
+					"label": "Medium Blast",
+					"at": 0.3
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/dhalsim/dhalsim-blast-teleport/frame-2.jpg",
+					"alt": "Dhalsim disappears while the opponent is knocked down.",
+					"label": "Teleport",
+					"at": 0.8
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/dhalsim/dhalsim-blast-teleport/frame-3.jpg",
+					"alt": "Dhalsim reappears on the opposite side of the opponent.",
+					"label": "Change sides",
+					"at": 1.2
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/dhalsim/dhalsim-blast-teleport/frame-4.jpg",
+					"alt": "Dhalsim stands beside the recovering opponent after the ground teleport.",
+					"label": "Arrival position",
+					"at": 1.5
+				}
+			]
+		}
+	}
+]
