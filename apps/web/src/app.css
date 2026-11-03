@@ -518,50 +518,6 @@ select {
 	text-underline-offset: 3px;
 	min-height: 26px;
 }
-.notation-line {
-	font-family: ui-monospace, monospace;
-	font-size: clamp(16px, 1.8vw, 24px);
-	font-weight: 600;
-	color: var(--lime);
-	line-height: 1.5;
-	overflow-wrap: anywhere;
-}
-.input-steps {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 16px 22px;
-	margin: 16px 0 0;
-	border-top: 1px solid #47503f;
-	padding-top: 13px;
-}
-.input-steps li {
-	display: flex;
-	gap: 8px;
-	flex: 1 1 100px;
-}
-.step-index {
-	color: #849077;
-	font-family: monospace;
-	font-size: 10px;
-	line-height: 1.7;
-}
-.input-steps li > div {
-	display: grid;
-	gap: 3px;
-}
-.input-steps code {
-	font-size: 12px;
-}
-.input-steps li span:not(.step-index) {
-	font-size: 10px;
-	line-height: 1.4;
-	color: #c6cfbb;
-}
-.input-steps small {
-	font-size: 10px;
-	color: #c6cfbb;
-	line-height: 1.4;
-}
 .condition-row {
 	display: flex;
 	gap: 17px;
@@ -1024,9 +980,6 @@ dialog > p {
 	.detail-heading h2 {
 		font-size: 36px;
 	}
-	.input-steps {
-		gap: 12px;
-	}
 	.filmstrip {
 		gap: 8px;
 	}
@@ -1145,12 +1098,6 @@ dialog > p {
 	.notation-panel {
 		padding: 15px;
 	}
-	.notation-line {
-		font-size: 18px;
-	}
-	.input-steps li {
-		flex-basis: 90px;
-	}
 	.condition-row {
 		display: block;
 		margin: 16px 0 20px;
@@ -1257,26 +1204,6 @@ dialog > p {
 	position: static;
 	padding: 15px;
 }
-.notation-line {
-	font-size: 17px;
-	line-height: 1.7;
-}
-.input-steps {
-	display: grid;
-	gap: 12px;
-}
-.input-steps li {
-	flex: none;
-}
-.input-steps code {
-	font-size: 13px;
-}
-.input-steps li span:not(.step-index) {
-	font-size: 11px;
-}
-.input-steps small {
-	font-size: 10px;
-}
 .condition-row {
 	display: block;
 	margin: 14px 0 0;
@@ -1341,18 +1268,8 @@ dialog > p {
 	.practice-inputs {
 		position: static;
 	}
-	.input-steps {
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.input-steps li {
-		flex: 1 1 110px;
-	}
 	.condition-row {
 		margin-bottom: 0;
-	}
-	.notation-line {
-		font-size: 19px;
 	}
 	.media-block video {
 		max-height: 340px;
@@ -1377,17 +1294,6 @@ dialog > p {
 	.practice-inputs {
 		position: static;
 	}
-	.input-steps {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 12px;
-	}
-	.input-steps li {
-		flex: 1 1 100px;
-	}
-	.notation-line {
-		font-size: 18px;
-	}
 	.detail-heading h2 {
 		font-size: 34px;
 	}
@@ -1396,9 +1302,6 @@ dialog > p {
 	}
 	.focus-mode .masthead {
 		min-height: 65px;
-	}
-	.focus-mode .input-steps {
-		display: none;
 	}
 	.focus-mode .detail-heading p,
 	.focus-mode .tags {

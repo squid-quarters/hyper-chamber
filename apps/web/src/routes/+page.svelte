@@ -21,6 +21,7 @@
 		type LibraryPatches,
 	} from '#lib/personal';
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
+	import InputSequence from '#lib/components/InputSequence.svelte';
 	let query = $state('');
 	let kind = $state('all');
 	let situation = $state('all');
@@ -339,17 +340,7 @@
 									<h3>Input sequence</h3>
 									<button onclick={() => help.showModal()}>Notation key ↗</button>
 								</div>
-								<p class="notation-line">{selected.notation}</p>
-								<ol class="input-steps">
-									{#each selected.inputs as input, i}<li>
-											<span class="step-index">{String(i + 1).padStart(2, '0')}</span>
-											<div>
-												<code>{input.notation}</code><span>{input.label}</span>{#if input.cue}<small
-														>{input.cue}</small
-													>{/if}
-											</div>
-										</li>{/each}
-								</ol>
+								<InputSequence reference={selected} {game} />
 							</section>
 							<div class="condition-row">
 								<span class="eyebrow">SET THE SCENE</span>
