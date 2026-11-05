@@ -121,6 +121,52 @@ describe('catalog boundaries', () => {
 		}
 	});
 
+	it('rejects repeated frame IDs that would collide in frame selection and descriptions', () => {
+		const valid = reference();
+		const first = valid.media.frames[0];
+		expect(() =>
+			parseCatalog([{...valid, media: {...valid.media, frames: [first, {...first, at: 1}]}}]),
+		).toThrow(/Frame IDs must be unique/);
+	});
+
+	it.each([
+		[0, 0],
+		[1, 0],
+	])(
+		'rejects frame times %s then %s that cannot form ordered description intervals',
+		(first, second) => {
+			const valid = reference();
+			const frame = valid.media.frames[0];
+			expect(() =>
+				parseCatalog([
+					{
+						...valid,
+						media: {
+							...valid.media,
+							frames: [
+								{...frame, at: first},
+								{...frame, id: 'second-frame', at: second},
+							],
+						},
+					},
+				]),
+			).toThrow(/Frame times must increase/);
+		},
+	);
+
+	it('preserves an ordered strip from the opening frame through the final available moment', () => {
+		const valid = reference();
+		const frame = valid.media.frames[0];
+		const frames = [
+			{...frame, at: 0},
+			{...frame, id: 'middle-frame', at: 0.1},
+			{...frame, id: 'last-frame', at: 9.99},
+		];
+		expect(parseCatalog([{...valid, media: {...valid.media, frames}}])[0].media.frames).toEqual(
+			frames,
+		);
+	});
+
 	it('allows the opening frame and the last available moment of a later source segment', () => {
 		const valid = reference();
 		for (const at of [0, 9.99]) {

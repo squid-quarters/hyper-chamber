@@ -1,6 +1,6 @@
 # Hyper Chamber
 
-A visual fighting-game compendium for quick reference beside the game. The first library is Street Fighter 6 / Dhalsim: each entry keeps its input notation, conditions, individual replay clip, selected frames, and quick notes together.
+A visual fighting-game compendium for quick reference beside the game. The local MVP contains 13 Street Fighter 6 / Dhalsim references: each keeps its input notation, conditions, individual replay clip, selected frames, and quick notes together. The library covers light confirms, punish routes, an anti-air conversion, Drive Impact, corner extensions and oki setups.
 
 Guides and longer lessons link to [SF6 Lab](https://sf6-lab.net/en/fighters/dhalsim). Hyper Chamber focuses on finding and inspecting individual references.
 
@@ -15,6 +15,17 @@ pnpm dev --host 127.0.0.1 --port 5376
 
 Open http://127.0.0.1:5376. Bundled fonts and prepared clips do not require a cloud account. Source and guide links require internet access. This version has no service worker or installable offline mode.
 
+For the production build:
+
+```sh
+pnpm build
+pnpm start
+```
+
+The local MVP uses the Chamber palette and Hourglass H identity. Browse the Dhalsim library, filter by situation or your practice status, and use **Focus view** to keep a reference beside the game. **Copy inputs** copies the authored sequence; if clipboard access is blocked, the selectable text notation opens instead.
+
+Replay, full-clip looping, speed controls and key moments work with each dedicated clip. The **−0.25s / +0.25s** controls pause and nudge the video for closer inspection. With a clip control focused, **R** replays and **J / L** nudge backward / forward. These shortcuts do not run while you type notes or while another application has focus. A failed clip offers a retry and a link to its original source.
+
 ```sh
 pnpm verify
 ```
@@ -24,6 +35,8 @@ This runs formatting, lint, type checks, unit tests, the static build, and catal
 ## Your library
 
 Saved references, practice status, and notes stay in this browser. Export/import a JSON backup from **Your library** to move them between browsers or keep a copy. Clearing site storage removes local data. Storage failures are shown in the interface; export a backup before closing if changes cannot be saved.
+
+Practice status is self-reported. Filtering it keeps the selected entry open, including when that entry no longer matches. Sequential edits from another tab are rebased on current saved data; the browser store does not provide an atomic simultaneous-edit guarantee. Unknown reference IDs in backups are retained so future or temporarily unavailable references do not lose their notes.
 
 ## Content and provenance
 

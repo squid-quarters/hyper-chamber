@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
 	import { goto } from '$app/navigation';
 	import { game, subjectName, references } from '#lib/catalog';
 	import {
@@ -20,12 +20,14 @@
 		STORAGE_KEY,
 		type LibraryPatches,
 	} from '#lib/personal';
+	import BrandMark from '#lib/components/BrandMark.svelte';
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	import InputSequence from '#lib/components/InputSequence.svelte';
 	let query = $state('');
 	let kind = $state('all');
 	let situation = $state('all');
 	let savedOnly = $state(false);
+	let practice = $state('all');
 	let selectedId = $state(references[0]?.id ?? '');
 	let focused = $state(false);
 	let library = $state<PersonalLibrary>({});
@@ -42,7 +44,7 @@
 	let savedIds = $derived(
 		new Set(
 			Object.entries(library)
-				.filter(([, entry]) => entry.saved)
+				.filter(([id, entry]) => entry.saved && references.some((ref) => ref.id === id))
 				.map(([id]) => id),
 		),
 	);
@@ -52,7 +54,7 @@
 			kind,
 			situation,
 			savedIds: savedOnly ? savedIds : undefined,
-		}),
+		}).filter((ref) => practice === 'all' || (library[ref.id]?.status ?? 'untried') === practice),
 	);
 	function readUrl() {
 		const p = new URLSearchParams(location.search);
@@ -60,6 +62,9 @@
 		kind = ['combo', 'setup', 'response'].includes(p.get('kind') ?? '') ? p.get('kind')! : 'all';
 		situation = situations.includes(p.get('situation') ?? '') ? p.get('situation')! : 'all';
 		savedOnly = p.get('saved') === '1';
+		practice = ['untried', 'practising', 'reliable'].includes(p.get('practice') ?? '')
+			? p.get('practice')!
+			: 'all';
 		const id = p.get('entry');
 		selectedId = id && references.some((r) => r.id === id) ? id : (references[0]?.id ?? '');
 		if (id && !references.some((r) => r.id === id))
@@ -68,10 +73,12 @@
 	function updateUrl(push = false) {
 		if (!ready) return;
 		const u = new URL(location.href);
-		for (const key of ['q', 'kind', 'situation', 'saved', 'entry']) u.searchParams.delete(key);
+		for (const key of ['q', 'kind', 'situation', 'saved', 'entry', 'practice'])
+			u.searchParams.delete(key);
 		if (query) u.searchParams.set('q', query);
 		if (kind !== 'all') u.searchParams.set('kind', kind);
 		if (situation !== 'all') u.searchParams.set('situation', situation);
+		if (practice !== 'all') u.searchParams.set('practice', practice);
 		if (savedOnly) u.searchParams.set('saved', '1');
 		if (selectedId) u.searchParams.set('entry', selectedId);
 		const navigation = goto(u, { shallow: true, replace: !push });
@@ -79,15 +86,26 @@
 			message = 'The reference is open, but its URL could not be updated.';
 		});
 	}
-	function selectEntry(ref: Reference) {
+	async function selectEntry(ref: Reference) {
 		selectedId = ref.id;
 		updateUrl(true);
+		await tick();
+		const heading = document.getElementById('reference');
+		if (!heading) return;
+		const bounds = heading.getBoundingClientRect();
+		const mobile = window.matchMedia('(max-width: 760px)').matches;
+		// Keep the selected reference in reach after browsing farther down the list.
+		if (mobile || bounds.top < 0 || bounds.bottom > window.innerHeight) {
+			heading.focus({ preventScroll: true });
+			heading.scrollIntoView({ block: 'start' });
+		}
 	}
 	function reset() {
 		query = '';
 		kind = 'all';
 		situation = 'all';
 		savedOnly = false;
+		practice = 'all';
 		updateUrl();
 	}
 	function updatePersonal(patch: Partial<PersonalEntry>) {
@@ -164,7 +182,8 @@
 </script>
 
 <svelte:head
-	><title>Hyper Chamber — {subjectName} reference</title><meta
+	><link rel="icon" href="/favicon.svg" /><title>Hyper Chamber — {subjectName} reference</title
+	><meta
 		name="description"
 		content={`A compact ${subjectName} reference for ${game.name}. Replay source clips, inspect key moments and keep your own practice notes.`}
 	/></svelte:head
@@ -173,9 +192,7 @@
 <div class="app-shell" class:focus-mode={focused}>
 	<header class="masthead">
 		<a class="brand" href="/" aria-label="Hyper Chamber home"
-			><span class="brand-symbol" aria-hidden="true">H<span>↗</span></span><span
-				>HYPER<br />CHAMBER</span
-			></a
+			><BrandMark /><span>HYPER<br />CHAMBER</span></a
 		>
 		<div class="masthead-description">
 			A fighting game reference.<br /><span>Less searching. More playing.</span>
@@ -197,12 +214,14 @@
 				<h1>{subjectName.toUpperCase()}<span class="title-dot">.</span></h1>
 			</div>
 			<p>A reference within reach.<br /><span>Combos, setups and the moments between.</span></p>
-			<span class="character-seal" aria-hidden="true">HC</span>
+			<span class="character-seal" aria-hidden="true"><BrandMark /></span>
 		</section>
 		{#if storageError}<p class="global-notice" role="alert">
-				{storageError} Your changes are available in this session; export a backup to keep them.
+				{storageError} Your changes remain available in this session.
+				<button class="text-button" onclick={persistPending}>Retry saving</button>
+				<button class="text-button" onclick={exportData}>Export session backup</button>
 			</p>{/if}
-		<p class="sr-only" role="status">{message}</p>
+		{#if message}<p class="message-bar" role="status">{message}</p>{/if}
 		<div class="workspace">
 			<aside class="browser" aria-label="Reference browser">
 				<div class="browser-heading">
@@ -262,10 +281,19 @@
 						></label
 					>
 				</div>
+				<label class="practice-filter"
+					>Practice status <span>(self-reported)</span>
+					<select bind:value={practice} onchange={() => updateUrl()}>
+						<option value="all">All practice statuses</option><option value="untried"
+							>Untried</option
+						><option value="practising">Practising</option><option value="reliable">Reliable</option
+						>
+					</select></label
+				>
 				<div class="results-meta">
 					<span>{results.length} {results.length === 1 ? 'reference' : 'references'}</span
-					>{#if query || kind !== 'all' || situation !== 'all' || savedOnly}<button onclick={reset}
-							>Reset filters</button
+					>{#if query || kind !== 'all' || situation !== 'all' || savedOnly || practice !== 'all'}<button
+							onclick={reset}>Reset filters</button
 						>{/if}
 				</div>
 				<ul class="reference-list">
@@ -277,7 +305,11 @@
 								onclick={() => selectEntry(ref)}
 								><div class="card-top">
 									<span class="kind-label">{ref.kind}</span><span
-										>{library[ref.id]?.saved ? '★' : '↗'}</span
+										>{selectedId === ref.id
+											? 'Selected'
+											: library[ref.id]?.saved
+												? '★ Saved'
+												: '↗'}</span
 									>
 								</div>
 								<h3>{ref.title}</h3>
@@ -289,16 +321,20 @@
 						</li>{/each}
 				</ul>
 				{#if results.length === 0}<div class="empty">
-						<h3>{savedOnly ? 'Nothing saved here yet.' : 'No matching references.'}</h3>
+						<h3>
+							{savedOnly && savedIds.size === 0
+								? 'Nothing saved here yet.'
+								: 'No matching references.'}
+						</h3>
 						<p>
-							{savedOnly
+							{savedOnly && savedIds.size === 0
 								? 'Save a reference with the star to keep it close.'
 								: 'Try a shorter input or another situation.'}
 						</p>
 						<button class="button" onclick={reset}>Show all references</button>
 					</div>{/if}
 				<div class="browser-foot">
-					<span class="tiny-mark" aria-hidden="true">HC</span>
+					<span class="tiny-mark" aria-hidden="true"><BrandMark /></span>
 					<p>Built for the space<br />beside your game.</p>
 				</div>
 			</aside>
@@ -340,7 +376,7 @@
 									<h3>Input sequence</h3>
 									<button onclick={() => help.showModal()}>Notation key ↗</button>
 								</div>
-								<InputSequence reference={selected} {game} />
+								{#key selected.id}<InputSequence reference={selected} {game} />{/key}
 							</section>
 							<div class="condition-row">
 								<span class="eyebrow">SET THE SCENE</span>
@@ -373,7 +409,7 @@
 									This reference has been updated since your saved notes. Recheck the source; your
 									practice status is unchanged.
 								</p>{/if}<label class="status-label"
-								>Practice status<select
+								>Practice status (self-reported)<select
 									value={personal.status}
 									onchange={(e) =>
 										updatePersonal({ status: e.currentTarget.value as PracticeStatus })}
@@ -410,15 +446,16 @@
 								)}
 							</p>
 						</div>
-						<details>
-							<summary
+						<div class="source-review">
+							<strong
 								>{selected.verification.status === 'source-reviewed'
 									? 'Source reviewed'
-									: 'Review pending'}</summary
+									: 'Review pending'}</strong
 							>
 							<p>{selected.verification.note}</p>
 							<p>Game version: {selected.verification.gameVersion ?? 'not established'}.</p>
-						</details>
+							<p>Current-patch validity is not established.</p>
+						</div>
 					</footer>
 					{#if selected.relatedIds.length}<section class="related">
 							<h3>Also in the chamber</h3>

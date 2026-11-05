@@ -506,5 +506,789 @@
 				"characterId": "dhalsim"
 			}
 		]
+	},
+	{
+		"id": "dhalsim-punish-heavy-blast",
+		"revision": 1,
+		"title": "Heavy-kick punish into heavy Blast",
+		"summary": "Convert a standing heavy-kick punish counter into a short meterless finish.",
+		"kind": "combo",
+		"situations": ["Punish Counter", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK (Punish Counter) > cr.HP > H Yoga Blast",
+		"inputs": [
+			{
+				"id": "heavy-kick",
+				"notation": "st.HK (Punish Counter)",
+				"label": "Standing heavy kick on punish counter",
+				"cue": "The demonstrated opener punishes a missed reversal."
+			},
+			{
+				"id": "crouching-heavy",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "heavy-blast",
+				"notation": "H Yoga Blast",
+				"label": "Heavy Yoga Blast"
+			}
+		],
+		"conditions": [
+			"Standing heavy kick scores a punish counter",
+			"Range allows the crouching heavy follow-up"
+		],
+		"notes": [
+			"The source also lists medium Blast and medium Flame alternatives; this excerpt keeps the first heavy-Blast demonstration.",
+			"Check recovery and spacing before committing to the heavy-kick starter."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["dhalsim-punish-rush-flame"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 214.3,
+			"end": 217.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-punish-heavy-blast/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-punish-heavy-blast/frame-1.jpg",
+			"frames": [
+				{
+					"id": "punish",
+					"src": "/media/dhalsim/dhalsim-punish-heavy-blast/frame-1.jpg",
+					"alt": "Dhalsim’s standing heavy kick hits Ryu during recovery from a missed reversal.",
+					"label": "Punish counter",
+					"at": 0.6
+				},
+				{
+					"id": "follow-up",
+					"src": "/media/dhalsim/dhalsim-punish-heavy-blast/frame-2.jpg",
+					"alt": "Dhalsim crouches into the heavy-punch follow-up while Ryu reels from the punish counter.",
+					"label": "Crouching heavy punch",
+					"at": 1.3
+				},
+				{
+					"id": "blast",
+					"src": "/media/dhalsim/dhalsim-punish-heavy-blast/frame-3.jpg",
+					"alt": "Heavy Yoga Blast launches Ryu after the crouching heavy punch.",
+					"label": "Heavy Blast",
+					"at": 2.1
+				},
+				{
+					"id": "knockdown",
+					"src": "/media/dhalsim/dhalsim-punish-heavy-blast/frame-4.jpg",
+					"alt": "Ryu falls to the floor after the heavy-Blast finish.",
+					"label": "Knockdown",
+					"at": 2.65
+				}
+			],
+			"descriptionTrack": "/media/dhalsim/dhalsim-punish-heavy-blast/clip.vtt"
+		},
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "dhalsim"
+			}
+		]
+	},
+	{
+		"id": "dhalsim-punish-rush-flame",
+		"revision": 1,
+		"title": "Heavy-kick punish into Drive Rush Flame",
+		"summary": "Spend raw Drive Rush after a heavy-kick punish counter to reach a heavy-Flame ender.",
+		"kind": "combo",
+		"situations": ["Punish Counter", "Midscreen", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK (Punish Counter) > DR > cr.HP > H Yoga Flame",
+		"inputs": [
+			{
+				"id": "heavy-kick",
+				"notation": "st.HK (Punish Counter)",
+				"label": "Standing heavy kick on punish counter"
+			},
+			{
+				"id": "drive-rush",
+				"notation": "DR",
+				"label": "Raw Drive Rush",
+				"cue": "The source specifies raw Drive Rush after the punish-counter hit."
+			},
+			{
+				"id": "crouching-heavy",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "heavy-flame",
+				"notation": "H Yoga Flame",
+				"label": "Heavy Yoga Flame"
+			}
+		],
+		"conditions": [
+			"Standing heavy kick scores a punish counter",
+			"Drive available for raw Drive Rush"
+		],
+		"notes": [
+			"Keep the dash conversion separate from a cancel Drive Rush in your input practice.",
+			"The clip demonstrates the heavy-Flame branch shown in the overlay."
+		],
+		"resources": {
+			"drive": "Uses raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["dhalsim-punish-heavy-blast", "dhalsim-light-drive-blast"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 219.75,
+			"end": 223.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-punish-rush-flame/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-punish-rush-flame/frame-1.jpg",
+			"frames": [
+				{
+					"id": "punish",
+					"src": "/media/dhalsim/dhalsim-punish-rush-flame/frame-1.jpg",
+					"alt": "Standing heavy kick catches Ryu recovering from the missed reversal.",
+					"label": "Heavy-kick punish",
+					"at": 0.45
+				},
+				{
+					"id": "rush",
+					"src": "/media/dhalsim/dhalsim-punish-rush-flame/frame-2.jpg",
+					"alt": "Dhalsim advances with the green Drive Rush effect after the heavy-kick hit.",
+					"label": "Drive Rush",
+					"at": 1.5
+				},
+				{
+					"id": "follow-up",
+					"src": "/media/dhalsim/dhalsim-punish-rush-flame/frame-3.jpg",
+					"alt": "Dhalsim lands the crouching heavy-punch follow-up out of Drive Rush.",
+					"label": "Crouching heavy punch",
+					"at": 1.9
+				},
+				{
+					"id": "flame",
+					"src": "/media/dhalsim/dhalsim-punish-rush-flame/frame-4.jpg",
+					"alt": "Heavy Yoga Flame catches Ryu at close range and sends him into knockdown.",
+					"label": "Heavy Flame",
+					"at": 2.65
+				}
+			],
+			"descriptionTrack": "/media/dhalsim/dhalsim-punish-rush-flame/clip.vtt"
+		},
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "dhalsim"
+			}
+		]
+	},
+	{
+		"id": "dhalsim-drive-impact-blast",
+		"revision": 1,
+		"title": "Drive Impact into heavy Blast",
+		"summary": "A short crumple conversion from Drive Impact through back heavy punch.",
+		"kind": "combo",
+		"situations": ["Drive Impact", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > b.HP > H Yoga Blast",
+		"inputs": [
+			{
+				"id": "drive-impact",
+				"notation": "DI",
+				"label": "Drive Impact",
+				"cue": "Begin from the punish-counter crumple demonstrated in the source."
+			},
+			{
+				"id": "back-heavy",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "heavy-blast",
+				"notation": "H Yoga Blast",
+				"label": "Heavy Yoga Blast"
+			}
+		],
+		"conditions": ["Drive Impact produces a crumple", "Close enough for back heavy punch"],
+		"notes": [
+			"The overlay also lists medium Blast; this card records the heavy-Blast version shown first.",
+			"Wait for the crumple conversion rather than adding a dash to this short route."
+		],
+		"resources": {
+			"drive": "Uses Drive Impact",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["dhalsim-drive-impact-side-switch"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 314.85,
+			"end": 318.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-drive-impact-blast/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-drive-impact-blast/frame-1.jpg",
+			"frames": [
+				{
+					"id": "impact",
+					"src": "/media/dhalsim/dhalsim-drive-impact-blast/frame-1.jpg",
+					"alt": "Drive Impact connects with a punish-counter splash and leaves Ryu crumpling.",
+					"label": "Drive Impact crumple",
+					"at": 0.6
+				},
+				{
+					"id": "back-heavy",
+					"src": "/media/dhalsim/dhalsim-drive-impact-blast/frame-2.jpg",
+					"alt": "Dhalsim follows the crumple with back heavy punch.",
+					"label": "Back heavy punch",
+					"at": 2.0
+				},
+				{
+					"id": "blast",
+					"src": "/media/dhalsim/dhalsim-drive-impact-blast/frame-3.jpg",
+					"alt": "Heavy Yoga Blast launches Ryu after back heavy punch.",
+					"label": "Heavy Blast",
+					"at": 2.6
+				},
+				{
+					"id": "knockdown",
+					"src": "/media/dhalsim/dhalsim-drive-impact-blast/frame-4.jpg",
+					"alt": "Ryu lands on the floor as Dhalsim recovers from heavy Blast.",
+					"label": "Knockdown",
+					"at": 3.3
+				}
+			],
+			"descriptionTrack": "/media/dhalsim/dhalsim-drive-impact-blast/clip.vtt"
+		},
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "dhalsim"
+			}
+		]
+	},
+	{
+		"id": "dhalsim-drive-impact-side-switch",
+		"revision": 1,
+		"title": "Drive Impact teleport side switch",
+		"summary": "Cross over the crumpling opponent, finish the juggle with heavy kick and place light Fire for the rise.",
+		"kind": "combo",
+		"situations": ["Drive Impact", "Midscreen", "Side switch"],
+		"outcomes": ["Side switch", "Knockdown", "Pressure"],
+		"notation": "DI > IAT > j.LK > st.HK > L Yoga Fire",
+		"inputs": [
+			{
+				"id": "drive-impact",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "air-teleport",
+				"notation": "IAT",
+				"label": "Instant air teleport",
+				"cue": "Teleport across the crumpling opponent."
+			},
+			{
+				"id": "jumping-light",
+				"notation": "j.LK",
+				"label": "Jumping light kick"
+			},
+			{
+				"id": "standing-heavy",
+				"notation": "st.HK",
+				"label": "Standing heavy kick",
+				"cue": "Directions are mirrored after the side change."
+			},
+			{
+				"id": "light-fire",
+				"notation": "L Yoga Fire",
+				"label": "Light Yoga Fire",
+				"cue": "The fireball follows the heavy-kick knockdown; the source shows it being blocked on wake-up."
+			}
+		],
+		"conditions": ["Drive Impact produces a crumple", "Space to teleport behind the opponent"],
+		"notes": [
+			"The side change happens before the jumping light kick connects.",
+			"Keep the teleport and air light kick as separate execution steps.",
+			"Light Fire follows the juggle as wake-up pressure; it does not add another combo hit in this demonstration."
+		],
+		"resources": {
+			"drive": "Uses Drive Impact",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["dhalsim-drive-impact-blast", "dhalsim-blast-teleport"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 325.05,
+			"end": 329.24
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-drive-impact-side-switch/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-drive-impact-side-switch/frame-1.jpg",
+			"frames": [
+				{
+					"id": "impact",
+					"src": "/media/dhalsim/dhalsim-drive-impact-side-switch/frame-1.jpg",
+					"alt": "Drive Impact connects while Dhalsim is on the left of Ryu.",
+					"label": "Drive Impact",
+					"at": 0.4
+				},
+				{
+					"id": "teleport",
+					"src": "/media/dhalsim/dhalsim-drive-impact-side-switch/frame-2.jpg",
+					"alt": "Dhalsim appears in the air on Ryu’s right after the teleport.",
+					"label": "Cross over",
+					"at": 2.25
+				},
+				{
+					"id": "air-light",
+					"src": "/media/dhalsim/dhalsim-drive-impact-side-switch/frame-3.jpg",
+					"alt": "The jumping light kick connects from the new side as Dhalsim descends.",
+					"label": "Jumping light kick",
+					"at": 2.58
+				},
+				{
+					"id": "heavy-kick",
+					"src": "/media/dhalsim/dhalsim-drive-impact-side-switch/frame-4.jpg",
+					"alt": "Standing heavy kick launches Ryu toward the left side of the screen.",
+					"label": "Standing heavy kick",
+					"at": 2.9
+				},
+				{
+					"id": "light-fire",
+					"src": "/media/dhalsim/dhalsim-drive-impact-side-switch/frame-5.jpg",
+					"alt": "Dhalsim releases light Yoga Fire toward the airborne opponent.",
+					"label": "Light Yoga Fire",
+					"at": 3.5
+				},
+				{
+					"id": "finish",
+					"src": "/media/dhalsim/dhalsim-drive-impact-side-switch/frame-6.jpg",
+					"alt": "Ryu rises on the left with the light fireball beside him; Dhalsim has completed the side switch to the right.",
+					"label": "Side-switch pressure",
+					"at": 4.0
+				}
+			],
+			"descriptionTrack": "/media/dhalsim/dhalsim-drive-impact-side-switch/clip.vtt"
+		},
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "dhalsim"
+			}
+		]
+	},
+	{
+		"id": "dhalsim-corner-double-blast",
+		"revision": 1,
+		"title": "Corner heavy Blast into light Blast",
+		"summary": "Extend a corner heavy-Blast juggle with light Blast.",
+		"kind": "combo",
+		"situations": ["Corner", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "H Yoga Blast > L Yoga Blast",
+		"inputs": [
+			{
+				"id": "heavy-blast",
+				"notation": "H Yoga Blast",
+				"label": "Heavy Yoga Blast",
+				"cue": "This excerpt begins at the ender of the preceding corner combo."
+			},
+			{
+				"id": "light-blast",
+				"notation": "L Yoga Blast",
+				"label": "Light Yoga Blast",
+				"cue": "Catch the airborne opponent before the corner knockdown."
+			}
+		],
+		"conditions": ["Opponent juggled by heavy Yoga Blast in the corner"],
+		"notes": [
+			"Use this card as an ender extension; the earlier starter is outside the excerpt.",
+			"The source presents light Blast as the corner follow-up to heavy Blast."
+		],
+		"resources": {
+			"drive": "No Drive spend in this extension",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["dhalsim-corner-blast-flame"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 344.55,
+			"end": 346.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-corner-double-blast/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-corner-double-blast/frame-1.jpg",
+			"frames": [
+				{
+					"id": "heavy-blast",
+					"src": "/media/dhalsim/dhalsim-corner-double-blast/frame-1.jpg",
+					"alt": "Heavy Yoga Blast launches the cornered Ryu.",
+					"label": "Heavy Blast launch",
+					"at": 0.25
+				},
+				{
+					"id": "light-blast",
+					"src": "/media/dhalsim/dhalsim-corner-double-blast/frame-2.jpg",
+					"alt": "Light Yoga Blast catches Ryu while he is still airborne by the corner.",
+					"label": "Light Blast follow-up",
+					"at": 0.8
+				},
+				{
+					"id": "knockdown",
+					"src": "/media/dhalsim/dhalsim-corner-double-blast/frame-3.jpg",
+					"alt": "Ryu falls beside the corner after the second Blast.",
+					"label": "Corner knockdown",
+					"at": 1.45
+				}
+			],
+			"descriptionTrack": "/media/dhalsim/dhalsim-corner-double-blast/clip.vtt"
+		},
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "dhalsim"
+			}
+		]
+	},
+	{
+		"id": "dhalsim-corner-blast-flame",
+		"revision": 1,
+		"title": "Corner Blast into meaty Flame",
+		"summary": "Follow a corner Blast juggle with down-back heavy kick, then time heavy Flame for wake-up.",
+		"kind": "setup",
+		"situations": ["Corner", "After knockdown", "Oki"],
+		"outcomes": ["Pressure"],
+		"notation": "M Yoga Blast > db.HK > H Yoga Flame",
+		"inputs": [
+			{
+				"id": "medium-blast",
+				"notation": "M Yoga Blast",
+				"label": "Medium Yoga Blast"
+			},
+			{
+				"id": "down-back-heavy",
+				"notation": "db.HK",
+				"label": "Down-back heavy kick",
+				"cue": "Connect the kick after the corner Blast, then time Flame for wake-up."
+			},
+			{
+				"id": "heavy-flame",
+				"notation": "H Yoga Flame",
+				"label": "Heavy Yoga Flame",
+				"cue": "The source demonstrates this being blocked on wake-up."
+			}
+		],
+		"conditions": ["Corner juggle from medium Yoga Blast as demonstrated"],
+		"notes": [
+			"The kick connects as the third combo hit in this footage; Flame follows as separate wake-up pressure.",
+			"The source shows heavy Flame meeting wake-up guard. Check the timing and reversal coverage in your current game version."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["dhalsim-corner-double-blast", "dhalsim-corner-throw-fire"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 596.75,
+			"end": 599.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-corner-blast-flame/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-corner-blast-flame/frame-1.jpg",
+			"frames": [
+				{
+					"id": "blast",
+					"src": "/media/dhalsim/dhalsim-corner-blast-flame/frame-1.jpg",
+					"alt": "Medium Yoga Blast launches Ryu in the corner.",
+					"label": "Medium Blast",
+					"at": 0.3
+				},
+				{
+					"id": "juggle-kick",
+					"src": "/media/dhalsim/dhalsim-corner-blast-flame/frame-2.jpg",
+					"alt": "Dhalsim’s down-back heavy kick connects with the airborne opponent after medium Yoga Blast.",
+					"label": "Juggle kick",
+					"at": 0.8
+				},
+				{
+					"id": "flame",
+					"src": "/media/dhalsim/dhalsim-corner-blast-flame/frame-3.jpg",
+					"alt": "Heavy Yoga Flame reaches Ryu as he rises and blocks in the corner.",
+					"label": "Flame on wake-up",
+					"at": 2.2
+				},
+				{
+					"id": "spacing",
+					"src": "/media/dhalsim/dhalsim-corner-blast-flame/frame-4.jpg",
+					"alt": "Dhalsim recovers close to the cornered opponent after the blocked Flame.",
+					"label": "Pressure spacing",
+					"at": 2.7
+				}
+			],
+			"descriptionTrack": "/media/dhalsim/dhalsim-corner-blast-flame/clip.vtt"
+		},
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "dhalsim"
+			}
+		]
+	},
+	{
+		"id": "dhalsim-corner-throw-fire",
+		"revision": 1,
+		"title": "Corner down throw into light Fire",
+		"summary": "Follow the source’s down throw with a light fireball timed for the opponent’s rise.",
+		"kind": "setup",
+		"situations": ["Corner", "After throw", "Oki"],
+		"outcomes": ["Pressure"],
+		"notation": "Down throw > L Yoga Fire",
+		"inputs": [
+			{
+				"id": "down-throw",
+				"notation": "Down throw",
+				"label": "Down throw",
+				"cue": "Keep the source’s down-throw variation distinct from the normal throw."
+			},
+			{
+				"id": "light-fire",
+				"notation": "L Yoga Fire",
+				"label": "Light Yoga Fire",
+				"cue": "Release the fireball during the corner knockdown."
+			}
+		],
+		"conditions": ["The source’s down throw leaves the opponent in the corner"],
+		"notes": [
+			"Down throw is retained as the video’s terminology; the demonstration shows which throw to use.",
+			"The source demonstrates the light fireball being blocked on wake-up. No current-patch frame-advantage value is asserted here."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["dhalsim-corner-blast-flame"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 685.3,
+			"end": 689.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-corner-throw-fire/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-corner-throw-fire/frame-1.jpg",
+			"frames": [
+				{
+					"id": "throw-start",
+					"src": "/media/dhalsim/dhalsim-corner-throw-fire/frame-1.jpg",
+					"alt": "Dhalsim catches Ryu for the down throw shown by the source overlay.",
+					"label": "Down throw",
+					"at": 0.05
+				},
+				{
+					"id": "throw-finish",
+					"src": "/media/dhalsim/dhalsim-corner-throw-fire/frame-2.jpg",
+					"alt": "The throw sends Ryu to the floor at the corner.",
+					"label": "Corner knockdown",
+					"at": 0.8
+				},
+				{
+					"id": "fire",
+					"src": "/media/dhalsim/dhalsim-corner-throw-fire/frame-3.jpg",
+					"alt": "Dhalsim releases a light fireball while Ryu is getting up.",
+					"label": "Light Yoga Fire",
+					"at": 2.5
+				},
+				{
+					"id": "block",
+					"src": "/media/dhalsim/dhalsim-corner-throw-fire/frame-4.jpg",
+					"alt": "Ryu blocks the light fireball as he rises in the corner.",
+					"label": "Wake-up guard",
+					"at": 2.88
+				},
+				{
+					"id": "spacing",
+					"src": "/media/dhalsim/dhalsim-corner-throw-fire/frame-5.jpg",
+					"alt": "Dhalsim and the cornered opponent return to standing after the blocked fireball.",
+					"label": "Pressure spacing",
+					"at": 3.9
+				}
+			],
+			"descriptionTrack": "/media/dhalsim/dhalsim-corner-throw-fire/clip.vtt"
+		},
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "dhalsim"
+			}
+		]
+	},
+	{
+		"id": "dhalsim-midscreen-float-heavy",
+		"revision": 1,
+		"title": "Midscreen Blast into float heavy kick",
+		"summary": "Float over a medium-Blast knockdown and bring down jumping heavy kick.",
+		"kind": "setup",
+		"situations": ["Midscreen", "After knockdown", "Oki"],
+		"outcomes": ["Pressure", "Safe-jump reference"],
+		"notation": "M Yoga Blast > Yoga Float > j.HK",
+		"inputs": [
+			{
+				"id": "medium-blast",
+				"notation": "M Yoga Blast",
+				"label": "Medium Yoga Blast"
+			},
+			{
+				"id": "float",
+				"notation": "Yoga Float",
+				"label": "Yoga Float",
+				"cue": "Enter float during the demonstrated knockdown."
+			},
+			{
+				"id": "jumping-heavy",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick",
+				"cue": "Time the kick for the opponent’s rise, then land."
+			}
+		],
+		"conditions": ["Midscreen knockdown from medium Yoga Blast as demonstrated"],
+		"notes": [
+			"The source calls this a safe jump and first shows the heavy kick being blocked.",
+			"Practice the float height, heavy-kick timing and landing. Reversal coverage has not been re-tested on the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["dhalsim-blast-teleport"],
+		"source": {
+			"id": "elieatscrayons-dhalsim-2025",
+			"title": "DHALSIM COMBO/OKI GUIDE SF6",
+			"creator": "elieatscrayons",
+			"url": "https://www.youtube.com/watch?v=UW6GlWHKy7o",
+			"published": "2025-07-04",
+			"start": 484.62,
+			"end": 486.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs and demonstration checked against the July 2025 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/dhalsim/dhalsim-midscreen-float-heavy/clip.mp4",
+			"poster": "/media/dhalsim/dhalsim-midscreen-float-heavy/frame-1.jpg",
+			"frames": [
+				{
+					"id": "blast",
+					"src": "/media/dhalsim/dhalsim-midscreen-float-heavy/frame-1.jpg",
+					"alt": "Medium Yoga Blast sends Ryu into the midscreen knockdown.",
+					"label": "Medium Blast",
+					"at": 0.38
+				},
+				{
+					"id": "float",
+					"src": "/media/dhalsim/dhalsim-midscreen-float-heavy/frame-2.jpg",
+					"alt": "Dhalsim floats above Ryu while the opponent is on the floor.",
+					"label": "Yoga Float",
+					"at": 1.0
+				},
+				{
+					"id": "heavy-kick",
+					"src": "/media/dhalsim/dhalsim-midscreen-float-heavy/frame-3.jpg",
+					"alt": "Dhalsim’s airborne heavy kick reaches Ryu as he stands and blocks.",
+					"label": "Heavy kick on wake-up",
+					"at": 1.43
+				},
+				{
+					"id": "landing",
+					"src": "/media/dhalsim/dhalsim-midscreen-float-heavy/frame-4.jpg",
+					"alt": "Dhalsim lands beside Ryu after the blocked heavy kick.",
+					"label": "Land after the kick",
+					"at": 1.98
+				}
+			],
+			"descriptionTrack": "/media/dhalsim/dhalsim-midscreen-float-heavy/clip.vtt"
+		},
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "dhalsim"
+			}
+		]
 	}
 ]

@@ -2,6 +2,18 @@
 	import type { GameDefinition, Reference } from '@hyper-chamber/reference';
 
 	let { reference, game }: { reference: Reference; game: GameDefinition } = $props();
+	let copyState = $state('');
+	let showText = $state(false);
+	async function copyInputs() {
+		try {
+			if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
+			await navigator.clipboard.writeText(reference.notation);
+			copyState = 'Input sequence copied.';
+		} catch {
+			showText = true;
+			copyState = 'Copy unavailable. Select the text notation below to copy it.';
+		}
+	}
 	function actorName(actorId: string | undefined): string | undefined {
 		if (!actorId || reference.participants.length < 2) return undefined;
 		const participant = reference.participants.find((actor) => actor.id === actorId);
@@ -51,7 +63,10 @@
 		{/each}
 	</ol>
 	{#key reference.id}
-		<details class="sequence-text">
+		<div class="copy-inputs">
+			<button onclick={copyInputs}>Copy inputs</button><span role="status">{copyState}</span>
+		</div>
+		<details class="sequence-text" bind:open={showText}>
 			<summary>Text notation</summary>
 			<p><code>{reference.notation}</code></p>
 		</details>
@@ -59,6 +74,24 @@
 </div>
 
 <style>
+	.copy-inputs {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 8px;
+		margin-top: 14px;
+		font-size: 12px;
+		color: var(--panel-muted);
+	}
+	.copy-inputs button {
+		min-height: 40px;
+		border: 1px solid var(--border);
+		padding: 8px 12px;
+		color: var(--panel-ink);
+	}
+	.sequence-text code {
+		user-select: all;
+	}
 	.input-sequence {
 		container-type: inline-size;
 		min-width: 0;
@@ -84,11 +117,11 @@
 		justify-content: center;
 		width: 24px;
 		height: 24px;
-		border: 1px solid #69765e;
+		border: 1px solid var(--border);
 		border-radius: 50%;
-		color: #c7d1bb;
+		color: var(--panel-muted);
 		font:
-			10px/1 ui-monospace,
+			11px/1 ui-monospace,
 			monospace;
 	}
 	.move-content {
@@ -97,7 +130,7 @@
 	}
 	.move-notation {
 		display: block;
-		color: var(--lime);
+		color: var(--panel-accent);
 		font:
 			600 16px/1.4 ui-monospace,
 			monospace;
@@ -106,25 +139,25 @@
 	.move-label {
 		display: block;
 		margin-top: 4px;
-		color: #d6dece;
-		font-size: 11px;
+		color: var(--panel-ink);
+		font-size: 12px;
 		line-height: 1.5;
 		overflow-wrap: anywhere;
 	}
 	.move-cue {
 		margin-top: 7px;
 		padding-left: 8px;
-		border-left: 1px solid #84946f;
-		color: #bac8ad;
-		font-size: 11px;
+		border-left: 1px solid var(--border);
+		color: var(--panel-muted);
+		font-size: 12px;
 		line-height: 1.6;
 		overflow-wrap: anywhere;
 	}
 	.move-actor {
 		display: block;
 		margin-bottom: 5px;
-		color: #d6dece;
-		font-size: 10px;
+		color: var(--panel-ink);
+		font-size: 12px;
 		font-weight: 600;
 	}
 	.move-connection {
@@ -133,7 +166,7 @@
 		bottom: 3px;
 		left: 6px;
 		width: 12px;
-		color: #859572;
+		color: var(--panel-muted);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -150,22 +183,22 @@
 	}
 	.sequence-text {
 		margin-top: 18px;
-		border-top: 1px solid #47543e;
+		border-top: 1px solid var(--border);
 	}
 	.sequence-text summary {
 		width: fit-content;
 		padding: 12px 2px 2px;
 		min-height: 36px;
-		color: #c7d1bb;
+		color: var(--panel-muted);
 		cursor: pointer;
-		font-size: 10px;
+		font-size: 12px;
 	}
 	.sequence-text summary:focus-visible {
-		outline-color: var(--lime);
+		outline-color: var(--panel-accent);
 	}
 	.sequence-text p {
 		margin: 9px 0 1px;
-		color: #e0e8d6;
+		color: var(--panel-ink);
 		font-size: 12px;
 		line-height: 1.8;
 		overflow-wrap: anywhere;

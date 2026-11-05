@@ -7,11 +7,12 @@ The core unit is an individual reference: a combo, setup, or response. A referen
 ## First version
 
 - Browse and search by notation, move name, situation, and outcome text.
-- Filter type/situation, save references, follow related alternatives.
+- Filter type/situation and self-reported practice status, save references, follow related alternatives.
 - Keep entry selection and filters in a shareable URL; restore through browser history.
-- Replay, loop, slow down, and seek from a keyframe to its point in the selected entry clip.
+- Replay, loop, slow down, and seek from a keyframe to its point in the selected entry clip. Pause and nudge by 0.25 seconds for closer inspection; scoped R/J/L shortcuts work when a clip control has focus.
+- Copy the authored input sequence, with selectable text when clipboard access is unavailable.
 - Focus view keeps a selected reference readable beside the game.
-- Personal status, notes, and favorites live in browser storage with JSON backup.
+- Personal status, notes, and favorites live in browser storage with JSON backup. Failed writes preserve pending changes and offer retry/export; failed clips offer retry/source access.
 - SF6 Lab supplies linked guides and longer explanations. Its organization informs terminology, not copied page layouts or an imported guide database.
 
 ## Boundaries

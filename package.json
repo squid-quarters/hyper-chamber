@@ -5,6 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "pnpm --filter @hyper-chamber/web dev",
+		"start": "pnpm --filter @hyper-chamber/web preview --host 127.0.0.1 --port 5376 --strictPort",
 		"build": "turbo run build",
 		"lint": "oxlint .",
 		"format": "oxfmt . && pnpm format:svelte",

@@ -10,7 +10,7 @@ Metadata and chapter markers were extracted from YouTube. Selected 720p video se
 
 The initial 46–80 second excerpt has a zero-based media timeline and a measured duration of 34.02995 seconds. The selected additional excerpts begin at 276 and 457 seconds. Source timestamps in the catalog are computed from those segment offsets. Prepared clips are re-encoded after decoding the input, rather than copied at arbitrary keyframes. Frame timestamps refer to the resulting clip's zero-based timeline.
 
-All five references are **source-reviewed**, with `gameVersion: null`. They have not been tested in the current SF6 training mode. No damage, current advantage, or exact cancel-window guarantees were added. Source-only numerical overlays remain visible in the footage and are historical evidence, not a new current-patch assertion.
+All references are **source-reviewed**, with `gameVersion: null`. They have not been tested in the current SF6 training mode. No damage, current advantage, or exact cancel-window guarantees were added. Source-only numerical overlays remain visible in the footage and are historical evidence, not a new current-patch assertion.
 
 The first route at the beginning of the 46-second sample was already in progress and was omitted. The medium-Blast Drive Rush route's back-medium image was corrected during visual review after an earlier sample caught the preceding crouching light punch.
 
@@ -26,9 +26,26 @@ The first route at the beginning of the 46-second sample was already in progress
 
 Clips are silent. Persistent input notation, conditions, quick notes, annotated frame descriptions, and accompanying WebVTT descriptions carry the instructional information. Existing creator overlays are retained.
 
+## MVP expansion
+
+On 5 November 2026, eight more references were reviewed from the full 720p source, bringing the catalog to 13. The full file starts at PTS 0; a frame at 54 seconds independently matches the earlier reviewed light-Blast demonstration. New clips were decoded before cutting with source offset 0. The original five entries and their media remain unchanged.
+
+| Reference                          | Source interval   | Reviewed content                                                                                                                                    |
+| ---------------------------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `dhalsim-punish-heavy-blast`       | 3:34.30–3:37.15   | Standing heavy-kick punish counter, crouching heavy punch, heavy Blast. Only the heavy-Blast ender is included.                                     |
+| `dhalsim-punish-rush-flame`        | 3:39.75–3:43.05   | Standing heavy-kick punish counter, raw Drive Rush, crouching heavy punch, heavy Flame.                                                             |
+| `dhalsim-drive-impact-blast`       | 5:14.85–5:18.60   | DI crumple, back heavy punch, heavy Blast.                                                                                                          |
+| `dhalsim-drive-impact-side-switch` | 5:25.05–5:29.24   | DI, instant air teleport, jumping light kick and standing heavy kick change sides; light Fire follows as blocked wake-up pressure.                  |
+| `dhalsim-corner-double-blast`      | 5:44.55–5:46.40   | Heavy Blast into light Blast as a corner ender extension; the earlier starter is outside this reference.                                            |
+| `dhalsim-corner-blast-flame`       | 9:56.75–9:59.65   | Medium-Blast corner juggle, connecting down-back heavy kick, then heavy Flame pressure after knockdown. The Flame is blocked in the footage.        |
+| `dhalsim-corner-throw-fire`        | 11:25.30–11:29.90 | The source's “down throw” into light Fire pressure. The throw's button command is not inferred.                                                     |
+| `dhalsim-midscreen-float-heavy`    | 8:04.62–8:06.95   | Medium Blast into float heavy kick after knockdown. “Safe jump” is attributed to the source rather than guaranteed against current-patch reversals. |
+
+The additional footage is 29.97 fps; earlier excerpts were prepared from a 60 fps source variant. Reader timing nudges are measured in seconds and do not claim to step one SF6 simulation frame. Every new reference has a silent clip, annotated keyframes and WebVTT action descriptions. The catalog check enforces unique frame IDs and increasing frame times.
+
 ## Remaining extraction
 
-The remainder of the general-combo chapter, punish routes, Drive Impact routes, corner/stun routes, other anti-air alternatives, remaining midscreen oki, and corner oki are not yet extracted into individual entries. Chapter metadata is preserved for later work; no empty entries imply coverage.
+Coverage remains selective across the tutorial's chapters. Other combo routes, punish/DI alternatives, stun routes, anti-air alternatives and oki variations remain unextracted. Chapter metadata is preserved for later work; no empty entries imply coverage. The supplied Gemini extraction remains unverified candidate material and is not imported into the runtime catalog.
 
 Later work should verify the exact execution and applicable game version in SF6, and can replace tutorial footage with dedicated recordings while preserving stable reference IDs and source attribution.
 

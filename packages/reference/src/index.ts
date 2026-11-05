@@ -140,6 +140,20 @@ export const referenceSchema = z
 			});
 		if (new Set(r.inputs.map(i => i.id)).size !== r.inputs.length)
 			ctx.addIssue({code: 'custom', path: ['inputs'], message: 'Step IDs must be unique'});
+		if (new Set(r.media.frames.map(frame => frame.id)).size !== r.media.frames.length)
+			ctx.addIssue({
+				code: 'custom',
+				path: ['media', 'frames'],
+				message: 'Frame IDs must be unique',
+			});
+		if (
+			r.media.frames.some((frame, index) => index > 0 && frame.at <= r.media.frames[index - 1].at)
+		)
+			ctx.addIssue({
+				code: 'custom',
+				path: ['media', 'frames'],
+				message: 'Frame times must increase',
+			});
 		const participantIds = new Set(r.participants.map(participant => participant.id));
 		if (participantIds.size !== r.participants.length) {
 			ctx.addIssue({

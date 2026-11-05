@@ -22,12 +22,28 @@
 				"meaning": "Jumping / crouching / standing / back"
 			},
 			{
+				"term": "db.",
+				"meaning": "Down-back; 1 in numpad notation when facing right"
+			},
+			{
 				"term": "DR / DRC / DI / OD / SA / CH",
 				"meaning": "Drive Rush / cancel Drive Rush / Drive Impact / Overdrive / Super Art / Counter Hit"
 			},
 			{
-				"term": "xx / > / →",
-				"meaning": "Cancel / next action"
+				"term": "IAT",
+				"meaning": "Instant air teleport; follow the demonstrated airborne timing"
+			},
+			{
+				"term": "whiff",
+				"meaning": "Perform the action so it misses; some setups use this to time the next action"
+			},
+			{
+				"term": "xx",
+				"meaning": "Cancel into the following move"
+			},
+			{
+				"term": "> / → / diagram connections",
+				"meaning": "Next action in order; timing and cancel rules are only specified when explicitly annotated"
 			}
 		]
 	},
