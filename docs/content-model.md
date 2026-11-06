@@ -7,6 +7,7 @@ The runtime schema in `packages/reference` is shared by the reader and content c
 - `notation`, ordered `inputs`, `conditions`, and short `notes` stay with each entry.
 - `source` preserves creator, video URL/date, and start/end seconds in the original video.
 - `media.frames[].at` is relative to the prepared clip; `alt` describes the observed action and `label` supplies a short execution cue.
+- Clips prepared with the current helper start at presentation time zero. Still extraction selects the frame presented at or before the authored clip time, rather than rounding another seek forward. Source intervals retain original-video bounds; choosing the first retained source frame can quantize the clip's duration by a fraction of a video frame. The original reference assets remain preserved.
 - Frame IDs are unique within a reference, and frame times strictly increase. These invariants keep selection/descriptions unambiguous and produce valid WebVTT intervals.
 - `verification.status` distinguishes extraction drafts from reviewed footage; `gameVersion: null` explicitly leaves current patch validation unestablished.
 - `relatedIds` links canonical alternatives without copying the same entry into several categories.

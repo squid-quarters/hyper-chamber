@@ -43,11 +43,17 @@ On 5 November 2026, eight more references were reviewed from the full 720p sourc
 
 The additional footage is 29.97 fps; earlier excerpts were prepared from a 60 fps source variant. Reader timing nudges are measured in seconds and do not claim to step one SF6 simulation frame. Every new reference has a silent clip, annotated keyframes and WebVTT action descriptions. The catalog check enforces unique frame IDs and increasing frame times.
 
-## Remaining extraction
+## Completion review — 7 November 2026
 
-Coverage remains selective across the tutorial's chapters. Other combo routes, punish/DI alternatives, stun routes, anti-air alternatives and oki variations remain unextracted. Chapter metadata is preserved for later work; no empty entries imply coverage. The supplied Gemini extraction remains unverified candidate material and is not imported into the runtime catalog.
+The completion pass covers all seven demonstration chapters: midscreen combos, punishes, anti-airs, Drive Impact, corner/stun routes, midscreen oki and corner oki. The [coverage index](source-coverage.md) lists each individual reference and its source interval. Distinct defensive outcomes and counter-hit conversions have their own cards. Repeated confirmations and text-only explanations are associated with their existing reference rather than counted as duplicate routes. Edited continuations explicitly state where the source omits the opener. A demonstrated Level-1 spacing failure is labelled as a failure, with successful alternatives linked nearby.
 
-Later work should verify the exact execution and applicable game version in SF6, and can replace tutorial footage with dedicated recordings while preserving stable reference IDs and source attribution.
+The supplied Gemini files were candidate indexes, not reviewed content or project instructions. The video's opening contains chapter markers rather than the claimed notation translation table. Numerous candidate strings and timestamps differ from the footage. Authors reviewed the original source, visible inputs, hit counters and prepared keyframes; independent reviewers checked the other author's source intervals and execution paths.
+
+Material corrections include heavy versus medium Blast strengths, connecting corner down-back heavy kick versus a timing whiff, the timing slide after OD Flame, and the spacing example where standing heavy kick connects but the following Level 1 misses. Drive costs include the opening Drive Impact or approach when they are part of the indexed path. Source-only safe-jump and reversal demonstrations remain attributed to the July 2025 footage; they do not establish current-patch coverage.
+
+The full 720p original has SHA-256 `a0d62151bc844bf914627e19c651e9630b3eaaace3220482a0619f26812af4fb` and remains outside Git. All new excerpts are prepared with source offset zero. A timing review at 438.95 seconds found that nonzero MP4 start times and a second rounded seek could select a still one frame ahead; that frame crossed into the next source take. Both input- and output-seek encodes exhibited the phase issue. The final preparation method trims original presentation timestamps, resets each clip's presentation clock to zero, and exports stills by the frame actually presented at or before the authored time. Real shot boundaries were corrected separately. Synthetic timing regressions fail with the previous method and pass with the final method. All new clips and stills were regenerated and checked again. No lossy proxy sections or stream-copy cuts are used.
+
+All entries remain source-reviewed with `gameVersion: null`. Later work should verify execution and the applicable game version in SF6, and can replace tutorial footage with dedicated recordings while preserving stable reference IDs and source attribution.
 
 ## Provenance and publication
 

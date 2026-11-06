@@ -10,6 +10,10 @@
 		"numpad": true,
 		"legend": [
 			{
+				"term": "L / M / H",
+				"meaning": "Light / medium / heavy version of the named move"
+			},
+			{
 				"term": "LP / MP / HP",
 				"meaning": "Light / medium / heavy punch"
 			},
@@ -32,6 +36,14 @@
 			{
 				"term": "IAT",
 				"meaning": "Instant air teleport; follow the demonstrated airborne timing"
+			},
+			{
+				"term": "TP / Float",
+				"meaning": "Yoga Teleport / Yoga Float; follow each reference's movement and timing notes"
+			},
+			{
+				"term": "SA1 / SA2 / SA3 / PC",
+				"meaning": "Level 1 / Level 2 / Level 3 Super Art / Punish Counter"
 			},
 			{
 				"term": "whiff",

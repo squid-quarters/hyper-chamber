@@ -9,7 +9,7 @@ The core unit is an individual reference: a combo, setup, or response. A referen
 - Browse and search by notation, move name, situation, and outcome text.
 - Filter type/situation and self-reported practice status, save references, follow related alternatives.
 - Keep entry selection and filters in a shareable URL; restore through browser history.
-- Replay, loop, slow down, and seek from a keyframe to its point in the selected entry clip. Pause and nudge by 0.25 seconds for closer inspection; scoped R/J/L shortcuts work when a clip control has focus.
+- Tap a clip to play or pause, drag horizontally to inspect, and release to hold a moment. Loop, slow down, seek from a keyframe, or nudge by 0.25 seconds. Scoped R/J/L and arrow shortcuts work when a clip control has focus; Space activates the focused video button. Loop preference is remembered without autoplaying new references.
 - Copy the authored input sequence, with selectable text when clipboard access is unavailable.
 - Focus view keeps a selected reference readable beside the game.
 - Personal status, notes, and favorites live in browser storage with JSON backup. Failed writes preserve pending changes and offer retry/export; failed clips offer retry/source access.
@@ -25,7 +25,7 @@ No accounts, cloud synchronization, public authoring editor, live frame-data fee
 
 Review individual source intervals visually. Keep draft interpretations separate from reviewed entries. A technique's kind, starting situation, and outcome are separate fields; one canonical entry can be found through several queries without duplicating it.
 
-Test the compendium during actual practice: time to locate a route, effort to replay a transition, and ease of retaining the important conditions and inputs. Grow the library after this interaction proves useful.
+Test the compendium during actual practice: time to locate a route, effort to replay a transition, and ease of retaining the important conditions and inputs. Add future sources and dedicated recordings after their execution and annotations have been reviewed.
 
 ## Multiple games
 

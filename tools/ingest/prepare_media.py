@@ -59,16 +59,30 @@ def prepare(reference, source, offset):
         raise ValueError(f"Source file does not contain the complete {reference['id']} excerpt")
     clip = media_path(reference['media']['clip'])
     clip.parent.mkdir(parents=True, exist_ok=True)
-    # Output seeking decodes the source before cutting; stream copy is deliberately avoided.
-    run('-i', str(source), '-ss', str(start), '-t', str(duration), '-an', '-c:v', 'libx264',
+    # Trim on original presentation timestamps, then give the clip a zero-based clock.
+    # Seeking twice can otherwise shift a still by a frame when the MP4 starts above zero.
+    run('-i', str(source), '-vf',
+        f'trim=start={start}:end={start + duration},setpts=PTS-STARTPTS',
+        '-fps_mode', 'passthrough', '-an', '-c:v', 'libx264',
         '-preset', 'fast', '-crf', '25', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', str(clip))
+    timing = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0',
+                             '-show_entries', 'frame=best_effort_timestamp_time', '-of', 'json', str(clip)],
+                            check=True, capture_output=True, text=True)
+    frame_times = [float(frame['best_effort_timestamp_time'])
+                   for frame in json.loads(timing.stdout)['frames']]
+    if not frame_times or abs(frame_times[0]) > 0.0001:
+        raise ValueError('Prepared clip must have a zero-based presentation timeline')
     for frame in reference['media']['frames']:
         at = frame['at']
         if not math.isfinite(at) or at < 0 or at >= duration:
             raise ValueError('Frame timestamp falls outside its clip')
         image = media_path(frame['src'])
         image.parent.mkdir(parents=True, exist_ok=True)
-        run('-i', str(clip), '-ss', str(at), '-frames:v', '1', '-q:v', '3', '-update', '1', str(image))
+        # Select the frame presented at this time, rather than rounding a second seek up.
+        index = max((index for index, presented_at in enumerate(frame_times)
+                     if presented_at <= at + 1e-9), default=0)
+        run('-i', str(clip), '-vf', f'select=eq(n\\,{index})', '-fps_mode', 'passthrough',
+            '-frames:v', '1', '-q:v', '3', '-update', '1', str(image))
     descriptions(reference, duration)
 
 

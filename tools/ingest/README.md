@@ -34,3 +34,15 @@ The source metadata and chapter outline are in `content/sources/`. The initial m
 To add a reference: inspect the demonstration and input display, define its exact boundaries and conditions, select explanatory frames, run the tool, inspect the outputs, then validate the catalog with the shared application schema. Keep unreviewed interpretations as drafts. Changing footage should not change the reference ID.
 
 For another authored library, supply `--catalog path/to/references.json`. The default remains the reviewed SF6 / Dhalsim catalog. Asset output is still confined to the application's media directory. The tool does not infer game mechanics, actors or notation from a file path.
+
+## Presentation timing
+
+The tool trims original presentation timestamps, resets the prepared clip's clock to zero, and exports the frame presented at or before each authored key-moment time. This avoids MP4 start-time normalization and a second rounded seek moving a still across a shot boundary. Source intervals describe provenance; key-moment times describe the prepared playback timeline. Review both clip ends and every exported still after preparation.
+
+Run the media-clock integration regressions:
+
+```sh
+python3 -m unittest discover -s tools/ingest -p 'test_*.py' -v
+```
+
+The tests generate a tiny source with a known color transition. They check an unaligned cut, the still immediately before and after that transition, and exclusion of the next take. They explicitly skip when FFmpeg or ffprobe is unavailable. They do not need the tutorial or any downloaded fixture.
