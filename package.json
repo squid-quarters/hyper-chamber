@@ -15,13 +15,11 @@
 		"test:watch": "vitest",
 		"content:check": "node --experimental-strip-types tools/check-content.ts",
 		"verify": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm build && pnpm content:check",
-		"changeset": "changeset",
 		"prepare": "husky",
 		"format:svelte": "prettier --plugin prettier-plugin-svelte --write \"apps/**/*.svelte\"",
 		"format:svelte:check": "prettier --plugin prettier-plugin-svelte --check \"apps/**/*.svelte\""
 	},
 	"devDependencies": {
-		"@changesets/cli": "3.0.3",
 		"@commitlint/cli": "21.2.4",
 		"@commitlint/config-conventional": "21.2.4",
 		"@types/node": "26.6.6",
