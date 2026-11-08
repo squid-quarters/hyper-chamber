@@ -1,0 +1,74 @@
+{
+	"id": "sf6",
+	"name": "Street Fighter 6",
+	"resourceLabels": {
+		"drive": "Drive",
+		"super": "Super"
+	},
+	"notation": {
+		"description": "Directions assume your character faces right. Mirror them when facing left.",
+		"numpad": true,
+		"legend": [
+			{
+				"term": "L / M / H",
+				"meaning": "Light / medium / heavy version of the named move"
+			},
+			{
+				"term": "LP / MP / HP",
+				"meaning": "Light / medium / heavy punch"
+			},
+			{
+				"term": "LK / MK / HK",
+				"meaning": "Light / medium / heavy kick"
+			},
+			{
+				"term": "j. / cr. / st. / b.",
+				"meaning": "Jumping / crouching / standing / back"
+			},
+			{
+				"term": "db.",
+				"meaning": "Down-back; 1 in numpad notation when facing right"
+			},
+			{
+				"term": "DR / DRC / DI / OD / SA / CH",
+				"meaning": "Drive Rush / cancel Drive Rush / Drive Impact / Overdrive / Super Art / Counter Hit"
+			},
+			{
+				"term": "IAT",
+				"meaning": "Instant air teleport; follow the demonstrated airborne timing"
+			},
+			{
+				"term": "TP / Float",
+				"meaning": "Yoga Teleport / Yoga Float; follow each reference's movement and timing notes"
+			},
+			{
+				"term": "SA1 / SA2 / SA3 / PC",
+				"meaning": "Level 1 / Level 2 / Level 3 Super Art / Punish Counter"
+			},
+			{
+				"term": "whiff",
+				"meaning": "Perform the action so it misses; some setups use this to time the next action"
+			},
+			{
+				"term": "xx",
+				"meaning": "Cancel into the following move"
+			},
+			{
+				"term": "> / → / diagram connections",
+				"meaning": "Next action in order; timing and cancel rules are only specified when explicitly annotated"
+			}
+		]
+	},
+	"guides": [
+		{
+			"label": "Guides on SF6 Lab",
+			"url": "https://sf6-lab.net/en/fighters/dhalsim"
+		}
+	],
+	"characters": [
+		{
+			"id": "dhalsim",
+			"name": "Dhalsim"
+		}
+	]
+}

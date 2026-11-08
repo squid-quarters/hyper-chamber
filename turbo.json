@@ -1,0 +1,14 @@
+{
+	"$schema": "https://turborepo.com/schema.json",
+	"globalDependencies": ["content/**"],
+	"tasks": {
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": ["dist/**", ".svelte-kit/**", "build/**"]
+		},
+		"typecheck": {
+			"dependsOn": ["^build"],
+			"outputs": []
+		}
+	}
+}
