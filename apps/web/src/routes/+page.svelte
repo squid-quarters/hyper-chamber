@@ -559,13 +559,17 @@
 						>
 					</div>
 					<div class="results-meta">
-						<span>{results.length} {results.length === 1 ? 'reference' : 'references'}</span><button
-							class="text-button"
-							onclick={openSwitcher}
-							aria-keyshortcuts="Control+k Meta+k">Quick switch <kbd>⌘ / Ctrl K</kbd></button
-						>{#if query || kind !== 'all' || situation !== 'all' || savedOnly || practice !== 'all'}<button
-								onclick={reset}>Reset filters</button
-							>{/if}
+						<span>{results.length} {results.length === 1 ? 'reference' : 'references'}</span>
+						<div class="results-actions">
+							{#if query || kind !== 'all' || situation !== 'all' || savedOnly || practice !== 'all'}<button
+									onclick={reset}>Reset filters</button
+								>{/if}
+							<button
+								class="text-button"
+								onclick={openSwitcher}
+								aria-keyshortcuts="Control+k Meta+k">Quick switch <kbd>⌘ / Ctrl K</kbd></button
+							>
+						</div>
 					</div>
 				</div>
 				<noscript
@@ -602,7 +606,8 @@
 								<p class="card-situations">{ref.situations.join(' · ')}</p>
 								<p class="card-summary">{ref.summary}</p>
 								<div class="card-bottom">
-									<span>{ref.inputs.length} inputs</span><span>Practice ↗</span>
+									<span>{ref.inputs.length} {ref.inputs.length === 1 ? 'input' : 'inputs'}</span
+									><span>Practice ↗</span>
 								</div></a
 							>
 						</li>{/each}
@@ -681,7 +686,9 @@
 				<section class="input-details">
 					<details class="input-explanations">
 						<summary
-							>Move explanations &amp; timing cues <span>({selected.inputs.length} inputs)</span
+							>Move explanations &amp; timing cues <span
+								>({selected.inputs.length}
+								{selected.inputs.length === 1 ? 'input' : 'inputs'})</span
 							></summary
 						>
 						<div class="notation-panel">
