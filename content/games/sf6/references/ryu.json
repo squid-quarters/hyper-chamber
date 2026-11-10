@@ -1,0 +1,5516 @@
+[
+	{
+		"id": "ryu-joe-lights-heavy-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Three lights into heavy Shoryuken",
+		"summary": "A close light confirm that ends in heavy Shoryuken.",
+		"kind": "combo",
+		"situations": ["Light confirm", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.LP > st.LP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 13.55,
+			"end": 15.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-lights-heavy-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-lights-heavy-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-lights-heavy-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-lights-heavy-dp/frame-1.jpg",
+					"at": 0.3,
+					"label": "Crouching lights",
+					"alt": "Ryu starts the confirm with crouching light punches."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-lights-heavy-dp/frame-2.jpg",
+					"at": 0.85,
+					"label": "Standing light",
+					"alt": "Standing light punch connects before the special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-lights-heavy-dp/frame-3.jpg",
+					"at": 1.45,
+					"label": "Heavy Shoryuken",
+					"alt": "Heavy Shoryuken lifts Ken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-lights-heavy-dp/frame-4.jpg",
+					"at": 2.2,
+					"label": "Knockdown",
+					"alt": "Ken falls after the Shoryuken ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"ryu-joe-lights-light-tatsu",
+			"ryu-joe-lights-od-tatsu-heavy-dp",
+			"ryu-obahan-heavy-dp-dash-solar-plexus",
+			"ryu-obahan-heavy-dp-dash-whirlwind"
+		]
+	},
+	{
+		"id": "ryu-joe-lights-light-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Three lights into light Tatsu",
+		"summary": "A light confirm with a light Tatsu knockdown ender.",
+		"kind": "combo",
+		"situations": ["Light confirm", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.LP > st.LP > L Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "L Tatsu",
+				"label": "Light Tatsumaki Senpukyaku"
+			}
+		],
+		"conditions": ["Classic controls", "Close range", "Standing opponent as demonstrated"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 130.4,
+			"end": 134.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-lights-light-tatsu/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-lights-light-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-lights-light-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-lights-light-tatsu/frame-1.jpg",
+					"at": 0.65,
+					"label": "Crouching lights",
+					"alt": "Crouching light punches begin the light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-lights-light-tatsu/frame-2.jpg",
+					"at": 1.3,
+					"label": "Standing light",
+					"alt": "Standing light punch connects before the Tatsu cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-lights-light-tatsu/frame-3.jpg",
+					"at": 1.65,
+					"label": "Light Tatsu",
+					"alt": "Light Tatsu connects and knocks Ken away."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-lights-light-tatsu/frame-4.jpg",
+					"at": 2.65,
+					"label": "Knockdown",
+					"alt": "Ken lands after the light Tatsu."
+				}
+			]
+		},
+		"relatedIds": [
+			"ryu-joe-lights-heavy-dp",
+			"ryu-joe-corner-tatsu-jab-overhead",
+			"ryu-obahan-light-tatsu-dash-throw",
+			"ryu-obahan-light-tatsu-shimmy"
+		]
+	},
+	{
+		"id": "ryu-joe-lights-light-donkey",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Two lights into Donkey Kick and Denjin",
+		"summary": "Use light Donkey Kick to knock the opponent away, then perform the demonstrated Denjin charge.",
+		"kind": "setup",
+		"situations": ["Light confirm", "Midscreen", "After knockdown"],
+		"outcomes": ["Knockdown", "Denjin charge"],
+		"notation": "cr.LP > cr.LP > L Donkey Kick > Denjin Renki",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "L Donkey Kick",
+				"label": "Light Jodan Sokuto Geri (Donkey Kick)"
+			},
+			{
+				"id": "step-4",
+				"notation": "Denjin Renki",
+				"label": "Denjin Renki charge",
+				"cue": "A separate charge action after the combo knockdown."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close range for the two-jab starter",
+			"Space to perform the shown post-knockdown charge"
+		],
+		"notes": ["The charge follows the combo; it is not an additional combo hit."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 203.7,
+			"end": 207.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-lights-light-donkey/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-lights-light-donkey/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-lights-light-donkey/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-lights-light-donkey/frame-1.jpg",
+					"at": 0.55,
+					"label": "Crouching jabs",
+					"alt": "Ryu begins with two crouching light punches."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-lights-light-donkey/frame-2.jpg",
+					"at": 1.55,
+					"label": "Light Donkey Kick",
+					"alt": "Light Donkey Kick sends Ken away."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-lights-light-donkey/frame-3.jpg",
+					"at": 2.05,
+					"label": "Begin Denjin",
+					"alt": "Ryu begins a separate Denjin charge after recovering from the kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-lights-light-donkey/frame-4.jpg",
+					"at": 2.7,
+					"label": "Charge during knockdown",
+					"alt": "Ryu charges while Ken is down at a distance."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-lights-light-donkey/frame-5.jpg",
+					"at": 3.55,
+					"label": "Denjin ready",
+					"alt": "The charge effect remains around Ryu after the action."
+				}
+			]
+		},
+		"relatedIds": ["ryu-joe-medium-light-donkey", "ryu-joe-corner-donkey-medium-overhead"]
+	},
+	{
+		"id": "ryu-joe-lights-od-tatsu-heavy-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Corner lights into OD Tatsu and heavy Shoryuken",
+		"summary": "Use OD Tatsu to extend a light confirm into a corner Shoryuken juggle.",
+		"kind": "combo",
+		"situations": ["Light confirm", "Corner"],
+		"outcomes": ["Knockdown", "Juggle extension"],
+		"notation": "cr.LP > cr.LP > st.LP > OD Tatsu > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "OD Tatsu",
+				"label": "Overdrive Tatsumaki Senpukyaku"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent in the corner", "Close range"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 248.05,
+			"end": 253.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-lights-od-tatsu-heavy-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-lights-od-tatsu-heavy-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-lights-od-tatsu-heavy-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-lights-od-tatsu-heavy-dp/frame-1.jpg",
+					"at": 0.7,
+					"label": "Light confirm",
+					"alt": "Crouching jabs begin the corner confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-lights-od-tatsu-heavy-dp/frame-2.jpg",
+					"at": 1.5,
+					"label": "Standing light",
+					"alt": "Standing light punch completes the light starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-lights-od-tatsu-heavy-dp/frame-3.jpg",
+					"at": 2.2,
+					"label": "OD Tatsu",
+					"alt": "OD Tatsu hits repeatedly beside the corner."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-lights-od-tatsu-heavy-dp/frame-4.jpg",
+					"at": 3.7,
+					"label": "Shoryuken juggle",
+					"alt": "Heavy Shoryuken catches the airborne opponent."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-lights-od-tatsu-heavy-dp/frame-5.jpg",
+					"at": 4.7,
+					"label": "Corner knockdown",
+					"alt": "Ken falls in the corner after the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ryu-joe-lights-heavy-dp",
+			"ryu-joe-lights-od-tatsu-sa3",
+			"ryu-joe-corner-od-tatsu-framekill-confirm"
+		]
+	},
+	{
+		"id": "ryu-joe-lights-od-tatsu-sa3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Corner light confirm into Level 3",
+		"summary": "Extend OD Tatsu with heavy Shoryuken and cancel into Level 3.",
+		"kind": "combo",
+		"situations": ["Light confirm", "Corner"],
+		"outcomes": ["Super finish", "Damage"],
+		"notation": "cr.LP > cr.LP > st.LP > OD Tatsu > H Shoryuken > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "OD Tatsu",
+				"label": "Overdrive Tatsumaki Senpukyaku"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Close range",
+			"Level 3 available"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "Level 3"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 233.1,
+			"end": 247.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-lights-od-tatsu-sa3/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-lights-od-tatsu-sa3/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-lights-od-tatsu-sa3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-lights-od-tatsu-sa3/frame-1.jpg",
+					"at": 1.15,
+					"label": "Light starter",
+					"alt": "Crouching jabs start the corner light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-lights-od-tatsu-sa3/frame-2.jpg",
+					"at": 2.15,
+					"label": "OD Tatsu",
+					"alt": "OD Tatsu spins into the cornered opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-lights-od-tatsu-sa3/frame-3.jpg",
+					"at": 3.15,
+					"label": "Heavy Shoryuken",
+					"alt": "Heavy Shoryuken follows the OD Tatsu juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-lights-od-tatsu-sa3/frame-4.jpg",
+					"at": 4.15,
+					"label": "Level 3 cancel",
+					"alt": "Ryu activates Level 3 after Shoryuken."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-lights-od-tatsu-sa3/frame-5.jpg",
+					"at": 10.15,
+					"label": "Super finish",
+					"alt": "The Level 3 sequence reaches its rising finish."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-joe-lights-od-tatsu-sa3/frame-6.jpg",
+					"at": 13.65,
+					"label": "Hard knockdown",
+					"alt": "The Super ends and Ken falls to the floor."
+				}
+			]
+		},
+		"relatedIds": ["ryu-joe-lights-od-tatsu-heavy-dp"]
+	},
+	{
+		"id": "ryu-joe-rush-low-medium-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Drive Rush low into medium punches and Shoryuken",
+		"summary": "Confirm a Drive Rush crouching light kick into standing and crouching medium punches.",
+		"kind": "combo",
+		"situations": ["Drive Rush", "Low confirm", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > cr.LK > st.MP > cr.MP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Drive Rush attack connects at close range"],
+		"notes": [
+			"The full source demonstrates this as a follow-up to a preceding heavy Shoryuken knockdown. This excerpt isolates the new low-starting combo."
+		],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 56.25,
+			"end": 59.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-rush-low-medium-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-rush-low-medium-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-rush-low-medium-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-rush-low-medium-dp/frame-1.jpg",
+					"at": 0.2,
+					"label": "Drive Rush approach",
+					"alt": "Ryu rushes toward the waking opponent."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-rush-low-medium-dp/frame-2.jpg",
+					"at": 0.7,
+					"label": "Low starter",
+					"alt": "Drive Rush crouching light kick hits low."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-rush-low-medium-dp/frame-3.jpg",
+					"at": 1.2,
+					"label": "Standing medium",
+					"alt": "Standing medium punch continues the confirm."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-rush-low-medium-dp/frame-4.jpg",
+					"at": 1.7,
+					"label": "Crouching medium",
+					"alt": "Crouching medium punch leads into Shoryuken."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-rush-low-medium-dp/frame-5.jpg",
+					"at": 2.2,
+					"label": "Heavy Shoryuken",
+					"alt": "Heavy Shoryuken finishes the route."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-joe-rush-low-medium-dp/frame-6.jpg",
+					"at": 3.2,
+					"label": "Knockdown",
+					"alt": "Ken falls after the low confirm."
+				}
+			]
+		},
+		"relatedIds": ["ryu-joe-rush-overhead-medium-dp"]
+	},
+	{
+		"id": "ryu-joe-rush-overhead-medium-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Drive Rush overhead into Shoryuken",
+		"summary": "Confirm a Drive Rush overhead into standing medium punch and heavy Shoryuken.",
+		"kind": "combo",
+		"situations": ["Drive Rush", "Overhead", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > f.MP > st.MP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MP",
+				"label": "Forward medium punch overhead (Collarbone Breaker)"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Drive Rush overhead connects at close range"],
+		"notes": [
+			"The preceding heavy Shoryuken knockdown is shown elsewhere in the source. This excerpt begins at the new Drive Rush approach."
+		],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 63.15,
+			"end": 67.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-rush-overhead-medium-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-rush-overhead-medium-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-rush-overhead-medium-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-rush-overhead-medium-dp/frame-1.jpg",
+					"at": 0.6,
+					"label": "Drive Rush",
+					"alt": "Drive Rush closes the gap after the previous knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-rush-overhead-medium-dp/frame-2.jpg",
+					"at": 1.1,
+					"label": "Overhead",
+					"alt": "Collarbone Breaker hits from the Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-rush-overhead-medium-dp/frame-3.jpg",
+					"at": 1.6,
+					"label": "Standing medium",
+					"alt": "Standing medium punch connects after the overhead."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-rush-overhead-medium-dp/frame-4.jpg",
+					"at": 2.6,
+					"label": "Shoryuken",
+					"alt": "Heavy Shoryuken finishes the confirm."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-rush-overhead-medium-dp/frame-5.jpg",
+					"at": 3.6,
+					"label": "Knockdown",
+					"alt": "Ken falls after the overhead conversion."
+				}
+			]
+		},
+		"relatedIds": ["ryu-joe-rush-low-medium-dp"]
+	},
+	{
+		"id": "ryu-joe-medium-heavy-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Medium punches into heavy Shoryuken",
+		"summary": "Link standing medium punch into crouching medium punch, then finish with heavy Shoryuken.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > cr.MP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [
+			"The source explicitly warns that the resulting spacing does not give the same throw reach as its light-starting Shoryuken example."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 347.45,
+			"end": 350.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-medium-heavy-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-medium-heavy-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-medium-heavy-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-medium-heavy-dp/frame-1.jpg",
+					"at": 0.6,
+					"label": "Standing medium",
+					"alt": "Standing medium punch starts the route at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-medium-heavy-dp/frame-2.jpg",
+					"at": 1.35,
+					"label": "Crouching medium",
+					"alt": "Crouching medium punch follows the standing punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-medium-heavy-dp/frame-3.jpg",
+					"at": 2.1,
+					"label": "Heavy Shoryuken",
+					"alt": "Heavy Shoryuken lifts Ken after the medium starter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-medium-heavy-dp/frame-4.jpg",
+					"at": 3.1,
+					"label": "Knockdown",
+					"alt": "Ken lands after the Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"ryu-joe-medium-light-tatsu",
+			"ryu-joe-medium-light-donkey",
+			"ryu-joe-medium-heavy-tatsu-switch",
+			"ryu-obahan-heavy-dp-dash-solar-plexus"
+		]
+	},
+	{
+		"id": "ryu-joe-medium-light-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Medium punches into light Tatsu",
+		"summary": "A meterless medium confirm ending in light Tatsu.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > cr.MP > L Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "L Tatsu",
+				"label": "Light Tatsumaki Senpukyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close enough for crouching medium punch to connect",
+			"Standing opponent as demonstrated"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 355.05,
+			"end": 357.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-medium-light-tatsu/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-medium-light-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-medium-light-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-medium-light-tatsu/frame-1.jpg",
+					"at": 0.6,
+					"label": "Standing medium",
+					"alt": "Standing medium punch connects at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-medium-light-tatsu/frame-2.jpg",
+					"at": 0.85,
+					"label": "Crouching medium",
+					"alt": "Crouching medium punch follows before the special cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-medium-light-tatsu/frame-3.jpg",
+					"at": 1.6,
+					"label": "Light Tatsu",
+					"alt": "Light Tatsu connects and knocks Ken away."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-medium-light-tatsu/frame-4.jpg",
+					"at": 2.25,
+					"label": "Knockdown",
+					"alt": "Ken lands after the Tatsu ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"ryu-joe-medium-heavy-dp",
+			"ryu-joe-lights-light-tatsu",
+			"ryu-obahan-light-tatsu-hasho-throw"
+		]
+	},
+	{
+		"id": "ryu-joe-medium-light-donkey",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Medium punches into light Donkey Kick",
+		"summary": "Finish the standing-to-crouching medium confirm with light Donkey Kick.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > cr.MP > L Donkey Kick",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "L Donkey Kick",
+				"label": "Light Jodan Sokuto Geri (Donkey Kick)"
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": ["Denjin charge is a separate follow-up option demonstrated after the knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 359.25,
+			"end": 361.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-medium-light-donkey/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-medium-light-donkey/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-medium-light-donkey/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-medium-light-donkey/frame-1.jpg",
+					"at": 0.45,
+					"label": "Standing medium",
+					"alt": "Standing medium punch starts the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-medium-light-donkey/frame-2.jpg",
+					"at": 0.8,
+					"label": "Crouching medium",
+					"alt": "Crouching medium punch links into the kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-medium-light-donkey/frame-3.jpg",
+					"at": 1.7,
+					"label": "Light Donkey Kick",
+					"alt": "Light Donkey Kick knocks Ken away."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-medium-light-donkey/frame-4.jpg",
+					"at": 2.05,
+					"label": "Knockdown",
+					"alt": "Ken falls after the kick ender."
+				}
+			]
+		},
+		"relatedIds": ["ryu-joe-medium-heavy-dp", "ryu-joe-lights-light-donkey"]
+	},
+	{
+		"id": "ryu-joe-medium-heavy-tatsu-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Medium confirm into heavy Tatsu side switch",
+		"summary": "Heavy Tatsu carries through the opponent and changes sides after the medium starter.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Side switch"],
+		"outcomes": ["Side switch", "Knockdown"],
+		"notation": "st.MP > cr.MP > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Senpukyaku"
+			}
+		],
+		"conditions": ["Classic controls", "Close range", "Standing opponent as demonstrated"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 363.2,
+			"end": 366.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-medium-heavy-tatsu-switch/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-medium-heavy-tatsu-switch/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-medium-heavy-tatsu-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-medium-heavy-tatsu-switch/frame-1.jpg",
+					"at": 0.45,
+					"label": "Medium starter",
+					"alt": "Standing medium punch begins the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-medium-heavy-tatsu-switch/frame-2.jpg",
+					"at": 1.1,
+					"label": "Crouching medium",
+					"alt": "Crouching medium punch continues the route."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-medium-heavy-tatsu-switch/frame-3.jpg",
+					"at": 1.95,
+					"label": "Heavy Tatsu",
+					"alt": "Heavy Tatsu travels through the opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-medium-heavy-tatsu-switch/frame-4.jpg",
+					"at": 2.45,
+					"label": "Switch sides",
+					"alt": "Ken falls to the other side of Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-medium-heavy-tatsu-switch/frame-5.jpg",
+					"at": 3.05,
+					"label": "Recover facing the opponent",
+					"alt": "Ryu recovers after the side-switching Tatsu."
+				}
+			]
+		},
+		"relatedIds": ["ryu-joe-medium-heavy-dp", "ryu-joe-medium-light-tatsu"]
+	},
+	{
+		"id": "ryu-joe-medium-od-donkey-carry",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "OD Donkey Kick into airborne Tatsu carry",
+		"summary": "Use a delayed forward heavy kick after OD Donkey Kick, then cancel into airborne Tatsu.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Juggle extension"],
+		"outcomes": ["Corner carry", "Knockdown"],
+		"notation": "st.MP > cr.MP > OD Donkey Kick > f.HK > Air Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "OD Donkey Kick",
+				"label": "Overdrive Jodan Sokuto Geri (Donkey Kick)"
+			},
+			{
+				"id": "step-4",
+				"notation": "f.HK",
+				"label": "Forward heavy kick (Senpukyaku)",
+				"cue": "Delay this juggle after OD Donkey Kick, as shown."
+			},
+			{
+				"id": "step-5",
+				"notation": "Air Tatsu",
+				"label": "Airborne Tatsumaki Senpukyaku",
+				"cue": "Cancel from the airborne forward-heavy-kick follow-up."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close range",
+			"Delay the forward heavy kick to match the demonstrated juggle height"
+		],
+		"notes": [
+			"The source writes the airborne Tatsu input with a generic kick, without a separate light/medium/heavy label.",
+			"The source continues with two forward dashes and pressure options after this combo; those are separate wake-up actions."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 367.3,
+			"end": 371.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-medium-od-donkey-carry/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-medium-od-donkey-carry/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-medium-od-donkey-carry/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-medium-od-donkey-carry/frame-1.jpg",
+					"at": 0.65,
+					"label": "Standing medium",
+					"alt": "Standing medium punch opens the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-medium-od-donkey-carry/frame-2.jpg",
+					"at": 1.15,
+					"label": "Crouching medium",
+					"alt": "Crouching medium punch precedes the OD kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-medium-od-donkey-carry/frame-3.jpg",
+					"at": 1.65,
+					"label": "OD Donkey Kick",
+					"alt": "OD Donkey Kick launches Ken away."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-medium-od-donkey-carry/frame-4.jpg",
+					"at": 2.7,
+					"label": "Delayed forward heavy kick",
+					"alt": "Ryu waits before catching the falling opponent with forward heavy kick."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-medium-od-donkey-carry/frame-5.jpg",
+					"at": 3.65,
+					"label": "Air Tatsu",
+					"alt": "Airborne Tatsu continues the carry."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-joe-medium-od-donkey-carry/frame-6.jpg",
+					"at": 4.15,
+					"label": "Carry knockdown",
+					"alt": "Ken lands after the airborne follow-up."
+				}
+			]
+		},
+		"relatedIds": ["ryu-joe-medium-heavy-tatsu-switch", "ryu-joe-medium-light-donkey"]
+	},
+	{
+		"id": "ryu-joe-corner-dp-medium-meaty",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Corner Shoryuken into medium-kick frame kill",
+		"summary": "Whiff standing medium kick after the corner Shoryuken knockdown, then time standing medium punch on wake-up.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After knockdown"],
+		"outcomes": ["Meaty pressure"],
+		"notation": "cr.LP > cr.LP > st.LP > H Shoryuken > st.MK (whiff) > st.MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MK (whiff)",
+				"label": "Whiff standing medium kick",
+				"cue": "Whiff this kick to consume time after the knockdown."
+			},
+			{
+				"id": "step-6",
+				"notation": "st.MP",
+				"label": "Standing medium punch",
+				"cue": "Time the punch to meet the opponent’s wake-up."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Use the demonstrated three-light heavy Shoryuken knockdown"
+		],
+		"notes": [
+			"This is a knockdown followed by a separate wake-up sequence, not one uninterrupted combo.",
+			"The source overlays a positive-on-block result for this specific timing. The exact current-version advantage has not been tested."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 86.5,
+			"end": 90.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-corner-dp-medium-meaty/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-corner-dp-medium-meaty/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-corner-dp-medium-meaty/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-corner-dp-medium-meaty/frame-1.jpg",
+					"at": 0.95,
+					"label": "Light confirm",
+					"alt": "Crouching lights begin the corner knockdown route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-corner-dp-medium-meaty/frame-2.jpg",
+					"at": 1.95,
+					"label": "Heavy Shoryuken",
+					"alt": "Heavy Shoryuken launches the opponent in the corner."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-corner-dp-medium-meaty/frame-3.jpg",
+					"at": 2.95,
+					"label": "Whiff medium kick",
+					"alt": "Standing medium kick misses as the opponent is down."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-corner-dp-medium-meaty/frame-4.jpg",
+					"at": 3.45,
+					"label": "Wake-up medium punch",
+					"alt": "Standing medium punch meets Ken as he rises and is blocked."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-corner-dp-medium-meaty/frame-5.jpg",
+					"at": 3.95,
+					"label": "Pressure position",
+					"alt": "Both characters recover at close range after the blocked meaty."
+				}
+			]
+		},
+		"relatedIds": ["ryu-joe-lights-heavy-dp", "ryu-joe-corner-dp-light-overhead"]
+	},
+	{
+		"id": "ryu-joe-corner-dp-light-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Corner Shoryuken into light-kick overhead setup",
+		"summary": "Whiff standing light kick after Shoryuken, then convert the wake-up overhead on hit.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After knockdown", "Overhead"],
+		"outcomes": ["Overhead pressure", "Hit confirm"],
+		"notation": "cr.LP > cr.LP > st.LP > H Shoryuken > st.LK (whiff) > f.MP > st.LP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LK (whiff)",
+				"label": "Whiff standing light kick",
+				"cue": "Use the whiffed light kick as the shown timing action."
+			},
+			{
+				"id": "step-6",
+				"notation": "f.MP",
+				"label": "Forward medium punch overhead (Collarbone Breaker)",
+				"cue": "The overhead is a new wake-up attack after the knockdown."
+			},
+			{
+				"id": "step-7",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Use the demonstrated heavy Shoryuken knockdown"
+		],
+		"notes": [
+			"This is a knockdown followed by a separate wake-up sequence, not one uninterrupted combo.",
+			"The source also shows a blocked overhead version before this hit-confirm demonstration. Confirm the overhead before committing to the following light punch and Shoryuken."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 122.75,
+			"end": 128.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-corner-dp-light-overhead/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-corner-dp-light-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-corner-dp-light-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-corner-dp-light-overhead/frame-1.jpg",
+					"at": 0.5,
+					"label": "Light starter",
+					"alt": "Crouching lights begin the corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-corner-dp-light-overhead/frame-2.jpg",
+					"at": 2.0,
+					"label": "Shoryuken ender",
+					"alt": "Heavy Shoryuken completes the first combo."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-corner-dp-light-overhead/frame-3.jpg",
+					"at": 3.0,
+					"label": "Whiff light kick",
+					"alt": "Standing light kick misses while Ken is down."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-corner-dp-light-overhead/frame-4.jpg",
+					"at": 3.65,
+					"label": "Wake-up overhead",
+					"alt": "Collarbone Breaker connects as Ken wakes up."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-corner-dp-light-overhead/frame-5.jpg",
+					"at": 4.5,
+					"label": "Confirm to Shoryuken",
+					"alt": "Standing light punch confirms the overhead into heavy Shoryuken."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-joe-corner-dp-light-overhead/frame-6.jpg",
+					"at": 5.5,
+					"label": "Second knockdown",
+					"alt": "Ken falls from the separate overhead conversion."
+				}
+			]
+		},
+		"relatedIds": ["ryu-joe-corner-dp-medium-meaty", "ryu-joe-corner-tatsu-jab-overhead"]
+	},
+	{
+		"id": "ryu-joe-corner-tatsu-jab-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Corner Tatsu into jab frame kill and overhead",
+		"summary": "Whiff standing jab after light Tatsu, then convert the wake-up overhead into light punch and Shoryuken.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After knockdown", "Overhead"],
+		"outcomes": ["Overhead pressure", "Hit confirm"],
+		"notation": "cr.LP > cr.LP > st.LP > L Tatsu > st.LP (whiff) > f.MP > st.LP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "L Tatsu",
+				"label": "Light Tatsumaki Senpukyaku"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LP (whiff)",
+				"label": "Whiff standing light punch",
+				"cue": "Whiff the jab after recovering from light Tatsu."
+			},
+			{
+				"id": "step-6",
+				"notation": "f.MP",
+				"label": "Forward medium punch overhead (Collarbone Breaker)",
+				"cue": "Use the demonstrated wake-up timing."
+			},
+			{
+				"id": "step-7",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Use the demonstrated three-light light Tatsu knockdown"
+		],
+		"notes": [
+			"This is a knockdown followed by a separate wake-up sequence, not one uninterrupted combo.",
+			"The whiffed jab is a timing action. It is not an attack intended to hit the opponent."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 184.7,
+			"end": 190.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-corner-tatsu-jab-overhead/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-corner-tatsu-jab-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-corner-tatsu-jab-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-corner-tatsu-jab-overhead/frame-1.jpg",
+					"at": 0.55,
+					"label": "Light confirm",
+					"alt": "Crouching lights begin the Tatsu knockdown route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-corner-tatsu-jab-overhead/frame-2.jpg",
+					"at": 1.55,
+					"label": "Light Tatsu ender",
+					"alt": "Light Tatsu knocks Ken down beside the corner."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-corner-tatsu-jab-overhead/frame-3.jpg",
+					"at": 2.15,
+					"label": "Whiffed jab",
+					"alt": "Standing jab misses while Ken is down."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-corner-tatsu-jab-overhead/frame-4.jpg",
+					"at": 2.65,
+					"label": "Overhead on wake-up",
+					"alt": "Collarbone Breaker hits as Ken rises."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-corner-tatsu-jab-overhead/frame-5.jpg",
+					"at": 4.05,
+					"label": "Shoryuken confirm",
+					"alt": "Standing light punch leads into heavy Shoryuken."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-joe-corner-tatsu-jab-overhead/frame-6.jpg",
+					"at": 5.05,
+					"label": "Second knockdown",
+					"alt": "Ken falls from the overhead conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ryu-joe-lights-light-tatsu",
+			"ryu-joe-corner-dp-light-overhead",
+			"ryu-joe-corner-tatsu-hasho-confirm"
+		]
+	},
+	{
+		"id": "ryu-joe-corner-tatsu-hasho-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Corner Tatsu into meaty Hashogeki confirm",
+		"summary": "Use a whiffed jab to time light Hashogeki, then convert its hit into a corner juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After knockdown", "Juggle extension"],
+		"outcomes": ["Meaty pressure", "Hit confirm"],
+		"notation": "cr.LP > cr.LP > st.LP > L Tatsu > st.LP (whiff) > L Hashogeki > b.HP > H Donkey Kick > M Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "L Tatsu",
+				"label": "Light Tatsumaki Senpukyaku"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LP (whiff)",
+				"label": "Whiff standing light punch",
+				"cue": "Whiff the jab to time the following Hashogeki."
+			},
+			{
+				"id": "step-6",
+				"notation": "L Hashogeki",
+				"label": "Light Hashogeki",
+				"cue": "This is the new wake-up attack after the Tatsu knockdown."
+			},
+			{
+				"id": "step-7",
+				"notation": "b.HP",
+				"label": "Back heavy punch (Lift Uppercut)"
+			},
+			{
+				"id": "step-8",
+				"notation": "H Donkey Kick",
+				"label": "Heavy Jodan Sokuto Geri (Donkey Kick)"
+			},
+			{
+				"id": "step-9",
+				"notation": "M Shoryuken",
+				"label": "Medium Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Use the demonstrated light Tatsu knockdown",
+			"Wake-up light Hashogeki connects"
+		],
+		"notes": [
+			"This is a knockdown followed by a separate wake-up sequence, not one uninterrupted combo.",
+			"The source shows light Hashogeki blocked in the preceding take, then demonstrates this hit-confirm extension. The extension depends on the wake-up Hashogeki connecting."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 196.1,
+			"end": 202.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-corner-tatsu-hasho-confirm/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-corner-tatsu-hasho-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-corner-tatsu-hasho-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-corner-tatsu-hasho-confirm/frame-1.jpg",
+					"at": 0.65,
+					"label": "Light starter",
+					"alt": "Crouching lights start the corner Tatsu route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-corner-tatsu-hasho-confirm/frame-2.jpg",
+					"at": 1.65,
+					"label": "Light Tatsu",
+					"alt": "Light Tatsu ends the first combo."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-corner-tatsu-hasho-confirm/frame-3.jpg",
+					"at": 2.3,
+					"label": "Jab frame kill",
+					"alt": "Ryu whiffs standing jab after the knockdown."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-corner-tatsu-hasho-confirm/frame-4.jpg",
+					"at": 3.15,
+					"label": "Meaty Hashogeki",
+					"alt": "Light Hashogeki connects as Ken wakes up."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-corner-tatsu-hasho-confirm/frame-5.jpg",
+					"at": 4.15,
+					"label": "Corner juggle",
+					"alt": "Back heavy punch leads into heavy Donkey Kick."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-joe-corner-tatsu-hasho-confirm/frame-6.jpg",
+					"at": 5.15,
+					"label": "Medium Shoryuken",
+					"alt": "Medium Shoryuken catches Ken after the corner kick juggle."
+				}
+			]
+		},
+		"relatedIds": ["ryu-joe-corner-tatsu-jab-overhead", "ryu-joe-lights-light-tatsu"]
+	},
+	{
+		"id": "ryu-joe-corner-donkey-medium-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Corner Donkey Kick into medium-punch frame kill",
+		"summary": "Whiff standing medium punch after light Donkey Kick, then convert the overhead on wake-up.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After knockdown", "Overhead"],
+		"outcomes": ["Overhead pressure", "Hit confirm"],
+		"notation": "cr.LP > cr.LP > L Donkey Kick > st.MP (whiff) > f.MP > st.LP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "L Donkey Kick",
+				"label": "Light Jodan Sokuto Geri (Donkey Kick)"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP (whiff)",
+				"label": "Whiff standing medium punch",
+				"cue": "Whiff this medium punch after the kick knockdown."
+			},
+			{
+				"id": "step-5",
+				"notation": "f.MP",
+				"label": "Forward medium punch overhead (Collarbone Breaker)",
+				"cue": "Use the demonstrated wake-up overhead timing."
+			},
+			{
+				"id": "step-6",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Use the demonstrated two-jab light Donkey Kick knockdown"
+		],
+		"notes": [
+			"This is a knockdown followed by a separate wake-up sequence, not one uninterrupted combo."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 218.75,
+			"end": 224.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-corner-donkey-medium-overhead/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-corner-donkey-medium-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-corner-donkey-medium-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-corner-donkey-medium-overhead/frame-1.jpg",
+					"at": 0.5,
+					"label": "Two crouching lights",
+					"alt": "Two crouching light punches begin the corner starter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-corner-donkey-medium-overhead/frame-2.jpg",
+					"at": 1.5,
+					"label": "Light Donkey Kick",
+					"alt": "Light Donkey Kick knocks Ken down."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-corner-donkey-medium-overhead/frame-3.jpg",
+					"at": 2.3,
+					"label": "Whiff medium punch",
+					"alt": "Standing medium punch misses as a timing action."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-corner-donkey-medium-overhead/frame-4.jpg",
+					"at": 3.2,
+					"label": "Wake-up overhead",
+					"alt": "Collarbone Breaker connects on wake-up."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-corner-donkey-medium-overhead/frame-5.jpg",
+					"at": 4.0,
+					"label": "Shoryuken confirm",
+					"alt": "Standing light punch cancels into heavy Shoryuken."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-joe-corner-donkey-medium-overhead/frame-6.jpg",
+					"at": 5.0,
+					"label": "Second knockdown",
+					"alt": "Ken falls after the overhead conversion."
+				}
+			]
+		},
+		"relatedIds": ["ryu-joe-lights-light-donkey", "ryu-joe-corner-tatsu-jab-overhead"]
+	},
+	{
+		"id": "ryu-joe-corner-od-tatsu-framekill-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "OD Tatsu knockdown into two frame kills and medium confirm",
+		"summary": "After OD Tatsu and heavy Shoryuken, whiff jab and light kick before the wake-up medium-punch confirm.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After knockdown", "Juggle extension"],
+		"outcomes": ["Meaty pressure", "Hit confirm"],
+		"notation": "cr.LP > cr.LP > st.LP > OD Tatsu > H Shoryuken > st.LP (whiff) > st.LK (whiff) > st.MP > b.HP > H Donkey Kick > M Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "OD Tatsu",
+				"label": "Overdrive Tatsumaki Senpukyaku"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.LP (whiff)",
+				"label": "Whiff standing light punch",
+				"cue": "First timing action after the knockdown."
+			},
+			{
+				"id": "step-7",
+				"notation": "st.LK (whiff)",
+				"label": "Whiff standing light kick",
+				"cue": "Second timing action, immediately after the whiffed jab."
+			},
+			{
+				"id": "step-8",
+				"notation": "st.MP",
+				"label": "Standing medium punch",
+				"cue": "Convert only when the wake-up medium punch hits."
+			},
+			{
+				"id": "step-9",
+				"notation": "b.HP",
+				"label": "Back heavy punch (Lift Uppercut)"
+			},
+			{
+				"id": "step-10",
+				"notation": "H Donkey Kick",
+				"label": "Heavy Jodan Sokuto Geri (Donkey Kick)"
+			},
+			{
+				"id": "step-11",
+				"notation": "M Shoryuken",
+				"label": "Medium Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Use the demonstrated OD Tatsu into heavy Shoryuken knockdown",
+			"Wake-up standing medium punch connects"
+		],
+		"notes": [
+			"This is a knockdown followed by a separate wake-up sequence, not one uninterrupted combo.",
+			"The two whiffed attacks are deliberate timing actions. They are not part of the preceding combo."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 293.95,
+			"end": 303.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ November 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-corner-od-tatsu-framekill-confirm/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-corner-od-tatsu-framekill-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-corner-od-tatsu-framekill-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-corner-od-tatsu-framekill-confirm/frame-1.jpg",
+					"at": 1.5,
+					"label": "Light confirm",
+					"alt": "The light starter cancels into the OD Tatsu route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-corner-od-tatsu-framekill-confirm/frame-2.jpg",
+					"at": 4.0,
+					"label": "Shoryuken knockdown",
+					"alt": "Heavy Shoryuken finishes the first juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-corner-od-tatsu-framekill-confirm/frame-3.jpg",
+					"at": 5.0,
+					"label": "Whiff jab and light kick",
+					"alt": "Ryu uses the two whiffed lights to time the next attack."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-corner-od-tatsu-framekill-confirm/frame-4.jpg",
+					"at": 5.5,
+					"label": "Wake-up medium punch",
+					"alt": "Standing medium punch starts a new hit-confirm sequence."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-corner-od-tatsu-framekill-confirm/frame-5.jpg",
+					"at": 7.0,
+					"label": "Heavy Donkey Kick juggle",
+					"alt": "Back heavy punch leads into heavy Donkey Kick."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-joe-corner-od-tatsu-framekill-confirm/frame-6.jpg",
+					"at": 8.0,
+					"label": "Medium Shoryuken finish",
+					"alt": "Medium Shoryuken ends the second corner juggle."
+				}
+			]
+		},
+		"relatedIds": ["ryu-joe-lights-od-tatsu-heavy-dp", "ryu-joe-corner-dp-medium-meaty"]
+	},
+	{
+		"id": "ryu-joe-mp-od-blade-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Medium confirm into OD Blade Kick and DP",
+		"summary": "Link two medium punches, launch with OD High Blade Kick, then juggle into Shoryuken.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > cr.MP > OD High Blade Kick > b.HK > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "OD High Blade Kick",
+				"label": "Overdrive High Blade Kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "b.HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Close-range medium confirm"],
+		"notes": ["The back heavy kick links the OD launcher to the Shoryuken juggle."],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "No Super spend"
+		},
+		"relatedIds": [],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 395.25,
+			"end": 399.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-mp-od-blade-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-mp-od-blade-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-mp-od-blade-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-mp-od-blade-dp/frame-1.jpg",
+					"at": 0.75,
+					"label": "Medium confirm",
+					"alt": "Ryu connects the close medium-punch sequence against Ken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-mp-od-blade-dp/frame-2.jpg",
+					"at": 1.4,
+					"label": "OD Blade Kick",
+					"alt": "Ryu glows gold as OD High Blade Kick connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-mp-od-blade-dp/frame-3.jpg",
+					"at": 2.15,
+					"label": "Juggle height",
+					"alt": "Ken is airborne after the OD launcher while Ryu prepares the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-mp-od-blade-dp/frame-4.jpg",
+					"at": 2.85,
+					"label": "Shoryuken",
+					"alt": "Ryu begins the rising Shoryuken beneath Ken."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-mp-od-blade-dp/frame-5.jpg",
+					"at": 3.55,
+					"label": "DP ascent",
+					"alt": "Ryu rises with Ken during the final Shoryuken."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-corner-medium-blade-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Corner medium confirm into Blade Kick and DP",
+		"summary": "A meterless corner route from standing medium punch through back heavy punch.",
+		"kind": "combo",
+		"situations": ["Corner"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > b.HP > H High Blade Kick > M Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "H High Blade Kick",
+				"label": "Heavy High Blade Kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Shoryuken",
+				"label": "Medium Shoryuken"
+			}
+		],
+		"conditions": ["Opponent in the corner", "Close range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-joe-corner-di-blade-dp"],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 462.8,
+			"end": 466.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-corner-medium-blade-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-corner-medium-blade-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-corner-medium-blade-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-corner-medium-blade-dp/frame-1.jpg",
+					"at": 0.4,
+					"label": "Medium starter",
+					"alt": "Ryu starts the close standing-medium confirm with Ken in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-corner-medium-blade-dp/frame-2.jpg",
+					"at": 1.6,
+					"label": "Heavy Blade Kick",
+					"alt": "Ryu kicks Ken against the corner with heavy High Blade Kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-corner-medium-blade-dp/frame-3.jpg",
+					"at": 2.2,
+					"label": "Medium DP",
+					"alt": "Ryu catches the corner juggle with medium Shoryuken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-corner-medium-blade-dp/frame-4.jpg",
+					"at": 3.3,
+					"label": "Corner knockdown",
+					"alt": "Ken falls beside the corner after the Shoryuken juggle."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-low-drive-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Low confirm into Drive Rush and DP",
+		"summary": "Cancel crouching medium kick into Drive Rush and link two heavy punches before DP.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK > DRC > st.HP > b.HP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Crouching medium kick connects"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Rush cancel",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-joe-heavy-drive-dp"],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 535,
+			"end": 539.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-low-drive-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-low-drive-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-low-drive-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-low-drive-dp/frame-1.jpg",
+					"at": 0.35,
+					"label": "Low starter",
+					"alt": "Ryu reaches Ken with crouching medium kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-low-drive-dp/frame-2.jpg",
+					"at": 0.75,
+					"label": "Rush cancel",
+					"alt": "Ryu moves forward with the green Drive Rush effect."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-low-drive-dp/frame-3.jpg",
+					"at": 1.5,
+					"label": "Heavy link",
+					"alt": "Ryu continues the close heavy-punch sequence after the Rush cancel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-low-drive-dp/frame-4.jpg",
+					"at": 2.5,
+					"label": "Heavy DP",
+					"alt": "Ryu rises into heavy Shoryuken to finish the confirm."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-heavy-drive-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Heavy confirm into Drive Rush kick and DP",
+		"summary": "Use standing heavy punch to reach a Drive Rush heavy-kick and crouching-heavy link.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > DRC > st.HK > cr.HP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Standing heavy punch connects"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Rush cancel",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-joe-low-drive-dp"],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 572,
+			"end": 576.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-heavy-drive-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-heavy-drive-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-heavy-drive-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-heavy-drive-dp/frame-1.jpg",
+					"at": 0.5,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch connects against Ken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-heavy-drive-dp/frame-2.jpg",
+					"at": 1.05,
+					"label": "Rush heavy kick",
+					"alt": "Ryu performs the standing-heavy-kick follow-up with the green Rush effect."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-heavy-drive-dp/frame-3.jpg",
+					"at": 1.75,
+					"label": "Crouching heavy link",
+					"alt": "Ryu continues at close range before canceling into Shoryuken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-heavy-drive-dp/frame-4.jpg",
+					"at": 2.4,
+					"label": "DP finish",
+					"alt": "Ryu starts the heavy Shoryuken juggle."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-drive-overhead-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Drive Rush overhead into DP",
+		"summary": "Convert a raw Drive Rush overhead into crouching medium punch and Shoryuken.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > f.MP > cr.MP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MP",
+				"label": "Collarbone Breaker overhead"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Drive Rush overhead connects"],
+		"notes": ["Link crouching medium punch after the Rush overhead before the DP cancel."],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"relatedIds": [],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 671.5,
+			"end": 675.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-drive-overhead-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-drive-overhead-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-drive-overhead-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-drive-overhead-dp/frame-1.jpg",
+					"at": 0.6,
+					"label": "Raw Drive Rush",
+					"alt": "Ryu advances toward Ken with Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-drive-overhead-dp/frame-2.jpg",
+					"at": 1.25,
+					"label": "Overhead connects",
+					"alt": "Ryu strikes Ken with the forward-medium overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-drive-overhead-dp/frame-3.jpg",
+					"at": 2.0,
+					"label": "DP conversion",
+					"alt": "Ryu converts the close follow-up into Shoryuken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-drive-overhead-dp/frame-4.jpg",
+					"at": 3.6,
+					"label": "Knockdown",
+					"alt": "Ken is down after the overhead conversion."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-solar-plexus-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Solar Plexus into medium and DP",
+		"summary": "Convert forward heavy punch into a crouching-medium link and meterless DP.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "f.HP > cr.MP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "f.HP",
+				"label": "Solar Plexus Punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Solar Plexus Punch connects"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"relatedIds": [],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 719.2,
+			"end": 723.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-solar-plexus-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-solar-plexus-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-solar-plexus-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-solar-plexus-dp/frame-1.jpg",
+					"at": 0.9,
+					"label": "Solar Plexus starter",
+					"alt": "Ryu drives the forward-heavy punch toward Ken at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-solar-plexus-dp/frame-2.jpg",
+					"at": 2.0,
+					"label": "Shoryuken conversion",
+					"alt": "Ryu begins Shoryuken after the medium-punch link."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-solar-plexus-dp/frame-3.jpg",
+					"at": 3.6,
+					"label": "Knockdown",
+					"alt": "Ken falls in front of Ryu after heavy Shoryuken."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-shimmy-hasho-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Shimmy punish into Tatsu and dash-up",
+		"summary": "Punish a throw whiff with heavy punch, heavy Hashogeki and medium Tatsu, then dash and walk into pressure range.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "Shimmy > st.HP (PC) > H Hashogeki > M Tatsu > Forward dash > Short walk",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Shimmy",
+				"label": "Move out of throw range"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP (PC)",
+				"label": "Punish-counter standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "H Hashogeki",
+				"label": "Heavy Hashogeki"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Tatsu",
+				"label": "Medium Tatsumaki"
+			},
+			{
+				"id": "step-5",
+				"notation": "Forward dash",
+				"label": "Forward dash after the knockdown"
+			},
+			{
+				"id": "step-6",
+				"notation": "Short walk",
+				"label": "Walk into pressure range"
+			}
+		],
+		"conditions": ["Standing heavy punch lands as a punish counter after a whiffed throw"],
+		"notes": [
+			"This is the heavy Hashogeki route shown without a stored Denjin charge.",
+			"The dash and short walk happen after the medium-Tatsu knockdown; they prepare pressure after the damage combo."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"relatedIds": [],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 759,
+			"end": 763.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-shimmy-hasho-tatsu/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-shimmy-hasho-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-shimmy-hasho-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-shimmy-hasho-tatsu/frame-1.jpg",
+					"at": 0.6,
+					"label": "Throw whiffs",
+					"alt": "Ken reaches for a throw while Ryu remains outside its range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-shimmy-hasho-tatsu/frame-2.jpg",
+					"at": 1.6,
+					"label": "Heavy Hashogeki",
+					"alt": "Ryu sends heavy Hashogeki into Ken after the heavy-punch punish."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-shimmy-hasho-tatsu/frame-3.jpg",
+					"at": 2.7,
+					"label": "Medium Tatsu",
+					"alt": "Ryu spins into the medium Tatsu follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-shimmy-hasho-tatsu/frame-4.jpg",
+					"at": 4,
+					"label": "Close for pressure",
+					"alt": "Ryu has closed the gap after the medium-Tatsu knockdown."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-drive-reversal-punish",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Block Drive Reversal into medium punish",
+		"summary": "After blocking the demonstrated close Drive Reversal, punish with medium punch, heavy punch and DP.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "Block Drive Reversal > st.MP > st.HP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Block Drive Reversal",
+				"label": "Block the incoming Drive Reversal"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Block the close-range Drive Reversal shown in the source"],
+		"notes": [
+			"The excerpt includes the reversal before the punish so its block-and-recover timing is visible."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"relatedIds": [],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 772.2,
+			"end": 777
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-drive-reversal-punish/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-drive-reversal-punish/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-drive-reversal-punish/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-drive-reversal-punish/frame-1.jpg",
+					"at": 0.4,
+					"label": "Incoming reversal",
+					"alt": "Ken starts Drive Reversal against Ryu at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-drive-reversal-punish/frame-2.jpg",
+					"at": 1.9,
+					"label": "Medium punish",
+					"alt": "Ryu lands the standing-medium punish after blocking the reversal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-drive-reversal-punish/frame-3.jpg",
+					"at": 3.0,
+					"label": "DP finish",
+					"alt": "Ryu rises with Ken during the heavy Shoryuken finish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-drive-reversal-punish/frame-4.jpg",
+					"at": 4.6,
+					"label": "Reset spacing",
+					"alt": "Both characters return to close standing positions after the punish."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-denjin-low-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Denjin low confirm into Tatsu and dash-up",
+		"summary": "Use the stored-charge OD Hashogeki conversion, finish with medium Tatsu, then dash and walk up during the knockdown.",
+		"kind": "setup",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK > OD Denjin Hashogeki > Short walk > cr.HP > M Tatsu > Forward dash > Short walk",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "OD Denjin Hashogeki",
+				"label": "Overdrive Denjin Hashogeki"
+			},
+			{
+				"id": "step-3",
+				"notation": "Short walk",
+				"label": "Walk forward during the crumple"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "M Tatsu",
+				"label": "Medium Tatsumaki"
+			},
+			{
+				"id": "step-6",
+				"notation": "Forward dash",
+				"label": "Forward dash after the knockdown"
+			},
+			{
+				"id": "step-7",
+				"notation": "Short walk",
+				"label": "Walk into pressure range"
+			}
+		],
+		"conditions": ["Stored Denjin charge", "Crouching medium kick connects"],
+		"notes": [
+			"The source demonstrates charging Denjin immediately before the combo. The low starter is crouching medium kick.",
+			"The dash and short walk happen after the medium-Tatsu knockdown; they prepare pressure after the damage combo."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "No Super spend"
+		},
+		"relatedIds": [],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 778.6,
+			"end": 784.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-denjin-low-tatsu/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-denjin-low-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-denjin-low-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-denjin-low-tatsu/frame-1.jpg",
+					"at": 1.1,
+					"label": "Stored Denjin",
+					"alt": "Ryu shows the blue Denjin effect before beginning the low confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-denjin-low-tatsu/frame-2.jpg",
+					"at": 1.9,
+					"label": "OD Denjin Hashogeki",
+					"alt": "The gold OD effect appears as Ryu converts the low starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-denjin-low-tatsu/frame-3.jpg",
+					"at": 3.0,
+					"label": "Walk into range",
+					"alt": "Ryu approaches while Ken remains affected by the Denjin launcher."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-denjin-low-tatsu/frame-4.jpg",
+					"at": 3.5,
+					"label": "Heavy-punch juggle",
+					"alt": "Ryu lifts Ken with the close crouching-heavy follow-up."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-denjin-low-tatsu/frame-5.jpg",
+					"at": 4.3,
+					"label": "Medium Tatsu",
+					"alt": "Ryu spins through the final medium Tatsu juggle."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-heavy-punish-charge",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Heavy punish into sweep and Denjin charge",
+		"summary": "Use the heavy-kick punish-counter crumple to reach a sweep knockdown and charge Denjin.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Punish"],
+		"outcomes": ["Knockdown", "Denjin charge"],
+		"notation": "st.HK (PC) > Short walk > cr.HP > L Hashogeki > cr.HK > Denjin Renki",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK (PC)",
+				"label": "Punish-counter standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "Short walk",
+				"label": "Walk forward during the crumple"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "L Hashogeki",
+				"label": "Light Hashogeki"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.HK",
+				"label": "Crouching heavy kick sweep"
+			},
+			{
+				"id": "step-6",
+				"notation": "Denjin Renki",
+				"label": "Charge Denjin after the knockdown"
+			}
+		],
+		"conditions": ["Standing heavy kick lands as a punish counter at the shown spacing"],
+		"notes": [
+			"Walk forward during the heavy-kick crumple. Denjin Renki follows the sweep knockdown; it is preparation for the next interaction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-joe-heavy-punish-side-switch"],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 933.8,
+			"end": 938.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-heavy-punish-charge/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-heavy-punish-charge/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-heavy-punish-charge/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-heavy-punish-charge/frame-1.jpg",
+					"at": 0.3,
+					"label": "Heavy-kick punish",
+					"alt": "Ryu hits Ken with standing heavy kick after the reversal recovery."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-heavy-punish-charge/frame-2.jpg",
+					"at": 1.4,
+					"label": "Crouching heavy",
+					"alt": "Ryu reaches the crumpling opponent with crouching heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-heavy-punish-charge/frame-3.jpg",
+					"at": 2.0,
+					"label": "Light Hashogeki",
+					"alt": "Ryu juggles Ken with light Hashogeki."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-heavy-punish-charge/frame-4.jpg",
+					"at": 2.8,
+					"label": "Sweep knockdown",
+					"alt": "Ryu sweeps the falling opponent."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-heavy-punish-charge/frame-5.jpg",
+					"at": 3.6,
+					"label": "Denjin charge",
+					"alt": "Ryu glows blue while charging Denjin after the sweep."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-heavy-punish-side-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Heavy punish into side-switch Tatsu",
+		"summary": "Use heavy Tatsu after the heavy-kick crumple to cross to the other side.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish"],
+		"outcomes": ["Side switch", "Knockdown"],
+		"notation": "st.HK (PC) > Short walk > cr.HP > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK (PC)",
+				"label": "Punish-counter standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "Short walk",
+				"label": "Walk forward during the crumple"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki"
+			}
+		],
+		"conditions": ["Standing heavy kick lands as a punish counter"],
+		"notes": [
+			"Use heavy Tatsu for the side change shown here. Subsequent directions reverse after crossing the opponent."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-joe-heavy-punish-charge"],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 956.15,
+			"end": 960.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-heavy-punish-side-switch/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-heavy-punish-side-switch/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-heavy-punish-side-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-heavy-punish-side-switch/frame-1.jpg",
+					"at": 0.8,
+					"label": "Heavy-kick punish",
+					"alt": "Ryu lands the standing-heavy-kick punish counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-heavy-punish-side-switch/frame-2.jpg",
+					"at": 1.35,
+					"label": "Walk during crumple",
+					"alt": "Ryu moves forward while Ken crumples from heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-heavy-punish-side-switch/frame-3.jpg",
+					"at": 2.25,
+					"label": "Heavy Tatsu",
+					"alt": "Ryu spins through Ken with heavy Tatsumaki."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-heavy-punish-side-switch/frame-4.jpg",
+					"at": 3.05,
+					"label": "Side change",
+					"alt": "Ken falls while Ryu passes to the other side."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-heavy-punish-side-switch/frame-5.jpg",
+					"at": 3.85,
+					"label": "Switched positions",
+					"alt": "Ryu and Ken finish with their left-right positions reversed."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-di-solar-plexus-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Counter DI into Solar Plexus and DP",
+		"summary": "Convert the Drive Impact crumple into forward heavy punch, standing medium punch and DP.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI (PC) > f.HP > st.MP > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI (PC)",
+				"label": "Punish-counter Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.HP",
+				"label": "Solar Plexus Punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Drive Impact lands as a punish counter"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-joe-di-tatsu"],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 1053.8,
+			"end": 1060.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-di-solar-plexus-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-di-solar-plexus-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-di-solar-plexus-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-di-solar-plexus-dp/frame-1.jpg",
+					"at": 0.3,
+					"label": "Counter Drive Impact",
+					"alt": "Ryu starts Drive Impact against Ken's incoming Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-di-solar-plexus-dp/frame-2.jpg",
+					"at": 1.6,
+					"label": "Punish-counter crumple",
+					"alt": "Ryu's Drive Impact hits with the black-and-white punish-counter effect."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-di-solar-plexus-dp/frame-3.jpg",
+					"at": 2.7,
+					"label": "Follow the crumple",
+					"alt": "Ryu follows the crumpling opponent into the normal-attack sequence."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-di-solar-plexus-dp/frame-4.jpg",
+					"at": 3.2,
+					"label": "Medium link",
+					"alt": "Ryu connects the close medium-punch follow-up."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-di-solar-plexus-dp/frame-5.jpg",
+					"at": 4.4,
+					"label": "DP conversion",
+					"alt": "Ryu begins the Shoryuken finish under Ken."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-joe-di-solar-plexus-dp/frame-6.jpg",
+					"at": 5.6,
+					"label": "Knockdown",
+					"alt": "Ken falls after the meterless DP follow-up."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-di-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Counter DI into Tatsu and dash-up",
+		"summary": "Convert the counter-DI crumple into medium Tatsu, then dash up during the knockdown.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Drive Impact"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI (PC) > Short walk > cr.HP > M Tatsu > Forward dash",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI (PC)",
+				"label": "Punish-counter Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "Short walk",
+				"label": "Walk forward during the crumple"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Tatsu",
+				"label": "Medium Tatsumaki"
+			},
+			{
+				"id": "step-5",
+				"notation": "Forward dash",
+				"label": "Forward dash after the knockdown",
+				"cue": "The source calls this step; it follows the damage combo."
+			}
+		],
+		"conditions": ["Drive Impact lands as a punish counter"],
+		"notes": [
+			"Walk into crouching-heavy range during the crumple.",
+			"The forward dash follows the medium-Tatsu knockdown; it is a setup action after the uninterrupted damage combo."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-joe-di-solar-plexus-dp"],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 1061.6,
+			"end": 1068.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-di-tatsu/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-di-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-di-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-di-tatsu/frame-1.jpg",
+					"at": 1.6,
+					"label": "Counter Drive Impact",
+					"alt": "Ryu uses Drive Impact against Ken's incoming attack."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-di-tatsu/frame-2.jpg",
+					"at": 2.8,
+					"label": "Crumple",
+					"alt": "Ryu's Drive Impact connects as a punish counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-di-tatsu/frame-3.jpg",
+					"at": 3.8,
+					"label": "Walk-up heavy",
+					"alt": "Ryu reaches the crumpling opponent for the crouching-heavy follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-di-tatsu/frame-4.jpg",
+					"at": 5.4,
+					"label": "Medium Tatsu",
+					"alt": "Ryu spins through the medium Tatsu juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-di-tatsu/frame-5.jpg",
+					"at": 6.4,
+					"label": "Approach after Tatsu",
+					"alt": "Ryu approaches Ken after the Tatsu knockdown."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-corner-di-blade-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Corner counter DI into Blade Kick and DP",
+		"summary": "Use back heavy punch after the corner DI crumple, then juggle Blade Kick into medium DP.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI (PC) > b.HP > H High Blade Kick > M Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI (PC)",
+				"label": "Punish-counter Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "H High Blade Kick",
+				"label": "Heavy High Blade Kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Shoryuken",
+				"label": "Medium Shoryuken"
+			}
+		],
+		"conditions": ["Opponent in the corner", "Drive Impact lands as a punish counter"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-joe-corner-medium-blade-dp", "ryu-joe-wall-splat-blade"],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 1110.4,
+			"end": 1117.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-corner-di-blade-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-corner-di-blade-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-corner-di-blade-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-corner-di-blade-dp/frame-1.jpg",
+					"at": 1.8,
+					"label": "Counter DI starts",
+					"alt": "Ryu counters the incoming corner attack with Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-corner-di-blade-dp/frame-2.jpg",
+					"at": 3.3,
+					"label": "DI crumple",
+					"alt": "Ryu's Drive Impact connects with a punish-counter crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-corner-di-blade-dp/frame-3.jpg",
+					"at": 4.3,
+					"label": "Back heavy punch",
+					"alt": "Ryu connects the back-heavy-punch follow-up at the corner."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-corner-di-blade-dp/frame-4.jpg",
+					"at": 4.75,
+					"label": "Heavy Blade Kick",
+					"alt": "Ryu strikes the cornered opponent with heavy High Blade Kick."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-corner-di-blade-dp/frame-5.jpg",
+					"at": 5.4,
+					"label": "Medium DP",
+					"alt": "Ryu begins the medium Shoryuken juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-joe-corner-di-blade-dp/frame-6.jpg",
+					"at": 6.8,
+					"label": "Corner knockdown",
+					"alt": "Ken falls beside Ryu after the corner juggle."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-wall-splat-blade",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Blocked DI into heavy Blade Kick",
+		"summary": "Convert a blocked corner Drive Impact wall splat into crouching heavy punch and heavy Blade Kick.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI (blocked) > cr.HP > H High Blade Kick",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI (blocked)",
+				"label": "Blocked Drive Impact wall splat"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "H High Blade Kick",
+				"label": "Heavy High Blade Kick"
+			}
+		],
+		"conditions": ["Opponent in the corner", "Blocked Drive Impact causes a wall splat"],
+		"notes": [
+			"This is the blocked-DI wall-splat route, which is distinct from the punish-counter DI crumple route."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-joe-corner-di-blade-dp"],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 1206.2,
+			"end": 1209.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-wall-splat-blade/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-wall-splat-blade/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-wall-splat-blade/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-wall-splat-blade/frame-1.jpg",
+					"at": 0.8,
+					"label": "DI on guard",
+					"alt": "Ken blocks Ryu's Drive Impact with his back to the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-wall-splat-blade/frame-2.jpg",
+					"at": 1.8,
+					"label": "Wall-splat follow-up",
+					"alt": "Ryu strikes the wall-splatted opponent with crouching heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-wall-splat-blade/frame-3.jpg",
+					"at": 2.8,
+					"label": "Heavy Blade Kick",
+					"alt": "Ryu hits Ken with heavy High Blade Kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-wall-splat-blade/frame-4.jpg",
+					"at": 3.1,
+					"label": "Blade Kick recovery",
+					"alt": "Ken is airborne after the Blade Kick as Ryu recovers at the corner."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-stun-denjin-meterless",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Stun: charge into a meterless jump-in route",
+		"summary": "Charge Denjin during stun, jump in and convert through enhanced heavy Hashogeki into DP.",
+		"kind": "combo",
+		"situations": ["Corner", "Stun"],
+		"outcomes": ["Knockdown"],
+		"notation": "Denjin Renki > j.HK > st.HK > cr.MK > H Denjin Hashogeki > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Denjin Renki",
+				"label": "Charge Denjin during stun"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Denjin Hashogeki",
+				"label": "Heavy Denjin Hashogeki"
+			},
+			{
+				"id": "step-6",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Opponent already stunned in the corner"],
+		"notes": [
+			"The route begins after the stun has been triggered. Charge Denjin before the jump-in."
+		],
+		"resources": {
+			"drive": "No further Drive spend after stun",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-joe-stun-charged-sa2-dp"],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 1260.4,
+			"end": 1266.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-stun-denjin-meterless/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-stun-denjin-meterless/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-stun-denjin-meterless/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-stun-denjin-meterless/frame-1.jpg",
+					"at": 0.25,
+					"label": "Charge during stun",
+					"alt": "Ryu charges Denjin while Ken is stunned in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-stun-denjin-meterless/frame-2.jpg",
+					"at": 1.5,
+					"label": "Jump-in",
+					"alt": "Ryu hits the stunned opponent with jumping heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-stun-denjin-meterless/frame-3.jpg",
+					"at": 2.5,
+					"label": "Low follow-up",
+					"alt": "Ryu continues the grounded sequence with the low follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-stun-denjin-meterless/frame-4.jpg",
+					"at": 3.4,
+					"label": "Denjin Hashogeki",
+					"alt": "Ryu connects the enhanced Hashogeki as blue energy surrounds Ken."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-stun-denjin-meterless/frame-5.jpg",
+					"at": 4.5,
+					"label": "DP juggle",
+					"alt": "Ryu continues the corner juggle into Shoryuken."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-joe-stun-denjin-meterless/frame-6.jpg",
+					"at": 5.6,
+					"label": "Knockdown",
+					"alt": "Ken lands at the corner after the Shoryuken finish."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-joe-stun-charged-sa2-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Stun: charged Level 2 into Rush and DP",
+		"summary": "Use the stun window for Denjin and a charged Level 2, then Rush into a heavy-punch juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Stun"],
+		"outcomes": ["Knockdown"],
+		"notation": "Denjin Renki > SA2 (hold) > DR > cr.HP > M Hashogeki > H Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Denjin Renki",
+				"label": "Charge Denjin during stun"
+			},
+			{
+				"id": "step-2",
+				"notation": "SA2 (hold)",
+				"label": "Hold the Level 2 Super Art charge"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "M Hashogeki",
+				"label": "Medium Hashogeki"
+			},
+			{
+				"id": "step-6",
+				"notation": "H Shoryuken",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Opponent already stunned in the corner", "Level 2 Super available"],
+		"notes": ["Hold the charged Level 2 as shown, then Drive Rush into crouching heavy punch."],
+		"resources": {
+			"drive": "Drive Rush after stun",
+			"super": "Level 2"
+		},
+		"relatedIds": ["ryu-joe-stun-denjin-meterless"],
+		"source": {
+			"id": "joe-ebios-ryu-2025",
+			"title": "Classic RYU Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Nxe9bFjbD0I",
+			"published": "2025-11-28",
+			"start": 1343.6,
+			"end": 1353.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, on-screen captions and visible action order checked against the November 2025 source footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-joe-stun-charged-sa2-dp/clip.mp4",
+			"poster": "/media/ryu/ryu-joe-stun-charged-sa2-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-joe-stun-charged-sa2-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-joe-stun-charged-sa2-dp/frame-1.jpg",
+					"at": 0.4,
+					"label": "Denjin preparation",
+					"alt": "Ryu begins charging Denjin while the opponent is stunned."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-joe-stun-charged-sa2-dp/frame-2.jpg",
+					"at": 2.8,
+					"label": "Charged Level 2",
+					"alt": "Blue energy fills the screen as Ryu charges Level 2."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-joe-stun-charged-sa2-dp/frame-3.jpg",
+					"at": 4.6,
+					"label": "Super connects",
+					"alt": "Ryu releases the charged Super into Ken in the corner."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-joe-stun-charged-sa2-dp/frame-4.jpg",
+					"at": 5.7,
+					"label": "Drive Rush follow-up",
+					"alt": "Ryu advances with the green Drive Rush effect after the Super."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-joe-stun-charged-sa2-dp/frame-5.jpg",
+					"at": 6.5,
+					"label": "Hashogeki juggle",
+					"alt": "Ryu launches Ken with the medium Hashogeki follow-up."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-joe-stun-charged-sa2-dp/frame-6.jpg",
+					"at": 7.8,
+					"label": "Shoryuken finish",
+					"alt": "Ryu rises into the final Shoryuken juggle."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-amkidd-jump-od-tatsu-sa1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Jump-in into OD Tatsu and Level 1",
+		"summary": "A jump-heavy starter links standing heavy kick into crouching medium kick, then OD Tatsu and Level 1.",
+		"kind": "combo",
+		"situations": ["Jump-in", "Midscreen"],
+		"outcomes": ["Super finish", "Knockdown"],
+		"notation": "j.HP > st.HK > cr.MK > OD Tatsu > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "j.HP",
+				"label": "Jumping heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "OD Tatsu",
+				"label": "OD Tatsumaki Senpukyaku"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "Shinku Hadoken"
+			}
+		],
+		"conditions": ["Classic controls", "Use the demonstrated starting range and juggle height"],
+		"notes": [
+			"The source also shows shorter jump-in variants; this entry keeps the version with standing heavy kick and crouching medium kick."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "Level 1"
+		},
+		"relatedIds": ["ryu-amkidd-corner-sa2-rush-juggle"],
+		"source": {
+			"id": "amkidd-ryu-2025",
+			"title": "SF6 Season 3 Ryu Ultimate Guide - Combos, Frame Traps, Setups",
+			"creator": "ThisIsAMKIDD",
+			"url": "https://www.youtube.com/watch?v=2cN27UUF95g",
+			"published": "2025-06-18",
+			"start": 21.3,
+			"end": 28.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, visible action order and selected moments reviewed against AMKIDD’s June 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-amkidd-jump-od-tatsu-sa1/clip.mp4",
+			"poster": "/media/ryu/ryu-amkidd-jump-od-tatsu-sa1/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-amkidd-jump-od-tatsu-sa1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-amkidd-jump-od-tatsu-sa1/frame-1.jpg",
+					"at": 1.6,
+					"label": "Jump heavy",
+					"alt": "Ryu’s jumping heavy punch reaches Elena."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-amkidd-jump-od-tatsu-sa1/frame-2.jpg",
+					"at": 2.5,
+					"label": "Standing heavy",
+					"alt": "Standing heavy kick connects after the jump-in."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-amkidd-jump-od-tatsu-sa1/frame-3.jpg",
+					"at": 3.55,
+					"label": "OD Tatsu",
+					"alt": "The gold OD spinning kick carries the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-amkidd-jump-od-tatsu-sa1/frame-4.jpg",
+					"at": 4.9,
+					"label": "Level 1",
+					"alt": "Ryu fires Shinku Hadoken into the airborne opponent."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-amkidd-jump-od-tatsu-sa1/frame-5.jpg",
+					"at": 6.65,
+					"label": "Finish",
+					"alt": "Elena falls after the Level 1 hits."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-amkidd-hashogeki-side-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Heavy Hashogeki into a dash-under side switch",
+		"summary": "A raw Rush heavy leads to a Hashogeki launch, OD Donkey Kick and a dash underneath before light Shoryuken.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush", "Side switch"],
+		"outcomes": ["Side switch", "Knockdown"],
+		"notation": "DR > st.HP > H Hashogeki > DR > b.HP > OD Blade Kick > Forward dash > L Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "H Hashogeki",
+				"label": "Heavy Hashogeki"
+			},
+			{
+				"id": "step-4",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "OD Blade Kick",
+				"label": "OD High Blade Kick",
+				"cue": "The source calls this OD Donkey Kick."
+			},
+			{
+				"id": "step-7",
+				"notation": "Forward dash",
+				"label": "Dash underneath the airborne opponent",
+				"cue": "Follow the shown juggle height before crossing under."
+			},
+			{
+				"id": "step-8",
+				"notation": "L Shoryuken",
+				"label": "Light Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Use the demonstrated starting range and juggle height"],
+		"notes": [
+			"The two Drive Rush approaches are shown as separate actions, not cancel Rushes.",
+			"The source’s Donkey Kick is High Blade Kick (Jodan Sokutogeri). The forward dash and final Shoryuken depend on the demonstrated juggle position."
+		],
+		"resources": {
+			"drive": "Overdrive and Drive Rush",
+			"super": "No Super spend"
+		},
+		"relatedIds": [],
+		"source": {
+			"id": "amkidd-ryu-2025",
+			"title": "SF6 Season 3 Ryu Ultimate Guide - Combos, Frame Traps, Setups",
+			"creator": "ThisIsAMKIDD",
+			"url": "https://www.youtube.com/watch?v=2cN27UUF95g",
+			"published": "2025-06-18",
+			"start": 50.45,
+			"end": 56.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, visible action order and selected moments reviewed against AMKIDD’s June 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-amkidd-hashogeki-side-switch/clip.mp4",
+			"poster": "/media/ryu/ryu-amkidd-hashogeki-side-switch/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-amkidd-hashogeki-side-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-amkidd-hashogeki-side-switch/frame-1.jpg",
+					"at": 0.95,
+					"label": "Rush heavy",
+					"alt": "Ryu’s Drive Rush standing heavy punch connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-amkidd-hashogeki-side-switch/frame-2.jpg",
+					"at": 1.55,
+					"label": "Hashogeki launch",
+					"alt": "Heavy Hashogeki launches Elena."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-amkidd-hashogeki-side-switch/frame-3.jpg",
+					"at": 2.95,
+					"label": "OD Blade Kick",
+					"alt": "The gold OD High Blade Kick sends Elena away."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-amkidd-hashogeki-side-switch/frame-4.jpg",
+					"at": 4.05,
+					"label": "Cross underneath",
+					"alt": "Ryu dashes beneath Elena to the other side."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-amkidd-hashogeki-side-switch/frame-5.jpg",
+					"at": 4.55,
+					"label": "Light Shoryuken",
+					"alt": "Light Shoryuken catches Elena from the switched side."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-amkidd-hashogeki-side-switch/frame-6.jpg",
+					"at": 5.5,
+					"label": "Side switched",
+					"alt": "Elena falls with Ryu now on the opposite side."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-amkidd-corner-sa2-rush-juggle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Corner Level 2 into three Rush juggles",
+		"summary": "Slightly hold Level 2 after a jump-in, then juggle with three raw Rush crouching heavies before the Blade Kick and Shoryuken finish.",
+		"kind": "combo",
+		"situations": ["Corner", "Jump-in", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Super finish", "Knockdown"],
+		"notation": "j.HP > st.HP > SA2 (slight hold) > DR > cr.HP > DR > cr.HP > DR > cr.HP > H Blade Kick > L Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "j.HP",
+				"label": "Jumping heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA2 (slight hold)",
+				"label": "Shin Hashogeki",
+				"cue": "The source specifies a slight hold; do not fully charge this version."
+			},
+			{
+				"id": "step-4",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-7",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-9",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-10",
+				"notation": "H Blade Kick",
+				"label": "Heavy High Blade Kick"
+			},
+			{
+				"id": "step-11",
+				"notation": "L Shoryuken",
+				"label": "Light Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Use the demonstrated starting range and juggle height",
+			"Opponent at the corner"
+		],
+		"notes": [
+			"The source demonstrates raw Drive Rush between juggle hits. The diagram shows their order, not equal timing.",
+			"Preserve the slight Level 2 hold and the juggle height shown in the replay. This entry does not assert a current-patch damage value."
+		],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "Level 2"
+		},
+		"relatedIds": [],
+		"source": {
+			"id": "amkidd-ryu-2025",
+			"title": "SF6 Season 3 Ryu Ultimate Guide - Combos, Frame Traps, Setups",
+			"creator": "ThisIsAMKIDD",
+			"url": "https://www.youtube.com/watch?v=2cN27UUF95g",
+			"published": "2025-06-18",
+			"start": 99.75,
+			"end": 109.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, visible action order and selected moments reviewed against AMKIDD’s June 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-amkidd-corner-sa2-rush-juggle/clip.mp4",
+			"poster": "/media/ryu/ryu-amkidd-corner-sa2-rush-juggle/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-amkidd-corner-sa2-rush-juggle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-amkidd-corner-sa2-rush-juggle/frame-1.jpg",
+					"at": 0.8,
+					"label": "Jump-in",
+					"alt": "Ryu descends toward Elena with jumping heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-amkidd-corner-sa2-rush-juggle/frame-2.jpg",
+					"at": 4.25,
+					"label": "Slightly held Level 2",
+					"alt": "Shin Hashogeki launches Elena into the corner juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-amkidd-corner-sa2-rush-juggle/frame-3.jpg",
+					"at": 6.25,
+					"label": "Rush juggle",
+					"alt": "A raw Drive Rush crouching heavy punch keeps Elena airborne."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-amkidd-corner-sa2-rush-juggle/frame-4.jpg",
+					"at": 7.85,
+					"label": "Blade Kick",
+					"alt": "Heavy High Blade Kick extends the corner juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-amkidd-corner-sa2-rush-juggle/frame-5.jpg",
+					"at": 8.55,
+					"label": "Light Shoryuken",
+					"alt": "Light Shoryuken completes the juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-amkidd-corner-sa2-rush-juggle/frame-6.jpg",
+					"at": 9.65,
+					"label": "Corner finish",
+					"alt": "Elena falls at the corner after the final Shoryuken."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-obahan-light-tatsu-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Light Tatsu: dash, walk and throw",
+		"summary": "Close the gap after a light Tatsu knockdown, then use a brief walk to reach throw range.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw pressure", "Knockdown"],
+		"notation": "Dash > Walk > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash",
+				"cue": "Begin after recovering from light Tatsu."
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk",
+				"label": "Brief forward walk",
+				"cue": "Use the short adjustment shown before throwing."
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": ["Midscreen light Tatsu knockdown at the spacing shown"],
+		"notes": [
+			"The excerpt opens on the knockdown; its input sequence begins with the dash.",
+			"The throw is a wake-up setup after the knockdown, not another hit of the preceding combo."
+		],
+		"resources": {
+			"drive": "No additional Drive after knockdown",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-obahan-light-tatsu-shimmy", "ryu-obahan-light-tatsu-hasho-throw"],
+		"source": {
+			"id": "obahan-ryu-2026",
+			"title": "スト6リュウ Year4対応✨中央の起き攻め完全版‼️",
+			"creator": "オバハン",
+			"url": "https://www.youtube.com/watch?v=JWskwGQzYOM",
+			"published": "2026-08-22",
+			"start": 16.0,
+			"end": 18.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Visible actions, input history and source overlays checked against the August 2026 footage. The creator labels the video Year4; individual setups have not been tested in the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-obahan-light-tatsu-dash-throw/clip.mp4",
+			"poster": "/media/ryu/ryu-obahan-light-tatsu-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-obahan-light-tatsu-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-dash-throw/frame-1.jpg",
+					"at": 0.12,
+					"label": "Light Tatsu knockdown",
+					"alt": "The opponent falls after light Tatsu while Ryu recovers."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-dash-throw/frame-2.jpg",
+					"at": 0.4,
+					"label": "Close the gap",
+					"alt": "Ryu moves forward during the opponent's recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-dash-throw/frame-3.jpg",
+					"at": 0.75,
+					"label": "Throw range",
+					"alt": "Ryu stands close as the opponent gets up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-dash-throw/frame-4.jpg",
+					"at": 1.05,
+					"label": "Forward throw",
+					"alt": "Ryu catches the waking opponent with a forward throw."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-dash-throw/frame-5.jpg",
+					"at": 1.8,
+					"label": "Throw knockdown",
+					"alt": "The opponent lands after the throw."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-obahan-light-tatsu-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Light Tatsu: walk back and punish throw",
+		"summary": "After dashing in, retreat from a back-rolling opponent's throw attempt and punish its recovery.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Shimmy", "Throw punish"],
+		"notation": "Dash > Walk back > st.HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back",
+				"cue": "Let the opponent's throw miss before pressing."
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch",
+				"cue": "Punish the whiffed throw."
+			}
+		],
+		"conditions": [
+			"Light Tatsu knockdown",
+			"Opponent uses back recovery and attempts a wake-up throw as shown"
+		],
+		"notes": [
+			"This is a shimmy demonstration with a cooperative throw response; the heavy punch is conditional on the throw whiff.",
+			"The source continues into a longer punish combo after the excerpt."
+		],
+		"resources": {
+			"drive": "No additional Drive after knockdown",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-obahan-light-tatsu-dash-throw", "ryu-obahan-light-tatsu-jab-reversal-bait"],
+		"source": {
+			"id": "obahan-ryu-2026",
+			"title": "スト6リュウ Year4対応✨中央の起き攻め完全版‼️",
+			"creator": "オバハン",
+			"url": "https://www.youtube.com/watch?v=JWskwGQzYOM",
+			"published": "2026-08-22",
+			"start": 23.9,
+			"end": 25.28
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Visible actions, input history and source overlays checked against the August 2026 footage. The creator labels the video Year4; individual setups have not been tested in the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-obahan-light-tatsu-shimmy/clip.mp4",
+			"poster": "/media/ryu/ryu-obahan-light-tatsu-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-obahan-light-tatsu-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-shimmy/frame-1.jpg",
+					"at": 0.15,
+					"label": "Knockdown",
+					"alt": "The opponent lands from light Tatsu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-shimmy/frame-2.jpg",
+					"at": 0.45,
+					"label": "Back recovery",
+					"alt": "The opponent rolls back while Ryu adjusts position."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-shimmy/frame-3.jpg",
+					"at": 0.8,
+					"label": "Throw whiff",
+					"alt": "The opponent reaches for a throw while Ryu remains outside its range."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-shimmy/frame-4.jpg",
+					"at": 1.15,
+					"label": "Punish counter",
+					"alt": "Ryu's standing heavy punch punishes the missed throw."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-obahan-light-tatsu-hasho-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Light Tatsu: heavy Hashogeki pressure",
+		"summary": "Dash into heavy Hashogeki after light Tatsu, then show the throw option after it is blocked.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Block pressure", "Throw pressure"],
+		"notation": "Dash > H Hashogeki > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "H Hashogeki",
+				"label": "Heavy Hashogeki",
+				"cue": "Use the wake-up timing shown."
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Forward throw",
+				"cue": "This follows a blocked attack, not a continuous combo."
+			}
+		],
+		"conditions": [
+			"Light Tatsu knockdown at the midscreen spacing shown",
+			"Opponent blocks heavy Hashogeki"
+		],
+		"notes": [
+			"The source labels heavy Hashogeki +2 on block in this setup. This is a source claim, not a current-patch test.",
+			"The blocked Hashogeki and subsequent throw are separate pressure actions; the throw can be defended."
+		],
+		"resources": {
+			"drive": "No additional Drive after knockdown",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-obahan-light-tatsu-dash-throw", "ryu-obahan-light-tatsu-drive-rush-jab"],
+		"source": {
+			"id": "obahan-ryu-2026",
+			"title": "スト6リュウ Year4対応✨中央の起き攻め完全版‼️",
+			"creator": "オバハン",
+			"url": "https://www.youtube.com/watch?v=JWskwGQzYOM",
+			"published": "2026-08-22",
+			"start": 49.2,
+			"end": 52.22
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Visible actions, input history and source overlays checked against the August 2026 footage. The creator labels the video Year4; individual setups have not been tested in the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-obahan-light-tatsu-hasho-throw/clip.mp4",
+			"poster": "/media/ryu/ryu-obahan-light-tatsu-hasho-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-obahan-light-tatsu-hasho-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-hasho-throw/frame-1.jpg",
+					"at": 0.2,
+					"label": "Knockdown",
+					"alt": "Ryu recovers while the opponent lies down after light Tatsu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-hasho-throw/frame-2.jpg",
+					"at": 0.6,
+					"label": "Heavy Hashogeki",
+					"alt": "Ryu prepares heavy Hashogeki after moving in."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-hasho-throw/frame-3.jpg",
+					"at": 1.15,
+					"label": "Blocked Hashogeki",
+					"alt": "The opponent blocks the heavy Hashogeki."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-hasho-throw/frame-4.jpg",
+					"at": 2.0,
+					"label": "Throw option",
+					"alt": "Ryu reaches for a throw after the blocked attack."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-hasho-throw/frame-5.jpg",
+					"at": 2.7,
+					"label": "Throw connects",
+					"alt": "The forward throw brings the opponent down."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-obahan-light-tatsu-jab-reversal-bait",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Light Tatsu: whiff jab and block reversal",
+		"summary": "Spend the knockdown time with a dash and a whiffed standing jab, then block the demonstrated OD Shoryuken.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Reversal bait", "Block"],
+		"notation": "Dash > st.LP (whiff) > Block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP (whiff)",
+				"label": "Whiff standing light punch",
+				"cue": "Let the jab recover before holding guard."
+			},
+			{
+				"id": "step-3",
+				"notation": "Block",
+				"label": "Block the wake-up reversal"
+			}
+		],
+		"conditions": [
+			"Midscreen light Tatsu knockdown",
+			"Opponent uses wake-up OD Shoryuken in the demonstration"
+		],
+		"notes": [
+			"This clip demonstrates blocking Ryu's OD Shoryuken; it does not establish safety against every reversal or timing.",
+			"No punish route is prescribed here; the reference ends after the blocked reversal."
+		],
+		"resources": {
+			"drive": "No additional Drive after knockdown",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-obahan-light-tatsu-drive-rush-jab", "ryu-obahan-light-tatsu-shimmy"],
+		"source": {
+			"id": "obahan-ryu-2026",
+			"title": "スト6リュウ Year4対応✨中央の起き攻め完全版‼️",
+			"creator": "オバハン",
+			"url": "https://www.youtube.com/watch?v=JWskwGQzYOM",
+			"published": "2026-08-22",
+			"start": 111.0,
+			"end": 113.28
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Visible actions, input history and source overlays checked against the August 2026 footage. The creator labels the video Year4; individual setups have not been tested in the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-obahan-light-tatsu-jab-reversal-bait/clip.mp4",
+			"poster": "/media/ryu/ryu-obahan-light-tatsu-jab-reversal-bait/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-obahan-light-tatsu-jab-reversal-bait/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-jab-reversal-bait/frame-1.jpg",
+					"at": 0.1,
+					"label": "Knockdown",
+					"alt": "Ryu recovers as the opponent lands after light Tatsu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-jab-reversal-bait/frame-2.jpg",
+					"at": 0.5,
+					"label": "Whiffed jab",
+					"alt": "Ryu extends a standing light punch before the opponent has fully risen."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-jab-reversal-bait/frame-3.jpg",
+					"at": 0.65,
+					"label": "Recover to guard",
+					"alt": "Ryu recovers from the jab as the opponent gets up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-jab-reversal-bait/frame-4.jpg",
+					"at": 1.2,
+					"label": "Block OD Shoryuken",
+					"alt": "Ryu blocks the glowing wake-up OD Shoryuken."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-jab-reversal-bait/frame-5.jpg",
+					"at": 2.1,
+					"label": "Wait for recovery",
+					"alt": "Ryu holds position as the blocked reversal descends."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-obahan-light-tatsu-drive-rush-jab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Light Tatsu: dash into Drive Rush jab",
+		"summary": "Use a forward dash and a second approach with Drive Rush to place a standing jab on the waking opponent.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up pressure"],
+		"notation": "Dash > DR > st.LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Drive Rush",
+				"cue": "Use Drive Rush after the forward dash."
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			}
+		],
+		"conditions": [
+			"Light Tatsu knockdown",
+			"Opponent blocks the Drive Rush jab in the shown Ken example"
+		],
+		"notes": [
+			"The source labels the blocked jab +5 in this setup. It has not been re-tested in the current game version.",
+			"The reference stops before the later throw-bait and punish demonstration."
+		],
+		"resources": {
+			"drive": "Drive Rush after knockdown",
+			"super": "No Super spend"
+		},
+		"relatedIds": [
+			"ryu-obahan-light-tatsu-jab-reversal-bait",
+			"ryu-obahan-light-tatsu-hasho-throw"
+		],
+		"source": {
+			"id": "obahan-ryu-2026",
+			"title": "スト6リュウ Year4対応✨中央の起き攻め完全版‼️",
+			"creator": "オバハン",
+			"url": "https://www.youtube.com/watch?v=JWskwGQzYOM",
+			"published": "2026-08-22",
+			"start": 129.5,
+			"end": 130.88
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Visible actions, input history and source overlays checked against the August 2026 footage. The creator labels the video Year4; individual setups have not been tested in the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-obahan-light-tatsu-drive-rush-jab/clip.mp4",
+			"poster": "/media/ryu/ryu-obahan-light-tatsu-drive-rush-jab/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-obahan-light-tatsu-drive-rush-jab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-drive-rush-jab/frame-1.jpg",
+					"at": 0.1,
+					"label": "Knockdown",
+					"alt": "The opponent lies down after light Tatsu while Ryu recovers."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-drive-rush-jab/frame-2.jpg",
+					"at": 0.3,
+					"label": "Forward dash",
+					"alt": "Ryu closes distance with a forward dash."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-drive-rush-jab/frame-3.jpg",
+					"at": 0.66,
+					"label": "Drive Rush",
+					"alt": "Ryu begins the green Drive Rush approach."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-drive-rush-jab/frame-4.jpg",
+					"at": 0.95,
+					"label": "Jab on block",
+					"alt": "The opponent blocks Ryu's standing jab during Drive Rush."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-obahan-light-tatsu-drive-rush-jab/frame-5.jpg",
+					"at": 1.25,
+					"label": "Pressure position",
+					"alt": "Ryu finishes the jab close to the blocking opponent."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-obahan-medium-tatsu-corner-solar-plexus",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Medium Tatsu: late Solar Plexus near corner",
+		"summary": "Use medium Tatsu's near-corner knockdown to land Solar Plexus late on the opponent's wake-up.",
+		"kind": "setup",
+		"situations": ["Near corner", "Oki"],
+		"outcomes": ["Meaty strike", "Hit confirm"],
+		"notation": "6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HP",
+				"label": "Solar Plexus Strike",
+				"cue": "Match the late wake-up contact shown near the corner."
+			}
+		],
+		"conditions": [
+			"Medium Tatsu knockdown near enough to the corner to retain the demonstrated spacing"
+		],
+		"notes": [
+			"The source labels this late hit +8, and later demonstrates a back-heavy-punch follow-up. The excerpt isolates the wake-up strike.",
+			"The corner distance is part of the setup; do not treat this as a universal midscreen medium-Tatsu follow-up."
+		],
+		"resources": {
+			"drive": "No additional Drive after knockdown",
+			"super": "No Super spend"
+		},
+		"relatedIds": [
+			"ryu-obahan-medium-tatsu-light-hadoken",
+			"ryu-obahan-hasho-tatsu-meaty-medium-punch"
+		],
+		"source": {
+			"id": "obahan-ryu-2026",
+			"title": "スト6リュウ Year4対応✨中央の起き攻め完全版‼️",
+			"creator": "オバハン",
+			"url": "https://www.youtube.com/watch?v=JWskwGQzYOM",
+			"published": "2026-08-22",
+			"start": 185.95,
+			"end": 187.03
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Visible actions, input history and source overlays checked against the August 2026 footage. The creator labels the video Year4; individual setups have not been tested in the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-obahan-medium-tatsu-corner-solar-plexus/clip.mp4",
+			"poster": "/media/ryu/ryu-obahan-medium-tatsu-corner-solar-plexus/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-obahan-medium-tatsu-corner-solar-plexus/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-obahan-medium-tatsu-corner-solar-plexus/frame-1.jpg",
+					"at": 0.1,
+					"label": "Corner knockdown",
+					"alt": "Medium Tatsu sends the opponent down near the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-obahan-medium-tatsu-corner-solar-plexus/frame-2.jpg",
+					"at": 0.35,
+					"label": "Solar Plexus startup",
+					"alt": "Ryu begins Solar Plexus as the opponent gets up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-obahan-medium-tatsu-corner-solar-plexus/frame-3.jpg",
+					"at": 0.67,
+					"label": "Late contact",
+					"alt": "Solar Plexus hits the opponent on wake-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-obahan-medium-tatsu-corner-solar-plexus/frame-4.jpg",
+					"at": 0.96,
+					"label": "Hit confirmed",
+					"alt": "The opponent reels after Solar Plexus connects."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-obahan-medium-tatsu-light-hadoken",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Medium Tatsu: meaty light Hadoken",
+		"summary": "Place a slow light Hadoken on the opponent's wake-up after the shown near-corner medium Tatsu.",
+		"kind": "setup",
+		"situations": ["Near corner", "Oki"],
+		"outcomes": ["Meaty fireball", "Block pressure"],
+		"notation": "L Hadoken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "L Hadoken",
+				"label": "Light Hadoken",
+				"cue": "Throw the fireball directly after recovering from medium Tatsu."
+			}
+		],
+		"conditions": [
+			"Medium Tatsu knockdown at the near-corner spacing shown",
+			"Opponent blocks the fireball"
+		],
+		"notes": [
+			"The source labels the blocked fireball +3 in this setup. The frame value is source-reported and not current-patch tested.",
+			"This excerpt ends after the fireball is blocked, before the separate trade demonstration."
+		],
+		"resources": {
+			"drive": "No additional Drive after knockdown",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-obahan-medium-tatsu-corner-solar-plexus"],
+		"source": {
+			"id": "obahan-ryu-2026",
+			"title": "スト6リュウ Year4対応✨中央の起き攻め完全版‼️",
+			"creator": "オバハン",
+			"url": "https://www.youtube.com/watch?v=JWskwGQzYOM",
+			"published": "2026-08-22",
+			"start": 218.17,
+			"end": 219.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Visible actions, input history and source overlays checked against the August 2026 footage. The creator labels the video Year4; individual setups have not been tested in the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-obahan-medium-tatsu-light-hadoken/clip.mp4",
+			"poster": "/media/ryu/ryu-obahan-medium-tatsu-light-hadoken/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-obahan-medium-tatsu-light-hadoken/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-obahan-medium-tatsu-light-hadoken/frame-1.jpg",
+					"at": 0.08,
+					"label": "Tatsu recovery",
+					"alt": "Ryu recovers from medium Tatsu while the opponent falls near the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-obahan-medium-tatsu-light-hadoken/frame-2.jpg",
+					"at": 0.48,
+					"label": "Release light Hadoken",
+					"alt": "Ryu releases a light Hadoken before the opponent has finished waking."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-obahan-medium-tatsu-light-hadoken/frame-3.jpg",
+					"at": 0.81,
+					"label": "Fireball blocked",
+					"alt": "The rising opponent blocks the slow fireball."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-obahan-hasho-tatsu-meaty-medium-punch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Hashogeki–Tatsu: dash into meaty medium punch",
+		"summary": "After the heavy-Hashogeki into medium-Tatsu ender, dash up for a late standing medium punch and confirm into crouching medium punch.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Meaty strike", "Hit confirm"],
+		"notation": "Dash > st.MP > cr.MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch",
+				"cue": "Land the punch late on wake-up as shown."
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch",
+				"cue": "Confirm after the meaty standing punch hits."
+			}
+		],
+		"conditions": [
+			"Shown starter: st.HP > cancel Drive Rush st.HP > H Hashogeki > M Tatsu",
+			"Opponent is knocked down at the demonstrated midscreen spacing"
+		],
+		"notes": [
+			"The source labels the meaty standing medium punch +10 on hit. The value belongs to this demonstrated timing and is not current-patch tested.",
+			"The knockdown separates the preceding combo from this new wake-up hit confirm. The excerpt ends before the subsequent special."
+		],
+		"resources": {
+			"drive": "No additional Drive after knockdown",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-obahan-light-tatsu-dash-throw", "ryu-obahan-medium-blade-denjin-charge"],
+		"source": {
+			"id": "obahan-ryu-2026",
+			"title": "スト6リュウ Year4対応✨中央の起き攻め完全版‼️",
+			"creator": "オバハン",
+			"url": "https://www.youtube.com/watch?v=JWskwGQzYOM",
+			"published": "2026-08-22",
+			"start": 259.77,
+			"end": 261.32
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Visible actions, input history and source overlays checked against the August 2026 footage. The creator labels the video Year4; individual setups have not been tested in the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-obahan-hasho-tatsu-meaty-medium-punch/clip.mp4",
+			"poster": "/media/ryu/ryu-obahan-hasho-tatsu-meaty-medium-punch/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-obahan-hasho-tatsu-meaty-medium-punch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-obahan-hasho-tatsu-meaty-medium-punch/frame-1.jpg",
+					"at": 0.13,
+					"label": "Knockdown",
+					"alt": "The opponent falls after the medium Tatsu ender."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-obahan-hasho-tatsu-meaty-medium-punch/frame-2.jpg",
+					"at": 0.43,
+					"label": "Dash up",
+					"alt": "Ryu dashes forward while the opponent begins recovering."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-obahan-hasho-tatsu-meaty-medium-punch/frame-3.jpg",
+					"at": 0.83,
+					"label": "Meaty medium punch",
+					"alt": "Ryu's standing medium punch hits late on wake-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-obahan-hasho-tatsu-meaty-medium-punch/frame-4.jpg",
+					"at": 1.43,
+					"label": "Crouching punch confirm",
+					"alt": "Ryu links crouching medium punch after the standing punch connects."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-obahan-heavy-dp-dash-solar-plexus",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Heavy DP: dash into Solar Plexus",
+		"summary": "Follow the shown heavy Shoryuken knockdown with a forward dash and Solar Plexus to challenge the opponent's wake-up attack.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up strike", "Counter-hit opportunity"],
+		"notation": "Dash > 6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Solar Plexus Strike",
+				"cue": "Use the dash into Solar Plexus timing shown."
+			}
+		],
+		"conditions": [
+			"Heavy Shoryuken knockdown at the midscreen spacing shown",
+			"Opponent attempts a wake-up normal in the demonstration"
+		],
+		"notes": [
+			"The source warns that the position after a blocked Solar Plexus is outside throw range.",
+			"The shown counter-hit interaction is not a guarantee against all wake-up options; the later combo conversion is outside this excerpt."
+		],
+		"resources": {
+			"drive": "No additional Drive after knockdown",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-obahan-heavy-dp-dash-whirlwind"],
+		"source": {
+			"id": "obahan-ryu-2026",
+			"title": "スト6リュウ Year4対応✨中央の起き攻め完全版‼️",
+			"creator": "オバハン",
+			"url": "https://www.youtube.com/watch?v=JWskwGQzYOM",
+			"published": "2026-08-22",
+			"start": 327.64,
+			"end": 329.06
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Visible actions, input history and source overlays checked against the August 2026 footage. The creator labels the video Year4; individual setups have not been tested in the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-obahan-heavy-dp-dash-solar-plexus/clip.mp4",
+			"poster": "/media/ryu/ryu-obahan-heavy-dp-dash-solar-plexus/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-obahan-heavy-dp-dash-solar-plexus/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-obahan-heavy-dp-dash-solar-plexus/frame-1.jpg",
+					"at": 0.16,
+					"label": "Heavy DP knockdown",
+					"alt": "The opponent lies down after heavy Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-obahan-heavy-dp-dash-solar-plexus/frame-2.jpg",
+					"at": 0.46,
+					"label": "Dash forward",
+					"alt": "Ryu advances as the opponent recovers."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-obahan-heavy-dp-dash-solar-plexus/frame-3.jpg",
+					"at": 0.71,
+					"label": "Solar Plexus contact",
+					"alt": "Solar Plexus meets the waking opponent's attack."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-obahan-heavy-dp-dash-solar-plexus/frame-4.jpg",
+					"at": 1.16,
+					"label": "Counter-hit result",
+					"alt": "The opponent reels from the counter-hit Solar Plexus."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-obahan-heavy-dp-dash-whirlwind",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Heavy DP: dash into Whirlwind Kick",
+		"summary": "Use Whirlwind Kick after the heavy-DP dash as an alternative wake-up strike to Solar Plexus.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Meaty strike", "Hit confirm"],
+		"notation": "Dash > 6HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HK",
+				"label": "Whirlwind Kick",
+				"cue": "Use the late contact shown after the dash."
+			}
+		],
+		"conditions": ["Heavy Shoryuken knockdown at the midscreen spacing shown"],
+		"notes": [
+			"The source labels the late Whirlwind Kick hit +5. That value has not been re-tested in the current game version.",
+			"The excerpt stops before the follow-up crouching light punch and Tatsu."
+		],
+		"resources": {
+			"drive": "No additional Drive after knockdown",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-obahan-heavy-dp-dash-solar-plexus"],
+		"source": {
+			"id": "obahan-ryu-2026",
+			"title": "スト6リュウ Year4対応✨中央の起き攻め完全版‼️",
+			"creator": "オバハン",
+			"url": "https://www.youtube.com/watch?v=JWskwGQzYOM",
+			"published": "2026-08-22",
+			"start": 343.1,
+			"end": 344.16
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Visible actions, input history and source overlays checked against the August 2026 footage. The creator labels the video Year4; individual setups have not been tested in the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-obahan-heavy-dp-dash-whirlwind/clip.mp4",
+			"poster": "/media/ryu/ryu-obahan-heavy-dp-dash-whirlwind/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-obahan-heavy-dp-dash-whirlwind/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-obahan-heavy-dp-dash-whirlwind/frame-1.jpg",
+					"at": 0.1,
+					"label": "Knockdown",
+					"alt": "The opponent lands after heavy Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-obahan-heavy-dp-dash-whirlwind/frame-2.jpg",
+					"at": 0.35,
+					"label": "Dash in",
+					"alt": "Ryu dashes forward during the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-obahan-heavy-dp-dash-whirlwind/frame-3.jpg",
+					"at": 0.65,
+					"label": "Whirlwind startup",
+					"alt": "Ryu turns into Whirlwind Kick as the opponent rises."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-obahan-heavy-dp-dash-whirlwind/frame-4.jpg",
+					"at": 0.9,
+					"label": "Whirlwind hits",
+					"alt": "Whirlwind Kick connects on wake-up."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-obahan-heavy-dp-dash-whirlwind/frame-5.jpg",
+					"at": 1.04,
+					"label": "Late hit position",
+					"alt": "Ryu finishes Whirlwind Kick as the opponent recoils."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-obahan-medium-blade-denjin-charge",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Medium Blade route into Denjin Charge",
+		"summary": "Choose the medium High Blade Kick ender to push the opponent away, then use that knockdown to stock Denjin.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Denjin stock", "Spacing"],
+		"notation": "st.HP > CDR > st.HK > cr.HP > M High Blade Kick > Denjin Charge",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "CDR",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "M High Blade Kick",
+				"label": "Medium High Blade Kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "Denjin Charge",
+				"label": "Denjin Charge",
+				"cue": "Charge after the knockback instead of advancing for close pressure."
+			}
+		],
+		"conditions": [
+			"Close standing-heavy-punch starter",
+			"Use the medium High Blade Kick ender shown"
+		],
+		"notes": [
+			"The combo and the following charge serve different purposes: medium High Blade Kick creates separation, then Denjin is stocked during the knockdown.",
+			"The footage shows this charging opportunity; it does not establish safety against every opponent or position."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush in the shown combo",
+			"super": "No Super spend"
+		},
+		"relatedIds": [
+			"ryu-obahan-sweep-double-dash-throw",
+			"ryu-obahan-hasho-tatsu-meaty-medium-punch"
+		],
+		"source": {
+			"id": "obahan-ryu-2026",
+			"title": "スト6リュウ Year4対応✨中央の起き攻め完全版‼️",
+			"creator": "オバハン",
+			"url": "https://www.youtube.com/watch?v=JWskwGQzYOM",
+			"published": "2026-08-22",
+			"start": 380.15,
+			"end": 384.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Visible actions, input history and source overlays checked against the August 2026 footage. The creator labels the video Year4; individual setups have not been tested in the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-obahan-medium-blade-denjin-charge/clip.mp4",
+			"poster": "/media/ryu/ryu-obahan-medium-blade-denjin-charge/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-obahan-medium-blade-denjin-charge/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-obahan-medium-blade-denjin-charge/frame-1.jpg",
+					"at": 0.27,
+					"label": "Heavy starter",
+					"alt": "Ryu starts with standing heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-obahan-medium-blade-denjin-charge/frame-2.jpg",
+					"at": 1.0,
+					"label": "Rush heavy kick",
+					"alt": "Ryu follows the cancel Drive Rush with standing heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-obahan-medium-blade-denjin-charge/frame-3.jpg",
+					"at": 1.8,
+					"label": "Crouching heavy",
+					"alt": "Crouching heavy punch connects before the special."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-obahan-medium-blade-denjin-charge/frame-4.jpg",
+					"at": 2.45,
+					"label": "Medium Blade knockback",
+					"alt": "Medium High Blade Kick sends the opponent away."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-obahan-medium-blade-denjin-charge/frame-5.jpg",
+					"at": 3.3,
+					"label": "Stock Denjin",
+					"alt": "Ryu performs Denjin Charge during the knockdown."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-obahan-medium-blade-denjin-charge/frame-6.jpg",
+					"at": 4.35,
+					"label": "Denjin ready",
+					"alt": "Ryu returns to guard with Denjin energy visible."
+				}
+			]
+		}
+	},
+	{
+		"id": "ryu-obahan-sweep-double-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ryu"
+			}
+		],
+		"title": "Sweep route: two dashes into throw",
+		"summary": "End the shown heavy-kick route in crouching heavy kick, then spend the knockdown time with two forward dashes before throwing.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw pressure", "Knockdown"],
+		"notation": "st.HP > CDR > st.HK > st.HK > cr.HK > Dash > Dash > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "CDR",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.HK",
+				"label": "Crouching heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "Dash",
+				"label": "First forward dash"
+			},
+			{
+				"id": "step-7",
+				"notation": "Dash",
+				"label": "Second forward dash"
+			},
+			{
+				"id": "step-8",
+				"notation": "Throw",
+				"label": "Forward throw",
+				"cue": "The throw is a separate wake-up action after the sweep."
+			}
+		],
+		"conditions": [
+			"Close standing-heavy-punch starter",
+			"Use the shown two-heavy-kick route into sweep before the two dashes"
+		],
+		"notes": [
+			"The source labels the position after the two dashes +2. That is source-reported timing, not a current-patch test.",
+			"The throw happens after the sweep knockdown; it is not part of the uninterrupted damage combo."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush in the shown combo",
+			"super": "No Super spend"
+		},
+		"relatedIds": ["ryu-obahan-medium-blade-denjin-charge", "ryu-obahan-light-tatsu-dash-throw"],
+		"source": {
+			"id": "obahan-ryu-2026",
+			"title": "スト6リュウ Year4対応✨中央の起き攻め完全版‼️",
+			"creator": "オバハン",
+			"url": "https://www.youtube.com/watch?v=JWskwGQzYOM",
+			"published": "2026-08-22",
+			"start": 398.18,
+			"end": 403.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Visible actions, input history and source overlays checked against the August 2026 footage. The creator labels the video Year4; individual setups have not been tested in the current game version."
+		},
+		"media": {
+			"clip": "/media/ryu/ryu-obahan-sweep-double-dash-throw/clip.mp4",
+			"poster": "/media/ryu/ryu-obahan-sweep-double-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ryu/ryu-obahan-sweep-double-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ryu/ryu-obahan-sweep-double-dash-throw/frame-1.jpg",
+					"at": 0.32,
+					"label": "Heavy starter",
+					"alt": "Ryu begins the route with standing heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ryu/ryu-obahan-sweep-double-dash-throw/frame-2.jpg",
+					"at": 1.07,
+					"label": "Rush heavy kick",
+					"alt": "Ryu uses standing heavy kick after cancel Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ryu/ryu-obahan-sweep-double-dash-throw/frame-3.jpg",
+					"at": 2.27,
+					"label": "Second heavy kick",
+					"alt": "A second standing heavy kick continues the combo."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ryu/ryu-obahan-sweep-double-dash-throw/frame-4.jpg",
+					"at": 2.87,
+					"label": "Sweep ender",
+					"alt": "Crouching heavy kick knocks the opponent down."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ryu/ryu-obahan-sweep-double-dash-throw/frame-5.jpg",
+					"at": 3.47,
+					"label": "Two forward dashes",
+					"alt": "Ryu advances during the sweep knockdown with two forward dashes."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ryu/ryu-obahan-sweep-double-dash-throw/frame-6.jpg",
+					"at": 4.12,
+					"label": "Wake-up throw",
+					"alt": "Ryu catches the rising opponent with a forward throw."
+				}
+			]
+		}
+	}
+]

@@ -1437,3 +1437,46 @@ html {
 .library-filters .collection-switch button {
 	white-space: nowrap;
 }
+
+.character-picker {
+	display: grid;
+	gap: 2px;
+	flex: 0 0 auto;
+	color: var(--panel-muted);
+	font-size: 10px;
+	line-height: 1.2;
+	letter-spacing: 0.05em;
+}
+.character-picker select {
+	min-height: 28px;
+	width: 108px;
+	padding: 2px 8px;
+	border: 1px solid var(--panel-muted);
+	border-radius: 0;
+	background: var(--panel);
+	color: var(--panel-ink);
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: normal;
+}
+.switch-character {
+	margin-inline-start: 8px;
+	color: var(--muted);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+@media (max-width: 760px) {
+	.character-picker {
+		margin-left: auto;
+	}
+	.character-picker select {
+		min-height: 36px;
+		font-size: 16px;
+	}
+	.masthead .header-actions {
+		flex-wrap: wrap;
+		justify-content: end;
+	}
+}

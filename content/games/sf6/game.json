@@ -22,24 +22,16 @@
 				"meaning": "Light / medium / heavy kick"
 			},
 			{
-				"term": "j. / cr. / st. / b.",
-				"meaning": "Jumping / crouching / standing / back"
+				"term": "j. / cr. / st. / b. / f.",
+				"meaning": "Jumping / crouching / standing / back / forward"
 			},
 			{
 				"term": "db.",
 				"meaning": "Down-back; 1 in numpad notation when facing right"
 			},
 			{
-				"term": "DR / DRC / DI / OD / SA / CH",
-				"meaning": "Drive Rush / cancel Drive Rush / Drive Impact / Overdrive / Super Art / Counter Hit"
-			},
-			{
-				"term": "IAT",
-				"meaning": "Instant air teleport; follow the demonstrated airborne timing"
-			},
-			{
-				"term": "TP / Float",
-				"meaning": "Yoga Teleport / Yoga Float; follow each reference's movement and timing notes"
+				"term": "DR / DRC (CDR) / DI / OD / SA / CH",
+				"meaning": "Drive Rush / cancel Drive Rush (also CDR) / Drive Impact / Overdrive / Super Art / Counter Hit"
 			},
 			{
 				"term": "SA1 / SA2 / SA3 / PC",
@@ -62,13 +54,61 @@
 	"guides": [
 		{
 			"label": "Guides on SF6 Lab",
-			"url": "https://sf6-lab.net/en/fighters/dhalsim"
+			"url": "https://sf6-lab.net/en/"
 		}
 	],
 	"characters": [
 		{
 			"id": "dhalsim",
-			"name": "Dhalsim"
+			"name": "Dhalsim",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/dhalsim"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "IAT",
+					"meaning": "Instant air teleport; follow the demonstrated airborne timing"
+				},
+				{
+					"term": "TP / Float",
+					"meaning": "Yoga Teleport / Yoga Float; follow each reference's movement and timing notes"
+				}
+			]
+		},
+		{
+			"id": "ryu",
+			"name": "Ryu",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/ryu"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Denjin",
+					"meaning": "Denjin Renki. Each reference states when a stored charge is required."
+				},
+				{
+					"term": "Tatsu / Air Tatsu",
+					"meaning": "Tatsumaki Senpukyaku / its airborne version; strength and timing follow the reference."
+				},
+				{
+					"term": "DP / Shoryuken",
+					"meaning": "Shoryuken; L, M, H and OD identify the demonstrated version."
+				},
+				{
+					"term": "Donkey Kick / Blade Kick",
+					"meaning": "High Blade Kick (Jodan Sokutogeri). These names refer to the same special move."
+				},
+				{
+					"term": "Hasho / Hashogeki",
+					"meaning": "Hashogeki. Denjin versions require a stored charge when stated in the reference."
+				}
+			]
 		}
 	]
 }

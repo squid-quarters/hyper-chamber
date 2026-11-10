@@ -1,1 +1,1 @@
-export {references} from './catalog';
+export {allReferences, collections} from './catalog';

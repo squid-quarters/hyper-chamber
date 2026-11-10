@@ -2,7 +2,7 @@
 	import { onMount, tick, untrack } from 'svelte';
 	import { afterNavigate, goto } from '$app/navigation';
 	import { page } from '$app/state';
-	import { game, subjectName, references } from '#lib/catalog';
+	import { collections } from '#lib/catalog';
 	import {
 		filterReferences,
 		sourceLink,
@@ -26,17 +26,22 @@
 	import InputSequence from '#lib/components/InputSequence.svelte';
 	import {
 		readLibraryReturn,
-		readReferenceLocation,
+		readCharacterLocation,
 		referenceLocation,
 		type LibraryReturn,
 	} from '../lib/navigation';
 
+	let characterId = $state(collections[0].id);
+	let collection = $derived(collections.find((item) => item.id === characterId) ?? collections[0]);
+	let references = $derived(collection.references);
+	let game = $derived(collection.game);
+	let subjectName = $derived(collection.name);
 	let query = $state('');
 	let kind = $state('all');
 	let situation = $state('all');
 	let savedOnly = $state(false);
 	let practice = $state('all');
-	let selectedId = $state(references[0]?.id ?? '');
+	let selectedId = $state('');
 	let practising = $state(false);
 	let library = $state<PersonalLibrary>({});
 	let pendingChanges = $state<LibraryPatches>({});
@@ -56,8 +61,8 @@
 	let switchOrigin: string | null = null;
 	let pendingHistory = false;
 	let viewRevision = 0;
-	const referenceIds = new Set(references.map((ref) => ref.id));
-	const situations = [...new Set(references.flatMap((r) => r.situations))].sort();
+	let referenceIds = $derived(collection.referenceIds);
+	let situations = $derived(collection.situations);
 	let selected = $derived(references.find((r) => r.id === selectedId));
 	let personal = $derived(selected ? (library[selected.id] ?? blankEntry(selected)) : null);
 	let savedIds = $derived(
@@ -88,24 +93,59 @@
 	let switchResults = $derived(filterReferences(switchSet, { query: switchQuery }));
 
 	function currentFilters() {
-		return { query, kind, situation, savedOnly, practice };
+		return { query, kind, situation, savedOnly, practice, characterId };
 	}
 	function entryHref(id: string) {
 		return referenceLocation('https://hyper-chamber.invalid/', currentFilters(), id).search;
 	}
 	function readUrl() {
-		const next = readReferenceLocation(location.search, referenceIds, situations);
+		const next = readCharacterLocation(location.search, collections);
+		characterId = next.characterId;
 		query = next.query;
 		kind = next.kind;
 		situation = next.situation;
 		savedOnly = next.savedOnly;
 		practice = next.practice;
 		practising = next.entryId !== null;
-		if (next.entryId) selectedId = next.entryId;
-		if (next.invalidEntry)
+		selectedId = next.entryId ?? references[0]?.id ?? '';
+		if (next.invalidCharacter)
+			message = `That character library was not found. Showing ${subjectName}.`;
+		else if (next.invalidEntry)
 			message = 'That reference was not found. Choose another from the library.';
-		else if (message === 'That reference was not found. Choose another from the library.')
+		else if (
+			message === 'That reference was not found. Choose another from the library.' ||
+			message.startsWith('That character library was not found.')
+		)
 			message = '';
+	}
+	async function changeCharacter(id: string) {
+		if (!ready || !collections.some((item) => item.id === id)) return;
+		const revision = ++viewRevision;
+		// A quick return to the current character must cancel a pending switch.
+		if (id === characterId) return;
+		if (!practising) {
+			captureLibrary(null);
+			await updateUrl();
+			if (revision !== viewRevision) return;
+		}
+		document.querySelector<HTMLVideoElement>('.practice-view video')?.pause();
+		for (const dialog of [switcher, help, backup]) if (dialog?.open) dialog.close();
+		characterId = id;
+		query = '';
+		kind = 'all';
+		situation = 'all';
+		savedOnly = false;
+		practice = 'all';
+		selectedId = references[0]?.id ?? '';
+		practising = false;
+		libraryReturn = { key: '', scrollY: 0, entryId: null };
+		libraryFilterKey = JSON.stringify(currentFilters());
+		message = '';
+		await updateUrl(true);
+		await tick();
+		if (revision !== viewRevision) return;
+		window.scrollTo({ top: 0, behavior: 'instant' });
+		document.getElementById('library-title')?.focus({ preventScroll: true });
 	}
 	async function updateUrl(push = false) {
 		if (!ready) return;
@@ -387,14 +427,32 @@
 <a class="skip-link" href={practising ? '#reference' : '#library-title'}
 	>{practising ? 'Skip to selected reference' : 'Skip to reference library'}</a
 >
-<div class="app-shell" class:in-practice={practising} data-ready={ready}>
+<div
+	class="app-shell"
+	class:in-practice={practising}
+	data-ready={ready}
+	data-character={characterId}
+>
 	<header class="masthead">
-		<a class="brand" href="/" aria-label="Hyper Chamber home"
-			><BrandMark /><span>HYPER<br />CHAMBER</span></a
+		<a
+			class="brand"
+			href={characterId === 'dhalsim' ? '/' : `/?character=${characterId}`}
+			aria-label="Hyper Chamber home"><BrandMark /><span>HYPER<br />CHAMBER</span></a
 		>
 		<div class="masthead-description">
 			A fighting game reference.<br /><span>Less searching. More playing.</span>
 		</div>
+		<label class="character-picker" for="character-picker">
+			<span>Character</span>
+			<select
+				id="character-picker"
+				value={characterId}
+				disabled={!ready}
+				onchange={(event) => changeCharacter(event.currentTarget.value)}
+			>
+				{#each collections as item}<option value={item.id}>{item.name}</option>{/each}
+			</select>
+		</label>
 		<nav class="header-actions" aria-label="Utilities">
 			<button onclick={() => help.showModal()}>Notation <span aria-hidden="true">?</span></button>
 			<button onclick={() => backup.showModal()}
@@ -737,7 +795,7 @@
 </div>
 <dialog class="quick-switch-dialog" bind:this={switcher} aria-labelledby="switch-title">
 	<div class="dialog-heading">
-		<h2 id="switch-title">Quick switch</h2>
+		<h2 id="switch-title">Quick switch <span class="switch-character">{subjectName}</span></h2>
 		<button class="button small" onclick={() => switcher.close()}>Close ×</button>
 	</div>
 	<label class="switch-search"
@@ -795,7 +853,7 @@
 </dialog>
 <dialog bind:this={help} aria-labelledby="notation-title">
 	<div class="dialog-heading">
-		<h2 id="notation-title">Read the notation</h2>
+		<h2 id="notation-title">{subjectName} notation</h2>
 		<button class="button small" onclick={() => help.close()}>Close ×</button>
 	</div>
 	<p>{game.notation.description}</p>

@@ -1,0 +1,456 @@
+{
+	"sourceIds": ["amkidd-ryu-2025", "joe-ebios-ryu-2025", "obahan-ryu-2026"],
+	"publicationStatus": "private-development",
+	"assets": [
+		{
+			"referenceId": "ryu-joe-lights-heavy-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 13.55,
+			"sourceEnd": 15.95,
+			"clip": "/media/ryu/ryu-joe-lights-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-lights-light-tatsu",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 130.4,
+			"sourceEnd": 134.1,
+			"clip": "/media/ryu/ryu-joe-lights-light-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-lights-light-donkey",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 203.7,
+			"sourceEnd": 207.45,
+			"clip": "/media/ryu/ryu-joe-lights-light-donkey/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-lights-od-tatsu-heavy-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 248.05,
+			"sourceEnd": 253.65,
+			"clip": "/media/ryu/ryu-joe-lights-od-tatsu-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-lights-od-tatsu-sa3",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 233.1,
+			"sourceEnd": 247.65,
+			"clip": "/media/ryu/ryu-joe-lights-od-tatsu-sa3/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-rush-low-medium-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 56.25,
+			"sourceEnd": 59.95,
+			"clip": "/media/ryu/ryu-joe-rush-low-medium-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-rush-overhead-medium-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 63.15,
+			"sourceEnd": 67.65,
+			"clip": "/media/ryu/ryu-joe-rush-overhead-medium-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-medium-heavy-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 347.45,
+			"sourceEnd": 350.75,
+			"clip": "/media/ryu/ryu-joe-medium-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-medium-light-tatsu",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 355.05,
+			"sourceEnd": 357.85,
+			"clip": "/media/ryu/ryu-joe-medium-light-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-medium-light-donkey",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 359.25,
+			"sourceEnd": 361.45,
+			"clip": "/media/ryu/ryu-joe-medium-light-donkey/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-medium-heavy-tatsu-switch",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 363.2,
+			"sourceEnd": 366.65,
+			"clip": "/media/ryu/ryu-joe-medium-heavy-tatsu-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-medium-od-donkey-carry",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 367.3,
+			"sourceEnd": 371.6,
+			"clip": "/media/ryu/ryu-joe-medium-od-donkey-carry/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-corner-dp-medium-meaty",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 86.5,
+			"sourceEnd": 90.7,
+			"clip": "/media/ryu/ryu-joe-corner-dp-medium-meaty/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-corner-dp-light-overhead",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 122.75,
+			"sourceEnd": 128.45,
+			"clip": "/media/ryu/ryu-joe-corner-dp-light-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-corner-tatsu-jab-overhead",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 184.7,
+			"sourceEnd": 190.55,
+			"clip": "/media/ryu/ryu-joe-corner-tatsu-jab-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-corner-tatsu-hasho-confirm",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 196.1,
+			"sourceEnd": 202.95,
+			"clip": "/media/ryu/ryu-joe-corner-tatsu-hasho-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-corner-donkey-medium-overhead",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 218.75,
+			"sourceEnd": 224.3,
+			"clip": "/media/ryu/ryu-joe-corner-donkey-medium-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-corner-od-tatsu-framekill-confirm",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 293.95,
+			"sourceEnd": 303.5,
+			"clip": "/media/ryu/ryu-joe-corner-od-tatsu-framekill-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-mp-od-blade-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 395.25,
+			"sourceEnd": 399.25,
+			"clip": "/media/ryu/ryu-joe-mp-od-blade-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-corner-medium-blade-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 462.8,
+			"sourceEnd": 466.5,
+			"clip": "/media/ryu/ryu-joe-corner-medium-blade-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-low-drive-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 535,
+			"sourceEnd": 539.8,
+			"clip": "/media/ryu/ryu-joe-low-drive-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-heavy-drive-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 572,
+			"sourceEnd": 576.2,
+			"clip": "/media/ryu/ryu-joe-heavy-drive-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-drive-overhead-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 671.5,
+			"sourceEnd": 675.7,
+			"clip": "/media/ryu/ryu-joe-drive-overhead-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-solar-plexus-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 719.2,
+			"sourceEnd": 723.4,
+			"clip": "/media/ryu/ryu-joe-solar-plexus-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-shimmy-hasho-tatsu",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 759,
+			"sourceEnd": 763.8,
+			"clip": "/media/ryu/ryu-joe-shimmy-hasho-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-drive-reversal-punish",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 772.2,
+			"sourceEnd": 777,
+			"clip": "/media/ryu/ryu-joe-drive-reversal-punish/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-denjin-low-tatsu",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 778.6,
+			"sourceEnd": 784.2,
+			"clip": "/media/ryu/ryu-joe-denjin-low-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-heavy-punish-charge",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 933.8,
+			"sourceEnd": 938.3,
+			"clip": "/media/ryu/ryu-joe-heavy-punish-charge/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-heavy-punish-side-switch",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 956.15,
+			"sourceEnd": 960.35,
+			"clip": "/media/ryu/ryu-joe-heavy-punish-side-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-di-solar-plexus-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 1053.8,
+			"sourceEnd": 1060.2,
+			"clip": "/media/ryu/ryu-joe-di-solar-plexus-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-di-tatsu",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 1061.6,
+			"sourceEnd": 1068.7,
+			"clip": "/media/ryu/ryu-joe-di-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-corner-di-blade-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 1110.4,
+			"sourceEnd": 1117.6,
+			"clip": "/media/ryu/ryu-joe-corner-di-blade-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-wall-splat-blade",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 1206.2,
+			"sourceEnd": 1209.4,
+			"clip": "/media/ryu/ryu-joe-wall-splat-blade/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-stun-denjin-meterless",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 1260.4,
+			"sourceEnd": 1266.7,
+			"clip": "/media/ryu/ryu-joe-stun-denjin-meterless/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-joe-stun-charged-sa2-dp",
+			"sourceId": "joe-ebios-ryu-2025",
+			"sourceStart": 1343.6,
+			"sourceEnd": 1353.25,
+			"clip": "/media/ryu/ryu-joe-stun-charged-sa2-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-amkidd-jump-od-tatsu-sa1",
+			"sourceId": "amkidd-ryu-2025",
+			"sourceStart": 21.3,
+			"sourceEnd": 28.55,
+			"clip": "/media/ryu/ryu-amkidd-jump-od-tatsu-sa1/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-amkidd-hashogeki-side-switch",
+			"sourceId": "amkidd-ryu-2025",
+			"sourceStart": 50.45,
+			"sourceEnd": 56.25,
+			"clip": "/media/ryu/ryu-amkidd-hashogeki-side-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-amkidd-corner-sa2-rush-juggle",
+			"sourceId": "amkidd-ryu-2025",
+			"sourceStart": 99.75,
+			"sourceEnd": 109.8,
+			"clip": "/media/ryu/ryu-amkidd-corner-sa2-rush-juggle/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-obahan-light-tatsu-dash-throw",
+			"sourceId": "obahan-ryu-2026",
+			"sourceStart": 16.0,
+			"sourceEnd": 18.35,
+			"clip": "/media/ryu/ryu-obahan-light-tatsu-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-obahan-light-tatsu-shimmy",
+			"sourceId": "obahan-ryu-2026",
+			"sourceStart": 23.9,
+			"sourceEnd": 25.28,
+			"clip": "/media/ryu/ryu-obahan-light-tatsu-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-obahan-light-tatsu-hasho-throw",
+			"sourceId": "obahan-ryu-2026",
+			"sourceStart": 49.2,
+			"sourceEnd": 52.22,
+			"clip": "/media/ryu/ryu-obahan-light-tatsu-hasho-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-obahan-light-tatsu-jab-reversal-bait",
+			"sourceId": "obahan-ryu-2026",
+			"sourceStart": 111.0,
+			"sourceEnd": 113.28,
+			"clip": "/media/ryu/ryu-obahan-light-tatsu-jab-reversal-bait/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-obahan-light-tatsu-drive-rush-jab",
+			"sourceId": "obahan-ryu-2026",
+			"sourceStart": 129.5,
+			"sourceEnd": 130.88,
+			"clip": "/media/ryu/ryu-obahan-light-tatsu-drive-rush-jab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-obahan-medium-tatsu-corner-solar-plexus",
+			"sourceId": "obahan-ryu-2026",
+			"sourceStart": 185.95,
+			"sourceEnd": 187.03,
+			"clip": "/media/ryu/ryu-obahan-medium-tatsu-corner-solar-plexus/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-obahan-medium-tatsu-light-hadoken",
+			"sourceId": "obahan-ryu-2026",
+			"sourceStart": 218.17,
+			"sourceEnd": 219.25,
+			"clip": "/media/ryu/ryu-obahan-medium-tatsu-light-hadoken/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-obahan-hasho-tatsu-meaty-medium-punch",
+			"sourceId": "obahan-ryu-2026",
+			"sourceStart": 259.77,
+			"sourceEnd": 261.32,
+			"clip": "/media/ryu/ryu-obahan-hasho-tatsu-meaty-medium-punch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-obahan-heavy-dp-dash-solar-plexus",
+			"sourceId": "obahan-ryu-2026",
+			"sourceStart": 327.64,
+			"sourceEnd": 329.06,
+			"clip": "/media/ryu/ryu-obahan-heavy-dp-dash-solar-plexus/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-obahan-heavy-dp-dash-whirlwind",
+			"sourceId": "obahan-ryu-2026",
+			"sourceStart": 343.1,
+			"sourceEnd": 344.16,
+			"clip": "/media/ryu/ryu-obahan-heavy-dp-dash-whirlwind/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-obahan-medium-blade-denjin-charge",
+			"sourceId": "obahan-ryu-2026",
+			"sourceStart": 380.15,
+			"sourceEnd": 384.65,
+			"clip": "/media/ryu/ryu-obahan-medium-blade-denjin-charge/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ryu-obahan-sweep-double-dash-throw",
+			"sourceId": "obahan-ryu-2026",
+			"sourceStart": 398.18,
+			"sourceEnd": 403.8,
+			"clip": "/media/ryu/ryu-obahan-sweep-double-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		}
+	]
+}

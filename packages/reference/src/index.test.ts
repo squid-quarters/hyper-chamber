@@ -278,6 +278,30 @@ describe('game definitions and participant context', () => {
 		}
 	});
 
+	it('preserves optional character-specific guides and notation without leaking them into game help', () => {
+		const profile = game({
+			characters: [
+				{
+					id: 'ryu',
+					name: 'Ryu',
+					guides: [{label: 'Ryu guide', url: 'https://example.test/ryu'}],
+					notationLegend: [{term: 'Denjin', meaning: 'Denjin Renki'}],
+				},
+			],
+		});
+		expect(gameDefinitionSchema.parse(profile)).toEqual(profile);
+		expect(profile.notation.legend).toEqual([{term: 'LP', meaning: 'Light punch'}]);
+	});
+
+	it('validates character-specific help and outbound links with the same trust boundary as game help', () => {
+		for (const character of [
+			{id: 'ryu', name: 'Ryu', guides: [{label: 'Guide', url: 'javascript:alert(1)'}]},
+			{id: 'ryu', name: 'Ryu', notationLegend: [{term: '', meaning: 'Missing notation term'}]},
+		]) {
+			expect(gameDefinitionSchema.safeParse(game({characters: [character]})).success).toBe(false);
+		}
+	});
+
 	it('rejects duplicate character identities within a game and duplicate game profiles', () => {
 		expect(
 			gameDefinitionSchema.safeParse(
