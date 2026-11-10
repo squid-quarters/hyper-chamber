@@ -21,6 +21,7 @@ describe('reference navigation', () => {
 	const collections = [
 		{id: 'dhalsim', referenceIds: ids, situations},
 		{id: 'ryu', referenceIds: new Set(['ryu-lights', 'ryu-oki']), situations: ['Oki']},
+		{id: 'akuma', referenceIds: new Set(['akuma-lights', 'akuma-oki']), situations: ['Corner']},
 	];
 	it('defaults to Dhalsim and preserves legacy entry links', () => {
 		expect(readCharacterLocation('', collections)).toMatchObject({
@@ -96,6 +97,33 @@ describe('reference navigation', () => {
 			null,
 		);
 		expect(url.search).toBe('');
+	});
+	it('opens a third library and infers it from entry links shared from another character', () => {
+		expect(readCharacterLocation('?character=akuma&situation=Corner', collections)).toMatchObject({
+			characterId: 'akuma',
+			entryId: null,
+			situation: 'Corner',
+		});
+		for (const search of ['?entry=akuma-lights', '?character=ryu&entry=akuma-lights']) {
+			expect(readCharacterLocation(search, collections)).toMatchObject({
+				characterId: 'akuma',
+				entryId: 'akuma-lights',
+				invalidEntry: false,
+				invalidCharacter: false,
+			});
+		}
+	});
+	it('keeps third-library filters when returning from practice without a stale entry', () => {
+		const filters = {...empty, characterId: 'akuma', situation: 'Corner', query: 'Flame'};
+		const opened = referenceLocation('https://chamber.test/?character=ryu', filters, 'akuma-oki');
+		const returned = referenceLocation(opened.href, filters, null);
+		expect(readCharacterLocation(returned.search, collections)).toMatchObject({
+			characterId: 'akuma',
+			entryId: null,
+			situation: 'Corner',
+			query: 'Flame',
+		});
+		expect(returned.searchParams.has('entry')).toBe(false);
 	});
 	it('rejects a history bookmark that belongs to another character library', () => {
 		expect(
