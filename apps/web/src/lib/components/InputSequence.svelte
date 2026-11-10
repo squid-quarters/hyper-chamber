@@ -1,15 +1,36 @@
 <script lang="ts">
 	import type { GameDefinition, Reference } from '@hyper-chamber/reference';
 
-	let { reference, game }: { reference: Reference; game: GameDefinition } = $props();
+	let {
+		reference,
+		game,
+		compact = false,
+		showActions = true,
+		onNotation,
+	}: {
+		reference: Reference;
+		game: GameDefinition;
+		compact?: boolean;
+		showActions?: boolean;
+		onNotation?: () => void;
+	} = $props();
 	let copyState = $state('');
 	let showText = $state(false);
+	$effect(() => {
+		if (!reference.id) return;
+		copyState = '';
+		showText = false;
+	});
 	async function copyInputs() {
+		const referenceId = reference.id;
+		const notation = reference.notation;
 		try {
 			if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
-			await navigator.clipboard.writeText(reference.notation);
+			await navigator.clipboard.writeText(notation);
+			if (reference.id !== referenceId) return;
 			copyState = 'Input sequence copied.';
 		} catch {
+			if (reference.id !== referenceId) return;
 			showText = true;
 			copyState = 'Copy unavailable. Select the text notation below to copy it.';
 		}
@@ -29,8 +50,24 @@
 	}
 </script>
 
-<div class="input-sequence">
+<div class="input-sequence" class:compact>
 	<p class="sr-only">Moves in order. Connections show sequence only, not timing or cancel rules.</p>
+	{#if compact}
+		<div class="sequence-toolbar">
+			<h3>Input sequence</h3>
+			{#if showActions}
+				<div class="sequence-actions">
+					{#if onNotation}<button onclick={onNotation}>Notation key</button>{/if}
+					<button onclick={copyInputs}
+						>{copyState === 'Input sequence copied.' ? 'Copied' : 'Copy inputs'}</button
+					>
+					<button aria-expanded={showText} onclick={() => (showText = !showText)}
+						>Text notation</button
+					>
+				</div>
+			{/if}
+		</div>
+	{/if}
 	<ol
 		class="move-flow"
 		class:short-sequence={reference.inputs.length <= 4}
@@ -38,14 +75,19 @@
 		role="list"
 	>
 		{#each reference.inputs as input, index (`${reference.id}:${input.id}`)}
-			<li class="move-step">
+			<li
+				class="move-step"
+				title={compact ? `${input.label}${input.cue ? ` — ${input.cue}` : ''}` : undefined}
+			>
 				<span class="move-index" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
 				<div class="move-content">
 					{#if actorName(input.actorId)}<span class="move-actor">{actorName(input.actorId)}</span
 						>{/if}
 					<code class="move-notation">{input.notation}</code>
-					{#if input.label !== input.notation}<span class="move-label">{input.label}</span>{/if}
-					{#if input.cue}<p class="move-cue">{input.cue}</p>{/if}
+					{#if input.label !== input.notation}<span class="move-label" class:sr-only={compact}
+							>{input.label}</span
+						>{/if}
+					{#if input.cue}<p class="move-cue" class:sr-only={compact}>{input.cue}</p>{/if}
 				</div>
 				{#if index < reference.inputs.length - 1}
 					<span class="move-connection" aria-hidden="true"
@@ -62,15 +104,22 @@
 			</li>
 		{/each}
 	</ol>
-	{#key reference.id}
-		<div class="copy-inputs">
-			<button onclick={copyInputs}>Copy inputs</button><span role="status">{copyState}</span>
-		</div>
-		<details class="sequence-text" bind:open={showText}>
-			<summary>Text notation</summary>
-			<p><code>{reference.notation}</code></p>
-		</details>
-	{/key}
+	{#if showActions}
+		{#if compact}
+			<p class="compact-copy-state" class:sr-only={!showText} role="status">{copyState}</p>
+			{#if showText}
+				<div class="compact-text-notation"><p><code>{reference.notation}</code></p></div>
+			{/if}
+		{:else}
+			<div class="copy-inputs">
+				<button onclick={copyInputs}>Copy inputs</button><span role="status">{copyState}</span>
+			</div>
+			<details class="sequence-text" bind:open={showText}>
+				<summary>Text notation</summary>
+				<p><code>{reference.notation}</code></p>
+			</details>
+		{/if}
+	{/if}
 </div>
 
 <style>
@@ -233,6 +282,115 @@
 			transform: rotate(-90deg);
 			margin: -3px 3px;
 		}
+	}
+	.sequence-toolbar {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.25rem 1rem;
+		margin-bottom: 0.35rem;
+	}
+	.sequence-toolbar h3 {
+		font-size: 0.75rem;
+		letter-spacing: 0.09em;
+		text-transform: uppercase;
+		color: var(--panel-muted);
+	}
+	.sequence-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 0.75rem;
+	}
+	.sequence-actions button {
+		min-block-size: 28px;
+		padding: 0.2rem 0;
+		color: var(--panel-ink);
+		font-size: 0.8rem;
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
+	.sequence-actions button:focus-visible {
+		outline-color: var(--panel-accent);
+	}
+	.compact .move-flow {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.35rem 0.7rem;
+		margin: 0;
+	}
+	.compact .move-step {
+		display: flex;
+		align-items: baseline;
+		gap: 0.35rem;
+		max-inline-size: 100%;
+		min-inline-size: 0;
+		padding: 0;
+	}
+	.compact .move-index {
+		display: inline;
+		flex: none;
+		width: auto;
+		height: auto;
+		border: 0;
+		border-radius: 0;
+		font-size: 0.7rem;
+		line-height: 1.6;
+	}
+	.compact .move-content {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0.3rem;
+		min-inline-size: 0;
+		margin: 0;
+		padding: 0;
+	}
+	.compact .move-notation {
+		font-size: 1rem;
+		line-height: 1.6;
+	}
+	.compact .move-actor {
+		margin: 0;
+		font-size: 0.85rem;
+		line-height: 1.6;
+	}
+	.compact .move-connection {
+		position: static;
+		display: inline-flex;
+		flex: none;
+		align-self: center;
+		flex-direction: row;
+		width: 18px;
+		height: 14px;
+		margin-inline-start: 0.2rem;
+	}
+	.compact .move-connection::before {
+		display: none;
+	}
+	.compact .move-connection svg {
+		width: 12px;
+		height: 18px;
+		margin: -2px 3px;
+		transform: rotate(-90deg);
+	}
+	.compact-copy-state:not(.sr-only) {
+		margin-top: 0.65rem;
+		font-size: 0.8rem;
+		color: var(--panel-ink);
+	}
+	.compact-text-notation {
+		margin-top: 0.65rem;
+		border-top: 1px solid var(--border);
+		padding-top: 0.65rem;
+		color: var(--panel-ink);
+		font-size: 0.85rem;
+		line-height: 1.8;
+		overflow-wrap: anywhere;
+	}
+	.compact-text-notation code {
+		user-select: all;
 	}
 	@media (forced-colors: active) {
 		.move-index,
