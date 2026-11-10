@@ -109,6 +109,38 @@
 					"meaning": "Hashogeki. Denjin versions require a stored charge when stated in the reference."
 				}
 			]
+		},
+		{
+			"id": "akuma",
+			"name": "Akuma",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/gouki_akuma"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Tatsu",
+					"meaning": "Tatsumaki Zanku-kyaku; strength and timing follow the reference."
+				},
+				{
+					"term": "DP / Shoryuken",
+					"meaning": "Gou Shoryuken; L, M, H and OD identify the demonstrated version."
+				},
+				{
+					"term": "Hadoken / Fireball / Air fireball",
+					"meaning": "Gou Hadoken / Zanku Hadoken. Charged versions are identified in the reference."
+				},
+				{
+					"term": "Flame / Adamant Flame / ~",
+					"meaning": "Adamant Flame is Akuma's quarter-circle-back punch special. A ~ marks a follow-up action; use the listed button and timing."
+				},
+				{
+					"term": "Demon Flip / Demon Raid",
+					"meaning": "Demon Raid (Hyakkishu). Each reference identifies the demonstrated follow-up or landing action."
+				}
+			]
 		}
 	]
 }

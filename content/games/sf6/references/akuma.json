@@ -1,0 +1,5242 @@
+[
+	{
+		"id": "akuma-joe-beginner-lights-heavy-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Three lights into heavy DP",
+		"summary": "A short light confirm with a heavy Gou Shoryuken ender.",
+		"kind": "combo",
+		"situations": ["Light confirm", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.LP > st.LK > H DP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "H DP",
+				"label": "Heavy Gou Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [
+			"The source labels this knockdown +30F. After three lights, its pushback makes the follow-up Rush throw too late for a true meaty; do not assume the close two-light example has the same spacing."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 1.45,
+			"end": 4.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-lights-heavy-dp/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-lights-heavy-dp/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-lights-heavy-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-lights-heavy-dp/frame-1.jpg",
+					"at": 0.45,
+					"label": "Crouching lights",
+					"alt": "Akuma confirms crouching light punches at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-lights-heavy-dp/frame-2.jpg",
+					"at": 1.0,
+					"label": "Standing light kick",
+					"alt": "Standing light kick connects before the DP cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-lights-heavy-dp/frame-3.jpg",
+					"at": 1.65,
+					"label": "Heavy DP",
+					"alt": "Heavy Gou Shoryuken lifts Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-lights-heavy-dp/frame-4.jpg",
+					"at": 3.0,
+					"label": "Knockdown",
+					"alt": "Ryu lands after heavy Gou Shoryuken."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "akuma-joe-beginner-dp-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Heavy DP: Rush into throw",
+		"summary": "Close the knockdown distance with raw Drive Rush and throw on wake-up.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Throw"],
+		"outcomes": ["Wake-up pressure", "Throw knockdown"],
+		"notation": "DR > throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "throw",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a close two-light confirm into heavy Gou Shoryuken, as demonstrated"
+		],
+		"notes": [
+			"The source uses a +30F heavy-DP knockdown and explicitly warns that three lights push too far away for a true meaty Rush throw. Match this shorter confirm and spacing."
+		],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 8.6,
+			"end": 12.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-dp-rush-throw/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-dp-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-dp-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-throw/frame-1.jpg",
+					"at": 0.15,
+					"label": "DP recovery",
+					"alt": "Akuma recovers as Ryu falls from the heavy DP."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-throw/frame-2.jpg",
+					"at": 0.6,
+					"label": "Rush forward",
+					"alt": "Raw Drive Rush closes the distance during the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-throw/frame-3.jpg",
+					"at": 1.6,
+					"label": "Wake-up throw",
+					"alt": "Akuma catches Ryu with a forward throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-throw/frame-4.jpg",
+					"at": 2.95,
+					"label": "Throw knockdown",
+					"alt": "The forward throw leaves Ryu on the floor."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-beginner-dp-rush-shimmy", "akuma-joe-beginner-dp-rush-forward-medium"]
+	},
+	{
+		"id": "akuma-joe-beginner-dp-rush-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Heavy DP: Rush, retreat and punish",
+		"summary": "Use the Rush approach to threaten a throw, then step back and punish the whiff.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Shimmy"],
+		"outcomes": ["Throw bait", "Punish opportunity"],
+		"notation": "DR > walk back > cr.MP (PC)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "walk back",
+				"label": "Walk backward to bait a throw"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP (PC)",
+				"label": "Crouching medium punch punish counter"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After heavy Gou Shoryuken at the demonstrated midscreen spacing",
+			"Opponent attempts a wake-up throw"
+		],
+		"notes": [
+			"This short excerpt isolates the approach and first punish hit. Continue into a confirmed punish route; the retreat is a read on a throw."
+		],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 17.05,
+			"end": 18.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-dp-rush-shimmy/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-dp-rush-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-dp-rush-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-shimmy/frame-1.jpg",
+					"at": 0.3,
+					"label": "Rush approach",
+					"alt": "Akuma starts raw Drive Rush after the heavy-DP knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-shimmy/frame-2.jpg",
+					"at": 1.0,
+					"label": "Retreat",
+					"alt": "Akuma walks back out of throw range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-shimmy/frame-3.jpg",
+					"at": 1.3,
+					"label": "Throw whiffs",
+					"alt": "Ryu reaches for a throw as Akuma stays outside its range."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-shimmy/frame-4.jpg",
+					"at": 1.55,
+					"label": "Punish",
+					"alt": "Crouching medium punch punishes the missed throw."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-beginner-dp-rush-throw", "akuma-joe-beginner-dp-rush-forward-medium"]
+	},
+	{
+		"id": "akuma-joe-beginner-dp-rush-forward-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Heavy DP: Rush forward-medium into Tatsu",
+		"summary": "Convert a Drive Rush forward-medium target combo into heavy Tatsu.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Drive Rush"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "DR > f.MP > st.MK > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "Standing medium kick",
+				"cue": "Forward-medium target-combo follow-up"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After heavy Gou Shoryuken at the demonstrated spacing",
+			"Forward medium punch connects"
+		],
+		"notes": [
+			"The selected take uses heavy Tatsu. The source also demonstrates a heavy-DP alternative in a separate take."
+		],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 26.35,
+			"end": 31.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-dp-rush-forward-medium/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-dp-rush-forward-medium/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-dp-rush-forward-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-forward-medium/frame-1.jpg",
+					"at": 0.25,
+					"label": "DP recovery",
+					"alt": "Akuma recovers from the heavy DP as Ryu falls."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-forward-medium/frame-2.jpg",
+					"at": 0.9,
+					"label": "Rush approach",
+					"alt": "Raw Drive Rush closes the wake-up distance."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-forward-medium/frame-3.jpg",
+					"at": 1.9,
+					"label": "Forward medium punch",
+					"alt": "Drive Rush forward medium punch reaches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-forward-medium/frame-4.jpg",
+					"at": 2.2,
+					"label": "Medium kick",
+					"alt": "The medium-kick target-combo follow-up continues the hit conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-forward-medium/frame-5.jpg",
+					"at": 2.95,
+					"label": "Heavy Tatsu",
+					"alt": "Heavy Tatsu carries the conversion forward."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-beginner-dp-rush-forward-medium/frame-6.jpg",
+					"at": 4.15,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the heavy-Tatsu ender."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-beginner-dp-rush-throw", "akuma-joe-beginner-dp-rush-shimmy"]
+	},
+	{
+		"id": "akuma-joe-beginner-corner-dp-mk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner DP: medium-kick frame kill into throw",
+		"summary": "Whiff standing medium kick after heavy DP, then throw.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Frame kill", "Throw"],
+		"outcomes": ["Corner pressure", "Throw knockdown"],
+		"notation": "whiff st.MK > throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "whiff st.MK",
+				"label": "Whiff standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "throw",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Corner heavy-DP knockdown at the demonstrated close spacing"
+		],
+		"notes": [
+			"The source labels the heavy DP +30F and the whiffed medium kick +4F. These values describe the recorded setup, not every DP spacing."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 49.65,
+			"end": 53.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-corner-dp-mk-throw/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-corner-dp-mk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-corner-dp-mk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-throw/frame-1.jpg",
+					"at": 0.15,
+					"label": "DP knockdown",
+					"alt": "Ryu falls in the corner after heavy Gou Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-throw/frame-2.jpg",
+					"at": 1.05,
+					"label": "Frame kill",
+					"alt": "Standing medium kick misses while Ryu is knocked down."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-throw/frame-3.jpg",
+					"at": 1.45,
+					"label": "Forward throw",
+					"alt": "Akuma throws Ryu as he gets up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-throw/frame-4.jpg",
+					"at": 3.05,
+					"label": "Corner retained",
+					"alt": "Ryu lands in the corner after the throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-beginner-corner-dp-mk-shimmy",
+			"akuma-joe-beginner-corner-dp-mk-meaty"
+		]
+	},
+	{
+		"id": "akuma-joe-beginner-corner-dp-mk-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner DP: medium-kick frame kill into shimmy",
+		"summary": "Use the same medium-kick timing to bait a throw instead.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Frame kill", "Shimmy"],
+		"outcomes": ["Throw bait", "Punish opportunity"],
+		"notation": "whiff st.MK > walk back > cr.MP (PC)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "whiff st.MK",
+				"label": "Whiff standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "walk back",
+				"label": "Walk backward to bait a throw"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP (PC)",
+				"label": "Crouching medium punch punish counter"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Corner heavy-DP knockdown",
+			"Opponent attempts a wake-up throw"
+		],
+		"notes": [
+			"The source uses the +4F medium-kick frame kill. The excerpt ends on the first punish hit, before the longer damage route."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 57.45,
+			"end": 59.22
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-corner-dp-mk-shimmy/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-corner-dp-mk-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-corner-dp-mk-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-shimmy/frame-1.jpg",
+					"at": 0.2,
+					"label": "DP recovery",
+					"alt": "Akuma descends from the corner DP."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-shimmy/frame-2.jpg",
+					"at": 0.85,
+					"label": "Frame kill",
+					"alt": "Standing medium kick misses during Ryu’s knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-shimmy/frame-3.jpg",
+					"at": 1.2,
+					"label": "Retreat",
+					"alt": "Akuma steps back to leave throw range."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-shimmy/frame-4.jpg",
+					"at": 1.45,
+					"label": "Throw whiffs",
+					"alt": "Ryu’s wake-up throw misses."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-shimmy/frame-5.jpg",
+					"at": 1.65,
+					"label": "Punish",
+					"alt": "Crouching medium punch punishes the whiffed throw."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-beginner-corner-dp-mk-throw", "akuma-joe-beginner-corner-dp-mk-meaty"]
+	},
+	{
+		"id": "akuma-joe-beginner-corner-dp-mk-meaty",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner DP: frame kill into medium confirm",
+		"summary": "Whiff medium kick, then confirm standing medium punch through a crouching jab into heavy DP.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Frame kill", "Meaty"],
+		"outcomes": ["Knockdown"],
+		"notation": "whiff st.MK > st.MP > cr.LP > H DP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "whiff st.MK",
+				"label": "Whiff standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "H DP",
+				"label": "Heavy Gou Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Corner heavy-DP knockdown", "Medium punch hits on wake-up"],
+		"notes": [
+			"The source labels the whiffed-medium-kick timing +4F. This is the demonstrated hit conversion, not a route to finish when the medium punch is blocked."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 68.1,
+			"end": 71.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-corner-dp-mk-meaty/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-corner-dp-mk-meaty/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-corner-dp-mk-meaty/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-meaty/frame-1.jpg",
+					"at": 0.65,
+					"label": "Frame kill",
+					"alt": "Standing medium kick misses while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-meaty/frame-2.jpg",
+					"at": 1.1,
+					"label": "Medium punch",
+					"alt": "Standing medium punch meets Ryu’s wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-meaty/frame-3.jpg",
+					"at": 1.45,
+					"label": "Crouching jab",
+					"alt": "Crouching light punch continues the medium-punch confirm."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-meaty/frame-4.jpg",
+					"at": 2.2,
+					"label": "Heavy DP",
+					"alt": "Heavy Gou Shoryuken finishes the confirmed hit sequence."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-beginner-corner-dp-mk-meaty/frame-5.jpg",
+					"at": 3.0,
+					"label": "Knockdown",
+					"alt": "Ryu lands in the corner again."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-beginner-corner-dp-mk-throw",
+			"akuma-joe-beginner-corner-dp-mk-shimmy"
+		]
+	},
+	{
+		"id": "akuma-joe-beginner-medium-target-heavy-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Medium target combo into heavy Tatsu",
+		"summary": "Confirm the two medium-punch target-combo hits into heavy Tatsu.",
+		"kind": "combo",
+		"situations": ["Medium confirm", "Midscreen", "Corner carry"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > st.MP > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch",
+				"cue": "Target-combo follow-up"
+			},
+			{
+				"id": "step-3",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": ["Classic controls", "Close range", "Target combo connects"],
+		"notes": [
+			"The source labels this ground-hit heavy-Tatsu knockdown +34F. Its separate DP-end version is not included in this excerpt."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 80.5,
+			"end": 84.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-medium-target-heavy-tatsu/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-medium-target-heavy-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-medium-target-heavy-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-medium-target-heavy-tatsu/frame-1.jpg",
+					"at": 0.5,
+					"label": "Medium punch",
+					"alt": "Standing medium punch begins the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-medium-target-heavy-tatsu/frame-2.jpg",
+					"at": 1.0,
+					"label": "Target-combo follow-up",
+					"alt": "The second medium-punch target-combo hit connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-medium-target-heavy-tatsu/frame-3.jpg",
+					"at": 1.8,
+					"label": "Heavy Tatsu",
+					"alt": "Heavy Tatsu carries Ryu forward."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-medium-target-heavy-tatsu/frame-4.jpg",
+					"at": 3.15,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the ground-hit heavy Tatsu."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "akuma-joe-beginner-tatsu-rush-heavy-flame",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Ground Tatsu: Rush heavy punches into Flame",
+		"summary": "Chase the ground-hit heavy-Tatsu knockdown with Rush and convert two heavy punches into Adamant Flame.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > st.HP > st.HP > H Flame > 6P follow-up",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Flame",
+				"label": "Heavy Adamant Flame"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P follow-up",
+				"label": "Forward punch Adamant Flame follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a ground-hit heavy Tatsu at the demonstrated midscreen spacing",
+			"Rush heavy punch hits"
+		],
+		"notes": [
+			"The recorded ground-hit Tatsu is labeled +34F. This is a knockdown-pressure sequence with a confirmed hit conversion, not an uninterrupted combo from the prior Tatsu."
+		],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 88.6,
+			"end": 92.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-tatsu-rush-heavy-flame/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-tatsu-rush-heavy-flame/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-tatsu-rush-heavy-flame/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-tatsu-rush-heavy-flame/frame-1.jpg",
+					"at": 0.1,
+					"label": "Tatsu knockdown",
+					"alt": "Ryu falls after the ground-hit heavy Tatsu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-tatsu-rush-heavy-flame/frame-2.jpg",
+					"at": 0.6,
+					"label": "Rush approach",
+					"alt": "Raw Drive Rush closes the gap."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-tatsu-rush-heavy-flame/frame-3.jpg",
+					"at": 1.05,
+					"label": "Rush heavy punch",
+					"alt": "Drive Rush standing heavy punch connects on wake-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-tatsu-rush-heavy-flame/frame-4.jpg",
+					"at": 1.55,
+					"label": "Second heavy punch",
+					"alt": "A second standing heavy punch continues the hit conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-beginner-tatsu-rush-heavy-flame/frame-5.jpg",
+					"at": 2.3,
+					"label": "Adamant Flame",
+					"alt": "Heavy Adamant Flame connects."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-beginner-tatsu-rush-heavy-flame/frame-6.jpg",
+					"at": 2.8,
+					"label": "Forward-punch follow-up",
+					"alt": "Adamant Flame’s forward-punch follow-up launches Ryu."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/akuma/akuma-joe-beginner-tatsu-rush-heavy-flame/frame-7.jpg",
+					"at": 3.6,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the Flame follow-up."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "akuma-joe-beginner-corner-ground-tatsu-mk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Ground Tatsu: frame kill into delayed throw",
+		"summary": "After a ground-hit heavy Tatsu in the corner, whiff medium kick and delay the throw.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Frame kill", "Throw"],
+		"outcomes": ["Corner pressure", "Throw knockdown"],
+		"notation": "whiff st.MK > delay throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "whiff st.MK",
+				"label": "Whiff standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "delay throw",
+				"label": "Delay, then forward throw"
+			}
+		],
+		"conditions": ["Classic controls", "Corner heavy Tatsu that began hitting a grounded opponent"],
+		"notes": [
+			"The source labels the ground-hit ender +34F and the medium-kick frame kill +8F. The throw must be delayed; the air-juggle Tatsu setup uses different timing."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 102.7,
+			"end": 106.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-throw/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-throw/frame-1.jpg",
+					"at": 0.2,
+					"label": "Ground-hit Tatsu knockdown",
+					"alt": "Ryu falls after the ground-hit heavy Tatsu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-throw/frame-2.jpg",
+					"at": 0.75,
+					"label": "Frame kill",
+					"alt": "Standing medium kick misses during the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-throw/frame-3.jpg",
+					"at": 1.35,
+					"label": "Delayed throw",
+					"alt": "Akuma delays the forward throw to catch Ryu on wake-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-throw/frame-4.jpg",
+					"at": 2.9,
+					"label": "Corner retained",
+					"alt": "Ryu lands back in the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-beginner-corner-ground-tatsu-mk-shimmy",
+			"akuma-joe-beginner-corner-ground-tatsu-mk-meaty"
+		]
+	},
+	{
+		"id": "akuma-joe-beginner-corner-ground-tatsu-mk-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Ground Tatsu: frame kill into shimmy",
+		"summary": "Step back after the medium-kick frame kill to punish a wake-up throw.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Frame kill", "Shimmy"],
+		"outcomes": ["Throw bait", "Punish opportunity"],
+		"notation": "whiff st.MK > walk back > cr.MP (PC)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "whiff st.MK",
+				"label": "Whiff standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "walk back",
+				"label": "Walk backward to bait a throw"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP (PC)",
+				"label": "Crouching medium punch punish counter"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Corner ground-hit heavy-Tatsu knockdown",
+			"Opponent attempts a wake-up throw"
+		],
+		"notes": [
+			"The source labels this medium-kick frame kill +8F. The excerpt ends at the first punish hit, before the longer combo."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 111.15,
+			"end": 112.72
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-shimmy/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-shimmy/frame-1.jpg",
+					"at": 0.45,
+					"label": "Frame kill",
+					"alt": "Standing medium kick misses during the ground-hit Tatsu knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-shimmy/frame-2.jpg",
+					"at": 0.8,
+					"label": "Retreat",
+					"alt": "Akuma backs out of throw range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-shimmy/frame-3.jpg",
+					"at": 1.05,
+					"label": "Throw whiffs",
+					"alt": "Ryu reaches for a throw as Akuma retreats."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-shimmy/frame-4.jpg",
+					"at": 1.4,
+					"label": "Punish",
+					"alt": "Crouching medium punch punishes the missed throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-beginner-corner-ground-tatsu-mk-throw",
+			"akuma-joe-beginner-corner-ground-tatsu-mk-meaty"
+		]
+	},
+	{
+		"id": "akuma-joe-beginner-corner-ground-tatsu-mk-meaty",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Ground Tatsu: meaty medium into two Tatsus",
+		"summary": "Use the medium-kick frame kill to time a meaty medium punch, then confirm into light and heavy Tatsu.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Frame kill", "Meaty"],
+		"outcomes": ["Knockdown"],
+		"notation": "whiff st.MK > st.MP > cr.MP > L Tatsu > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "whiff st.MK",
+				"label": "Whiff standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch",
+				"cue": "Meaty timing"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "L Tatsu",
+				"label": "Light Tatsumaki Zanku-kyaku"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Corner ground-hit heavy-Tatsu knockdown",
+			"Meaty standing medium punch hits"
+		],
+		"notes": [
+			"The source labels the initial medium-kick frame kill +8F and the final air-juggle heavy-Tatsu knockdown +31F. The initial and final Tatsu timings differ."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 122.5,
+			"end": 127.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-meaty/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-meaty/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-meaty/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-meaty/frame-1.jpg",
+					"at": 0.4,
+					"label": "Frame kill",
+					"alt": "Standing medium kick misses while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-meaty/frame-2.jpg",
+					"at": 0.85,
+					"label": "Meaty medium punch",
+					"alt": "Standing medium punch hits Ryu on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-meaty/frame-3.jpg",
+					"at": 1.3,
+					"label": "Crouching medium",
+					"alt": "Crouching medium punch continues the meaty-hit confirm."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-meaty/frame-4.jpg",
+					"at": 1.85,
+					"label": "Light Tatsu",
+					"alt": "Light Tatsu starts the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-meaty/frame-5.jpg",
+					"at": 3.05,
+					"label": "Heavy Tatsu",
+					"alt": "Heavy Tatsu continues the corner juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-meaty/frame-6.jpg",
+					"at": 4.0,
+					"label": "Juggle knockdown",
+					"alt": "Ryu lands after the air-hit heavy Tatsu."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-beginner-corner-ground-tatsu-mk-throw",
+			"akuma-joe-beginner-corner-ground-tatsu-mk-shimmy"
+		]
+	},
+	{
+		"id": "akuma-joe-beginner-corner-air-tatsu-mk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Juggle Tatsu: frame kill into throw",
+		"summary": "After a heavy-Tatsu air juggle, whiff medium kick and throw in the corner.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Frame kill", "Throw"],
+		"outcomes": ["Corner pressure", "Throw knockdown"],
+		"notation": "whiff st.MK > throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "whiff st.MK",
+				"label": "Whiff standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "throw",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Corner heavy Tatsu that juggled an airborne opponent, as demonstrated"
+		],
+		"notes": [
+			"The source labels this air-hit knockdown +31F and the medium-kick frame kill +5F. Do not use the ground-hit Tatsu’s delayed-throw timing here."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 174.1,
+			"end": 177.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-throw/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-throw/frame-1.jpg",
+					"at": 0.25,
+					"label": "Juggle knockdown",
+					"alt": "Akuma lands as Ryu falls from the heavy-Tatsu juggle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-throw/frame-2.jpg",
+					"at": 0.6,
+					"label": "Frame kill",
+					"alt": "Standing medium kick misses while Ryu is knocked down."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-throw/frame-3.jpg",
+					"at": 1.15,
+					"label": "Forward throw",
+					"alt": "Akuma catches Ryu with a wake-up forward throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-throw/frame-4.jpg",
+					"at": 2.55,
+					"label": "Corner retained",
+					"alt": "Ryu lands in the corner after the throw."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-beginner-corner-air-tatsu-mk-shimmy"]
+	},
+	{
+		"id": "akuma-joe-beginner-corner-air-tatsu-mk-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Juggle Tatsu: frame kill into shimmy",
+		"summary": "Threaten the throw after an air-juggle Tatsu, then punish the opponent’s throw attempt.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Frame kill", "Shimmy"],
+		"outcomes": ["Throw bait", "Punish opportunity"],
+		"notation": "whiff st.MK > walk back > cr.MP (PC)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "whiff st.MK",
+				"label": "Whiff standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "walk back",
+				"label": "Walk backward to bait a throw"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP (PC)",
+				"label": "Crouching medium punch punish counter"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Corner air-juggle heavy-Tatsu knockdown",
+			"Opponent attempts a wake-up throw"
+		],
+		"notes": [
+			"The source labels this medium-kick frame kill +5F. This excerpt isolates the throw bait and first punish hit."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 183.25,
+			"end": 184.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-shimmy/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-shimmy/frame-1.jpg",
+					"at": 0.15,
+					"label": "Juggle knockdown",
+					"alt": "Akuma lands after the heavy-Tatsu juggle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-shimmy/frame-2.jpg",
+					"at": 0.45,
+					"label": "Frame kill",
+					"alt": "Standing medium kick misses during Ryu’s knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-shimmy/frame-3.jpg",
+					"at": 0.9,
+					"label": "Throw whiffs",
+					"alt": "Akuma retreats and Ryu’s throw fails to reach."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-shimmy/frame-4.jpg",
+					"at": 1.2,
+					"label": "Punish",
+					"alt": "Crouching medium punch punishes the whiffed throw."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-beginner-corner-air-tatsu-mk-throw"]
+	},
+	{
+		"id": "akuma-joe-beginner-flame-double-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Heavy Flame: two dashes, walk and throw",
+		"summary": "Follow the heavy-Adamant-Flame knockdown with two dashes, a short walk and a throw.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Throw"],
+		"outcomes": ["Wake-up pressure", "Throw knockdown"],
+		"notation": "dash > dash > short walk > throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "short walk",
+				"label": "Walk forward briefly"
+			},
+			{
+				"id": "step-4",
+				"notation": "throw",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Midscreen heavy Adamant Flame with forward-punch follow-up at the demonstrated spacing"
+		],
+		"notes": [
+			"The source labels the Flame follow-up +47F and two dashes +9F. It explicitly adds a short walk before the throw."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 218.45,
+			"end": 221.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-flame-double-dash-throw/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-flame-double-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-flame-double-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-flame-double-dash-throw/frame-1.jpg",
+					"at": 0.2,
+					"label": "Flame knockdown",
+					"alt": "Ryu falls after heavy Adamant Flame’s forward-punch follow-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-flame-double-dash-throw/frame-2.jpg",
+					"at": 0.5,
+					"label": "First dash",
+					"alt": "Akuma dashes toward the falling opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-flame-double-dash-throw/frame-3.jpg",
+					"at": 0.85,
+					"label": "Second dash",
+					"alt": "A second dash closes the remaining distance."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-flame-double-dash-throw/frame-4.jpg",
+					"at": 1.3,
+					"label": "Walk into throw",
+					"alt": "Akuma adds a short forward walk before throwing."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-beginner-flame-double-dash-throw/frame-5.jpg",
+					"at": 2.95,
+					"label": "Throw knockdown",
+					"alt": "The forward throw leaves Ryu on the floor."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-beginner-flame-double-dash-shimmy"]
+	},
+	{
+		"id": "akuma-joe-beginner-flame-double-dash-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Heavy Flame: two dashes into shimmy",
+		"summary": "Use the double-dash approach to bait a throw and punish with crouching medium punch.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Shimmy"],
+		"outcomes": ["Throw bait", "Punish opportunity"],
+		"notation": "dash > dash > walk back > cr.MP (PC)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "walk back",
+				"label": "Walk backward to bait a throw"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP (PC)",
+				"label": "Crouching medium punch punish counter"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Midscreen heavy Adamant Flame with forward-punch follow-up",
+			"Opponent attempts a wake-up throw"
+		],
+		"notes": [
+			"The source labels the two-dash approach +9F. This excerpt stops after the first punish hit."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 228.38,
+			"end": 230.18
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-flame-double-dash-shimmy/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-flame-double-dash-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-flame-double-dash-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-flame-double-dash-shimmy/frame-1.jpg",
+					"at": 0.22,
+					"label": "First dash",
+					"alt": "Akuma dashes after the heavy-Flame follow-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-flame-double-dash-shimmy/frame-2.jpg",
+					"at": 0.57,
+					"label": "Second dash",
+					"alt": "The second dash brings Akuma close during Ryu’s wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-flame-double-dash-shimmy/frame-3.jpg",
+					"at": 0.97,
+					"label": "Retreat",
+					"alt": "Akuma backs away as Ryu attempts a throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-flame-double-dash-shimmy/frame-4.jpg",
+					"at": 1.47,
+					"label": "Punish",
+					"alt": "Crouching medium punch punishes the whiffed throw."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-beginner-flame-double-dash-throw"]
+	},
+	{
+		"id": "akuma-joe-beginner-corner-od-flame-fireball-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner OD Flame into fireball and Tatsu",
+		"summary": "Use OD Adamant Flame’s launch for a crouching-heavy, light-fireball and heavy-Tatsu corner juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "OD conversion"],
+		"outcomes": ["Knockdown"],
+		"notation": "OD Flame > 6P follow-up > cr.HP > L fireball > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "OD Flame",
+				"label": "Overdrive Adamant Flame"
+			},
+			{
+				"id": "step-2",
+				"notation": "6P follow-up",
+				"label": "Forward punch Adamant Flame follow-up"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "L fireball",
+				"label": "Light Gou Hadoken"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"OD Adamant Flame connects from a grounded starter"
+		],
+		"notes": [
+			"This excerpt isolates the OD Flame juggle after the starter. The source lists several cancellable normal starters; it does not establish that every range works. The final air-hit heavy Tatsu is labeled +31F."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 156.35,
+			"end": 161.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-corner-od-flame-fireball-tatsu/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-corner-od-flame-fireball-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-corner-od-flame-fireball-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-corner-od-flame-fireball-tatsu/frame-1.jpg",
+					"at": 0.25,
+					"label": "OD Adamant Flame",
+					"alt": "Overdrive Adamant Flame launches Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-corner-od-flame-fireball-tatsu/frame-2.jpg",
+					"at": 0.95,
+					"label": "Forward-punch follow-up",
+					"alt": "The forward-punch follow-up extends the launch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-corner-od-flame-fireball-tatsu/frame-3.jpg",
+					"at": 1.65,
+					"label": "Crouching heavy punch",
+					"alt": "Crouching heavy punch catches the falling opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-corner-od-flame-fireball-tatsu/frame-4.jpg",
+					"at": 2.25,
+					"label": "Light fireball",
+					"alt": "Light Gou Hadoken holds the corner juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-beginner-corner-od-flame-fireball-tatsu/frame-5.jpg",
+					"at": 3.25,
+					"label": "Heavy Tatsu",
+					"alt": "Heavy Tatsu continues the airborne juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-beginner-corner-od-flame-fireball-tatsu/frame-6.jpg",
+					"at": 4.45,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the juggle ender."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "akuma-joe-beginner-low-cashout-sa3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Low confirm: two Rush cancels into Level 3",
+		"summary": "Spend the remaining Drive and three Super stocks on a crouching-medium-kick cash-out.",
+		"kind": "combo",
+		"situations": ["Low confirm", "Cash-out", "Drive Rush"],
+		"outcomes": ["Cash-out", "Hard knockdown"],
+		"notation": "cr.MK > DRC > st.HP > st.MK > DRC > f.HP > cr.HP > H Flame > 6P follow-up > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "f.HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "H Flame",
+				"label": "Heavy Adamant Flame"
+			},
+			{
+				"id": "step-9",
+				"notation": "6P follow-up",
+				"label": "Forward punch Adamant Flame follow-up"
+			},
+			{
+				"id": "step-10",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching medium kick connects",
+			"Sufficient Drive to perform the second cancel",
+			"Three Super stocks"
+		],
+		"notes": [
+			"The source demonstration enters burnout on the second Rush cancel. Treat this as a cash-out choice, not the default resource-efficient confirm."
+		],
+		"resources": {
+			"drive": "Two Drive Rush cancels · burnout",
+			"super": "Level 3"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-beginner-2026",
+			"title": "SF6 AKUMA Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=YxtKvL-r9-4",
+			"published": "2026-06-03",
+			"start": 322.05,
+			"end": 336.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ June 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/frame-1.jpg",
+					"at": 0.75,
+					"label": "Low starter",
+					"alt": "Crouching medium kick begins the low confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/frame-2.jpg",
+					"at": 1.4,
+					"label": "First Rush conversion",
+					"alt": "The first Rush cancel leads into standing heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/frame-3.jpg",
+					"at": 2.1,
+					"label": "Medium kick",
+					"alt": "Standing medium kick connects before the next Rush cancel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/frame-4.jpg",
+					"at": 2.5,
+					"label": "Second Rush cancel",
+					"alt": "A second Drive Rush cancel spends the remaining gauge and causes burnout."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/frame-5.jpg",
+					"at": 3.0,
+					"label": "Crouching heavy punch",
+					"alt": "Crouching heavy punch follows the forward-heavy Rush hit."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/frame-6.jpg",
+					"at": 4.1,
+					"label": "Heavy Flame",
+					"alt": "Heavy Adamant Flame continues the cash-out."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/frame-7.jpg",
+					"at": 4.5,
+					"label": "Flame follow-up",
+					"alt": "The forward-punch follow-up connects before Super."
+				},
+				{
+					"id": "frame-8",
+					"src": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/frame-8.jpg",
+					"at": 6.45,
+					"label": "Level 3",
+					"alt": "Akuma’s Level 3 Super Art continues the combo."
+				},
+				{
+					"id": "frame-9",
+					"src": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/frame-9.jpg",
+					"at": 13.55,
+					"label": "Hard knockdown",
+					"alt": "The Level 3 finishes and leaves Ryu in hard knockdown."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "akuma-joe-classic-corner-dp-double-jab-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner DP: two jab frame kills into throw",
+		"summary": "Whiff two standing jabs after the corner heavy DP knockdown, then delay the throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After knockdown"],
+		"outcomes": ["Throw pressure"],
+		"notation": "st.LP (whiff) > st.LP (whiff) > Forward throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP (whiff)",
+				"label": "Whiff standing light punch",
+				"cue": "First timing action after the specified heavy DP knockdown."
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP (whiff)",
+				"label": "Whiff standing light punch",
+				"cue": "Whiff the second jab immediately after the first."
+			},
+			{
+				"id": "step-3",
+				"notation": "Forward throw",
+				"label": "Forward throw",
+				"cue": "Delay the throw to match the demonstrated wake-up timing."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Begin after cr.LP > cr.LP > st.LK > H Gou Shoryuken, as demonstrated"
+		],
+		"notes": [
+			"The knockdown and wake-up interaction are separate sequences, not one uninterrupted damage combo.",
+			"The source labels the two-jab timing position +8. This records its demonstrated setup, not a current-patch guarantee."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 104.7,
+			"end": 108.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-throw/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-throw/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-throw/frame-1.jpg",
+					"at": 0.3,
+					"label": "First whiffed jab",
+					"alt": "Akuma whiffs a standing jab while Ryu is down after heavy Gou Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-throw/frame-2.jpg",
+					"at": 0.5,
+					"label": "Second jab frame kill",
+					"alt": "The second standing jab misses as Ryu rises."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-throw/frame-3.jpg",
+					"at": 1.75,
+					"label": "Delayed throw",
+					"alt": "Akuma catches the waking opponent with a forward throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-throw/frame-4.jpg",
+					"at": 2.95,
+					"label": "Corner knockdown",
+					"alt": "The throw sends Ryu down beside the corner."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-classic-corner-dp-double-jab-meaty"]
+	},
+	{
+		"id": "akuma-joe-classic-corner-dp-double-jab-meaty",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner DP: two jab frame kills into medium confirm",
+		"summary": "Use two whiffed jabs to time standing medium punch, then confirm into the corner Tatsu juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After knockdown", "Meaty"],
+		"outcomes": ["Hit confirm", "Knockdown"],
+		"notation": "st.LP (whiff) > st.LP (whiff) > st.MP > cr.MP > L Tatsu > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP (whiff)",
+				"label": "Whiff standing light punch",
+				"cue": "First timing action after the specified heavy DP knockdown."
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP (whiff)",
+				"label": "Whiff standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch",
+				"cue": "A new wake-up attack; continue only when it hits."
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "L Tatsu",
+				"label": "Light Tatsumaki Zanku-kyaku"
+			},
+			{
+				"id": "step-6",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Begin after cr.LP > cr.LP > st.LK > H Gou Shoryuken, as demonstrated",
+			"Wake-up standing medium punch connects"
+		],
+		"notes": [
+			"The knockdown and wake-up interaction are separate sequences, not one uninterrupted damage combo."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 127.85,
+			"end": 133.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-meaty/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-meaty/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-meaty/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-meaty/frame-1.jpg",
+					"at": 0.2,
+					"label": "Heavy DP knockdown",
+					"alt": "Ryu falls beside the corner after the heavy Gou Shoryuken ender."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-meaty/frame-2.jpg",
+					"at": 0.6,
+					"label": "Jab timing actions",
+					"alt": "Akuma whiffs standing jabs to time the next wake-up attack."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-meaty/frame-3.jpg",
+					"at": 1.25,
+					"label": "Meaty standing medium",
+					"alt": "Standing medium punch hits as Ryu rises."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-meaty/frame-4.jpg",
+					"at": 1.7,
+					"label": "Crouching medium link",
+					"alt": "Crouching medium punch continues the wake-up confirm."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-meaty/frame-5.jpg",
+					"at": 2.4,
+					"label": "Light Tatsu launch",
+					"alt": "Light Tatsu launches Ryu into the corner juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-meaty/frame-6.jpg",
+					"at": 3.7,
+					"label": "Heavy Tatsu follow-up",
+					"alt": "Heavy Tatsu catches Ryu before the second knockdown."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-classic-corner-dp-double-jab-throw"]
+	},
+	{
+		"id": "akuma-joe-classic-lights-tatsu-sa2",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Light confirm into Tatsu and Level 2",
+		"summary": "Convert three close lights into light Tatsu, then juggle with Level 2.",
+		"kind": "combo",
+		"situations": ["Light confirm", "Midscreen"],
+		"outcomes": ["Super finish", "Knockdown"],
+		"notation": "cr.LP > cr.LP > st.LK > L Tatsu > SA2",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "L Tatsu",
+				"label": "Light Tatsumaki Zanku-kyaku"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA2",
+				"label": "Level 2 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close range",
+			"Standing opponent for the demonstrated light Tatsu launch",
+			"Level 2 available"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 2"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 197.1,
+			"end": 206.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-lights-tatsu-sa2/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-lights-tatsu-sa2/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-lights-tatsu-sa2/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-lights-tatsu-sa2/frame-1.jpg",
+					"at": 0.85,
+					"label": "Light starter",
+					"alt": "Crouching light punches begin the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-lights-tatsu-sa2/frame-2.jpg",
+					"at": 1.85,
+					"label": "Standing light kick",
+					"alt": "Standing light kick completes the three-light starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-lights-tatsu-sa2/frame-3.jpg",
+					"at": 2.25,
+					"label": "Light Tatsu launch",
+					"alt": "Light Tatsu launches the standing opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-lights-tatsu-sa2/frame-4.jpg",
+					"at": 3.25,
+					"label": "Level 2 activation",
+					"alt": "Akuma activates Level 2 beneath the airborne opponent."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-classic-lights-tatsu-sa2/frame-5.jpg",
+					"at": 6.7,
+					"label": "Super finish",
+					"alt": "The Level 2 sequence carries Ryu away."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-classic-lights-tatsu-sa2/frame-6.jpg",
+					"at": 8.6,
+					"label": "Hard knockdown",
+					"alt": "Ryu lands after the Super finish."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "akuma-joe-classic-medium-tatsu-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Medium Tatsu: dash, walk and throw",
+		"summary": "After a light confirm into medium Tatsu, dash and walk briefly into throw range.",
+		"kind": "setup",
+		"situations": ["Light confirm", "Midscreen", "Oki", "After knockdown"],
+		"outcomes": ["Throw pressure"],
+		"notation": "cr.LP > cr.LP > st.LK > M Tatsu > Dash > Walk forward > Forward throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Tatsu",
+				"label": "Medium Tatsumaki Zanku-kyaku"
+			},
+			{
+				"id": "step-5",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "Walk forward",
+				"label": "Short walk forward",
+				"cue": "Walk briefly after the dash; do not omit the spacing adjustment."
+			},
+			{
+				"id": "step-7",
+				"notation": "Forward throw",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing opponent for the medium Tatsu route",
+			"Use the shown light starter and midscreen spacing"
+		],
+		"notes": [
+			"The knockdown and wake-up interaction are separate sequences, not one uninterrupted damage combo.",
+			"The dash does not replace the short walk. The source demonstrates throw, shimmy and strike choices from this approach."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 215.8,
+			"end": 222.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-medium-tatsu-dash-throw/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-medium-tatsu-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-medium-tatsu-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-medium-tatsu-dash-throw/frame-1.jpg",
+					"at": 0.6,
+					"label": "Light starter",
+					"alt": "Akuma begins with crouching light punches."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-medium-tatsu-dash-throw/frame-2.jpg",
+					"at": 1.75,
+					"label": "Medium Tatsu",
+					"alt": "Medium Tatsu completes the light confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-medium-tatsu-dash-throw/frame-3.jpg",
+					"at": 2.85,
+					"label": "Dash and short walk",
+					"alt": "Akuma closes the remaining gap with a dash and brief forward walk."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-medium-tatsu-dash-throw/frame-4.jpg",
+					"at": 3.95,
+					"label": "Wake-up throw",
+					"alt": "Akuma throws Ryu as he rises."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-classic-medium-tatsu-dash-throw/frame-5.jpg",
+					"at": 5.75,
+					"label": "Throw knockdown",
+					"alt": "The throw sends Ryu back to the floor."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-classic-medium-tatsu-jump-block"]
+	},
+	{
+		"id": "akuma-joe-classic-medium-tatsu-jump-block",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Medium Tatsu: jump-in and reversal block",
+		"summary": "Follow the shown medium Tatsu knockdown with a forward jump heavy kick, then land blocking.",
+		"kind": "setup",
+		"situations": ["Light confirm", "Midscreen", "Oki", "After knockdown", "Safe jump"],
+		"outcomes": ["Reversal bait"],
+		"notation": "cr.LP > cr.LP > st.LK > M Tatsu > Jump forward > j.HK > Block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Tatsu",
+				"label": "Medium Tatsumaki Zanku-kyaku"
+			},
+			{
+				"id": "step-5",
+				"notation": "Jump forward",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-6",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick",
+				"cue": "Use the demonstrated jump-attack timing."
+			},
+			{
+				"id": "step-7",
+				"notation": "Block",
+				"label": "Hold back to block",
+				"cue": "Hold back on landing; the recording demonstrates blocking Ryu’s reversal."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing opponent for the shown medium Tatsu launch",
+			"Use the demonstrated light starter, jump timing and spacing",
+			"Ryu reversal recording shown in the source"
+		],
+		"notes": [
+			"The knockdown and wake-up interaction are separate sequences, not one uninterrupted damage combo.",
+			"The creator labels this a 6F safe jump. The clip demonstrates this specific reversal recording; it is not a claim of safety against every reversal or the current game version."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 240.3,
+			"end": 246.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-medium-tatsu-jump-block/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-medium-tatsu-jump-block/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-medium-tatsu-jump-block/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-medium-tatsu-jump-block/frame-1.jpg",
+					"at": 1.15,
+					"label": "Light confirm",
+					"alt": "Crouching light punches start the medium Tatsu route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-medium-tatsu-jump-block/frame-2.jpg",
+					"at": 2.65,
+					"label": "Medium Tatsu knockdown",
+					"alt": "Medium Tatsu knocks Ryu down at midscreen."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-medium-tatsu-jump-block/frame-3.jpg",
+					"at": 3.95,
+					"label": "Forward jump heavy kick",
+					"alt": "Akuma descends with jumping heavy kick as Ryu wakes up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-medium-tatsu-jump-block/frame-4.jpg",
+					"at": 4.25,
+					"label": "Reversal attempt",
+					"alt": "Ryu performs the recorded reversal while Akuma lands."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-classic-medium-tatsu-jump-block/frame-5.jpg",
+					"at": 5.85,
+					"label": "Land blocking",
+					"alt": "Akuma has blocked the reversal and remains beside Ryu."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-classic-medium-tatsu-dash-throw"]
+	},
+	{
+		"id": "akuma-joe-classic-corner-light-rush-medium-kill-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner Tatsu juggle: crouching-medium frame kill into throw",
+		"summary": "After the specified Drive Rush Tatsu juggle, whiff crouching medium punch and delay a throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After knockdown"],
+		"outcomes": ["Throw pressure"],
+		"notation": "cr.MP (whiff) > Forward throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP (whiff)",
+				"label": "Whiff crouching medium punch",
+				"cue": "Whiff the crouching medium punch after the specified juggle knockdown."
+			},
+			{
+				"id": "step-2",
+				"notation": "Forward throw",
+				"label": "Forward throw",
+				"cue": "Delay the throw to meet the opponent’s wake-up."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Begin after the shown light > DRC > cr.LP > cr.HP > L Tatsu > H Tatsu route"
+		],
+		"notes": [
+			"The knockdown and wake-up interaction are separate sequences, not one uninterrupted damage combo.",
+			"The preceding juggle spends cancel Drive Rush; the isolated follow-up shown here spends no additional Drive.",
+			"The source labels the whiffed crouching-medium timing position +8; no current-version advantage has been verified."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 292.45,
+			"end": 297.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-throw/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-throw/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-throw/frame-1.jpg",
+					"at": 0.2,
+					"label": "Juggle knockdown",
+					"alt": "Ryu is down after the corner light-Tatsu into heavy-Tatsu juggle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-throw/frame-2.jpg",
+					"at": 0.6,
+					"label": "Whiff crouching medium",
+					"alt": "Akuma performs crouching medium punch as a timing action."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-throw/frame-3.jpg",
+					"at": 1.35,
+					"label": "Delayed throw",
+					"alt": "Akuma catches Ryu with a forward throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-throw/frame-4.jpg",
+					"at": 3.2,
+					"label": "Throw knockdown",
+					"alt": "Ryu falls after the separate wake-up throw."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-classic-corner-light-rush-medium-kill-meaty"]
+	},
+	{
+		"id": "akuma-joe-classic-corner-light-rush-medium-kill-meaty",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner Tatsu juggle: crouching-medium frame kill into confirm",
+		"summary": "Whiff crouching medium punch after the juggle knockdown, then convert a meaty standing medium punch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After knockdown", "Meaty"],
+		"outcomes": ["Hit confirm", "Knockdown"],
+		"notation": "cr.MP (whiff) > st.MP > cr.MP > L Tatsu > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP (whiff)",
+				"label": "Whiff crouching medium punch",
+				"cue": "This is the timing action after the specified juggle knockdown."
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch",
+				"cue": "A new wake-up attack; continue only when it hits."
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "L Tatsu",
+				"label": "Light Tatsumaki Zanku-kyaku"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Begin after the shown light > DRC > cr.LP > cr.HP > L Tatsu > H Tatsu route",
+			"Wake-up standing medium punch connects"
+		],
+		"notes": [
+			"The knockdown and wake-up interaction are separate sequences, not one uninterrupted damage combo.",
+			"The preceding juggle spends cancel Drive Rush; the isolated follow-up shown here spends no additional Drive."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 312.55,
+			"end": 318.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-meaty/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-meaty/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-meaty/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-meaty/frame-1.jpg",
+					"at": 0.2,
+					"label": "Corner juggle knockdown",
+					"alt": "The initial Tatsu juggle ends beside the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-meaty/frame-2.jpg",
+					"at": 0.8,
+					"label": "Whiff crouching medium",
+					"alt": "Akuma whiffs crouching medium punch while Ryu is down."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-meaty/frame-3.jpg",
+					"at": 1.6,
+					"label": "Wake-up standing medium",
+					"alt": "Standing medium punch connects as the new wake-up starter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-meaty/frame-4.jpg",
+					"at": 2.15,
+					"label": "Light Tatsu conversion",
+					"alt": "Crouching medium punch cancels into light Tatsu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-meaty/frame-5.jpg",
+					"at": 3.1,
+					"label": "Heavy Tatsu juggle",
+					"alt": "Heavy Tatsu continues the corner juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-meaty/frame-6.jpg",
+					"at": 4.9,
+					"label": "Second knockdown",
+					"alt": "Ryu lands after the wake-up conversion."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-classic-corner-light-rush-medium-kill-throw"]
+	},
+	{
+		"id": "akuma-joe-classic-corner-throw-rush-jab-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner throw: Rush and whiff jab into another throw",
+		"summary": "Use Drive Rush and a whiffed standing jab to time the next corner throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After throw"],
+		"outcomes": ["Throw pressure"],
+		"notation": "Forward throw > DR > st.LP (whiff) > Forward throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Forward throw",
+				"label": "Forward throw"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP (whiff)",
+				"label": "Whiff standing light punch",
+				"cue": "Whiff the Drive Rush jab as a timing action."
+			},
+			{
+				"id": "step-4",
+				"notation": "Forward throw",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Use the demonstrated forward throw spacing"
+		],
+		"notes": [
+			"The knockdown and wake-up interaction are separate sequences, not one uninterrupted damage combo.",
+			"The source labels the post-jab position +4. The throw remains a separate wake-up choice, not guaranteed damage."
+		],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 359.1,
+			"end": 365.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-corner-throw-rush-jab-throw/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-corner-throw-rush-jab-throw/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-corner-throw-rush-jab-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-corner-throw-rush-jab-throw/frame-1.jpg",
+					"at": 0.55,
+					"label": "First forward throw",
+					"alt": "Akuma starts with a corner forward throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-corner-throw-rush-jab-throw/frame-2.jpg",
+					"at": 2.5,
+					"label": "Drive Rush approach",
+					"alt": "Akuma rushes toward the downed opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-corner-throw-rush-jab-throw/frame-3.jpg",
+					"at": 2.7,
+					"label": "Whiff jab",
+					"alt": "Standing jab misses while Ryu is down."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-corner-throw-rush-jab-throw/frame-4.jpg",
+					"at": 3.35,
+					"label": "Second throw",
+					"alt": "Akuma throws Ryu again after the timing jab."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-classic-corner-throw-rush-jab-throw/frame-5.jpg",
+					"at": 5.3,
+					"label": "Corner position",
+					"alt": "Ryu lands beside the corner after the second throw."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-classic-corner-throw-dash-meaty"]
+	},
+	{
+		"id": "akuma-joe-classic-corner-throw-dash-meaty",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner throw: dash into medium-kick meaty",
+		"summary": "Dash after forward throw, time standing medium kick on wake-up and confirm into the Tatsu juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After throw", "Meaty"],
+		"outcomes": ["Hit confirm", "Knockdown"],
+		"notation": "Forward throw > Dash > st.MK > cr.MP > L Tatsu > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Forward throw",
+				"label": "Forward throw"
+			},
+			{
+				"id": "step-2",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "Standing medium kick",
+				"cue": "Time standing medium kick to meet wake-up; confirm its hit before continuing."
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "L Tatsu",
+				"label": "Light Tatsumaki Zanku-kyaku"
+			},
+			{
+				"id": "step-6",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Use the demonstrated forward throw knockdown and dash timing",
+			"Wake-up standing medium kick connects"
+		],
+		"notes": [
+			"The knockdown and wake-up interaction are separate sequences, not one uninterrupted damage combo."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 372.6,
+			"end": 380.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-corner-throw-dash-meaty/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-corner-throw-dash-meaty/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-corner-throw-dash-meaty/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-corner-throw-dash-meaty/frame-1.jpg",
+					"at": 0.65,
+					"label": "Forward throw",
+					"alt": "The first forward throw knocks Ryu down in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-corner-throw-dash-meaty/frame-2.jpg",
+					"at": 2.4,
+					"label": "Dash approach",
+					"alt": "Akuma dashes toward the waking opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-corner-throw-dash-meaty/frame-3.jpg",
+					"at": 2.8,
+					"label": "Meaty medium kick",
+					"alt": "Standing medium kick hits Ryu as he rises."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-corner-throw-dash-meaty/frame-4.jpg",
+					"at": 3.4,
+					"label": "Crouching medium link",
+					"alt": "Crouching medium punch continues the wake-up confirm."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-classic-corner-throw-dash-meaty/frame-5.jpg",
+					"at": 4.0,
+					"label": "Tatsu conversion",
+					"alt": "Light Tatsu lifts Ryu into the heavy Tatsu follow-up."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-classic-corner-throw-dash-meaty/frame-6.jpg",
+					"at": 6.05,
+					"label": "Second knockdown",
+					"alt": "Heavy Tatsu completes the wake-up conversion."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-classic-corner-throw-rush-jab-throw"]
+	},
+	{
+		"id": "akuma-joe-classic-medium-rush-medium-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Crouching medium Rush confirm into medium Tatsu",
+		"summary": "Cancel crouching medium punch into Drive Rush, then link forward and crouching heavy punches before medium Tatsu.",
+		"kind": "combo",
+		"situations": ["Medium confirm", "Drive Rush", "Midscreen"],
+		"outcomes": ["Knockdown", "Corner carry"],
+		"notation": "cr.MP > DRC > f.HP > cr.HP > M Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "f.HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "M Tatsu",
+				"label": "Medium Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close range",
+			"Standing opponent for the shown Tatsu route"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 412.1,
+			"end": 417.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-medium-rush-medium-tatsu/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-medium-rush-medium-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-medium-rush-medium-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-medium-rush-medium-tatsu/frame-1.jpg",
+					"at": 0.8,
+					"label": "Crouching medium starter",
+					"alt": "Crouching medium punch connects at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-medium-rush-medium-tatsu/frame-2.jpg",
+					"at": 1.0,
+					"label": "Drive Rush cancel",
+					"alt": "The medium starter cancels into Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-medium-rush-medium-tatsu/frame-3.jpg",
+					"at": 1.5,
+					"label": "Forward heavy punch",
+					"alt": "Forward heavy punch continues the Drive Rush confirm."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-medium-rush-medium-tatsu/frame-4.jpg",
+					"at": 2.2,
+					"label": "Crouching heavy link",
+					"alt": "Crouching heavy punch links before the special cancel."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-classic-medium-rush-medium-tatsu/frame-5.jpg",
+					"at": 3.15,
+					"label": "Medium Tatsu ender",
+					"alt": "Medium Tatsu carries Ryu away."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-classic-medium-rush-medium-tatsu/frame-6.jpg",
+					"at": 4.6,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the Tatsu ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-classic-medium-rush-heavy-flame",
+			"akuma-joe-classic-corner-medium-rush-flame-dp"
+		]
+	},
+	{
+		"id": "akuma-joe-classic-medium-rush-heavy-flame",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Crouching medium Rush confirm into heavy Flame",
+		"summary": "Use forward and crouching heavy punches after Drive Rush, then heavy Adamant Flame and its follow-up.",
+		"kind": "combo",
+		"situations": ["Medium confirm", "Drive Rush", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > DRC > f.HP > cr.HP > H Flame > f.HP follow-up",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "f.HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Flame",
+				"label": "Heavy Adamant Flame"
+			},
+			{
+				"id": "step-6",
+				"notation": "f.HP follow-up",
+				"label": "Forward heavy punch follow-up during Adamant Flame"
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 426.0,
+			"end": 430.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-medium-rush-heavy-flame/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-medium-rush-heavy-flame/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-medium-rush-heavy-flame/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-medium-rush-heavy-flame/frame-1.jpg",
+					"at": 0.35,
+					"label": "Medium into Rush",
+					"alt": "Crouching medium punch cancels into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-medium-rush-heavy-flame/frame-2.jpg",
+					"at": 1.05,
+					"label": "Forward heavy punch",
+					"alt": "Forward heavy punch continues the close confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-medium-rush-heavy-flame/frame-3.jpg",
+					"at": 1.8,
+					"label": "Crouching heavy punch",
+					"alt": "Crouching heavy punch links before Adamant Flame."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-medium-rush-heavy-flame/frame-4.jpg",
+					"at": 2.45,
+					"label": "Heavy Adamant Flame",
+					"alt": "Heavy Adamant Flame strikes the opponent."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-classic-medium-rush-heavy-flame/frame-5.jpg",
+					"at": 2.85,
+					"label": "Follow-up strike",
+					"alt": "The forward-heavy-punch follow-up launches Ryu away."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-classic-medium-rush-heavy-flame/frame-6.jpg",
+					"at": 4.1,
+					"label": "Knockdown",
+					"alt": "Ryu falls at midscreen after the Flame follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-classic-medium-rush-medium-tatsu",
+			"akuma-joe-classic-corner-medium-rush-flame-dp"
+		]
+	},
+	{
+		"id": "akuma-joe-classic-corner-medium-rush-flame-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner heavy Flame into light DP juggle",
+		"summary": "Add light Gou Shoryuken after heavy Adamant Flame and its follow-up reach the corner.",
+		"kind": "combo",
+		"situations": ["Medium confirm", "Drive Rush", "Corner", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > DRC > f.HP > cr.HP > H Flame > f.HP follow-up > L DP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "f.HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Flame",
+				"label": "Heavy Adamant Flame"
+			},
+			{
+				"id": "step-6",
+				"notation": "f.HP follow-up",
+				"label": "Forward heavy punch follow-up during Adamant Flame"
+			},
+			{
+				"id": "step-7",
+				"notation": "L DP",
+				"label": "Light Gou Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Close range for the medium starter"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 441.5,
+			"end": 449.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-corner-medium-rush-flame-dp/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-corner-medium-rush-flame-dp/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-corner-medium-rush-flame-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-corner-medium-rush-flame-dp/frame-1.jpg",
+					"at": 1.0,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch begins the corner confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-corner-medium-rush-flame-dp/frame-2.jpg",
+					"at": 1.6,
+					"label": "Rush heavy punches",
+					"alt": "Forward and crouching heavy punches continue after the Drive Rush cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-corner-medium-rush-flame-dp/frame-3.jpg",
+					"at": 3.05,
+					"label": "Heavy Flame",
+					"alt": "Heavy Adamant Flame connects beside the corner."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-corner-medium-rush-flame-dp/frame-4.jpg",
+					"at": 3.5,
+					"label": "Flame follow-up",
+					"alt": "The forward-heavy-punch follow-up launches Ryu upward."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-classic-corner-medium-rush-flame-dp/frame-5.jpg",
+					"at": 4.85,
+					"label": "Light DP juggle",
+					"alt": "Light Gou Shoryuken catches Ryu beside the corner."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-classic-corner-medium-rush-flame-dp/frame-6.jpg",
+					"at": 6.15,
+					"label": "Corner knockdown",
+					"alt": "Ryu falls close to Akuma after the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-classic-medium-rush-heavy-flame",
+			"akuma-joe-classic-corner-flame-dp-medium-kill-throw"
+		]
+	},
+	{
+		"id": "akuma-joe-classic-corner-flame-dp-medium-kill-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Flame–DP corner knockdown: medium-kick frame kill into throw",
+		"summary": "Whiff standing medium kick after the specified Flame–DP corner juggle, then throw on wake-up.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "After knockdown"],
+		"outcomes": ["Throw pressure"],
+		"notation": "st.MK (whiff) > Forward throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK (whiff)",
+				"label": "Whiff standing medium kick",
+				"cue": "Whiff standing medium kick after the specified juggle knockdown."
+			},
+			{
+				"id": "step-2",
+				"notation": "Forward throw",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Begin after cr.MP > DRC > f.HP > cr.HP > H Adamant Flame > f.HP follow-up > L Gou Shoryuken"
+		],
+		"notes": [
+			"The knockdown and wake-up interaction are separate sequences, not one uninterrupted damage combo.",
+			"The preceding juggle spends cancel Drive Rush; the isolated wake-up follow-up spends no additional Drive.",
+			"The source labels the post-medium-kick timing position +5. Current-version advantage has not been tested."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 509.55,
+			"end": 513.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-corner-flame-dp-medium-kill-throw/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-corner-flame-dp-medium-kill-throw/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-corner-flame-dp-medium-kill-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-corner-flame-dp-medium-kill-throw/frame-1.jpg",
+					"at": 0.15,
+					"label": "Light DP knockdown",
+					"alt": "Ryu lands beside the corner after the light Gou Shoryuken juggle ender."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-corner-flame-dp-medium-kill-throw/frame-2.jpg",
+					"at": 0.4,
+					"label": "Whiff standing medium kick",
+					"alt": "Akuma whiffs standing medium kick to time wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-corner-flame-dp-medium-kill-throw/frame-3.jpg",
+					"at": 1.15,
+					"label": "Wake-up throw",
+					"alt": "Akuma catches Ryu with a forward throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-corner-flame-dp-medium-kill-throw/frame-4.jpg",
+					"at": 2.8,
+					"label": "Throw knockdown",
+					"alt": "The throw sends Ryu down beside the corner."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-classic-corner-medium-rush-flame-dp"]
+	},
+	{
+		"id": "akuma-joe-classic-low-rush-target-medium-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Low Rush confirm into target combo and medium Tatsu",
+		"summary": "Cancel crouching medium kick into Drive Rush, then standing heavy punch and the medium target combo.",
+		"kind": "combo",
+		"situations": ["Low confirm", "Drive Rush", "Midscreen"],
+		"outcomes": ["Knockdown", "Corner carry"],
+		"notation": "cr.MK > DRC > st.HP > st.MP > st.MP > M Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MP",
+				"label": "Standing medium punch",
+				"cue": "Second punch of the medium-punch target combo."
+			},
+			{
+				"id": "step-6",
+				"notation": "M Tatsu",
+				"label": "Medium Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching medium kick connects",
+			"Standing opponent for the demonstrated medium Tatsu route"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 570.65,
+			"end": 575.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-low-rush-target-medium-tatsu/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-low-rush-target-medium-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-low-rush-target-medium-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-low-rush-target-medium-tatsu/frame-1.jpg",
+					"at": 0.5,
+					"label": "Low starter",
+					"alt": "Crouching medium kick connects at midscreen."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-low-rush-target-medium-tatsu/frame-2.jpg",
+					"at": 1.15,
+					"label": "Rush heavy punch",
+					"alt": "Drive Rush cancel leads into standing heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-low-rush-target-medium-tatsu/frame-3.jpg",
+					"at": 2.0,
+					"label": "Medium target combo",
+					"alt": "Standing medium punch continues into the second medium target-combo punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-low-rush-target-medium-tatsu/frame-4.jpg",
+					"at": 2.5,
+					"label": "Medium Tatsu",
+					"alt": "Medium Tatsu carries the standing opponent away."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-classic-low-rush-target-medium-tatsu/frame-5.jpg",
+					"at": 3.8,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the low confirm."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "akuma-joe-classic-overhead-counter-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Counter-hit overhead into crouching medium and DP",
+		"summary": "A counter-hit forward medium kick links into crouching medium punch and heavy Gou Shoryuken.",
+		"kind": "combo",
+		"situations": ["Counter hit", "Overhead", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "f.MK > cr.MP > H DP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "f.MK",
+				"label": "Forward medium kick (overhead)",
+				"cue": "Requires the demonstrated Counter Hit."
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "H DP",
+				"label": "Heavy Gou Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Forward medium kick lands as Counter Hit",
+			"Close enough for crouching medium punch to connect"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 620.85,
+			"end": 624.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-overhead-counter-dp/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-overhead-counter-dp/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-overhead-counter-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-overhead-counter-dp/frame-1.jpg",
+					"at": 1.0,
+					"label": "Counter-hit overhead",
+					"alt": "Forward medium kick hits as Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-overhead-counter-dp/frame-2.jpg",
+					"at": 1.6,
+					"label": "Crouching medium link",
+					"alt": "Crouching medium punch links after the counter-hit overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-overhead-counter-dp/frame-3.jpg",
+					"at": 2.15,
+					"label": "Heavy Gou Shoryuken",
+					"alt": "Heavy Gou Shoryuken finishes the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-classic-overhead-counter-dp/frame-4.jpg",
+					"at": 3.45,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the counter-hit conversion."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-classic-overhead-punish-sweep"]
+	},
+	{
+		"id": "akuma-joe-classic-overhead-punish-sweep",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Punish-counter overhead into sweep",
+		"summary": "Link crouching heavy kick after a punish-counter forward medium kick.",
+		"kind": "combo",
+		"situations": ["Punish counter", "Overhead", "Midscreen"],
+		"outcomes": ["Hard knockdown"],
+		"notation": "f.MK > cr.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "f.MK",
+				"label": "Forward medium kick (overhead)",
+				"cue": "Requires Punish Counter, not an ordinary hit."
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HK",
+				"label": "Crouching heavy kick (sweep)"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Forward medium kick lands as Punish Counter",
+			"Use the demonstrated close spacing"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 625.75,
+			"end": 628.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, captions and demonstrated action order reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-classic-overhead-punish-sweep/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-classic-overhead-punish-sweep/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-classic-overhead-punish-sweep/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-classic-overhead-punish-sweep/frame-1.jpg",
+					"at": 0.6,
+					"label": "Punish-counter overhead",
+					"alt": "Forward medium kick hits as Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-classic-overhead-punish-sweep/frame-2.jpg",
+					"at": 1.35,
+					"label": "Sweep follow-up",
+					"alt": "Crouching heavy kick sweeps Ryu after the punish-counter overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-classic-overhead-punish-sweep/frame-3.jpg",
+					"at": 2.45,
+					"label": "Hard knockdown",
+					"alt": "Ryu lands from the sweep."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-classic-overhead-counter-dp"]
+	},
+	{
+		"id": "akuma-joe-late-corner-od-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner OD Flame into two Tatsu juggles",
+		"summary": "Extend a heavy starter with OD Adamant Flame, crouching heavy punch and OD Tatsu, then finish with heavy Tatsu.",
+		"kind": "combo",
+		"situations": ["Corner", "Heavy confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > OD Adamant Flame > f.P follow-up > cr.HP > OD Tatsu > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "OD Adamant Flame",
+				"label": "Overdrive Adamant Flame"
+			},
+			{
+				"id": "step-3",
+				"notation": "f.P follow-up",
+				"label": "Forward punch follow-up after Adamant Flame"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "OD Tatsu",
+				"label": "Overdrive Tatsumaki Zanku-kyaku"
+			},
+			{
+				"id": "step-6",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Close standing heavy-punch starter"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Two Overdrive moves",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 656.35,
+			"end": 664.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, visible inputs and the selected demonstration reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-late-corner-od-tatsu/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-late-corner-od-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-late-corner-od-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-late-corner-od-tatsu/frame-1.jpg",
+					"at": 0.45,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch begins the corner route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-late-corner-od-tatsu/frame-2.jpg",
+					"at": 1.15,
+					"label": "OD Flame",
+					"alt": "OD Adamant Flame launches Ryu beside the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-late-corner-od-tatsu/frame-3.jpg",
+					"at": 2.35,
+					"label": "Crouching heavy",
+					"alt": "Crouching heavy punch catches Ryu after the Flame follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-late-corner-od-tatsu/frame-4.jpg",
+					"at": 3.15,
+					"label": "OD Tatsu",
+					"alt": "OD Tatsu hits Ryu repeatedly in the corner."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-late-corner-od-tatsu/frame-5.jpg",
+					"at": 5.0,
+					"label": "Heavy Tatsu",
+					"alt": "Heavy Tatsu follows the OD Tatsu juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-late-corner-od-tatsu/frame-6.jpg",
+					"at": 6.75,
+					"label": "Corner knockdown",
+					"alt": "Ryu recovers beside the corner after the Tatsu ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-beginner-corner-od-flame-fireball-tatsu",
+			"akuma-joe-late-corner-sa1",
+			"akuma-joe-late-corner-sa2-tatsu"
+		]
+	},
+	{
+		"id": "akuma-joe-late-corner-sa1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner OD Flame into Level 1",
+		"summary": "Juggle after OD Adamant Flame, then cancel a light fireball into Level 1.",
+		"kind": "combo",
+		"situations": ["Corner", "Heavy confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > OD Adamant Flame > f.P follow-up > cr.HP > L Hadoken > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "OD Adamant Flame",
+				"label": "Overdrive Adamant Flame"
+			},
+			{
+				"id": "step-3",
+				"notation": "f.P follow-up",
+				"label": "Forward punch follow-up after Adamant Flame"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "L Hadoken",
+				"label": "Light Gou Hadoken"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent in the corner", "Level 1 available"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "Level 1"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 687.65,
+			"end": 696.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, visible inputs and the selected demonstration reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-late-corner-sa1/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-late-corner-sa1/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-late-corner-sa1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-late-corner-sa1/frame-1.jpg",
+					"at": 0.45,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch starts the corner confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-late-corner-sa1/frame-2.jpg",
+					"at": 1.5,
+					"label": "Flame follow-up",
+					"alt": "OD Adamant Flame and its forward-punch follow-up launch Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-late-corner-sa1/frame-3.jpg",
+					"at": 2.45,
+					"label": "Crouching heavy",
+					"alt": "Crouching heavy punch continues the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-late-corner-sa1/frame-4.jpg",
+					"at": 2.95,
+					"label": "Light fireball",
+					"alt": "Light Gou Hadoken connects before the Super cancel."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-late-corner-sa1/frame-5.jpg",
+					"at": 3.85,
+					"label": "Level 1",
+					"alt": "Akuma activates Level 1 from the fireball."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-late-corner-sa1/frame-6.jpg",
+					"at": 8.55,
+					"label": "Hard knockdown",
+					"alt": "Ryu falls at the end of Level 1."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-beginner-corner-od-flame-fireball-tatsu",
+			"akuma-joe-late-corner-sa2-tatsu"
+		]
+	},
+	{
+		"id": "akuma-joe-late-corner-sa2-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Corner Level 2 into heavy Tatsu",
+		"summary": "Cancel the OD Flame follow-up into Level 2, then juggle with crouching heavy punch and heavy Tatsu.",
+		"kind": "combo",
+		"situations": ["Corner", "Heavy confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > OD Adamant Flame > f.P follow-up > SA2 > cr.HP > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "OD Adamant Flame",
+				"label": "Overdrive Adamant Flame"
+			},
+			{
+				"id": "step-3",
+				"notation": "f.P follow-up",
+				"label": "Forward punch follow-up after Adamant Flame"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA2",
+				"label": "Level 2 Super Art"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent in the corner", "Level 2 available"],
+		"notes": [
+			"This is the heavy-Tatsu take. The following light-Flame setup in the source is a different demonstration."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "Level 2"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 746.5,
+			"end": 757.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, visible inputs and the selected demonstration reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-late-corner-sa2-tatsu/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-late-corner-sa2-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-late-corner-sa2-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-late-corner-sa2-tatsu/frame-1.jpg",
+					"at": 0.5,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch begins the corner route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-late-corner-sa2-tatsu/frame-2.jpg",
+					"at": 2.0,
+					"label": "Super cancel",
+					"alt": "The OD Adamant Flame follow-up is cancelled into Level 2."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-late-corner-sa2-tatsu/frame-3.jpg",
+					"at": 5.15,
+					"label": "Level 2 hits",
+					"alt": "The Level 2 sequence strikes Ryu in the corner."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-late-corner-sa2-tatsu/frame-4.jpg",
+					"at": 7.5,
+					"label": "Crouching heavy juggle",
+					"alt": "Crouching heavy punch catches Ryu after Level 2."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-late-corner-sa2-tatsu/frame-5.jpg",
+					"at": 8.7,
+					"label": "Heavy Tatsu",
+					"alt": "Heavy Tatsu continues the post-Super juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-late-corner-sa2-tatsu/frame-6.jpg",
+					"at": 11.1,
+					"label": "Corner finish",
+					"alt": "Ryu recovers after the Tatsu ender."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-late-corner-sa1", "akuma-joe-late-corner-od-tatsu"]
+	},
+	{
+		"id": "akuma-joe-late-drive-reversal-punish",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Block Drive Reversal into a corner Tatsu juggle",
+		"summary": "Block Ryu’s Drive Reversal, punish with crouching medium punch and finish with light Tatsu into heavy Tatsu.",
+		"kind": "response",
+		"situations": ["Corner", "Drive Reversal punish", "Defensive response"],
+		"outcomes": ["Knockdown"],
+		"notation": "Block Drive Reversal > cr.MP > st.HP > L Tatsu > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Block Drive Reversal",
+				"label": "Block the opponent’s Drive Reversal"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch",
+				"cue": "Punish Counter after the blocked reversal."
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "L Tatsu",
+				"label": "Light Tatsumaki Zanku-kyaku"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu Drive Reversal blocked at close range",
+			"Opponent in the corner"
+		],
+		"notes": [
+			"The preceding blocked pressure is outside this excerpt. Other reversals and spacing require their own check."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 904.05,
+			"end": 909.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, visible inputs and the selected demonstration reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-late-drive-reversal-punish/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-late-drive-reversal-punish/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-late-drive-reversal-punish/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-late-drive-reversal-punish/frame-1.jpg",
+					"at": 0.6,
+					"label": "Block reversal",
+					"alt": "Akuma blocks Ryu’s Drive Reversal at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-late-drive-reversal-punish/frame-2.jpg",
+					"at": 1.1,
+					"label": "Punish crouching medium",
+					"alt": "Crouching medium punch punishes the blocked reversal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-late-drive-reversal-punish/frame-3.jpg",
+					"at": 1.6,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch continues the punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-late-drive-reversal-punish/frame-4.jpg",
+					"at": 2.3,
+					"label": "Light Tatsu",
+					"alt": "Light Tatsu lifts Ryu beside the corner."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-late-drive-reversal-punish/frame-5.jpg",
+					"at": 3.4,
+					"label": "Heavy Tatsu",
+					"alt": "Heavy Tatsu juggles Ryu after light Tatsu."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-late-drive-reversal-punish/frame-6.jpg",
+					"at": 5.15,
+					"label": "Corner finish",
+					"alt": "Ryu recovers in the corner after the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-late-reversal-punish-carry",
+			"akuma-joe-late-reversal-punish-demon-flip"
+		]
+	},
+	{
+		"id": "akuma-joe-late-counter-di-medium-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Counter DI into two crouching mediums",
+		"summary": "Convert a counter Drive Impact crumple with heavy kick, two crouching medium punches and medium Tatsu.",
+		"kind": "combo",
+		"situations": ["Drive Impact", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > st.HK > cr.MP > cr.MP > M Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Counter Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "M Tatsu",
+				"label": "Medium Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": ["Classic controls", "Counter-DI crumple", "Midscreen spacing as demonstrated"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 934.1,
+			"end": 942.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, visible inputs and the selected demonstration reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-late-counter-di-medium-tatsu/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-late-counter-di-medium-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-late-counter-di-medium-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-late-counter-di-medium-tatsu/frame-1.jpg",
+					"at": 1.4,
+					"label": "Counter Impact",
+					"alt": "Akuma answers Ryu’s Drive Impact with his own."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-late-counter-di-medium-tatsu/frame-2.jpg",
+					"at": 3.6,
+					"label": "Heavy kick",
+					"alt": "Standing heavy kick connects during the crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-late-counter-di-medium-tatsu/frame-3.jpg",
+					"at": 4.4,
+					"label": "First crouching medium",
+					"alt": "Crouching medium punch links after the heavy kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-late-counter-di-medium-tatsu/frame-4.jpg",
+					"at": 4.95,
+					"label": "Second crouching medium",
+					"alt": "A second crouching medium punch leads into Tatsu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-late-counter-di-medium-tatsu/frame-5.jpg",
+					"at": 6.0,
+					"label": "Medium Tatsu",
+					"alt": "Medium Tatsu carries Ryu away."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-late-counter-di-medium-tatsu/frame-6.jpg",
+					"at": 7.8,
+					"label": "Knockdown",
+					"alt": "Ryu recovers after the midscreen conversion."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-late-counter-di-fireball-juggle"]
+	},
+	{
+		"id": "akuma-joe-late-counter-di-fireball-juggle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Counter DI into fireball, Rush and corner Shoryuken",
+		"summary": "Walk in during the crumple, launch with back heavy kick, then chase the fireball with raw Rush and finish with a corner Shoryuken.",
+		"kind": "combo",
+		"situations": ["Drive Impact", "Corner carry", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > Short walk > b.HK > L Hadoken > DR > st.HP > M Tatsu > L Shoryuken",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Counter Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "Short walk",
+				"label": "Walk forward briefly during the crumple",
+				"cue": "Close the gap during the crumple."
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HK",
+				"label": "Back heavy kick (Rago)"
+			},
+			{
+				"id": "step-4",
+				"notation": "L Hadoken",
+				"label": "Light Gou Hadoken"
+			},
+			{
+				"id": "step-5",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "M Tatsu",
+				"label": "Medium Tatsumaki Zanku-kyaku"
+			},
+			{
+				"id": "step-8",
+				"notation": "L Shoryuken",
+				"label": "Light Gou Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Counter-DI crumple",
+			"Spacing that reaches the corner for the light Shoryuken"
+		],
+		"notes": [
+			"This take performs the corner-only light Shoryuken shown in parentheses in the source caption. Do not omit it when matching this replay."
+		],
+		"resources": {
+			"drive": "Drive Impact + raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 963.25,
+			"end": 973.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, visible inputs and the selected demonstration reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-late-counter-di-fireball-juggle/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-late-counter-di-fireball-juggle/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-late-counter-di-fireball-juggle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-late-counter-di-fireball-juggle/frame-1.jpg",
+					"at": 2.05,
+					"label": "Counter Impact",
+					"alt": "Akuma’s Drive Impact counters Ryu’s attempt."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-late-counter-di-fireball-juggle/frame-2.jpg",
+					"at": 4.4,
+					"label": "Back heavy kick",
+					"alt": "Back heavy kick launches Ryu after the short approach."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-late-counter-di-fireball-juggle/frame-3.jpg",
+					"at": 4.85,
+					"label": "Light fireball",
+					"alt": "Light Gou Hadoken keeps the opponent airborne."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-late-counter-di-fireball-juggle/frame-4.jpg",
+					"at": 5.4,
+					"label": "Raw Rush",
+					"alt": "Akuma uses raw Drive Rush to follow the fireball."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-late-counter-di-fireball-juggle/frame-5.jpg",
+					"at": 5.9,
+					"label": "Rush heavy punch",
+					"alt": "Standing heavy punch catches Ryu from the Rush."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-late-counter-di-fireball-juggle/frame-6.jpg",
+					"at": 6.9,
+					"label": "Medium Tatsu",
+					"alt": "Medium Tatsu continues the juggle."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/akuma/akuma-joe-late-counter-di-fireball-juggle/frame-7.jpg",
+					"at": 7.95,
+					"label": "Light Shoryuken",
+					"alt": "Light Gou Shoryuken adds a final hit after medium Tatsu reaches the corner."
+				},
+				{
+					"id": "frame-8",
+					"src": "/media/akuma/akuma-joe-late-counter-di-fireball-juggle/frame-8.jpg",
+					"at": 9.15,
+					"label": "Knockdown",
+					"alt": "Ryu recovers in the corner after the Shoryuken ender."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-late-counter-di-medium-tatsu"]
+	},
+	{
+		"id": "akuma-joe-late-wall-splat-fireball",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Blocked DI into fireball and heavy Tatsu",
+		"summary": "Use crouching heavy punch, light fireball and heavy Tatsu after a blocked Drive Impact wall splat.",
+		"kind": "combo",
+		"situations": ["Drive Impact", "Wall splat", "Corner"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI (blocked) > cr.HP > L Hadoken > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI (blocked)",
+				"label": "Drive Impact blocked at the wall"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "L Hadoken",
+				"label": "Light Gou Hadoken"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drive Impact blocked with Ryu close enough to the corner to wall splat"
+		],
+		"notes": [
+			"A blocked wall splat has different scaling and juggle conditions from a counter-DI crumple."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 986.35,
+			"end": 992.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, visible inputs and the selected demonstration reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-late-wall-splat-fireball/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-late-wall-splat-fireball/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-late-wall-splat-fireball/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-late-wall-splat-fireball/frame-1.jpg",
+					"at": 0.85,
+					"label": "Blocked Impact",
+					"alt": "Drive Impact is blocked and splats Ryu against the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-late-wall-splat-fireball/frame-2.jpg",
+					"at": 2.1,
+					"label": "Crouching heavy",
+					"alt": "Crouching heavy punch catches the wall-splatted opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-late-wall-splat-fireball/frame-3.jpg",
+					"at": 2.7,
+					"label": "Light fireball",
+					"alt": "Light Gou Hadoken connects in the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-late-wall-splat-fireball/frame-4.jpg",
+					"at": 3.65,
+					"label": "Heavy Tatsu",
+					"alt": "Heavy Tatsu continues the wall-splat conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-late-wall-splat-fireball/frame-5.jpg",
+					"at": 5.45,
+					"label": "Corner knockdown",
+					"alt": "Ryu recovers beside the wall after the ender."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-late-wall-splat-od-flame"]
+	},
+	{
+		"id": "akuma-joe-late-wall-splat-od-flame",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Blocked DI into OD Flame and heavy Tatsu",
+		"summary": "Extend a wall-splat conversion with OD Adamant Flame and its follow-up, then juggle with heavy Tatsu.",
+		"kind": "combo",
+		"situations": ["Drive Impact", "Wall splat", "Corner"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI (blocked) > cr.HP > OD Adamant Flame > f.P follow-up > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI (blocked)",
+				"label": "Drive Impact blocked at the wall"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "OD Adamant Flame",
+				"label": "Overdrive Adamant Flame"
+			},
+			{
+				"id": "step-4",
+				"notation": "f.P follow-up",
+				"label": "Forward punch follow-up after Adamant Flame"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drive Impact blocked with Ryu close enough to the corner to wall splat"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact + Overdrive",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 994.1,
+			"end": 1000.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, visible inputs and the selected demonstration reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-late-wall-splat-od-flame/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-late-wall-splat-od-flame/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-late-wall-splat-od-flame/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-late-wall-splat-od-flame/frame-1.jpg",
+					"at": 0.55,
+					"label": "Wall splat",
+					"alt": "Blocked Drive Impact splats Ryu beside the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-late-wall-splat-od-flame/frame-2.jpg",
+					"at": 1.3,
+					"label": "Crouching heavy",
+					"alt": "Crouching heavy punch begins the wall-splat juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-late-wall-splat-od-flame/frame-3.jpg",
+					"at": 1.8,
+					"label": "OD Flame",
+					"alt": "OD Adamant Flame connects after the crouching heavy punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-late-wall-splat-od-flame/frame-4.jpg",
+					"at": 2.6,
+					"label": "Flame follow-up",
+					"alt": "The forward-punch follow-up lifts Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-late-wall-splat-od-flame/frame-5.jpg",
+					"at": 3.85,
+					"label": "Heavy Tatsu",
+					"alt": "Heavy Tatsu catches the airborne opponent."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-late-wall-splat-od-flame/frame-6.jpg",
+					"at": 5.7,
+					"label": "Corner finish",
+					"alt": "Ryu recovers at the end of the OD Flame route."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-late-wall-splat-fireball",
+			"akuma-joe-beginner-corner-od-flame-fireball-tatsu"
+		]
+	},
+	{
+		"id": "akuma-joe-late-air-to-air-fireball",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Air-to-air medium into fireball and Rush",
+		"summary": "Counter-hit an airborne opponent with jumping medium punch, cancel to heavy air fireball and chase with raw Rush.",
+		"kind": "combo",
+		"situations": ["Anti-air", "Air-to-air", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "j.MP (CH) > j.H Hadoken > DR > st.HP > M Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "j.MP (CH)",
+				"label": "Jumping medium punch counter hit"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.H Hadoken",
+				"label": "Airborne heavy Zanku Hadoken"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "M Tatsu",
+				"label": "Medium Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Air-to-air jumping medium punch Counter Hit",
+			"Air fireball and landing spacing as demonstrated"
+		],
+		"notes": ["This begins with an air-to-air hit. It is not a grounded Shoryuken anti-air."],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 1232.25,
+			"end": 1237.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, visible inputs and the selected demonstration reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-late-air-to-air-fireball/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-late-air-to-air-fireball/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-late-air-to-air-fireball/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-late-air-to-air-fireball/frame-1.jpg",
+					"at": 0.75,
+					"label": "Air-to-air counter hit",
+					"alt": "Jumping medium punch counter-hits Ryu in the air."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-late-air-to-air-fireball/frame-2.jpg",
+					"at": 1.25,
+					"label": "Air fireball",
+					"alt": "Heavy Zanku Hadoken extends the airborne hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-late-air-to-air-fireball/frame-3.jpg",
+					"at": 1.65,
+					"label": "Land and Rush",
+					"alt": "Akuma lands and uses raw Drive Rush."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-late-air-to-air-fireball/frame-4.jpg",
+					"at": 2.05,
+					"label": "Rush heavy punch",
+					"alt": "Standing heavy punch catches the falling opponent."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-late-air-to-air-fireball/frame-5.jpg",
+					"at": 2.85,
+					"label": "Medium Tatsu",
+					"alt": "Medium Tatsu finishes the grounded juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-late-air-to-air-fireball/frame-6.jpg",
+					"at": 4.55,
+					"label": "Knockdown",
+					"alt": "Ryu recovers after the air-to-air conversion."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-late-air-to-air-sa1-tatsu"]
+	},
+	{
+		"id": "akuma-joe-late-air-to-air-sa1-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Air-to-air Level 1 into dash and Tatsu",
+		"summary": "Cancel jumping medium punch into airborne Level 1, then dash forward to juggle with heavy Tatsu.",
+		"kind": "combo",
+		"situations": ["Anti-air", "Air-to-air", "Corner", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "j.MP (CH) > Air SA1 > Dash > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "j.MP (CH)",
+				"label": "Jumping medium punch counter hit"
+			},
+			{
+				"id": "step-2",
+				"notation": "Air SA1",
+				"label": "Airborne Level 1 Super Art"
+			},
+			{
+				"id": "step-3",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Air-to-air jumping medium punch Counter Hit",
+			"Corner spacing as shown",
+			"Level 1 available"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 1269.15,
+			"end": 1275.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, visible inputs and the selected demonstration reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-late-air-to-air-sa1-tatsu/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-late-air-to-air-sa1-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-late-air-to-air-sa1-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-late-air-to-air-sa1-tatsu/frame-1.jpg",
+					"at": 0.7,
+					"label": "Air-to-air counter hit",
+					"alt": "Jumping medium punch intercepts Ryu’s jump."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-late-air-to-air-sa1-tatsu/frame-2.jpg",
+					"at": 1.1,
+					"label": "Airborne Level 1",
+					"alt": "Akuma cancels the air-to-air hit into airborne Level 1."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-late-air-to-air-sa1-tatsu/frame-3.jpg",
+					"at": 2.45,
+					"label": "Super projectile hits",
+					"alt": "The Super projectile strikes Ryu as Akuma descends."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-late-air-to-air-sa1-tatsu/frame-4.jpg",
+					"at": 2.95,
+					"label": "Dash forward",
+					"alt": "Akuma dashes toward the corner to continue the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-late-air-to-air-sa1-tatsu/frame-5.jpg",
+					"at": 4.1,
+					"label": "Heavy Tatsu",
+					"alt": "Heavy Tatsu catches Ryu after the dash."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-late-air-to-air-sa1-tatsu/frame-6.jpg",
+					"at": 5.55,
+					"label": "Corner finish",
+					"alt": "Ryu recovers in the corner after the Tatsu ender."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-late-air-to-air-fireball"]
+	},
+	{
+		"id": "akuma-joe-late-reversal-punish-carry",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Block Shoryuken into an OD Flame carry route",
+		"summary": "Punish a blocked Shoryuken with heavy Adamant Flame, then carry toward the corner with OD Flame, raw Rush and Tatsu.",
+		"kind": "response",
+		"situations": ["Reversal punish", "Midscreen", "Corner carry", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "Block reversal > H Adamant Flame (PC) > cr.HP > OD Adamant Flame > f.P follow-up > DR > st.HP > L Hadoken > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Block reversal",
+				"label": "Block the opponent’s Shoryuken reversal"
+			},
+			{
+				"id": "step-2",
+				"notation": "H Adamant Flame (PC)",
+				"label": "Heavy Adamant Flame punish counter"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "OD Adamant Flame",
+				"label": "Overdrive Adamant Flame"
+			},
+			{
+				"id": "step-5",
+				"notation": "f.P follow-up",
+				"label": "Forward punch follow-up after Adamant Flame"
+			},
+			{
+				"id": "step-6",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "L Hadoken",
+				"label": "Light Gou Hadoken"
+			},
+			{
+				"id": "step-9",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu Shoryuken blocked at close range",
+			"Heavy Adamant Flame hits as Punish Counter"
+		],
+		"notes": [
+			"The initial heavy Adamant Flame does not use its forward-punch follow-up; crouching heavy punch links directly after the Punish Counter."
+		],
+		"resources": {
+			"drive": "Overdrive + raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 1339.0,
+			"end": 1347.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, visible inputs and the selected demonstration reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-late-reversal-punish-carry/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-late-reversal-punish-carry/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-late-reversal-punish-carry/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-carry/frame-1.jpg",
+					"at": 0.45,
+					"label": "Block Shoryuken",
+					"alt": "Akuma waits as Ryu rises from the blocked reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-carry/frame-2.jpg",
+					"at": 1.4,
+					"label": "Heavy Flame punish",
+					"alt": "Heavy Adamant Flame punish-counters Ryu’s recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-carry/frame-3.jpg",
+					"at": 2.05,
+					"label": "Crouching heavy link",
+					"alt": "Crouching heavy punch links after the punish counter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-carry/frame-4.jpg",
+					"at": 3.3,
+					"label": "OD Flame follow-up",
+					"alt": "OD Adamant Flame and its follow-up launch Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-carry/frame-5.jpg",
+					"at": 4.2,
+					"label": "Raw Rush chase",
+					"alt": "Akuma rushes forward after the launch."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-carry/frame-6.jpg",
+					"at": 5.15,
+					"label": "Light fireball juggle",
+					"alt": "Light Gou Hadoken follows the Rush heavy punch."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-carry/frame-7.jpg",
+					"at": 6.2,
+					"label": "Heavy Tatsu carry",
+					"alt": "Heavy Tatsu carries Ryu toward the corner."
+				},
+				{
+					"id": "frame-8",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-carry/frame-8.jpg",
+					"at": 7.9,
+					"label": "Corner reached",
+					"alt": "Ryu recovers beside the corner at the end of the carry route."
+				}
+			]
+		},
+		"relatedIds": [
+			"akuma-joe-late-reversal-punish-demon-flip",
+			"akuma-joe-late-drive-reversal-punish"
+		]
+	},
+	{
+		"id": "akuma-joe-late-reversal-punish-demon-flip",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "akuma"
+			}
+		],
+		"title": "Heavy Flame punish into OD Demon Flip",
+		"summary": "Convert a heavy Adamant Flame punish counter with back heavy kick, OD Demon Flip’s kick follow-up and heavy Tatsu.",
+		"kind": "response",
+		"situations": ["Reversal punish", "Midscreen", "Demon Flip", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "Block reversal > H Adamant Flame (PC) > b.HK > OD Demon Flip > Demon Flip kick > H Tatsu",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Block reversal",
+				"label": "Block the opponent’s Shoryuken reversal"
+			},
+			{
+				"id": "step-2",
+				"notation": "H Adamant Flame (PC)",
+				"label": "Heavy Adamant Flame punish counter"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HK",
+				"label": "Back heavy kick (Rago)"
+			},
+			{
+				"id": "step-4",
+				"notation": "OD Demon Flip",
+				"label": "Overdrive Demon Flip"
+			},
+			{
+				"id": "step-5",
+				"notation": "Demon Flip kick",
+				"label": "Demon Flip kick follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "H Tatsu",
+				"label": "Heavy Tatsumaki Zanku-kyaku"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu OD Shoryuken blocked at close range",
+			"Heavy Adamant Flame hits as Punish Counter"
+		],
+		"notes": [
+			"Omit the Adamant Flame punch follow-up here; link directly to back heavy kick after the Punish Counter."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-akuma-classic-2025",
+			"title": "Classic AKUMA Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=HncekXkv4NQ",
+			"published": "2025-12-05",
+			"start": 1360.05,
+			"end": 1368.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, visible inputs and the selected demonstration reviewed against Joe Ebios’ December 2025 Season 3 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/akuma/akuma-joe-late-reversal-punish-demon-flip/clip.mp4",
+			"poster": "/media/akuma/akuma-joe-late-reversal-punish-demon-flip/frame-1.jpg",
+			"descriptionTrack": "/media/akuma/akuma-joe-late-reversal-punish-demon-flip/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-demon-flip/frame-1.jpg",
+					"at": 0.6,
+					"label": "Block reversal",
+					"alt": "Akuma blocks Ryu’s OD Shoryuken before the punish."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-demon-flip/frame-2.jpg",
+					"at": 1.95,
+					"label": "Heavy Flame punish",
+					"alt": "Heavy Adamant Flame hits Ryu’s recovery as a Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-demon-flip/frame-3.jpg",
+					"at": 2.85,
+					"label": "Back heavy launch",
+					"alt": "Back heavy kick launches Ryu after the punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-demon-flip/frame-4.jpg",
+					"at": 3.55,
+					"label": "OD Demon Flip",
+					"alt": "OD Demon Flip carries Akuma toward the airborne opponent."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-demon-flip/frame-5.jpg",
+					"at": 4.05,
+					"label": "Flip kick follow-up",
+					"alt": "The Demon Flip kick follow-up hits the airborne Ryu."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-demon-flip/frame-6.jpg",
+					"at": 5.15,
+					"label": "Heavy Tatsu",
+					"alt": "Heavy Tatsu continues the juggle after the kick follow-up."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/akuma/akuma-joe-late-reversal-punish-demon-flip/frame-7.jpg",
+					"at": 7.55,
+					"label": "Knockdown",
+					"alt": "Ryu recovers after the Demon Flip conversion."
+				}
+			]
+		},
+		"relatedIds": ["akuma-joe-late-reversal-punish-carry"]
+	}
+]

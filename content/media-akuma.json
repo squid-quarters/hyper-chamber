@@ -1,0 +1,420 @@
+{
+	"sourceIds": ["joe-ebios-akuma-beginner-2026", "joe-ebios-akuma-classic-2025"],
+	"publicationStatus": "private-development",
+	"assets": [
+		{
+			"referenceId": "akuma-joe-beginner-lights-heavy-dp",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 1.45,
+			"sourceEnd": 4.95,
+			"clip": "/media/akuma/akuma-joe-beginner-lights-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-dp-rush-throw",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 8.6,
+			"sourceEnd": 12.25,
+			"clip": "/media/akuma/akuma-joe-beginner-dp-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-dp-rush-shimmy",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 17.05,
+			"sourceEnd": 18.75,
+			"clip": "/media/akuma/akuma-joe-beginner-dp-rush-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-dp-rush-forward-medium",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 26.35,
+			"sourceEnd": 31.15,
+			"clip": "/media/akuma/akuma-joe-beginner-dp-rush-forward-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-corner-dp-mk-throw",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 49.65,
+			"sourceEnd": 53.25,
+			"clip": "/media/akuma/akuma-joe-beginner-corner-dp-mk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-corner-dp-mk-shimmy",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 57.45,
+			"sourceEnd": 59.22,
+			"clip": "/media/akuma/akuma-joe-beginner-corner-dp-mk-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-corner-dp-mk-meaty",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 68.1,
+			"sourceEnd": 71.45,
+			"clip": "/media/akuma/akuma-joe-beginner-corner-dp-mk-meaty/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-medium-target-heavy-tatsu",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 80.5,
+			"sourceEnd": 84.2,
+			"clip": "/media/akuma/akuma-joe-beginner-medium-target-heavy-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-tatsu-rush-heavy-flame",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 88.6,
+			"sourceEnd": 92.9,
+			"clip": "/media/akuma/akuma-joe-beginner-tatsu-rush-heavy-flame/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-corner-ground-tatsu-mk-throw",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 102.7,
+			"sourceEnd": 106.25,
+			"clip": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-corner-ground-tatsu-mk-shimmy",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 111.15,
+			"sourceEnd": 112.72,
+			"clip": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-corner-ground-tatsu-mk-meaty",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 122.5,
+			"sourceEnd": 127.1,
+			"clip": "/media/akuma/akuma-joe-beginner-corner-ground-tatsu-mk-meaty/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-corner-air-tatsu-mk-throw",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 174.1,
+			"sourceEnd": 177.3,
+			"clip": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-corner-air-tatsu-mk-shimmy",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 183.25,
+			"sourceEnd": 184.8,
+			"clip": "/media/akuma/akuma-joe-beginner-corner-air-tatsu-mk-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-flame-double-dash-throw",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 218.45,
+			"sourceEnd": 221.9,
+			"clip": "/media/akuma/akuma-joe-beginner-flame-double-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-flame-double-dash-shimmy",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 228.38,
+			"sourceEnd": 230.18,
+			"clip": "/media/akuma/akuma-joe-beginner-flame-double-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-corner-od-flame-fireball-tatsu",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 156.35,
+			"sourceEnd": 161.2,
+			"clip": "/media/akuma/akuma-joe-beginner-corner-od-flame-fireball-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-beginner-low-cashout-sa3",
+			"sourceId": "joe-ebios-akuma-beginner-2026",
+			"sourceStart": 322.05,
+			"sourceEnd": 336.1,
+			"clip": "/media/akuma/akuma-joe-beginner-low-cashout-sa3/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-corner-dp-double-jab-throw",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 104.7,
+			"sourceEnd": 108.5,
+			"clip": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-corner-dp-double-jab-meaty",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 127.85,
+			"sourceEnd": 133.4,
+			"clip": "/media/akuma/akuma-joe-classic-corner-dp-double-jab-meaty/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-lights-tatsu-sa2",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 197.1,
+			"sourceEnd": 206.75,
+			"clip": "/media/akuma/akuma-joe-classic-lights-tatsu-sa2/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-medium-tatsu-dash-throw",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 215.8,
+			"sourceEnd": 222.1,
+			"clip": "/media/akuma/akuma-joe-classic-medium-tatsu-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-medium-tatsu-jump-block",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 240.3,
+			"sourceEnd": 246.65,
+			"clip": "/media/akuma/akuma-joe-classic-medium-tatsu-jump-block/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-corner-light-rush-medium-kill-throw",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 292.45,
+			"sourceEnd": 297.75,
+			"clip": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-corner-light-rush-medium-kill-meaty",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 312.55,
+			"sourceEnd": 318.2,
+			"clip": "/media/akuma/akuma-joe-classic-corner-light-rush-medium-kill-meaty/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-corner-throw-rush-jab-throw",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 359.1,
+			"sourceEnd": 365.35,
+			"clip": "/media/akuma/akuma-joe-classic-corner-throw-rush-jab-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-corner-throw-dash-meaty",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 372.6,
+			"sourceEnd": 380.35,
+			"clip": "/media/akuma/akuma-joe-classic-corner-throw-dash-meaty/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-medium-rush-medium-tatsu",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 412.1,
+			"sourceEnd": 417.4,
+			"clip": "/media/akuma/akuma-joe-classic-medium-rush-medium-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-medium-rush-heavy-flame",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 426.0,
+			"sourceEnd": 430.85,
+			"clip": "/media/akuma/akuma-joe-classic-medium-rush-heavy-flame/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-corner-medium-rush-flame-dp",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 441.5,
+			"sourceEnd": 449.25,
+			"clip": "/media/akuma/akuma-joe-classic-corner-medium-rush-flame-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-corner-flame-dp-medium-kill-throw",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 509.55,
+			"sourceEnd": 513.4,
+			"clip": "/media/akuma/akuma-joe-classic-corner-flame-dp-medium-kill-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-low-rush-target-medium-tatsu",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 570.65,
+			"sourceEnd": 575.2,
+			"clip": "/media/akuma/akuma-joe-classic-low-rush-target-medium-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-overhead-counter-dp",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 620.85,
+			"sourceEnd": 624.75,
+			"clip": "/media/akuma/akuma-joe-classic-overhead-counter-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-classic-overhead-punish-sweep",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 625.75,
+			"sourceEnd": 628.75,
+			"clip": "/media/akuma/akuma-joe-classic-overhead-punish-sweep/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-late-corner-od-tatsu",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 656.35,
+			"sourceEnd": 664.8,
+			"clip": "/media/akuma/akuma-joe-late-corner-od-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-late-corner-sa1",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 687.65,
+			"sourceEnd": 696.85,
+			"clip": "/media/akuma/akuma-joe-late-corner-sa1/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-late-corner-sa2-tatsu",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 746.5,
+			"sourceEnd": 757.8,
+			"clip": "/media/akuma/akuma-joe-late-corner-sa2-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-late-drive-reversal-punish",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 904.05,
+			"sourceEnd": 909.7,
+			"clip": "/media/akuma/akuma-joe-late-drive-reversal-punish/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-late-counter-di-medium-tatsu",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 934.1,
+			"sourceEnd": 942.25,
+			"clip": "/media/akuma/akuma-joe-late-counter-di-medium-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-late-counter-di-fireball-juggle",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 963.25,
+			"sourceEnd": 973.1,
+			"clip": "/media/akuma/akuma-joe-late-counter-di-fireball-juggle/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-late-wall-splat-fireball",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 986.35,
+			"sourceEnd": 992.3,
+			"clip": "/media/akuma/akuma-joe-late-wall-splat-fireball/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-late-wall-splat-od-flame",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 994.1,
+			"sourceEnd": 1000.2,
+			"clip": "/media/akuma/akuma-joe-late-wall-splat-od-flame/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-late-air-to-air-fireball",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 1232.25,
+			"sourceEnd": 1237.7,
+			"clip": "/media/akuma/akuma-joe-late-air-to-air-fireball/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-late-air-to-air-sa1-tatsu",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 1269.15,
+			"sourceEnd": 1275.35,
+			"clip": "/media/akuma/akuma-joe-late-air-to-air-sa1-tatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-late-reversal-punish-carry",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 1339.0,
+			"sourceEnd": 1347.3,
+			"clip": "/media/akuma/akuma-joe-late-reversal-punish-carry/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "akuma-joe-late-reversal-punish-demon-flip",
+			"sourceId": "joe-ebios-akuma-classic-2025",
+			"sourceStart": 1360.05,
+			"sourceEnd": 1368.35,
+			"clip": "/media/akuma/akuma-joe-late-reversal-punish-demon-flip/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		}
+	]
+}

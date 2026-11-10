@@ -1,6 +1,6 @@
 # Hyper Chamber product scope
 
-Hyper Chamber is a fast, visual fighting-game compendium. Its populated Street Fighter 6 libraries are Dhalsim and Ryu. Its name pays homage to the Hyperbolic Time Chamber. The project has its own Squid Quarters repository and can be linked or integrated into the main website later.
+Hyper Chamber is a fast, visual fighting-game compendium. Its populated Street Fighter 6 libraries are Dhalsim, Ryu and Akuma. Its name pays homage to the Hyperbolic Time Chamber. The project has its own Squid Quarters repository and can be linked or integrated into the main website later.
 
 The core unit is an individual reference: a combo, setup, or response. A reference combines conditions, persistent notation, selected visual moments, a dedicated replayable clip, and short notes. Search and filters should answer “I remember a route starting with this move; help me find and inspect it.”
 
@@ -29,6 +29,6 @@ Test the compendium during actual practice: time to locate a route, effort to re
 
 ## Multiple games
 
-The product structure is game → character or team context → individual reference. SF6 / Dhalsim was the first library and Ryu is the second; 2XKO and other games are future content interests. Game definitions own vocabulary, notation help, resource labels and guide destinations. Situation and outcome categories are supplied by each library's content.
+The product structure is game → character or team context → individual reference. SF6 / Dhalsim was the first library, followed by Ryu and Akuma; 2XKO and other games are future content interests. Game definitions own vocabulary, notation help, resource labels and guide destinations. Situation and outcome categories are supplied by each library's content.
 
 Long sequences should remain easy to inspect: retain the full ordered execution, then add labeled phases and clear actor changes when a real multi-character reference needs them. A different game should not require a second player, note system or source-review workflow. The exact long-sequence interface remains to be validated with genuine content.
