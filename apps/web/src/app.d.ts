@@ -1,3 +1,5 @@
+import type {LibraryReturn} from './lib/navigation';
+
 // See https://svelte.dev/docs/kit/types#app.d.ts
 // for information about these interfaces
 declare global {
@@ -5,7 +7,9 @@ declare global {
 		// interface Error {}
 		// interface Locals {}
 		// interface PageData {}
-		// interface PageState {}
+		interface PageState {
+			libraryReturn?: LibraryReturn;
+		}
 		// interface Platform {}
 	}
 }

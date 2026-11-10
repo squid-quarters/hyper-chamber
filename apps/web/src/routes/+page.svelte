@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { onMount, tick } from 'svelte';
-	import { goto } from '$app/navigation';
+	import { onMount, tick, untrack } from 'svelte';
+	import { afterNavigate, goto } from '$app/navigation';
+	import { page } from '$app/state';
 	import { game, subjectName, references } from '#lib/catalog';
 	import {
 		filterReferences,
@@ -23,13 +24,20 @@
 	import BrandMark from '#lib/components/BrandMark.svelte';
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	import InputSequence from '#lib/components/InputSequence.svelte';
+	import {
+		readLibraryReturn,
+		readReferenceLocation,
+		referenceLocation,
+		type LibraryReturn,
+	} from '../lib/navigation';
+
 	let query = $state('');
 	let kind = $state('all');
 	let situation = $state('all');
 	let savedOnly = $state(false);
 	let practice = $state('all');
 	let selectedId = $state(references[0]?.id ?? '');
-	let focused = $state(false);
+	let practising = $state(false);
 	let library = $state<PersonalLibrary>({});
 	let pendingChanges = $state<LibraryPatches>({});
 	let storageError = $state<string | null>(null);
@@ -37,14 +45,25 @@
 	let help: HTMLDialogElement;
 	let backup: HTMLDialogElement;
 	let importInput: HTMLInputElement;
+	let switcher: HTMLDialogElement;
+	let switchSearch: HTMLInputElement;
 	let ready = $state(false);
+	let switchQuery = $state('');
+	let switchScope = $state<'results' | 'saved' | 'all'>('results');
+	let libraryReturn: LibraryReturn = { key: '', scrollY: 0, entryId: null };
+	const libraryReturns = new Map<string, LibraryReturn>();
+	let libraryFilterKey = '';
+	let switchOrigin: string | null = null;
+	let pendingHistory = false;
+	let viewRevision = 0;
+	const referenceIds = new Set(references.map((ref) => ref.id));
 	const situations = [...new Set(references.flatMap((r) => r.situations))].sort();
 	let selected = $derived(references.find((r) => r.id === selectedId));
 	let personal = $derived(selected ? (library[selected.id] ?? blankEntry(selected)) : null);
 	let savedIds = $derived(
 		new Set(
 			Object.entries(library)
-				.filter(([id, entry]) => entry.saved && references.some((ref) => ref.id === id))
+				.filter(([id, entry]) => entry.saved && referenceIds.has(id))
 				.map(([id]) => id),
 		),
 	);
@@ -56,57 +75,200 @@
 			savedIds: savedOnly ? savedIds : undefined,
 		}).filter((ref) => practice === 'all' || (library[ref.id]?.status ?? 'untried') === practice),
 	);
+	let selectedIndex = $derived(results.findIndex((ref) => ref.id === selectedId));
+	let previousReference = $derived(selectedIndex > 0 ? results[selectedIndex - 1] : undefined);
+	let nextReference = $derived(selectedIndex >= 0 ? results[selectedIndex + 1] : undefined);
+	let switchSet = $derived(
+		switchScope === 'all'
+			? references
+			: switchScope === 'saved'
+				? references.filter((ref) => savedIds.has(ref.id))
+				: results,
+	);
+	let switchResults = $derived(filterReferences(switchSet, { query: switchQuery }));
+
+	function currentFilters() {
+		return { query, kind, situation, savedOnly, practice };
+	}
+	function entryHref(id: string) {
+		return referenceLocation('https://hyper-chamber.invalid/', currentFilters(), id).search;
+	}
 	function readUrl() {
-		const p = new URLSearchParams(location.search);
-		query = p.get('q') ?? '';
-		kind = ['combo', 'setup', 'response'].includes(p.get('kind') ?? '') ? p.get('kind')! : 'all';
-		situation = situations.includes(p.get('situation') ?? '') ? p.get('situation')! : 'all';
-		savedOnly = p.get('saved') === '1';
-		practice = ['untried', 'practising', 'reliable'].includes(p.get('practice') ?? '')
-			? p.get('practice')!
-			: 'all';
-		const id = p.get('entry');
-		selectedId = id && references.some((r) => r.id === id) ? id : (references[0]?.id ?? '');
-		if (id && !references.some((r) => r.id === id))
-			message = 'That reference was not found. Showing the first available entry.';
+		const next = readReferenceLocation(location.search, referenceIds, situations);
+		query = next.query;
+		kind = next.kind;
+		situation = next.situation;
+		savedOnly = next.savedOnly;
+		practice = next.practice;
+		practising = next.entryId !== null;
+		if (next.entryId) selectedId = next.entryId;
+		if (next.invalidEntry)
+			message = 'That reference was not found. Choose another from the library.';
+		else if (message === 'That reference was not found. Choose another from the library.')
+			message = '';
 	}
-	function updateUrl(push = false) {
+	async function updateUrl(push = false) {
 		if (!ready) return;
-		const u = new URL(location.href);
-		for (const key of ['q', 'kind', 'situation', 'saved', 'entry', 'practice'])
-			u.searchParams.delete(key);
-		if (query) u.searchParams.set('q', query);
-		if (kind !== 'all') u.searchParams.set('kind', kind);
-		if (situation !== 'all') u.searchParams.set('situation', situation);
-		if (practice !== 'all') u.searchParams.set('practice', practice);
-		if (savedOnly) u.searchParams.set('saved', '1');
-		if (selectedId) u.searchParams.set('entry', selectedId);
-		const navigation = goto(u, { shallow: true, replace: !push });
-		navigation.catch(() => {
-			message = 'The reference is open, but its URL could not be updated.';
-		});
-	}
-	async function selectEntry(ref: Reference) {
-		selectedId = ref.id;
-		updateUrl(true);
-		await tick();
-		const heading = document.getElementById('reference');
-		if (!heading) return;
-		const bounds = heading.getBoundingClientRect();
-		const mobile = window.matchMedia('(max-width: 760px)').matches;
-		// Keep the selected reference in reach after browsing farther down the list.
-		if (mobile || bounds.top < 0 || bounds.bottom > window.innerHeight) {
-			heading.focus({ preventScroll: true });
-			heading.scrollIntoView({ block: 'start' });
+		const url = referenceLocation(location.href, currentFilters(), practising ? selectedId : null);
+		try {
+			if (!practising && libraryFilterKey !== JSON.stringify(currentFilters()))
+				captureLibrary(null);
+			await goto(url, {
+				shallow: true,
+				replace: !push,
+				reset: false,
+				state: { ...page.state, libraryReturn },
+			});
+		} catch {
+			message = 'Your view is open, but its URL could not be updated.';
 		}
 	}
+	function captureLibrary(origin: string | null) {
+		libraryReturn = { key: crypto.randomUUID(), scrollY: window.scrollY, entryId: origin };
+		libraryReturns.set(libraryReturn.key, libraryReturn);
+		libraryFilterKey = JSON.stringify(currentFilters());
+	}
+	async function focusPractice(revision: number) {
+		await tick();
+		if (revision !== viewRevision || !practising) return;
+		window.scrollTo({ top: 0, behavior: 'instant' });
+		document.getElementById('reference')?.focus({ preventScroll: true });
+	}
+	async function restoreLibrary(revision: number) {
+		await tick();
+		if (revision !== viewRevision || practising) return;
+		const origin = [
+			...document.querySelectorAll<HTMLAnchorElement>('.reference-card[data-entry-id]'),
+		].find((tile) => tile.dataset.entryId === libraryReturn.entryId);
+		(origin ?? document.getElementById('library-search'))?.focus({ preventScroll: true });
+		window.scrollTo({ top: libraryReturn.scrollY, behavior: 'instant' });
+	}
+	async function selectEntry(ref: Reference, fromTile = false) {
+		const revision = ++viewRevision;
+		if (!practising) {
+			captureLibrary(fromTile ? ref.id : switchOrigin);
+			// Stamp this library history entry before pushing practice. Each visit
+			// gets its own bookmark, even when two visits use identical filters.
+			await updateUrl();
+			if (revision !== viewRevision) return;
+		}
+		selectedId = ref.id;
+		practising = true;
+		if (switcher?.open) switcher.close();
+		await updateUrl(true);
+		await focusPractice(revision);
+	}
+	async function returnToLibrary() {
+		const revision = ++viewRevision;
+		practising = false;
+		if (switcher?.open) switcher.close();
+		await updateUrl(true);
+		await restoreLibrary(revision);
+	}
+	function restoreFromHistory() {
+		if (!practising && libraryReturn.key) {
+			libraryReturns.set(libraryReturn.key, { ...libraryReturn, scrollY: window.scrollY });
+		}
+		viewRevision++;
+		pendingHistory = true;
+		for (const dialog of [switcher, help, backup]) if (dialog?.open) dialog.close();
+	}
+	function finishHashNavigation(event: HashChangeEvent) {
+		const from = new URL(event.oldURL);
+		const to = new URL(event.newURL);
+		// Native fragment navigation emits popstate too. Let the browser keep
+		// its anchor focus/scroll without leaving a pending reference traversal.
+		if (from.pathname === to.pathname && from.search === to.search) pendingHistory = false;
+	}
+	$effect(() => {
+		const url = page.shallow?.url ?? page.url;
+		const bookmark = page.state.libraryReturn;
+		if (!ready) return;
+		untrack(() => {
+			// Kit restores its state asynchronously after popstate. Wait for the
+			// matching public URL/state before restoring our view and focus.
+			if (!pendingHistory || url.href !== location.href) return;
+			pendingHistory = false;
+			readUrl();
+			const restored = readLibraryReturn(bookmark, referenceIds);
+			libraryReturn = restored
+				? (libraryReturns.get(restored.key) ?? restored)
+				: { key: '', scrollY: 0, entryId: null };
+			libraryFilterKey = JSON.stringify(currentFilters());
+			const revision = ++viewRevision;
+			if (practising) void focusPractice(revision);
+			else void restoreLibrary(revision);
+		});
+	});
 	function reset() {
 		query = '';
 		kind = 'all';
 		situation = 'all';
 		savedOnly = false;
 		practice = 'all';
-		updateUrl();
+		void updateUrl();
+	}
+	async function openSwitcher() {
+		if (!ready || document.querySelector('dialog[open]')) return;
+		switchOrigin =
+			document.activeElement instanceof Element
+				? (document.activeElement.closest<HTMLAnchorElement>('.reference-card')?.dataset.entryId ??
+					null)
+				: null;
+		document.querySelector<HTMLVideoElement>('.practice-view video')?.pause();
+		switchQuery = '';
+		switchScope = results.length ? 'results' : 'all';
+		switcher.showModal();
+		await tick();
+		switchSearch.focus();
+	}
+	function switcherKeys(event: KeyboardEvent) {
+		if (event.altKey || event.ctrlKey || event.metaKey) return;
+		if (event.key === 'Enter' && event.target === switchSearch && switchResults[0]) {
+			event.preventDefault();
+			void selectEntry(switchResults[0]);
+			return;
+		}
+		if (!['ArrowDown', 'ArrowUp', 'Home', 'End'].includes(event.key)) return;
+		if (event.target === switchSearch && ['Home', 'End'].includes(event.key)) return;
+		const buttons = [...switcher.querySelectorAll<HTMLButtonElement>('.switch-result')];
+		if (!buttons.length) return;
+		event.preventDefault();
+		const index = buttons.findIndex((button) => button === document.activeElement);
+		const next =
+			event.key === 'Home'
+				? 0
+				: event.key === 'End'
+					? buttons.length - 1
+					: event.key === 'ArrowDown'
+						? Math.min(index + 1, buttons.length - 1)
+						: index < 0
+							? buttons.length - 1
+							: Math.max(0, index - 1);
+		buttons[next]?.focus();
+	}
+	function shortcuts(event: KeyboardEvent) {
+		if (event.defaultPrevented || event.repeat) return;
+		if ((event.ctrlKey || event.metaKey) && !event.altKey && event.key.toLowerCase() === 'k') {
+			if (document.querySelector('dialog[open]')) return;
+			event.preventDefault();
+			void openSwitcher();
+			return;
+		}
+		if (
+			event.key !== 'Escape' ||
+			!practising ||
+			document.querySelector('dialog[open]') ||
+			document.fullscreenElement
+		)
+			return;
+		if (
+			event.target instanceof Element &&
+			event.target.closest('input, textarea, select, [contenteditable]')
+		)
+			return;
+		event.preventDefault();
+		void returnToLibrary();
 	}
 	function updatePersonal(patch: Partial<PersonalEntry>) {
 		if (!selected || !ready) return;
@@ -164,32 +326,68 @@
 		}
 		input.value = '';
 	}
+
 	const time = (seconds: number) =>
 		`${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, '0')}`;
+	afterNavigate((navigation) => {
+		if (
+			!ready ||
+			navigation.shallow ||
+			navigation.type === 'enter' ||
+			navigation.type === 'popstate'
+		)
+			return;
+		const revision = ++viewRevision;
+		readUrl();
+		if (practising) void focusPractice(revision);
+		else {
+			libraryReturn = { key: '', scrollY: 0, entryId: null };
+			libraryFilterKey = JSON.stringify(currentFilters());
+			void restoreLibrary(revision);
+		}
+	});
 	onMount(() => {
 		const loaded = loadLibrary();
 		library = loaded.library;
 		storageError = loaded.error;
 		readUrl();
+		libraryReturn = readLibraryReturn(page.state.libraryReturn, referenceIds) ?? {
+			key: '',
+			scrollY: 0,
+			entryId: null,
+		};
+		libraryFilterKey = JSON.stringify(currentFilters());
 		ready = true;
-		window.addEventListener('popstate', readUrl);
+		if (practising) void focusPractice(++viewRevision);
+		window.addEventListener('popstate', restoreFromHistory);
+		window.addEventListener('hashchange', finishHashNavigation);
 		window.addEventListener('storage', syncFromStorage);
 		return () => {
-			window.removeEventListener('popstate', readUrl);
+			viewRevision++;
+			window.removeEventListener('popstate', restoreFromHistory);
+			window.removeEventListener('hashchange', finishHashNavigation);
 			window.removeEventListener('storage', syncFromStorage);
 		};
 	});
 </script>
 
-<svelte:head
-	><link rel="icon" href="/favicon.svg" /><title>Hyper Chamber — {subjectName} reference</title
-	><meta
+<svelte:window onkeydown={shortcuts} />
+<svelte:head>
+	<link rel="icon" href="/favicon.svg" />
+	<title
+		>{practising && selected
+			? `${selected.title} — Hyper Chamber`
+			: `Hyper Chamber — ${subjectName} library`}</title
+	>
+	<meta
 		name="description"
 		content={`A compact ${subjectName} reference for ${game.name}. Replay source clips, inspect key moments and keep your own practice notes.`}
-	/></svelte:head
+	/>
+</svelte:head>
+<a class="skip-link" href={practising ? '#reference' : '#library-title'}
+	>{practising ? 'Skip to selected reference' : 'Skip to reference library'}</a
 >
-<a class="skip-link" href="#reference">Skip to selected reference</a>
-<div class="app-shell" class:focus-mode={focused}>
+<div class="app-shell" class:in-practice={practising} data-ready={ready}>
 	<header class="masthead">
 		<a class="brand" href="/" aria-label="Hyper Chamber home"
 			><BrandMark /><span>HYPER<br />CHAMBER</span></a
@@ -198,134 +396,165 @@
 			A fighting game reference.<br /><span>Less searching. More playing.</span>
 		</div>
 		<nav class="header-actions" aria-label="Utilities">
-			<button onclick={() => help.showModal()}>Notation <span aria-hidden="true">?</span></button
-			><button onclick={() => backup.showModal()}
+			<button onclick={() => help.showModal()}>Notation <span aria-hidden="true">?</span></button>
+			<button onclick={() => backup.showModal()}
 				>Your library <span aria-hidden="true">↗</span></button
 			>
-			{#each game.guides as guide}
-				<a class="guide-link" href={guide.url} target="_blank" rel="noreferrer">{guide.label} ↗</a>
-			{/each}
+			{#each game.guides as guide}<a
+					class="guide-link"
+					href={guide.url}
+					target="_blank"
+					rel="noreferrer">{guide.label} ↗</a
+				>{/each}
 		</nav>
 	</header>
-	<main>
-		<section class="character-band" aria-label="Current reference collection">
-			<div class="character-name">
-				<span class="eyebrow">{game.name.toUpperCase()} / REFERENCE FILE</span>
-				<h1>{subjectName.toUpperCase()}<span class="title-dot">.</span></h1>
-			</div>
-			<p>A reference within reach.<br /><span>Combos, setups and the moments between.</span></p>
-			<span class="character-seal" aria-hidden="true"><BrandMark /></span>
-		</section>
+	<main id="main-content">
 		{#if storageError}<p class="global-notice" role="alert">
 				{storageError} Your changes remain available in this session.
-				<button class="text-button" onclick={persistPending}>Retry saving</button>
-				<button class="text-button" onclick={exportData}>Export session backup</button>
+				<button class="text-button" onclick={persistPending}>Retry saving</button><button
+					class="text-button"
+					onclick={exportData}>Export session backup</button
+				>
 			</p>{/if}
 		{#if message}<p class="message-bar" role="status">{message}</p>{/if}
-		<div class="workspace">
-			<aside class="browser" aria-label="Reference browser">
-				<div class="browser-heading">
-					<h2>Compendium</h2>
-					<span>{references.length.toString().padStart(2, '0')}</span>
-				</div>
-				<label class="search"
-					><span aria-hidden="true">⌕</span><span class="sr-only">Search references</span><input
-						type="search"
-						placeholder="Find an input, situation…"
-						bind:value={query}
-						oninput={(e) => {
-							query = e.currentTarget.value;
-							updateUrl();
-						}}
-					/></label
-				>
-				<div class="collection-switch">
-					<button
-						class:current={!savedOnly}
-						aria-pressed={!savedOnly}
-						onclick={() => {
-							savedOnly = false;
-							updateUrl();
-						}}>All references</button
-					><button
-						class:current={savedOnly}
-						aria-pressed={savedOnly}
-						onclick={() => {
-							savedOnly = true;
-							updateUrl();
-						}}>Saved <span>{savedIds.size}</span></button
-					>
-				</div>
-				<div class="filters">
-					<label
-						>Type<select
-							bind:value={kind}
-							onchange={(e) => {
-								kind = e.currentTarget.value;
-								updateUrl();
-							}}
-							><option value="all">All types</option><option value="combo">Combo</option><option
-								value="setup">Setup</option
-							><option value="response">Response</option></select
-						></label
-					><label
-						>Situation<select
-							bind:value={situation}
-							onchange={(e) => {
-								situation = e.currentTarget.value;
-								updateUrl();
-							}}
-							><option value="all">Anywhere</option>{#each situations as s}<option value={s}
-									>{s}</option
-								>{/each}</select
-						></label
-					>
-				</div>
-				<label class="practice-filter"
-					>Practice status <span>(self-reported)</span>
-					<select bind:value={practice} onchange={() => updateUrl()}>
-						<option value="all">All practice statuses</option><option value="untried"
-							>Untried</option
-						><option value="practising">Practising</option><option value="reliable">Reliable</option
+		{#if !practising}
+			<section class="library-view" aria-labelledby="library-title">
+				<header class="library-heading">
+					<div>
+						<span class="eyebrow">{game.name.toUpperCase()} / CHARACTER LIBRARY</span>
+						<h1 id="library-title" tabindex="-1">{subjectName}<span class="title-dot">.</span></h1>
+						<p class="library-intro">Find your next route. Take it into practice.</p>
+					</div>
+					<p class="library-total">
+						<strong>{references.length}</strong><span
+							>combo, setup &amp;<br />response references</span
 						>
-					</select></label
-				>
-				<div class="results-meta">
-					<span>{results.length} {results.length === 1 ? 'reference' : 'references'}</span
-					>{#if query || kind !== 'all' || situation !== 'all' || savedOnly || practice !== 'all'}<button
-							onclick={reset}>Reset filters</button
-						>{/if}
+					</p>
+				</header>
+				<div class="library-filters" aria-label="Reference filters">
+					<label class="search"
+						><span aria-hidden="true">⌕</span><span class="sr-only">Search references</span><input
+							id="library-search"
+							type="search"
+							placeholder="Find an input, situation…"
+							bind:value={query}
+							oninput={(event) => {
+								query = event.currentTarget.value;
+								void updateUrl();
+							}}
+						/></label
+					>
+					<div class="collection-switch">
+						<button
+							class:current={!savedOnly}
+							aria-pressed={!savedOnly}
+							onclick={() => {
+								savedOnly = false;
+								void updateUrl();
+							}}>All references</button
+						><button
+							class:current={savedOnly}
+							aria-pressed={savedOnly}
+							onclick={() => {
+								savedOnly = true;
+								void updateUrl();
+							}}>Saved <span>{savedIds.size}</span></button
+						>
+					</div>
+					<div class="filters">
+						<label
+							>Type<select
+								bind:value={kind}
+								onchange={(event) => {
+									kind = event.currentTarget.value;
+									void updateUrl();
+								}}
+								><option value="all">All types</option><option value="combo">Combo</option><option
+									value="setup">Setup</option
+								><option value="response">Response</option></select
+							></label
+						>
+						<label
+							>Situation<select
+								bind:value={situation}
+								onchange={(event) => {
+									situation = event.currentTarget.value;
+									void updateUrl();
+								}}
+								><option value="all">Anywhere</option>{#each situations as s}<option value={s}
+										>{s}</option
+									>{/each}</select
+							></label
+						>
+						<label
+							>Practice status <span>(self-reported)</span><select
+								bind:value={practice}
+								onchange={(event) => {
+									practice = event.currentTarget.value;
+									void updateUrl();
+								}}
+								><option value="all">All statuses</option><option value="untried">Untried</option
+								><option value="practising">Practising</option><option value="reliable"
+									>Reliable</option
+								></select
+							></label
+						>
+					</div>
+					<div class="results-meta">
+						<span>{results.length} {results.length === 1 ? 'reference' : 'references'}</span><button
+							class="text-button"
+							onclick={openSwitcher}
+							aria-keyshortcuts="Control+k Meta+k">Quick switch <kbd>⌘ / Ctrl K</kbd></button
+						>{#if query || kind !== 'all' || situation !== 'all' || savedOnly || practice !== 'all'}<button
+								onclick={reset}>Reset filters</button
+							>{/if}
+					</div>
 				</div>
-				<ul class="reference-list">
-					{#each results as ref}<li>
-							<button
+				<noscript
+					><p class="notice">
+						Enable JavaScript to open a practice reference, or <a href={game.guides[0]?.url}
+							>read the Dhalsim guide ↗</a
+						>.
+					</p></noscript
+				>
+				<ul class="reference-list reference-grid" aria-label="Matching references">
+					{#each results as ref, index (ref.id)}<li>
+							<a
 								class="reference-card"
-								class:selected={selectedId === ref.id}
-								aria-current={selectedId === ref.id ? 'true' : undefined}
-								onclick={() => selectEntry(ref)}
+								href={entryHref(ref.id)}
+								data-entry-id={ref.id}
+								onclick={(event) => {
+									if (
+										event.button ||
+										event.metaKey ||
+										event.ctrlKey ||
+										event.shiftKey ||
+										event.altKey
+									)
+										return;
+									event.preventDefault();
+									void selectEntry(ref, true);
+								}}
 								><div class="card-top">
 									<span class="kind-label">{ref.kind}</span><span
-										>{selectedId === ref.id
-											? 'Selected'
-											: library[ref.id]?.saved
-												? '★ Saved'
-												: '↗'}</span
+										>{library[ref.id]?.saved ? '★ Saved' : String(index + 1).padStart(2, '0')}</span
 									>
 								</div>
 								<h3>{ref.title}</h3>
-								<p>{ref.situations.join(' · ')}</p>
+								<p class="card-situations">{ref.situations.join(' · ')}</p>
+								<p class="card-summary">{ref.summary}</p>
 								<div class="card-bottom">
-									<code>{ref.notation}</code><span aria-hidden="true">→</span>
-								</div></button
+									<span>{ref.inputs.length} inputs</span><span>Practice ↗</span>
+								</div></a
 							>
 						</li>{/each}
 				</ul>
 				{#if results.length === 0}<div class="empty">
-						<h3>
+						<h2>
 							{savedOnly && savedIds.size === 0
 								? 'Nothing saved here yet.'
 								: 'No matching references.'}
-						</h3>
+						</h2>
 						<p>
 							{savedOnly && savedIds.size === 0
 								? 'Save a reference with the star to keep it close.'
@@ -333,145 +562,172 @@
 						</p>
 						<button class="button" onclick={reset}>Show all references</button>
 					</div>{/if}
-				<div class="browser-foot">
-					<span class="tiny-mark" aria-hidden="true"><BrandMark /></span>
-					<p>Built for the space<br />beside your game.</p>
-				</div>
-			</aside>
-			<article class="reference-detail" aria-label="Selected reference">
-				{#if selected && personal}
-					<div class="detail-toolbar">
-						<span class="eyebrow">{subjectName.toUpperCase()} / {selected.kind.toUpperCase()}</span
-						><button class="text-button" aria-pressed={focused} onclick={() => (focused = !focused)}
-							>{focused ? '↙ Exit focus' : '↗ Focus view'}</button
-						>
-					</div>
-					<div class="detail-heading">
-						<div>
-							<h2 id="reference" tabindex="-1">{selected.title}</h2>
-							<p>{selected.summary}</p>
-						</div>
+			</section>
+		{:else if selected && personal}
+			<article class="reference-detail practice-view" aria-label="Selected reference">
+				<nav class="practice-nav" aria-label="Practice navigation">
+					<button class="text-button back-library" onclick={returnToLibrary}
+						>← Back to library <kbd>Esc</kbd></button
+					>
+					<button
+						class="button small quick-switch-trigger"
+						onclick={openSwitcher}
+						aria-keyshortcuts="Control+k Meta+k">Quick switch <kbd>⌘ / Ctrl K</kbd></button
+					>
+					<div class="practice-pagination">
 						<button
-							class="save-button"
-							class:saved={personal.saved}
-							aria-pressed={personal.saved}
-							aria-label={personal.saved ? 'Unsave reference' : 'Save reference'}
-							onclick={() => updatePersonal({ saved: !personal?.saved })}
-							>{personal.saved ? '★' : '☆'}</button
+							class="text-button"
+							disabled={!previousReference}
+							onclick={() => previousReference && selectEntry(previousReference)}
+							aria-label="Previous reference">← Previous</button
+						><span
+							>{selectedIndex >= 0
+								? `${selectedIndex + 1} / ${results.length}`
+								: 'Outside filters'}</span
+						><button
+							class="text-button"
+							disabled={!nextReference}
+							onclick={() => nextReference && selectEntry(nextReference)}
+							aria-label="Next reference">Next →</button
 						>
 					</div>
+				</nav>
+				{#key selected.id}<ReferenceMedia reference={selected} layout="practice">
+						{#snippet beforeReplay()}
+							<header class="practice-heading">
+								<span class="eyebrow"
+									>{subjectName.toUpperCase()} / {selected.kind.toUpperCase()}</span
+								>
+								<div class="detail-title-row">
+									<h1 id="reference" tabindex="-1">{selected.title}</h1>
+									<button
+										class="save-button"
+										class:saved={personal.saved}
+										aria-pressed={personal.saved}
+										aria-label={personal.saved ? 'Unsave reference' : 'Save reference'}
+										onclick={() => updatePersonal({ saved: !personal?.saved })}
+										>{personal.saved ? '★' : '☆'}</button
+									>
+								</div>
+							</header>
+							<section class="notation-panel" aria-label="Input sequence">
+								<InputSequence
+									reference={selected}
+									{game}
+									compact
+									onNotation={() => help.showModal()}
+								/>
+							</section>
+						{/snippet}
+					</ReferenceMedia>{/key}
+				<section class="input-details">
+					<details class="input-explanations">
+						<summary
+							>Move explanations &amp; timing cues <span>({selected.inputs.length} inputs)</span
+							></summary
+						>
+						<div class="notation-panel">
+							<InputSequence reference={selected} {game} showActions={false} />
+						</div>
+					</details>
+				</section>
+				<section class="reference-context" aria-label="Reference context">
+					<p>{selected.summary}</p>
 					<div class="tags">
 						{#each selected.situations as tag}<span>{tag}</span
 							>{/each}{#each selected.outcomes as tag}<span class="outcome">{tag}</span>{/each}
 					</div>
-					{#if !results.some((r) => r.id === selected?.id)}<p class="notice">
-							This reference is outside your current filters. <button onclick={reset}
-								>Clear filters</button
-							>
-						</p>{/if}
-					<div class="practice-stage">
-						<div class="practice-inputs">
-							<section class="notation-panel" aria-label="Input sequence">
-								<div class="section-heading">
-									<h3>Input sequence</h3>
-									<button onclick={() => help.showModal()}>Notation key ↗</button>
-								</div>
-								{#key selected.id}<InputSequence reference={selected} {game} />{/key}
-							</section>
-							<div class="condition-row">
-								<span class="eyebrow">SET THE SCENE</span>
-								<p>{selected.conditions.join(' · ')}</p>
-							</div>
+					<div class="condition-row">
+						<span class="eyebrow">SET THE SCENE</span>
+						<p>{selected.conditions.join(' · ')}</p>
+					</div>
+				</section>
+				{#if selectedIndex < 0}<p class="notice">
+						This reference is outside your current filters. <button onclick={reset}
+							>Clear filters</button
+						> or use Quick switch to browse all references.
+					</p>{/if}
+				<div class="detail-bottom">
+					<section class="reference-notes">
+						<div class="section-heading">
+							<h2>Keep in mind</h2>
+							<span aria-hidden="true">↳</span>
 						</div>
-						{#key selected.id}<ReferenceMedia reference={selected} />{/key}
+						<ul>
+							{#each selected.notes as note}<li>{note}</li>{/each}
+						</ul>
+						<div class="resource-line">
+							{#each Object.entries(selected.resources) as [resource, value]}<span
+									>{game.resourceLabels[resource]} <strong>{value}</strong></span
+								>{/each}
+						</div>
+					</section>
+					<section class="personal-panel">
+						<div class="section-heading">
+							<h2>Your quick notes</h2>
+							<span class="eyebrow">LOCAL ONLY</span>
+						</div>
+						{#if personal.revision !== selected.revision}<p class="revision-hint">
+								This reference has been updated since your saved notes. Recheck the source; your
+								practice status is unchanged.
+							</p>{/if}<label class="status-label"
+							>Practice status (self-reported)<select
+								value={personal.status}
+								onchange={(e) =>
+									updatePersonal({ status: e.currentTarget.value as PracticeStatus })}
+								><option value="untried">Untried</option><option value="practising"
+									>Practising</option
+								><option value="reliable">Reliable</option></select
+							></label
+						><label class="sr-only" for="personal-note">Personal note</label><textarea
+							id="personal-note"
+							placeholder="A timing cue. A reminder. Make it yours."
+							value={personal.note}
+							oninput={(e) => updatePersonal({ note: e.currentTarget.value })}
+							maxlength="4000"
+							rows="3"></textarea>
+						<p class="local-hint">
+							{storageError
+								? 'Not saved to this browser.'
+								: ready
+									? 'Saved on this browser as you type.'
+									: 'Loading your library…'}
+						</p>
+					</section>
+				</div>
+				<footer class="source-footer">
+					<div>
+						<span class="eyebrow">FROM THE SOURCE</span><a
+							href={sourceLink(selected)}
+							target="_blank"
+							rel="noreferrer">{selected.source.title} ↗</a
+						>
+						<p>
+							{selected.source.creator} · {time(selected.source.start)}–{time(selected.source.end)}
+						</p>
 					</div>
-					<div class="detail-bottom">
-						<section class="reference-notes">
-							<div class="section-heading">
-								<h3>Keep in mind</h3>
-								<span aria-hidden="true">↳</span>
-							</div>
-							<ul>
-								{#each selected.notes as note}<li>{note}</li>{/each}
-							</ul>
-							<div class="resource-line">
-								{#each Object.entries(selected.resources) as [resource, value]}
-									<span>{game.resourceLabels[resource]} <strong>{value}</strong></span>
-								{/each}
-							</div>
-						</section>
-						<section class="personal-panel">
-							<div class="section-heading">
-								<h3>Your quick notes</h3>
-								<span class="eyebrow">LOCAL ONLY</span>
-							</div>
-							{#if personal.revision !== selected.revision}<p class="revision-hint">
-									This reference has been updated since your saved notes. Recheck the source; your
-									practice status is unchanged.
-								</p>{/if}<label class="status-label"
-								>Practice status (self-reported)<select
-									value={personal.status}
-									onchange={(e) =>
-										updatePersonal({ status: e.currentTarget.value as PracticeStatus })}
-									><option value="untried">Untried</option><option value="practising"
-										>Practising</option
-									><option value="reliable">Reliable</option></select
-								></label
-							><label class="sr-only" for="personal-note">Personal note</label><textarea
-								id="personal-note"
-								placeholder="A timing cue. A reminder. Make it yours."
-								value={personal.note}
-								oninput={(e) => updatePersonal({ note: e.currentTarget.value })}
-								maxlength="4000"
-								rows="3"></textarea>
-							<p class="local-hint">
-								{storageError
-									? 'Not saved to this browser.'
-									: ready
-										? 'Saved on this browser as you type.'
-										: 'Loading your library…'}
-							</p>
-						</section>
+					<div class="source-review">
+						<strong
+							>{selected.verification.status === 'source-reviewed'
+								? 'Source reviewed'
+								: 'Review pending'}</strong
+						>
+						<p>{selected.verification.note}</p>
+						<p>Game version: {selected.verification.gameVersion ?? 'not established'}.</p>
+						<p>Current-patch validity is not established.</p>
 					</div>
-					<footer class="source-footer">
+				</footer>
+				{#if selected.relatedIds.length}<section class="related">
+						<h2>Also in the chamber</h2>
 						<div>
-							<span class="eyebrow">FROM THE SOURCE</span><a
-								href={sourceLink(selected)}
-								target="_blank"
-								rel="noreferrer">{selected.source.title} ↗</a
-							>
-							<p>
-								{selected.source.creator} · {time(selected.source.start)}–{time(
-									selected.source.end,
-								)}
-							</p>
+							{#each references.filter( (ref) => selected?.relatedIds.includes(ref.id) ) as ref}<button
+									onclick={() => selectEntry(ref)}
+									>{ref.title}<span aria-hidden="true">↗</span></button
+								>{/each}
 						</div>
-						<div class="source-review">
-							<strong
-								>{selected.verification.status === 'source-reviewed'
-									? 'Source reviewed'
-									: 'Review pending'}</strong
-							>
-							<p>{selected.verification.note}</p>
-							<p>Game version: {selected.verification.gameVersion ?? 'not established'}.</p>
-							<p>Current-patch validity is not established.</p>
-						</div>
-					</footer>
-					{#if selected.relatedIds.length}<section class="related">
-							<h3>Also in the chamber</h3>
-							<div>
-								{#each references.filter((r) => selected?.relatedIds.includes(r.id)) as ref}<button
-										onclick={() => selectEntry(ref)}
-										>{ref.title}<span aria-hidden="true">↗</span></button
-									>{/each}
-							</div>
-						</section>{/if}
-				{:else}<div class="empty">
-						<h2 id="reference">No {subjectName} references available</h2>
-						<p>The {game.name} compendium will appear here when reviewed entries are available.</p>
-					</div>{/if}
+					</section>{/if}
 			</article>
-		</div>
+		{/if}
 	</main>
 	<footer class="site-footer">
 		<span>HYPER CHAMBER</span>
@@ -479,6 +735,64 @@
 		<span>Keep it within reach.</span>
 	</footer>
 </div>
+<dialog class="quick-switch-dialog" bind:this={switcher} aria-labelledby="switch-title">
+	<div class="dialog-heading">
+		<h2 id="switch-title">Quick switch</h2>
+		<button class="button small" onclick={() => switcher.close()}>Close ×</button>
+	</div>
+	<label class="switch-search"
+		>Find a reference<input
+			type="search"
+			bind:this={switchSearch}
+			bind:value={switchQuery}
+			onkeydown={switcherKeys}
+			placeholder="Type a move, input or situation…"
+		/></label
+	>
+	<div class="switch-scopes" aria-label="Quick switch collection">
+		<button
+			aria-pressed={switchScope === 'results'}
+			onclick={() => {
+				switchScope = 'results';
+				switchSearch.focus();
+			}}>Current results <span>{results.length}</span></button
+		><button
+			aria-pressed={switchScope === 'saved'}
+			onclick={() => {
+				switchScope = 'saved';
+				switchSearch.focus();
+			}}>Saved <span>{savedIds.size}</span></button
+		><button
+			aria-pressed={switchScope === 'all'}
+			onclick={() => {
+				switchScope = 'all';
+				switchSearch.focus();
+			}}>All references <span>{references.length}</span></button
+		>
+	</div>
+	<p class="switch-count" role="status">
+		{switchResults.length}
+		{switchResults.length === 1 ? 'reference' : 'references'}
+	</p>
+	<ul class="switch-results" aria-label="Choose a reference">
+		{#each switchResults as ref (ref.id)}<li>
+				<button
+					class="switch-result"
+					aria-current={practising && ref.id === selectedId ? 'true' : undefined}
+					onclick={() => selectEntry(ref)}
+					onkeydown={switcherKeys}
+					><span class="kind-label">{ref.kind}</span><strong>{ref.title}</strong><small
+						>{ref.situations.join(' · ')}{practising && ref.id === selectedId
+							? ' · Current reference'
+							: ''}</small
+					></button
+				>
+			</li>{/each}
+	</ul>
+	{#if switchResults.length === 0}<p class="empty-switch">
+			No matching references. Try another search or choose All references.
+		</p>{/if}
+</dialog>
 <dialog bind:this={help} aria-labelledby="notation-title">
 	<div class="dialog-heading">
 		<h2 id="notation-title">Read the notation</h2>
@@ -507,9 +821,9 @@
 		Use each entry’s execution cues alongside the notation. Timing is shown in the source clip.
 	</p>
 </dialog>
-<dialog bind:this={backup} aria-labelledby="library-title">
+<dialog bind:this={backup} aria-labelledby="backup-title">
 	<div class="dialog-heading">
-		<h2 id="library-title">Your library</h2>
+		<h2 id="backup-title">Your library</h2>
 		<button class="button small" onclick={() => backup.close()}>Close ×</button>
 	</div>
 	<p>

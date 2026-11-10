@@ -19,8 +19,8 @@ Open `http://127.0.0.1:5376`. Stop the preview with Ctrl+C in its terminal. Use 
 - Individual references covering light confirms, punish routes, anti-air, Drive Impact, corner/stun routes, midscreen/corner oki, defensive responses and an explicitly labelled spacing failure. The [source coverage index](source-coverage.md) lists every card and interval.
 - Search, type/situation/practice filters, saved entries, related alternatives and URL-restored selection/history.
 - Connected inputs, copy/selectable text notation, conditions, short notes and persistent source provenance.
-- Local silent clips with tap-to-play/pause, relative horizontal dragging, pause-on-release, remembered full-clip loops, 0.5×/0.75× speed, key-moment inspection and 0.25-second time nudges. R/J/L and arrow shortcuts are scoped to focused clip controls; Space activates the video button. Native controls remain the no-JavaScript fallback.
-- Focus view and narrow layouts, with offscreen reference selection revealing its detail.
+- Local silent clips with tap-to-play/pause, relative horizontal dragging, pause-on-release, remembered full-clip loops, 0.5×/0.75× speed, key-moment inspection and 0.25-second time nudges. R/J/L and arrow shortcuts are scoped to focused clip controls; Space activates the video button. Native player controls remain available before enhancement; a JavaScript-disabled library links to the external guide.
+- Full-width tile library and dedicated practice view, with all inputs above replay. Back/Escape restores library position and tile focus; Previous/Next follows filtered results. Quick switch (Ctrl/Cmd+K) searches current results, Saved or all entries, with keyboard selection. Narrow layouts use natural vertical flow.
 - Browser-local favorites, notes and self-reported practice status; versioned JSON import/export, pending-edit recovery and preservation of unknown backup IDs.
 - Clip retry/source fallback, storage retry/session export, keyboard-operated dialogs and timed action descriptions.
 
