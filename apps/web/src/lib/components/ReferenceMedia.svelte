@@ -664,8 +664,9 @@
 	}
 	.speed select {
 		border-color: transparent;
-		background: transparent;
-		padding-inline: 3px;
+		background-color: transparent;
+		padding-inline: 6px 30px;
+		background-position: right 10px center;
 	}
 	.seek-controls {
 		display: flex;
