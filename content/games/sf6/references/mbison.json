@@ -1,0 +1,1270 @@
+[
+	{
+		"id": "mbison-jabs-light-crusher",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Three jabs into light Psycho Crusher",
+		"summary": "Two crouching jabs and a standing jab lead into the back-charge special.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LP > cr.LP > st.LP > [4]6LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "[4]6LP",
+				"label": "Light Psycho Crusher",
+				"cue": "Hold back during the preceding lights"
+			}
+		],
+		"conditions": ["Classic controls", "Back charge ready", "No Psycho Mine at start"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 1.0,
+			"end": 4.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-jabs-light-crusher/clip.mp4",
+			"poster": "/media/mbison/mbison-jabs-light-crusher/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-jabs-light-crusher/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-jabs-light-crusher/frame-1.jpg",
+					"at": 0.55,
+					"label": "Crouching jabs",
+					"alt": "M. Bison connects the first two lights."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-jabs-light-crusher/frame-2.jpg",
+					"at": 1.25,
+					"label": "Standing jab",
+					"alt": "M. Bison continues the light chain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-jabs-light-crusher/frame-3.jpg",
+					"at": 2.1,
+					"label": "Light Crusher",
+					"alt": "M. Bison travels forward with light Psycho Crusher."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-crusher-dash-throw",
+			"mbison-low-lights-backfist",
+			"mbison-medium-link-crusher"
+		]
+	},
+	{
+		"id": "mbison-crusher-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Light Crusher oki: dash into throw",
+		"summary": "Dash after the light Psycho Crusher knockdown, then attempt a forward throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw pressure"],
+		"outcomes": ["Conversion"],
+		"notation": "66 > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Forward normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Preceding light Psycho Crusher knockdown, shown as +24F",
+			"No Psycho Mine at start"
+		],
+		"notes": [
+			"This is a throw attempt after wake-up. The source’s “un-shimmyable” caption is retained in the footage but is not asserted as a current-patch guarantee."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 11.05,
+			"end": 15.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-crusher-dash-throw/clip.mp4",
+			"poster": "/media/mbison/mbison-crusher-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-crusher-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-crusher-dash-throw/frame-1.jpg",
+					"at": 0.2,
+					"label": "Crusher knockdown",
+					"alt": "M. Bison lands from the preceding light Psycho Crusher."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-crusher-dash-throw/frame-2.jpg",
+					"at": 0.6,
+					"label": "Dash approach",
+					"alt": "M. Bison dashes into wake-up range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-crusher-dash-throw/frame-3.jpg",
+					"at": 1.1,
+					"label": "Throw attempt",
+					"alt": "M. Bison grabs Ryu after wake-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-crusher-dash-throw/frame-4.jpg",
+					"at": 3.15,
+					"label": "Throw result",
+					"alt": "M. Bison finishes the forward throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-jabs-light-crusher",
+			"mbison-corner-crusher-kill-throw",
+			"mbison-medium-link-backfist"
+		]
+	},
+	{
+		"id": "mbison-corner-crusher-kill-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner Crusher oki: whiff light kick, throw",
+		"summary": "Standing light kick acts as a frame kill before the delayed corner throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw pressure"],
+		"outcomes": ["Conversion"],
+		"notation": "st.LK > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK",
+				"label": "Whiff standing light kick",
+				"cue": "Intentional frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Delayed forward throw"
+			}
+		],
+		"conditions": ["Classic controls", "Preceding corner light Crusher knockdown, shown as +24F"],
+		"notes": ["The throw remains a pressure attempt; it is not guaranteed by the frame kill."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 35.8,
+			"end": 39.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-corner-crusher-kill-throw/clip.mp4",
+			"poster": "/media/mbison/mbison-corner-crusher-kill-throw/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-corner-crusher-kill-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-corner-crusher-kill-throw/frame-1.jpg",
+					"at": 0.15,
+					"label": "Crusher recovery",
+					"alt": "M. Bison lands from the preceding corner Crusher."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-corner-crusher-kill-throw/frame-2.jpg",
+					"at": 0.4,
+					"label": "Light-kick frame kill",
+					"alt": "M. Bison intentionally whiffs standing light kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-corner-crusher-kill-throw/frame-3.jpg",
+					"at": 0.85,
+					"label": "Throw attempt",
+					"alt": "M. Bison grabs Ryu after the frame kill."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-corner-crusher-kill-throw/frame-4.jpg",
+					"at": 2.7,
+					"label": "Throw result",
+					"alt": "M. Bison completes the forward throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-medium-link-backfist",
+			"mbison-crusher-dash-throw",
+			"mbison-corner-counter-di-heavy-link"
+		]
+	},
+	{
+		"id": "mbison-medium-link-backfist",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Medium link into medium Backfist",
+		"summary": "Standing medium punch links to crouching medium, then medium Backfist plants a Psycho Mine.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Conversion"],
+		"notation": "st.MP > cr.MP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP",
+				"label": "Medium Backfist Combo"
+			}
+		],
+		"conditions": ["Classic controls", "No Psycho Mine at start"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 183.2,
+			"end": 187.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-medium-link-backfist/clip.mp4",
+			"poster": "/media/mbison/mbison-medium-link-backfist/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-medium-link-backfist/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-medium-link-backfist/frame-1.jpg",
+					"at": 0.6,
+					"label": "Standing medium",
+					"alt": "M. Bison connects standing medium punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-medium-link-backfist/frame-2.jpg",
+					"at": 1.1,
+					"label": "Crouching medium",
+					"alt": "M. Bison links crouching medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-medium-link-backfist/frame-3.jpg",
+					"at": 2.1,
+					"label": "Medium Backfist",
+					"alt": "M. Bison finishes with medium Backfist and plants the mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-corner-crusher-kill-throw",
+			"mbison-crusher-dash-throw",
+			"mbison-corner-counter-di-heavy-link"
+		]
+	},
+	{
+		"id": "mbison-low-lights-backfist",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Low light and jab into Backfist",
+		"summary": "A low starter and standing jab end in light Backfist, planting a Psycho Mine.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LK > st.LP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "Light Backfist Combo"
+			}
+		],
+		"conditions": ["Classic controls", "No Psycho Mine at start"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 55.15,
+			"end": 58.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-low-lights-backfist/clip.mp4",
+			"poster": "/media/mbison/mbison-low-lights-backfist/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-low-lights-backfist/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-low-lights-backfist/frame-1.jpg",
+					"at": 0.55,
+					"label": "Low light",
+					"alt": "M. Bison connects crouching light kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-low-lights-backfist/frame-2.jpg",
+					"at": 1.1,
+					"label": "Jab cancel",
+					"alt": "M. Bison links standing light punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-low-lights-backfist/frame-3.jpg",
+					"at": 1.85,
+					"label": "Light Backfist",
+					"alt": "M. Bison lands light Backfist and plants the mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-jabs-light-crusher",
+			"mbison-crusher-dash-throw",
+			"mbison-medium-link-crusher"
+		]
+	},
+	{
+		"id": "mbison-medium-link-crusher",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Medium link into medium Psycho Crusher",
+		"summary": "Standing medium punch links into crouching medium before the charged Crusher.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "st.MP > cr.MP > [4]6MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "[4]6MP",
+				"label": "Medium Psycho Crusher",
+				"cue": "Preserve back charge during the normal links"
+			}
+		],
+		"conditions": ["Classic controls", "No Psycho Mine at start"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 178.35,
+			"end": 182.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-medium-link-crusher/clip.mp4",
+			"poster": "/media/mbison/mbison-medium-link-crusher/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-medium-link-crusher/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-medium-link-crusher/frame-1.jpg",
+					"at": 0.65,
+					"label": "Standing medium",
+					"alt": "M. Bison connects the medium starter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-medium-link-crusher/frame-2.jpg",
+					"at": 1.3,
+					"label": "Crouching medium",
+					"alt": "M. Bison links the crouching punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-medium-link-crusher/frame-3.jpg",
+					"at": 2.1,
+					"label": "Medium Crusher",
+					"alt": "M. Bison converts the link into medium Psycho Crusher."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-jabs-light-crusher",
+			"mbison-crusher-dash-throw",
+			"mbison-low-lights-backfist"
+		]
+	},
+	{
+		"id": "mbison-back-heavy-light-crusher",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Back heavy kick into light Crusher",
+		"summary": "Back heavy kick leaves time to link standing light kick before the charge special.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "b.HK > st.LK > [4]6LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "[4]6LP",
+				"label": "Light Psycho Crusher",
+				"cue": "Hold back during the preceding lights"
+			}
+		],
+		"conditions": ["Classic controls", "No Psycho Mine at start"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 540.0,
+			"end": 543.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-back-heavy-light-crusher/clip.mp4",
+			"poster": "/media/mbison/mbison-back-heavy-light-crusher/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-back-heavy-light-crusher/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-back-heavy-light-crusher/frame-1.jpg",
+					"at": 0.65,
+					"label": "Back heavy kick",
+					"alt": "M. Bison connects back heavy kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-back-heavy-light-crusher/frame-2.jpg",
+					"at": 1.25,
+					"label": "Light-kick link",
+					"alt": "M. Bison connects standing light kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-back-heavy-light-crusher/frame-3.jpg",
+					"at": 2.15,
+					"label": "Light Crusher",
+					"alt": "M. Bison finishes with light Psycho Crusher."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-jabs-light-crusher",
+			"mbison-crusher-dash-throw",
+			"mbison-low-lights-backfist"
+		]
+	},
+	{
+		"id": "mbison-heavy-punish-medium-backfist",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Heavy Punish Counter into medium and Backfist",
+		"summary": "A close heavy-punch punish links standing medium into heavy Backfist.",
+		"kind": "combo",
+		"situations": ["Punish"],
+		"outcomes": ["Conversion"],
+		"notation": "PC st.HP > st.MP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "PC st.HP",
+				"label": "Punish-counter heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Backfist Combo"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close range",
+			"Heavy punch is Punish Counter",
+			"No Psycho Mine at start"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 554.35,
+			"end": 558.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-heavy-punish-medium-backfist/clip.mp4",
+			"poster": "/media/mbison/mbison-heavy-punish-medium-backfist/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-heavy-punish-medium-backfist/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-heavy-punish-medium-backfist/frame-1.jpg",
+					"at": 0.75,
+					"label": "Heavy punish",
+					"alt": "M. Bison connects standing heavy punch as Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-heavy-punish-medium-backfist/frame-2.jpg",
+					"at": 1.45,
+					"label": "Medium link",
+					"alt": "M. Bison links standing medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-heavy-punish-medium-backfist/frame-3.jpg",
+					"at": 2.65,
+					"label": "Heavy Backfist",
+					"alt": "M. Bison finishes with heavy Backfist and leaves the mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-dp-punish-heavy-dash",
+			"mbison-jabs-light-crusher",
+			"mbison-crusher-dash-throw"
+		]
+	},
+	{
+		"id": "mbison-counter-di-dash-backfist",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Counter DI into dash and heavy Backfist",
+		"summary": "Dash during the crumple to reach crouching heavy punch before heavy Backfist.",
+		"kind": "combo",
+		"situations": ["Drive Impact"],
+		"outcomes": ["Conversion"],
+		"notation": "DI > 66 > cr.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Backfist Combo"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drive Impact lands as Punish Counter",
+			"No Psycho Mine at start"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 575.15,
+			"end": 583.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-counter-di-dash-backfist/clip.mp4",
+			"poster": "/media/mbison/mbison-counter-di-dash-backfist/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-counter-di-dash-backfist/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-counter-di-dash-backfist/frame-1.jpg",
+					"at": 3.6,
+					"label": "Counter DI",
+					"alt": "M. Bison crumples Ryu with Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-counter-di-dash-backfist/frame-2.jpg",
+					"at": 5.0,
+					"label": "Dash approach",
+					"alt": "M. Bison closes the gap during the crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-counter-di-dash-backfist/frame-3.jpg",
+					"at": 5.6,
+					"label": "Crouching heavy",
+					"alt": "M. Bison hits the crumpled opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-counter-di-dash-backfist/frame-4.jpg",
+					"at": 6.55,
+					"label": "Heavy Backfist",
+					"alt": "M. Bison finishes and plants a Psycho Mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-corner-counter-di-heavy-link",
+			"mbison-wall-splat-shadow-hammer",
+			"mbison-jabs-light-crusher"
+		]
+	},
+	{
+		"id": "mbison-corner-counter-di-heavy-link",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner counter DI into heavy-kick link",
+		"summary": "The wall position allows standing heavy kick into crouching medium and medium Backfist.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact"],
+		"outcomes": ["Conversion"],
+		"notation": "DI > st.HK > cr.MP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214MP",
+				"label": "Medium Backfist Combo"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drive Impact lands as Punish Counter",
+			"Corner as shown",
+			"No Psycho Mine at start"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 584.15,
+			"end": 592.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-corner-counter-di-heavy-link/clip.mp4",
+			"poster": "/media/mbison/mbison-corner-counter-di-heavy-link/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-corner-counter-di-heavy-link/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-corner-counter-di-heavy-link/frame-1.jpg",
+					"at": 3.0,
+					"label": "Counter DI",
+					"alt": "M. Bison lands the counter Drive Impact at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-corner-counter-di-heavy-link/frame-2.jpg",
+					"at": 4.25,
+					"label": "Heavy kick",
+					"alt": "M. Bison hits the crumpled opponent with standing heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-corner-counter-di-heavy-link/frame-3.jpg",
+					"at": 5.1,
+					"label": "Medium link",
+					"alt": "M. Bison connects crouching medium punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-corner-counter-di-heavy-link/frame-4.jpg",
+					"at": 6.25,
+					"label": "Backfist ender",
+					"alt": "M. Bison finishes with medium Backfist."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-wall-splat-shadow-hammer",
+			"mbison-corner-crusher-kill-throw",
+			"mbison-medium-link-backfist"
+		]
+	},
+	{
+		"id": "mbison-wall-splat-shadow-hammer",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Wall splat into Shadow Hammer",
+		"summary": "The blocked-DI wall splat allows the medium-punch target follow-up before light Backfist.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact"],
+		"outcomes": ["Conversion"],
+		"notation": "DI > st.MP > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HP",
+				"label": "Shadow Hammer target follow-up",
+				"cue": "Forward heavy punch after standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP",
+				"label": "Light Backfist Combo"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent blocks DI at the wall", "No Psycho Mine at start"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 593.25,
+			"end": 599.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-wall-splat-shadow-hammer/clip.mp4",
+			"poster": "/media/mbison/mbison-wall-splat-shadow-hammer/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-wall-splat-shadow-hammer/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-wall-splat-shadow-hammer/frame-1.jpg",
+					"at": 1.15,
+					"label": "Wall splat",
+					"alt": "M. Bison pushes blocking Ryu into the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-wall-splat-shadow-hammer/frame-2.jpg",
+					"at": 2.05,
+					"label": "Medium starter",
+					"alt": "M. Bison starts the medium-punch target combo."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-wall-splat-shadow-hammer/frame-3.jpg",
+					"at": 2.9,
+					"label": "Shadow Hammer",
+					"alt": "M. Bison connects its forward-heavy-punch follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-wall-splat-shadow-hammer/frame-4.jpg",
+					"at": 4.25,
+					"label": "Light Backfist",
+					"alt": "M. Bison juggles the opponent and plants the mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-corner-counter-di-heavy-link",
+			"mbison-corner-crusher-kill-throw",
+			"mbison-medium-link-backfist"
+		]
+	},
+	{
+		"id": "mbison-dp-punish-heavy-dash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Blocked uppercut: heavy kick and dash",
+		"summary": "Punish Counter heavy kick gives time to dash into crouching heavy and heavy Backfist.",
+		"kind": "combo",
+		"situations": ["Punish"],
+		"outcomes": ["Conversion"],
+		"notation": "PC st.HK > 66 > cr.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "PC st.HK",
+				"label": "Punish-counter standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Backfist Combo"
+			}
+		],
+		"conditions": ["Classic controls", "Ryu OD Shoryuken blocked", "No Psycho Mine at start"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 610.65,
+			"end": 616.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-dp-punish-heavy-dash/clip.mp4",
+			"poster": "/media/mbison/mbison-dp-punish-heavy-dash/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-dp-punish-heavy-dash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-dp-punish-heavy-dash/frame-1.jpg",
+					"at": 0.9,
+					"label": "Blocked reversal",
+					"alt": "M. Bison guards Ryu’s OD Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-dp-punish-heavy-dash/frame-2.jpg",
+					"at": 2.1,
+					"label": "Heavy-kick punish",
+					"alt": "M. Bison punishes its recovery with standing heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-dp-punish-heavy-dash/frame-3.jpg",
+					"at": 3.05,
+					"label": "Dash link",
+					"alt": "M. Bison dashes into crouching heavy punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-dp-punish-heavy-dash/frame-4.jpg",
+					"at": 4.55,
+					"label": "Heavy Backfist",
+					"alt": "M. Bison finishes with the mine-planting special."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-heavy-punish-medium-backfist",
+			"mbison-jabs-light-crusher",
+			"mbison-crusher-dash-throw"
+		]
+	},
+	{
+		"id": "mbison-lights-double-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Lights into double Rush and Level 3",
+		"summary": "Two Drive Rush cancels extend the light starter through heavy kicks and heavy Crusher before Unlimited Psycho Crusher.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Cash out", "Drive Rush"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LP > st.LP > DRC > st.LP > st.MP > DRC > st.HK > b.HK > [4]6HP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-8",
+				"notation": "b.HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-9",
+				"notation": "[4]6HP",
+				"label": "Heavy Psycho Crusher",
+				"cue": "Preserve back charge"
+			},
+			{
+				"id": "step-10",
+				"notation": "SA3",
+				"label": "Unlimited Psycho Crusher",
+				"cue": "236236P"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"No Psycho Mine at start",
+			"Full Drive and three Super stocks"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Two cancel Drive Rushes; reaches burnout",
+			"super": "3 Super stocks"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 625.3,
+			"end": 640.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-15 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-lights-double-rush-level-three/clip.mp4",
+			"poster": "/media/mbison/mbison-lights-double-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-lights-double-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-lights-double-rush-level-three/frame-1.jpg",
+					"at": 0.65,
+					"label": "Light starter",
+					"alt": "M. Bison confirms the two light punches."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-lights-double-rush-level-three/frame-2.jpg",
+					"at": 1.8,
+					"label": "Rush links",
+					"alt": "M. Bison continues the jab and medium-punch extension."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-lights-double-rush-level-three/frame-3.jpg",
+					"at": 3.25,
+					"label": "Heavy kick extension",
+					"alt": "M. Bison links standing and back heavy kicks."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-lights-double-rush-level-three/frame-4.jpg",
+					"at": 4.4,
+					"label": "Crusher cancel",
+					"alt": "M. Bison cancels heavy Psycho Crusher into Level 3."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-lights-double-rush-level-three/frame-5.jpg",
+					"at": 13.5,
+					"label": "Super finish",
+					"alt": "M. Bison finishes the Level 3 cinematic."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-jabs-light-crusher",
+			"mbison-crusher-dash-throw",
+			"mbison-low-lights-backfist"
+		]
+	}
+]

@@ -1,0 +1,1569 @@
+[
+	{
+		"id": "lily-ebios-lights-medium-buster",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Lights into medium Tomahawk Buster",
+		"summary": "Close light confirm ending in a rising knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "5LK > 5LP > 5LP > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623MK",
+				"label": "Medium Tomahawk Buster"
+			}
+		],
+		"conditions": ["Classic controls", "Close-range light starter"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 2.85,
+			"end": 6.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-lights-medium-buster/clip.mp4",
+			"poster": "/media/lily/lily-ebios-lights-medium-buster/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-lights-medium-buster/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-lights-medium-buster/frame-1.jpg",
+					"at": 0.8,
+					"label": "Light starter",
+					"alt": "Lily begins the close standing light chain."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-lights-medium-buster/frame-2.jpg",
+					"at": 1.65,
+					"label": "Third light",
+					"alt": "The third light connects before the special cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-lights-medium-buster/frame-3.jpg",
+					"at": 2.2,
+					"label": "Medium Buster",
+					"alt": "Medium Tomahawk Buster lifts Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-lights-medium-buster/frame-4.jpg",
+					"at": 3.55,
+					"label": "Knockdown",
+					"alt": "Lily recovers as Ryu lands."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-lights-wind-spire",
+			"lily-ebios-heavy-medium-wind",
+			"lily-ebios-counter-heavy-wind"
+		]
+	},
+	{
+		"id": "lily-ebios-lights-wind-spire",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Lights into Wind medium Spire",
+		"summary": "Spend a stored Wind stock to carry the light confirm forward.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown", "Corner carry"],
+		"notation": "5LK > 5LP > 5LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Wind medium Condor Spire",
+				"cue": "Requires one stored Wind stock"
+			}
+		],
+		"conditions": ["Classic controls", "At least one stored Wind stock"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 46.85,
+			"end": 52.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-lights-wind-spire/clip.mp4",
+			"poster": "/media/lily/lily-ebios-lights-wind-spire/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-lights-wind-spire/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-lights-wind-spire/frame-1.jpg",
+					"at": 1.65,
+					"label": "Light starter",
+					"alt": "Lily starts the close light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-lights-wind-spire/frame-2.jpg",
+					"at": 2.15,
+					"label": "Light chain",
+					"alt": "The standing light punches connect."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-lights-wind-spire/frame-3.jpg",
+					"at": 2.75,
+					"label": "Wind Spire",
+					"alt": "Wind-enhanced medium Condor Spire carries Ryu forward."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-lights-wind-spire/frame-4.jpg",
+					"at": 4.85,
+					"label": "Knockdown",
+					"alt": "The enhanced Spire ends in knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-lights-medium-buster",
+			"lily-ebios-heavy-medium-wind",
+			"lily-ebios-counter-heavy-wind"
+		]
+	},
+	{
+		"id": "lily-ebios-heavy-medium-wind",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Crouching heavy into medium Wind",
+		"summary": "Build Wind from a grounded heavy-punch cancel.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Wind stock"],
+		"outcomes": ["Wind stock"],
+		"notation": "2HP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214MP",
+				"label": "Medium Condor Wind"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 256.35,
+			"end": 260.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-heavy-medium-wind/clip.mp4",
+			"poster": "/media/lily/lily-ebios-heavy-medium-wind/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-heavy-medium-wind/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-heavy-medium-wind/frame-1.jpg",
+					"at": 0.75,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch hits the grounded opponent."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-heavy-medium-wind/frame-2.jpg",
+					"at": 1.65,
+					"label": "Condor Wind",
+					"alt": "Medium Condor Wind connects after the cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-heavy-medium-wind/frame-3.jpg",
+					"at": 3.65,
+					"label": "Stock gained",
+					"alt": "The Wind counter shows the gained stock."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-counter-heavy-wind",
+			"lily-ebios-rush-heavy-wind",
+			"lily-ebios-lights-medium-buster"
+		]
+	},
+	{
+		"id": "lily-ebios-counter-heavy-wind",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Counter-hit heavy into heavy Wind",
+		"summary": "Use the demonstrated counter-hit to connect heavy Condor Wind.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Wind stock"],
+		"outcomes": ["Knockdown", "Wind stock"],
+		"notation": "2HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Counter-hit crouching heavy punch",
+				"cue": "Requires Counter Hit"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HP",
+				"label": "Heavy Condor Wind"
+			}
+		],
+		"conditions": ["Classic controls", "Counter-hit crouching heavy punch"],
+		"notes": ["The caption also mentions Punish Counter; this clip demonstrates Counter Hit."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 284.55,
+			"end": 289.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-counter-heavy-wind/clip.mp4",
+			"poster": "/media/lily/lily-ebios-counter-heavy-wind/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-counter-heavy-wind/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-counter-heavy-wind/frame-1.jpg",
+					"at": 1.15,
+					"label": "Counter hit",
+					"alt": "Crouching heavy punch starts the counter-hit route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-counter-heavy-wind/frame-2.jpg",
+					"at": 2.45,
+					"label": "Heavy Wind",
+					"alt": "Heavy Condor Wind follows the counter-hit starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-counter-heavy-wind/frame-3.jpg",
+					"at": 3.85,
+					"label": "Stock result",
+					"alt": "The grounded heavy Wind sequence leaves two stocks in this take."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-heavy-medium-wind",
+			"lily-ebios-rush-heavy-wind",
+			"lily-ebios-lights-medium-buster"
+		]
+	},
+	{
+		"id": "lily-ebios-rush-heavy-wind",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Raw Rush heavy into heavy Wind",
+		"summary": "Spend one Drive bar for the heavy-punch Wind-building route.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush", "Wind stock"],
+		"outcomes": ["Knockdown", "Wind stock"],
+		"notation": "DR > 2HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Condor Wind"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "1 Drive bar",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 290.2,
+			"end": 294.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-rush-heavy-wind/clip.mp4",
+			"poster": "/media/lily/lily-ebios-rush-heavy-wind/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-rush-heavy-wind/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-rush-heavy-wind/frame-1.jpg",
+					"at": 0.45,
+					"label": "Raw Rush",
+					"alt": "Lily approaches with raw Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-rush-heavy-wind/frame-2.jpg",
+					"at": 1.15,
+					"label": "Rush heavy",
+					"alt": "Drive Rush crouching heavy punch connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-rush-heavy-wind/frame-3.jpg",
+					"at": 2.3,
+					"label": "Heavy Wind",
+					"alt": "Heavy Condor Wind follows."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-rush-heavy-wind/frame-4.jpg",
+					"at": 4.0,
+					"label": "Stock result",
+					"alt": "The Wind counter records the result of the grounded sequence."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-heavy-medium-wind",
+			"lily-ebios-counter-heavy-wind",
+			"lily-ebios-rush-cancel-light-spire"
+		]
+	},
+	{
+		"id": "lily-ebios-heavy-wind-spire",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Heavy into Wind heavy Spire",
+		"summary": "Convert crouching heavy punch into the enhanced heavy Spire knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm"],
+		"outcomes": ["Knockdown", "Corner carry"],
+		"notation": "2HP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "Wind heavy Condor Spire",
+				"cue": "Requires one stored Wind stock"
+			}
+		],
+		"conditions": ["Classic controls", "At least one stored Wind stock"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 295.6,
+			"end": 300.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-heavy-wind-spire/clip.mp4",
+			"poster": "/media/lily/lily-ebios-heavy-wind-spire/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-heavy-wind-spire/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-heavy-wind-spire/frame-1.jpg",
+					"at": 0.75,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-heavy-wind-spire/frame-2.jpg",
+					"at": 2.7,
+					"label": "Wind Spire",
+					"alt": "The Wind-enhanced heavy Spire launches forward."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-heavy-wind-spire/frame-3.jpg",
+					"at": 3.7,
+					"label": "Knockdown",
+					"alt": "Lily lands after the enhanced Spire."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-lights-medium-buster",
+			"lily-ebios-lights-wind-spire",
+			"lily-ebios-heavy-medium-wind"
+		]
+	},
+	{
+		"id": "lily-ebios-impact-heavy-wind",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Impact crumple into heavy Wind",
+		"summary": "Follow the Punish Counter crumple with jumping heavy kick, then land into forward heavy punch.",
+		"kind": "combo",
+		"situations": ["Drive Impact", "Punish counter", "Wind stock"],
+		"outcomes": ["Knockdown", "Wind stock"],
+		"notation": "DI > j.HK > 6HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Punish Counter Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick",
+				"cue": "Jump during the crumple; land before forward heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Condor Wind"
+			}
+		],
+		"conditions": ["Classic controls", "Drive Impact Punish Counter crumple"],
+		"notes": [],
+		"resources": {
+			"drive": "1 Drive bar",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 672.55,
+			"end": 680.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-impact-heavy-wind/clip.mp4",
+			"poster": "/media/lily/lily-ebios-impact-heavy-wind/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-impact-heavy-wind/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-impact-heavy-wind/frame-1.jpg",
+					"at": 1.45,
+					"label": "Drive Impact",
+					"alt": "Drive Impact catches the recorded action."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-impact-heavy-wind/frame-2.jpg",
+					"at": 2.95,
+					"label": "Crumple",
+					"alt": "The Punish Counter crumple opens the conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-impact-heavy-wind/frame-3.jpg",
+					"at": 4.2,
+					"label": "Jumping heavy kick",
+					"alt": "Jumping heavy kick catches the crumpled opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-impact-heavy-wind/frame-4.jpg",
+					"at": 4.65,
+					"label": "Forward heavy",
+					"alt": "Forward heavy punch continues the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/lily/lily-ebios-impact-heavy-wind/frame-5.jpg",
+					"at": 5.4,
+					"label": "Heavy Wind",
+					"alt": "Heavy Condor Wind adds the Wind-building ender."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/lily/lily-ebios-impact-heavy-wind/frame-6.jpg",
+					"at": 7.45,
+					"label": "Result",
+					"alt": "Lily recovers with a Wind stock gained."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-impact-od-spire-sa1",
+			"lily-ebios-heavy-medium-wind",
+			"lily-ebios-counter-heavy-wind"
+		]
+	},
+	{
+		"id": "lily-ebios-impact-od-spire-sa1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Impact crumple into OD Spire and SA1",
+		"summary": "An OD Spire juggle spends one Super bar after the crumple.",
+		"kind": "combo",
+		"situations": ["Drive Impact", "Punish counter", "Super conversion"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > j.HK > 6HP > 236LK+MK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Punish Counter Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick",
+				"cue": "Jump during the crumple; land before forward heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK+MK",
+				"label": "OD Condor Spire"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "Level 1 Super"
+			}
+		],
+		"conditions": ["Classic controls", "Drive Impact Punish Counter crumple"],
+		"notes": [],
+		"resources": {
+			"drive": "3 Drive bars",
+			"super": "1 Super bar"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 692.55,
+			"end": 704.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-impact-od-spire-sa1/clip.mp4",
+			"poster": "/media/lily/lily-ebios-impact-od-spire-sa1/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-impact-od-spire-sa1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-impact-od-spire-sa1/frame-1.jpg",
+					"at": 1.75,
+					"label": "Impact",
+					"alt": "Drive Impact lands as a Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-impact-od-spire-sa1/frame-2.jpg",
+					"at": 4.4,
+					"label": "Jumping heavy kick",
+					"alt": "Jumping heavy kick starts the juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-impact-od-spire-sa1/frame-3.jpg",
+					"at": 4.85,
+					"label": "Forward heavy",
+					"alt": "Forward heavy punch continues the route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-impact-od-spire-sa1/frame-4.jpg",
+					"at": 5.45,
+					"label": "OD Spire",
+					"alt": "OD Condor Spire juggles Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/lily/lily-ebios-impact-od-spire-sa1/frame-5.jpg",
+					"at": 6.45,
+					"label": "SA1",
+					"alt": "The Level 1 Super activates."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/lily/lily-ebios-impact-od-spire-sa1/frame-6.jpg",
+					"at": 10.45,
+					"label": "Knockdown",
+					"alt": "The Super finishes the demonstrated route."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-impact-heavy-wind",
+			"lily-ebios-wall-wind-spire-sa1",
+			"lily-ebios-lights-medium-buster"
+		]
+	},
+	{
+		"id": "lily-ebios-wall-wind-spire-sa1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Wall splat into Wind Spire and SA1",
+		"summary": "A blocked Impact at the corner sets up the enhanced Spire juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Super conversion"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 4HP > 236HK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Blocked Drive Impact",
+				"cue": "Requires a corner wall splat"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "Wind heavy Condor Spire"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Level 1 Super"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent near corner wall",
+			"Blocked Drive Impact wall splat, not burnout stun",
+			"At least one stored Wind stock"
+		],
+		"notes": ["The overlay offers SA1 or SA2; only the performed SA1 branch is included."],
+		"resources": {
+			"drive": "1 Drive bar",
+			"super": "1 Super bar"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 753.7,
+			"end": 763.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-wall-wind-spire-sa1/clip.mp4",
+			"poster": "/media/lily/lily-ebios-wall-wind-spire-sa1/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-wall-wind-spire-sa1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-wall-wind-spire-sa1/frame-1.jpg",
+					"at": 0.9,
+					"label": "Blocked Impact",
+					"alt": "Ryu blocks Drive Impact at the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-wall-wind-spire-sa1/frame-2.jpg",
+					"at": 1.7,
+					"label": "Wall splat",
+					"alt": "The wall splat opens the back-heavy follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-wall-wind-spire-sa1/frame-3.jpg",
+					"at": 2.4,
+					"label": "Back heavy",
+					"alt": "Back heavy punch launches from the wall splat."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-wall-wind-spire-sa1/frame-4.jpg",
+					"at": 3.3,
+					"label": "Wind Spire",
+					"alt": "Wind-enhanced heavy Spire juggles Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/lily/lily-ebios-wall-wind-spire-sa1/frame-5.jpg",
+					"at": 4.3,
+					"label": "SA1",
+					"alt": "Lily activates the one-bar Super branch."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/lily/lily-ebios-wall-wind-spire-sa1/frame-6.jpg",
+					"at": 8.3,
+					"label": "Knockdown",
+					"alt": "The Level 1 route finishes at the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-impact-od-spire-sa1",
+			"lily-ebios-impact-heavy-wind",
+			"lily-ebios-corner-throw-rush-throw"
+		]
+	},
+	{
+		"id": "lily-ebios-rush-cancel-light-spire",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Rush cancel into light Spire",
+		"summary": "Link back heavy punch into standing medium kick before the light Spire cancel.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HP > DRC > 4HP > 5MK > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-3",
+				"notation": "4HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "5MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "Light Condor Spire"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "3 Drive bars",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 369.9,
+			"end": 375.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-rush-cancel-light-spire/clip.mp4",
+			"poster": "/media/lily/lily-ebios-rush-cancel-light-spire/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-rush-cancel-light-spire/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-rush-cancel-light-spire/frame-1.jpg",
+					"at": 1.0,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch connects before the Rush cancel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-rush-cancel-light-spire/frame-2.jpg",
+					"at": 1.75,
+					"label": "Rush cancel",
+					"alt": "Lily cancels the normal into Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-rush-cancel-light-spire/frame-3.jpg",
+					"at": 2.1,
+					"label": "Back heavy",
+					"alt": "Back heavy punch lands from the Rush."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-rush-cancel-light-spire/frame-4.jpg",
+					"at": 2.6,
+					"label": "Medium kick",
+					"alt": "Standing medium kick continues the route."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/lily/lily-ebios-rush-cancel-light-spire/frame-5.jpg",
+					"at": 3.1,
+					"label": "Light Spire",
+					"alt": "Ordinary light Condor Spire ends the combo."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/lily/lily-ebios-rush-cancel-light-spire/frame-6.jpg",
+					"at": 4.7,
+					"label": "Knockdown",
+					"alt": "Lily recovers after the light Spire."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-rush-heavy-wind",
+			"lily-ebios-lights-medium-buster",
+			"lily-ebios-lights-wind-spire"
+		]
+	},
+	{
+		"id": "lily-ebios-buster-rush-typhoon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "After medium Buster: Rush into Typhoon",
+		"summary": "Approach the rising-knockdown wakeup with a medium command throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Command throw"],
+		"outcomes": ["Hard knockdown"],
+		"notation": "DR > 360MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "360MP",
+				"label": "Medium Mexican Typhoon",
+				"cue": "Time the throw after the knockdown"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Start after the light-chain medium Tomahawk Buster knockdown shown"
+		],
+		"notes": [
+			"The setup starts after the combo; its badge counts only raw Drive Rush. The caption offers medium or OD Typhoon; this take uses medium."
+		],
+		"resources": {
+			"drive": "1 Drive bar",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 18.85,
+			"end": 23.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-buster-rush-typhoon/clip.mp4",
+			"poster": "/media/lily/lily-ebios-buster-rush-typhoon/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-buster-rush-typhoon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-buster-rush-typhoon/frame-1.jpg",
+					"at": 0.15,
+					"label": "Buster knockdown",
+					"alt": "The prerequisite medium Tomahawk Buster has knocked Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-buster-rush-typhoon/frame-2.jpg",
+					"at": 0.65,
+					"label": "Raw Rush",
+					"alt": "Lily closes the distance with raw Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-buster-rush-typhoon/frame-3.jpg",
+					"at": 1.15,
+					"label": "Command throw",
+					"alt": "The input display shows medium Mexican Typhoon."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-buster-rush-typhoon/frame-4.jpg",
+					"at": 3.25,
+					"label": "Throw landing",
+					"alt": "The command throw finishes in hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-heavy-spire-dashes-typhoon",
+			"lily-ebios-wind-spire-jump-throw",
+			"lily-ebios-lights-medium-buster"
+		]
+	},
+	{
+		"id": "lily-ebios-wind-spire-jump-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "After Wind medium Spire: jump into throw",
+		"summary": "Use the forward jump as the shown timing step before a grounded normal throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw setup"],
+		"outcomes": ["Knockdown"],
+		"notation": "9 > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump",
+				"cue": "Empty jump; no aerial attack"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "Normal throw",
+				"cue": "Throw after landing"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Start after the light-chain Wind medium Condor Spire knockdown shown"
+		],
+		"notes": [
+			"The source prints +49F for this knockdown and +4F after the jump. These are dated observations, not a safe-jump or guaranteed-throw claim."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 63.15,
+			"end": 67.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-wind-spire-jump-throw/clip.mp4",
+			"poster": "/media/lily/lily-ebios-wind-spire-jump-throw/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-wind-spire-jump-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-wind-spire-jump-throw/frame-1.jpg",
+					"at": 0.1,
+					"label": "Spire knockdown",
+					"alt": "The prerequisite Wind medium Spire knocks Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-wind-spire-jump-throw/frame-2.jpg",
+					"at": 0.4,
+					"label": "Empty jump",
+					"alt": "Lily jumps forward without attacking."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-wind-spire-jump-throw/frame-3.jpg",
+					"at": 1.35,
+					"label": "Grounded throw",
+					"alt": "Lily lands and begins a normal throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-wind-spire-jump-throw/frame-4.jpg",
+					"at": 2.85,
+					"label": "Throw result",
+					"alt": "The normal throw knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-buster-rush-typhoon",
+			"lily-ebios-heavy-spire-dashes-typhoon",
+			"lily-ebios-corner-throw-rush-throw"
+		]
+	},
+	{
+		"id": "lily-ebios-heavy-spire-dashes-typhoon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "After Wind heavy Spire: two dashes into Typhoon",
+		"summary": "Two forward dashes and a short delay precede the heavy command throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Command throw"],
+		"outcomes": ["Hard knockdown"],
+		"notation": "66 > 66 > 360HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "360HP",
+				"label": "Heavy Mexican Typhoon",
+				"cue": "Delay after the second dash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Start after crouching heavy punch into Wind heavy Condor Spire"
+		],
+		"notes": [
+			"The source prints +52F for the prerequisite and +10F after two dashes. Reproduce the shown delay; the dummy’s response can be counter-hit by the throw."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 310.05,
+			"end": 314.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-heavy-spire-dashes-typhoon/clip.mp4",
+			"poster": "/media/lily/lily-ebios-heavy-spire-dashes-typhoon/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-heavy-spire-dashes-typhoon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-heavy-spire-dashes-typhoon/frame-1.jpg",
+					"at": 0.2,
+					"label": "Spire knockdown",
+					"alt": "The prerequisite Wind heavy Spire sends Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-heavy-spire-dashes-typhoon/frame-2.jpg",
+					"at": 0.6,
+					"label": "Two dashes",
+					"alt": "Lily closes in with two normal forward dashes."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-heavy-spire-dashes-typhoon/frame-3.jpg",
+					"at": 1.15,
+					"label": "Delayed throw",
+					"alt": "Heavy Mexican Typhoon catches the recorded wakeup action."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-heavy-spire-dashes-typhoon/frame-4.jpg",
+					"at": 2.95,
+					"label": "Throw landing",
+					"alt": "The command throw lands for hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-buster-rush-typhoon",
+			"lily-ebios-wind-spire-jump-throw",
+			"lily-ebios-lights-medium-buster"
+		]
+	},
+	{
+		"id": "lily-ebios-corner-throw-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Corner throw into Rush throw",
+		"summary": "Follow the corner forward-throw knockdown with raw Rush and another normal throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw setup"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": ["Classic controls", "Start after the corner forward normal throw shown"],
+		"notes": ["This catches the recorded wakeup action; it is not a guaranteed throw loop."],
+		"resources": {
+			"drive": "1 Drive bar",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 635.65,
+			"end": 639.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-corner-throw-rush-throw/clip.mp4",
+			"poster": "/media/lily/lily-ebios-corner-throw-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-corner-throw-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-corner-throw-rush-throw/frame-1.jpg",
+					"at": 0.35,
+					"label": "Normal-throw knockdown",
+					"alt": "The prerequisite corner forward throw has knocked Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-corner-throw-rush-throw/frame-2.jpg",
+					"at": 0.85,
+					"label": "Raw Rush",
+					"alt": "Lily Rushes in after the normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-corner-throw-rush-throw/frame-3.jpg",
+					"at": 1.35,
+					"label": "Normal throw",
+					"alt": "Lily begins the second normal throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-corner-throw-rush-throw/frame-4.jpg",
+					"at": 3.45,
+					"label": "Throw result",
+					"alt": "The command throw ends the follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-wind-spire-jump-throw",
+			"lily-ebios-wall-wind-spire-sa1",
+			"lily-ebios-buster-rush-typhoon"
+		]
+	},
+	{
+		"id": "lily-ebios-anti-air-heavy-wind",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Anti-air heavy into heavy Wind",
+		"summary": "The shown forward jump is caught by crouching heavy punch and heavy Condor Wind.",
+		"kind": "response",
+		"situations": ["Anti-air", "Wind stock"],
+		"outcomes": ["Wind stock"],
+		"notation": "2HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Anti-air crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HP",
+				"label": "Heavy Condor Wind"
+			}
+		],
+		"conditions": ["Classic controls", "Match the demonstrated forward-jump spacing"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 261.1,
+			"end": 263.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-anti-air-heavy-wind/clip.mp4",
+			"poster": "/media/lily/lily-ebios-anti-air-heavy-wind/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-anti-air-heavy-wind/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-anti-air-heavy-wind/frame-1.jpg",
+					"at": 0.5,
+					"label": "Jump approach",
+					"alt": "Ryu approaches with the recorded forward jump."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-anti-air-heavy-wind/frame-2.jpg",
+					"at": 1.1,
+					"label": "Anti-air heavy",
+					"alt": "Crouching heavy punch catches the jump."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-anti-air-heavy-wind/frame-3.jpg",
+					"at": 1.9,
+					"label": "Heavy Wind",
+					"alt": "Heavy Condor Wind connects in the air juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-anti-air-heavy-wind/frame-4.jpg",
+					"at": 2.4,
+					"label": "Stock result",
+					"alt": "Lily gains a Wind stock from the shown air follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-heavy-medium-wind",
+			"lily-ebios-counter-heavy-wind",
+			"lily-ebios-rush-heavy-wind"
+		]
+	},
+	{
+		"id": "lily-ebios-blocked-drive-reversal-typhoon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "lily"
+			}
+		],
+		"title": "Blocked Drive Reversal into heavy Typhoon",
+		"summary": "At the demonstrated close spacing, guard Ryu’s Drive Reversal and command throw.",
+		"kind": "response",
+		"situations": ["Punish", "Drive Reversal", "Command throw"],
+		"outcomes": ["Hard knockdown"],
+		"notation": "360HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "360HP",
+				"label": "Heavy Mexican Typhoon",
+				"cue": "After guarding the close Drive Reversal"
+			}
+		],
+		"conditions": ["Classic controls", "Guard Ryu’s Drive Reversal at the close spacing shown"],
+		"notes": [
+			"Spacing and matchup are part of this example; do not infer that every guarded Drive Reversal can be command-thrown."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-lily-classic-2026",
+			"title": "SF6 Classic Lily Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=vkfzS1OOP4w",
+			"published": "2026-04-24",
+			"start": 796.1,
+			"end": 801.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/lily/lily-ebios-blocked-drive-reversal-typhoon/clip.mp4",
+			"poster": "/media/lily/lily-ebios-blocked-drive-reversal-typhoon/frame-1.jpg",
+			"descriptionTrack": "/media/lily/lily-ebios-blocked-drive-reversal-typhoon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/lily/lily-ebios-blocked-drive-reversal-typhoon/frame-1.jpg",
+					"at": 0.4,
+					"label": "Reversal approach",
+					"alt": "Ryu starts the recorded Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/lily/lily-ebios-blocked-drive-reversal-typhoon/frame-2.jpg",
+					"at": 0.9,
+					"label": "Guard",
+					"alt": "Lily guards the Drive Reversal at close range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/lily/lily-ebios-blocked-drive-reversal-typhoon/frame-3.jpg",
+					"at": 1.9,
+					"label": "Punish throw",
+					"alt": "Heavy Mexican Typhoon catches the recovery as a Punish Counter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/lily/lily-ebios-blocked-drive-reversal-typhoon/frame-4.jpg",
+					"at": 4.4,
+					"label": "Knockdown",
+					"alt": "The command throw leaves Ryu knocked down."
+				}
+			]
+		},
+		"relatedIds": [
+			"lily-ebios-buster-rush-typhoon",
+			"lily-ebios-heavy-spire-dashes-typhoon",
+			"lily-ebios-lights-medium-buster"
+		]
+	}
+]

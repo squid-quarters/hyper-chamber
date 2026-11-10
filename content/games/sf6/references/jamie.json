@@ -1,0 +1,1593 @@
+[
+	{
+		"id": "jamie-ebios-lights-arrow-manual-drink",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Two jabs and light kick: Arrow Kick into a drink",
+		"summary": "Use the heavy Arrow Kick knockdown, then take the manual drink shown midscreen.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Drink gain"],
+		"outcomes": ["Knockdown", "Drink gained"],
+		"notation": "2LP > 2LP > 5LK > 623HK > 22P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Arrow Kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "22P",
+				"label": "Manual drink"
+			}
+		],
+		"conditions": ["Classic controls", "Drink level 1 in the selected take"],
+		"notes": [
+			"The source explicitly cautions against taking this manual drink in the corner. Do not carry over the no-drink corner pressure timing."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 0.7,
+			"end": 5.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-lights-arrow-manual-drink/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-lights-arrow-manual-drink/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-lights-arrow-manual-drink/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-lights-arrow-manual-drink/frame-1.jpg",
+					"at": 0.9,
+					"label": "Light confirm",
+					"alt": "Crouching jabs begin the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-lights-arrow-manual-drink/frame-2.jpg",
+					"at": 1.3,
+					"label": "Light-kick cancel",
+					"alt": "Standing light kick cancels into heavy Arrow Kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-lights-arrow-manual-drink/frame-3.jpg",
+					"at": 2.3,
+					"label": "Heavy Arrow Kick",
+					"alt": "The heavy special knocks Ken down."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-lights-arrow-manual-drink/frame-4.jpg",
+					"at": 4.05,
+					"label": "Manual drink",
+					"alt": "Jamie drinks after the knockdown and raises the displayed level to two."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-lights-target-light-arrow",
+			"jamie-ebios-medium-arrow-drink",
+			"jamie-ebios-low-rush-jump-sweep-drink"
+		]
+	},
+	{
+		"id": "jamie-ebios-corner-lights-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Corner light confirm: heavy Arrow Kick",
+		"summary": "Finish the close corner light confirm with heavy Arrow Kick and keep the no-drink knockdown.",
+		"kind": "combo",
+		"situations": ["Corner", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2LP > 5LK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Arrow Kick"
+			}
+		],
+		"conditions": ["Classic controls", "Drink level 1 in the selected take"],
+		"notes": [
+			"This excerpt stops before the whiffed crouching-heavy frame kill. No manual drink is added."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 7.05,
+			"end": 10.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-corner-lights-arrow/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-corner-lights-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-corner-lights-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-corner-lights-arrow/frame-1.jpg",
+					"at": 0.6,
+					"label": "Light confirm",
+					"alt": "The crouching-jab chain starts at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-corner-lights-arrow/frame-2.jpg",
+					"at": 1.05,
+					"label": "Light-kick cancel",
+					"alt": "Standing light kick leads into the heavy special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-corner-lights-arrow/frame-3.jpg",
+					"at": 1.95,
+					"label": "Heavy Arrow Kick",
+					"alt": "Heavy Arrow Kick finishes the corner confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-lights-arrow-manual-drink",
+			"jamie-ebios-corner-arrow-frame-kill-throw",
+			"jamie-ebios-lights-target-light-arrow"
+		]
+	},
+	{
+		"id": "jamie-ebios-corner-arrow-frame-kill-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Corner Arrow knockdown: whiff heavy into throw",
+		"summary": "Whiff crouching heavy after the heavy-Arrow knockdown, then attempt the forward throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Frame kill", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HP whiff > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP whiff",
+				"label": "Crouching-heavy frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drink level 1 in the selected take",
+			"The shown two-jab, light-kick, heavy-Arrow corner knockdown"
+		],
+		"notes": [
+			"The source prints +4F after the whiffed heavy. This is a dated timing observation for the take, not a guaranteed throw against every defensive choice."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 15.65,
+			"end": 20.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-corner-arrow-frame-kill-throw/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-corner-arrow-frame-kill-throw/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-corner-arrow-frame-kill-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-corner-arrow-frame-kill-throw/frame-1.jpg",
+					"at": 0.6,
+					"label": "Heavy frame kill",
+					"alt": "Jamie whiffs crouching heavy punch after the special knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-corner-arrow-frame-kill-throw/frame-2.jpg",
+					"at": 1.5,
+					"label": "Throw attempt",
+					"alt": "Jamie attempts the forward throw as Ken recovers."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-corner-arrow-frame-kill-throw/frame-3.jpg",
+					"at": 2.35,
+					"label": "Throw animation",
+					"alt": "The recorded throw catches Ken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-corner-arrow-frame-kill-throw/frame-4.jpg",
+					"at": 3.35,
+					"label": "Throw knockdown",
+					"alt": "Ken returns to the floor beside the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-corner-lights-arrow",
+			"jamie-ebios-corner-medium-od-palm-sweep",
+			"jamie-ebios-corner-counter-di-od-palm-sweep"
+		]
+	},
+	{
+		"id": "jamie-ebios-lights-target-light-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Level-1 light target into light Arrow Kick",
+		"summary": "Extend two crouching jabs with the unlocked standing-light target sequence and light Arrow Kick.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2LP > 5LP > ~LK > ~MP > 623LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "~LK",
+				"label": "Light target kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "~MP",
+				"label": "Medium target finish"
+			},
+			{
+				"id": "step-6",
+				"notation": "623LK",
+				"label": "Light Arrow Kick"
+			}
+		],
+		"conditions": ["Classic controls", "Drink level 1 or higher for the light target route"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 84.15,
+			"end": 89.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-lights-target-light-arrow/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-lights-target-light-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-lights-target-light-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-lights-target-light-arrow/frame-1.jpg",
+					"at": 0.85,
+					"label": "Crouching lights",
+					"alt": "Two crouching jabs begin the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-lights-target-light-arrow/frame-2.jpg",
+					"at": 1.55,
+					"label": "Light target",
+					"alt": "Standing light punch continues into the kick and medium target presses."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-lights-target-light-arrow/frame-3.jpg",
+					"at": 2.35,
+					"label": "Target finish",
+					"alt": "The medium target continuation leads into the special."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-lights-target-light-arrow/frame-4.jpg",
+					"at": 2.85,
+					"label": "Light Arrow Kick",
+					"alt": "Light Arrow Kick finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-lights-arrow-manual-drink",
+			"jamie-ebios-corner-lights-arrow",
+			"jamie-ebios-medium-arrow-drink"
+		]
+	},
+	{
+		"id": "jamie-ebios-medium-arrow-drink",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Medium confirm: heavy Arrow Kick into a drink",
+		"summary": "Link crouching medium punch from standing medium and finish with heavy Arrow Kick before drinking.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Drink gain"],
+		"outcomes": ["Knockdown", "Drink gained"],
+		"notation": "5MP > 2MP > 623HK > 22P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HK",
+				"label": "Heavy Arrow Kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "22P",
+				"label": "Manual drink"
+			}
+		],
+		"conditions": ["Classic controls", "Drink level 1 in the selected take"],
+		"notes": ["The manual drink trades away the no-drink knockdown timing."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 130.15,
+			"end": 135.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-medium-arrow-drink/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-medium-arrow-drink/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-medium-arrow-drink/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-medium-arrow-drink/frame-1.jpg",
+					"at": 0.85,
+					"label": "Medium starter",
+					"alt": "Standing medium punch starts the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-medium-arrow-drink/frame-2.jpg",
+					"at": 1.35,
+					"label": "Medium link",
+					"alt": "Crouching medium punch links into heavy Arrow Kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-medium-arrow-drink/frame-3.jpg",
+					"at": 2.35,
+					"label": "Heavy Arrow Kick",
+					"alt": "The special knocks Ken down."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-medium-arrow-drink/frame-4.jpg",
+					"at": 3.85,
+					"label": "Manual drink",
+					"alt": "Jamie takes the manual drink after the midscreen finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-lights-arrow-manual-drink",
+			"jamie-ebios-low-rush-jump-sweep-drink",
+			"jamie-ebios-od-dive-sweep-target"
+		]
+	},
+	{
+		"id": "jamie-ebios-low-rush-jump-sweep-drink",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Low Rush launcher: jumping heavy into sweep target",
+		"summary": "Jump-cancel the two-kick launcher and delay the grounded pickup before the drinking sweep route.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Juggle extension", "Drink gain"],
+		"outcomes": ["Knockdown", "Drink gained"],
+		"notation": "2MK > DRC > 2KK > Jump cancel > j.HK > Delay > 5HP > 2HK > ~HK > ~P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2KK",
+				"label": "Down plus two-kick launcher"
+			},
+			{
+				"id": "step-4",
+				"notation": "Jump cancel",
+				"label": "Forward jump cancel"
+			},
+			{
+				"id": "step-5",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "Delay",
+				"label": "Delay the landing pickup"
+			},
+			{
+				"id": "step-7",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "2HK",
+				"label": "Crouching heavy kick"
+			},
+			{
+				"id": "step-9",
+				"notation": "~HK",
+				"label": "Sweep target continuation"
+			},
+			{
+				"id": "step-10",
+				"notation": "~P",
+				"label": "Drinking target finish"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drink level 1 in the selected take",
+			"Match the jump-cancel and delayed heavy pickup"
+		],
+		"notes": [
+			"The caption also offers standing medium kick. This selected take uses crouching medium kick."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 136.2,
+			"end": 143.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-low-rush-jump-sweep-drink/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-low-rush-jump-sweep-drink/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-low-rush-jump-sweep-drink/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-low-rush-jump-sweep-drink/frame-1.jpg",
+					"at": 0.8,
+					"label": "Low Rush",
+					"alt": "The low kick cancels into Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-low-rush-jump-sweep-drink/frame-2.jpg",
+					"at": 1.8,
+					"label": "Jump-cancel launcher",
+					"alt": "The two-kick launcher leads into the forward jump."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-low-rush-jump-sweep-drink/frame-3.jpg",
+					"at": 2.2,
+					"label": "Air heavy",
+					"alt": "Jumping heavy kick continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-low-rush-jump-sweep-drink/frame-4.jpg",
+					"at": 3.4,
+					"label": "Delayed pickup",
+					"alt": "Jamie delays the standing-heavy pickup after landing."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jamie/jamie-ebios-low-rush-jump-sweep-drink/frame-5.jpg",
+					"at": 5.8,
+					"label": "Sweep target finish",
+					"alt": "The sweep target ends with the drinking continuation."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-low-double-rush-level-three-extension",
+			"jamie-ebios-od-dive-sweep-target",
+			"jamie-ebios-lights-arrow-manual-drink"
+		]
+	},
+	{
+		"id": "jamie-ebios-od-dive-sweep-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "OD dive kick: delayed sweep target into a drink",
+		"summary": "Land the airborne OD dive kick and delay the sweep target pickup.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Dive kick", "Juggle extension", "Drink gain"],
+		"outcomes": ["Knockdown", "Drink gained"],
+		"notation": "j.214KK > Delay > 2HK > ~HK > ~P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "j.214KK",
+				"label": "OD Luminous Dive Kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Delay the sweep pickup"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HK",
+				"label": "Crouching heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HK",
+				"label": "Sweep target continuation"
+			},
+			{
+				"id": "step-5",
+				"notation": "~P",
+				"label": "Drinking target finish"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drink level 1 or higher for Luminous Dive Kick",
+			"Match the airborne approach height and delay"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "OD Luminous Dive Kick",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 144.15,
+			"end": 149.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-od-dive-sweep-target/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-od-dive-sweep-target/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-od-dive-sweep-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-od-dive-sweep-target/frame-1.jpg",
+					"at": 0.85,
+					"label": "OD dive kick",
+					"alt": "The airborne OD dive kick connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-od-dive-sweep-target/frame-2.jpg",
+					"at": 1.85,
+					"label": "Sweep pickup",
+					"alt": "The delayed crouching heavy kick picks up Ken."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-od-dive-sweep-target/frame-3.jpg",
+					"at": 2.85,
+					"label": "Target continuation",
+					"alt": "The heavy-kick target continuation extends the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-od-dive-sweep-target/frame-4.jpg",
+					"at": 3.85,
+					"label": "Drinking finish",
+					"alt": "The final target press completes the drinking knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-low-rush-jump-sweep-drink",
+			"jamie-ebios-lights-arrow-manual-drink",
+			"jamie-ebios-medium-arrow-drink"
+		]
+	},
+	{
+		"id": "jamie-ebios-corner-medium-od-palm-sweep",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Corner medium confirm: OD palm into sweep target",
+		"summary": "Use OD Swagger Step after the medium confirm, then juggle through the drinking sweep target.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Juggle extension", "Drink gain"],
+		"outcomes": ["Knockdown", "Drink gained"],
+		"notation": "5MP > 2MP > 214PP > 2HK > ~HK > ~P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214PP",
+				"label": "OD Swagger Step"
+			},
+			{
+				"id": "step-4",
+				"notation": "2HK",
+				"label": "Crouching heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "~HK",
+				"label": "Sweep target continuation"
+			},
+			{
+				"id": "step-6",
+				"notation": "~P",
+				"label": "Drinking target finish"
+			}
+		],
+		"conditions": ["Classic controls", "Drink level 1 in the selected take"],
+		"notes": [],
+		"resources": {
+			"drive": "OD Swagger Step",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 150.15,
+			"end": 155.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-corner-medium-od-palm-sweep/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-corner-medium-od-palm-sweep/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-corner-medium-od-palm-sweep/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-corner-medium-od-palm-sweep/frame-1.jpg",
+					"at": 0.85,
+					"label": "Medium confirm",
+					"alt": "Standing medium links into crouching medium punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-corner-medium-od-palm-sweep/frame-2.jpg",
+					"at": 1.85,
+					"label": "OD palm",
+					"alt": "OD Swagger Step launches beside the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-corner-medium-od-palm-sweep/frame-3.jpg",
+					"at": 2.85,
+					"label": "Sweep pickup",
+					"alt": "Crouching heavy kick continues the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-corner-medium-od-palm-sweep/frame-4.jpg",
+					"at": 3.85,
+					"label": "Drinking finish",
+					"alt": "The target route ends with the drinking continuation."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-corner-counter-di-od-palm-sweep",
+			"jamie-ebios-blocked-di-wall-light-heavy-sweep",
+			"jamie-ebios-medium-arrow-drink"
+		]
+	},
+	{
+		"id": "jamie-ebios-drive-reversal-heavy-lights-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Drive Reversal punish: heavy into light links and Arrow",
+		"summary": "Guard the recorded Drive Reversal and convert heavy-punch Punish Counter through the light chain.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Reversal punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HP > 5LK > 2LP > 5LK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Arrow Kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drink level 1 in the selected take",
+			"Guard the shown Drive Reversal in heavy-punch range"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 187.15,
+			"end": 193.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-drive-reversal-heavy-lights-arrow/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-drive-reversal-heavy-lights-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-drive-reversal-heavy-lights-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-drive-reversal-heavy-lights-arrow/frame-1.jpg",
+					"at": 0.85,
+					"label": "Guard Drive Reversal",
+					"alt": "Jamie guards Ken’s Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-drive-reversal-heavy-lights-arrow/frame-2.jpg",
+					"at": 1.85,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch starts the Punish Counter conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-drive-reversal-heavy-lights-arrow/frame-3.jpg",
+					"at": 2.85,
+					"label": "Light links",
+					"alt": "The light-kick and crouching-jab links continue the punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-drive-reversal-heavy-lights-arrow/frame-4.jpg",
+					"at": 4.35,
+					"label": "Heavy Arrow Kick",
+					"alt": "Heavy Arrow Kick completes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-blocked-dp-heavy-dash-arrow-drink",
+			"jamie-ebios-counter-di-heavy-palm",
+			"jamie-ebios-lights-arrow-manual-drink"
+		]
+	},
+	{
+		"id": "jamie-ebios-blocked-dp-heavy-dash-arrow-drink",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Blocked reversal: heavy-kick launch into dash and Arrow",
+		"summary": "Punish Ken’s guarded OD Shoryuken with heavy kick, dash pickup and heavy Arrow Kick before drinking.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Reversal punish", "Punish counter", "Drink gain"],
+		"outcomes": ["Knockdown", "Drink gained"],
+		"notation": "5HK > 66 > 2HP > 623HK > 22P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Arrow Kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "22P",
+				"label": "Manual drink"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drink level 1 in the selected take",
+			"Blocked Ken OD Shoryuken"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 194.65,
+			"end": 202.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-blocked-dp-heavy-dash-arrow-drink/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-blocked-dp-heavy-dash-arrow-drink/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-blocked-dp-heavy-dash-arrow-drink/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-blocked-dp-heavy-dash-arrow-drink/frame-1.jpg",
+					"at": 1.35,
+					"label": "Guarded OD reversal",
+					"alt": "Jamie guards Ken’s OD Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-blocked-dp-heavy-dash-arrow-drink/frame-2.jpg",
+					"at": 3.15,
+					"label": "Heavy-kick punish",
+					"alt": "Standing heavy kick punishes the landing recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-blocked-dp-heavy-dash-arrow-drink/frame-3.jpg",
+					"at": 4.35,
+					"label": "Dash pickup",
+					"alt": "The dash brings crouching heavy punch into juggle range."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-blocked-dp-heavy-dash-arrow-drink/frame-4.jpg",
+					"at": 5.35,
+					"label": "Heavy Arrow Kick",
+					"alt": "Heavy Arrow Kick completes the airborne conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jamie/jamie-ebios-blocked-dp-heavy-dash-arrow-drink/frame-5.jpg",
+					"at": 6.85,
+					"label": "Drink",
+					"alt": "Jamie takes the manual drink afterward."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-lights-arrow-manual-drink",
+			"jamie-ebios-medium-arrow-drink",
+			"jamie-ebios-low-rush-jump-sweep-drink"
+		]
+	},
+	{
+		"id": "jamie-ebios-counter-di-heavy-palm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Counter DI: walk into crouching heavy and heavy palm",
+		"summary": "Walk in after the winning counter DI and convert with crouching heavy and heavy Swagger Step.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > Walk forward > 2HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Swagger Step"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drink level 1 in the selected take",
+			"Win the counter-DI exchange"
+		],
+		"notes": [
+			"The opening standing-heavy interaction primes Ken’s DI; the authored conversion begins with counter DI."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 203.25,
+			"end": 211.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-counter-di-heavy-palm/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-counter-di-heavy-palm/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-counter-di-heavy-palm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-counter-di-heavy-palm/frame-1.jpg",
+					"at": 1.75,
+					"label": "Counter DI",
+					"alt": "Jamie answers the incoming DI."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-counter-di-heavy-palm/frame-2.jpg",
+					"at": 3.75,
+					"label": "DI win",
+					"alt": "The winning DI crumples Ken."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-counter-di-heavy-palm/frame-3.jpg",
+					"at": 5.05,
+					"label": "Crouching heavy",
+					"alt": "The walk closes the gap for the heavy starter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-counter-di-heavy-palm/frame-4.jpg",
+					"at": 5.75,
+					"label": "Heavy palm",
+					"alt": "Heavy Swagger Step knocks Ken away."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-drive-reversal-heavy-lights-arrow",
+			"jamie-ebios-blocked-dp-heavy-dash-arrow-drink",
+			"jamie-ebios-corner-counter-di-od-palm-sweep"
+		]
+	},
+	{
+		"id": "jamie-ebios-corner-counter-di-od-palm-sweep",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Corner counter DI: OD palm into drinking sweep target",
+		"summary": "Use the corner to convert counter-DI crumple with crouching heavy, OD palm and the sweep target.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Punish counter", "Juggle extension", "Drink gain"],
+		"outcomes": ["Knockdown", "Drink gained"],
+		"notation": "DI > Walk forward > 2HP > 214PP > 2HK > ~HK > ~P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk forward",
+				"label": "Short walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214PP",
+				"label": "OD Swagger Step"
+			},
+			{
+				"id": "step-5",
+				"notation": "2HK",
+				"label": "Crouching heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "~HK",
+				"label": "Sweep target continuation"
+			},
+			{
+				"id": "step-7",
+				"notation": "~P",
+				"label": "Drinking target finish"
+			}
+		],
+		"conditions": ["Classic controls", "Drink level 1 in the selected take"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact and OD Swagger Step",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 212.15,
+			"end": 221.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-corner-counter-di-od-palm-sweep/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-corner-counter-di-od-palm-sweep/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-corner-counter-di-od-palm-sweep/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-corner-counter-di-od-palm-sweep/frame-1.jpg",
+					"at": 1.35,
+					"label": "Counter DI",
+					"alt": "Jamie answers the corner DI."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-corner-counter-di-od-palm-sweep/frame-2.jpg",
+					"at": 2.85,
+					"label": "DI crumple",
+					"alt": "The winning DI creates the Punish Counter state."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-corner-counter-di-od-palm-sweep/frame-3.jpg",
+					"at": 4.05,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch begins the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-corner-counter-di-od-palm-sweep/frame-4.jpg",
+					"at": 4.85,
+					"label": "OD palm",
+					"alt": "OD Swagger Step launches beside the wall."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jamie/jamie-ebios-corner-counter-di-od-palm-sweep/frame-5.jpg",
+					"at": 7.85,
+					"label": "Drinking finish",
+					"alt": "The sweep target completes the drinking knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-blocked-di-wall-light-heavy-sweep",
+			"jamie-ebios-corner-medium-od-palm-sweep",
+			"jamie-ebios-low-rush-jump-sweep-drink"
+		]
+	},
+	{
+		"id": "jamie-ebios-blocked-di-wall-light-heavy-sweep",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Blocked DI wall splat: light kick and heavy into sweep target",
+		"summary": "Use the wall-splat juggle without OD palm, linking light kick and heavy punch into the sweep route.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Juggle extension", "Drink gain"],
+		"outcomes": ["Knockdown", "Drink gained"],
+		"notation": "DI > 5LK > 5HP > 2HK > ~HK > ~P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2HK",
+				"label": "Crouching heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "~HK",
+				"label": "Sweep target continuation"
+			},
+			{
+				"id": "step-6",
+				"notation": "~P",
+				"label": "Drinking target finish"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drink level 2 in the selected take",
+			"Blocked DI wall splat, not burnout stun"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 222.35,
+			"end": 228.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-blocked-di-wall-light-heavy-sweep/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-blocked-di-wall-light-heavy-sweep/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-blocked-di-wall-light-heavy-sweep/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-blocked-di-wall-light-heavy-sweep/frame-1.jpg",
+					"at": 0.65,
+					"label": "Wall splat",
+					"alt": "Ken blocks DI against the wall and is wall-splatted."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-blocked-di-wall-light-heavy-sweep/frame-2.jpg",
+					"at": 1.65,
+					"label": "Light-kick conversion",
+					"alt": "Standing light kick begins the juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-blocked-di-wall-light-heavy-sweep/frame-3.jpg",
+					"at": 2.65,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch follows the light kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-blocked-di-wall-light-heavy-sweep/frame-4.jpg",
+					"at": 3.65,
+					"label": "Sweep pickup",
+					"alt": "Crouching heavy kick continues the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jamie/jamie-ebios-blocked-di-wall-light-heavy-sweep/frame-5.jpg",
+					"at": 4.65,
+					"label": "Drinking finish",
+					"alt": "The final target press completes the drinking knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-corner-counter-di-od-palm-sweep",
+			"jamie-ebios-corner-medium-od-palm-sweep",
+			"jamie-ebios-low-rush-jump-sweep-drink"
+		]
+	},
+	{
+		"id": "jamie-ebios-low-double-rush-level-three-extension",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jamie"
+			}
+		],
+		"title": "Low cash-out: Level 3 into dash, heavy and Arrow",
+		"summary": "Spend two Rush cancels, then continue the Level 3 launch with dash, heavy punch and Arrow Kick.",
+		"kind": "combo",
+		"situations": [
+			"Midscreen",
+			"Low confirm",
+			"Drive Rush",
+			"Cash out",
+			"Super finish",
+			"Juggle extension"
+		],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 2MP > 2HP > DRC > 2MP > 2HP > 214HP > SA3 > 66 > 5HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "214HP",
+				"label": "Heavy Swagger Step"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			},
+			{
+				"id": "step-10",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-11",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-12",
+				"notation": "623HK",
+				"label": "Heavy Arrow Kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drink level 1 in the selected take",
+			"Enough Drive for both cancel Rushes",
+			"Three Super stocks"
+		],
+		"notes": [
+			"The caption also offers standing medium kick; this take starts with crouching medium kick. The Level 3 animation is followed by a playable juggle, so keep the dash and Arrow finish."
+		],
+		"resources": {
+			"drive": "Two cancel Drive Rushes; burnout in the take",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-jamie-beginner-2026",
+			"title": "SF6 Jamie Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=Kq_YvCiCgWM",
+			"published": "2026-06-09",
+			"start": 236.15,
+			"end": 253.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jamie/jamie-ebios-low-double-rush-level-three-extension/clip.mp4",
+			"poster": "/media/jamie/jamie-ebios-low-double-rush-level-three-extension/frame-1.jpg",
+			"descriptionTrack": "/media/jamie/jamie-ebios-low-double-rush-level-three-extension/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jamie/jamie-ebios-low-double-rush-level-three-extension/frame-1.jpg",
+					"at": 0.85,
+					"label": "First Rush",
+					"alt": "The low kick converts into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jamie/jamie-ebios-low-double-rush-level-three-extension/frame-2.jpg",
+					"at": 2.25,
+					"label": "Second Rush extension",
+					"alt": "The second Rush extends the crouching-heavy route."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jamie/jamie-ebios-low-double-rush-level-three-extension/frame-3.jpg",
+					"at": 3.85,
+					"label": "Level 3 activation",
+					"alt": "Heavy Swagger Step cancels into Level 3."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jamie/jamie-ebios-low-double-rush-level-three-extension/frame-4.jpg",
+					"at": 13.35,
+					"label": "Post-Super pickup",
+					"alt": "Jamie dashes in for heavy punch after the Super launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jamie/jamie-ebios-low-double-rush-level-three-extension/frame-5.jpg",
+					"at": 14.85,
+					"label": "Arrow finish",
+					"alt": "Heavy Arrow Kick completes the post-Super juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"jamie-ebios-low-rush-jump-sweep-drink",
+			"jamie-ebios-od-dive-sweep-target",
+			"jamie-ebios-lights-arrow-manual-drink"
+		]
+	}
+]

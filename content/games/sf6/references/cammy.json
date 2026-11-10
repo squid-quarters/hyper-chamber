@@ -1,0 +1,1636 @@
+[
+	{
+		"id": "cammy-ebios-light-medium-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Two jabs and light kick into medium Arrow",
+		"summary": "A standing-jab confirm ending in medium Spiral Arrow.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "5LP > 5LP > 5LK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for the light-kick cancel"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 0.7,
+			"end": 4.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-light-medium-arrow/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-light-medium-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-light-medium-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-light-medium-arrow/frame-1.jpg",
+					"at": 0.75,
+					"label": "Jab chain",
+					"alt": "Cammy chains the standing light punches."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-light-medium-arrow/frame-2.jpg",
+					"at": 1.3,
+					"label": "Light kick",
+					"alt": "Standing light kick continues the confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-light-medium-arrow/frame-3.jpg",
+					"at": 1.9,
+					"label": "Medium Arrow",
+					"alt": "Medium Spiral Arrow finishes the light confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-crouching-heavy-medium-heavy-arrow",
+			"cammy-ebios-drive-reversal-medium-heavy-arrow",
+			"cammy-ebios-heavy-punish-knuckle-jab-arrow"
+		]
+	},
+	{
+		"id": "cammy-ebios-low-rush-lift-arrow-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Low Rush: Lift Combination into Arrow and Spike",
+		"summary": "Convert crouching medium kick into Rush heavy punch and the Lift Combination juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Low confirm", "Drive Rush", "Target combo", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 5HP > 4MP > ~HK > 236HK short hold > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "4MP",
+				"label": "Back medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "~HK",
+				"label": "Lift Combination heavy-kick follow-up",
+				"cue": "Press heavy kick as the target continuation after back medium punch."
+			},
+			{
+				"id": "step-6",
+				"notation": "236HK short hold",
+				"label": "Short-held heavy Spiral Arrow",
+				"cue": "Match the partial hold shown in the corner juggle."
+			},
+			{
+				"id": "step-7",
+				"notation": "623HK",
+				"label": "Heavy Cannon Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching medium kick connects",
+			"Match the corner spacing and short hold"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 170.15,
+			"end": 175.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-low-rush-lift-arrow-spike/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-low-rush-lift-arrow-spike/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-low-rush-lift-arrow-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-low-rush-lift-arrow-spike/frame-1.jpg",
+					"at": 0.85,
+					"label": "Rush conversion",
+					"alt": "Cammy cancels the low kick into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-low-rush-lift-arrow-spike/frame-2.jpg",
+					"at": 1.85,
+					"label": "Lift Combination",
+					"alt": "The Lift Combination target follow-up launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-low-rush-lift-arrow-spike/frame-3.jpg",
+					"at": 2.95,
+					"label": "Short-held Arrow",
+					"alt": "A short-held heavy Spiral Arrow continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-low-rush-lift-arrow-spike/frame-4.jpg",
+					"at": 3.85,
+					"label": "Heavy Spike",
+					"alt": "Heavy Cannon Spike completes the corner conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-corner-drive-reversal-target-arrow-spike",
+			"cammy-ebios-corner-blocked-dp-arrow-heavy-spike",
+			"cammy-ebios-counter-di-air-medium-heavy-strike"
+		]
+	},
+	{
+		"id": "cammy-ebios-crouching-heavy-medium-heavy-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Crouching heavy into medium and heavy Arrow",
+		"summary": "Link crouching medium punch from crouching heavy punch and finish with heavy Spiral Arrow.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HP > 2MP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "Heavy Spiral Arrow"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for crouching medium punch"],
+		"notes": [
+			"The surrounding source adds a dash afterward. This excerpt ends at the knockdown so the authored combo stays separate from later oki."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 184.1,
+			"end": 186.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-crouching-heavy-medium-heavy-arrow/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-crouching-heavy-medium-heavy-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-crouching-heavy-medium-heavy-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-crouching-heavy-medium-heavy-arrow/frame-1.jpg",
+					"at": 0.65,
+					"label": "Crouching heavy",
+					"alt": "Crouching heavy punch starts the grounded confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-crouching-heavy-medium-heavy-arrow/frame-2.jpg",
+					"at": 1.15,
+					"label": "Medium link",
+					"alt": "Crouching medium punch follows the heavy starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-crouching-heavy-medium-heavy-arrow/frame-3.jpg",
+					"at": 1.9,
+					"label": "Heavy Arrow",
+					"alt": "Heavy Spiral Arrow knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-light-medium-arrow",
+			"cammy-ebios-drive-reversal-medium-heavy-arrow",
+			"cammy-ebios-heavy-punish-knuckle-jab-arrow"
+		]
+	},
+	{
+		"id": "cammy-ebios-corner-forward-throw-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner throw: walk into another throw attempt",
+		"summary": "After a forward throw at the wall, walk in and attempt the second forward throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "LP+LK > Walk forward > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent remains in the corner after forward throw",
+			"Match the demonstrated walk timing"
+		],
+		"notes": [
+			"This is one recorded strike/throw situation, not an unavoidable throw loop. Jump, invulnerable reversal and other defensive choices are not all tested by this take."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 189.1,
+			"end": 194.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-corner-forward-throw-walk-throw/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-corner-forward-throw-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-corner-forward-throw-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-corner-forward-throw-walk-throw/frame-1.jpg",
+					"at": 0.9,
+					"label": "First throw",
+					"alt": "Cammy completes the prerequisite forward throw at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-corner-forward-throw-walk-throw/frame-2.jpg",
+					"at": 2.5,
+					"label": "Walk forward",
+					"alt": "Cammy closes the small remaining gap as Ryu recovers."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-corner-forward-throw-walk-throw/frame-3.jpg",
+					"at": 3.05,
+					"label": "Second throw",
+					"alt": "The next forward throw catches the recorded defensive attempt."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-corner-forward-throw-walk-throw/frame-4.jpg",
+					"at": 4.2,
+					"label": "Throw knockdown",
+					"alt": "The second throw returns Ryu to the corner floor."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-throw-whiff-back-heavy-air-level-one",
+			"cammy-ebios-wall-splat-knuckle-spike-jab-timing",
+			"cammy-ebios-low-rush-lift-arrow-spike"
+		]
+	},
+	{
+		"id": "cammy-ebios-throw-whiff-back-heavy-air-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Throw whiff: back-heavy air catch into Level 1",
+		"summary": "Answer the demonstrated corner jump after a missed throw with back heavy kick, OD Arrow and Level 1.",
+		"kind": "response",
+		"situations": ["Corner", "Anti-air", "Throw pressure", "Super finish", "Side switch"],
+		"outcomes": ["Knockdown", "Side switch"],
+		"notation": "LP+LK whiff > 4HK > 236KK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "LP+LK whiff",
+				"label": "Missed throw"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236KK",
+				"label": "Overdrive Spiral Arrow"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu jumps at the demonstrated timing after the corner throw situation"
+		],
+		"notes": [
+			"The source labels the back-heavy catch as hit or trade. This is a conditional airborne conversion, not an invulnerable answer to every jump."
+		],
+		"resources": {
+			"drive": "Overdrive Spiral Arrow",
+			"super": "Level 1 (1 stock)"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 215.1,
+			"end": 223.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-throw-whiff-back-heavy-air-level-one/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-throw-whiff-back-heavy-air-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-throw-whiff-back-heavy-air-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-throw-whiff-back-heavy-air-level-one/frame-1.jpg",
+					"at": 0.9,
+					"label": "Airborne catch",
+					"alt": "Back heavy kick catches Ryu leaving the ground."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-throw-whiff-back-heavy-air-level-one/frame-2.jpg",
+					"at": 1.9,
+					"label": "OD Arrow",
+					"alt": "Overdrive Spiral Arrow continues the airborne conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-throw-whiff-back-heavy-air-level-one/frame-3.jpg",
+					"at": 2.9,
+					"label": "Level 1",
+					"alt": "Cammy cancels the OD special into Level 1."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-throw-whiff-back-heavy-air-level-one/frame-4.jpg",
+					"at": 7.2,
+					"label": "Super finish",
+					"alt": "Level 1 sends Ryu toward the opposite side."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-corner-forward-throw-walk-throw",
+			"cammy-ebios-counter-di-held-arrow-level-one-switch",
+			"cammy-ebios-low-rush-lift-arrow-spike"
+		]
+	},
+	{
+		"id": "cammy-ebios-drive-reversal-medium-heavy-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Drive Reversal punish: medium into heavy Arrow",
+		"summary": "Guard the shown Drive Reversal and punish with standing medium, standing heavy and heavy Arrow.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Reversal punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MP > 5HP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "Heavy Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Block the demonstrated Drive Reversal in standing-medium range"
+		],
+		"notes": ["The tutorial dashes after the knockdown; this excerpt isolates the punish route."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 224.25,
+			"end": 228.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-drive-reversal-medium-heavy-arrow/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-drive-reversal-medium-heavy-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-drive-reversal-medium-heavy-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-drive-reversal-medium-heavy-arrow/frame-1.jpg",
+					"at": 0.75,
+					"label": "Guard Drive Reversal",
+					"alt": "Cammy guards Ryu’s Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-drive-reversal-medium-heavy-arrow/frame-2.jpg",
+					"at": 1.75,
+					"label": "Medium punish",
+					"alt": "Standing medium punch starts the Punish Counter conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-drive-reversal-medium-heavy-arrow/frame-3.jpg",
+					"at": 2.15,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch continues the punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-drive-reversal-medium-heavy-arrow/frame-4.jpg",
+					"at": 3.25,
+					"label": "Heavy Arrow",
+					"alt": "Heavy Spiral Arrow finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-corner-drive-reversal-target-arrow-spike",
+			"cammy-ebios-heavy-punish-knuckle-jab-arrow",
+			"cammy-ebios-blocked-dp-crouching-heavy-arrow"
+		]
+	},
+	{
+		"id": "cammy-ebios-corner-drive-reversal-target-arrow-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner Drive Reversal punish: target combo into Arrow and Spike",
+		"summary": "Use the heavy-punch target route after standing medium, then juggle with light Arrow and medium Spike.",
+		"kind": "combo",
+		"situations": [
+			"Corner",
+			"Drive Reversal punish",
+			"Punish counter",
+			"Target combo",
+			"Juggle extension"
+		],
+		"outcomes": ["Knockdown"],
+		"notation": "5MP > 5HP > ~HK > 236LK > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~HK",
+				"label": "Swing Combination heavy-kick follow-up",
+				"cue": "Press heavy kick as the target continuation after standing heavy punch."
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK",
+				"label": "Light Spiral Arrow"
+			},
+			{
+				"id": "step-5",
+				"notation": "623MK",
+				"label": "Medium Cannon Spike"
+			}
+		],
+		"conditions": ["Classic controls", "Guard the demonstrated Drive Reversal at the corner"],
+		"notes": ["The later crouching-jab frame kill is omitted from this combo-only excerpt."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 230.1,
+			"end": 235.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-corner-drive-reversal-target-arrow-spike/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-corner-drive-reversal-target-arrow-spike/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-corner-drive-reversal-target-arrow-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-corner-drive-reversal-target-arrow-spike/frame-1.jpg",
+					"at": 0.9,
+					"label": "Guarded reversal",
+					"alt": "Cammy guards the corner Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-corner-drive-reversal-target-arrow-spike/frame-2.jpg",
+					"at": 1.9,
+					"label": "Medium punish",
+					"alt": "Standing medium punch begins the Punish Counter route."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-corner-drive-reversal-target-arrow-spike/frame-3.jpg",
+					"at": 2.9,
+					"label": "Target continuation",
+					"alt": "The heavy-kick target follow-up launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-corner-drive-reversal-target-arrow-spike/frame-4.jpg",
+					"at": 3.9,
+					"label": "Light Arrow",
+					"alt": "Light Spiral Arrow continues the corner juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-ebios-corner-drive-reversal-target-arrow-spike/frame-5.jpg",
+					"at": 4.9,
+					"label": "Medium Spike",
+					"alt": "Medium Cannon Spike finishes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-low-rush-lift-arrow-spike",
+			"cammy-ebios-corner-blocked-dp-arrow-heavy-spike",
+			"cammy-ebios-counter-di-air-medium-heavy-strike"
+		]
+	},
+	{
+		"id": "cammy-ebios-heavy-punish-knuckle-jab-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Throw-whiff punish: heavy Knuckle into jab and Arrow",
+		"summary": "Punish the missed throw with heavy punch and heavy Quick Spin Knuckle, then link jab into medium Arrow.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Throw bait"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HP > 214HP > 5LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HP",
+				"label": "Heavy Quick Spin Knuckle"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing heavy punch Punish Counter on the demonstrated throw whiff"
+		],
+		"notes": [
+			"The excerpt begins with the spacing interaction; the execution sequence starts at the heavy-punch punish."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 238.25,
+			"end": 242.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-heavy-punish-knuckle-jab-arrow/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-heavy-punish-knuckle-jab-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-heavy-punish-knuckle-jab-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-heavy-punish-knuckle-jab-arrow/frame-1.jpg",
+					"at": 0.95,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch punishes Ryu’s missed throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-heavy-punish-knuckle-jab-arrow/frame-2.jpg",
+					"at": 1.75,
+					"label": "Heavy Knuckle",
+					"alt": "Heavy Quick Spin Knuckle continues the Punish Counter route."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-heavy-punish-knuckle-jab-arrow/frame-3.jpg",
+					"at": 2.25,
+					"label": "Jab link",
+					"alt": "Standing jab links after the heavy Knuckle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-heavy-punish-knuckle-jab-arrow/frame-4.jpg",
+					"at": 2.95,
+					"label": "Medium Arrow",
+					"alt": "Medium Spiral Arrow finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-drive-reversal-medium-heavy-arrow",
+			"cammy-ebios-blocked-dp-crouching-heavy-arrow",
+			"cammy-ebios-blocked-dp-back-heavy-knuckle-level-one"
+		]
+	},
+	{
+		"id": "cammy-ebios-blocked-dp-crouching-heavy-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Blocked reversal: crouching heavy into heavy Arrow",
+		"summary": "Punish Ryu’s blocked OD Shoryuken with crouching heavy, standing heavy and heavy Spiral Arrow.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Reversal punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HP > 5HP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "Heavy Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu’s blocked OD Shoryuken is the demonstrated opening",
+			"Crouching heavy punch Punish Counter"
+		],
+		"notes": ["The later forward dash is not part of this combo excerpt."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 251.3,
+			"end": 255.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-blocked-dp-crouching-heavy-arrow/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-blocked-dp-crouching-heavy-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-blocked-dp-crouching-heavy-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-blocked-dp-crouching-heavy-arrow/frame-1.jpg",
+					"at": 0.7,
+					"label": "Blocked reversal",
+					"alt": "Cammy waits for Ryu’s guarded OD Shoryuken to descend."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-blocked-dp-crouching-heavy-arrow/frame-2.jpg",
+					"at": 1.7,
+					"label": "Heavy punish",
+					"alt": "Crouching heavy punch punishes the landing recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-blocked-dp-crouching-heavy-arrow/frame-3.jpg",
+					"at": 2.3,
+					"label": "Standing heavy",
+					"alt": "Standing heavy punch links from the Punish Counter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-blocked-dp-crouching-heavy-arrow/frame-4.jpg",
+					"at": 2.9,
+					"label": "Heavy Arrow",
+					"alt": "Heavy Spiral Arrow completes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-blocked-dp-back-heavy-knuckle-level-one",
+			"cammy-ebios-drive-reversal-medium-heavy-arrow",
+			"cammy-ebios-heavy-punish-knuckle-jab-arrow"
+		]
+	},
+	{
+		"id": "cammy-ebios-blocked-dp-back-heavy-knuckle-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Blocked reversal: back-heavy juggle into Level 1",
+		"summary": "Use back heavy kick after the crouching-heavy punish, then light Knuckle into Level 1.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Reversal punish", "Punish counter", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HP > 4HK > 214LP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "Light Quick Spin Knuckle"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "Blocked Ryu OD Shoryuken", "Level 1 stock available"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 stock)"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 257.35,
+			"end": 265.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-blocked-dp-back-heavy-knuckle-level-one/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-blocked-dp-back-heavy-knuckle-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-blocked-dp-back-heavy-knuckle-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-blocked-dp-back-heavy-knuckle-level-one/frame-1.jpg",
+					"at": 0.65,
+					"label": "Blocked OD reversal",
+					"alt": "Cammy guards Ryu’s OD Shoryuken and waits for recovery."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-blocked-dp-back-heavy-knuckle-level-one/frame-2.jpg",
+					"at": 1.65,
+					"label": "Punish starter",
+					"alt": "Crouching heavy punch begins the Punish Counter juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-blocked-dp-back-heavy-knuckle-level-one/frame-3.jpg",
+					"at": 2.65,
+					"label": "Back-heavy launcher",
+					"alt": "Back heavy kick lifts Ryu for the light-Knuckle continuation."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-blocked-dp-back-heavy-knuckle-level-one/frame-4.jpg",
+					"at": 3.85,
+					"label": "Level 1 cancel",
+					"alt": "Cammy cancels the light Knuckle into Level 1."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-ebios-blocked-dp-back-heavy-knuckle-level-one/frame-5.jpg",
+					"at": 7.05,
+					"label": "Super finish",
+					"alt": "Level 1 finishes its final kicking sequence."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-blocked-dp-crouching-heavy-arrow",
+			"cammy-ebios-counter-di-held-arrow-level-one-switch",
+			"cammy-ebios-drive-reversal-medium-heavy-arrow"
+		]
+	},
+	{
+		"id": "cammy-ebios-corner-blocked-dp-arrow-heavy-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner reversal punish: back heavy, Arrow and heavy Spike",
+		"summary": "Use the corner to juggle through back heavy kick, medium Arrow and heavy Spike.",
+		"kind": "combo",
+		"situations": ["Corner", "Reversal punish", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HP > 4HK > 236MK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Cannon Spike"
+			}
+		],
+		"conditions": ["Classic controls", "Ryu’s blocked OD Shoryuken beside the wall"],
+		"notes": [
+			"The source adds a whiffed light-kick frame kill afterward; this excerpt isolates the juggle through its knockdown."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 267.2,
+			"end": 272.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-corner-blocked-dp-arrow-heavy-spike/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-corner-blocked-dp-arrow-heavy-spike/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-corner-blocked-dp-arrow-heavy-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-corner-blocked-dp-arrow-heavy-spike/frame-1.jpg",
+					"at": 0.8,
+					"label": "Guarded reversal",
+					"alt": "Ryu descends after the blocked OD reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-corner-blocked-dp-arrow-heavy-spike/frame-2.jpg",
+					"at": 1.8,
+					"label": "Crouching-heavy punish",
+					"alt": "Crouching heavy punch starts the punish."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-corner-blocked-dp-arrow-heavy-spike/frame-3.jpg",
+					"at": 2.8,
+					"label": "Medium Arrow juggle",
+					"alt": "Medium Spiral Arrow follows the back-heavy launcher."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-corner-blocked-dp-arrow-heavy-spike/frame-4.jpg",
+					"at": 3.8,
+					"label": "Heavy Spike",
+					"alt": "Heavy Cannon Spike finishes beside the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-corner-drive-reversal-target-arrow-spike",
+			"cammy-ebios-low-rush-lift-arrow-spike",
+			"cammy-ebios-blocked-dp-crouching-heavy-arrow"
+		]
+	},
+	{
+		"id": "cammy-ebios-counter-di-air-medium-heavy-strike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Counter DI: Lift Combination into air medium and Strike",
+		"summary": "Walk into range after counter DI, use Lift Combination and jump-cancel into the airborne continuation.",
+		"kind": "combo",
+		"situations": [
+			"Midscreen",
+			"Drive Impact",
+			"Punish counter",
+			"Target combo",
+			"Juggle extension"
+		],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > Short walk > 5MP > 4MP > ~HK > Jump cancel > j.MP > j.214HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "Short walk",
+				"label": "Short walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "4MP",
+				"label": "Back medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "~HK",
+				"label": "Lift Combination heavy-kick follow-up",
+				"cue": "Press heavy kick as the target continuation after back medium punch."
+			},
+			{
+				"id": "step-6",
+				"notation": "Jump cancel",
+				"label": "Jump cancel",
+				"cue": "Jump from the launcher and perform the listed airborne follow-up."
+			},
+			{
+				"id": "step-7",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.214HK",
+				"label": "Heavy Cannon Strike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Win the counter-DI exchange",
+			"Short walk before standing medium punch"
+		],
+		"notes": [
+			"The opening jab interaction in the tutorial primes Ryu’s DI; the authored conversion begins with counter DI."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 274.25,
+			"end": 281.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-counter-di-air-medium-heavy-strike/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-counter-di-air-medium-heavy-strike/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-counter-di-air-medium-heavy-strike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-counter-di-air-medium-heavy-strike/frame-1.jpg",
+					"at": 1.75,
+					"label": "Counter DI",
+					"alt": "Cammy answers the incoming Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-counter-di-air-medium-heavy-strike/frame-2.jpg",
+					"at": 3.75,
+					"label": "DI Punish Counter",
+					"alt": "Cammy’s DI wins the exchange."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-counter-di-air-medium-heavy-strike/frame-3.jpg",
+					"at": 5.15,
+					"label": "Lift launcher",
+					"alt": "The Lift Combination starts the airborne conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-counter-di-air-medium-heavy-strike/frame-4.jpg",
+					"at": 5.75,
+					"label": "Air medium",
+					"alt": "Jumping medium punch connects during the jump-cancel route."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-ebios-counter-di-air-medium-heavy-strike/frame-5.jpg",
+					"at": 6.75,
+					"label": "Heavy Strike",
+					"alt": "Heavy Cannon Strike finishes the airborne route."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-corner-drive-reversal-target-arrow-spike",
+			"cammy-ebios-counter-di-held-arrow-level-one-switch",
+			"cammy-ebios-low-rush-lift-arrow-spike"
+		]
+	},
+	{
+		"id": "cammy-ebios-counter-di-held-arrow-level-one-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Counter DI: held heavy Arrow into Level 1 side switch",
+		"summary": "Use a short walk and heavy punch before held heavy Arrow and Level 1.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter", "Super finish", "Side switch"],
+		"outcomes": ["Knockdown", "Side switch"],
+		"notation": "DI > Short walk > 5HP > 236HK hold > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "Short walk",
+				"label": "Short walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK hold",
+				"label": "Held heavy Spiral Arrow",
+				"cue": "Hold HK for the demonstrated heavy version."
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Counter DI crumple",
+			"Level 1 available",
+			"Match the demonstrated held heavy Arrow"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "Level 1 (1 stock)"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 283.3,
+			"end": 293.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-counter-di-held-arrow-level-one-switch/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-counter-di-held-arrow-level-one-switch/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-counter-di-held-arrow-level-one-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-counter-di-held-arrow-level-one-switch/frame-1.jpg",
+					"at": 1.2,
+					"label": "Counter DI",
+					"alt": "Cammy responds to Ryu’s incoming Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-counter-di-held-arrow-level-one-switch/frame-2.jpg",
+					"at": 2.7,
+					"label": "DI crumple",
+					"alt": "The winning DI creates the Punish Counter state."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-counter-di-held-arrow-level-one-switch/frame-3.jpg",
+					"at": 4.7,
+					"label": "Held heavy Arrow",
+					"alt": "Held heavy Spiral Arrow lifts the opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-counter-di-held-arrow-level-one-switch/frame-4.jpg",
+					"at": 8.2,
+					"label": "Level 1 finish",
+					"alt": "Level 1 continues the held-special juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-ebios-counter-di-held-arrow-level-one-switch/frame-5.jpg",
+					"at": 9.9,
+					"label": "Side switch",
+					"alt": "Ryu lands on the opposite side after the Super."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-blocked-dp-back-heavy-knuckle-level-one",
+			"cammy-ebios-counter-di-air-medium-heavy-strike",
+			"cammy-ebios-throw-whiff-back-heavy-air-level-one"
+		]
+	},
+	{
+		"id": "cammy-ebios-wall-splat-knuckle-spike-jab-timing",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Blocked DI wall splat: Knuckle, Spike and jab timing",
+		"summary": "Convert a blocked-DI wall splat, then whiff a crouching jab after the heavy-Spike knockdown.",
+		"kind": "setup",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Frame kill", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 5HP > 214LP > 623HK > 2LP whiff",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "Light Quick Spin Knuckle"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Cannon Spike"
+			},
+			{
+				"id": "step-5",
+				"notation": "2LP whiff",
+				"label": "Crouching jab frame kill",
+				"cue": "Whiff this jab after the knockdown to time the next situation."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent blocks DI at the wall",
+			"Wall splat, not burnout stun"
+		],
+		"notes": [
+			"The source prints +25F before and +12F after the whiffed jab. These are dated observations for this take, not an independent current-patch timing guarantee."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 305.05,
+			"end": 310.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-wall-splat-knuckle-spike-jab-timing/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-wall-splat-knuckle-spike-jab-timing/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-wall-splat-knuckle-spike-jab-timing/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-wall-splat-knuckle-spike-jab-timing/frame-1.jpg",
+					"at": 0.95,
+					"label": "Wall splat",
+					"alt": "Ryu blocks DI against the wall and is wall-splatted."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-wall-splat-knuckle-spike-jab-timing/frame-2.jpg",
+					"at": 1.95,
+					"label": "Light Knuckle",
+					"alt": "Light Quick Spin Knuckle continues the heavy-punch conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-wall-splat-knuckle-spike-jab-timing/frame-3.jpg",
+					"at": 2.95,
+					"label": "Heavy Spike",
+					"alt": "Heavy Cannon Spike finishes the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-wall-splat-knuckle-spike-jab-timing/frame-4.jpg",
+					"at": 4.4,
+					"label": "Jab frame kill",
+					"alt": "Cammy whiffs crouching jab to time the resulting situation."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-corner-forward-throw-walk-throw",
+			"cammy-ebios-low-rush-lift-arrow-spike",
+			"cammy-ebios-throw-whiff-back-heavy-air-level-one"
+		]
+	},
+	{
+		"id": "cammy-ebios-low-double-rush-held-spike-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Low confirm cash-out: two Rush cancels into Level 3",
+		"summary": "Convert the low kick through two heavy-punch Rush extensions, held heavy Spike and Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Cash out", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 2HP > 5HP > DRC > 2HP > 5HP > 623HK hold > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "623HK hold",
+				"label": "Held heavy Cannon Spike"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Enough Drive for two cancel Drive Rushes",
+			"Level 3 stock available"
+		],
+		"notes": [
+			"The caption also lists crouching medium punch as an alternative starter. This selected take uses crouching medium kick. The footage ends in burnout."
+		],
+		"resources": {
+			"drive": "Two cancel Drive Rushes; burnout in the demonstrated take",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 311.15,
+			"end": 326.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-ebios-low-double-rush-held-spike-level-three/clip.mp4",
+			"poster": "/media/cammy/cammy-ebios-low-double-rush-held-spike-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-ebios-low-double-rush-held-spike-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-ebios-low-double-rush-held-spike-level-three/frame-1.jpg",
+					"at": 0.85,
+					"label": "First Rush",
+					"alt": "Cammy converts crouching medium kick with Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-ebios-low-double-rush-held-spike-level-three/frame-2.jpg",
+					"at": 1.85,
+					"label": "Second Rush extension",
+					"alt": "The second Rush extends the heavy-punch route."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-ebios-low-double-rush-held-spike-level-three/frame-3.jpg",
+					"at": 3.15,
+					"label": "Held Spike",
+					"alt": "Held heavy Cannon Spike leads into the Super cancel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-ebios-low-double-rush-held-spike-level-three/frame-4.jpg",
+					"at": 3.85,
+					"label": "Level 3 activation",
+					"alt": "Cammy activates Level 3 Super Art."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-ebios-low-double-rush-held-spike-level-three/frame-5.jpg",
+					"at": 14.15,
+					"label": "Super knockdown",
+					"alt": "The Level 3 finish leaves Ryu knocked down."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-low-rush-lift-arrow-spike",
+			"cammy-ebios-blocked-dp-back-heavy-knuckle-level-one",
+			"cammy-ebios-counter-di-held-arrow-level-one-switch"
+		]
+	}
+]

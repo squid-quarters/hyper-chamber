@@ -1,0 +1,1303 @@
+[
+	{
+		"id": "arjun-soul-jab-chain-light-arm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Standing jab into crouching jab and light Arm of Justice",
+		"summary": "A short meterless jab confirm with separate standing and crouching inputs.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > cr.LP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LP",
+				"label": "Light Arm of Justice"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": ["The caption offers alternative first lights; this take starts with standing LP."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 409.18,
+			"end": 411.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-jab-chain-light-arm/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-jab-chain-light-arm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-jab-chain-light-arm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-jab-chain-light-arm/frame-1.jpg",
+					"at": 0.27,
+					"label": "Standing jab",
+					"alt": "Standing light punch starts the selected light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-jab-chain-light-arm/frame-2.jpg",
+					"at": 0.52,
+					"label": "Crouching jab",
+					"alt": "Crouching light punch connects before the cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-jab-chain-light-arm/frame-3.jpg",
+					"at": 1.07,
+					"label": "Light Arm",
+					"alt": "Light Arm of Justice completes the meterless chain."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-light-kick-light-arm",
+			"arjun-soul-medium-od-arm-follow",
+			"arjun-soul-medium-light-arm"
+		]
+	},
+	{
+		"id": "arjun-soul-light-kick-light-arm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Standing light kick into light Arm of Justice",
+		"summary": "A two-input meterless confirm from standing LK.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LK > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "236LP",
+				"label": "Light Arm of Justice"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 432.7,
+			"end": 434.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-light-kick-light-arm/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-light-kick-light-arm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-light-kick-light-arm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-light-kick-light-arm/frame-1.jpg",
+					"at": 0.1,
+					"label": "Light-kick starter",
+					"alt": "Standing light kick connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-light-kick-light-arm/frame-2.jpg",
+					"at": 0.6,
+					"label": "Light Arm",
+					"alt": "The light winding-punch special connects after the kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-light-kick-light-arm/frame-3.jpg",
+					"at": 1.15,
+					"label": "Knockdown",
+					"alt": "Dhalsim falls after the light-special finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-jab-chain-light-arm",
+			"arjun-soul-medium-od-arm-follow",
+			"arjun-soul-medium-light-arm"
+		]
+	},
+	{
+		"id": "arjun-soul-medium-od-arm-follow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Standing medium into OD Arm and follow-up",
+		"summary": "Spend two Drive bars to add the OD-special continuation after standing MP.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > 236PP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236PP",
+				"label": "OD Arm of Justice"
+			},
+			{
+				"id": "step-3",
+				"notation": "6P",
+				"label": "Arm of Justice follow-up",
+				"cue": "Forward + punch during Arm of Justice; this is the special continuation."
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 451.05,
+			"end": 454.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-medium-od-arm-follow/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-medium-od-arm-follow/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-medium-od-arm-follow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-medium-od-arm-follow/frame-1.jpg",
+					"at": 0.3,
+					"label": "Medium starter",
+					"alt": "Standing medium punch confirms before the OD special."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-medium-od-arm-follow/frame-2.jpg",
+					"at": 0.9,
+					"label": "OD Arm",
+					"alt": "OD Arm of Justice connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-medium-od-arm-follow/frame-3.jpg",
+					"at": 1.65,
+					"label": "Follow-up",
+					"alt": "The separate punch continuation completes the OD route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-soul-medium-od-arm-follow/frame-4.jpg",
+					"at": 2.8,
+					"label": "Knockdown",
+					"alt": "Dhalsim falls after the follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-medium-light-arm",
+			"arjun-soul-medium-kick-light-shoulder",
+			"arjun-soul-crouching-heavy-od-arm"
+		]
+	},
+	{
+		"id": "arjun-soul-medium-light-arm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Standing medium punch into light Arm of Justice",
+		"summary": "A short meterless medium confirm using the demonstrated light special.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236LP",
+				"label": "Light Arm of Justice"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": ["This take uses 236LP, one of the two strengths listed in the caption."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 469.65,
+			"end": 471.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-medium-light-arm/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-medium-light-arm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-medium-light-arm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-medium-light-arm/frame-1.jpg",
+					"at": 0.4,
+					"label": "Medium starter",
+					"alt": "Standing medium punch begins the selected take."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-medium-light-arm/frame-2.jpg",
+					"at": 0.85,
+					"label": "Light Arm",
+					"alt": "The light Arm of Justice cancel connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-medium-light-arm/frame-3.jpg",
+					"at": 1.5,
+					"label": "Finish",
+					"alt": "Dhalsim recovers after the light-special knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-medium-od-arm-follow",
+			"arjun-soul-medium-kick-light-shoulder",
+			"arjun-soul-rush-medium-kick-shoulder"
+		]
+	},
+	{
+		"id": "arjun-soul-medium-kick-light-shoulder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Standing medium kick into light Cruel Shoulder",
+		"summary": "A meterless medium-kick confirm with the ordinary light shoulder finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "623LP",
+				"label": "Light Cruel Shoulder"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"No Divine Pillar active for the ordinary Cruel Shoulder finish"
+		],
+		"notes": ["The later pillar placement is separate pressure, outside this combo excerpt."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 482.3,
+			"end": 484.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-medium-kick-light-shoulder/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-medium-kick-light-shoulder/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-medium-kick-light-shoulder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-medium-kick-light-shoulder/frame-1.jpg",
+					"at": 0.2,
+					"label": "Medium-kick starter",
+					"alt": "Standing medium kick connects before the cancel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-medium-kick-light-shoulder/frame-2.jpg",
+					"at": 0.8,
+					"label": "Light Shoulder",
+					"alt": "Light Cruel Shoulder carries Dhalsim away."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-medium-kick-light-shoulder/frame-3.jpg",
+					"at": 2.15,
+					"label": "Knockdown",
+					"alt": "Dhalsim lands before the later pillar-placement demonstration."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-medium-od-arm-follow",
+			"arjun-soul-medium-light-arm",
+			"arjun-soul-rush-medium-kick-shoulder"
+		]
+	},
+	{
+		"id": "arjun-soul-crouching-heavy-od-arm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Crouching heavy punch into OD Arm and follow-up",
+		"summary": "Convert the heavy starter through the two-Drive OD winding-punch route.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > 236PP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236PP",
+				"label": "OD Arm of Justice"
+			},
+			{
+				"id": "step-3",
+				"notation": "6P",
+				"label": "Arm of Justice follow-up"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 492.0,
+			"end": 495.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-crouching-heavy-od-arm/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-crouching-heavy-od-arm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-crouching-heavy-od-arm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-crouching-heavy-od-arm/frame-1.jpg",
+					"at": 0.25,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch begins the confirmed route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-crouching-heavy-od-arm/frame-2.jpg",
+					"at": 1.15,
+					"label": "OD cancel",
+					"alt": "OD Arm of Justice connects after the heavy."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-crouching-heavy-od-arm/frame-3.jpg",
+					"at": 2.0,
+					"label": "Follow-up",
+					"alt": "The forward-punch continuation sends Dhalsim away."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-soul-crouching-heavy-od-arm/frame-4.jpg",
+					"at": 3.0,
+					"label": "Knockdown",
+					"alt": "Dhalsim lands after the OD follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-medium-od-arm-follow",
+			"arjun-soul-jab-chain-light-arm",
+			"arjun-soul-light-kick-light-arm"
+		]
+	},
+	{
+		"id": "arjun-soul-rush-medium-kick-shoulder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Drive Rush medium punch into medium kick and shoulder",
+		"summary": "One Drive bar enables the standing-MP to standing-MK link before the shoulder.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > st.MP > st.MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "623LP",
+				"label": "Light Cruel Shoulder"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Raw Drive Rush",
+			"No Divine Pillar active for the ordinary Cruel Shoulder finish"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 505.3,
+			"end": 508.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-rush-medium-kick-shoulder/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-rush-medium-kick-shoulder/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-rush-medium-kick-shoulder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-rush-medium-kick-shoulder/frame-1.jpg",
+					"at": 0.55,
+					"label": "Rush medium",
+					"alt": "Drive Rush standing MP connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-rush-medium-kick-shoulder/frame-2.jpg",
+					"at": 1.2,
+					"label": "Medium-kick link",
+					"alt": "Standing medium kick links after the Rush normal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-rush-medium-kick-shoulder/frame-3.jpg",
+					"at": 1.95,
+					"label": "Light Shoulder",
+					"alt": "Light Cruel Shoulder completes the confirm."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-soul-rush-medium-kick-shoulder/frame-4.jpg",
+					"at": 2.8,
+					"label": "Knockdown",
+					"alt": "Dhalsim falls after the shoulder finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-medium-od-arm-follow",
+			"arjun-soul-medium-light-arm",
+			"arjun-soul-medium-kick-light-shoulder"
+		]
+	},
+	{
+		"id": "arjun-soul-rush-low-medium-shoulder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Drive Rush low medium into standing medium kick and shoulder",
+		"summary": "A one-Drive low starter links into standing MK and the ordinary shoulder finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > cr.MK > st.MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "623LP",
+				"label": "Light Cruel Shoulder"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Raw Drive Rush",
+			"No Divine Pillar active for the ordinary Cruel Shoulder finish"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 514.8,
+			"end": 518.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-rush-low-medium-shoulder/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-rush-low-medium-shoulder/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-rush-low-medium-shoulder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-rush-low-medium-shoulder/frame-1.jpg",
+					"at": 0.55,
+					"label": "Rush low",
+					"alt": "Drive Rush crouching medium kick connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-rush-low-medium-shoulder/frame-2.jpg",
+					"at": 1.15,
+					"label": "Standing-medium link",
+					"alt": "Standing medium kick links after the Rush low."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-rush-low-medium-shoulder/frame-3.jpg",
+					"at": 1.9,
+					"label": "Light Shoulder",
+					"alt": "Light Cruel Shoulder completes the low conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-soul-rush-low-medium-shoulder/frame-4.jpg",
+					"at": 2.9,
+					"label": "Knockdown",
+					"alt": "Dhalsim lands after the shoulder."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-rush-medium-kick-shoulder",
+			"arjun-soul-perfect-parry-low-shoulder",
+			"arjun-soul-jab-chain-light-arm"
+		]
+	},
+	{
+		"id": "arjun-soul-cancel-rush-medium-shoulder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Medium confirm through cancel Rush into shoulder",
+		"summary": "Spend three Drive bars to confirm the medium starter through a Rush link.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush cancel", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > DRC > st.MP > st.MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "623LP",
+				"label": "Light Cruel Shoulder"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"No Divine Pillar active for the ordinary Cruel Shoulder finish"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "One Drive Rush cancel (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 536.55,
+			"end": 540.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-cancel-rush-medium-shoulder/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-cancel-rush-medium-shoulder/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-cancel-rush-medium-shoulder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-cancel-rush-medium-shoulder/frame-1.jpg",
+					"at": 0.3,
+					"label": "Medium confirm",
+					"alt": "The first standing MP confirms into Drive Rush cancel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-cancel-rush-medium-shoulder/frame-2.jpg",
+					"at": 0.95,
+					"label": "Rush medium",
+					"alt": "The second standing MP hits with the Rush effect."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-cancel-rush-medium-shoulder/frame-3.jpg",
+					"at": 1.5,
+					"label": "Medium-kick link",
+					"alt": "Standing medium kick links before the special."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-soul-cancel-rush-medium-shoulder/frame-4.jpg",
+					"at": 2.25,
+					"label": "Light Shoulder",
+					"alt": "Light Cruel Shoulder finishes the confirmed route."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-medium-od-arm-follow",
+			"arjun-soul-medium-light-arm",
+			"arjun-soul-medium-kick-light-shoulder"
+		]
+	},
+	{
+		"id": "arjun-soul-double-cancel-level3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Two Rush cancels into heavy Arm and Level 3",
+		"summary": "Commit six Drive and three Super bars to the demonstrated full cash-out.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush cancel", "Cash out", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > DRC > st.MP > st.MK > DRC > cr.HP > 236HP > 6P > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "236HP",
+				"label": "Heavy Arm of Justice"
+			},
+			{
+				"id": "step-8",
+				"notation": "6P",
+				"label": "Arm of Justice follow-up"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA3",
+				"label": "Yaksha’s Order (Level 3)"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Full Drive gauge for two Rush cancels",
+			"Level 3 available"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Two Drive Rush cancels (6 bars; enters Burnout)",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 545.35,
+			"end": 559.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-double-cancel-level3/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-double-cancel-level3/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-double-cancel-level3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-double-cancel-level3/frame-1.jpg",
+					"at": 0.3,
+					"label": "Medium confirm",
+					"alt": "Standing MP starts the six-Drive cash-out."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-double-cancel-level3/frame-2.jpg",
+					"at": 1.5,
+					"label": "First Rush links",
+					"alt": "The first Rush cancel links medium punch into medium kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-double-cancel-level3/frame-3.jpg",
+					"at": 2.2,
+					"label": "Second Rush heavy",
+					"alt": "The second Rush cancel leads into crouching HP and empties Drive."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-soul-double-cancel-level3/frame-4.jpg",
+					"at": 3.5,
+					"label": "Heavy Arm follow-up",
+					"alt": "Heavy Arm of Justice and its continuation bridge into Level 3."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/arjun/arjun-soul-double-cancel-level3/frame-5.jpg",
+					"at": 13.35,
+					"label": "Super finish",
+					"alt": "Dhalsim lands at the end of Yaksha’s Order."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-cancel-rush-medium-shoulder",
+			"arjun-soul-jab-chain-light-arm",
+			"arjun-soul-light-kick-light-arm"
+		]
+	},
+	{
+		"id": "arjun-soul-wall-ring-arm-follow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Wall splat through Breathing Ring into light Arm",
+		"summary": "Convert a blocked corner DI through the ring’s medium-punch branch without more Drive.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > cr.HP > 236LK > 6MP > 236LP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LK",
+				"label": "Light Breathing Ring"
+			},
+			{
+				"id": "step-4",
+				"notation": "6MP",
+				"label": "Medium Breathing Shockwave",
+				"cue": "Medium-punch Breathing Shockwave follow-up during the ring."
+			},
+			{
+				"id": "step-5",
+				"notation": "236LP",
+				"label": "Light Arm of Justice"
+			},
+			{
+				"id": "step-6",
+				"notation": "6P",
+				"label": "Arm of Justice follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Blocked Drive Impact at the wall",
+			"Medium-punch shockwave branch; not interchangeable with the other angles"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 571.08,
+			"end": 577.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-wall-ring-arm-follow/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-wall-ring-arm-follow/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-wall-ring-arm-follow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-wall-ring-arm-follow/frame-1.jpg",
+					"at": 0.62,
+					"label": "Wall splat",
+					"alt": "Blocked Drive Impact creates the corner Crush state."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-wall-ring-arm-follow/frame-2.jpg",
+					"at": 1.37,
+					"label": "Heavy juggle",
+					"alt": "Crouching heavy punch continues the wall-splat conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-wall-ring-arm-follow/frame-3.jpg",
+					"at": 2.57,
+					"label": "Ring and shockwave",
+					"alt": "Light Breathing Ring and its medium-punch follow-up continue the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-soul-wall-ring-arm-follow/frame-4.jpg",
+					"at": 4.12,
+					"label": "Arm follow-up",
+					"alt": "Light Arm of Justice and its continuation finish the route."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/arjun/arjun-soul-wall-ring-arm-follow/frame-5.jpg",
+					"at": 5.22,
+					"label": "Knockdown",
+					"alt": "Dhalsim lands after the final punch."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-medium-od-arm-follow",
+			"arjun-soul-crouching-heavy-od-arm",
+			"arjun-soul-jab-chain-light-arm"
+		]
+	},
+	{
+		"id": "arjun-soul-punish-medium-heavy-arm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Punish-counter medium punch into heavy Arm and follow-up",
+		"summary": "The standing-medium Punish Counter enables the heavy-special continuation.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > 236HP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HP",
+				"label": "Heavy Arm of Justice"
+			},
+			{
+				"id": "step-3",
+				"notation": "6P",
+				"label": "Arm of Justice follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Standing MP Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 681.18,
+			"end": 685.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-punish-medium-heavy-arm/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-punish-medium-heavy-arm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-punish-medium-heavy-arm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-punish-medium-heavy-arm/frame-1.jpg",
+					"at": 0.25,
+					"label": "Medium punish",
+					"alt": "Standing medium punch connects as Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-punish-medium-heavy-arm/frame-2.jpg",
+					"at": 0.92,
+					"label": "Heavy Arm",
+					"alt": "Heavy Arm of Justice follows the punish."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-punish-medium-heavy-arm/frame-3.jpg",
+					"at": 1.72,
+					"label": "Follow-up",
+					"alt": "The punch continuation completes the heavy-special route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-soul-punish-medium-heavy-arm/frame-4.jpg",
+					"at": 3.22,
+					"label": "Knockdown",
+					"alt": "Dhalsim recovers after the follow-up knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-medium-od-arm-follow",
+			"arjun-soul-medium-light-arm",
+			"arjun-soul-medium-kick-light-shoulder"
+		]
+	},
+	{
+		"id": "arjun-soul-perfect-parry-low-shoulder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Perfect-parry low punish into medium kick and shoulder",
+		"summary": "Practise the low punish after a successful Perfect Parry, retaining its damage scaling.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Perfect parry", "Punish counter", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "Perfect Parry > cr.MK > st.MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Perfect Parry",
+				"label": "Perfect Drive Parry"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "623LP",
+				"label": "Light Cruel Shoulder"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Successful Perfect Parry in the demonstrated exchange",
+			"Crouching MK Punish Counter",
+			"No Divine Pillar active for the ordinary Cruel Shoulder finish"
+		],
+		"notes": [
+			"The source’s reduced damage belongs to this Perfect Parry take; this is not the ordinary raw Punish Counter damage."
+		],
+		"resources": {
+			"drive": "Drive Parry; no OD or Rush spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 691.35,
+			"end": 695.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-soul-perfect-parry-low-shoulder/clip.mp4",
+			"poster": "/media/arjun/arjun-soul-perfect-parry-low-shoulder/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-soul-perfect-parry-low-shoulder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-soul-perfect-parry-low-shoulder/frame-1.jpg",
+					"at": 0.45,
+					"label": "Perfect Parry",
+					"alt": "The source shows a successful Perfect Parry before the punish."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-soul-perfect-parry-low-shoulder/frame-2.jpg",
+					"at": 1.3,
+					"label": "Low punish",
+					"alt": "Crouching medium kick starts the Punish Counter conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-soul-perfect-parry-low-shoulder/frame-3.jpg",
+					"at": 1.75,
+					"label": "Medium-kick link",
+					"alt": "Standing medium kick follows the low punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-soul-perfect-parry-low-shoulder/frame-4.jpg",
+					"at": 2.65,
+					"label": "Light Shoulder",
+					"alt": "Light Cruel Shoulder completes the conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/arjun/arjun-soul-perfect-parry-low-shoulder/frame-5.jpg",
+					"at": 3.45,
+					"label": "Knockdown",
+					"alt": "Dhalsim falls after the parry punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-soul-rush-low-medium-shoulder",
+			"arjun-soul-punish-medium-heavy-arm",
+			"arjun-soul-jab-chain-light-arm"
+		]
+	}
+]

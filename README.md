@@ -1,6 +1,6 @@
 # Hyper Chamber
 
-A visual fighting-game compendium for quick reference beside the game. The Street Fighter 6 / Dhalsim, Ryu, Akuma, Manon, Chun-Li and Guile libraries keep input notation, conditions, individual replay clips, selected frames, and quick notes together. It covers light confirms, punish routes, anti-air conversions, Drive Impact, corner/stun routes and midscreen/corner oki from reviewed tutorial footage.
+A visual fighting-game compendium for quick reference beside the game. All 32 released Street Fighter 6 characters have populated libraries with input notation, conditions, individual replay clips, selected frames, and quick notes. It covers light confirms, punish routes, anti-air conversions, Drive Impact, corner/stun routes and midscreen/corner oki from reviewed tutorial footage.
 
 Guides and longer lessons link to [SF6 Lab](https://sf6-lab.net/en/). Hyper Chamber focuses on finding and inspecting individual references.
 
@@ -22,7 +22,7 @@ pnpm build
 pnpm start
 ```
 
-The local MVP uses the Chamber palette and Hourglass H identity. Choose Dhalsim, Ryu, Akuma, Manon, Chun-Li or Guile, browse the tile library, filter by situation or your practice status, and open a reference in the dedicated practice view. Inputs sit above the replay. Back/Escape restores the originating tile and scroll position; Previous/Next follows the filtered set, and Ctrl/Cmd+K opens Quick switch. **Copy inputs** copies the authored sequence; if clipboard access is blocked, the selectable text notation opens instead.
+The local MVP uses the Chamber palette and Hourglass H identity. Choose a character, browse the tile library, filter by situation or your practice status, and open a reference in the dedicated practice view. Inputs sit above the replay. Back/Escape restores the originating tile and scroll position; Previous/Next follows the filtered set, and Ctrl/Cmd+K opens Quick switch. **Copy inputs** copies the authored sequence; if clipboard access is blocked, the selectable text notation opens instead.
 
 Tap the video to play or pause. Drag sideways anywhere on the picture to inspect from the current moment; releasing holds that moment. Vertical touch gestures scroll the page. The timestamp and progress line appear during inspection or keyboard focus, with one compact toolbar for playback, replay, looping, speed and **−0.25s / +0.25s** inspection. Looping defaults on and remembers your choice on this browser; playback starts only when requested.
 
@@ -42,17 +42,11 @@ Practice status is self-reported. Filtering it keeps the selected entry open, in
 
 ## Content and provenance
 
-The Dhalsim demonstrations are short, silent excerpts from [elieatscrayons' Dhalsim combo/oki tutorial](https://www.youtube.com/watch?v=UW6GlWHKy7o), published 4 July 2025. Each entry records the original source interval and review status. Source review confirms what the footage demonstrates; it does not establish validity on the current game patch. See the [source coverage index](docs/source-coverage.md) and [source audit](docs/source-audit.md).
+The [roster coverage index](docs/roster-source-coverage.md) links every character’s selected references, original intervals and deliberate omissions. The 26 newly added character libraries are starting collections, with coverage shaped by reliable source demonstrations. They are not exhaustive guides.
 
-Ryu adds selected demonstrations from Joe Ebios, ThisIsAMKIDD and オバハン. The [Ryu coverage and source review](docs/ryu-source-coverage.md) records each interval, source date, execution conditions and deliberate omissions.
+Each reference records its creator, original video, publication date, interval and review status. Source review confirms what the dated footage demonstrates; it does not establish validity on the current game patch. Charge, stocks, stance, install, poison, medals, drinks and prerequisite knockdowns are stated beside the routes that need them. Media originals and extraction workfiles stay outside Git.
 
-Akuma adds selected demonstrations from Joe Ebios' beginner and Classic guides. The [Akuma coverage and source review](docs/akuma-source-coverage.md) records the inspected intervals and omissions, including uncertain patch-sensitive setups. These entries remain source-reviewed; current-patch execution has not been tested in-game.
-
-Manon adds reviewed combo and setup demonstrations with medal-level and grab conditions kept beside each reference. The [Manon coverage and source review](docs/manon-source-coverage.md) records the selected intervals and source limits. Current-patch execution has not been tested in-game.
-
-Chun-Li adds reviewed combo and setup demonstrations with charge, stance and airborne transitions annotated beside their inputs. The [Chun-Li coverage and source review](docs/chunli-source-coverage.md) records the selected intervals and source limits. Current-patch execution has not been tested in-game.
-
-Character-only URLs use `?character=ryu`, `?character=akuma`, `?character=manon` or `?character=chunli`; existing `?entry=...` links infer their character. Search, Saved counts and Quick switch stay within the active character, while learner backups retain all characters.
+Character-only URLs use the profile ID, for example `?character=ken`, `?character=lily` or `?character=arjun`; existing `?entry=...` links infer their character. Search, Saved counts and Quick switch stay within the active character, while learner backups retain all characters.
 
 This repository starts private. No open-source license or public media redistribution policy has been chosen. Attribution and source records must accompany media; public publication requires a separate asset review.
 
@@ -65,5 +59,3 @@ This repository starts private. No open-source license or public media redistrib
 - `docs`: product, source, design, and architecture decisions.
 
 The repository starts on `develop`. Feature changes are reviewed through pull requests. CI verifies changes and does not deploy or publish the application. A release branch and deployment target can be introduced when needed.
-
-Guile adds 55 reviewed references with basic charge confirms, standing/crouching Boom-loop variants, punish cash-outs, normal anti-air responses and qualified setplays. The [Guile coverage and source review](docs/guile-source-coverage.md) records all 317 moments, dated-source limits and selected intervals. Current-patch execution has not been tested in-game.

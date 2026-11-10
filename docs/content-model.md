@@ -1,6 +1,6 @@
 # Reference content model
 
-The runtime schema in `packages/reference` is shared by the reader and content checks. The curated SF6 catalogs are `content/games/sf6/references/dhalsim.json`, `ryu.json`, `akuma.json`, `manon.json` and `chunli.json`. Validation combines all JSON catalogs in the SF6 reference directory, so IDs and related links are checked across files.
+The runtime schema in `packages/reference` is shared by the reader and content checks. The curated SF6 catalogs live in `content/games/sf6/references/<characterId>.json`. The reader discovers every direct JSON file in that directory; validation combines them so IDs and related links are checked across files. Adding a populated character requires its catalog, game profile, source records, prepared media manifest/assets and coverage document. The [roster index](roster-source-coverage.md) links the shipped collections.
 
 - `id` is stable; `revision` changes when execution or its conditions materially change.
 - `kind` describes combo, setup, or response; `situations` describes when it applies; `outcomes` describes what it achieves.
@@ -18,7 +18,7 @@ Browser notes/status/favorites use a separate versioned JSON envelope. Unknown v
 
 ## Game and participant context
 
-`content/games/<gameId>/game.json` defines game-facing labels and help. References are grouped under that game's `references/` directory. The populated character catalogs are Dhalsim, Ryu, Akuma, Manon, Chun-Li and Guile. A character profile can append notation terms and override guide links; shared game notation remains common.
+`content/games/<gameId>/game.json` defines game-facing labels and help. References are grouped under that game's `references/` directory. All 32 released SF6 characters have populated catalogs. A character profile can append notation terms and override guide links; shared game notation remains common.
 
 - `gameId` identifies the rules and vocabulary context. Profile-aware catalog validation checks character IDs and resource keys against that game definition.
 - `participants` contains local participant IDs and game-scoped character IDs; it can represent more than one performer without fixing permanent team roles.

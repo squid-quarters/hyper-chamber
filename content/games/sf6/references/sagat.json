@@ -1,0 +1,1189 @@
+[
+	{
+		"id": "sagat-vesper-low-medium-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Low lights into medium Tiger Uppercut",
+		"summary": "A meterless low-light chain that keeps the standing-jab link before the Uppercut.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > st.LP > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623MP",
+				"label": "Medium Tiger Uppercut"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 15.7,
+			"end": 20.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-low-medium-uppercut/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-low-medium-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-low-medium-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-low-medium-uppercut/frame-1.jpg",
+					"at": 0.9,
+					"label": "Low lights",
+					"alt": "Crouching light kick and jab start the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-low-medium-uppercut/frame-2.jpg",
+					"at": 1.7,
+					"label": "Standing jab",
+					"alt": "Standing LP precedes the special cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-low-medium-uppercut/frame-3.jpg",
+					"at": 2.7,
+					"label": "Medium Uppercut",
+					"alt": "Medium Tiger Uppercut finishes the light chain."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-low-light-knee",
+			"sagat-vesper-low-nexus-light-follow",
+			"sagat-vesper-low-nexus-medium-follow"
+		]
+	},
+	{
+		"id": "sagat-vesper-low-light-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Low kick and jab into light Tiger Knee",
+		"summary": "A short two-light confirm with the meterless light-knee finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > st.LP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LK",
+				"label": "Light Tiger Knee Crush"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 26.8,
+			"end": 31.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-low-light-knee/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-low-light-knee/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-low-light-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-low-light-knee/frame-1.jpg",
+					"at": 0.8,
+					"label": "Low starter",
+					"alt": "Crouching light kick begins the short confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-low-light-knee/frame-2.jpg",
+					"at": 1.4,
+					"label": "Jab cancel",
+					"alt": "Standing light punch leads into light Tiger Knee."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-low-light-knee/frame-3.jpg",
+					"at": 2.3,
+					"label": "Light Knee finish",
+					"alt": "The light knee sends Luke into knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-low-medium-uppercut",
+			"sagat-vesper-low-nexus-light-follow",
+			"sagat-vesper-low-nexus-medium-follow"
+		]
+	},
+	{
+		"id": "sagat-vesper-low-nexus-light-follow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Low lights into light Tiger Nexus and light follow-up",
+		"summary": "Practise the separate light-kick continuation after the meterless Nexus entry.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Nexus follow-up"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > st.LP > 214LK > 6LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LK",
+				"label": "Light Tiger Nexus"
+			},
+			{
+				"id": "step-4",
+				"notation": "6LK",
+				"label": "Mighty Tiger follow-up"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 32.3,
+			"end": 36.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-low-nexus-light-follow/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-low-nexus-light-follow/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-low-nexus-light-follow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-low-nexus-light-follow/frame-1.jpg",
+					"at": 0.8,
+					"label": "Light confirm",
+					"alt": "The low kick and standing jab connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-low-nexus-light-follow/frame-2.jpg",
+					"at": 1.7,
+					"label": "Nexus entry",
+					"alt": "Light Tiger Nexus continues the route."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-low-nexus-light-follow/frame-3.jpg",
+					"at": 2.5,
+					"label": "Light follow-up",
+					"alt": "The forward-light-kick continuation connects."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-low-nexus-medium-follow",
+			"sagat-vesper-low-medium-uppercut",
+			"sagat-vesper-low-light-knee"
+		]
+	},
+	{
+		"id": "sagat-vesper-low-nexus-medium-follow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Low lights into light Nexus and medium follow-up",
+		"summary": "Use the forward-medium-kick Nexus branch against the demonstrated standing opponent.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Nexus follow-up"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > st.LP > 214LK > 6MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LK",
+				"label": "Light Tiger Nexus"
+			},
+			{
+				"id": "step-4",
+				"notation": "6MK",
+				"label": "Greedy Tiger follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing opponent; the source warns this follow-up whiffs on crouchers"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 37.5,
+			"end": 42.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-low-nexus-medium-follow/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-low-nexus-medium-follow/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-low-nexus-medium-follow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-low-nexus-medium-follow/frame-1.jpg",
+					"at": 1.0,
+					"label": "Low confirm",
+					"alt": "The close low kick and standing jab connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-low-nexus-medium-follow/frame-2.jpg",
+					"at": 1.8,
+					"label": "Nexus entry",
+					"alt": "Light Tiger Nexus leads into its selected follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-low-nexus-medium-follow/frame-3.jpg",
+					"at": 2.6,
+					"label": "Medium follow-up",
+					"alt": "The forward-medium-kick continuation hits the standing opponent."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-low-nexus-light-follow",
+			"sagat-vesper-low-medium-uppercut",
+			"sagat-vesper-low-light-knee"
+		]
+	},
+	{
+		"id": "sagat-vesper-low-level1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Low lights into Level 1",
+		"summary": "Spend one Super bar directly from the low-light chain.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > st.LP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Tiger Cannon (Level 1)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 49.7,
+			"end": 55.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-low-level1/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-low-level1/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-low-level1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-low-level1/frame-1.jpg",
+					"at": 0.9,
+					"label": "Light confirm",
+					"alt": "Crouching lights lead into standing LP."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-low-level1/frame-2.jpg",
+					"at": 2.3,
+					"label": "Super cancel",
+					"alt": "Sagat starts Level 1 after the jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-low-level1/frame-3.jpg",
+					"at": 3.7,
+					"label": "Super finish",
+					"alt": "The one-bar Super completes the light confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-low-uppercut-level3",
+			"sagat-vesper-low-medium-uppercut",
+			"sagat-vesper-low-light-knee"
+		]
+	},
+	{
+		"id": "sagat-vesper-low-uppercut-level3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Low lights through medium Uppercut into Level 3",
+		"summary": "Use the medium Uppercut to bridge a two-light confirm into a three-bar finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > 623MP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623MP",
+				"label": "Medium Tiger Uppercut"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA3",
+				"label": "Tiger Vanquisher (Level 3)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 67.5,
+			"end": 80.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-low-uppercut-level3/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-low-uppercut-level3/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-low-uppercut-level3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-low-uppercut-level3/frame-1.jpg",
+					"at": 1.2,
+					"label": "Low confirm",
+					"alt": "The low kick and crouching jab connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-low-uppercut-level3/frame-2.jpg",
+					"at": 1.9,
+					"label": "Uppercut bridge",
+					"alt": "Medium Tiger Uppercut bridges into Level 3."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-low-uppercut-level3/frame-3.jpg",
+					"at": 5.5,
+					"label": "Level 3",
+					"alt": "The cinematic three-bar Super continues the confirm."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/sagat/sagat-vesper-low-uppercut-level3/frame-4.jpg",
+					"at": 11.6,
+					"label": "Hard knockdown",
+					"alt": "Luke falls at the end of the Level 3 sequence."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-low-level1",
+			"sagat-vesper-low-medium-uppercut",
+			"sagat-vesper-low-light-knee"
+		]
+	},
+	{
+		"id": "sagat-vesper-medium-od-shot-level1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Crouching medium into OD Tiger Shot and Level 1",
+		"summary": "Spend two Drive and one Super bar on the OD-projectile conversion.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Super finish", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > 236MPHP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MPHP",
+				"label": "OD High Tiger Shot (MP+HP)"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA1",
+				"label": "Tiger Cannon (Level 1)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 119.7,
+			"end": 126.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-medium-od-shot-level1/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-medium-od-shot-level1/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-medium-od-shot-level1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-medium-od-shot-level1/frame-1.jpg",
+					"at": 0.8,
+					"label": "Confirm into OD",
+					"alt": "The crouching-medium confirm leads into the OD projectile."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-medium-od-shot-level1/frame-2.jpg",
+					"at": 1.5,
+					"label": "OD Tiger Shot",
+					"alt": "The MP+HP OD projectile connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-medium-od-shot-level1/frame-3.jpg",
+					"at": 2.9,
+					"label": "Level 1 juggle",
+					"alt": "The one-bar Super follows the OD projectile."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-low-level1",
+			"sagat-vesper-low-uppercut-level3",
+			"sagat-vesper-back-heavy-shot-uppercut"
+		]
+	},
+	{
+		"id": "sagat-vesper-back-heavy-shot-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Back heavy punch through medium shot into heavy Uppercut",
+		"summary": "A meterless back-heavy-punch juggle using a medium projectile before the Uppercut.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.HP > 236MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MP",
+				"label": "Medium High Tiger Shot"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HP",
+				"label": "Heavy Tiger Uppercut"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 143.6,
+			"end": 148.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-back-heavy-shot-uppercut/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-back-heavy-shot-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-back-heavy-shot-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-back-heavy-shot-uppercut/frame-1.jpg",
+					"at": 1.0,
+					"label": "Back-heavy starter",
+					"alt": "Back heavy punch begins the meterless heavy conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-back-heavy-shot-uppercut/frame-2.jpg",
+					"at": 1.9,
+					"label": "Medium projectile",
+					"alt": "The medium Tiger Shot continues the juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-back-heavy-shot-uppercut/frame-3.jpg",
+					"at": 2.9,
+					"label": "Heavy Uppercut",
+					"alt": "Heavy Tiger Uppercut catches the airborne opponent."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-medium-od-shot-level1",
+			"sagat-vesper-anti-air-back-heavy-held",
+			"sagat-vesper-low-medium-uppercut"
+		]
+	},
+	{
+		"id": "sagat-vesper-wall-held-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Wall splat into back heavy and held heavy Uppercut",
+		"summary": "Convert a blocked corner DI and hold the heavy Uppercut for its additional finish.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > b.HP > 623HP (hold)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HP (hold)",
+				"label": "Held heavy Tiger Uppercut",
+				"cue": "Hold HP for the enhanced Uppercut finish shown; do not tap."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Blocked Drive Impact at the wall",
+			"Hold heavy Uppercut rather than tap"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 233.2,
+			"end": 241.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-wall-held-uppercut/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-wall-held-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-wall-held-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-wall-held-uppercut/frame-1.jpg",
+					"at": 1.8,
+					"label": "Wall splat",
+					"alt": "Drive Impact creates the blue Crush wall-splat state."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-wall-held-uppercut/frame-2.jpg",
+					"at": 2.8,
+					"label": "Back-heavy link",
+					"alt": "Back heavy punch juggles Luke after wall splat."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-wall-held-uppercut/frame-3.jpg",
+					"at": 4.0,
+					"label": "Held Uppercut",
+					"alt": "The held heavy Uppercut connects."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/sagat/sagat-vesper-wall-held-uppercut/frame-4.jpg",
+					"at": 5.0,
+					"label": "Extra finish",
+					"alt": "The held version adds the demonstrated finishing strike."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-wall-heavy-knee-uppercut",
+			"sagat-vesper-medium-od-shot-level1",
+			"sagat-vesper-back-heavy-shot-uppercut"
+		]
+	},
+	{
+		"id": "sagat-vesper-wall-heavy-knee-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Wall splat through heavy Tiger Knee into medium Uppercut",
+		"summary": "A second blocked-DI conversion that uses heavy Knee before the medium Uppercut.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > b.HP > 236HK > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "Heavy Tiger Knee Crush"
+			},
+			{
+				"id": "step-4",
+				"notation": "623MP",
+				"label": "Medium Tiger Uppercut"
+			}
+		],
+		"conditions": ["Classic controls", "Blocked Drive Impact at the wall"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 242.5,
+			"end": 249.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-wall-heavy-knee-uppercut/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-wall-heavy-knee-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-wall-heavy-knee-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-wall-heavy-knee-uppercut/frame-1.jpg",
+					"at": 1.7,
+					"label": "Wall splat",
+					"alt": "Blocked Drive Impact creates the wall-splat state."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-wall-heavy-knee-uppercut/frame-2.jpg",
+					"at": 2.6,
+					"label": "Heavy starter",
+					"alt": "Back heavy punch continues the corner juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-wall-heavy-knee-uppercut/frame-3.jpg",
+					"at": 3.5,
+					"label": "Heavy Knee",
+					"alt": "Heavy Tiger Knee lifts Luke before the Uppercut finish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/sagat/sagat-vesper-wall-heavy-knee-uppercut/frame-4.jpg",
+					"at": 4.6,
+					"label": "Medium Uppercut",
+					"alt": "Medium Tiger Uppercut completes the selected route."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-wall-held-uppercut",
+			"sagat-vesper-medium-od-shot-level1",
+			"sagat-vesper-back-heavy-shot-uppercut"
+		]
+	},
+	{
+		"id": "sagat-vesper-punish-light-heavy-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Punish-counter light kick into heavy Uppercut",
+		"summary": "A quick meterless punish using the standing-light-kick starter.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "623HP",
+				"label": "Heavy Tiger Uppercut"
+			}
+		],
+		"conditions": ["Classic controls", "Standing LK Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 263.5,
+			"end": 267.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-punish-light-heavy-uppercut/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-punish-light-heavy-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-punish-light-heavy-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-punish-light-heavy-uppercut/frame-1.jpg",
+					"at": 1.0,
+					"label": "Light-kick punish",
+					"alt": "Standing light kick hits as Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-punish-light-heavy-uppercut/frame-2.jpg",
+					"at": 1.7,
+					"label": "Heavy Uppercut",
+					"alt": "The heavy Uppercut follows the light-kick punish."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-punish-light-heavy-uppercut/frame-3.jpg",
+					"at": 2.9,
+					"label": "Finish",
+					"alt": "Luke lands after the Uppercut finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-low-medium-uppercut",
+			"sagat-vesper-low-light-knee",
+			"sagat-vesper-low-nexus-light-follow"
+		]
+	},
+	{
+		"id": "sagat-vesper-anti-air-back-heavy-held",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Anti-air back heavy punch into held heavy Uppercut",
+		"summary": "Catch the shown forward jump with back HP and hold the Uppercut follow-up.",
+		"kind": "combo",
+		"situations": ["Anti-air", "Midscreen", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.HP > 623HP (hold)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "623HP (hold)",
+				"label": "Held heavy Tiger Uppercut",
+				"cue": "Hold HP for the additional Uppercut finish shown."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The demonstrated forward-jump height and spacing",
+			"Hold heavy Uppercut rather than tap"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 627.4,
+			"end": 633.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-anti-air-back-heavy-held/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-anti-air-back-heavy-held/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-anti-air-back-heavy-held/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-anti-air-back-heavy-held/frame-1.jpg",
+					"at": 1.2,
+					"label": "Anti-air back HP",
+					"alt": "Back heavy punch catches the demonstrated jump."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-anti-air-back-heavy-held/frame-2.jpg",
+					"at": 2.6,
+					"label": "Held Uppercut",
+					"alt": "The held heavy Uppercut follows the anti-air."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-anti-air-back-heavy-held/frame-3.jpg",
+					"at": 3.6,
+					"label": "Additional strike",
+					"alt": "The held version adds its extra finishing hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/sagat/sagat-vesper-anti-air-back-heavy-held/frame-4.jpg",
+					"at": 5.2,
+					"label": "Knockdown",
+					"alt": "Luke lands after the anti-air conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-medium-od-shot-level1",
+			"sagat-vesper-back-heavy-shot-uppercut",
+			"sagat-vesper-low-medium-uppercut"
+		]
+	},
+	{
+		"id": "sagat-vesper-medium-od-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Crouching medium punch into OD Tiger Knee Crush",
+		"summary": "Spend two Drive bars on a short medium-starter knee conversion.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > 236KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236KK",
+				"label": "OD Tiger Knee Crush"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 113.6,
+			"end": 118.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-vesper-medium-od-knee/clip.mp4",
+			"poster": "/media/sagat/sagat-vesper-medium-od-knee/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-vesper-medium-od-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-vesper-medium-od-knee/frame-1.jpg",
+					"at": 0.9,
+					"label": "Medium confirm",
+					"alt": "Crouching medium punch leads into the OD cancel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-vesper-medium-od-knee/frame-2.jpg",
+					"at": 1.7,
+					"label": "OD Knee",
+					"alt": "OD Tiger Knee Crush carries Luke upward."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-vesper-medium-od-knee/frame-3.jpg",
+					"at": 2.8,
+					"label": "Knockdown",
+					"alt": "Luke falls at the end of the OD knee."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-medium-od-shot-level1",
+			"sagat-vesper-low-medium-uppercut",
+			"sagat-vesper-low-light-knee"
+		]
+	}
+]

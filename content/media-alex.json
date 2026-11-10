@@ -1,0 +1,115 @@
+{
+	"sourceIds": ["vesperarcade-alex-2026"],
+	"publicationStatus": "private-development",
+	"presentationNote": "Complete source frame retained without crop, including source annotations and game HUD. Original recordings remain outside Git.",
+	"assets": [
+		{
+			"referenceId": "alex-vesper-low-light-axe",
+			"sourceId": "vesperarcade-alex-2026",
+			"sourceStart": 16.5,
+			"sourceEnd": 21.65,
+			"clip": "/media/alex/alex-vesper-low-light-axe/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "alex-vesper-low-heavy-knee",
+			"sourceId": "vesperarcade-alex-2026",
+			"sourceStart": 22.8,
+			"sourceEnd": 28.8,
+			"clip": "/media/alex/alex-vesper-low-heavy-knee/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "alex-vesper-low-level1",
+			"sourceId": "vesperarcade-alex-2026",
+			"sourceStart": 29.6,
+			"sourceEnd": 35.7,
+			"clip": "/media/alex/alex-vesper-low-level1/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "alex-vesper-low-od-knee",
+			"sourceId": "vesperarcade-alex-2026",
+			"sourceStart": 36.85,
+			"sourceEnd": 44.0,
+			"clip": "/media/alex/alex-vesper-low-od-knee/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "alex-vesper-low-od-axe-level2",
+			"sourceId": "vesperarcade-alex-2026",
+			"sourceStart": 45.1,
+			"sourceEnd": 55.15,
+			"clip": "/media/alex/alex-vesper-low-od-axe-level2/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "alex-vesper-low-light-axe-level3",
+			"sourceId": "vesperarcade-alex-2026",
+			"sourceStart": 56.45,
+			"sourceEnd": 69.1,
+			"clip": "/media/alex/alex-vesper-low-light-axe-level3/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "alex-vesper-back-medium-light-axe",
+			"sourceId": "vesperarcade-alex-2026",
+			"sourceStart": 74.0,
+			"sourceEnd": 78.1,
+			"clip": "/media/alex/alex-vesper-back-medium-light-axe/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "alex-vesper-back-medium-heavy-knee",
+			"sourceId": "vesperarcade-alex-2026",
+			"sourceStart": 79.5,
+			"sourceEnd": 85.6,
+			"clip": "/media/alex/alex-vesper-back-medium-heavy-knee/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "alex-vesper-standing-medium-axe",
+			"sourceId": "vesperarcade-alex-2026",
+			"sourceStart": 86.65,
+			"sourceEnd": 92.5,
+			"clip": "/media/alex/alex-vesper-standing-medium-axe/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "alex-vesper-held-heavy-jab-knee",
+			"sourceId": "vesperarcade-alex-2026",
+			"sourceStart": 102.5,
+			"sourceEnd": 108.3,
+			"clip": "/media/alex/alex-vesper-held-heavy-jab-knee/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "alex-vesper-wall-stance-medium-knee",
+			"sourceId": "vesperarcade-alex-2026",
+			"sourceStart": 159.65,
+			"sourceEnd": 167.65,
+			"clip": "/media/alex/alex-vesper-wall-stance-medium-knee/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "alex-vesper-punish-jab-medium-axe",
+			"sourceId": "vesperarcade-alex-2026",
+			"sourceStart": 214.2,
+			"sourceEnd": 218.25,
+			"clip": "/media/alex/alex-vesper-punish-jab-medium-axe/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		}
+	]
+}

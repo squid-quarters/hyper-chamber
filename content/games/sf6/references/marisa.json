@@ -1,0 +1,1506 @@
+[
+	{
+		"id": "marisa-ebios-three-jabs-light-dimachaerus",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Three crouching jabs into light Dimachaerus",
+		"summary": "Use the close light chain and complete the special’s forward-punch follow-up.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2LP > 2LP > 214LP > ~6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP",
+				"label": "Light Dimachaerus"
+			},
+			{
+				"id": "step-5",
+				"notation": "~6P",
+				"label": "Forward-punch follow-up"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 3.05,
+			"end": 7.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-three-jabs-light-dimachaerus/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-three-jabs-light-dimachaerus/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-three-jabs-light-dimachaerus/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-three-jabs-light-dimachaerus/frame-1.jpg",
+					"at": 0.55,
+					"label": "Light chain",
+					"alt": "Crouching jabs start the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-three-jabs-light-dimachaerus/frame-2.jpg",
+					"at": 1.45,
+					"label": "Dimachaerus",
+					"alt": "Light Dimachaerus follows the jab chain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-three-jabs-light-dimachaerus/frame-3.jpg",
+					"at": 2.05,
+					"label": "Forward-punch follow-up",
+					"alt": "The forward-punch continuation finishes the special."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/marisa/marisa-ebios-three-jabs-light-dimachaerus/frame-4.jpg",
+					"at": 3.15,
+					"label": "Knockdown",
+					"alt": "Ryu recovers from the meterless knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-counter-jab-light-kick-dimachaerus",
+			"marisa-ebios-counter-light-target-medium-dimachaerus",
+			"marisa-ebios-medium-target-od-held-heavy"
+		]
+	},
+	{
+		"id": "marisa-ebios-counter-jab-light-kick-dimachaerus",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Counter-hit jab: light kick into Dimachaerus",
+		"summary": "Link standing light kick after a counter-hit crouching jab and finish with light Dimachaerus.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 5LK > 214LP > ~6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "Light Dimachaerus"
+			},
+			{
+				"id": "step-4",
+				"notation": "~6P",
+				"label": "Forward-punch follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching light punch Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 96.15,
+			"end": 100.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-counter-jab-light-kick-dimachaerus/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-counter-jab-light-kick-dimachaerus/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-counter-jab-light-kick-dimachaerus/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-counter-jab-light-kick-dimachaerus/frame-1.jpg",
+					"at": 0.85,
+					"label": "Counter-hit jab",
+					"alt": "Crouching jab counter-hits the recorded action."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-counter-jab-light-kick-dimachaerus/frame-2.jpg",
+					"at": 1.3,
+					"label": "Light-kick link",
+					"alt": "Standing light kick links from the counter-hit jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-counter-jab-light-kick-dimachaerus/frame-3.jpg",
+					"at": 1.85,
+					"label": "Dimachaerus follow-up",
+					"alt": "The light special and forward-punch continuation finish the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-counter-light-target-medium-dimachaerus",
+			"marisa-ebios-three-jabs-light-dimachaerus",
+			"marisa-ebios-overhead-counter-jab-dimachaerus"
+		]
+	},
+	{
+		"id": "marisa-ebios-counter-light-target-medium-dimachaerus",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Counter-hit light target into medium Dimachaerus",
+		"summary": "Use the light-punch target continuation and medium Dimachaerus after a counter-hit standing jab.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Target combo", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "5LP > ~LP > 214MP > ~6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "~LP",
+				"label": "Light target continuation"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP",
+				"label": "Medium Dimachaerus"
+			},
+			{
+				"id": "step-4",
+				"notation": "~6P",
+				"label": "Forward-punch follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Standing light punch Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 101.1,
+			"end": 104.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-counter-light-target-medium-dimachaerus/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-counter-light-target-medium-dimachaerus/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-counter-light-target-medium-dimachaerus/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-counter-light-target-medium-dimachaerus/frame-1.jpg",
+					"at": 0.55,
+					"label": "Counter-hit starter",
+					"alt": "Standing light punch starts the counter-hit target route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-counter-light-target-medium-dimachaerus/frame-2.jpg",
+					"at": 0.9,
+					"label": "Target continuation",
+					"alt": "The second light-punch target press continues the confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-counter-light-target-medium-dimachaerus/frame-3.jpg",
+					"at": 1.9,
+					"label": "Medium follow-up",
+					"alt": "Medium Dimachaerus and its forward-punch continuation knock Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-counter-jab-light-kick-dimachaerus",
+			"marisa-ebios-three-jabs-light-dimachaerus",
+			"marisa-ebios-medium-target-od-held-heavy"
+		]
+	},
+	{
+		"id": "marisa-ebios-medium-target-od-held-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Medium target: OD Dimachaerus into held heavy",
+		"summary": "Use OD Dimachaerus’s launch to add the shown held standing heavy punch.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Target combo", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MP > ~MP > 214PP > ~6P > 5HP (hold)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "~MP",
+				"label": "Medium target continuation"
+			},
+			{
+				"id": "step-3",
+				"notation": "214PP",
+				"label": "OD Dimachaerus"
+			},
+			{
+				"id": "step-4",
+				"notation": "~6P",
+				"label": "Forward-punch follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "5HP (hold)",
+				"label": "Held standing heavy punch"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The caption says “any” after the OD special. This entry authors the held standing-heavy finish actually performed."
+		],
+		"resources": {
+			"drive": "OD Dimachaerus",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 626.15,
+			"end": 631.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-medium-target-od-held-heavy/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-medium-target-od-held-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-medium-target-od-held-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-medium-target-od-held-heavy/frame-1.jpg",
+					"at": 0.85,
+					"label": "Medium target",
+					"alt": "The two medium-punch target presses start the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-medium-target-od-held-heavy/frame-2.jpg",
+					"at": 1.85,
+					"label": "OD Dimachaerus",
+					"alt": "OD Dimachaerus launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-medium-target-od-held-heavy/frame-3.jpg",
+					"at": 3.05,
+					"label": "Forward-punch continuation",
+					"alt": "The OD special’s forward-punch continuation extends the launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/marisa/marisa-ebios-medium-target-od-held-heavy/frame-4.jpg",
+					"at": 4.05,
+					"label": "Held-heavy finish",
+					"alt": "The held standing heavy punch completes the demonstrated juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-corner-medium-rush-quadriga-phalanx",
+			"marisa-ebios-medium-target-double-rush-level-three",
+			"marisa-ebios-counter-light-target-medium-dimachaerus"
+		]
+	},
+	{
+		"id": "marisa-ebios-corner-medium-rush-quadriga-phalanx",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Corner medium target: Rush into OD Quadriga and Phalanx",
+		"summary": "Spend Rush and OD Quadriga to extend the medium target route beside the wall.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Target combo", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MP > ~MP > DRC > 4HP > 236KK > 4HP > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "~MP",
+				"label": "Medium target continuation"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "4HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236KK",
+				"label": "OD Quadriga"
+			},
+			{
+				"id": "step-6",
+				"notation": "4HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "623MP",
+				"label": "Medium Phalanx"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush and OD Quadriga",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 633.1,
+			"end": 638.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-corner-medium-rush-quadriga-phalanx/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-corner-medium-rush-quadriga-phalanx/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-corner-medium-rush-quadriga-phalanx/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-corner-medium-rush-quadriga-phalanx/frame-1.jpg",
+					"at": 0.5,
+					"label": "Medium target",
+					"alt": "The medium target route begins beside the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-corner-medium-rush-quadriga-phalanx/frame-2.jpg",
+					"at": 0.9,
+					"label": "Rush back heavy",
+					"alt": "Rush back heavy punch links into the OD kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-corner-medium-rush-quadriga-phalanx/frame-3.jpg",
+					"at": 1.9,
+					"label": "OD Quadriga",
+					"alt": "OD Quadriga continues the corner launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/marisa/marisa-ebios-corner-medium-rush-quadriga-phalanx/frame-4.jpg",
+					"at": 2.9,
+					"label": "Back-heavy pickup",
+					"alt": "Back heavy punch picks up the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/marisa/marisa-ebios-corner-medium-rush-quadriga-phalanx/frame-5.jpg",
+					"at": 3.9,
+					"label": "Phalanx finish",
+					"alt": "Medium Phalanx completes the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-medium-target-od-held-heavy",
+			"marisa-ebios-medium-target-double-rush-level-three",
+			"marisa-ebios-corner-crouching-medium-punish-quadriga"
+		]
+	},
+	{
+		"id": "marisa-ebios-medium-target-double-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Medium-target cash-out: double Rush into Level 3",
+		"summary": "Extend through two Rush cancels and heavy Dimachaerus, then heavy Gladius into Level 3.",
+		"kind": "combo",
+		"situations": [
+			"Midscreen",
+			"Medium confirm",
+			"Target combo",
+			"Drive Rush",
+			"Cash out",
+			"Super finish"
+		],
+		"outcomes": ["Knockdown"],
+		"notation": "5MP > ~MP > DRC > 4HP > DRC > 5MK > 4HP > 214HP > ~6P > 236HP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "~MP",
+				"label": "Medium target continuation"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "4HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "5MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "4HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "214HP",
+				"label": "Heavy Dimachaerus"
+			},
+			{
+				"id": "step-9",
+				"notation": "~6P",
+				"label": "Forward-punch follow-up"
+			},
+			{
+				"id": "step-10",
+				"notation": "236HP",
+				"label": "Heavy Gladius"
+			},
+			{
+				"id": "step-11",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "Enough Drive for both cancel Rushes", "Three Super stocks"],
+		"notes": [],
+		"resources": {
+			"drive": "Two cancel Drive Rushes; burnout in the take",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 640.05,
+			"end": 650.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-medium-target-double-rush-level-three/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-medium-target-double-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-medium-target-double-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-medium-target-double-rush-level-three/frame-1.jpg",
+					"at": 0.95,
+					"label": "First Rush",
+					"alt": "The medium target cancels into Rush back heavy."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-medium-target-double-rush-level-three/frame-2.jpg",
+					"at": 2.45,
+					"label": "Second Rush",
+					"alt": "The second Rush leads into medium kick and back heavy."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-medium-target-double-rush-level-three/frame-3.jpg",
+					"at": 3.95,
+					"label": "Heavy Dimachaerus",
+					"alt": "Heavy Dimachaerus and its continuation launch Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/marisa/marisa-ebios-medium-target-double-rush-level-three/frame-4.jpg",
+					"at": 5.95,
+					"label": "Level 3 activation",
+					"alt": "Heavy Gladius cancels into Level 3."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/marisa/marisa-ebios-medium-target-double-rush-level-three/frame-5.jpg",
+					"at": 9.65,
+					"label": "Hard knockdown",
+					"alt": "The Super ends in a hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-medium-target-od-held-heavy",
+			"marisa-ebios-corner-medium-rush-quadriga-phalanx",
+			"marisa-ebios-counter-light-target-medium-dimachaerus"
+		]
+	},
+	{
+		"id": "marisa-ebios-corner-crouching-medium-punish-quadriga",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Crouching-medium punish: OD Quadriga into Phalanx",
+		"summary": "Convert a crouching-medium Punish Counter beside the wall without a Rush cancel.",
+		"kind": "combo",
+		"situations": ["Corner", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP > 236KK > 4HP > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236KK",
+				"label": "OD Quadriga"
+			},
+			{
+				"id": "step-3",
+				"notation": "4HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623MP",
+				"label": "Medium Phalanx"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching medium punch Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "OD Quadriga",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 659.05,
+			"end": 664.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-corner-crouching-medium-punish-quadriga/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-corner-crouching-medium-punish-quadriga/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-corner-crouching-medium-punish-quadriga/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-corner-crouching-medium-punish-quadriga/frame-1.jpg",
+					"at": 0.95,
+					"label": "Medium punish",
+					"alt": "Crouching medium punch connects as Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-corner-crouching-medium-punish-quadriga/frame-2.jpg",
+					"at": 1.65,
+					"label": "OD Quadriga",
+					"alt": "The OD kick launches Ryu beside the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-corner-crouching-medium-punish-quadriga/frame-3.jpg",
+					"at": 2.35,
+					"label": "Back-heavy pickup",
+					"alt": "Back heavy punch links into the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/marisa/marisa-ebios-corner-crouching-medium-punish-quadriga/frame-4.jpg",
+					"at": 2.95,
+					"label": "Phalanx finish",
+					"alt": "Medium Phalanx finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-corner-counter-di-held-quadriga",
+			"marisa-ebios-corner-medium-rush-quadriga-phalanx",
+			"marisa-ebios-wall-splat-od-phalanx-held-kick"
+		]
+	},
+	{
+		"id": "marisa-ebios-overhead-counter-jab-dimachaerus",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Overhead Counter Hit: jab into light Dimachaerus",
+		"summary": "Convert the forward-medium overhead Counter Hit with crouching jab and the light-special route.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Overhead", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "6MP > 2LP > 214LP > ~6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6MP",
+				"label": "Forward-medium overhead"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "Light Dimachaerus"
+			},
+			{
+				"id": "step-4",
+				"notation": "~6P",
+				"label": "Forward-punch follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Forward medium punch Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 671.05,
+			"end": 675.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-overhead-counter-jab-dimachaerus/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-overhead-counter-jab-dimachaerus/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-overhead-counter-jab-dimachaerus/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-overhead-counter-jab-dimachaerus/frame-1.jpg",
+					"at": 0.55,
+					"label": "Overhead starter",
+					"alt": "Forward medium punch begins the overhead approach."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-overhead-counter-jab-dimachaerus/frame-2.jpg",
+					"at": 0.95,
+					"label": "Counter-hit conversion",
+					"alt": "The overhead counter-hits the recorded action."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-overhead-counter-jab-dimachaerus/frame-3.jpg",
+					"at": 1.15,
+					"label": "Jab pickup",
+					"alt": "Crouching jab links into light Dimachaerus."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/marisa/marisa-ebios-overhead-counter-jab-dimachaerus/frame-4.jpg",
+					"at": 2.45,
+					"label": "Special follow-up",
+					"alt": "The forward-punch continuation completes the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-counter-jab-light-kick-dimachaerus",
+			"marisa-ebios-counter-light-target-medium-dimachaerus",
+			"marisa-ebios-three-jabs-light-dimachaerus"
+		]
+	},
+	{
+		"id": "marisa-ebios-shimmy-back-heavy-medium-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Shimmy punish: back heavy into medium target",
+		"summary": "Step out of the recorded throw attempt and punish through back heavy, medium target and medium Dimachaerus.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Shimmy", "Throw punish", "Punish counter", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "Walk back > 4HP > 5MP > ~MP > 214MP > ~6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Walk back",
+				"label": "Step back from the throw attempt"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "~MP",
+				"label": "Medium target continuation"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP",
+				"label": "Medium Dimachaerus"
+			},
+			{
+				"id": "step-6",
+				"notation": "~6P",
+				"label": "Forward-punch follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Make the recorded throw attempt whiff"],
+		"notes": [
+			"The approach interaction creates the opening. The authored punish starts with back heavy; this is a response example, not guaranteed throw bait."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 683.65,
+			"end": 689.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-shimmy-back-heavy-medium-target/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-shimmy-back-heavy-medium-target/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-shimmy-back-heavy-medium-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-shimmy-back-heavy-medium-target/frame-1.jpg",
+					"at": 0.35,
+					"label": "Approach",
+					"alt": "Marisa approaches the recorded guard interaction."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-shimmy-back-heavy-medium-target/frame-2.jpg",
+					"at": 2.05,
+					"label": "Throw-whiff punish",
+					"alt": "Back heavy punch punishes Ryu’s whiffed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-shimmy-back-heavy-medium-target/frame-3.jpg",
+					"at": 2.95,
+					"label": "Medium target",
+					"alt": "The medium target sequence follows the punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/marisa/marisa-ebios-shimmy-back-heavy-medium-target/frame-4.jpg",
+					"at": 4.35,
+					"label": "Special finish",
+					"alt": "Medium Dimachaerus completes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-heavy-punish-medium-target",
+			"marisa-ebios-counter-light-target-medium-dimachaerus",
+			"marisa-ebios-medium-target-od-held-heavy"
+		]
+	},
+	{
+		"id": "marisa-ebios-heavy-punish-medium-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Heavy Punish Counter: medium target into Dimachaerus",
+		"summary": "Use standing heavy punch Punish Counter to link the medium target route and medium special.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HP > 5MP > ~MP > 214MP > ~6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~MP",
+				"label": "Medium target continuation"
+			},
+			{
+				"id": "step-4",
+				"notation": "214MP",
+				"label": "Medium Dimachaerus"
+			},
+			{
+				"id": "step-5",
+				"notation": "~6P",
+				"label": "Forward-punch follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy punch Punish Counter"],
+		"notes": [
+			"The caption also lists an OD alternative. This selected take uses medium Dimachaerus."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 712.7,
+			"end": 717.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-heavy-punish-medium-target/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-heavy-punish-medium-target/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-heavy-punish-medium-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-heavy-punish-medium-target/frame-1.jpg",
+					"at": 0.3,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch connects as Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-heavy-punish-medium-target/frame-2.jpg",
+					"at": 1.3,
+					"label": "Medium target",
+					"alt": "The medium target sequence links after heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-heavy-punish-medium-target/frame-3.jpg",
+					"at": 2.3,
+					"label": "Medium Dimachaerus",
+					"alt": "The medium special starts its launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/marisa/marisa-ebios-heavy-punish-medium-target/frame-4.jpg",
+					"at": 3.3,
+					"label": "Forward-punch finish",
+					"alt": "The forward-punch continuation ends the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-shimmy-back-heavy-medium-target",
+			"marisa-ebios-counter-light-target-medium-dimachaerus",
+			"marisa-ebios-medium-target-od-held-heavy"
+		]
+	},
+	{
+		"id": "marisa-ebios-corner-counter-di-held-quadriga",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Corner counter DI: held back heavy into OD Quadriga",
+		"summary": "Use the DI crumple to fully hold back heavy, then convert through OD Quadriga and Phalanx.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 4HP (hold) > 236KK > 4HP > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HP (hold)",
+				"label": "Held back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236KK",
+				"label": "OD Quadriga"
+			},
+			{
+				"id": "step-4",
+				"notation": "4HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623MP",
+				"label": "Medium Phalanx"
+			}
+		],
+		"conditions": ["Classic controls", "Win the counter-DI exchange"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact and OD Quadriga",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 1259.9,
+			"end": 1268.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-corner-counter-di-held-quadriga/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-corner-counter-di-held-quadriga/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-corner-counter-di-held-quadriga/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-corner-counter-di-held-quadriga/frame-1.jpg",
+					"at": 1.1,
+					"label": "Counter DI",
+					"alt": "Marisa answers Ryu’s incoming DI."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-corner-counter-di-held-quadriga/frame-2.jpg",
+					"at": 3.1,
+					"label": "DI win",
+					"alt": "The winning DI creates the Punish Counter crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-corner-counter-di-held-quadriga/frame-3.jpg",
+					"at": 4.3,
+					"label": "Held back heavy",
+					"alt": "The fully held back heavy punch starts the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/marisa/marisa-ebios-corner-counter-di-held-quadriga/frame-4.jpg",
+					"at": 5.1,
+					"label": "OD Quadriga",
+					"alt": "OD Quadriga continues the launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/marisa/marisa-ebios-corner-counter-di-held-quadriga/frame-5.jpg",
+					"at": 6.8,
+					"label": "Phalanx finish",
+					"alt": "Back heavy and medium Phalanx finish the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-corner-crouching-medium-punish-quadriga",
+			"marisa-ebios-wall-splat-od-phalanx-held-kick",
+			"marisa-ebios-corner-medium-rush-quadriga-phalanx"
+		]
+	},
+	{
+		"id": "marisa-ebios-wall-splat-od-phalanx-held-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Blocked DI wall splat: OD Phalanx into held kick",
+		"summary": "Convert the wall splat with forward heavy kick and OD Phalanx, then held forward heavy kick into heavy Gladius.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 6HK > 623PP > 6HK (hold) > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "623PP",
+				"label": "OD Phalanx"
+			},
+			{
+				"id": "step-4",
+				"notation": "6HK (hold)",
+				"label": "Held forward heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "Heavy Gladius"
+			}
+		],
+		"conditions": ["Classic controls", "Blocked DI wall splat, not burnout stun"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact and OD Phalanx",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 1269.15,
+			"end": 1276.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-wall-splat-od-phalanx-held-kick/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-wall-splat-od-phalanx-held-kick/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-wall-splat-od-phalanx-held-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-wall-splat-od-phalanx-held-kick/frame-1.jpg",
+					"at": 0.85,
+					"label": "Blocked DI",
+					"alt": "Ryu guards DI at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-wall-splat-od-phalanx-held-kick/frame-2.jpg",
+					"at": 2.35,
+					"label": "Forward-kick pickup",
+					"alt": "Forward heavy kick converts the wall splat."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-wall-splat-od-phalanx-held-kick/frame-3.jpg",
+					"at": 2.85,
+					"label": "OD Phalanx",
+					"alt": "OD Phalanx continues the wall juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/marisa/marisa-ebios-wall-splat-od-phalanx-held-kick/frame-4.jpg",
+					"at": 4.35,
+					"label": "Held-kick extension",
+					"alt": "Held forward heavy kick extends the airborne route."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/marisa/marisa-ebios-wall-splat-od-phalanx-held-kick/frame-5.jpg",
+					"at": 5.35,
+					"label": "Gladius finish",
+					"alt": "Heavy Gladius knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-corner-counter-di-held-quadriga",
+			"marisa-ebios-corner-medium-rush-quadriga-phalanx",
+			"marisa-ebios-corner-crouching-medium-punish-quadriga"
+		]
+	},
+	{
+		"id": "marisa-ebios-corner-phalanx-dash-jab-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Corner Phalanx knockdown: dash, whiff jab and throw",
+		"summary": "Use the shown Phalanx knockdown to dash, whiff a crouching jab, then attempt a forward throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Frame kill", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 2LP whiff > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP whiff",
+				"label": "Crouching-jab frame kill"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": ["Classic controls", "The shown +42F corner medium-Phalanx knockdown"],
+		"notes": [
+			"The source prints +5F after the whiffed jab. This records the source timing and successful take; opponents can choose other defensive responses."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 357.45,
+			"end": 361.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-corner-phalanx-dash-jab-throw/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-corner-phalanx-dash-jab-throw/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-corner-phalanx-dash-jab-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-corner-phalanx-dash-jab-throw/frame-1.jpg",
+					"at": 0.15,
+					"label": "Phalanx knockdown",
+					"alt": "The excerpt opens on the end of medium Phalanx."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-corner-phalanx-dash-jab-throw/frame-2.jpg",
+					"at": 0.5,
+					"label": "Dash and frame kill",
+					"alt": "The dash leads into the whiffed crouching jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-corner-phalanx-dash-jab-throw/frame-3.jpg",
+					"at": 1.55,
+					"label": "Throw attempt",
+					"alt": "The recorded throw catches Ryu as he recovers."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/marisa/marisa-ebios-corner-phalanx-dash-jab-throw/frame-4.jpg",
+					"at": 2.55,
+					"label": "Throw knockdown",
+					"alt": "The throw returns Ryu to the corner floor."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-corner-forward-throw-rush-throw",
+			"marisa-ebios-corner-medium-rush-quadriga-phalanx",
+			"marisa-ebios-corner-crouching-medium-punish-quadriga"
+		]
+	},
+	{
+		"id": "marisa-ebios-corner-forward-throw-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "marisa"
+			}
+		],
+		"title": "Corner forward throw: Rush into delayed throw",
+		"summary": "Rush after the forward throw and delay the next throw attempt against the recorded response.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw pressure", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "LP+LK > DR > Delay > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "Delay",
+				"label": "Delay the throw"
+			},
+			{
+				"id": "step-4",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": ["Classic controls", "Match the demonstrated corner forward-throw spacing"],
+		"notes": [
+			"This is a recorded throw-pressure option, not a guaranteed throw loop against every response."
+		],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-marisa-classic-2026",
+			"title": "Classic Marisa Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=kB_QYkNRvBs",
+			"published": "2026-01-31",
+			"start": 1149.2,
+			"end": 1155.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/marisa/marisa-ebios-corner-forward-throw-rush-throw/clip.mp4",
+			"poster": "/media/marisa/marisa-ebios-corner-forward-throw-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/marisa/marisa-ebios-corner-forward-throw-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/marisa/marisa-ebios-corner-forward-throw-rush-throw/frame-1.jpg",
+					"at": 0.8,
+					"label": "Initial throw",
+					"alt": "The forward throw starts the corner setup."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/marisa/marisa-ebios-corner-forward-throw-rush-throw/frame-2.jpg",
+					"at": 1.8,
+					"label": "Throw knockdown",
+					"alt": "Ryu reaches the floor beside the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/marisa/marisa-ebios-corner-forward-throw-rush-throw/frame-3.jpg",
+					"at": 2.8,
+					"label": "Rush approach",
+					"alt": "Drive Rush closes the gap for the delayed throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/marisa/marisa-ebios-corner-forward-throw-rush-throw/frame-4.jpg",
+					"at": 3.8,
+					"label": "Second throw",
+					"alt": "The delayed throw catches the recorded response."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/marisa/marisa-ebios-corner-forward-throw-rush-throw/frame-5.jpg",
+					"at": 4.8,
+					"label": "Repeat knockdown",
+					"alt": "The second throw returns Ryu to the floor."
+				}
+			]
+		},
+		"relatedIds": [
+			"marisa-ebios-corner-phalanx-dash-jab-throw",
+			"marisa-ebios-corner-medium-rush-quadriga-phalanx",
+			"marisa-ebios-medium-target-double-rush-level-three"
+		]
+	}
+]

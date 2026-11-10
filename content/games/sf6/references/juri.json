@@ -1,0 +1,1605 @@
+[
+	{
+		"id": "juri-ebios-lights-od-back-heavy-tensenrin",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Two lights: OD launcher into back heavy and Tensenrin",
+		"summary": "A close light confirm that gains a Fuha stock and finishes with heavy Tensenrin.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2LP > 214KK > 4HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214KK",
+				"label": "OD Fuhajin",
+				"cue": "The OD launcher creates one Fuha stock."
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "Heavy Tensenrin"
+			}
+		],
+		"conditions": ["Classic controls", "Point-blank light confirm"],
+		"notes": [
+			"The caption also offers forward medium punch. The performed take uses back heavy kick. No starting Fuha stock is needed for this Tensenrin ender."
+		],
+		"resources": {
+			"drive": "OD Fuhajin",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 3.45,
+			"end": 8.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-lights-od-back-heavy-tensenrin/clip.mp4",
+			"poster": "/media/juri/juri-ebios-lights-od-back-heavy-tensenrin/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-lights-od-back-heavy-tensenrin/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-lights-od-back-heavy-tensenrin/frame-1.jpg",
+					"at": 0.8,
+					"label": "Light confirm",
+					"alt": "The crouching jabs start the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-lights-od-back-heavy-tensenrin/frame-2.jpg",
+					"at": 1.3,
+					"label": "OD launcher",
+					"alt": "OD Fuhajin launches Ryu and adds one Fuha stock."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-lights-od-back-heavy-tensenrin/frame-3.jpg",
+					"at": 2.05,
+					"label": "Back heavy",
+					"alt": "Back heavy kick continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-lights-od-back-heavy-tensenrin/frame-4.jpg",
+					"at": 2.65,
+					"label": "Heavy Tensenrin",
+					"alt": "Heavy Tensenrin finishes the airborne conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-lights-od-go-ohsatsu",
+			"juri-ebios-lights-od-double-fuha",
+			"juri-ebios-lights-double-fuha-level-three"
+		]
+	},
+	{
+		"id": "juri-ebios-lights-od-go-ohsatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Two lights: OD launcher into enhanced Go Ohsatsu",
+		"summary": "Spend the stock created by OD Fuhajin on the enhanced heavy-special ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Fuha route"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2LP > 214KK > 4HK > 236HK (Fuha)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214KK",
+				"label": "OD Fuhajin",
+				"cue": "The OD launcher creates one Fuha stock."
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK (Fuha)",
+				"label": "Enhanced Go Ohsatsu",
+				"cue": "Spend one Fuha stock on the enhanced heavy special."
+			}
+		],
+		"conditions": ["Classic controls", "Point-blank two-light confirm"],
+		"notes": [
+			"This take starts with no Fuha stock. OD Fuhajin creates the stock that the heavy special then spends."
+		],
+		"resources": {
+			"drive": "OD Fuhajin",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 17.65,
+			"end": 23.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-lights-od-go-ohsatsu/clip.mp4",
+			"poster": "/media/juri/juri-ebios-lights-od-go-ohsatsu/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-lights-od-go-ohsatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-lights-od-go-ohsatsu/frame-1.jpg",
+					"at": 1.1,
+					"label": "OD launcher",
+					"alt": "OD Fuhajin extends the light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-lights-od-go-ohsatsu/frame-2.jpg",
+					"at": 1.95,
+					"label": "Back-heavy link",
+					"alt": "Back heavy kick connects after the launcher."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-lights-od-go-ohsatsu/frame-3.jpg",
+					"at": 3.05,
+					"label": "Enhanced heavy",
+					"alt": "Go Ohsatsu spends the newly created Fuha stock."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-lights-od-go-ohsatsu/frame-4.jpg",
+					"at": 4.35,
+					"label": "Knockdown result",
+					"alt": "The enhanced heavy-special route leaves Ryu knocked down."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-lights-od-double-fuha",
+			"juri-ebios-lights-double-fuha-level-three",
+			"juri-ebios-counter-jab-medium-od-heavy-fuha"
+		]
+	},
+	{
+		"id": "juri-ebios-go-ohsatsu-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Enhanced-heavy knockdown: Rush into throw",
+		"summary": "After the shown back-heavy Go Ohsatsu finish, Rush forward into a throw attempt.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw pressure", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The demonstrated OD Fuhajin into back-heavy enhanced Go Ohsatsu knockdown",
+			"Match the recorded approach timing"
+		],
+		"notes": [
+			"A conditional throw attempt after this particular knockdown. The clip does not establish a guaranteed answer against every wake-up choice."
+		],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 27.45,
+			"end": 31.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-go-ohsatsu-rush-throw/clip.mp4",
+			"poster": "/media/juri/juri-ebios-go-ohsatsu-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-go-ohsatsu-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-go-ohsatsu-rush-throw/frame-1.jpg",
+					"at": 0.55,
+					"label": "Rush approach",
+					"alt": "Juri starts the approach while Ryu is knocked down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-go-ohsatsu-rush-throw/frame-2.jpg",
+					"at": 1.35,
+					"label": "Throw attempt",
+					"alt": "The Rush approach brings Juri into throw range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-go-ohsatsu-rush-throw/frame-3.jpg",
+					"at": 2.55,
+					"label": "Throw result",
+					"alt": "The recorded throw catches Ryu’s defensive attempt."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-double-fuha-delay-dash-throw",
+			"juri-ebios-reversal-rush-critical-art-cashout",
+			"juri-ebios-lights-od-back-heavy-tensenrin"
+		]
+	},
+	{
+		"id": "juri-ebios-lights-od-double-fuha",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Two lights: enhanced heavy into medium follow-up",
+		"summary": "Use the OD launcher and back heavy kick before spending two Fuha stocks on the special chain.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Fuha route"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2LP > 214KK > 4HK > 236HK (Fuha) > ~MK (Fuha)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214KK",
+				"label": "OD Fuhajin",
+				"cue": "The OD launcher creates one Fuha stock."
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK (Fuha)",
+				"label": "Enhanced Go Ohsatsu",
+				"cue": "Spend one Fuha stock on the enhanced heavy special."
+			},
+			{
+				"id": "step-6",
+				"notation": "~MK (Fuha)",
+				"label": "Enhanced Ankensatsu follow-up",
+				"cue": "Spend another Fuha stock on the medium follow-up."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"At least one Fuha stock before OD Fuhajin",
+			"Close light confirm"
+		],
+		"notes": [
+			"The OD special supplies the second required stock. Both enhanced follow-ups then consume a stock."
+		],
+		"resources": {
+			"drive": "OD Fuhajin",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 50.9,
+			"end": 56.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-lights-od-double-fuha/clip.mp4",
+			"poster": "/media/juri/juri-ebios-lights-od-double-fuha/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-lights-od-double-fuha/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-lights-od-double-fuha/frame-1.jpg",
+					"at": 0.6,
+					"label": "Light confirm",
+					"alt": "The crouching light confirm begins the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-lights-od-double-fuha/frame-2.jpg",
+					"at": 1.1,
+					"label": "OD launcher",
+					"alt": "OD Fuhajin raises the stock count from one to two."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-lights-od-double-fuha/frame-3.jpg",
+					"at": 2.1,
+					"label": "Back heavy",
+					"alt": "Back heavy kick continues the launcher."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-lights-od-double-fuha/frame-4.jpg",
+					"at": 3.1,
+					"label": "Enhanced heavy",
+					"alt": "The heavy Fuha special continues the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/juri/juri-ebios-lights-od-double-fuha/frame-5.jpg",
+					"at": 4.1,
+					"label": "Medium follow-up",
+					"alt": "The enhanced medium follow-up completes the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-lights-od-go-ohsatsu",
+			"juri-ebios-lights-double-fuha-level-three",
+			"juri-ebios-counter-jab-medium-od-heavy-fuha"
+		]
+	},
+	{
+		"id": "juri-ebios-double-fuha-delay-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Two-special knockdown: delay, dash and throw",
+		"summary": "Use a delayed dash throw after the enhanced heavy-to-medium knockdown.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "Delay > 66 > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Delay",
+				"label": "Delay briefly"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The demonstrated back-heavy enhanced Go Ohsatsu into enhanced Ankensatsu knockdown"
+		],
+		"notes": [
+			"The delay is part of this recorded setup. Do not substitute the earlier Rush-throw timing or treat this one defensive recording as a forced throw."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 61.75,
+			"end": 65.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-double-fuha-delay-dash-throw/clip.mp4",
+			"poster": "/media/juri/juri-ebios-double-fuha-delay-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-double-fuha-delay-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-double-fuha-delay-dash-throw/frame-1.jpg",
+					"at": 0.25,
+					"label": "Knockdown spacing",
+					"alt": "Ryu is down after the enhanced medium-special finish."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-double-fuha-delay-dash-throw/frame-2.jpg",
+					"at": 0.5,
+					"label": "Delayed approach",
+					"alt": "Juri approaches after the brief delay."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-double-fuha-delay-dash-throw/frame-3.jpg",
+					"at": 1.55,
+					"label": "Throw attempt",
+					"alt": "The dash leads into the demonstrated forward throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-double-fuha-delay-dash-throw/frame-4.jpg",
+					"at": 2.75,
+					"label": "Throw knockdown",
+					"alt": "Ryu is thrown back to the floor."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-go-ohsatsu-rush-throw",
+			"juri-ebios-lights-od-back-heavy-tensenrin",
+			"juri-ebios-lights-od-go-ohsatsu"
+		]
+	},
+	{
+		"id": "juri-ebios-lights-double-fuha-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Light-confirm cash-out: two Fuha specials into Level 3",
+		"summary": "Extend the two-stock special chain into Level 3 Super Art.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Fuha route", "Cash out", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2LP > 214KK > 4HK > 236HK (Fuha) > ~MK (Fuha) > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214KK",
+				"label": "OD Fuhajin",
+				"cue": "The OD launcher creates one Fuha stock."
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK (Fuha)",
+				"label": "Enhanced Go Ohsatsu",
+				"cue": "Spend one Fuha stock on the enhanced heavy special."
+			},
+			{
+				"id": "step-6",
+				"notation": "~MK (Fuha)",
+				"label": "Enhanced Ankensatsu follow-up",
+				"cue": "Spend another Fuha stock on the medium follow-up."
+			},
+			{
+				"id": "step-7",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "At least one starting Fuha stock", "Three Super stocks"],
+		"notes": [],
+		"resources": {
+			"drive": "OD Fuhajin",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 85.05,
+			"end": 100.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-lights-double-fuha-level-three/clip.mp4",
+			"poster": "/media/juri/juri-ebios-lights-double-fuha-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-lights-double-fuha-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-lights-double-fuha-level-three/frame-1.jpg",
+					"at": 0.95,
+					"label": "Light confirm",
+					"alt": "Crouching lights begin the cash-out."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-lights-double-fuha-level-three/frame-2.jpg",
+					"at": 2.3,
+					"label": "Back heavy",
+					"alt": "Back heavy kick connects after OD Fuhajin."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-lights-double-fuha-level-three/frame-3.jpg",
+					"at": 3.45,
+					"label": "Special chain",
+					"alt": "The enhanced heavy and medium specials continue the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-lights-double-fuha-level-three/frame-4.jpg",
+					"at": 4.95,
+					"label": "Level 3",
+					"alt": "Juri activates Level 3 Super Art."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/juri/juri-ebios-lights-double-fuha-level-three/frame-5.jpg",
+					"at": 14.45,
+					"label": "Hard knockdown",
+					"alt": "The Super finishes in a hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-reversal-rush-critical-art-cashout",
+			"juri-ebios-lights-od-go-ohsatsu",
+			"juri-ebios-lights-od-double-fuha"
+		]
+	},
+	{
+		"id": "juri-ebios-counter-jab-medium-od-heavy-fuha",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Counter-hit jab: medium link into enhanced heavy",
+		"summary": "On crouching-jab Counter Hit, link crouching medium before the OD launcher route.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Light confirm", "Fuha route"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2MP > 214KK > 4HK > 236HK (Fuha)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214KK",
+				"label": "OD Fuhajin",
+				"cue": "The OD launcher creates one Fuha stock."
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK (Fuha)",
+				"label": "Enhanced Go Ohsatsu",
+				"cue": "Spend one Fuha stock on the enhanced heavy special."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching light punch Counter Hit",
+			"Crouching medium punch in range"
+		],
+		"notes": [
+			"The displayed caption lists several enders; this take uses enhanced Go Ohsatsu, without the extra medium follow-up."
+		],
+		"resources": {
+			"drive": "OD Fuhajin",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 102.15,
+			"end": 107.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-counter-jab-medium-od-heavy-fuha/clip.mp4",
+			"poster": "/media/juri/juri-ebios-counter-jab-medium-od-heavy-fuha/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-counter-jab-medium-od-heavy-fuha/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-counter-jab-medium-od-heavy-fuha/frame-1.jpg",
+					"at": 0.85,
+					"label": "Counter-hit jab",
+					"alt": "Crouching jab connects as Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-counter-jab-medium-od-heavy-fuha/frame-2.jpg",
+					"at": 1.35,
+					"label": "OD conversion",
+					"alt": "Crouching medium punch cancels into OD Fuhajin."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-counter-jab-medium-od-heavy-fuha/frame-3.jpg",
+					"at": 2.35,
+					"label": "Back-heavy juggle",
+					"alt": "Back heavy kick continues the launcher."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-counter-jab-medium-od-heavy-fuha/frame-4.jpg",
+					"at": 3.35,
+					"label": "Enhanced-heavy finish",
+					"alt": "Enhanced Go Ohsatsu completes this selected branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-lights-od-go-ohsatsu",
+			"juri-ebios-lights-od-double-fuha",
+			"juri-ebios-lights-double-fuha-level-three"
+		]
+	},
+	{
+		"id": "juri-ebios-medium-forward-medium-double-fuha",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Medium confirm: forward medium into two Fuha specials",
+		"summary": "Use standing medium and crouching medium, then forward medium after the OD launcher.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Fuha route"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MP > 2MP > 214KK > 6MP > 236HK (Fuha) > ~MK (Fuha)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214KK",
+				"label": "OD Fuhajin",
+				"cue": "The OD launcher creates one Fuha stock."
+			},
+			{
+				"id": "step-4",
+				"notation": "6MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK (Fuha)",
+				"label": "Enhanced Go Ohsatsu",
+				"cue": "Spend one Fuha stock on the enhanced heavy special."
+			},
+			{
+				"id": "step-6",
+				"notation": "~MK (Fuha)",
+				"label": "Enhanced Ankensatsu follow-up",
+				"cue": "Spend another Fuha stock on the medium follow-up."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close standing-medium confirm",
+			"At least one starting Fuha stock"
+		],
+		"notes": [
+			"This is the forward-medium branch and the two-Fuha-special finish actually performed in the footage."
+		],
+		"resources": {
+			"drive": "OD Fuhajin",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 109.05,
+			"end": 115.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-medium-forward-medium-double-fuha/clip.mp4",
+			"poster": "/media/juri/juri-ebios-medium-forward-medium-double-fuha/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-medium-forward-medium-double-fuha/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-medium-forward-medium-double-fuha/frame-1.jpg",
+					"at": 0.45,
+					"label": "Medium starter",
+					"alt": "Standing medium punch begins the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-medium-forward-medium-double-fuha/frame-2.jpg",
+					"at": 0.95,
+					"label": "Crouching-medium link",
+					"alt": "Crouching medium punch leads into OD Fuhajin."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-medium-forward-medium-double-fuha/frame-3.jpg",
+					"at": 2.45,
+					"label": "Forward medium",
+					"alt": "Forward medium punch is the post-launch normal in this take."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-medium-forward-medium-double-fuha/frame-4.jpg",
+					"at": 3.45,
+					"label": "Enhanced heavy",
+					"alt": "Go Ohsatsu continues the airborne route."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/juri/juri-ebios-medium-forward-medium-double-fuha/frame-5.jpg",
+					"at": 4.15,
+					"label": "Medium follow-up",
+					"alt": "The enhanced Ankensatsu continuation finishes the chain."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-counter-medium-forward-medium-heavy-fuha",
+			"juri-ebios-lights-od-go-ohsatsu",
+			"juri-ebios-lights-od-double-fuha"
+		]
+	},
+	{
+		"id": "juri-ebios-counter-medium-forward-medium-heavy-fuha",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Counter-hit medium: forward-medium link into enhanced heavy",
+		"summary": "Use the Counter Hit advantage of standing medium punch to link forward medium punch.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Medium confirm", "Fuha route"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MP > 6MP > 214KK > 4HK > 236HK (Fuha)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "6MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214KK",
+				"label": "OD Fuhajin",
+				"cue": "The OD launcher creates one Fuha stock."
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK (Fuha)",
+				"label": "Enhanced Go Ohsatsu",
+				"cue": "Spend one Fuha stock on the enhanced heavy special."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing medium punch Counter Hit",
+			"Close enough for forward medium punch"
+		],
+		"notes": ["A Counter Hit opening, not an ordinary standing-medium-to-forward-medium link."],
+		"resources": {
+			"drive": "OD Fuhajin",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 116.15,
+			"end": 123.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-counter-medium-forward-medium-heavy-fuha/clip.mp4",
+			"poster": "/media/juri/juri-ebios-counter-medium-forward-medium-heavy-fuha/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-counter-medium-forward-medium-heavy-fuha/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-counter-medium-forward-medium-heavy-fuha/frame-1.jpg",
+					"at": 1.35,
+					"label": "Counter-hit medium",
+					"alt": "Standing medium punch connects as Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-counter-medium-forward-medium-heavy-fuha/frame-2.jpg",
+					"at": 1.85,
+					"label": "Forward-medium link",
+					"alt": "Forward medium punch links before OD Fuhajin."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-counter-medium-forward-medium-heavy-fuha/frame-3.jpg",
+					"at": 3.0,
+					"label": "Back heavy",
+					"alt": "Back heavy kick connects after the launcher."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-counter-medium-forward-medium-heavy-fuha/frame-4.jpg",
+					"at": 4.35,
+					"label": "Enhanced heavy",
+					"alt": "The performed branch finishes with enhanced Go Ohsatsu."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-counter-jab-medium-od-heavy-fuha",
+			"juri-ebios-medium-forward-medium-double-fuha",
+			"juri-ebios-lights-od-go-ohsatsu"
+		]
+	},
+	{
+		"id": "juri-ebios-punish-medium-back-heavy-tensenrin",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Punish Counter medium: back-heavy juggle into Tensenrin",
+		"summary": "Convert crouching medium Punish Counter through forward medium, OD Fuhajin and heavy Tensenrin.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP > 6MP > 214KK > 4HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "6MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214KK",
+				"label": "OD Fuhajin",
+				"cue": "The OD launcher creates one Fuha stock."
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "Heavy Tensenrin"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching medium punch Punish Counter"],
+		"notes": [
+			"The approach includes a blocked Rush jab to create the training interaction. The authored punish begins at crouching medium punch. The performed ender is heavy Tensenrin."
+		],
+		"resources": {
+			"drive": "OD Fuhajin; preceding Rush is a training interaction",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 124.75,
+			"end": 131.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-punish-medium-back-heavy-tensenrin/clip.mp4",
+			"poster": "/media/juri/juri-ebios-punish-medium-back-heavy-tensenrin/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-punish-medium-back-heavy-tensenrin/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-punish-medium-back-heavy-tensenrin/frame-1.jpg",
+					"at": 1.25,
+					"label": "Punish Counter medium",
+					"alt": "Crouching medium punch punishes the recorded opening."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-punish-medium-back-heavy-tensenrin/frame-2.jpg",
+					"at": 2.25,
+					"label": "OD Fuhajin",
+					"alt": "The forward-medium link cancels into the OD launcher."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-punish-medium-back-heavy-tensenrin/frame-3.jpg",
+					"at": 3.25,
+					"label": "Back heavy",
+					"alt": "Back heavy kick continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-punish-medium-back-heavy-tensenrin/frame-4.jpg",
+					"at": 4.25,
+					"label": "Tensenrin finish",
+					"alt": "Heavy Tensenrin completes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-medium-forward-medium-double-fuha",
+			"juri-ebios-counter-medium-forward-medium-heavy-fuha",
+			"juri-ebios-reversal-rush-critical-art-cashout"
+		]
+	},
+	{
+		"id": "juri-ebios-corner-medium-back-heavy-tensenrin",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Corner medium confirm: back heavy into Tensenrin",
+		"summary": "Use back heavy kick after the corner OD launcher and finish with heavy Tensenrin.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MP > 2MP > 214KK > 4HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214KK",
+				"label": "OD Fuhajin",
+				"cue": "The OD launcher creates one Fuha stock."
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "Heavy Tensenrin"
+			}
+		],
+		"conditions": ["Classic controls", "Close corner standing-medium confirm"],
+		"notes": [],
+		"resources": {
+			"drive": "OD Fuhajin",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 132.05,
+			"end": 138.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-corner-medium-back-heavy-tensenrin/clip.mp4",
+			"poster": "/media/juri/juri-ebios-corner-medium-back-heavy-tensenrin/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-corner-medium-back-heavy-tensenrin/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-corner-medium-back-heavy-tensenrin/frame-1.jpg",
+					"at": 0.95,
+					"label": "Medium confirm",
+					"alt": "Standing medium punch begins the corner confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-corner-medium-back-heavy-tensenrin/frame-2.jpg",
+					"at": 1.95,
+					"label": "OD launcher",
+					"alt": "OD Fuhajin launches beside the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-corner-medium-back-heavy-tensenrin/frame-3.jpg",
+					"at": 2.95,
+					"label": "Back heavy",
+					"alt": "Back heavy kick continues the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-corner-medium-back-heavy-tensenrin/frame-4.jpg",
+					"at": 3.95,
+					"label": "Heavy Tensenrin",
+					"alt": "Heavy Tensenrin completes the corner route."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-corner-heavy-fuha-od-tensenrin",
+			"juri-ebios-lights-od-back-heavy-tensenrin",
+			"juri-ebios-medium-forward-medium-double-fuha"
+		]
+	},
+	{
+		"id": "juri-ebios-corner-heavy-fuha-od-tensenrin",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Corner extension: enhanced heavy into OD Tensenrin",
+		"summary": "Use forward medium after OD Fuhajin, then spend Fuha and another OD special for the corner finish.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Fuha route", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MP > 2MP > 214KK > 6MP > 236HK (Fuha) > 623PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214KK",
+				"label": "OD Fuhajin",
+				"cue": "The OD launcher creates one Fuha stock."
+			},
+			{
+				"id": "step-4",
+				"notation": "6MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK (Fuha)",
+				"label": "Enhanced Go Ohsatsu",
+				"cue": "Spend one Fuha stock on the enhanced heavy special."
+			},
+			{
+				"id": "step-6",
+				"notation": "623PP",
+				"label": "OD Tensenrin"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close corner confirm",
+			"Drive available for both OD specials"
+		],
+		"notes": [
+			"The source displays +4F afterward. This is a dated observation for the recorded take, not an independently tested current-patch throw guarantee."
+		],
+		"resources": {
+			"drive": "OD Fuhajin and OD Tensenrin",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 252.65,
+			"end": 258.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-corner-heavy-fuha-od-tensenrin/clip.mp4",
+			"poster": "/media/juri/juri-ebios-corner-heavy-fuha-od-tensenrin/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-corner-heavy-fuha-od-tensenrin/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-corner-heavy-fuha-od-tensenrin/frame-1.jpg",
+					"at": 0.65,
+					"label": "Medium confirm",
+					"alt": "Standing medium and crouching medium start the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-corner-heavy-fuha-od-tensenrin/frame-2.jpg",
+					"at": 1.35,
+					"label": "OD launcher",
+					"alt": "OD Fuhajin creates a stock and starts the juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-corner-heavy-fuha-od-tensenrin/frame-3.jpg",
+					"at": 2.35,
+					"label": "Forward medium",
+					"alt": "Forward medium punch continues the launcher."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-corner-heavy-fuha-od-tensenrin/frame-4.jpg",
+					"at": 3.35,
+					"label": "Enhanced heavy",
+					"alt": "Enhanced Go Ohsatsu continues the corner juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/juri/juri-ebios-corner-heavy-fuha-od-tensenrin/frame-5.jpg",
+					"at": 4.35,
+					"label": "OD Tensenrin",
+					"alt": "OD Tensenrin finishes beside the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-corner-medium-back-heavy-tensenrin",
+			"juri-ebios-medium-forward-medium-double-fuha",
+			"juri-ebios-counter-medium-forward-medium-heavy-fuha"
+		]
+	},
+	{
+		"id": "juri-ebios-back-heavy-od-back-heavy-tensenrin",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Back-heavy starter: OD launcher into another back heavy",
+		"summary": "Convert the demonstrated back-heavy hit through OD Fuhajin, another back heavy and Tensenrin.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "4HK > 214KK > 4HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "214KK",
+				"label": "OD Fuhajin",
+				"cue": "The OD launcher creates one Fuha stock."
+			},
+			{
+				"id": "step-3",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Tensenrin"
+			}
+		],
+		"conditions": ["Classic controls", "Back heavy kick connects at the demonstrated spacing"],
+		"notes": [],
+		"resources": {
+			"drive": "OD Fuhajin",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 276.1,
+			"end": 281.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-back-heavy-od-back-heavy-tensenrin/clip.mp4",
+			"poster": "/media/juri/juri-ebios-back-heavy-od-back-heavy-tensenrin/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-back-heavy-od-back-heavy-tensenrin/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-back-heavy-od-back-heavy-tensenrin/frame-1.jpg",
+					"at": 0.9,
+					"label": "Back-heavy starter",
+					"alt": "The first back heavy kick launches Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-back-heavy-od-back-heavy-tensenrin/frame-2.jpg",
+					"at": 1.9,
+					"label": "OD Fuhajin",
+					"alt": "OD Fuhajin extends the launcher."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-back-heavy-od-back-heavy-tensenrin/frame-3.jpg",
+					"at": 2.9,
+					"label": "Second back heavy",
+					"alt": "A second back heavy kick continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-back-heavy-od-back-heavy-tensenrin/frame-4.jpg",
+					"at": 3.6,
+					"label": "Heavy Tensenrin",
+					"alt": "Heavy Tensenrin completes this performed branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-lights-od-back-heavy-tensenrin",
+			"juri-ebios-lights-od-go-ohsatsu",
+			"juri-ebios-go-ohsatsu-rush-throw"
+		]
+	},
+	{
+		"id": "juri-ebios-reversal-rush-critical-art-cashout",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "juri"
+			}
+		],
+		"title": "Blocked reversal cash-out: Rush extensions into Critical Art",
+		"summary": "Punish the blocked reversal with Rush forward heavy and spend the remaining resources on Critical Art.",
+		"kind": "combo",
+		"situations": [
+			"Midscreen",
+			"Reversal punish",
+			"Punish counter",
+			"Drive Rush",
+			"Fuha route",
+			"Cash out",
+			"Super finish"
+		],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 6HP > 2HP > DRC > 6HP > 2MP > DRC > 2HP > 5MP > 2MP > 236HK (Fuha) > ~MK (Fuha) > CA",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-10",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-11",
+				"notation": "236HK (Fuha)",
+				"label": "Enhanced Go Ohsatsu",
+				"cue": "Spend one Fuha stock on the enhanced heavy special."
+			},
+			{
+				"id": "step-12",
+				"notation": "~MK (Fuha)",
+				"label": "Enhanced Ankensatsu follow-up",
+				"cue": "Spend another Fuha stock on the medium follow-up."
+			},
+			{
+				"id": "step-13",
+				"notation": "CA",
+				"label": "Critical Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Blocked Ryu OD Shoryuken",
+			"Two starting Fuha stocks",
+			"Enough Drive for the shown Rush extensions",
+			"Critical Art health threshold and three Super stocks"
+		],
+		"notes": [
+			"The source shows Critical Art rather than ordinary Level 3. The demonstrated route finishes in burnout."
+		],
+		"resources": {
+			"drive": "Drive Rush plus two cancel Drive Rushes; burnout in the take",
+			"super": "Critical Art (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-juri-classic-2026",
+			"title": "SF6 Classic NEW Juri Combos & Setups (March Update)【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=5WTb-oZNTWU",
+			"published": "2026-04-28",
+			"start": 283.15,
+			"end": 304.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/juri/juri-ebios-reversal-rush-critical-art-cashout/clip.mp4",
+			"poster": "/media/juri/juri-ebios-reversal-rush-critical-art-cashout/frame-1.jpg",
+			"descriptionTrack": "/media/juri/juri-ebios-reversal-rush-critical-art-cashout/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/juri/juri-ebios-reversal-rush-critical-art-cashout/frame-1.jpg",
+					"at": 0.85,
+					"label": "Guarded reversal",
+					"alt": "Juri waits for Ryu’s blocked OD Shoryuken to descend."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/juri/juri-ebios-reversal-rush-critical-art-cashout/frame-2.jpg",
+					"at": 1.85,
+					"label": "Rush punish",
+					"alt": "Rush forward heavy punch punishes the recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/juri/juri-ebios-reversal-rush-critical-art-cashout/frame-3.jpg",
+					"at": 4.85,
+					"label": "Second cancel extension",
+					"alt": "The repeated Rush extensions spend the remaining Drive."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/juri/juri-ebios-reversal-rush-critical-art-cashout/frame-4.jpg",
+					"at": 7.85,
+					"label": "Fuha finish",
+					"alt": "Enhanced heavy and medium specials lead into Critical Art."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/juri/juri-ebios-reversal-rush-critical-art-cashout/frame-5.jpg",
+					"at": 20.15,
+					"label": "Critical Art knockdown",
+					"alt": "Critical Art finishes and Ryu is knocked down."
+				}
+			]
+		},
+		"relatedIds": [
+			"juri-ebios-lights-double-fuha-level-three",
+			"juri-ebios-lights-od-go-ohsatsu",
+			"juri-ebios-go-ohsatsu-rush-throw"
+		]
+	}
+]

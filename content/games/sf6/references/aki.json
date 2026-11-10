@@ -1,0 +1,1167 @@
+[
+	{
+		"id": "aki-lights-toxic-wreath",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Lights into Toxic Wreath",
+		"summary": "A standing light kick starts a short crouching-jab route into the close-range poison attack.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "st.LK > cr.LP > cr.LP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Toxic Wreath"
+			}
+		],
+		"conditions": ["Classic controls", "Close range", "Opponent initially unpoisoned"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-aki-2023",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"published": "2023-09-28",
+			"start": 22.35,
+			"end": 27.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, on-screen recipe, conditions and selected moments visually reviewed against VesperArcade’s 2023-09-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/aki/aki-lights-toxic-wreath/clip.mp4",
+			"poster": "/media/aki/aki-lights-toxic-wreath/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-lights-toxic-wreath/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-lights-toxic-wreath/frame-1.jpg",
+					"at": 0.9,
+					"label": "Light starter",
+					"alt": "A.K.I. begins the light string against Luke."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-lights-toxic-wreath/frame-2.jpg",
+					"at": 1.7,
+					"label": "Two crouching jabs",
+					"alt": "A.K.I. connects the crouching punches."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-lights-toxic-wreath/frame-3.jpg",
+					"at": 2.75,
+					"label": "Toxic Wreath",
+					"alt": "A.K.I. spreads poison at close range."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-low-lights-heavy-lash",
+			"aki-poison-low-lash-juggle",
+			"aki-low-lights-level-three"
+		]
+	},
+	{
+		"id": "aki-low-lights-heavy-lash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Low lights into heavy Lash",
+		"summary": "Crouching light kick and two jabs end in the upward heavy Serpent Lash.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LK > cr.LP > cr.LP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "Heavy Serpent Lash"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent initially unpoisoned"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-aki-2023",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"published": "2023-09-28",
+			"start": 29.1,
+			"end": 33.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, on-screen recipe, conditions and selected moments visually reviewed against VesperArcade’s 2023-09-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/aki/aki-low-lights-heavy-lash/clip.mp4",
+			"poster": "/media/aki/aki-low-lights-heavy-lash/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-low-lights-heavy-lash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-low-lights-heavy-lash/frame-1.jpg",
+					"at": 0.75,
+					"label": "Low starter",
+					"alt": "A.K.I. starts with crouching light kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-low-lights-heavy-lash/frame-2.jpg",
+					"at": 1.15,
+					"label": "Jab string",
+					"alt": "A.K.I. links the crouching punches."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-low-lights-heavy-lash/frame-3.jpg",
+					"at": 2.1,
+					"label": "Heavy Lash",
+					"alt": "A.K.I. launches Luke with the upward lash."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-lights-toxic-wreath",
+			"aki-poison-low-lash-juggle",
+			"aki-low-lights-level-three"
+		]
+	},
+	{
+		"id": "aki-poison-low-lash-juggle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poisoned low confirm into light Lash",
+		"summary": "Trigger Toxic Blossom with the heavy Lash, then juggle with the horizontal light version.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LK > cr.LP > 236HP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "Heavy Serpent Lash"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LP",
+				"label": "Light Serpent Lash"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent already poisoned"],
+		"notes": [
+			"The preparatory Nightshade Pulse is outside this loop; begin with poison already applied."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-aki-2023",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"published": "2023-09-28",
+			"start": 35.95,
+			"end": 40.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, on-screen recipe, conditions and selected moments visually reviewed against VesperArcade’s 2023-09-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/aki/aki-poison-low-lash-juggle/clip.mp4",
+			"poster": "/media/aki/aki-poison-low-lash-juggle/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-poison-low-lash-juggle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-poison-low-lash-juggle/frame-1.jpg",
+					"at": 0.75,
+					"label": "Poisoned starter",
+					"alt": "A.K.I. hits Luke while the poison effect is visible."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-poison-low-lash-juggle/frame-2.jpg",
+					"at": 1.9,
+					"label": "Toxic Blossom",
+					"alt": "A.K.I. launches the poisoned opponent with heavy Lash."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-poison-low-lash-juggle/frame-3.jpg",
+					"at": 2.7,
+					"label": "Light Lash juggle",
+					"alt": "A.K.I. catches the airborne opponent with light Lash."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-lights-toxic-wreath",
+			"aki-low-lights-heavy-lash",
+			"aki-low-lights-level-three"
+		]
+	},
+	{
+		"id": "aki-low-lights-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Low lights into Level 3",
+		"summary": "Heavy Serpent Lash supplies the special cancel into Claws of Ya Zi.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Cash out"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LK > cr.LP > cr.LP > 236HP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "Heavy Serpent Lash"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA3",
+				"label": "Claws of Ya Zi",
+				"cue": "236236K"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "3 Super stocks"
+		},
+		"source": {
+			"id": "vesperarcade-aki-2023",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"published": "2023-09-28",
+			"start": 63.15,
+			"end": 76.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, on-screen recipe, conditions and selected moments visually reviewed against VesperArcade’s 2023-09-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/aki/aki-low-lights-level-three/clip.mp4",
+			"poster": "/media/aki/aki-low-lights-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-low-lights-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-low-lights-level-three/frame-1.jpg",
+					"at": 0.55,
+					"label": "Low lights",
+					"alt": "A.K.I. begins the low light string."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-low-lights-level-three/frame-2.jpg",
+					"at": 1.45,
+					"label": "Lash cancel",
+					"alt": "A.K.I. cancels the heavy Lash into Super."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-low-lights-level-three/frame-3.jpg",
+					"at": 7.75,
+					"label": "Claws of Ya Zi",
+					"alt": "A.K.I. performs the Level 3 cinematic."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-low-lights-level-three/frame-4.jpg",
+					"at": 12.4,
+					"label": "Knockdown",
+					"alt": "A.K.I. finishes the Super and returns to the stage."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-lights-toxic-wreath",
+			"aki-low-lights-heavy-lash",
+			"aki-poison-low-lash-juggle"
+		]
+	},
+	{
+		"id": "aki-medium-pulse-chaser",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Medium confirm into Pulse and Chaser",
+		"summary": "Standing medium kick links to medium punch, then the projectile follow-up completes the route.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "st.MK > st.MP > 214LP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "Nightshade Pulse"
+			},
+			{
+				"id": "step-4",
+				"notation": "6P",
+				"label": "Nightshade Chaser",
+				"cue": "Follow Nightshade Pulse"
+			}
+		],
+		"conditions": ["Classic controls", "Link at the demonstrated spacing"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-aki-2023",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"published": "2023-09-28",
+			"start": 81.45,
+			"end": 85.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, on-screen recipe, conditions and selected moments visually reviewed against VesperArcade’s 2023-09-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/aki/aki-medium-pulse-chaser/clip.mp4",
+			"poster": "/media/aki/aki-medium-pulse-chaser/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-medium-pulse-chaser/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-medium-pulse-chaser/frame-1.jpg",
+					"at": 0.7,
+					"label": "Medium link",
+					"alt": "A.K.I. links standing medium kick to medium punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-medium-pulse-chaser/frame-2.jpg",
+					"at": 1.4,
+					"label": "Nightshade Pulse",
+					"alt": "A.K.I. releases the close-range bubble."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-medium-pulse-chaser/frame-3.jpg",
+					"at": 2.15,
+					"label": "Nightshade Chaser",
+					"alt": "A.K.I. follows the bubble to knock Luke away."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-lights-toxic-wreath",
+			"aki-low-lights-heavy-lash",
+			"aki-poison-low-lash-juggle"
+		]
+	},
+	{
+		"id": "aki-close-medium-od-pulse",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Close medium confirm into OD Pulse",
+		"summary": "Use the OD bubble launch to connect a crouching heavy punch.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "st.MK > st.MP > 214PP > cr.HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214PP",
+				"label": "OD Nightshade Pulse"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			}
+		],
+		"conditions": ["Classic controls", "Close range", "Opponent initially unpoisoned"],
+		"notes": [],
+		"resources": {
+			"drive": "One OD special",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-aki-2023",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"published": "2023-09-28",
+			"start": 87.25,
+			"end": 92.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, on-screen recipe, conditions and selected moments visually reviewed against VesperArcade’s 2023-09-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/aki/aki-close-medium-od-pulse/clip.mp4",
+			"poster": "/media/aki/aki-close-medium-od-pulse/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-close-medium-od-pulse/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-close-medium-od-pulse/frame-1.jpg",
+					"at": 0.75,
+					"label": "Close medium kick",
+					"alt": "A.K.I. strikes at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-close-medium-od-pulse/frame-2.jpg",
+					"at": 1.75,
+					"label": "OD Pulse",
+					"alt": "A.K.I. launches Luke with the OD bubble."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-close-medium-od-pulse/frame-3.jpg",
+					"at": 2.5,
+					"label": "Crouching heavy punch",
+					"alt": "A.K.I. catches Luke after the bubble launch."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-lights-toxic-wreath",
+			"aki-low-lights-heavy-lash",
+			"aki-poison-low-lash-juggle"
+		]
+	},
+	{
+		"id": "aki-poison-medium-lash-juggle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poisoned medium confirm into Lash juggle",
+		"summary": "A medium kick and punch link reaches the heavy-to-light Lash poison conversion.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "st.MK > st.MP > 236HP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "Heavy Serpent Lash"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LP",
+				"label": "Light Serpent Lash"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent already poisoned"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-aki-2023",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"published": "2023-09-28",
+			"start": 95.05,
+			"end": 100.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, on-screen recipe, conditions and selected moments visually reviewed against VesperArcade’s 2023-09-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/aki/aki-poison-medium-lash-juggle/clip.mp4",
+			"poster": "/media/aki/aki-poison-medium-lash-juggle/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-poison-medium-lash-juggle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-poison-medium-lash-juggle/frame-1.jpg",
+					"at": 0.5,
+					"label": "Medium confirm",
+					"alt": "A.K.I. starts against an already poisoned Luke."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-poison-medium-lash-juggle/frame-2.jpg",
+					"at": 1.6,
+					"label": "Toxic Blossom",
+					"alt": "A.K.I. triggers the poison launch with heavy Lash."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-poison-medium-lash-juggle/frame-3.jpg",
+					"at": 3.2,
+					"label": "Light Lash",
+					"alt": "A.K.I. juggles Luke before he lands."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-lights-toxic-wreath",
+			"aki-low-lights-heavy-lash",
+			"aki-poison-low-lash-juggle"
+		]
+	},
+	{
+		"id": "aki-low-medium-jab-lash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Low medium kick into jab and Lash",
+		"summary": "A meterless low-medium starter links into one crouching jab.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.MK > cr.LP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "Heavy Serpent Lash"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-aki-2023",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"published": "2023-09-28",
+			"start": 119.1,
+			"end": 123.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, on-screen recipe, conditions and selected moments visually reviewed against VesperArcade’s 2023-09-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/aki/aki-low-medium-jab-lash/clip.mp4",
+			"poster": "/media/aki/aki-low-medium-jab-lash/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-low-medium-jab-lash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-low-medium-jab-lash/frame-1.jpg",
+					"at": 0.8,
+					"label": "Low medium kick",
+					"alt": "A.K.I. slides low toward Luke."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-low-medium-jab-lash/frame-2.jpg",
+					"at": 1.3,
+					"label": "Jab link",
+					"alt": "A.K.I. connects a crouching light punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-low-medium-jab-lash/frame-3.jpg",
+					"at": 2.15,
+					"label": "Heavy Lash",
+					"alt": "A.K.I. finishes with the upward lash."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-lights-toxic-wreath",
+			"aki-low-lights-heavy-lash",
+			"aki-poison-low-lash-juggle"
+		]
+	},
+	{
+		"id": "aki-forward-heavy-jabs",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Forward heavy kick into lights",
+		"summary": "The forward heavy kick leaves time for two crouching jabs before heavy Lash.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "f.HK > cr.LP > cr.LP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "f.HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "Heavy Serpent Lash"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-aki-2023",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"published": "2023-09-28",
+			"start": 167.3,
+			"end": 172.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, on-screen recipe, conditions and selected moments visually reviewed against VesperArcade’s 2023-09-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/aki/aki-forward-heavy-jabs/clip.mp4",
+			"poster": "/media/aki/aki-forward-heavy-jabs/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-forward-heavy-jabs/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-forward-heavy-jabs/frame-1.jpg",
+					"at": 0.7,
+					"label": "Forward heavy kick",
+					"alt": "A.K.I. steps in with the forward heavy kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-forward-heavy-jabs/frame-2.jpg",
+					"at": 1.9,
+					"label": "Light links",
+					"alt": "A.K.I. continues with crouching jabs."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-forward-heavy-jabs/frame-3.jpg",
+					"at": 3.0,
+					"label": "Heavy Lash",
+					"alt": "A.K.I. launches Luke to end the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-lights-toxic-wreath",
+			"aki-low-lights-heavy-lash",
+			"aki-poison-low-lash-juggle"
+		]
+	},
+	{
+		"id": "aki-heavy-slide-heel-strike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Heavy kick into Sinister Slide",
+		"summary": "Cancel standing heavy kick into the slide stance, use Heel Strike, then connect the lights.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "st.HK > 2PP > K > cr.LP > cr.LP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "2PP",
+				"label": "Sinister Slide"
+			},
+			{
+				"id": "step-3",
+				"notation": "K",
+				"label": "Heel Strike",
+				"cue": "Kick during Sinister Slide"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236HP",
+				"label": "Heavy Serpent Lash"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-aki-2023",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"published": "2023-09-28",
+			"start": 179.45,
+			"end": 185.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, on-screen recipe, conditions and selected moments visually reviewed against VesperArcade’s 2023-09-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/aki/aki-heavy-slide-heel-strike/clip.mp4",
+			"poster": "/media/aki/aki-heavy-slide-heel-strike/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-heavy-slide-heel-strike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-heavy-slide-heel-strike/frame-1.jpg",
+					"at": 0.6,
+					"label": "Heavy starter",
+					"alt": "A.K.I. connects standing heavy kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-heavy-slide-heel-strike/frame-2.jpg",
+					"at": 1.55,
+					"label": "Heel Strike",
+					"alt": "A.K.I. kicks from the low slide stance."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-heavy-slide-heel-strike/frame-3.jpg",
+					"at": 3.0,
+					"label": "Jab links",
+					"alt": "A.K.I. connects crouching jabs after Heel Strike."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-heavy-slide-heel-strike/frame-4.jpg",
+					"at": 3.85,
+					"label": "Lash finish",
+					"alt": "A.K.I. launches Luke with heavy Lash."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-lights-toxic-wreath",
+			"aki-low-lights-heavy-lash",
+			"aki-poison-low-lash-juggle"
+		]
+	},
+	{
+		"id": "aki-wall-splat-wreath-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Wall splat into Wreath and Level 1",
+		"summary": "A blocked corner Drive Impact allows heavy kick, Toxic Wreath, a poison Lash juggle and Level 1.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Cash out"],
+		"outcomes": ["Conversion"],
+		"notation": "DI > st.HK > 214HP > 236LP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Toxic Wreath"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LP",
+				"label": "Light Serpent Lash"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "Deadly Implication",
+				"cue": "236236P"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent blocks Drive Impact at the wall",
+			"Opponent initially unpoisoned"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "1 Super stock"
+		},
+		"source": {
+			"id": "vesperarcade-aki-2023",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"published": "2023-09-28",
+			"start": 228.2,
+			"end": 238.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, on-screen recipe, conditions and selected moments visually reviewed against VesperArcade’s 2023-09-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/aki/aki-wall-splat-wreath-level-one/clip.mp4",
+			"poster": "/media/aki/aki-wall-splat-wreath-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-wall-splat-wreath-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-wall-splat-wreath-level-one/frame-1.jpg",
+					"at": 1.05,
+					"label": "Wall splat",
+					"alt": "A.K.I. pushes blocking Luke into the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-wall-splat-wreath-level-one/frame-2.jpg",
+					"at": 2.8,
+					"label": "Toxic Wreath",
+					"alt": "A.K.I. spreads poison after heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-wall-splat-wreath-level-one/frame-3.jpg",
+					"at": 3.9,
+					"label": "Lash juggle",
+					"alt": "A.K.I. hits poisoned Luke with light Lash."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-wall-splat-wreath-level-one/frame-4.jpg",
+					"at": 7.3,
+					"label": "Deadly Implication",
+					"alt": "A.K.I. captures Luke in the Level 1 bubble."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-low-lights-level-three",
+			"aki-corner-poison-pool-ender",
+			"aki-lights-toxic-wreath"
+		]
+	},
+	{
+		"id": "aki-corner-poison-pool-ender",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner poison route into Orchid Spring",
+		"summary": "A crouching-medium confirm triggers the corner juggle, then Orchid Spring is placed beneath the knockdown.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.MP > 236HP > 214HP > 236LP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HP",
+				"label": "Heavy Serpent Lash"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Toxic Wreath"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LP",
+				"label": "Light Serpent Lash"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP",
+				"label": "Orchid Spring"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent already poisoned", "Corner position as shown"],
+		"notes": [
+			"The poison application precedes this excerpt; begin with the opponent already poisoned.",
+			"The pool placement follows the combo. The clip does not demonstrate a guaranteed subsequent meaty or throw."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-aki-2023",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"published": "2023-09-28",
+			"start": 719.88,
+			"end": 725.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, on-screen recipe, conditions and selected moments visually reviewed against VesperArcade’s 2023-09-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/aki/aki-corner-poison-pool-ender/clip.mp4",
+			"poster": "/media/aki/aki-corner-poison-pool-ender/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-corner-poison-pool-ender/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-corner-poison-pool-ender/frame-1.jpg",
+					"at": 0.35,
+					"label": "Poisoned medium confirm",
+					"alt": "A.K.I. starts with crouching medium punch against poisoned Luke."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-corner-poison-pool-ender/frame-2.jpg",
+					"at": 1.02,
+					"label": "Heavy Lash launch",
+					"alt": "A.K.I. triggers Toxic Blossom in the corner."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-corner-poison-pool-ender/frame-3.jpg",
+					"at": 2.62,
+					"label": "Corner juggle",
+					"alt": "A.K.I. continues Toxic Wreath into light Lash."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-corner-poison-pool-ender/frame-4.jpg",
+					"at": 3.77,
+					"label": "Orchid Spring",
+					"alt": "A.K.I. places a poison pool beneath the falling opponent."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-wall-splat-wreath-level-one",
+			"aki-lights-toxic-wreath",
+			"aki-low-lights-heavy-lash"
+		]
+	}
+]

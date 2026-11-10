@@ -1,0 +1,1625 @@
+[
+	{
+		"id": "terry-lights-heavy-rising",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Jab and low light into heavy Rising Tackle",
+		"summary": "Use standing jab, crouching light kick and standing jab before the heavy uppercut.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > cr.LK > st.LP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Rising Tackle",
+				"cue": "Dragon-punch motion + heavy punch."
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 1.1,
+			"end": 4.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-lights-heavy-rising/clip.mp4",
+			"poster": "/media/terry/terry-lights-heavy-rising/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-lights-heavy-rising/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-lights-heavy-rising/frame-1.jpg",
+					"at": 0.4,
+					"label": "Standing jab",
+					"alt": "Standing light punch begins the close-range confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-lights-heavy-rising/frame-2.jpg",
+					"at": 0.98,
+					"label": "Low light and jab",
+					"alt": "Crouching light kick and the following jab continue the light chain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-lights-heavy-rising/frame-3.jpg",
+					"at": 1.92,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-lights-heavy-rising/frame-4.jpg",
+					"at": 2.87,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the heavy uppercut."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-crouching-jabs-knuckle",
+			"terry-fire-kick-heavy-knuckle",
+			"terry-low-rush-charge-crack-rising"
+		]
+	},
+	{
+		"id": "terry-heavy-rising-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Heavy Rising Tackle: Rush into throw",
+		"summary": "After the demonstrated heavy-Rising-Tackle knockdown, Rush forward and throw on the opponent’s recovery.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw pressure", "Drive Rush"],
+		"outcomes": ["Throw pressure"],
+		"notation": "DR > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Forward throw",
+				"cue": "Light punch + light kick at the demonstrated wake-up timing."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The preceding heavy Rising Tackle gives the source’s shown +27F knockdown",
+			"Match the source timing and spacing"
+		],
+		"notes": [
+			"This demonstrates one throw attempt against the recorded response. It is not an unavoidable throw or a reversal-proof sequence."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 8.05,
+			"end": 11.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-heavy-rising-rush-throw/clip.mp4",
+			"poster": "/media/terry/terry-heavy-rising-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-heavy-rising-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-heavy-rising-rush-throw/frame-1.jpg",
+					"at": 0.45,
+					"label": "Rush approach",
+					"alt": "Terry uses Drive Rush as Ryu falls from heavy Rising Tackle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-heavy-rising-rush-throw/frame-2.jpg",
+					"at": 1.35,
+					"label": "Throw timing",
+					"alt": "Terry reaches Ryu’s recovery and begins the throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-heavy-rising-rush-throw/frame-3.jpg",
+					"at": 2.25,
+					"label": "Throw continuation",
+					"alt": "Terry completes the throw animation."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-heavy-rising-rush-throw/frame-4.jpg",
+					"at": 3.15,
+					"label": "Throw result",
+					"alt": "Ryu lands after the forward throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-low-rush-charge-crack-rising",
+			"terry-lights-heavy-rising",
+			"terry-crouching-jabs-knuckle"
+		]
+	},
+	{
+		"id": "terry-crouching-jabs-knuckle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Two crouching jabs into medium Burning Knuckle",
+		"summary": "Cancel the second crouching jab into medium Burning Knuckle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.LP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP",
+				"label": "Medium Burning Knuckle",
+				"cue": "Quarter-circle back + medium punch."
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 32.1,
+			"end": 35.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-crouching-jabs-knuckle/clip.mp4",
+			"poster": "/media/terry/terry-crouching-jabs-knuckle/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-crouching-jabs-knuckle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-crouching-jabs-knuckle/frame-1.jpg",
+					"at": 0.4,
+					"label": "Crouching jab",
+					"alt": "Crouching light punch starts the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-crouching-jabs-knuckle/frame-2.jpg",
+					"at": 0.9,
+					"label": "Second jab",
+					"alt": "A second crouching jab continues the chain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-crouching-jabs-knuckle/frame-3.jpg",
+					"at": 1.4,
+					"label": "Burning Knuckle",
+					"alt": "Medium Burning Knuckle converts the jab."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-crouching-jabs-knuckle/frame-4.jpg",
+					"at": 2.0,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the advancing punch."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-lights-heavy-rising",
+			"terry-heavy-rising-rush-throw",
+			"terry-fire-kick-heavy-knuckle"
+		]
+	},
+	{
+		"id": "terry-fire-kick-heavy-knuckle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Fire Kick target combo into heavy Burning Knuckle",
+		"summary": "Use crouching medium kick and its heavy-kick target follow-up before heavy Burning Knuckle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK > cr.HK > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HK",
+				"label": "Fire Kick target follow-up",
+				"cue": "Crouching heavy kick during the crouching-medium-kick target combo."
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Burning Knuckle",
+				"cue": "Quarter-circle back + heavy punch."
+			}
+		],
+		"conditions": ["Classic controls", "Use the Fire Kick target follow-up, not a separate sweep"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 67.4,
+			"end": 70.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-fire-kick-heavy-knuckle/clip.mp4",
+			"poster": "/media/terry/terry-fire-kick-heavy-knuckle/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-fire-kick-heavy-knuckle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-fire-kick-heavy-knuckle/frame-1.jpg",
+					"at": 0.4,
+					"label": "Low medium",
+					"alt": "Crouching medium kick begins Fire Kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-fire-kick-heavy-knuckle/frame-2.jpg",
+					"at": 0.9,
+					"label": "Target follow-up",
+					"alt": "The crouching-heavy-kick target continuation launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-fire-kick-heavy-knuckle/frame-3.jpg",
+					"at": 1.6,
+					"label": "Heavy Burning Knuckle",
+					"alt": "Heavy Burning Knuckle converts the launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-fire-kick-heavy-knuckle/frame-4.jpg",
+					"at": 2.5,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the heavy Knuckle ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-lights-heavy-rising",
+			"terry-low-rush-charge-crack-rising",
+			"terry-heavy-kick-punish-fire-kick"
+		]
+	},
+	{
+		"id": "terry-low-rush-charge-crack-rising",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Low medium Rush confirm through Power Charge and Crack Shoot",
+		"summary": "Rush-cancel the low starter into crouching heavy punch, then delay heavy Crack Shoot after Power Charge for the uppercut juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK > DRC > cr.HP > 236HK > 214HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Power Charge",
+				"cue": "Quarter-circle forward + heavy kick."
+			},
+			{
+				"id": "step-5",
+				"notation": "214HK",
+				"label": "Heavy Crack Shoot",
+				"cue": "Delay the quarter-circle-back heavy kick to match the juggle height."
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "Heavy Rising Tackle",
+				"cue": "Dragon-punch motion + heavy punch."
+			}
+		],
+		"conditions": ["Classic controls", "Match the delayed Crack Shoot timing"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 71.95,
+			"end": 78.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-low-rush-charge-crack-rising/clip.mp4",
+			"poster": "/media/terry/terry-low-rush-charge-crack-rising/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-low-rush-charge-crack-rising/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-low-rush-charge-crack-rising/frame-1.jpg",
+					"at": 0.65,
+					"label": "Rush conversion",
+					"alt": "Terry cancels crouching medium kick into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-low-rush-charge-crack-rising/frame-2.jpg",
+					"at": 1.55,
+					"label": "Heavy Power Charge",
+					"alt": "Heavy Power Charge follows the crouching-heavy pickup."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-low-rush-charge-crack-rising/frame-3.jpg",
+					"at": 2.45,
+					"label": "Delayed Crack Shoot",
+					"alt": "Heavy Crack Shoot connects at the recorded juggle height."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-low-rush-charge-crack-rising/frame-4.jpg",
+					"at": 4.05,
+					"label": "Rising Tackle finish",
+					"alt": "Heavy Rising Tackle completes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-corner-low-rush-round-wave",
+			"terry-lights-heavy-rising",
+			"terry-heavy-rising-rush-throw"
+		]
+	},
+	{
+		"id": "terry-corner-low-rush-round-wave",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Corner low Rush route through Round Wave",
+		"summary": "Use the corner to juggle after heavy Power Charge with Round Wave, medium Power Charge and light Rising Tackle.",
+		"kind": "combo",
+		"situations": ["Corner", "Low confirm", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "cr.MK > DRC > cr.HP > 236HK > 236HP > 236MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Power Charge",
+				"cue": "Quarter-circle forward + heavy kick."
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "Round Wave",
+				"cue": "Quarter-circle forward + heavy punch."
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Power Charge",
+				"cue": "Quarter-circle forward + medium kick."
+			},
+			{
+				"id": "step-7",
+				"notation": "623LP",
+				"label": "Light Rising Tackle",
+				"cue": "Dragon-punch motion + light punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent at the wall",
+			"Match the projectile and charge juggle timing"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 79.3,
+			"end": 85.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-corner-low-rush-round-wave/clip.mp4",
+			"poster": "/media/terry/terry-corner-low-rush-round-wave/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-corner-low-rush-round-wave/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-corner-low-rush-round-wave/frame-1.jpg",
+					"at": 0.7,
+					"label": "Low Rush starter",
+					"alt": "Crouching medium kick is cancelled into Drive Rush beside the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-corner-low-rush-round-wave/frame-2.jpg",
+					"at": 2.3,
+					"label": "Power Charge",
+					"alt": "Heavy Power Charge continues from crouching heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-corner-low-rush-round-wave/frame-3.jpg",
+					"at": 3.4,
+					"label": "Round Wave juggle",
+					"alt": "Round Wave catches the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-corner-low-rush-round-wave/frame-4.jpg",
+					"at": 4.7,
+					"label": "Light Rising Tackle",
+					"alt": "Light Rising Tackle finishes after medium Power Charge."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-low-rush-charge-crack-rising",
+			"terry-corner-low-cashout-geyser",
+			"terry-corner-heavy-medium-crack"
+		]
+	},
+	{
+		"id": "terry-two-hit-heavy-knuckle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Two-hit heavy punch into medium Burning Knuckle",
+		"summary": "Let standing heavy punch hit twice before the medium Knuckle cancel.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Allow both hits before the listed special cancel."
+			},
+			{
+				"id": "step-2",
+				"notation": "214MP",
+				"label": "Medium Burning Knuckle",
+				"cue": "Quarter-circle back + medium punch."
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for both standing-heavy-punch hits"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 136.3,
+			"end": 139.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-two-hit-heavy-knuckle/clip.mp4",
+			"poster": "/media/terry/terry-two-hit-heavy-knuckle/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-two-hit-heavy-knuckle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-two-hit-heavy-knuckle/frame-1.jpg",
+					"at": 0.55,
+					"label": "First heavy hit",
+					"alt": "Standing heavy punch starts the two-hit normal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-two-hit-heavy-knuckle/frame-2.jpg",
+					"at": 0.8,
+					"label": "Second heavy hit",
+					"alt": "The second hit connects before the cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-two-hit-heavy-knuckle/frame-3.jpg",
+					"at": 1.4,
+					"label": "Burning Knuckle",
+					"alt": "Medium Burning Knuckle converts the two-hit heavy."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-two-hit-heavy-knuckle/frame-4.jpg",
+					"at": 2.1,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the punch ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-midscreen-heavy-wave-knuckle",
+			"terry-lights-heavy-rising",
+			"terry-heavy-rising-rush-throw"
+		]
+	},
+	{
+		"id": "terry-midscreen-heavy-wave-knuckle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Midscreen heavy route through Power Charge and Round Wave",
+		"summary": "Convert both heavy-punch hits into Power Charge, Round Wave and medium Burning Knuckle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > 236HK > 236HP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Allow both hits before the listed special cancel."
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "Heavy Power Charge",
+				"cue": "Quarter-circle forward + heavy kick."
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "Round Wave",
+				"cue": "Quarter-circle forward + heavy punch."
+			},
+			{
+				"id": "step-4",
+				"notation": "214MP",
+				"label": "Medium Burning Knuckle",
+				"cue": "Quarter-circle back + medium punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Midscreen spacing as demonstrated",
+			"Do not substitute the separate corner finish"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 140.35,
+			"end": 145.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-midscreen-heavy-wave-knuckle/clip.mp4",
+			"poster": "/media/terry/terry-midscreen-heavy-wave-knuckle/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-midscreen-heavy-wave-knuckle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-midscreen-heavy-wave-knuckle/frame-1.jpg",
+					"at": 0.65,
+					"label": "Two-hit heavy",
+					"alt": "Both standing-heavy-punch hits connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-midscreen-heavy-wave-knuckle/frame-2.jpg",
+					"at": 1.7,
+					"label": "Power Charge",
+					"alt": "Heavy Power Charge launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-midscreen-heavy-wave-knuckle/frame-3.jpg",
+					"at": 2.45,
+					"label": "Round Wave",
+					"alt": "Round Wave catches the airborne opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-midscreen-heavy-wave-knuckle/frame-4.jpg",
+					"at": 3.35,
+					"label": "Knuckle juggle",
+					"alt": "Medium Burning Knuckle completes the midscreen route."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-low-rush-charge-crack-rising",
+			"terry-two-hit-heavy-knuckle",
+			"terry-corner-heavy-medium-crack"
+		]
+	},
+	{
+		"id": "terry-corner-heavy-medium-crack",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Corner two-hit heavy into medium Crack Shoot",
+		"summary": "Use medium Crack Shoot after heavy Power Charge in the corner, then juggle with heavy Rising Tackle.",
+		"kind": "combo",
+		"situations": ["Corner", "Heavy confirm", "Juggle extension"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.HP > 236HK > 214MK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Allow both hits before the listed special cancel."
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "Heavy Power Charge",
+				"cue": "Quarter-circle forward + heavy kick."
+			},
+			{
+				"id": "step-3",
+				"notation": "214MK",
+				"label": "Medium Crack Shoot",
+				"cue": "Quarter-circle back + medium kick."
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Rising Tackle",
+				"cue": "Dragon-punch motion + heavy punch."
+			}
+		],
+		"conditions": ["Classic controls", "Opponent at the wall", "Allow both heavy-punch hits"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 189.25,
+			"end": 194.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-corner-heavy-medium-crack/clip.mp4",
+			"poster": "/media/terry/terry-corner-heavy-medium-crack/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-corner-heavy-medium-crack/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-corner-heavy-medium-crack/frame-1.jpg",
+					"at": 0.75,
+					"label": "Two-hit heavy",
+					"alt": "Standing heavy punch connects twice at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-corner-heavy-medium-crack/frame-2.jpg",
+					"at": 1.8,
+					"label": "Power Charge",
+					"alt": "Heavy Power Charge launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-corner-heavy-medium-crack/frame-3.jpg",
+					"at": 2.65,
+					"label": "Medium Crack Shoot",
+					"alt": "Medium Crack Shoot continues the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-corner-heavy-medium-crack/frame-4.jpg",
+					"at": 3.45,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle completes the corner finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-corner-low-rush-round-wave",
+			"terry-midscreen-heavy-wave-knuckle",
+			"terry-low-rush-charge-crack-rising"
+		]
+	},
+	{
+		"id": "terry-heavy-kick-punish-fire-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Punish-counter heavy kick into Fire Kick and Rising Tackle",
+		"summary": "Convert standing heavy kick on Punish Counter into the low target combo and Power Charge juggle route.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK > cr.MK > cr.HK > 236HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HK",
+				"label": "Fire Kick target follow-up",
+				"cue": "Crouching heavy kick during the crouching-medium-kick target combo."
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Power Charge",
+				"cue": "Quarter-circle forward + heavy kick."
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "Heavy Rising Tackle",
+				"cue": "Dragon-punch motion + heavy punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing heavy kick Punish Counter",
+			"Close enough for crouching medium kick"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 202.6,
+			"end": 206.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-heavy-kick-punish-fire-kick/clip.mp4",
+			"poster": "/media/terry/terry-heavy-kick-punish-fire-kick/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-heavy-kick-punish-fire-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-heavy-kick-punish-fire-kick/frame-1.jpg",
+					"at": 0.5,
+					"label": "Heavy-kick punish",
+					"alt": "Standing heavy kick starts the Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-heavy-kick-punish-fire-kick/frame-2.jpg",
+					"at": 1.4,
+					"label": "Fire Kick",
+					"alt": "Crouching medium kick and its target follow-up continue the conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-heavy-kick-punish-fire-kick/frame-3.jpg",
+					"at": 2.3,
+					"label": "Power Charge",
+					"alt": "Heavy Power Charge lifts Ryu for the uppercut."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-heavy-kick-punish-fire-kick/frame-4.jpg",
+					"at": 3.4,
+					"label": "Rising Tackle",
+					"alt": "Heavy Rising Tackle finishes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-fire-kick-heavy-knuckle",
+			"terry-drive-reversal-crouching-medium",
+			"terry-far-counter-di-dash"
+		]
+	},
+	{
+		"id": "terry-drive-reversal-crouching-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Drive Reversal punish from crouching medium punch",
+		"summary": "Punish the recorded Drive Reversal with crouching medium punch, Power Charge, delayed Crack Shoot and heavy Rising Tackle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Drive Reversal punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > 236HK > 214HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "Heavy Power Charge",
+				"cue": "Quarter-circle forward + heavy kick."
+			},
+			{
+				"id": "step-3",
+				"notation": "214HK",
+				"label": "Heavy Crack Shoot",
+				"cue": "Delay the quarter-circle-back heavy kick to match the juggle height."
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Rising Tackle",
+				"cue": "Dragon-punch motion + heavy punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Block the shown Drive Reversal",
+			"Crouching medium punch Punish Counter"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 274.35,
+			"end": 280.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-drive-reversal-crouching-medium/clip.mp4",
+			"poster": "/media/terry/terry-drive-reversal-crouching-medium/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-drive-reversal-crouching-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-drive-reversal-crouching-medium/frame-1.jpg",
+					"at": 1.15,
+					"label": "Blocked reversal",
+					"alt": "Terry guards the displayed Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-drive-reversal-crouching-medium/frame-2.jpg",
+					"at": 1.85,
+					"label": "Crouching-medium punish",
+					"alt": "Crouching medium punch starts the Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-drive-reversal-crouching-medium/frame-3.jpg",
+					"at": 2.65,
+					"label": "Power Charge juggle",
+					"alt": "Heavy Power Charge continues the punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-drive-reversal-crouching-medium/frame-4.jpg",
+					"at": 4.15,
+					"label": "Uppercut finish",
+					"alt": "Heavy Rising Tackle follows delayed heavy Crack Shoot."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-heavy-kick-punish-fire-kick",
+			"terry-far-counter-di-dash",
+			"terry-dp-punish-two-hit-heavy"
+		]
+	},
+	{
+		"id": "terry-far-counter-di-dash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Far counter DI: dash into crouching heavy",
+		"summary": "Dash after a distant counter-DI crumple to reach crouching heavy punch and the Power Charge uppercut finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter", "Spacing adjustment"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 66 > cr.HP > 236HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash",
+				"cue": "Dash toward the distant crumpling opponent."
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Power Charge",
+				"cue": "Quarter-circle forward + heavy kick."
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "Heavy Rising Tackle",
+				"cue": "Dragon-punch motion + heavy punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The shown far counter-DI crumple",
+			"Dash before crouching heavy punch"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 299.25,
+			"end": 306.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-far-counter-di-dash/clip.mp4",
+			"poster": "/media/terry/terry-far-counter-di-dash/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-far-counter-di-dash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-far-counter-di-dash/frame-1.jpg",
+					"at": 0.75,
+					"label": "Counter DI",
+					"alt": "Terry answers Ryu’s Drive Impact at the demonstrated distance."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-far-counter-di-dash/frame-2.jpg",
+					"at": 3.75,
+					"label": "Crumple",
+					"alt": "Terry’s DI wins as a Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-far-counter-di-dash/frame-3.jpg",
+					"at": 4.75,
+					"label": "Dash pickup",
+					"alt": "Terry dashes into crouching heavy punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-far-counter-di-dash/frame-4.jpg",
+					"at": 6.25,
+					"label": "Rising Tackle finish",
+					"alt": "Heavy Rising Tackle finishes after Power Charge."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-heavy-kick-punish-fire-kick",
+			"terry-drive-reversal-crouching-medium",
+			"terry-dp-punish-two-hit-heavy"
+		]
+	},
+	{
+		"id": "terry-wall-splat-crack-rising",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Blocked DI wall splat into Crack Shoot and Rising Tackle",
+		"summary": "Pick up the blocked-DI wall splat with crouching heavy punch, medium Crack Shoot and heavy Rising Tackle.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "DI > cr.HP > 214MK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MK",
+				"label": "Medium Crack Shoot",
+				"cue": "Quarter-circle back + medium kick."
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Rising Tackle",
+				"cue": "Dragon-punch motion + heavy punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent blocks Drive Impact at the wall",
+			"Wall splat, not Punish Counter crumple or burnout stun"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 308.25,
+			"end": 314.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-wall-splat-crack-rising/clip.mp4",
+			"poster": "/media/terry/terry-wall-splat-crack-rising/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-wall-splat-crack-rising/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-wall-splat-crack-rising/frame-1.jpg",
+					"at": 0.65,
+					"label": "Blocked DI",
+					"alt": "Ryu blocks Drive Impact at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-wall-splat-crack-rising/frame-2.jpg",
+					"at": 2.0,
+					"label": "Crouching-heavy pickup",
+					"alt": "Crouching heavy punch catches the wall-splatted Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-wall-splat-crack-rising/frame-3.jpg",
+					"at": 2.75,
+					"label": "Crack Shoot",
+					"alt": "Medium Crack Shoot continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-wall-splat-crack-rising/frame-4.jpg",
+					"at": 3.35,
+					"label": "Rising Tackle",
+					"alt": "Heavy Rising Tackle finishes the wall conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-corner-low-rush-round-wave",
+			"terry-corner-heavy-medium-crack",
+			"terry-far-counter-di-dash"
+		]
+	},
+	{
+		"id": "terry-dp-punish-two-hit-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Blocked OD Shoryuken: two-hit heavy punish",
+		"summary": "Punish Ryu’s blocked OD Shoryuken with both heavy-punch hits, Power Charge, delayed heavy Crack Shoot and Rising Tackle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Reversal punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > 236HK > 214HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Allow both hits before the listed special cancel."
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "Heavy Power Charge",
+				"cue": "Quarter-circle forward + heavy kick."
+			},
+			{
+				"id": "step-3",
+				"notation": "214HK",
+				"label": "Heavy Crack Shoot",
+				"cue": "Delay the quarter-circle-back heavy kick to match the juggle height."
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Rising Tackle",
+				"cue": "Dragon-punch motion + heavy punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu’s blocked OD Shoryuken is the recorded opening",
+			"Allow both standing-heavy-punch hits"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 332.25,
+			"end": 338.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-dp-punish-two-hit-heavy/clip.mp4",
+			"poster": "/media/terry/terry-dp-punish-two-hit-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-dp-punish-two-hit-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-dp-punish-two-hit-heavy/frame-1.jpg",
+					"at": 0.75,
+					"label": "Blocked OD Shoryuken",
+					"alt": "Ryu rises after Terry guards the OD reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-dp-punish-two-hit-heavy/frame-2.jpg",
+					"at": 2.05,
+					"label": "Two-hit heavy punish",
+					"alt": "Standing heavy punch punishes Ryu’s landing recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-dp-punish-two-hit-heavy/frame-3.jpg",
+					"at": 2.55,
+					"label": "Power Charge",
+					"alt": "Heavy Power Charge continues the Punish Counter route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-dp-punish-two-hit-heavy/frame-4.jpg",
+					"at": 4.35,
+					"label": "Uppercut finish",
+					"alt": "Heavy Rising Tackle follows the delayed Crack Shoot."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-heavy-kick-punish-fire-kick",
+			"terry-drive-reversal-crouching-medium",
+			"terry-far-counter-di-dash"
+		]
+	},
+	{
+		"id": "terry-corner-low-cashout-geyser",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Low confirm carries into the full Geyser finish",
+		"summary": "Carry the low confirm from midscreen through a raw Rush juggle into Power Geyser and both continuations.",
+		"kind": "combo",
+		"situations": [
+			"Midscreen",
+			"Low confirm",
+			"Drive Rush",
+			"Corner carry",
+			"Cash out",
+			"Super finish"
+		],
+		"outcomes": ["Cash out", "Burnout"],
+		"notation": "cr.MK > DRC > cr.HP > 236HK > 236LP > DR > st.MP > 236MK > SA2 > PP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Power Charge",
+				"cue": "Quarter-circle forward + heavy kick."
+			},
+			{
+				"id": "step-5",
+				"notation": "236LP",
+				"label": "Light Power Wave",
+				"cue": "Quarter-circle forward + light punch."
+			},
+			{
+				"id": "step-6",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "236MK",
+				"label": "Medium Power Charge",
+				"cue": "Quarter-circle forward + medium kick."
+			},
+			{
+				"id": "step-9",
+				"notation": "SA2",
+				"label": "Power Geyser",
+				"cue": "Level 2 Super Art at the shown juggle height."
+			},
+			{
+				"id": "step-10",
+				"notation": "PP",
+				"label": "Twin Geyser",
+				"cue": "Two-punch follow-up during Power Geyser; consumes Drive."
+			},
+			{
+				"id": "step-11",
+				"notation": "PP",
+				"label": "Triple Geyser",
+				"cue": "Second two-punch follow-up; consumes the additional Super stock."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Start with full Drive and three Super stocks",
+			"Match the raw Rush juggle timing",
+			"Midscreen starting spacing as demonstrated"
+		],
+		"notes": [
+			"The two PP continuations are separate actions after SA2. The first spends Drive and the second spends an additional Super stock."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush, raw Drive Rush and Twin Geyser; reaches burnout",
+			"super": "Power Geyser + Triple Geyser (3 stocks total)"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 365.6,
+			"end": 375.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/terry/terry-corner-low-cashout-geyser/clip.mp4",
+			"poster": "/media/terry/terry-corner-low-cashout-geyser/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-corner-low-cashout-geyser/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-corner-low-cashout-geyser/frame-1.jpg",
+					"at": 0.7,
+					"label": "Low Rush confirm",
+					"alt": "Terry cancels crouching medium kick into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-corner-low-cashout-geyser/frame-2.jpg",
+					"at": 2.8,
+					"label": "Power Wave and Rush",
+					"alt": "Light Power Wave and raw Drive Rush carry the juggle toward the corner."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-corner-low-cashout-geyser/frame-3.jpg",
+					"at": 5.44,
+					"label": "Power Geyser",
+					"alt": "Power Geyser connects after medium Power Charge."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-corner-low-cashout-geyser/frame-4.jpg",
+					"at": 8.08,
+					"label": "Geyser continuations",
+					"alt": "Terry spends both punch-button continuations."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/terry/terry-corner-low-cashout-geyser/frame-5.jpg",
+					"at": 9.5,
+					"label": "Burnout finish",
+					"alt": "The route finishes with Terry in burnout and no Super remaining."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-corner-low-rush-round-wave",
+			"terry-low-rush-charge-crack-rising",
+			"terry-lights-heavy-rising"
+		]
+	}
+]

@@ -1,0 +1,1738 @@
+[
+	{
+		"id": "kimberly-ebios-lights-light-edge",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Two crouching jabs into light Vagabond Edge",
+		"summary": "A close light confirm that leaves a standing follow-up situation.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Standing advantage"],
+		"notation": "2LP > 2LP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LP",
+				"label": "Light Vagabond Edge"
+			}
+		],
+		"conditions": ["Classic controls", "Close light-confirm spacing"],
+		"notes": [
+			"The source displays +3F on hit. This is a dated standing-advantage observation, not a knockdown route."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 0.55,
+			"end": 3.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-lights-light-edge/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-lights-light-edge/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-lights-light-edge/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-lights-light-edge/frame-1.jpg",
+					"at": 0.45,
+					"label": "Jab confirm",
+					"alt": "Crouching jabs start the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-lights-light-edge/frame-2.jpg",
+					"at": 1.1,
+					"label": "Light Edge",
+					"alt": "Light Vagabond Edge follows the jabs."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-lights-light-edge/frame-3.jpg",
+					"at": 2.25,
+					"label": "Standing result",
+					"alt": "Both characters remain standing after the light-special finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-light-four-button-target",
+			"kimberly-ebios-medium-run-arc-kick",
+			"kimberly-ebios-medium-run-slide"
+		]
+	},
+	{
+		"id": "kimberly-ebios-light-four-button-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Crouching jab into the four-button target route",
+		"summary": "Use the standing-light target sequence after a crouching jab for a meterless knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 5LP > ~MP > ~HP > ~HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~MP",
+				"label": "Medium target press"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HP",
+				"label": "Heavy target press"
+			},
+			{
+				"id": "step-5",
+				"notation": "~HK",
+				"label": "Heavy-kick target finish"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 31.15,
+			"end": 35.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-light-four-button-target/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-light-four-button-target/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-light-four-button-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-light-four-button-target/frame-1.jpg",
+					"at": 0.85,
+					"label": "Crouching-jab starter",
+					"alt": "Crouching jab leads into standing light punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-light-four-button-target/frame-2.jpg",
+					"at": 1.5,
+					"label": "Target sequence",
+					"alt": "The medium and heavy target presses continue the confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-light-four-button-target/frame-3.jpg",
+					"at": 2.35,
+					"label": "Target finish",
+					"alt": "The heavy-kick target continuation knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-lights-light-edge",
+			"kimberly-ebios-medium-run-arc-kick",
+			"kimberly-ebios-medium-run-slide"
+		]
+	},
+	{
+		"id": "kimberly-ebios-medium-run-arc-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Medium confirm: Sprint into Arc Step kick",
+		"summary": "Link the medium-heavy target route, then use the run contact and airborne kick finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP > 5MP > ~HP > 236K > Arc Step > ~K",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~HP",
+				"label": "Heavy target continuation"
+			},
+			{
+				"id": "step-4",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-5",
+				"notation": "Arc Step",
+				"label": "Arc Step"
+			},
+			{
+				"id": "step-6",
+				"notation": "~K",
+				"label": "Arc Step kick"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 97.65,
+			"end": 102.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-medium-run-arc-kick/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-medium-run-arc-kick/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-medium-run-arc-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-medium-run-arc-kick/frame-1.jpg",
+					"at": 0.75,
+					"label": "Medium confirm",
+					"alt": "Crouching medium links into the medium-heavy target route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-medium-run-arc-kick/frame-2.jpg",
+					"at": 1.65,
+					"label": "Sprint contact",
+					"alt": "Sprint follows the heavy target continuation."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-medium-run-arc-kick/frame-3.jpg",
+					"at": 2.35,
+					"label": "Arc Step kick",
+					"alt": "The airborne kick continues the Arc Step route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/kimberly/kimberly-ebios-medium-run-arc-kick/frame-4.jpg",
+					"at": 3.65,
+					"label": "Knockdown",
+					"alt": "The Arc Step kick finishes in a knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-medium-run-slide",
+			"kimberly-ebios-medium-kick-rush-slide",
+			"kimberly-ebios-medium-kick-rush-stop-slide"
+		]
+	},
+	{
+		"id": "kimberly-ebios-medium-run-slide",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Medium confirm: target route into Sprint slide",
+		"summary": "Use the medium-heavy target sequence and finish with the run medium-kick slide.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP > 5MP > ~HP > 236K > ~MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~HP",
+				"label": "Heavy target continuation"
+			},
+			{
+				"id": "step-4",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-5",
+				"notation": "~MK",
+				"label": "Sprint medium-kick slide"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 150.65,
+			"end": 155.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-medium-run-slide/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-medium-run-slide/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-medium-run-slide/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-medium-run-slide/frame-1.jpg",
+					"at": 1.05,
+					"label": "Medium-heavy target",
+					"alt": "The medium-heavy target route follows crouching medium."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-medium-run-slide/frame-2.jpg",
+					"at": 2.35,
+					"label": "Run slide",
+					"alt": "The Sprint medium-kick branch slides underneath Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-medium-run-slide/frame-3.jpg",
+					"at": 3.35,
+					"label": "Knockdown spacing",
+					"alt": "The slide leaves the demonstrated midscreen knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-medium-run-arc-kick",
+			"kimberly-ebios-medium-kick-rush-slide",
+			"kimberly-ebios-medium-kick-rush-stop-slide"
+		]
+	},
+	{
+		"id": "kimberly-ebios-near-corner-slide-bushin",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Near-corner confirm: Sprint slide into light Bushin",
+		"summary": "Use the wall spacing to juggle light Bushin Senpukyaku after the run slide.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Target combo", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP > 5MP > ~HP > 236K > ~MK > 214LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~HP",
+				"label": "Heavy target continuation"
+			},
+			{
+				"id": "step-4",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-5",
+				"notation": "~MK",
+				"label": "Sprint medium-kick slide"
+			},
+			{
+				"id": "step-6",
+				"notation": "214LK",
+				"label": "Light Bushin Senpukyaku"
+			}
+		],
+		"conditions": ["Classic controls", "Match the demonstrated near-corner spacing"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 184.65,
+			"end": 190.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-near-corner-slide-bushin/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-near-corner-slide-bushin/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-near-corner-slide-bushin/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-near-corner-slide-bushin/frame-1.jpg",
+					"at": 1.35,
+					"label": "Target confirm",
+					"alt": "Crouching medium leads into the medium-heavy target route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-near-corner-slide-bushin/frame-2.jpg",
+					"at": 2.35,
+					"label": "Slide launch",
+					"alt": "The Sprint slide starts the near-corner juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-near-corner-slide-bushin/frame-3.jpg",
+					"at": 3.35,
+					"label": "Light Bushin",
+					"alt": "Light Bushin Senpukyaku continues the corner conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/kimberly/kimberly-ebios-near-corner-slide-bushin/frame-4.jpg",
+					"at": 4.55,
+					"label": "Knockdown",
+					"alt": "Ryu lands beside the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-od-arc-run-launch-level-one",
+			"kimberly-ebios-medium-run-arc-kick",
+			"kimberly-ebios-medium-run-slide"
+		]
+	},
+	{
+		"id": "kimberly-ebios-od-arc-run-launch-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Near-corner extension: OD Arc Step into Level 1",
+		"summary": "Use OD Sprint and Arc Step kick, then the run light-kick launcher into Level 1.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Target combo", "Juggle extension", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP > 5MP > ~HP > 236KK > Arc Step > ~K > 236K > ~LK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~HP",
+				"label": "Heavy target continuation"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "OD Sprint"
+			},
+			{
+				"id": "step-5",
+				"notation": "Arc Step",
+				"label": "Arc Step"
+			},
+			{
+				"id": "step-6",
+				"notation": "~K",
+				"label": "Arc Step kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-8",
+				"notation": "~LK",
+				"label": "Sprint light-kick launcher"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "Near-corner spacing", "One Super stock"],
+		"notes": [],
+		"resources": {
+			"drive": "OD Sprint",
+			"super": "Level 1 (1 stock)"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 334.65,
+			"end": 346.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-od-arc-run-launch-level-one/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-od-arc-run-launch-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-od-arc-run-launch-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-od-arc-run-launch-level-one/frame-1.jpg",
+					"at": 1.35,
+					"label": "Target route",
+					"alt": "The medium-heavy target confirm begins the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-od-arc-run-launch-level-one/frame-2.jpg",
+					"at": 2.35,
+					"label": "OD Arc Step",
+					"alt": "The OD Sprint route leads into the Arc Step kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-od-arc-run-launch-level-one/frame-3.jpg",
+					"at": 3.85,
+					"label": "Run launcher",
+					"alt": "The Sprint light-kick branch continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/kimberly/kimberly-ebios-od-arc-run-launch-level-one/frame-4.jpg",
+					"at": 5.35,
+					"label": "Level 1",
+					"alt": "Kimberly activates Level 1."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/kimberly/kimberly-ebios-od-arc-run-launch-level-one/frame-5.jpg",
+					"at": 9.55,
+					"label": "Super finish",
+					"alt": "The Super’s final attack completes the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-near-corner-slide-bushin",
+			"kimberly-ebios-medium-run-arc-kick",
+			"kimberly-ebios-medium-run-slide"
+		]
+	},
+	{
+		"id": "kimberly-ebios-medium-kick-rush-slide",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Medium-kick Rush: low link into target and slide",
+		"summary": "Convert standing medium kick with Rush, then crouching medium kick and the medium-heavy target route.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Drive Rush", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MK > DRC > 2MK > 2MP > 5MP > ~HP > 236K > ~MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "~HP",
+				"label": "Heavy target continuation"
+			},
+			{
+				"id": "step-7",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-8",
+				"notation": "~MK",
+				"label": "Sprint medium-kick slide"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 346.65,
+			"end": 352.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-medium-kick-rush-slide/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-medium-kick-rush-slide/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-medium-kick-rush-slide/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-rush-slide/frame-1.jpg",
+					"at": 1.35,
+					"label": "Rush conversion",
+					"alt": "Standing medium kick converts into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-rush-slide/frame-2.jpg",
+					"at": 1.95,
+					"label": "Low link",
+					"alt": "Crouching medium kick links into crouching medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-rush-slide/frame-3.jpg",
+					"at": 2.65,
+					"label": "Target route",
+					"alt": "The medium-heavy target presses continue the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-rush-slide/frame-4.jpg",
+					"at": 3.35,
+					"label": "Slide finish",
+					"alt": "The Sprint slide completes the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-medium-kick-rush-stop-slide",
+			"kimberly-ebios-medium-run-arc-kick",
+			"kimberly-ebios-medium-run-slide"
+		]
+	},
+	{
+		"id": "kimberly-ebios-medium-kick-rush-stop-slide",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Rush extension: crouching heavy, run stop and medium links",
+		"summary": "Use the run punch stop after Rush crouching heavy, then two crouching-medium links into the target route.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Drive Rush", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MK > DRC > 2HP > 236K > ~P > 2MP > 2MP > 5MP > ~HP > 236K > ~MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-5",
+				"notation": "~P",
+				"label": "Sprint punch stop"
+			},
+			{
+				"id": "step-6",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "~HP",
+				"label": "Heavy target continuation"
+			},
+			{
+				"id": "step-10",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-11",
+				"notation": "~MK",
+				"label": "Sprint medium-kick slide"
+			}
+		],
+		"conditions": ["Classic controls", "Match the run-stop and linked-medium timing"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 352.95,
+			"end": 359.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-medium-kick-rush-stop-slide/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-medium-kick-rush-stop-slide/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-medium-kick-rush-stop-slide/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-rush-stop-slide/frame-1.jpg",
+					"at": 1.05,
+					"label": "Rush heavy",
+					"alt": "Rush crouching heavy punch starts the extension."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-rush-stop-slide/frame-2.jpg",
+					"at": 1.55,
+					"label": "Run stop",
+					"alt": "Sprint’s punch stop prepares the next links."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-rush-stop-slide/frame-3.jpg",
+					"at": 2.55,
+					"label": "Medium links",
+					"alt": "Two crouching medium punches lead into the medium-heavy target."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-rush-stop-slide/frame-4.jpg",
+					"at": 4.05,
+					"label": "Slide finish",
+					"alt": "The run slide completes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-medium-kick-rush-slide",
+			"kimberly-ebios-medium-run-arc-kick",
+			"kimberly-ebios-medium-run-slide"
+		]
+	},
+	{
+		"id": "kimberly-ebios-medium-kick-double-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Medium-kick cash-out: two run-stop extensions into Level 3",
+		"summary": "Repeat the Rush crouching-heavy run-stop extension and finish through light Edge into Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Drive Rush", "Cash out", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MK > DRC > 2HP > 236K > ~P > 2MP > 2MP > 5MP > DRC > 2HP > 236K > ~P > 2MP > 2MP > 5MP > ~HP > 236LP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-5",
+				"notation": "~P",
+				"label": "Sprint punch stop"
+			},
+			{
+				"id": "step-6",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-10",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-11",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-12",
+				"notation": "~P",
+				"label": "Sprint punch stop"
+			},
+			{
+				"id": "step-13",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-14",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-15",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-16",
+				"notation": "~HP",
+				"label": "Heavy target continuation"
+			},
+			{
+				"id": "step-17",
+				"notation": "236LP",
+				"label": "Light Vagabond Edge"
+			},
+			{
+				"id": "step-18",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Enough Drive for both cancel Rushes",
+			"Three Super stocks",
+			"Match both run-stop link sequences"
+		],
+		"notes": ["The demonstrated take finishes in burnout."],
+		"resources": {
+			"drive": "Two cancel Drive Rushes; burnout in the take",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 360.05,
+			"end": 376.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-medium-kick-double-rush-level-three/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-medium-kick-double-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-medium-kick-double-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-double-rush-level-three/frame-1.jpg",
+					"at": 0.95,
+					"label": "First run-stop extension",
+					"alt": "The first Rush heavy and run stop start the cash-out."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-double-rush-level-three/frame-2.jpg",
+					"at": 2.95,
+					"label": "Second Rush",
+					"alt": "The standing-medium link cancels into the second Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-double-rush-level-three/frame-3.jpg",
+					"at": 4.95,
+					"label": "Target-to-special finish",
+					"alt": "The second medium-heavy target route leads into light Edge."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-double-rush-level-three/frame-4.jpg",
+					"at": 5.95,
+					"label": "Level 3",
+					"alt": "Kimberly activates Level 3."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/kimberly/kimberly-ebios-medium-kick-double-rush-level-three/frame-5.jpg",
+					"at": 16.15,
+					"label": "Hard knockdown",
+					"alt": "The Super completes in a hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-medium-kick-rush-slide",
+			"kimberly-ebios-medium-kick-rush-stop-slide",
+			"kimberly-ebios-medium-run-arc-kick"
+		]
+	},
+	{
+		"id": "kimberly-ebios-heavy-launch-air-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Heavy confirm: launch into airborne grab",
+		"summary": "Cancel standing heavy punch into heavy Vagabond Edge and follow with the regular air grab.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HP > 236HP > j.236P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HP",
+				"label": "Heavy Vagabond Edge"
+			},
+			{
+				"id": "step-3",
+				"notation": "j.236P",
+				"label": "Airborne grab"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 386.65,
+			"end": 391.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-heavy-launch-air-grab/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-heavy-launch-air-grab/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-heavy-launch-air-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-heavy-launch-air-grab/frame-1.jpg",
+					"at": 0.85,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch begins the conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-heavy-launch-air-grab/frame-2.jpg",
+					"at": 1.75,
+					"label": "Heavy launcher",
+					"alt": "Heavy Vagabond Edge sends Ryu airborne."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-heavy-launch-air-grab/frame-3.jpg",
+					"at": 2.35,
+					"label": "Airborne grab",
+					"alt": "The regular airborne grab catches the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/kimberly/kimberly-ebios-heavy-launch-air-grab/frame-4.jpg",
+					"at": 3.85,
+					"label": "Hard knockdown",
+					"alt": "The grab finishes on the floor."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-counter-di-heavy-launch-grab",
+			"kimberly-ebios-drive-reversal-od-grab-extension",
+			"kimberly-ebios-lights-light-edge"
+		]
+	},
+	{
+		"id": "kimberly-ebios-counter-di-heavy-launch-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Counter DI: crouching heavy, launch and air grab",
+		"summary": "Convert the counter-DI crumple through crouching heavy and the regular airborne-grab route.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 2HP > 236HP > j.236P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "Heavy Vagabond Edge"
+			},
+			{
+				"id": "step-4",
+				"notation": "j.236P",
+				"label": "Airborne grab"
+			}
+		],
+		"conditions": ["Classic controls", "Win the counter-DI exchange"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 579.05,
+			"end": 587.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-counter-di-heavy-launch-grab/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-counter-di-heavy-launch-grab/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-counter-di-heavy-launch-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-counter-di-heavy-launch-grab/frame-1.jpg",
+					"at": 1.95,
+					"label": "Counter DI",
+					"alt": "Kimberly answers Ryu’s incoming Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-counter-di-heavy-launch-grab/frame-2.jpg",
+					"at": 3.95,
+					"label": "DI win",
+					"alt": "The winning DI creates the Punish Counter crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-counter-di-heavy-launch-grab/frame-3.jpg",
+					"at": 5.25,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch starts the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/kimberly/kimberly-ebios-counter-di-heavy-launch-grab/frame-4.jpg",
+					"at": 6.95,
+					"label": "Air grab",
+					"alt": "The heavy launcher leads into the regular airborne grab."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/kimberly/kimberly-ebios-counter-di-heavy-launch-grab/frame-5.jpg",
+					"at": 8.15,
+					"label": "Hard knockdown",
+					"alt": "The grab completes the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-drive-reversal-od-grab-extension",
+			"kimberly-ebios-heavy-launch-air-grab",
+			"kimberly-ebios-wall-splat-run-launch-grab"
+		]
+	},
+	{
+		"id": "kimberly-ebios-wall-splat-run-launch-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Blocked DI wall splat: run launcher into air grab",
+		"summary": "Use crouching heavy and the run light-kick launcher to convert the wall splat.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 2HP > 236K > ~LK > j.236P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-4",
+				"notation": "~LK",
+				"label": "Sprint light-kick launcher"
+			},
+			{
+				"id": "step-5",
+				"notation": "j.236P",
+				"label": "Airborne grab"
+			}
+		],
+		"conditions": ["Classic controls", "Blocked DI wall splat, not burnout stun"],
+		"notes": [
+			"The caption mentions hit or block. This selected take demonstrates the blocked-DI wall-splat state."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 599.65,
+			"end": 605.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-wall-splat-run-launch-grab/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-wall-splat-run-launch-grab/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-wall-splat-run-launch-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-wall-splat-run-launch-grab/frame-1.jpg",
+					"at": 1.15,
+					"label": "Wall splat",
+					"alt": "Ryu blocks DI at the wall and is wall-splatted."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-wall-splat-run-launch-grab/frame-2.jpg",
+					"at": 1.75,
+					"label": "Heavy conversion",
+					"alt": "Crouching heavy punch converts the wall splat."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-wall-splat-run-launch-grab/frame-3.jpg",
+					"at": 2.35,
+					"label": "Run launcher",
+					"alt": "The Sprint light-kick branch launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/kimberly/kimberly-ebios-wall-splat-run-launch-grab/frame-4.jpg",
+					"at": 4.35,
+					"label": "Air grab finish",
+					"alt": "The airborne grab finishes the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-near-corner-slide-bushin",
+			"kimberly-ebios-od-arc-run-launch-level-one",
+			"kimberly-ebios-counter-di-heavy-launch-grab"
+		]
+	},
+	{
+		"id": "kimberly-ebios-drive-reversal-od-grab-extension",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Drive Reversal punish: OD air grab into run launcher and Edge",
+		"summary": "Guard the shown Drive Reversal, punish with crouching medium and extend through the OD air grab.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Reversal punish", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP > 5HP > 236HP > j.236PP > 236K > ~LK > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "Heavy Vagabond Edge"
+			},
+			{
+				"id": "step-4",
+				"notation": "j.236PP",
+				"label": "OD airborne grab"
+			},
+			{
+				"id": "step-5",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-6",
+				"notation": "~LK",
+				"label": "Sprint light-kick launcher"
+			},
+			{
+				"id": "step-7",
+				"notation": "236LP",
+				"label": "Light Vagabond Edge"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Guard the demonstrated Drive Reversal in crouching-medium range"
+		],
+		"notes": [
+			"The parenthesized Level 3 in the caption is an option; this selected take finishes with light Edge and spends no Super."
+		],
+		"resources": {
+			"drive": "OD airborne grab",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 621.65,
+			"end": 631.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-drive-reversal-od-grab-extension/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-drive-reversal-od-grab-extension/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-drive-reversal-od-grab-extension/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-drive-reversal-od-grab-extension/frame-1.jpg",
+					"at": 1.35,
+					"label": "Guarded Drive Reversal",
+					"alt": "Kimberly guards Ryu’s Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-drive-reversal-od-grab-extension/frame-2.jpg",
+					"at": 2.35,
+					"label": "Medium punish",
+					"alt": "Crouching medium punch starts the Punish Counter conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-drive-reversal-od-grab-extension/frame-3.jpg",
+					"at": 5.15,
+					"label": "OD air grab",
+					"alt": "The heavy launcher leads into the OD airborne grab."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/kimberly/kimberly-ebios-drive-reversal-od-grab-extension/frame-4.jpg",
+					"at": 6.85,
+					"label": "Run pickup",
+					"alt": "The run light-kick branch picks up the OD-grab launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/kimberly/kimberly-ebios-drive-reversal-od-grab-extension/frame-5.jpg",
+					"at": 8.35,
+					"label": "Light Edge finish",
+					"alt": "Light Vagabond Edge completes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-counter-di-heavy-launch-grab",
+			"kimberly-ebios-heavy-launch-air-grab",
+			"kimberly-ebios-heavy-punish-run-stop-target-slide"
+		]
+	},
+	{
+		"id": "kimberly-ebios-heavy-punish-run-stop-target-slide",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Heavy Punish Counter: run stop into target and slide",
+		"summary": "Punish the demonstrated opening with heavy punch, then stop Sprint to link heavy kick into the target route.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HP > 236K > ~P > 5HK > 5MP > ~HP > 236K > ~MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-3",
+				"notation": "~P",
+				"label": "Sprint punch stop"
+			},
+			{
+				"id": "step-4",
+				"notation": "5HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "~HP",
+				"label": "Heavy target continuation"
+			},
+			{
+				"id": "step-7",
+				"notation": "236K",
+				"label": "Sprint"
+			},
+			{
+				"id": "step-8",
+				"notation": "~MK",
+				"label": "Sprint medium-kick slide"
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy punch Punish Counter"],
+		"notes": [
+			"The clip includes the training interaction that produces the opening. The authored route starts with the heavy-punch punish."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 632.05,
+			"end": 638.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-heavy-punish-run-stop-target-slide/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-heavy-punish-run-stop-target-slide/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-heavy-punish-run-stop-target-slide/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-heavy-punish-run-stop-target-slide/frame-1.jpg",
+					"at": 1.95,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch connects as Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-heavy-punish-run-stop-target-slide/frame-2.jpg",
+					"at": 2.65,
+					"label": "Run-stop link",
+					"alt": "The run stop leads into standing heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-heavy-punish-run-stop-target-slide/frame-3.jpg",
+					"at": 3.95,
+					"label": "Target continuation",
+					"alt": "The medium-heavy target route continues the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/kimberly/kimberly-ebios-heavy-punish-run-stop-target-slide/frame-4.jpg",
+					"at": 4.95,
+					"label": "Slide finish",
+					"alt": "The Sprint slide finishes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-light-four-button-target",
+			"kimberly-ebios-medium-run-arc-kick",
+			"kimberly-ebios-medium-run-slide"
+		]
+	},
+	{
+		"id": "kimberly-ebios-corner-target-medium-bomb",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "kimberly"
+			}
+		],
+		"title": "Corner target knockdown: medium bomb placement",
+		"summary": "Place the medium bomb after the four-button target route and watch the delayed explosion.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Bomb setup", "Target combo"],
+		"outcomes": ["Knockdown", "Bomb placed"],
+		"notation": "5LP > ~MP > ~HP > ~HK > 22MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "~MP",
+				"label": "Medium target press"
+			},
+			{
+				"id": "step-3",
+				"notation": "~HP",
+				"label": "Heavy target press"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HK",
+				"label": "Heavy-kick target finish"
+			},
+			{
+				"id": "step-5",
+				"notation": "22MP",
+				"label": "Medium bomb placement"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"At least one spray can",
+			"Match the shown close corner target knockdown"
+		],
+		"notes": [
+			"The performed input display uses medium punch for placement; the caption also lists a two-punch option. The target combo and delayed bomb hit are separate sequences. The printed +5F is a dated setup observation."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-kimberly-classic-2026",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"published": "2026-10-08",
+			"start": 649.35,
+			"end": 654.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/kimberly/kimberly-ebios-corner-target-medium-bomb/clip.mp4",
+			"poster": "/media/kimberly/kimberly-ebios-corner-target-medium-bomb/frame-1.jpg",
+			"descriptionTrack": "/media/kimberly/kimberly-ebios-corner-target-medium-bomb/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/kimberly/kimberly-ebios-corner-target-medium-bomb/frame-1.jpg",
+					"at": 0.65,
+					"label": "Target starter",
+					"alt": "Standing light punch begins the four-button target route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/kimberly/kimberly-ebios-corner-target-medium-bomb/frame-2.jpg",
+					"at": 1.65,
+					"label": "Target finish",
+					"alt": "The heavy-kick target continuation knocks Ryu down."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/kimberly/kimberly-ebios-corner-target-medium-bomb/frame-3.jpg",
+					"at": 2.85,
+					"label": "Bomb placement",
+					"alt": "Kimberly spends one can to place the medium bomb after the knockdown."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/kimberly/kimberly-ebios-corner-target-medium-bomb/frame-4.jpg",
+					"at": 3.65,
+					"label": "Wake-up position",
+					"alt": "The planted bomb remains at Ryu’s feet as he recovers."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/kimberly/kimberly-ebios-corner-target-medium-bomb/frame-5.jpg",
+					"at": 4.65,
+					"label": "Delayed explosion",
+					"alt": "The planted bomb explodes after the target knockdown, as a separate hit sequence."
+				}
+			]
+		},
+		"relatedIds": [
+			"kimberly-ebios-near-corner-slide-bushin",
+			"kimberly-ebios-od-arc-run-launch-level-one",
+			"kimberly-ebios-light-four-button-target"
+		]
+	}
+]

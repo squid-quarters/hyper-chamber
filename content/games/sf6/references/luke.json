@@ -1,0 +1,1905 @@
+[
+	{
+		"id": "luke-ebios-three-lights-flash-knuckle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Three crouching jabs into light Flash Knuckle",
+		"summary": "A meterless light confirm ending in the uncharged light special.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2LP > 2LP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP",
+				"label": "Light Flash Knuckle"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for all three lights"],
+		"notes": [
+			"This ender is regular light Flash Knuckle, not the Perfect light version used in later juggle routes."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 0.65,
+			"end": 4.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-three-lights-flash-knuckle/clip.mp4",
+			"poster": "/media/luke/luke-ebios-three-lights-flash-knuckle/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-three-lights-flash-knuckle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-three-lights-flash-knuckle/frame-1.jpg",
+					"at": 0.9,
+					"label": "First jab",
+					"alt": "Luke starts the close crouching-jab chain."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-three-lights-flash-knuckle/frame-2.jpg",
+					"at": 1.35,
+					"label": "Third jab",
+					"alt": "The third crouching jab continues the confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-three-lights-flash-knuckle/frame-3.jpg",
+					"at": 2.0,
+					"label": "Light Flash Knuckle",
+					"alt": "Light Flash Knuckle knocks Ken down."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-light-flash-rush-throw",
+			"luke-ebios-corner-lights-flash-uppercut",
+			"luke-ebios-medium-light-flash-knuckle"
+		]
+	},
+	{
+		"id": "luke-ebios-light-flash-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Light-Flash knockdown: Rush into throw",
+		"summary": "After the demonstrated light-Flash knockdown, Rush forward into a throw attempt.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Drive Rush", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Three crouching jabs into regular light Flash Knuckle knockdown"
+		],
+		"notes": ["A recorded pressure option, not a forced throw against every wake-up response."],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 13.35,
+			"end": 17.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-light-flash-rush-throw/clip.mp4",
+			"poster": "/media/luke/luke-ebios-light-flash-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-light-flash-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-light-flash-rush-throw/frame-1.jpg",
+					"at": 0.65,
+					"label": "Rush approach",
+					"alt": "Luke rushes toward the knocked-down opponent."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-light-flash-rush-throw/frame-2.jpg",
+					"at": 1.45,
+					"label": "Throw attempt",
+					"alt": "The Rush approach closes into throw range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-light-flash-rush-throw/frame-3.jpg",
+					"at": 2.65,
+					"label": "Throw finish",
+					"alt": "The recorded throw returns Ken to the floor."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-corner-uppercut-whiff-medium-throw",
+			"luke-ebios-low-rush-perfect-knuckles",
+			"luke-ebios-reversal-rush-level-three-cashout"
+		]
+	},
+	{
+		"id": "luke-ebios-corner-lights-flash-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Corner lights: light Flash Knuckle into light Uppercut",
+		"summary": "Use the corner to juggle light Rising Uppercut after the light Flash Knuckle confirm.",
+		"kind": "combo",
+		"situations": ["Corner", "Light confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2LP > 2LP > 214LP > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP",
+				"label": "Light Flash Knuckle"
+			},
+			{
+				"id": "step-5",
+				"notation": "623LP",
+				"label": "Light Rising Uppercut"
+			}
+		],
+		"conditions": ["Classic controls", "Close to the wall"],
+		"notes": ["This combo excerpt ends before the later whiffed crouching-medium frame kill."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 45.15,
+			"end": 48.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-corner-lights-flash-uppercut/clip.mp4",
+			"poster": "/media/luke/luke-ebios-corner-lights-flash-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-corner-lights-flash-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-corner-lights-flash-uppercut/frame-1.jpg",
+					"at": 0.85,
+					"label": "Light confirm",
+					"alt": "Crouching jabs start the corner confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-corner-lights-flash-uppercut/frame-2.jpg",
+					"at": 1.85,
+					"label": "Light Flash Knuckle",
+					"alt": "The regular light special starts the juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-corner-lights-flash-uppercut/frame-3.jpg",
+					"at": 2.85,
+					"label": "Light Uppercut",
+					"alt": "Light Rising Uppercut completes the corner conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-near-corner-low-perfect-medium-uppercut",
+			"luke-ebios-near-corner-air-knuckle-juggle",
+			"luke-ebios-corner-low-sand-blast-uppercut"
+		]
+	},
+	{
+		"id": "luke-ebios-corner-uppercut-whiff-medium-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Corner light-Uppercut knockdown: whiff medium into throw",
+		"summary": "Whiff crouching medium punch after the light-Uppercut knockdown, then attempt a throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Frame kill", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP whiff > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP whiff",
+				"label": "Crouching-medium frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The shown three-jab, light-Flash, light-Uppercut corner knockdown"
+		],
+		"notes": [
+			"The source labels this timing +4F. Treat that as a dated observation, not universal reversal or throw safety."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 53.05,
+			"end": 56.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-corner-uppercut-whiff-medium-throw/clip.mp4",
+			"poster": "/media/luke/luke-ebios-corner-uppercut-whiff-medium-throw/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-corner-uppercut-whiff-medium-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-corner-uppercut-whiff-medium-throw/frame-1.jpg",
+					"at": 0.65,
+					"label": "Frame kill",
+					"alt": "Luke whiffs crouching medium punch as Ken recovers."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-corner-uppercut-whiff-medium-throw/frame-2.jpg",
+					"at": 0.95,
+					"label": "Throw attempt",
+					"alt": "The frame kill leads into the recorded forward throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-corner-uppercut-whiff-medium-throw/frame-3.jpg",
+					"at": 2.95,
+					"label": "Throw knockdown",
+					"alt": "The throw completes beside the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-light-flash-rush-throw",
+			"luke-ebios-corner-lights-flash-uppercut",
+			"luke-ebios-near-corner-low-perfect-medium-uppercut"
+		]
+	},
+	{
+		"id": "luke-ebios-medium-light-flash-knuckle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Crouching medium and light kick into Flash Knuckle",
+		"summary": "Link standing light kick from crouching medium punch and cancel into light Flash Knuckle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP > 5LK > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "Light Flash Knuckle"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for standing light kick"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 67.15,
+			"end": 70.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-medium-light-flash-knuckle/clip.mp4",
+			"poster": "/media/luke/luke-ebios-medium-light-flash-knuckle/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-medium-light-flash-knuckle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-medium-light-flash-knuckle/frame-1.jpg",
+					"at": 0.7,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-medium-light-flash-knuckle/frame-2.jpg",
+					"at": 1.15,
+					"label": "Light-kick link",
+					"alt": "Standing light kick follows the medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-medium-light-flash-knuckle/frame-3.jpg",
+					"at": 1.85,
+					"label": "Light Flash Knuckle",
+					"alt": "The light special finishes the grounded conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-three-lights-flash-knuckle",
+			"luke-ebios-light-flash-rush-throw",
+			"luke-ebios-low-rush-perfect-knuckles"
+		]
+	},
+	{
+		"id": "luke-ebios-low-rush-perfect-knuckles",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Low Rush: Perfect medium and light Knuckles into heavy",
+		"summary": "Convert crouching medium kick into the two-Perfect Flash Knuckle juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 2MP > 2HP > 214MP Perfect > 214LP Perfect > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP Perfect",
+				"label": "Perfect medium Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-6",
+				"notation": "214LP Perfect",
+				"label": "Perfect light Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "Heavy Flash Knuckle"
+			}
+		],
+		"conditions": ["Classic controls", "Low kick connects", "Perfect medium and light releases"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 71.65,
+			"end": 78.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-low-rush-perfect-knuckles/clip.mp4",
+			"poster": "/media/luke/luke-ebios-low-rush-perfect-knuckles/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-low-rush-perfect-knuckles/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-low-rush-perfect-knuckles/frame-1.jpg",
+					"at": 0.95,
+					"label": "Low Rush conversion",
+					"alt": "Crouching medium kick cancels into Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-low-rush-perfect-knuckles/frame-2.jpg",
+					"at": 1.8,
+					"label": "Crouching heavy",
+					"alt": "Crouching heavy punch leads into the charged special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-low-rush-perfect-knuckles/frame-3.jpg",
+					"at": 2.75,
+					"label": "Perfect medium",
+					"alt": "Perfect medium Flash Knuckle launches Ken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/luke/luke-ebios-low-rush-perfect-knuckles/frame-4.jpg",
+					"at": 3.75,
+					"label": "Perfect light",
+					"alt": "Perfect light Flash Knuckle continues the airborne juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/luke/luke-ebios-low-rush-perfect-knuckles/frame-5.jpg",
+					"at": 4.85,
+					"label": "Heavy finish",
+					"alt": "Heavy Flash Knuckle completes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-near-corner-low-perfect-medium-uppercut",
+			"luke-ebios-near-corner-air-knuckle-juggle",
+			"luke-ebios-corner-low-sand-blast-uppercut"
+		]
+	},
+	{
+		"id": "luke-ebios-near-corner-low-perfect-medium-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Near-corner low Rush: Perfect medium into heavy Uppercut",
+		"summary": "Use the shorter near-corner juggle after the low Rush conversion.",
+		"kind": "combo",
+		"situations": ["Corner", "Low confirm", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 2MP > 2HP > 214MP Perfect > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP Perfect",
+				"label": "Perfect medium Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "Heavy Rising Uppercut"
+			}
+		],
+		"conditions": ["Classic controls", "Near-corner spacing shown", "Perfect medium release"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 155.15,
+			"end": 160.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-near-corner-low-perfect-medium-uppercut/clip.mp4",
+			"poster": "/media/luke/luke-ebios-near-corner-low-perfect-medium-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-near-corner-low-perfect-medium-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-near-corner-low-perfect-medium-uppercut/frame-1.jpg",
+					"at": 0.85,
+					"label": "Rush conversion",
+					"alt": "The low kick cancels into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-near-corner-low-perfect-medium-uppercut/frame-2.jpg",
+					"at": 1.85,
+					"label": "Crouching heavy",
+					"alt": "The crouching-heavy link leads into Perfect medium Knuckle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-near-corner-low-perfect-medium-uppercut/frame-3.jpg",
+					"at": 2.85,
+					"label": "Perfect medium launch",
+					"alt": "Perfect medium Flash Knuckle launches beside the wall."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/luke/luke-ebios-near-corner-low-perfect-medium-uppercut/frame-4.jpg",
+					"at": 3.85,
+					"label": "Heavy Uppercut",
+					"alt": "Heavy Rising Uppercut finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-near-corner-air-knuckle-juggle",
+			"luke-ebios-corner-low-sand-blast-uppercut",
+			"luke-ebios-low-rush-perfect-knuckles"
+		]
+	},
+	{
+		"id": "luke-ebios-near-corner-air-knuckle-juggle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Near-corner extension: air medium into air Knuckle",
+		"summary": "Jump after Perfect medium Flash Knuckle, delay the airborne light special, and land into light Uppercut.",
+		"kind": "combo",
+		"situations": ["Corner", "Low confirm", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 2MP > 2HP > 214MP Perfect > j.MP > Delay > j.214LP short hold > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP Perfect",
+				"label": "Perfect medium Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-6",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "Delay",
+				"label": "Delay the airborne special"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.214LP short hold",
+				"label": "Short-held airborne light Flash Knuckle"
+			},
+			{
+				"id": "step-9",
+				"notation": "623LP",
+				"label": "Light Rising Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Match the demonstrated near-corner spacing",
+			"Perfect medium release",
+			"Delay and short hold on airborne light Flash Knuckle"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 161.65,
+			"end": 168.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-near-corner-air-knuckle-juggle/clip.mp4",
+			"poster": "/media/luke/luke-ebios-near-corner-air-knuckle-juggle/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-near-corner-air-knuckle-juggle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-near-corner-air-knuckle-juggle/frame-1.jpg",
+					"at": 0.8,
+					"label": "Low Rush",
+					"alt": "The low starter converts through Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-near-corner-air-knuckle-juggle/frame-2.jpg",
+					"at": 2.35,
+					"label": "Perfect launch",
+					"alt": "Perfect medium Flash Knuckle sends Ken airborne."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-near-corner-air-knuckle-juggle/frame-3.jpg",
+					"at": 3.35,
+					"label": "Air medium",
+					"alt": "Jumping medium punch continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/luke/luke-ebios-near-corner-air-knuckle-juggle/frame-4.jpg",
+					"at": 4.35,
+					"label": "Air Knuckle",
+					"alt": "The delayed short-held airborne light special connects."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/luke/luke-ebios-near-corner-air-knuckle-juggle/frame-5.jpg",
+					"at": 4.95,
+					"label": "Light Uppercut",
+					"alt": "Luke lands and finishes with light Rising Uppercut."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-near-corner-low-perfect-medium-uppercut",
+			"luke-ebios-corner-low-sand-blast-uppercut",
+			"luke-ebios-low-rush-perfect-knuckles"
+		]
+	},
+	{
+		"id": "luke-ebios-corner-low-sand-blast-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Corner low Rush: Perfect light, Sand Blast and heavy Uppercut",
+		"summary": "Use Perfect light Flash Knuckle and medium Sand Blast for the corner juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Low confirm", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 2MP > 2HP > 214LP Perfect > 236MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214LP Perfect",
+				"label": "Perfect light Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-6",
+				"notation": "236MP",
+				"label": "Medium Sand Blast"
+			},
+			{
+				"id": "step-7",
+				"notation": "623HP",
+				"label": "Heavy Rising Uppercut"
+			}
+		],
+		"conditions": ["Classic controls", "Corner spacing", "Perfect light release"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 169.15,
+			"end": 175.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-corner-low-sand-blast-uppercut/clip.mp4",
+			"poster": "/media/luke/luke-ebios-corner-low-sand-blast-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-corner-low-sand-blast-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-corner-low-sand-blast-uppercut/frame-1.jpg",
+					"at": 0.85,
+					"label": "Rush conversion",
+					"alt": "Luke converts the low kick into Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-corner-low-sand-blast-uppercut/frame-2.jpg",
+					"at": 1.85,
+					"label": "Crouching-heavy link",
+					"alt": "Crouching heavy punch leads into Perfect light Flash Knuckle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-corner-low-sand-blast-uppercut/frame-3.jpg",
+					"at": 2.85,
+					"label": "Perfect light launch",
+					"alt": "The Perfect light special launches beside the wall."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/luke/luke-ebios-corner-low-sand-blast-uppercut/frame-4.jpg",
+					"at": 3.85,
+					"label": "Sand Blast",
+					"alt": "Medium Sand Blast continues the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/luke/luke-ebios-corner-low-sand-blast-uppercut/frame-5.jpg",
+					"at": 4.85,
+					"label": "Heavy Uppercut",
+					"alt": "Heavy Rising Uppercut finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-near-corner-low-perfect-medium-uppercut",
+			"luke-ebios-near-corner-air-knuckle-juggle",
+			"luke-ebios-low-rush-perfect-knuckles"
+		]
+	},
+	{
+		"id": "luke-ebios-drive-reversal-medium-target-combo",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Drive Reversal punish: crouching medium into the medium target route",
+		"summary": "Guard the shown Drive Reversal and punish with crouching medium followed by four medium target presses.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Reversal punish", "Punish counter", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP > 5MP > ~MP > ~MP > ~MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~MP",
+				"label": "Second target press"
+			},
+			{
+				"id": "step-4",
+				"notation": "~MP",
+				"label": "Third target press"
+			},
+			{
+				"id": "step-5",
+				"notation": "~MP",
+				"label": "Final target press"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Guard the demonstrated Drive Reversal in crouching-medium range"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 197.15,
+			"end": 202.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-drive-reversal-medium-target-combo/clip.mp4",
+			"poster": "/media/luke/luke-ebios-drive-reversal-medium-target-combo/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-drive-reversal-medium-target-combo/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-drive-reversal-medium-target-combo/frame-1.jpg",
+					"at": 0.85,
+					"label": "Guarded Drive Reversal",
+					"alt": "Luke blocks Ken’s Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-drive-reversal-medium-target-combo/frame-2.jpg",
+					"at": 1.85,
+					"label": "Medium punish",
+					"alt": "Crouching medium punch punishes the recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-drive-reversal-medium-target-combo/frame-3.jpg",
+					"at": 2.85,
+					"label": "Target continuation",
+					"alt": "The medium target sequence continues the Punish Counter route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/luke/luke-ebios-drive-reversal-medium-target-combo/frame-4.jpg",
+					"at": 3.85,
+					"label": "Target finish",
+					"alt": "The final target press knocks Ken down."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-heavy-punish-double-perfect-medium",
+			"luke-ebios-counter-di-perfect-knuckles",
+			"luke-ebios-blocked-uppercut-heavy-perfect-knuckles"
+		]
+	},
+	{
+		"id": "luke-ebios-heavy-punish-double-perfect-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Throw-whiff heavy punish: two Perfect medium Knuckles",
+		"summary": "Use the heavy-punch Punish Counter launch to fit two Perfect medium Knuckles before light and heavy.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Throw bait", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HP > 214MP Perfect > 214MP Perfect > 214LP Perfect > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214MP Perfect",
+				"label": "Perfect medium Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP Perfect",
+				"label": "Perfect medium Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP Perfect",
+				"label": "Perfect light Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Flash Knuckle"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing heavy punch Punish Counter",
+			"Both medium and the light Perfect releases"
+		],
+		"notes": [
+			"The preceding approach baits the throw. The input sequence starts at the heavy punish."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 245.15,
+			"end": 251.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-heavy-punish-double-perfect-medium/clip.mp4",
+			"poster": "/media/luke/luke-ebios-heavy-punish-double-perfect-medium/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-heavy-punish-double-perfect-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-heavy-punish-double-perfect-medium/frame-1.jpg",
+					"at": 1.55,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch punishes the throw whiff."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-heavy-punish-double-perfect-medium/frame-2.jpg",
+					"at": 2.45,
+					"label": "First Perfect medium",
+					"alt": "The first Perfect medium Flash Knuckle launches Ken."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-heavy-punish-double-perfect-medium/frame-3.jpg",
+					"at": 3.15,
+					"label": "Second Perfect medium",
+					"alt": "Another Perfect medium Knuckle continues the Punish Counter juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/luke/luke-ebios-heavy-punish-double-perfect-medium/frame-4.jpg",
+					"at": 3.95,
+					"label": "Perfect light",
+					"alt": "Perfect light Flash Knuckle adds the next juggle hit."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/luke/luke-ebios-heavy-punish-double-perfect-medium/frame-5.jpg",
+					"at": 4.85,
+					"label": "Heavy finish",
+					"alt": "Heavy Flash Knuckle completes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-corner-heavy-punish-sand-uppercut",
+			"luke-ebios-counter-di-perfect-knuckles",
+			"luke-ebios-blocked-uppercut-heavy-perfect-knuckles"
+		]
+	},
+	{
+		"id": "luke-ebios-corner-heavy-punish-sand-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Corner heavy punish: Perfect light, Sand Blast and Uppercut",
+		"summary": "Punish the corner throw whiff with heavy punch and the Perfect-light juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Throw bait", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HP > 214LP Perfect > 236MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214LP Perfect",
+				"label": "Perfect light Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Sand Blast"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Rising Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy-punch Punish Counter at the wall",
+			"Perfect light release"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 252.15,
+			"end": 258.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-corner-heavy-punish-sand-uppercut/clip.mp4",
+			"poster": "/media/luke/luke-ebios-corner-heavy-punish-sand-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-corner-heavy-punish-sand-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-corner-heavy-punish-sand-uppercut/frame-1.jpg",
+					"at": 2.45,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch punishes Ken’s missed throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-corner-heavy-punish-sand-uppercut/frame-2.jpg",
+					"at": 3.15,
+					"label": "Perfect light",
+					"alt": "Perfect light Flash Knuckle launches beside the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-corner-heavy-punish-sand-uppercut/frame-3.jpg",
+					"at": 3.85,
+					"label": "Sand Blast",
+					"alt": "Medium Sand Blast continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/luke/luke-ebios-corner-heavy-punish-sand-uppercut/frame-4.jpg",
+					"at": 4.85,
+					"label": "Heavy Uppercut",
+					"alt": "Heavy Rising Uppercut completes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-heavy-punish-double-perfect-medium",
+			"luke-ebios-corner-counter-di-sand-uppercut",
+			"luke-ebios-corner-lights-flash-uppercut"
+		]
+	},
+	{
+		"id": "luke-ebios-counter-di-perfect-knuckles",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Counter DI: crouching heavy into the Perfect-Knuckle route",
+		"summary": "Convert counter-DI crumple through crouching heavy and the medium-light-heavy special chain.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 2HP > 214MP Perfect > 214LP Perfect > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP Perfect",
+				"label": "Perfect medium Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP Perfect",
+				"label": "Perfect light Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Flash Knuckle"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Win the counter-DI exchange",
+			"Perfect medium and light releases"
+		],
+		"notes": [
+			"The opening jab primes the recorded DI response; the authored conversion begins with counter DI."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 260.05,
+			"end": 268.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-counter-di-perfect-knuckles/clip.mp4",
+			"poster": "/media/luke/luke-ebios-counter-di-perfect-knuckles/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-counter-di-perfect-knuckles/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-counter-di-perfect-knuckles/frame-1.jpg",
+					"at": 1.25,
+					"label": "Counter DI",
+					"alt": "Luke answers the incoming Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-counter-di-perfect-knuckles/frame-2.jpg",
+					"at": 2.95,
+					"label": "DI win",
+					"alt": "Luke wins the DI exchange and crumples Ken."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-counter-di-perfect-knuckles/frame-3.jpg",
+					"at": 3.95,
+					"label": "Crouching heavy",
+					"alt": "Crouching heavy punch starts the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/luke/luke-ebios-counter-di-perfect-knuckles/frame-4.jpg",
+					"at": 4.95,
+					"label": "Perfect medium",
+					"alt": "Perfect medium Flash Knuckle launches Ken."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/luke/luke-ebios-counter-di-perfect-knuckles/frame-5.jpg",
+					"at": 6.95,
+					"label": "Heavy finish",
+					"alt": "The Perfect-light continuation leads into heavy Flash Knuckle."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-heavy-punish-double-perfect-medium",
+			"luke-ebios-corner-counter-di-sand-uppercut",
+			"luke-ebios-blocked-uppercut-heavy-perfect-knuckles"
+		]
+	},
+	{
+		"id": "luke-ebios-corner-counter-di-sand-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Corner counter DI: heavy into Perfect light and Uppercut",
+		"summary": "Convert the winning corner DI through heavy punch, Perfect light, Sand Blast and Uppercut.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 5HP > 214LP Perfect > 236MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP Perfect",
+				"label": "Perfect light Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "Medium Sand Blast"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "Heavy Rising Uppercut"
+			}
+		],
+		"conditions": ["Classic controls", "Counter DI crumple at the wall", "Perfect light release"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 269.25,
+			"end": 278.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-corner-counter-di-sand-uppercut/clip.mp4",
+			"poster": "/media/luke/luke-ebios-corner-counter-di-sand-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-corner-counter-di-sand-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-corner-counter-di-sand-uppercut/frame-1.jpg",
+					"at": 1.25,
+					"label": "Counter DI",
+					"alt": "Luke counters the incoming DI at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-corner-counter-di-sand-uppercut/frame-2.jpg",
+					"at": 3.05,
+					"label": "DI crumple",
+					"alt": "The winning DI creates the Punish Counter opening."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-corner-counter-di-sand-uppercut/frame-3.jpg",
+					"at": 3.95,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch begins the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/luke/luke-ebios-corner-counter-di-sand-uppercut/frame-4.jpg",
+					"at": 5.0,
+					"label": "Perfect light",
+					"alt": "Perfect light Flash Knuckle launches Ken."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/luke/luke-ebios-corner-counter-di-sand-uppercut/frame-5.jpg",
+					"at": 6.75,
+					"label": "Uppercut finish",
+					"alt": "Sand Blast leads into heavy Rising Uppercut."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-corner-heavy-punish-sand-uppercut",
+			"luke-ebios-counter-di-perfect-knuckles",
+			"luke-ebios-wall-splat-sand-uppercut"
+		]
+	},
+	{
+		"id": "luke-ebios-wall-splat-sand-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Blocked DI wall splat: Perfect light into Sand Blast and Uppercut",
+		"summary": "Use the wall-splat version of the corner heavy-punch juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 5HP > 214LP Perfect > 236MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP Perfect",
+				"label": "Perfect light Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "Medium Sand Blast"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "Heavy Rising Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Blocked DI produces a wall splat, not burnout stun",
+			"Perfect light release"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 279.15,
+			"end": 285.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-wall-splat-sand-uppercut/clip.mp4",
+			"poster": "/media/luke/luke-ebios-wall-splat-sand-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-wall-splat-sand-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-wall-splat-sand-uppercut/frame-1.jpg",
+					"at": 0.85,
+					"label": "Blocked DI",
+					"alt": "Ken blocks Luke’s DI beside the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-wall-splat-sand-uppercut/frame-2.jpg",
+					"at": 1.85,
+					"label": "Wall-splat heavy",
+					"alt": "Standing heavy punch converts the wall splat."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-wall-splat-sand-uppercut/frame-3.jpg",
+					"at": 2.85,
+					"label": "Perfect light",
+					"alt": "Perfect light Flash Knuckle continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/luke/luke-ebios-wall-splat-sand-uppercut/frame-4.jpg",
+					"at": 3.85,
+					"label": "Sand Blast",
+					"alt": "Medium Sand Blast extends the corner route."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/luke/luke-ebios-wall-splat-sand-uppercut/frame-5.jpg",
+					"at": 4.85,
+					"label": "Heavy Uppercut",
+					"alt": "Heavy Rising Uppercut finishes the wall-splat conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-corner-counter-di-sand-uppercut",
+			"luke-ebios-corner-lights-flash-uppercut",
+			"luke-ebios-near-corner-low-perfect-medium-uppercut"
+		]
+	},
+	{
+		"id": "luke-ebios-blocked-uppercut-heavy-perfect-knuckles",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Blocked reversal: heavy and crouching heavy into Perfect Knuckles",
+		"summary": "Punish Ken’s guarded OD Shoryuken with two heavy normals and the Perfect-Knuckle chain.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Reversal punish", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HP > 2HP > 214MP Perfect > 214LP Perfect > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP Perfect",
+				"label": "Perfect medium Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP Perfect",
+				"label": "Perfect light Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Flash Knuckle"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Blocked Ken OD Shoryuken",
+			"Perfect medium and light releases"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 286.45,
+			"end": 294.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-blocked-uppercut-heavy-perfect-knuckles/clip.mp4",
+			"poster": "/media/luke/luke-ebios-blocked-uppercut-heavy-perfect-knuckles/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-blocked-uppercut-heavy-perfect-knuckles/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-blocked-uppercut-heavy-perfect-knuckles/frame-1.jpg",
+					"at": 0.55,
+					"label": "Guarded reversal",
+					"alt": "Luke guards Ken’s OD Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-blocked-uppercut-heavy-perfect-knuckles/frame-2.jpg",
+					"at": 2.55,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch punishes the landing recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-blocked-uppercut-heavy-perfect-knuckles/frame-3.jpg",
+					"at": 3.55,
+					"label": "Crouching heavy",
+					"alt": "Crouching heavy punch leads into the Perfect special route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/luke/luke-ebios-blocked-uppercut-heavy-perfect-knuckles/frame-4.jpg",
+					"at": 4.55,
+					"label": "Perfect medium",
+					"alt": "Perfect medium Flash Knuckle launches Ken."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/luke/luke-ebios-blocked-uppercut-heavy-perfect-knuckles/frame-5.jpg",
+					"at": 6.55,
+					"label": "Heavy finish",
+					"alt": "Perfect light leads into the heavy Flash Knuckle finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-heavy-punish-double-perfect-medium",
+			"luke-ebios-counter-di-perfect-knuckles",
+			"luke-ebios-reversal-rush-level-three-cashout"
+		]
+	},
+	{
+		"id": "luke-ebios-reversal-rush-level-three-cashout",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "luke"
+			}
+		],
+		"title": "Reversal cash-out: Rush back heavy into Level 3",
+		"summary": "Spend Rush extensions and the Perfect-Knuckle route on a Level 3 reversal punish.",
+		"kind": "combo",
+		"situations": [
+			"Midscreen",
+			"Reversal punish",
+			"Punish counter",
+			"Drive Rush",
+			"Cash out",
+			"Super finish"
+		],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 4HK > 5HK > 2MP > DRC > 5HP > DRC > 4HK > 2HP > 214MP Perfect > 214LP Perfect > 214HP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-9",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-10",
+				"notation": "214MP Perfect",
+				"label": "Perfect medium Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-11",
+				"notation": "214LP Perfect",
+				"label": "Perfect light Flash Knuckle",
+				"cue": "Release at the demonstrated Perfect charge timing."
+			},
+			{
+				"id": "step-12",
+				"notation": "214HP",
+				"label": "Heavy Flash Knuckle"
+			},
+			{
+				"id": "step-13",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Blocked Ken OD Shoryuken",
+			"Enough Drive for the demonstrated Rush route",
+			"Three Super stocks",
+			"Perfect medium and light releases"
+		],
+		"notes": ["The recording finishes in burnout."],
+		"resources": {
+			"drive": "Drive Rush plus two cancel Drive Rushes; burnout in the take",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-luke-beginner-2026",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"start": 295.15,
+			"end": 315.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/luke/luke-ebios-reversal-rush-level-three-cashout/clip.mp4",
+			"poster": "/media/luke/luke-ebios-reversal-rush-level-three-cashout/frame-1.jpg",
+			"descriptionTrack": "/media/luke/luke-ebios-reversal-rush-level-three-cashout/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/luke/luke-ebios-reversal-rush-level-three-cashout/frame-1.jpg",
+					"at": 1.85,
+					"label": "Wait for recovery",
+					"alt": "Ken descends after the guarded OD Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/luke/luke-ebios-reversal-rush-level-three-cashout/frame-2.jpg",
+					"at": 2.85,
+					"label": "Rush punish",
+					"alt": "Rush back heavy kick punishes the recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/luke/luke-ebios-reversal-rush-level-three-cashout/frame-3.jpg",
+					"at": 5.85,
+					"label": "Second Rush extension",
+					"alt": "The repeated Rush cancel route spends the remaining Drive."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/luke/luke-ebios-reversal-rush-level-three-cashout/frame-4.jpg",
+					"at": 9.65,
+					"label": "Super cancel",
+					"alt": "The Perfect-Knuckle chain leads into Level 3."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/luke/luke-ebios-reversal-rush-level-three-cashout/frame-5.jpg",
+					"at": 18.15,
+					"label": "Hard knockdown",
+					"alt": "Level 3 finishes in a hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"luke-ebios-blocked-uppercut-heavy-perfect-knuckles",
+			"luke-ebios-light-flash-rush-throw",
+			"luke-ebios-low-rush-perfect-knuckles"
+		]
+	}
+]

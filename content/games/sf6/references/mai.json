@@ -1,0 +1,1144 @@
+[
+	{
+		"id": "mai-vesper-low-light-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Low lights into light Hissatsu Shinobi Bachi",
+		"summary": "A meterless low-light confirm with the light rushing elbow as its ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 16.6,
+			"end": 20.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mai/mai-vesper-low-light-kick/clip.mp4",
+			"poster": "/media/mai/mai-vesper-low-light-kick/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-vesper-low-light-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-vesper-low-light-kick/frame-1.jpg",
+					"at": 0.9,
+					"label": "Low confirm",
+					"alt": "Crouching light kick begins the low light chain."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-vesper-low-light-kick/frame-2.jpg",
+					"at": 2.1,
+					"label": "Light rush",
+					"alt": "The light rushing elbow connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-vesper-low-light-kick/frame-3.jpg",
+					"at": 3.4,
+					"label": "Knockdown",
+					"alt": "Luke recovers after the light-special knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-low-heavy-rise",
+			"mai-vesper-low-od-rush-air-medium",
+			"mai-vesper-low-level1"
+		]
+	},
+	{
+		"id": "mai-vesper-low-heavy-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Low lights into heavy Hishou Ryuuenjin",
+		"summary": "Use the same low-light chain with a heavy rising-kick finish and no meter spend.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Hishou Ryuuenjin"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 21.8,
+			"end": 26.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mai/mai-vesper-low-heavy-rise/clip.mp4",
+			"poster": "/media/mai/mai-vesper-low-heavy-rise/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-vesper-low-heavy-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-vesper-low-heavy-rise/frame-1.jpg",
+					"at": 0.8,
+					"label": "Low confirm",
+					"alt": "Crouching lights begin the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-vesper-low-heavy-rise/frame-2.jpg",
+					"at": 2.3,
+					"label": "Heavy rising kick",
+					"alt": "Heavy Hishou Ryuuenjin carries Luke upward."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-vesper-low-heavy-rise/frame-3.jpg",
+					"at": 3.5,
+					"label": "Finish",
+					"alt": "Luke lands after the rising-kick finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-low-light-kick",
+			"mai-vesper-low-od-rush-air-medium",
+			"mai-vesper-low-level1"
+		]
+	},
+	{
+		"id": "mai-vesper-low-od-rush-air-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Low lights into OD rush and jumping-medium juggle",
+		"summary": "Spend two Drive bars on the launcher, juggle with jumping MP and land for the finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > st.LP > st.LP > 236KK > j.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "OD Hissatsu Shinobi Bachi"
+			},
+			{
+				"id": "step-5",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "623HK",
+				"label": "Heavy Hishou Ryuuenjin"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": ["Land after jumping MP before the grounded heavy rising-kick finish."],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 44.7,
+			"end": 50.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mai/mai-vesper-low-od-rush-air-medium/clip.mp4",
+			"poster": "/media/mai/mai-vesper-low-od-rush-air-medium/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-vesper-low-od-rush-air-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-vesper-low-od-rush-air-medium/frame-1.jpg",
+					"at": 1.2,
+					"label": "Light confirm",
+					"alt": "The low kick and two standing jabs connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-vesper-low-od-rush-air-medium/frame-2.jpg",
+					"at": 2.6,
+					"label": "OD launcher",
+					"alt": "The OD rush launches Luke for an airborne follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-vesper-low-od-rush-air-medium/frame-3.jpg",
+					"at": 3.4,
+					"label": "Air medium",
+					"alt": "Jumping medium punch continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mai/mai-vesper-low-od-rush-air-medium/frame-4.jpg",
+					"at": 4.7,
+					"label": "Heavy rising kick",
+					"alt": "Heavy Hishou Ryuuenjin finishes the airborne route."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-low-od-rush-level2",
+			"mai-vesper-low-light-kick",
+			"mai-vesper-low-heavy-rise"
+		]
+	},
+	{
+		"id": "mai-vesper-low-level1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Low kick and jab into Level 1",
+		"summary": "A one-bar Super conversion from two lights that also grants the shown Flame stocks.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Super finish"],
+		"outcomes": ["Knockdown", "Flame stocks gained"],
+		"notation": "cr.LK > st.LP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA1",
+				"label": "Kagerou no Mai (Level 1)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 58.6,
+			"end": 63.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mai/mai-vesper-low-level1/clip.mp4",
+			"poster": "/media/mai/mai-vesper-low-level1/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-vesper-low-level1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-vesper-low-level1/frame-1.jpg",
+					"at": 0.9,
+					"label": "Low confirm",
+					"alt": "Crouching light kick leads into standing light punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-vesper-low-level1/frame-2.jpg",
+					"at": 2.1,
+					"label": "Super cancel",
+					"alt": "Mai starts Level 1 after the jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-vesper-low-level1/frame-3.jpg",
+					"at": 4.1,
+					"label": "Finish and stocks",
+					"alt": "The Super finishes and the source shows five Flame stocks."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-low-od-rush-level2",
+			"mai-vesper-low-light-rush-level3",
+			"mai-vesper-low-light-kick"
+		]
+	},
+	{
+		"id": "mai-vesper-low-od-rush-level2",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Low lights into OD rush, air medium and Level 2",
+		"summary": "A two-Drive launcher route that spends two Super bars after jumping MP.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Super finish", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > st.LP > st.LP > 236KK > j.MP > SA2",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "OD Hissatsu Shinobi Bachi"
+			},
+			{
+				"id": "step-5",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA2",
+				"label": "Chou Hissatsu Shinobi Bachi (Level 2)",
+				"cue": "Use the airborne Level 2 after jumping MP, as demonstrated."
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "Level 2 (2 bars)"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 65.0,
+			"end": 72.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mai/mai-vesper-low-od-rush-level2/clip.mp4",
+			"poster": "/media/mai/mai-vesper-low-od-rush-level2/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-vesper-low-od-rush-level2/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-vesper-low-od-rush-level2/frame-1.jpg",
+					"at": 1.3,
+					"label": "Low lights",
+					"alt": "The low kick and standing-jab chain connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-vesper-low-od-rush-level2/frame-2.jpg",
+					"at": 2.9,
+					"label": "Air juggle",
+					"alt": "Jumping medium punch follows the OD launcher."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-vesper-low-od-rush-level2/frame-3.jpg",
+					"at": 5.1,
+					"label": "Level 2 finish",
+					"alt": "Level 2 continues the airborne juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-low-od-rush-air-medium",
+			"mai-vesper-low-level1",
+			"mai-vesper-low-light-rush-level3"
+		]
+	},
+	{
+		"id": "mai-vesper-low-light-rush-level3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Low lights and light rush into Level 3",
+		"summary": "Bridge the low-light chain through the light rush into a three-bar finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > st.LP > st.LP > 236LK > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA3",
+				"label": "Shiranui Ryuu: Enbu Ada Zakura (Level 3)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 82.25,
+			"end": 95.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mai/mai-vesper-low-light-rush-level3/clip.mp4",
+			"poster": "/media/mai/mai-vesper-low-light-rush-level3/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-vesper-low-light-rush-level3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-vesper-low-light-rush-level3/frame-1.jpg",
+					"at": 0.95,
+					"label": "Low starter",
+					"alt": "Crouching light kick starts the light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-vesper-low-light-rush-level3/frame-2.jpg",
+					"at": 2.05,
+					"label": "Light rush",
+					"alt": "The light rush connects before the Level 3 cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-vesper-low-light-rush-level3/frame-3.jpg",
+					"at": 5.25,
+					"label": "Level 3",
+					"alt": "The cinematic Super continues the confirmed route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mai/mai-vesper-low-light-rush-level3/frame-4.jpg",
+					"at": 13.25,
+					"label": "Hard knockdown",
+					"alt": "Luke recovers at the end of the Level 3 finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-low-level1",
+			"mai-vesper-low-od-rush-level2",
+			"mai-vesper-low-light-kick"
+		]
+	},
+	{
+		"id": "mai-vesper-medium-jab-light-rush",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Crouching medium into jab and light rush",
+		"summary": "A meterless close-range medium confirm with a crouching-jab link.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > cr.LP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for the crouching-jab link"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 193.0,
+			"end": 197.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mai/mai-vesper-medium-jab-light-rush/clip.mp4",
+			"poster": "/media/mai/mai-vesper-medium-jab-light-rush/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-vesper-medium-jab-light-rush/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-vesper-medium-jab-light-rush/frame-1.jpg",
+					"at": 1.2,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch begins the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-vesper-medium-jab-light-rush/frame-2.jpg",
+					"at": 1.9,
+					"label": "Jab link",
+					"alt": "Crouching light punch links after the medium."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-vesper-medium-jab-light-rush/frame-3.jpg",
+					"at": 3.0,
+					"label": "Light rush finish",
+					"alt": "The light rushing elbow knocks Luke down."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-punish-medium-heavy-rise",
+			"mai-vesper-low-light-kick",
+			"mai-vesper-low-heavy-rise"
+		]
+	},
+	{
+		"id": "mai-vesper-heavy-jab-heavy-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Crouching heavy into jab and heavy rising kick",
+		"summary": "A heavy starter links into standing jab before the meterless rising-kick ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > st.LP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HK",
+				"label": "Heavy Hishou Ryuuenjin"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"This take uses the heavy rising kick, rather than the caption’s alternative light rush."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 198.3,
+			"end": 202.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mai/mai-vesper-heavy-jab-heavy-rise/clip.mp4",
+			"poster": "/media/mai/mai-vesper-heavy-jab-heavy-rise/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-vesper-heavy-jab-heavy-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-vesper-heavy-jab-heavy-rise/frame-1.jpg",
+					"at": 1.2,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch begins the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-vesper-heavy-jab-heavy-rise/frame-2.jpg",
+					"at": 1.9,
+					"label": "Jab link",
+					"alt": "Standing light punch follows the heavy starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-vesper-heavy-jab-heavy-rise/frame-3.jpg",
+					"at": 3.0,
+					"label": "Heavy rise",
+					"alt": "Heavy Hishou Ryuuenjin completes the selected take."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-punish-back-heavy-force-stand",
+			"mai-vesper-low-light-kick",
+			"mai-vesper-low-heavy-rise"
+		]
+	},
+	{
+		"id": "mai-vesper-wall-back-heavy-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Wall splat into back-heavy target combo and medium rising kick",
+		"summary": "Convert a blocked corner DI using both back-heavy target-combo inputs.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > b.HK > st.HK > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick",
+				"cue": "Target-combo continuation after back HK."
+			},
+			{
+				"id": "step-4",
+				"notation": "623MK",
+				"label": "Medium Hishou Ryuuenjin"
+			}
+		],
+		"conditions": ["Classic controls", "Blocked Drive Impact at the wall"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 309.5,
+			"end": 315.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mai/mai-vesper-wall-back-heavy-target/clip.mp4",
+			"poster": "/media/mai/mai-vesper-wall-back-heavy-target/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-vesper-wall-back-heavy-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-vesper-wall-back-heavy-target/frame-1.jpg",
+					"at": 1.6,
+					"label": "Wall splat",
+					"alt": "Blocked Drive Impact creates the corner wall-splat state."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-vesper-wall-back-heavy-target/frame-2.jpg",
+					"at": 3.0,
+					"label": "Heavy target combo",
+					"alt": "Back heavy kick and its heavy-kick continuation juggle Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-vesper-wall-back-heavy-target/frame-3.jpg",
+					"at": 4.6,
+					"label": "Medium rising kick",
+					"alt": "The medium rising kick finishes the corner route."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-low-light-kick",
+			"mai-vesper-low-heavy-rise",
+			"mai-vesper-low-od-rush-air-medium"
+		]
+	},
+	{
+		"id": "mai-vesper-punish-jab-heavy-fan",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Punish-counter jab into heavy Ryuuenbu and rising kick",
+		"summary": "A standing-jab Punish Counter enables the heavy link and meterless Ryuuenbu juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > st.HP > 214HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Hishou Ryuuenjin"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing light punch Punish Counter",
+			"No Flame enhancement shown"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 373.7,
+			"end": 378.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mai/mai-vesper-punish-jab-heavy-fan/clip.mp4",
+			"poster": "/media/mai/mai-vesper-punish-jab-heavy-fan/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-vesper-punish-jab-heavy-fan/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-vesper-punish-jab-heavy-fan/frame-1.jpg",
+					"at": 1.1,
+					"label": "Jab punish",
+					"alt": "Standing light punch starts the Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-vesper-punish-jab-heavy-fan/frame-2.jpg",
+					"at": 1.8,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch follows the Punish Counter jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-vesper-punish-jab-heavy-fan/frame-3.jpg",
+					"at": 2.4,
+					"label": "Heavy Ryuuenbu",
+					"alt": "Heavy Ryuuenbu connects before the rising kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mai/mai-vesper-punish-jab-heavy-fan/frame-4.jpg",
+					"at": 4.2,
+					"label": "Rising-kick finish",
+					"alt": "The heavy rising kick completes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-low-light-kick",
+			"mai-vesper-low-heavy-rise",
+			"mai-vesper-low-od-rush-air-medium"
+		]
+	},
+	{
+		"id": "mai-vesper-punish-medium-heavy-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Punish-counter medium into crouching medium and rising kick",
+		"summary": "Link crouching MP after a standing-medium Punish Counter without spending meter.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > cr.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HK",
+				"label": "Heavy Hishou Ryuuenjin"
+			}
+		],
+		"conditions": ["Classic controls", "Standing medium punch Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 386.9,
+			"end": 390.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mai/mai-vesper-punish-medium-heavy-rise/clip.mp4",
+			"poster": "/media/mai/mai-vesper-punish-medium-heavy-rise/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-vesper-punish-medium-heavy-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-vesper-punish-medium-heavy-rise/frame-1.jpg",
+					"at": 0.8,
+					"label": "Medium punish",
+					"alt": "Standing medium punch starts the Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-vesper-punish-medium-heavy-rise/frame-2.jpg",
+					"at": 1.6,
+					"label": "Crouching-medium link",
+					"alt": "Crouching medium punch links after the punish."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-vesper-punish-medium-heavy-rise/frame-3.jpg",
+					"at": 2.4,
+					"label": "Heavy rise",
+					"alt": "The selected take finishes with heavy Hishou Ryuuenjin."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-medium-jab-light-rush",
+			"mai-vesper-punish-jab-heavy-fan",
+			"mai-vesper-punish-back-heavy-force-stand"
+		]
+	},
+	{
+		"id": "mai-vesper-punish-back-heavy-force-stand",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Back-heavy punish forces stand into Ryuuenbu and rising kick",
+		"summary": "Use the force-stand Punish Counter to convert a crouching opponent into a Ryuuenbu juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.HK > cr.MP > 214HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Hishou Ryuuenjin"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Back HK Punish Counter against a crouching opponent",
+			"No Flame enhancement shown"
+		],
+		"notes": ["The source explicitly demonstrates the force-stand branch."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 509.6,
+			"end": 515.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mai/mai-vesper-punish-back-heavy-force-stand/clip.mp4",
+			"poster": "/media/mai/mai-vesper-punish-back-heavy-force-stand/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-vesper-punish-back-heavy-force-stand/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-vesper-punish-back-heavy-force-stand/frame-1.jpg",
+					"at": 1.4,
+					"label": "Force-stand punish",
+					"alt": "Back heavy kick Punish Counter catches the crouching opponent."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-vesper-punish-back-heavy-force-stand/frame-2.jpg",
+					"at": 2.2,
+					"label": "Medium link",
+					"alt": "Crouching medium punch follows as Luke is forced upright."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-vesper-punish-back-heavy-force-stand/frame-3.jpg",
+					"at": 3.4,
+					"label": "Ryuuenbu juggle",
+					"alt": "Heavy Ryuuenbu leads into heavy Hishou Ryuuenjin."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-heavy-jab-heavy-rise",
+			"mai-vesper-punish-jab-heavy-fan",
+			"mai-vesper-punish-medium-heavy-rise"
+		]
+	}
+]
