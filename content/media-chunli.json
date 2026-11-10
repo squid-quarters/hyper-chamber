@@ -1,0 +1,483 @@
+{
+	"sourceIds": ["sealeaf-chunli-beginner-2025", "sealeaf-chunli-practical-s4-2026"],
+	"publicationStatus": "private-development",
+	"presentationCrop": {
+		"sourceWidth": 1280,
+		"sourceHeight": 720,
+		"x": 256,
+		"y": 0,
+		"width": 1024,
+		"height": 576
+	},
+	"presentationNote": "Both sources use this gameplay window. The surrounding recipe/commentary panels are represented in authored inputs, conditions and notes; full original recordings remain local.",
+	"assets": [
+		{
+			"referenceId": "chunli-sealeaf-early-lights-medium-legs",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 10.95,
+			"sourceEnd": 14.05,
+			"clip": "/media/chunli/chunli-sealeaf-early-lights-medium-legs/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-lights-light-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 17.8,
+			"sourceEnd": 21.15,
+			"clip": "/media/chunli/chunli-sealeaf-early-lights-light-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-crouching-lights-light-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 24.45,
+			"sourceEnd": 27.65,
+			"clip": "/media/chunli/chunli-sealeaf-early-crouching-lights-light-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-lights-rush-stance-low-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 31.05,
+			"sourceEnd": 36.45,
+			"clip": "/media/chunli/chunli-sealeaf-early-lights-rush-stance-low-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-lights-rush-air-legs",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 39.75,
+			"sourceEnd": 45.45,
+			"clip": "/media/chunli/chunli-sealeaf-early-lights-rush-air-legs/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-lights-rush-stomps-air-level1",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 58.55,
+			"sourceEnd": 65.75,
+			"clip": "/media/chunli/chunli-sealeaf-early-lights-rush-stomps-air-level1/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-corner-lights-od-kikoken-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 161.35,
+			"sourceEnd": 168.95,
+			"clip": "/media/chunli/chunli-sealeaf-early-corner-lights-od-kikoken-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-corner-wide-crouch-od-kikoken-legs",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 264.4,
+			"sourceEnd": 270.0,
+			"clip": "/media/chunli/chunli-sealeaf-early-corner-wide-crouch-od-kikoken-legs/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-raw-rush-low-heavy-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 346.5,
+			"sourceEnd": 351.65,
+			"clip": "/media/chunli/chunli-sealeaf-early-raw-rush-low-heavy-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-counter-hit-jab-medium-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 363.15,
+			"sourceEnd": 366.85,
+			"clip": "/media/chunli/chunli-sealeaf-early-counter-hit-jab-medium-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-od-sbk-medium-legs-jump-pressure",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 378.2,
+			"sourceEnd": 384.7,
+			"clip": "/media/chunli/chunli-sealeaf-early-od-sbk-medium-legs-jump-pressure/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-od-sbk-rush-jab-heavy-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 407.05,
+			"sourceEnd": 413.15,
+			"clip": "/media/chunli/chunli-sealeaf-early-od-sbk-rush-jab-heavy-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-corner-od-sbk-stomps-safe-jump",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 447.2,
+			"sourceEnd": 455.15,
+			"clip": "/media/chunli/chunli-sealeaf-early-corner-od-sbk-stomps-safe-jump/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-medium-level2-stance-tensho",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 458.3,
+			"sourceEnd": 468.4,
+			"clip": "/media/chunli/chunli-sealeaf-early-medium-level2-stance-tensho/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-level2-delayed-air-medium-side-switch",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 509.75,
+			"sourceEnd": 517.9,
+			"clip": "/media/chunli/chunli-sealeaf-early-level2-delayed-air-medium-side-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-early-corner-lights-level3-cashout",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 196.45,
+			"sourceEnd": 207.65,
+			"clip": "/media/chunli/chunli-sealeaf-early-corner-lights-level3-cashout/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-medium-charged-heavy-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 598.55,
+			"sourceEnd": 602.65,
+			"clip": "/media/chunli/chunli-sealeaf-middle-medium-charged-heavy-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-counter-medium-low-charged-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 648.72,
+			"sourceEnd": 651.45,
+			"clip": "/media/chunli/chunli-sealeaf-middle-counter-medium-low-charged-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-low-rush-stance-heavy-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 670.6,
+			"sourceEnd": 675.45,
+			"clip": "/media/chunli/chunli-sealeaf-middle-low-rush-stance-heavy-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-corner-low-legs-tensho",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 801.35,
+			"sourceEnd": 806.6,
+			"clip": "/media/chunli/chunli-sealeaf-middle-corner-low-legs-tensho/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-counter-low-stance-medium",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 867.7,
+			"sourceEnd": 870.55,
+			"clip": "/media/chunli/chunli-sealeaf-middle-counter-low-stance-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-punish-low-stance-medium-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 873.6,
+			"sourceEnd": 877.75,
+			"clip": "/media/chunli/chunli-sealeaf-middle-punish-low-stance-medium-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-raw-rush-low-stance-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 912.7,
+			"sourceEnd": 916.6,
+			"clip": "/media/chunli/chunli-sealeaf-middle-raw-rush-low-stance-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-direction-medium-rush-stance-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 979.45,
+			"sourceEnd": 984.45,
+			"clip": "/media/chunli/chunli-sealeaf-middle-direction-medium-rush-stance-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-counter-heavy-stance-medium-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 987.75,
+			"sourceEnd": 991.7,
+			"clip": "/media/chunli/chunli-sealeaf-middle-counter-heavy-stance-medium-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-punish-heavy-stance-heavy-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 995.05,
+			"sourceEnd": 999.65,
+			"clip": "/media/chunli/chunli-sealeaf-middle-punish-heavy-stance-heavy-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-meaty-overhead-lights-charged-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1037.48,
+			"sourceEnd": 1041.3,
+			"clip": "/media/chunli/chunli-sealeaf-middle-meaty-overhead-lights-charged-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-rush-overhead-mediums-charged-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1044.3,
+			"sourceEnd": 1050.05,
+			"clip": "/media/chunli/chunli-sealeaf-middle-rush-overhead-mediums-charged-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-stance-overhead-heavy-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1073.1,
+			"sourceEnd": 1077.45,
+			"clip": "/media/chunli/chunli-sealeaf-middle-stance-overhead-heavy-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-stance-overhead-od-sbk-light-juggle",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1080.55,
+			"sourceEnd": 1086.1,
+			"clip": "/media/chunli/chunli-sealeaf-middle-stance-overhead-od-sbk-light-juggle/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-middle-corner-rush-meaty-overhead-legs-tensho",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1063.95,
+			"sourceEnd": 1070.15,
+			"clip": "/media/chunli/chunli-sealeaf-middle-corner-rush-meaty-overhead-legs-tensho/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-air-medium-level1",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1176.35,
+			"sourceEnd": 1180.7,
+			"clip": "/media/chunli/chunli-sealeaf-late-air-medium-level1/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-crossup-stomp-tensho",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1219.55,
+			"sourceEnd": 1224.45,
+			"clip": "/media/chunli/chunli-sealeaf-late-crossup-stomp-tensho/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-heavy-anti-air-stance-tensho",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1260.75,
+			"sourceEnd": 1265.55,
+			"clip": "/media/chunli/chunli-sealeaf-late-heavy-anti-air-stance-tensho/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-light-kikoken-rush-confirm",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1374.45,
+			"sourceEnd": 1380.45,
+			"clip": "/media/chunli/chunli-sealeaf-late-light-kikoken-rush-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-od-legs-punish-stance-tensho",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1423.4,
+			"sourceEnd": 1430.3,
+			"clip": "/media/chunli/chunli-sealeaf-late-od-legs-punish-stance-tensho/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-medium-hazanshu-punish-charge",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1534.75,
+			"sourceEnd": 1539.7,
+			"clip": "/media/chunli/chunli-sealeaf-late-medium-hazanshu-punish-charge/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-heavy-hazanshu-punish-stance",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1543.15,
+			"sourceEnd": 1548.7,
+			"clip": "/media/chunli/chunli-sealeaf-late-heavy-hazanshu-punish-stance/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-od-hazanshu-two-stomps",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1608.1,
+			"sourceEnd": 1613.3,
+			"clip": "/media/chunli/chunli-sealeaf-late-od-hazanshu-two-stomps/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-throw-bait-stomp-confirm",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1711.65,
+			"sourceEnd": 1717.25,
+			"clip": "/media/chunli/chunli-sealeaf-late-throw-bait-stomp-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-forward-heavy-punish-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 1839.35,
+			"sourceEnd": 1844.3,
+			"clip": "/media/chunli/chunli-sealeaf-late-forward-heavy-punish-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-block-drive-reversal-punish",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 2023.65,
+			"sourceEnd": 2029.55,
+			"clip": "/media/chunli/chunli-sealeaf-late-block-drive-reversal-punish/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-counter-di-stance-sbk",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 2032.45,
+			"sourceEnd": 2040.45,
+			"clip": "/media/chunli/chunli-sealeaf-late-counter-di-stance-sbk/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-counter-di-side-switch",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 2054.1,
+			"sourceEnd": 2061.05,
+			"clip": "/media/chunli/chunli-sealeaf-late-counter-di-side-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-wall-splat-double-rush",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 2074.15,
+			"sourceEnd": 2083.8,
+			"clip": "/media/chunli/chunli-sealeaf-late-wall-splat-double-rush/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-late-rush-back-heavy-hazanshu",
+			"sourceId": "sealeaf-chunli-practical-s4-2026",
+			"sourceStart": 2119.15,
+			"sourceEnd": 2124.7,
+			"clip": "/media/chunli/chunli-sealeaf-late-rush-back-heavy-hazanshu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-oki-light-sbk-dash-medium",
+			"sourceId": "sealeaf-chunli-beginner-2025",
+			"sourceStart": 16.95,
+			"sourceEnd": 19.25,
+			"clip": "/media/chunli/chunli-sealeaf-oki-light-sbk-dash-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-oki-light-sbk-dash-low",
+			"sourceId": "sealeaf-chunli-beginner-2025",
+			"sourceStart": 22.15,
+			"sourceEnd": 24.2,
+			"clip": "/media/chunli/chunli-sealeaf-oki-light-sbk-dash-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-oki-light-sbk-dash-throw",
+			"sourceId": "sealeaf-chunli-beginner-2025",
+			"sourceStart": 27.25,
+			"sourceEnd": 30.8,
+			"clip": "/media/chunli/chunli-sealeaf-oki-light-sbk-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-oki-light-sbk-rush-overhead",
+			"sourceId": "sealeaf-chunli-beginner-2025",
+			"sourceStart": 34.15,
+			"sourceEnd": 37.0,
+			"clip": "/media/chunli/chunli-sealeaf-oki-light-sbk-rush-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-oki-light-sbk-rush-low",
+			"sourceId": "sealeaf-chunli-beginner-2025",
+			"sourceStart": 39.65,
+			"sourceEnd": 42.2,
+			"clip": "/media/chunli/chunli-sealeaf-oki-light-sbk-rush-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "chunli-sealeaf-oki-level2-air-medium-sbk-rush-overhead",
+			"sourceId": "sealeaf-chunli-beginner-2025",
+			"sourceStart": 102.15,
+			"sourceEnd": 104.65,
+			"clip": "/media/chunli/chunli-sealeaf-oki-level2-air-medium-sbk-rush-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		}
+	]
+}
