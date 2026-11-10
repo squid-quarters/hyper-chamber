@@ -1,0 +1,4955 @@
+[
+	{
+		"id": "manon-joe-fundamentals-lights-heavy-wheel",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Two lights into heavy Rond-point",
+		"summary": "A short close-range light confirm that leaves the opponent knocked down.",
+		"kind": "combo",
+		"situations": ["Light confirm", "Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.LP > H Rond-point",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "H Rond-point",
+				"label": "Heavy Rond-point · 236HK"
+			}
+		],
+		"conditions": ["Classic controls", "Close range; 1 medal in the footage"],
+		"notes": [
+			"The creator labels the resulting heavy Rond-point knockdown +37F. This route does not use a medal-building grab."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 0.75,
+			"end": 4.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-lights-heavy-wheel/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-lights-heavy-wheel/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-lights-heavy-wheel/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-lights-heavy-wheel/frame-1.jpg",
+					"at": 0.45,
+					"label": "First light",
+					"alt": "Manon lands the first crouching light punch at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-lights-heavy-wheel/frame-2.jpg",
+					"at": 0.7,
+					"label": "Second light",
+					"alt": "The second crouching light punch connects before the special cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-lights-heavy-wheel/frame-3.jpg",
+					"at": 1.35,
+					"label": "Heavy Rond-point",
+					"alt": "Heavy Rond-point lifts Ryu into the air."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-lights-heavy-wheel/frame-4.jpg",
+					"at": 2.75,
+					"label": "Knockdown spacing",
+					"alt": "Manon and Ryu recover at the spacing left by the heavy Rond-point knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-wheel-dash-walk-grab",
+			"manon-joe-fundamentals-wheel-rush-low",
+			"manon-joe-fundamentals-wheel-rush-hit-confirm"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-wheel-dash-walk-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Heavy Rond-point: dash, walk, command grab",
+		"summary": "Close the knockdown gap with a dash and a short walk before light Manège Doré.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Command grab"],
+		"outcomes": ["Wake-up pressure", "Medal gain", "Knockdown"],
+		"notation": "dash > walk > L Manège Doré",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "walk",
+				"label": "Short walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "L Manège Doré",
+				"label": "Light Manège Doré · 63214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated two crouching light punches into heavy Rond-point knockdown",
+			"Midscreen; 1 medal before the follow-up in the footage"
+		],
+		"notes": [
+			"The creator labels heavy Rond-point +37F and the following dash +16F. Match the demonstrated knockdown and spacing; these are source claims, not current-patch test results.",
+			"The caption writes 63214P; the input history uses light punch in this take. The command grab is wake-up pressure, not a combo from Rond-point."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 11.05,
+			"end": 14.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-wheel-dash-walk-grab/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-wheel-dash-walk-grab/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-wheel-dash-walk-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-dash-walk-grab/frame-1.jpg",
+					"at": 0.25,
+					"label": "Dash forward",
+					"alt": "Manon dashes as Ryu lands from heavy Rond-point."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-dash-walk-grab/frame-2.jpg",
+					"at": 0.62,
+					"label": "Short walk",
+					"alt": "A short forward walk brings Manon into command-grab range as Ryu wakes up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-dash-walk-grab/frame-3.jpg",
+					"at": 1.25,
+					"label": "Command grab",
+					"alt": "Light Manège Doré catches Ryu after the dash and walk."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-dash-walk-grab/frame-4.jpg",
+					"at": 2.45,
+					"label": "Medal gained",
+					"alt": "The command grab finishes, and the medal counter has risen from one to two."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-wheel-rush-low",
+			"manon-joe-fundamentals-wheel-rush-heavy",
+			"manon-joe-fundamentals-wheel-rush-grab",
+			"manon-joe-fundamentals-wheel-rush-hit-confirm"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-wheel-rush-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Heavy Rond-point: blocked Rush medium into low",
+		"summary": "After a blocked Rush crouching medium punch, switch to a light low confirm.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Low", "Pressure"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "dash > DR > cr.MP > cr.LK > cr.LP > H Rond-point",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch",
+				"cue": "Blocked"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "H Rond-point",
+				"label": "Heavy Rond-point · 236HK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated two crouching light punches into heavy Rond-point knockdown",
+			"Midscreen; 1 medal before the follow-up in the footage"
+		],
+		"notes": [
+			"The creator labels heavy Rond-point +37F and the following dash +16F. Match the demonstrated knockdown and spacing; these are source claims, not current-patch test results.",
+			"The creator labels the blocked Rush crouching medium punch +3F. The low begins a new pressure sequence; the blocked medium is not part of the subsequent hit combo.",
+			"The source separately demonstrates that this dash-then-Rush approach loses to a wake-up invulnerable DP. Treat it as pressure, not a safe reversal bait."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 31.95,
+			"end": 35.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-wheel-rush-low/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-wheel-rush-low/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-wheel-rush-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-low/frame-1.jpg",
+					"at": 0.35,
+					"label": "Dash after knockdown",
+					"alt": "Manon dashes during Ryu’s heavy Rond-point knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-low/frame-2.jpg",
+					"at": 0.95,
+					"label": "Rush medium blocked",
+					"alt": "Ryu blocks the Drive Rush crouching medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-low/frame-3.jpg",
+					"at": 1.55,
+					"label": "Low option",
+					"alt": "Crouching light kick starts a new pressure sequence after the blocked medium."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-low/frame-4.jpg",
+					"at": 1.85,
+					"label": "Light confirm",
+					"alt": "Crouching light punch follows the low before the heavy Rond-point cancel."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-low/frame-5.jpg",
+					"at": 2.35,
+					"label": "Heavy Rond-point",
+					"alt": "Heavy Rond-point converts the light confirm into another knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-wheel-rush-heavy",
+			"manon-joe-fundamentals-wheel-rush-grab",
+			"manon-joe-fundamentals-wheel-rush-hit-confirm",
+			"manon-joe-fundamentals-wheel-dash-walk-grab"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-wheel-rush-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Heavy Rond-point: blocked Rush medium into heavy",
+		"summary": "Use back heavy punch after the blocked Rush medium, then convert a hit into Renversé.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Pressure"],
+		"outcomes": ["Wake-up pressure", "Medal gain", "Knockdown"],
+		"notation": "dash > DR > cr.MP > b.HP > M Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch",
+				"cue": "Blocked"
+			},
+			{
+				"id": "step-4",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "M Renversé",
+				"label": "Medium Renversé · 236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated two crouching light punches into heavy Rond-point knockdown",
+			"Midscreen; 1 medal before the follow-up in the footage"
+		],
+		"notes": [
+			"The creator labels heavy Rond-point +37F and the following dash +16F. Match the demonstrated knockdown and spacing; these are source claims, not current-patch test results.",
+			"The creator labels the blocked Rush medium +3F. Only the back-heavy hit and Renversé ender form the follow-up combo; the earlier blocked medium is pressure.",
+			"The source separately demonstrates that this dash-then-Rush approach loses to a wake-up invulnerable DP. Treat it as pressure, not a safe reversal bait."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 38.85,
+			"end": 43.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-wheel-rush-heavy/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-wheel-rush-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-wheel-rush-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-heavy/frame-1.jpg",
+					"at": 0.15,
+					"label": "Dash forward",
+					"alt": "Manon dashes as Ryu falls from heavy Rond-point."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-heavy/frame-2.jpg",
+					"at": 1.05,
+					"label": "Rush medium blocked",
+					"alt": "The Drive Rush crouching medium punch is blocked."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-heavy/frame-3.jpg",
+					"at": 1.65,
+					"label": "Back heavy connects",
+					"alt": "Back heavy punch hits after the blocked medium."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-heavy/frame-4.jpg",
+					"at": 2.15,
+					"label": "Renversé conversion",
+					"alt": "Medium Renversé follows the connected back heavy punch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-heavy/frame-5.jpg",
+					"at": 3.75,
+					"label": "Medal-building ender",
+					"alt": "Renversé throws Ryu down and raises the medal count from one to two."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-wheel-rush-low",
+			"manon-joe-fundamentals-wheel-rush-grab",
+			"manon-joe-fundamentals-wheel-rush-hit-confirm",
+			"manon-joe-fundamentals-wheel-dash-walk-grab"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-wheel-rush-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Heavy Rond-point: blocked Rush medium into grab",
+		"summary": "Threaten a heavy command grab after the opponent blocks Rush crouching medium punch.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Command grab", "Pressure"],
+		"outcomes": ["Wake-up pressure", "Medal gain", "Knockdown"],
+		"notation": "dash > DR > cr.MP > H Manège Doré",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch",
+				"cue": "Blocked"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Manège Doré",
+				"label": "Heavy Manège Doré · 63214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated two crouching light punches into heavy Rond-point knockdown",
+			"Midscreen; 1 medal before the follow-up in the footage"
+		],
+		"notes": [
+			"The creator labels heavy Rond-point +37F and the following dash +16F. Match the demonstrated knockdown and spacing; these are source claims, not current-patch test results.",
+			"The source labels the blocked Rush medium +3F. The grab is a pressure choice after blockstun, not a combo.",
+			"The source separately demonstrates that this dash-then-Rush approach loses to a wake-up invulnerable DP. Treat it as pressure, not a safe reversal bait."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 47.2,
+			"end": 51.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-wheel-rush-grab/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-wheel-rush-grab/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-wheel-rush-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-grab/frame-1.jpg",
+					"at": 0.2,
+					"label": "Dash forward",
+					"alt": "Manon dashes during the heavy Rond-point knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-grab/frame-2.jpg",
+					"at": 0.8,
+					"label": "Rush approach",
+					"alt": "Drive Rush carries Manon into crouching medium punch range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-grab/frame-3.jpg",
+					"at": 1.1,
+					"label": "Medium blocked",
+					"alt": "Ryu blocks the Rush crouching medium punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-grab/frame-4.jpg",
+					"at": 1.8,
+					"label": "Heavy command grab",
+					"alt": "Heavy Manège Doré catches Ryu after the blocked medium."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-grab/frame-5.jpg",
+					"at": 3.0,
+					"label": "Medal gained",
+					"alt": "The command grab finishes and the medal counter rises from one to two."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-wheel-rush-low",
+			"manon-joe-fundamentals-wheel-rush-heavy",
+			"manon-joe-fundamentals-wheel-dash-walk-grab",
+			"manon-joe-fundamentals-wheel-rush-hit-confirm"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-wheel-rush-hit-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Heavy Rond-point: Rush medium hit confirm",
+		"summary": "Convert a Rush crouching medium punch that hits on wake-up into back heavy and Renversé.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Hit confirm"],
+		"outcomes": ["Wake-up pressure", "Medal gain", "Knockdown"],
+		"notation": "dash > DR > cr.MP > b.HP > M Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch",
+				"cue": "On hit"
+			},
+			{
+				"id": "step-4",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "M Renversé",
+				"label": "Medium Renversé · 236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated two crouching light punches into heavy Rond-point knockdown",
+			"Midscreen; 1 medal before the follow-up in the footage"
+		],
+		"notes": [
+			"The creator labels heavy Rond-point +37F and the following dash +16F. Match the demonstrated knockdown and spacing; these are source claims, not current-patch test results.",
+			"This is the hit branch of the Rush medium setup. The original Rond-point knockdown and the new wake-up combo are separate sequences.",
+			"The source separately demonstrates that this dash-then-Rush approach loses to a wake-up invulnerable DP. Treat it as pressure, not a safe reversal bait."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 60.35,
+			"end": 65.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-wheel-rush-hit-confirm/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-wheel-rush-hit-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-wheel-rush-hit-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-hit-confirm/frame-1.jpg",
+					"at": 0.15,
+					"label": "Dash after knockdown",
+					"alt": "Manon dashes as Ryu lands from heavy Rond-point."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-hit-confirm/frame-2.jpg",
+					"at": 0.75,
+					"label": "Rush medium",
+					"alt": "Drive Rush crouching medium punch reaches Ryu as he wakes up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-hit-confirm/frame-3.jpg",
+					"at": 1.05,
+					"label": "Confirm the hit",
+					"alt": "The Rush crouching medium punch connects."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-hit-confirm/frame-4.jpg",
+					"at": 1.65,
+					"label": "Back heavy",
+					"alt": "Back heavy punch follows the connected Rush medium."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-fundamentals-wheel-rush-hit-confirm/frame-5.jpg",
+					"at": 2.85,
+					"label": "Renversé ender",
+					"alt": "Medium Renversé ends the wake-up hit confirm with a medal-building throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-wheel-rush-low",
+			"manon-joe-fundamentals-wheel-rush-heavy",
+			"manon-joe-fundamentals-wheel-rush-grab",
+			"manon-joe-fundamentals-wheel-dash-walk-grab"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-corner-wheel-heavy-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Corner Rond-point: whiff heavy into command grab",
+		"summary": "Use a whiffed standing heavy punch to time a heavy command grab in the corner.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Command grab", "Frame kill"],
+		"outcomes": ["Wake-up pressure", "Medal gain", "Knockdown"],
+		"notation": "st.HP > H Manège Doré",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch",
+				"cue": "Whiff to spend time"
+			},
+			{
+				"id": "step-2",
+				"notation": "H Manège Doré",
+				"label": "Heavy Manège Doré · 63214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated heavy Rond-point knockdown with Ryu in the corner",
+			"2 medals before the command grab in this take"
+		],
+		"notes": [
+			"The creator labels the whiffed standing heavy punch timing +4F. The caption offers normal throw or heavy Manège Doré; this excerpt demonstrates the heavy command grab.",
+			"The visible two-medal starting context records this take, not a claimed minimum medal requirement."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 94.55,
+			"end": 97.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-corner-wheel-heavy-grab/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-corner-wheel-heavy-grab/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-corner-wheel-heavy-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-heavy-grab/frame-1.jpg",
+					"at": 0.15,
+					"label": "Corner knockdown",
+					"alt": "Manon recovers as Ryu falls from heavy Rond-point in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-heavy-grab/frame-2.jpg",
+					"at": 0.45,
+					"label": "Whiff heavy punch",
+					"alt": "Standing heavy punch whiffs while Ryu is still getting up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-heavy-grab/frame-3.jpg",
+					"at": 1.05,
+					"label": "Heavy command grab",
+					"alt": "Heavy Manège Doré catches Ryu after the whiffed heavy punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-heavy-grab/frame-4.jpg",
+					"at": 1.95,
+					"label": "Throw finish",
+					"alt": "The heavy command grab throws Ryu back down."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-heavy-grab/frame-5.jpg",
+					"at": 2.95,
+					"label": "Medal gained",
+					"alt": "The medal counter rises from two to three after the command grab."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-corner-wheel-neutral-shimmy",
+			"manon-joe-fundamentals-corner-wheel-meaty-confirm",
+			"manon-joe-fundamentals-corner-wheel-meaty-grab"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-corner-wheel-neutral-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Corner Rond-point: whiff heavy, stay neutral",
+		"summary": "Let the spacing after a whiffed heavy punch make the wake-up throw miss.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Throw bait", "Frame kill"],
+		"outcomes": ["Throw bait", "Spacing"],
+		"notation": "st.HP > neutral",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch",
+				"cue": "Whiff to spend time"
+			},
+			{
+				"id": "step-2",
+				"notation": "neutral",
+				"label": "Stay neutral",
+				"cue": "Let the throw miss"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated heavy Rond-point knockdown with Ryu in the corner",
+			"3 medals in this source take"
+		],
+		"notes": [
+			"The creator labels the whiffed heavy-punch timing +4F and specifically instructs staying neutral after the whiff. No walk-back input or punish conversion is added here.",
+			"Match this corner spacing. The medal count records the example, not a minimum requirement."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 101.4,
+			"end": 103.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-corner-wheel-neutral-shimmy/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-corner-wheel-neutral-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-corner-wheel-neutral-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-neutral-shimmy/frame-1.jpg",
+					"at": 0.3,
+					"label": "Whiff heavy punch",
+					"alt": "Standing heavy punch whiffs during Ryu’s corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-neutral-shimmy/frame-2.jpg",
+					"at": 0.9,
+					"label": "Stay neutral",
+					"alt": "Manon stays neutral as Ryu starts a wake-up throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-neutral-shimmy/frame-3.jpg",
+					"at": 1.2,
+					"label": "Throw misses",
+					"alt": "Ryu’s throw has missed, leaving space between the characters."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-fundamentals-corner-wheel-heavy-grab"]
+	},
+	{
+		"id": "manon-joe-fundamentals-corner-wheel-meaty-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Corner Rond-point: whiff medium, meaty heavy",
+		"summary": "Time a late back heavy punch, then link another back heavy into medium Renversé.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Meaty", "Frame kill"],
+		"outcomes": ["Wake-up pressure", "Medal gain", "Knockdown"],
+		"notation": "st.MP > b.HP > b.HP > M Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch",
+				"cue": "Whiff to spend time"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch",
+				"cue": "Meaty hit"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Renversé",
+				"label": "Medium Renversé · 236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated heavy Rond-point knockdown with Ryu in the corner",
+			"1 medal before the follow-up in the footage"
+		],
+		"notes": [
+			"The creator labels heavy Rond-point +37F and the whiffed standing medium punch timing +12F. The late back-heavy hit is what enables the second back-heavy link in the source.",
+			"The knockdown and whiffed normal are setup steps; the hit combo starts with the meaty back heavy."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 118.15,
+			"end": 122.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-confirm/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-confirm/frame-1.jpg",
+					"at": 0.25,
+					"label": "Whiff medium punch",
+					"alt": "Standing medium punch is used during Ryu’s corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-confirm/frame-2.jpg",
+					"at": 0.85,
+					"label": "Meaty back heavy",
+					"alt": "Back heavy punch hits Ryu as he wakes up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-confirm/frame-3.jpg",
+					"at": 1.45,
+					"label": "Second back heavy",
+					"alt": "A second back heavy punch links after the meaty hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-confirm/frame-4.jpg",
+					"at": 2.35,
+					"label": "Renversé conversion",
+					"alt": "Medium Renversé converts the two back heavy punches into a throw."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-confirm/frame-5.jpg",
+					"at": 3.85,
+					"label": "Medal gained",
+					"alt": "Ryu falls after Renversé and the medal count has risen from one to two."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-corner-wheel-meaty-grab",
+			"manon-joe-fundamentals-corner-wheel-heavy-grab",
+			"manon-joe-complete-corner-heavy-rond-whiff-heavy-low"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-corner-wheel-meaty-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Corner Rond-point: blocked meaty into grab",
+		"summary": "After the timed back heavy is blocked, choose medium Manège Doré.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Meaty", "Command grab", "Frame kill"],
+		"outcomes": ["Wake-up pressure", "Medal gain", "Knockdown"],
+		"notation": "st.MP > b.HP > M Manège Doré",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch",
+				"cue": "Whiff to spend time"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch",
+				"cue": "Meaty; blocked"
+			},
+			{
+				"id": "step-3",
+				"notation": "M Manège Doré",
+				"label": "Medium Manège Doré · 63214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated heavy Rond-point knockdown with Ryu in the corner",
+			"1 medal before the follow-up in the footage"
+		],
+		"notes": [
+			"The source labels the whiffed medium-punch timing +12F and the meaty back heavy +6F on block. These timings belong to this corner setup.",
+			"This is a block-pressure branch, not a hit combo into a command grab."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 126.65,
+			"end": 130.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-grab/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-grab/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-grab/frame-1.jpg",
+					"at": 0.15,
+					"label": "Whiff medium punch",
+					"alt": "Manon uses standing medium punch during the corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-grab/frame-2.jpg",
+					"at": 0.75,
+					"label": "Meaty blocked",
+					"alt": "Ryu blocks the late back heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-grab/frame-3.jpg",
+					"at": 1.75,
+					"label": "Medium command grab",
+					"alt": "Medium Manège Doré catches Ryu after the blocked meaty."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-grab/frame-4.jpg",
+					"at": 2.85,
+					"label": "Medal gained",
+					"alt": "The command grab finishes with Ryu knocked down and the medal count increased."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-corner-wheel-meaty-confirm",
+			"manon-joe-fundamentals-corner-wheel-heavy-grab",
+			"manon-joe-complete-corner-heavy-rond-whiff-heavy-low"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-renverse-rush-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Renversé: Rush medium into medium Dégagé",
+		"summary": "Re-enter after Renversé with Rush crouching medium punch and a short standing-medium confirm.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Hit confirm"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "DR > cr.MP > st.MP > M Dégagé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Dégagé",
+				"label": "Medium Dégagé · 214MK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated Renversé knockdown, labelled +15F by the creator",
+			"2 medals after Renversé in this take"
+		],
+		"notes": [
+			"The caption lists light or medium Dégagé as alternatives. This take uses medium kick in the input history and demonstrates medium Dégagé.",
+			"The source ends this follow-up in a knockdown; the preceding Renversé is the setup prerequisite, not part of the wake-up combo."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 160.05,
+			"end": 164.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-renverse-rush-medium/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-renverse-rush-medium/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-renverse-rush-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-renverse-rush-medium/frame-1.jpg",
+					"at": 0.25,
+					"label": "Renversé knockdown",
+					"alt": "Manon recovers after the medal-building Renversé knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-renverse-rush-medium/frame-2.jpg",
+					"at": 0.85,
+					"label": "Rush forward",
+					"alt": "Raw Drive Rush closes the distance as Ryu wakes up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-renverse-rush-medium/frame-3.jpg",
+					"at": 1.15,
+					"label": "Rush medium hits",
+					"alt": "Drive Rush crouching medium punch connects."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-renverse-rush-medium/frame-4.jpg",
+					"at": 1.95,
+					"label": "Standing medium",
+					"alt": "Standing medium punch follows the Rush medium."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-fundamentals-renverse-rush-medium/frame-5.jpg",
+					"at": 2.45,
+					"label": "Medium Dégagé",
+					"alt": "Medium Dégagé converts the medium confirm into another knockdown."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-fundamentals-renverse-rush-throw-bait"]
+	},
+	{
+		"id": "manon-joe-fundamentals-renverse-rush-throw-bait",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Renversé: whiff Rush throw to bait DP",
+		"summary": "Use the Rush approach and a deliberately whiffed normal throw to draw a reversal.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Reversal bait"],
+		"outcomes": ["DP bait"],
+		"notation": "DR > throw > guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "throw",
+				"label": "Normal throw",
+				"cue": "Deliberately whiff"
+			},
+			{
+				"id": "step-3",
+				"notation": "guard",
+				"label": "Hold guard",
+				"cue": "Watch the reversal"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated Renversé knockdown, labelled +15F by the creator",
+			"2 medals after Renversé; demonstrated against Ryu’s OD Shoryuken"
+		],
+		"notes": [
+			"The throw is deliberately out of range and is not a command grab. The source stops after the reversal bait without showing a punish conversion.",
+			"Match the source timing and opponent; this is not a claim that every wake-up reversal is covered."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 191.85,
+			"end": 194.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-renverse-rush-throw-bait/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-renverse-rush-throw-bait/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-renverse-rush-throw-bait/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-renverse-rush-throw-bait/frame-1.jpg",
+					"at": 0.55,
+					"label": "Renversé knockdown",
+					"alt": "Ryu is knocked down after Renversé while Manon prepares the follow-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-renverse-rush-throw-bait/frame-2.jpg",
+					"at": 0.85,
+					"label": "Rush approach",
+					"alt": "Manon uses raw Drive Rush during the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-renverse-rush-throw-bait/frame-3.jpg",
+					"at": 1.15,
+					"label": "Whiff throw",
+					"alt": "The normal throw misses as Ryu starts his OD Shoryuken reversal."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-renverse-rush-throw-bait/frame-4.jpg",
+					"at": 1.75,
+					"label": "Reversal bait",
+					"alt": "Manon holds a crouching guard as Ryu descends from the reversal."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-fundamentals-renverse-rush-medium"]
+	},
+	{
+		"id": "manon-joe-fundamentals-light-degage-rush-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Light Dégagé: meaty Rush low confirm",
+		"summary": "Use the light Dégagé knockdown to set up Rush crouching medium kick into Renversé.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Meaty", "Low"],
+		"outcomes": ["Wake-up pressure", "Medal gain", "Knockdown"],
+		"notation": "DR > cr.MK > b.HP > M Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick",
+				"cue": "Meaty hit"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Renversé",
+				"label": "Medium Renversé · 236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated light Dégagé · 214LK knockdown",
+			"1 medal before the follow-up in the footage"
+		],
+		"notes": [
+			"The creator labels light Dégagé +21F and the Rush crouching medium kick meaty. Match the demonstrated timing and spacing.",
+			"This is the hit branch. The library keeps the separate reversal-bait demonstrations as their own references."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 197.45,
+			"end": 202.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-light-degage-rush-low/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-light-degage-rush-low/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-light-degage-rush-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-light-degage-rush-low/frame-1.jpg",
+					"at": 0.15,
+					"label": "Light Dégagé knockdown",
+					"alt": "Manon recovers after light Dégagé knocks Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-light-degage-rush-low/frame-2.jpg",
+					"at": 0.45,
+					"label": "Rush forward",
+					"alt": "Raw Drive Rush closes the gap during Ryu’s recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-light-degage-rush-low/frame-3.jpg",
+					"at": 0.75,
+					"label": "Meaty low",
+					"alt": "Rush crouching medium kick connects as Ryu wakes up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-light-degage-rush-low/frame-4.jpg",
+					"at": 1.65,
+					"label": "Back heavy",
+					"alt": "Back heavy punch follows the connected low."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-fundamentals-light-degage-rush-low/frame-5.jpg",
+					"at": 3.15,
+					"label": "Renversé ender",
+					"alt": "Medium Renversé finishes the wake-up confirm and builds a medal."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-light-degage-rush-grab",
+			"manon-joe-complete-light-degage-rush-low-reversal-block",
+			"manon-joe-complete-light-degage-rush-dp-block"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-light-degage-rush-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Light Dégagé: Rush light command grab",
+		"summary": "Use raw Drive Rush to threaten a light Manège Doré after the knockdown.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Command grab"],
+		"outcomes": ["Wake-up pressure", "Medal gain", "Knockdown"],
+		"notation": "DR > L Manège Doré",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "L Manège Doré",
+				"label": "Light Manège Doré · 63214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated light Dégagé · 214LK knockdown",
+			"1 medal before the command grab in the footage"
+		],
+		"notes": [
+			"The creator labels the preceding light Dégagé knockdown +21F. The command grab is a new wake-up pressure choice, not a combo from the special."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 218.05,
+			"end": 221.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-light-degage-rush-grab/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-light-degage-rush-grab/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-light-degage-rush-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-light-degage-rush-grab/frame-1.jpg",
+					"at": 0.15,
+					"label": "Light Dégagé knockdown",
+					"alt": "Ryu falls from light Dégagé while Manon recovers."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-light-degage-rush-grab/frame-2.jpg",
+					"at": 0.45,
+					"label": "Rush forward",
+					"alt": "Raw Drive Rush closes the distance during the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-light-degage-rush-grab/frame-3.jpg",
+					"at": 0.75,
+					"label": "Light command grab",
+					"alt": "Light Manège Doré catches Ryu as he wakes up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-light-degage-rush-grab/frame-4.jpg",
+					"at": 1.95,
+					"label": "Throw finish",
+					"alt": "The command grab throws Ryu down."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-fundamentals-light-degage-rush-grab/frame-5.jpg",
+					"at": 2.95,
+					"label": "Medal gained",
+					"alt": "The medal count has risen from one to two after the grab."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-light-degage-rush-low",
+			"manon-joe-complete-light-degage-rush-low-reversal-block",
+			"manon-joe-complete-light-degage-rush-dp-block"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-corner-medium-degage-meaty-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Corner medium Dégagé: blocked meaty into grab",
+		"summary": "Dash after medium Dégagé, make back heavy meaty, then choose medium command grab on block.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Meaty", "Command grab"],
+		"outcomes": ["Wake-up pressure", "Medal gain", "Knockdown"],
+		"notation": "dash > b.HP > M Manège Doré",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch",
+				"cue": "Meaty; blocked"
+			},
+			{
+				"id": "step-3",
+				"notation": "M Manège Doré",
+				"label": "Medium Manège Doré · 63214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated medium Dégagé · 214MK knockdown with Ryu in the corner",
+			"1 medal before the follow-up in the footage"
+		],
+		"notes": [
+			"The creator labels medium Dégagé +33F, the dash +12F and the meaty back heavy +6F on block. Match this corner knockdown and timing.",
+			"The command grab is a pressure choice after the blocked back heavy, not a combo."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 246.65,
+			"end": 250.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-corner-medium-degage-meaty-grab/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-corner-medium-degage-meaty-grab/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-corner-medium-degage-meaty-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-corner-medium-degage-meaty-grab/frame-1.jpg",
+					"at": 0.35,
+					"label": "Dash after knockdown",
+					"alt": "Manon dashes during the medium Dégagé corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-corner-medium-degage-meaty-grab/frame-2.jpg",
+					"at": 0.95,
+					"label": "Meaty blocked",
+					"alt": "Ryu blocks the late back heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-corner-medium-degage-meaty-grab/frame-3.jpg",
+					"at": 1.85,
+					"label": "Medium command grab",
+					"alt": "Medium Manège Doré catches Ryu after the blocked meaty."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-corner-medium-degage-meaty-grab/frame-4.jpg",
+					"at": 2.85,
+					"label": "Medal gained",
+					"alt": "The command grab finishes and raises the medal counter from one to two."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-corner-wheel-meaty-grab",
+			"manon-joe-complete-corner-medium-degage-meaty-heavy-link",
+			"manon-joe-complete-corner-medium-degage-whiff-medium-command-grab"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-command-grab-rush-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Command grab: Rush heavy pressure",
+		"summary": "Close back in after Manège Doré and place a standing heavy punch on wake-up.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Pressure"],
+		"outcomes": ["Wake-up pressure"],
+		"notation": "DR > st.HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated Manège Doré command-grab knockdown",
+			"2 medals after the preceding grab in the footage"
+		],
+		"notes": [
+			"The excerpt demonstrates standing heavy punch being blocked after the Rush approach. It does not show a hit conversion or a guaranteed answer to invulnerable reversals."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 282.05,
+			"end": 284.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-command-grab-rush-heavy/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-command-grab-rush-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-command-grab-rush-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-command-grab-rush-heavy/frame-1.jpg",
+					"at": 0.35,
+					"label": "Command-grab knockdown",
+					"alt": "Ryu lies knocked down after Manège Doré; the medal counter shows two."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-command-grab-rush-heavy/frame-2.jpg",
+					"at": 0.65,
+					"label": "Rush forward",
+					"alt": "Manon uses raw Drive Rush to approach the wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-command-grab-rush-heavy/frame-3.jpg",
+					"at": 1.25,
+					"label": "Heavy pressure",
+					"alt": "Ryu blocks Manon’s Rush standing heavy punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-command-grab-rush-heavy/frame-4.jpg",
+					"at": 2.15,
+					"label": "Block spacing",
+					"alt": "Both characters recover at the spacing left by the blocked heavy."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-command-grab-rush-jab-bait",
+			"manon-joe-complete-command-grab-heavy-overhead-pressure"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-command-grab-rush-jab-bait",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Command grab: whiff Rush jab to bait DP",
+		"summary": "Use a whiffed standing light punch after Rush to draw Ryu’s wake-up reversal.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Reversal bait"],
+		"outcomes": ["DP bait"],
+		"notation": "DR > st.LP > guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch",
+				"cue": "Deliberately whiff"
+			},
+			{
+				"id": "step-3",
+				"notation": "guard",
+				"label": "Hold guard",
+				"cue": "Watch the reversal"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the demonstrated Manège Doré command-grab knockdown",
+			"2 medals after the grab; demonstrated against Ryu’s OD Shoryuken"
+		],
+		"notes": [
+			"The standing light punch is deliberately whiffed. The source ends after the reversal bait without a punish conversion.",
+			"Match the demonstrated spacing and opponent; this is not a universal reversal-safe claim."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 287.3,
+			"end": 289.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-command-grab-rush-jab-bait/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-command-grab-rush-jab-bait/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-command-grab-rush-jab-bait/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-command-grab-rush-jab-bait/frame-1.jpg",
+					"at": 0.3,
+					"label": "Command-grab knockdown",
+					"alt": "Ryu is knocked down after Manège Doré; the medal counter shows two."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-command-grab-rush-jab-bait/frame-2.jpg",
+					"at": 0.6,
+					"label": "Rush forward",
+					"alt": "Manon approaches with raw Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-command-grab-rush-jab-bait/frame-3.jpg",
+					"at": 0.8,
+					"label": "Whiff jab",
+					"alt": "Standing light punch misses as Ryu starts OD Shoryuken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-command-grab-rush-jab-bait/frame-4.jpg",
+					"at": 1.5,
+					"label": "Reversal bait",
+					"alt": "Manon holds a crouching guard as Ryu descends from the reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-command-grab-rush-heavy",
+			"manon-joe-complete-command-grab-heavy-overhead-pressure"
+		]
+	},
+	{
+		"id": "manon-joe-fundamentals-medium-double-rush-sa3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Standing medium: double Rush into SA3",
+		"summary": "Spend both Drive Rush cancels to carry a medium starter into the back-medium target combo and level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Cash out", "Drive Rush"],
+		"outcomes": ["Damage", "Knockdown", "Burnout"],
+		"notation": "st.MP > DRC > cr.MP > b.HP > DRC > cr.MP > b.MK.MK > L Rond-point > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-6",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "b.MK.MK",
+				"label": "Back medium kick target combo",
+				"cue": "Press medium kick twice"
+			},
+			{
+				"id": "step-8",
+				"notation": "L Rond-point",
+				"label": "Light Rond-point · 236LK"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA3",
+				"label": "Level 3 · Pas de Deux"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close-range standing medium starter",
+			"Full Drive gauge and 3 Super bars in the source; 1 medal"
+		],
+		"notes": [
+			"The second Drive Rush cancel empties the demonstrated full Drive gauge and causes burnout. This route is a cashout commitment.",
+			"The creator’s displayed damage belongs to this recording and medal context; no current-patch damage total or medal threshold is claimed."
+		],
+		"resources": {
+			"drive": "Two Drive Rush cancels · burnout",
+			"super": "Level 3"
+		},
+		"source": {
+			"id": "joe-ebios-manon-fundamentals-2026",
+			"title": "SF6 MANON Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-DQtYTEInTA",
+			"published": "2026-08-14",
+			"start": 338.05,
+			"end": 353.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Inputs, source captions and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-fundamentals-medium-double-rush-sa3/clip.mp4",
+			"poster": "/media/manon/manon-joe-fundamentals-medium-double-rush-sa3/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-fundamentals-medium-double-rush-sa3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-fundamentals-medium-double-rush-sa3/frame-1.jpg",
+					"at": 0.35,
+					"label": "Medium starter",
+					"alt": "Standing medium punch connects at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-fundamentals-medium-double-rush-sa3/frame-2.jpg",
+					"at": 1.15,
+					"label": "First Rush medium",
+					"alt": "Crouching medium punch connects after the first Drive Rush cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-fundamentals-medium-double-rush-sa3/frame-3.jpg",
+					"at": 1.55,
+					"label": "Back heavy",
+					"alt": "Back heavy punch connects before the second Drive Rush cancel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-fundamentals-medium-double-rush-sa3/frame-4.jpg",
+					"at": 2.35,
+					"label": "Second Rush medium",
+					"alt": "The second Rush crouching medium punch connects with Manon in burnout."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-fundamentals-medium-double-rush-sa3/frame-5.jpg",
+					"at": 2.75,
+					"label": "Back-medium target",
+					"alt": "Back medium kick starts its two-kick target combo."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/manon/manon-joe-fundamentals-medium-double-rush-sa3/frame-6.jpg",
+					"at": 3.8,
+					"label": "Light Rond-point",
+					"alt": "Light Rond-point juggles Ryu before the super cancel."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/manon/manon-joe-fundamentals-medium-double-rush-sa3/frame-7.jpg",
+					"at": 5.15,
+					"label": "Level 3 connects",
+					"alt": "Pas de Deux connects after the light Rond-point cancel."
+				},
+				{
+					"id": "frame-8",
+					"src": "/media/manon/manon-joe-fundamentals-medium-double-rush-sa3/frame-8.jpg",
+					"at": 14.75,
+					"label": "Cashout finish",
+					"alt": "The level-3 animation finishes with Ryu knocked down and Manon still in burnout."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "manon-joe-complete-light-degage-rush-low-reversal-block",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Light Dégagé: Rush low, block Drive Reversal",
+		"summary": "A wake-up low check that recovers in time to guard the demonstrated Ryu Drive Reversal.",
+		"kind": "response",
+		"situations": ["Oki", "Midscreen", "Reversal bait"],
+		"outcomes": ["Reversal blocked"],
+		"notation": "DR > cr.MK > block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick",
+				"cue": "Meaty low check"
+			},
+			{
+				"id": "step-3",
+				"notation": "block",
+				"label": "Guard the reversal"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After light Dégagé at the demonstrated midscreen spacing",
+			"Ryu wake-up Drive Reversal"
+		],
+		"notes": [
+			"The source labels the Rush crouching medium kick safe against wake-up Drive Reversal. This clip demonstrates Ryu’s response; it is not a guarantee for every matchup or game version.",
+			"The prerequisite light Dégagé is ending as the clip begins. Manon has one medal in this demonstration."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 16.6,
+			"end": 19.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source captions, input history and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-light-degage-rush-low-reversal-block/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-light-degage-rush-low-reversal-block/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-light-degage-rush-low-reversal-block/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-light-degage-rush-low-reversal-block/frame-1.jpg",
+					"at": 0.07,
+					"label": "Knockdown recovery",
+					"alt": "Manon recovers from light Dégagé while Ryu is knocked down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-light-degage-rush-low-reversal-block/frame-2.jpg",
+					"at": 0.42,
+					"label": "Rush forward",
+					"alt": "Raw Drive Rush closes the knockdown distance."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-light-degage-rush-low-reversal-block/frame-3.jpg",
+					"at": 0.7,
+					"label": "Meaty low",
+					"alt": "Manon checks Ryu’s wake-up with crouching medium kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-light-degage-rush-low-reversal-block/frame-4.jpg",
+					"at": 1.22,
+					"label": "Block Drive Reversal",
+					"alt": "Ryu’s Drive Reversal is guarded by Manon."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-light-degage-rush-low-reversal-block/frame-5.jpg",
+					"at": 2.5,
+					"label": "Hold guard",
+					"alt": "Manon remains in guard after the reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-complete-light-degage-rush-dp-block",
+			"manon-joe-fundamentals-light-degage-rush-low",
+			"manon-joe-fundamentals-light-degage-rush-grab"
+		]
+	},
+	{
+		"id": "manon-joe-complete-light-degage-rush-dp-block",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Light Dégagé: Rush, block OD DP",
+		"summary": "Approach after the low knockdown and stop to block Ryu’s wake-up OD Shoryuken.",
+		"kind": "response",
+		"situations": ["Oki", "Midscreen", "Reversal bait"],
+		"outcomes": ["Reversal blocked"],
+		"notation": "DR > block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "block",
+				"label": "Guard OD Shoryuken",
+				"cue": "Do not commit to a wake-up attack"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After light Dégagé at the demonstrated midscreen spacing",
+			"Ryu wake-up OD Shoryuken"
+		],
+		"notes": [
+			"This is a bait-and-block option. No follow-up punish is performed in the selected demonstration.",
+			"Manon has one medal in the source. The clip starts after the prerequisite light Dégagé."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 37.55,
+			"end": 40.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source captions, input history and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-light-degage-rush-dp-block/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-light-degage-rush-dp-block/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-light-degage-rush-dp-block/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-light-degage-rush-dp-block/frame-1.jpg",
+					"at": 0.1,
+					"label": "Knockdown",
+					"alt": "Ryu falls from the prerequisite light Dégagé."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-light-degage-rush-dp-block/frame-2.jpg",
+					"at": 0.43,
+					"label": "Rush approach",
+					"alt": "Manon uses raw Drive Rush while Ryu wakes up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-light-degage-rush-dp-block/frame-3.jpg",
+					"at": 0.88,
+					"label": "Block OD DP",
+					"alt": "Manon guards the first hit of Ryu’s OD Shoryuken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-light-degage-rush-dp-block/frame-4.jpg",
+					"at": 1.25,
+					"label": "Keep guarding",
+					"alt": "Manon continues guarding as Ryu rises."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-light-degage-rush-dp-block/frame-5.jpg",
+					"at": 2.4,
+					"label": "Reversal recovered",
+					"alt": "Ryu lands while Manon holds guard."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-complete-light-degage-rush-low-reversal-block",
+			"manon-joe-fundamentals-light-degage-rush-low",
+			"manon-joe-fundamentals-light-degage-rush-grab"
+		]
+	},
+	{
+		"id": "manon-joe-complete-corner-medium-degage-meaty-heavy-link",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Corner medium Dégagé: two back heavies",
+		"summary": "Dash after the corner knockdown, then link two back heavy punches into medium Renversé.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Meaty"],
+		"outcomes": ["Medal gain", "Hard knockdown"],
+		"notation": "dash > b.HP > b.HP > M Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch",
+				"cue": "Meaty hit"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HP",
+				"label": "Back heavy punch",
+				"cue": "Link after the meaty"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Renversé",
+				"label": "Medium Renversé",
+				"cue": "236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After medium Dégagé in the corner",
+			"The first back heavy punch hits meaty, as demonstrated"
+		],
+		"notes": [
+			"The source labels the post-dash situation +12F. The late first back heavy punch enables the second back heavy punch; this is not the standing HP target combo.",
+			"The demonstration starts at one medal and finishes at two. Match the shown knockdown and timing; the source has not been checked against the current game version."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 80.55,
+			"end": 86.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source captions, input history and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-corner-medium-degage-meaty-heavy-link/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-corner-medium-degage-meaty-heavy-link/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-corner-medium-degage-meaty-heavy-link/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-corner-medium-degage-meaty-heavy-link/frame-1.jpg",
+					"at": 0.33,
+					"label": "Dash in",
+					"alt": "Manon dashes as Ryu falls from medium Dégagé in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-corner-medium-degage-meaty-heavy-link/frame-2.jpg",
+					"at": 0.85,
+					"label": "Meaty back heavy",
+					"alt": "The first back heavy punch catches Ryu’s wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-corner-medium-degage-meaty-heavy-link/frame-3.jpg",
+					"at": 1.5,
+					"label": "Second back heavy",
+					"alt": "Manon links another back heavy punch after the meaty hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-corner-medium-degage-meaty-heavy-link/frame-4.jpg",
+					"at": 2.57,
+					"label": "Medium Renversé",
+					"alt": "Medium Renversé catches Ryu after the linked normals."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-corner-medium-degage-meaty-heavy-link/frame-5.jpg",
+					"at": 4.0,
+					"label": "Medal gained",
+					"alt": "The hit-grab ends in a hard knockdown and Manon’s medal counter shows two."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-complete-corner-medium-degage-whiff-medium-command-grab",
+			"manon-joe-fundamentals-corner-medium-degage-meaty-grab"
+		]
+	},
+	{
+		"id": "manon-joe-complete-corner-medium-degage-whiff-medium-command-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Corner medium Dégagé: whiff medium, command grab",
+		"summary": "Use a whiffed standing medium punch to time a light command grab on wake-up.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Command grab"],
+		"outcomes": ["Medal gain", "Command-grab knockdown"],
+		"notation": "st.MP (whiff) > L Manège Doré",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP (whiff)",
+				"label": "Standing medium punch",
+				"cue": "Intentionally miss as a frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "L Manège Doré",
+				"label": "Light Manège Doré",
+				"cue": "63214LP; command grab"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After medium Dégagé in the corner",
+			"Ryu stays grounded on wake-up in the demonstration"
+		],
+		"notes": [
+			"The source labels the situation after the whiffed medium punch +8F. The punch is a timing action and does not combo into the command grab.",
+			"The source medal counter goes from one to two after the grab. This is observed context, not an asserted medal requirement."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 101.35,
+			"end": 105.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source captions, input history and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-corner-medium-degage-whiff-medium-command-grab/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-corner-medium-degage-whiff-medium-command-grab/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-corner-medium-degage-whiff-medium-command-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-corner-medium-degage-whiff-medium-command-grab/frame-1.jpg",
+					"at": 0.2,
+					"label": "Corner knockdown",
+					"alt": "Manon recovers while Ryu falls from medium Dégagé in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-corner-medium-degage-whiff-medium-command-grab/frame-2.jpg",
+					"at": 0.7,
+					"label": "Whiff standing medium",
+					"alt": "Standing medium punch deliberately misses during the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-corner-medium-degage-whiff-medium-command-grab/frame-3.jpg",
+					"at": 1.57,
+					"label": "Light command grab",
+					"alt": "Light Manège Doré catches Ryu on wake-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-corner-medium-degage-whiff-medium-command-grab/frame-4.jpg",
+					"at": 2.35,
+					"label": "Grab knockdown",
+					"alt": "The command grab slams Ryu and increases Manon’s medal counter to two."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-corner-medium-degage-whiff-medium-command-grab/frame-5.jpg",
+					"at": 3.25,
+					"label": "Recovery",
+					"alt": "Manon recovers next to the cornered Ryu."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-complete-corner-medium-degage-meaty-heavy-link",
+			"manon-joe-fundamentals-corner-medium-degage-meaty-grab"
+		]
+	},
+	{
+		"id": "manon-joe-complete-heavy-rond-dash-rush-jab-deejay-level2-block",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Heavy Rond-point: jab, block Dee Jay Level 2",
+		"summary": "Dash and Rush jab after the knockdown, then guard the demonstrated Dee Jay super.",
+		"kind": "response",
+		"situations": ["Oki", "Midscreen", "Reversal bait"],
+		"outcomes": ["Reversal blocked"],
+		"notation": "dash > DR > st.LP > block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "block",
+				"label": "Guard Dee Jay Level 2"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After heavy Rond-point at the demonstrated spacing",
+			"Dee Jay wake-up Level 2 Super Art"
+		],
+		"notes": [
+			"The source labels heavy Rond-point +37F, the dash follow-up +16F, and this jab option safe versus 12F-or-slower reversals. Only the shown Dee Jay Level 2 block is represented here; do not generalize that caption to all reversals.",
+			"The same guide separately shows an invulnerable Ryu OD DP beating an attacking Rush approach. Use the separate Rush-and-block option when scouting a faster reversal.",
+			"Manon has one medal. Dee Jay spends two Super stocks; Manon spends no Super."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 180.4,
+			"end": 184.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source captions, input history and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-heavy-rond-dash-rush-jab-deejay-level2-block/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-heavy-rond-dash-rush-jab-deejay-level2-block/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-heavy-rond-dash-rush-jab-deejay-level2-block/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-heavy-rond-dash-rush-jab-deejay-level2-block/frame-1.jpg",
+					"at": 0.12,
+					"label": "Dash after Rond-point",
+					"alt": "Manon dashes while Dee Jay falls from heavy Rond-point."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-heavy-rond-dash-rush-jab-deejay-level2-block/frame-2.jpg",
+					"at": 0.6,
+					"label": "Rush jab approach",
+					"alt": "Manon uses raw Drive Rush to approach with standing light punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-heavy-rond-dash-rush-jab-deejay-level2-block/frame-3.jpg",
+					"at": 0.76,
+					"label": "Wake-up jab",
+					"alt": "Manon checks Dee Jay’s wake-up with standing light punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-heavy-rond-dash-rush-jab-deejay-level2-block/frame-4.jpg",
+					"at": 0.92,
+					"label": "Wake-up super",
+					"alt": "Dee Jay activates his Level 2 Super Art after Manon’s Rush jab."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-heavy-rond-dash-rush-jab-deejay-level2-block/frame-5.jpg",
+					"at": 2.97,
+					"label": "Guard the super",
+					"alt": "Manon blocks Dee Jay’s Level 2 Super Art."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/manon/manon-joe-complete-heavy-rond-dash-rush-jab-deejay-level2-block/frame-6.jpg",
+					"at": 4.2,
+					"label": "Block confirmed",
+					"alt": "The super has been guarded and both characters recover."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-light-degage-rush-dp-block"]
+	},
+	{
+		"id": "manon-joe-complete-corner-heavy-rond-whiff-heavy-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Corner heavy Rond-point: frame kill into low",
+		"summary": "Whiff standing heavy punch after the corner knockdown, then confirm a low into medium Dégagé.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP (whiff) > cr.LK > st.LP > M Dégagé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP (whiff)",
+				"label": "Standing heavy punch",
+				"cue": "Intentionally miss as a frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Dégagé",
+				"label": "Medium Dégagé",
+				"cue": "214MK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After heavy Rond-point in the corner",
+			"Opponent stays grounded on wake-up in the demonstration"
+		],
+		"notes": [
+			"The source labels heavy Rond-point +37F and the whiffed heavy punch follow-up +4F. Match the demonstrated corner spacing.",
+			"Standing heavy punch is intentionally whiffed; the following low starts the hit-confirm. Manon remains at one medal in this example."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 218.5,
+			"end": 222.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source captions, input history and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-corner-heavy-rond-whiff-heavy-low/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-corner-heavy-rond-whiff-heavy-low/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-corner-heavy-rond-whiff-heavy-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-corner-heavy-rond-whiff-heavy-low/frame-1.jpg",
+					"at": 0.38,
+					"label": "Whiff heavy punch",
+					"alt": "Manon deliberately whiffs standing heavy punch as Ryu rises from the corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-corner-heavy-rond-whiff-heavy-low/frame-2.jpg",
+					"at": 0.66,
+					"label": "Low starter",
+					"alt": "Crouching light kick hits Ryu low on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-corner-heavy-rond-whiff-heavy-low/frame-3.jpg",
+					"at": 1.05,
+					"label": "Standing light punch",
+					"alt": "Standing light punch continues the low confirm."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-corner-heavy-rond-whiff-heavy-low/frame-4.jpg",
+					"at": 1.77,
+					"label": "Medium Dégagé",
+					"alt": "Medium Dégagé strikes Ryu in the corner."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-corner-heavy-rond-whiff-heavy-low/frame-5.jpg",
+					"at": 2.85,
+					"label": "Knockdown",
+					"alt": "Ryu falls from medium Dégagé while Manon recovers."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-corner-wheel-meaty-confirm",
+			"manon-joe-fundamentals-corner-wheel-meaty-grab"
+		]
+	},
+	{
+		"id": "manon-joe-complete-crouching-medium-punish-renverse",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Crouching medium punish into medal",
+		"summary": "Punish Counter with crouching medium punch, then link back heavy punch into medium Renversé.",
+		"kind": "combo",
+		"situations": ["Punish Counter", "Midscreen", "DP punish"],
+		"outcomes": ["Medal gain", "Hard knockdown"],
+		"notation": "cr.MP > b.HP > M Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch",
+				"cue": "Punish Counter"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "M Renversé",
+				"label": "Medium Renversé",
+				"cue": "236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close Punish Counter starter",
+			"Ryu OD Shoryuken has been blocked in the demonstration"
+		],
+		"notes": [
+			"The source labels the final Renversé knockdown +15F. The selected clip begins during Ryu’s landing recovery so the punish starter is visible.",
+			"The source medal counter goes from one to two. This meterless route is distinct from a command grab: Renversé combos from the preceding hit."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 316.4,
+			"end": 321.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source captions, input history and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-crouching-medium-punish-renverse/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-crouching-medium-punish-renverse/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-crouching-medium-punish-renverse/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-crouching-medium-punish-renverse/frame-1.jpg",
+					"at": 0.32,
+					"label": "Punish Counter medium",
+					"alt": "Crouching medium punch punishes Ryu’s landing recovery."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-crouching-medium-punish-renverse/frame-2.jpg",
+					"at": 0.91,
+					"label": "Back heavy punch",
+					"alt": "Back heavy punch links after the Punish Counter starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-crouching-medium-punish-renverse/frame-3.jpg",
+					"at": 1.82,
+					"label": "Medium Renversé",
+					"alt": "Medium Renversé grabs Ryu as part of the combo."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-crouching-medium-punish-renverse/frame-4.jpg",
+					"at": 3.4,
+					"label": "Medal gained",
+					"alt": "Renversé ends with Ryu knocked down and Manon at two medals."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-crouching-medium-punish-renverse/frame-5.jpg",
+					"at": 4.13,
+					"label": "Hard knockdown",
+					"alt": "Both characters return to their post-combo spacing."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-crouching-medium-punish-od-extension"]
+	},
+	{
+		"id": "manon-joe-complete-crouching-medium-punish-od-extension",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Crouching medium punish: OD juggle extension",
+		"summary": "Spend Overdrive after the Punish Counter link and finish the juggle with light Renversé.",
+		"kind": "combo",
+		"situations": ["Punish Counter", "Midscreen", "DP punish"],
+		"outcomes": ["Medal gain", "Hard knockdown"],
+		"notation": "cr.MP > b.HP > OD Renversé > K follow-up > b.HP > H Rond-point > L Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch",
+				"cue": "Punish Counter"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "OD Renversé",
+				"label": "Overdrive Renversé",
+				"cue": "236PP"
+			},
+			{
+				"id": "step-4",
+				"notation": "K follow-up",
+				"label": "Renversé kick follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "H Rond-point",
+				"label": "Heavy Rond-point",
+				"cue": "236HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "L Renversé",
+				"label": "Light Renversé",
+				"cue": "236LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close Punish Counter starter",
+			"Ryu OD Shoryuken has been blocked in the demonstration"
+		],
+		"notes": [
+			"Use the kick follow-up after OD Renversé to launch, then continue the air juggle. The final light Renversé is a combo hit-grab, not a command-grab reset.",
+			"The source labels the final knockdown +15F. Manon starts with one medal and ends with two in this demonstration."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 323.75,
+			"end": 330.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source captions, input history and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-crouching-medium-punish-od-extension/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-crouching-medium-punish-od-extension/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-crouching-medium-punish-od-extension/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-crouching-medium-punish-od-extension/frame-1.jpg",
+					"at": 0.37,
+					"label": "Punish Counter starter",
+					"alt": "Crouching medium punch punishes Ryu after his blocked OD Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-crouching-medium-punish-od-extension/frame-2.jpg",
+					"at": 1.17,
+					"label": "OD cancel",
+					"alt": "Back heavy punch cancels into OD Renversé."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-crouching-medium-punish-od-extension/frame-3.jpg",
+					"at": 1.72,
+					"label": "Kick follow-up",
+					"alt": "The Renversé kick follow-up launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-crouching-medium-punish-od-extension/frame-4.jpg",
+					"at": 2.24,
+					"label": "Back-heavy juggle",
+					"alt": "Back heavy punch catches Ryu in the air."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-crouching-medium-punish-od-extension/frame-5.jpg",
+					"at": 2.81,
+					"label": "Heavy Rond-point",
+					"alt": "Heavy Rond-point keeps the juggle going."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/manon/manon-joe-complete-crouching-medium-punish-od-extension/frame-6.jpg",
+					"at": 4.5,
+					"label": "Light Renversé",
+					"alt": "Light Renversé catches Ryu to end the juggle."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/manon/manon-joe-complete-crouching-medium-punish-od-extension/frame-7.jpg",
+					"at": 5.95,
+					"label": "Medal knockdown",
+					"alt": "Ryu lands from Renversé and the medal counter shows two."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-crouching-medium-punish-renverse"]
+	},
+	{
+		"id": "manon-joe-complete-standing-medium-rush-target-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Standing medium: Rush into kick target combo",
+		"summary": "Cancel standing medium punch into Rush and route through back medium kick’s follow-up to light Dégagé.",
+		"kind": "combo",
+		"situations": ["Medium confirm", "Midscreen", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > DRC > cr.MP > b.MK > MK follow-up > L Dégagé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "MK follow-up",
+				"label": "Medium-kick target follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "L Dégagé",
+				"label": "Light Dégagé",
+				"cue": "214LK"
+			}
+		],
+		"conditions": ["Classic controls", "Standing medium punch hits at the demonstrated range"],
+		"notes": [
+			"Back medium kick followed by medium kick is the target sequence shown in the source. Do not replace the second kick with another back medium kick.",
+			"The source labels light Dégagé’s knockdown +21F. Manon has one medal throughout this demonstration."
+		],
+		"resources": {
+			"drive": "Drive Rush cancel",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 337.75,
+			"end": 342.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source captions, input history and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-standing-medium-rush-target-low/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-standing-medium-rush-target-low/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-standing-medium-rush-target-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-standing-medium-rush-target-low/frame-1.jpg",
+					"at": 0.6,
+					"label": "Standing medium starter",
+					"alt": "Standing medium punch connects on Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-standing-medium-rush-target-low/frame-2.jpg",
+					"at": 0.95,
+					"label": "Rush cancel",
+					"alt": "Manon cancels the standing medium punch into Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-standing-medium-rush-target-low/frame-3.jpg",
+					"at": 1.25,
+					"label": "Crouching medium link",
+					"alt": "Rush crouching medium punch connects."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-standing-medium-rush-target-low/frame-4.jpg",
+					"at": 1.77,
+					"label": "Back medium kick",
+					"alt": "Back medium kick starts the kick target sequence."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-standing-medium-rush-target-low/frame-5.jpg",
+					"at": 2.35,
+					"label": "Kick follow-up",
+					"alt": "The medium-kick follow-up knocks Ryu downward."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/manon/manon-joe-complete-standing-medium-rush-target-low/frame-6.jpg",
+					"at": 2.88,
+					"label": "Light Dégagé",
+					"alt": "Light Dégagé hits after the target sequence."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/manon/manon-joe-complete-standing-medium-rush-target-low/frame-7.jpg",
+					"at": 4.13,
+					"label": "Knockdown",
+					"alt": "Manon recovers as Ryu rises from the low ender."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-raw-rush-low-light-degage"]
+	},
+	{
+		"id": "manon-joe-complete-raw-rush-low-light-degage",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Raw Rush low into light Dégagé",
+		"summary": "Approach with raw Rush crouching medium kick, link standing medium punch, then take the low knockdown.",
+		"kind": "combo",
+		"situations": ["Low confirm", "Midscreen", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > cr.MK > st.MP > L Dégagé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "L Dégagé",
+				"label": "Light Dégagé",
+				"cue": "214LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Raw Drive Rush crouching medium kick hits at the demonstrated range"
+		],
+		"notes": [
+			"This is raw Drive Rush before the low starter, not a Drive Rush cancel from crouching medium kick.",
+			"The source labels the final knockdown +21F. Manon has one medal throughout the demonstration."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 376.65,
+			"end": 380.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source captions, input history and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-raw-rush-low-light-degage/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-raw-rush-low-light-degage/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-raw-rush-low-light-degage/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-raw-rush-low-light-degage/frame-1.jpg",
+					"at": 0.41,
+					"label": "Raw Drive Rush",
+					"alt": "Manon activates raw Drive Rush before attacking."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-raw-rush-low-light-degage/frame-2.jpg",
+					"at": 0.97,
+					"label": "Low starter",
+					"alt": "Rush crouching medium kick hits Ryu low."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-raw-rush-low-light-degage/frame-3.jpg",
+					"at": 1.53,
+					"label": "Standing medium link",
+					"alt": "Standing medium punch follows the Rush low."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-raw-rush-low-light-degage/frame-4.jpg",
+					"at": 2.11,
+					"label": "Light Dégagé",
+					"alt": "Light Dégagé hits Ryu’s legs."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-raw-rush-low-light-degage/frame-5.jpg",
+					"at": 3.22,
+					"label": "Knockdown recovery",
+					"alt": "Manon recovers as Ryu rises after light Dégagé."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-complete-raw-rush-low-level2",
+			"manon-joe-complete-standing-medium-rush-target-low"
+		]
+	},
+	{
+		"id": "manon-joe-complete-raw-rush-low-level2",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Raw Rush low into Level 2",
+		"summary": "Convert raw Rush crouching medium kick directly into a Level 2 Super Art.",
+		"kind": "combo",
+		"situations": ["Low confirm", "Midscreen", "Drive Rush", "Super finish"],
+		"outcomes": ["Super finish", "Knockdown"],
+		"notation": "DR > cr.MK > SA2",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA2",
+				"label": "Level 2 Super Art",
+				"cue": "214214K"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Raw Drive Rush crouching medium kick hits at the demonstrated range"
+		],
+		"notes": [
+			"The source goes directly from the Rush low to Level 2; no standing-medium link is used in this variation.",
+			"Manon spends two Super stocks and remains at one medal. The source frame meter shows +32F at recovery; that source value has not been re-tested on the current game version."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "2 Super stocks"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 381.55,
+			"end": 388.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source captions, input history and demonstrated action order reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-raw-rush-low-level2/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-raw-rush-low-level2/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-raw-rush-low-level2/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-raw-rush-low-level2/frame-1.jpg",
+					"at": 0.55,
+					"label": "Raw Rush approach",
+					"alt": "Raw Drive Rush carries Manon toward Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-raw-rush-low-level2/frame-2.jpg",
+					"at": 1.07,
+					"label": "Rush low",
+					"alt": "Crouching medium kick connects before the Super cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-raw-rush-low-level2/frame-3.jpg",
+					"at": 1.85,
+					"label": "Level 2 cancel",
+					"alt": "Manon activates Level 2 Super Art."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-raw-rush-low-level2/frame-4.jpg",
+					"at": 3.48,
+					"label": "Super juggle",
+					"alt": "Level 2 juggles Ryu above Manon."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-raw-rush-low-level2/frame-5.jpg",
+					"at": 5.03,
+					"label": "Final super hit",
+					"alt": "The super’s final strike sends Ryu away."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/manon/manon-joe-complete-raw-rush-low-level2/frame-6.jpg",
+					"at": 5.95,
+					"label": "Super knockdown",
+					"alt": "Ryu lands from the Level 2 finish."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-raw-rush-low-light-degage"]
+	},
+	{
+		"id": "manon-joe-complete-anti-air-delayed-target-medal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Anti-air target kick into a medal",
+		"summary": "Catch the jump with back medium kick, delay the target follow-up, then juggle through OD Dégagé into light Renversé.",
+		"kind": "combo",
+		"situations": ["Anti-air", "Midscreen", "Juggle extension"],
+		"outcomes": ["Medal gain", "Hard knockdown"],
+		"notation": "b.MK > MK follow-up > OD Dégagé > L Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK",
+				"label": "Back medium kick anti-air"
+			},
+			{
+				"id": "step-2",
+				"notation": "MK follow-up",
+				"label": "Medium-kick target follow-up",
+				"cue": "Delay the second kick to match the airborne juggle."
+			},
+			{
+				"id": "step-3",
+				"notation": "OD Dégagé",
+				"label": "Overdrive Dégagé",
+				"cue": "214KK"
+			},
+			{
+				"id": "step-4",
+				"notation": "L Renversé",
+				"label": "Light Renversé",
+				"cue": "236LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Airborne opponent at the demonstrated height and spacing",
+			"Counter Hit shown in the source"
+		],
+		"notes": [
+			"This is an anti-air juggle. The delayed target kick has different timing from the grounded Counter Hit and Punish Counter examples.",
+			"The demonstration starts at one medal and ends at two; this records the shown state, not a tested minimum medal requirement."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 416.85,
+			"end": 423.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-anti-air-delayed-target-medal/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-anti-air-delayed-target-medal/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-anti-air-delayed-target-medal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-anti-air-delayed-target-medal/frame-1.jpg",
+					"at": 0.6,
+					"label": "Jump approach",
+					"alt": "Ryu jumps toward Manon before the anti-air."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-anti-air-delayed-target-medal/frame-2.jpg",
+					"at": 1.0,
+					"label": "Back medium kick",
+					"alt": "Back medium kick intercepts the jump."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-anti-air-delayed-target-medal/frame-3.jpg",
+					"at": 1.47,
+					"label": "Delayed target kick",
+					"alt": "The medium-kick target follow-up catches the airborne Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-anti-air-delayed-target-medal/frame-4.jpg",
+					"at": 2.39,
+					"label": "OD Dégagé",
+					"alt": "OD Dégagé extends the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-anti-air-delayed-target-medal/frame-5.jpg",
+					"at": 3.35,
+					"label": "Light Renversé",
+					"alt": "Light Renversé catches Ryu after the OD extension."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/manon/manon-joe-complete-anti-air-delayed-target-medal/frame-6.jpg",
+					"at": 5.35,
+					"label": "Medal gained",
+					"alt": "The hit-grab finish raises Manon from one medal to two."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-anti-air-od-rond-medal"]
+	},
+	{
+		"id": "manon-joe-complete-counter-hit-target-light-renverse",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Counter-hit target kicks into light Renversé",
+		"summary": "Convert a grounded back medium-kick Counter Hit through the target follow-up into a medal-building hit grab.",
+		"kind": "combo",
+		"situations": ["Counter hit", "Midscreen", "Target combo"],
+		"outcomes": ["Medal gain", "Hard knockdown"],
+		"notation": "b.MK (CH) > MK follow-up > L Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK (CH)",
+				"label": "Back medium kick, Counter Hit"
+			},
+			{
+				"id": "step-2",
+				"notation": "MK follow-up",
+				"label": "Medium-kick target follow-up"
+			},
+			{
+				"id": "step-3",
+				"notation": "L Renversé",
+				"label": "Light Renversé",
+				"cue": "236LP"
+			}
+		],
+		"conditions": ["Classic controls", "Grounded back medium kick Counter Hit"],
+		"notes": [
+			"Both target kicks hit. The Counter Hit belongs to the first back medium kick.",
+			"Manon starts with two medals and finishes with three in this take. The source labels the finish +15F; this has not been re-tested in the current game."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 424.1,
+			"end": 429.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-counter-hit-target-light-renverse/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-counter-hit-target-light-renverse/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-counter-hit-target-light-renverse/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-counter-hit-target-light-renverse/frame-1.jpg",
+					"at": 0.75,
+					"label": "Counter-hit starter",
+					"alt": "The first back medium kick connects as a Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-counter-hit-target-light-renverse/frame-2.jpg",
+					"at": 1.35,
+					"label": "Target follow-up",
+					"alt": "The medium-kick follow-up hits the grounded opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-counter-hit-target-light-renverse/frame-3.jpg",
+					"at": 2.2,
+					"label": "Light Renversé",
+					"alt": "Light Renversé connects after the target sequence."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-counter-hit-target-light-renverse/frame-4.jpg",
+					"at": 3.85,
+					"label": "Medal gained",
+					"alt": "The Renversé finish raises Manon from two medals to three."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-counter-hit-target-light-renverse/frame-5.jpg",
+					"at": 4.75,
+					"label": "Hard knockdown",
+					"alt": "Ryu rises after the hit-grab knockdown."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-punish-counter-target-od-low"]
+	},
+	{
+		"id": "manon-joe-complete-punish-counter-target-od-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Punish-counter target kicks into a low ender",
+		"summary": "Spend OD Dégagé after a target-kick punish, link standing medium punch and finish with light Dégagé.",
+		"kind": "combo",
+		"situations": ["Punish counter", "Midscreen", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.MK (PC) > MK follow-up > OD Dégagé > st.MP > L Dégagé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK (PC)",
+				"label": "Back medium kick, Punish Counter"
+			},
+			{
+				"id": "step-2",
+				"notation": "MK follow-up",
+				"label": "Medium-kick target follow-up"
+			},
+			{
+				"id": "step-3",
+				"notation": "OD Dégagé",
+				"label": "Overdrive Dégagé",
+				"cue": "214KK"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "L Dégagé",
+				"label": "Light Dégagé",
+				"cue": "214LK"
+			}
+		],
+		"conditions": ["Classic controls", "Grounded back medium kick Punish Counter"],
+		"notes": [
+			"Both target kicks connect; the first is the Punish Counter starter.",
+			"This take stays at one medal and ends in light Dégagé rather than Renversé. The source labels the final knockdown +21F."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 429.85,
+			"end": 434.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-punish-counter-target-od-low/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-punish-counter-target-od-low/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-punish-counter-target-od-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-punish-counter-target-od-low/frame-1.jpg",
+					"at": 0.55,
+					"label": "Punish-counter starter",
+					"alt": "The first back medium kick hits as a Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-punish-counter-target-od-low/frame-2.jpg",
+					"at": 1.1,
+					"label": "Target follow-up",
+					"alt": "The medium-kick target follow-up connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-punish-counter-target-od-low/frame-3.jpg",
+					"at": 1.9,
+					"label": "OD Dégagé",
+					"alt": "OD Dégagé extends the target combo."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-punish-counter-target-od-low/frame-4.jpg",
+					"at": 2.35,
+					"label": "Standing medium link",
+					"alt": "Standing medium punch connects after the OD extension."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-punish-counter-target-od-low/frame-5.jpg",
+					"at": 3.15,
+					"label": "Low ender",
+					"alt": "Light Dégagé hits low to end the route."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/manon/manon-joe-complete-punish-counter-target-od-low/frame-6.jpg",
+					"at": 4.85,
+					"label": "Knockdown spacing",
+					"alt": "Manon and Ryu recover at the final spacing."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-counter-hit-target-light-renverse"]
+	},
+	{
+		"id": "manon-joe-complete-jump-heavy-od-renverse-medal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Jump heavy into an OD Renversé medal route",
+		"summary": "Use the OD Renversé kick follow-up to extend a jump-in, then juggle through back heavy punch and heavy Rond-point.",
+		"kind": "combo",
+		"situations": ["Jump-in", "Midscreen", "Juggle extension"],
+		"outcomes": ["Medal gain", "Hard knockdown"],
+		"notation": "j.HK > b.HP > OD Renversé > K follow-up > b.HP > H Rond-point > L Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "OD Renversé",
+				"label": "Overdrive Renversé",
+				"cue": "236PP"
+			},
+			{
+				"id": "step-4",
+				"notation": "K follow-up",
+				"label": "Grand Fouetté kick follow-up",
+				"cue": "Press kick during Renversé."
+			},
+			{
+				"id": "step-5",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "H Rond-point",
+				"label": "Heavy Rond-point",
+				"cue": "236HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "L Renversé",
+				"label": "Light Renversé",
+				"cue": "236LP"
+			}
+		],
+		"conditions": ["Classic controls", "Close jumping heavy-kick hit at the demonstrated spacing"],
+		"notes": [
+			"The kick follow-up after OD Renversé is Grand Fouetté, not a second Renversé input. The medal is gained from the final light Renversé hit grab.",
+			"The demonstration starts at one medal and ends at two."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 476.85,
+			"end": 484.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-jump-heavy-od-renverse-medal/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-jump-heavy-od-renverse-medal/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-jump-heavy-od-renverse-medal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-jump-heavy-od-renverse-medal/frame-1.jpg",
+					"at": 1.0,
+					"label": "Jump heavy starter",
+					"alt": "Jumping heavy kick connects from the forward jump."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-jump-heavy-od-renverse-medal/frame-2.jpg",
+					"at": 1.65,
+					"label": "Back heavy punch",
+					"alt": "Back heavy punch follows the jump-in."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-jump-heavy-od-renverse-medal/frame-3.jpg",
+					"at": 2.3,
+					"label": "OD Renversé follow-up",
+					"alt": "OD Renversé’s Grand Fouetté kick follow-up launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-jump-heavy-od-renverse-medal/frame-4.jpg",
+					"at": 3.0,
+					"label": "Back heavy juggle",
+					"alt": "Back heavy punch catches Ryu after the launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-jump-heavy-od-renverse-medal/frame-5.jpg",
+					"at": 3.65,
+					"label": "Heavy Rond-point",
+					"alt": "Heavy Rond-point continues the juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/manon/manon-joe-complete-jump-heavy-od-renverse-medal/frame-6.jpg",
+					"at": 4.35,
+					"label": "Light Renversé",
+					"alt": "Light Renversé catches the falling opponent."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/manon/manon-joe-complete-jump-heavy-od-renverse-medal/frame-7.jpg",
+					"at": 6.7,
+					"label": "Medal and knockdown",
+					"alt": "The final hit grab raises Manon from one medal to two."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "manon-joe-complete-punish-heavy-target-level1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Heavy target punish into Level 1",
+		"summary": "Punish with both hits of the heavy-punch target combo, launch with OD Rond-point and finish with Level 1.",
+		"kind": "combo",
+		"situations": ["Punish counter", "Midscreen", "Super finish"],
+		"outcomes": ["Super finish", "Knockdown"],
+		"notation": "st.HP (PC) > HP follow-up > OD Rond-point > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP (PC)",
+				"label": "Standing heavy punch, Punish Counter"
+			},
+			{
+				"id": "step-2",
+				"notation": "HP follow-up",
+				"label": "Heavy-punch target follow-up"
+			},
+			{
+				"id": "step-3",
+				"notation": "OD Rond-point",
+				"label": "Overdrive Rond-point",
+				"cue": "236KK"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Level 1 Super Art",
+				"cue": "236236K"
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy punch Punish Counter at close range"],
+		"notes": [
+			"Both heavy punches hit: the first is the Punish Counter, followed by the target-combo second hit. Do not whiff the first heavy punch.",
+			"This take uses Level 1, spends one Super stock and stays at one medal."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "1 Super stock"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 513.15,
+			"end": 519.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-punish-heavy-target-level1/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-punish-heavy-target-level1/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-punish-heavy-target-level1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-punish-heavy-target-level1/frame-1.jpg",
+					"at": 0.65,
+					"label": "Heavy punish starter",
+					"alt": "The first standing heavy punch connects as a Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-punish-heavy-target-level1/frame-2.jpg",
+					"at": 1.25,
+					"label": "Heavy target follow-up",
+					"alt": "The heavy-punch target follow-up connects as the second hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-punish-heavy-target-level1/frame-3.jpg",
+					"at": 1.95,
+					"label": "OD Rond-point",
+					"alt": "OD Rond-point launches Ryu from close range."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-punish-heavy-target-level1/frame-4.jpg",
+					"at": 3.05,
+					"label": "Level 1 activation",
+					"alt": "Manon spends one Super stock on Level 1."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-punish-heavy-target-level1/frame-5.jpg",
+					"at": 4.35,
+					"label": "Super strikes",
+					"alt": "Level 1 continues the juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/manon/manon-joe-complete-punish-heavy-target-level1/frame-6.jpg",
+					"at": 6.0,
+					"label": "Super recovery",
+					"alt": "Both characters recover after the Level 1 finish."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-punish-heavy-target-side-switch"]
+	},
+	{
+		"id": "manon-joe-complete-punish-heavy-target-side-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Heavy target punish into a side switch",
+		"summary": "After the heavy-punch target combo knocks down, jump forward over Ryu to change sides.",
+		"kind": "setup",
+		"situations": ["Punish counter", "Midscreen", "Side switch"],
+		"outcomes": ["Side switch"],
+		"notation": "st.HP (PC) > HP follow-up > forward jump",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP (PC)",
+				"label": "Standing heavy punch, Punish Counter"
+			},
+			{
+				"id": "step-2",
+				"notation": "HP follow-up",
+				"label": "Heavy-punch target follow-up"
+			},
+			{
+				"id": "step-3",
+				"notation": "forward jump",
+				"label": "Forward jump over the opponent"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close standing heavy punch Punish Counter",
+			"Forward jump after the target-combo knockdown"
+		],
+		"notes": [
+			"Both heavy punches connect before the jump. The jump is a positioning setup after the damage combo, not another combo hit.",
+			"The source labels the landing situation +5F. No follow-up attack or reversal-safety check is demonstrated; reproduce the shown spacing and check the current game. Manon remains at one medal."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 537.85,
+			"end": 541.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-punish-heavy-target-side-switch/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-punish-heavy-target-side-switch/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-punish-heavy-target-side-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-punish-heavy-target-side-switch/frame-1.jpg",
+					"at": 0.95,
+					"label": "Heavy punish starter",
+					"alt": "Standing heavy punch connects as a Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-punish-heavy-target-side-switch/frame-2.jpg",
+					"at": 1.55,
+					"label": "Target follow-up",
+					"alt": "The second heavy punch completes the target combo."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-punish-heavy-target-side-switch/frame-3.jpg",
+					"at": 2.6,
+					"label": "Jump over",
+					"alt": "Manon jumps forward over the knocked-down Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-punish-heavy-target-side-switch/frame-4.jpg",
+					"at": 3.05,
+					"label": "Sides changed",
+					"alt": "Manon lands on the other side of Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-punish-heavy-target-side-switch/frame-5.jpg",
+					"at": 3.5,
+					"label": "Landing spacing",
+					"alt": "Manon lands beside Ryu after the side switch."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-punish-heavy-target-level1"]
+	},
+	{
+		"id": "manon-joe-complete-punish-sweep-double-dash-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Punish sweep into double-dash command grab",
+		"summary": "Use the Punish Counter sweep knockdown to dash twice and threaten heavy Manège Doré.",
+		"kind": "setup",
+		"situations": ["Punish counter", "Oki", "Midscreen", "Command grab"],
+		"outcomes": ["Medal gain", "Hard knockdown"],
+		"notation": "cr.HK (PC) > dash > dash > H Manège Doré",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HK (PC)",
+				"label": "Crouching heavy kick, Punish Counter"
+			},
+			{
+				"id": "step-2",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-4",
+				"notation": "H Manège Doré",
+				"label": "Heavy Manège Doré command grab",
+				"cue": "63214HP; a wake-up throw choice, not a combo link."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching heavy kick Punish Counter knockdown",
+			"Ryu remains available to be thrown on wake-up"
+		],
+		"notes": [
+			"The source labels the double-dash position +2F and suggests either heavy command grab or normal throw. This excerpt performs the heavy command grab.",
+			"There is a wake-up decision between the sweep and the throw; this is not an uninterrupted combo. The demonstration goes from one medal to two."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 563.15,
+			"end": 568.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-punish-sweep-double-dash-grab/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-punish-sweep-double-dash-grab/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-punish-sweep-double-dash-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-punish-sweep-double-dash-grab/frame-1.jpg",
+					"at": 0.7,
+					"label": "Punish-counter sweep",
+					"alt": "Crouching heavy kick sweeps Ryu as a Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-punish-sweep-double-dash-grab/frame-2.jpg",
+					"at": 1.3,
+					"label": "First dash",
+					"alt": "Manon dashes toward the knocked-down Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-punish-sweep-double-dash-grab/frame-3.jpg",
+					"at": 1.6,
+					"label": "Second dash",
+					"alt": "A second dash closes the remaining distance."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-punish-sweep-double-dash-grab/frame-4.jpg",
+					"at": 2.55,
+					"label": "Command grab",
+					"alt": "Heavy Manège Doré catches Ryu on wake-up."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-punish-sweep-double-dash-grab/frame-5.jpg",
+					"at": 4.05,
+					"label": "Medal gained",
+					"alt": "The command grab raises Manon from one medal to two."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "manon-joe-complete-punish-slide-sweep",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Punish-counter slide into sweep",
+		"summary": "Link crouching heavy kick after down-forward heavy kick connects as a Punish Counter.",
+		"kind": "combo",
+		"situations": ["Punish counter", "Midscreen", "Low confirm"],
+		"outcomes": ["Hard knockdown"],
+		"notation": "df.HK (PC) > cr.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "df.HK (PC)",
+				"label": "Down-forward heavy kick, Punish Counter"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HK",
+				"label": "Crouching heavy kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Down-forward heavy kick Punish Counter at the demonstrated range"
+		],
+		"notes": [
+			"Down-forward heavy kick is 3HK in the source caption; crouching heavy kick is 2HK. They are separate inputs. Manon stays at one medal."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 573.2,
+			"end": 576.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-punish-slide-sweep/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-punish-slide-sweep/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-punish-slide-sweep/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-punish-slide-sweep/frame-1.jpg",
+					"at": 1.1,
+					"label": "Slide punish",
+					"alt": "Down-forward heavy kick connects as a Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-punish-slide-sweep/frame-2.jpg",
+					"at": 1.75,
+					"label": "Sweep link",
+					"alt": "Crouching heavy kick hits after the slide."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-punish-slide-sweep/frame-3.jpg",
+					"at": 2.55,
+					"label": "Hard knockdown",
+					"alt": "Ryu falls from the sweep."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-punish-slide-sweep/frame-4.jpg",
+					"at": 3.4,
+					"label": "Recovery spacing",
+					"alt": "Both characters recover at the final spacing."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "manon-joe-complete-forward-throw-rush-low-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Forward throw into a Rush confirm",
+		"summary": "After a normal forward throw, Rush in with crouching medium punch and confirm standing medium punch into light Dégagé.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > cr.MP > st.MP > L Dégagé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "L Dégagé",
+				"label": "Light Dégagé",
+				"cue": "214LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a normal forward throw, not Manège Doré",
+			"The wake-up crouching medium punch hits"
+		],
+		"notes": [
+			"Inputs begin after the prerequisite throw. The source caption offers light or medium Dégagé; this selected take visibly uses the light low ender.",
+			"Manon stays at one medal. The normal forward throw does not build a medal."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 599.55,
+			"end": 604.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-forward-throw-rush-low-confirm/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-forward-throw-rush-low-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-forward-throw-rush-low-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-forward-throw-rush-low-confirm/frame-1.jpg",
+					"at": 0.1,
+					"label": "Forward throw knockdown",
+					"alt": "Ryu falls from the prerequisite normal forward throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-forward-throw-rush-low-confirm/frame-2.jpg",
+					"at": 0.72,
+					"label": "Rush approach",
+					"alt": "Raw Drive Rush closes the distance during wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-forward-throw-rush-low-confirm/frame-3.jpg",
+					"at": 1.15,
+					"label": "Crouching medium",
+					"alt": "Rush crouching medium punch hits Ryu on wake-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-forward-throw-rush-low-confirm/frame-4.jpg",
+					"at": 1.51,
+					"label": "Standing medium link",
+					"alt": "Standing medium punch follows the Rush starter."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-forward-throw-rush-low-confirm/frame-5.jpg",
+					"at": 2.3,
+					"label": "Light Dégagé",
+					"alt": "Light Dégagé ends the confirm."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/manon/manon-joe-complete-forward-throw-rush-low-confirm/frame-6.jpg",
+					"at": 4.0,
+					"label": "Knockdown spacing",
+					"alt": "Ryu recovers after the low ender."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "manon-joe-complete-corner-forward-throw-heavy-medal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Corner forward throw into a medal confirm",
+		"summary": "Walk forward after the normal throw, hit with back heavy punch and cancel into medium Renversé.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Medal confirm"],
+		"outcomes": ["Medal gain", "Hard knockdown"],
+		"notation": "walk > b.HP > M Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "M Renversé",
+				"label": "Medium Renversé",
+				"cue": "236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a normal forward throw in the corner",
+			"Back heavy punch hits on wake-up"
+		],
+		"notes": [
+			"Inputs isolate the wake-up sequence after the normal throw. Back heavy punch is b.HP, not the standing HP target combo.",
+			"The source carries two medals into this take; the normal throw preserves that count and the Renversé finish raises it to three."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 618.65,
+			"end": 623.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-corner-forward-throw-heavy-medal/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-corner-forward-throw-heavy-medal/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-corner-forward-throw-heavy-medal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-corner-forward-throw-heavy-medal/frame-1.jpg",
+					"at": 0.15,
+					"label": "Forward throw knockdown",
+					"alt": "Ryu falls in the corner after the prerequisite normal forward throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-corner-forward-throw-heavy-medal/frame-2.jpg",
+					"at": 0.45,
+					"label": "Walk forward",
+					"alt": "Manon walks toward Ryu before the wake-up strike."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-corner-forward-throw-heavy-medal/frame-3.jpg",
+					"at": 0.83,
+					"label": "Back heavy punch",
+					"alt": "Back heavy punch connects in the corner."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-corner-forward-throw-heavy-medal/frame-4.jpg",
+					"at": 1.5,
+					"label": "Medium Renversé",
+					"alt": "Medium Renversé catches Ryu after the heavy punch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-corner-forward-throw-heavy-medal/frame-5.jpg",
+					"at": 3.6,
+					"label": "Medal gained",
+					"alt": "The Renversé finish builds another medal."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "manon-joe-complete-corner-back-throw-walk-command-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Corner back throw into light command grab",
+		"summary": "After a normal back throw puts Ryu in the corner, walk forward and threaten light Manège Doré.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Command grab"],
+		"outcomes": ["Medal gain", "Hard knockdown"],
+		"notation": "walk > L Manège Doré",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "L Manège Doré",
+				"label": "Light Manège Doré command grab",
+				"cue": "63214LP; separate wake-up throw choice."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a normal back throw that places Ryu in the corner",
+			"Opponent remains grounded and throwable on wake-up"
+		],
+		"notes": [
+			"The normal back throw and the later light command grab are different moves. Inputs begin after the prerequisite back throw.",
+			"This is a strike/throw decision, not a guaranteed combo. The normal throw leaves Manon at one medal; Manège Doré builds the second."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 634.7,
+			"end": 638.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-corner-back-throw-walk-command-grab/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-corner-back-throw-walk-command-grab/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-corner-back-throw-walk-command-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-corner-back-throw-walk-command-grab/frame-1.jpg",
+					"at": 0.05,
+					"label": "Back throw knockdown",
+					"alt": "Ryu lands in the corner from the prerequisite normal back throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-corner-back-throw-walk-command-grab/frame-2.jpg",
+					"at": 0.55,
+					"label": "Walk forward",
+					"alt": "Manon walks toward Ryu during the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-corner-back-throw-walk-command-grab/frame-3.jpg",
+					"at": 1.55,
+					"label": "Light command grab",
+					"alt": "Light Manège Doré catches Ryu on wake-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-corner-back-throw-walk-command-grab/frame-4.jpg",
+					"at": 2.45,
+					"label": "Throw finish",
+					"alt": "Manon completes the command-grab throw."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-corner-back-throw-walk-command-grab/frame-5.jpg",
+					"at": 3.75,
+					"label": "Medal gained",
+					"alt": "The command grab raises Manon from one medal to two."
+				}
+			]
+		},
+		"relatedIds": []
+	},
+	{
+		"id": "manon-joe-complete-command-grab-heavy-overhead-pressure",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Command grab into heavy overhead pressure",
+		"summary": "After Manège Doré, use heavy Dégagé as a wake-up overhead pressure choice.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Overhead", "Pressure"],
+		"outcomes": ["Overhead pressure"],
+		"notation": "H Dégagé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "H Dégagé",
+				"label": "Heavy Dégagé overhead",
+				"cue": "214HK; blocked in this demonstration."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After Manège Doré at the demonstrated spacing",
+			"Opponent guards the overhead"
+		],
+		"notes": [
+			"This follows the command grab, not a normal forward or back throw. The prerequisite grab raises Manon from one medal to two before this excerpt.",
+			"The heavy overhead is blocked and the source frame meter reads -9F at recovery. This card does not claim it is safe pressure or a damage combo."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 641.85,
+			"end": 644.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-command-grab-heavy-overhead-pressure/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-command-grab-heavy-overhead-pressure/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-command-grab-heavy-overhead-pressure/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-command-grab-heavy-overhead-pressure/frame-1.jpg",
+					"at": 0.1,
+					"label": "Command-grab knockdown",
+					"alt": "Ryu is down after the prerequisite Manège Doré."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-command-grab-heavy-overhead-pressure/frame-2.jpg",
+					"at": 0.45,
+					"label": "Heavy overhead approach",
+					"alt": "Manon starts heavy Dégagé as Ryu wakes up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-command-grab-heavy-overhead-pressure/frame-3.jpg",
+					"at": 0.7,
+					"label": "Overhead guarded",
+					"alt": "Ryu blocks heavy Dégagé."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-command-grab-heavy-overhead-pressure/frame-4.jpg",
+					"at": 1.85,
+					"label": "Guarded recovery",
+					"alt": "Both characters recover after the guarded overhead."
+				}
+			]
+		},
+		"relatedIds": [
+			"manon-joe-fundamentals-command-grab-rush-heavy",
+			"manon-joe-fundamentals-command-grab-rush-jab-bait"
+		]
+	},
+	{
+		"id": "manon-joe-complete-counter-di-medal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Counter DI into a medal",
+		"summary": "Convert the counter-Drive Impact crumple with back heavy punch and medium Renversé.",
+		"kind": "combo",
+		"situations": ["Drive Impact", "Midscreen"],
+		"outcomes": ["Medal gain", "Hard knockdown"],
+		"notation": "DI > b.HP > M Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Counter Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "M Renversé",
+				"label": "Medium Renversé",
+				"cue": "236MP"
+			}
+		],
+		"conditions": ["Classic controls", "Counter-DI crumple"],
+		"notes": [
+			"Use the counter-DI crumple, rather than the blocked wall-splat starting condition from the related reference.",
+			"The final medium Renversé builds a medal; the counter Drive Impact does not."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 679.65,
+			"end": 687.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-counter-di-medal/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-counter-di-medal/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-counter-di-medal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-counter-di-medal/frame-1.jpg",
+					"at": 0.2,
+					"label": "Incoming Drive Impact",
+					"alt": "Ryu uses Drive Impact as Manon waits."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-counter-di-medal/frame-2.jpg",
+					"at": 2.75,
+					"label": "Counter Impact",
+					"alt": "Manon answers with her own Drive Impact."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-counter-di-medal/frame-3.jpg",
+					"at": 4.08,
+					"label": "Back heavy punch",
+					"alt": "Back heavy punch hits the crumpled opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-counter-di-medal/frame-4.jpg",
+					"at": 4.8,
+					"label": "Medium Renversé",
+					"alt": "Medium Renversé catches Ryu after the heavy punch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-counter-di-medal/frame-5.jpg",
+					"at": 6.85,
+					"label": "Medal gained",
+					"alt": "The hit-grab finish raises Manon from one medal to two."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-wall-splat-medal"]
+	},
+	{
+		"id": "manon-joe-complete-wall-splat-medal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Blocked DI wall splat into a medal",
+		"summary": "After a blocked Drive Impact wall splat, use back heavy punch into medium Renversé.",
+		"kind": "combo",
+		"situations": ["Drive Impact", "Wall splat", "Corner"],
+		"outcomes": ["Medal gain", "Hard knockdown"],
+		"notation": "DI (blocked) > b.HP > M Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI (blocked)",
+				"label": "Drive Impact blocked at the wall"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "M Renversé",
+				"label": "Medium Renversé",
+				"cue": "236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drive Impact is blocked close enough to the corner to wall splat"
+		],
+		"notes": [
+			"A blocked wall splat and a counter-DI crumple are separate starting conditions, even though these two takes use the same follow-up inputs."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 700.35,
+			"end": 706.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-wall-splat-medal/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-wall-splat-medal/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-wall-splat-medal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-wall-splat-medal/frame-1.jpg",
+					"at": 0.75,
+					"label": "Blocked Impact",
+					"alt": "Ryu guards Drive Impact beside the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-wall-splat-medal/frame-2.jpg",
+					"at": 1.55,
+					"label": "Wall splat",
+					"alt": "The blocked Impact splats Ryu against the corner."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-wall-splat-medal/frame-3.jpg",
+					"at": 2.3,
+					"label": "Back heavy punch",
+					"alt": "Back heavy punch catches Ryu from the wall splat."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-wall-splat-medal/frame-4.jpg",
+					"at": 2.8,
+					"label": "Medium Renversé",
+					"alt": "Medium Renversé continues the wall-splat conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-wall-splat-medal/frame-5.jpg",
+					"at": 5.05,
+					"label": "Medal and knockdown",
+					"alt": "The hit grab raises Manon from one medal to two."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-counter-di-medal"]
+	},
+	{
+		"id": "manon-joe-complete-anti-air-od-rond-medal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "OD Rond-point anti-air into a medal",
+		"summary": "Intercept the jump with OD Rond-point, then catch the falling opponent with light Renversé.",
+		"kind": "combo",
+		"situations": ["Anti-air", "Midscreen"],
+		"outcomes": ["Medal gain", "Hard knockdown"],
+		"notation": "OD Rond-point > L Renversé",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "OD Rond-point",
+				"label": "Overdrive Rond-point",
+				"cue": "236KK; anti-air Counter Hit shown."
+			},
+			{
+				"id": "step-2",
+				"notation": "L Renversé",
+				"label": "Light Renversé",
+				"cue": "236LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Airborne opponent at the demonstrated height and spacing",
+			"Counter Hit shown in the source"
+		],
+		"notes": [
+			"This is the direct light-Renversé anti-air conversion. It does not include the additional OD Dégagé shown in the following source variation."
+		],
+		"resources": {
+			"drive": "Overdrive",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 717.85,
+			"end": 723.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-anti-air-od-rond-medal/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-anti-air-od-rond-medal/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-anti-air-od-rond-medal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-anti-air-od-rond-medal/frame-1.jpg",
+					"at": 0.5,
+					"label": "Jump approach",
+					"alt": "Ryu jumps toward Manon."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-anti-air-od-rond-medal/frame-2.jpg",
+					"at": 1.3,
+					"label": "OD Rond-point anti-air",
+					"alt": "OD Rond-point hits Ryu in the air as a Counter Hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-anti-air-od-rond-medal/frame-3.jpg",
+					"at": 2.07,
+					"label": "Light Renversé",
+					"alt": "Light Renversé catches Ryu after the anti-air."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-anti-air-od-rond-medal/frame-4.jpg",
+					"at": 3.4,
+					"label": "Hit-grab finish",
+					"alt": "Manon throws Ryu at the end of Renversé."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-anti-air-od-rond-medal/frame-5.jpg",
+					"at": 4.95,
+					"label": "Medal gained",
+					"alt": "The hit grab raises Manon from one medal to two."
+				}
+			]
+		},
+		"relatedIds": ["manon-joe-complete-anti-air-delayed-target-medal"]
+	},
+	{
+		"id": "manon-joe-complete-heavy-overhead-punish-level3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "manon"
+			}
+		],
+		"title": "Heavy overhead punish into Level 3",
+		"summary": "Punish-counter with heavy Dégagé after the blocked Shoryuken, then cancel into Level 3.",
+		"kind": "response",
+		"situations": ["Reversal punish", "Punish counter", "Midscreen", "Super finish"],
+		"outcomes": ["Super finish", "Hard knockdown"],
+		"notation": "H Dégagé (PC) > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "H Dégagé (PC)",
+				"label": "Heavy Dégagé, Punish Counter",
+				"cue": "214HK after blocking Ryu’s Shoryuken."
+			},
+			{
+				"id": "step-2",
+				"notation": "SA3",
+				"label": "Level 3 Super Art",
+				"cue": "236236P"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu Shoryuken blocked at close range",
+			"Heavy Dégagé hits as Punish Counter"
+		],
+		"notes": [
+			"The starter is heavy Dégagé (214HK), not light Dégagé or Rond-point. The source clip includes the blocked reversal before the punish.",
+			"The demonstration starts and ends at one medal; Level 3 is not a Manège Doré medal-building command grab."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "3 Super stocks"
+		},
+		"source": {
+			"id": "joe-ebios-manon-complete-2026",
+			"title": "Classic MANON Complete Combos & Setup Guide 【STREET FIGHTER 6】(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L4UazTzprJw",
+			"published": "2026-08-13",
+			"start": 752.85,
+			"end": 767.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Captions, input history and demonstrated hit/block results reviewed against Joe Ebios’ August 2026 footage. Not re-tested on the current game version."
+		},
+		"media": {
+			"clip": "/media/manon/manon-joe-complete-heavy-overhead-punish-level3/clip.mp4",
+			"poster": "/media/manon/manon-joe-complete-heavy-overhead-punish-level3/frame-1.jpg",
+			"descriptionTrack": "/media/manon/manon-joe-complete-heavy-overhead-punish-level3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/manon/manon-joe-complete-heavy-overhead-punish-level3/frame-1.jpg",
+					"at": 0.95,
+					"label": "Blocked Shoryuken",
+					"alt": "Manon waits as Ryu falls from his blocked Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/manon/manon-joe-complete-heavy-overhead-punish-level3/frame-2.jpg",
+					"at": 1.8,
+					"label": "Overhead punish",
+					"alt": "Heavy Dégagé catches Ryu’s recovery as a Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/manon/manon-joe-complete-heavy-overhead-punish-level3/frame-3.jpg",
+					"at": 2.7,
+					"label": "Level 3 cancel",
+					"alt": "Manon spends three Super stocks on Level 3."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/manon/manon-joe-complete-heavy-overhead-punish-level3/frame-4.jpg",
+					"at": 4.45,
+					"label": "Super cinematic",
+					"alt": "Level 3 continues the punish."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/manon/manon-joe-complete-heavy-overhead-punish-level3/frame-5.jpg",
+					"at": 11.95,
+					"label": "Final super throw",
+					"alt": "The final throw completes the Level 3 cinematic."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/manon/manon-joe-complete-heavy-overhead-punish-level3/frame-6.jpg",
+					"at": 13.9,
+					"label": "Super recovery",
+					"alt": "Ryu recovers after the Super finish."
+				}
+			]
+		},
+		"relatedIds": []
+	}
+]

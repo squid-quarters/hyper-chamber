@@ -1,6 +1,6 @@
 # Local MVP
 
-Hyper Chamber is a local fighting-game reference app, populated with source-reviewed Street Fighter 6 / Dhalsim, Ryu and Akuma examples. Dhalsim covers all seven demonstration chapters of its original tutorial; Ryu is a curated selection across three sources, and Akuma draws from two Joe Ebios guides. It uses the Chamber design system and Hourglass H identity.
+Hyper Chamber is a local fighting-game reference app, populated with source-reviewed Street Fighter 6 / Dhalsim, Ryu, Akuma and Manon examples. Dhalsim covers all seven demonstration chapters of its original tutorial; Ryu is a curated selection across three sources, Akuma draws from two Joe Ebios guides, and Manon adds a curated collection with medal and grab conditions. It uses the Chamber design system and Hourglass H identity.
 
 ## Run
 
@@ -16,8 +16,8 @@ Open `http://127.0.0.1:5376`. Stop the preview with Ctrl+C in its terminal. Use 
 
 ## Included
 
-- Individual references covering light confirms, punish routes, anti-air, Drive Impact, corner/stun routes, midscreen/corner oki, defensive responses and an explicitly labelled spacing failure. The [Dhalsim coverage index](source-coverage.md), [Ryu coverage index](ryu-source-coverage.md) and [Akuma coverage index](akuma-source-coverage.md) list every card and interval.
-- A compact Dhalsim/Ryu/Akuma character selector, character-scoped search, type/situation/practice filters, Saved counts, related alternatives and Quick switch. URLs restore character context and existing entry links infer it. Learner backups retain all characters.
+- Individual references covering light confirms, punish routes, anti-air, Drive Impact, corner/stun routes, midscreen/corner oki, defensive responses and an explicitly labelled spacing failure. The [Dhalsim coverage index](source-coverage.md), [Ryu coverage index](ryu-source-coverage.md), [Akuma coverage index](akuma-source-coverage.md) and [Manon coverage index](manon-source-coverage.md) list every card and interval.
+- A compact Dhalsim/Ryu/Akuma/Manon character selector, character-scoped search, type/situation/practice filters, Saved counts, related alternatives and Quick switch. URLs restore character context and existing entry links infer it. Learner backups retain all characters.
 - Connected inputs, copy/selectable text notation, conditions, short notes and persistent source provenance.
 - Local silent clips with tap-to-play/pause, relative horizontal dragging, pause-on-release, remembered full-clip loops, 0.5×/0.75× speed, key-moment inspection and 0.25-second time nudges. R/J/L and arrow shortcuts are scoped to focused clip controls; Space activates the video button. Native player controls remain available before enhancement; a JavaScript-disabled library links to the external guide.
 - Full-width tile library and dedicated practice view, with all inputs above replay. Back/Escape restores library position and tile focus; Previous/Next follows filtered results. Quick switch (Ctrl/Cmd+K) searches current results, Saved or all entries, with keyboard selection. Narrow layouts use natural vertical flow.
@@ -38,4 +38,4 @@ Source review verifies what each dated demonstration shows. Current SF6 patch va
 
 Personal data belongs to the browser origin. Sequential tab edits preserve unrelated fields; storage does not provide an atomic simultaneous-edit guarantee. Keep exported backups. The app has no accounts, cloud sync, installable PWA or gameplay capture/control.
 
-The reviewed Dhalsim, Ryu and Akuma libraries are shown. Game profiles and participant-aware references support later expansion, while a real second game's content and long team sequences still need their own review and interface validation. The app is private development material; public deployment and media redistribution remain separate decisions.
+The reviewed Dhalsim, Ryu, Akuma and Manon libraries are shown. Game profiles and participant-aware references support later expansion, while a real second game's content and long team sequences still need their own review and interface validation. The app is private development material; public deployment and media redistribution remain separate decisions.

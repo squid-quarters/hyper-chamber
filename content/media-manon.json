@@ -1,0 +1,411 @@
+{
+	"sourceIds": ["joe-ebios-manon-complete-2026", "joe-ebios-manon-fundamentals-2026"],
+	"publicationStatus": "private-development",
+	"assets": [
+		{
+			"referenceId": "manon-joe-fundamentals-lights-heavy-wheel",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 0.75,
+			"sourceEnd": 4.5,
+			"clip": "/media/manon/manon-joe-fundamentals-lights-heavy-wheel/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-wheel-dash-walk-grab",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 11.05,
+			"sourceEnd": 14.15,
+			"clip": "/media/manon/manon-joe-fundamentals-wheel-dash-walk-grab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-wheel-rush-low",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 31.95,
+			"sourceEnd": 35.95,
+			"clip": "/media/manon/manon-joe-fundamentals-wheel-rush-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-wheel-rush-heavy",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 38.85,
+			"sourceEnd": 43.3,
+			"clip": "/media/manon/manon-joe-fundamentals-wheel-rush-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-wheel-rush-grab",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 47.2,
+			"sourceEnd": 51.1,
+			"clip": "/media/manon/manon-joe-fundamentals-wheel-rush-grab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-wheel-rush-hit-confirm",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 60.35,
+			"sourceEnd": 65.2,
+			"clip": "/media/manon/manon-joe-fundamentals-wheel-rush-hit-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-corner-wheel-heavy-grab",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 94.55,
+			"sourceEnd": 97.9,
+			"clip": "/media/manon/manon-joe-fundamentals-corner-wheel-heavy-grab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-corner-wheel-neutral-shimmy",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 101.4,
+			"sourceEnd": 103.85,
+			"clip": "/media/manon/manon-joe-fundamentals-corner-wheel-neutral-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-corner-wheel-meaty-confirm",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 118.15,
+			"sourceEnd": 122.55,
+			"clip": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-corner-wheel-meaty-grab",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 126.65,
+			"sourceEnd": 130.15,
+			"clip": "/media/manon/manon-joe-fundamentals-corner-wheel-meaty-grab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-renverse-rush-medium",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 160.05,
+			"sourceEnd": 164.0,
+			"clip": "/media/manon/manon-joe-fundamentals-renverse-rush-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-renverse-rush-throw-bait",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 191.85,
+			"sourceEnd": 194.5,
+			"clip": "/media/manon/manon-joe-fundamentals-renverse-rush-throw-bait/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-light-degage-rush-low",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 197.45,
+			"sourceEnd": 202.25,
+			"clip": "/media/manon/manon-joe-fundamentals-light-degage-rush-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-light-degage-rush-grab",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 218.05,
+			"sourceEnd": 221.8,
+			"clip": "/media/manon/manon-joe-fundamentals-light-degage-rush-grab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-corner-medium-degage-meaty-grab",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 246.65,
+			"sourceEnd": 250.6,
+			"clip": "/media/manon/manon-joe-fundamentals-corner-medium-degage-meaty-grab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-command-grab-rush-heavy",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 282.05,
+			"sourceEnd": 284.5,
+			"clip": "/media/manon/manon-joe-fundamentals-command-grab-rush-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-command-grab-rush-jab-bait",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 287.3,
+			"sourceEnd": 289.8,
+			"clip": "/media/manon/manon-joe-fundamentals-command-grab-rush-jab-bait/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-fundamentals-medium-double-rush-sa3",
+			"sourceId": "joe-ebios-manon-fundamentals-2026",
+			"sourceStart": 338.05,
+			"sourceEnd": 353.05,
+			"clip": "/media/manon/manon-joe-fundamentals-medium-double-rush-sa3/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-light-degage-rush-low-reversal-block",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 16.6,
+			"sourceEnd": 19.95,
+			"clip": "/media/manon/manon-joe-complete-light-degage-rush-low-reversal-block/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-light-degage-rush-dp-block",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 37.55,
+			"sourceEnd": 40.5,
+			"clip": "/media/manon/manon-joe-complete-light-degage-rush-dp-block/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-corner-medium-degage-meaty-heavy-link",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 80.55,
+			"sourceEnd": 86.15,
+			"clip": "/media/manon/manon-joe-complete-corner-medium-degage-meaty-heavy-link/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-corner-medium-degage-whiff-medium-command-grab",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 101.35,
+			"sourceEnd": 105.6,
+			"clip": "/media/manon/manon-joe-complete-corner-medium-degage-whiff-medium-command-grab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-heavy-rond-dash-rush-jab-deejay-level2-block",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 180.4,
+			"sourceEnd": 184.75,
+			"clip": "/media/manon/manon-joe-complete-heavy-rond-dash-rush-jab-deejay-level2-block/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-corner-heavy-rond-whiff-heavy-low",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 218.5,
+			"sourceEnd": 222.35,
+			"clip": "/media/manon/manon-joe-complete-corner-heavy-rond-whiff-heavy-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-crouching-medium-punish-renverse",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 316.4,
+			"sourceEnd": 321.05,
+			"clip": "/media/manon/manon-joe-complete-crouching-medium-punish-renverse/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-crouching-medium-punish-od-extension",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 323.75,
+			"sourceEnd": 330.8,
+			"clip": "/media/manon/manon-joe-complete-crouching-medium-punish-od-extension/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-standing-medium-rush-target-low",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 337.75,
+			"sourceEnd": 342.65,
+			"clip": "/media/manon/manon-joe-complete-standing-medium-rush-target-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-raw-rush-low-light-degage",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 376.65,
+			"sourceEnd": 380.65,
+			"clip": "/media/manon/manon-joe-complete-raw-rush-low-light-degage/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-raw-rush-low-level2",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 381.55,
+			"sourceEnd": 388.55,
+			"clip": "/media/manon/manon-joe-complete-raw-rush-low-level2/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-anti-air-delayed-target-medal",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 416.85,
+			"sourceEnd": 423.0,
+			"clip": "/media/manon/manon-joe-complete-anti-air-delayed-target-medal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-counter-hit-target-light-renverse",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 424.1,
+			"sourceEnd": 429.05,
+			"clip": "/media/manon/manon-joe-complete-counter-hit-target-light-renverse/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-punish-counter-target-od-low",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 429.85,
+			"sourceEnd": 434.85,
+			"clip": "/media/manon/manon-joe-complete-punish-counter-target-od-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-jump-heavy-od-renverse-medal",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 476.85,
+			"sourceEnd": 484.4,
+			"clip": "/media/manon/manon-joe-complete-jump-heavy-od-renverse-medal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-punish-heavy-target-level1",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 513.15,
+			"sourceEnd": 519.45,
+			"clip": "/media/manon/manon-joe-complete-punish-heavy-target-level1/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-punish-heavy-target-side-switch",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 537.85,
+			"sourceEnd": 541.7,
+			"clip": "/media/manon/manon-joe-complete-punish-heavy-target-side-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-punish-sweep-double-dash-grab",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 563.15,
+			"sourceEnd": 568.05,
+			"clip": "/media/manon/manon-joe-complete-punish-sweep-double-dash-grab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-punish-slide-sweep",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 573.2,
+			"sourceEnd": 576.9,
+			"clip": "/media/manon/manon-joe-complete-punish-slide-sweep/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-forward-throw-rush-low-confirm",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 599.55,
+			"sourceEnd": 604.05,
+			"clip": "/media/manon/manon-joe-complete-forward-throw-rush-low-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-corner-forward-throw-heavy-medal",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 618.65,
+			"sourceEnd": 623.35,
+			"clip": "/media/manon/manon-joe-complete-corner-forward-throw-heavy-medal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-corner-back-throw-walk-command-grab",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 634.7,
+			"sourceEnd": 638.9,
+			"clip": "/media/manon/manon-joe-complete-corner-back-throw-walk-command-grab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-command-grab-heavy-overhead-pressure",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 641.85,
+			"sourceEnd": 644.1,
+			"clip": "/media/manon/manon-joe-complete-command-grab-heavy-overhead-pressure/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-counter-di-medal",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 679.65,
+			"sourceEnd": 687.45,
+			"clip": "/media/manon/manon-joe-complete-counter-di-medal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-wall-splat-medal",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 700.35,
+			"sourceEnd": 706.05,
+			"clip": "/media/manon/manon-joe-complete-wall-splat-medal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-anti-air-od-rond-medal",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 717.85,
+			"sourceEnd": 723.2,
+			"clip": "/media/manon/manon-joe-complete-anti-air-od-rond-medal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "manon-joe-complete-heavy-overhead-punish-level3",
+			"sourceId": "joe-ebios-manon-complete-2026",
+			"sourceStart": 752.85,
+			"sourceEnd": 767.3,
+			"clip": "/media/manon/manon-joe-complete-heavy-overhead-punish-level3/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		}
+	]
+}

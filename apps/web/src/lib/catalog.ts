@@ -3,9 +3,10 @@ import profile from '../../../../content/games/sf6/game.json';
 import dhalsim from '../../../../content/games/sf6/references/dhalsim.json';
 import ryu from '../../../../content/games/sf6/references/ryu.json';
 import akuma from '../../../../content/games/sf6/references/akuma.json';
+import manon from '../../../../content/games/sf6/references/manon.json';
 
 export const game = gameDefinitionSchema.parse(profile);
-export const allReferences = parseCatalog([...dhalsim, ...ryu, ...akuma], [game]);
+export const allReferences = parseCatalog([...dhalsim, ...ryu, ...akuma, ...manon], [game]);
 export const collections = game.characters.map(character => {
 	const references = allReferences.filter(reference =>
 		reference.participants.some(participant => participant.characterId === character.id),
