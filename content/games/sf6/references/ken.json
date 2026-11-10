@@ -1,0 +1,1540 @@
+[
+	{
+		"id": "ken-ebios-light-heavy-shoryuken",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Low jab and light kick into heavy Shoryuken",
+		"summary": "A close light confirm ending in heavy Shoryuken.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 5LK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HP",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for standing light kick"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 0.65,
+			"end": 5.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-light-heavy-shoryuken/clip.mp4",
+			"poster": "/media/ken/ken-ebios-light-heavy-shoryuken/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-light-heavy-shoryuken/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-light-heavy-shoryuken/frame-1.jpg",
+					"at": 1.0,
+					"label": "Light starter",
+					"alt": "Ken begins the close light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-light-heavy-shoryuken/frame-2.jpg",
+					"at": 1.35,
+					"label": "Light kick",
+					"alt": "Standing light kick follows the crouching jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-light-heavy-shoryuken/frame-3.jpg",
+					"at": 2.35,
+					"label": "Heavy Shoryuken",
+					"alt": "Heavy Shoryuken launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-light-heavy-shoryuken/frame-4.jpg",
+					"at": 3.75,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the light confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-light-chin-buster-run-tatsu",
+			"ken-ebios-heavy-shoryuken-rush-throw",
+			"ken-ebios-low-rush-carry"
+		]
+	},
+	{
+		"id": "ken-ebios-heavy-shoryuken-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Heavy Shoryuken: Rush into throw",
+		"summary": "Use Drive Rush after the demonstrated heavy-Shoryuken knockdown, then attempt a forward throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy Shoryuken knockdown first, shown as +25F in this dated source",
+			"Match the demonstrated spacing"
+		],
+		"notes": [
+			"Inputs begin after the prerequisite Shoryuken. This is one demonstrated throw attempt, not guaranteed pressure against every defensive option."
+		],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 8.05,
+			"end": 12.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-heavy-shoryuken-rush-throw/clip.mp4",
+			"poster": "/media/ken/ken-ebios-heavy-shoryuken-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-heavy-shoryuken-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-heavy-shoryuken-rush-throw/frame-1.jpg",
+					"at": 0.35,
+					"label": "Rush approach",
+					"alt": "Ken moves toward Ryu after the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-heavy-shoryuken-rush-throw/frame-2.jpg",
+					"at": 1.0,
+					"label": "Throw",
+					"alt": "Ken catches Ryu with the forward throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-heavy-shoryuken-rush-throw/frame-3.jpg",
+					"at": 1.95,
+					"label": "Throw animation",
+					"alt": "Ken completes the forward-throw animation."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-heavy-shoryuken-rush-throw/frame-4.jpg",
+					"at": 3.05,
+					"label": "Throw result",
+					"alt": "Ryu lands after the demonstrated throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-light-heavy-shoryuken",
+			"ken-ebios-light-chin-buster-run-tatsu",
+			"ken-ebios-low-rush-carry"
+		]
+	},
+	{
+		"id": "ken-ebios-light-chin-buster-run-tatsu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Low jab into Chin Buster and running Tatsumaki",
+		"summary": "Use the target combo after a low jab and finish with the running Tatsumaki.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Corner carry", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 5MP > ~HP > KK > 214K",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~HP",
+				"label": "Chin Buster follow-up",
+				"cue": "Press HP as the target continuation after standing MP."
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Press two kicks to enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "214K",
+				"label": "Run Tatsumaki",
+				"cue": "Perform the quarter-circle-back kick continuation during Quick Dash."
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for the medium-punch link"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 100.05,
+			"end": 105.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-light-chin-buster-run-tatsu/clip.mp4",
+			"poster": "/media/ken/ken-ebios-light-chin-buster-run-tatsu/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-light-chin-buster-run-tatsu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-light-chin-buster-run-tatsu/frame-1.jpg",
+					"at": 0.95,
+					"label": "Jab into target combo",
+					"alt": "Ken starts the close jab and target-combo route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-light-chin-buster-run-tatsu/frame-2.jpg",
+					"at": 1.95,
+					"label": "Chin Buster",
+					"alt": "The target-combo heavy punch lifts Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-light-chin-buster-run-tatsu/frame-3.jpg",
+					"at": 2.95,
+					"label": "Running Tatsumaki",
+					"alt": "Ken’s running Tatsumaki carries the opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-light-chin-buster-run-tatsu/frame-4.jpg",
+					"at": 4.65,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the running kick finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-low-rush-carry",
+			"ken-ebios-light-heavy-shoryuken",
+			"ken-ebios-low-rush-side-switch"
+		]
+	},
+	{
+		"id": "ken-ebios-low-rush-carry",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Low confirm: run-stop carry route",
+		"summary": "Cancel the low kick into Rush, stop the first run and reach a running Tatsumaki finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Corner carry", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 2HP > KK > ~LK > 2LP > 5MP > ~HP > KK > 214K",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Press two kicks to enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "~LK",
+				"label": "Emergency Stop",
+				"cue": "Press LK during Quick Dash, then link the next normal."
+			},
+			{
+				"id": "step-6",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "~HP",
+				"label": "Chin Buster follow-up",
+				"cue": "Press HP as the target continuation after standing MP."
+			},
+			{
+				"id": "step-9",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Press two kicks to enter Ken’s run."
+			},
+			{
+				"id": "step-10",
+				"notation": "214K",
+				"label": "Run Tatsumaki",
+				"cue": "Perform the quarter-circle-back kick continuation during Quick Dash."
+			}
+		],
+		"conditions": ["Classic controls", "Crouching medium kick connects at the shown range"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 162.05,
+			"end": 168.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-low-rush-carry/clip.mp4",
+			"poster": "/media/ken/ken-ebios-low-rush-carry/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-low-rush-carry/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-low-rush-carry/frame-1.jpg",
+					"at": 0.95,
+					"label": "Rush cancel",
+					"alt": "Ken cancels the low starter into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-low-rush-carry/frame-2.jpg",
+					"at": 1.95,
+					"label": "Run-stop link",
+					"alt": "Ken continues the conversion after stopping his run."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-low-rush-carry/frame-3.jpg",
+					"at": 2.95,
+					"label": "Target combo",
+					"alt": "Chin Buster continues the carry route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-low-rush-carry/frame-4.jpg",
+					"at": 4.95,
+					"label": "Carry finish",
+					"alt": "The running Tatsumaki carries Ryu away."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-low-rush-side-switch",
+			"ken-ebios-light-chin-buster-run-tatsu",
+			"ken-ebios-low-rush-light-tatsu-medium-dp"
+		]
+	},
+	{
+		"id": "ken-ebios-low-rush-light-tatsu-medium-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Low confirm: light Tatsumaki into medium Shoryuken",
+		"summary": "Choose the light-Tatsumaki juggle after the run-stop medium link.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 2HP > KK > ~LK > 2MP > 214LK > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Press two kicks to enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "~LK",
+				"label": "Emergency Stop",
+				"cue": "Press LK during Quick Dash, then link the next normal."
+			},
+			{
+				"id": "step-6",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "214LK",
+				"label": "Light Tatsumaki"
+			},
+			{
+				"id": "step-8",
+				"notation": "623MP",
+				"label": "Medium Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching medium kick connects",
+			"Stop the first run before crouching medium punch"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 169.15,
+			"end": 175.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-low-rush-light-tatsu-medium-dp/clip.mp4",
+			"poster": "/media/ken/ken-ebios-low-rush-light-tatsu-medium-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-low-rush-light-tatsu-medium-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-low-rush-light-tatsu-medium-dp/frame-1.jpg",
+					"at": 0.85,
+					"label": "Low starter",
+					"alt": "Crouching medium kick starts the conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-low-rush-light-tatsu-medium-dp/frame-2.jpg",
+					"at": 1.85,
+					"label": "Run-stop extension",
+					"alt": "Ken links after the stopped run."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-low-rush-light-tatsu-medium-dp/frame-3.jpg",
+					"at": 2.85,
+					"label": "Light Tatsumaki",
+					"alt": "Light Tatsumaki continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-low-rush-light-tatsu-medium-dp/frame-4.jpg",
+					"at": 4.2,
+					"label": "Medium Shoryuken",
+					"alt": "Medium Shoryuken finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-low-rush-carry",
+			"ken-ebios-low-rush-side-switch",
+			"ken-ebios-heavy-kick-punish-rush-run-dp"
+		]
+	},
+	{
+		"id": "ken-ebios-low-rush-side-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Low confirm: running Dragonlash side switch",
+		"summary": "Use Chin Buster into running Dragonlash to cross under the airborne opponent, then finish with heavy Shoryuken.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Side switch", "Target combo"],
+		"outcomes": ["Knockdown", "Side switch"],
+		"notation": "2MK > DRC > 2HP > KK > ~LK > 5MP > ~HP > KK > 623K > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Press two kicks to enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "~LK",
+				"label": "Emergency Stop",
+				"cue": "Press LK during Quick Dash, then link the next normal."
+			},
+			{
+				"id": "step-6",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "~HP",
+				"label": "Chin Buster follow-up",
+				"cue": "Press HP as the target continuation after standing MP."
+			},
+			{
+				"id": "step-8",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Press two kicks to enter Ken’s run."
+			},
+			{
+				"id": "step-9",
+				"notation": "623K",
+				"label": "Run Dragonlash",
+				"cue": "Perform the kick continuation during Quick Dash; mirror after the side switch."
+			},
+			{
+				"id": "step-10",
+				"notation": "623HP",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Match the demonstrated run-stop and juggle timing"],
+		"notes": [
+			"Directions are relative to Ken’s facing. Reorient the final Shoryuken after the side switch."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 175.75,
+			"end": 183.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-low-rush-side-switch/clip.mp4",
+			"poster": "/media/ken/ken-ebios-low-rush-side-switch/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-low-rush-side-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-low-rush-side-switch/frame-1.jpg",
+					"at": 1.25,
+					"label": "Rush conversion",
+					"alt": "Ken converts the crouching medium kick with Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-low-rush-side-switch/frame-2.jpg",
+					"at": 3.25,
+					"label": "Target launcher",
+					"alt": "Chin Buster sets up the running kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-low-rush-side-switch/frame-3.jpg",
+					"at": 4.25,
+					"label": "Side switch",
+					"alt": "The running Dragonlash moves Ken through the airborne Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-low-rush-side-switch/frame-4.jpg",
+					"at": 5.25,
+					"label": "Mirrored Shoryuken",
+					"alt": "Ken completes heavy Shoryuken from the new side."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-low-rush-carry",
+			"ken-ebios-low-rush-light-tatsu-medium-dp",
+			"ken-ebios-low-double-rush-level-three"
+		]
+	},
+	{
+		"id": "ken-ebios-reversal-crouching-heavy-run-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Blocked reversal: crouching heavy into run Shoryuken",
+		"summary": "Punish Ryu’s blocked OD reversal with crouching heavy punch, crouching medium punch and the run finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Reversal punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HP > 2MP > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Press two kicks to enter Ken’s run."
+			},
+			{
+				"id": "step-4",
+				"notation": "623P",
+				"label": "Run Shoryuken",
+				"cue": "Perform the punch continuation during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu’s blocked OD Shoryuken is the demonstrated opening",
+			"Crouching heavy punch Punish Counter"
+		],
+		"notes": ["The initial guard is a prerequisite scene, not an extra attack in the sequence."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 190.6,
+			"end": 195.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-reversal-crouching-heavy-run-dp/clip.mp4",
+			"poster": "/media/ken/ken-ebios-reversal-crouching-heavy-run-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-reversal-crouching-heavy-run-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-reversal-crouching-heavy-run-dp/frame-1.jpg",
+					"at": 0.6,
+					"label": "Blocked reversal",
+					"alt": "Ken guards Ryu’s OD Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-reversal-crouching-heavy-run-dp/frame-2.jpg",
+					"at": 1.4,
+					"label": "Punish starter",
+					"alt": "Crouching heavy punch punishes Ryu’s recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-reversal-crouching-heavy-run-dp/frame-3.jpg",
+					"at": 2.4,
+					"label": "Run continuation",
+					"alt": "Ken continues through crouching medium and Quick Dash."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-reversal-crouching-heavy-run-dp/frame-4.jpg",
+					"at": 3.4,
+					"label": "Run Shoryuken",
+					"alt": "The enhanced running punch finishes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-heavy-kick-punish-rush-run-dp",
+			"ken-ebios-drive-reversal-medium-run-dp",
+			"ken-ebios-counter-di-heavy-kick-rush"
+		]
+	},
+	{
+		"id": "ken-ebios-heavy-kick-punish-rush-run-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Heavy-kick Punish Counter into raw Rush",
+		"summary": "Convert the heavy-kick Punish Counter with raw Drive Rush, heavy punch and running Shoryuken.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HK > DR > 5HP > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Press two kicks to enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "623P",
+				"label": "Run Shoryuken",
+				"cue": "Perform the punch continuation during Quick Dash."
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy kick Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 196.2,
+			"end": 201.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-heavy-kick-punish-rush-run-dp/clip.mp4",
+			"poster": "/media/ken/ken-ebios-heavy-kick-punish-rush-run-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-heavy-kick-punish-rush-run-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-heavy-kick-punish-rush-run-dp/frame-1.jpg",
+					"at": 1.5,
+					"label": "Heavy-kick starter",
+					"alt": "Standing heavy kick starts the Punish Counter juggle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-heavy-kick-punish-rush-run-dp/frame-2.jpg",
+					"at": 1.8,
+					"label": "Raw Rush",
+					"alt": "Ken rushes after the launching kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-heavy-kick-punish-rush-run-dp/frame-3.jpg",
+					"at": 2.8,
+					"label": "Run Shoryuken",
+					"alt": "The running punch continues the heavy-punch follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-heavy-kick-punish-rush-run-dp/frame-4.jpg",
+					"at": 4.3,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the Rush juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-counter-di-heavy-kick-rush",
+			"ken-ebios-low-rush-light-tatsu-medium-dp",
+			"ken-ebios-corner-counter-di-jinrai"
+		]
+	},
+	{
+		"id": "ken-ebios-drive-reversal-medium-run-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Drive Reversal punish: medium into running Shoryuken",
+		"summary": "Guard the shown Drive Reversal and punish with crouching medium punch into low kick and run Shoryuken.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Drive Reversal punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP > 2MK > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Press two kicks to enter Ken’s run."
+			},
+			{
+				"id": "step-4",
+				"notation": "623P",
+				"label": "Run Shoryuken",
+				"cue": "Perform the punch continuation during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Block Ryu’s demonstrated Drive Reversal",
+			"Crouching medium punch reaches after guarding"
+		],
+		"notes": [
+			"This dated example is a punish after guarding Drive Reversal; it does not claim every version or spacing is equally punishable."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 202.3,
+			"end": 208.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-drive-reversal-medium-run-dp/clip.mp4",
+			"poster": "/media/ken/ken-ebios-drive-reversal-medium-run-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-drive-reversal-medium-run-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-drive-reversal-medium-run-dp/frame-1.jpg",
+					"at": 0.7,
+					"label": "Guard Drive Reversal",
+					"alt": "Ken blocks Ryu’s Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-drive-reversal-medium-run-dp/frame-2.jpg",
+					"at": 2.35,
+					"label": "Medium punish",
+					"alt": "Crouching medium punch begins the Punish Counter conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-drive-reversal-medium-run-dp/frame-3.jpg",
+					"at": 3.0,
+					"label": "Run cancel",
+					"alt": "Ken continues through crouching medium kick into Quick Dash."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-drive-reversal-medium-run-dp/frame-4.jpg",
+					"at": 3.7,
+					"label": "Run Shoryuken",
+					"alt": "The running punch completes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-reversal-crouching-heavy-run-dp",
+			"ken-ebios-heavy-kick-punish-rush-run-dp",
+			"ken-ebios-counter-di-heavy-kick-rush"
+		]
+	},
+	{
+		"id": "ken-ebios-counter-di-heavy-kick-rush",
+		"revision": 2,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Counter DI: jumping heavy into Rush and run Shoryuken",
+		"summary": "Jump during the counter-DI crumple, hit heavy kick, then land and use raw Drive Rush into the running punch finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > j.HK > DR > 5HP > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick",
+				"cue": "Jump during the DI crumple; land before raw Drive Rush."
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush",
+				"cue": "Use Drive Rush after landing, not a cancel."
+			},
+			{
+				"id": "step-4",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Press two kicks to enter Ken’s run."
+			},
+			{
+				"id": "step-6",
+				"notation": "623P",
+				"label": "Run Shoryuken",
+				"cue": "Perform the punch continuation during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Counter the incoming DI to create the demonstrated crumple"
+		],
+		"notes": [
+			"The opening jab interaction primes the opponent’s DI in the tutorial; the authored conversion begins with Ken’s counter DI."
+		],
+		"resources": {
+			"drive": "Drive Impact + Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 209.15,
+			"end": 218.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-counter-di-heavy-kick-rush/clip.mp4",
+			"poster": "/media/ken/ken-ebios-counter-di-heavy-kick-rush/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-counter-di-heavy-kick-rush/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-counter-di-heavy-kick-rush/frame-1.jpg",
+					"at": 0.85,
+					"label": "Counter DI",
+					"alt": "Ken answers Ryu’s Drive Impact with his own."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-counter-di-heavy-kick-rush/frame-2.jpg",
+					"at": 2.85,
+					"label": "DI Punish Counter",
+					"alt": "Ken wins the armor exchange and crumples Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-counter-di-heavy-kick-rush/frame-3.jpg",
+					"at": 4.65,
+					"label": "Jumping heavy kick",
+					"alt": "Ken hits jumping heavy kick during Ryu’s crumple."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-counter-di-heavy-kick-rush/frame-4.jpg",
+					"at": 5.15,
+					"label": "Rush conversion",
+					"alt": "Ken lands, then uses raw Drive Rush after the jumping heavy kick."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ken/ken-ebios-counter-di-heavy-kick-rush/frame-5.jpg",
+					"at": 6.85,
+					"label": "Run finish",
+					"alt": "The Rush heavy-punch extension ends in running Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-heavy-kick-punish-rush-run-dp",
+			"ken-ebios-corner-counter-di-jinrai",
+			"ken-ebios-low-rush-light-tatsu-medium-dp"
+		]
+	},
+	{
+		"id": "ken-ebios-corner-counter-di-jinrai",
+		"revision": 2,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner counter DI: jumping heavy into Jinrai",
+		"summary": "Jump during the corner counter-DI crumple, hit heavy kick, then land and raw Rush into crouching heavy and the Jinrai juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Punish counter", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > j.HK > DR > 2HP > 236HK > ~6HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick",
+				"cue": "Jump during the DI crumple; land before raw Drive Rush."
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush",
+				"cue": "Use Drive Rush after landing, not a cancel."
+			},
+			{
+				"id": "step-4",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "Heavy Jinrai Kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "~6HK",
+				"label": "Heavy Jinrai follow-up",
+				"cue": "Forward + heavy kick during Jinrai Kick."
+			},
+			{
+				"id": "step-7",
+				"notation": "623HP",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Counter DI beside the corner",
+			"Match the jumping heavy kick, landing and raw-Rush timing"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact + Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 219.15,
+			"end": 229.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-corner-counter-di-jinrai/clip.mp4",
+			"poster": "/media/ken/ken-ebios-corner-counter-di-jinrai/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-corner-counter-di-jinrai/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-corner-counter-di-jinrai/frame-1.jpg",
+					"at": 0.85,
+					"label": "Corner counter DI",
+					"alt": "Ken armors through Ryu’s Drive Impact at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-corner-counter-di-jinrai/frame-2.jpg",
+					"at": 4.35,
+					"label": "Jumping heavy kick",
+					"alt": "Ken hits jumping heavy kick during the corner DI crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-corner-counter-di-jinrai/frame-3.jpg",
+					"at": 4.85,
+					"label": "Rush launcher conversion",
+					"alt": "Ken lands after jumping heavy kick, then raw Rushes into crouching heavy punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-corner-counter-di-jinrai/frame-4.jpg",
+					"at": 5.85,
+					"label": "Jinrai juggle",
+					"alt": "Heavy Jinrai and its heavy follow-up continue the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ken/ken-ebios-corner-counter-di-jinrai/frame-5.jpg",
+					"at": 7.85,
+					"label": "Heavy Shoryuken",
+					"alt": "Heavy Shoryuken completes the corner route."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-counter-di-heavy-kick-rush",
+			"ken-ebios-heavy-kick-punish-rush-run-dp",
+			"ken-ebios-wall-splat-jinrai-medium-dp"
+		]
+	},
+	{
+		"id": "ken-ebios-wall-splat-jinrai-medium-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Blocked DI wall splat into Jinrai and medium Shoryuken",
+		"summary": "Use heavy punch and heavy Jinrai after the opponent blocks DI at the wall.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 5HP > 236HK > ~6HK > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "Heavy Jinrai Kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "~6HK",
+				"label": "Heavy Jinrai follow-up",
+				"cue": "Forward + heavy kick during Jinrai Kick."
+			},
+			{
+				"id": "step-5",
+				"notation": "623MP",
+				"label": "Medium Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent blocks DI against the wall",
+			"Wall splat, not burnout stun or counter-DI crumple"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 230.05,
+			"end": 236.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-wall-splat-jinrai-medium-dp/clip.mp4",
+			"poster": "/media/ken/ken-ebios-wall-splat-jinrai-medium-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-wall-splat-jinrai-medium-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-wall-splat-jinrai-medium-dp/frame-1.jpg",
+					"at": 0.95,
+					"label": "Blocked DI",
+					"alt": "Ryu blocks Drive Impact against the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-wall-splat-jinrai-medium-dp/frame-2.jpg",
+					"at": 1.95,
+					"label": "Heavy-punch conversion",
+					"alt": "Standing heavy punch catches the wall splat."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-wall-splat-jinrai-medium-dp/frame-3.jpg",
+					"at": 2.95,
+					"label": "Jinrai follow-up",
+					"alt": "The heavy Jinrai follow-up extends the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-wall-splat-jinrai-medium-dp/frame-4.jpg",
+					"at": 3.95,
+					"label": "Medium Shoryuken",
+					"alt": "Medium Shoryuken finishes the wall-splat conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-corner-counter-di-jinrai",
+			"ken-ebios-counter-di-heavy-kick-rush",
+			"ken-ebios-low-rush-light-tatsu-medium-dp"
+		]
+	},
+	{
+		"id": "ken-ebios-low-double-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Low confirm cash-out: two Rush cancels into Level 3",
+		"summary": "Repeat the run-stop extension, then use medium Jinrai’s heavy continuation to reach Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Cash out", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 2HP > KK > ~LK > 2MP > DRC > 2HP > KK > ~LK > 2MP > 236MK > ~6HK > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Press two kicks to enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "~LK",
+				"label": "Emergency Stop",
+				"cue": "Press LK during Quick Dash, then link the next normal."
+			},
+			{
+				"id": "step-6",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Press two kicks to enter Ken’s run."
+			},
+			{
+				"id": "step-10",
+				"notation": "~LK",
+				"label": "Emergency Stop",
+				"cue": "Press LK during Quick Dash, then link the next normal."
+			},
+			{
+				"id": "step-11",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-12",
+				"notation": "236MK",
+				"label": "Medium Jinrai Kick"
+			},
+			{
+				"id": "step-13",
+				"notation": "~6HK",
+				"label": "Heavy Jinrai follow-up",
+				"cue": "Forward + heavy kick during Jinrai Kick."
+			},
+			{
+				"id": "step-14",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Enough Drive for two cancel Drive Rushes",
+			"Level 3 Super stock available"
+		],
+		"notes": [
+			"The footage finishes in burnout. This is a resource-spending cash-out, not the default meterless route."
+		],
+		"resources": {
+			"drive": "Two cancel Drive Rushes; burnout in the demonstrated take",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 237.1,
+			"end": 253.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-ebios-low-double-rush-level-three/clip.mp4",
+			"poster": "/media/ken/ken-ebios-low-double-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-ebios-low-double-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-ebios-low-double-rush-level-three/frame-1.jpg",
+					"at": 0.9,
+					"label": "First Rush cancel",
+					"alt": "Ken converts the low starter with Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-ebios-low-double-rush-level-three/frame-2.jpg",
+					"at": 2.9,
+					"label": "Second extension",
+					"alt": "Ken continues the second run-stop conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-ebios-low-double-rush-level-three/frame-3.jpg",
+					"at": 3.9,
+					"label": "Jinrai launch",
+					"alt": "Medium Jinrai’s heavy follow-up leads toward the Super cancel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-ebios-low-double-rush-level-three/frame-4.jpg",
+					"at": 4.9,
+					"label": "Level 3 activation",
+					"alt": "Ken cancels into Level 3 Super Art."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ken/ken-ebios-low-double-rush-level-three/frame-5.jpg",
+					"at": 14.9,
+					"label": "Super finish",
+					"alt": "The Level 3 cinematic ends in the demonstrated knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-low-rush-carry",
+			"ken-ebios-low-rush-light-tatsu-medium-dp",
+			"ken-ebios-low-rush-side-switch"
+		]
+	}
+]

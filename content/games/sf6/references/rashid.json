@@ -1,0 +1,1402 @@
+[
+	{
+		"id": "rashid-low-lights-mixer",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Low kick and jabs into light Mixer",
+		"summary": "Convert crouching light kick, crouching jab and standing jab into light Spinning Mixer.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Low confirm"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LK > cr.LP > st.LP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LP",
+				"label": "Light Spinning Mixer",
+				"cue": "Quarter-circle forward + light punch. Use the demonstrated follow-up timing."
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 6.2,
+			"end": 8.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-25 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-low-lights-mixer/clip.mp4",
+			"poster": "/media/rashid/rashid-low-lights-mixer/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-low-lights-mixer/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-low-lights-mixer/frame-1.jpg",
+					"at": 0.25,
+					"label": "Low light starter",
+					"alt": "Crouching light kick hits Dee Jay low."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-low-lights-mixer/frame-2.jpg",
+					"at": 0.6,
+					"label": "Jab chain",
+					"alt": "The jabs continue the close-range light confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-low-lights-mixer/frame-3.jpg",
+					"at": 1.2,
+					"label": "Light Mixer",
+					"alt": "Light Spinning Mixer converts the jab."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-crouching-jabs-mixer",
+			"rashid-low-rush-od-cyclone-eagle",
+			"rashid-target-od-shot-rush-roll"
+		]
+	},
+	{
+		"id": "rashid-crouching-jabs-mixer",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Three crouching jabs into light Mixer",
+		"summary": "Keep the light confirm crouching before cancelling into light Spinning Mixer.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LP > cr.LP > cr.LP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LP",
+				"label": "Light Spinning Mixer",
+				"cue": "Quarter-circle forward + light punch. Use the demonstrated follow-up timing."
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 8.65,
+			"end": 11.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-25 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-crouching-jabs-mixer/clip.mp4",
+			"poster": "/media/rashid/rashid-crouching-jabs-mixer/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-crouching-jabs-mixer/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-crouching-jabs-mixer/frame-1.jpg",
+					"at": 0.49,
+					"label": "Crouching jab",
+					"alt": "The crouching light-punch sequence starts at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-crouching-jabs-mixer/frame-2.jpg",
+					"at": 1.15,
+					"label": "Third jab",
+					"alt": "The third light punch completes the jab chain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-crouching-jabs-mixer/frame-3.jpg",
+					"at": 1.75,
+					"label": "Light Mixer",
+					"alt": "Light Spinning Mixer finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-low-lights-mixer",
+			"rashid-target-od-shot-rush-roll",
+			"rashid-low-rush-od-cyclone-eagle"
+		]
+	},
+	{
+		"id": "rashid-target-od-shot-rush-roll",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Target combo into OD Whirlwind Shot and Rush juggle",
+		"summary": "Launch from medium punch and its heavy-kick target follow-up, then Rush heavy punch into the roll-kick continuation.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Target combo", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Conversion"],
+		"notation": "st.MP > st.HK > 236KK > DR > st.HP > 214LP > 6K > K",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "Heavy-kick target follow-up",
+				"cue": "Heavy kick during the medium-punch target combo."
+			},
+			{
+				"id": "step-3",
+				"notation": "236KK",
+				"label": "Overdrive Whirlwind Shot",
+				"cue": "Quarter-circle forward + two kicks."
+			},
+			{
+				"id": "step-4",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "214LP",
+				"label": "Light Arabian Cyclone",
+				"cue": "Quarter-circle back + light punch."
+			},
+			{
+				"id": "step-7",
+				"notation": "6K",
+				"label": "Forward-roll follow-up",
+				"cue": "Forward + kick during Arabian Cyclone."
+			},
+			{
+				"id": "step-8",
+				"notation": "K",
+				"label": "Roll kick follow-up",
+				"cue": "Kick during the forward-roll continuation."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close target-combo range",
+			"Match the source’s airborne juggle timing"
+		],
+		"notes": [
+			"OD Whirlwind Shot is quarter-circle forward + two kicks. It is distinct from quarter-circle-back Eagle Spike."
+		],
+		"resources": {
+			"drive": "Overdrive special + raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 26.1,
+			"end": 30.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-25 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-target-od-shot-rush-roll/clip.mp4",
+			"poster": "/media/rashid/rashid-target-od-shot-rush-roll/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-target-od-shot-rush-roll/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-target-od-shot-rush-roll/frame-1.jpg",
+					"at": 0.7,
+					"label": "Target combo",
+					"alt": "The medium-punch/heavy-kick target combo launches Luke."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-target-od-shot-rush-roll/frame-2.jpg",
+					"at": 1.56,
+					"label": "OD special",
+					"alt": "The Overdrive special continues the juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-target-od-shot-rush-roll/frame-3.jpg",
+					"at": 3.1,
+					"label": "Rush heavy",
+					"alt": "Rashid follows the launch with Drive Rush heavy punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-target-od-shot-rush-roll/frame-4.jpg",
+					"at": 4.5,
+					"label": "Roll-kick finish",
+					"alt": "The Cyclone roll-kick continuation catches Luke."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-low-rush-od-cyclone-eagle",
+			"rashid-crouching-medium-rush-air-finish",
+			"rashid-heavy-rush-eagle"
+		]
+	},
+	{
+		"id": "rashid-low-rush-od-cyclone-eagle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Low medium into Rush and OD Cyclone",
+		"summary": "Cancel the low medium into Rush, then use medium kick, heavy punch and OD Cyclone before the Eagle Spike ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.MK > DRC > st.MK > st.HP > 214PP > f.MP > 214LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214PP",
+				"label": "Overdrive Arabian Cyclone",
+				"cue": "Quarter-circle back + two punches."
+			},
+			{
+				"id": "step-6",
+				"notation": "f.MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "214LK",
+				"label": "Light Eagle Spike",
+				"cue": "Quarter-circle back + light kick."
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for the Rush normal and heavy link"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush + Overdrive Arabian Cyclone",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 32.85,
+			"end": 37.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-25 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-low-rush-od-cyclone-eagle/clip.mp4",
+			"poster": "/media/rashid/rashid-low-rush-od-cyclone-eagle/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-low-rush-od-cyclone-eagle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-low-rush-od-cyclone-eagle/frame-1.jpg",
+					"at": 0.67,
+					"label": "Low Rush starter",
+					"alt": "Crouching medium kick is cancelled into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-low-rush-od-cyclone-eagle/frame-2.jpg",
+					"at": 1.55,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch follows the Rush normal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-low-rush-od-cyclone-eagle/frame-3.jpg",
+					"at": 2.35,
+					"label": "OD Cyclone",
+					"alt": "Overdrive Arabian Cyclone launches Ken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-low-rush-od-cyclone-eagle/frame-4.jpg",
+					"at": 3.55,
+					"label": "Eagle finish",
+					"alt": "Light Eagle Spike completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-target-od-shot-rush-roll",
+			"rashid-low-lights-mixer",
+			"rashid-crouching-medium-rush-air-finish"
+		]
+	},
+	{
+		"id": "rashid-crouching-medium-rush-air-finish",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Crouching medium Rush confirm into airborne heavy kick",
+		"summary": "Extend crouching medium punch through a Rush link and target combo, then use Cyclone’s airborne transition.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Drive Rush", "Airborne transition"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.MP > DRC > cr.MP > st.MP > st.HK > 214HP > 4K > j.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "Heavy-kick target follow-up",
+				"cue": "Heavy kick during the medium-punch target combo."
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "Heavy Arabian Cyclone",
+				"cue": "Quarter-circle back + heavy punch."
+			},
+			{
+				"id": "step-7",
+				"notation": "4K",
+				"label": "Backward airborne transition",
+				"cue": "Back + kick during the heavy Cyclone continuation."
+			},
+			{
+				"id": "step-8",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close range",
+			"Match the source’s back-kick transition and air-kick timing"
+		],
+		"notes": [
+			"The later reversal attempt is excluded from the clip and is not treated as a universal safety demonstration."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 37.35,
+			"end": 41.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-25 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-crouching-medium-rush-air-finish/clip.mp4",
+			"poster": "/media/rashid/rashid-crouching-medium-rush-air-finish/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-crouching-medium-rush-air-finish/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-crouching-medium-rush-air-finish/frame-1.jpg",
+					"at": 1.31,
+					"label": "Rush crouching medium",
+					"alt": "The second crouching medium punch connects during Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-crouching-medium-rush-air-finish/frame-2.jpg",
+					"at": 2.05,
+					"label": "Target continuation",
+					"alt": "Rashid continues into the medium-punch/heavy-kick target combo."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-crouching-medium-rush-air-finish/frame-3.jpg",
+					"at": 2.85,
+					"label": "Cyclone transition",
+					"alt": "Heavy Cyclone launches into its airborne continuation."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-crouching-medium-rush-air-finish/frame-4.jpg",
+					"at": 4.25,
+					"label": "Air heavy-kick finish",
+					"alt": "Jumping heavy kick catches Ken before landing."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-target-od-shot-rush-roll",
+			"rashid-low-rush-od-cyclone-eagle",
+			"rashid-heavy-rush-eagle"
+		]
+	},
+	{
+		"id": "rashid-heavy-rush-eagle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Heavy punch Rush confirm into medium Eagle Spike",
+		"summary": "Link crouching heavy punch and standing heavy punch after a Rush cancel, then finish with medium Eagle Spike.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > DRC > cr.HP > st.HP > 214MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MK",
+				"label": "Medium Eagle Spike",
+				"cue": "Quarter-circle back + medium kick."
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy punch connects at the demonstrated range"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 74.35,
+			"end": 77.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-25 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-heavy-rush-eagle/clip.mp4",
+			"poster": "/media/rashid/rashid-heavy-rush-eagle/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-heavy-rush-eagle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-heavy-rush-eagle/frame-1.jpg",
+					"at": 0.55,
+					"label": "Heavy Rush cancel",
+					"alt": "Standing heavy punch is cancelled into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-heavy-rush-eagle/frame-2.jpg",
+					"at": 1.05,
+					"label": "Crouching heavy link",
+					"alt": "Crouching heavy punch links during the Rush sequence."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-heavy-rush-eagle/frame-3.jpg",
+					"at": 1.65,
+					"label": "Standing heavy",
+					"alt": "Standing heavy punch continues the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-heavy-rush-eagle/frame-4.jpg",
+					"at": 2.65,
+					"label": "Eagle Spike",
+					"alt": "Medium Eagle Spike finishes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-target-od-shot-rush-roll",
+			"rashid-low-rush-od-cyclone-eagle",
+			"rashid-crouching-medium-rush-air-finish"
+		]
+	},
+	{
+		"id": "rashid-anti-air-heavy-mixer",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Anti-air heavy kick into medium Mixer",
+		"summary": "Intercept the demonstrated jump with standing heavy kick and cancel into medium Spinning Mixer.",
+		"kind": "response",
+		"situations": ["Anti-air", "Midscreen"],
+		"outcomes": ["Anti-air"],
+		"notation": "st.HK > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MP",
+				"label": "Medium Spinning Mixer",
+				"cue": "Quarter-circle forward + medium punch."
+			}
+		],
+		"conditions": ["Classic controls", "The demonstrated forward-jump angle and spacing"],
+		"notes": [
+			"The following grounded Counter Hit take is excluded. This example does not establish universal anti-air or cross-up coverage."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 78.3,
+			"end": 80.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-25 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-anti-air-heavy-mixer/clip.mp4",
+			"poster": "/media/rashid/rashid-anti-air-heavy-mixer/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-anti-air-heavy-mixer/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-anti-air-heavy-mixer/frame-1.jpg",
+					"at": 0.35,
+					"label": "Incoming jump",
+					"alt": "Luke approaches Rashid from the air at the shown angle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-anti-air-heavy-mixer/frame-2.jpg",
+					"at": 0.78,
+					"label": "Heavy-kick anti-air",
+					"alt": "Standing heavy kick intercepts the airborne Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-anti-air-heavy-mixer/frame-3.jpg",
+					"at": 1.98,
+					"label": "Mixer juggle",
+					"alt": "Medium Spinning Mixer continues the anti-air conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-anti-air-heavy-mixer/frame-4.jpg",
+					"at": 2.25,
+					"label": "Airborne result",
+					"alt": "Luke is knocked away at the end of the Mixer."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-low-lights-mixer",
+			"rashid-crouching-jabs-mixer",
+			"rashid-target-od-shot-rush-roll"
+		]
+	},
+	{
+		"id": "rashid-counter-di-corner-escape",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Corner counter DI: run through the crumple",
+		"summary": "Use the counter-DI crumple to run past the opponent, then convert with the target combo and projectile juggle.",
+		"kind": "combo",
+		"situations": ["Corner escape", "Drive Impact", "Punish counter", "Side switch"],
+		"outcomes": ["Side switch", "Corner escape"],
+		"notation": "DI > 6KK > st.MP > st.HK > 236HK > f.MP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "6KK",
+				"label": "Run",
+				"cue": "Forward + two kicks to run through the crumpling opponent before the follow-up normals."
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "Heavy Whirlwind Shot",
+				"cue": "Quarter-circle forward + heavy kick; use the source timing."
+			},
+			{
+				"id": "step-6",
+				"notation": "f.MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "236MP",
+				"label": "Medium Spinning Mixer",
+				"cue": "Quarter-circle forward + medium punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Rashid begins with his own back near the corner",
+			"Counter DI creates the shown crumple"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 110.65,
+			"end": 117.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-25 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-counter-di-corner-escape/clip.mp4",
+			"poster": "/media/rashid/rashid-counter-di-corner-escape/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-counter-di-corner-escape/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-counter-di-corner-escape/frame-1.jpg",
+					"at": 0.4,
+					"label": "Counter DI",
+					"alt": "Rashid answers Luke’s Drive Impact near the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-counter-di-corner-escape/frame-2.jpg",
+					"at": 1.97,
+					"label": "Crumple",
+					"alt": "Rashid’s DI wins as a Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-counter-di-corner-escape/frame-3.jpg",
+					"at": 3.77,
+					"label": "Run-through conversion",
+					"alt": "Rashid has crossed through and launches from the target combo."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-counter-di-corner-escape/frame-4.jpg",
+					"at": 5.75,
+					"label": "Mixer finish",
+					"alt": "Medium Spinning Mixer continues the projectile juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-counter-di-jump-heavy-roll",
+			"rashid-wall-splat-heavy-roll",
+			"rashid-corner-heavy-punish-level-one"
+		]
+	},
+	{
+		"id": "rashid-counter-di-jump-heavy-roll",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Midscreen counter DI into jump heavy and roll kick",
+		"summary": "Jump into the crumple with heavy kick, then use heavy kick and forward medium punch into the Cyclone roll follow-ups.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter"],
+		"outcomes": ["Conversion"],
+		"notation": "DI > j.HK > st.HK > f.MP > 214LP > 6K > K",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "f.MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214LP",
+				"label": "Light Arabian Cyclone"
+			},
+			{
+				"id": "step-6",
+				"notation": "6K",
+				"label": "Forward-roll follow-up",
+				"cue": "Forward + kick during Arabian Cyclone."
+			},
+			{
+				"id": "step-7",
+				"notation": "K",
+				"label": "Roll kick follow-up",
+				"cue": "Kick during the forward-roll continuation."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Win the counter-DI exchange",
+			"Match the forward-jump timing during the crumple"
+		],
+		"notes": [
+			"The chapter recipe writes 214P; this selected take uses the light Arabian Cyclone continuation. The later reversal demonstration is excluded."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 120.65,
+			"end": 125.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-25 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-counter-di-jump-heavy-roll/clip.mp4",
+			"poster": "/media/rashid/rashid-counter-di-jump-heavy-roll/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-counter-di-jump-heavy-roll/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-counter-di-jump-heavy-roll/frame-1.jpg",
+					"at": 0.61,
+					"label": "Counter-DI crumple",
+					"alt": "Rashid’s Drive Impact crumples Luke."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-counter-di-jump-heavy-roll/frame-2.jpg",
+					"at": 2.01,
+					"label": "Jump heavy",
+					"alt": "Rashid jumps into the crumple with heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-counter-di-jump-heavy-roll/frame-3.jpg",
+					"at": 3.55,
+					"label": "Grounded link",
+					"alt": "Standing heavy kick and forward medium punch continue the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-counter-di-jump-heavy-roll/frame-4.jpg",
+					"at": 4.95,
+					"label": "Roll kick",
+					"alt": "The Cyclone roll kick finishes the sequence."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-counter-di-corner-escape",
+			"rashid-midscreen-heavy-punish-cashout",
+			"rashid-low-lights-mixer"
+		]
+	},
+	{
+		"id": "rashid-wall-splat-heavy-roll",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Blocked DI wall splat into heavy kick and roll kick",
+		"summary": "Use standing heavy kick and forward medium punch after blocked DI at the wall, then finish with the roll kick.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat"],
+		"outcomes": ["Conversion"],
+		"notation": "DI > st.HK > f.MP > 214LP > 6K > K",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "f.MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP",
+				"label": "Light Arabian Cyclone"
+			},
+			{
+				"id": "step-5",
+				"notation": "6K",
+				"label": "Forward-roll follow-up",
+				"cue": "Forward + kick during Arabian Cyclone."
+			},
+			{
+				"id": "step-6",
+				"notation": "K",
+				"label": "Roll kick follow-up",
+				"cue": "Kick during the forward-roll continuation."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent blocks Drive Impact at the wall",
+			"Wall splat, not Punish Counter crumple or burnout stun"
+		],
+		"notes": [
+			"The reversal attempt after the combo is excluded; no universal ender safety is claimed."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 127.65,
+			"end": 132.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-25 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-wall-splat-heavy-roll/clip.mp4",
+			"poster": "/media/rashid/rashid-wall-splat-heavy-roll/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-wall-splat-heavy-roll/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-wall-splat-heavy-roll/frame-1.jpg",
+					"at": 0.61,
+					"label": "Blocked DI wall splat",
+					"alt": "Luke blocks Drive Impact beside the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-wall-splat-heavy-roll/frame-2.jpg",
+					"at": 2.01,
+					"label": "Heavy-kick pickup",
+					"alt": "Standing heavy kick picks up the wall-splatted Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-wall-splat-heavy-roll/frame-3.jpg",
+					"at": 3.55,
+					"label": "Roll continuation",
+					"alt": "The Cyclone roll kick catches the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-wall-splat-heavy-roll/frame-4.jpg",
+					"at": 4.05,
+					"label": "Roll-kick finish",
+					"alt": "Rashid finishes the rolling kick juggle before the opponent wakes."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-counter-di-corner-escape",
+			"rashid-counter-di-jump-heavy-roll",
+			"rashid-corner-heavy-punish-level-one"
+		]
+	},
+	{
+		"id": "rashid-corner-heavy-punish-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Corner heavy punish through OD specials into Level 1",
+		"summary": "Punish at the wall with heavy punch, then OD Cyclone, OD Mixer and OD Eagle Spike before medium Mixer and Level 1.",
+		"kind": "combo",
+		"situations": ["Corner", "Punish counter", "Juggle extension", "Super finish"],
+		"outcomes": ["Conversion"],
+		"notation": "st.HP > 214PP > 236PP > 214KK > 236MP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214PP",
+				"label": "Overdrive Arabian Cyclone",
+				"cue": "Quarter-circle back + two punches."
+			},
+			{
+				"id": "step-3",
+				"notation": "236PP",
+				"label": "Overdrive Spinning Mixer",
+				"cue": "Quarter-circle forward + two punches."
+			},
+			{
+				"id": "step-4",
+				"notation": "214KK",
+				"label": "Overdrive Eagle Spike",
+				"cue": "Quarter-circle back + two kicks."
+			},
+			{
+				"id": "step-5",
+				"notation": "236MP",
+				"label": "Medium Spinning Mixer",
+				"cue": "Quarter-circle forward + medium punch."
+			},
+			{
+				"id": "step-6",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing heavy punch Punish Counter",
+			"Opponent at the wall",
+			"Enough Drive for three Overdrive specials",
+			"One Super stock"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Three Overdrive specials",
+			"super": "Level 1 (1 stock)"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 154.9,
+			"end": 164.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-25 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-corner-heavy-punish-level-one/clip.mp4",
+			"poster": "/media/rashid/rashid-corner-heavy-punish-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-corner-heavy-punish-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-corner-heavy-punish-level-one/frame-1.jpg",
+					"at": 0.5,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch starts the corner Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-corner-heavy-punish-level-one/frame-2.jpg",
+					"at": 1.72,
+					"label": "OD Cyclone",
+					"alt": "Overdrive Arabian Cyclone continues the corner juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-corner-heavy-punish-level-one/frame-3.jpg",
+					"at": 3.52,
+					"label": "OD juggle",
+					"alt": "The OD Mixer and Eagle Spike route keeps Dee Jay airborne."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-corner-heavy-punish-level-one/frame-4.jpg",
+					"at": 5.5,
+					"label": "Medium Mixer",
+					"alt": "Medium Spinning Mixer leads into Level 1."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/rashid/rashid-corner-heavy-punish-level-one/frame-5.jpg",
+					"at": 7.3,
+					"label": "Level 1 finish",
+					"alt": "Rashid finishes with Level 1 Super Art."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-midscreen-heavy-punish-cashout",
+			"rashid-target-od-shot-rush-roll",
+			"rashid-low-rush-od-cyclone-eagle"
+		]
+	},
+	{
+		"id": "rashid-midscreen-heavy-punish-cashout",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Midscreen crouching-heavy punish into Level 3",
+		"summary": "Convert a crouching-heavy Punish Counter through two Rush extensions, target combo and heavy Cyclone into Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Drive Rush", "Cash out", "Super finish"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.HP > st.HP > DRC > cr.HP > st.HP > DRC > st.MK > st.MP > st.HK > 214HP > 4K > K > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-10",
+				"notation": "214HP",
+				"label": "Heavy Arabian Cyclone",
+				"cue": "Quarter-circle back + heavy punch."
+			},
+			{
+				"id": "step-11",
+				"notation": "4K",
+				"label": "Backward airborne transition"
+			},
+			{
+				"id": "step-12",
+				"notation": "K",
+				"label": "Airborne kick continuation"
+			},
+			{
+				"id": "step-13",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching heavy punch Punish Counter",
+			"Enough Drive for two cancel Drive Rushes",
+			"Three Super stocks"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Two cancel Drive Rushes",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 165.15,
+			"end": 180.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-25 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-midscreen-heavy-punish-cashout/clip.mp4",
+			"poster": "/media/rashid/rashid-midscreen-heavy-punish-cashout/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-midscreen-heavy-punish-cashout/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-midscreen-heavy-punish-cashout/frame-1.jpg",
+					"at": 1.05,
+					"label": "Crouching-heavy punish",
+					"alt": "Crouching heavy punch starts the Punish Counter on Rashid."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-midscreen-heavy-punish-cashout/frame-2.jpg",
+					"at": 1.73,
+					"label": "Rush extension",
+					"alt": "Rashid links heavy normals through the Rush route."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-midscreen-heavy-punish-cashout/frame-3.jpg",
+					"at": 4.93,
+					"label": "Airborne continuation",
+					"alt": "Heavy Cyclone leads into its airborne continuation."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-midscreen-heavy-punish-cashout/frame-4.jpg",
+					"at": 8.45,
+					"label": "Level 3",
+					"alt": "Rashid spends Level 3 after the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/rashid/rashid-midscreen-heavy-punish-cashout/frame-5.jpg",
+					"at": 14.8,
+					"label": "Super finish",
+					"alt": "The Level 3 cinematic reaches its finishing strike."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-target-od-shot-rush-roll",
+			"rashid-low-rush-od-cyclone-eagle",
+			"rashid-crouching-medium-rush-air-finish"
+		]
+	}
+]

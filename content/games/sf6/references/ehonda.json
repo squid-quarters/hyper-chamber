@@ -1,0 +1,1400 @@
+[
+	{
+		"id": "ehonda-low-lights-headbutt",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Low lights into medium Headbutt",
+		"summary": "Crouching light kick and jab convert into medium Sumo Headbutt.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LK > cr.LP > [4]6MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "[4]6MP",
+				"label": "Medium Sumo Headbutt",
+				"cue": "Hold back before releasing forward + medium punch"
+			}
+		],
+		"conditions": ["Classic controls", "Back charge ready"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 2.65,
+			"end": 6.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-low-lights-headbutt/clip.mp4",
+			"poster": "/media/ehonda/ehonda-low-lights-headbutt/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-low-lights-headbutt/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-low-lights-headbutt/frame-1.jpg",
+					"at": 0.55,
+					"label": "Low starter",
+					"alt": "Honda starts with crouching light kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-low-lights-headbutt/frame-2.jpg",
+					"at": 1.05,
+					"label": "Jab confirm",
+					"alt": "Honda connects crouching light punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-low-lights-headbutt/frame-3.jpg",
+					"at": 1.5,
+					"label": "Headbutt",
+					"alt": "Honda travels forward with medium Headbutt."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-low-lights-headbutt/frame-4.jpg",
+					"at": 2.75,
+					"label": "Knockdown",
+					"alt": "Honda recovers after the Headbutt."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho",
+			"ehonda-lights-medium-hands"
+		]
+	},
+	{
+		"id": "ehonda-corner-headbutt-frame-kill-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Corner Headbutt oki: frame kill into throw",
+		"summary": "After the Headbutt route, whiff crouching medium kick before the delayed normal throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw pressure"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.MK > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Whiff crouching medium kick",
+				"cue": "Intentional frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Delayed forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Preceding low-lights medium Headbutt at the corner, shown as +40F"
+		],
+		"notes": ["The throw is a separate wake-up interaction. The whiffed kick is intentional."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 57.75,
+			"end": 62.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-corner-headbutt-frame-kill-throw/clip.mp4",
+			"poster": "/media/ehonda/ehonda-corner-headbutt-frame-kill-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-corner-headbutt-frame-kill-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-corner-headbutt-frame-kill-throw/frame-1.jpg",
+					"at": 0.05,
+					"label": "Headbutt knockdown",
+					"alt": "Honda lands from the corner Headbutt."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-corner-headbutt-frame-kill-throw/frame-2.jpg",
+					"at": 0.25,
+					"label": "Frame kill",
+					"alt": "Honda intentionally whiffs crouching medium kick over the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-corner-headbutt-frame-kill-throw/frame-3.jpg",
+					"at": 0.95,
+					"label": "Delayed throw",
+					"alt": "Honda throws Ryu after the frame kill."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-corner-headbutt-frame-kill-throw/frame-4.jpg",
+					"at": 2.75,
+					"label": "Throw result",
+					"alt": "Ryu lands beside Honda after the throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-smash-jab-kill-oicho",
+			"ehonda-corner-counter-di-lift-headbutt",
+			"ehonda-low-lights-headbutt"
+		]
+	},
+	{
+		"id": "ehonda-lights-medium-smash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Low lights into medium Sumo Smash",
+		"summary": "Use down charge through the light string to reach the rising-and-falling Sumo Smash.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LK > cr.LP > [2]8MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "[2]8MK",
+				"label": "Medium Sumo Smash",
+				"cue": "Preserve down charge; yellow kick shown in the input history"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent standing", "Down charge ready"],
+		"notes": ["The source explicitly limits the light-to-Smash conversion to a standing opponent."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 97.35,
+			"end": 101.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-lights-medium-smash/clip.mp4",
+			"poster": "/media/ehonda/ehonda-lights-medium-smash/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-lights-medium-smash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-lights-medium-smash/frame-1.jpg",
+					"at": 0.65,
+					"label": "Low lights",
+					"alt": "Honda connects the crouching light starter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-lights-medium-smash/frame-2.jpg",
+					"at": 1.65,
+					"label": "Smash ascent",
+					"alt": "Honda launches upward with medium Sumo Smash."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-lights-medium-smash/frame-3.jpg",
+					"at": 2.65,
+					"label": "Smash landing",
+					"alt": "Honda lands on the standing opponent."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-smash-jab-kill-oicho",
+			"ehonda-lights-medium-hands"
+		]
+	},
+	{
+		"id": "ehonda-smash-jab-kill-oicho",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Sumo Smash oki: jab frame kill into Oicho",
+		"summary": "Whiff a crouching jab after the demonstrated Smash knockdown, then attempt heavy Oicho Throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw pressure"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LP > 63214HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Whiff crouching jab",
+				"cue": "Intentional frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "63214HK",
+				"label": "Heavy Oicho Throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Preceding medium Sumo Smash knockdown, shown as +23F",
+			"Opponent remains throwable on wake-up"
+		],
+		"notes": [
+			"The clip starts at the end of the preceding Smash. The command throw is an attempt after wake-up, not part of the preceding combo."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 151.35,
+			"end": 155.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-smash-jab-kill-oicho/clip.mp4",
+			"poster": "/media/ehonda/ehonda-smash-jab-kill-oicho/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-smash-jab-kill-oicho/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-smash-jab-kill-oicho/frame-1.jpg",
+					"at": 0.05,
+					"label": "Smash landing",
+					"alt": "Honda lands from the preceding medium Sumo Smash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-smash-jab-kill-oicho/frame-2.jpg",
+					"at": 0.25,
+					"label": "Jab frame kill",
+					"alt": "Honda whiffs crouching light punch over the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-smash-jab-kill-oicho/frame-3.jpg",
+					"at": 1.0,
+					"label": "Oicho Throw",
+					"alt": "Honda carries Ryu into heavy Oicho Throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-smash-jab-kill-oicho/frame-4.jpg",
+					"at": 2.25,
+					"label": "Throw landing",
+					"alt": "Honda lands after the command throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-corner-headbutt-frame-kill-throw",
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash"
+		]
+	},
+	{
+		"id": "ehonda-lights-medium-hands",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Low lights into medium Hundred Hand Slap",
+		"summary": "A compact light confirm finishes with the medium rapid-palm special.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LK > cr.LP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP",
+				"label": "Medium Hundred Hand Slap"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 174.75,
+			"end": 178.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-lights-medium-hands/clip.mp4",
+			"poster": "/media/ehonda/ehonda-lights-medium-hands/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-lights-medium-hands/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-lights-medium-hands/frame-1.jpg",
+					"at": 0.6,
+					"label": "Low starter",
+					"alt": "Honda begins the crouching light sequence."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-lights-medium-hands/frame-2.jpg",
+					"at": 1.2,
+					"label": "Jab cancel",
+					"alt": "Honda connects crouching jab before the special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-lights-medium-hands/frame-3.jpg",
+					"at": 2.0,
+					"label": "Hundred Hand Slap",
+					"alt": "Honda continues the medium palm strikes."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho"
+		]
+	},
+	{
+		"id": "ehonda-lights-rush-lift-smash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Lights into Rush, Lift and Smash",
+		"summary": "Cancel the light confirm into Rush, cancel only the first heavy-kick hit into Sumo Dash, then juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LK > cr.LP > DRC > cr.LP > st.HK > 236K > 2P > [2]8MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "Standing heavy kick, first hit",
+				"cue": "Cancel before its second hit"
+			},
+			{
+				"id": "step-6",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-7",
+				"notation": "2P",
+				"label": "Taiho Cannon Lift",
+				"cue": "Down + punch during Sumo Dash"
+			},
+			{
+				"id": "step-8",
+				"notation": "[2]8MK",
+				"label": "Medium Sumo Smash",
+				"cue": "Preserve down charge; yellow kick shown in the input history"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "One cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 178.75,
+			"end": 185.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-lights-rush-lift-smash/clip.mp4",
+			"poster": "/media/ehonda/ehonda-lights-rush-lift-smash/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-lights-rush-lift-smash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-lights-rush-lift-smash/frame-1.jpg",
+					"at": 0.8,
+					"label": "Light confirm",
+					"alt": "Honda connects crouching light kick and jab."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-lights-rush-lift-smash/frame-2.jpg",
+					"at": 1.55,
+					"label": "Rush extension",
+					"alt": "Honda rushes into another crouching jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-lights-rush-lift-smash/frame-3.jpg",
+					"at": 2.65,
+					"label": "Cannon Lift",
+					"alt": "Honda launches Ryu with the down-punch Dash follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-lights-rush-lift-smash/frame-4.jpg",
+					"at": 3.95,
+					"label": "Smash juggle",
+					"alt": "Honda catches Ryu with medium Sumo Smash."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho"
+		]
+	},
+	{
+		"id": "ehonda-spirit-light-cashout",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Sumo Spirit light confirm into Level 3",
+		"summary": "The empowered heavy Hands route links more jabs, spends two Rush cancels and finishes through Lift and Headbutt.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Cash out", "Drive Rush"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LK > cr.LP > 22P > 214HP > cr.LP > cr.LP > DRC > cr.LP > st.HK > DRC > st.MP > st.HP > 236K > 2P > 3HK > [4]6HP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "22P",
+				"label": "Neko Damashi"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Sumo Spirit heavy Hundred Hand Slap",
+				"cue": "Requires Sumo Spirit already stocked"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.HK",
+				"label": "Standing heavy kick, first hit"
+			},
+			{
+				"id": "step-10",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-11",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-12",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-13",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-14",
+				"notation": "2P",
+				"label": "Taiho Cannon Lift",
+				"cue": "Down + punch during Sumo Dash"
+			},
+			{
+				"id": "step-15",
+				"notation": "3HK",
+				"label": "Toko Shizume",
+				"cue": "Down-forward heavy kick; overhead"
+			},
+			{
+				"id": "step-16",
+				"notation": "[4]6HP",
+				"label": "Heavy Sumo Headbutt",
+				"cue": "Preserve back charge during the link"
+			},
+			{
+				"id": "step-17",
+				"notation": "SA3",
+				"label": "The Final Bout",
+				"cue": "236236K"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Sumo Spirit stocked before heavy Hands",
+			"Start with full Drive and three Super stocks"
+		],
+		"notes": [
+			"22P is Neko Damashi, the clap. The “Sumo Spirit” text in the creator’s route describes empowered Hands; it is not the name of the 22P input."
+		],
+		"resources": {
+			"drive": "Two cancel Drive Rushes; reaches burnout",
+			"super": "3 Super stocks"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 203.35,
+			"end": 219.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-spirit-light-cashout/clip.mp4",
+			"poster": "/media/ehonda/ehonda-spirit-light-cashout/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-spirit-light-cashout/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-spirit-light-cashout/frame-1.jpg",
+					"at": 1.45,
+					"label": "Light and clap",
+					"alt": "Honda confirms the lights into Neko Damashi."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-spirit-light-cashout/frame-2.jpg",
+					"at": 3.65,
+					"label": "Empowered Hands",
+					"alt": "Honda hits with Sumo Spirit heavy Hands."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-spirit-light-cashout/frame-3.jpg",
+					"at": 6.35,
+					"label": "Rush links",
+					"alt": "Honda extends the jab and heavy links with Rush cancels."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-spirit-light-cashout/frame-4.jpg",
+					"at": 9.15,
+					"label": "Lift and Headbutt",
+					"alt": "Honda continues the juggle through Lift and heavy Headbutt."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ehonda/ehonda-spirit-light-cashout/frame-5.jpg",
+					"at": 12.85,
+					"label": "The Final Bout",
+					"alt": "Honda finishes with the Level 3 cinematic."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho"
+		]
+	},
+	{
+		"id": "ehonda-low-medium-double-slaps",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Low medium into Double Slaps and Dash",
+		"summary": "Crouching medium kick links into the standing light-to-medium target combo before both Teppo follow-ups.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.MK > st.LP > st.MP > 236K > P > P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Double Slaps target follow-up",
+				"cue": "Medium punch after standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-5",
+				"notation": "P",
+				"label": "Teppo Triple Slap, first follow-up",
+				"cue": "Punch during Sumo Dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "P",
+				"label": "Teppo Triple Slap, final follow-up",
+				"cue": "Press punch again"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 380.45,
+			"end": 385.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-low-medium-double-slaps/clip.mp4",
+			"poster": "/media/ehonda/ehonda-low-medium-double-slaps/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-low-medium-double-slaps/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-low-medium-double-slaps/frame-1.jpg",
+					"at": 0.65,
+					"label": "Low medium kick",
+					"alt": "Honda connects crouching medium kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-low-medium-double-slaps/frame-2.jpg",
+					"at": 1.2,
+					"label": "Double Slaps",
+					"alt": "Honda links the standing light-to-medium target sequence."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-low-medium-double-slaps/frame-3.jpg",
+					"at": 2.15,
+					"label": "Dash follow-up",
+					"alt": "Honda strikes from Sumo Dash."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-low-medium-double-slaps/frame-4.jpg",
+					"at": 3.05,
+					"label": "Final Teppo slap",
+					"alt": "Honda finishes the two-stage follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho"
+		]
+	},
+	{
+		"id": "ehonda-medium-rush-lift-smash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Medium confirm into Rush, Lift and Smash",
+		"summary": "Standing medium punch rush-cancels into the heavy link before Cannon Lift and the down-charge juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush"],
+		"outcomes": ["Conversion"],
+		"notation": "st.MP > DRC > st.MP > st.HP > 236K > 2P > [2]8MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "2P",
+				"label": "Taiho Cannon Lift",
+				"cue": "Down + punch during Sumo Dash"
+			},
+			{
+				"id": "step-7",
+				"notation": "[2]8MK",
+				"label": "Medium Sumo Smash",
+				"cue": "Preserve down charge; yellow kick shown in the input history"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "One cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 419.55,
+			"end": 425.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-medium-rush-lift-smash/clip.mp4",
+			"poster": "/media/ehonda/ehonda-medium-rush-lift-smash/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-medium-rush-lift-smash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-medium-rush-lift-smash/frame-1.jpg",
+					"at": 0.55,
+					"label": "Medium Rush",
+					"alt": "Honda cancels standing medium punch into Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-medium-rush-lift-smash/frame-2.jpg",
+					"at": 1.45,
+					"label": "Heavy link",
+					"alt": "Honda links standing heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-medium-rush-lift-smash/frame-3.jpg",
+					"at": 2.45,
+					"label": "Cannon Lift",
+					"alt": "Honda launches Ryu with Taiho Cannon Lift."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-medium-rush-lift-smash/frame-4.jpg",
+					"at": 3.95,
+					"label": "Smash finish",
+					"alt": "Honda ends with medium Sumo Smash."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho"
+		]
+	},
+	{
+		"id": "ehonda-counter-medium-headbutt",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Counter-hit medium into crouching medium",
+		"summary": "The Counter Hit starter links crouching medium punch into heavy Headbutt.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "CH st.MP > cr.MP > [4]6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "CH st.MP",
+				"label": "Counter-hit standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "[4]6HP",
+				"label": "Heavy Sumo Headbutt",
+				"cue": "Preserve back charge during the link"
+			}
+		],
+		"conditions": ["Classic controls", "First medium punch is Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 451.4,
+			"end": 456.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-counter-medium-headbutt/clip.mp4",
+			"poster": "/media/ehonda/ehonda-counter-medium-headbutt/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-counter-medium-headbutt/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-counter-medium-headbutt/frame-1.jpg",
+					"at": 1.2,
+					"label": "Counter-hit medium",
+					"alt": "Honda lands the standing medium punch as Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-counter-medium-headbutt/frame-2.jpg",
+					"at": 1.55,
+					"label": "Crouching medium",
+					"alt": "Honda links crouching medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-counter-medium-headbutt/frame-3.jpg",
+					"at": 2.2,
+					"label": "Heavy Headbutt",
+					"alt": "Honda knocks Ryu away with the heavy charge special."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho"
+		]
+	},
+	{
+		"id": "ehonda-heavy-punish-lift-smash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Heavy Punish Counter into Lift and Smash",
+		"summary": "A heavy-punch crumple gives Sumo Dash time to reach Cannon Lift.",
+		"kind": "combo",
+		"situations": ["Punish"],
+		"outcomes": ["Conversion"],
+		"notation": "PC st.HP > 236K > 2P > [2]8MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "PC st.HP",
+				"label": "Punish-counter standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "2P",
+				"label": "Taiho Cannon Lift",
+				"cue": "Down + punch during Sumo Dash"
+			},
+			{
+				"id": "step-4",
+				"notation": "[2]8MK",
+				"label": "Medium Sumo Smash",
+				"cue": "Preserve down charge; yellow kick shown in the input history"
+			}
+		],
+		"conditions": ["Classic controls", "Heavy punch lands as Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 487.05,
+			"end": 493.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-heavy-punish-lift-smash/clip.mp4",
+			"poster": "/media/ehonda/ehonda-heavy-punish-lift-smash/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-heavy-punish-lift-smash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-heavy-punish-lift-smash/frame-1.jpg",
+					"at": 0.7,
+					"label": "Heavy punish",
+					"alt": "Honda crumples Ryu with standing heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-heavy-punish-lift-smash/frame-2.jpg",
+					"at": 1.45,
+					"label": "Sumo Dash",
+					"alt": "Honda moves forward during the crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-heavy-punish-lift-smash/frame-3.jpg",
+					"at": 2.3,
+					"label": "Cannon Lift",
+					"alt": "Honda launches Ryu with the Dash follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-heavy-punish-lift-smash/frame-4.jpg",
+					"at": 3.45,
+					"label": "Smash finish",
+					"alt": "Honda lands the down-charge juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-corner-headbutt-frame-kill-throw",
+			"ehonda-lights-medium-smash"
+		]
+	},
+	{
+		"id": "ehonda-rush-overhead-lights",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Rush overhead into light conversion",
+		"summary": "Drive Rush adds the hit advantage needed for Toko Shizume to link two jabs before medium Smash.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Overhead", "Drive Rush"],
+		"outcomes": ["Conversion"],
+		"notation": "DR > 3HK > cr.LP > cr.LP > [2]8MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "3HK",
+				"label": "Toko Shizume",
+				"cue": "Down-forward heavy kick; overhead"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "[2]8MK",
+				"label": "Medium Sumo Smash",
+				"cue": "Preserve down charge; yellow kick shown in the input history"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "One raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 732.1,
+			"end": 738.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-rush-overhead-lights/clip.mp4",
+			"poster": "/media/ehonda/ehonda-rush-overhead-lights/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-rush-overhead-lights/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-rush-overhead-lights/frame-1.jpg",
+					"at": 0.7,
+					"label": "Rush overhead",
+					"alt": "Honda strikes with down-forward heavy kick from Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-rush-overhead-lights/frame-2.jpg",
+					"at": 1.6,
+					"label": "Jab links",
+					"alt": "Honda connects crouching jabs after the overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-rush-overhead-lights/frame-3.jpg",
+					"at": 2.55,
+					"label": "Smash juggle",
+					"alt": "Honda converts the lights into medium Sumo Smash."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho"
+		]
+	},
+	{
+		"id": "ehonda-corner-counter-di-lift-headbutt",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Corner counter DI into Lift and Headbutt",
+		"summary": "The corner DI crumple reaches heavy punch, Cannon Lift, Toko Shizume and heavy Headbutt.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact"],
+		"outcomes": ["Conversion"],
+		"notation": "DI > st.HP > 236K > 2P > 3HK > [4]6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-4",
+				"notation": "2P",
+				"label": "Taiho Cannon Lift",
+				"cue": "Down + punch during Sumo Dash"
+			},
+			{
+				"id": "step-5",
+				"notation": "3HK",
+				"label": "Toko Shizume",
+				"cue": "Down-forward heavy kick; overhead"
+			},
+			{
+				"id": "step-6",
+				"notation": "[4]6HP",
+				"label": "Heavy Sumo Headbutt",
+				"cue": "Preserve back charge during the link"
+			}
+		],
+		"conditions": ["Classic controls", "Drive Impact lands as Punish Counter", "Corner as shown"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 1390.85,
+			"end": 1400.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-03-28 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-corner-counter-di-lift-headbutt/clip.mp4",
+			"poster": "/media/ehonda/ehonda-corner-counter-di-lift-headbutt/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-corner-counter-di-lift-headbutt/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-corner-counter-di-lift-headbutt/frame-1.jpg",
+					"at": 2.35,
+					"label": "Counter DI",
+					"alt": "Honda crumples Ryu at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-corner-counter-di-lift-headbutt/frame-2.jpg",
+					"at": 3.7,
+					"label": "Heavy starter",
+					"alt": "Honda connects standing heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-corner-counter-di-lift-headbutt/frame-3.jpg",
+					"at": 5.15,
+					"label": "Cannon Lift",
+					"alt": "Honda launches Ryu from Sumo Dash."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-corner-counter-di-lift-headbutt/frame-4.jpg",
+					"at": 6.45,
+					"label": "Airborne stomp",
+					"alt": "Honda juggles with Toko Shizume."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ehonda/ehonda-corner-counter-di-lift-headbutt/frame-5.jpg",
+					"at": 7.5,
+					"label": "Headbutt finish",
+					"alt": "Honda finishes with heavy Headbutt."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-corner-headbutt-frame-kill-throw",
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash"
+		]
+	}
+]

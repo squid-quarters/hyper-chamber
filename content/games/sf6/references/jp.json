@@ -1,0 +1,1508 @@
+[
+	{
+		"id": "jp-ebios-lights-light-stribog",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Crouching jab and standing jab into light Stribog",
+		"summary": "Use the close light chain and finish with light Stribog.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 5LP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LP",
+				"label": "Light Stribog"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": ["The excerpt ends before the separate Departure placement demonstrated afterward."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 424.05,
+			"end": 425.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-lights-light-stribog/clip.mp4",
+			"poster": "/media/jp/jp-ebios-lights-light-stribog/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-lights-light-stribog/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-lights-light-stribog/frame-1.jpg",
+					"at": 0.5,
+					"label": "Crouching jab",
+					"alt": "Crouching jab begins the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-lights-light-stribog/frame-2.jpg",
+					"at": 0.95,
+					"label": "Standing-jab link",
+					"alt": "Standing light punch continues into the special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-lights-light-stribog/frame-3.jpg",
+					"at": 1.6,
+					"label": "Light Stribog",
+					"alt": "Light Stribog knocks Ryu away."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-lights-rush-back-medium-target",
+			"jp-ebios-drive-reversal-jab-medium-kick",
+			"jp-ebios-rush-overhead-medium-stribog"
+		]
+	},
+	{
+		"id": "jp-ebios-lights-rush-back-medium-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Light confirm: Rush into the back-medium target",
+		"summary": "Spend a Rush cancel to extend the lights with the back-medium target and medium Stribog.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Drive Rush", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 5LP > DRC > 2LP > 4MP > ~MP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "4MP",
+				"label": "Back medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "~MP",
+				"label": "Medium target continuation"
+			},
+			{
+				"id": "step-7",
+				"notation": "236MP",
+				"label": "Medium Stribog"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The caption also lists crouching medium punch. The input history in this take shows the back-medium target branch."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 429.2,
+			"end": 432.88
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-lights-rush-back-medium-target/clip.mp4",
+			"poster": "/media/jp/jp-ebios-lights-rush-back-medium-target/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-lights-rush-back-medium-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-lights-rush-back-medium-target/frame-1.jpg",
+					"at": 0.8,
+					"label": "Light confirm",
+					"alt": "The initial crouching and standing jabs begin the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-lights-rush-back-medium-target/frame-2.jpg",
+					"at": 1.25,
+					"label": "Rush jab",
+					"alt": "The Rush cancel leads into crouching jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-lights-rush-back-medium-target/frame-3.jpg",
+					"at": 1.8,
+					"label": "Back-medium target",
+					"alt": "Back medium punch and its medium continuation extend the route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-ebios-lights-rush-back-medium-target/frame-4.jpg",
+					"at": 3.15,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog completes the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-heavy-target-rush-launch-spike",
+			"jp-ebios-lights-light-stribog",
+			"jp-ebios-rush-overhead-medium-stribog"
+		]
+	},
+	{
+		"id": "jp-ebios-drive-reversal-jab-medium-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Drive Reversal punish: jab and medium kick into Stribog",
+		"summary": "Guard Ryu’s recorded Drive Reversal and punish with crouching jab, standing medium kick and medium Stribog.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Reversal punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 5MK > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Stribog"
+			}
+		],
+		"conditions": ["Classic controls", "Guard the shown Drive Reversal within jab range"],
+		"notes": [
+			"The caption prints 236MK, but the performed take and input history show medium-punch Stribog (236MP). The listed Level 2 is not performed."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 451.1,
+			"end": 454.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-drive-reversal-jab-medium-kick/clip.mp4",
+			"poster": "/media/jp/jp-ebios-drive-reversal-jab-medium-kick/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-drive-reversal-jab-medium-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-drive-reversal-jab-medium-kick/frame-1.jpg",
+					"at": 0.9,
+					"label": "Guard Drive Reversal",
+					"alt": "JP guards the recorded Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-drive-reversal-jab-medium-kick/frame-2.jpg",
+					"at": 1.55,
+					"label": "Jab punish",
+					"alt": "Crouching jab starts the Punish Counter conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-drive-reversal-jab-medium-kick/frame-3.jpg",
+					"at": 1.9,
+					"label": "Medium-kick link",
+					"alt": "Standing medium kick links after the punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-ebios-drive-reversal-jab-medium-kick/frame-4.jpg",
+					"at": 2.9,
+					"label": "Stribog finish",
+					"alt": "Medium Stribog completes the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-low-punish-medium-stribog",
+			"jp-ebios-counter-di-walk-heavy-projectile-spike",
+			"jp-ebios-lights-light-stribog"
+		]
+	},
+	{
+		"id": "jp-ebios-rush-overhead-medium-stribog",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Rush overhead: crouching medium into Stribog",
+		"summary": "Use Rush forward medium kick to start the overhead route, then crouching medium and medium Stribog.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Overhead", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 6MK > 2MP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "6MK",
+				"label": "Forward-medium-kick overhead"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "Medium Stribog"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 459.25,
+			"end": 462.67
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-rush-overhead-medium-stribog/clip.mp4",
+			"poster": "/media/jp/jp-ebios-rush-overhead-medium-stribog/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-rush-overhead-medium-stribog/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-rush-overhead-medium-stribog/frame-1.jpg",
+					"at": 0.75,
+					"label": "Rush approach",
+					"alt": "Drive Rush closes the gap."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-rush-overhead-medium-stribog/frame-2.jpg",
+					"at": 1.75,
+					"label": "Overhead starter",
+					"alt": "Forward medium kick hits as an overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-rush-overhead-medium-stribog/frame-3.jpg",
+					"at": 2.3,
+					"label": "Medium link",
+					"alt": "Crouching medium punch links into Stribog."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-ebios-rush-overhead-medium-stribog/frame-4.jpg",
+					"at": 3.25,
+					"label": "Special finish",
+					"alt": "Medium Stribog knocks Ryu away."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-lights-rush-back-medium-target",
+			"jp-ebios-rush-low-medium-stribog",
+			"jp-ebios-heavy-target-rush-launch-spike"
+		]
+	},
+	{
+		"id": "jp-ebios-rush-low-medium-stribog",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Rush low: crouching-medium link into Stribog",
+		"summary": "Choose crouching medium kick after Rush and link crouching medium punch into medium Stribog.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 2MK > 2MP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "Medium Stribog"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 466.15,
+			"end": 468.97
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-rush-low-medium-stribog/clip.mp4",
+			"poster": "/media/jp/jp-ebios-rush-low-medium-stribog/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-rush-low-medium-stribog/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-rush-low-medium-stribog/frame-1.jpg",
+					"at": 0.85,
+					"label": "Low starter",
+					"alt": "Rush crouching medium kick starts the low route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-rush-low-medium-stribog/frame-2.jpg",
+					"at": 1.4,
+					"label": "Medium link",
+					"alt": "Crouching medium punch follows the low kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-rush-low-medium-stribog/frame-3.jpg",
+					"at": 2.2,
+					"label": "Medium Stribog",
+					"alt": "The special finishes the low conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-lights-rush-back-medium-target",
+			"jp-ebios-rush-overhead-medium-stribog",
+			"jp-ebios-low-punish-medium-stribog"
+		]
+	},
+	{
+		"id": "jp-ebios-medium-od-stribog-heavy-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Medium confirm: OD Stribog into heavy Triglav",
+		"summary": "Use the OD launcher after crouching medium punch and finish with heavy Triglav.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP > 236PP > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236PP",
+				"label": "OD Stribog"
+			},
+			{
+				"id": "step-3",
+				"notation": "22HP",
+				"label": "Heavy Triglav"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The source caption also offers standing medium kick and a Level-3 extension. This selected take starts with crouching medium punch and spends no Super."
+		],
+		"resources": {
+			"drive": "OD Stribog",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 486.15,
+			"end": 489.27
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-medium-od-stribog-heavy-spike/clip.mp4",
+			"poster": "/media/jp/jp-ebios-medium-od-stribog-heavy-spike/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-medium-od-stribog-heavy-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-medium-od-stribog-heavy-spike/frame-1.jpg",
+					"at": 0.85,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-medium-od-stribog-heavy-spike/frame-2.jpg",
+					"at": 1.85,
+					"label": "OD launch",
+					"alt": "OD Stribog sends Ryu airborne."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-medium-od-stribog-heavy-spike/frame-3.jpg",
+					"at": 2.85,
+					"label": "Heavy Triglav",
+					"alt": "Heavy Triglav continues the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-medium-double-od-level-three",
+			"jp-ebios-heavy-target-rush-launch-spike",
+			"jp-ebios-anti-air-forward-kick-medium-spike"
+		]
+	},
+	{
+		"id": "jp-ebios-low-punish-medium-stribog",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Low Punish Counter: medium link into Stribog",
+		"summary": "Link crouching medium punch after the crouching-medium-kick Punish Counter.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > 2MP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Stribog"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching medium kick Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 580.05,
+			"end": 582.53
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-low-punish-medium-stribog/clip.mp4",
+			"poster": "/media/jp/jp-ebios-low-punish-medium-stribog/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-low-punish-medium-stribog/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-low-punish-medium-stribog/frame-1.jpg",
+					"at": 0.95,
+					"label": "Low punish",
+					"alt": "Crouching medium kick connects as Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-low-punish-medium-stribog/frame-2.jpg",
+					"at": 1.4,
+					"label": "Medium link",
+					"alt": "Crouching medium punch links after the low punish."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-low-punish-medium-stribog/frame-3.jpg",
+					"at": 1.95,
+					"label": "Special finish",
+					"alt": "Medium Stribog completes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-drive-reversal-jab-medium-kick",
+			"jp-ebios-rush-low-medium-stribog",
+			"jp-ebios-counter-di-walk-heavy-projectile-spike"
+		]
+	},
+	{
+		"id": "jp-ebios-heavy-kick-medium-stribog",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy kick: crouching-medium link into Stribog",
+		"summary": "Use standing heavy kick and link crouching medium punch into medium Stribog.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HK > 2MP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Stribog"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 620.15,
+			"end": 622.92
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-heavy-kick-medium-stribog/clip.mp4",
+			"poster": "/media/jp/jp-ebios-heavy-kick-medium-stribog/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-heavy-kick-medium-stribog/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-heavy-kick-medium-stribog/frame-1.jpg",
+					"at": 0.85,
+					"label": "Heavy-kick starter",
+					"alt": "Standing heavy kick begins the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-heavy-kick-medium-stribog/frame-2.jpg",
+					"at": 1.4,
+					"label": "Medium link",
+					"alt": "Crouching medium punch links into the special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-heavy-kick-medium-stribog/frame-3.jpg",
+					"at": 2.3,
+					"label": "Stribog finish",
+					"alt": "Medium Stribog finishes in a knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-heavy-kick-target-stribog",
+			"jp-ebios-heavy-target-rush-launch-spike",
+			"jp-ebios-lights-light-stribog"
+		]
+	},
+	{
+		"id": "jp-ebios-heavy-kick-target-stribog",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy-kick target: heavy continuation into Stribog",
+		"summary": "Use the heavy-kick target’s punch continuation and cancel it into medium Stribog.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HK > ~HP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "~HP",
+				"label": "Heavy-punch target continuation"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Stribog"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The source shows Level 2 as another ender. This take uses medium Stribog and spends no Super."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 626.15,
+			"end": 628.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-heavy-kick-target-stribog/clip.mp4",
+			"poster": "/media/jp/jp-ebios-heavy-kick-target-stribog/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-heavy-kick-target-stribog/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-heavy-kick-target-stribog/frame-1.jpg",
+					"at": 0.5,
+					"label": "Heavy-kick starter",
+					"alt": "Standing heavy kick starts the target route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-heavy-kick-target-stribog/frame-2.jpg",
+					"at": 0.85,
+					"label": "Punch continuation",
+					"alt": "The target heavy-punch continuation follows."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-heavy-kick-target-stribog/frame-3.jpg",
+					"at": 1.85,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog completes the target conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-heavy-target-rush-launch-spike",
+			"jp-ebios-lights-rush-back-medium-target",
+			"jp-ebios-heavy-kick-medium-stribog"
+		]
+	},
+	{
+		"id": "jp-ebios-heavy-target-rush-launch-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy-target Rush: heavy launch, low projectile and spike",
+		"summary": "Spend a Rush cancel after the heavy target, then juggle through heavy Stribog, medium Torbalan and heavy Triglav.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Target combo", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HK > ~HP > DRC > 2HP > 236HP > 236MK > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "~HP",
+				"label": "Heavy-punch target continuation"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "Heavy Stribog"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Torbalan"
+			},
+			{
+				"id": "step-7",
+				"notation": "22HP",
+				"label": "Heavy Triglav"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 632.15,
+			"end": 637.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-heavy-target-rush-launch-spike/clip.mp4",
+			"poster": "/media/jp/jp-ebios-heavy-target-rush-launch-spike/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-heavy-target-rush-launch-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-heavy-target-rush-launch-spike/frame-1.jpg",
+					"at": 0.85,
+					"label": "Heavy target",
+					"alt": "The heavy-kick target starts the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-heavy-target-rush-launch-spike/frame-2.jpg",
+					"at": 1.85,
+					"label": "Rush heavy",
+					"alt": "The Rush cancel leads into crouching heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-heavy-target-rush-launch-spike/frame-3.jpg",
+					"at": 2.85,
+					"label": "Heavy Stribog",
+					"alt": "Heavy Stribog launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-ebios-heavy-target-rush-launch-spike/frame-4.jpg",
+					"at": 3.85,
+					"label": "Torbalan juggle",
+					"alt": "Medium Torbalan continues the airborne conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-ebios-heavy-target-rush-launch-spike/frame-5.jpg",
+					"at": 4.85,
+					"label": "Triglav finish",
+					"alt": "Heavy Triglav completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-lights-rush-back-medium-target",
+			"jp-ebios-heavy-kick-target-stribog",
+			"jp-ebios-rush-overhead-medium-stribog"
+		]
+	},
+	{
+		"id": "jp-ebios-anti-air-forward-kick-medium-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Forward-heavy anti-air into medium Triglav",
+		"summary": "Catch the recorded jump with forward heavy kick and convert into the medium spike placement.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Anti-air", "Counter hit", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "6HK > 22MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "22MP",
+				"label": "Medium Triglav"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Airborne Counter Hit in the selected take",
+			"Match the shown jump distance and Triglav placement"
+		],
+		"notes": ["The caption also lists light Triglav. This take uses medium punch for the spike."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 818.1,
+			"end": 821.04
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-anti-air-forward-kick-medium-spike/clip.mp4",
+			"poster": "/media/jp/jp-ebios-anti-air-forward-kick-medium-spike/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-anti-air-forward-kick-medium-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-anti-air-forward-kick-medium-spike/frame-1.jpg",
+					"at": 0.5,
+					"label": "Airborne approach",
+					"alt": "Ryu approaches from the recorded jump."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-anti-air-forward-kick-medium-spike/frame-2.jpg",
+					"at": 0.9,
+					"label": "Anti-air kick",
+					"alt": "Forward heavy kick counter-hits Ryu in the air."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-anti-air-forward-kick-medium-spike/frame-3.jpg",
+					"at": 1.9,
+					"label": "Medium Triglav",
+					"alt": "Medium Triglav picks up the airborne hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-ebios-anti-air-forward-kick-medium-spike/frame-4.jpg",
+					"at": 2.6,
+					"label": "Landing result",
+					"alt": "Ryu lands after the anti-air conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-medium-od-stribog-heavy-spike",
+			"jp-ebios-heavy-target-rush-launch-spike",
+			"jp-ebios-counter-di-walk-heavy-projectile-spike"
+		]
+	},
+	{
+		"id": "jp-ebios-corner-throw-od-embrace",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Corner throw: OD Embrace against wake-up",
+		"summary": "Attempt OD Embrace after the forward throw against the recorded corner response.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Command grab", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "LP+LK > 214KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			},
+			{
+				"id": "step-2",
+				"notation": "214KK",
+				"label": "OD Embrace"
+			}
+		],
+		"conditions": ["Classic controls", "Match the demonstrated corner forward-throw spacing"],
+		"notes": [
+			"The throw and command grab are separate sequences. The recorded response is caught; other defensive choices remain possible."
+		],
+		"resources": {
+			"drive": "OD Embrace",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 894.15,
+			"end": 901.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-corner-throw-od-embrace/clip.mp4",
+			"poster": "/media/jp/jp-ebios-corner-throw-od-embrace/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-corner-throw-od-embrace/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-corner-throw-od-embrace/frame-1.jpg",
+					"at": 1.85,
+					"label": "Forward throw",
+					"alt": "The initial forward throw begins the setup."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-corner-throw-od-embrace/frame-2.jpg",
+					"at": 2.85,
+					"label": "Throw knockdown",
+					"alt": "Ryu reaches the corner floor."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-corner-throw-od-embrace/frame-3.jpg",
+					"at": 3.85,
+					"label": "OD Embrace attempt",
+					"alt": "JP uses the OD command grab after the knockdown."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-ebios-corner-throw-od-embrace/frame-4.jpg",
+					"at": 4.85,
+					"label": "Command grab",
+					"alt": "OD Embrace catches the recorded response."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-ebios-corner-throw-od-embrace/frame-5.jpg",
+					"at": 6.85,
+					"label": "Hard knockdown",
+					"alt": "The command grab completes the hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-wall-splat-medium-forward-kick-spike",
+			"jp-ebios-lights-light-stribog",
+			"jp-ebios-lights-rush-back-medium-target"
+		]
+	},
+	{
+		"id": "jp-ebios-counter-di-walk-heavy-projectile-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Counter DI: walk-in heavy, Stribog and spike",
+		"summary": "Walk forward after the counter-DI crumple and convert with heavy punch, heavy Stribog, medium Torbalan and medium Triglav.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > Walk forward > 5HP > 236HP > 236MK > 22MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "Heavy Stribog"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Torbalan"
+			},
+			{
+				"id": "step-6",
+				"notation": "22MP",
+				"label": "Medium Triglav"
+			}
+		],
+		"conditions": ["Classic controls", "Win the counter-DI exchange"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 1065.2,
+			"end": 1075.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-counter-di-walk-heavy-projectile-spike/clip.mp4",
+			"poster": "/media/jp/jp-ebios-counter-di-walk-heavy-projectile-spike/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-counter-di-walk-heavy-projectile-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-counter-di-walk-heavy-projectile-spike/frame-1.jpg",
+					"at": 2.4,
+					"label": "Counter DI",
+					"alt": "JP answers the incoming DI."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-counter-di-walk-heavy-projectile-spike/frame-2.jpg",
+					"at": 3.8,
+					"label": "DI win",
+					"alt": "The winning DI creates the Punish Counter crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-counter-di-walk-heavy-projectile-spike/frame-3.jpg",
+					"at": 5.1,
+					"label": "Heavy conversion",
+					"alt": "Walking forward brings standing heavy punch into range."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-ebios-counter-di-walk-heavy-projectile-spike/frame-4.jpg",
+					"at": 6.8,
+					"label": "Projectile juggle",
+					"alt": "Heavy Stribog leads into medium Torbalan."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-ebios-counter-di-walk-heavy-projectile-spike/frame-5.jpg",
+					"at": 7.8,
+					"label": "Medium spike finish",
+					"alt": "Medium Triglav finishes at the demonstrated distance."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-drive-reversal-jab-medium-kick",
+			"jp-ebios-medium-od-stribog-heavy-spike",
+			"jp-ebios-low-punish-medium-stribog"
+		]
+	},
+	{
+		"id": "jp-ebios-wall-splat-medium-forward-kick-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Blocked DI wall splat: medium, forward kick and spike",
+		"summary": "Use the blocked-DI wall splat to juggle crouching medium, forward heavy kick, Stribog and heavy punch into Triglav.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 2MP > 6HK > 236MP > 5HP > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "Medium Stribog"
+			},
+			{
+				"id": "step-5",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "22HP",
+				"label": "Heavy Triglav"
+			}
+		],
+		"conditions": ["Classic controls", "Blocked DI wall splat, not burnout stun"],
+		"notes": [
+			"The open-ended “any” in the caption is replaced with the heavy Triglav finish actually performed."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 1126.65,
+			"end": 1132.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-wall-splat-medium-forward-kick-spike/clip.mp4",
+			"poster": "/media/jp/jp-ebios-wall-splat-medium-forward-kick-spike/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-wall-splat-medium-forward-kick-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-wall-splat-medium-forward-kick-spike/frame-1.jpg",
+					"at": 1.35,
+					"label": "Wall splat",
+					"alt": "Ryu guards DI at the wall and is wall-splatted."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-wall-splat-medium-forward-kick-spike/frame-2.jpg",
+					"at": 2.35,
+					"label": "Crouching-medium pickup",
+					"alt": "Crouching medium punch starts the wall-splat conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-wall-splat-medium-forward-kick-spike/frame-3.jpg",
+					"at": 3.35,
+					"label": "Forward-kick juggle",
+					"alt": "Forward heavy kick links into medium Stribog."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-ebios-wall-splat-medium-forward-kick-spike/frame-4.jpg",
+					"at": 4.35,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch follows the special’s juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-ebios-wall-splat-medium-forward-kick-spike/frame-5.jpg",
+					"at": 5.15,
+					"label": "Heavy Triglav",
+					"alt": "Heavy Triglav hits the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-counter-di-walk-heavy-projectile-spike",
+			"jp-ebios-medium-od-stribog-heavy-spike",
+			"jp-ebios-heavy-target-rush-launch-spike"
+		]
+	},
+	{
+		"id": "jp-ebios-medium-double-od-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Medium cash-out: two OD specials into Level 3",
+		"summary": "Launch with OD Stribog, extend with OD Torbalan and heavy Triglav, then light Stribog into Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Juggle extension", "Cash out", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP > 236PP > 236KK > 22HP > 236LP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236PP",
+				"label": "OD Stribog"
+			},
+			{
+				"id": "step-3",
+				"notation": "236KK",
+				"label": "OD Torbalan"
+			},
+			{
+				"id": "step-4",
+				"notation": "22HP",
+				"label": "Heavy Triglav"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LP",
+				"label": "Light Stribog"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "Enough Drive for two OD specials", "Three Super stocks"],
+		"notes": [
+			"The caption describes a post-launch branch. The performed take begins with crouching medium punch and OD Stribog; those inputs are included here. The input history shows no Rush cancel."
+		],
+		"resources": {
+			"drive": "OD Stribog and OD Torbalan",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 404.3,
+			"end": 420.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, on-screen recipe, input display and demonstrated result reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-ebios-medium-double-od-level-three/clip.mp4",
+			"poster": "/media/jp/jp-ebios-medium-double-od-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-ebios-medium-double-od-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-ebios-medium-double-od-level-three/frame-1.jpg",
+					"at": 0.9,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts the performed take."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-ebios-medium-double-od-level-three/frame-2.jpg",
+					"at": 1.9,
+					"label": "OD Stribog",
+					"alt": "OD Stribog launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-ebios-medium-double-od-level-three/frame-3.jpg",
+					"at": 2.9,
+					"label": "OD Torbalan",
+					"alt": "OD Torbalan extends the juggle and spends the second OD cost."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-ebios-medium-double-od-level-three/frame-4.jpg",
+					"at": 4.7,
+					"label": "Super cancel",
+					"alt": "Heavy Triglav leads into light Stribog and the Level-3 cancel."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-ebios-medium-double-od-level-three/frame-5.jpg",
+					"at": 14.5,
+					"label": "Super finish",
+					"alt": "Level 3 completes the hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-medium-od-stribog-heavy-spike",
+			"jp-ebios-heavy-target-rush-launch-spike",
+			"jp-ebios-anti-air-forward-kick-medium-spike"
+		]
+	}
+]

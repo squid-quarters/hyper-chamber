@@ -1,0 +1,1699 @@
+[
+	{
+		"id": "ed-lights-medium-blitz",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Crouching jabs into medium Psycho Blitz",
+		"summary": "Confirm two crouching jabs and a standing jab into medium Psycho Blitz.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.LP > st.LP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214MP",
+				"label": "Medium Psycho Blitz",
+				"cue": "Quarter-circle back + medium punch."
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 1.0,
+			"end": 4.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-lights-medium-blitz/clip.mp4",
+			"poster": "/media/ed/ed-lights-medium-blitz/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-lights-medium-blitz/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-lights-medium-blitz/frame-1.jpg",
+					"at": 0.75,
+					"label": "Crouching jabs",
+					"alt": "The two crouching jabs begin the light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-lights-medium-blitz/frame-2.jpg",
+					"at": 1.5,
+					"label": "Standing jab",
+					"alt": "Standing light punch continues the jab chain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-lights-medium-blitz/frame-3.jpg",
+					"at": 2.25,
+					"label": "Medium Blitz",
+					"alt": "Medium Psycho Blitz finishes the confirm."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-lights-medium-blitz/frame-4.jpg",
+					"at": 3.0,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the Blitz finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-medium-blitz-rush-throw",
+			"ed-medium-blitz-rush-crouching-kick",
+			"ed-drive-reversal-jab-target"
+		]
+	},
+	{
+		"id": "ed-medium-blitz-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Medium Blitz: Rush into throw",
+		"summary": "Use the demonstrated medium-Blitz knockdown to approach with Drive Rush and attempt a throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw pressure", "Drive Rush"],
+		"outcomes": ["Throw pressure"],
+		"notation": "DR > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Forward throw",
+				"cue": "Light punch + light kick at the shown wake-up timing."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The source’s medium-Psycho-Blitz knockdown at the recorded +39F",
+			"Match the demonstrated spacing"
+		],
+		"notes": [
+			"This records one throw attempt against the selected response; it does not establish an unavoidable throw."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 8.05,
+			"end": 11.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-medium-blitz-rush-throw/clip.mp4",
+			"poster": "/media/ed/ed-medium-blitz-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-medium-blitz-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-medium-blitz-rush-throw/frame-1.jpg",
+					"at": 0.05,
+					"label": "Knockdown recovery",
+					"alt": "Ryu falls from the prerequisite medium Psycho Blitz."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-medium-blitz-rush-throw/frame-2.jpg",
+					"at": 0.6,
+					"label": "Rush approach",
+					"alt": "Ed uses raw Drive Rush to close the distance."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-medium-blitz-rush-throw/frame-3.jpg",
+					"at": 1.02,
+					"label": "Throw attempt",
+					"alt": "Ed reaches Ryu’s recovery and starts the forward throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-medium-blitz-rush-throw/frame-4.jpg",
+					"at": 2.97,
+					"label": "Throw result",
+					"alt": "Ryu lands after the throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-medium-blitz-rush-crouching-kick",
+			"ed-target-blitz-kill-rush-throw",
+			"ed-corner-medium-blitz-heavy-frame-kill-throw"
+		]
+	},
+	{
+		"id": "ed-medium-blitz-rush-crouching-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Medium Blitz: Rush crouching kick into Chaser",
+		"summary": "Rush after the medium-Blitz knockdown, hit with crouching medium kick, then convert with heavy punch, Chaser and heavy Blitz.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Meaty conversion"],
+		"notation": "DR > cr.MK > st.HP > KK > 6P late > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Forward Kill Rush",
+				"cue": "Two kicks from neutral or while holding forward."
+			},
+			{
+				"id": "step-5",
+				"notation": "6P late",
+				"label": "Kill Switch Chaser",
+				"cue": "Forward + punch late during Kill Rush, matching the launching continuation in the clip."
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "Heavy Psycho Blitz",
+				"cue": "Quarter-circle back + heavy punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The source’s medium-Blitz +39F knockdown",
+			"Rush crouching medium kick connects on wake-up"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 24.8,
+			"end": 29.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-medium-blitz-rush-crouching-kick/clip.mp4",
+			"poster": "/media/ed/ed-medium-blitz-rush-crouching-kick/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-medium-blitz-rush-crouching-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-medium-blitz-rush-crouching-kick/frame-1.jpg",
+					"at": 0.4,
+					"label": "Rush approach",
+					"alt": "Ed approaches while Ryu falls from medium Blitz."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-medium-blitz-rush-crouching-kick/frame-2.jpg",
+					"at": 0.9,
+					"label": "Crouching-kick meaty",
+					"alt": "Drive Rush crouching medium kick reaches Ryu’s recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-medium-blitz-rush-crouching-kick/frame-3.jpg",
+					"at": 1.6,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch continues after the Rush normal."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-medium-blitz-rush-crouching-kick/frame-4.jpg",
+					"at": 2.8,
+					"label": "Chaser launch",
+					"alt": "Kill Switch Chaser launches Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ed/ed-medium-blitz-rush-crouching-kick/frame-5.jpg",
+					"at": 4.0,
+					"label": "Heavy Blitz finish",
+					"alt": "Heavy Psycho Blitz completes the on-hit conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-medium-blitz-rush-throw",
+			"ed-corner-medium-blitz-meaty-medium",
+			"ed-target-blitz-kill-rush-throw"
+		]
+	},
+	{
+		"id": "ed-corner-medium-blitz-heavy-frame-kill-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Corner medium Blitz: heavy-punch frame kill into throw",
+		"summary": "Whiff standing heavy punch after the corner Blitz knockdown, then delay the throw at the recorded timing.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Frame kill", "Throw pressure"],
+		"outcomes": ["Throw pressure"],
+		"notation": "st.HP whiff > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP whiff",
+				"label": "Whiff standing heavy punch",
+				"cue": "The heavy punch is a timing action and must miss."
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Delayed forward throw",
+				"cue": "Wait after the whiffed normal, then light punch + light kick."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Medium Psycho Blitz knockdown at the corner",
+			"Match the source’s +39F ender and post-whiff timing"
+		],
+		"notes": [
+			"The source labels the heavy-punch whiff as leaving +8F before the delayed throw. This is a dated timing demonstration against the shown response."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 53.5,
+			"end": 56.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-corner-medium-blitz-heavy-frame-kill-throw/clip.mp4",
+			"poster": "/media/ed/ed-corner-medium-blitz-heavy-frame-kill-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-corner-medium-blitz-heavy-frame-kill-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-corner-medium-blitz-heavy-frame-kill-throw/frame-1.jpg",
+					"at": 0.1,
+					"label": "Knockdown",
+					"alt": "Ryu falls from the preceding corner medium Psycho Blitz."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-corner-medium-blitz-heavy-frame-kill-throw/frame-2.jpg",
+					"at": 0.4,
+					"label": "Heavy-punch frame kill",
+					"alt": "Ed intentionally whiffs standing heavy punch over the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-corner-medium-blitz-heavy-frame-kill-throw/frame-3.jpg",
+					"at": 0.75,
+					"label": "Delayed throw",
+					"alt": "Ed grabs Ryu after the heavy-punch frame kill."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-corner-medium-blitz-heavy-frame-kill-throw/frame-4.jpg",
+					"at": 2.5,
+					"label": "Throw result",
+					"alt": "Ryu lands beside the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-medium-blitz-rush-throw",
+			"ed-corner-medium-blitz-meaty-medium",
+			"ed-target-blitz-kill-rush-throw"
+		]
+	},
+	{
+		"id": "ed-corner-medium-blitz-meaty-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Corner medium Blitz: meaty medium into target combo",
+		"summary": "Use a manually timed medium punch after the Blitz knockdown, then link another medium into the target combo and uppercut juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Target combo", "Juggle extension"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.MP > st.MP > st.HP > KK > 6P late > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Meaty standing medium punch",
+				"cue": "Time the first medium punch on the opponent’s recovery."
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Body Blow Combination heavy follow-up",
+				"cue": "Heavy punch during the standing-medium-punch target combo."
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Forward Kill Rush",
+				"cue": "Two kicks from neutral or while holding forward."
+			},
+			{
+				"id": "step-5",
+				"notation": "6P late",
+				"label": "Kill Switch Chaser",
+				"cue": "Forward + punch late during Kill Rush, matching the launching continuation in the clip."
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "Heavy Psycho Uppercut",
+				"cue": "Dragon-punch motion + heavy punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The source’s corner medium-Blitz +39F knockdown",
+			"First medium punch hits meaty"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 69.35,
+			"end": 74.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-corner-medium-blitz-meaty-medium/clip.mp4",
+			"poster": "/media/ed/ed-corner-medium-blitz-meaty-medium/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-corner-medium-blitz-meaty-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-corner-medium-blitz-meaty-medium/frame-1.jpg",
+					"at": 0.25,
+					"label": "Knockdown recovery",
+					"alt": "Ryu falls from the corner medium-Blitz prerequisite."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-corner-medium-blitz-meaty-medium/frame-2.jpg",
+					"at": 0.85,
+					"label": "Meaty medium",
+					"alt": "Standing medium punch reaches Ryu on recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-corner-medium-blitz-meaty-medium/frame-3.jpg",
+					"at": 1.6,
+					"label": "Medium link",
+					"alt": "A second standing medium punch continues the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-corner-medium-blitz-meaty-medium/frame-4.jpg",
+					"at": 2.95,
+					"label": "Uppercut juggle",
+					"alt": "Heavy Psycho Uppercut catches the Chaser launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ed/ed-corner-medium-blitz-meaty-medium/frame-5.jpg",
+					"at": 4.3,
+					"label": "Corner knockdown",
+					"alt": "Ryu falls at the end of the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-wall-splat-flicker-chaser-uppercut",
+			"ed-medium-blitz-rush-crouching-kick",
+			"ed-corner-medium-blitz-heavy-frame-kill-throw"
+		]
+	},
+	{
+		"id": "ed-drive-reversal-jab-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Drive Reversal punish: jab into Body Blow Combination",
+		"summary": "Punish the recorded Drive Reversal with a jab, target combo and heavy Psycho Blitz.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Drive Reversal punish", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > st.MP > st.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Body Blow Combination heavy follow-up",
+				"cue": "Heavy punch during the standing-medium-punch target combo."
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Psycho Blitz",
+				"cue": "Quarter-circle back + heavy punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Block the shown Drive Reversal",
+			"Standing jab Punish Counter"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 76.15,
+			"end": 81.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-drive-reversal-jab-target/clip.mp4",
+			"poster": "/media/ed/ed-drive-reversal-jab-target/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-drive-reversal-jab-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-drive-reversal-jab-target/frame-1.jpg",
+					"at": 0.65,
+					"label": "Blocked reversal",
+					"alt": "Ed guards Ryu’s displayed Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-drive-reversal-jab-target/frame-2.jpg",
+					"at": 1.85,
+					"label": "Jab punish",
+					"alt": "Standing light punch starts the Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-drive-reversal-jab-target/frame-3.jpg",
+					"at": 3.05,
+					"label": "Target follow-up",
+					"alt": "Body Blow Combination continues the punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-drive-reversal-jab-target/frame-4.jpg",
+					"at": 4.25,
+					"label": "Heavy Blitz",
+					"alt": "Heavy Psycho Blitz completes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-counter-di-heavy-target",
+			"ed-body-blow-heavy-blitz",
+			"ed-low-rush-target-chaser"
+		]
+	},
+	{
+		"id": "ed-body-blow-heavy-blitz",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Body Blow Combination into heavy Psycho Blitz",
+		"summary": "Use medium punch and its heavy target follow-up before heavy Psycho Blitz.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > st.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Body Blow Combination heavy follow-up",
+				"cue": "Heavy punch during the standing-medium-punch target combo."
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Psycho Blitz",
+				"cue": "Quarter-circle back + heavy punch."
+			}
+		],
+		"conditions": ["Classic controls", "Close target-combo range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 83.25,
+			"end": 85.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-body-blow-heavy-blitz/clip.mp4",
+			"poster": "/media/ed/ed-body-blow-heavy-blitz/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-body-blow-heavy-blitz/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-body-blow-heavy-blitz/frame-1.jpg",
+					"at": 0.4,
+					"label": "Medium starter",
+					"alt": "Standing medium punch begins the target combo."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-body-blow-heavy-blitz/frame-2.jpg",
+					"at": 0.75,
+					"label": "Heavy target follow-up",
+					"alt": "The Body Blow Combination heavy punch connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-body-blow-heavy-blitz/frame-3.jpg",
+					"at": 1.55,
+					"label": "Heavy Blitz",
+					"alt": "Heavy Psycho Blitz finishes the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-body-blow-heavy-blitz/frame-4.jpg",
+					"at": 1.85,
+					"label": "Knockdown",
+					"alt": "Ryu falls from heavy Psycho Blitz before Ed’s separate jump setup."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-drive-reversal-jab-target",
+			"ed-low-rush-target-chaser",
+			"ed-counter-di-heavy-target"
+		]
+	},
+	{
+		"id": "ed-target-blitz-kill-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Target-combo Blitz: Kill Rush into delayed throw",
+		"summary": "Close the post-Blitz distance with forward Kill Rush and delay the throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw pressure"],
+		"outcomes": ["Throw pressure"],
+		"notation": "KK > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "KK",
+				"label": "Forward Kill Rush",
+				"cue": "Two kicks from neutral or while holding forward."
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Delayed forward throw",
+				"cue": "Light punch + light kick at the demonstrated timing after Kill Rush."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing MP target HP into heavy Psycho Blitz, recorded +42F ender",
+			"Source shows +11F after Kill Rush before the delayed throw"
+		],
+		"notes": [
+			"This selected ender has different post-Kill-Rush spacing/timing from the separate heavy-Blitz +40F examples."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 95.55,
+			"end": 98.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-target-blitz-kill-rush-throw/clip.mp4",
+			"poster": "/media/ed/ed-target-blitz-kill-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-target-blitz-kill-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-target-blitz-kill-rush-throw/frame-1.jpg",
+					"at": 0.05,
+					"label": "Heavy-Blitz knockdown",
+					"alt": "Ryu falls from the prerequisite target-combo heavy Blitz."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-target-blitz-kill-rush-throw/frame-2.jpg",
+					"at": 0.55,
+					"label": "Kill Rush approach",
+					"alt": "Ed closes distance with forward Kill Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-target-blitz-kill-rush-throw/frame-3.jpg",
+					"at": 1.4,
+					"label": "Delayed throw",
+					"alt": "Ed throws after the forward movement."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-target-blitz-kill-rush-throw/frame-4.jpg",
+					"at": 2.75,
+					"label": "Throw result",
+					"alt": "Ryu lands after the throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-medium-blitz-rush-throw",
+			"ed-medium-blitz-rush-crouching-kick",
+			"ed-corner-medium-blitz-heavy-frame-kill-throw"
+		]
+	},
+	{
+		"id": "ed-low-rush-target-chaser",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Crouching medium punch Rush confirm into Chaser",
+		"summary": "Cancel the low crouching-medium-punch starter into Rush and Body Blow Combination, then use Chaser and heavy Blitz.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > DRC > st.MP > st.HP > KK > 6P late > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Body Blow Combination heavy follow-up",
+				"cue": "Heavy punch during the standing-medium-punch target combo."
+			},
+			{
+				"id": "step-5",
+				"notation": "KK",
+				"label": "Forward Kill Rush",
+				"cue": "Two kicks from neutral or while holding forward."
+			},
+			{
+				"id": "step-6",
+				"notation": "6P late",
+				"label": "Kill Switch Chaser",
+				"cue": "Forward + punch late during Kill Rush, matching the launching continuation in the clip."
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "Heavy Psycho Blitz",
+				"cue": "Quarter-circle back + heavy punch."
+			}
+		],
+		"conditions": ["Classic controls", "Crouching medium punch starter in this selected take"],
+		"notes": [
+			"The source also advertises standing MK as an alternative. This reference records only the displayed crouching-MP take."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 206.8,
+			"end": 211.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-low-rush-target-chaser/clip.mp4",
+			"poster": "/media/ed/ed-low-rush-target-chaser/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-low-rush-target-chaser/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-low-rush-target-chaser/frame-1.jpg",
+					"at": 0.4,
+					"label": "Low crouching-medium starter",
+					"alt": "Crouching medium punch hits Ryu low."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-low-rush-target-chaser/frame-2.jpg",
+					"at": 0.6,
+					"label": "Rush cancel",
+					"alt": "Ed cancels the starter into Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-low-rush-target-chaser/frame-3.jpg",
+					"at": 2.0,
+					"label": "Target follow-up",
+					"alt": "Body Blow Combination continues the Rush confirm."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-low-rush-target-chaser/frame-4.jpg",
+					"at": 2.7,
+					"label": "Chaser launch",
+					"alt": "Kill Switch Chaser launches Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ed/ed-low-rush-target-chaser/frame-5.jpg",
+					"at": 4.1,
+					"label": "Heavy Blitz finish",
+					"alt": "Heavy Psycho Blitz completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-crouching-medium-cashout",
+			"ed-medium-blitz-rush-throw",
+			"ed-medium-blitz-rush-crouching-kick"
+		]
+	},
+	{
+		"id": "ed-heavy-chaser-blitz",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Heavy punch into Chaser and heavy Psycho Blitz",
+		"summary": "Cancel standing heavy punch into forward Kill Rush, use its late launching punch and juggle with heavy Blitz.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > KK > 6P late > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "KK",
+				"label": "Forward Kill Rush",
+				"cue": "Two kicks from neutral or while holding forward."
+			},
+			{
+				"id": "step-3",
+				"notation": "6P late",
+				"label": "Kill Switch Chaser",
+				"cue": "Forward + punch late during Kill Rush, matching the launching continuation in the clip."
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Psycho Blitz",
+				"cue": "Quarter-circle back + heavy punch."
+			}
+		],
+		"conditions": ["Classic controls", "Match the late Chaser timing after heavy punch"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 213.1,
+			"end": 216.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-heavy-chaser-blitz/clip.mp4",
+			"poster": "/media/ed/ed-heavy-chaser-blitz/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-heavy-chaser-blitz/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-heavy-chaser-blitz/frame-1.jpg",
+					"at": 0.4,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch connects at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-heavy-chaser-blitz/frame-2.jpg",
+					"at": 0.7,
+					"label": "Chaser continuation",
+					"alt": "Forward Kill Rush leads into the launching punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-heavy-chaser-blitz/frame-3.jpg",
+					"at": 1.9,
+					"label": "Heavy Blitz",
+					"alt": "Heavy Psycho Blitz catches the launched opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-heavy-chaser-blitz/frame-4.jpg",
+					"at": 3.1,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the heavy-Blitz juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-medium-blitz-rush-crouching-kick",
+			"ed-shimmy-heavy-crouching-medium",
+			"ed-dp-punish-heavy-kick"
+		]
+	},
+	{
+		"id": "ed-shimmy-heavy-crouching-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Whiffed throw punish into crouching medium and Chaser",
+		"summary": "Punish Ryu’s whiffed throw with heavy punch, link crouching medium kick and continue through Chaser into heavy Blitz.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Whiff punish", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > cr.MK > KK > 6P late > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "KK",
+				"label": "Forward Kill Rush",
+				"cue": "Two kicks from neutral or while holding forward."
+			},
+			{
+				"id": "step-4",
+				"notation": "6P late",
+				"label": "Kill Switch Chaser",
+				"cue": "Forward + punch late during Kill Rush, matching the launching continuation in the clip."
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Psycho Blitz",
+				"cue": "Quarter-circle back + heavy punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing heavy punch Punish Counter on the shown whiffed throw",
+			"Close enough for crouching medium kick"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 235.1,
+			"end": 239.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-shimmy-heavy-crouching-medium/clip.mp4",
+			"poster": "/media/ed/ed-shimmy-heavy-crouching-medium/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-shimmy-heavy-crouching-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-shimmy-heavy-crouching-medium/frame-1.jpg",
+					"at": 0.1,
+					"label": "Whiffed throw",
+					"alt": "Ryu reaches for a throw while Ed is outside its range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-shimmy-heavy-crouching-medium/frame-2.jpg",
+					"at": 0.7,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch punishes the whiffed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-shimmy-heavy-crouching-medium/frame-3.jpg",
+					"at": 1.2,
+					"label": "Crouching-medium link",
+					"alt": "Crouching medium kick links from the Punish Counter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-shimmy-heavy-crouching-medium/frame-4.jpg",
+					"at": 2.8,
+					"label": "Heavy Blitz finish",
+					"alt": "Heavy Psycho Blitz catches the Chaser launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ed/ed-shimmy-heavy-crouching-medium/frame-5.jpg",
+					"at": 3.85,
+					"label": "Knockdown",
+					"alt": "Ryu falls at the end of the whiff-punish route."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-dp-punish-heavy-kick",
+			"ed-medium-blitz-rush-crouching-kick",
+			"ed-drive-reversal-jab-target"
+		]
+	},
+	{
+		"id": "ed-dp-punish-heavy-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Blocked OD Shoryuken: heavy kick into Chaser",
+		"summary": "Punish Ryu’s blocked OD Shoryuken with standing heavy kick, heavy punch and the Chaser juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Reversal punish", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK > st.HP > KK > 6P late > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "KK",
+				"label": "Forward Kill Rush",
+				"cue": "Two kicks from neutral or while holding forward."
+			},
+			{
+				"id": "step-4",
+				"notation": "6P late",
+				"label": "Kill Switch Chaser",
+				"cue": "Forward + punch late during Kill Rush, matching the launching continuation in the clip."
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Psycho Blitz",
+				"cue": "Quarter-circle back + heavy punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu’s blocked OD Shoryuken is the recorded opening",
+			"Standing heavy kick Punish Counter"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 241.35,
+			"end": 246.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-dp-punish-heavy-kick/clip.mp4",
+			"poster": "/media/ed/ed-dp-punish-heavy-kick/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-dp-punish-heavy-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-dp-punish-heavy-kick/frame-1.jpg",
+					"at": 0.65,
+					"label": "Blocked OD Shoryuken",
+					"alt": "Ryu is airborne after Ed guards the OD reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-dp-punish-heavy-kick/frame-2.jpg",
+					"at": 1.3,
+					"label": "Heavy-kick punish",
+					"alt": "Standing heavy kick catches the landing recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-dp-punish-heavy-kick/frame-3.jpg",
+					"at": 1.85,
+					"label": "Heavy-punch link",
+					"alt": "Standing heavy punch continues the Punish Counter route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-dp-punish-heavy-kick/frame-4.jpg",
+					"at": 3.05,
+					"label": "Chaser into Blitz",
+					"alt": "Heavy Psycho Blitz follows the Chaser launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ed/ed-dp-punish-heavy-kick/frame-5.jpg",
+					"at": 4.25,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-shimmy-heavy-crouching-medium",
+			"ed-medium-blitz-rush-crouching-kick",
+			"ed-drive-reversal-jab-target"
+		]
+	},
+	{
+		"id": "ed-counter-di-heavy-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Counter DI into heavy kick and Body Blow Combination",
+		"summary": "Use heavy kick during the counter-DI crumple, then the medium/heavy target combo and heavy Blitz.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > st.HK > st.MP > st.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Body Blow Combination heavy follow-up",
+				"cue": "Heavy punch during the standing-medium-punch target combo."
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Psycho Blitz",
+				"cue": "Quarter-circle back + heavy punch."
+			}
+		],
+		"conditions": ["Classic controls", "Win a counter-DI exchange to create the shown crumple"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 248.35,
+			"end": 255.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-counter-di-heavy-target/clip.mp4",
+			"poster": "/media/ed/ed-counter-di-heavy-target/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-counter-di-heavy-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-counter-di-heavy-target/frame-1.jpg",
+					"at": 0.45,
+					"label": "Counter-DI exchange",
+					"alt": "Ed answers Ryu’s incoming Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-counter-di-heavy-target/frame-2.jpg",
+					"at": 2.85,
+					"label": "DI crumple",
+					"alt": "Ed’s DI wins as a Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-counter-di-heavy-target/frame-3.jpg",
+					"at": 4.05,
+					"label": "Heavy-kick pickup",
+					"alt": "Standing heavy kick picks up the crumpled Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-counter-di-heavy-target/frame-4.jpg",
+					"at": 5.25,
+					"label": "Heavy Blitz",
+					"alt": "Heavy Psycho Blitz converts the target combo."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ed/ed-counter-di-heavy-target/frame-5.jpg",
+					"at": 6.45,
+					"label": "Knockdown",
+					"alt": "Ryu falls at the end of the counter-DI route."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-drive-reversal-jab-target",
+			"ed-body-blow-heavy-blitz",
+			"ed-low-rush-target-chaser"
+		]
+	},
+	{
+		"id": "ed-wall-splat-flicker-chaser-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Blocked DI wall splat through heavy Flicker and Chaser",
+		"summary": "Use Body Blow Combination at the wall, then heavy Flicker, Chaser and heavy Psycho Uppercut.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Target combo", "Juggle extension"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "DI > st.MP > st.HP > 236HK > KK > 6P late > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Body Blow Combination heavy follow-up",
+				"cue": "Heavy punch during the standing-medium-punch target combo."
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Psycho Flicker",
+				"cue": "Quarter-circle forward + heavy kick."
+			},
+			{
+				"id": "step-5",
+				"notation": "KK",
+				"label": "Forward Kill Rush",
+				"cue": "Two kicks from neutral or while holding forward."
+			},
+			{
+				"id": "step-6",
+				"notation": "6P late",
+				"label": "Kill Switch Chaser",
+				"cue": "Forward + punch late during Kill Rush, matching the launching continuation in the clip."
+			},
+			{
+				"id": "step-7",
+				"notation": "623HP",
+				"label": "Heavy Psycho Uppercut",
+				"cue": "Dragon-punch motion + heavy punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent blocks DI at the wall",
+			"Wall splat, not burnout stun or Punish Counter crumple"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 266.55,
+			"end": 273.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-wall-splat-flicker-chaser-uppercut/clip.mp4",
+			"poster": "/media/ed/ed-wall-splat-flicker-chaser-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-wall-splat-flicker-chaser-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-wall-splat-flicker-chaser-uppercut/frame-1.jpg",
+					"at": 1.45,
+					"label": "Blocked DI wall splat",
+					"alt": "Ryu blocks Drive Impact beside the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-wall-splat-flicker-chaser-uppercut/frame-2.jpg",
+					"at": 2.25,
+					"label": "Target pickup",
+					"alt": "The medium/heavy target combo catches the wall-splatted Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-wall-splat-flicker-chaser-uppercut/frame-3.jpg",
+					"at": 2.95,
+					"label": "Flicker juggle",
+					"alt": "Heavy Psycho Flicker continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-wall-splat-flicker-chaser-uppercut/frame-4.jpg",
+					"at": 4.45,
+					"label": "Uppercut finish",
+					"alt": "Heavy Psycho Uppercut follows the Chaser continuation."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ed/ed-wall-splat-flicker-chaser-uppercut/frame-5.jpg",
+					"at": 5.95,
+					"label": "Corner result",
+					"alt": "Ryu recovers beside the wall after the finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-corner-medium-blitz-meaty-medium",
+			"ed-counter-di-heavy-target",
+			"ed-medium-blitz-rush-crouching-kick"
+		]
+	},
+	{
+		"id": "ed-crouching-medium-cashout",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Crouching medium Rush cash-out into Level 3",
+		"summary": "Spend two Rush cancels from the low starter, then use Chaser, heavy Blitz and Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Cash out", "Super finish"],
+		"outcomes": ["Cash out", "Hard knockdown"],
+		"notation": "cr.MP > DRC > st.MP > st.HP > DRC > st.HK > st.HP > KK > 6P late > 214HP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Body Blow Combination heavy follow-up",
+				"cue": "Heavy punch during the standing-medium-punch target combo."
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "KK",
+				"label": "Forward Kill Rush",
+				"cue": "Two kicks from neutral or while holding forward."
+			},
+			{
+				"id": "step-9",
+				"notation": "6P late",
+				"label": "Kill Switch Chaser",
+				"cue": "Forward + punch late during Kill Rush, matching the launching continuation in the clip."
+			},
+			{
+				"id": "step-10",
+				"notation": "214HP",
+				"label": "Heavy Psycho Blitz",
+				"cue": "Quarter-circle back + heavy punch."
+			},
+			{
+				"id": "step-11",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching medium punch starter in this selected take",
+			"Enough Drive for two cancel Drive Rushes",
+			"Three Super stocks"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Two cancel Drive Rushes",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 284.65,
+			"end": 301.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-06-06 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ed/ed-crouching-medium-cashout/clip.mp4",
+			"poster": "/media/ed/ed-crouching-medium-cashout/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-crouching-medium-cashout/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-crouching-medium-cashout/frame-1.jpg",
+					"at": 0.65,
+					"label": "Low Rush starter",
+					"alt": "Crouching medium punch starts the Rush conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-crouching-medium-cashout/frame-2.jpg",
+					"at": 3.1,
+					"label": "Heavy extension",
+					"alt": "Ed extends the target combo through the second Rush cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-crouching-medium-cashout/frame-3.jpg",
+					"at": 4.35,
+					"label": "Chaser and Blitz",
+					"alt": "Chaser launches Ryu into heavy Psycho Blitz."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-crouching-medium-cashout/frame-4.jpg",
+					"at": 5.95,
+					"label": "Level 3",
+					"alt": "Ed cancels the finish into Level 3."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ed/ed-crouching-medium-cashout/frame-5.jpg",
+					"at": 14.5,
+					"label": "Super finish",
+					"alt": "The Level 3 cinematic reaches the finishing strike."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-low-rush-target-chaser",
+			"ed-medium-blitz-rush-throw",
+			"ed-medium-blitz-rush-crouching-kick"
+		]
+	}
+]

@@ -1,0 +1,1111 @@
+[
+	{
+		"id": "ingrid-vesper-low-medium-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Low light chain into medium Sun Rise",
+		"summary": "A close low starter with a standing-light link and a meterless rising-kick finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > st.LP > st.LK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": ["Classic controls", "Standing Ryu at the shown close range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 25.2,
+			"end": 29.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-vesper-low-medium-kick/clip.mp4",
+			"poster": "/media/ingrid/ingrid-vesper-low-medium-kick/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-vesper-low-medium-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-vesper-low-medium-kick/frame-1.jpg",
+					"at": 0.5,
+					"label": "Light chain",
+					"alt": "Ingrid connects her low starter and light follow-ups."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-vesper-low-medium-kick/frame-2.jpg",
+					"at": 2.25,
+					"label": "Medium Sun Rise",
+					"alt": "The medium kick special lifts Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-vesper-low-medium-kick/frame-3.jpg",
+					"at": 3.35,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the medium Sun Rise finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-low-od-rise",
+			"ingrid-vesper-punish-jab-medium-rise",
+			"ingrid-vesper-rush-low-target-rise"
+		]
+	},
+	{
+		"id": "ingrid-vesper-low-od-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Low jabs into OD Sun Rise",
+		"summary": "Use two crouching jabs before spending two Drive bars on the OD rising kick.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 236KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "OD Sun Rise"
+			}
+		],
+		"conditions": ["Classic controls", "Standing Ryu at close range"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 31.6,
+			"end": 36.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-vesper-low-od-rise/clip.mp4",
+			"poster": "/media/ingrid/ingrid-vesper-low-od-rise/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-vesper-low-od-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-vesper-low-od-rise/frame-1.jpg",
+					"at": 0.7,
+					"label": "Low chain",
+					"alt": "The low kick and crouching jabs connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-vesper-low-od-rise/frame-2.jpg",
+					"at": 2.1,
+					"label": "OD Sun Rise",
+					"alt": "Ingrid spends Drive on the Overdrive kick special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-vesper-low-od-rise/frame-3.jpg",
+					"at": 3.6,
+					"label": "Landing",
+					"alt": "Ryu falls as Ingrid lands after the OD finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-low-medium-kick",
+			"ingrid-vesper-punish-jab-medium-rise",
+			"ingrid-vesper-rush-low-target-rise"
+		]
+	},
+	{
+		"id": "ingrid-vesper-medium-target-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Medium-punch target combo into Sun Rise",
+		"summary": "Practise the two separate target-combo inputs before the medium special cancel.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > st.MK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick",
+				"cue": "Target-combo follow-up after MP."
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 83.8,
+			"end": 88.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-vesper-medium-target-rise/clip.mp4",
+			"poster": "/media/ingrid/ingrid-vesper-medium-target-rise/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-vesper-medium-target-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-vesper-medium-target-rise/frame-1.jpg",
+					"at": 0.7,
+					"label": "Target combo",
+					"alt": "Standing medium punch leads into the target-combo kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-vesper-medium-target-rise/frame-2.jpg",
+					"at": 1.9,
+					"label": "Sun Rise cancel",
+					"alt": "The medium kick special continues the target combo."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-vesper-medium-target-rise/frame-3.jpg",
+					"at": 3.3,
+					"label": "Knockdown",
+					"alt": "Ryu drops after the medium ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-crouching-medium-light-rise",
+			"ingrid-vesper-back-medium-jab-rise",
+			"ingrid-vesper-medium-flare-level3"
+		]
+	},
+	{
+		"id": "ingrid-vesper-crouching-medium-light-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Crouching medium into light kick and Sun Rise",
+		"summary": "A meterless close-range conversion that links standing LK after crouching MP.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > st.LK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for standing light kick"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 89.8,
+			"end": 94.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-vesper-crouching-medium-light-rise/clip.mp4",
+			"poster": "/media/ingrid/ingrid-vesper-crouching-medium-light-rise/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-vesper-crouching-medium-light-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-vesper-crouching-medium-light-rise/frame-1.jpg",
+					"at": 0.6,
+					"label": "Crouching medium",
+					"alt": "Crouching medium punch begins the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-vesper-crouching-medium-light-rise/frame-2.jpg",
+					"at": 1.5,
+					"label": "Light-kick link",
+					"alt": "Standing light kick follows the medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-vesper-crouching-medium-light-rise/frame-3.jpg",
+					"at": 2.7,
+					"label": "Sun Rise",
+					"alt": "Medium Sun Rise carries Ryu upward."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-medium-target-rise",
+			"ingrid-vesper-back-medium-jab-rise",
+			"ingrid-vesper-medium-flare-level3"
+		]
+	},
+	{
+		"id": "ingrid-vesper-back-medium-jab-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Back medium kick into jab and Sun Rise",
+		"summary": "Convert back MK through a standing jab without spending Drive or Super.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.MK > st.LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 95.8,
+			"end": 100.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-vesper-back-medium-jab-rise/clip.mp4",
+			"poster": "/media/ingrid/ingrid-vesper-back-medium-jab-rise/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-vesper-back-medium-jab-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-vesper-back-medium-jab-rise/frame-1.jpg",
+					"at": 0.8,
+					"label": "Back medium kick",
+					"alt": "Back medium kick connects at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-vesper-back-medium-jab-rise/frame-2.jpg",
+					"at": 1.7,
+					"label": "Jab link",
+					"alt": "Standing light punch continues the confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-vesper-back-medium-jab-rise/frame-3.jpg",
+					"at": 3.3,
+					"label": "Sun Rise finish",
+					"alt": "The medium kick special finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-medium-target-rise",
+			"ingrid-vesper-crouching-medium-light-rise",
+			"ingrid-vesper-medium-flare-level3"
+		]
+	},
+	{
+		"id": "ingrid-vesper-medium-flare-level3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Standing medium kick into Sun Flare and Level 3",
+		"summary": "Cancel the medium special into a three-bar finish from standing MK.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Super finish", "Cash out"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MK > 214MP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "214MP",
+				"label": "Medium Sun Flare"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA3",
+				"label": "Cosmic Ray (Level 3)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 102.2,
+			"end": 108.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-vesper-medium-flare-level3/clip.mp4",
+			"poster": "/media/ingrid/ingrid-vesper-medium-flare-level3/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-vesper-medium-flare-level3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-vesper-medium-flare-level3/frame-1.jpg",
+					"at": 0.9,
+					"label": "Medium starter",
+					"alt": "Standing medium kick connects before the special."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-vesper-medium-flare-level3/frame-2.jpg",
+					"at": 2.0,
+					"label": "Super cancel",
+					"alt": "Ingrid cancels medium Sun Flare into Level 3."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-vesper-medium-flare-level3/frame-3.jpg",
+					"at": 5.9,
+					"label": "Hard knockdown",
+					"alt": "Ryu lands after the Level 3 animation."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-medium-target-rise",
+			"ingrid-vesper-crouching-medium-light-rise",
+			"ingrid-vesper-back-medium-jab-rise"
+		]
+	},
+	{
+		"id": "ingrid-vesper-wall-target-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Wall splat into back-heavy target combo",
+		"summary": "Convert a blocked corner DI through the back-heavy target combo without extra meter.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > b.HP > st.HP > 214MP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch",
+				"cue": "Heavy-punch target follow-up after back HP."
+			},
+			{
+				"id": "step-4",
+				"notation": "214MP",
+				"label": "Medium Sun Flare"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Blocked Drive Impact at the wall creates the shown wall splat"
+		],
+		"notes": ["This is the wall-splat section; it is not the separate DI Punish Counter crumple."],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 135.8,
+			"end": 142.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-vesper-wall-target-rise/clip.mp4",
+			"poster": "/media/ingrid/ingrid-vesper-wall-target-rise/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-vesper-wall-target-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-vesper-wall-target-rise/frame-1.jpg",
+					"at": 1.3,
+					"label": "Wall splat",
+					"alt": "Drive Impact catches Ryu at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-vesper-wall-target-rise/frame-2.jpg",
+					"at": 2.3,
+					"label": "Target launcher",
+					"alt": "The back-heavy target follow-up launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-vesper-wall-target-rise/frame-3.jpg",
+					"at": 4.3,
+					"label": "Sun Rise juggle",
+					"alt": "Medium Sun Rise continues the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-vesper-wall-target-rise/frame-4.jpg",
+					"at": 5.5,
+					"label": "Corner knockdown",
+					"alt": "Ryu falls beside the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-wall-one-crest-juggle",
+			"ingrid-vesper-corner-down-three-kicks",
+			"ingrid-vesper-low-medium-kick"
+		]
+	},
+	{
+		"id": "ingrid-vesper-wall-one-crest-juggle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Wall splat: one-Crest Sun Flare into projectile",
+		"summary": "Start with exactly one Sun Crest to extend the wall splat with a projectile juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Sun Crests"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > b.HP > st.HP > 214HP* > 236HP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch",
+				"cue": "Target-combo follow-up."
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP*",
+				"label": "One-Crest heavy Sun Flare",
+				"cue": "Start with exactly one Sun Crest for the one-Crest version shown."
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "Heavy Sun Shot"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Blocked Drive Impact at the wall",
+			"Exactly one Sun Crest before heavy Sun Flare"
+		],
+		"notes": [
+			"Heavy Sun Flare automatically spends up to two Sun Crests. This one-asterisk route starts with exactly one."
+		],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 144.5,
+			"end": 152.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-vesper-wall-one-crest-juggle/clip.mp4",
+			"poster": "/media/ingrid/ingrid-vesper-wall-one-crest-juggle/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-vesper-wall-one-crest-juggle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-vesper-wall-one-crest-juggle/frame-1.jpg",
+					"at": 0.7,
+					"label": "Wall splat",
+					"alt": "Drive Impact pushes Ryu into the wall state."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-vesper-wall-one-crest-juggle/frame-2.jpg",
+					"at": 3.0,
+					"label": "Enhanced Sun Flare",
+					"alt": "The one-Crest heavy Sun Flare launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-vesper-wall-one-crest-juggle/frame-3.jpg",
+					"at": 4.0,
+					"label": "Projectile release",
+					"alt": "Ingrid fires the heavy projectile while Ryu is airborne."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-vesper-wall-one-crest-juggle/frame-4.jpg",
+					"at": 6.5,
+					"label": "Corner finish",
+					"alt": "Ryu lands after medium Sun Rise."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-wall-target-rise",
+			"ingrid-vesper-corner-down-three-kicks",
+			"ingrid-vesper-low-medium-kick"
+		]
+	},
+	{
+		"id": "ingrid-vesper-punish-jab-medium-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Punish-counter crouching jab into medium",
+		"summary": "The crouching-jab Punish Counter enables the crouching-medium link.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.MP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching LP Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 187.1,
+			"end": 191.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-vesper-punish-jab-medium-rise/clip.mp4",
+			"poster": "/media/ingrid/ingrid-vesper-punish-jab-medium-rise/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-vesper-punish-jab-medium-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-vesper-punish-jab-medium-rise/frame-1.jpg",
+					"at": 0.9,
+					"label": "Punish Counter",
+					"alt": "Crouching light punch connects as a Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-vesper-punish-jab-medium-rise/frame-2.jpg",
+					"at": 1.6,
+					"label": "Medium link",
+					"alt": "Crouching medium punch follows the Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-vesper-punish-jab-medium-rise/frame-3.jpg",
+					"at": 3.1,
+					"label": "Knockdown",
+					"alt": "Medium Sun Rise finishes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-low-medium-kick",
+			"ingrid-vesper-low-od-rise",
+			"ingrid-vesper-medium-target-rise"
+		]
+	},
+	{
+		"id": "ingrid-vesper-rush-low-target-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Drive Rush low into medium target combo",
+		"summary": "One Drive bar turns the low starter into a medium target-combo conversion.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush", "Low confirm", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > cr.LK > st.MP > st.MK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "Standing medium kick",
+				"cue": "Target-combo follow-up."
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 334.7,
+			"end": 339.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-vesper-rush-low-target-rise/clip.mp4",
+			"poster": "/media/ingrid/ingrid-vesper-rush-low-target-rise/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-vesper-rush-low-target-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-vesper-rush-low-target-rise/frame-1.jpg",
+					"at": 0.5,
+					"label": "Rush entry",
+					"alt": "Ingrid approaches with Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-vesper-rush-low-target-rise/frame-2.jpg",
+					"at": 1.7,
+					"label": "Target combo",
+					"alt": "The Rush low leads into standing MP and its MK follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-vesper-rush-low-target-rise/frame-3.jpg",
+					"at": 3.6,
+					"label": "Sun Rise finish",
+					"alt": "Medium Sun Rise lifts Ryu after the target combo."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-low-medium-kick",
+			"ingrid-vesper-low-od-rise",
+			"ingrid-vesper-medium-target-rise"
+		]
+	},
+	{
+		"id": "ingrid-vesper-air-heavy-light-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Air-to-air heavy kick into light Sun Rise",
+		"summary": "Catch the demonstrated forward jump in the air, then land for the light special.",
+		"kind": "response",
+		"situations": ["Midscreen", "Air-to-air"],
+		"outcomes": ["Air-to-air conversion", "Knockdown"],
+		"notation": "j.HK > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "236LK",
+				"label": "Light Sun Rise"
+			}
+		],
+		"conditions": ["Classic controls", "Ryu’s forward jump at the demonstrated height and spacing"],
+		"notes": [
+			"This is an air-to-air conversion, not a claim of universal grounded anti-air coverage."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 467.1,
+			"end": 469.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-vesper-air-heavy-light-rise/clip.mp4",
+			"poster": "/media/ingrid/ingrid-vesper-air-heavy-light-rise/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-vesper-air-heavy-light-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-vesper-air-heavy-light-rise/frame-1.jpg",
+					"at": 0.6,
+					"label": "Air heavy kick",
+					"alt": "Ingrid’s jumping heavy kick intercepts Ryu in the air."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-vesper-air-heavy-light-rise/frame-2.jpg",
+					"at": 1.6,
+					"label": "Grounded follow-up",
+					"alt": "Light Sun Rise catches Ryu after Ingrid lands."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-vesper-air-heavy-light-rise/frame-3.jpg",
+					"at": 2.15,
+					"label": "Landing",
+					"alt": "Ryu lands after the air-to-air conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-low-medium-kick",
+			"ingrid-vesper-low-od-rise",
+			"ingrid-vesper-medium-target-rise"
+		]
+	},
+	{
+		"id": "ingrid-vesper-corner-down-three-kicks",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Corner down-three-kicks into light Sun Rise",
+		"summary": "Practise the shown corner down-three-kicks branch and light rising-kick conversion.",
+		"kind": "combo",
+		"situations": ["Corner", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2KKK > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2KKK",
+				"label": "Vanishing Sun (down branch)"
+			},
+			{
+				"id": "step-2",
+				"notation": "236LK",
+				"label": "Light Sun Rise"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 682.4,
+			"end": 686.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-vesper-corner-down-three-kicks/clip.mp4",
+			"poster": "/media/ingrid/ingrid-vesper-corner-down-three-kicks/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-vesper-corner-down-three-kicks/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-vesper-corner-down-three-kicks/frame-1.jpg",
+					"at": 0.7,
+					"label": "Down-three-kicks attack",
+					"alt": "Ingrid’s down + three-kicks attack connects near the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-vesper-corner-down-three-kicks/frame-2.jpg",
+					"at": 1.6,
+					"label": "Light Sun Rise",
+					"alt": "Light Sun Rise catches the airborne Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-vesper-corner-down-three-kicks/frame-3.jpg",
+					"at": 2.7,
+					"label": "Corner recovery",
+					"alt": "Ryu recovers beside the wall after the short conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-wall-target-rise",
+			"ingrid-vesper-wall-one-crest-juggle",
+			"ingrid-vesper-low-medium-kick"
+		]
+	}
+]

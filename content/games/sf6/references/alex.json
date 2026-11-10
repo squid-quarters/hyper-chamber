@@ -1,0 +1,1131 @@
+[
+	{
+		"id": "alex-vesper-low-light-axe",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Low light chain into light Flash Axe",
+		"summary": "A meterless low-light confirm with the light special as its ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LP",
+				"label": "Light Flash Axe"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-alex-2026",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"published": "2026-03-19",
+			"start": 16.5,
+			"end": 21.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/alex/alex-vesper-low-light-axe/clip.mp4",
+			"poster": "/media/alex/alex-vesper-low-light-axe/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-vesper-low-light-axe/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-vesper-low-light-axe/frame-1.jpg",
+					"at": 1.7,
+					"label": "Low starter",
+					"alt": "Crouching light kick begins the light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-vesper-low-light-axe/frame-2.jpg",
+					"at": 2.1,
+					"label": "Jab chain",
+					"alt": "The crouching jabs precede the special cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-vesper-low-light-axe/frame-3.jpg",
+					"at": 2.9,
+					"label": "Light Flash Axe",
+					"alt": "The light special completes the close confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-vesper-low-heavy-knee",
+			"alex-vesper-low-level1",
+			"alex-vesper-low-od-knee"
+		]
+	},
+	{
+		"id": "alex-vesper-low-heavy-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Low lights into heavy Aerial Knee Smash",
+		"summary": "Use the close light chain to reach the meterless heavy knee-smash finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Aerial Knee Smash"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-alex-2026",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"published": "2026-03-19",
+			"start": 22.8,
+			"end": 28.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/alex/alex-vesper-low-heavy-knee/clip.mp4",
+			"poster": "/media/alex/alex-vesper-low-heavy-knee/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-vesper-low-heavy-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-vesper-low-heavy-knee/frame-1.jpg",
+					"at": 1.2,
+					"label": "Low lights",
+					"alt": "The low light chain connects at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-vesper-low-heavy-knee/frame-2.jpg",
+					"at": 3.1,
+					"label": "Heavy knee",
+					"alt": "Heavy Aerial Knee Smash catches Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-vesper-low-heavy-knee/frame-3.jpg",
+					"at": 4.3,
+					"label": "Throw finish",
+					"alt": "Alex lands the knee-smash throw ender."
+				}
+			]
+		},
+		"relatedIds": ["alex-vesper-low-light-axe", "alex-vesper-low-level1", "alex-vesper-low-od-knee"]
+	},
+	{
+		"id": "alex-vesper-low-level1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Low light chain into Level 1",
+		"summary": "A direct one-bar Super conversion from the close low-light chain.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Raging Spear (Level 1)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "vesperarcade-alex-2026",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"published": "2026-03-19",
+			"start": 29.6,
+			"end": 35.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/alex/alex-vesper-low-level1/clip.mp4",
+			"poster": "/media/alex/alex-vesper-low-level1/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-vesper-low-level1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-vesper-low-level1/frame-1.jpg",
+					"at": 1.1,
+					"label": "Light confirm",
+					"alt": "The low kick and crouching jabs connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-vesper-low-level1/frame-2.jpg",
+					"at": 2.4,
+					"label": "Super cancel",
+					"alt": "Alex starts the one-bar Super after the light chain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-vesper-low-level1/frame-3.jpg",
+					"at": 3.9,
+					"label": "Super finish",
+					"alt": "Level 1 sends Luke away."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-vesper-low-od-axe-level2",
+			"alex-vesper-low-light-axe-level3",
+			"alex-vesper-low-light-axe"
+		]
+	},
+	{
+		"id": "alex-vesper-low-od-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Low light chain into OD Aerial Knee Smash",
+		"summary": "Spend two Drive bars on the OD knee-smash throw after the low-light chain.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 623KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623KK",
+				"label": "OD Aerial Knee Smash"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-alex-2026",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"published": "2026-03-19",
+			"start": 36.85,
+			"end": 44.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/alex/alex-vesper-low-od-knee/clip.mp4",
+			"poster": "/media/alex/alex-vesper-low-od-knee/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-vesper-low-od-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-vesper-low-od-knee/frame-1.jpg",
+					"at": 1.05,
+					"label": "Low lights",
+					"alt": "The light confirm begins before the OD special."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-vesper-low-od-knee/frame-2.jpg",
+					"at": 2.25,
+					"label": "OD knee",
+					"alt": "The OD knee smash catches Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-vesper-low-od-knee/frame-3.jpg",
+					"at": 5.25,
+					"label": "OD throw finish",
+					"alt": "Alex completes the cinematic OD throw ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-vesper-low-light-axe",
+			"alex-vesper-low-heavy-knee",
+			"alex-vesper-low-level1"
+		]
+	},
+	{
+		"id": "alex-vesper-low-od-axe-level2",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Low lights through OD punch special into Level 2",
+		"summary": "Practise the first-hit OD-special cancel, spending two Drive and two Super bars.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 236PP > SA2",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236PP",
+				"label": "OD quarter-circle-forward punch",
+				"cue": "Cancel the first hit into the Super, as demonstrated."
+			},
+			{
+				"id": "step-5",
+				"notation": "SA2",
+				"label": "Sledgecross Hammer (Level 2)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Cancel the first hit of the OD quarter-circle-forward punch into Level 2, as demonstrated."
+		],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "Level 2 (2 bars)"
+		},
+		"source": {
+			"id": "vesperarcade-alex-2026",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"published": "2026-03-19",
+			"start": 45.1,
+			"end": 55.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/alex/alex-vesper-low-od-axe-level2/clip.mp4",
+			"poster": "/media/alex/alex-vesper-low-od-axe-level2/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-vesper-low-od-axe-level2/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-vesper-low-od-axe-level2/frame-1.jpg",
+					"at": 0.9,
+					"label": "Low confirm",
+					"alt": "Crouching lights confirm before the OD cancel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-vesper-low-od-axe-level2/frame-2.jpg",
+					"at": 2.3,
+					"label": "First-hit cancel",
+					"alt": "The first OD punch special hit leads into Level 2."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-vesper-low-od-axe-level2/frame-3.jpg",
+					"at": 5.6,
+					"label": "Level 2",
+					"alt": "The Super continues the confirmed route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/alex/alex-vesper-low-od-axe-level2/frame-4.jpg",
+					"at": 9.2,
+					"label": "Hard knockdown",
+					"alt": "The Super ender leaves Luke knocked down."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-vesper-low-level1",
+			"alex-vesper-low-light-axe-level3",
+			"alex-vesper-low-light-axe"
+		]
+	},
+	{
+		"id": "alex-vesper-low-light-axe-level3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Low lights and light Flash Axe into Level 3",
+		"summary": "Bridge a low-light confirm through the light special into a three-bar finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 236LP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LP",
+				"label": "Light Flash Axe"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA3",
+				"label": "The Final Prison (Level 3)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "vesperarcade-alex-2026",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"published": "2026-03-19",
+			"start": 56.45,
+			"end": 69.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/alex/alex-vesper-low-light-axe-level3/clip.mp4",
+			"poster": "/media/alex/alex-vesper-low-light-axe-level3/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-vesper-low-light-axe-level3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-vesper-low-light-axe-level3/frame-1.jpg",
+					"at": 1.05,
+					"label": "Low confirm",
+					"alt": "The low light chain connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-vesper-low-light-axe-level3/frame-2.jpg",
+					"at": 1.85,
+					"label": "Light-special bridge",
+					"alt": "Light Flash Axe connects before the Level 3 cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-vesper-low-light-axe-level3/frame-3.jpg",
+					"at": 6.05,
+					"label": "Level 3",
+					"alt": "The cinematic three-bar Super continues the route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/alex/alex-vesper-low-light-axe-level3/frame-4.jpg",
+					"at": 11.85,
+					"label": "Finish",
+					"alt": "Luke lands after the final throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-vesper-low-level1",
+			"alex-vesper-low-od-axe-level2",
+			"alex-vesper-low-light-axe"
+		]
+	},
+	{
+		"id": "alex-vesper-back-medium-light-axe",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Back medium kick into lights and light Flash Axe",
+		"summary": "Convert back MK through two crouching jabs while keeping all meter.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.MK > cr.LP > cr.LP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LP",
+				"label": "Light Flash Axe"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-alex-2026",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"published": "2026-03-19",
+			"start": 74.0,
+			"end": 78.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/alex/alex-vesper-back-medium-light-axe/clip.mp4",
+			"poster": "/media/alex/alex-vesper-back-medium-light-axe/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-vesper-back-medium-light-axe/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-vesper-back-medium-light-axe/frame-1.jpg",
+					"at": 0.7,
+					"label": "Back-medium starter",
+					"alt": "Back medium kick starts the close conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-vesper-back-medium-light-axe/frame-2.jpg",
+					"at": 1.4,
+					"label": "Jab links",
+					"alt": "Crouching jabs follow the medium kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-vesper-back-medium-light-axe/frame-3.jpg",
+					"at": 2.3,
+					"label": "Light ender",
+					"alt": "Light Flash Axe completes the meterless route."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-vesper-back-medium-heavy-knee",
+			"alex-vesper-standing-medium-axe",
+			"alex-vesper-low-light-axe"
+		]
+	},
+	{
+		"id": "alex-vesper-back-medium-heavy-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Back medium kick into lights and heavy knee smash",
+		"summary": "Replace the back-MK route’s light ender with a meterless heavy knee-smash throw.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.MK > cr.LP > cr.LP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Aerial Knee Smash"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-alex-2026",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"published": "2026-03-19",
+			"start": 79.5,
+			"end": 85.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/alex/alex-vesper-back-medium-heavy-knee/clip.mp4",
+			"poster": "/media/alex/alex-vesper-back-medium-heavy-knee/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-vesper-back-medium-heavy-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-vesper-back-medium-heavy-knee/frame-1.jpg",
+					"at": 1.0,
+					"label": "Medium starter",
+					"alt": "Back medium kick leads into crouching jabs."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-vesper-back-medium-heavy-knee/frame-2.jpg",
+					"at": 2.5,
+					"label": "Heavy knee",
+					"alt": "The heavy knee smash catches Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-vesper-back-medium-heavy-knee/frame-3.jpg",
+					"at": 4.0,
+					"label": "Throw finish",
+					"alt": "Alex completes the knee-smash throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-vesper-back-medium-light-axe",
+			"alex-vesper-standing-medium-axe",
+			"alex-vesper-low-light-axe"
+		]
+	},
+	{
+		"id": "alex-vesper-standing-medium-axe",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Standing medium punch into medium Flash Axe",
+		"summary": "A short meterless medium confirm using the demonstrated standing-MP starter.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MP",
+				"label": "Medium Flash Axe"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The source caption offers crouching MP as an alternative; this take uses standing MP."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-alex-2026",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"published": "2026-03-19",
+			"start": 86.65,
+			"end": 92.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/alex/alex-vesper-standing-medium-axe/clip.mp4",
+			"poster": "/media/alex/alex-vesper-standing-medium-axe/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-vesper-standing-medium-axe/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-vesper-standing-medium-axe/frame-1.jpg",
+					"at": 0.85,
+					"label": "Medium cancel",
+					"alt": "Standing medium punch starts the selected take."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-vesper-standing-medium-axe/frame-2.jpg",
+					"at": 1.65,
+					"label": "Medium Flash Axe",
+					"alt": "The medium special connects after the normal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-vesper-standing-medium-axe/frame-3.jpg",
+					"at": 2.35,
+					"label": "Knockdown",
+					"alt": "Luke falls at the end of the medium-special conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-vesper-back-medium-light-axe",
+			"alex-vesper-back-medium-heavy-knee",
+			"alex-vesper-low-light-axe"
+		]
+	},
+	{
+		"id": "alex-vesper-held-heavy-jab-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Held heavy punch into jab and heavy knee smash",
+		"summary": "Hold the heavy starter, link crouching jab and finish without a meter spend.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP (hold) > cr.LP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP (hold)",
+				"label": "Held standing heavy punch",
+				"cue": "Hold for the charged heavy starter shown."
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HK",
+				"label": "Heavy Aerial Knee Smash"
+			}
+		],
+		"conditions": ["Classic controls", "Charged standing HP; hold rather than tap"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-alex-2026",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"published": "2026-03-19",
+			"start": 102.5,
+			"end": 108.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/alex/alex-vesper-held-heavy-jab-knee/clip.mp4",
+			"poster": "/media/alex/alex-vesper-held-heavy-jab-knee/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-vesper-held-heavy-jab-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-vesper-held-heavy-jab-knee/frame-1.jpg",
+					"at": 1.1,
+					"label": "Charged heavy",
+					"alt": "The held standing heavy punch connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-vesper-held-heavy-jab-knee/frame-2.jpg",
+					"at": 1.7,
+					"label": "Jab link",
+					"alt": "Crouching light punch links after the held heavy."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-vesper-held-heavy-jab-knee/frame-3.jpg",
+					"at": 3.6,
+					"label": "Heavy knee finish",
+					"alt": "Heavy Aerial Knee Smash completes the meterless conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-vesper-low-light-axe",
+			"alex-vesper-low-heavy-knee",
+			"alex-vesper-low-level1"
+		]
+	},
+	{
+		"id": "alex-vesper-wall-stance-medium-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Wall splat through Prowler Stance into medium knee",
+		"summary": "Convert a blocked corner DI through the stance follow-up with no additional Drive spend.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Stance", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > cr.HP > 236MP > 2PP > 6LP > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Flash Axe"
+			},
+			{
+				"id": "step-4",
+				"notation": "2PP",
+				"label": "Prowler Stance",
+				"cue": "Cancel the medium special into Prowler Stance."
+			},
+			{
+				"id": "step-5",
+				"notation": "6LP",
+				"label": "Forward light punch from Prowler Stance",
+				"cue": "Forward + light punch is the stance follow-up."
+			},
+			{
+				"id": "step-6",
+				"notation": "623MK",
+				"label": "Medium Aerial Knee Smash"
+			}
+		],
+		"conditions": ["Classic controls", "Blocked Drive Impact at the wall"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-alex-2026",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"published": "2026-03-19",
+			"start": 159.65,
+			"end": 167.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/alex/alex-vesper-wall-stance-medium-knee/clip.mp4",
+			"poster": "/media/alex/alex-vesper-wall-stance-medium-knee/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-vesper-wall-stance-medium-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-vesper-wall-stance-medium-knee/frame-1.jpg",
+					"at": 1.35,
+					"label": "Wall splat",
+					"alt": "Blocked Drive Impact creates the corner wall splat."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-vesper-wall-stance-medium-knee/frame-2.jpg",
+					"at": 2.65,
+					"label": "Heavy into special",
+					"alt": "Crouching HP leads into medium Flash Axe."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-vesper-wall-stance-medium-knee/frame-3.jpg",
+					"at": 3.55,
+					"label": "Stance follow-up",
+					"alt": "The forward-light-punch stance attack continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/alex/alex-vesper-wall-stance-medium-knee/frame-4.jpg",
+					"at": 5.05,
+					"label": "Medium knee",
+					"alt": "Medium Aerial Knee Smash catches Luke for the finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-vesper-low-light-axe",
+			"alex-vesper-low-heavy-knee",
+			"alex-vesper-low-level1"
+		]
+	},
+	{
+		"id": "alex-vesper-punish-jab-medium-axe",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Punish-counter jab into crouching medium and Flash Axe",
+		"summary": "The standing-jab Punish Counter enables the crouching-medium link without meter.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > cr.MP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Flash Axe"
+			}
+		],
+		"conditions": ["Classic controls", "Standing LP Punish Counter"],
+		"notes": ["This selected take uses standing LP; the caption also lists crouching LP."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-alex-2026",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"published": "2026-03-19",
+			"start": 214.2,
+			"end": 218.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/alex/alex-vesper-punish-jab-medium-axe/clip.mp4",
+			"poster": "/media/alex/alex-vesper-punish-jab-medium-axe/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-vesper-punish-jab-medium-axe/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-vesper-punish-jab-medium-axe/frame-1.jpg",
+					"at": 0.95,
+					"label": "Jab punish",
+					"alt": "Standing light punch connects as Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-vesper-punish-jab-medium-axe/frame-2.jpg",
+					"at": 1.4,
+					"label": "Medium link",
+					"alt": "Crouching medium punch follows the jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-vesper-punish-jab-medium-axe/frame-3.jpg",
+					"at": 2.2,
+					"label": "Medium-special finish",
+					"alt": "Medium Flash Axe completes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-vesper-low-light-axe",
+			"alex-vesper-low-heavy-knee",
+			"alex-vesper-low-level1"
+		]
+	}
+]

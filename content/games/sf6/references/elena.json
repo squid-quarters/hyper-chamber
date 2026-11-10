@@ -1,0 +1,1161 @@
+[
+	{
+		"id": "elena-vesper-low-light-scythe",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Low lights into light Spinning Scythe",
+		"summary": "A meterless low-light confirm using the light Spinning Scythe finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 214LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LK",
+				"label": "Light Spinning Scythe"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 21.8,
+			"end": 26.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/elena/elena-vesper-low-light-scythe/clip.mp4",
+			"poster": "/media/elena/elena-vesper-low-light-scythe/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-vesper-low-light-scythe/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-vesper-low-light-scythe/frame-1.jpg",
+					"at": 0.9,
+					"label": "Low confirm",
+					"alt": "The low kick and crouching jabs begin the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-vesper-low-light-scythe/frame-2.jpg",
+					"at": 1.9,
+					"label": "Light special",
+					"alt": "The light Spinning Scythe special connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-vesper-low-light-scythe/frame-3.jpg",
+					"at": 3.3,
+					"label": "Finish",
+					"alt": "Luke is sent away by the final special hit."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-vesper-low-level1-heavy-wheel",
+			"elena-vesper-low-two-level1s",
+			"elena-vesper-low-od-rhino-heavy-wheel"
+		]
+	},
+	{
+		"id": "elena-vesper-three-jab-heavy-wheel",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Three crouching jabs into heavy Scratch Wheel",
+		"summary": "A meterless three-jab confirm with the heavy Scratch Wheel ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.LP > cr.LP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 27.6,
+			"end": 31.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/elena/elena-vesper-three-jab-heavy-wheel/clip.mp4",
+			"poster": "/media/elena/elena-vesper-three-jab-heavy-wheel/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-vesper-three-jab-heavy-wheel/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-vesper-three-jab-heavy-wheel/frame-1.jpg",
+					"at": 1.0,
+					"label": "Jab chain",
+					"alt": "The crouching-jab chain connects at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-vesper-three-jab-heavy-wheel/frame-2.jpg",
+					"at": 2.3,
+					"label": "Heavy Scratch Wheel",
+					"alt": "The heavy Scratch Wheel special launches Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-vesper-three-jab-heavy-wheel/frame-3.jpg",
+					"at": 3.4,
+					"label": "Knockdown",
+					"alt": "Luke falls at the end of the rising-kick finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-vesper-low-light-scythe",
+			"elena-vesper-jab-standing-light-rhino",
+			"elena-vesper-jab-light-kick-heavy-wheel"
+		]
+	},
+	{
+		"id": "elena-vesper-jab-standing-light-rhino",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Crouching jabs and standing jab into light Rhino Horn",
+		"summary": "Keep the standing-jab link before light Rhino Horn against an upright opponent.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.LP > st.LP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK",
+				"label": "Light Rhino Horn"
+			}
+		],
+		"conditions": ["Classic controls", "Standing opponent for the shown Rhino Horn finish"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 33.3,
+			"end": 37.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/elena/elena-vesper-jab-standing-light-rhino/clip.mp4",
+			"poster": "/media/elena/elena-vesper-jab-standing-light-rhino/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-vesper-jab-standing-light-rhino/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-vesper-jab-standing-light-rhino/frame-1.jpg",
+					"at": 0.9,
+					"label": "Crouching jabs",
+					"alt": "The crouching jabs start the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-vesper-jab-standing-light-rhino/frame-2.jpg",
+					"at": 1.5,
+					"label": "Standing-jab cancel",
+					"alt": "Standing LP precedes the light Rhino Horn cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-vesper-jab-standing-light-rhino/frame-3.jpg",
+					"at": 2.7,
+					"label": "Rhino Horn",
+					"alt": "The light rushing kicks finish against the standing opponent."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-vesper-low-light-scythe",
+			"elena-vesper-three-jab-heavy-wheel",
+			"elena-vesper-jab-light-kick-heavy-wheel"
+		]
+	},
+	{
+		"id": "elena-vesper-jab-light-kick-heavy-wheel",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Crouching jabs into standing LK and heavy Scratch Wheel",
+		"summary": "Link standing LK after the crouching jabs for a meterless heavy-special finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.LP > st.LK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 38.8,
+			"end": 42.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/elena/elena-vesper-jab-light-kick-heavy-wheel/clip.mp4",
+			"poster": "/media/elena/elena-vesper-jab-light-kick-heavy-wheel/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-vesper-jab-light-kick-heavy-wheel/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-vesper-jab-light-kick-heavy-wheel/frame-1.jpg",
+					"at": 0.9,
+					"label": "Jab chain",
+					"alt": "The crouching jabs connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-vesper-jab-light-kick-heavy-wheel/frame-2.jpg",
+					"at": 1.5,
+					"label": "Standing-light-kick link",
+					"alt": "Standing LK leads into the special cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-vesper-jab-light-kick-heavy-wheel/frame-3.jpg",
+					"at": 2.5,
+					"label": "Heavy finish",
+					"alt": "The heavy Scratch Wheel special completes the meterless route."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-vesper-low-light-scythe",
+			"elena-vesper-three-jab-heavy-wheel",
+			"elena-vesper-jab-standing-light-rhino"
+		]
+	},
+	{
+		"id": "elena-vesper-low-level1-heavy-wheel",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Low lights through Level 1 into heavy Scratch Wheel",
+		"summary": "Spend one Super bar on a launcher and add the meterless heavy-special juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Super finish", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > SA1 > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Meteor Volley (Level 1)"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 44.9,
+			"end": 51.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/elena/elena-vesper-low-level1-heavy-wheel/clip.mp4",
+			"poster": "/media/elena/elena-vesper-low-level1-heavy-wheel/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-vesper-low-level1-heavy-wheel/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-vesper-low-level1-heavy-wheel/frame-1.jpg",
+					"at": 0.9,
+					"label": "Low lights",
+					"alt": "Crouching lights start the confirmed route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-vesper-low-level1-heavy-wheel/frame-2.jpg",
+					"at": 1.7,
+					"label": "Level 1",
+					"alt": "The one-bar Super launches Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-vesper-low-level1-heavy-wheel/frame-3.jpg",
+					"at": 3.8,
+					"label": "Heavy juggle",
+					"alt": "The heavy Scratch Wheel special catches Luke after the Super."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/elena/elena-vesper-low-level1-heavy-wheel/frame-4.jpg",
+					"at": 5.1,
+					"label": "Finish",
+					"alt": "Luke lands after the additional special hits."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-vesper-low-two-level1s",
+			"elena-vesper-low-od-rhino-heavy-wheel",
+			"elena-vesper-low-scythe-level3"
+		]
+	},
+	{
+		"id": "elena-vesper-low-two-level1s",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Low lights through two Level 1s into heavy Scratch Wheel",
+		"summary": "Practise the repeated one-bar Super juggle, budgeting two Super bars in total.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Super finish", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > SA1 > SA1 > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Meteor Volley (Level 1)"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "Meteor Volley (Level 1)",
+				"cue": "A second one-bar Super is performed in the juggle."
+			},
+			{
+				"id": "step-6",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Two Level 1 Supers (2 bars total)"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 52.8,
+			"end": 62.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/elena/elena-vesper-low-two-level1s/clip.mp4",
+			"poster": "/media/elena/elena-vesper-low-two-level1s/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-vesper-low-two-level1s/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-vesper-low-two-level1s/frame-1.jpg",
+					"at": 1.4,
+					"label": "Low confirm",
+					"alt": "The low light chain connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-vesper-low-two-level1s/frame-2.jpg",
+					"at": 2.8,
+					"label": "First Level 1",
+					"alt": "The first Super launches Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-vesper-low-two-level1s/frame-3.jpg",
+					"at": 5.9,
+					"label": "Second Level 1",
+					"alt": "The second Super continues the airborne juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/elena/elena-vesper-low-two-level1s/frame-4.jpg",
+					"at": 7.7,
+					"label": "Heavy finish",
+					"alt": "The heavy Scratch Wheel ender completes the two-Super route."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-vesper-low-level1-heavy-wheel",
+			"elena-vesper-low-od-rhino-heavy-wheel",
+			"elena-vesper-low-scythe-level3"
+		]
+	},
+	{
+		"id": "elena-vesper-low-od-rhino-heavy-wheel",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Low lights through OD Rhino Horn into heavy Scratch Wheel",
+		"summary": "Spend two Drive bars on the Rhino Horn extension before the heavy-special ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 236KK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "OD Rhino Horn"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 63.9,
+			"end": 68.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/elena/elena-vesper-low-od-rhino-heavy-wheel/clip.mp4",
+			"poster": "/media/elena/elena-vesper-low-od-rhino-heavy-wheel/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-vesper-low-od-rhino-heavy-wheel/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-vesper-low-od-rhino-heavy-wheel/frame-1.jpg",
+					"at": 1.1,
+					"label": "Low confirm",
+					"alt": "The crouching light chain begins."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-vesper-low-od-rhino-heavy-wheel/frame-2.jpg",
+					"at": 2.1,
+					"label": "OD Rhino Horn",
+					"alt": "The OD rushing-kick special continues the juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-vesper-low-od-rhino-heavy-wheel/frame-3.jpg",
+					"at": 3.3,
+					"label": "Heavy finish",
+					"alt": "The heavy Scratch Wheel catches Luke after the OD special."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-vesper-low-level1-heavy-wheel",
+			"elena-vesper-low-two-level1s",
+			"elena-vesper-low-light-scythe"
+		]
+	},
+	{
+		"id": "elena-vesper-low-scythe-level3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Low lights through light Spinning Scythe into Level 3",
+		"summary": "Use the light Spinning Scythe special to bridge the low chain into a three-bar finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Light confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 214LK > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LK",
+				"label": "Light Spinning Scythe"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA3",
+				"label": "Song of the Grasslands (Level 3)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": ["The caption lists another special option; this take uses 214LK."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 90.3,
+			"end": 104.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/elena/elena-vesper-low-scythe-level3/clip.mp4",
+			"poster": "/media/elena/elena-vesper-low-scythe-level3/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-vesper-low-scythe-level3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-vesper-low-scythe-level3/frame-1.jpg",
+					"at": 1.1,
+					"label": "Low lights",
+					"alt": "The low light confirm connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-vesper-low-scythe-level3/frame-2.jpg",
+					"at": 2.3,
+					"label": "Light special",
+					"alt": "The selected take uses the light quarter-circle-back special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-vesper-low-scythe-level3/frame-3.jpg",
+					"at": 4.0,
+					"label": "Level 3",
+					"alt": "The cinematic three-bar Super begins."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/elena/elena-vesper-low-scythe-level3/frame-4.jpg",
+					"at": 12.9,
+					"label": "Hard knockdown",
+					"alt": "Luke lands at the end of Level 3."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-vesper-low-level1-heavy-wheel",
+			"elena-vesper-low-two-level1s",
+			"elena-vesper-low-light-scythe"
+		]
+	},
+	{
+		"id": "elena-vesper-medium-lights-light-scythe",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Standing medium kick into lights and light Spinning Scythe",
+		"summary": "Convert standing MK through two distinct jab inputs while keeping all meter.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MK > st.LP > cr.LP > 214LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LK",
+				"label": "Light Spinning Scythe"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 114.75,
+			"end": 119.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/elena/elena-vesper-medium-lights-light-scythe/clip.mp4",
+			"poster": "/media/elena/elena-vesper-medium-lights-light-scythe/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-vesper-medium-lights-light-scythe/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-vesper-medium-lights-light-scythe/frame-1.jpg",
+					"at": 0.75,
+					"label": "Medium starter",
+					"alt": "Standing medium kick begins the meterless conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-vesper-medium-lights-light-scythe/frame-2.jpg",
+					"at": 1.45,
+					"label": "Light links",
+					"alt": "Standing and crouching jabs precede the cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-vesper-medium-lights-light-scythe/frame-3.jpg",
+					"at": 2.65,
+					"label": "Light special",
+					"alt": "The light Spinning Scythe special completes the selected confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-vesper-low-light-scythe",
+			"elena-vesper-three-jab-heavy-wheel",
+			"elena-vesper-jab-standing-light-rhino"
+		]
+	},
+	{
+		"id": "elena-vesper-wall-heavy-target-rhino",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Wall splat through heavy target combo and light Rhino Horn",
+		"summary": "Convert a blocked corner DI through the heavy target combo without more Drive spend.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Target combo", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > st.HP > st.HP > 236LK > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch",
+				"cue": "Heavy-punch target-combo continuation."
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK",
+				"label": "Light Rhino Horn"
+			},
+			{
+				"id": "step-5",
+				"notation": "623MK",
+				"label": "Medium Scratch Wheel"
+			}
+		],
+		"conditions": ["Classic controls", "Blocked Drive Impact at the wall"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 313.2,
+			"end": 320.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/elena/elena-vesper-wall-heavy-target-rhino/clip.mp4",
+			"poster": "/media/elena/elena-vesper-wall-heavy-target-rhino/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-vesper-wall-heavy-target-rhino/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-vesper-wall-heavy-target-rhino/frame-1.jpg",
+					"at": 1.7,
+					"label": "Wall splat",
+					"alt": "Drive Impact creates the corner Crush state."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-vesper-wall-heavy-target-rhino/frame-2.jpg",
+					"at": 2.7,
+					"label": "Heavy target combo",
+					"alt": "Both heavy-punch target inputs continue the wall juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-vesper-wall-heavy-target-rhino/frame-3.jpg",
+					"at": 3.8,
+					"label": "Light Rhino Horn",
+					"alt": "The light rushing kicks lift Luke for the final special."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/elena/elena-vesper-wall-heavy-target-rhino/frame-4.jpg",
+					"at": 5.1,
+					"label": "Medium rising kick",
+					"alt": "The medium rising-kick special finishes the corner conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-vesper-low-level1-heavy-wheel",
+			"elena-vesper-low-two-level1s",
+			"elena-vesper-low-od-rhino-heavy-wheel"
+		]
+	},
+	{
+		"id": "elena-vesper-punish-jab-medium-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Punish-counter jab into medium target combo and Rhino Horn",
+		"summary": "The jab Punish Counter enables a medium target-combo link and meterless finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Light confirm", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > st.MP > st.MP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch",
+				"cue": "Medium-punch target continuation."
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Medium Rhino Horn"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing LP Punish Counter",
+			"Standing opponent for the shown Rhino Horn finish"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 377.3,
+			"end": 382.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/elena/elena-vesper-punish-jab-medium-target/clip.mp4",
+			"poster": "/media/elena/elena-vesper-punish-jab-medium-target/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-vesper-punish-jab-medium-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-vesper-punish-jab-medium-target/frame-1.jpg",
+					"at": 1.2,
+					"label": "Jab punish",
+					"alt": "Standing light punch begins the Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-vesper-punish-jab-medium-target/frame-2.jpg",
+					"at": 1.9,
+					"label": "Medium target combo",
+					"alt": "The medium-punch target sequence follows the jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-vesper-punish-jab-medium-target/frame-3.jpg",
+					"at": 2.7,
+					"label": "Medium Rhino Horn",
+					"alt": "Medium Rhino Horn completes the meterless punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-vesper-low-light-scythe",
+			"elena-vesper-three-jab-heavy-wheel",
+			"elena-vesper-jab-standing-light-rhino"
+		]
+	},
+	{
+		"id": "elena-vesper-air-medium-heavy-wheel",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Air-to-air medium punch into heavy Scratch Wheel",
+		"summary": "Catch the shown jump in the air, then land for a meterless heavy-special juggle.",
+		"kind": "combo",
+		"situations": ["Air-to-air", "Midscreen", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "j.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": ["Classic controls", "The demonstrated jump timing and spacing"],
+		"notes": ["The starter is airborne; this is not a universal grounded anti-air claim."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 849.4,
+			"end": 852.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/elena/elena-vesper-air-medium-heavy-wheel/clip.mp4",
+			"poster": "/media/elena/elena-vesper-air-medium-heavy-wheel/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-vesper-air-medium-heavy-wheel/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-vesper-air-medium-heavy-wheel/frame-1.jpg",
+					"at": 1.1,
+					"label": "Air medium",
+					"alt": "Jumping medium punch catches the airborne opponent."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-vesper-air-medium-heavy-wheel/frame-2.jpg",
+					"at": 2.0,
+					"label": "Heavy Scratch Wheel",
+					"alt": "Elena lands and catches Luke with the heavy Scratch Wheel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-vesper-air-medium-heavy-wheel/frame-3.jpg",
+					"at": 3.1,
+					"label": "Knockdown",
+					"alt": "Luke lands after the air-to-air conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-vesper-low-level1-heavy-wheel",
+			"elena-vesper-low-two-level1s",
+			"elena-vesper-low-od-rhino-heavy-wheel"
+		]
+	}
+]

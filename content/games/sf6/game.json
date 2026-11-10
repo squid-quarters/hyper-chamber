@@ -257,6 +257,726 @@
 					"meaning": "Heavy-punch and medium-punch Sonic Hurricane. Use the listed punch version; a launcher and its juggle continuation are not interchangeable."
 				}
 			]
+		},
+		{
+			"id": "luke",
+			"name": "Luke",
+			"notationLegend": [
+				{
+					"term": "214P / Flash Knuckle",
+					"meaning": "Use the listed punch strength. Perfect means release at the demonstrated charge timing; a regular release is not interchangeable."
+				},
+				{
+					"term": "j.214LP short hold",
+					"meaning": "Airborne light Flash Knuckle with the demonstrated partial hold, after the jumping-medium-punch juggle."
+				},
+				{
+					"term": "MP~MP~MP~MP",
+					"meaning": "The standing-medium-punch target sequence. Later presses are target continuations, not repeated linked standing medium punches."
+				},
+				{
+					"term": "623P / 236P",
+					"meaning": "Rising Uppercut / Sand Blast. Use the listed strength."
+				}
+			],
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/luke"
+				}
+			]
+		},
+		{
+			"id": "jamie",
+			"name": "Jamie",
+			"notationLegend": [
+				{
+					"term": "DL / drink level",
+					"meaning": "Jamie’s current drink level. Match each reference’s shown starting state; some target routes and airborne specials require unlocked moves."
+				},
+				{
+					"term": "22P",
+					"meaning": "The manual drink action. It is separate from Arrow Kick, and can give the opponent time to recover."
+				},
+				{
+					"term": "LP~LK~MP",
+					"meaning": "The drink-level-1 light target sequence. Later buttons are target continuations."
+				},
+				{
+					"term": "2HK~HK~P",
+					"meaning": "Crouching-heavy-kick target route, including its heavy-kick continuation and final drinking punch continuation."
+				},
+				{
+					"term": "2KK",
+					"meaning": "Down plus two kick buttons for the shown launcher; jump-cancel it before the airborne heavy kick."
+				}
+			],
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/jamie"
+				}
+			]
+		},
+		{
+			"id": "kimberly",
+			"name": "Kimberly",
+			"notationLegend": [
+				{
+					"term": "MP~HP / LP~MP~HP~HK",
+					"meaning": "Target continuations. The later presses continue the target route, rather than linking separate standing normals."
+				},
+				{
+					"term": "236K~P / ~MK / ~LK",
+					"meaning": "Sprint into the listed punch or kick branch. The punch branch stops the run; the demonstrated kick branches are distinct and are not interchangeable."
+				},
+				{
+					"term": "Arc Step ~ K",
+					"meaning": "The run step from contact into the airborne kick continuation. Keep the shown corner spacing and OD versus normal run distinction."
+				},
+				{
+					"term": "236HP / j.236P / j.236PP",
+					"meaning": "Heavy Vagabond Edge launch / regular airborne grab / OD airborne grab. Use the grounded launch before the airborne input."
+				},
+				{
+					"term": "22MP",
+					"meaning": "Medium bomb placement. Requires an available spray can and creates a later timing situation, not an immediate combo hit."
+				}
+			],
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/kimberly"
+				}
+			]
+		},
+		{
+			"id": "juri",
+			"name": "Juri",
+			"notationLegend": [
+				{
+					"term": "Fuha",
+					"meaning": "Juri’s stored resource. OD Fuhajin adds one stock; enhanced Go Ohsatsu and its enhanced Ankensatsu continuation each spend one. Check the entry’s starting-stock requirement."
+				},
+				{
+					"term": "6MP / 4HK",
+					"meaning": "Forward medium punch / back heavy kick. They are distinct post-launch normals with different spacing and knockdown results."
+				},
+				{
+					"term": "236HK (Fuha) ~ MK (Fuha)",
+					"meaning": "Enhanced Go Ohsatsu followed by the enhanced Ankensatsu continuation. MK is the special follow-up, not a standing medium kick."
+				},
+				{
+					"term": "CA",
+					"meaning": "Critical Art version of Level 3, requiring the appropriate low-health state as well as three Super stocks."
+				}
+			],
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/juri"
+				}
+			]
+		},
+		{
+			"id": "ken",
+			"name": "Ken",
+			"notationLegend": [
+				{
+					"term": "Run / KK / Run stop",
+					"meaning": "Quick Dash uses two kicks. LK during the run stops it; this is distinct from a forward dash and from Drive Rush."
+				},
+				{
+					"term": "MP~HP / Chin Buster",
+					"meaning": "Standing medium punch followed by its heavy-punch target continuation."
+				},
+				{
+					"term": "Run DP / Run Tatsu / Run Dragonlash",
+					"meaning": "The demonstrated punch, quarter-circle-back kick, or dragon-punch-motion kick continuation during Quick Dash."
+				}
+			],
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/ken"
+				}
+			]
+		},
+		{
+			"id": "blanka",
+			"name": "Blanka",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/blanka"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Charge / [4] / [2]",
+					"meaning": "Hold back for Rolling Attack or down for Vertical Rolling Attack before the release."
+				},
+				{
+					"term": "Coward Crouch / 2PP",
+					"meaning": "Down plus two punches enters the low stance. The subsequent P is Wild Lift, a separate launching action."
+				},
+				{
+					"term": "Air Rolling Attack",
+					"meaning": "An aerial charge special; preserve the listed direction and button strength through the preceding juggle."
+				}
+			]
+		},
+		{
+			"id": "ehonda",
+			"name": "E. Honda",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/ehonda"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Charge / [4] / [2]",
+					"meaning": "Hold back or down before releasing the listed charge special. Build charge during the preceding actions."
+				},
+				{
+					"term": "Sumo Dash / 236K",
+					"meaning": "The dash has separate punch follow-ups. 2P is Taiho Cannon Lift; P then P is the two-stage Teppo Triple Slap."
+				},
+				{
+					"term": "3HK / Toko Shizume",
+					"meaning": "Down-forward heavy kick is the overhead stomp. It is different from the crouching heavy kick."
+				},
+				{
+					"term": "22P / Neko Damashi",
+					"meaning": "Double down plus punch is the clap. The creator’s “Sumo Spirit” note beside Hands identifies the empowered Hands state."
+				},
+				{
+					"term": "Sumo Spirit",
+					"meaning": "A stocked Sumo Spirit changes Hundred Hand Slap. Preserve the stocked-state prerequisite in empowered routes."
+				},
+				{
+					"term": "Oicho Throw",
+					"meaning": "63214K is the half-circle-back command throw. A throw after blockstun or wake-up is a pressure attempt, not a combo."
+				}
+			]
+		},
+		{
+			"id": "deejay",
+			"name": "Dee Jay",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/deejay"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Charge / [2]8K",
+					"meaning": "Hold down before up plus the listed kick for Jackknife Maximum. Double-Jackknife routes require recharging between versions."
+				},
+				{
+					"term": "Sobat / 236MK",
+					"meaning": "Medium Double Rolling Sobat is the forward quarter-circle kick used in these knockdown setups."
+				},
+				{
+					"term": "Machine Gun Uppercut / 214P",
+					"meaning": "Quarter-circle back plus the listed punch. The medium and heavy routes are distinct from Jackknife enders."
+				},
+				{
+					"term": "Target combo",
+					"meaning": "The medium-medium-heavy sequence is a target combo. Match the follow-up timing rather than treating it as three independent normal links."
+				}
+			]
+		},
+		{
+			"id": "marisa",
+			"name": "Marisa",
+			"notationLegend": [
+				{
+					"term": "214P~6P",
+					"meaning": "Dimachaerus followed by its forward-punch continuation. The follow-up is part of the special sequence."
+				},
+				{
+					"term": "MP~MP / LP~LP",
+					"meaning": "Target continuation, rather than a link between separate standing attacks."
+				},
+				{
+					"term": "(hold)",
+					"meaning": "Fully hold the stated attack button as demonstrated. A held normal and an unheld normal can create different launch and juggle states."
+				},
+				{
+					"term": "236KK / 623PP",
+					"meaning": "OD Quadriga / OD Phalanx. These spend Drive and are not interchangeable with their regular versions."
+				},
+				{
+					"term": "4HP / 6MP",
+					"meaning": "Back heavy punch / forward medium punch, relative to the opponent. The forward-medium starter is an overhead."
+				}
+			],
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/marisa"
+				}
+			]
+		},
+		{
+			"id": "jp",
+			"name": "JP",
+			"notationLegend": [
+				{
+					"term": "4MP~MP / HK~HP",
+					"meaning": "The back-medium-punch or heavy-kick target continuation. Later target presses are not separate neutral links."
+				},
+				{
+					"term": "236P / 236K",
+					"meaning": "Stribog / Torbalan. Punch versus kick changes the special; OD versions use two buttons of the corresponding type."
+				},
+				{
+					"term": "22LP / 22MP / 22HP",
+					"meaning": "Triglav with the listed punch strength. Placement matters; preserve the demonstrated spacing."
+				},
+				{
+					"term": "214P / 214KK",
+					"meaning": "Departure portal placement / OD Embrace command grab. A later portal placement after knockdown is separate from the damage combo."
+				},
+				{
+					"term": "6MK / 6HK",
+					"meaning": "Forward medium kick overhead / forward heavy kick. Direction is relative to the opponent."
+				}
+			],
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/jp"
+				}
+			]
+		},
+		{
+			"id": "zangief",
+			"name": "Zangief",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/zangief"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "PP / PPP",
+					"meaning": "Two punches is Double Lariat; three punches is OD Double Lariat. They are different versions with different resource costs."
+				},
+				{
+					"term": "3MP / Hellstab",
+					"meaning": "Down-forward medium punch. Keep it distinct from crouching medium punch."
+				},
+				{
+					"term": "Headbutt / 6HP",
+					"meaning": "Forward heavy punch. Its close-range link is separate from the forward heavy kick punish starter."
+				},
+				{
+					"term": "360 / 720",
+					"meaning": "Full-circle command-throw notation. 360MP is medium Screw Piledriver; 720P is Level 3 Bolshoi Storm Buster."
+				},
+				{
+					"term": "j.360KK / OD Borscht Dynamite",
+					"meaning": "The airborne OD command throw follows a launch. It is not a grounded Screw Piledriver."
+				},
+				{
+					"term": "Held SA2",
+					"meaning": "Hold the punch button during Cyclone Lariat for the demonstrated launch; dash and juggle afterward."
+				}
+			]
+		},
+		{
+			"id": "lily",
+			"name": "Lily",
+			"notationLegend": [
+				{
+					"term": "Wind",
+					"meaning": "Stored Wind stock; the enhanced Condor Spire variants shown consume one."
+				},
+				{
+					"term": "360P",
+					"meaning": "Mexican Typhoon command throw. The suffix specifies the demonstrated punch strength."
+				},
+				{
+					"term": "DR / DRC",
+					"meaning": "Raw Drive Rush costs one Drive bar; a normal cancelled into Drive Rush costs three."
+				}
+			],
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/lily"
+				}
+			]
+		},
+		{
+			"id": "cammy",
+			"name": "Cammy",
+			"notationLegend": [
+				{
+					"term": "Arrow / Spike / Strike",
+					"meaning": "Spiral Arrow / Cannon Spike / airborne Cannon Strike. Use the listed strength and grounded or airborne input."
+				},
+				{
+					"term": "4MP~HK / Lift Combination",
+					"meaning": "Back medium punch into the heavy-kick target continuation. Follow the shown jump-cancel route when stated."
+				},
+				{
+					"term": "HP~HK / Swing Combination",
+					"meaning": "Standing heavy punch into its heavy-kick target continuation; distinct from Lift Combination."
+				},
+				{
+					"term": "hold / short hold",
+					"meaning": "Hold the heavy-special button for the demonstrated duration; exact timing follows the clip, not a new numeric frame claim."
+				}
+			],
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/cammy"
+				}
+			]
+		},
+		{
+			"id": "rashid",
+			"name": "Rashid",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/rashid"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "236KK / OD Whirlwind Shot",
+					"meaning": "The OD forward quarter-circle kick is Whirlwind Shot. Eagle Spike instead uses quarter-circle back plus kick."
+				},
+				{
+					"term": "Arabian Cyclone / 214P",
+					"meaning": "Use the listed punch strength, then the separate Roll or Wing Stroke continuation."
+				},
+				{
+					"term": "Run / 6KK",
+					"meaning": "Forward plus two kicks enters Run. This is different from a 66 forward dash."
+				},
+				{
+					"term": "Target combo",
+					"meaning": "Standing medium punch into heavy kick is the target sequence. Match its continuation timing."
+				},
+				{
+					"term": "Rolling Assault",
+					"meaning": "The roll and subsequent kick are separate follow-up actions; keep both in the sequence."
+				}
+			]
+		},
+		{
+			"id": "aki",
+			"name": "A.K.I.",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/aki"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Poison / Toxic Blossom",
+					"meaning": "A.K.I.’s poisoned-opponent routes have different properties. The creator marks poison-triggering attacks with an asterisk; references state the prerequisite explicitly."
+				},
+				{
+					"term": "Nightshade Pulse / Chaser",
+					"meaning": "214LP is the bubble. 6P is its separate Nightshade Chaser follow-up."
+				},
+				{
+					"term": "Serpent Lash / 236P",
+					"meaning": "Light is horizontal, heavy rises upward. Match the listed version and the poison prerequisite."
+				},
+				{
+					"term": "Sinister Slide / Heel Strike",
+					"meaning": "2PP enters the slide stance; K performs Heel Strike. These are separate actions."
+				},
+				{
+					"term": "Toxic Wreath / Orchid Spring",
+					"meaning": "214HP is the close poison attack; 214MP places the poison pool. Pool placement after a combo is a setup, not a guaranteed later hit."
+				},
+				{
+					"term": "Source recipe notation",
+					"meaning": "This 2023 recording has recipe overlays and poison effects but no input-history display. Routes are source-reviewed rather than current-patch tested."
+				}
+			]
+		},
+		{
+			"id": "ed",
+			"name": "Ed",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/ed"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Kick buttons",
+					"meaning": "Ed’s kick-button normals are performed as punches. Keep button labels distinct from the attack’s physical animation."
+				},
+				{
+					"term": "Body Blow Combination",
+					"meaning": "Standing MP into its HP target follow-up; a separate standing HP link is a different route."
+				},
+				{
+					"term": "Kill Rush / KK",
+					"meaning": "Two kicks enters Kill Rush, called Kill Step in some source terminology."
+				},
+				{
+					"term": "Kill Switch Chaser",
+					"meaning": "Press forward plus punch late during forward Kill Rush. The early forward-punch continuation is Kill Switch Break, a different move."
+				},
+				{
+					"term": "cr.MP / cr.MK",
+					"meaning": "Crouching medium punch is the low starter selected from the source’s “MK or 2MP” options. Crouching medium kick is a separate high-hitting button."
+				},
+				{
+					"term": "Psycho Blitz / 214P",
+					"meaning": "Use the listed strength. Knockdown setups preserve the source’s specific starter, ender, spacing and dated frame value."
+				}
+			]
+		},
+		{
+			"id": "mbison",
+			"name": "M. Bison",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/vega_mbison"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Charge / [4]6P",
+					"meaning": "Psycho Crusher requires back charge. Scissor Kicks uses a quarter-circle motion in SF6."
+				},
+				{
+					"term": "Backfist Combo / 214P",
+					"meaning": "The strength matters. The selected initial routes start without a Psycho Mine and plant one with Backfist."
+				},
+				{
+					"term": "Psycho Mine",
+					"meaning": "A planted mine changes later conversions. Do not substitute a mine-active route for a reference that begins without one."
+				},
+				{
+					"term": "Shadow Hammer",
+					"meaning": "Standing MP into forward HP is the target combo used after the blocked-DI wall splat."
+				},
+				{
+					"term": "b.HK / st.HK",
+					"meaning": "Back heavy kick and standing heavy kick are different normals. Match the listed direction, especially in heavy links."
+				}
+			]
+		},
+		{
+			"id": "terry",
+			"name": "Terry",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/terry"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Power Charge / 236K",
+					"meaning": "Power Charge uses a quarter-circle-forward motion. Its name does not mean holding a charge direction."
+				},
+				{
+					"term": "Round Wave / 236HP",
+					"meaning": "The heavy-punch wave is Round Wave, distinct from light Power Wave."
+				},
+				{
+					"term": "Fire Kick target combo",
+					"meaning": "Crouching medium kick into its crouching-heavy-kick target follow-up. The follow-up is not a standalone sweep."
+				},
+				{
+					"term": "Two-hit standing HP",
+					"meaning": "Wait for both heavy-punch hits where specified before canceling into the special."
+				},
+				{
+					"term": "Power Geyser continuations",
+					"meaning": "SA2 starts Power Geyser. The first PP continuation is Twin Geyser and spends Drive; the second is Triple Geyser and spends an extra Super stock."
+				},
+				{
+					"term": "Delayed Crack Shoot",
+					"meaning": "The heavy Crack Shoot juggle needs the demonstrated delay after Power Charge. Match height before the Rising Tackle finish."
+				}
+			]
+		},
+		{
+			"id": "mai",
+			"name": "Mai",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/mai"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Flame stocks / *",
+					"meaning": "An asterisk in the source denotes an enhanced special using Mai’s Flame stocks. Match each reference’s required stock state."
+				},
+				{
+					"term": "Air fan / j.214P",
+					"meaning": "Perform the listed quarter-circle-back punch while airborne; the reference identifies a strength when the source establishes one."
+				}
+			]
+		},
+		{
+			"id": "elena",
+			"name": "Elena",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/elena"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Target combo / -",
+					"meaning": "A linked target-combo follow-up is a separate input. Match any standing-opponent condition in the reference."
+				},
+				{
+					"term": "Rhino Horn",
+					"meaning": "Elena’s quarter-circle-forward kick special. Use the listed version and standing-opponent condition."
+				}
+			]
+		},
+		{
+			"id": "sagat",
+			"name": "Sagat",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/sagat"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Tiger Nexus",
+					"meaning": "The quarter-circle-back kick entry has distinct follow-ups. The following direction and button identify the demonstrated branch."
+				},
+				{
+					"term": "Held Uppercut",
+					"meaning": "A held heavy Tiger Uppercut is distinct from a tap; follow the listed hold cue."
+				}
+			]
+		},
+		{
+			"id": "cviper",
+			"name": "C. Viper",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/cviper"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "SJC / High Jump cancel",
+					"meaning": "Cancel the listed move into a High Jump with down then up. It spends one Drive bar outside the Limit Decoupler install; the airborne special is a separate input."
+				},
+				{
+					"term": "Feint",
+					"meaning": "Cancel a Thunder Dash or Seismic Hammer startup using the kick input shown in the source. Feints are not landed special hits."
+				},
+				{
+					"term": "Tracer follow-up",
+					"meaning": "The forward + two-punch continuation after Thunder Dash is separate from the initial special and spends Drive."
+				}
+			]
+		},
+		{
+			"id": "alex",
+			"name": "Alex",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/alex"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Prowler Stance / 2PP",
+					"meaning": "Down + two punches enters Prowler Stance. Its follow-ups are separate inputs and differ from normal standing attacks."
+				},
+				{
+					"term": "Held heavy",
+					"meaning": "Hold the listed heavy button for the charged version rather than tapping it. Match the reference’s starter and condition."
+				}
+			]
+		},
+		{
+			"id": "ingrid",
+			"name": "Ingrid",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/ingrid"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Sun Crests / Solar Crests / * / **",
+					"meaning": "The source calls these Solar Crests; the official name is Sun Crests. Heavy and OD Sun Flare automatically spend up to two. A one-asterisk route requires exactly one starting Crest."
+				},
+				{
+					"term": "Target follow-up",
+					"meaning": "The second heavy punch after back heavy punch, or medium kick after medium punch, is a target-combo follow-up. Use the listed continuation."
+				}
+			]
+		},
+		{
+			"id": "yasmine",
+			"name": "Yasmine",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/yasmine"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Bayani / *",
+					"meaning": "An asterisk in the source denotes a Bayani-enhanced version. Match the stated Bayani condition before practising that route."
+				},
+				{
+					"term": "Alon / 6P follow-up",
+					"meaning": "The forward-punch continuation is an input after the listed Daloy ng Tubig special; it is not a separate normal punch."
+				}
+			]
+		},
+		{
+			"id": "arjun",
+			"name": "Arjun",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/arjun"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Arm of Justice / 6P",
+					"meaning": "The forward-punch continuation belongs to the preceding Arm of Justice. It is a separate follow-up action, not a new normal attack."
+				},
+				{
+					"term": "Cruel Shoulder / Divine Pillar",
+					"meaning": "An active Divine Pillar changes Cruel Shoulder into Justice Beyond. Match each route’s required pillar state."
+				}
+			]
 		}
 	]
 }

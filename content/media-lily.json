@@ -1,0 +1,151 @@
+{
+	"sourceIds": ["joe-ebios-lily-classic-2026"],
+	"publicationStatus": "private-development",
+	"presentationNote": "Uncropped source frames retain input history, training HUD and source overlays. Full original recording remains local.",
+	"assets": [
+		{
+			"referenceId": "lily-ebios-lights-medium-buster",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 2.85,
+			"sourceEnd": 6.85,
+			"clip": "/media/lily/lily-ebios-lights-medium-buster/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-lights-wind-spire",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 46.85,
+			"sourceEnd": 52.35,
+			"clip": "/media/lily/lily-ebios-lights-wind-spire/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-heavy-medium-wind",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 256.35,
+			"sourceEnd": 260.3,
+			"clip": "/media/lily/lily-ebios-heavy-medium-wind/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-counter-heavy-wind",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 284.55,
+			"sourceEnd": 289.1,
+			"clip": "/media/lily/lily-ebios-counter-heavy-wind/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-rush-heavy-wind",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 290.2,
+			"sourceEnd": 294.9,
+			"clip": "/media/lily/lily-ebios-rush-heavy-wind/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-heavy-wind-spire",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 295.6,
+			"sourceEnd": 300.1,
+			"clip": "/media/lily/lily-ebios-heavy-wind-spire/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-impact-heavy-wind",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 672.55,
+			"sourceEnd": 680.25,
+			"clip": "/media/lily/lily-ebios-impact-heavy-wind/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-impact-od-spire-sa1",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 692.55,
+			"sourceEnd": 704.4,
+			"clip": "/media/lily/lily-ebios-impact-od-spire-sa1/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-wall-wind-spire-sa1",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 753.7,
+			"sourceEnd": 763.55,
+			"clip": "/media/lily/lily-ebios-wall-wind-spire-sa1/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-rush-cancel-light-spire",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 369.9,
+			"sourceEnd": 375.35,
+			"clip": "/media/lily/lily-ebios-rush-cancel-light-spire/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-buster-rush-typhoon",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 18.85,
+			"sourceEnd": 23.35,
+			"clip": "/media/lily/lily-ebios-buster-rush-typhoon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-wind-spire-jump-throw",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 63.15,
+			"sourceEnd": 67.35,
+			"clip": "/media/lily/lily-ebios-wind-spire-jump-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-heavy-spire-dashes-typhoon",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 310.05,
+			"sourceEnd": 314.25,
+			"clip": "/media/lily/lily-ebios-heavy-spire-dashes-typhoon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-corner-throw-rush-throw",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 635.65,
+			"sourceEnd": 639.5,
+			"clip": "/media/lily/lily-ebios-corner-throw-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-anti-air-heavy-wind",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 261.1,
+			"sourceEnd": 263.65,
+			"clip": "/media/lily/lily-ebios-anti-air-heavy-wind/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-ebios-blocked-drive-reversal-typhoon",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 796.1,
+			"sourceEnd": 801.25,
+			"clip": "/media/lily/lily-ebios-blocked-drive-reversal-typhoon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		}
+	]
+}

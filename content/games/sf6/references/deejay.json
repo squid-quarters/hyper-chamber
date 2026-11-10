@@ -1,0 +1,1298 @@
+[
+	{
+		"id": "deejay-jabs-medium-sobat",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Two crouching jabs into medium Sobat",
+		"summary": "A short meterless light confirm ends in Double Rolling Sobat.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LP > cr.LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Double Rolling Sobat"
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 0.85,
+			"end": 4.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-jabs-medium-sobat/clip.mp4",
+			"poster": "/media/deejay/deejay-jabs-medium-sobat/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-jabs-medium-sobat/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-jabs-medium-sobat/frame-1.jpg",
+					"at": 0.55,
+					"label": "Jab confirm",
+					"alt": "Dee Jay connects two crouching light punches."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-jabs-medium-sobat/frame-2.jpg",
+					"at": 1.25,
+					"label": "Medium Sobat",
+					"alt": "Dee Jay cancels into the advancing kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-jabs-medium-sobat/frame-3.jpg",
+					"at": 2.35,
+					"label": "Knockdown",
+					"alt": "Dee Jay recovers as Ryu lands."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-sobat-rush-throw",
+			"deejay-sobat-rush-sunrise-heel",
+			"deejay-medium-rush-uppercut"
+		]
+	},
+	{
+		"id": "deejay-sobat-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Medium Sobat oki: Rush into throw",
+		"summary": "After the shown Sobat knockdown, Drive Rush reaches the opponent for a throw attempt.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw pressure", "Drive Rush"],
+		"outcomes": ["Conversion"],
+		"notation": "DR > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Forward normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The preceding medium Sobat knockdown is the source’s shown +34F",
+			"Match knockdown spacing"
+		],
+		"notes": ["This is one recorded throw attempt, not an unavoidable throw."],
+		"resources": {
+			"drive": "One raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 6.1,
+			"end": 9.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-sobat-rush-throw/clip.mp4",
+			"poster": "/media/deejay/deejay-sobat-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-sobat-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-sobat-rush-throw/frame-1.jpg",
+					"at": 0.55,
+					"label": "Rush approach",
+					"alt": "Dee Jay approaches the waking Ryu in Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-sobat-rush-throw/frame-2.jpg",
+					"at": 1.0,
+					"label": "Throw timing",
+					"alt": "Dee Jay grabs Ryu on recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-sobat-rush-throw/frame-3.jpg",
+					"at": 2.5,
+					"label": "Throw result",
+					"alt": "Dee Jay completes the forward throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-sobat-rush-sunrise-heel",
+			"deejay-corner-sobat-kill-throw",
+			"deejay-jabs-medium-sobat"
+		]
+	},
+	{
+		"id": "deejay-sobat-rush-sunrise-heel",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Medium Sobat oki: Sunrise Heel conversion",
+		"summary": "Drive Rush Sunrise Heel links into crouching heavy and crouching medium before heavy Jackknife.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Drive Rush"],
+		"outcomes": ["Conversion"],
+		"notation": "DR > 6MK > cr.HP > cr.MP > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "6MK",
+				"label": "Sunrise Heel"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "[2]8HK",
+				"label": "Heavy Jackknife Maximum",
+				"cue": "Hold down during the preceding actions"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Preceding medium Sobat knockdown, shown as +34F",
+			"Sunrise Heel hits at the demonstrated wake-up timing"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "One raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 21.3,
+			"end": 27.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-sobat-rush-sunrise-heel/clip.mp4",
+			"poster": "/media/deejay/deejay-sobat-rush-sunrise-heel/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-sobat-rush-sunrise-heel/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-sobat-rush-sunrise-heel/frame-1.jpg",
+					"at": 0.8,
+					"label": "Rush Sunrise Heel",
+					"alt": "Dee Jay flips forward into Sunrise Heel from Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-sobat-rush-sunrise-heel/frame-2.jpg",
+					"at": 1.35,
+					"label": "Crouching heavy link",
+					"alt": "Dee Jay links crouching heavy punch after Sunrise Heel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-sobat-rush-sunrise-heel/frame-3.jpg",
+					"at": 2.0,
+					"label": "Medium punch",
+					"alt": "Dee Jay connects crouching medium punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/deejay/deejay-sobat-rush-sunrise-heel/frame-4.jpg",
+					"at": 3.2,
+					"label": "Jackknife finish",
+					"alt": "Dee Jay finishes with heavy Jackknife Maximum."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-sobat-rush-throw",
+			"deejay-jabs-medium-sobat",
+			"deejay-corner-sobat-kill-throw"
+		]
+	},
+	{
+		"id": "deejay-corner-sobat-kill-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Corner Sobat oki: whiff medium kick, throw",
+		"summary": "Use standing medium kick as a frame kill after the corner Sobat knockdown.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw pressure"],
+		"outcomes": ["Conversion"],
+		"notation": "st.MK > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "Whiff standing medium kick",
+				"cue": "Frame kill; do not hit the opponent"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Delayed forward throw"
+			}
+		],
+		"conditions": ["Classic controls", "Corner medium-Sobat knockdown, shown as +34F"],
+		"notes": ["Whiffed medium kick is intentional. Defensive responses still apply."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 32.75,
+			"end": 36.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-corner-sobat-kill-throw/clip.mp4",
+			"poster": "/media/deejay/deejay-corner-sobat-kill-throw/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-corner-sobat-kill-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-corner-sobat-kill-throw/frame-1.jpg",
+					"at": 0.4,
+					"label": "Frame kill",
+					"alt": "Dee Jay intentionally whiffs standing medium kick over the knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-corner-sobat-kill-throw/frame-2.jpg",
+					"at": 0.8,
+					"label": "Delayed throw",
+					"alt": "Dee Jay grabs Ryu after the frame kill."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-corner-sobat-kill-throw/frame-3.jpg",
+					"at": 2.5,
+					"label": "Corner throw",
+					"alt": "Dee Jay completes the throw at the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-sobat-rush-throw",
+			"deejay-sobat-rush-sunrise-heel",
+			"deejay-corner-double-jackknife"
+		]
+	},
+	{
+		"id": "deejay-medium-rush-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Crouching medium into Rush and Uppercut",
+		"summary": "Drive Rush turns crouching medium punch into a heavy link and Machine Gun Uppercut.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.MP > DRC > cr.HP > st.HP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP",
+				"label": "Medium Machine Gun Uppercut"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "One cancel Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 166.55,
+			"end": 172.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-medium-rush-uppercut/clip.mp4",
+			"poster": "/media/deejay/deejay-medium-rush-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-medium-rush-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-medium-rush-uppercut/frame-1.jpg",
+					"at": 0.45,
+					"label": "Medium starter",
+					"alt": "Dee Jay connects crouching medium punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-medium-rush-uppercut/frame-2.jpg",
+					"at": 1.1,
+					"label": "Rush extension",
+					"alt": "Dee Jay links crouching heavy punch from Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-medium-rush-uppercut/frame-3.jpg",
+					"at": 2.1,
+					"label": "Standing heavy",
+					"alt": "Dee Jay connects the standing heavy punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/deejay/deejay-medium-rush-uppercut/frame-4.jpg",
+					"at": 3.65,
+					"label": "Machine Gun Uppercut",
+					"alt": "Dee Jay finishes the multi-hit uppercut."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-jabs-medium-sobat",
+			"deejay-sobat-rush-throw",
+			"deejay-sobat-rush-sunrise-heel"
+		]
+	},
+	{
+		"id": "deejay-heavy-jackknife",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Crouching heavy into heavy Jackknife",
+		"summary": "A short heavy-punch conversion uses down charge built during the starter.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.HP > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "[2]8HK",
+				"label": "Heavy Jackknife Maximum",
+				"cue": "Hold down during the preceding actions"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 249.15,
+			"end": 253.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-heavy-jackknife/clip.mp4",
+			"poster": "/media/deejay/deejay-heavy-jackknife/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-heavy-jackknife/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-heavy-jackknife/frame-1.jpg",
+					"at": 0.85,
+					"label": "Heavy starter",
+					"alt": "Dee Jay connects crouching heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-heavy-jackknife/frame-2.jpg",
+					"at": 1.7,
+					"label": "Jackknife launch",
+					"alt": "Dee Jay launches Ryu with the heavy down-charge kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-heavy-jackknife/frame-3.jpg",
+					"at": 2.95,
+					"label": "Recovery",
+					"alt": "Dee Jay lands after Jackknife."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-jabs-medium-sobat",
+			"deejay-sobat-rush-throw",
+			"deejay-sobat-rush-sunrise-heel"
+		]
+	},
+	{
+		"id": "deejay-corner-double-jackknife",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Corner heavy link into double Jackknife",
+		"summary": "Crouching medium punch connects after the heavy starter, then medium and heavy Jackknife juggle at the wall.",
+		"kind": "combo",
+		"situations": ["Corner"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.HP > cr.MP > [2]8MK > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "[2]8MK",
+				"label": "Medium Jackknife Maximum",
+				"cue": "Recharge down before the following heavy Jackknife"
+			},
+			{
+				"id": "step-4",
+				"notation": "[2]8HK",
+				"label": "Heavy Jackknife Maximum",
+				"cue": "Hold down during the preceding actions"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent at the wall"],
+		"notes": [
+			"The medium-to-heavy Jackknife sequence requires a second down charge; match the source input history."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 259.15,
+			"end": 264.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-corner-double-jackknife/clip.mp4",
+			"poster": "/media/deejay/deejay-corner-double-jackknife/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-corner-double-jackknife/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-corner-double-jackknife/frame-1.jpg",
+					"at": 0.75,
+					"label": "Heavy link",
+					"alt": "Dee Jay starts with crouching heavy punch into medium punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-corner-double-jackknife/frame-2.jpg",
+					"at": 1.6,
+					"label": "Medium Jackknife",
+					"alt": "Dee Jay launches Ryu with the medium kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-corner-double-jackknife/frame-3.jpg",
+					"at": 2.45,
+					"label": "Heavy Jackknife",
+					"alt": "Dee Jay catches him with the recharged heavy version."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/deejay/deejay-corner-double-jackknife/frame-4.jpg",
+					"at": 3.95,
+					"label": "Corner recovery",
+					"alt": "Dee Jay lands after the second Jackknife."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-corner-sobat-kill-throw",
+			"deejay-corner-drive-reversal-jackknife",
+			"deejay-wall-splat-target-jackknife"
+		]
+	},
+	{
+		"id": "deejay-drive-reversal-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Blocked Drive Reversal: medium Uppercut punish",
+		"summary": "Punish with crouching medium punch, link a second one and finish with Machine Gun Uppercut.",
+		"kind": "combo",
+		"situations": ["Punish"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.MP > cr.MP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Punish-counter crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP",
+				"label": "Medium Machine Gun Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu Drive Reversal blocked",
+			"Close enough for the medium link"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 360.4,
+			"end": 366.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-drive-reversal-uppercut/clip.mp4",
+			"poster": "/media/deejay/deejay-drive-reversal-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-drive-reversal-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-drive-reversal-uppercut/frame-1.jpg",
+					"at": 0.6,
+					"label": "Block the reversal",
+					"alt": "Dee Jay guards Ryu’s Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-drive-reversal-uppercut/frame-2.jpg",
+					"at": 1.4,
+					"label": "Medium punish",
+					"alt": "Dee Jay punishes with crouching medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-drive-reversal-uppercut/frame-3.jpg",
+					"at": 2.3,
+					"label": "Second medium",
+					"alt": "Dee Jay links another crouching medium punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/deejay/deejay-drive-reversal-uppercut/frame-4.jpg",
+					"at": 3.6,
+					"label": "Uppercut finish",
+					"alt": "Dee Jay completes Machine Gun Uppercut."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-corner-drive-reversal-jackknife",
+			"deejay-dp-punish-double-heavy",
+			"deejay-jabs-medium-sobat"
+		]
+	},
+	{
+		"id": "deejay-corner-drive-reversal-jackknife",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Corner Drive Reversal punish into double Jackknife",
+		"summary": "Two crouching medium punches lead into the corner medium-to-heavy Jackknife juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Punish"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.MP > cr.MP > [2]8MK > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Punish-counter crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "[2]8MK",
+				"label": "Medium Jackknife Maximum",
+				"cue": "Recharge down before the following heavy Jackknife"
+			},
+			{
+				"id": "step-4",
+				"notation": "[2]8HK",
+				"label": "Heavy Jackknife Maximum",
+				"cue": "Hold down during the preceding actions"
+			}
+		],
+		"conditions": ["Classic controls", "Ryu Drive Reversal blocked", "Opponent at the wall"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 367.1,
+			"end": 373.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-corner-drive-reversal-jackknife/clip.mp4",
+			"poster": "/media/deejay/deejay-corner-drive-reversal-jackknife/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-corner-drive-reversal-jackknife/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-corner-drive-reversal-jackknife/frame-1.jpg",
+					"at": 1.2,
+					"label": "Blocked reversal",
+					"alt": "Dee Jay blocks the reversal at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-corner-drive-reversal-jackknife/frame-2.jpg",
+					"at": 2.1,
+					"label": "Medium link",
+					"alt": "Dee Jay connects both crouching medium punches."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-corner-drive-reversal-jackknife/frame-3.jpg",
+					"at": 3.2,
+					"label": "Medium Jackknife",
+					"alt": "Dee Jay starts the down-charge juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/deejay/deejay-corner-drive-reversal-jackknife/frame-4.jpg",
+					"at": 4.55,
+					"label": "Heavy Jackknife",
+					"alt": "Dee Jay finishes with the heavy version."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-corner-sobat-kill-throw",
+			"deejay-corner-double-jackknife",
+			"deejay-drive-reversal-uppercut"
+		]
+	},
+	{
+		"id": "deejay-counter-di-heavy-jackknife",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Counter Drive Impact into heavy link",
+		"summary": "The DI crumple allows crouching heavy, crouching medium and heavy Jackknife.",
+		"kind": "combo",
+		"situations": ["Drive Impact"],
+		"outcomes": ["Conversion"],
+		"notation": "DI > cr.HP > cr.MP > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "[2]8HK",
+				"label": "Heavy Jackknife Maximum",
+				"cue": "Hold down during the preceding actions"
+			}
+		],
+		"conditions": ["Classic controls", "Drive Impact lands as Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 384.05,
+			"end": 391.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-counter-di-heavy-jackknife/clip.mp4",
+			"poster": "/media/deejay/deejay-counter-di-heavy-jackknife/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-counter-di-heavy-jackknife/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-counter-di-heavy-jackknife/frame-1.jpg",
+					"at": 1.8,
+					"label": "Counter DI",
+					"alt": "Dee Jay crumples Ryu with Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-counter-di-heavy-jackknife/frame-2.jpg",
+					"at": 3.1,
+					"label": "Heavy starter",
+					"alt": "Dee Jay hits the crumpled opponent with crouching heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-counter-di-heavy-jackknife/frame-3.jpg",
+					"at": 4.05,
+					"label": "Medium link",
+					"alt": "Dee Jay connects crouching medium punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/deejay/deejay-counter-di-heavy-jackknife/frame-4.jpg",
+					"at": 5.4,
+					"label": "Jackknife finish",
+					"alt": "Dee Jay launches Ryu with heavy Jackknife."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-wall-splat-target-jackknife",
+			"deejay-jabs-medium-sobat",
+			"deejay-sobat-rush-throw"
+		]
+	},
+	{
+		"id": "deejay-wall-splat-target-jackknife",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Wall splat into three-hit target combo",
+		"summary": "The blocked DI conversion uses the medium-medium-heavy target sequence before Jackknife.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact"],
+		"outcomes": ["Conversion"],
+		"notation": "DI > st.MP > st.MP > st.HP > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Target combo first punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Target combo second punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Target combo heavy follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "[2]8HK",
+				"label": "Heavy Jackknife Maximum",
+				"cue": "Hold down during the preceding actions"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent blocks DI at the wall"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 402.15,
+			"end": 409.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-wall-splat-target-jackknife/clip.mp4",
+			"poster": "/media/deejay/deejay-wall-splat-target-jackknife/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-wall-splat-target-jackknife/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-wall-splat-target-jackknife/frame-1.jpg",
+					"at": 1.2,
+					"label": "Wall splat",
+					"alt": "Dee Jay pushes blocking Ryu into the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-wall-splat-target-jackknife/frame-2.jpg",
+					"at": 2.85,
+					"label": "Target combo",
+					"alt": "Dee Jay connects the medium-medium-heavy sequence."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-wall-splat-target-jackknife/frame-3.jpg",
+					"at": 4.75,
+					"label": "Jackknife finish",
+					"alt": "Dee Jay launches Ryu with the charged heavy kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/deejay/deejay-wall-splat-target-jackknife/frame-4.jpg",
+					"at": 6.5,
+					"label": "Recovery",
+					"alt": "Dee Jay lands beside the cornered opponent."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-corner-sobat-kill-throw",
+			"deejay-corner-double-jackknife",
+			"deejay-corner-drive-reversal-jackknife"
+		]
+	},
+	{
+		"id": "deejay-dp-punish-double-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Blocked uppercut: double-heavy punish",
+		"summary": "Punish Counter allows two crouching heavy punches before medium punch and Jackknife.",
+		"kind": "combo",
+		"situations": ["Punish"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.HP > cr.HP > cr.MP > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Punish-counter crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "[2]8HK",
+				"label": "Heavy Jackknife Maximum",
+				"cue": "Hold down during the preceding actions"
+			}
+		],
+		"conditions": ["Classic controls", "Ryu OD Shoryuken blocked"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 431.25,
+			"end": 437.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-dp-punish-double-heavy/clip.mp4",
+			"poster": "/media/deejay/deejay-dp-punish-double-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-dp-punish-double-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-dp-punish-double-heavy/frame-1.jpg",
+					"at": 0.9,
+					"label": "Block the uppercut",
+					"alt": "Dee Jay guards Ryu’s OD Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-dp-punish-double-heavy/frame-2.jpg",
+					"at": 1.85,
+					"label": "Heavy punish",
+					"alt": "Dee Jay starts the Punish Counter link."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-dp-punish-double-heavy/frame-3.jpg",
+					"at": 2.85,
+					"label": "Second heavy",
+					"alt": "Dee Jay connects the second crouching heavy punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/deejay/deejay-dp-punish-double-heavy/frame-4.jpg",
+					"at": 4.25,
+					"label": "Jackknife finish",
+					"alt": "Dee Jay finishes after the medium-punch link."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-drive-reversal-uppercut",
+			"deejay-corner-drive-reversal-jackknife",
+			"deejay-jabs-medium-sobat"
+		]
+	},
+	{
+		"id": "deejay-double-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "deejay"
+			}
+		],
+		"title": "Heavy confirm into double Rush and Level 3",
+		"summary": "Two Drive Rush cancels extend the heavy links into Machine Gun Uppercut and Saturday Night.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Cash out", "Drive Rush"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.HP > cr.MP > DRC > cr.HP > st.HP > DRC > cr.HP > st.HP > 214MP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-7",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "214MP",
+				"label": "Medium Machine Gun Uppercut"
+			},
+			{
+				"id": "step-10",
+				"notation": "SA3",
+				"label": "Saturday Night",
+				"cue": "214214P"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Two cancel Drive Rushes; reaches burnout",
+			"super": "3 Super stocks"
+		},
+		"source": {
+			"id": "joe-ebios-deejay-2026",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"published": "2026-07-03",
+			"start": 455.55,
+			"end": 472.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/deejay/deejay-double-rush-level-three/clip.mp4",
+			"poster": "/media/deejay/deejay-double-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/deejay/deejay-double-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/deejay/deejay-double-rush-level-three/frame-1.jpg",
+					"at": 0.6,
+					"label": "Heavy starter",
+					"alt": "Dee Jay begins the heavy-to-medium link."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/deejay/deejay-double-rush-level-three/frame-2.jpg",
+					"at": 1.9,
+					"label": "First Rush",
+					"alt": "Dee Jay extends into crouching heavy and standing heavy."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/deejay/deejay-double-rush-level-three/frame-3.jpg",
+					"at": 4.0,
+					"label": "Second Rush",
+					"alt": "Dee Jay repeats the heavy extension."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/deejay/deejay-double-rush-level-three/frame-4.jpg",
+					"at": 5.65,
+					"label": "Super cancel",
+					"alt": "Dee Jay cancels Machine Gun Uppercut into Level 3."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/deejay/deejay-double-rush-level-three/frame-5.jpg",
+					"at": 14.55,
+					"label": "Saturday Night finish",
+					"alt": "Dee Jay completes the cinematic finisher."
+				}
+			]
+		},
+		"relatedIds": [
+			"deejay-jabs-medium-sobat",
+			"deejay-sobat-rush-throw",
+			"deejay-sobat-rush-sunrise-heel"
+		]
+	}
+]

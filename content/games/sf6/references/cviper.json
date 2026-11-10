@@ -1,0 +1,1252 @@
+[
+	{
+		"id": "cviper-vesper-low-heavy-thunder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Low light chain into heavy Thunder Dash",
+		"summary": "A meterless low-light confirm with the heavy grounded special as its ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 34.3,
+			"end": 38.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-low-heavy-thunder/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-low-heavy-thunder/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-low-heavy-thunder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-low-heavy-thunder/frame-1.jpg",
+					"at": 0.7,
+					"label": "Light chain",
+					"alt": "Crouching light attacks connect at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-low-heavy-thunder/frame-2.jpg",
+					"at": 1.7,
+					"label": "Heavy Thunder Dash",
+					"alt": "The heavy Thunder Dash ender connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-low-heavy-thunder/frame-3.jpg",
+					"at": 3.0,
+					"label": "Knockdown",
+					"alt": "Luke recovers after the heavy special."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-low-od-kick",
+			"cviper-vesper-low-tracer",
+			"cviper-vesper-low-level1"
+		]
+	},
+	{
+		"id": "cviper-vesper-low-od-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Low light chain into OD kick",
+		"summary": "Spend two Drive bars to replace the low chain’s meterless finish with an OD kick.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 236KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "OD Burning Kick"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 39.5,
+			"end": 43.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-low-od-kick/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-low-od-kick/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-low-od-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-low-od-kick/frame-1.jpg",
+					"at": 0.8,
+					"label": "Low chain",
+					"alt": "The low kick and crouching jabs connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-low-od-kick/frame-2.jpg",
+					"at": 2.3,
+					"label": "OD kick",
+					"alt": "C. Viper spends Drive on the OD kick special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-low-od-kick/frame-3.jpg",
+					"at": 3.3,
+					"label": "Recovery",
+					"alt": "Luke falls after the OD ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-low-heavy-thunder",
+			"cviper-vesper-low-tracer",
+			"cviper-vesper-low-level1"
+		]
+	},
+	{
+		"id": "cviper-vesper-low-tracer",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Low lights into medium Thunder Dash and Tracer",
+		"summary": "Add the standing LK link and spend one Drive bar on the separate Tracer continuation.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > st.LK > 214MP > 6PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP",
+				"label": "Medium Thunder Dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "6PP",
+				"label": "Tracer Combination follow-up",
+				"cue": "Tracer continuation after Thunder Dash; costs one Drive bar in this source."
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Tracer is a separate forward + two-punch input; its one-bar cost is shown in this recording."
+		],
+		"resources": {
+			"drive": "Tracer follow-up (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 45.4,
+			"end": 49.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-low-tracer/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-low-tracer/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-low-tracer/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-low-tracer/frame-1.jpg",
+					"at": 0.7,
+					"label": "Light confirm",
+					"alt": "The light attacks lead into standing light kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-low-tracer/frame-2.jpg",
+					"at": 1.6,
+					"label": "Thunder Dash",
+					"alt": "Medium Thunder Dash connects before its continuation."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-low-tracer/frame-3.jpg",
+					"at": 2.6,
+					"label": "Tracer continuation",
+					"alt": "Forward + two punches adds the Drive-spending follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-low-heavy-thunder",
+			"cviper-vesper-low-od-kick",
+			"cviper-vesper-low-level1"
+		]
+	},
+	{
+		"id": "cviper-vesper-low-level1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Low light chain into Level 1",
+		"summary": "A one-bar Super finish directly from the close low-light chain.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Limit Decoupler (Level 1)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 51.6,
+			"end": 56.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-low-level1/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-low-level1/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-low-level1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-low-level1/frame-1.jpg",
+					"at": 0.6,
+					"label": "Light chain",
+					"alt": "The low starter and jabs connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-low-level1/frame-2.jpg",
+					"at": 1.5,
+					"label": "Super cancel",
+					"alt": "C. Viper begins her Level 1 Super Art."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-low-level1/frame-3.jpg",
+					"at": 3.6,
+					"label": "Knockdown",
+					"alt": "Luke falls at the end of the Super."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-low-od-level2",
+			"cviper-vesper-low-thunder-level3",
+			"cviper-vesper-low-heavy-thunder"
+		]
+	},
+	{
+		"id": "cviper-vesper-low-od-level2",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Low lights through OD kick into Level 2",
+		"summary": "Cancel the OD kick into Level 2, budgeting two Drive and two Super bars.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > cr.LP > 236KK > SA2",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "OD Burning Kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA2",
+				"label": "Mission Complete (Level 2)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "Level 2 (2 bars)"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 58.1,
+			"end": 67.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-low-od-level2/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-low-od-level2/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-low-od-level2/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-low-od-level2/frame-1.jpg",
+					"at": 1.0,
+					"label": "Low confirm",
+					"alt": "The crouching light chain connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-low-od-level2/frame-2.jpg",
+					"at": 2.4,
+					"label": "Super cancel",
+					"alt": "The OD kick is cancelled into Level 2."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-low-od-level2/frame-3.jpg",
+					"at": 8.0,
+					"label": "Hard knockdown",
+					"alt": "Luke lands after the Level 2 sequence."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-low-level1",
+			"cviper-vesper-low-thunder-level3",
+			"cviper-vesper-low-heavy-thunder"
+		]
+	},
+	{
+		"id": "cviper-vesper-low-thunder-level3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Low lights through medium Thunder Dash into Level 3",
+		"summary": "Use medium Thunder Dash as the bridge from low lights to a three-bar finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Super finish", "Cash out"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > st.LK > 214MP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "214MP",
+				"label": "Medium Thunder Dash"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA3",
+				"label": "Hard Luck Rejector (Level 3)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 69.8,
+			"end": 82.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-low-thunder-level3/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-low-thunder-level3/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-low-thunder-level3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-low-thunder-level3/frame-1.jpg",
+					"at": 0.7,
+					"label": "Light confirm",
+					"alt": "Crouching lights lead into standing light kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-low-thunder-level3/frame-2.jpg",
+					"at": 1.8,
+					"label": "Level 3 cancel",
+					"alt": "Medium Thunder Dash is cancelled into Level 3."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-low-thunder-level3/frame-3.jpg",
+					"at": 11.3,
+					"label": "Hard knockdown",
+					"alt": "Luke is down at the end of Level 3."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-low-level1",
+			"cviper-vesper-low-od-level2",
+			"cviper-vesper-medium-tracer-level3"
+		]
+	},
+	{
+		"id": "cviper-vesper-medium-tracer-level3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Medium confirm through light Thunder Dash and Tracer",
+		"summary": "A medium-starter cash-out that adds Tracer before the Level 3 cancel.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Super finish", "Cash out"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > cr.MP > 214LP > 6PP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "Light Thunder Dash"
+			},
+			{
+				"id": "step-4",
+				"notation": "6PP",
+				"label": "Tracer Combination follow-up",
+				"cue": "Tracer continuation before cancelling into Level 3."
+			},
+			{
+				"id": "step-5",
+				"notation": "SA3",
+				"label": "Hard Luck Rejector (Level 3)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Tracer follow-up (1 bar)",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 93.45,
+			"end": 102.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-medium-tracer-level3/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-medium-tracer-level3/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-medium-tracer-level3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-medium-tracer-level3/frame-1.jpg",
+					"at": 0.55,
+					"label": "Medium confirm",
+					"alt": "Standing MP leads into crouching MP."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-medium-tracer-level3/frame-2.jpg",
+					"at": 1.75,
+					"label": "Tracer",
+					"alt": "The light Thunder Dash continuation catches Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-medium-tracer-level3/frame-3.jpg",
+					"at": 7.65,
+					"label": "Level 3 finish",
+					"alt": "Luke lands after Level 3."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-low-thunder-level3",
+			"cviper-vesper-medium-od-seismo-level1",
+			"cviper-vesper-medium-two-od-level2"
+		]
+	},
+	{
+		"id": "cviper-vesper-medium-od-seismo-tracer",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Mediums into OD Seismic Hammer and Tracer",
+		"summary": "Extend the OD launcher through heavy Thunder Dash and the one-bar Tracer follow-up.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > cr.MP > 623PP > 214HP > 6PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623PP",
+				"label": "OD Seismic Hammer"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			},
+			{
+				"id": "step-5",
+				"notation": "6PP",
+				"label": "Tracer Combination follow-up",
+				"cue": "Forward + two punches after heavy Thunder Dash."
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive + Tracer (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 115.4,
+			"end": 119.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-medium-od-seismo-tracer/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-medium-od-seismo-tracer/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-medium-od-seismo-tracer/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-medium-od-seismo-tracer/frame-1.jpg",
+					"at": 0.6,
+					"label": "Medium confirm",
+					"alt": "Standing MP and crouching MP connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-medium-od-seismo-tracer/frame-2.jpg",
+					"at": 1.6,
+					"label": "OD Seismic Hammer",
+					"alt": "The OD launcher lifts Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-medium-od-seismo-tracer/frame-3.jpg",
+					"at": 2.8,
+					"label": "Tracer finish",
+					"alt": "Heavy Thunder Dash and its Tracer continuation finish the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-medium-two-od-level2",
+			"cviper-vesper-medium-high-jump-air-kick",
+			"cviper-vesper-medium-tracer-level3"
+		]
+	},
+	{
+		"id": "cviper-vesper-medium-od-seismo-level1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Mediums into OD Seismic Hammer and Level 1",
+		"summary": "Turn the OD launcher into a Level 1 juggle after the two-medium confirm.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > cr.MP > 623PP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623PP",
+				"label": "OD Seismic Hammer"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Limit Decoupler (Level 1)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 122.0,
+			"end": 127.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-medium-od-seismo-level1/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-medium-od-seismo-level1/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-medium-od-seismo-level1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-medium-od-seismo-level1/frame-1.jpg",
+					"at": 0.8,
+					"label": "Medium confirm",
+					"alt": "The medium punches connect before the launcher."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-medium-od-seismo-level1/frame-2.jpg",
+					"at": 2.1,
+					"label": "Level 1 juggle",
+					"alt": "Level 1 catches the opponent after OD Seismic Hammer."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-medium-od-seismo-level1/frame-3.jpg",
+					"at": 4.1,
+					"label": "Finish",
+					"alt": "Luke falls after the Level 1 juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-medium-tracer-level3",
+			"cviper-vesper-medium-two-od-level2",
+			"cviper-vesper-low-level1"
+		]
+	},
+	{
+		"id": "cviper-vesper-medium-two-od-level2",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "OD Seismic Hammer into OD kick and Level 2",
+		"summary": "A four-Drive extension that uses both OD specials before Level 2.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Juggle extension", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > cr.MP > 623PP > 236KK > SA2",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623PP",
+				"label": "OD Seismic Hammer"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "OD Burning Kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA2",
+				"label": "Mission Complete (Level 2)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Two Overdrives (4 bars)",
+			"super": "Level 2 (2 bars)"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 129.4,
+			"end": 139.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-medium-two-od-level2/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-medium-two-od-level2/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-medium-two-od-level2/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-medium-two-od-level2/frame-1.jpg",
+					"at": 0.8,
+					"label": "Medium confirm",
+					"alt": "The medium punches lead into OD Seismic Hammer."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-medium-two-od-level2/frame-2.jpg",
+					"at": 2.8,
+					"label": "OD kick juggle",
+					"alt": "The OD kick catches Luke before Level 2."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-medium-two-od-level2/frame-3.jpg",
+					"at": 8.8,
+					"label": "Super finish",
+					"alt": "Luke falls after the Level 2 finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-medium-tracer-level3",
+			"cviper-vesper-medium-od-seismo-tracer",
+			"cviper-vesper-medium-od-seismo-level1"
+		]
+	},
+	{
+		"id": "cviper-vesper-medium-high-jump-air-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "OD Seismic Hammer high-jump cancel into air kick",
+		"summary": "Budget three Drive bars for the OD launcher and paid high-jump conversion.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Super jump cancel", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > cr.MP > 623PP > SJC > j.236HK > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623PP",
+				"label": "OD Seismic Hammer"
+			},
+			{
+				"id": "step-4",
+				"notation": "SJC",
+				"label": "High Jump cancel",
+				"cue": "Cancel Seismic Hammer into the demonstrated high jump."
+			},
+			{
+				"id": "step-5",
+				"notation": "j.236HK",
+				"label": "Airborne heavy Burning Kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			}
+		],
+		"conditions": ["Classic controls", "Limit Decoupler install inactive in the demonstrated take"],
+		"notes": [
+			"The high jump is a cancel after Seismic Hammer; the airborne heavy kick is a separate input."
+		],
+		"resources": {
+			"drive": "Overdrive + high jump (3 bars total)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 141.5,
+			"end": 146.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-medium-high-jump-air-kick/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-medium-high-jump-air-kick/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-medium-high-jump-air-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-medium-high-jump-air-kick/frame-1.jpg",
+					"at": 0.7,
+					"label": "Medium confirm",
+					"alt": "The medium punches connect before OD Seismic Hammer."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-medium-high-jump-air-kick/frame-2.jpg",
+					"at": 2.0,
+					"label": "Air kick",
+					"alt": "C. Viper high-jump cancels into the airborne heavy kick special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-medium-high-jump-air-kick/frame-3.jpg",
+					"at": 3.0,
+					"label": "Thunder Dash juggle",
+					"alt": "Heavy Thunder Dash catches Luke after she lands."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-medium-od-seismo-tracer",
+			"cviper-vesper-medium-two-od-level2",
+			"cviper-vesper-heavy-high-jump-air-kick"
+		]
+	},
+	{
+		"id": "cviper-vesper-heavy-light-seismo",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Crouching heavy into light Seismic Hammer",
+		"summary": "A meterless heavy-starter juggle using light Seismic Hammer and heavy Thunder Dash.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > 623LP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "623LP",
+				"label": "Light Seismic Hammer"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 194.25,
+			"end": 197.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-heavy-light-seismo/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-heavy-light-seismo/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-heavy-light-seismo/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-heavy-light-seismo/frame-1.jpg",
+					"at": 0.75,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-heavy-light-seismo/frame-2.jpg",
+					"at": 1.45,
+					"label": "Light Seismic Hammer",
+					"alt": "Light Seismic Hammer launches Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-heavy-light-seismo/frame-3.jpg",
+					"at": 2.15,
+					"label": "Heavy Thunder Dash",
+					"alt": "Heavy Thunder Dash finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-heavy-high-jump-air-kick",
+			"cviper-vesper-medium-od-seismo-tracer",
+			"cviper-vesper-medium-two-od-level2"
+		]
+	},
+	{
+		"id": "cviper-vesper-heavy-high-jump-air-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Crouching heavy through Seismic Hammer and airborne kick",
+		"summary": "Spend one Drive bar on the high jump to add an airborne heavy-kick juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Super jump cancel", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > 623LP > SJC > j.236HK > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "623LP",
+				"label": "Light Seismic Hammer"
+			},
+			{
+				"id": "step-3",
+				"notation": "SJC",
+				"label": "High Jump cancel",
+				"cue": "High-jump cancel after the light Seismic Hammer hit."
+			},
+			{
+				"id": "step-4",
+				"notation": "j.236HK",
+				"label": "Airborne heavy Burning Kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			}
+		],
+		"conditions": ["Classic controls", "Limit Decoupler install inactive in the demonstrated take"],
+		"notes": [],
+		"resources": {
+			"drive": "High jump (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 199.6,
+			"end": 204.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-vesper-heavy-high-jump-air-kick/clip.mp4",
+			"poster": "/media/cviper/cviper-vesper-heavy-high-jump-air-kick/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-vesper-heavy-high-jump-air-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-vesper-heavy-high-jump-air-kick/frame-1.jpg",
+					"at": 0.6,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch starts the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-vesper-heavy-high-jump-air-kick/frame-2.jpg",
+					"at": 1.7,
+					"label": "High-jump air kick",
+					"alt": "C. Viper follows the Seismic Hammer launch with an airborne heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-vesper-heavy-high-jump-air-kick/frame-3.jpg",
+					"at": 2.9,
+					"label": "Thunder Dash finish",
+					"alt": "Heavy Thunder Dash catches Luke after she lands."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-vesper-medium-high-jump-air-kick",
+			"cviper-vesper-heavy-light-seismo",
+			"cviper-vesper-medium-od-seismo-tracer"
+		]
+	}
+]

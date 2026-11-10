@@ -1,0 +1,1122 @@
+[
+	{
+		"id": "yasmine-vesper-low-light-alon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Low light confirm into light Daloy and Alon",
+		"summary": "An ordinary light-special confirm that demonstrates the Alon continuation and Bayani gain.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Low confirm"],
+		"outcomes": ["Bayani gained"],
+		"notation": "cr.LK > cr.LP > 236LP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LP",
+				"label": "Light Daloy ng Tubig"
+			},
+			{
+				"id": "step-4",
+				"notation": "6P",
+				"label": "Alon follow-up",
+				"cue": "Alon continuation during Daloy ng Tubig; the punch is a follow-up, not a normal."
+			}
+		],
+		"conditions": ["Classic controls", "Ordinary, unenhanced Alon version"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-yasmine-2026",
+			"title": "Street Fighter 6 Yasmine Combos Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=zclm5B9jVys",
+			"published": "2026-08-05",
+			"start": 24.8,
+			"end": 29.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-vesper-low-light-alon/clip.mp4",
+			"poster": "/media/yasmine/yasmine-vesper-low-light-alon/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-vesper-low-light-alon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-vesper-low-light-alon/frame-1.jpg",
+					"at": 0.7,
+					"label": "Light confirm",
+					"alt": "Crouching low attacks connect before the special."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-vesper-low-light-alon/frame-2.jpg",
+					"at": 1.8,
+					"label": "Daloy",
+					"alt": "The light Daloy special catches Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-vesper-low-light-alon/frame-3.jpg",
+					"at": 2.5,
+					"label": "Alon continuation",
+					"alt": "Yasmine completes the forward-punch continuation and gains the shown blue effect."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-double-low-heavy-dp",
+			"yasmine-vesper-light-target-medium-alon",
+			"yasmine-vesper-punish-jab-low-alon"
+		]
+	},
+	{
+		"id": "yasmine-vesper-double-low-heavy-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Two low kicks into heavy Lipad ng Agila",
+		"summary": "A meterless low confirm with two crouching kicks before the heavy rising-kick ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LK > cr.LP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-yasmine-2026",
+			"title": "Street Fighter 6 Yasmine Combos Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=zclm5B9jVys",
+			"published": "2026-08-05",
+			"start": 31.2,
+			"end": 35.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-vesper-double-low-heavy-dp/clip.mp4",
+			"poster": "/media/yasmine/yasmine-vesper-double-low-heavy-dp/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-vesper-double-low-heavy-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-vesper-double-low-heavy-dp/frame-1.jpg",
+					"at": 0.9,
+					"label": "Double low",
+					"alt": "The two crouching light kicks connect."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-vesper-double-low-heavy-dp/frame-2.jpg",
+					"at": 2.0,
+					"label": "Heavy rising kick",
+					"alt": "Heavy Lipad ng Agila lifts Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-vesper-double-low-heavy-dp/frame-3.jpg",
+					"at": 3.1,
+					"label": "Finish",
+					"alt": "Luke falls after the heavy ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-low-light-alon",
+			"yasmine-vesper-light-target-medium-alon",
+			"yasmine-vesper-punish-jab-low-alon"
+		]
+	},
+	{
+		"id": "yasmine-vesper-low-level1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Low light chain into Level 1",
+		"summary": "Spend one Super bar directly from the double-low light chain.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LK > cr.LP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Hiwa ng Kalangitan (Level 1)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "vesperarcade-yasmine-2026",
+			"title": "Street Fighter 6 Yasmine Combos Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=zclm5B9jVys",
+			"published": "2026-08-05",
+			"start": 37.5,
+			"end": 44.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-vesper-low-level1/clip.mp4",
+			"poster": "/media/yasmine/yasmine-vesper-low-level1/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-vesper-low-level1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-vesper-low-level1/frame-1.jpg",
+					"at": 0.8,
+					"label": "Low confirm",
+					"alt": "The low light chain connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-vesper-low-level1/frame-2.jpg",
+					"at": 1.7,
+					"label": "Super cancel",
+					"alt": "Yasmine starts Level 1 after the crouching jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-vesper-low-level1/frame-3.jpg",
+					"at": 5.5,
+					"label": "Super finish",
+					"alt": "Luke falls after the Level 1 sequence."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-low-light-alon",
+			"yasmine-vesper-double-low-heavy-dp",
+			"yasmine-vesper-light-target-medium-alon"
+		]
+	},
+	{
+		"id": "yasmine-vesper-light-target-medium-alon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Low lights and jab target combo into medium Alon",
+		"summary": "Keep both standing-jab target inputs before cancelling into ordinary medium Alon.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Low confirm", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > cr.LP > st.LP > st.LP > 236MP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "Standing light punch",
+				"cue": "Second standing LP is the target-combo continuation."
+			},
+			{
+				"id": "step-5",
+				"notation": "236MP",
+				"label": "Medium Daloy ng Tubig"
+			},
+			{
+				"id": "step-6",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Ordinary Alon version"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-yasmine-2026",
+			"title": "Street Fighter 6 Yasmine Combos Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=zclm5B9jVys",
+			"published": "2026-08-05",
+			"start": 46.3,
+			"end": 51.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-vesper-light-target-medium-alon/clip.mp4",
+			"poster": "/media/yasmine/yasmine-vesper-light-target-medium-alon/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-vesper-light-target-medium-alon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-vesper-light-target-medium-alon/frame-1.jpg",
+					"at": 0.7,
+					"label": "Low starter",
+					"alt": "Crouching light kick begins the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-vesper-light-target-medium-alon/frame-2.jpg",
+					"at": 1.9,
+					"label": "Jab target combo",
+					"alt": "The standing-jab target continuation connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-vesper-light-target-medium-alon/frame-3.jpg",
+					"at": 3.1,
+					"label": "Medium Alon",
+					"alt": "The medium Daloy and Alon finish knocks Luke down."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-low-light-alon",
+			"yasmine-vesper-double-low-heavy-dp",
+			"yasmine-vesper-punish-jab-low-alon"
+		]
+	},
+	{
+		"id": "yasmine-vesper-medium-jab-heavy-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Crouching medium into jab and heavy rising kick",
+		"summary": "A close-range meterless conversion that links crouching jab after crouching MP.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > cr.LP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for the crouching jab"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-yasmine-2026",
+			"title": "Street Fighter 6 Yasmine Combos Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=zclm5B9jVys",
+			"published": "2026-08-05",
+			"start": 97.1,
+			"end": 101.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-vesper-medium-jab-heavy-dp/clip.mp4",
+			"poster": "/media/yasmine/yasmine-vesper-medium-jab-heavy-dp/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-vesper-medium-jab-heavy-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-vesper-medium-jab-heavy-dp/frame-1.jpg",
+					"at": 0.6,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-vesper-medium-jab-heavy-dp/frame-2.jpg",
+					"at": 1.3,
+					"label": "Jab link",
+					"alt": "Crouching light punch follows the medium."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-vesper-medium-jab-heavy-dp/frame-3.jpg",
+					"at": 2.6,
+					"label": "Heavy ender",
+					"alt": "Heavy Lipad ng Agila finishes the confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-medium-heavy-alon",
+			"yasmine-vesper-bayani-medium-heavy-juggle",
+			"yasmine-vesper-medium-od-talim-juggle"
+		]
+	},
+	{
+		"id": "yasmine-vesper-medium-heavy-alon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Crouching medium into heavy Daloy and Alon",
+		"summary": "A short, ordinary-state medium confirm with the heavy Alon continuation.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > 236HP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-3",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Ordinary, unenhanced Alon version"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-yasmine-2026",
+			"title": "Street Fighter 6 Yasmine Combos Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=zclm5B9jVys",
+			"published": "2026-08-05",
+			"start": 103.9,
+			"end": 108.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-vesper-medium-heavy-alon/clip.mp4",
+			"poster": "/media/yasmine/yasmine-vesper-medium-heavy-alon/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-vesper-medium-heavy-alon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-vesper-medium-heavy-alon/frame-1.jpg",
+					"at": 0.7,
+					"label": "Medium cancel",
+					"alt": "Crouching medium punch leads into heavy Daloy."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-vesper-medium-heavy-alon/frame-2.jpg",
+					"at": 1.8,
+					"label": "Alon continuation",
+					"alt": "The forward-punch continuation connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-vesper-medium-heavy-alon/frame-3.jpg",
+					"at": 3.1,
+					"label": "Knockdown",
+					"alt": "Luke lands at the end of ordinary heavy Alon."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-medium-jab-heavy-dp",
+			"yasmine-vesper-bayani-medium-heavy-juggle",
+			"yasmine-vesper-medium-od-talim-juggle"
+		]
+	},
+	{
+		"id": "yasmine-vesper-bayani-medium-heavy-juggle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Bayani heavy Alon into heavy-punch juggle",
+		"summary": "With Bayani active, extend enhanced heavy Alon through a standing-heavy juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Bayani", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > 236HP* > 6P > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HP*",
+				"label": "Bayani-enhanced heavy Daloy ng Tubig",
+				"cue": "Bayani-enhanced heavy Daloy and its Alon continuation."
+			},
+			{
+				"id": "step-3",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": ["Classic controls", "Bayani active before the enhanced special"],
+		"notes": [
+			"The source’s asterisk marks the Bayani-enhanced version; the ordinary heavy-Alon route is separate."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-yasmine-2026",
+			"title": "Street Fighter 6 Yasmine Combos Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=zclm5B9jVys",
+			"published": "2026-08-05",
+			"start": 110.1,
+			"end": 117.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-vesper-bayani-medium-heavy-juggle/clip.mp4",
+			"poster": "/media/yasmine/yasmine-vesper-bayani-medium-heavy-juggle/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-vesper-bayani-medium-heavy-juggle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-vesper-bayani-medium-heavy-juggle/frame-1.jpg",
+					"at": 0.9,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch begins the Bayani route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-vesper-bayani-medium-heavy-juggle/frame-2.jpg",
+					"at": 2.5,
+					"label": "Enhanced Alon",
+					"alt": "The enhanced Alon continuation launches Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-vesper-bayani-medium-heavy-juggle/frame-3.jpg",
+					"at": 4.5,
+					"label": "Rising-kick finish",
+					"alt": "Standing heavy punch leads into heavy Lipad ng Agila."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-medium-od-talim-juggle",
+			"yasmine-vesper-medium-jab-heavy-dp",
+			"yasmine-vesper-medium-heavy-alon"
+		]
+	},
+	{
+		"id": "yasmine-vesper-medium-od-talim-juggle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Crouching medium into OD Talim and heavy rising kick",
+		"summary": "Spend two Drive bars on the Talim launcher, then juggle with standing HP.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > 214PP > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214PP",
+				"label": "OD Talim ng Hangin"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-yasmine-2026",
+			"title": "Street Fighter 6 Yasmine Combos Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=zclm5B9jVys",
+			"published": "2026-08-05",
+			"start": 119.2,
+			"end": 124.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-vesper-medium-od-talim-juggle/clip.mp4",
+			"poster": "/media/yasmine/yasmine-vesper-medium-od-talim-juggle/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-vesper-medium-od-talim-juggle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-vesper-medium-od-talim-juggle/frame-1.jpg",
+					"at": 0.8,
+					"label": "OD cancel",
+					"alt": "Crouching medium punch is cancelled into the OD special."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-vesper-medium-od-talim-juggle/frame-2.jpg",
+					"at": 2.0,
+					"label": "Heavy-punch juggle",
+					"alt": "Standing heavy punch catches Luke after the OD launcher."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-vesper-medium-od-talim-juggle/frame-3.jpg",
+					"at": 3.4,
+					"label": "Heavy rising kick",
+					"alt": "Heavy Lipad ng Agila finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-bayani-medium-heavy-juggle",
+			"yasmine-vesper-medium-jab-heavy-dp",
+			"yasmine-vesper-medium-heavy-alon"
+		]
+	},
+	{
+		"id": "yasmine-vesper-medium-target-heavy-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Medium-punch target combo into heavy rising kick",
+		"summary": "Practise the medium-punch target continuation before the heavy special cancel.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > st.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch",
+				"cue": "Target-combo second medium punch."
+			},
+			{
+				"id": "step-3",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-yasmine-2026",
+			"title": "Street Fighter 6 Yasmine Combos Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=zclm5B9jVys",
+			"published": "2026-08-05",
+			"start": 137.3,
+			"end": 142.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-vesper-medium-target-heavy-dp/clip.mp4",
+			"poster": "/media/yasmine/yasmine-vesper-medium-target-heavy-dp/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-vesper-medium-target-heavy-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-vesper-medium-target-heavy-dp/frame-1.jpg",
+					"at": 0.7,
+					"label": "Target starter",
+					"alt": "Standing medium punch begins the target combo."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-vesper-medium-target-heavy-dp/frame-2.jpg",
+					"at": 1.4,
+					"label": "Target continuation",
+					"alt": "The second medium punch connects before the special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-vesper-medium-target-heavy-dp/frame-3.jpg",
+					"at": 2.8,
+					"label": "Heavy ender",
+					"alt": "Heavy Lipad ng Agila carries Luke upward."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-light-target-medium-alon",
+			"yasmine-vesper-medium-jab-heavy-dp",
+			"yasmine-vesper-medium-heavy-alon"
+		]
+	},
+	{
+		"id": "yasmine-vesper-wall-heavy-talim",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Wall splat into medium Talim and rising-kick juggle",
+		"summary": "Convert a blocked corner DI through medium Talim without another Drive spend.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > cr.HP > 214MP > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP",
+				"label": "Medium Talim ng Hangin"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": ["Classic controls", "Blocked DI at the wall creates wall splat"],
+		"notes": ["This is the wall-splat demonstration, not the separate DI Punish Counter crumple."],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-yasmine-2026",
+			"title": "Street Fighter 6 Yasmine Combos Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=zclm5B9jVys",
+			"published": "2026-08-05",
+			"start": 238.8,
+			"end": 245.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-vesper-wall-heavy-talim/clip.mp4",
+			"poster": "/media/yasmine/yasmine-vesper-wall-heavy-talim/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-vesper-wall-heavy-talim/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-vesper-wall-heavy-talim/frame-1.jpg",
+					"at": 1.2,
+					"label": "Wall splat",
+					"alt": "Drive Impact creates the shown wall-splat state."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-vesper-wall-heavy-talim/frame-2.jpg",
+					"at": 2.8,
+					"label": "Talim launcher",
+					"alt": "Crouching heavy punch and medium Talim continue the juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-vesper-wall-heavy-talim/frame-3.jpg",
+					"at": 4.6,
+					"label": "Heavy rising kick",
+					"alt": "Standing HP leads into the heavy rising-kick finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-bayani-medium-heavy-juggle",
+			"yasmine-vesper-medium-od-talim-juggle",
+			"yasmine-vesper-low-light-alon"
+		]
+	},
+	{
+		"id": "yasmine-vesper-punish-jab-low-alon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Punish-counter jab into low medium and Alon",
+		"summary": "The standing-jab Punish Counter enables the crouching-MK link into ordinary Alon.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Light confirm", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > cr.MK > 236MP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Daloy ng Tubig"
+			},
+			{
+				"id": "step-4",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Standing LP Punish Counter", "Ordinary Alon version"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-yasmine-2026",
+			"title": "Street Fighter 6 Yasmine Combos Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=zclm5B9jVys",
+			"published": "2026-08-05",
+			"start": 287.2,
+			"end": 291.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-vesper-punish-jab-low-alon/clip.mp4",
+			"poster": "/media/yasmine/yasmine-vesper-punish-jab-low-alon/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-vesper-punish-jab-low-alon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-vesper-punish-jab-low-alon/frame-1.jpg",
+					"at": 0.5,
+					"label": "Jab punish",
+					"alt": "Standing light punch begins the Punish Counter confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-vesper-punish-jab-low-alon/frame-2.jpg",
+					"at": 1.3,
+					"label": "Low-medium link",
+					"alt": "Crouching medium kick links after the jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-vesper-punish-jab-low-alon/frame-3.jpg",
+					"at": 2.8,
+					"label": "Medium Alon finish",
+					"alt": "Medium Daloy and Alon finish the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-low-light-alon",
+			"yasmine-vesper-double-low-heavy-dp",
+			"yasmine-vesper-light-target-medium-alon"
+		]
+	},
+	{
+		"id": "yasmine-vesper-rush-low-heavy-alon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Drive Rush low into crouching medium and heavy Alon",
+		"summary": "A one-Drive low approach that links crouching MP before the ordinary heavy special.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > cr.LK > cr.MP > 236HP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Raw Drive Rush", "Ordinary Alon version"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-yasmine-2026",
+			"title": "Street Fighter 6 Yasmine Combos Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=zclm5B9jVys",
+			"published": "2026-08-05",
+			"start": 437.3,
+			"end": 442.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Action order, source notation, hit results, resource displays and selected clip boundaries visually reviewed. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-vesper-rush-low-heavy-alon/clip.mp4",
+			"poster": "/media/yasmine/yasmine-vesper-rush-low-heavy-alon/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-vesper-rush-low-heavy-alon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-vesper-rush-low-heavy-alon/frame-1.jpg",
+					"at": 0.7,
+					"label": "Rush low",
+					"alt": "The Drive Rush low begins the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-vesper-rush-low-heavy-alon/frame-2.jpg",
+					"at": 1.7,
+					"label": "Medium link",
+					"alt": "Crouching medium punch links after the Rush low."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-vesper-rush-low-heavy-alon/frame-3.jpg",
+					"at": 2.9,
+					"label": "Heavy Alon",
+					"alt": "Heavy Daloy and its continuation complete the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-low-light-alon",
+			"yasmine-vesper-double-low-heavy-dp",
+			"yasmine-vesper-light-target-medium-alon"
+		]
+	}
+]

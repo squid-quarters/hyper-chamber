@@ -1,0 +1,1246 @@
+[
+	{
+		"id": "blanka-low-jabs-roll",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "blanka"
+			}
+		],
+		"title": "Low kick and two jabs into Rolling Attack",
+		"summary": "Confirm three crouching lights into the medium charged roll.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Charge"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.LK > cr.LP > cr.LP > M Roll",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Roll",
+				"label": "Medium Rolling Attack",
+				"cue": "[4]6MP: keep back charge during the normals, then forward + medium punch."
+			}
+		],
+		"conditions": ["Classic controls", "Close range", "Back charge ready for the medium roll"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-blanka-2023",
+			"title": "SF6 Blanka COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=bqMgPmmD1qs",
+			"published": "2023-07-03",
+			"start": 13.4,
+			"end": 16.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/blanka/blanka-low-jabs-roll/clip.mp4",
+			"poster": "/media/blanka/blanka-low-jabs-roll/frame-1.jpg",
+			"descriptionTrack": "/media/blanka/blanka-low-jabs-roll/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/blanka/blanka-low-jabs-roll/frame-1.jpg",
+					"at": 0.4,
+					"label": "Low starter",
+					"alt": "Blanka begins with a crouching light kick on Luke."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/blanka/blanka-low-jabs-roll/frame-2.jpg",
+					"at": 1.0,
+					"label": "Jab chain",
+					"alt": "The crouching light punches continue the light confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/blanka/blanka-low-jabs-roll/frame-3.jpg",
+					"at": 1.8,
+					"label": "Rolling finish",
+					"alt": "Medium Rolling Attack carries Luke away."
+				}
+			]
+		},
+		"relatedIds": [
+			"blanka-standing-lights-roll",
+			"blanka-rush-light-heavy-roll",
+			"blanka-back-medium-od-air-roll"
+		]
+	},
+	{
+		"id": "blanka-rush-light-heavy-roll",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "blanka"
+			}
+		],
+		"title": "Rush light kick into heavy kick and Rolling Attack",
+		"summary": "Use raw Drive Rush light kick to link a heavy kick, jab and medium roll.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush", "Charge"],
+		"outcomes": ["Conversion"],
+		"notation": "DR > st.LK > st.HK > st.LP > M Roll",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "M Roll",
+				"label": "Medium Rolling Attack",
+				"cue": "[4]6MP: keep back charge during the normals, then forward + medium punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Raw Drive Rush light-kick hit",
+			"Close enough for the standing jab"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-blanka-2023",
+			"title": "SF6 Blanka COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=bqMgPmmD1qs",
+			"published": "2023-07-03",
+			"start": 20.1,
+			"end": 23.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/blanka/blanka-rush-light-heavy-roll/clip.mp4",
+			"poster": "/media/blanka/blanka-rush-light-heavy-roll/frame-1.jpg",
+			"descriptionTrack": "/media/blanka/blanka-rush-light-heavy-roll/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/blanka/blanka-rush-light-heavy-roll/frame-1.jpg",
+					"at": 0.45,
+					"label": "Rush entry",
+					"alt": "Blanka enters with raw Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/blanka/blanka-rush-light-heavy-roll/frame-2.jpg",
+					"at": 1.3,
+					"label": "Heavy-kick link",
+					"alt": "Standing heavy kick follows the Rush light starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/blanka/blanka-rush-light-heavy-roll/frame-3.jpg",
+					"at": 2.85,
+					"label": "Rolling finish",
+					"alt": "Medium Rolling Attack converts after the jab."
+				}
+			]
+		},
+		"relatedIds": [
+			"blanka-low-jabs-roll",
+			"blanka-standing-lights-roll",
+			"blanka-back-medium-od-air-roll"
+		]
+	},
+	{
+		"id": "blanka-standing-lights-roll",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "blanka"
+			}
+		],
+		"title": "Two standing light kicks and jab into Rolling Attack",
+		"summary": "Chain the standing light starters, then cancel the jab into the medium roll.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Charge"],
+		"outcomes": ["Conversion"],
+		"notation": "st.LK > st.LK > st.LP > M Roll",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Roll",
+				"label": "Medium Rolling Attack",
+				"cue": "[4]6MP: keep back charge during the normals, then forward + medium punch."
+			}
+		],
+		"conditions": ["Classic controls", "Close range", "Back charge ready"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-blanka-2023",
+			"title": "SF6 Blanka COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=bqMgPmmD1qs",
+			"published": "2023-07-03",
+			"start": 26.9,
+			"end": 29.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/blanka/blanka-standing-lights-roll/clip.mp4",
+			"poster": "/media/blanka/blanka-standing-lights-roll/frame-1.jpg",
+			"descriptionTrack": "/media/blanka/blanka-standing-lights-roll/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/blanka/blanka-standing-lights-roll/frame-1.jpg",
+					"at": 0.25,
+					"label": "Standing light kick",
+					"alt": "Standing light kick starts the close-range confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/blanka/blanka-standing-lights-roll/frame-2.jpg",
+					"at": 0.9,
+					"label": "Jab continuation",
+					"alt": "The jab follows two standing light kicks."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/blanka/blanka-standing-lights-roll/frame-3.jpg",
+					"at": 1.7,
+					"label": "Rolling finish",
+					"alt": "Medium Rolling Attack sends Luke away."
+				}
+			]
+		},
+		"relatedIds": [
+			"blanka-low-jabs-roll",
+			"blanka-rush-light-heavy-roll",
+			"blanka-back-medium-od-air-roll"
+		]
+	},
+	{
+		"id": "blanka-back-medium-od-air-roll",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "blanka"
+			}
+		],
+		"title": "Back medium kick into OD roll and an aerial finish",
+		"summary": "Convert back medium kick and crouching medium kick into OD roll, then juggle with jumping medium punch and heavy aerial roll.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Charge", "Juggle extension"],
+		"outcomes": ["Conversion"],
+		"notation": "b.MK > cr.MK > OD Roll > j.MP > H Air Roll",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "OD Roll",
+				"label": "Overdrive Rolling Attack",
+				"cue": "[4]6PP: hold back, then forward + two punches."
+			},
+			{
+				"id": "step-4",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "H Air Roll",
+				"label": "Heavy Aerial Rolling Attack",
+				"cue": "Keep back charge while airborne, then [4]6HP."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Back charge prepared",
+			"Keep back charge during the aerial sequence"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive Rolling Attack",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-blanka-2023",
+			"title": "SF6 Blanka COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=bqMgPmmD1qs",
+			"published": "2023-07-03",
+			"start": 30.0,
+			"end": 33.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/blanka/blanka-back-medium-od-air-roll/clip.mp4",
+			"poster": "/media/blanka/blanka-back-medium-od-air-roll/frame-1.jpg",
+			"descriptionTrack": "/media/blanka/blanka-back-medium-od-air-roll/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/blanka/blanka-back-medium-od-air-roll/frame-1.jpg",
+					"at": 0.5,
+					"label": "Medium starter",
+					"alt": "Back medium kick begins the route on Dee Jay."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/blanka/blanka-back-medium-od-air-roll/frame-2.jpg",
+					"at": 1.28,
+					"label": "OD roll",
+					"alt": "Overdrive Rolling Attack launches the opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/blanka/blanka-back-medium-od-air-roll/frame-3.jpg",
+					"at": 2.6,
+					"label": "Airborne continuation",
+					"alt": "Blanka follows with jumping medium punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/blanka/blanka-back-medium-od-air-roll/frame-4.jpg",
+					"at": 3.1,
+					"label": "Air-roll finish",
+					"alt": "Heavy aerial Rolling Attack completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"blanka-forward-medium-jabs-roll",
+			"blanka-heavy-wild-lift-roll",
+			"blanka-counter-back-medium-vertical"
+		]
+	},
+	{
+		"id": "blanka-medium-double-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "blanka"
+			}
+		],
+		"title": "Medium starter: two Rush cancels into Level 3",
+		"summary": "Extend the medium starter through two heavy-kick/heavy-punch Rush links, then Wild Lift, medium roll and Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Drive Rush", "Cash out", "Super finish"],
+		"outcomes": ["Hard knockdown", "Cash out"],
+		"notation": "b.MK > cr.MK > DRC > st.HK > st.HP > DRC > st.HK > st.HP > 2PP > P > M Roll > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "2PP",
+				"label": "Coward Crouch",
+				"cue": "Down + two punches, followed by its separate punch continuation."
+			},
+			{
+				"id": "step-10",
+				"notation": "P",
+				"label": "Wild Lift",
+				"cue": "Punch follow-up from Coward Crouch."
+			},
+			{
+				"id": "step-11",
+				"notation": "M Roll",
+				"label": "Medium Rolling Attack",
+				"cue": "[4]6MP: keep back charge during the normals, then forward + medium punch."
+			},
+			{
+				"id": "step-12",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Enough Drive for two cancel Drive Rushes",
+			"Three Super stocks"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Two cancel Drive Rushes",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "orang-blanka-2023",
+			"title": "SF6 Blanka COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=bqMgPmmD1qs",
+			"published": "2023-07-03",
+			"start": 34.45,
+			"end": 51.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/blanka/blanka-medium-double-rush-level-three/clip.mp4",
+			"poster": "/media/blanka/blanka-medium-double-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/blanka/blanka-medium-double-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/blanka/blanka-medium-double-rush-level-three/frame-1.jpg",
+					"at": 0.7,
+					"label": "Medium starter",
+					"alt": "The back-medium-kick and crouching-medium-kick starter connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/blanka/blanka-medium-double-rush-level-three/frame-2.jpg",
+					"at": 3.25,
+					"label": "Rush extension",
+					"alt": "Blanka continues through the heavy normal Rush links."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/blanka/blanka-medium-double-rush-level-three/frame-3.jpg",
+					"at": 6.25,
+					"label": "Wild Lift juggle",
+					"alt": "The Coward Crouch punch continuation launches Dee Jay."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/blanka/blanka-medium-double-rush-level-three/frame-4.jpg",
+					"at": 9.55,
+					"label": "Level 3",
+					"alt": "Blanka spends Level 3 after the medium roll."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/blanka/blanka-medium-double-rush-level-three/frame-5.jpg",
+					"at": 16.1,
+					"label": "Hard knockdown",
+					"alt": "Dee Jay falls at the end of the Super cinematic."
+				}
+			]
+		},
+		"relatedIds": [
+			"blanka-rush-light-heavy-roll",
+			"blanka-back-medium-od-air-roll",
+			"blanka-back-medium-electric"
+		]
+	},
+	{
+		"id": "blanka-back-medium-electric",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "blanka"
+			}
+		],
+		"title": "Back medium kick into standing medium and electricity",
+		"summary": "Link standing medium kick after back medium kick, then cancel into the demonstrated Electric Thunder.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Conversion"],
+		"notation": "b.MK > st.MK > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP",
+				"label": "Medium Electric Thunder",
+				"cue": "Quarter-circle back + medium punch; match the demonstrated cancel."
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-blanka-2023",
+			"title": "SF6 Blanka COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=bqMgPmmD1qs",
+			"published": "2023-07-03",
+			"start": 51.3,
+			"end": 53.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/blanka/blanka-back-medium-electric/clip.mp4",
+			"poster": "/media/blanka/blanka-back-medium-electric/frame-1.jpg",
+			"descriptionTrack": "/media/blanka/blanka-back-medium-electric/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/blanka/blanka-back-medium-electric/frame-1.jpg",
+					"at": 0.5,
+					"label": "Back medium",
+					"alt": "Back medium kick connects on Dee Jay."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/blanka/blanka-back-medium-electric/frame-2.jpg",
+					"at": 0.75,
+					"label": "Standing medium",
+					"alt": "Standing medium kick follows at close range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/blanka/blanka-back-medium-electric/frame-3.jpg",
+					"at": 1.3,
+					"label": "Electric cancel",
+					"alt": "Medium Electric Thunder finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"blanka-back-medium-od-air-roll",
+			"blanka-medium-double-rush-level-three",
+			"blanka-forward-medium-jabs-roll"
+		]
+	},
+	{
+		"id": "blanka-forward-medium-jabs-roll",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "blanka"
+			}
+		],
+		"title": "Forward medium kick into two jabs and Rolling Attack",
+		"summary": "Use the two-hit forward medium kick before the crouching jabs and medium roll.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Charge"],
+		"outcomes": ["Conversion"],
+		"notation": "f.MK > cr.LP > cr.LP > M Roll",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "f.MK",
+				"label": "Forward medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "M Roll",
+				"label": "Medium Rolling Attack",
+				"cue": "[4]6MP: keep back charge during the normals, then forward + medium punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Forward medium kick hits at close range",
+			"Back charge prepared before the roll"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-blanka-2023",
+			"title": "SF6 Blanka COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=bqMgPmmD1qs",
+			"published": "2023-07-03",
+			"start": 53.9,
+			"end": 57.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/blanka/blanka-forward-medium-jabs-roll/clip.mp4",
+			"poster": "/media/blanka/blanka-forward-medium-jabs-roll/frame-1.jpg",
+			"descriptionTrack": "/media/blanka/blanka-forward-medium-jabs-roll/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/blanka/blanka-forward-medium-jabs-roll/frame-1.jpg",
+					"at": 0.62,
+					"label": "Forward medium",
+					"alt": "The forward-medium-kick sequence connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/blanka/blanka-forward-medium-jabs-roll/frame-2.jpg",
+					"at": 1.5,
+					"label": "Jab continuation",
+					"alt": "Blanka continues with crouching light punches."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/blanka/blanka-forward-medium-jabs-roll/frame-3.jpg",
+					"at": 2.3,
+					"label": "Medium roll",
+					"alt": "Rolling Attack converts the light follow-ups."
+				}
+			]
+		},
+		"relatedIds": [
+			"blanka-back-medium-od-air-roll",
+			"blanka-low-jabs-roll",
+			"blanka-rush-light-heavy-roll"
+		]
+	},
+	{
+		"id": "blanka-low-medium-jab-roll",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "blanka"
+			}
+		],
+		"title": "Crouching medium kick into jab and Rolling Attack",
+		"summary": "Link a standing jab from crouching medium kick before the charged medium roll.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Charge"],
+		"outcomes": ["Conversion"],
+		"notation": "cr.MK > st.LP > M Roll",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "M Roll",
+				"label": "Medium Rolling Attack",
+				"cue": "[4]6MP: keep back charge during the normals, then forward + medium punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close enough for standing light punch",
+			"Back charge ready"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-blanka-2023",
+			"title": "SF6 Blanka COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=bqMgPmmD1qs",
+			"published": "2023-07-03",
+			"start": 67.55,
+			"end": 69.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/blanka/blanka-low-medium-jab-roll/clip.mp4",
+			"poster": "/media/blanka/blanka-low-medium-jab-roll/frame-1.jpg",
+			"descriptionTrack": "/media/blanka/blanka-low-medium-jab-roll/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/blanka/blanka-low-medium-jab-roll/frame-1.jpg",
+					"at": 0.21,
+					"label": "Low medium starter",
+					"alt": "Crouching medium kick hits Dee Jay low."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/blanka/blanka-low-medium-jab-roll/frame-2.jpg",
+					"at": 0.65,
+					"label": "Standing jab",
+					"alt": "Standing light punch follows the low kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/blanka/blanka-low-medium-jab-roll/frame-3.jpg",
+					"at": 1.15,
+					"label": "Medium roll",
+					"alt": "Medium Rolling Attack converts the jab."
+				}
+			]
+		},
+		"relatedIds": [
+			"blanka-low-jabs-roll",
+			"blanka-rush-light-heavy-roll",
+			"blanka-standing-lights-roll"
+		]
+	},
+	{
+		"id": "blanka-heavy-roll",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "blanka"
+			}
+		],
+		"title": "Heavy punch into heavy Rolling Attack",
+		"summary": "Cancel a close standing heavy punch directly into the heavy charged roll.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Charge"],
+		"outcomes": ["Conversion"],
+		"notation": "st.HP > H Roll",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "H Roll",
+				"label": "Heavy Rolling Attack",
+				"cue": "[4]6HP: hold back, then forward + heavy punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing opponent at the demonstrated spacing",
+			"Back charge ready"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-blanka-2023",
+			"title": "SF6 Blanka COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=bqMgPmmD1qs",
+			"published": "2023-07-03",
+			"start": 70.45,
+			"end": 72.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/blanka/blanka-heavy-roll/clip.mp4",
+			"poster": "/media/blanka/blanka-heavy-roll/frame-1.jpg",
+			"descriptionTrack": "/media/blanka/blanka-heavy-roll/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/blanka/blanka-heavy-roll/frame-1.jpg",
+					"at": 0.35,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch hits Cammy."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/blanka/blanka-heavy-roll/frame-2.jpg",
+					"at": 0.95,
+					"label": "Heavy roll",
+					"alt": "Heavy Rolling Attack cancels the heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/blanka/blanka-heavy-roll/frame-3.jpg",
+					"at": 1.5,
+					"label": "Rolling result",
+					"alt": "Cammy is carried away by the charged special."
+				}
+			]
+		},
+		"relatedIds": [
+			"blanka-heavy-wild-lift-roll",
+			"blanka-low-jabs-roll",
+			"blanka-rush-light-heavy-roll"
+		]
+	},
+	{
+		"id": "blanka-heavy-wild-lift-roll",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "blanka"
+			}
+		],
+		"title": "Heavy punch into Wild Lift and Rolling Attack",
+		"summary": "Cancel heavy punch into Coward Crouch, launch with its punch follow-up and finish with medium roll.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Charge", "Juggle extension"],
+		"outcomes": ["Conversion"],
+		"notation": "st.HP > 2PP > P > M Roll",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2PP",
+				"label": "Coward Crouch",
+				"cue": "Down + two punches, followed by its separate punch continuation."
+			},
+			{
+				"id": "step-3",
+				"notation": "P",
+				"label": "Wild Lift",
+				"cue": "Punch follow-up from Coward Crouch."
+			},
+			{
+				"id": "step-4",
+				"notation": "M Roll",
+				"label": "Medium Rolling Attack",
+				"cue": "[4]6MP: keep back charge during the normals, then forward + medium punch."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close range",
+			"Back charge maintained through the launcher"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-blanka-2023",
+			"title": "SF6 Blanka COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=bqMgPmmD1qs",
+			"published": "2023-07-03",
+			"start": 72.95,
+			"end": 76.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/blanka/blanka-heavy-wild-lift-roll/clip.mp4",
+			"poster": "/media/blanka/blanka-heavy-wild-lift-roll/frame-1.jpg",
+			"descriptionTrack": "/media/blanka/blanka-heavy-wild-lift-roll/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/blanka/blanka-heavy-wild-lift-roll/frame-1.jpg",
+					"at": 0.57,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch connects at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/blanka/blanka-heavy-wild-lift-roll/frame-2.jpg",
+					"at": 1.45,
+					"label": "Wild Lift",
+					"alt": "Coward Crouch’s punch continuation launches Cammy."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/blanka/blanka-heavy-wild-lift-roll/frame-3.jpg",
+					"at": 2.25,
+					"label": "Rolling juggle",
+					"alt": "Medium Rolling Attack catches the launched opponent."
+				}
+			]
+		},
+		"relatedIds": [
+			"blanka-back-medium-od-air-roll",
+			"blanka-heavy-roll",
+			"blanka-counter-back-medium-vertical"
+		]
+	},
+	{
+		"id": "blanka-counter-back-medium-vertical",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "blanka"
+			}
+		],
+		"title": "Counter-hit back medium into Wild Lift and vertical roll",
+		"summary": "Use Counter Hit back medium kick to link heavy punch, then the crouching launcher and medium vertical roll.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Charge", "Juggle extension"],
+		"outcomes": ["Conversion"],
+		"notation": "b.MK > st.HP > 2PP > P > M Vertical",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2PP",
+				"label": "Coward Crouch",
+				"cue": "Down + two punches, followed by its separate punch continuation."
+			},
+			{
+				"id": "step-4",
+				"notation": "P",
+				"label": "Wild Lift",
+				"cue": "Punch follow-up from Coward Crouch."
+			},
+			{
+				"id": "step-5",
+				"notation": "M Vertical",
+				"label": "Medium Vertical Rolling Attack",
+				"cue": "[2]8MK: prepare down charge during the launcher, then up + medium kick."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Back medium kick Counter Hit",
+			"Close range",
+			"Down charge ready by the vertical-roll cancel"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-blanka-2023",
+			"title": "SF6 Blanka COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=bqMgPmmD1qs",
+			"published": "2023-07-03",
+			"start": 104.45,
+			"end": 108.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/blanka/blanka-counter-back-medium-vertical/clip.mp4",
+			"poster": "/media/blanka/blanka-counter-back-medium-vertical/frame-1.jpg",
+			"descriptionTrack": "/media/blanka/blanka-counter-back-medium-vertical/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/blanka/blanka-counter-back-medium-vertical/frame-1.jpg",
+					"at": 0.27,
+					"label": "Counter-hit starter",
+					"alt": "Back medium kick hits Chun-Li as a Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/blanka/blanka-counter-back-medium-vertical/frame-2.jpg",
+					"at": 1.07,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch links after the Counter Hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/blanka/blanka-counter-back-medium-vertical/frame-3.jpg",
+					"at": 1.95,
+					"label": "Wild Lift",
+					"alt": "The Coward Crouch punch continuation launches Chun-Li."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/blanka/blanka-counter-back-medium-vertical/frame-4.jpg",
+					"at": 2.75,
+					"label": "Vertical finish",
+					"alt": "Medium Vertical Rolling Attack catches the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"blanka-back-medium-od-air-roll",
+			"blanka-heavy-wild-lift-roll",
+			"blanka-low-jabs-roll"
+		]
+	},
+	{
+		"id": "blanka-counter-di-wild-lift-vertical",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "blanka"
+			}
+		],
+		"title": "Counter DI into Wild Lift and light vertical roll",
+		"summary": "Win the DI exchange, then use heavy punch and Wild Lift before a light vertical roll.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter", "Charge"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > st.HP > 2PP > P > L Vertical",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2PP",
+				"label": "Coward Crouch",
+				"cue": "Down + two punches, followed by its separate punch continuation."
+			},
+			{
+				"id": "step-4",
+				"notation": "P",
+				"label": "Wild Lift",
+				"cue": "Punch follow-up from Coward Crouch."
+			},
+			{
+				"id": "step-5",
+				"notation": "L Vertical",
+				"label": "Light Vertical Rolling Attack",
+				"cue": "[2]8LK: hold down during the crumple and launcher, then up + light kick."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Win a counter-DI exchange to produce the shown crumple",
+			"Down charge ready"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-blanka-2023",
+			"title": "SF6 Blanka COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=bqMgPmmD1qs",
+			"published": "2023-07-03",
+			"start": 114.65,
+			"end": 121.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Orang’s 2023-07-03 recording. Not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/blanka/blanka-counter-di-wild-lift-vertical/clip.mp4",
+			"poster": "/media/blanka/blanka-counter-di-wild-lift-vertical/frame-1.jpg",
+			"descriptionTrack": "/media/blanka/blanka-counter-di-wild-lift-vertical/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/blanka/blanka-counter-di-wild-lift-vertical/frame-1.jpg",
+					"at": 0.61,
+					"label": "Counter DI",
+					"alt": "Blanka answers Ken’s incoming Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/blanka/blanka-counter-di-wild-lift-vertical/frame-2.jpg",
+					"at": 2.01,
+					"label": "Crumple",
+					"alt": "Blanka’s DI wins as a Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/blanka/blanka-counter-di-wild-lift-vertical/frame-3.jpg",
+					"at": 3.55,
+					"label": "Heavy conversion",
+					"alt": "Standing heavy punch starts the crumple conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/blanka/blanka-counter-di-wild-lift-vertical/frame-4.jpg",
+					"at": 4.95,
+					"label": "Wild Lift",
+					"alt": "The punch continuation from Coward Crouch launches Ken."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/blanka/blanka-counter-di-wild-lift-vertical/frame-5.jpg",
+					"at": 6.3,
+					"label": "Vertical finish",
+					"alt": "Light Vertical Rolling Attack completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"blanka-low-jabs-roll",
+			"blanka-rush-light-heavy-roll",
+			"blanka-standing-lights-roll"
+		]
+	}
+]
