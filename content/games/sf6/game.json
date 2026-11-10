@@ -173,6 +173,46 @@
 					"meaning": "Dégagé; follow the strength and spacing stated in each reference."
 				}
 			]
+		},
+		{
+			"id": "chunli",
+			"name": "Chun-Li",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/chunli"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "SS / Stance",
+					"meaning": "Serenity Stream. Entering the stance and pressing a follow-up button are separate actions; follow the listed continuation or exit."
+				},
+				{
+					"term": "df.HP / 3HP",
+					"meaning": "Down-forward heavy punch, Chun-Li’s overhead. This is distinct from SS.HP, the heavy-punch follow-up from Serenity Stream."
+				},
+				{
+					"term": "SBK / Charge notation",
+					"meaning": "Spinning Bird Kick. Brackets such as [2] mean hold that direction before completing the input. Follow each reference’s charge or stance execution cue."
+				},
+				{
+					"term": "Legs / Air Legs",
+					"meaning": "Hundred Lightning Kicks / Aerial Hundred Lightning Kicks. Use the listed strength and grounded or airborne version."
+				},
+				{
+					"term": "Tensho",
+					"meaning": "Tensho Kicks, distinct from Spinning Bird Kick. Use the listed strength."
+				},
+				{
+					"term": "Stomp / j.d.MK",
+					"meaning": "Yosokyaku, the airborne down-medium-kick stomp. Follow the demonstrated jump direction and number of stomps."
+				},
+				{
+					"term": "Kikoken",
+					"meaning": "Chun-Li’s projectile. Follow the strength and charge or stance execution cue stated in the reference."
+				}
+			]
 		}
 	]
 }
