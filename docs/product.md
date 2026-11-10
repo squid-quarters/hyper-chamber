@@ -1,6 +1,6 @@
 # Hyper Chamber product scope
 
-Hyper Chamber is a fast, visual fighting-game compendium. Its populated Street Fighter 6 libraries are Dhalsim, Ryu, Akuma, Manon and Chun-Li. Its name pays homage to the Hyperbolic Time Chamber. The project has its own Squid Quarters repository and can be linked or integrated into the main website later.
+Hyper Chamber is a fast, visual fighting-game compendium. Its populated Street Fighter 6 libraries are Dhalsim, Ryu, Akuma, Manon, Chun-Li and Guile. Its name pays homage to the Hyperbolic Time Chamber. The project has its own Squid Quarters repository and can be linked or integrated into the main website later.
 
 The core unit is an individual reference: a combo, setup, or response. A reference combines conditions, persistent notation, selected visual moments, a dedicated replayable clip, and short notes. Search and filters should answer “I remember a route starting with this move; help me find and inspect it.”
 

@@ -1,6 +1,6 @@
 # Hyper Chamber
 
-A visual fighting-game compendium for quick reference beside the game. The Street Fighter 6 / Dhalsim, Ryu, Akuma, Manon and Chun-Li libraries keep input notation, conditions, individual replay clips, selected frames, and quick notes together. It covers light confirms, punish routes, anti-air conversions, Drive Impact, corner/stun routes and midscreen/corner oki from reviewed tutorial footage.
+A visual fighting-game compendium for quick reference beside the game. The Street Fighter 6 / Dhalsim, Ryu, Akuma, Manon, Chun-Li and Guile libraries keep input notation, conditions, individual replay clips, selected frames, and quick notes together. It covers light confirms, punish routes, anti-air conversions, Drive Impact, corner/stun routes and midscreen/corner oki from reviewed tutorial footage.
 
 Guides and longer lessons link to [SF6 Lab](https://sf6-lab.net/en/). Hyper Chamber focuses on finding and inspecting individual references.
 
@@ -22,7 +22,7 @@ pnpm build
 pnpm start
 ```
 
-The local MVP uses the Chamber palette and Hourglass H identity. Choose Dhalsim, Ryu, Akuma, Manon or Chun-Li, browse the tile library, filter by situation or your practice status, and open a reference in the dedicated practice view. Inputs sit above the replay. Back/Escape restores the originating tile and scroll position; Previous/Next follows the filtered set, and Ctrl/Cmd+K opens Quick switch. **Copy inputs** copies the authored sequence; if clipboard access is blocked, the selectable text notation opens instead.
+The local MVP uses the Chamber palette and Hourglass H identity. Choose Dhalsim, Ryu, Akuma, Manon, Chun-Li or Guile, browse the tile library, filter by situation or your practice status, and open a reference in the dedicated practice view. Inputs sit above the replay. Back/Escape restores the originating tile and scroll position; Previous/Next follows the filtered set, and Ctrl/Cmd+K opens Quick switch. **Copy inputs** copies the authored sequence; if clipboard access is blocked, the selectable text notation opens instead.
 
 Tap the video to play or pause. Drag sideways anywhere on the picture to inspect from the current moment; releasing holds that moment. Vertical touch gestures scroll the page. The timestamp and progress line appear during inspection or keyboard focus, with one compact toolbar for playback, replay, looping, speed and **−0.25s / +0.25s** inspection. Looping defaults on and remembers your choice on this browser; playback starts only when requested.
 
@@ -65,3 +65,5 @@ This repository starts private. No open-source license or public media redistrib
 - `docs`: product, source, design, and architecture decisions.
 
 The repository starts on `develop`. Feature changes are reviewed through pull requests. CI verifies changes and does not deploy or publish the application. A release branch and deployment target can be introduced when needed.
+
+Guile adds 55 reviewed references with basic charge confirms, standing/crouching Boom-loop variants, punish cash-outs, normal anti-air responses and qualified setplays. The [Guile coverage and source review](docs/guile-source-coverage.md) records all 317 moments, dated-source limits and selected intervals. Current-patch execution has not been tested in-game.

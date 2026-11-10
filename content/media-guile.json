@@ -1,0 +1,507 @@
+{
+	"sourceIds": [
+		"amkidd-guile-starter-2023",
+		"guilesgarden-guile-damage-2026",
+		"guilesgarden-guile-loops-2026",
+		"kajiba-guile-setplay-2026"
+	],
+	"publicationStatus": "private-development",
+	"presentationNote": "Complete 1280×720 source frames retained without cropping, including inputs, training HUD and source overlays. Full original recordings remain local.",
+	"assets": [
+		{
+			"referenceId": "guile-amkidd-crouching-medium-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 132.3,
+			"sourceEnd": 135.35,
+			"clip": "/media/guile/guile-amkidd-crouching-medium-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-double-crouching-medium-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 136.4,
+			"sourceEnd": 139.2,
+			"clip": "/media/guile/guile-amkidd-double-crouching-medium-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-low-jab-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 140.05,
+			"sourceEnd": 143.3,
+			"clip": "/media/guile/guile-amkidd-low-jab-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-double-jab-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 144.05,
+			"sourceEnd": 147.2,
+			"clip": "/media/guile/guile-amkidd-double-jab-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-low-medium-jab-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 148.05,
+			"sourceEnd": 151.65,
+			"clip": "/media/guile/guile-amkidd-low-medium-jab-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-standing-medium-crouching-medium-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 152.05,
+			"sourceEnd": 159.15,
+			"clip": "/media/guile/guile-amkidd-standing-medium-crouching-medium-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-standing-medium-double-medium-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 159.55,
+			"sourceEnd": 163.85,
+			"clip": "/media/guile/guile-amkidd-standing-medium-double-medium-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-recoil-cannon-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 166.05,
+			"sourceEnd": 169.6,
+			"clip": "/media/guile/guile-amkidd-recoil-cannon-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-punish-heavy-high-kick-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 172.15,
+			"sourceEnd": 175.48,
+			"clip": "/media/guile/guile-amkidd-punish-heavy-high-kick-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-punish-back-knuckle-medium-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 178.5,
+			"sourceEnd": 181.95,
+			"clip": "/media/guile/guile-amkidd-punish-back-knuckle-medium-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-punish-heavy-medium-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 184.55,
+			"sourceEnd": 187.75,
+			"clip": "/media/guile/guile-amkidd-punish-heavy-medium-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-punish-low-medium-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 190.05,
+			"sourceEnd": 193.25,
+			"clip": "/media/guile/guile-amkidd-punish-low-medium-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-punish-sweep-phantom-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 196.55,
+			"sourceEnd": 200.45,
+			"clip": "/media/guile/guile-amkidd-punish-sweep-phantom-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-punish-sobat-medium-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 201.5,
+			"sourceEnd": 204.85,
+			"clip": "/media/guile/guile-amkidd-punish-sobat-medium-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-punish-sobat-double-medium-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 205.95,
+			"sourceEnd": 209.7,
+			"clip": "/media/guile/guile-amkidd-punish-sobat-double-medium-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-counter-sobat-jab-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 210.05,
+			"sourceEnd": 213.25,
+			"clip": "/media/guile/guile-amkidd-counter-sobat-jab-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-punish-reverse-kick-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 214.55,
+			"sourceEnd": 218.25,
+			"clip": "/media/guile/guile-amkidd-punish-reverse-kick-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-corner-reverse-kick-sweep-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 218.85,
+			"sourceEnd": 223.7,
+			"clip": "/media/guile/guile-amkidd-corner-reverse-kick-sweep-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-corner-reverse-kick-double-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 224.2,
+			"sourceEnd": 230.7,
+			"clip": "/media/guile/guile-amkidd-corner-reverse-kick-double-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-corner-recoil-blade-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 231.75,
+			"sourceEnd": 237.25,
+			"clip": "/media/guile/guile-amkidd-corner-recoil-blade-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-wall-di-sweep-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 238.4,
+			"sourceEnd": 242.65,
+			"clip": "/media/guile/guile-amkidd-wall-di-sweep-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-wall-di-sweep-double-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 242.95,
+			"sourceEnd": 248.2,
+			"clip": "/media/guile/guile-amkidd-wall-di-sweep-double-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-wall-di-heavy-blade-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 248.75,
+			"sourceEnd": 253.25,
+			"clip": "/media/guile/guile-amkidd-wall-di-heavy-blade-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-counter-di-high-kick-flash",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 254.85,
+			"sourceEnd": 260.7,
+			"clip": "/media/guile/guile-amkidd-counter-di-high-kick-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-anti-air-crouching-heavy",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 262.05,
+			"sourceEnd": 263.7,
+			"clip": "/media/guile/guile-amkidd-anti-air-crouching-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-anti-air-standing-medium-kick",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 264.35,
+			"sourceEnd": 266.75,
+			"clip": "/media/guile/guile-amkidd-anti-air-standing-medium-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-amkidd-anti-air-upside-down-kick",
+			"sourceId": "amkidd-guile-starter-2023",
+			"sourceStart": 267.15,
+			"sourceEnd": 269.3,
+			"clip": "/media/guile/guile-amkidd-anti-air-upside-down-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-pc-target-hurricane-od-flash",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 56.85,
+			"sourceEnd": 63.05,
+			"clip": "/media/guile/guile-garden-damage-pc-target-hurricane-od-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-pc-link-hurricane-walk-od-flash",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 65.0,
+			"sourceEnd": 70.72,
+			"clip": "/media/guile/guile-garden-damage-pc-link-hurricane-walk-od-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-pc-double-hurricane",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 74.35,
+			"sourceEnd": 81.45,
+			"clip": "/media/guile/guile-garden-damage-pc-double-hurricane/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-pc-od-boom-hurricane",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 84.15,
+			"sourceEnd": 90.3,
+			"clip": "/media/guile/guile-garden-damage-pc-od-boom-hurricane/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-corner-heavy-medium-od-boom-flash",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 95.9,
+			"sourceEnd": 100.7,
+			"clip": "/media/guile/guile-garden-damage-corner-heavy-medium-od-boom-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-corner-target-hurricane-od-flash",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 103.05,
+			"sourceEnd": 109.0,
+			"clip": "/media/guile/guile-garden-damage-corner-target-hurricane-od-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-corner-high-kick-od-boom-flash",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 111.6,
+			"sourceEnd": 116.35,
+			"clip": "/media/guile/guile-garden-damage-corner-high-kick-od-boom-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-corner-linked-heavy-double-hurricane",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 118.75,
+			"sourceEnd": 126.1,
+			"clip": "/media/guile/guile-garden-damage-corner-linked-heavy-double-hurricane/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-corner-crouching-heavy-hurricane-od-flash",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 137.85,
+			"sourceEnd": 144.9,
+			"clip": "/media/guile/guile-garden-damage-corner-crouching-heavy-hurricane-od-flash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-corner-heavy-boom-critical-art",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 217.1,
+			"sourceEnd": 225.6,
+			"clip": "/media/guile/guile-garden-damage-corner-heavy-boom-critical-art/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-corner-standing-high-kick-critical-art",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 265.65,
+			"sourceEnd": 274.85,
+			"clip": "/media/guile/guile-garden-damage-corner-standing-high-kick-critical-art/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-corner-standing-rush-extension-critical-art",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 278.35,
+			"sourceEnd": 288.65,
+			"clip": "/media/guile/guile-garden-damage-corner-standing-rush-extension-critical-art/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-corner-crouching-rush-extension-critical-art",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 319.65,
+			"sourceEnd": 329.25,
+			"clip": "/media/guile/guile-garden-damage-corner-crouching-rush-extension-critical-art/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-damage-away-from-wall-rush-extension-critical-art",
+			"sourceId": "guilesgarden-guile-damage-2026",
+			"sourceStart": 346.65,
+			"sourceEnd": 360.65,
+			"clip": "/media/guile/guile-garden-damage-away-from-wall-rush-extension-critical-art/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-loops-standing-rush-knee-double-level1",
+			"sourceId": "guilesgarden-guile-loops-2026",
+			"sourceStart": 119.2,
+			"sourceEnd": 128.45,
+			"clip": "/media/guile/guile-garden-loops-standing-rush-knee-double-level1/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-loops-crouching-rush-heavy-level1",
+			"sourceId": "guilesgarden-guile-loops-2026",
+			"sourceStart": 129.65,
+			"sourceEnd": 136.7,
+			"clip": "/media/guile/guile-garden-loops-crouching-rush-heavy-level1/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-loops-standing-rush-low-three-booms",
+			"sourceId": "guilesgarden-guile-loops-2026",
+			"sourceStart": 219.85,
+			"sourceEnd": 227.35,
+			"clip": "/media/guile/guile-garden-loops-standing-rush-low-three-booms/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-loops-crouching-rush-low-mixed-booms",
+			"sourceId": "guilesgarden-guile-loops-2026",
+			"sourceStart": 237.9,
+			"sourceEnd": 243.5,
+			"clip": "/media/guile/guile-garden-loops-crouching-rush-low-mixed-booms/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-loops-blocked-blade-rush-overhead-loop",
+			"sourceId": "guilesgarden-guile-loops-2026",
+			"sourceStart": 539.35,
+			"sourceEnd": 548.35,
+			"clip": "/media/guile/guile-garden-loops-blocked-blade-rush-overhead-loop/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-garden-loops-crouching-big-rush-medium-loop",
+			"sourceId": "guilesgarden-guile-loops-2026",
+			"sourceStart": 573.8,
+			"sourceEnd": 579.3,
+			"clip": "/media/guile/guile-garden-loops-crouching-big-rush-medium-loop/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-kajiba-oki-heavy-flash-high-frame-kill",
+			"sourceId": "kajiba-guile-setplay-2026",
+			"sourceStart": 20.3,
+			"sourceEnd": 21.7,
+			"clip": "/media/guile/guile-kajiba-oki-heavy-flash-high-frame-kill/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-kajiba-oki-heavy-flash-light-blade-guard",
+			"sourceId": "kajiba-guile-setplay-2026",
+			"sourceStart": 60.05,
+			"sourceEnd": 61.5,
+			"clip": "/media/guile/guile-kajiba-oki-heavy-flash-light-blade-guard/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-kajiba-oki-double-bullet-heavy-flash-jump-guard",
+			"sourceId": "kajiba-guile-setplay-2026",
+			"sourceStart": 102.32,
+			"sourceEnd": 104.5,
+			"clip": "/media/guile/guile-kajiba-oki-double-bullet-heavy-flash-jump-guard/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-kajiba-oki-heavy-level1-medium-kick-jump-guard",
+			"sourceId": "kajiba-guile-setplay-2026",
+			"sourceStart": 129.62,
+			"sourceEnd": 131.6,
+			"clip": "/media/guile/guile-kajiba-oki-heavy-level1-medium-kick-jump-guard/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-kajiba-oki-heavy-level1-double-dash-throw",
+			"sourceId": "kajiba-guile-setplay-2026",
+			"sourceStart": 146.12,
+			"sourceEnd": 148.25,
+			"clip": "/media/guile/guile-kajiba-oki-heavy-level1-double-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-kajiba-oki-counter-di-late-heavy-level1-side-switch",
+			"sourceId": "kajiba-guile-setplay-2026",
+			"sourceStart": 159.05,
+			"sourceEnd": 166.4,
+			"clip": "/media/guile/guile-kajiba-oki-counter-di-late-heavy-level1-side-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-kajiba-oki-level3-rush-knee-bazooka",
+			"sourceId": "kajiba-guile-setplay-2026",
+			"sourceStart": 193.32,
+			"sourceEnd": 195.6,
+			"clip": "/media/guile/guile-kajiba-oki-level3-rush-knee-bazooka/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "guile-kajiba-oki-punish-throw-midscreen-back-knuckle",
+			"sourceId": "kajiba-guile-setplay-2026",
+			"sourceStart": 217.75,
+			"sourceEnd": 222.2,
+			"clip": "/media/guile/guile-kajiba-oki-punish-throw-midscreen-back-knuckle/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		}
+	]
+}

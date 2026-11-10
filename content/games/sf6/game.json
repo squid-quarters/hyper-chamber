@@ -213,6 +213,50 @@
 					"meaning": "Chun-Li’s projectile. Follow the strength and charge or stance execution cue stated in the reference."
 				}
 			]
+		},
+		{
+			"id": "guile",
+			"name": "Guile",
+			"guides": [
+				{
+					"label": "Guides on SF6 Lab",
+					"url": "https://sf6-lab.net/en/fighters/guile"
+				}
+			],
+			"notationLegend": [
+				{
+					"term": "Charge / [4] / [2]",
+					"meaning": "Brackets mean hold the direction before completing the input. [4] is back charge; [2] is down charge. Follow each reference’s charge and release cues."
+				},
+				{
+					"term": "Boom / Sonic Boom",
+					"meaning": "Guile’s charged projectile. Use the listed strength and any Perfect execution cue stated in the reference."
+				},
+				{
+					"term": "Flash Kick / Somersault Kick",
+					"meaning": "These names refer to the same down-charge kick. Use the listed strength and preserve charge during the preceding actions."
+				},
+				{
+					"term": "Blade / Sonic Blade / Sonic Cross",
+					"meaning": "Sonic Blade places a stationary projectile. Sonic Cross is the projectile continuation after Blade; follow the listed strength, input and timing."
+				},
+				{
+					"term": "SA2 / Solid Puncher / Sonic Break",
+					"meaning": "Solid Puncher is Guile’s Level 2 Super Art. Sonic Break actions during it are separate follow-ups; match the listed buttons and timing."
+				},
+				{
+					"term": "b.HP / Target follow-up",
+					"meaning": "Back heavy punch can appear as a separate link or as the medium-punch target follow-up. Match the reference’s timing cue; these are different routes."
+				},
+				{
+					"term": "df.HK / cr.HP",
+					"meaning": "Down-forward heavy kick (3HK) and crouching heavy punch (2HP) are different attacks. Match the listed standing or crouching opponent condition."
+				},
+				{
+					"term": "H SA1 / M SA1",
+					"meaning": "Heavy-punch and medium-punch Sonic Hurricane. Use the listed punch version; a launcher and its juggle continuation are not interchangeable."
+				}
+			]
 		}
 	]
 }
