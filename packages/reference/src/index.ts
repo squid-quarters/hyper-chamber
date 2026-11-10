@@ -2,6 +2,13 @@ import {z} from 'zod';
 
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const slug = z.string().regex(slugPattern);
+const guideSchema = z.object({
+	label: z.string().min(1),
+	url: z.url({protocol: /^https$/}),
+});
+const notationLegendSchema = z.array(
+	z.object({term: z.string().min(1), meaning: z.string().min(1)}),
+);
 export const gameDefinitionSchema = z
 	.object({
 		id: slug,
@@ -27,15 +34,17 @@ export const gameDefinitionSchema = z
 		notation: z.object({
 			description: z.string().min(1),
 			numpad: z.boolean(),
-			legend: z.array(z.object({term: z.string().min(1), meaning: z.string().min(1)})),
+			legend: notationLegendSchema,
 		}),
-		guides: z.array(
+		guides: z.array(guideSchema),
+		characters: z.array(
 			z.object({
-				label: z.string().min(1),
-				url: z.url({protocol: /^https$/}),
+				id: slug,
+				name: z.string().min(1),
+				guides: z.array(guideSchema).optional(),
+				notationLegend: notationLegendSchema.optional(),
 			}),
 		),
-		characters: z.array(z.object({id: slug, name: z.string().min(1)})),
 	})
 	.superRefine((game, context) => {
 		if (new Set(game.characters.map(character => character.id)).size !== game.characters.length) {

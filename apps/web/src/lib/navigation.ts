@@ -4,6 +4,33 @@ export interface LibraryFilters {
 	situation: string;
 	savedOnly: boolean;
 	practice: string;
+	characterId?: string;
+}
+
+export interface CharacterLocation {
+	id: string;
+	referenceIds: ReadonlySet<string>;
+	situations: readonly string[];
+}
+
+export function readCharacterLocation(search: string, collections: readonly CharacterLocation[]) {
+	const first = collections[0];
+	if (!first) throw new Error('At least one character library is required');
+	const params = new URLSearchParams(search);
+	const requested = params.get('character');
+	const entry = params.get('entry');
+	const explicit = collections.find(collection => collection.id === requested);
+	// Stable entry links identify their library even when shared without a
+	// character parameter, or with an outdated character selection.
+	const linked = entry
+		? collections.find(collection => collection.referenceIds.has(entry))
+		: undefined;
+	const collection = linked ?? explicit ?? first;
+	return {
+		...readReferenceLocation(search, collection.referenceIds, collection.situations),
+		characterId: collection.id,
+		invalidCharacter: !!requested && !explicit,
+	};
 }
 
 export interface LibraryReturn {
@@ -66,6 +93,10 @@ export function referenceLocation(
 	for (const key of ['q', 'kind', 'situation', 'saved', 'entry', 'practice'])
 		url.searchParams.delete(key);
 	url.hash = '';
+	if (filters.characterId !== undefined) {
+		url.searchParams.delete('character');
+		if (filters.characterId !== 'dhalsim') url.searchParams.set('character', filters.characterId);
+	}
 	if (filters.query) url.searchParams.set('q', filters.query);
 	if (filters.kind !== 'all') url.searchParams.set('kind', filters.kind);
 	if (filters.situation !== 'all') url.searchParams.set('situation', filters.situation);

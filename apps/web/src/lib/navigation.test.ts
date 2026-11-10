@@ -1,6 +1,7 @@
 import {describe, expect, it} from 'vitest';
 import {
 	readLibraryReturn,
+	readCharacterLocation,
 	readReferenceLocation,
 	referenceLocation,
 	type LibraryFilters,
@@ -17,6 +18,93 @@ const empty: LibraryFilters = {
 };
 
 describe('reference navigation', () => {
+	const collections = [
+		{id: 'dhalsim', referenceIds: ids, situations},
+		{id: 'ryu', referenceIds: new Set(['ryu-lights', 'ryu-oki']), situations: ['Oki']},
+	];
+	it('defaults to Dhalsim and preserves legacy entry links', () => {
+		expect(readCharacterLocation('', collections)).toMatchObject({
+			characterId: 'dhalsim',
+			entryId: null,
+			invalidCharacter: false,
+		});
+		expect(readCharacterLocation('?entry=lights', collections)).toMatchObject({
+			characterId: 'dhalsim',
+			entryId: 'lights',
+			invalidEntry: false,
+		});
+	});
+	it('opens a character-only URL in its library and validates its own situations', () => {
+		expect(readCharacterLocation('?character=ryu&situation=Oki', collections)).toMatchObject({
+			characterId: 'ryu',
+			entryId: null,
+			situation: 'Oki',
+		});
+		expect(readCharacterLocation('?character=ryu&situation=Midscreen', collections).situation).toBe(
+			'all',
+		);
+	});
+	it('infers the library from a stable entry even without a character or with a stale one', () => {
+		for (const search of ['?entry=ryu-lights', '?character=dhalsim&entry=ryu-lights']) {
+			expect(readCharacterLocation(search, collections)).toMatchObject({
+				characterId: 'ryu',
+				entryId: 'ryu-lights',
+				invalidEntry: false,
+			});
+		}
+	});
+	it('reports unavailable characters and entries without opening an unrelated reference', () => {
+		expect(
+			readCharacterLocation('?character=missing&entry=removed&q=fire', collections),
+		).toMatchObject({
+			characterId: 'dhalsim',
+			entryId: null,
+			query: 'fire',
+			invalidCharacter: true,
+			invalidEntry: true,
+		});
+		expect(readCharacterLocation('?character=missing&entry=ryu-oki', collections)).toMatchObject({
+			characterId: 'ryu',
+			entryId: 'ryu-oki',
+			invalidCharacter: true,
+		});
+		expect(readCharacterLocation('?character=ryu&entry=removed', collections)).toMatchObject({
+			characterId: 'ryu',
+			entryId: null,
+			invalidCharacter: false,
+			invalidEntry: true,
+		});
+	});
+	it('preserves Ryu context when entering, switching and returning to a filtered set', () => {
+		const filters = {...empty, characterId: 'ryu', savedOnly: true, query: 'Tatsu'};
+		let url = new URL('https://chamber.test/');
+		for (const entry of ['ryu-lights', 'ryu-oki', null]) {
+			url = referenceLocation(url.href, filters, entry);
+			expect(url.searchParams.get('character')).toBe('ryu');
+			expect(readCharacterLocation(url.search, collections)).toMatchObject({
+				characterId: 'ryu',
+				entryId: entry,
+				savedOnly: true,
+				query: 'Tatsu',
+			});
+		}
+	});
+	it('removes old character context when returning to the default library', () => {
+		const url = referenceLocation(
+			'https://chamber.test/?character=ryu&entry=ryu-oki',
+			{...empty, characterId: 'dhalsim'},
+			null,
+		);
+		expect(url.search).toBe('');
+	});
+	it('rejects a history bookmark that belongs to another character library', () => {
+		expect(
+			readLibraryReturn({key: 'ryu-visit', scrollY: 200, entryId: 'ryu-oki'}, ids),
+		).toBeUndefined();
+	});
+	it('fails explicitly when no character libraries are configured', () => {
+		expect(() => readCharacterLocation('', [])).toThrow('At least one character library');
+	});
 	it('preserves an independent history bookmark without sharing its mutable object', () => {
 		const old = {key: 'visit-a', scrollY: 1022, entryId: 'lights'};
 		const newer = {key: 'visit-b', scrollY: 0, entryId: 'punish'};
