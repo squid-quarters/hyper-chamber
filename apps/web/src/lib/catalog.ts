@@ -1,4 +1,4 @@
-import {gameDefinitionSchema, parseCatalog} from '@hyper-chamber/reference';
+import {gameDefinitionSchema, parseCatalog, referenceTagKey} from '@hyper-chamber/reference';
 import profile from '../../../../content/games/sf6/game.json';
 
 const catalogs = import.meta.glob<unknown>('../../../../content/games/sf6/references/*.json', {
@@ -19,7 +19,8 @@ export const allReferences = parseCatalog(
 );
 function distinctTags(tags: string[]): string[] {
 	const values = new Map<string, string>();
-	for (const tag of tags) if (!values.has(tag.toLowerCase())) values.set(tag.toLowerCase(), tag);
+	for (const tag of tags)
+		if (!values.has(referenceTagKey(tag))) values.set(referenceTagKey(tag), tag);
 	return [...values.values()].sort((left, right) => left.localeCompare(right));
 }
 export const collections = game.characters.map(character => {

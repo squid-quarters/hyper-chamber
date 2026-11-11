@@ -485,6 +485,41 @@ describe('reference discovery', () => {
 		]);
 		expect(filterReferences(tagged, {goal: 'all'})).toEqual(tagged);
 	});
+	it('finds Oki, Anti-air and Cash-out only in authored tags and accepts formatting variants', () => {
+		const tagged = [
+			reference({id: 'oki-start', situations: ['Oki']}),
+			reference({id: 'oki-finish', outcomes: ['oki']}),
+			reference({id: 'anti-air', situations: ['Anti-air']}),
+			reference({id: 'cash-out', situations: ['Cash out']}),
+			reference({id: 'cash-out-finish', outcomes: ['Cash-out']}),
+			reference({
+				id: 'prose-only',
+				title: 'Anti-air cash-out Oki',
+				summary: 'Oki, anti-air and cash-out.',
+			}),
+		];
+		expect(filterReferences(tagged, {goal: 'oki'}).map(r => r.id)).toEqual([
+			'oki-start',
+			'oki-finish',
+		]);
+		expect(filterReferences(tagged, {goal: 'anti-air'}).map(r => r.id)).toEqual(['anti-air']);
+		expect(filterReferences(tagged, {goal: 'cash-out'}).map(r => r.id)).toEqual([
+			'cash-out',
+			'cash-out-finish',
+		]);
+		expect(filterReferences(tagged, {situation: 'cash-out'}).map(r => r.id)).toEqual(['cash-out']);
+		expect(filterReferences(tagged, {outcome: 'CASH OUT'}).map(r => r.id)).toEqual([
+			'cash-out-finish',
+		]);
+	});
+	it('does not equate command-grab and command-throw tags when grouping spelling variants', () => {
+		const tagged = [
+			reference({id: 'grab', situations: ['Command grab']}),
+			reference({id: 'throw', situations: ['Command throw']}),
+		];
+		expect(filterReferences(tagged, {situation: 'Command-grab'}).map(r => r.id)).toEqual(['grab']);
+	});
+
 	it('intersects goals with search, type, outcomes and saved references in authored order', () => {
 		const tagged = [
 			reference({id: 'first', title: 'Yoga carry', outcomes: ['Corner carry', 'Knockdown']}),

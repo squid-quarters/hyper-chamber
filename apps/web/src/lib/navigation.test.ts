@@ -280,6 +280,26 @@ describe('reference navigation', () => {
 		expect(readReferenceLocation('?outcome=Knockdown', ids, situations).outcome).toBe('all');
 	});
 
+	it('preserves every authored-tag goal through entry navigation and return to library', () => {
+		for (const goal of ['oki', 'anti-air', 'cash-out'] as const) {
+			const opened = referenceLocation('https://chamber.test/', {...empty, goal}, 'lights');
+			expect(readReferenceLocation(opened.search, ids, situations).goal).toBe(goal);
+			const returned = referenceLocation(opened.href, {...empty, goal}, null);
+			expect(readReferenceLocation(returned.search, ids, situations)).toMatchObject({
+				goal,
+				entryId: null,
+			});
+		}
+	});
+	it('restores a hyphen-equivalent source tag without equating different gameplay terms', () => {
+		expect(readReferenceLocation('?situation=Cash+out', ids, ['Cash-out']).situation).toBe(
+			'Cash-out',
+		);
+		expect(readReferenceLocation('?situation=Command+grab', ids, ['Command throw']).situation).toBe(
+			'all',
+		);
+	});
+
 	it('clears stale filter parameters when reset', () => {
 		const url = referenceLocation(
 			'https://chamber.test/?entry=lights&q=fire&kind=combo&situation=Midscreen&outcome=Knockdown&goal=punishes&saved=1&practice=untried',

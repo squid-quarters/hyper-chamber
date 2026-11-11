@@ -189,7 +189,19 @@ export const referenceSchema = z
 	});
 export type Reference = z.infer<typeof referenceSchema>;
 export type ReferenceKind = Reference['kind'];
-export type ReferenceGoal = 'punishes' | 'corner-carry';
+export const referenceGoals = [
+	{id: 'punishes', label: 'Punishes'},
+	{id: 'corner-carry', label: 'Corner carry'},
+	{id: 'oki', label: 'Oki'},
+	{id: 'anti-air', label: 'Anti-air'},
+	{id: 'cash-out', label: 'Cash-out'},
+] as const;
+export type ReferenceGoal = (typeof referenceGoals)[number]['id'];
+
+// Group spelling variants, while leaving authored labels and gameplay terms intact.
+export function referenceTagKey(tag: string): string {
+	return tag.normalize('NFKC').toLowerCase().replace(/[-‐‑]/g, ' ').replace(/\s+/g, ' ').trim();
+}
 export type PracticeStatus = 'untried' | 'practising' | 'reliable';
 export type PersonalEntry = {
 	saved: boolean;
@@ -263,23 +275,32 @@ export function filterReferences(
 	const tokens = searchable(options.query ?? '')
 		.split(/\s+/)
 		.filter(Boolean);
-	const situation = options.situation?.toLowerCase();
-	const outcome = options.outcome?.toLowerCase();
+	const situation = options.situation ? referenceTagKey(options.situation) : undefined;
+	const outcome = options.outcome ? referenceTagKey(options.outcome) : undefined;
 	return catalog.filter(r => {
 		if (options.gameId && r.gameId !== options.gameId) return false;
 		if (options.kind && options.kind !== 'all' && r.kind !== options.kind) return false;
 		if (
 			situation &&
 			situation !== 'all' &&
-			!r.situations.some(tag => tag.toLowerCase() === situation)
+			!r.situations.some(tag => referenceTagKey(tag) === situation)
 		)
 			return false;
-		if (outcome && outcome !== 'all' && !r.outcomes.some(tag => tag.toLowerCase() === outcome))
+		if (outcome && outcome !== 'all' && !r.outcomes.some(tag => referenceTagKey(tag) === outcome))
 			return false;
 		if (options.goal && options.goal !== 'all') {
-			const tags = [...r.situations, ...r.outcomes].map(tag => tag.toLowerCase());
-			if (options.goal === 'punishes' && !tags.some(tag => /\bpunish\b/.test(tag))) return false;
-			if (options.goal === 'corner-carry' && !tags.includes('corner carry')) return false;
+			const tags = [...r.situations, ...r.outcomes].map(referenceTagKey);
+			if (options.goal === 'punishes') {
+				if (!tags.some(tag => /\bpunish\b/.test(tag))) return false;
+			} else {
+				const goalTags = {
+					'corner-carry': 'corner carry',
+					oki: 'oki',
+					'anti-air': 'anti air',
+					'cash-out': 'cash out',
+				};
+				if (!tags.includes(goalTags[options.goal])) return false;
+			}
 		}
 		if (options.savedIds && !options.savedIds.has(r.id)) return false;
 		const text = searchable(

@@ -1,4 +1,4 @@
-import type {ReferenceGoal} from '@hyper-chamber/reference';
+import {referenceGoals, referenceTagKey, type ReferenceGoal} from '@hyper-chamber/reference';
 
 export interface LibraryFilters {
 	query: string;
@@ -90,11 +90,14 @@ export function readReferenceLocation(
 			? params.get('kind')!
 			: 'all',
 		situation:
-			situations.find(value => value.toLowerCase() === params.get('situation')?.toLowerCase()) ??
-			'all',
+			situations.find(
+				value => referenceTagKey(value) === referenceTagKey(params.get('situation') ?? ''),
+			) ?? 'all',
 		outcome:
-			outcomes.find(value => value.toLowerCase() === params.get('outcome')?.toLowerCase()) ?? 'all',
-		goal: requestedGoal === 'punishes' || requestedGoal === 'corner-carry' ? requestedGoal : 'all',
+			outcomes.find(
+				value => referenceTagKey(value) === referenceTagKey(params.get('outcome') ?? ''),
+			) ?? 'all',
+		goal: referenceGoals.find(goal => goal.id === requestedGoal)?.id ?? 'all',
 		savedOnly: params.get('saved') === '1',
 		practice: ['untried', 'practising', 'reliable'].includes(params.get('practice') ?? '')
 			? params.get('practice')!
