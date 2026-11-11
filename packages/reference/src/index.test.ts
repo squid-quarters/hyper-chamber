@@ -445,10 +445,110 @@ describe('reference discovery', () => {
 		);
 		expect(filterReferences(catalog, {savedIds: new Set()})).toEqual([]);
 	});
+	it('matches authored situations and outcomes without case duplicates or crossing the facets', () => {
+		const tagged = [
+			reference({id: 'first', situations: ['Punish Counter'], outcomes: ['Corner carry']}),
+			reference({id: 'second', situations: ['Punish counter'], outcomes: ['Knockdown']}),
+			reference({id: 'third', situations: ['Corner carry'], outcomes: ['Damage']}),
+		];
+		expect(filterReferences(tagged, {situation: 'punish COUNTER'}).map(r => r.id)).toEqual([
+			'first',
+			'second',
+		]);
+		expect(filterReferences(tagged, {outcome: 'CORNER carry'}).map(r => r.id)).toEqual(['first']);
+		expect(
+			filterReferences(tagged, {situation: 'Punish Counter', outcome: 'knockdown'}).map(r => r.id),
+		).toEqual(['second']);
+		expect(filterReferences(tagged, {outcome: 'unknown'})).toEqual([]);
+	});
+	it('finds training goals in authored situation and outcome tags without inferring from prose', () => {
+		const tagged = [
+			reference({id: 'carry-start', situations: ['Corner carry'], outcomes: ['Knockdown']}),
+			reference({id: 'carry-finish', outcomes: ['corner carry']}),
+			reference({id: 'reversal', situations: ['Reversal punish'], outcomes: ['Knockdown']}),
+			reference({id: 'counter', situations: ['Punish Counter']}),
+			reference({id: 'opportunity', outcomes: ['Punish opportunity']}),
+			reference({
+				id: 'prose-only',
+				title: 'Corner carry punish combo',
+				summary: 'Whiff punish for corner carry.',
+			}),
+		];
+		expect(filterReferences(tagged, {goal: 'corner-carry'}).map(r => r.id)).toEqual([
+			'carry-start',
+			'carry-finish',
+		]);
+		expect(filterReferences(tagged, {goal: 'punishes'}).map(r => r.id)).toEqual([
+			'reversal',
+			'counter',
+			'opportunity',
+		]);
+		expect(filterReferences(tagged, {goal: 'all'})).toEqual(tagged);
+	});
+	it('finds Oki, Anti-air and Cash-out only in authored tags and accepts formatting variants', () => {
+		const tagged = [
+			reference({id: 'oki-start', situations: ['Oki']}),
+			reference({id: 'oki-finish', outcomes: ['oki']}),
+			reference({id: 'anti-air', situations: ['Anti-air']}),
+			reference({id: 'cash-out', situations: ['Cash out']}),
+			reference({id: 'cash-out-finish', outcomes: ['Cash-out']}),
+			reference({
+				id: 'prose-only',
+				title: 'Anti-air cash-out Oki',
+				summary: 'Oki, anti-air and cash-out.',
+			}),
+		];
+		expect(filterReferences(tagged, {goal: 'oki'}).map(r => r.id)).toEqual([
+			'oki-start',
+			'oki-finish',
+		]);
+		expect(filterReferences(tagged, {goal: 'anti-air'}).map(r => r.id)).toEqual(['anti-air']);
+		expect(filterReferences(tagged, {goal: 'cash-out'}).map(r => r.id)).toEqual([
+			'cash-out',
+			'cash-out-finish',
+		]);
+		expect(filterReferences(tagged, {situation: 'cash-out'}).map(r => r.id)).toEqual(['cash-out']);
+		expect(filterReferences(tagged, {outcome: 'CASH OUT'}).map(r => r.id)).toEqual([
+			'cash-out-finish',
+		]);
+	});
+	it('does not equate command-grab and command-throw tags when grouping spelling variants', () => {
+		const tagged = [
+			reference({id: 'grab', situations: ['Command grab']}),
+			reference({id: 'throw', situations: ['Command throw']}),
+		];
+		expect(filterReferences(tagged, {situation: 'Command-grab'}).map(r => r.id)).toEqual(['grab']);
+	});
+
+	it('intersects goals with search, type, outcomes and saved references in authored order', () => {
+		const tagged = [
+			reference({id: 'first', title: 'Yoga carry', outcomes: ['Corner carry', 'Knockdown']}),
+			reference({
+				id: 'second',
+				title: 'Yoga carry response',
+				kind: 'response',
+				outcomes: ['Corner carry', 'Knockdown'],
+			}),
+			reference({id: 'third', title: 'Yoga carry', outcomes: ['Corner carry', 'Knockdown']}),
+			reference({id: 'unsaved', title: 'Yoga carry', outcomes: ['Corner carry', 'Knockdown']}),
+		];
+		expect(
+			filterReferences(tagged, {
+				query: 'YOGA',
+				kind: 'combo',
+				situation: 'CORNER',
+				outcome: 'knockdown',
+				goal: 'corner-carry',
+				savedIds: new Set(['third', 'second', 'first']),
+			}).map(r => r.id),
+		).toEqual(['first', 'third']);
+	});
 
 	it('returns all references for the all filters and never reorders the input', () => {
 		const before = structuredClone(catalog);
-		expect(filterReferences(catalog, {kind: 'all', situation: 'all'})).toEqual(catalog);
+		expect(
+			filterReferences(catalog, {kind: 'all', situation: 'all', outcome: 'all', goal: 'all'}),
+		).toEqual(catalog);
 		filterReferences(catalog, {kind: 'response'});
 		expect(catalog).toEqual(before);
 	});

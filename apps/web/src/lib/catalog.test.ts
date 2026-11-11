@@ -1,9 +1,21 @@
 import {readFileSync, readdirSync} from 'node:fs';
 import {describe, expect, it} from 'vitest';
 import {allReferences, collections} from './catalog';
+import {referenceTagKey} from '@hyper-chamber/reference';
 import {readCharacterLocation, referenceLocation} from './navigation';
 
 describe('authored character libraries', () => {
+	it('offers every authored situation and outcome once across case and hyphen spelling variants', () => {
+		for (const collection of collections) {
+			for (const field of ['situations', 'outcomes'] as const) {
+				const options = collection[field].map(referenceTagKey);
+				const authored = collection.references.flatMap(reference => reference[field]);
+				expect(new Set(options).size, `${collection.name} ${field}`).toBe(options.length);
+				expect(new Set(options)).toEqual(new Set(authored.map(referenceTagKey)));
+				for (const option of collection[field]) expect(authored).toContain(option);
+			}
+		}
+	});
 	it('includes every authored reference file in the reader', () => {
 		const directory = new URL('../../../../content/games/sf6/references/', import.meta.url);
 		const authoredIds = readdirSync(directory)
