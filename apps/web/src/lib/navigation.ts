@@ -1,7 +1,11 @@
+import type {ReferenceGoal} from '@hyper-chamber/reference';
+
 export interface LibraryFilters {
 	query: string;
 	kind: string;
 	situation: string;
+	outcome?: string;
+	goal?: ReferenceGoal | 'all';
 	savedOnly: boolean;
 	practice: string;
 	characterId?: string;
@@ -11,6 +15,7 @@ export interface CharacterLocation {
 	id: string;
 	referenceIds: ReadonlySet<string>;
 	situations: readonly string[];
+	outcomes?: readonly string[];
 }
 
 export function readCharacterLocation(search: string, collections: readonly CharacterLocation[]) {
@@ -27,7 +32,12 @@ export function readCharacterLocation(search: string, collections: readonly Char
 		: undefined;
 	const collection = linked ?? explicit ?? first;
 	return {
-		...readReferenceLocation(search, collection.referenceIds, collection.situations),
+		...readReferenceLocation(
+			search,
+			collection.referenceIds,
+			collection.situations,
+			collection.outcomes,
+		),
 		characterId: collection.id,
 		invalidCharacter: !!requested && !explicit,
 	};
@@ -64,17 +74,27 @@ export function readReferenceLocation(
 	search: string,
 	referenceIds: ReadonlySet<string>,
 	situations: readonly string[],
-): LibraryFilters & {entryId: string | null; invalidEntry: boolean} {
+	outcomes: readonly string[] = [],
+): LibraryFilters & {
+	outcome: string;
+	goal: ReferenceGoal | 'all';
+	entryId: string | null;
+	invalidEntry: boolean;
+} {
 	const params = new URLSearchParams(search);
 	const entry = params.get('entry');
+	const requestedGoal = params.get('goal');
 	return {
 		query: params.get('q') ?? '',
 		kind: ['combo', 'setup', 'response'].includes(params.get('kind') ?? '')
 			? params.get('kind')!
 			: 'all',
-		situation: situations.includes(params.get('situation') ?? '')
-			? params.get('situation')!
-			: 'all',
+		situation:
+			situations.find(value => value.toLowerCase() === params.get('situation')?.toLowerCase()) ??
+			'all',
+		outcome:
+			outcomes.find(value => value.toLowerCase() === params.get('outcome')?.toLowerCase()) ?? 'all',
+		goal: requestedGoal === 'punishes' || requestedGoal === 'corner-carry' ? requestedGoal : 'all',
 		savedOnly: params.get('saved') === '1',
 		practice: ['untried', 'practising', 'reliable'].includes(params.get('practice') ?? '')
 			? params.get('practice')!
@@ -90,7 +110,7 @@ export function referenceLocation(
 	entryId: string | null,
 ): URL {
 	const url = new URL(href);
-	for (const key of ['q', 'kind', 'situation', 'saved', 'entry', 'practice'])
+	for (const key of ['q', 'kind', 'situation', 'outcome', 'goal', 'saved', 'entry', 'practice'])
 		url.searchParams.delete(key);
 	url.hash = '';
 	if (filters.characterId !== undefined) {
@@ -100,6 +120,9 @@ export function referenceLocation(
 	if (filters.query) url.searchParams.set('q', filters.query);
 	if (filters.kind !== 'all') url.searchParams.set('kind', filters.kind);
 	if (filters.situation !== 'all') url.searchParams.set('situation', filters.situation);
+	if (filters.outcome && filters.outcome !== 'all')
+		url.searchParams.set('outcome', filters.outcome);
+	if (filters.goal && filters.goal !== 'all') url.searchParams.set('goal', filters.goal);
 	if (filters.savedOnly) url.searchParams.set('saved', '1');
 	if (filters.practice !== 'all') url.searchParams.set('practice', filters.practice);
 	if (entryId) url.searchParams.set('entry', entryId);

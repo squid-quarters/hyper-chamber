@@ -189,6 +189,7 @@ export const referenceSchema = z
 	});
 export type Reference = z.infer<typeof referenceSchema>;
 export type ReferenceKind = Reference['kind'];
+export type ReferenceGoal = 'punishes' | 'corner-carry';
 export type PracticeStatus = 'untried' | 'practising' | 'reliable';
 export type PersonalEntry = {
 	saved: boolean;
@@ -253,6 +254,8 @@ export function filterReferences(
 		query?: string;
 		kind?: string;
 		situation?: string;
+		outcome?: string;
+		goal?: ReferenceGoal | 'all';
 		savedIds?: ReadonlySet<string>;
 		gameId?: string;
 	} = {},
@@ -260,15 +263,24 @@ export function filterReferences(
 	const tokens = searchable(options.query ?? '')
 		.split(/\s+/)
 		.filter(Boolean);
+	const situation = options.situation?.toLowerCase();
+	const outcome = options.outcome?.toLowerCase();
 	return catalog.filter(r => {
 		if (options.gameId && r.gameId !== options.gameId) return false;
 		if (options.kind && options.kind !== 'all' && r.kind !== options.kind) return false;
 		if (
-			options.situation &&
-			options.situation !== 'all' &&
-			!r.situations.includes(options.situation)
+			situation &&
+			situation !== 'all' &&
+			!r.situations.some(tag => tag.toLowerCase() === situation)
 		)
 			return false;
+		if (outcome && outcome !== 'all' && !r.outcomes.some(tag => tag.toLowerCase() === outcome))
+			return false;
+		if (options.goal && options.goal !== 'all') {
+			const tags = [...r.situations, ...r.outcomes].map(tag => tag.toLowerCase());
+			if (options.goal === 'punishes' && !tags.some(tag => /\bpunish\b/.test(tag))) return false;
+			if (options.goal === 'corner-carry' && !tags.includes('corner carry')) return false;
+		}
 		if (options.savedIds && !options.savedIds.has(r.id)) return false;
 		const text = searchable(
 			[

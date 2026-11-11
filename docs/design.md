@@ -19,3 +19,11 @@ Structure-only inspiration supplied by the research pass: [Zoom search and tagge
 For the sequence refinement, [Attio](https://mobbin.com/screens/b1d64fe7-82a9-42dd-9487-6385ac347cc6) and [incident.io](https://mobbin.com/screens/45365384-2ea7-4a55-bb83-2384579937f5) show vertically connected steps with information attached to each step. Those workflow editors supply structural examples only; Hyper Chamber keeps its existing palette, type and read-only reference behavior. The horizontal adaptation and text disclosure are design decisions for this compendium.
 
 The selected browsing direction follows the tile-library exploration: [Loom](https://mobbin.com/screens/5d0ce4ff-a6cc-4c5b-ac3c-fa78e2b1a59a) and [Arcade](https://mobbin.com/screens/d71b6ebd-e45f-48de-92f4-92642e4c699f) supplied structural examples of searchable media grids. Dedicated practice and the input-before-replay hierarchy follow the requested training workflow. Previous/Next and Quick switch keep a chosen result set within reach without retaining a second scrolling pane.
+
+## Practice navigation and training goals
+
+Previous and Next are the primary practice actions: large surfaced buttons flank a result-position counter, with a brass-filled Next action and an outlined Previous action. Disabled ends remain visible. Their accessible names stay explicit, and tooltips identify the adjacent reference. Back to library and Quick switch remain secondary. At narrow widths, the pager uses its own full-width row with equally sized navigation targets.
+
+The library separates reference type, starting situation, outcome and personal practice status. Training-goal shortcuts find Punishes and Corner carry across authored situation and outcome tags. They do not infer gameplay properties from prose. Case-equivalent tag spellings share a filter option; stored source content remains unchanged. Goals and outcomes follow the reference into practice, shareable URLs, history and the return to the library. Goal counts reflect the other active filters; the matching-reference count also applies the selected goal. Outcome tags appear on library tiles so users can assess a route before opening it.
+
+The navigation targets are at least 48 CSS pixels high, following the larger-target intent of [W3C target-size guidance](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html).

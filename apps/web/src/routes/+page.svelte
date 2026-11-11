@@ -10,6 +10,7 @@
 		type PersonalLibrary,
 		type PersonalEntry,
 		type PracticeStatus,
+		type ReferenceGoal,
 	} from '@hyper-chamber/reference';
 	import {
 		loadLibrary,
@@ -39,6 +40,8 @@
 	let query = $state('');
 	let kind = $state('all');
 	let situation = $state('all');
+	let outcome = $state('all');
+	let goal = $state<ReferenceGoal | 'all'>('all');
 	let savedOnly = $state(false);
 	let practice = $state('all');
 	let selectedId = $state('');
@@ -63,6 +66,7 @@
 	let viewRevision = 0;
 	let referenceIds = $derived(collection.referenceIds);
 	let situations = $derived(collection.situations);
+	let outcomes = $derived(collection.outcomes);
 	let selected = $derived(references.find((r) => r.id === selectedId));
 	let personal = $derived(selected ? (library[selected.id] ?? blankEntry(selected)) : null);
 	let savedIds = $derived(
@@ -72,14 +76,18 @@
 				.map(([id]) => id),
 		),
 	);
-	let results = $derived(
+	let matchingReferences = $derived(
 		filterReferences(references, {
 			query,
 			kind,
 			situation,
+			outcome,
 			savedIds: savedOnly ? savedIds : undefined,
 		}).filter((ref) => practice === 'all' || (library[ref.id]?.status ?? 'untried') === practice),
 	);
+	let results = $derived(filterReferences(matchingReferences, { goal }));
+	let punishCount = $derived(filterReferences(matchingReferences, { goal: 'punishes' }).length);
+	let carryCount = $derived(filterReferences(matchingReferences, { goal: 'corner-carry' }).length);
 	let selectedIndex = $derived(results.findIndex((ref) => ref.id === selectedId));
 	let previousReference = $derived(selectedIndex > 0 ? results[selectedIndex - 1] : undefined);
 	let nextReference = $derived(selectedIndex >= 0 ? results[selectedIndex + 1] : undefined);
@@ -93,7 +101,7 @@
 	let switchResults = $derived(filterReferences(switchSet, { query: switchQuery }));
 
 	function currentFilters() {
-		return { query, kind, situation, savedOnly, practice, characterId };
+		return { query, kind, situation, outcome, goal, savedOnly, practice, characterId };
 	}
 	function entryHref(id: string) {
 		return referenceLocation('https://hyper-chamber.invalid/', currentFilters(), id).search;
@@ -104,6 +112,8 @@
 		query = next.query;
 		kind = next.kind;
 		situation = next.situation;
+		outcome = next.outcome;
+		goal = next.goal;
 		savedOnly = next.savedOnly;
 		practice = next.practice;
 		practising = next.entryId !== null;
@@ -134,6 +144,8 @@
 		query = '';
 		kind = 'all';
 		situation = 'all';
+		outcome = 'all';
+		goal = 'all';
 		savedOnly = false;
 		practice = 'all';
 		selectedId = references[0]?.id ?? '';
@@ -244,6 +256,8 @@
 		query = '';
 		kind = 'all';
 		situation = 'all';
+		outcome = 'all';
+		goal = 'all';
 		savedOnly = false;
 		practice = 'all';
 		void updateUrl();
@@ -494,7 +508,7 @@
 						><span aria-hidden="true">⌕</span><span class="sr-only">Search references</span><input
 							id="library-search"
 							type="search"
-							placeholder="Find an input, situation…"
+							placeholder="Find an input, situation, outcome…"
 							bind:value={query}
 							oninput={(event) => {
 								query = event.currentTarget.value;
@@ -533,14 +547,26 @@
 							></label
 						>
 						<label
-							>Situation<select
+							>Starting situation<select
 								bind:value={situation}
 								onchange={(event) => {
 									situation = event.currentTarget.value;
 									void updateUrl();
 								}}
-								><option value="all">Anywhere</option>{#each situations as s}<option value={s}
+								><option value="all">Any situation</option>{#each situations as s}<option value={s}
 										>{s}</option
+									>{/each}</select
+							></label
+						>
+						<label
+							>Outcome<select
+								bind:value={outcome}
+								onchange={(event) => {
+									outcome = event.currentTarget.value;
+									void updateUrl();
+								}}
+								><option value="all">Any outcome</option>{#each outcomes as value}<option {value}
+										>{value}</option
 									>{/each}</select
 							></label
 						>
@@ -558,10 +584,43 @@
 							></label
 						>
 					</div>
+					<div class="training-goals">
+						<div class="training-goal-options" role="group" aria-label="Training goal">
+							<span class="eyebrow">TRAINING GOAL</span>
+							<button
+								class="goal-chip"
+								class:current={goal === 'all'}
+								aria-pressed={goal === 'all'}
+								onclick={() => {
+									goal = 'all';
+									void updateUrl();
+								}}>All goals <span>{matchingReferences.length}</span></button
+							>
+							<button
+								class="goal-chip"
+								class:current={goal === 'punishes'}
+								aria-pressed={goal === 'punishes'}
+								onclick={() => {
+									goal = 'punishes';
+									void updateUrl();
+								}}>Punishes <span>{punishCount}</span></button
+							>
+							<button
+								class="goal-chip"
+								class:current={goal === 'corner-carry'}
+								aria-pressed={goal === 'corner-carry'}
+								onclick={() => {
+									goal = 'corner-carry';
+									void updateUrl();
+								}}>Corner carry <span>{carryCount}</span></button
+							>
+						</div>
+						<p class="goal-note">Only explicitly tagged references are included in each goal.</p>
+					</div>
 					<div class="results-meta">
 						<span>{results.length} {results.length === 1 ? 'reference' : 'references'}</span>
 						<div class="results-actions">
-							{#if query || kind !== 'all' || situation !== 'all' || savedOnly || practice !== 'all'}<button
+							{#if query || kind !== 'all' || situation !== 'all' || outcome !== 'all' || goal !== 'all' || savedOnly || practice !== 'all'}<button
 									onclick={reset}>Reset filters</button
 								>{/if}
 							<button
@@ -604,6 +663,7 @@
 								</div>
 								<h3>{ref.title}</h3>
 								<p class="card-situations">{ref.situations.join(' · ')}</p>
+								<p class="card-outcomes"><span>Outcome</span> {ref.outcomes.join(' · ')}</p>
 								<p class="card-summary">{ref.summary}</p>
 								<div class="card-bottom">
 									<span>{ref.inputs.length} {ref.inputs.length === 1 ? 'input' : 'inputs'}</span
@@ -621,7 +681,9 @@
 						<p>
 							{savedOnly && savedIds.size === 0
 								? 'Save a reference with the star to keep it close.'
-								: 'Try a shorter input or another situation.'}
+								: goal !== 'all'
+									? 'Try another goal or clear a filter. Goals only include explicitly tagged references.'
+									: 'Try a shorter input, another situation or another outcome.'}
 						</p>
 						<button class="button" onclick={reset}>Show all references</button>
 					</div>{/if}
@@ -639,20 +701,39 @@
 					>
 					<div class="practice-pagination">
 						<button
-							class="text-button"
+							class="practice-step practice-previous"
 							disabled={!previousReference}
 							onclick={() => previousReference && selectEntry(previousReference)}
-							aria-label="Previous reference">← Previous</button
-						><span
-							>{selectedIndex >= 0
-								? `${selectedIndex + 1} / ${results.length}`
-								: 'Outside filters'}</span
-						><button
-							class="text-button"
+							aria-label="Previous reference"
+							title={previousReference?.title ?? 'First reference in these results'}
+						>
+							<span aria-hidden="true">←</span> Previous
+						</button>
+						<div class="practice-position">
+							<span
+								>{goal === 'punishes'
+									? 'Punishes'
+									: goal === 'corner-carry'
+										? 'Corner carry'
+										: savedOnly
+											? 'Saved results'
+											: 'Current results'}</span
+							>
+							<strong
+								>{selectedIndex >= 0
+									? `${selectedIndex + 1} of ${results.length}`
+									: 'Outside filters'}</strong
+							>
+						</div>
+						<button
+							class="practice-step practice-next"
 							disabled={!nextReference}
 							onclick={() => nextReference && selectEntry(nextReference)}
-							aria-label="Next reference">Next →</button
+							aria-label="Next reference"
+							title={nextReference?.title ?? 'Last reference in these results'}
 						>
+							Next <span aria-hidden="true">→</span>
+						</button>
 					</div>
 				</nav>
 				{#key selected.id}<ReferenceMedia reference={selected} layout="practice">

@@ -9,18 +9,21 @@ import {
 
 const ids = new Set(['lights', 'punish']);
 const situations = ['Midscreen', 'Punish Counter'];
+const outcomes = ['Knockdown', 'Corner carry'];
 const empty: LibraryFilters = {
 	query: '',
 	kind: 'all',
 	situation: 'all',
+	outcome: 'all',
+	goal: 'all',
 	savedOnly: false,
 	practice: 'all',
 };
 
 describe('reference navigation', () => {
 	const collections = [
-		{id: 'dhalsim', referenceIds: ids, situations},
-		{id: 'ryu', referenceIds: new Set(['ryu-lights', 'ryu-oki']), situations: ['Oki']},
+		{id: 'dhalsim', referenceIds: ids, situations, outcomes: ['Knockdown']},
+		{id: 'ryu', referenceIds: new Set(['ryu-lights', 'ryu-oki']), situations: ['Oki'], outcomes},
 		{id: 'akuma', referenceIds: new Set(['akuma-lights', 'akuma-oki']), situations: ['Corner']},
 	];
 	it('defaults to Dhalsim and preserves legacy entry links', () => {
@@ -53,6 +56,24 @@ describe('reference navigation', () => {
 				invalidEntry: false,
 			});
 		}
+	});
+	it('validates outcomes against the resolved character and restores case-equivalent facets', () => {
+		expect(
+			readCharacterLocation(
+				'?entry=ryu-lights&outcome=CORNER+carry&goal=corner-carry',
+				collections,
+			),
+		).toMatchObject({
+			characterId: 'ryu',
+			outcome: 'Corner carry',
+			goal: 'corner-carry',
+		});
+		expect(
+			readCharacterLocation('?character=dhalsim&outcome=Corner+carry', collections).outcome,
+		).toBe('all');
+		expect(readCharacterLocation('?situation=punish+counter', collections).situation).toBe(
+			'Punish Counter',
+		);
 	});
 	it('reports unavailable characters and entries without opening an unrelated reference', () => {
 		expect(
@@ -176,6 +197,8 @@ describe('reference navigation', () => {
 			query: 'Yoga Fire',
 			kind: 'combo',
 			situation: 'Punish Counter',
+			outcome: 'all',
+			goal: 'all',
 			savedOnly: true,
 			practice: 'practising',
 			entryId: 'punish',
@@ -214,6 +237,8 @@ describe('reference navigation', () => {
 			query: 'OD & SA1',
 			kind: 'response',
 			situation: 'Midscreen',
+			outcome: 'Corner carry',
+			goal: 'corner-carry',
 			savedOnly: true,
 			practice: 'reliable',
 		};
@@ -229,7 +254,7 @@ describe('reference navigation', () => {
 			[next, 'punish'],
 			[back, null],
 		] as const) {
-			expect(readReferenceLocation(url.search, ids, situations)).toEqual({
+			expect(readReferenceLocation(url.search, ids, situations, outcomes)).toEqual({
 				...filters,
 				entryId,
 				invalidEntry: false,
@@ -238,10 +263,26 @@ describe('reference navigation', () => {
 			expect(url.hash).toBe('');
 		}
 	});
+	it('accepts supported goals and rejects unknown goals or outcomes without dropping valid filters', () => {
+		expect(
+			readReferenceLocation('?goal=punishes&outcome=knockdown', ids, situations, outcomes),
+		).toMatchObject({
+			goal: 'punishes',
+			outcome: 'Knockdown',
+		});
+		expect(
+			readReferenceLocation('?goal=damage&outcome=missing&kind=combo', ids, situations, outcomes),
+		).toMatchObject({
+			goal: 'all',
+			outcome: 'all',
+			kind: 'combo',
+		});
+		expect(readReferenceLocation('?outcome=Knockdown', ids, situations).outcome).toBe('all');
+	});
 
 	it('clears stale filter parameters when reset', () => {
 		const url = referenceLocation(
-			'https://chamber.test/?entry=lights&q=fire&kind=combo&situation=Midscreen&saved=1&practice=untried',
+			'https://chamber.test/?entry=lights&q=fire&kind=combo&situation=Midscreen&outcome=Knockdown&goal=punishes&saved=1&practice=untried',
 			empty,
 			null,
 		);

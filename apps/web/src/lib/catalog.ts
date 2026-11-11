@@ -17,6 +17,11 @@ export const allReferences = parseCatalog(
 		}),
 	[game],
 );
+function distinctTags(tags: string[]): string[] {
+	const values = new Map<string, string>();
+	for (const tag of tags) if (!values.has(tag.toLowerCase())) values.set(tag.toLowerCase(), tag);
+	return [...values.values()].sort((left, right) => left.localeCompare(right));
+}
 export const collections = game.characters.map(character => {
 	const references = allReferences.filter(reference =>
 		reference.participants.some(participant => participant.characterId === character.id),
@@ -26,7 +31,8 @@ export const collections = game.characters.map(character => {
 		name: character.name,
 		references,
 		referenceIds: new Set(references.map(reference => reference.id)),
-		situations: [...new Set(references.flatMap(reference => reference.situations))].sort(),
+		situations: distinctTags(references.flatMap(reference => reference.situations)),
+		outcomes: distinctTags(references.flatMap(reference => reference.outcomes)),
 		game: {
 			...game,
 			guides: character.guides ?? game.guides,

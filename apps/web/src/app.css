@@ -902,7 +902,7 @@ dialog > p {
 /* The library and practice are separate views of the same reference collection. */
 :root {
 	--masthead-height: 64px;
-	--practice-nav-height: 48px;
+	--practice-nav-height: 64px;
 }
 html {
 	scroll-padding-top: calc(var(--masthead-height) + var(--practice-nav-height) + 12px);
@@ -990,7 +990,7 @@ html {
 }
 .library-filters .filters {
 	flex: 3 1 400px;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
+	grid-template-columns: repeat(4, minmax(0, 1fr));
 	gap: 10px;
 }
 .library-filters .filters label {
@@ -1084,7 +1084,7 @@ html {
 	text-align: center;
 }
 .reference-detail.practice-view {
-	--practice-core-height: calc(100svh - 112px);
+	--practice-core-height: calc(100svh - var(--masthead-height) - var(--practice-nav-height));
 	--practice-core-min-height: 29rem;
 	padding: 0 32px 32px;
 }
@@ -1512,4 +1512,150 @@ html {
 		appearance: auto;
 		background-image: none;
 	}
+}
+
+/* Practice navigation is the primary action while moving through a result set. */
+.practice-pagination {
+	gap: 0;
+	border: 1px solid var(--accent);
+	background: var(--surface);
+}
+.practice-pagination .practice-step {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 18px;
+	min-width: 140px;
+	min-height: 48px;
+	padding: 8px 20px;
+	font-size: 15px;
+	font-weight: 700;
+}
+.practice-step > span {
+	font-size: 20px;
+}
+.practice-pagination .practice-next {
+	background: var(--accent);
+	color: var(--on-accent);
+}
+.practice-pagination .practice-next:hover:not(:disabled) {
+	background: var(--ink);
+}
+.practice-pagination .practice-previous:hover:not(:disabled) {
+	background: var(--selected);
+}
+.practice-pagination .practice-step:disabled {
+	opacity: 1;
+	background: var(--soft);
+	color: var(--muted);
+}
+.practice-position {
+	display: grid;
+	text-align: center;
+	min-width: 112px;
+	padding: 0 12px;
+	border-inline: 1px solid var(--line);
+}
+.practice-position span {
+	color: var(--muted);
+	font-size: 10px;
+}
+.practice-position strong {
+	font-size: 14px;
+	font-variant-numeric: tabular-nums;
+}
+@media (max-width: 1000px) {
+	.practice-nav {
+		flex-wrap: wrap;
+		gap: 8px 12px;
+	}
+	.practice-pagination {
+		flex: 1 1 100%;
+		display: grid;
+		grid-template-columns: 1fr auto 1fr;
+		margin: 0;
+	}
+	.practice-pagination .practice-step {
+		min-width: 0;
+		padding-inline: 12px;
+	}
+	.quick-switch-trigger {
+		margin-left: auto;
+	}
+	.library-filters .filters {
+		flex-basis: 100%;
+	}
+}
+@media (max-width: 600px) {
+	.library-filters .filters {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+	.practice-position {
+		min-width: 88px;
+		padding-inline: 6px;
+	}
+	.practice-pagination .practice-step {
+		gap: 10px;
+		font-size: 14px;
+	}
+}
+.training-goals {
+	flex-basis: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 8px 16px;
+	padding-bottom: 6px;
+}
+.training-goals > span {
+	font-size: 12px;
+	font-weight: 700;
+}
+.training-goal-options {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+.goal-chip {
+	min-height: 44px;
+	padding: 8px 14px;
+	border: 1px solid var(--border);
+	background: var(--surface);
+	font-size: 13px;
+}
+.goal-chip:hover {
+	background: var(--selected);
+}
+.goal-chip[aria-pressed='true'] {
+	border-color: var(--ink);
+	background: var(--ink);
+	color: var(--panel-ink);
+}
+.goal-chip span {
+	margin-left: 8px;
+	font-variant-numeric: tabular-nums;
+}
+.goal-note {
+	color: var(--muted);
+	font-size: 11px;
+}
+.reference-grid .card-outcomes {
+	color: var(--accent);
+	font-size: 11px;
+	margin-top: 6px;
+}
+
+@media (761px <= width <= 1000px) {
+	:root {
+		--practice-nav-height: 104px;
+	}
+	.practice-nav {
+		min-height: 104px;
+	}
+}
+.training-goal-options {
+	align-items: center;
+}
+.training-goal-options .eyebrow {
+	margin-right: 4px;
 }
