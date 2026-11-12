@@ -6,6 +6,12 @@ import {
 	readLoopPreference,
 	saveLoopPreference,
 	LOOP_STORAGE_KEY,
+	AUTOPLAY_STORAGE_KEY,
+	SPEED_STORAGE_KEY,
+	SHORTCUTS_STORAGE_KEY,
+	shouldStartPlayback,
+	readPlaybackPreferences,
+	savePlaybackPreferences,
 } from './player';
 
 afterEach(() => vi.unstubAllGlobals());
@@ -88,5 +94,123 @@ describe('remembered clip looping', () => {
 			expect(readLoopPreference()).toBe(true);
 			expect(() => saveLoopPreference(false)).not.toThrow();
 		}
+	});
+});
+
+describe('reference playback preferences', () => {
+	it.each([
+		['follow', false, false],
+		['follow', true, true],
+		['always', false, true],
+		['always', true, true],
+		['paused', false, false],
+		['paused', true, false],
+	] as const)('%s with previous playing=%s starts=%s', (mode, previous, expected) => {
+		expect(shouldStartPlayback(mode, previous)).toBe(expected);
+	});
+	it('defaults to following a paused first open, normal speed and the existing loop preference', () => {
+		vi.stubGlobal('window', {
+			localStorage: {getItem: (key: string) => (key === LOOP_STORAGE_KEY ? 'false' : null)},
+		});
+		expect(readPlaybackPreferences()).toEqual({
+			autoplay: 'follow',
+			shortcuts: true,
+			loop: false,
+			speed: 1,
+		});
+		expect(shouldStartPlayback(readPlaybackPreferences().autoplay, false)).toBe(false);
+	});
+	it.each(['always', 'paused', 'follow'] as const)(
+		'remembers %s without changing the learner library',
+		autoplay => {
+			const values = new Map<string, string>();
+			const storage = {
+				getItem: (key: string) => values.get(key) ?? null,
+				setItem: (key: string, value: string) => values.set(key, value),
+			};
+			vi.stubGlobal('window', {localStorage: storage});
+			savePlaybackPreferences({autoplay, shortcuts: true, loop: false, speed: 0.75});
+			expect(readPlaybackPreferences()).toEqual({
+				autoplay,
+				shortcuts: true,
+				loop: false,
+				speed: 0.75,
+			});
+			expect([...values.keys()].sort()).toEqual(
+				[AUTOPLAY_STORAGE_KEY, LOOP_STORAGE_KEY, SPEED_STORAGE_KEY, SHORTCUTS_STORAGE_KEY].sort(),
+			);
+		},
+	);
+	it.each(['', 'broken', '{invalid', 'true', 'null'])(
+		'rejects unknown mode %j and unsupported rates',
+		value => {
+			vi.stubGlobal('window', {localStorage: {getItem: () => value}});
+			expect(readPlaybackPreferences()).toMatchObject({autoplay: 'follow', speed: 1});
+		},
+	);
+	it.each([0.5, 0.75, 1])('accepts supported playback rate %s', speed => {
+		vi.stubGlobal('window', {
+			localStorage: {getItem: (key: string) => (key === SPEED_STORAGE_KEY ? String(speed) : null)},
+		});
+		expect(readPlaybackPreferences().speed).toBe(speed);
+	});
+	it.each(['0', '-1', '1.5', 'Infinity', 'NaN'])('rejects unsupported rate %s', speed => {
+		vi.stubGlobal('window', {
+			localStorage: {getItem: (key: string) => (key === SPEED_STORAGE_KEY ? speed : null)},
+		});
+		expect(readPlaybackPreferences().speed).toBe(1);
+	});
+	it('handles unavailable storage without preventing playback or preference changes', () => {
+		const browsers = [
+			undefined,
+			Object.defineProperty({}, 'localStorage', {
+				get() {
+					throw new Error('blocked');
+				},
+			}),
+			{
+				localStorage: {
+					getItem() {
+						throw new Error('blocked');
+					},
+					setItem() {
+						throw new Error('full');
+					},
+				},
+			},
+		];
+		for (const browser of browsers) {
+			vi.stubGlobal('window', browser);
+			expect(readPlaybackPreferences()).toEqual({
+				autoplay: 'follow',
+				shortcuts: true,
+				loop: true,
+				speed: 1,
+			});
+			expect(() =>
+				savePlaybackPreferences({autoplay: 'always', shortcuts: true, loop: false, speed: 0.5}),
+			).not.toThrow();
+		}
+	});
+});
+
+describe('single-key shortcut opt-out', () => {
+	it('remembers an explicit off choice independently of playback policy and can turn it back on', () => {
+		const values = new Map<string, string>();
+		vi.stubGlobal('window', {
+			localStorage: {
+				getItem: (key: string) => values.get(key) ?? null,
+				setItem: (key: string, value: string) => values.set(key, value),
+			},
+		});
+		savePlaybackPreferences({autoplay: 'follow', loop: true, speed: 1, shortcuts: false});
+		expect(readPlaybackPreferences()).toEqual({
+			autoplay: 'follow',
+			loop: true,
+			speed: 1,
+			shortcuts: false,
+		});
+		savePlaybackPreferences({autoplay: 'follow', loop: true, speed: 1, shortcuts: true});
+		expect(readPlaybackPreferences().shortcuts).toBe(true);
 	});
 });

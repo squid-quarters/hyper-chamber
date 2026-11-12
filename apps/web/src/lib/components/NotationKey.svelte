@@ -1,11 +1,14 @@
 <script lang="ts">
 	import { ArrowLeft, ArrowRight, X } from '@lucide/svelte';
 	import type { GameDefinition } from '@hyper-chamber/reference';
+	import CharacterPortrait from './CharacterPortrait.svelte';
 	let {
 		game,
 		character,
+		characterId,
 		onclose,
-	}: { game: GameDefinition; character: string; onclose: () => void } = $props();
+	}: { game: GameDefinition; character: string; characterId: string; onclose: () => void } =
+		$props();
 	let section = $state('inputs');
 	let glossaryPage = $state(0);
 	let viewportWidth = $state(1024);
@@ -21,11 +24,11 @@
 	});
 	const sections = [
 		{ id: 'inputs', label: 'Inputs' },
-		{ id: 'sequence', label: 'Sequence' },
-		{ id: 'character', label: 'Character' },
+		{ id: 'sequence', label: 'Game terms' },
+		{ id: 'character', label: 'Fighter terms' },
 	];
 	const characterTerms = $derived(
-		game.characters.find((item) => item.name === character)?.notationLegend ?? [],
+		game.characters.find((item) => item.id === characterId)?.notationLegend ?? [],
 	);
 	const characterTermNames = $derived(new Set(characterTerms.map((item) => item.term)));
 	const sequenceTerms = $derived(
@@ -73,7 +76,7 @@
 <div class="dialog-heading">
 	<div>
 		<h2 id="notation-title">Notation</h2>
-		<p class="dialog-context">{game.name} · {character}</p>
+		<p class="dialog-context">{game.name}</p>
 	</div>
 	<button class="icon-button" aria-label="Close notation" onclick={onclose}
 		><X size={20} aria-hidden="true" /></button
@@ -99,7 +102,10 @@
 		role="tabpanel"
 		aria-labelledby={'notation-tab-' + item.id}
 		hidden={section !== item.id}
-		tabindex="0"
+		aria-describedby={item.id === 'character' && section === item.id
+			? 'notation-fighter-scope'
+			: undefined}
+		tabindex={section === item.id ? 0 : -1}
 	>
 		{#if item.id === 'inputs'}
 			<p class="notation-description">{game.notation.description}</p>
@@ -161,13 +167,19 @@
 			</div>
 			<p class="notation-example"><code>2MP</code><span>Down + medium punch</span></p>
 		{:else if section === item.id}
+			{#if item.id === 'character'}
+				<div class="notation-fighter-scope" id="notation-fighter-scope">
+					<CharacterPortrait {characterId} size={32} />
+					<p><span>Selected fighter</span><strong>{character}</strong></p>
+				</div>
+			{/if}
 			<div class="notation-glossary" aria-live="polite" aria-atomic="true">
 				{#if terms.length}<dl>
 						{#each visibleTerms as term}<div>
 								<dt><code>{term.term}</code></dt>
 								<dd>{term.meaning}</dd>
 							</div>{/each}
-					</dl>{:else}<p>No additional character notation.</p>{/if}
+					</dl>{:else}<p>No additional fighter terms.</p>{/if}
 			</div>
 			{#if pageCount > 1}<nav class="notation-pages" aria-label="Notation pages">
 					<button

@@ -1055,36 +1055,6 @@ kbd {
 	color: var(--muted);
 	font-size: 11px;
 }
-.source-footer {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 28px;
-	padding-block-start: 20px;
-	margin-block-start: 26px;
-	border-block-start: 1px solid var(--line);
-}
-.source-footer a {
-	display: inline-flex;
-	align-items: baseline;
-	gap: 4px;
-	margin-block: 7px;
-	font-size: 12px;
-	font-weight: 500;
-}
-.source-footer p {
-	color: var(--muted);
-	font-size: 11px;
-	line-height: 1.7;
-}
-.source-review strong {
-	display: block;
-	margin-block-end: 6px;
-	font-size: 12px;
-	font-weight: 600;
-}
-.source-review p + p {
-	margin-block-start: 5px;
-}
 .related {
 	margin-block-start: 26px;
 }
@@ -1093,8 +1063,8 @@ kbd {
 	font-size: 14px;
 }
 .related > div {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
 	gap: 8px;
 }
 .related button {
@@ -1102,30 +1072,14 @@ kbd {
 	align-items: center;
 	justify-content: space-between;
 	gap: 20px;
-	min-block-size: 44px;
-	padding: 10px 12px;
+	min-block-size: 52px;
+	padding: 12px 14px;
 	text-align: start;
 	border: 1px solid var(--line);
 	font-size: 12px;
 }
 .related button:hover {
 	background: var(--soft);
-}
-.site-footer {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	gap: 8px 24px;
-	margin-block-start: auto;
-	padding: 20px 32px;
-	border-block-start: 1px solid var(--line);
-	background: var(--canvas);
-	color: var(--muted);
-	font-size: 11px;
-}
-.site-footer > span {
-	font-weight: 600;
 }
 .notice,
 .global-notice,
@@ -1391,7 +1345,7 @@ dialog > p {
 }
 .notation-dialog {
 	max-inline-size: 620px;
-	block-size: min(520px, calc(100dvh - 24px));
+	block-size: min(544px, calc(100dvh - 24px));
 	padding: 24px;
 }
 .notation-dialog[open] {
@@ -1571,7 +1525,7 @@ dialog > p {
 	color: var(--muted);
 	font-variant-numeric: tabular-nums;
 }
-@media (min-width: 1100px) {
+@media (min-width: 761px) {
 	body::before {
 		content: '';
 		position: fixed;
@@ -1761,13 +1715,9 @@ dialog > p {
 	.practice-heading h1 {
 		font-size: 2rem;
 	}
-	.detail-bottom,
-	.source-footer {
+	.detail-bottom {
 		grid-template-columns: 1fr;
 		gap: 22px;
-	}
-	.site-footer {
-		padding: 20px;
 	}
 	dialog,
 	.quick-switch-dialog {
@@ -1858,6 +1808,7 @@ dialog > p {
 		appearance: auto;
 		background-image: none;
 	}
+	.notation-tabs button[aria-selected='true'],
 	.goal-chip[aria-pressed='true'],
 	.type-options button[aria-pressed='true'],
 	.collection-switch button[aria-pressed='true'],
@@ -1976,5 +1927,154 @@ dialog > p {
 	.button-key td code {
 		inline-size: 28px;
 		block-size: 28px;
+	}
+}
+
+/* The masthead seam and replay aperture echo the mark's chamber geometry. */
+.masthead::after {
+	content: '';
+	position: absolute;
+	inset: auto 0 0;
+	block-size: 1px;
+	background: linear-gradient(90deg, transparent, #d9c18d66 20%, #d9c18d66 80%, transparent);
+	pointer-events: none;
+}
+.brand-wordmark {
+	display: grid;
+	gap: 2px;
+}
+.brand-wordmark > span:last-child {
+	color: var(--panel-accent);
+}
+.practice-view .video-stage::before,
+.practice-view .video-stage::after {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	inline-size: 14px;
+	block-size: 14px;
+	border-color: #d9c18d99;
+	border-style: solid;
+	pointer-events: none;
+}
+.practice-view .video-stage::before {
+	inset: 9px auto auto 9px;
+	border-width: 1px 0 0 1px;
+}
+.practice-view .video-stage::after {
+	inset: auto 9px 9px auto;
+	border-width: 0 1px 1px 0;
+}
+.notation-tabs button {
+	line-height: 1.2;
+	padding-block: 6px;
+	font-weight: 600;
+}
+.notation-fighter-scope {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-block-end: 18px;
+}
+.notation-fighter-scope p {
+	display: grid;
+	gap: 1px;
+}
+.notation-fighter-scope p > span {
+	color: var(--muted);
+	font-size: 11px;
+}
+.notation-fighter-scope strong {
+	font-size: 13px;
+	font-weight: 600;
+}
+@media (max-width: 760px) {
+	.related > div {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+@media (max-width: 480px) {
+	.related > div {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 760px) {
+	.app-shell.in-practice .masthead {
+		flex-wrap: nowrap;
+		gap: 10px;
+		min-block-size: 64px;
+		padding: 8px 16px;
+	}
+	.in-practice .brand {
+		flex: none;
+	}
+	.in-practice .brand-wordmark {
+		display: none;
+	}
+	.in-practice .character-trigger {
+		flex: 1;
+		min-inline-size: 0;
+		max-inline-size: 220px;
+		margin-inline-start: 0;
+	}
+	.in-practice .header-actions {
+		inline-size: auto;
+		flex: none;
+		gap: 0;
+		margin-inline-start: auto;
+	}
+	.in-practice .header-actions > button,
+	.in-practice .header-actions > a {
+		min-inline-size: 44px;
+		min-block-size: 44px;
+		padding-inline: 12px;
+	}
+	.in-practice .header-actions .utility-label {
+		display: none;
+	}
+	.practice-pagination .practice-step {
+		min-block-size: 56px;
+		font-size: 16px;
+	}
+	.practice-position strong {
+		font-size: 16px;
+	}
+	.practice-view .notation-panel {
+		padding: 14px;
+	}
+}
+
+@media (max-width: 760px) {
+	.practice-nav > .back-library,
+	.practice-nav > .quick-switch-trigger {
+		min-block-size: 44px;
+	}
+	.save-button {
+		inline-size: 44px;
+		block-size: 44px;
+	}
+	.personal-panel textarea,
+	.status-label select {
+		font-size: 16px;
+	}
+}
+
+.practice-step kbd {
+	display: inline-grid;
+	place-items: center;
+	min-inline-size: 18px;
+	min-block-size: 18px;
+	padding: 0 3px;
+	border: 1px solid currentColor;
+	border-radius: 3px;
+	font:
+		10px/1.2 'DM Sans',
+		sans-serif;
+	opacity: 0.7;
+}
+@media (max-width: 760px), (pointer: coarse) {
+	.practice-step kbd {
+		display: none;
 	}
 }

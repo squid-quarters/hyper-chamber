@@ -6,20 +6,18 @@
 		game,
 		compact = false,
 		showActions = true,
-		onNotation,
 	}: {
 		reference: Reference;
 		game: GameDefinition;
 		compact?: boolean;
 		showActions?: boolean;
-		onNotation?: () => void;
 	} = $props();
 	let copyState = $state('');
-	let showText = $state(false);
+	let copyFallback = $state(false);
 	$effect(() => {
 		if (!reference.id) return;
 		copyState = '';
-		showText = false;
+		copyFallback = false;
 	});
 	async function copyInputs() {
 		const referenceId = reference.id;
@@ -29,10 +27,11 @@
 			await navigator.clipboard.writeText(notation);
 			if (reference.id !== referenceId) return;
 			copyState = 'Input sequence copied.';
+			copyFallback = false;
 		} catch {
 			if (reference.id !== referenceId) return;
-			showText = true;
-			copyState = 'Copy unavailable. Select the text notation below to copy it.';
+			copyFallback = true;
+			copyState = 'Copy unavailable. Select the sequence below to copy it.';
 		}
 	}
 	function actorName(actorId: string | undefined): string | undefined {
@@ -57,12 +56,8 @@
 			<h3>Input sequence</h3>
 			{#if showActions}
 				<div class="sequence-actions">
-					{#if onNotation}<button onclick={onNotation}>Notation key</button>{/if}
 					<button onclick={copyInputs}
 						>{copyState === 'Input sequence copied.' ? 'Copied' : 'Copy inputs'}</button
-					>
-					<button aria-expanded={showText} onclick={() => (showText = !showText)}
-						>Text notation</button
 					>
 				</div>
 			{/if}
@@ -106,18 +101,15 @@
 	</ol>
 	{#if showActions}
 		{#if compact}
-			<p class="compact-copy-state" class:sr-only={!showText} role="status">{copyState}</p>
-			{#if showText}
+			<p class="compact-copy-state" class:sr-only={!copyFallback} role="status">{copyState}</p>
+			{#if copyFallback}
 				<div class="compact-text-notation"><p><code>{reference.notation}</code></p></div>
 			{/if}
 		{:else}
 			<div class="copy-inputs">
 				<button onclick={copyInputs}>Copy inputs</button><span role="status">{copyState}</span>
 			</div>
-			<details class="sequence-text" bind:open={showText}>
-				<summary>Text notation</summary>
-				<p><code>{reference.notation}</code></p>
-			</details>
+			{#if copyFallback}<p class="compact-text-notation"><code>{reference.notation}</code></p>{/if}
 		{/if}
 	{/if}
 </div>
@@ -137,9 +129,6 @@
 		border: 1px solid var(--border);
 		padding: 8px 12px;
 		color: var(--panel-ink);
-	}
-	.sequence-text code {
-		user-select: all;
 	}
 	.input-sequence {
 		container-type: inline-size;
@@ -229,28 +218,6 @@
 	.move-connection svg {
 		display: block;
 		flex: none;
-	}
-	.sequence-text {
-		margin-top: 18px;
-		border-top: 1px solid var(--border);
-	}
-	.sequence-text summary {
-		width: fit-content;
-		padding: 12px 2px 2px;
-		min-height: 36px;
-		color: var(--panel-muted);
-		cursor: pointer;
-		font-size: 12px;
-	}
-	.sequence-text summary:focus-visible {
-		outline-color: var(--panel-accent);
-	}
-	.sequence-text p {
-		margin: 9px 0 1px;
-		color: var(--panel-ink);
-		font-size: 12px;
-		line-height: 1.8;
-		overflow-wrap: anywhere;
 	}
 	@container (min-width: 500px) {
 		.short-sequence {
@@ -390,10 +357,36 @@
 	.compact-text-notation code {
 		user-select: all;
 	}
+	@media (max-width: 760px) {
+		.compact .sequence-toolbar {
+			margin-block-end: 10px;
+		}
+		.compact .sequence-toolbar h3 {
+			font-size: 14px;
+		}
+		.compact .sequence-actions {
+			gap: 0 14px;
+		}
+		.compact .sequence-actions button {
+			min-block-size: 44px;
+			font-size: 12px;
+		}
+		.compact .move-flow {
+			gap: 10px 8px;
+		}
+		.compact .move-notation {
+			padding: 5px 9px;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		.compact .move-connection {
+			width: 18px;
+			margin-inline-start: 2px;
+		}
+	}
 	@media (forced-colors: active) {
 		.move-index,
-		.move-cue,
-		.sequence-text {
+		.move-cue {
 			border-color: CanvasText;
 		}
 		.move-connection {

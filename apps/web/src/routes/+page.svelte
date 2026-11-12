@@ -6,7 +6,6 @@
 	import {
 		filterReferences,
 		referenceGoals,
-		sourceLink,
 		type Reference,
 		type PersonalLibrary,
 		type PersonalEntry,
@@ -23,12 +22,20 @@
 		type LibraryPatches,
 	} from '#lib/personal';
 	import BrandMark from '#lib/components/BrandMark.svelte';
+	import AppFooter from '#lib/components/AppFooter.svelte';
 	import CharacterPicker from '#lib/components/CharacterPicker.svelte';
 	import CharacterPortrait from '#lib/components/CharacterPortrait.svelte';
 	import NotationKey from '#lib/components/NotationKey.svelte';
+	import SourceDetails from '#lib/components/SourceDetails.svelte';
 	import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Search, Star, X } from '@lucide/svelte';
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	import InputSequence from '#lib/components/InputSequence.svelte';
+	import {
+		readPlaybackPreferences,
+		savePlaybackPreferences,
+		shouldStartPlayback,
+		type PlaybackPreferences,
+	} from '../lib/player';
 	import {
 		readLibraryReturn,
 		readCharacterLocation,
@@ -36,6 +43,23 @@
 		type LibraryReturn,
 	} from '../lib/navigation';
 
+	let playerPreferences = $state<PlaybackPreferences>({
+		autoplay: 'follow',
+		shortcuts: true,
+		loop: true,
+		speed: 1,
+	});
+	let startPlaying = $state(false);
+	let referenceVisit = $state(0);
+	let switcherWasPlaying = false;
+	function clipIsPlaying() {
+		const clip = document.querySelector<HTMLVideoElement>('.practice-view video');
+		return !!clip && !clip.paused && !clip.ended;
+	}
+	function updatePlayerPreferences(patch: Partial<PlaybackPreferences>) {
+		playerPreferences = { ...playerPreferences, ...patch };
+		savePlaybackPreferences(playerPreferences);
+	}
 	let characterId = $state(collections[0].id);
 	let collection = $derived(collections.find((item) => item.id === characterId) ?? collections[0]);
 	let references = $derived(collection.references);
@@ -161,7 +185,9 @@
 		return referenceLocation('https://hyper-chamber.invalid/', currentFilters(), id).search;
 	}
 	function readUrl() {
+		const wasPlaying = clipIsPlaying();
 		const next = readCharacterLocation(location.search, collections);
+		const changingReference = !practising || next.entryId !== selectedId;
 		characterId = next.characterId;
 		query = next.query;
 		kind = next.kind;
@@ -174,6 +200,13 @@
 			refinementsOpen = true;
 		practising = next.entryId !== null;
 		selectedId = next.entryId ?? references[0]?.id ?? '';
+		if (changingReference) {
+			startPlaying =
+				!!next.entryId &&
+				!!references.find((item) => item.id === next.entryId)?.media.clip &&
+				shouldStartPlayback(playerPreferences.autoplay, wasPlaying);
+			referenceVisit++;
+		}
 		if (next.invalidCharacter)
 			message = `That character library was not found. Showing ${subjectName}.`;
 		else if (next.invalidEntry)
@@ -252,6 +285,12 @@
 		window.scrollTo({ top: libraryReturn.scrollY, behavior: 'instant' });
 	}
 	async function selectEntry(ref: Reference, fromTile = false) {
+		const playNext =
+			!!ref.media.clip &&
+			shouldStartPlayback(
+				playerPreferences.autoplay,
+				switcher?.open ? switcherWasPlaying : clipIsPlaying(),
+			);
 		const revision = ++viewRevision;
 		if (!practising) {
 			captureLibrary(fromTile ? ref.id : switchOrigin);
@@ -260,6 +299,8 @@
 			await updateUrl();
 			if (revision !== viewRevision) return;
 		}
+		startPlaying = playNext;
+		referenceVisit++;
 		selectedId = ref.id;
 		practising = true;
 		if (switcher?.open) switcher.close();
@@ -368,6 +409,7 @@
 				? (document.activeElement.closest<HTMLAnchorElement>('.reference-card')?.dataset.entryId ??
 					null)
 				: null;
+		switcherWasPlaying = clipIsPlaying();
 		document.querySelector<HTMLVideoElement>('.practice-view video')?.pause();
 		switchQuery = '';
 		switchScope = results.length ? 'results' : 'all';
@@ -401,12 +443,45 @@
 		buttons[next]?.focus();
 	}
 	function shortcuts(event: KeyboardEvent) {
-		if (event.defaultPrevented || event.repeat) return;
+		if (event.defaultPrevented || event.repeat || event.isComposing) return;
 		if ((event.ctrlKey || event.metaKey) && !event.altKey && event.key.toLowerCase() === 'k') {
 			if (document.querySelector('dialog[open], [data-character-picker-open="true"]')) return;
 			event.preventDefault();
 			void openSwitcher();
 			return;
+		}
+		const key = event.key.toLowerCase();
+		const editable =
+			event.target instanceof Element &&
+			event.target.closest('input, textarea, select, [contenteditable]');
+		const overlayOpen = document.querySelector('dialog[open], [data-character-picker-open="true"]');
+		if (
+			practising &&
+			playerPreferences.shortcuts &&
+			!editable &&
+			!overlayOpen &&
+			!event.ctrlKey &&
+			!event.metaKey &&
+			!event.altKey
+		) {
+			if (key === 'n' || key === 'p') {
+				const target = key === 'n' ? nextReference : previousReference;
+				if (target) {
+					event.preventDefault();
+					void selectEntry(target);
+				}
+				return;
+			}
+			if (key === 'k' || key === 'r') {
+				const control = document.querySelector<HTMLButtonElement>(
+					key === 'k' ? '.practice-view .playback-button' : '.practice-view .replay-button',
+				);
+				if (control) {
+					event.preventDefault();
+					control.click();
+				}
+				return;
+			}
 		}
 		if (
 			event.key !== 'Escape' ||
@@ -464,8 +539,6 @@
 		message = 'Unsaved notes downloaded.';
 	}
 
-	const time = (seconds: number) =>
-		`${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, '0')}`;
 	afterNavigate((navigation) => {
 		if (
 			!ready ||
@@ -484,6 +557,7 @@
 		}
 	});
 	onMount(() => {
+		playerPreferences = readPlaybackPreferences();
 		const loaded = loadLibrary();
 		library = loaded.library;
 		storageError = loaded.error;
@@ -534,7 +608,8 @@
 		<a
 			class="brand"
 			href={characterId === 'dhalsim' ? '/' : `/?character=${characterId}`}
-			aria-label="Hyper Chamber home"><BrandMark /><span>HYPER<br />CHAMBER</span></a
+			aria-label="Hyper Chamber home"
+			><BrandMark /><span class="brand-wordmark"><span>HYPER</span><span>CHAMBER</span></span></a
 		>
 		<CharacterPicker
 			characters={characterOptions}
@@ -545,8 +620,9 @@
 			onopen={() => document.querySelector<HTMLVideoElement>('.practice-view video')?.pause()}
 		/>
 		<nav class="header-actions" aria-label="Utilities">
-			<button onclick={() => help.showModal()}
-				><BookOpen size={16} aria-hidden="true" />Notation</button
+			<button aria-label="Notation" title="Notation" onclick={() => help.showModal()}
+				><BookOpen size={16} aria-hidden="true" /><span class="utility-label">Notation</span
+				></button
 			>
 			{#each game.guides as guide}<a
 					class="guide-link"
@@ -554,7 +630,8 @@
 					title={guide.label}
 					aria-label={guide.label}
 					target="_blank"
-					rel="noreferrer">Guides<ArrowUpRight size={15} aria-hidden="true" /></a
+					rel="noreferrer"
+					><span class="utility-label">Guides</span><ArrowUpRight size={15} aria-hidden="true" /></a
 				>{/each}
 		</nav>
 	</header>
@@ -839,6 +916,7 @@
 					<div class="practice-pagination">
 						<button
 							class="practice-step practice-previous"
+							aria-keyshortcuts={playerPreferences.shortcuts ? 'P' : undefined}
 							disabled={!previousReference}
 							onclick={() => previousReference && selectEntry(previousReference)}
 							aria-label="Previous reference"
@@ -846,7 +924,10 @@
 								? 'Reference is outside these results'
 								: (previousReference?.title ?? 'First reference in these results')}
 						>
-							<ArrowLeft size={18} aria-hidden="true" />Previous
+							<ArrowLeft
+								size={18}
+								aria-hidden="true"
+							/>Previous{#if playerPreferences.shortcuts}<kbd aria-hidden="true">P</kbd>{/if}
 						</button>
 						<div class="practice-position">
 							<span>{practiceContext}</span>
@@ -858,6 +939,7 @@
 						</div>
 						<button
 							class="practice-step practice-next"
+							aria-keyshortcuts={playerPreferences.shortcuts ? 'N' : undefined}
 							disabled={!nextReference}
 							onclick={() => nextReference && selectEntry(nextReference)}
 							aria-label="Next reference"
@@ -865,7 +947,10 @@
 								? 'Reference is outside these results'
 								: (nextReference?.title ?? 'Last reference in these results')}
 						>
-							Next<ArrowRight size={18} aria-hidden="true" />
+							Next{#if playerPreferences.shortcuts}<kbd aria-hidden="true">N</kbd>{/if}<ArrowRight
+								size={18}
+								aria-hidden="true"
+							/>
 						</button>
 					</div>
 					{#if selectedIndex < 0}<div class="practice-filter-recovery">
@@ -881,7 +966,13 @@
 							</div>
 						</div>{/if}
 				</nav>
-				{#key selected.id}<ReferenceMedia reference={selected} layout="practice">
+				{#key `${selected.id}:${referenceVisit}`}<ReferenceMedia
+						reference={selected}
+						layout="practice"
+						preferences={playerPreferences}
+						{startPlaying}
+						onpreferencechange={updatePlayerPreferences}
+					>
 						{#snippet beforeReplay()}
 							<header class="practice-heading">
 								<p class="practice-breadcrumb">
@@ -905,12 +996,7 @@
 								</div>
 							</header>
 							<section class="notation-panel" aria-label="Input sequence">
-								<InputSequence
-									reference={selected}
-									{game}
-									compact
-									onNotation={() => help.showModal()}
-								/>
+								<InputSequence reference={selected} {game} compact />
 							</section>
 						{/snippet}
 					</ReferenceMedia>{/key}
@@ -985,44 +1071,20 @@
 						</p>
 					</section>
 				</div>
-				<footer class="source-footer">
-					<div>
-						<span class="section-label">Source</span><a
-							href={sourceLink(selected)}
-							target="_blank"
-							rel="noreferrer"
-							>{selected.source.title}<ArrowUpRight size={14} aria-hidden="true" /></a
-						>
-						<p>
-							{selected.source.creator} · {time(selected.source.start)}–{time(selected.source.end)}
-						</p>
-					</div>
-					<div class="source-review">
-						<strong
-							>{selected.verification.status === 'source-reviewed'
-								? 'Source reviewed'
-								: 'Review pending'}</strong
-						>
-						<p>{selected.verification.note}</p>
-						<p>Game version: {selected.verification.gameVersion ?? 'not established'}.</p>
-					</div>
-				</footer>
+				<SourceDetails reference={selected} />
 				{#if selected.relatedIds.length}<section class="related">
 						<h2>Related references</h2>
 						<div>
 							{#each references.filter( (ref) => selected?.relatedIds.includes(ref.id) ) as ref}<button
 									onclick={() => selectEntry(ref)}
-									>{ref.title}<ArrowUpRight size={15} aria-hidden="true" /></button
+									>{ref.title}<ArrowRight size={15} aria-hidden="true" /></button
 								>{/each}
 						</div>
 					</section>{/if}
 			</article>
 		{/if}
 	</main>
-	<footer class="site-footer">
-		<span>Hyper Chamber</span>
-		<p>Independent reference. Game names and characters belong to their respective owners.</p>
-	</footer>
+	<AppFooter />
 </div>
 <dialog class="quick-switch-dialog" bind:this={switcher} aria-labelledby="switch-title">
 	<div class="dialog-heading">
@@ -1085,5 +1147,5 @@
 		</p>{/if}
 </dialog>
 <dialog class="notation-dialog" bind:this={help} aria-labelledby="notation-title">
-	<NotationKey {game} character={subjectName} onclose={() => help.close()} />
+	<NotationKey {game} {characterId} character={subjectName} onclose={() => help.close()} />
 </dialog>

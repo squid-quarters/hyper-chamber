@@ -6,8 +6,9 @@
 		clampTime,
 		dragAxis,
 		relativeSeek,
-		readLoopPreference,
-		saveLoopPreference,
+		isAutoplayMode,
+		isPlaybackSpeed,
+		type PlaybackPreferences,
 		type DragAxis,
 	} from '../player';
 
@@ -15,17 +16,26 @@
 		reference,
 		layout = 'default',
 		beforeReplay,
+		preferences,
+		startPlaying = false,
+		onpreferencechange,
 	}: {
 		reference: Reference;
 		layout?: 'default' | 'practice';
 		beforeReplay?: Snippet;
+		preferences: PlaybackPreferences;
+		startPlaying?: boolean;
+		onpreferencechange: (patch: Partial<PlaybackPreferences>) => void;
 	} = $props();
 	let video = $state<HTMLVideoElement | undefined>();
 	let player = $state<HTMLDivElement | undefined>();
 	let stage = $state<HTMLDivElement | undefined>();
 	let enhanced = $state(false);
-	let loop = $state(true);
-	let speed = $state('1');
+	let loop = $derived(preferences.loop);
+	let speed = $derived(preferences.speed);
+	let autoplayNotice = $state('');
+	let playAttempt = 0;
+	let disposed = false;
 	let error = $state('');
 	let ready = $state(false);
 	let retrying = $state(false);
@@ -47,15 +57,28 @@
 	let suppressClick = false;
 
 	onMount(() => {
-		loop = readLoopPreference();
 		enhanced = true;
+		if (video) video.playbackRate = speed;
 		if (video && video.readyState >= 1) loaded();
 		const mountedVideo = video;
-		return () => mountedVideo?.pause();
+		if (startPlaying && mountedVideo) void play(true);
+		return () => {
+			disposed = true;
+			playAttempt++;
+			mountedVideo?.pause();
+		};
 	});
 
+	$effect(() => {
+		if (video) video.playbackRate = speed;
+	});
+	function cancelPendingPlay() {
+		playAttempt++;
+		autoplayNotice = '';
+	}
 	function seek(at: number, id?: string, announce = true) {
 		if (!video) return;
+		cancelPendingPlay();
 		// Native looping can rewind a seek at the end even while paused.
 		// Disable it before seeking, without changing the remembered preference.
 		video.loop = false;
@@ -95,6 +118,8 @@
 	}
 	function retry() {
 		if (!video || !reference.media.clip) return;
+		cancelPendingPlay();
+		video.pause();
 		error = '';
 		retrying = true;
 		ready = false;
@@ -103,20 +128,33 @@
 		video.src = reference.media.clip;
 		video.load();
 	}
-	async function play() {
-		if (!video) return;
+	async function play(automatic = false) {
+		if (!video || disposed) return;
+		const target = video;
+		const attempt = ++playAttempt;
+		target.loop = loop;
 		try {
-			await video.play();
+			await target.play();
+			if (disposed || attempt !== playAttempt || target !== video) return;
 			error = '';
+			autoplayNotice = '';
 		} catch (cause) {
+			if (disposed || attempt !== playAttempt || target !== video) return;
 			if (cause instanceof DOMException && cause.name === 'AbortError') return;
+			if (automatic && cause instanceof DOMException && cause.name === 'NotAllowedError') {
+				autoplayNotice = 'Autoplay was blocked. Select Play to start.';
+				return;
+			}
 			error = 'Playback could not start. Retry the clip or open the original source.';
 		}
 	}
 	function togglePlayback() {
 		if (!video) return;
 		if (video.paused) void play();
-		else video.pause();
+		else {
+			cancelPendingPlay();
+			video.pause();
+		}
 	}
 	function replay() {
 		if (!video) return;
@@ -126,8 +164,7 @@
 		void play();
 	}
 	function toggleLoop() {
-		loop = !loop;
-		saveLoopPreference(loop);
+		onpreferencechange({ loop: !loop });
 	}
 	function announcePosition() {
 		if (!ready || !video) return;
@@ -196,7 +233,15 @@
 		togglePlayback();
 	}
 	function shortcut(event: KeyboardEvent) {
-		if (event.defaultPrevented || event.repeat || event.altKey || event.ctrlKey || event.metaKey)
+		if (
+			event.defaultPrevented ||
+			event.repeat ||
+			event.isComposing ||
+			event.altKey ||
+			event.ctrlKey ||
+			event.metaKey ||
+			document.querySelector('dialog[open], [data-character-picker-open="true"]')
+		)
 			return;
 		const target = event.target;
 		if (
@@ -208,6 +253,7 @@
 			return;
 		const key = event.key.toLowerCase();
 		if (key === 'r') {
+			if (!preferences.shortcuts) return;
 			event.preventDefault();
 			replay();
 		} else if (
@@ -215,6 +261,7 @@
 			video &&
 			(key === 'j' || key === 'l' || key === 'arrowleft' || key === 'arrowright')
 		) {
+			if ((key === 'j' || key === 'l') && !preferences.shortcuts) return;
 			event.preventDefault();
 			seek(video.currentTime + (key === 'j' || key === 'arrowleft' ? -0.25 : 0.25));
 		}
@@ -341,6 +388,7 @@
 						<div class="player-toolbar">
 							<button
 								class="button small playback-button"
+								aria-keyshortcuts={preferences.shortcuts ? 'K' : undefined}
 								onclick={togglePlayback}
 								aria-label={playing ? 'Pause clip' : 'Play clip'}
 							>
@@ -350,7 +398,10 @@
 										aria-hidden="true"
 									/>{/if}{playing ? 'Pause' : 'Play'}
 							</button>
-							<button class="button small" onclick={replay} aria-keyshortcuts="R"
+							<button
+								class="button small replay-button"
+								onclick={replay}
+								aria-keyshortcuts={preferences.shortcuts ? 'R' : undefined}
 								><RotateCcw size={13} aria-hidden="true" />Replay</button
 							>
 							<button
@@ -359,24 +410,11 @@
 								aria-pressed={loop}
 								onclick={toggleLoop}>Loop</button
 							>
-							<label class="speed" for={`${reference.id}-speed`}
-								>Speed <select
-									id={`${reference.id}-speed`}
-									bind:value={speed}
-									onchange={(e) => {
-										speed = e.currentTarget.value;
-										if (video) video.playbackRate = Number(speed);
-									}}
-									><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option
-										value="1">1×</option
-									></select
-								></label
-							>
 							<div class="seek-controls" role="group" aria-label="Inspect clip timing">
 								<button
 									class="button small"
 									disabled={!ready}
-									aria-keyshortcuts="J ArrowLeft"
+									aria-keyshortcuts={preferences.shortcuts ? 'J ArrowLeft' : 'ArrowLeft'}
 									aria-describedby={`${reference.id}-position`}
 									onclick={() => video && seek(video.currentTime - 0.25)}
 									aria-label="Back 0.25 seconds">−0.25s</button
@@ -384,25 +422,73 @@
 								<button
 									class="button small"
 									disabled={!ready}
-									aria-keyshortcuts="L ArrowRight"
+									aria-keyshortcuts={preferences.shortcuts ? 'L ArrowRight' : 'ArrowRight'}
 									aria-describedby={`${reference.id}-position`}
 									onclick={() => video && seek(video.currentTime + 0.25)}
 									aria-label="Forward 0.25 seconds">+0.25s</button
 								>
 							</div>
+							<div class="player-settings">
+								<label class="speed" for={`${reference.id}-speed`}
+									>Speed <select
+										id={`${reference.id}-speed`}
+										value={String(speed)}
+										onchange={(e) => {
+											const value = Number(e.currentTarget.value);
+											if (isPlaybackSpeed(value)) onpreferencechange({ speed: value });
+										}}
+										><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option
+											value="1">1×</option
+										></select
+									></label
+								>
+
+								<label class="autoplay-control" for={reference.id + '-autoplay'}
+									>Autoplay
+									<select
+										id={reference.id + '-autoplay'}
+										value={preferences.autoplay}
+										aria-describedby={reference.id + '-autoplay-hint'}
+										onchange={(event) => {
+											const value = event.currentTarget.value;
+											if (isAutoplayMode(value)) onpreferencechange({ autoplay: value });
+										}}
+									>
+										<option value="follow">Follow playback</option><option value="always"
+											>Always play</option
+										><option value="paused">Start paused</option>
+									</select>
+								</label>
+								<span class="sr-only" id={reference.id + '-autoplay-hint'}
+									>Applies when opening another reference. Follow playback keeps the current play or
+									pause state.</span
+								>
+							</div>
 						</div>
+						{#if autoplayNotice}<p class="playback-notice" role="status">{autoplayNotice}</p>{/if}
 						<div class="player-discovery">
 							<p id={`${reference.id}-player-hint`}>
 								Tap to play or pause · Drag sideways to inspect
 							</p>
 							<details class="player-help">
-								<summary>Keys</summary>
+								<summary>Shortcuts</summary>
+								<label class="shortcut-toggle"
+									><input
+										type="checkbox"
+										checked={preferences.shortcuts}
+										onchange={(event) =>
+											onpreferencechange({ shortcuts: event.currentTarget.checked })}
+									/>Enable single-key shortcuts</label
+								>
+								<p>
+									In practice, <kbd>P</kbd> / <kbd>N</kbd> open the previous / next reference,
+									<kbd>K</kbd>
+									plays or pauses, and <kbd>R</kbd> replays. <kbd>⌘ / Ctrl K</kbd> opens Quick switch.
+								</p>
 								<p>
 									With the video focused, <kbd>Space</kbd> plays or pauses. With a clip control
-									focused,
-									<kbd>R</kbd>
-									replays; <kbd>J</kbd> / <kbd>L</kbd> or <kbd>←</kbd> / <kbd>→</kbd> pause and move 0.25
-									seconds. Use the timing buttons or key moments to seek without dragging. Sound is off.
+									focused, <kbd>J</kbd> / <kbd>L</kbd> or the arrow keys pause and nudge by 0.25 seconds.
+									Single-key shortcuts stay inactive while typing or using a menu. Sound is off.
 								</p>
 							</details>
 						</div>
@@ -536,7 +622,8 @@
 			:global(.compact-text-notation),
 			.player-help[open],
 			.media-error,
-			.media-loading
+			.media-loading,
+			.playback-notice
 		) {
 		block-size: auto;
 		min-block-size: 0;
@@ -658,6 +745,13 @@
 		min-width: 78px;
 		justify-content: flex-start;
 	}
+	.player-settings {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 4px;
+		margin-inline-start: auto;
+	}
 	.speed {
 		gap: 4px;
 		padding-inline: 9px;
@@ -668,9 +762,41 @@
 		padding-inline: 6px 30px;
 		background-position: right 10px center;
 	}
+	.autoplay-control {
+		display: inline-flex;
+		align-items: center;
+		gap: 4px;
+		padding-inline: 9px;
+		font-size: 12px;
+	}
+	.autoplay-control select {
+		max-inline-size: 168px;
+		min-block-size: 32px;
+		padding-inline: 6px 30px;
+		border-color: transparent;
+		background-color: transparent;
+		background-position: right 10px center;
+		font-size: 12px;
+	}
+	.playback-notice {
+		margin-block: 6px;
+		color: var(--muted);
+		font-size: 12px;
+		line-height: 1.5;
+	}
+	@media (max-width: 760px) {
+		.autoplay-control {
+			min-block-size: 44px;
+			font-size: 13px;
+		}
+		.autoplay-control select {
+			min-block-size: 44px;
+			font-size: 16px;
+		}
+	}
 	.seek-controls {
 		display: flex;
-		margin-left: auto;
+		margin-inline-start: 8px;
 		border-left: 1px solid var(--line);
 	}
 	.player-discovery {
@@ -693,6 +819,23 @@
 	}
 	.player-help[open] {
 		max-width: 35ch;
+	}
+	.shortcut-toggle {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		min-block-size: 44px;
+		margin-block-start: 8px;
+		text-align: left;
+		font-size: 13px;
+		color: var(--ink);
+		cursor: pointer;
+	}
+	.shortcut-toggle input {
+		accent-color: var(--accent);
+		inline-size: 18px;
+		block-size: 18px;
+		margin: 0;
 	}
 	.player-help p {
 		line-height: 1.7;
@@ -723,6 +866,69 @@
 		}
 		.seek-controls {
 			margin-left: 0;
+		}
+	}
+	@media (max-width: 760px) {
+		.practice-media .player-toolbar {
+			gap: 2px 0;
+			padding-block: 6px;
+		}
+		.practice-media .player-toolbar .button {
+			min-block-size: 44px;
+			padding: 8px 10px;
+			font-size: 14px;
+		}
+		.practice-media .speed {
+			font-size: 13px;
+		}
+		.practice-media .speed select {
+			min-block-size: 44px;
+			font-size: 16px;
+		}
+		.practice-media .player-discovery {
+			font-size: 12px;
+			line-height: 1.6;
+		}
+		.practice-media .player-help summary {
+			min-block-size: 44px;
+		}
+	}
+	@media (max-width: 760px) {
+		.practice-media .playback-button {
+			min-inline-size: 72px;
+		}
+		.practice-media .player-toolbar > .button {
+			padding-inline: 8px;
+		}
+		.practice-media .seek-controls {
+			margin-inline-start: auto;
+		}
+		.practice-media .seek-controls .button {
+			min-inline-size: 48px;
+			padding-inline: 6px;
+			font-size: 12px;
+		}
+		.player-settings {
+			display: grid;
+			grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+			flex-basis: 100%;
+			gap: 12px;
+			margin-inline-start: 0;
+		}
+		.player-settings .speed,
+		.player-settings .autoplay-control {
+			display: grid;
+			gap: 2px;
+			min-inline-size: 0;
+			padding-inline: 0;
+		}
+		.player-settings select {
+			inline-size: 100%;
+			max-inline-size: 100%;
+			min-inline-size: 0;
+			padding: 8px 30px 8px 10px;
+			border: 1px solid var(--line);
+			background-color: var(--canvas);
 		}
 	}
 	@media (forced-colors: active) {
