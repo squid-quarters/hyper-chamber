@@ -1345,7 +1345,7 @@ dialog > p {
 }
 .notation-dialog {
 	max-inline-size: 620px;
-	block-size: min(520px, calc(100dvh - 24px));
+	block-size: min(544px, calc(100dvh - 24px));
 	padding: 24px;
 }
 .notation-dialog[open] {
@@ -1808,6 +1808,7 @@ dialog > p {
 		appearance: auto;
 		background-image: none;
 	}
+	.notation-tabs button[aria-selected='true'],
 	.goal-chip[aria-pressed='true'],
 	.type-options button[aria-pressed='true'],
 	.collection-switch button[aria-pressed='true'],

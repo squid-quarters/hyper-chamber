@@ -39,11 +39,13 @@ export type AutoplayMode = 'follow' | 'always' | 'paused';
 export type PlaybackSpeed = 0.5 | 0.75 | 1;
 export interface PlaybackPreferences {
 	autoplay: AutoplayMode;
+	shortcuts: boolean;
 	loop: boolean;
 	speed: PlaybackSpeed;
 }
 export const AUTOPLAY_STORAGE_KEY = 'hyper-chamber:player-autoplay:v1';
 export const SPEED_STORAGE_KEY = 'hyper-chamber:player-speed:v1';
+export const SHORTCUTS_STORAGE_KEY = 'hyper-chamber:player-shortcuts:v1';
 
 export function isAutoplayMode(value: unknown): value is AutoplayMode {
 	return value === 'follow' || value === 'always' || value === 'paused';
@@ -66,6 +68,7 @@ export function readPlaybackPreferences(): PlaybackPreferences {
 	const speed = Number(readSetting(SPEED_STORAGE_KEY));
 	return {
 		autoplay: isAutoplayMode(autoplay) ? autoplay : 'follow',
+		shortcuts: readSetting(SHORTCUTS_STORAGE_KEY) !== 'false',
 		loop: readLoopPreference(),
 		speed: isPlaybackSpeed(speed) ? speed : 1,
 	};
@@ -75,6 +78,7 @@ export function savePlaybackPreferences(preferences: PlaybackPreferences): void 
 	for (const [key, value] of [
 		[AUTOPLAY_STORAGE_KEY, preferences.autoplay],
 		[SPEED_STORAGE_KEY, String(preferences.speed)],
+		[SHORTCUTS_STORAGE_KEY, String(preferences.shortcuts)],
 	]) {
 		try {
 			window.localStorage.setItem(key, value);

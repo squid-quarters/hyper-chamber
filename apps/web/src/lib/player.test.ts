@@ -8,6 +8,7 @@ import {
 	LOOP_STORAGE_KEY,
 	AUTOPLAY_STORAGE_KEY,
 	SPEED_STORAGE_KEY,
+	SHORTCUTS_STORAGE_KEY,
 	shouldStartPlayback,
 	readPlaybackPreferences,
 	savePlaybackPreferences,
@@ -111,7 +112,12 @@ describe('reference playback preferences', () => {
 		vi.stubGlobal('window', {
 			localStorage: {getItem: (key: string) => (key === LOOP_STORAGE_KEY ? 'false' : null)},
 		});
-		expect(readPlaybackPreferences()).toEqual({autoplay: 'follow', loop: false, speed: 1});
+		expect(readPlaybackPreferences()).toEqual({
+			autoplay: 'follow',
+			shortcuts: true,
+			loop: false,
+			speed: 1,
+		});
 		expect(shouldStartPlayback(readPlaybackPreferences().autoplay, false)).toBe(false);
 	});
 	it.each(['always', 'paused', 'follow'] as const)(
@@ -123,10 +129,15 @@ describe('reference playback preferences', () => {
 				setItem: (key: string, value: string) => values.set(key, value),
 			};
 			vi.stubGlobal('window', {localStorage: storage});
-			savePlaybackPreferences({autoplay, loop: false, speed: 0.75});
-			expect(readPlaybackPreferences()).toEqual({autoplay, loop: false, speed: 0.75});
+			savePlaybackPreferences({autoplay, shortcuts: true, loop: false, speed: 0.75});
+			expect(readPlaybackPreferences()).toEqual({
+				autoplay,
+				shortcuts: true,
+				loop: false,
+				speed: 0.75,
+			});
 			expect([...values.keys()].sort()).toEqual(
-				[AUTOPLAY_STORAGE_KEY, LOOP_STORAGE_KEY, SPEED_STORAGE_KEY].sort(),
+				[AUTOPLAY_STORAGE_KEY, LOOP_STORAGE_KEY, SPEED_STORAGE_KEY, SHORTCUTS_STORAGE_KEY].sort(),
 			);
 		},
 	);
@@ -170,10 +181,36 @@ describe('reference playback preferences', () => {
 		];
 		for (const browser of browsers) {
 			vi.stubGlobal('window', browser);
-			expect(readPlaybackPreferences()).toEqual({autoplay: 'follow', loop: true, speed: 1});
+			expect(readPlaybackPreferences()).toEqual({
+				autoplay: 'follow',
+				shortcuts: true,
+				loop: true,
+				speed: 1,
+			});
 			expect(() =>
-				savePlaybackPreferences({autoplay: 'always', loop: false, speed: 0.5}),
+				savePlaybackPreferences({autoplay: 'always', shortcuts: true, loop: false, speed: 0.5}),
 			).not.toThrow();
 		}
+	});
+});
+
+describe('single-key shortcut opt-out', () => {
+	it('remembers an explicit off choice independently of playback policy and can turn it back on', () => {
+		const values = new Map<string, string>();
+		vi.stubGlobal('window', {
+			localStorage: {
+				getItem: (key: string) => values.get(key) ?? null,
+				setItem: (key: string, value: string) => values.set(key, value),
+			},
+		});
+		savePlaybackPreferences({autoplay: 'follow', loop: true, speed: 1, shortcuts: false});
+		expect(readPlaybackPreferences()).toEqual({
+			autoplay: 'follow',
+			loop: true,
+			speed: 1,
+			shortcuts: false,
+		});
+		savePlaybackPreferences({autoplay: 'follow', loop: true, speed: 1, shortcuts: true});
+		expect(readPlaybackPreferences().shortcuts).toBe(true);
 	});
 });

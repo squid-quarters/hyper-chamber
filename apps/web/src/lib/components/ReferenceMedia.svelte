@@ -253,6 +253,7 @@
 			return;
 		const key = event.key.toLowerCase();
 		if (key === 'r') {
+			if (!preferences.shortcuts) return;
 			event.preventDefault();
 			replay();
 		} else if (
@@ -260,6 +261,7 @@
 			video &&
 			(key === 'j' || key === 'l' || key === 'arrowleft' || key === 'arrowright')
 		) {
+			if ((key === 'j' || key === 'l') && !preferences.shortcuts) return;
 			event.preventDefault();
 			seek(video.currentTime + (key === 'j' || key === 'arrowleft' ? -0.25 : 0.25));
 		}
@@ -386,7 +388,7 @@
 						<div class="player-toolbar">
 							<button
 								class="button small playback-button"
-								aria-keyshortcuts="K"
+								aria-keyshortcuts={preferences.shortcuts ? 'K' : undefined}
 								onclick={togglePlayback}
 								aria-label={playing ? 'Pause clip' : 'Play clip'}
 							>
@@ -396,7 +398,10 @@
 										aria-hidden="true"
 									/>{/if}{playing ? 'Pause' : 'Play'}
 							</button>
-							<button class="button small" onclick={replay} aria-keyshortcuts="R"
+							<button
+								class="button small replay-button"
+								onclick={replay}
+								aria-keyshortcuts={preferences.shortcuts ? 'R' : undefined}
 								><RotateCcw size={13} aria-hidden="true" />Replay</button
 							>
 							<button
@@ -409,7 +414,7 @@
 								<button
 									class="button small"
 									disabled={!ready}
-									aria-keyshortcuts="J ArrowLeft"
+									aria-keyshortcuts={preferences.shortcuts ? 'J ArrowLeft' : 'ArrowLeft'}
 									aria-describedby={`${reference.id}-position`}
 									onclick={() => video && seek(video.currentTime - 0.25)}
 									aria-label="Back 0.25 seconds">−0.25s</button
@@ -417,7 +422,7 @@
 								<button
 									class="button small"
 									disabled={!ready}
-									aria-keyshortcuts="L ArrowRight"
+									aria-keyshortcuts={preferences.shortcuts ? 'L ArrowRight' : 'ArrowRight'}
 									aria-describedby={`${reference.id}-position`}
 									onclick={() => video && seek(video.currentTime + 0.25)}
 									aria-label="Forward 0.25 seconds">+0.25s</button
@@ -467,6 +472,14 @@
 							</p>
 							<details class="player-help">
 								<summary>Shortcuts</summary>
+								<label class="shortcut-toggle"
+									><input
+										type="checkbox"
+										checked={preferences.shortcuts}
+										onchange={(event) =>
+											onpreferencechange({ shortcuts: event.currentTarget.checked })}
+									/>Enable single-key shortcuts</label
+								>
 								<p>
 									In practice, <kbd>P</kbd> / <kbd>N</kbd> open the previous / next reference,
 									<kbd>K</kbd>
@@ -806,6 +819,23 @@
 	}
 	.player-help[open] {
 		max-width: 35ch;
+	}
+	.shortcut-toggle {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		min-block-size: 44px;
+		margin-block-start: 8px;
+		text-align: left;
+		font-size: 13px;
+		color: var(--ink);
+		cursor: pointer;
+	}
+	.shortcut-toggle input {
+		accent-color: var(--accent);
+		inline-size: 18px;
+		block-size: 18px;
+		margin: 0;
 	}
 	.player-help p {
 		line-height: 1.7;

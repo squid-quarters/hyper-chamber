@@ -43,7 +43,12 @@
 		type LibraryReturn,
 	} from '../lib/navigation';
 
-	let playerPreferences = $state<PlaybackPreferences>({ autoplay: 'follow', loop: true, speed: 1 });
+	let playerPreferences = $state<PlaybackPreferences>({
+		autoplay: 'follow',
+		shortcuts: true,
+		loop: true,
+		speed: 1,
+	});
 	let startPlaying = $state(false);
 	let referenceVisit = $state(0);
 	let switcherWasPlaying = false;
@@ -452,6 +457,7 @@
 		const overlayOpen = document.querySelector('dialog[open], [data-character-picker-open="true"]');
 		if (
 			practising &&
+			playerPreferences.shortcuts &&
 			!editable &&
 			!overlayOpen &&
 			!event.ctrlKey &&
@@ -468,9 +474,7 @@
 			}
 			if (key === 'k' || key === 'r') {
 				const control = document.querySelector<HTMLButtonElement>(
-					key === 'k'
-						? '.practice-view .playback-button'
-						: '.practice-view button[aria-keyshortcuts="R"]',
+					key === 'k' ? '.practice-view .playback-button' : '.practice-view .replay-button',
 				);
 				if (control) {
 					event.preventDefault();
@@ -912,7 +916,7 @@
 					<div class="practice-pagination">
 						<button
 							class="practice-step practice-previous"
-							aria-keyshortcuts="P"
+							aria-keyshortcuts={playerPreferences.shortcuts ? 'P' : undefined}
 							disabled={!previousReference}
 							onclick={() => previousReference && selectEntry(previousReference)}
 							aria-label="Previous reference"
@@ -920,7 +924,10 @@
 								? 'Reference is outside these results'
 								: (previousReference?.title ?? 'First reference in these results')}
 						>
-							<ArrowLeft size={18} aria-hidden="true" />Previous<kbd aria-hidden="true">P</kbd>
+							<ArrowLeft
+								size={18}
+								aria-hidden="true"
+							/>Previous{#if playerPreferences.shortcuts}<kbd aria-hidden="true">P</kbd>{/if}
 						</button>
 						<div class="practice-position">
 							<span>{practiceContext}</span>
@@ -932,7 +939,7 @@
 						</div>
 						<button
 							class="practice-step practice-next"
-							aria-keyshortcuts="N"
+							aria-keyshortcuts={playerPreferences.shortcuts ? 'N' : undefined}
 							disabled={!nextReference}
 							onclick={() => nextReference && selectEntry(nextReference)}
 							aria-label="Next reference"
@@ -940,7 +947,10 @@
 								? 'Reference is outside these results'
 								: (nextReference?.title ?? 'Last reference in these results')}
 						>
-							Next<kbd aria-hidden="true">N</kbd><ArrowRight size={18} aria-hidden="true" />
+							Next{#if playerPreferences.shortcuts}<kbd aria-hidden="true">N</kbd>{/if}<ArrowRight
+								size={18}
+								aria-hidden="true"
+							/>
 						</button>
 					</div>
 					{#if selectedIndex < 0}<div class="practice-filter-recovery">
