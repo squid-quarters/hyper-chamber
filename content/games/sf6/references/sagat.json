@@ -1185,5 +1185,3855 @@
 			"sagat-vesper-low-medium-uppercut",
 			"sagat-vesper-low-light-knee"
 		]
+	},
+	{
+		"id": "sagat-depth-back-heavy-knee-light-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Back heavy punch into heavy knee and light uppercut",
+		"summary": "At close range, use back heavy punch to reach heavy Tiger Knee, then catch the juggle with light Tiger Uppercut without meter.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.HP > 236HK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "Heavy Tiger Knee Crush"
+			},
+			{
+				"id": "step-3",
+				"notation": "623LP",
+				"label": "Light Tiger Uppercut"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for back heavy punch into heavy Tiger Knee"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 2.0,
+			"end": 7.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-back-heavy-knee-light-uppercut/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-back-heavy-knee-light-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-back-heavy-knee-light-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-back-heavy-knee-light-uppercut/frame-1.jpg",
+					"at": 1.05,
+					"label": "Context",
+					"alt": "Back heavy punch connects from the shown close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-back-heavy-knee-light-uppercut/frame-2.jpg",
+					"at": 2.05,
+					"label": "Action",
+					"alt": "Heavy Tiger Knee catches the juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-back-heavy-knee-light-uppercut/frame-3.jpg",
+					"at": 3.5,
+					"label": "Result",
+					"alt": "Light Tiger Uppercut finishes the meterless route."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-light-uppercut-rush-overhead",
+			"sagat-depth-light-uppercut-rush-low"
+		]
+	},
+	{
+		"id": "sagat-depth-light-uppercut-rush-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Light-uppercut knockdown: raw Rush overhead",
+		"summary": "After heavy knee into light uppercut, spend one raw Rush to land forward medium punch overhead and link crouching medium into heavy uppercut.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Overhead pressure", "Knockdown"],
+		"notation": "DR > f.MP > cr.MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After b.HP → heavy Tiger Knee → light Tiger Uppercut; +34F in the source"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 7.75,
+			"end": 16.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-light-uppercut-rush-overhead/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-light-uppercut-rush-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-light-uppercut-rush-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-light-uppercut-rush-overhead/frame-1.jpg",
+					"at": 2.6,
+					"label": "Context",
+					"alt": "The prerequisite heavy-knee/light-uppercut route knocks Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-light-uppercut-rush-overhead/frame-2.jpg",
+					"at": 4.5,
+					"label": "Action",
+					"alt": "Raw Rush forward medium punch supplies the overhead follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-light-uppercut-rush-overhead/frame-3.jpg",
+					"at": 6.5,
+					"label": "Result",
+					"alt": "Crouching medium and heavy Tiger Uppercut finish the confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-back-heavy-knee-light-uppercut",
+			"sagat-depth-light-uppercut-rush-low"
+		]
+	},
+	{
+		"id": "sagat-depth-light-uppercut-rush-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Light-uppercut knockdown: raw Rush low into knee",
+		"summary": "After heavy knee into light uppercut, use raw Rush for one Drive bar to land low, then back heavy punch into the knee and uppercut juggle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Low pressure", "Knockdown"],
+		"notation": "DR > cr.MK > b.HP > 236HK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Tiger Knee Crush"
+			},
+			{
+				"id": "step-5",
+				"notation": "623LP",
+				"label": "Light Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After b.HP → heavy Tiger Knee → light Tiger Uppercut; +34F in the source"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 16.65,
+			"end": 26.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-light-uppercut-rush-low/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-light-uppercut-rush-low/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-light-uppercut-rush-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-light-uppercut-rush-low/frame-1.jpg",
+					"at": 2.6,
+					"label": "Context",
+					"alt": "Light Tiger Uppercut supplies the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-light-uppercut-rush-low/frame-2.jpg",
+					"at": 4.6,
+					"label": "Action",
+					"alt": "Raw Rush crouching medium kick begins the low follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-light-uppercut-rush-low/frame-3.jpg",
+					"at": 7.6,
+					"label": "Result",
+					"alt": "Back heavy punch, heavy knee and light uppercut complete it."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-back-heavy-knee-light-uppercut",
+			"sagat-depth-light-uppercut-rush-overhead"
+		]
+	},
+	{
+		"id": "sagat-depth-back-heavy-shot-rush-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Back heavy shot confirm: raw Rush target combo and heavy uppercut",
+		"summary": "Against a standing opponent, medium High Tiger Shot creates the one-bar raw Rush pickup into the crouching medium and heavy punch target.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Target combo", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.HP > 236MP > DR > cr.MP > st.HP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MP",
+				"label": "Medium High Tiger Shot"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Heavy-punch target continuation",
+				"cue": "Press HP as the target continuation after crouching MP."
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "Heavy Tiger Uppercut"
+			}
+		],
+		"conditions": ["Classic controls", "Standing opponent for ordinary High Tiger Shot"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 26.65,
+			"end": 32.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-back-heavy-shot-rush-target/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-back-heavy-shot-rush-target/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-back-heavy-shot-rush-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-back-heavy-shot-rush-target/frame-1.jpg",
+					"at": 1.05,
+					"label": "Context",
+					"alt": "Back heavy punch leads into medium High Tiger Shot."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-back-heavy-shot-rush-target/frame-2.jpg",
+					"at": 2.5,
+					"label": "Action",
+					"alt": "Raw Rush crouching medium and its heavy target continuation extend the confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-back-heavy-shot-rush-target/frame-3.jpg",
+					"at": 4.0,
+					"label": "Result",
+					"alt": "Heavy Tiger Uppercut creates the shown +28F knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-heavy-uppercut-rush-medium",
+			"sagat-depth-heavy-uppercut-rush-throw",
+			"sagat-depth-heavy-uppercut-rush-whiff-shimmy"
+		]
+	},
+	{
+		"id": "sagat-depth-heavy-uppercut-rush-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Heavy-uppercut knockdown: Rush medium into back-heavy juggle",
+		"summary": "After the shown shot, Rush target and heavy uppercut knockdown, spend a fresh raw Rush to link standing medium into the back heavy punch juggle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "DR > st.MP > b.HP > 236HK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Tiger Knee Crush"
+			},
+			{
+				"id": "step-5",
+				"notation": "623LP",
+				"label": "Light Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the shown b.HP → medium High Tiger Shot → raw Rush → cr.MP/HP target → heavy Tiger Uppercut knockdown"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 32.8,
+			"end": 44.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-heavy-uppercut-rush-medium/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-heavy-uppercut-rush-medium/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-heavy-uppercut-rush-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-heavy-uppercut-rush-medium/frame-1.jpg",
+					"at": 4.45,
+					"label": "Context",
+					"alt": "The preparatory shot/Rush-target route ends in heavy Tiger Uppercut."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-heavy-uppercut-rush-medium/frame-2.jpg",
+					"at": 6.45,
+					"label": "Action",
+					"alt": "Raw Rush standing medium starts the wake-up strike branch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-heavy-uppercut-rush-medium/frame-3.jpg",
+					"at": 10.35,
+					"label": "Result",
+					"alt": "Back heavy punch, heavy knee and light uppercut finish the follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-back-heavy-shot-rush-target",
+			"sagat-depth-heavy-uppercut-rush-throw",
+			"sagat-depth-heavy-uppercut-rush-whiff-shimmy"
+		]
+	},
+	{
+		"id": "sagat-depth-heavy-uppercut-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Heavy-uppercut knockdown: raw Rush into throw",
+		"summary": "Use raw Rush after the recorded heavy-uppercut ender to reach the wake-up throw; that follow-up costs one Drive bar.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "DR > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": ["Classic controls", "After the shown shot/Rush-target/heavy-uppercut knockdown"],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 57.75,
+			"end": 69.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-heavy-uppercut-rush-throw/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-heavy-uppercut-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-heavy-uppercut-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-heavy-uppercut-rush-throw/frame-1.jpg",
+					"at": 4.65,
+					"label": "Context",
+					"alt": "The preparatory heavy Tiger Uppercut knocks Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-heavy-uppercut-rush-throw/frame-2.jpg",
+					"at": 6.3,
+					"label": "Action",
+					"alt": "After raw Drive Rush, Sagat grabs Ryu for the normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-heavy-uppercut-rush-throw/frame-3.jpg",
+					"at": 8.25,
+					"label": "Result",
+					"alt": "The throw connects against the recorded wake-up behavior."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-back-heavy-shot-rush-target",
+			"sagat-depth-heavy-uppercut-rush-medium",
+			"sagat-depth-heavy-uppercut-rush-whiff-shimmy"
+		]
+	},
+	{
+		"id": "sagat-depth-heavy-uppercut-rush-whiff-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Heavy-uppercut knockdown: Rush jab whiff into shimmy",
+		"summary": "Raw Rush after the heavy uppercut ender, whiff crouching jab and retreat to punish Ryu's wake-up throw with crouching medium into heavy uppercut.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "DR > cr.LP (whiff) > 4 > cr.MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP (whiff)",
+				"label": "Whiff crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "Heavy Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the shown shot/Rush-target/heavy-uppercut knockdown; Ryu attempts a wake-up throw"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 69.65,
+			"end": 79.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-heavy-uppercut-rush-whiff-shimmy/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-heavy-uppercut-rush-whiff-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-heavy-uppercut-rush-whiff-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-heavy-uppercut-rush-whiff-shimmy/frame-1.jpg",
+					"at": 3.65,
+					"label": "Context",
+					"alt": "Heavy Tiger Uppercut ends the prerequisite route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-heavy-uppercut-rush-whiff-shimmy/frame-2.jpg",
+					"at": 5.5,
+					"label": "Action",
+					"alt": "The Rush crouching jab intentionally misses before the retreat."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-heavy-uppercut-rush-whiff-shimmy/frame-3.jpg",
+					"at": 7.1,
+					"label": "Result",
+					"alt": "Crouching medium punishes Ryu’s missed throw and leads to heavy uppercut."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-back-heavy-shot-rush-target",
+			"sagat-depth-heavy-uppercut-rush-medium",
+			"sagat-depth-heavy-uppercut-rush-throw"
+		]
+	},
+	{
+		"id": "sagat-depth-back-heavy-target-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Back-heavy shot/Rush target combo into Level 1",
+		"summary": "Keep the opponent standing for medium High Tiger Shot, then raw Rush into the crouching medium and heavy kick target before one-stock Level 1.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Target combo", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.HP > 236MP > DR > cr.MP > st.HK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MP",
+				"label": "Medium High Tiger Shot"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "Heavy-kick target continuation"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "Standing opponent for ordinary High Tiger Shot"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 80.1,
+			"end": 88.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-back-heavy-target-level-one/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-back-heavy-target-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-back-heavy-target-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-back-heavy-target-level-one/frame-1.jpg",
+					"at": 1.4,
+					"label": "Context",
+					"alt": "Back heavy punch and medium High Tiger Shot begin the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-back-heavy-target-level-one/frame-2.jpg",
+					"at": 3.5,
+					"label": "Action",
+					"alt": "The raw-Rush crouching-medium/heavy-kick target launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-back-heavy-target-level-one/frame-3.jpg",
+					"at": 5.45,
+					"label": "Result",
+					"alt": "Tiger Cannon completes the one-stock route."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-counter-jab-target-level-one",
+			"sagat-depth-back-heavy-shot-rush-target",
+			"sagat-depth-anti-air-forward-heavy-level-one"
+		]
+	},
+	{
+		"id": "sagat-depth-heavy-knee-jump-guard",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Heavy-knee knockdown: jump heavy punch, then guard OD Shoryuken",
+		"summary": "After the shown +42 heavy knee ender, forward-jump heavy punch and land guarding against Ryu's recorded OD Shoryuken.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Reversal response"],
+		"notation": "9 > j.HP > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HP",
+				"label": "Jumping heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After b.HP → medium High Tiger Shot → raw Rush → cr.MP/HP target → heavy Tiger Knee; +42F in the source",
+			"Ryu uses the recorded wake-up OD Shoryuken"
+		],
+		"notes": [
+			"The source calls this a safe jump. Fine-frame input review at 113.5 identifies a heavy-punch glyph with back direction. Only the shown Ryu OD-Shoryuken block is claimed.",
+			"The prerequisite spends one raw Rush; the listed sequence and its cost begin at the jump."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 108.1,
+			"end": 116.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-heavy-knee-jump-guard/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-heavy-knee-jump-guard/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-heavy-knee-jump-guard/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-heavy-knee-jump-guard/frame-1.jpg",
+					"at": 4.45,
+					"label": "Context",
+					"alt": "Heavy Tiger Knee ends the prerequisite target-combo juggle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-heavy-knee-jump-guard/frame-2.jpg",
+					"at": 5.4,
+					"label": "Action",
+					"alt": "Sagat performs the visible airborne heavy punch while transitioning to back guard."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-heavy-knee-jump-guard/frame-3.jpg",
+					"at": 6.0,
+					"label": "Result",
+					"alt": "Sagat lands and blocks Ryu’s recorded OD Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-light-uppercut-rush-overhead",
+			"sagat-depth-light-uppercut-rush-low",
+			"sagat-depth-heavy-uppercut-rush-medium"
+		]
+	},
+	{
+		"id": "sagat-depth-back-heavy-single-kick-held",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Back heavy Rush confirm: one-hit heavy kick into held uppercut",
+		"summary": "Cancel standing heavy kick after its first hit, then use raw Rush into back heavy punch and hold HP for the final uppercut.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush", "Held uppercut"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.HP > DRC > st.HK (1 hit) > 236MP > DR > b.HP > 623HP (hold)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK (1 hit)",
+				"label": "Standing heavy kick, first hit only"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "Medium High Tiger Shot"
+			},
+			{
+				"id": "step-5",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "623HP (hold)",
+				"label": "Held heavy Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Cancel standing heavy kick after its first hit",
+			"Standing opponent for High Tiger Shot",
+			"Hold HP for the final uppercut"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush plus raw Drive Rush (4 bars nominal)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 126.1,
+			"end": 135.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-back-heavy-single-kick-held/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-back-heavy-single-kick-held/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-back-heavy-single-kick-held/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-back-heavy-single-kick-held/frame-1.jpg",
+					"at": 1.55,
+					"label": "Context",
+					"alt": "Back heavy punch cancels to Rush and the first heavy-kick hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-back-heavy-single-kick-held/frame-2.jpg",
+					"at": 3.1,
+					"label": "Action",
+					"alt": "Medium High Tiger Shot allows the raw-Rush back-heavy pickup."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-back-heavy-single-kick-held/frame-3.jpg",
+					"at": 5.8,
+					"label": "Result",
+					"alt": "Holding heavy Tiger Uppercut produces the cinematic finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-back-heavy-shot-rush-target",
+			"sagat-depth-back-heavy-single-kick-cashout",
+			"sagat-depth-corner-forward-kick-held"
+		]
+	},
+	{
+		"id": "sagat-depth-back-heavy-single-kick-cashout",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Back heavy cash-out: delayed Rush pickup into Level 3",
+		"summary": "Keep the one-hit heavy kick cancel and delay raw Rush into back heavy punch, then use medium uppercut to reach Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Cash-out", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.HP > DRC > st.HK (1 hit) > 236MP > DR > b.HP > 236HK > 623MP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK (1 hit)",
+				"label": "Standing heavy kick, first hit only"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "Medium High Tiger Shot"
+			},
+			{
+				"id": "step-5",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "b.HP",
+				"label": "Delayed back heavy punch",
+				"cue": "Delay the raw-Rush pickup as demonstrated."
+			},
+			{
+				"id": "step-7",
+				"notation": "236HK",
+				"label": "Heavy Tiger Knee Crush"
+			},
+			{
+				"id": "step-8",
+				"notation": "623MP",
+				"label": "Medium Tiger Uppercut"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Cancel standing heavy kick after its first hit",
+			"Match the delayed raw-Rush back-heavy pickup",
+			"Level 3 available"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush plus raw Drive Rush (4 bars nominal)",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 158.15,
+			"end": 170.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-back-heavy-single-kick-cashout/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-back-heavy-single-kick-cashout/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-back-heavy-single-kick-cashout/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-back-heavy-single-kick-cashout/frame-1.jpg",
+					"at": 1.55,
+					"label": "Context",
+					"alt": "The one-hit-heavy-kick Rush route starts the cash-out."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-back-heavy-single-kick-cashout/frame-2.jpg",
+					"at": 4.45,
+					"label": "Action",
+					"alt": "The delayed raw-Rush back heavy leads into heavy knee and medium uppercut."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-back-heavy-single-kick-cashout/frame-3.jpg",
+					"at": 9.1,
+					"label": "Result",
+					"alt": "Level 3 spends all three Super bars to finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-back-heavy-shot-rush-target",
+			"sagat-depth-back-heavy-single-kick-held",
+			"sagat-depth-anti-air-trade-burnout-cashout"
+		]
+	},
+	{
+		"id": "sagat-depth-corner-forward-kick-held",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Corner back heavy: Rush forward heavy kick into held uppercut",
+		"summary": "Start with the opponent already cornered; one cancel Rush links forward heavy kick into back heavy punch and a held heavy uppercut.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Rush", "Held uppercut"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.HP > DRC > f.HK > b.HP > 623HP (hold)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "f.HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP (hold)",
+				"label": "Held heavy Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent starts in the corner",
+			"Hold HP on the final Tiger Uppercut"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 209.25,
+			"end": 217.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-corner-forward-kick-held/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-corner-forward-kick-held/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-corner-forward-kick-held/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-corner-forward-kick-held/frame-1.jpg",
+					"at": 1.3,
+					"label": "Context",
+					"alt": "Back heavy punch starts the corner Rush route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-corner-forward-kick-held/frame-2.jpg",
+					"at": 3.3,
+					"label": "Action",
+					"alt": "Forward heavy kick launches into another back heavy."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-corner-forward-kick-held/frame-3.jpg",
+					"at": 5.05,
+					"label": "Result",
+					"alt": "Held heavy Tiger Uppercut supplies the cinematic knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-back-heavy-single-kick-held",
+			"sagat-depth-corner-forward-kick-level-two",
+			"sagat-depth-back-heavy-shot-rush-target"
+		]
+	},
+	{
+		"id": "sagat-depth-corner-shot-forward-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Corner shot juggle: forward heavy kick into medium uppercut",
+		"summary": "Use the corner position and a standing opponent for medium High Tiger Shot, then juggle forward heavy kick into medium uppercut without Drive.",
+		"kind": "combo",
+		"situations": ["Corner", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.HP > 236MP > f.HK > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MP",
+				"label": "Medium High Tiger Shot"
+			},
+			{
+				"id": "step-3",
+				"notation": "f.HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "623MP",
+				"label": "Medium Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent starts in the corner",
+			"Standing opponent for High Tiger Shot"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 251.9,
+			"end": 257.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-corner-shot-forward-kick/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-corner-shot-forward-kick/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-corner-shot-forward-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-corner-shot-forward-kick/frame-1.jpg",
+					"at": 0.75,
+					"label": "Context",
+					"alt": "Back heavy punch begins the meterless corner shot juggle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-corner-shot-forward-kick/frame-2.jpg",
+					"at": 2.2,
+					"label": "Action",
+					"alt": "Forward heavy kick catches Ryu after High Tiger Shot."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-corner-shot-forward-kick/frame-3.jpg",
+					"at": 3.2,
+					"label": "Result",
+					"alt": "Medium Tiger Uppercut finishes the corner conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-wall-held-uppercut",
+			"sagat-vesper-wall-heavy-knee-uppercut",
+			"sagat-depth-corner-forward-kick-held"
+		]
+	},
+	{
+		"id": "sagat-depth-corner-forward-kick-level-two",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Corner Rush knee route into neutral Level 2",
+		"summary": "At the corner, follow the Rush knee route with two-stock Level 2 and its recorded neutral follow-up.",
+		"kind": "combo",
+		"situations": ["Corner", "Super finish", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "b.HP > DRC > f.HK > b.HP > 236HK > SA2 (neutral)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "f.HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "b.HP",
+				"label": "Delayed back heavy punch",
+				"cue": "Delay after the forward-heavy-kick launch as shown."
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "Heavy Tiger Knee Crush"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA2 (neutral)",
+				"label": "Level 2 Savage Tiger, neutral follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent starts in the corner",
+			"Use the neutral Level-2 follow-up shown in the input history"
+		],
+		"notes": [
+			"The live history remains neutral after activation. Do not substitute the forward-launch, side-switch or stomp follow-up; those are different Savage Tiger branches."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "Level 2 (2 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 225.65,
+			"end": 239.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-corner-forward-kick-level-two/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-corner-forward-kick-level-two/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-corner-forward-kick-level-two/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-corner-forward-kick-level-two/frame-1.jpg",
+					"at": 2.75,
+					"label": "Context",
+					"alt": "Cancel Rush forward heavy kick sets up the delayed back-heavy pickup."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-corner-forward-kick-level-two/frame-2.jpg",
+					"at": 4.95,
+					"label": "Action",
+					"alt": "Heavy Tiger Knee cancels into Level 2."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-corner-forward-kick-level-two/frame-3.jpg",
+					"at": 10.85,
+					"label": "Result",
+					"alt": "The neutral Level-2 branch completes its multi-kick finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-corner-forward-kick-held",
+			"sagat-depth-back-heavy-shot-rush-target",
+			"sagat-depth-back-heavy-target-level-one"
+		]
+	},
+	{
+		"id": "sagat-depth-medium-uppercut-rush-light",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Medium-uppercut knockdown: Rush forward light kick",
+		"summary": "After the light links into medium uppercut, raw Rush forward light kick links crouching medium into heavy uppercut; match the recorded spacing.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "DR > f.LK > cr.MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.LK",
+				"label": "Forward light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.LP → st.LP → medium Tiger Uppercut; the source reports +27F to +29F depending on spacing"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 297.55,
+			"end": 305.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-medium-uppercut-rush-light/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-medium-uppercut-rush-light/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-medium-uppercut-rush-light/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-medium-uppercut-rush-light/frame-1.jpg",
+					"at": 2.1,
+					"label": "Context",
+					"alt": "Two jabs and medium Tiger Uppercut supply the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-medium-uppercut-rush-light/frame-2.jpg",
+					"at": 3.8,
+					"label": "Action",
+					"alt": "Raw Rush forward light kick starts the follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-medium-uppercut-rush-light/frame-3.jpg",
+					"at": 5.55,
+					"label": "Result",
+					"alt": "Crouching medium and heavy Tiger Uppercut finish the strike route."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-light-uppercut-rush-overhead",
+			"sagat-depth-light-uppercut-rush-low",
+			"sagat-depth-heavy-uppercut-rush-medium"
+		]
+	},
+	{
+		"id": "sagat-depth-greedy-rush-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Greedy Tiger knockdown: raw Rush overhead",
+		"summary": "First land Greedy Tiger on a standing opponent, then use its knockdown for a one-bar raw Rush overhead into heavy uppercut.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Overhead pressure", "Knockdown"],
+		"notation": "DR > f.MP > cr.MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.LP → st.LP → light Tiger Nexus → Greedy Tiger; the source reports +48F. The prerequisite Greedy Tiger must connect against a standing opponent"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 314.05,
+			"end": 322.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-greedy-rush-overhead/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-greedy-rush-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-greedy-rush-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-greedy-rush-overhead/frame-1.jpg",
+					"at": 2.6,
+					"label": "Context",
+					"alt": "Greedy Tiger supplies the standing-only prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-greedy-rush-overhead/frame-2.jpg",
+					"at": 4.1,
+					"label": "Action",
+					"alt": "Raw Rush forward medium punch supplies the overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-greedy-rush-overhead/frame-3.jpg",
+					"at": 6.05,
+					"label": "Result",
+					"alt": "Crouching medium and heavy uppercut finish the confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-greedy-rush-low",
+			"sagat-depth-greedy-rush-throw",
+			"sagat-depth-greedy-rush-shimmy"
+		]
+	},
+	{
+		"id": "sagat-depth-greedy-rush-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Greedy Tiger knockdown: raw Rush low into back heavy",
+		"summary": "Use the standing-hit Greedy Tiger knockdown for raw Rush crouching medium kick, then link back heavy punch into the knee and uppercut route.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Low pressure", "Knockdown"],
+		"notation": "DR > cr.MK > b.HP > 236HK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Tiger Knee Crush"
+			},
+			{
+				"id": "step-5",
+				"notation": "623LP",
+				"label": "Light Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.LP → st.LP → light Tiger Nexus → Greedy Tiger; the source reports +48F. The prerequisite Greedy Tiger must connect against a standing opponent"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 322.65,
+			"end": 332.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-greedy-rush-low/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-greedy-rush-low/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-greedy-rush-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-greedy-rush-low/frame-1.jpg",
+					"at": 2.5,
+					"label": "Context",
+					"alt": "Greedy Tiger finishes the prerequisite jab/Nexus route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-greedy-rush-low/frame-2.jpg",
+					"at": 3.55,
+					"label": "Action",
+					"alt": "Raw Rush crouching medium kick starts the low follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-greedy-rush-low/frame-3.jpg",
+					"at": 6.55,
+					"label": "Result",
+					"alt": "Back heavy punch, heavy knee and light uppercut finish it."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-greedy-rush-overhead",
+			"sagat-depth-greedy-rush-throw",
+			"sagat-depth-greedy-rush-shimmy"
+		]
+	},
+	{
+		"id": "sagat-depth-greedy-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Greedy Tiger knockdown: raw Rush throw",
+		"summary": "After Greedy Tiger knocks down the standing opponent, spend one raw Rush on the recorded wake-up throw approach.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "DR > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.LP → st.LP → light Tiger Nexus → Greedy Tiger; the source reports +48F. The prerequisite Greedy Tiger must connect against a standing opponent"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 332.65,
+			"end": 340.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-greedy-rush-throw/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-greedy-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-greedy-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-greedy-rush-throw/frame-1.jpg",
+					"at": 2.15,
+					"label": "Context",
+					"alt": "Greedy Tiger creates the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-greedy-rush-throw/frame-2.jpg",
+					"at": 3.5,
+					"label": "Action",
+					"alt": "After raw Drive Rush, Sagat grabs Ryu for the normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-greedy-rush-throw/frame-3.jpg",
+					"at": 5.4,
+					"label": "Result",
+					"alt": "The throw connects against Ryu’s recorded wake-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-greedy-rush-overhead",
+			"sagat-depth-greedy-rush-low",
+			"sagat-depth-greedy-rush-shimmy"
+		]
+	},
+	{
+		"id": "sagat-depth-greedy-rush-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Greedy Tiger knockdown: raw Rush shimmy",
+		"summary": "After Greedy Tiger knocks down a standing opponent, raw Rush and retreat from Ryu's wake-up throw before crouching medium into heavy uppercut.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "DR > 4 > cr.MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.LP → st.LP → light Tiger Nexus → Greedy Tiger; the source reports +48F. The prerequisite Greedy Tiger must connect against a standing opponent",
+			"Ryu attempts a wake-up throw"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 340.65,
+			"end": 349.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-greedy-rush-shimmy/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-greedy-rush-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-greedy-rush-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-greedy-rush-shimmy/frame-1.jpg",
+					"at": 2.55,
+					"label": "Context",
+					"alt": "Greedy Tiger ends the preparatory jab/Nexus route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-greedy-rush-shimmy/frame-2.jpg",
+					"at": 4.35,
+					"label": "Action",
+					"alt": "Crouching medium punishes Ryu’s whiffed throw after the retreat."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-greedy-rush-shimmy/frame-3.jpg",
+					"at": 5.85,
+					"label": "Result",
+					"alt": "Heavy Tiger Uppercut finishes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-greedy-rush-overhead",
+			"sagat-depth-greedy-rush-low",
+			"sagat-depth-greedy-rush-throw"
+		]
+	},
+	{
+		"id": "sagat-depth-greedy-knee-whiff-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Greedy Tiger knockdown: whiff medium knee into throw",
+		"summary": "Whiff medium Tiger Knee after the standing-hit Greedy Tiger knockdown to time the throw without additional Drive.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "236MK (whiff) > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MK (whiff)",
+				"label": "Whiff medium Tiger Knee Crush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.LP → st.LP → light Tiger Nexus → Greedy Tiger; the source reports +48F. The prerequisite Greedy Tiger must connect against a standing opponent"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 354.05,
+			"end": 362.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-greedy-knee-whiff-throw/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-greedy-knee-whiff-throw/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-greedy-knee-whiff-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-greedy-knee-whiff-throw/frame-1.jpg",
+					"at": 2.45,
+					"label": "Context",
+					"alt": "Greedy Tiger supplies the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-greedy-knee-whiff-throw/frame-2.jpg",
+					"at": 3.3,
+					"label": "Action",
+					"alt": "Medium Tiger Knee intentionally misses to spend time and close distance."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-greedy-knee-whiff-throw/frame-3.jpg",
+					"at": 5.55,
+					"label": "Result",
+					"alt": "The normal throw catches Ryu after the whiffed knee."
+				}
+			]
+		},
+		"relatedIds": ["sagat-depth-greedy-knee-whiff-shimmy", "sagat-depth-greedy-knee-whiff-low"]
+	},
+	{
+		"id": "sagat-depth-greedy-knee-whiff-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Greedy Tiger knockdown: whiff medium knee into shimmy",
+		"summary": "Use the whiffed medium knee after Greedy Tiger, then retreat from the wake-up throw and punish with crouching medium into heavy uppercut.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "236MK (whiff) > 4 > cr.MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MK (whiff)",
+				"label": "Whiff medium Tiger Knee Crush"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.LP → st.LP → light Tiger Nexus → Greedy Tiger; the source reports +48F. The prerequisite Greedy Tiger must connect against a standing opponent",
+			"Ryu attempts a wake-up throw"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 362.65,
+			"end": 371.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-greedy-knee-whiff-shimmy/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-greedy-knee-whiff-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-greedy-knee-whiff-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-greedy-knee-whiff-shimmy/frame-1.jpg",
+					"at": 2.55,
+					"label": "Context",
+					"alt": "Greedy Tiger creates the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-greedy-knee-whiff-shimmy/frame-2.jpg",
+					"at": 3.5,
+					"label": "Action",
+					"alt": "The medium knee deliberately whiffs before the backward step."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-greedy-knee-whiff-shimmy/frame-3.jpg",
+					"at": 6.0,
+					"label": "Result",
+					"alt": "Crouching medium punishes the missed throw and cancels to heavy uppercut."
+				}
+			]
+		},
+		"relatedIds": ["sagat-depth-greedy-knee-whiff-throw", "sagat-depth-greedy-knee-whiff-low"]
+	},
+	{
+		"id": "sagat-depth-greedy-knee-whiff-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Greedy Tiger knockdown: whiff knee into low Nexus confirm",
+		"summary": "After Greedy Tiger, whiff medium knee and confirm low lights into light Nexus; the new Greedy Tiger must also reach a standing opponent.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Low pressure", "Knockdown"],
+		"notation": "236MK (whiff) > cr.LK > st.LP > 214LK > 6MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MK (whiff)",
+				"label": "Whiff medium Tiger Knee Crush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LK",
+				"label": "Light Tiger Nexus"
+			},
+			{
+				"id": "step-5",
+				"notation": "6MK",
+				"label": "Greedy Tiger follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.LP → st.LP → light Tiger Nexus → Greedy Tiger; the source reports +48F. The prerequisite Greedy Tiger must connect against a standing opponent",
+			"Ryu is standing when the follow-up Greedy Tiger reaches him"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 371.65,
+			"end": 379.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-greedy-knee-whiff-low/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-greedy-knee-whiff-low/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-greedy-knee-whiff-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-greedy-knee-whiff-low/frame-1.jpg",
+					"at": 2.5,
+					"label": "Context",
+					"alt": "The prerequisite Greedy Tiger knocks Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-greedy-knee-whiff-low/frame-2.jpg",
+					"at": 4.45,
+					"label": "Action",
+					"alt": "The low kick connects after the intentionally whiffed medium knee."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-greedy-knee-whiff-low/frame-3.jpg",
+					"at": 5.75,
+					"label": "Result",
+					"alt": "Standing jab, light Nexus and Greedy Tiger renew the knockdown."
+				}
+			]
+		},
+		"relatedIds": ["sagat-depth-greedy-knee-whiff-throw", "sagat-depth-greedy-knee-whiff-shimmy"]
+	},
+	{
+		"id": "sagat-depth-corner-greedy-light-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Corner light Nexus confirm into Greedy Tiger and light uppercut",
+		"summary": "At the corner, let Greedy Tiger hit a standing opponent, then add light Tiger Uppercut after the light links and Nexus confirm.",
+		"kind": "combo",
+		"situations": ["Corner", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > st.LP > 214LK > 6MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LK",
+				"label": "Light Tiger Nexus"
+			},
+			{
+				"id": "step-4",
+				"notation": "6MK",
+				"label": "Greedy Tiger follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "623LP",
+				"label": "Light Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent starts in the corner",
+			"Greedy Tiger must hit a standing opponent"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 379.65,
+			"end": 385.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-corner-greedy-light-uppercut/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-corner-greedy-light-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-corner-greedy-light-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-corner-greedy-light-uppercut/frame-1.jpg",
+					"at": 0.9,
+					"label": "Context",
+					"alt": "Crouching jab and standing jab start the corner confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-corner-greedy-light-uppercut/frame-2.jpg",
+					"at": 2.2,
+					"label": "Action",
+					"alt": "Light Nexus and Greedy Tiger launch the standing opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-corner-greedy-light-uppercut/frame-3.jpg",
+					"at": 3.35,
+					"label": "Result",
+					"alt": "Light Tiger Uppercut adds the corner juggle finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-corner-uppercut-whiff-light-medium",
+			"sagat-depth-corner-uppercut-whiff-light-throw",
+			"sagat-depth-corner-uppercut-whiff-light-shimmy"
+		]
+	},
+	{
+		"id": "sagat-depth-corner-uppercut-whiff-light-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Corner light-uppercut knockdown: whiff light kick into medium",
+		"summary": "Whiff standing light kick after the corner Greedy Tiger and light uppercut ender, then use standing medium into heavy knee and medium uppercut.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "st.LK (whiff) > st.MP > b.HP > 236HK > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK (whiff)",
+				"label": "Whiff standing light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Tiger Knee Crush"
+			},
+			{
+				"id": "step-5",
+				"notation": "623MP",
+				"label": "Medium Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.LP → st.LP → light Tiger Nexus → Greedy Tiger → light Tiger Uppercut; +33F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames.",
+			"The overlay’s any ender is resolved from the actual input history: heavy Tiger Knee into medium Tiger Uppercut."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 392.05,
+			"end": 402.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-medium/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-medium/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-medium/frame-1.jpg",
+					"at": 3.95,
+					"label": "Context",
+					"alt": "Standing light kick deliberately misses after the prerequisite uppercut."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-medium/frame-2.jpg",
+					"at": 5.05,
+					"label": "Action",
+					"alt": "Standing medium punch catches Ryu’s wake-up and links to back heavy."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-medium/frame-3.jpg",
+					"at": 7.95,
+					"label": "Result",
+					"alt": "Heavy knee and the actual medium-punch uppercut finish the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-corner-greedy-light-uppercut",
+			"sagat-depth-corner-uppercut-whiff-light-throw",
+			"sagat-depth-corner-uppercut-whiff-light-shimmy"
+		]
+	},
+	{
+		"id": "sagat-depth-corner-uppercut-whiff-light-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Corner light-uppercut knockdown: whiff light kick and delay throw",
+		"summary": "Use the standing light kick whiff after the corner light uppercut ender, then visibly delay the wake-up throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "st.LK (whiff) > Wait > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK (whiff)",
+				"label": "Whiff standing light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "Wait",
+				"label": "Delay before throwing",
+				"cue": "Use the visible delay; +8F is remaining advantage after the whiff, not an eight-frame wait."
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.LP → st.LP → light Tiger Nexus → Greedy Tiger → light Tiger Uppercut; +33F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 402.7,
+			"end": 411.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-throw/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-throw/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-throw/frame-1.jpg",
+					"at": 3.95,
+					"label": "Context",
+					"alt": "Light Tiger Uppercut completes the prerequisite corner route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-throw/frame-2.jpg",
+					"at": 4.45,
+					"label": "Action",
+					"alt": "Standing light kick intentionally misses before the delayed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-throw/frame-3.jpg",
+					"at": 6.9,
+					"label": "Result",
+					"alt": "The throw connects against the recorded wake-up behavior."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-corner-greedy-light-uppercut",
+			"sagat-depth-corner-uppercut-whiff-light-medium",
+			"sagat-depth-corner-uppercut-whiff-light-shimmy"
+		]
+	},
+	{
+		"id": "sagat-depth-corner-uppercut-whiff-light-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Corner light-uppercut knockdown: whiff light kick into shimmy",
+		"summary": "After the corner light uppercut ender, whiff standing light kick and retreat from Ryu's wake-up throw before crouching medium into heavy uppercut.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "st.LK (whiff) > 4 > cr.MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK (whiff)",
+				"label": "Whiff standing light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.LP → st.LP → light Tiger Nexus → Greedy Tiger → light Tiger Uppercut; +33F in this recording",
+			"Ryu attempts a wake-up throw"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 411.7,
+			"end": 421.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-shimmy/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-shimmy/frame-1.jpg",
+					"at": 3.9,
+					"label": "Context",
+					"alt": "The prerequisite light uppercut knocks Ryu down in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-shimmy/frame-2.jpg",
+					"at": 5.3,
+					"label": "Action",
+					"alt": "After the whiffed light kick, the retreat makes Ryu’s throw miss."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-shimmy/frame-3.jpg",
+					"at": 7.35,
+					"label": "Result",
+					"alt": "Crouching medium punishes the missed throw into heavy uppercut."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-corner-greedy-light-uppercut",
+			"sagat-depth-corner-uppercut-whiff-light-medium",
+			"sagat-depth-corner-uppercut-whiff-light-throw"
+		]
+	},
+	{
+		"id": "sagat-depth-mighty-standing-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Mighty Tiger standing hit: close throw",
+		"summary": "Follow Mighty Tiger's standing +3 result with the recorded close throw; this is standing pressure.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Pressure"],
+		"outcomes": ["Throw pressure"],
+		"notation": "Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.LP → st.LP → light Tiger Nexus → Mighty Tiger connects and leaves Ryu standing; +3F in the source"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 425.65,
+			"end": 433.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-mighty-standing-throw/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-mighty-standing-throw/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-mighty-standing-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-mighty-standing-throw/frame-1.jpg",
+					"at": 2.5,
+					"label": "Context",
+					"alt": "Mighty Tiger connects and leaves Ryu standing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-mighty-standing-throw/frame-2.jpg",
+					"at": 3.45,
+					"label": "Action",
+					"alt": "Sagat attempts the close normal throw after the standing hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-mighty-standing-throw/frame-3.jpg",
+					"at": 5.5,
+					"label": "Result",
+					"alt": "The throw connects in the recorded exchange."
+				}
+			]
+		},
+		"relatedIds": ["sagat-depth-mighty-standing-low"]
+	},
+	{
+		"id": "sagat-depth-mighty-standing-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Mighty Tiger standing hit: low-light Nexus follow-up",
+		"summary": "From Mighty Tiger's standing +3 result, the recorded low light kick counter-hits and confirms through light Nexus into Mighty Tiger.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Pressure"],
+		"outcomes": ["Low pressure", "Standing advantage"],
+		"notation": "cr.LK > st.LP > 214LK > 6LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LK",
+				"label": "Light Tiger Nexus"
+			},
+			{
+				"id": "step-4",
+				"notation": "6LK",
+				"label": "Mighty Tiger follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.LP → st.LP → light Tiger Nexus → Mighty Tiger connects and leaves Ryu standing; +3F in the source"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames.",
+			"The recorded low kick scores Counter Hit. No universal blockstring or guaranteed hit is claimed."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 433.65,
+			"end": 439.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-mighty-standing-low/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-mighty-standing-low/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-mighty-standing-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-mighty-standing-low/frame-1.jpg",
+					"at": 1.5,
+					"label": "Context",
+					"alt": "The prerequisite Mighty Tiger connects and leaves Ryu standing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-mighty-standing-low/frame-2.jpg",
+					"at": 2.4,
+					"label": "Action",
+					"alt": "Crouching light kick starts the follow-up low confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-mighty-standing-low/frame-3.jpg",
+					"at": 3.6,
+					"label": "Result",
+					"alt": "Standing jab and light Nexus lead into another Mighty Tiger."
+				}
+			]
+		},
+		"relatedIds": ["sagat-depth-mighty-standing-throw"]
+	},
+	{
+		"id": "sagat-depth-counter-jab-medium-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Counter-hit crouching jab into medium and heavy uppercut",
+		"summary": "Crouching jab must counter-hit to link crouching medium into heavy uppercut without spending Drive or Super.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.MP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HP",
+				"label": "Heavy Tiger Uppercut"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching jab must score Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 439.75,
+			"end": 444.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-counter-jab-medium-uppercut/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-counter-jab-medium-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-counter-jab-medium-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-counter-jab-medium-uppercut/frame-1.jpg",
+					"at": 0.9,
+					"label": "Context",
+					"alt": "Crouching light punch scores the required Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-counter-jab-medium-uppercut/frame-2.jpg",
+					"at": 1.5,
+					"label": "Action",
+					"alt": "Crouching medium links after the counter-hit jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-counter-jab-medium-uppercut/frame-3.jpg",
+					"at": 2.55,
+					"label": "Result",
+					"alt": "Heavy Tiger Uppercut supplies the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-counter-jab-target-level-one",
+			"sagat-depth-punish-jab-back-heavy-knee",
+			"sagat-depth-anti-air-back-heavy-trade-knee"
+		]
+	},
+	{
+		"id": "sagat-depth-counter-jab-target-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Counter-hit jab target combo into Level 1",
+		"summary": "Use the counter-hit crouching jab link into the crouching medium and heavy kick target, then spend one Super stock on Level 1.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Target combo", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.MP > st.HK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Heavy-kick target continuation"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "The initial crouching jab must score Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 464.05,
+			"end": 470.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-counter-jab-target-level-one/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-counter-jab-target-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-counter-jab-target-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-counter-jab-target-level-one/frame-1.jpg",
+					"at": 0.95,
+					"label": "Context",
+					"alt": "Crouching jab scores Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-counter-jab-target-level-one/frame-2.jpg",
+					"at": 2.15,
+					"label": "Action",
+					"alt": "Crouching medium punch and its heavy-kick target continuation launch Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-counter-jab-target-level-one/frame-3.jpg",
+					"at": 4.35,
+					"label": "Result",
+					"alt": "Tiger Cannon completes the one-stock conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-back-heavy-target-level-one",
+			"sagat-depth-back-heavy-shot-rush-target",
+			"sagat-depth-counter-jab-medium-uppercut"
+		]
+	},
+	{
+		"id": "sagat-depth-punish-jab-back-heavy-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Point-blank jab Punish Counter into back heavy and knee",
+		"summary": "Match point-blank spacing and crouching jab Punish Counter to reach back heavy punch, heavy knee and light uppercut without meter.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > b.HP > 236HK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "Heavy Tiger Knee Crush"
+			},
+			{
+				"id": "step-4",
+				"notation": "623LP",
+				"label": "Light Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Point-blank crouching-jab Punish Counter, as explicitly required by the source"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 484.8,
+			"end": 490.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-punish-jab-back-heavy-knee/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-punish-jab-back-heavy-knee/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-punish-jab-back-heavy-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-punish-jab-back-heavy-knee/frame-1.jpg",
+					"at": 0.85,
+					"label": "Context",
+					"alt": "The point-blank crouching jab scores Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-punish-jab-back-heavy-knee/frame-2.jpg",
+					"at": 2.35,
+					"label": "Action",
+					"alt": "Back heavy punch links into heavy Tiger Knee."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-punish-jab-back-heavy-knee/frame-3.jpg",
+					"at": 3.85,
+					"label": "Result",
+					"alt": "Light Tiger Uppercut finishes the meterless punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-vesper-punish-light-heavy-uppercut",
+			"sagat-depth-counter-jab-medium-uppercut",
+			"sagat-depth-guard-od-dp-forward-heavy-level-one"
+		]
+	},
+	{
+		"id": "sagat-depth-anti-air-back-heavy-shot-rush",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Anti-air back heavy: shot into raw-Rush knee conversion",
+		"summary": "Intercept the recorded Ryu jump with back heavy punch and medium shot, then raw Rush into heavy knee and medium uppercut.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air"],
+		"outcomes": ["Anti-air conversion", "Knockdown"],
+		"notation": "b.HP > 236MP > DR > b.HP > 236HK > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MP",
+				"label": "Medium High Tiger Shot"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "Heavy Tiger Knee Crush"
+			},
+			{
+				"id": "step-6",
+				"notation": "623MP",
+				"label": "Medium Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the recorded jump attack at the shown height and spacing"
+		],
+		"notes": [
+			"This is an actual airborne interception. No on-reaction, invulnerability or universal jump-coverage claim is added."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 1115.05,
+			"end": 1122.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-anti-air-back-heavy-shot-rush/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-anti-air-back-heavy-shot-rush/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-anti-air-back-heavy-shot-rush/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-anti-air-back-heavy-shot-rush/frame-1.jpg",
+					"at": 1.4,
+					"label": "Context",
+					"alt": "Back heavy punch intercepts Ryu’s recorded jump attack."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-anti-air-back-heavy-shot-rush/frame-2.jpg",
+					"at": 3.25,
+					"label": "Action",
+					"alt": "Medium High Tiger Shot allows a raw-Rush back-heavy pickup."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-anti-air-back-heavy-shot-rush/frame-3.jpg",
+					"at": 5.2,
+					"label": "Result",
+					"alt": "Heavy knee and medium uppercut finish the anti-air juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-anti-air-back-heavy-trade-knee",
+			"sagat-depth-anti-air-trade-burnout-cashout"
+		]
+	},
+	{
+		"id": "sagat-depth-anti-air-back-heavy-trade-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Back-heavy anti-air trade: raw-Rush target into heavy knee",
+		"summary": "Convert the recorded back heavy punch anti-air trade with one raw Rush into the crouching medium and heavy punch target, then heavy knee.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Counter hit"],
+		"outcomes": ["Trade conversion", "Knockdown"],
+		"notation": "b.HP (trade) > DR > cr.MP > st.HP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP (trade)",
+				"label": "Back heavy punch trades"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Heavy-punch target continuation"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "Heavy Tiger Knee Crush"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The recorded trade with Ryu’s jump attack occurs at the shown timing and spacing"
+		],
+		"notes": [
+			"Only the heavy-knee branch is performed here. The caption’s heavy-uppercut alternative is not combined into this take."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 1122.65,
+			"end": 1129.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-anti-air-back-heavy-trade-knee/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-anti-air-back-heavy-trade-knee/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-anti-air-back-heavy-trade-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-anti-air-back-heavy-trade-knee/frame-1.jpg",
+					"at": 1.7,
+					"label": "Context",
+					"alt": "Back heavy punch and Ryu’s jump attack trade; both Counter Hit indicators are visible."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-anti-air-back-heavy-trade-knee/frame-2.jpg",
+					"at": 2.7,
+					"label": "Action",
+					"alt": "Raw Rush crouching medium and its heavy target pick up the traded opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-anti-air-back-heavy-trade-knee/frame-3.jpg",
+					"at": 4.5,
+					"label": "Result",
+					"alt": "The actual heavy-knee ender creates the +42F knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-anti-air-back-heavy-shot-rush",
+			"sagat-depth-anti-air-trade-burnout-cashout"
+		]
+	},
+	{
+		"id": "sagat-depth-anti-air-trade-burnout-cashout",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Back-heavy anti-air trade: two Rush cancels into Level 3",
+		"summary": "After the back heavy punch anti-air trade, commit raw Rush, two cancel Rushes and Level 3; the final cancel spends the remaining Drive into burnout.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Counter hit", "Cash-out"],
+		"outcomes": ["Trade conversion", "Super finish", "Burnout"],
+		"notation": "b.HP (trade) > DR > cr.MP > DRC > cr.HP > DRC > b.HP > 236HK > 623MP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP (trade)",
+				"label": "Back heavy punch trades"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-7",
+				"notation": "b.HP",
+				"label": "Delayed back heavy punch",
+				"cue": "Delay this pickup as shown after the final Rush cancel."
+			},
+			{
+				"id": "step-8",
+				"notation": "236HK",
+				"label": "Heavy Tiger Knee Crush"
+			},
+			{
+				"id": "step-9",
+				"notation": "623MP",
+				"label": "Medium Tiger Uppercut"
+			},
+			{
+				"id": "step-10",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The recorded back-heavy trade occurs",
+			"The recording begins with a full six-bar Drive gauge; the final cancel enters burnout",
+			"Level 3 available; this route finishes in burnout"
+		],
+		"notes": [
+			"Seven bars is the nominal sum of the three Rush spends, not a claim that the starting gauge can hold seven. The source begins with six bars; the final cancel spends the remaining Drive and enters burnout."
+		],
+		"resources": {
+			"drive": "Raw Rush plus two cancel Rushes (7 bars nominal across the route); the recording enters burnout",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 1129.65,
+			"end": 1141.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-anti-air-trade-burnout-cashout/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-anti-air-trade-burnout-cashout/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-anti-air-trade-burnout-cashout/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-anti-air-trade-burnout-cashout/frame-1.jpg",
+					"at": 1.6,
+					"label": "Context",
+					"alt": "Back heavy punch trades with the recorded Ryu jump attack."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-anti-air-trade-burnout-cashout/frame-2.jpg",
+					"at": 3.7,
+					"label": "Action",
+					"alt": "Raw Rush and two Rush cancels extend the trade and enter burnout."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-anti-air-trade-burnout-cashout/frame-3.jpg",
+					"at": 8.6,
+					"label": "Result",
+					"alt": "Level 3 spends all three Super bars to finish the cash-out."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-anti-air-back-heavy-shot-rush",
+			"sagat-depth-anti-air-back-heavy-trade-knee"
+		]
+	},
+	{
+		"id": "sagat-depth-corner-throw-rush-low-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Corner throw knockdown: Rush low on block into another throw",
+		"summary": "After a corner forward throw, spend one raw Rush on a crouching medium kick that Ryu blocks, then take the recorded throw branch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "DR > cr.MK > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a forward normal throw in the corner; Ryu blocks the Rush low"
+		],
+		"notes": [
+			"The clip retains prerequisite context. The input sequence and resource cost begin with the follow-up after that prerequisite.",
+			"Numeric +F captions report remaining advantage, not instructions to wait that many frames.",
+			"The blocked strike and throw are pressure, not one continuous combo or a guarantee against every defense."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 1209.65,
+			"end": 1217.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-corner-throw-rush-low-throw/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-corner-throw-rush-low-throw/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-corner-throw-rush-low-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-corner-throw-rush-low-throw/frame-1.jpg",
+					"at": 3.15,
+					"label": "Context",
+					"alt": "The prerequisite forward throw knocks Ryu down at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-corner-throw-rush-low-throw/frame-2.jpg",
+					"at": 4.5,
+					"label": "Action",
+					"alt": "Raw Rush crouching medium kick is blocked; the source reports +4F."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-corner-throw-rush-low-throw/frame-3.jpg",
+					"at": 5.85,
+					"label": "Result",
+					"alt": "The follow-up throw connects against the recorded defender."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-corner-uppercut-whiff-light-medium",
+			"sagat-depth-corner-uppercut-whiff-light-throw",
+			"sagat-depth-corner-uppercut-whiff-light-shimmy"
+		]
+	},
+	{
+		"id": "sagat-depth-anti-air-forward-heavy-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Anti-air forward heavy kick into Level 1",
+		"summary": "Match Luke's shown jump height for forward heavy kick, then convert directly into one-stock Level 1 without Drive.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Super finish"],
+		"outcomes": ["Anti-air conversion", "Knockdown"],
+		"notation": "f.HK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "f.HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "Match the demonstrated Luke jump height and spacing"],
+		"notes": [
+			"The printed recipe explicitly selects Level 1. No unspecified uppercut strength is guessed."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 641.6,
+			"end": 646.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-anti-air-forward-heavy-level-one/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-anti-air-forward-heavy-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-anti-air-forward-heavy-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-anti-air-forward-heavy-level-one/frame-1.jpg",
+					"at": 1.0,
+					"label": "Context",
+					"alt": "Forward heavy kick intercepts airborne Luke."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-anti-air-forward-heavy-level-one/frame-2.jpg",
+					"at": 2.1,
+					"label": "Action",
+					"alt": "Tiger Cannon follows the anti-air launch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-anti-air-forward-heavy-level-one/frame-3.jpg",
+					"at": 3.9,
+					"label": "Result",
+					"alt": "The one-stock conversion knocks Luke away."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-anti-air-forward-heavy-rush-held",
+			"sagat-depth-air-to-air-heavy-od-carry"
+		]
+	},
+	{
+		"id": "sagat-depth-anti-air-forward-heavy-rush-held",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Anti-air forward heavy kick: raw Rush into held uppercut",
+		"summary": "After forward heavy kick intercepts Luke's jump, spend one raw Rush to reach back heavy punch and hold HP for the uppercut.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Held uppercut"],
+		"outcomes": ["Anti-air conversion", "Knockdown"],
+		"notation": "f.HK > DR > b.HP > 623HP (hold)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "f.HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP (hold)",
+				"label": "Held heavy Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Match the demonstrated Luke jump height and spacing",
+			"Hold HP for the final uppercut"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 656.6,
+			"end": 663.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-anti-air-forward-heavy-rush-held/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-anti-air-forward-heavy-rush-held/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-anti-air-forward-heavy-rush-held/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-anti-air-forward-heavy-rush-held/frame-1.jpg",
+					"at": 1.15,
+					"label": "Context",
+					"alt": "Forward heavy kick catches the airborne Luke."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-anti-air-forward-heavy-rush-held/frame-2.jpg",
+					"at": 2.7,
+					"label": "Action",
+					"alt": "Raw Rush positions back heavy punch for the pickup."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-anti-air-forward-heavy-rush-held/frame-3.jpg",
+					"at": 5.1,
+					"label": "Result",
+					"alt": "Held heavy Tiger Uppercut finishes the anti-air conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-anti-air-forward-heavy-level-one",
+			"sagat-depth-air-to-air-heavy-od-carry"
+		]
+	},
+	{
+		"id": "sagat-depth-air-to-air-heavy-od-carry",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Air-to-air heavy kick: Rush target into OD-knee carry",
+		"summary": "Start airborne near the corner, meet the opponent with jumping heavy kick and spend raw Rush plus OD knee to carry the juggle to the wall.",
+		"kind": "response",
+		"situations": ["Midscreen", "Air-to-air", "Juggle extension"],
+		"outcomes": ["Air-to-air conversion", "Corner carry", "Knockdown"],
+		"notation": "j.HK > DR > cr.MP > st.HP > 236KK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Heavy-punch target continuation"
+			},
+			{
+				"id": "step-5",
+				"notation": "236KK",
+				"label": "OD Tiger Knee Crush"
+			},
+			{
+				"id": "step-6",
+				"notation": "623LP",
+				"label": "Light Tiger Uppercut"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Both fighters airborne for the initial heavy kick",
+			"Start at the shown approaching-corner distance so OD Tiger Knee reaches the wall"
+		],
+		"notes": [
+			"The source explicitly labels approaching corner. This begins away from the wall; Corner is not a starting-situation tag."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush plus OD Tiger Knee (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-sagat-2025",
+			"title": "Street Fighter 6 Sagat Combos Guide!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=0P24l4Nu1FE",
+			"published": "2025-08-07",
+			"start": 687.35,
+			"end": 694.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-air-to-air-heavy-od-carry/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-air-to-air-heavy-od-carry/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-air-to-air-heavy-od-carry/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-air-to-air-heavy-od-carry/frame-1.jpg",
+					"at": 2.05,
+					"label": "Context",
+					"alt": "Jumping heavy kick intercepts Luke in the air."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-air-to-air-heavy-od-carry/frame-2.jpg",
+					"at": 3.85,
+					"label": "Action",
+					"alt": "The raw-Rush crouching-medium/heavy target carries the juggle toward the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-air-to-air-heavy-od-carry/frame-3.jpg",
+					"at": 5.65,
+					"label": "Result",
+					"alt": "OD Tiger Knee at the wall permits the light-uppercut finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-anti-air-forward-heavy-level-one",
+			"sagat-depth-anti-air-forward-heavy-rush-held"
+		]
+	},
+	{
+		"id": "sagat-depth-guard-od-dp-forward-heavy-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "sagat"
+			}
+		],
+		"title": "Block OD Shoryuken: two forward-heavy kicks into Level 1",
+		"summary": "Guard Ryu's recorded OD Shoryuken; the first forward heavy kick must score Punish Counter before the second kick, target link and Level-1 finish.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish counter", "Super finish"],
+		"outcomes": ["Reversal punish", "Knockdown"],
+		"notation": "Guard > f.HK > f.HK > cr.MP > st.HK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "f.HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "Heavy-kick target continuation"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Block the recorded Ryu OD Shoryuken at the shown spacing",
+			"The first forward heavy kick must score Punish Counter"
+		],
+		"notes": [
+			"The replay retains the preceding blocked-jab trigger; the listed response begins with guarding OD Shoryuken. The caption lists Level 1 or Level 2; this take performs Level 1 only."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "joe-ebios-sagat-march-2026",
+			"title": "SF6 Classic SAGAT Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=KCw6T5PlLCE",
+			"published": "2026-04-04",
+			"start": 1070.85,
+			"end": 1080.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/sagat/sagat-depth-guard-od-dp-forward-heavy-level-one/clip.mp4",
+			"poster": "/media/sagat/sagat-depth-guard-od-dp-forward-heavy-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/sagat/sagat-depth-guard-od-dp-forward-heavy-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/sagat/sagat-depth-guard-od-dp-forward-heavy-level-one/frame-1.jpg",
+					"at": 1.3,
+					"label": "Context",
+					"alt": "Sagat guards the recorded Ryu OD Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/sagat/sagat-depth-guard-od-dp-forward-heavy-level-one/frame-2.jpg",
+					"at": 2.45,
+					"label": "Action",
+					"alt": "The first forward heavy kick scores Punish Counter and links to a second."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/sagat/sagat-depth-guard-od-dp-forward-heavy-level-one/frame-3.jpg",
+					"at": 6.75,
+					"label": "Result",
+					"alt": "The crouching-medium/heavy-kick target leads into Tiger Cannon."
+				}
+			]
+		},
+		"relatedIds": [
+			"sagat-depth-back-heavy-target-level-one",
+			"sagat-depth-counter-jab-target-level-one",
+			"sagat-depth-punish-jab-back-heavy-knee"
+		]
 	}
 ]

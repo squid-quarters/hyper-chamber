@@ -1,5 +1,5 @@
 {
-	"sourceIds": ["vesperarcade-mai-2025"],
+	"sourceIds": ["vesperarcade-mai-2025", "joe-ebios-mai-2026"],
 	"publicationStatus": "private-development",
 	"presentationNote": "Complete source frame retained without crop, including source annotations and game HUD. Original recordings remain outside Git.",
 	"assets": [
@@ -108,6 +108,366 @@
 			"sourceStart": 509.6,
 			"sourceEnd": 515.8,
 			"clip": "/media/mai/mai-vesper-punish-back-heavy-force-stand/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-light-bachi-dash-throw",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 8.35,
+			"sourceEnd": 15.3,
+			"clip": "/media/mai/mai-depth-light-bachi-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-light-bachi-shimmy",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 16.05,
+			"sourceEnd": 23.35,
+			"clip": "/media/mai/mai-depth-light-bachi-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-light-bachi-back-heavy-meaty",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 24.55,
+			"sourceEnd": 29.1,
+			"clip": "/media/mai/mai-depth-light-bachi-back-heavy-meaty/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-jabs-medium-ryuuenbu",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 66.45,
+			"sourceEnd": 70.45,
+			"clip": "/media/mai/mai-depth-jabs-medium-ryuuenbu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-medium-ryuuenbu-dash-throw",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 71.15,
+			"sourceEnd": 76.65,
+			"clip": "/media/mai/mai-depth-medium-ryuuenbu-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-medium-ryuuenbu-shimmy",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 77.2,
+			"sourceEnd": 84.7,
+			"clip": "/media/mai/mai-depth-medium-ryuuenbu-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-medium-ryuuenbu-dash-medium",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 85.6,
+			"sourceEnd": 91.7,
+			"clip": "/media/mai/mai-depth-medium-ryuuenbu-dash-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-corner-bachi-whiff-medium-throw",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 194.6,
+			"sourceEnd": 201.5,
+			"clip": "/media/mai/mai-depth-corner-bachi-whiff-medium-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-corner-bachi-whiff-medium-shimmy",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 202.2,
+			"sourceEnd": 209.7,
+			"clip": "/media/mai/mai-depth-corner-bachi-whiff-medium-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-corner-bachi-jab-guard-reversal",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 211.25,
+			"sourceEnd": 216.8,
+			"clip": "/media/mai/mai-depth-corner-bachi-jab-guard-reversal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-corner-bachi-meaty-jab-confirm",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 224.15,
+			"sourceEnd": 232.25,
+			"clip": "/media/mai/mai-depth-corner-bachi-meaty-jab-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-counter-low-jab-medium-heavy-bachi",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 236.55,
+			"sourceEnd": 240.4,
+			"clip": "/media/mai/mai-depth-counter-low-jab-medium-heavy-bachi/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-heavy-bachi-dash-throw",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 240.85,
+			"sourceEnd": 247.2,
+			"clip": "/media/mai/mai-depth-heavy-bachi-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-jab-punish-heavy-fan-light-bachi",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 254.2,
+			"sourceEnd": 259.4,
+			"clip": "/media/mai/mai-depth-jab-punish-heavy-fan-light-bachi/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-lights-rush-heavy-bachi",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 266.25,
+			"sourceEnd": 271.25,
+			"clip": "/media/mai/mai-depth-lights-rush-heavy-bachi/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-medium-rush-force-stand-bachi",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 295.5,
+			"sourceEnd": 301.3,
+			"clip": "/media/mai/mai-depth-medium-rush-force-stand-bachi/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-medium-rush-level-one",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 302.25,
+			"sourceEnd": 307.55,
+			"clip": "/media/mai/mai-depth-medium-rush-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-medium-double-rush-level-three",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 308.55,
+			"sourceEnd": 323.5,
+			"clip": "/media/mai/mai-depth-medium-double-rush-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-corner-medium-rush-heavy-rise",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 343.2,
+			"sourceEnd": 349.05,
+			"clip": "/media/mai/mai-depth-corner-medium-rush-heavy-rise/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-corner-rush-heavy-target-medium-rise",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 357.25,
+			"sourceEnd": 363.6,
+			"clip": "/media/mai/mai-depth-corner-rush-heavy-target-medium-rise/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-counter-medium-jab-bachi",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 382.2,
+			"sourceEnd": 385.85,
+			"clip": "/media/mai/mai-depth-counter-medium-jab-bachi/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-counter-kick-low-heavy-bachi",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 386.35,
+			"sourceEnd": 390.65,
+			"clip": "/media/mai/mai-depth-counter-kick-low-heavy-bachi/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-low-medium-punish-heavy-fan-bachi",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 404.8,
+			"sourceEnd": 409.4,
+			"clip": "/media/mai/mai-depth-low-medium-punish-heavy-fan-bachi/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-crouching-heavy-jab-bachi",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 420.2,
+			"sourceEnd": 423.9,
+			"clip": "/media/mai/mai-depth-crouching-heavy-jab-bachi/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-heavy-kick-punish-dash-medium-bachi",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 450.25,
+			"sourceEnd": 455.9,
+			"clip": "/media/mai/mai-depth-heavy-kick-punish-dash-medium-bachi/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-heavy-kick-punish-raw-rush",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 457.35,
+			"sourceEnd": 463.55,
+			"clip": "/media/mai/mai-depth-heavy-kick-punish-raw-rush/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-heavy-kick-punish-rush-level-one",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 471.25,
+			"sourceEnd": 477.4,
+			"clip": "/media/mai/mai-depth-heavy-kick-punish-rush-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-corner-heavy-kick-punish-light-rise",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 545.25,
+			"sourceEnd": 552.35,
+			"clip": "/media/mai/mai-depth-corner-heavy-kick-punish-light-rise/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-heavy-punish-crouching-jab-bachi",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 576.65,
+			"sourceEnd": 580.75,
+			"clip": "/media/mai/mai-depth-heavy-punish-crouching-jab-bachi/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-corner-throw-dash-throw",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 644.85,
+			"sourceEnd": 651.45,
+			"clip": "/media/mai/mai-depth-corner-throw-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-corner-throw-dash-low",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 652.1,
+			"sourceEnd": 658.4,
+			"clip": "/media/mai/mai-depth-corner-throw-dash-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-corner-throw-fan-blockstring",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 658.85,
+			"sourceEnd": 665.6,
+			"clip": "/media/mai/mai-depth-corner-throw-fan-blockstring/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-corner-throw-fan-dash-throw",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 666.2,
+			"sourceEnd": 673.4,
+			"clip": "/media/mai/mai-depth-corner-throw-fan-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-od-ryuuenbu-medium-bachi",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 744.85,
+			"sourceEnd": 749.3,
+			"clip": "/media/mai/mai-depth-od-ryuuenbu-medium-bachi/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-double-od-air-medium-heavy-rise",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 749.8,
+			"sourceEnd": 755.85,
+			"clip": "/media/mai/mai-depth-double-od-air-medium-heavy-rise/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-counter-di-double-dash",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 815.35,
+			"sourceEnd": 823.7,
+			"clip": "/media/mai/mai-depth-counter-di-double-dash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-flame-medium-heavy-ryuuenbu",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 919.65,
+			"sourceEnd": 921.3,
+			"clip": "/media/mai/mai-depth-flame-medium-heavy-ryuuenbu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-flame-ryuuenbu-triple-special",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 935.55,
+			"sourceEnd": 941.25,
+			"clip": "/media/mai/mai-depth-flame-ryuuenbu-triple-special/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-flame-knockdown-jump-guard",
+			"sourceId": "joe-ebios-mai-2026",
+			"sourceStart": 941.65,
+			"sourceEnd": 947.6,
+			"clip": "/media/mai/mai-depth-flame-knockdown-jump-guard/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "mai-depth-air-to-air-medium-heavy-rise",
+			"sourceId": "vesperarcade-mai-2025",
+			"sourceStart": 811.1,
+			"sourceEnd": 814.15,
+			"clip": "/media/mai/mai-depth-air-to-air-medium-heavy-rise/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

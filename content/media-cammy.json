@@ -1,5 +1,5 @@
 {
-	"sourceIds": ["joe-ebios-cammy-beginner-2026"],
+	"sourceIds": ["joe-ebios-cammy-beginner-2026", "joe-ebios-cammy-indepth-june-2026"],
 	"publicationStatus": "private-development",
 	"presentationNote": "Uncropped source frames retain input history, training HUD and source overlays. Full original recording remains local.",
 	"assets": [
@@ -135,6 +135,528 @@
 			"sourceStart": 311.15,
 			"sourceEnd": 326.3,
 			"clip": "/media/cammy/cammy-ebios-low-double-rush-held-spike-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-medium-arrow-dash-delayed-throw",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 11.1,
+			"sourceEnd": 14.9,
+			"clip": "/media/cammy/cammy-depth-medium-arrow-dash-delayed-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-medium-arrow-dash-shimmy",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 17.6,
+			"sourceEnd": 22.7,
+			"clip": "/media/cammy/cammy-depth-medium-arrow-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-medium-arrow-dash-medium-block-reversal",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 25.7,
+			"sourceEnd": 28.5,
+			"clip": "/media/cammy/cammy-depth-medium-arrow-dash-medium-block-reversal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-medium-arrow-dash-medium-heavy",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 31.15,
+			"sourceEnd": 35.45,
+			"clip": "/media/cammy/cammy-depth-medium-arrow-dash-medium-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-medium-arrow-dash-walk-low",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 37.9,
+			"sourceEnd": 41.9,
+			"clip": "/media/cammy/cammy-depth-medium-arrow-dash-walk-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-medium-arrow-low-kill-reversal",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 49.45,
+			"sourceEnd": 52.6,
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-reversal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-medium-arrow-low-kill-heavy",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 55.15,
+			"sourceEnd": 60.6,
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-medium-arrow-low-kill-low",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 63.55,
+			"sourceEnd": 67.45,
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-medium-arrow-low-kill-throw",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 69.65,
+			"sourceEnd": 73.85,
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-medium-arrow-low-kill-shimmy",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 76.35,
+			"sourceEnd": 81.9,
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-medium-arrow-back-medium-strike",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 104.1,
+			"sourceEnd": 107.9,
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-back-medium-strike/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-medium-arrow-di-reset",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 110.45,
+			"sourceEnd": 114.3,
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-di-reset/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-medium-arrow-od-knuckle-switch",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 116.35,
+			"sourceEnd": 120.9,
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-od-knuckle-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-low-rush-heavy-arrow",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 121.9,
+			"sourceEnd": 126.35,
+			"clip": "/media/cammy/cammy-depth-low-rush-heavy-arrow/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-heavy-arrow-dash-heavy-reversal",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 134.55,
+			"sourceEnd": 138.05,
+			"clip": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-reversal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-heavy-arrow-dash-heavy-confirm",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 141.25,
+			"sourceEnd": 145.65,
+			"clip": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-heavy-arrow-dash-walk-low",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 149.1,
+			"sourceEnd": 153.2,
+			"clip": "/media/cammy/cammy-depth-heavy-arrow-dash-walk-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-heavy-arrow-dash-delayed-throw",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 156.65,
+			"sourceEnd": 160.95,
+			"clip": "/media/cammy/cammy-depth-heavy-arrow-dash-delayed-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-heavy-arrow-dash-shimmy",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 164.15,
+			"sourceEnd": 169.5,
+			"clip": "/media/cammy/cammy-depth-heavy-arrow-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-throw-walk-shimmy",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 198.25,
+			"sourceEnd": 204.25,
+			"clip": "/media/cammy/cammy-depth-corner-throw-walk-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-throw-walk-medium",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 207.2,
+			"sourceEnd": 211.5,
+			"clip": "/media/cammy/cammy-depth-corner-throw-walk-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-counter-di-held-arrow-spike",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"sourceStart": 295.1,
+			"sourceEnd": 302.3,
+			"clip": "/media/cammy/cammy-depth-corner-counter-di-held-arrow-spike/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-crossup-light-lift-air-strike",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 149.65,
+			"sourceEnd": 154.55,
+			"clip": "/media/cammy/cammy-depth-crossup-light-lift-air-strike/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-air-strike-dash-walk-throw",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 161.15,
+			"sourceEnd": 165.7,
+			"clip": "/media/cammy/cammy-depth-air-strike-dash-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-air-strike-dash-shimmy",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 168.3,
+			"sourceEnd": 173.65,
+			"clip": "/media/cammy/cammy-depth-air-strike-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-air-strike-dash-heavy-reversal",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 175.95,
+			"sourceEnd": 179.4,
+			"clip": "/media/cammy/cammy-depth-air-strike-dash-heavy-reversal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-air-strike-dash-heavy-target",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 181.5,
+			"sourceEnd": 187.65,
+			"clip": "/media/cammy/cammy-depth-air-strike-dash-heavy-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-counterhit-jab-medium-arrow",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 195.35,
+			"sourceEnd": 198.65,
+			"clip": "/media/cammy/cammy-depth-counterhit-jab-medium-arrow/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-lights-double-rush-level-three",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 295.25,
+			"sourceEnd": 310.9,
+			"clip": "/media/cammy/cammy-depth-lights-double-rush-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-medium-light-kick-arrow",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 313.65,
+			"sourceEnd": 315.8,
+			"clip": "/media/cammy/cammy-depth-medium-light-kick-arrow/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-standing-low-rush-back-heavy-arrow-spike",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 317.85,
+			"sourceEnd": 323.35,
+			"clip": "/media/cammy/cammy-depth-standing-low-rush-back-heavy-arrow-spike/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-low-rush-light-knuckle-safe-jump",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 335.3,
+			"sourceEnd": 340.9,
+			"clip": "/media/cammy/cammy-depth-low-rush-light-knuckle-safe-jump/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-low-rush-knuckle-level-one",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 353.85,
+			"sourceEnd": 361.45,
+			"clip": "/media/cammy/cammy-depth-low-rush-knuckle-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-low-rush-medium-arrow-safe-jump",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 362.25,
+			"sourceEnd": 368.4,
+			"clip": "/media/cammy/cammy-depth-low-rush-medium-arrow-safe-jump/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-low-rush-lift-air-strike",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 369.15,
+			"sourceEnd": 372.4,
+			"clip": "/media/cammy/cammy-depth-low-rush-lift-air-strike/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-low-rush-heavy-knuckle-side-switch",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 380.75,
+			"sourceEnd": 384.8,
+			"clip": "/media/cammy/cammy-depth-low-rush-heavy-knuckle-side-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-low-rush-heavy-target-medium-arrow",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 391.05,
+			"sourceEnd": 396.4,
+			"clip": "/media/cammy/cammy-depth-low-rush-heavy-target-medium-arrow/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-air-medium-super-two-to-one",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 697.75,
+			"sourceEnd": 709.7,
+			"clip": "/media/cammy/cammy-depth-air-medium-super-two-to-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-target-arrow-rush-throw",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 400.85,
+			"sourceEnd": 405.6,
+			"clip": "/media/cammy/cammy-depth-target-arrow-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-target-arrow-rush-shimmy",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 410.1,
+			"sourceEnd": 415.85,
+			"clip": "/media/cammy/cammy-depth-target-arrow-rush-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-target-arrow-rush-heavy-counterhit",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 420.05,
+			"sourceEnd": 425.85,
+			"clip": "/media/cammy/cammy-depth-target-arrow-rush-heavy-counterhit/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-target-arrow-hooligan-kick-throw",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 443.0,
+			"sourceEnd": 448.4,
+			"clip": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-target-arrow-hooligan-kick-shimmy",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 452.8,
+			"sourceEnd": 459.0,
+			"clip": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-target-arrow-hooligan-kick-hit",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 463.55,
+			"sourceEnd": 469.35,
+			"clip": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-hit/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-target-arrow-hooligan-empty-dp",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 473.85,
+			"sourceEnd": 477.65,
+			"clip": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-empty-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-target-arrow-hooligan-delayed-throw",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 481.6,
+			"sourceEnd": 485.65,
+			"clip": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-delayed-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-low-double-rush-level-two",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 496.8,
+			"sourceEnd": 506.95,
+			"clip": "/media/cammy/cammy-depth-low-double-rush-level-two/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-target-hooligan-slide-throw",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 731.6,
+			"sourceEnd": 736.2,
+			"clip": "/media/cammy/cammy-depth-target-hooligan-slide-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-target-hooligan-slide-shimmy",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 739.15,
+			"sourceEnd": 744.75,
+			"clip": "/media/cammy/cammy-depth-target-hooligan-slide-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-heavy-target-hooligan-downward-kick",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 745.2,
+			"sourceEnd": 753.2,
+			"clip": "/media/cammy/cammy-depth-heavy-target-hooligan-downward-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-standing-heavy-arrow",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 775.1,
+			"sourceEnd": 777.3,
+			"clip": "/media/cammy/cammy-depth-standing-heavy-arrow/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-blocked-dp-back-heavy-rush-carry",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 802.25,
+			"sourceEnd": 809.65,
+			"clip": "/media/cammy/cammy-depth-blocked-dp-back-heavy-rush-carry/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-corner-blocked-dp-heavy-rush-spike",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 810.25,
+			"sourceEnd": 816.7,
+			"clip": "/media/cammy/cammy-depth-corner-blocked-dp-heavy-rush-spike/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-sweep-pc-timing-dive-throw",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 925.5,
+			"sourceEnd": 930.45,
+			"clip": "/media/cammy/cammy-depth-sweep-pc-timing-dive-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-sweep-pc-timing-dive-shimmy",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 932.35,
+			"sourceEnd": 937.95,
+			"clip": "/media/cammy/cammy-depth-sweep-pc-timing-dive-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-sweep-pc-timing-dive-heavy-target",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 939.45,
+			"sourceEnd": 944.65,
+			"clip": "/media/cammy/cammy-depth-sweep-pc-timing-dive-heavy-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-forward-heavy-pc-knuckle-level-one",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 949.55,
+			"sourceEnd": 956.75,
+			"clip": "/media/cammy/cammy-depth-forward-heavy-pc-knuckle-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cammy-depth-od-hooligan-pc-throw-level-three",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"sourceStart": 957.8,
+			"sourceEnd": 971.35,
+			"clip": "/media/cammy/cammy-depth-od-hooligan-pc-throw-level-three/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

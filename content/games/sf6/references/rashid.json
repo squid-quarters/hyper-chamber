@@ -1398,5 +1398,4115 @@
 			"rashid-low-rush-od-cyclone-eagle",
 			"rashid-crouching-medium-rush-air-finish"
 		]
+	},
+	{
+		"id": "rashid-depth-counter-hit-jab-wing",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Counter-hit jab into Wing Stroke air finish",
+		"summary": "Confirm the recorded counter-hit standing jab into the medium-heavy target chain and Wing Stroke air ender.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP (CH) > st.MP > st.HK > 214HP > 4K > j.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP (CH)",
+				"label": "Counter-hit standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Arabian Cyclone"
+			},
+			{
+				"id": "step-5",
+				"notation": "4K",
+				"label": "Wing Stroke follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			}
+		],
+		"conditions": ["Classic controls", "Counter-hit starter shown against Dee Jay"],
+		"notes": [
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 11.75,
+			"end": 15.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-counter-hit-jab-wing/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-counter-hit-jab-wing/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-counter-hit-jab-wing/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-counter-hit-jab-wing/frame-1.jpg",
+					"at": 0.45,
+					"label": "Counter-hit jab",
+					"alt": "Standing light punch catches Dee Jay as a counter hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-counter-hit-jab-wing/frame-2.jpg",
+					"at": 1.75,
+					"label": "Cyclone launch",
+					"alt": "The standing-medium and heavy-kick target chain cancels into heavy Cyclone."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-counter-hit-jab-wing/frame-3.jpg",
+					"at": 2.75,
+					"label": "Air finish",
+					"alt": "Wing Stroke positions the jumping heavy kick for the final air hit."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-low-lights-mixer",
+			"rashid-crouching-jabs-mixer",
+			"rashid-target-od-shot-rush-roll"
+		]
+	},
+	{
+		"id": "rashid-depth-block-deejay-od-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Block Dee Jay OD Jackknife into Level 1 punish",
+		"summary": "Block the recorded OD Jackknife, then punish with the three-OD-special juggle into Level 1.",
+		"kind": "response",
+		"situations": ["Corner", "Punish", "Reversal"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "block > st.HP (PC) > 214PP > 236PP > 214KK > 236MP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "block",
+				"label": "Block Dee Jay OD Jackknife"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP (PC)",
+				"label": "Punish-counter standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214PP",
+				"label": "OD Arabian Cyclone"
+			},
+			{
+				"id": "step-4",
+				"notation": "236PP",
+				"label": "OD Spinning Mixer"
+			},
+			{
+				"id": "step-5",
+				"notation": "214KK",
+				"label": "OD Eagle Spike"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MP",
+				"label": "Medium Spinning Mixer"
+			},
+			{
+				"id": "step-7",
+				"notation": "SA1",
+				"label": "Level 1 Super"
+			}
+		],
+		"conditions": ["Classic controls", "Dee Jay OD Jackknife in the recording"],
+		"notes": [
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "6 Drive bars — three OD specials; recording reaches Burnout",
+			"super": "1 Super bar — SA1"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 15.4,
+			"end": 25.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-block-deejay-od-dp/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-block-deejay-od-dp/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-block-deejay-od-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-block-deejay-od-dp/frame-1.jpg",
+					"at": 0.6,
+					"label": "Reversal blocked",
+					"alt": "Dee Jay’s gold OD Jackknife meets Rashid’s grounded guard."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-block-deejay-od-dp/frame-2.jpg",
+					"at": 2.1,
+					"label": "OD punish",
+					"alt": "Standing heavy punish-counters the landing recovery and cancels into OD Cyclone."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-block-deejay-od-dp/frame-3.jpg",
+					"at": 5.6,
+					"label": "Air juggle",
+					"alt": "OD Eagle Spike continues after the OD Mixer launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-depth-block-deejay-od-dp/frame-4.jpg",
+					"at": 7.8,
+					"label": "Level 1 finish",
+					"alt": "The medium Mixer juggle leads into the recorded Level 1 finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-corner-counter-di-level-three",
+			"rashid-depth-eagle-low-heavy-shimmy",
+			"rashid-depth-eagle-heavy-kill-rush-flip-punish"
+		]
+	},
+	{
+		"id": "rashid-depth-mixer-rush-overhead-block",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Mixer: Rush overhead pressure",
+		"summary": "After medium Mixer, raw Rush carries the forward-heavy overhead into Luke’s guard.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Overhead"],
+		"outcomes": ["Pressure"],
+		"notation": "DR > 6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Forward-heavy overhead"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: medium Spinning Mixer knockdown against Luke"
+		],
+		"notes": [
+			"The source reports +1 on the shown blocked overhead; that is remaining advantage, not a wait input.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 86.65,
+			"end": 89.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-mixer-rush-overhead-block/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-mixer-rush-overhead-block/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-mixer-rush-overhead-block/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-mixer-rush-overhead-block/frame-1.jpg",
+					"at": 0.35,
+					"label": "Rush approach",
+					"alt": "Rashid starts raw Drive Rush as Luke recovers from medium Mixer."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-mixer-rush-overhead-block/frame-2.jpg",
+					"at": 1.35,
+					"label": "Overhead blocked",
+					"alt": "Luke blocks the Rush forward-heavy overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-mixer-rush-overhead-block/frame-3.jpg",
+					"at": 2.35,
+					"label": "Close pressure",
+					"alt": "Both return to the recorded close standing spacing."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-overhead-jab-counter-confirm",
+			"rashid-depth-eagle-dash-light-kill-overhead",
+			"rashid-depth-mixer-rush-forward-kick-block"
+		]
+	},
+	{
+		"id": "rashid-depth-mixer-rush-forward-kick-block",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Mixer: Rush forward-heavy-kick pressure",
+		"summary": "After medium Mixer, raw Rush brings the advancing forward heavy kick into Luke’s guard.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Pressure"],
+		"notation": "DR > 6HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HK",
+				"label": "Forward heavy kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: medium Spinning Mixer knockdown against Luke"
+		],
+		"notes": [
+			"The source reports up to +4 for the shown Rush forward-heavy kick. No exact delay or universal advantage is assigned.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 91.1,
+			"end": 94.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-mixer-rush-forward-kick-block/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-mixer-rush-forward-kick-block/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-mixer-rush-forward-kick-block/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-mixer-rush-forward-kick-block/frame-1.jpg",
+					"at": 0.4,
+					"label": "Rush approach",
+					"alt": "Raw Drive Rush closes the space after the medium-Mixer knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-mixer-rush-forward-kick-block/frame-2.jpg",
+					"at": 0.9,
+					"label": "Forward kick blocked",
+					"alt": "Luke blocks the advancing forward heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-mixer-rush-forward-kick-block/frame-3.jpg",
+					"at": 2.4,
+					"label": "Pressure spacing",
+					"alt": "Rashid recovers near Luke after the blocked kick."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm",
+			"rashid-depth-mixer-overhead-jab-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-mixer-forward-kick-counter-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Mixer: blocked Rush kick into counter-hit confirm",
+		"summary": "Follow the blocked Rush forward kick with the recorded counter-hit medium, then the Wing Stroke air finish.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 6HK (blocked) > st.MP (CH) > st.HK > 214HP > 4K > j.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HK (blocked)",
+				"label": "Blocked forward heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP (CH)",
+				"label": "Counter-hit standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Arabian Cyclone"
+			},
+			{
+				"id": "step-6",
+				"notation": "4K",
+				"label": "Wing Stroke follow-up"
+			},
+			{
+				"id": "step-7",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: medium Mixer knockdown against Luke",
+			"Luke attempts the recorded attack after blocking the Rush kick"
+		],
+		"notes": [
+			"The blocked kick and later hit confirm are pressure, not one continuous combo. The loop stops before the following jump-in attempt.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 95.45,
+			"end": 99.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-mixer-forward-kick-counter-confirm/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-mixer-forward-kick-counter-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-mixer-forward-kick-counter-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-mixer-forward-kick-counter-confirm/frame-1.jpg",
+					"at": 1.05,
+					"label": "Rush kick blocked",
+					"alt": "Luke blocks the forward heavy kick after Rashid’s Rush approach."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-mixer-forward-kick-counter-confirm/frame-2.jpg",
+					"at": 1.55,
+					"label": "Counter-hit medium",
+					"alt": "Standing medium punch catches the recorded button attempt as a counter hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-mixer-forward-kick-counter-confirm/frame-3.jpg",
+					"at": 3.55,
+					"label": "Wing Stroke finish",
+					"alt": "The heavy-kick target chain and heavy Cyclone lead to the air heavy-kick ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-overhead-jab-counter-confirm",
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-rush-forward-kick-block"
+		]
+	},
+	{
+		"id": "rashid-depth-mixer-overhead-jab-counter-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Mixer: blocked Rush overhead into counter-hit jab",
+		"summary": "After Luke blocks the Rush overhead, counter-hit jab links the target chain into the Wing Stroke ender.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Counter hit", "Overhead"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 6HP (blocked) > st.LP (CH) > st.MP > st.HK > 214HP > 4K > j.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP (blocked)",
+				"label": "Blocked forward-heavy overhead"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP (CH)",
+				"label": "Counter-hit standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "Heavy Arabian Cyclone"
+			},
+			{
+				"id": "step-7",
+				"notation": "4K",
+				"label": "Wing Stroke follow-up"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: medium Mixer knockdown against Luke",
+			"Luke attempts the recorded attack after blocking the overhead"
+		],
+		"notes": [
+			"The overhead is blocked before the separate counter-hit combo begins. The following jump attempt is excluded.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 102.75,
+			"end": 107.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-mixer-overhead-jab-counter-confirm/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-mixer-overhead-jab-counter-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-mixer-overhead-jab-counter-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-mixer-overhead-jab-counter-confirm/frame-1.jpg",
+					"at": 0.75,
+					"label": "Overhead blocked",
+					"alt": "Luke blocks the Rush forward-heavy overhead."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-mixer-overhead-jab-counter-confirm/frame-2.jpg",
+					"at": 1.75,
+					"label": "Counter-hit jab",
+					"alt": "Standing jab catches the recorded button attempt after the overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-mixer-overhead-jab-counter-confirm/frame-3.jpg",
+					"at": 3.95,
+					"label": "Air finish",
+					"alt": "The medium-heavy target chain and heavy Cyclone lead through Wing Stroke to jumping heavy kick."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm",
+			"rashid-depth-eagle-dash-light-kill-overhead"
+		]
+	},
+	{
+		"id": "rashid-depth-wing-knockdown-jump-block-luke",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Air-heavy knockdown: jump medium and block Luke OD DP",
+		"summary": "After the shown Wing Stroke air-heavy knockdown, the jumping-medium attempt lands in time to block Luke’s OD Rising Uppercut.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Safe jump"],
+		"outcomes": ["Reversal blocked"],
+		"notation": "9 > j.MK > land + block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.MK",
+				"label": "Jumping medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "land + block",
+				"label": "Land and block"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the Wing Stroke jumping-heavy ender shown immediately before this take",
+			"Luke OD Rising Uppercut is the recorded defender response"
+		],
+		"notes": [
+			"This proves only the recorded jump timing versus Luke OD Rising Uppercut; it is not a universal safe-jump guarantee.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 99.7,
+			"end": 101.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-wing-knockdown-jump-block-luke/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-wing-knockdown-jump-block-luke/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-wing-knockdown-jump-block-luke/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-wing-knockdown-jump-block-luke/frame-1.jpg",
+					"at": 0.3,
+					"label": "Jump attack",
+					"alt": "Rashid attempts jumping medium kick as Luke wakes up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-wing-knockdown-jump-block-luke/frame-2.jpg",
+					"at": 0.7,
+					"label": "OD reversal blocked",
+					"alt": "Luke’s gold OD Rising Uppercut meets Rashid’s grounded guard."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-wing-knockdown-jump-block-luke/frame-3.jpg",
+					"at": 1.8,
+					"label": "Grounded recovery",
+					"alt": "Rashid remains grounded as the blocked reversal descends."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-rush-forward-kick-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-corner-counter-di-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Corner counter-DI into three-OD Critical Art route",
+		"summary": "Win the corner DI exchange and spend the three-OD juggle into the recorded low-health Critical Art.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Punish", "Cash-out"],
+		"outcomes": ["Corner knockdown", "Super damage"],
+		"notation": "DI > st.HP > 214PP > 236PP > 214KK > 236MP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Counter Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214PP",
+				"label": "OD Arabian Cyclone"
+			},
+			{
+				"id": "step-4",
+				"notation": "236PP",
+				"label": "OD Spinning Mixer"
+			},
+			{
+				"id": "step-5",
+				"notation": "214KK",
+				"label": "OD Eagle Spike"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MP",
+				"label": "Medium Spinning Mixer"
+			},
+			{
+				"id": "step-7",
+				"notation": "SA3",
+				"label": "Level 3 Super"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Win the corner DI exchange against Luke",
+			"Rashid is at low health with Critical Art active in the recording"
+		],
+		"notes": [
+			"The recording spends DI plus three OD specials and reaches Burnout; meter regenerates during the DI exchange. These are expenditures across the route, not a claim that seven Drive bars can be held at once.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "DI (1) + three OD specials (6); recording reaches Burnout",
+			"super": "3 Super bars — SA3, Critical Art variant shown"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 134.55,
+			"end": 152.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-corner-counter-di-level-three/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-corner-counter-di-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-corner-counter-di-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-corner-counter-di-level-three/frame-1.jpg",
+					"at": 1.95,
+					"label": "Counter-DI wins",
+					"alt": "Rashid’s DI wins the exchange beside the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-corner-counter-di-level-three/frame-2.jpg",
+					"at": 3.45,
+					"label": "OD Cyclone",
+					"alt": "Standing heavy cancels into OD Cyclone during the crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-corner-counter-di-level-three/frame-3.jpg",
+					"at": 7.45,
+					"label": "Mixer pickup",
+					"alt": "Medium Mixer catches Luke after the OD Eagle Spike juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-depth-corner-counter-di-level-three/frame-4.jpg",
+					"at": 16.95,
+					"label": "Critical Art finish",
+					"alt": "The recorded Critical Art completes the corner conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-wall-splat-heavy-roll",
+			"rashid-depth-block-deejay-od-dp",
+			"rashid-depth-corner-stun-charged-whirl-level-three"
+		]
+	},
+	{
+		"id": "rashid-depth-wind-pc-spike-level-two-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Wind-enhanced punish-counter Spike into Level 2 and Level 1",
+		"summary": "Use the enhanced heavy-Spike punish counter to reach raw Rush, Ysaar and the OD juggle into Level 1.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Wind"],
+		"outcomes": ["Corner knockdown", "Super damage"],
+		"notation": "214HK (PC, wind-enhanced) > DR > st.HK > SA2 > 214LK > 236PP > 214KK > 236MP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214HK (PC, wind-enhanced)",
+				"label": "Wind-enhanced heavy Eagle Spike punish counter"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA2",
+				"label": "Ysaar"
+			},
+			{
+				"id": "step-5",
+				"notation": "214LK",
+				"label": "Light Eagle Spike"
+			},
+			{
+				"id": "step-6",
+				"notation": "236PP",
+				"label": "OD Spinning Mixer"
+			},
+			{
+				"id": "step-7",
+				"notation": "214KK",
+				"label": "OD Eagle Spike"
+			},
+			{
+				"id": "step-8",
+				"notation": "236MP",
+				"label": "Medium Spinning Mixer"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA1",
+				"label": "Level 1 Super"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Wind enhancement already active before the starter; its preparation is not shown in the selected take",
+			"Punish-counter heavy Eagle Spike against Luke"
+		],
+		"notes": [
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "5 Drive bars — raw Rush and two OD specials",
+			"super": "3 Super bars total — SA2 followed by SA1"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 181.05,
+			"end": 197.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-wind-pc-spike-level-two-one/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-wind-pc-spike-level-two-one/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-wind-pc-spike-level-two-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-wind-pc-spike-level-two-one/frame-1.jpg",
+					"at": 0.95,
+					"label": "Enhanced punish counter",
+					"alt": "The wind-enhanced heavy Eagle Spike hits Luke as a punish counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-wind-pc-spike-level-two-one/frame-2.jpg",
+					"at": 3.45,
+					"label": "Ysaar activation",
+					"alt": "Raw Rush standing heavy kick leads into Level 2."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-wind-pc-spike-level-two-one/frame-3.jpg",
+					"at": 7.95,
+					"label": "OD juggle",
+					"alt": "The Ysaar-assisted light Spike links the OD Mixer and OD Eagle Spike juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-depth-wind-pc-spike-level-two-one/frame-4.jpg",
+					"at": 13.95,
+					"label": "Level 1 finish",
+					"alt": "Medium Mixer leads into the final Level 1 Super."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-ysaar-mixer-dash-throw",
+			"rashid-depth-ysaar-walk-guard-luke-dp-whiff",
+			"rashid-depth-ysaar-overhead-throw"
+		]
+	},
+	{
+		"id": "rashid-depth-corner-stun-charged-whirl-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Corner stun: charged Whirlwind into Level 3",
+		"summary": "Charge the heavy Whirlwind during the recorded corner stun, then use the three-OD route into Level 3.",
+		"kind": "combo",
+		"situations": ["Corner", "Stun", "Cash-out"],
+		"outcomes": ["Corner knockdown", "Super damage"],
+		"notation": "236HK (hold) > 236PP > j.214KK > 6MP > 214PP > 236LP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236HK (hold)",
+				"label": "Fully charged heavy Whirlwind Shot"
+			},
+			{
+				"id": "step-2",
+				"notation": "236PP",
+				"label": "OD Spinning Mixer"
+			},
+			{
+				"id": "step-3",
+				"notation": "j.214KK",
+				"label": "Air OD Eagle Spike"
+			},
+			{
+				"id": "step-4",
+				"notation": "6MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214PP",
+				"label": "OD Arabian Cyclone"
+			},
+			{
+				"id": "step-6",
+				"notation": "236LP",
+				"label": "Light Spinning Mixer"
+			},
+			{
+				"id": "step-7",
+				"notation": "SA3",
+				"label": "Level 3 Super"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu is stunned by a corner DI during Burnout; the trigger is retained for context"
+		],
+		"notes": [
+			"The action sequence begins with the charged Whirlwind after the prerequisite stun. The Drive cost below excludes the earlier DI trigger.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "6 Drive bars — three OD specials; recording reaches Burnout",
+			"super": "3 Super bars — SA3"
+		},
+		"source": {
+			"id": "orang-rashid-2023",
+			"title": "SF6 RASHID COMBO GUIDE // Bread n' Butter Combos",
+			"creator": "Orang",
+			"url": "https://www.youtube.com/watch?v=ozUcaHUQWKs",
+			"published": "2023-07-25",
+			"start": 198.25,
+			"end": 217.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-corner-stun-charged-whirl-level-three/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-corner-stun-charged-whirl-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-corner-stun-charged-whirl-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-corner-stun-charged-whirl-level-three/frame-1.jpg",
+					"at": 1.75,
+					"label": "Charged Whirlwind",
+					"alt": "Rashid charges heavy Whirlwind while Ryu remains stunned."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-corner-stun-charged-whirl-level-three/frame-2.jpg",
+					"at": 3.75,
+					"label": "OD Mixer launch",
+					"alt": "OD Mixer follows the charged Whirlwind hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-corner-stun-charged-whirl-level-three/frame-3.jpg",
+					"at": 5.75,
+					"label": "Forward-medium pickup",
+					"alt": "Forward medium punch catches Ryu after the air OD Eagle Spike."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/rashid/rashid-depth-corner-stun-charged-whirl-level-three/frame-4.jpg",
+					"at": 8.75,
+					"label": "Super cancel",
+					"alt": "OD Cyclone and light Mixer lead into Level 3."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-corner-counter-di-level-three",
+			"rashid-wall-splat-heavy-roll",
+			"rashid-corner-heavy-punish-level-one"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-dash-front-flip",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: dash into Front Flip",
+		"summary": "After medium Spike, a forward dash and Front Flip establish the recorded close wake-up spacing.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Close pressure"],
+		"notation": "66 > 6KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "6KK",
+				"label": "Front Flip"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is a positioning setup. It does not include a strike or guarantee a side switch; the source demonstrates recovery-dependent side changes separately.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 22.7,
+			"end": 25.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-dash-front-flip/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-dash-front-flip/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-dash-front-flip/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-dash-front-flip/frame-1.jpg",
+					"at": 0.3,
+					"label": "Spike recovery",
+					"alt": "Ed remains down as Rashid recovers from medium Eagle Spike."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-dash-front-flip/frame-2.jpg",
+					"at": 0.8,
+					"label": "Dash and Flip",
+					"alt": "A forward dash leads into Front Flip beside the recovering Ed."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-dash-front-flip/frame-3.jpg",
+					"at": 1.8,
+					"label": "Close wake-up spacing",
+					"alt": "Rashid lands at the recorded close spacing after the Flip."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-rush-forward-kick-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-jab-flip-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: jab kill, Front Flip and throw",
+		"summary": "Whiff crouching jab after medium Spike, then Front Flip into the recorded close throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw", "Knockdown"],
+		"notation": "cr.LP (whiff) > 6KK > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP (whiff)",
+				"label": "Crouching-jab frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "6KK",
+				"label": "Front Flip"
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 47.2,
+			"end": 50.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-jab-flip-throw/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-jab-flip-throw/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-jab-flip-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-jab-flip-throw/frame-1.jpg",
+					"at": 0.5,
+					"label": "Jab frame kill",
+					"alt": "Crouching jab whiffs while Ed remains knocked down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-jab-flip-throw/frame-2.jpg",
+					"at": 1.05,
+					"label": "Front Flip",
+					"alt": "Front Flip moves Rashid close to the recovering Ed."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-jab-flip-throw/frame-3.jpg",
+					"at": 2.2,
+					"label": "Throw connects",
+					"alt": "The normal throw connects at the recorded close spacing."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-rush-forward-kick-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-jab-flip-block-ed-sa1",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: jab-and-Flip timing blocks Ed Level 1",
+		"summary": "After the jab frame kill and Front Flip, Rashid guards the recorded Ed Level 1 reversal.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Reversal blocked"],
+		"notation": "cr.LP (whiff) > 6KK > block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP (whiff)",
+				"label": "Crouching-jab frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "6KK",
+				"label": "Front Flip"
+			},
+			{
+				"id": "step-3",
+				"notation": "block",
+				"label": "Grounded guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This shows guarding Ed Level 1, not every Super or reversal speed.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 53.2,
+			"end": 57.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-jab-flip-block-ed-sa1/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-jab-flip-block-ed-sa1/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-jab-flip-block-ed-sa1/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-jab-flip-block-ed-sa1/frame-1.jpg",
+					"at": 0.3,
+					"label": "Jab frame kill",
+					"alt": "Crouching jab whiffs after the medium-Spike knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-jab-flip-block-ed-sa1/frame-2.jpg",
+					"at": 0.8,
+					"label": "Front Flip",
+					"alt": "Front Flip completes before Ed’s wake-up Super."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-jab-flip-block-ed-sa1/frame-3.jpg",
+					"at": 2.8,
+					"label": "Level 1 blocked",
+					"alt": "Ed’s Level 1 strikes meet Rashid’s grounded guard."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-rush-forward-kick-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-charged-whirl-meaty",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: charged heavy Whirlwind on wake-up",
+		"summary": "Charge heavy Whirlwind after medium Spike and catch the recorded Ed wake-up with the projectile.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Pressure"],
+		"notation": "236HK (hold)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236HK (hold)",
+				"label": "Charged heavy Whirlwind Shot"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"The selected take shows the projectile connecting. The source also demonstrates that jumps can evade some spacing; this is not unavoidable pressure.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 72,
+			"end": 75.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-charged-whirl-meaty/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-charged-whirl-meaty/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-charged-whirl-meaty/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-charged-whirl-meaty/frame-1.jpg",
+					"at": 0.5,
+					"label": "Charge during knockdown",
+					"alt": "Rashid charges the heavy Whirlwind while Ed is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-charged-whirl-meaty/frame-2.jpg",
+					"at": 1.5,
+					"label": "Projectile hits",
+					"alt": "The charged Whirlwind reaches Ed as he wakes up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-charged-whirl-meaty/frame-3.jpg",
+					"at": 2.5,
+					"label": "Projectile pressure spacing",
+					"alt": "Rashid recovers at the shown projectile spacing."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-rush-forward-kick-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-medium-kick-overhead-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: medium-kick kill into overhead confirm",
+		"summary": "Whiff standing medium kick, then confirm the meaty overhead through standing jab, crouching jab and light Eagle Spike.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Overhead"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MK (whiff) > 6HP > st.LP > cr.LP > 214LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK (whiff)",
+				"label": "Standing-medium-kick frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Forward-heavy overhead"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214LK",
+				"label": "Light Eagle Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 112,
+			"end": 116.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-medium-kick-overhead-confirm/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-medium-kick-overhead-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-medium-kick-overhead-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-medium-kick-overhead-confirm/frame-1.jpg",
+					"at": 0.25,
+					"label": "Medium-kick kill",
+					"alt": "Standing medium kick whiffs after the knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-medium-kick-overhead-confirm/frame-2.jpg",
+					"at": 1,
+					"label": "Overhead connects",
+					"alt": "The forward-heavy overhead catches the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-medium-kick-overhead-confirm/frame-3.jpg",
+					"at": 2.5,
+					"label": "Light Spike finish",
+					"alt": "Standing and crouching jab links lead into light Eagle Spike."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-dash-rush-overhead-confirm",
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-overhead-jab-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-low-kill-front-flip",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: low-kick kill into Front Flip",
+		"summary": "A whiffed crouching light kick times Front Flip at the shown wake-up spacing.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Close pressure"],
+		"notation": "cr.LK (whiff) > 6KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK (whiff)",
+				"label": "Crouching-light-kick frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "6KK",
+				"label": "Front Flip"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This reference isolates the positioning timing. No guaranteed throw, strike or reversal immunity is claimed.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 132,
+			"end": 133.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-low-kill-front-flip/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-low-kill-front-flip/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-low-kill-front-flip/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-low-kill-front-flip/frame-1.jpg",
+					"at": 0.5,
+					"label": "Low-kick frame kill",
+					"alt": "Crouching light kick whiffs while Ed lies down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-low-kill-front-flip/frame-2.jpg",
+					"at": 1,
+					"label": "Front Flip",
+					"alt": "Rashid uses Front Flip after the light-kick frame kill."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-low-kill-front-flip/frame-3.jpg",
+					"at": 1.5,
+					"label": "Flip recovery",
+					"alt": "Rashid returns to the recorded close standing spacing."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-rush-forward-kick-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-low-heavy-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: low-and-heavy kills into throw bait",
+		"summary": "Whiff crouching light kick and standing heavy, retreat from Ed’s throw, then punish with medium, heavy and medium Spike.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish"],
+		"outcomes": ["Throw bait", "Knockdown"],
+		"notation": "cr.LK (whiff) > st.HP (whiff) > walk back > st.MP (PC) > st.HP > 214MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK (whiff)",
+				"label": "Crouching-light-kick frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP (whiff)",
+				"label": "Standing-heavy-punch frame kill"
+			},
+			{
+				"id": "step-3",
+				"notation": "walk back",
+				"label": "Retreat from throw range"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP (PC)",
+				"label": "Punish-counter standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "214MK",
+				"label": "Medium Eagle Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 161.7,
+			"end": 166.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-low-heavy-shimmy/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-low-heavy-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-low-heavy-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-low-heavy-shimmy/frame-1.jpg",
+					"at": 0.8,
+					"label": "Two frame kills",
+					"alt": "The crouching light kick and standing heavy consume the recorded knockdown time."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-low-heavy-shimmy/frame-2.jpg",
+					"at": 1.8,
+					"label": "Throw whiffs",
+					"alt": "Rashid retreats outside Ed’s normal-throw attempt."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-low-heavy-shimmy/frame-3.jpg",
+					"at": 3.3,
+					"label": "Medium Spike punish",
+					"alt": "Standing medium and heavy lead into medium Eagle Spike."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-heavy-kill-rush-flip-punish",
+			"rashid-depth-eagle-dash-rush-medium-space-trap",
+			"rashid-depth-eagle-sweep-kill-rush-jab-space-trap"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-low-kill-di",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Corner medium Spike: low frame kill into DI",
+		"summary": "After the corner knockdown, whiff crouching medium kick and time DI into the recorded wall crush.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Drive Impact"],
+		"outcomes": ["Wall crush"],
+		"notation": "cr.MK (whiff) > DI",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK (whiff)",
+				"label": "Crouching-medium-kick frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "DI",
+				"label": "Drive Impact"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"Ed is not shown in Burnout here; this is a wall crush, not a stun claim. The take does not establish that DI cannot be countered.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 225.8,
+			"end": 229.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-low-kill-di/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-low-kill-di/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-low-kill-di/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-low-kill-di/frame-1.jpg",
+					"at": 0.7,
+					"label": "Low frame kill",
+					"alt": "Crouching medium kick whiffs while Ed remains down beside the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-low-kill-di/frame-2.jpg",
+					"at": 1.5,
+					"label": "Drive Impact",
+					"alt": "Rashid starts DI as Ed wakes up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-low-kill-di/frame-3.jpg",
+					"at": 2.3,
+					"label": "Wall crush",
+					"alt": "The recorded DI produces a wall crush against Ed."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-wall-splat-heavy-roll",
+			"rashid-depth-corner-counter-di-level-three",
+			"rashid-depth-eagle-medium-kick-overhead-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-double-medium-meaty-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: two medium kills into meaty-medium juggle",
+		"summary": "Whiff two crouching mediums, then use the meaty crouching-medium link into the Cyclone, forward-medium and light-Spike juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP (whiff) > cr.MP (whiff) > cr.MP > st.MP > 214MP > 6MP > 214LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP (whiff)",
+				"label": "Crouching-medium-punch frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP (whiff)",
+				"label": "Crouching-medium-punch frame kill"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP",
+				"label": "Medium Arabian Cyclone"
+			},
+			{
+				"id": "step-6",
+				"notation": "6MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "214LK",
+				"label": "Light Eagle Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 236.65,
+			"end": 241.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-double-medium-meaty-confirm/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-double-medium-meaty-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-double-medium-meaty-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-double-medium-meaty-confirm/frame-1.jpg",
+					"at": 0.85,
+					"label": "Medium frame kills",
+					"alt": "The crouching-medium frame kills consume the knockdown time."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-double-medium-meaty-confirm/frame-2.jpg",
+					"at": 1.35,
+					"label": "Meaty medium",
+					"alt": "The next crouching medium hits the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-double-medium-meaty-confirm/frame-3.jpg",
+					"at": 3.65,
+					"label": "Wind-assisted finish",
+					"alt": "Medium Cyclone and forward medium lead into the light Eagle Spike juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-medium-kick-overhead-confirm",
+			"rashid-depth-eagle-low-heavy-shimmy",
+			"rashid-depth-eagle-low-kill-di"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-medium-kill-whirl",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: medium kill into heavy Whirlwind",
+		"summary": "Whiff crouching medium after medium Spike, then place heavy Whirlwind on the recorded wake-up.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Pressure"],
+		"notation": "cr.MP (whiff) > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP (whiff)",
+				"label": "Crouching-medium-punch frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "Heavy Whirlwind Shot"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is the shown unheld heavy-Whirlwind timing; it is separate from the fully charged Whirlwind reference.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 245,
+			"end": 247.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-medium-kill-whirl/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-medium-kill-whirl/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-medium-kill-whirl/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-medium-kill-whirl/frame-1.jpg",
+					"at": 0.5,
+					"label": "Medium frame kill",
+					"alt": "Crouching medium punch whiffs while Ed remains down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-medium-kill-whirl/frame-2.jpg",
+					"at": 1,
+					"label": "Heavy Whirlwind",
+					"alt": "Rashid releases the heavy Whirlwind projectile."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-medium-kill-whirl/frame-3.jpg",
+					"at": 1.5,
+					"label": "Wake-up projectile interaction",
+					"alt": "The projectile reaches Ed at the shown wake-up spacing."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-medium-kick-overhead-confirm",
+			"rashid-depth-eagle-low-heavy-shimmy",
+			"rashid-depth-eagle-low-kill-di"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-dash-rush-overhead-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: dash and Rush overhead conversion",
+		"summary": "Dash after medium Spike, then Rush overhead links standing medium kick and medium punch into medium Eagle Spike.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Overhead"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > DR > 6HP > st.MK > st.MP > 214MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HP",
+				"label": "Forward-heavy overhead"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "214MK",
+				"label": "Medium Eagle Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 320,
+			"end": 325.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-dash-rush-overhead-confirm/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-dash-rush-overhead-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-dash-rush-overhead-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-dash-rush-overhead-confirm/frame-1.jpg",
+					"at": 1,
+					"label": "Dash and Rush",
+					"alt": "The forward dash leads into raw Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-dash-rush-overhead-confirm/frame-2.jpg",
+					"at": 1.6,
+					"label": "Overhead connects",
+					"alt": "Rush forward-heavy overhead catches the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-dash-rush-overhead-confirm/frame-3.jpg",
+					"at": 3.5,
+					"label": "Medium Spike finish",
+					"alt": "The standing-medium-kick and medium-punch links lead into medium Eagle Spike."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-medium-kick-overhead-confirm",
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-overhead-jab-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-heavy-kill-rush-flip-punish",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: heavy kill and Rush Flip into punish",
+		"summary": "A whiffed standing heavy and raw Rush time Front Flip before the recorded medium-heavy punish into medium Spike.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP (whiff) > DR > 6KK > st.MP (PC) > st.HP > 214MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP (whiff)",
+				"label": "Standing-heavy-punch frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "6KK",
+				"label": "Front Flip"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP (PC)",
+				"label": "Punish-counter standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "214MK",
+				"label": "Medium Eagle Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"The selected take demonstrates the punish-counter result after the Flip. It does not establish protection against every wake-up attack or reversal.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 340.75,
+			"end": 346.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-heavy-kill-rush-flip-punish/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-heavy-kill-rush-flip-punish/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-heavy-kill-rush-flip-punish/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-heavy-kill-rush-flip-punish/frame-1.jpg",
+					"at": 0.25,
+					"label": "Heavy frame kill",
+					"alt": "Standing heavy whiffs while Ed lies down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-heavy-kill-rush-flip-punish/frame-2.jpg",
+					"at": 1.25,
+					"label": "Rush Front Flip",
+					"alt": "Rashid uses Front Flip after the Rush approach."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-heavy-kill-rush-flip-punish/frame-3.jpg",
+					"at": 3.25,
+					"label": "Punish conversion",
+					"alt": "The recorded punish-counter medium and standing heavy lead into medium Eagle Spike."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-low-heavy-shimmy",
+			"rashid-depth-eagle-dash-rush-medium-space-trap",
+			"rashid-depth-eagle-sweep-kill-rush-jab-space-trap"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-jump-cross-under",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: jump cross-under and landing-medium whiff",
+		"summary": "Forward jump crosses the normal-recovery Ed, but the immediate landing crouching medium whiffs.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Side-switch"],
+		"notation": "9 > cr.MP (whiff)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP (whiff)",
+				"label": "Immediate landing crouching medium"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording",
+			"Normal recovery in the selected take; back recovery is a different branch"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is a positioning and spacing limitation reference. It does not teach a guaranteed cross-up strike; the whiff is intentional in the annotation.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 384,
+			"end": 387.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-jump-cross-under/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-jump-cross-under/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-jump-cross-under/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-jump-cross-under/frame-1.jpg",
+					"at": 0.5,
+					"label": "Forward jump",
+					"alt": "Rashid jumps over Ed after the knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-jump-cross-under/frame-2.jpg",
+					"at": 1,
+					"label": "Cross-under landing",
+					"alt": "Rashid lands on the other side as Ed recovers."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-jump-cross-under/frame-3.jpg",
+					"at": 1.5,
+					"label": "Medium whiffs",
+					"alt": "The immediate landing crouching medium does not connect."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-rush-forward-kick-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-dash-low-kill-medium-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: dash and low kill into meaty medium",
+		"summary": "Dash and whiff crouching medium kick, then use meaty crouching medium into the Cyclone and light-Spike juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > cr.MK (whiff) > cr.MP > st.MP > 214MP > 6MP > 214LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK (whiff)",
+				"label": "Crouching-medium-kick frame kill"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP",
+				"label": "Medium Arabian Cyclone"
+			},
+			{
+				"id": "step-6",
+				"notation": "6MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "214LK",
+				"label": "Light Eagle Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 401.2,
+			"end": 405.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-dash-low-kill-medium-confirm/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-dash-low-kill-medium-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-dash-low-kill-medium-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-dash-low-kill-medium-confirm/frame-1.jpg",
+					"at": 0.8,
+					"label": "Dash and low kill",
+					"alt": "The forward dash leads into a whiffed crouching medium kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-dash-low-kill-medium-confirm/frame-2.jpg",
+					"at": 1.3,
+					"label": "Meaty medium",
+					"alt": "Crouching medium punch hits the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-dash-low-kill-medium-confirm/frame-3.jpg",
+					"at": 3.3,
+					"label": "Light Spike pickup",
+					"alt": "The medium-Cyclone and forward-medium juggle leads into light Eagle Spike."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-medium-kick-overhead-confirm",
+			"rashid-depth-eagle-low-heavy-shimmy",
+			"rashid-depth-eagle-low-kill-di"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-dash-rush-medium-space-trap",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: Rush medium space trap",
+		"summary": "After dash and Rush medium is blocked outside throw range, guard the missed throw and punish into medium Spike.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish"],
+		"outcomes": ["Throw bait", "Knockdown"],
+		"notation": "66 > DR > st.MP (blocked) > block > st.MP (PC) > st.HP > 214MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP (blocked)",
+				"label": "Blocked standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "block",
+				"label": "Grounded guard"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MP (PC)",
+				"label": "Punish-counter standing medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "214MK",
+				"label": "Medium Eagle Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"The spacing trap is demonstrated against the recorded Ed normal throw; it is not a universal throw-range or reversal guarantee.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 416.2,
+			"end": 420.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-dash-rush-medium-space-trap/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-dash-rush-medium-space-trap/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-dash-rush-medium-space-trap/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-dash-rush-medium-space-trap/frame-1.jpg",
+					"at": 1.1,
+					"label": "Rush medium pressure",
+					"alt": "Standing medium punch is blocked after the dash-and-Rush approach."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-dash-rush-medium-space-trap/frame-2.jpg",
+					"at": 1.5,
+					"label": "Throw misses",
+					"alt": "The recorded Ed throw attempt does not reach Rashid."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-dash-rush-medium-space-trap/frame-3.jpg",
+					"at": 3.3,
+					"label": "Punish conversion",
+					"alt": "Standing medium and heavy punish the whiff and lead into medium Eagle Spike."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-low-heavy-shimmy",
+			"rashid-depth-eagle-heavy-kill-rush-flip-punish",
+			"rashid-depth-eagle-sweep-kill-rush-jab-space-trap"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-dash-rush-block-ed-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: dash and Rush blocks Ed OD DP",
+		"summary": "Dash and raw Rush reach grounded guard in time to block the recorded Ed OD Psycho Uppercut.",
+		"kind": "response",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Reversal blocked"],
+		"notation": "66 > DR > block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "block",
+				"label": "Grounded guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This shows Ed OD Psycho Uppercut only. The source’s delayed-throw variation is a separate take.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 424,
+			"end": 428.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-dash-rush-block-ed-dp/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-dash-rush-block-ed-dp/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-dash-rush-block-ed-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-dash-rush-block-ed-dp/frame-1.jpg",
+					"at": 0.5,
+					"label": "Dash and Rush",
+					"alt": "Rashid approaches after the medium-Spike knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-dash-rush-block-ed-dp/frame-2.jpg",
+					"at": 1.5,
+					"label": "OD reversal blocked",
+					"alt": "Ed’s gold OD Psycho Uppercut meets Rashid’s guard."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-dash-rush-block-ed-dp/frame-3.jpg",
+					"at": 3,
+					"label": "Grounded recovery",
+					"alt": "Rashid remains grounded as the blocked uppercut recovers."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-medium-kick-overhead-confirm",
+			"rashid-depth-eagle-low-heavy-shimmy",
+			"rashid-depth-eagle-low-kill-di"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-dash-light-kill-forward-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: dash and light-kick kill into forward heavy",
+		"summary": "Dash and whiff standing light kick to time the forward heavy kick into Ed’s guard.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Pressure"],
+		"notation": "66 > st.LK (whiff) > 6HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK (whiff)",
+				"label": "Standing-light-kick frame kill"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HK",
+				"label": "Forward heavy kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"The source reports +0 on block for the shown timing, not a prescribed wait.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 436,
+			"end": 439.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-dash-light-kill-forward-kick/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-dash-light-kill-forward-kick/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-dash-light-kill-forward-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-dash-light-kill-forward-kick/frame-1.jpg",
+					"at": 0.5,
+					"label": "Dash and light-kick kill",
+					"alt": "A forward dash and whiffed light kick consume the knockdown time."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-dash-light-kill-forward-kick/frame-2.jpg",
+					"at": 1.5,
+					"label": "Forward kick blocked",
+					"alt": "Ed blocks the advancing forward heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-dash-light-kill-forward-kick/frame-3.jpg",
+					"at": 2.5,
+					"label": "Close recovery",
+					"alt": "Both recover at the shown close spacing."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-medium-kick-overhead-confirm",
+			"rashid-depth-eagle-low-heavy-shimmy",
+			"rashid-depth-eagle-low-kill-di"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-dash-light-kill-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: dash and light-kick kill into overhead",
+		"summary": "Dash and whiff standing light kick before placing the forward-heavy overhead on Ed’s wake-up.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Overhead"],
+		"outcomes": ["Pressure"],
+		"notation": "66 > st.LK (whiff) > 6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK (whiff)",
+				"label": "Standing-light-kick frame kill"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HP",
+				"label": "Forward-heavy overhead"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"The selected take is the blocked overhead; the following counter-hit illustration is not included.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 481,
+			"end": 484.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-dash-light-kill-overhead/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-dash-light-kill-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-dash-light-kill-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-dash-light-kill-overhead/frame-1.jpg",
+					"at": 0.5,
+					"label": "Light-kick frame kill",
+					"alt": "Standing light kick whiffs after the dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-dash-light-kill-overhead/frame-2.jpg",
+					"at": 1,
+					"label": "Overhead on wake-up",
+					"alt": "The forward-heavy overhead reaches the crouching Ed."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-dash-light-kill-overhead/frame-3.jpg",
+					"at": 2,
+					"label": "Overhead recovery",
+					"alt": "Rashid recovers close after the recorded blocked overhead."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-overhead-jab-counter-confirm",
+			"rashid-depth-mixer-rush-forward-kick-block"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-double-dash-rush-jab-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: two dashes and Rush jab confirm",
+		"summary": "Two dashes and raw Rush lead to crouching jab, standing medium kick and medium punch into medium Spike.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 66 > DR > cr.LP > st.MK > st.MP > 214MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "214MK",
+				"label": "Medium Eagle Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 493.4,
+			"end": 497.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-double-dash-rush-jab-confirm/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-double-dash-rush-jab-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-double-dash-rush-jab-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-double-dash-rush-jab-confirm/frame-1.jpg",
+					"at": 0.6,
+					"label": "Two-dash approach",
+					"alt": "Rashid dashes twice as Ed remains knocked down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-double-dash-rush-jab-confirm/frame-2.jpg",
+					"at": 1.4,
+					"label": "Rush jab",
+					"alt": "Raw Rush crouching jab catches the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-double-dash-rush-jab-confirm/frame-3.jpg",
+					"at": 3.1,
+					"label": "Medium Spike finish",
+					"alt": "The standing-medium-kick and medium-punch links lead into medium Eagle Spike."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-rush-forward-kick-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-double-dash-jab-block-ed-sa3",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: two dashes and Rush jab blocks Ed Level 3",
+		"summary": "After two dashes and raw Rush, the crouching-jab attempt recovers to block Ed’s recorded Level 3.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Reversal blocked"],
+		"notation": "66 > 66 > DR > cr.LP > block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "block",
+				"label": "Grounded guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is the specific recorded Ed Level 3 interaction. Faster reversals and current-patch timing remain untested.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 508,
+			"end": 512.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-double-dash-jab-block-ed-sa3/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-double-dash-jab-block-ed-sa3/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-double-dash-jab-block-ed-sa3/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-double-dash-jab-block-ed-sa3/frame-1.jpg",
+					"at": 1,
+					"label": "Two dashes and Rush",
+					"alt": "Rashid completes the two-dash and raw-Rush approach."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-double-dash-jab-block-ed-sa3/frame-2.jpg",
+					"at": 1.2,
+					"label": "Jab attempt",
+					"alt": "Rashid attempts crouching jab as Ed begins the wake-up Super."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-double-dash-jab-block-ed-sa3/frame-3.jpg",
+					"at": 3,
+					"label": "Level 3 blocked",
+					"alt": "The Level 3 strike meets Rashid’s grounded guard."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-rush-forward-kick-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-double-dash-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: two dashes and Rush throw",
+		"summary": "Two forward dashes and raw Rush reach the recorded normal throw after medium Spike.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw", "Knockdown"],
+		"notation": "66 > 66 > DR > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 542,
+			"end": 546.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-double-dash-rush-throw/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-double-dash-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-double-dash-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-double-dash-rush-throw/frame-1.jpg",
+					"at": 0.5,
+					"label": "Two forward dashes",
+					"alt": "Rashid dashes twice while Ed remains knocked down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-double-dash-rush-throw/frame-2.jpg",
+					"at": 1,
+					"label": "Rush approach",
+					"alt": "Raw Rush closes the final space."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-double-dash-rush-throw/frame-3.jpg",
+					"at": 2,
+					"label": "Throw connects",
+					"alt": "The normal throw connects at the recorded spacing."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-rush-forward-kick-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-double-dash-rush-medium-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: two dashes and Rush medium-kick confirm",
+		"summary": "After two dashes and raw Rush, standing medium kick links standing heavy into medium Eagle Spike.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 66 > DR > st.MK > st.HP > 214MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "214MK",
+				"label": "Medium Eagle Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 550,
+			"end": 553.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-double-dash-rush-medium-kick/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-double-dash-rush-medium-kick/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-double-dash-rush-medium-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-double-dash-rush-medium-kick/frame-1.jpg",
+					"at": 0.5,
+					"label": "Rush approach",
+					"alt": "The two dashes lead into raw Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-double-dash-rush-medium-kick/frame-2.jpg",
+					"at": 1,
+					"label": "Medium kick",
+					"alt": "Standing medium kick catches the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-double-dash-rush-medium-kick/frame-3.jpg",
+					"at": 2,
+					"label": "Medium Spike finish",
+					"alt": "Standing heavy links into medium Eagle Spike."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-medium-kick-overhead-confirm",
+			"rashid-depth-eagle-low-heavy-shimmy",
+			"rashid-depth-eagle-low-kill-di"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-sweep-kill-rush-jab-space-trap",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: sweep kill and Rush-jab space trap",
+		"summary": "Whiff sweep, use raw Rush jab into guard, then punish Ed’s missed throw with medium, heavy and medium Spike.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish"],
+		"outcomes": ["Throw bait", "Knockdown"],
+		"notation": "cr.HK (whiff) > DR > cr.LP (blocked) > block > st.MP (PC) > st.HP > 214MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HK (whiff)",
+				"label": "Sweep frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP (blocked)",
+				"label": "Blocked crouching jab"
+			},
+			{
+				"id": "step-4",
+				"notation": "block",
+				"label": "Grounded guard"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MP (PC)",
+				"label": "Punish-counter standing medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "214MK",
+				"label": "Medium Eagle Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"The space trap is shown against Ed’s recorded normal throw. It is not guaranteed against all wake-up choices.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 574,
+			"end": 579.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-sweep-kill-rush-jab-space-trap/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-sweep-kill-rush-jab-space-trap/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-sweep-kill-rush-jab-space-trap/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-sweep-kill-rush-jab-space-trap/frame-1.jpg",
+					"at": 0.5,
+					"label": "Sweep frame kill",
+					"alt": "Crouching heavy kick whiffs while Ed is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-sweep-kill-rush-jab-space-trap/frame-2.jpg",
+					"at": 1.5,
+					"label": "Rush jab blocked",
+					"alt": "Ed blocks the Rush crouching jab at the shown spacing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-sweep-kill-rush-jab-space-trap/frame-3.jpg",
+					"at": 3.5,
+					"label": "Throw-whiff punish",
+					"alt": "Standing medium and heavy punish the missed throw and lead into medium Eagle Spike."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-low-heavy-shimmy",
+			"rashid-depth-eagle-heavy-kill-rush-flip-punish",
+			"rashid-depth-eagle-dash-rush-medium-space-trap"
+		]
+	},
+	{
+		"id": "rashid-depth-eagle-sweep-low-kill-jab-heavy-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Spike: sweep and low kills into jab confirm",
+		"summary": "Whiff sweep and crouching light kick before the jab, medium-heavy target chain and heavy Eagle Spike.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HK (whiff) > cr.LK (whiff) > cr.LP > st.MP > st.HK > 214HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HK (whiff)",
+				"label": "Sweep frame kill"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK (whiff)",
+				"label": "Crouching-light-kick frame kill"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HK",
+				"label": "Heavy Eagle Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: ordinary medium Eagle Spike connects at the recorded spacing",
+			"Ed defender in the August 2024 recording"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context; the input sequence begins with the follow-up after that knockdown.",
+			"Printed +F values are remaining advantage, not instructions to wait that many frames.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "yoshika-rashid-eagle-spike-oki-2024",
+			"title": "【スト６】これ一本でラシードの起き攻めを完全マスター！中イーグル・スパイク、セットプレイ集！！！【ストリートファイター6/SF6】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=OIPIa0D9Hoc",
+			"published": "2024-08-23",
+			"start": 588,
+			"end": 593.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-eagle-sweep-low-kill-jab-heavy-spike/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-eagle-sweep-low-kill-jab-heavy-spike/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-eagle-sweep-low-kill-jab-heavy-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-eagle-sweep-low-kill-jab-heavy-spike/frame-1.jpg",
+					"at": 0.5,
+					"label": "Sweep and low kills",
+					"alt": "Sweep and crouching light kick whiff while Ed remains down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-eagle-sweep-low-kill-jab-heavy-spike/frame-2.jpg",
+					"at": 1.3,
+					"label": "Wake-up jab",
+					"alt": "Crouching jab catches the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-eagle-sweep-low-kill-jab-heavy-spike/frame-3.jpg",
+					"at": 3,
+					"label": "Heavy Spike finish",
+					"alt": "The medium-heavy target chain leads into heavy Eagle Spike."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-eagle-medium-kick-overhead-confirm",
+			"rashid-depth-eagle-low-heavy-shimmy",
+			"rashid-depth-eagle-low-kill-di"
+		]
+	},
+	{
+		"id": "rashid-depth-ysaar-mixer-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Medium Mixer: Ysaar, dash and throw",
+		"summary": "After the recorded medium-Mixer knockdown, activate Ysaar, dash through its cover and use the normal throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Wind"],
+		"outcomes": ["Throw", "Knockdown"],
+		"notation": "SA2 > 66 > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "SA2",
+				"label": "Ysaar activation"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: medium Spinning Mixer knockdown against Luke in the selected take"
+		],
+		"notes": [
+			"The preceding medium Mixer is retained only as context at the start; its input is not part of this practice sequence. Recovery choice and tornado spacing matter; no guaranteed throw is claimed.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "2 Super bars — SA2"
+		},
+		"source": {
+			"id": "yoshika-rashid-ysaar-2024",
+			"title": "【スト６】ラシード使いは絶対に覚えたい！SA2の使い方を解説！入門講座第2弾【ストリートファイター6/SF6/イウサール/初心者】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=phybdiHvjjo",
+			"published": "2024-07-18",
+			"start": 76.45,
+			"end": 82.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-ysaar-mixer-dash-throw/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-ysaar-mixer-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-ysaar-mixer-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-ysaar-mixer-dash-throw/frame-1.jpg",
+					"at": 1.05,
+					"label": "Ysaar activation",
+					"alt": "Rashid activates Ysaar while Luke is still knocked down after medium Mixer."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-ysaar-mixer-dash-throw/frame-2.jpg",
+					"at": 2.55,
+					"label": "Dash approach",
+					"alt": "A forward dash advances through the tornado cover."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-ysaar-mixer-dash-throw/frame-3.jpg",
+					"at": 4.05,
+					"label": "Normal throw",
+					"alt": "The normal throw connects after the approach."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-mixer-rush-overhead-block",
+			"rashid-depth-mixer-rush-forward-kick-block",
+			"rashid-depth-mixer-forward-kick-counter-confirm"
+		]
+	},
+	{
+		"id": "rashid-depth-ysaar-walk-guard-luke-dp-whiff",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Ysaar: Luke uppercut spacing check",
+		"summary": "Activate Ysaar at the recorded separation and let Luke’s regular Rising Uppercut miss before the later punish.",
+		"kind": "response",
+		"situations": ["Midscreen", "Wind"],
+		"outcomes": ["Reversal whiff"],
+		"notation": "SA2 > hold position",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "SA2",
+				"label": "Ysaar activation"
+			},
+			{
+				"id": "step-2",
+				"notation": "hold position",
+				"label": "Remain outside uppercut range"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Luke Rising Uppercut is the recorded defender response",
+			"The regular Rising Uppercut strength is not resolved by the displayed P1 inputs; no OD version is claimed",
+			"Use the shown separation and tornado placement"
+		],
+		"notes": [
+			"This demonstrates the recorded spacing and uppercut whiff. It does not establish a manual walk-guard timing, a blocked reversal or universal invulnerability. The following punish route is outside the loop.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "2 Super bars — SA2"
+		},
+		"source": {
+			"id": "yoshika-rashid-ysaar-2024",
+			"title": "【スト６】ラシード使いは絶対に覚えたい！SA2の使い方を解説！入門講座第2弾【ストリートファイター6/SF6/イウサール/初心者】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=phybdiHvjjo",
+			"published": "2024-07-18",
+			"start": 119.95,
+			"end": 121.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-ysaar-walk-guard-luke-dp-whiff/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-ysaar-walk-guard-luke-dp-whiff/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-ysaar-walk-guard-luke-dp-whiff/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-ysaar-walk-guard-luke-dp-whiff/frame-1.jpg",
+					"at": 0.65,
+					"label": "Ysaar activation",
+					"alt": "Rashid activates Level 2 at the recorded separation."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-ysaar-walk-guard-luke-dp-whiff/frame-2.jpg",
+					"at": 1.65,
+					"label": "Tornado spacing",
+					"alt": "Rashid recovers from Ysaar at the shown separation before the uppercut."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-ysaar-walk-guard-luke-dp-whiff/frame-3.jpg",
+					"at": 1.85,
+					"label": "Uppercut misses",
+					"alt": "Luke’s regular Rising Uppercut remains airborne without reaching Rashid."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-wind-pc-spike-level-two-one",
+			"rashid-depth-ysaar-mixer-dash-throw",
+			"rashid-depth-ysaar-overhead-throw"
+		]
+	},
+	{
+		"id": "rashid-depth-ysaar-overhead-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Ysaar: overhead hit into separate throw",
+		"summary": "Use forward-heavy overhead behind Ysaar, then take the recorded normal throw after the hit.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Wind"],
+		"outcomes": ["Throw", "Knockdown"],
+		"notation": "SA2 > 6HP > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "SA2",
+				"label": "Ysaar activation"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Forward-heavy overhead"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": ["Classic controls", "Luke is crouching for the overhead in this recording"],
+		"notes": [
+			"The overhead hit and subsequent throw are separate pressure interactions, not a continuous strike combo or guaranteed throw.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "2 Super bars — SA2"
+		},
+		"source": {
+			"id": "yoshika-rashid-ysaar-2024",
+			"title": "【スト６】ラシード使いは絶対に覚えたい！SA2の使い方を解説！入門講座第2弾【ストリートファイター6/SF6/イウサール/初心者】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=phybdiHvjjo",
+			"published": "2024-07-18",
+			"start": 131.4,
+			"end": 136.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-ysaar-overhead-throw/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-ysaar-overhead-throw/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-ysaar-overhead-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-ysaar-overhead-throw/frame-1.jpg",
+					"at": 1.0,
+					"label": "Ysaar activation",
+					"alt": "Level 2 creates tornado cover at the recorded spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-ysaar-overhead-throw/frame-2.jpg",
+					"at": 2.6,
+					"label": "Overhead hit",
+					"alt": "Forward-heavy overhead hits the crouching Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-ysaar-overhead-throw/frame-3.jpg",
+					"at": 4.1,
+					"label": "Throw follow-up",
+					"alt": "The later normal throw connects after the overhead hit."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-wind-pc-spike-level-two-one",
+			"rashid-depth-ysaar-mixer-dash-throw",
+			"rashid-depth-ysaar-walk-guard-luke-dp-whiff"
+		]
+	},
+	{
+		"id": "rashid-depth-ysaar-light-mixer-pressure-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Active Ysaar: three light Mixers into throw",
+		"summary": "With Ysaar already active, repeat light Mixer three times into guard, then use the recorded normal throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Wind"],
+		"outcomes": ["Throw", "Knockdown"],
+		"notation": "236LP > 236LP > 236LP > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236LP",
+				"label": "Light Spinning Mixer"
+			},
+			{
+				"id": "step-2",
+				"notation": "236LP",
+				"label": "Second light Spinning Mixer"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LP",
+				"label": "Third light Spinning Mixer"
+			},
+			{
+				"id": "step-4",
+				"notation": "LP+LK",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: Ysaar already active at the shown near-corner spacing",
+			"Luke blocks the three recorded Mixers before the throw"
+		],
+		"notes": [
+			"The loop begins after Ysaar activation; its two-bar prerequisite is not an additional spend inside this clip. The source demonstrates a pressure choice, not a gapless or uninterruptible blockstring.",
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No additional Super spend — Ysaar already active"
+		},
+		"source": {
+			"id": "yoshika-rashid-ysaar-2024",
+			"title": "【スト６】ラシード使いは絶対に覚えたい！SA2の使い方を解説！入門講座第2弾【ストリートファイター6/SF6/イウサール/初心者】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=phybdiHvjjo",
+			"published": "2024-07-18",
+			"start": 150.75,
+			"end": 158.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-ysaar-light-mixer-pressure-throw/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-ysaar-light-mixer-pressure-throw/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-ysaar-light-mixer-pressure-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-ysaar-light-mixer-pressure-throw/frame-1.jpg",
+					"at": 1.25,
+					"label": "First Mixer blocked",
+					"alt": "Luke blocks the first light Mixer while the tornado remains behind Rashid."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-ysaar-light-mixer-pressure-throw/frame-2.jpg",
+					"at": 3.25,
+					"label": "Repeated Mixer pressure",
+					"alt": "The next light Mixer continues the recorded block pressure."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-ysaar-light-mixer-pressure-throw/frame-3.jpg",
+					"at": 6.75,
+					"label": "Throw branch",
+					"alt": "Rashid takes the normal throw after the repeated Mixer pressure."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-wind-pc-spike-level-two-one",
+			"rashid-depth-ysaar-mixer-dash-throw",
+			"rashid-depth-ysaar-walk-guard-luke-dp-whiff"
+		]
+	},
+	{
+		"id": "rashid-depth-ysaar-heavy-kick-light-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Active Ysaar launch: heavy kick into light Spike",
+		"summary": "Pick up the already-active Ysaar launch with standing heavy kick and light Eagle Spike without additional Drive spend.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Wind"],
+		"outcomes": ["Knockdown"],
+		"notation": "Ysaar hits > st.HK > 214LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Ysaar hits",
+				"label": "Already-active Ysaar launches"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LK",
+				"label": "Light Eagle Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: Ysaar already active and launching Luke at the shown spacing"
+		],
+		"notes": [
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No additional Super spend — Ysaar already active"
+		},
+		"source": {
+			"id": "yoshika-rashid-ysaar-2024",
+			"title": "【スト６】ラシード使いは絶対に覚えたい！SA2の使い方を解説！入門講座第2弾【ストリートファイター6/SF6/イウサール/初心者】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=phybdiHvjjo",
+			"published": "2024-07-18",
+			"start": 195.9,
+			"end": 199.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-ysaar-heavy-kick-light-spike/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-ysaar-heavy-kick-light-spike/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-ysaar-heavy-kick-light-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-ysaar-heavy-kick-light-spike/frame-1.jpg",
+					"at": 0.6,
+					"label": "Ysaar launch",
+					"alt": "The active tornado launches Luke before the manual pickup."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-ysaar-heavy-kick-light-spike/frame-2.jpg",
+					"at": 1.6,
+					"label": "Heavy-kick pickup",
+					"alt": "Standing heavy kick catches the tornado juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-ysaar-heavy-kick-light-spike/frame-3.jpg",
+					"at": 2.6,
+					"label": "Light Spike finish",
+					"alt": "Light Eagle Spike continues the recorded juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-depth-wind-pc-spike-level-two-one",
+			"rashid-depth-ysaar-mixer-dash-throw",
+			"rashid-depth-ysaar-walk-guard-luke-dp-whiff"
+		]
+	},
+	{
+		"id": "rashid-depth-ysaar-corner-heavy-kick-heavy-mixer",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "rashid"
+			}
+		],
+		"title": "Active Ysaar corner launch: heavy kick into heavy Mixer",
+		"summary": "At the corner, convert the active Ysaar launch with standing heavy kick into heavy Spinning Mixer.",
+		"kind": "combo",
+		"situations": ["Corner", "Wind"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "Ysaar hits > st.HK > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Ysaar hits",
+				"label": "Already-active Ysaar launches"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "Heavy Spinning Mixer"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: Ysaar already active and launching Luke in the corner"
+		],
+		"notes": [
+			"This is a dated source demonstration. Current-patch timing and matchup behavior have not been tested in-game."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No additional Super spend — Ysaar already active"
+		},
+		"source": {
+			"id": "yoshika-rashid-ysaar-2024",
+			"title": "【スト６】ラシード使いは絶対に覚えたい！SA2の使い方を解説！入門講座第2弾【ストリートファイター6/SF6/イウサール/初心者】",
+			"creator": "4shika / Yoshika",
+			"url": "https://www.youtube.com/watch?v=phybdiHvjjo",
+			"published": "2024-07-18",
+			"start": 201.2,
+			"end": 206.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/rashid/rashid-depth-ysaar-corner-heavy-kick-heavy-mixer/clip.mp4",
+			"poster": "/media/rashid/rashid-depth-ysaar-corner-heavy-kick-heavy-mixer/frame-1.jpg",
+			"descriptionTrack": "/media/rashid/rashid-depth-ysaar-corner-heavy-kick-heavy-mixer/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/rashid/rashid-depth-ysaar-corner-heavy-kick-heavy-mixer/frame-1.jpg",
+					"at": 0.8,
+					"label": "Tornado launch",
+					"alt": "Ysaar juggles Luke at the corner before the manual pickup."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/rashid/rashid-depth-ysaar-corner-heavy-kick-heavy-mixer/frame-2.jpg",
+					"at": 2.05,
+					"label": "Heavy-kick pickup",
+					"alt": "Standing heavy kick catches Luke above the corner."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/rashid/rashid-depth-ysaar-corner-heavy-kick-heavy-mixer/frame-3.jpg",
+					"at": 3.3,
+					"label": "Heavy Mixer",
+					"alt": "Heavy Spinning Mixer continues the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"rashid-wall-splat-heavy-roll",
+			"rashid-corner-heavy-punish-level-one",
+			"rashid-depth-block-deejay-od-dp"
+		]
 	}
 ]

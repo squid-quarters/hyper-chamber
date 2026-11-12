@@ -1,0 +1,1429 @@
+{
+	"characterId": "kimberly",
+	"reviewedOn": "2026-11-12",
+	"baselineCommit": "929ff0b3a73080697e644b976960866c6ec1c781",
+	"originalReferencesPreserved": 15,
+	"newReferences": 80,
+	"newKinds": {
+		"setup": 59,
+		"combo": 11,
+		"response": 10
+	},
+	"status": "Substantial partial extraction; source-reviewed, current-patch gameplay untested",
+	"screeningNote": "Joe: complete 18-page four-second discovery survey viewed, followed by dense 0.5-second family surveys over 0–334, 377–578 and 588–675 and 0.4-second surveys over 675–844. Original baseline intervals were preserved. Selected moment/boundary ambiguities received finer 0.05–0.1-second and native HUD/input probes. Diaphone: root coauthor surveyed 902–978 and 1100–1146 at one second, then selected takes at 0.1 seconds/native input detail; four AA excerpts only. Other Diaphone chapters remain execution-unprocessed. Discovery is not completed extraction.",
+	"sources": [
+		{
+			"sourceKey": "joe-ebios-kimberly-classic-2026",
+			"youtubeId": "L77BwLi1q6g",
+			"title": "SF6 Kimberly Fundamentals Guide: The ONLY Combos & Setups You Need season4",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L77BwLi1q6g",
+			"publishedUtc": "2026-10-08T08:37:36+00:00",
+			"duration": 843.974,
+			"reportedDuration": 844,
+			"recordingSha256": "fbb6dd7d0db010f346343ddef87aa7b5c57ed97aef0f5c5e9b933cd599591ed9",
+			"metadataSha256": "f36476934ac99abd964fcb1a14ae77a933168e032f7be9cf18a12504d2aebb38",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 0.55,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/2LP/236LP +3F 1053). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 0.55,
+					"end": 3.1,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-lights-light-edge",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 3.1,
+					"end": 4.95,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/2LP/236LP +3F 1053). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 4.95,
+					"end": 7.35,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-light-edge-standing-throw",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 7.35,
+					"end": 9.25,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/2LP/236LP +3F 1053). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 9.25,
+					"end": 14.3,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-light-edge-standing-shimmy",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 14.3,
+					"end": 16.3,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/2LP/236LP +3F 1053). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 16.3,
+					"end": 18.4,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-light-edge-standing-low",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 18.4,
+					"end": 20.2,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/2LP/236LP +3F 1053). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 20.2,
+					"end": 22.4,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-light-edge-standing-medium-kick",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 22.4,
+					"end": 24.75,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/2LP/236LP +3F 1053). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 24.75,
+					"end": 29.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-light-edge-low-trade-heavy",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 29.85,
+					"end": 31.15,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/2LP/236LP +3F 1053). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 31.15,
+					"end": 35.45,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-light-four-button-target",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 35.45,
+					"end": 43.15,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/LP.MP.HP.HK +49F 1262). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 43.15,
+					"end": 46.35,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-target-whiff-medium-dash-throw",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 46.35,
+					"end": 50.1,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/LP.MP.HP.HK +49F 1262). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 50.1,
+					"end": 56.8,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-target-whiff-medium-dash-shimmy",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 56.8,
+					"end": 60.1,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/LP.MP.HP.HK +49F 1262). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 60.1,
+					"end": 64.7,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-target-whiff-medium-dash-medium",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 64.7,
+					"end": 72.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/LP.MP.HP.HK +49F 1262). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 72.65,
+					"end": 76.9,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-target-double-dash-delay-throw",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 76.9,
+					"end": 80.1,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/LP.MP.HP.HK +49F 1262). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 80.1,
+					"end": 86.75,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-target-double-dash-shimmy",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 86.75,
+					"end": 90.1,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/LP.MP.HP.HK +49F 1262). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 90.1,
+					"end": 96.6,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-target-double-dash-heavy-kick",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 96.6,
+					"end": 97.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2LP/LP.MP.HP.HK +49F 1262). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 97.65,
+					"end": 102.45,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-medium-run-arc-kick",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 102.45,
+					"end": 106.25,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2MP/MP.HP/236K.Arc Step.K +30F 2021). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 106.25,
+					"end": 109.3,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-arc-knockdown-rush-throw",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 109.3,
+					"end": 114.0,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2MP/MP.HP/236K.Arc Step.K +30F 2021). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 114.0,
+					"end": 119.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-arc-knockdown-rush-jab-shimmy",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 119.85,
+					"end": 124.8,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2MP/MP.HP/236K.Arc Step.K +30F 2021). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 124.8,
+					"end": 129.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-arc-knockdown-rush-heavy-kick",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 129.85,
+					"end": 134.3,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2MP/MP.HP/236K.Arc Step.K +30F 2021). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 134.3,
+					"end": 139.55,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-arc-knockdown-rush-back-heavy-kick",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 139.55,
+					"end": 143.9,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2MP/MP.HP/236K.Arc Step.K +30F 2021). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 143.9,
+					"end": 149.25,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-arc-knockdown-rush-low",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 149.25,
+					"end": 150.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2MP/MP.HP/236K.Arc Step.K +30F 2021). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 150.65,
+					"end": 155.1,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-medium-run-slide",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 155.1,
+					"end": 162.8,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2MP/MP.HP/236K.MK +47F 1832). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 162.8,
+					"end": 165.95,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-slide-double-dash-delay-throw",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 165.95,
+					"end": 166.2,
+					"disposition": "excluded",
+					"reason": "Ryu makes a separate jab after recovering from the selected throw; the clip stops before this unlisted action."
+				},
+				{
+					"start": 166.2,
+					"end": 170.05,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2MP/MP.HP/236K.MK +47F 1832). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 170.05,
+					"end": 176.1,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-slide-double-dash-shimmy",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 176.1,
+					"end": 179.3,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2MP/MP.HP/236K.MK +47F 1832). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 179.3,
+					"end": 183.95,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-slide-double-dash-heavy-kick",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 183.95,
+					"end": 184.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (2MP/MP.HP/236K.MK +47F 1832). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 184.65,
+					"end": 190.1,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-near-corner-slide-bushin",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 190.1,
+					"end": 199.7,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236K.MK/214LK +21F 2426). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 199.7,
+					"end": 202.75,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-bushin-jab-whiff-delay-throw",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 202.75,
+					"end": 207.7,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236K.MK/214LK +21F 2426). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 207.7,
+					"end": 213.9,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-bushin-buff-jab-whiff-walk-shimmy",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 213.9,
+					"end": 218.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236K.MK/214LK +21F 2426). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 218.65,
+					"end": 224.9,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-bushin-jab-whiff-backdash-shimmy",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 224.9,
+					"end": 230.15,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236K.MK/214LK +21F 2426). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 230.15,
+					"end": 235.45,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-bushin-jab-whiff-heavy-kick",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 235.45,
+					"end": 239.7,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236K.MK/214LK +21F 2426). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 239.7,
+					"end": 244.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-bushin-jab-whiff-heavy-kick-trade",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 244.85,
+					"end": 249.9,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236K.MK/214LK +21F 2426). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 249.9,
+					"end": 255.0,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-bushin-jab-whiff-low-medium",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 255.0,
+					"end": 256.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236K.MK/214LK +21F 2426). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 256.65,
+					"end": 262.45,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-medium-od-arc-launch-light-edge",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 262.45,
+					"end": 269.0,
+					"disposition": "duplicate",
+					"reason": "Repeated OD-Arc/launcher/light-Edge prerequisite already represented by the selected complete confirm; no additional card solely for another prerequisite take."
+				},
+				{
+					"start": 269.0,
+					"end": 276.4,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236KK.Arc Step.K/236K.LK/236LP +36F 2669). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 276.4,
+					"end": 279.5,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-od-arc-medium-kick-whiff-delay-throw",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 279.5,
+					"end": 279.9,
+					"disposition": "excluded",
+					"reason": "A separate Ryu jab begins after the selected delayed throw recovers; excluded from the authored throw-only follow-up."
+				},
+				{
+					"start": 279.9,
+					"end": 286.25,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236KK.Arc Step.K/236K.LK/236LP +36F 2669). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 286.25,
+					"end": 294.0,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-od-arc-medium-kick-whiff-shimmy",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 294.0,
+					"end": 300.7,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236KK.Arc Step.K/236K.LK/236LP +36F 2669). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 300.7,
+					"end": 307.65,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-od-arc-medium-kick-whiff-heavy-kick",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 307.65,
+					"end": 314.35,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236KK.Arc Step.K/236K.LK/236LP +36F 2669). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 314.35,
+					"end": 319.7,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-od-arc-medium-kick-whiff-heavy-trade",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 319.7,
+					"end": 326.4,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236KK.Arc Step.K/236K.LK/236LP +36F 2669). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 326.4,
+					"end": 333.4,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-od-arc-medium-kick-whiff-low",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 333.4,
+					"end": 334.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner 2MP/MP.HP/236KK.Arc Step.K/236K.LK/236LP +36F 2669). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 334.65,
+					"end": 346.1,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-od-arc-run-launch-level-one",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 346.1,
+					"end": 346.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (MK/DRC/2MK/2MP/MP.HP/236K.MK +47F 1978). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 346.65,
+					"end": 352.15,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-medium-kick-rush-slide",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 352.15,
+					"end": 352.95,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (MK/DRC/2HP/236K.P/2MP/2MP/MP.HP/236K.MK +47F 2240). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 352.95,
+					"end": 359.1,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-medium-kick-rush-stop-slide",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 359.1,
+					"end": 360.05,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (MK/DRC/2HP/236K.P/2MP/2MP/MP/DRC/2HP/236K.P/2MP/2MP/MP.HP/236LP/SA3 4575). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 360.05,
+					"end": 376.8,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-medium-kick-double-rush-level-three",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 376.8,
+					"end": 377.55,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (MK/DRC/2HP/236K.P/2MP/2MP/MP/DRC/2HP/236K.P/2MP/2MP/MP.HP/236LP/SA3 4575). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 377.55,
+					"end": 380.7,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-back-heavy-kick-jab-light-edge",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 380.7,
+					"end": 381.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (4HK/2LP/236LP +3F 1448). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 381.65,
+					"end": 385.55,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-corner-back-heavy-kick-jab-heavy-bushin",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 385.55,
+					"end": 386.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (corner 4HK/2LP/214HK +21F 1682). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 386.65,
+					"end": 391.65,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-heavy-launch-air-grab",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 391.65,
+					"end": 392,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HP/236HP/J236P +22F 2322). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 392,
+					"end": 398,
+					"disposition": "excluded",
+					"reason": "The midscreen dash/crouching-medium approach visibly misses at this spacing. It is not described as a successful meaty or copied to the corner follow-ups."
+				},
+				{
+					"start": 398,
+					"end": 408.05,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HP/236HP/J236P +22F 2322). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 408.05,
+					"end": 410.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-airgrab-corner-dash-throw",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 410.85,
+					"end": 415.6,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HP/236HP/J236P +22F 2322). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 415.6,
+					"end": 421.5,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-airgrab-corner-dash-shimmy",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 421.5,
+					"end": 426.25,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HP/236HP/J236P +22F 2322). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 426.25,
+					"end": 429.75,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-airgrab-corner-dash-low-medium",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 429.75,
+					"end": 433.85,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HP/236HP/J236P +22F 2322). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 433.85,
+					"end": 438.65,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-airgrab-corner-dash-medium",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 438.65,
+					"end": 440.15,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HP/236HP/J236P +22F 2322). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 440.15,
+					"end": 446.35,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-heavy-od-airgrab-run-light-edge",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 446.35,
+					"end": 453.35,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HP/236HP/J236PP/236K.LK/236LP(/SA3) +35F 2835). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 453.35,
+					"end": 456.35,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-od-airgrab-knockdown-rush-throw",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 456.35,
+					"end": 458.15,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HP/236HP/J236PP/236K.LK/236LP(/SA3) +35F 2835). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 458.15,
+					"end": 469.35,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-heavy-od-airgrab-run-level-one",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 469.35,
+					"end": 470.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HP/236HP/J236PP/236K.LK/SA1 3530). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 470.65,
+					"end": 474.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-standing-heavy-kick-target-slide",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 474.85,
+					"end": 475.75,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HK/MP.HP/236K.MK +47F 1962). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 475.75,
+					"end": 480.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-raw-rush-back-heavy-kick-slide",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 480.85,
+					"end": 482.05,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (DR/4HK/MP.HP/236K.MK +47F 1755). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 482.05,
+					"end": 489.4,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-raw-rush-heavy-kick-od-airgrab",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 489.4,
+					"end": 490.75,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (DR/HK/HP/236HP/J236PP/236K.LK/236LP +35F 3096). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 490.75,
+					"end": 495.65,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-raw-rush-medium-crouching-medium-slide",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 495.65,
+					"end": 496.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (DR/MP/2MP/MP.HP/236K.MK +47F 2156). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 496.65,
+					"end": 504.35,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-raw-rush-low-heavy-od-airgrab",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 504.35,
+					"end": 507.95,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (DR/2MK/HP/236HP/J236PP/236K.LK/236LP +35F 2565). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 507.95,
+					"end": 512.4,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-forward-throw-rush-medium-hit",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 512.4,
+					"end": 520.3,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (throw/DR/MP/2MP/MP.HP/236K.MK). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 520.3,
+					"end": 523.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-forward-throw-blocked-rush-medium-throw",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 523.85,
+					"end": 527.05,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (throw/DR/MP blocked+3). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 527.05,
+					"end": 532.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-forward-throw-blocked-rush-medium-shimmy",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 532.85,
+					"end": 535.85,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (throw/DR/MP blocked+3). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 535.85,
+					"end": 538.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-forward-throw-blocked-rush-medium-low",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 538.85,
+					"end": 541.25,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (throw/DR/MP blocked+3). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 541.25,
+					"end": 544.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-forward-throw-blocked-rush-medium-low-link",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 544.85,
+					"end": 547.85,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (throw/DR/MP blocked+3). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 547.85,
+					"end": 553.75,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-forward-throw-blocked-rush-medium-low-trade",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 553.75,
+					"end": 557.15,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (throw/DR/MP blocked+3). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 557.15,
+					"end": 559.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-corner-forward-throw-walk-throw",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 559.85,
+					"end": 563.15,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (corner throw). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 563.15,
+					"end": 568.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-corner-forward-throw-walk-shimmy",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 568.85,
+					"end": 572.15,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (corner throw). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 572.15,
+					"end": 576.95,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-corner-forward-throw-walk-heavy-kick",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 576.95,
+					"end": 579.05,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (corner throw). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 579.05,
+					"end": 587.75,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-counter-di-heavy-launch-grab",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 587.75,
+					"end": 588.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (DI(PC)/2HP/236HP/J236P +22F 2682). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 588.65,
+					"end": 598.5,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-counter-drive-impact-od-airgrab",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 598.5,
+					"end": 599.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (DI(PC)/2HP/236HP/J236PP/236K.LK/236LP +35F 2961). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 599.65,
+					"end": 605.75,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-wall-splat-run-launch-grab",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 605.75,
+					"end": 606.75,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (corner DI(block or hit)/2HP/236K.LK/J236P +22F 2217). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 606.75,
+					"end": 614.45,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-corner-drive-impact-od-airgrab",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 614.45,
+					"end": 616.55,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (corner DI(block or hit)/2HP/236K.LK/J236PP/236K.LK/236LP +35F 2628). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 616.55,
+					"end": 620.6,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-guarded-bison-reversal-light-kick-punish",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 620.6,
+					"end": 621.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (LK(PC)/236MP +37F 1188). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 621.65,
+					"end": 631.4,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-drive-reversal-od-grab-extension",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 631.4,
+					"end": 632.05,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HP(PC)/236K.P/HK/MP.HP/236K.MK +47F shimmy & DP punish 2502). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 632.05,
+					"end": 638.75,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-heavy-punish-run-stop-target-slide",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 638.75,
+					"end": 639.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HP(PC)/236K.P/HK/MP.HP/236K.MK +47F shimmy & DP punish 2502). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 639.65,
+					"end": 647.9,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-blocked-rush-medium-shimmy-od-airgrab",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 647.9,
+					"end": 649.35,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (HP(PC)/236K.P/HP/236HP/J236PP/236K.LK/236LP +35F shimmy & DP punish 3222). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 649.35,
+					"end": 654.85,
+					"disposition": "reused",
+					"referenceId": "kimberly-ebios-corner-target-medium-bomb",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 654.85,
+					"end": 655.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (corner LP.MP.HP.HK/22MP or 22MHP +5F). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 655.65,
+					"end": 660.08,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-target-slide-medium-bomb-plant",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 660.08,
+					"end": 660.25,
+					"disposition": "excluded",
+					"reason": "Caption dissolve and transition after the selected medium-bomb detonation; excluded from the prepared clip."
+				},
+				{
+					"start": 660.25,
+					"end": 660.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner HP/236HP/J236PP/236K.LK/22HP or 22MHP +11F). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 660.65,
+					"end": 667.75,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-heavy-od-airgrab-heavy-bomb-plant",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 667.75,
+					"end": 668.2,
+					"disposition": "excluded",
+					"reason": "Outgoing caption dissolve and reset into the next take, excluded from the heavy-bomb plant clip."
+				},
+				{
+					"start": 668.2,
+					"end": 668.5,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner MP.HP/236KK.Arc Step.K/2LP(whiff)/236K.LK/22HP or 22MHP +9F). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 668.5,
+					"end": 674.75,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-od-arc-whiff-jab-launch-heavy-bomb",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 674.75,
+					"end": 678.15,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (near corner MP.HP/236KK.Arc Step.K/2LP(whiff)/236K.LK/22HP or 22MHP +9F). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 678.15,
+					"end": 685.4,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-one-bomb-throw-od-airgrab-replant",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 685.4,
+					"end": 688.45,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (Backdash shimmy/HP(PC)/214P/2HP/214P/MP/236K.LK/22HP +9F 2700). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 688.45,
+					"end": 695.5,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-one-bomb-backdash-shimmy-teleports",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 695.5,
+					"end": 699.1,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (Backdash shimmy/HP(PC)/214P/2HP/214P/MP/236K.LK/22HP +9F 2700). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 699.1,
+					"end": 704.1,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-one-bomb-guard-drive-reversal",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 704.1,
+					"end": 705.4,
+					"disposition": "excluded",
+					"reason": "Ryu performs a separate next Drive-Reversal attempt after the selected punish/replant. It is outside the authored one-reversal response."
+				},
+				{
+					"start": 705.4,
+					"end": 709.05,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (D-Rev block/MP/236K.LK/JMP/J214KK/22MP +5F 2943). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 709.05,
+					"end": 713.05,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-one-bomb-blocked-target-stop-throw",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 713.05,
+					"end": 717.0,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (MP.HP(block)/236K.P/throw). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 717.0,
+					"end": 722.25,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-one-bomb-blocked-target-overhead",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 722.25,
+					"end": 725.25,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (MP.HP(block)/236K.HK/JMP/J214KK/22MP +5F 2655). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 725.25,
+					"end": 733.25,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-one-bomb-blocked-target-slide",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 733.25,
+					"end": 736.5,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (MP.HP(block)/236K.MK/236K.LK/J236PP/236K.LK/22HP +11F 2610). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 736.5,
+					"end": 742.8,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-one-bomb-target-hit-light-edge",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 742.8,
+					"end": 747.05,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (MP.HP(hit)/236LP/236LK.LK/JMP/J214KK/22MP +5F 3168). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 747.05,
+					"end": 753.15,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-two-bomb-guard-drive-reversal",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 753.15,
+					"end": 755.5,
+					"disposition": "excluded",
+					"reason": "Another Ryu Drive-Reversal attempt follows the selected two-bomb punish/replant. No repeated response is appended."
+				},
+				{
+					"start": 755.5,
+					"end": 758.75,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (D-Rev block/MP/MP(whiff)/214P/2HP/214P/2HP/236K.LK/22HP +11F 3168). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 758.75,
+					"end": 765.4,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-two-bomb-backdash-light-edge-teleports",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 765.4,
+					"end": 769.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (Backdash shimmy/HP(PC)/236LP/2MK(whiff)/214P/2HP/214P/2HP/236K.LK/22HP +11F 3672). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 769.65,
+					"end": 776.45,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-two-bomb-blocked-target-slide",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 776.45,
+					"end": 781.1,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (MP.HP(block)/236LP/236K.MK/236K.LK/JMP/J214KK/22MP +6F 2655). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 781.1,
+					"end": 789.75,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-two-bomb-blocked-target-back-heavy-kick",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 789.75,
+					"end": 792.55,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (MP.HP(block)/236LP/4HK/236K.LK/J236PP/236K.LK/22HP +11F 2452). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 792.55,
+					"end": 799.5,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-two-bomb-target-hit-sweep-teleports",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 799.5,
+					"end": 803.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (MP.HP/236LP/2HK/214P/2HP/214P/MP/236K.LK/22HP +9F 3465). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 803.65,
+					"end": 810.55,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-two-bomb-throw-delay-teleports",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 810.55,
+					"end": 815.25,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (throw/delay214P/2HP/214P/MP/236K.LK/22HP +9F 2499). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 815.25,
+					"end": 821.85,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-two-bomb-guard-od-dp-auto-punish",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 821.85,
+					"end": 824.3,
+					"disposition": "excluded",
+					"reason": "Separate additional Ryu OD-uppercut attempt and transition follow the selected automatic-bomb punish."
+				},
+				{
+					"start": 824.3,
+					"end": 830.05,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (DP((block)/HP(PC)/236K.LK/JMP/J214KK/22MP +6F 3051). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 830.05,
+					"end": 835.9,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-two-bomb-guard-od-dp-heavy-punish",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 835.9,
+					"end": 838.9,
+					"disposition": "excluded",
+					"reason": "Separate additional Ryu OD-uppercut attempt follows the selected manual-heavy punish/replant."
+				},
+				{
+					"start": 838.9,
+					"end": 843.974,
+					"disposition": "excluded",
+					"reason": "Closing thank-you/end card, without a new practice demonstration."
+				}
+			]
+		},
+		{
+			"sourceKey": "diaphone-kimberly-guide-2023",
+			"youtubeId": "cGHHeQRhcSg",
+			"title": "Kimberly 101 | Strategy, Combos, Overview and Advanced Tips | Street Fighter 6 Guide",
+			"creator": "Diaphone",
+			"url": "https://www.youtube.com/watch?v=cGHHeQRhcSg",
+			"publishedUtc": "2023-06-15T00:09:48+00:00",
+			"duration": 1998.587937,
+			"reportedDuration": 1999,
+			"recordingSha256": "1eb438ef01e7ecce76a1e3da710b78450363ec5ca94de5dd7fc8bd9b101a4abf",
+			"metadataSha256": "91e428a3218e2267cc4379f164eac536b55a504a07fa0016a0b734c3b3bb44f9",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 908.8,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (Intro). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 908.8,
+					"end": 920,
+					"disposition": "excluded",
+					"reason": "The late normal-Senpukyaku attempts lose to the Cammy jump-in. They limit the successful earlier-timed example; no late invincibility claim."
+				},
+				{
+					"start": 920,
+					"end": 921.65,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (Specials). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 921.65,
+					"end": 923.55,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-diaphone-heavy-senpu-anti-air",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 923.55,
+					"end": 963.95,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (Specials). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 963.95,
+					"end": 965.7,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-diaphone-od-senpu-anti-air",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 965.7,
+					"end": 966.2,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (Specials). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 966.2,
+					"end": 969.7,
+					"disposition": "duplicate",
+					"reason": "Repeated OD-Senpukyaku evidence used to inspect the performed light-plus-medium kick history; one successful take is selected, rather than padding with repetitions."
+				},
+				{
+					"start": 969.7,
+					"end": 1101.7,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (Specials). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 1101.7,
+					"end": 1103.8,
+					"disposition": "excluded",
+					"reason": "A normal air-throw attempt misses the grounded mirror opponent; not selected as a successful jump interception."
+				},
+				{
+					"start": 1103.8,
+					"end": 1111.7,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (Specials). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 1111.7,
+					"end": 1114.1,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-diaphone-neutral-jump-od-air-grab",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 1114.1,
+					"end": 1118.4,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (Specials). Discovery and prerequisite-context review do not mean finished extraction."
+				},
+				{
+					"start": 1118.4,
+					"end": 1120.5,
+					"disposition": "reviewed",
+					"referenceId": "kimberly-depth-diaphone-tiger-knee-light-air-grab",
+					"reason": "Actual action order, strength/state/resource risks, selected moments and source/prepared endpoints reviewed; current-patch gameplay untested."
+				},
+				{
+					"start": 1120.5,
+					"end": 1998.587937,
+					"disposition": "unprocessed",
+					"reason": "No separate complete recipe/media extraction for this source interval (Specials). Discovery and prerequisite-context review do not mean finished extraction."
+				}
+			]
+		}
+	],
+	"interpretationDecisions": [
+		{
+			"topic": "Starting state and goals",
+			"decision": "The five light-Edge follow-ups begin from standing advantage and are tagged Pressure, not Oki. Knockdown approaches and bomb follow-ups have Oki only where the prerequisite is shown. Corner is used when the selected take actually begins there. No carry goal is inferred from an ender name, and Level-1 use alone is not treated as Cash-out."
+		},
+		{
+			"topic": "Prerequisites and source clocks",
+			"decision": "Setup prerequisites are separate from performed inputs. Loops may retain the final prerequisite recovery/plant frames to show the timing; they do not require copying the whole prerequisite again. The prior OD cost is separate from the current follow-up cost. Numeric +F captions report remaining advantage, not an invented fixed delay."
+		},
+		{
+			"topic": "Whiffs, branches and buff",
+			"decision": "Intentional standing/crouching jab, medium and low-kick whiffs are explicitly marked in compact notation. A late midscreen dash/medium miss is excluded. The walk-shimmy after light Bushin specifically begins with the visible preexisting Level-3 buff and zero Super; the unbuffed backdash branch is a different approach. Counter-Hit trades are conditional on the recorded Ryu jab, not ordinary links."
+		},
+		{
+			"topic": "Bomb resources and automatic hits",
+			"decision": "Medium/heavy plants use the actually performed 22MP/22HP. The two-bomb prerequisite uses 22MP+HP. One-bomb branches begin with two cans remaining and replant one; two-bomb branches begin with one can remaining and spend the last can. Existing bomb hits occur automatically on their timer. No additional manual Bomb input or guaranteed universal coverage is inferred. The SA1 take visibly changes the can counter from three to two, separately from its one Super bar."
+		},
+		{
+			"topic": "One versus two bombs and timing alternatives",
+			"decision": "The selected one-bomb branches preserve their actual +3 slide or +5 target prerequisite. Two-bomb target/slide branches preserve their respective +5/+3 timing. The delayed-teleport throw and automatic-bomb OD-DP punish show the target +5 prerequisite. The manual-heavy OD-DP punish instead shows an OD-air-grab/launcher +11 plant; its printed +9 alternative is not a separate tested take."
+		},
+		{
+			"topic": "Actual inputs over overlays",
+			"decision": "Cyan/light, yellow/medium and red/heavy live glyphs distinguish strengths. Sprint stop, launcher/slide/overhead, target continuations and Arc-Step kick are distinct. Both AA air throws visibly buffer grounded quarter-circle into up-forward: normal 2369LP and OD 2369LP+HP. An older history row beginning with 8 means eight frames holding forward, not a neutral-jump direction. The normal and OD takes are distinct resource/result branches."
+		},
+		{
+			"topic": "Recorded responses and source editing",
+			"decision": "Ryu Drive-Reversal and OD-uppercut responses cover only the actual shown attempts/timing. The Bison light-kick punish is limited to the recorded two-kick reversal at that spacing. Diaphone AA excerpts demonstrate the recorded Cammy/mirror jumps and are creator-cut before full recovery. No universal invincibility, reaction guarantee or current-patch safety is asserted. Separate next reversal attempts and caption transitions are removed from authored clip tails."
+		}
+	],
+	"remainingGaps": [
+		"Every unselected interval is listed explicitly in each whole-clock partition. Some are repeated prerequisites, idle/transition footage or alternatives; none is claimed fully extracted.",
+		"Joe still has unselected earlier target/OD-Arc take repetitions and alternate prerequisite timings printed in bomb captions. No separate recipe/media review of all alternatives is claimed.",
+		"Diaphone normals 37–660, other specials 660–1245, combos 1245–1413, strategy 1413–1740 and advanced 1740–1998.588 are largely execution-unprocessed outside the four selected AA intervals and narrow supporting survey.",
+		"Other metadata-backed companions remain available; source availability is not exhausted. No current-patch in-game certification."
+	]
+}

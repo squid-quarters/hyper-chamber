@@ -1,0 +1,567 @@
+{
+	"characterId": "ed",
+	"reviewedOn": "2026-11-12",
+	"baselineReferences": 15,
+	"references": 37,
+	"newReferences": 22,
+	"kinds": {
+		"combo": 16,
+		"setup": 19,
+		"response": 2
+	},
+	"verification": "source-reviewed; current-patch gameplay untested",
+	"sources": [
+		{
+			"sourceId": "joe-ebios-ed-2026",
+			"youtubeId": "NoH1BViQnRU",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"published": "2026-06-06",
+			"duration": 307,
+			"recordingSha256": "7c8dd318e921c43971bb9b8d47f789b612543f2c357bbd8c69d2eb5835f3e5bf",
+			"metadataSha256": "4801fd5fe1fc61220a27f70fee3e190d01df8c3533b560fd89614434215753ad",
+			"selected": [
+				{
+					"referenceId": "ed-lights-medium-blitz",
+					"start": 1.0,
+					"end": 4.8,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-medium-blitz-rush-throw",
+					"start": 8.05,
+					"end": 11.65,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-medium-blitz-rush-crouching-kick",
+					"start": 24.8,
+					"end": 29.2,
+					"kind": "setup",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-corner-medium-blitz-heavy-frame-kill-throw",
+					"start": 53.5,
+					"end": 56.3,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-corner-medium-blitz-meaty-medium",
+					"start": 69.35,
+					"end": 74.45,
+					"kind": "setup",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-drive-reversal-jab-target",
+					"start": 76.15,
+					"end": 81.85,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-body-blow-heavy-blitz",
+					"start": 83.25,
+					"end": 85.25,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-target-blitz-kill-rush-throw",
+					"start": 95.55,
+					"end": 98.7,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-low-rush-target-chaser",
+					"start": 206.8,
+					"end": 211.6,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-heavy-chaser-blitz",
+					"start": 213.1,
+					"end": 216.65,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-shimmy-heavy-crouching-medium",
+					"start": 235.1,
+					"end": 239.35,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-dp-punish-heavy-kick",
+					"start": 241.35,
+					"end": 246.1,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-counter-di-heavy-target",
+					"start": 248.35,
+					"end": 255.4,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-wall-splat-flicker-chaser-uppercut",
+					"start": 266.55,
+					"end": 273.05,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-crouching-medium-cashout",
+					"start": 284.65,
+					"end": 301.85,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "ed-depth-medium-blitz-rush-shimmy",
+					"start": 15.5,
+					"end": 21.45,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-corner-medium-blitz-spark-block",
+					"start": 34.25,
+					"end": 37.4,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-corner-medium-blitz-spark-hit",
+					"start": 40.3,
+					"end": 46.05,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-corner-medium-blitz-heavy-shimmy",
+					"start": 60.35,
+					"end": 66.65,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-heavy-blitz-jump-guard-ryu-od",
+					"start": 85.0,
+					"end": 88.0,
+					"kind": "response",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-heavy-blitz-rush-shimmy",
+					"start": 102.8,
+					"end": 109.1,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-heavy-blitz-rush-meaty-heavy",
+					"start": 111.85,
+					"end": 117.05,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-crouching-medium-pair-heavy-blitz",
+					"start": 117.65,
+					"end": 121.55,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-crouch-medium-blitz-rush-delay-throw",
+					"start": 129.75,
+					"end": 133.7,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-crouch-medium-blitz-rush-shimmy",
+					"start": 136.6,
+					"end": 142.8,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-crouch-medium-blitz-rush-meaty-crouch",
+					"start": 145.5,
+					"end": 150.75,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-corner-crouch-medium-blitz-spark-block",
+					"start": 153.65,
+					"end": 156.0,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-corner-crouch-medium-blitz-spark-hit",
+					"start": 159.1,
+					"end": 164.65,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-medium-light-medium-uppercut",
+					"start": 165.3,
+					"end": 169.5,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-medium-uppercut-rush-delay-throw",
+					"start": 176.8,
+					"end": 180.8,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-medium-uppercut-rush-shimmy",
+					"start": 183.8,
+					"end": 189.95,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-medium-uppercut-rush-meaty-medium",
+					"start": 192.6,
+					"end": 197.7,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-target-chaser-level-one",
+					"start": 198.65,
+					"end": 205.9,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-od-flicker-heavy-break-blitz",
+					"start": 218.0,
+					"end": 224.15,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-od-flicker-heavy-break-level-one",
+					"start": 224.7,
+					"end": 233.2,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-counter-di-held-light-flicker",
+					"start": 256.9,
+					"end": 265.7,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "ed-depth-od-blitz-cannon-double-uppercut",
+					"start": 274.8,
+					"end": 283.8,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				}
+			],
+			"timelineSurvey": {
+				"interval": [0, 307],
+				"intervalSeconds": 2,
+				"status": "All 13 discovery boards visually reviewed; source survey is not whole-source execution certification."
+			},
+			"fineReviewWindows": [
+				[12, 76, 0.5],
+				[83, 198, 0.5],
+				[198, 235, 0.5],
+				[256, 284, 0.5],
+				[15.2, 16.4, 0.1],
+				[274.8, 278, 0.1]
+			],
+			"executionReviewWindows": [
+				[15.5, 21.45],
+				[34.25, 37.4],
+				[40.3, 46.05],
+				[60.35, 66.65],
+				[85.0, 88.0],
+				[102.8, 109.1],
+				[111.85, 117.05],
+				[117.65, 121.55],
+				[129.75, 133.7],
+				[136.6, 142.8],
+				[145.5, 150.75],
+				[153.65, 156.0],
+				[159.1, 164.65],
+				[165.3, 169.5],
+				[176.8, 180.8],
+				[183.8, 189.95],
+				[192.6, 197.7],
+				[198.65, 205.9],
+				[218.0, 224.15],
+				[224.7, 233.2],
+				[256.9, 265.7],
+				[274.8, 283.8]
+			],
+			"unselectedSourceIntervals": [
+				[0, 1.0],
+				[4.8, 8.05],
+				[11.65, 15.5],
+				[21.45, 24.8],
+				[29.2, 34.25],
+				[37.4, 40.3],
+				[46.05, 53.5],
+				[56.3, 60.35],
+				[66.65, 69.35],
+				[74.45, 76.15],
+				[81.85, 83.25],
+				[88.0, 95.55],
+				[98.7, 102.8],
+				[109.1, 111.85],
+				[117.05, 117.65],
+				[121.55, 129.75],
+				[133.7, 136.6],
+				[142.8, 145.5],
+				[150.75, 153.65],
+				[156.0, 159.1],
+				[164.65, 165.3],
+				[169.5, 176.8],
+				[180.8, 183.8],
+				[189.95, 192.6],
+				[197.7, 198.65],
+				[205.9, 206.8],
+				[211.6, 213.1],
+				[216.65, 218.0],
+				[224.15, 224.7],
+				[233.2, 235.1],
+				[239.35, 241.35],
+				[246.1, 248.35],
+				[255.4, 256.9],
+				[265.7, 266.55],
+				[273.05, 274.8],
+				[283.8, 284.65],
+				[301.85, 307]
+			],
+			"unselectedIntervalStatus": "Not extracted. Includes repeated prerequisites, take margins, timing-only illustrations, caption alternatives and retained baseline context. No execution details in these gaps are newly certified.",
+			"dispositions": [
+				{
+					"interval": [0, 5.8],
+					"status": "baseline-reused",
+					"note": "Light confirm to medium Blitz retained unchanged; intro/take margins not counted."
+				},
+				{
+					"interval": [5.8, 30.8],
+					"status": "reviewed-selection-and-baseline-reuse",
+					"note": "Retained Rush throw and crouching-medium wake-up branches. New Rush shimmy starts before parry activation15.6; the complete observed heavy-punch Chaser punish is included."
+				},
+				{
+					"interval": [30.8, 46.5],
+					"status": "reviewed-selection",
+					"note": "Corner medium-Blitz +39 jab frame kill into light Spark, separate blocked +5 and hit-to-Uppercut takes. Spark strength comes from live cyan light-punch glyph. Caption-only throw/shimmy/MP follow-ups after block are excluded."
+				},
+				{
+					"interval": [46.5, 51],
+					"status": "excluded-timing-only-repeat",
+					"note": "Standing-heavy whiff +8 timing illustration, covered by the following actual throw/shimmy/strike branches rather than a separate card."
+				},
+				{
+					"interval": [51, 76],
+					"status": "reviewed-selection-and-baseline-reuse",
+					"note": "Existing corner heavy-whiff throw and meaty-medium branch retained. New heavy-whiff shimmy conversion. Repeated lights/medium-Blitz prerequisite excluded from input recipe; sufficient recovery context remains in each loop."
+				},
+				{
+					"interval": [76, 83],
+					"status": "baseline-reused",
+					"note": "Recorded Drive Reversal jab-target punish preserved."
+				},
+				{
+					"interval": [83, 88.5],
+					"status": "reviewed-selection-and-baseline-reuse",
+					"note": "Existing medium-heavy heavy-Blitz confirm retained. Specific jump-heavy-punch landing block against Ryu OD DP added; glyph gives HP, no universal reversal safety."
+				},
+				{
+					"interval": [88.5, 93.5],
+					"status": "excluded-timing-only-repeat",
+					"note": "Kill Rush +11 remaining-advantage illustration is not a wait11 instruction or separate drill."
+				},
+				{
+					"interval": [93.5, 117.5],
+					"status": "reviewed-selection-and-baseline-reuse",
+					"note": "Retained +42 Kill Rush throw. New Kill Rush shimmy and meaty-heavy into medium-heavy target chain."
+				},
+				{
+					"interval": [117.5, 122],
+					"status": "reviewed-selection",
+					"note": "Plain crouching-medium-kick into crouching-medium-punch heavy-Blitz route. HUD says High; it is not tagged as a low confirm."
+				},
+				{
+					"interval": [122, 127.5],
+					"status": "excluded-timing-only-repeat",
+					"note": "Kill Rush +9 setup illustration; not a separate count before the executed options."
+				},
+				{
+					"interval": [127.5, 150.9],
+					"status": "reviewed-selection",
+					"note": "Three +40 heavy-Blitz wake-up branches: explicit nonnumeric delayed throw, throw-whiff punish, and meaty crouching-medium into second crouching-medium/medium-punch/Blitz."
+				},
+				{
+					"interval": [150.9, 165],
+					"status": "reviewed-selection",
+					"note": "Corner +40 jab-kill light Spark: guarded +6 and separate hit-to-Uppercut route. Different prerequisite timing retained explicitly; printed follow-ups not actually performed after guard are excluded."
+				},
+				{
+					"interval": [165, 170],
+					"status": "reviewed-selection",
+					"note": "Standing medium punch links crouching light kick and medium Uppercut. Crouching light kick is explicit rather than standing light kick."
+				},
+				{
+					"interval": [170, 174.5],
+					"status": "excluded-timing-only-repeat",
+					"note": "Medium-Uppercut Kill Rush +8 illustration. +8 is remaining advantage, not wait8."
+				},
+				{
+					"interval": [174.5, 198.5],
+					"status": "reviewed-selection",
+					"note": "Medium-Uppercut Kill Rush delayed throw, shimmy conversion and meaty-medium into repeated-medium target chain; exact Uppercut strength/prerequisite stated."
+				},
+				{
+					"interval": [198.5, 206.5],
+					"status": "reviewed-selection",
+					"note": "Medium-heavy target Chaser into the actually performed Level1; source input trace and one-bar Super decrement checked."
+				},
+				{
+					"interval": [206.5, 218],
+					"status": "baseline-reused-with-excluded-caption-alternative",
+					"note": "Crouching-medium Rush-cancel and heavy-punch Chaser baseline routes retained. Caption MK-or-2MP supplies only actual2MP execution; no invented second starter."
+				},
+				{
+					"interval": [218, 234],
+					"status": "reviewed-selection",
+					"note": "Two OD-Flicker heavy-Flicker routes use forward Kill Rush and early6P Kill Switch Break. Blitz and Level1 are separately executed, with distinct costs; this is not backward Rush or late Chaser."
+				},
+				{
+					"interval": [234, 256.5],
+					"status": "baseline-reused",
+					"note": "Existing shimmy heavy/crouching-medium, blocked-DP heavy-kick punish and counter-DI target route retained unchanged."
+				},
+				{
+					"interval": [256.5, 266],
+					"status": "reviewed-selection",
+					"note": "CounterDI walk-in heavy punch, held light Flicker ground bounce and heavy Blitz. Actual heldLK traced; normal DI crumple rather than wall crush or stun."
+				},
+				{
+					"interval": [266, 274],
+					"status": "baseline-reused-with-excluded-caption-alternative",
+					"note": "Existing ordinary wall-crush Flicker Chaser heavy-Uppercut route preserved. Printed medium-Blitz alternative not separately executed."
+				},
+				{
+					"interval": [274, 284.5],
+					"status": "reviewed-selection",
+					"note": "ODBlitz light-Cannon two-Uppercut route. Live cyan light-punch activation agrees with LSA2 caption; no other strength or extra held-direction prescription. Actual first Uppercut panel279.25, forward-heavy280.5, secondUppercut281.3 checked."
+				},
+				{
+					"interval": [284.5, 303],
+					"status": "baseline-reused",
+					"note": "Existing double-Rush-cancel Level3 cash-out preserved, not split into nominal variants."
+				},
+				{
+					"interval": [303, 307],
+					"status": "excluded-outro",
+					"note": "End screen/outro, no additional execution."
+				}
+			],
+			"remainingUnprocessedCandidateWindows": [],
+			"wholeSourceExtractionComplete": false
+		}
+	],
+	"companionAccess": [
+		{
+			"youtubeId": "J1YH2zogEv8",
+			"url": "https://www.youtube.com/watch?v=J1YH2zogEv8",
+			"status": "blocked-not-downloaded",
+			"executionReviewed": false,
+			"reason": "YouTube bot-confirmation gate in focused yt-dlp request; no cookies accessed."
+		},
+		{
+			"youtubeId": "GePz3Lg6mmc",
+			"url": "https://www.youtube.com/watch?v=GePz3Lg6mmc",
+			"status": "blocked-not-downloaded",
+			"executionReviewed": false,
+			"reason": "YouTube bot-confirmation gate in focused yt-dlp request; no cookies accessed."
+		},
+		{
+			"youtubeId": "y3qr3ntQFkU",
+			"url": "https://www.youtube.com/watch?v=y3qr3ntQFkU",
+			"status": "blocked-not-downloaded",
+			"executionReviewed": false,
+			"reason": "YouTube bot-confirmation gate in focused yt-dlp request; no cookies accessed."
+		}
+	],
+	"reviewEvidence": {
+		"allNewMomentAndBoundaryBoards": ".local/depth/review/ed/",
+		"exactInputProofs": ".local/depth/ed-proofs/",
+		"mechanicalAudit": ".local/depth/ed-media-audit.json"
+	},
+	"limits": [
+		"All 15 baseline reference objects, IDs, revisions, relatedIds and media remain exact. Existing source metadata retained unchanged.",
+		"37 references reflects actual distinct executions in the available source, not a count quota; timing-only repeats and printed unperformed alternatives excluded.",
+		"Dedicated anti-air, anti-projectile, side-switch and advanced Cannon/desync coverage remain gaps. Uppercut inside a ground-start juggle is not anti-air.",
+		"Three focused companion sources could not be downloaded; no claims based on their headings/captions were promoted to reviewed content.",
+		"Source +F denotes remaining advantage; intentional whiffed frame kills and genuine nonnumeric delayed throws stay visible in compact notation.",
+		"Light Cannon is confirmed by the LSA2 caption and cyan light-punch glyph; no extra speed-control action is inferred.",
+		"Source review is not current-patch gameplay testing or full character coverage."
+	]
+}

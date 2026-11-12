@@ -1,0 +1,1308 @@
+{
+	"characterId": "alex",
+	"reviewedOn": "2026-11-12",
+	"baselineCommit": "929ff0b3a73080697e644b976960866c6ec1c781",
+	"originalReferencesPreserved": 12,
+	"newReferences": 39,
+	"newKinds": {
+		"setup": 20,
+		"response": 6,
+		"combo": 13
+	},
+	"status": "Substantial partial extraction; source-reviewed, current-patch gameplay untested",
+	"screeningNote": "Every 4-second discovery board across the 910-second Vesper and 988-second Joe recordings was viewed. Joe relevant setup sections were examined at 0.5–1 seconds with full-resolution button/HUD probes; selected source intervals and generated moments/endpoints receive separate review. Brian anti-air 188–223 was surveyed densely with actual 623LK glyph/animation verification; 1239–1354 was surveyed coarsely. Screening is not completed extraction.",
+	"sources": [
+		{
+			"sourceKey": "vesperarcade-alex-2026",
+			"youtubeId": "KOBn4nUUVKU",
+			"title": "Street Fighter 6 Alex Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=KOBn4nUUVKU",
+			"publishedUtc": "2026-03-19",
+			"duration": 910,
+			"recordingSha256": "07289b7c2b731c0154d00e8a429be7c311d2df9c42b19c8f349e90d559d39b0f",
+			"metadataSha256": "0812499f26387c56a5b0b6f5d8a8c7e05a95d529f05e43f6ce1a6d9dec2ca77b",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 12,
+					"disposition": "excluded",
+					"reason": "Intro and notation legend; no new practice excerpt."
+				},
+				{
+					"start": 12,
+					"end": 16.5,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 16.5,
+					"end": 21.65,
+					"disposition": "reused",
+					"referenceId": "alex-vesper-low-light-axe",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 21.65,
+					"end": 22.8,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 22.8,
+					"end": 28.8,
+					"disposition": "reused",
+					"referenceId": "alex-vesper-low-heavy-knee",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 28.8,
+					"end": 29.6,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 29.6,
+					"end": 35.7,
+					"disposition": "reused",
+					"referenceId": "alex-vesper-low-level1",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 35.7,
+					"end": 36.85,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 36.85,
+					"end": 44.0,
+					"disposition": "reused",
+					"referenceId": "alex-vesper-low-od-knee",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 44.0,
+					"end": 45.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 45.1,
+					"end": 55.15,
+					"disposition": "reused",
+					"referenceId": "alex-vesper-low-od-axe-level2",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 55.15,
+					"end": 56.45,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 56.45,
+					"end": 69.1,
+					"disposition": "reused",
+					"referenceId": "alex-vesper-low-light-axe-level3",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 69.1,
+					"end": 74.0,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 74.0,
+					"end": 78.1,
+					"disposition": "reused",
+					"referenceId": "alex-vesper-back-medium-light-axe",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 78.1,
+					"end": 79.5,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 79.5,
+					"end": 85.6,
+					"disposition": "reused",
+					"referenceId": "alex-vesper-back-medium-heavy-knee",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 85.6,
+					"end": 86.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 86.65,
+					"end": 92.5,
+					"disposition": "reused",
+					"referenceId": "alex-vesper-standing-medium-axe",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 92.5,
+					"end": 102.5,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 102.5,
+					"end": 108.3,
+					"disposition": "reused",
+					"referenceId": "alex-vesper-held-heavy-jab-knee",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 108.3,
+					"end": 159.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 159.65,
+					"end": 167.65,
+					"disposition": "reused",
+					"referenceId": "alex-vesper-wall-stance-medium-knee",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 167.65,
+					"end": 214.2,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 214.2,
+					"end": 218.25,
+					"disposition": "reused",
+					"referenceId": "alex-vesper-punish-jab-medium-axe",
+					"reason": "Original object, manifest entry and media retained exactly."
+				},
+				{
+					"start": 218.25,
+					"end": 558,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 558,
+					"end": 574,
+					"disposition": "unprocessed",
+					"reason": "Air-to-air j.MP into Knee/Super remains available. It is not labeled grounded Anti-air."
+				},
+				{
+					"start": 574,
+					"end": 893,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 893,
+					"end": 910,
+					"disposition": "excluded",
+					"reason": "End card after the final combo. All additional Vesper execution extraction remains outside this expansion; no live input history is present."
+				}
+			]
+		},
+		{
+			"sourceKey": "joe-ebios-alex-2026",
+			"youtubeId": "8p5NCSvXjbM",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"publishedUtc": "2026-05-19",
+			"duration": 988,
+			"recordingSha256": "64aea99587725f333cc6a601f097fd8e306fb063ba25afce5087797acc338563",
+			"metadataSha256": "17762a5d05cb3fd4a7952cdcd57a2602d60a0daf0a90198001d257013887324a",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 12,
+					"disposition": "duplicate",
+					"reason": "Basic light confirms screened; baseline already covers low-light Flash Axe/Knee/Super starters."
+				},
+				{
+					"start": 12,
+					"end": 16.2,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 16.2,
+					"end": 21.15,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-heavy-knee-rush-back-medium",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 21.15,
+					"end": 21.2,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 21.2,
+					"end": 28.8,
+					"disposition": "excluded",
+					"reason": "Repeated prerequisite and blocked-Rush-back-medium advantage demonstration, without a separate completed follow-up decision. Not padded into another card."
+				},
+				{
+					"start": 28.8,
+					"end": 32.6,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 32.6,
+					"end": 38.55,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-heavy-knee-blocked-back-medium-command-throw",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 38.55,
+					"end": 43.15,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 43.15,
+					"end": 49.35,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-heavy-knee-blocked-back-medium-repeat",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 49.35,
+					"end": 49.4,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 49.4,
+					"end": 56,
+					"disposition": "excluded",
+					"reason": "Corner heavy-Knee dash advantage illustration; later takes contain the actual throw/command/shimmy/strike decisions."
+				},
+				{
+					"start": 56,
+					"end": 59.6,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 59.6,
+					"end": 62.8,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-corner-heavy-knee-dash-throw",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 62.8,
+					"end": 67.75,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 67.75,
+					"end": 72.3,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-corner-heavy-knee-dash-command-throw",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 72.3,
+					"end": 76.6,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 76.6,
+					"end": 82.0,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-corner-heavy-knee-dash-shimmy",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 82.0,
+					"end": 95.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 95.1,
+					"end": 101.35,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-corner-heavy-knee-dash-crouching-heavy",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 101.35,
+					"end": 101.4,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 101.4,
+					"end": 109.7,
+					"disposition": "excluded",
+					"reason": "OD-Knee dash advantage illustration and prerequisite; later takes contain actual follow-up decisions."
+				},
+				{
+					"start": 109.7,
+					"end": 114.4,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 114.4,
+					"end": 118.7,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-od-knee-dash-throw",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 118.7,
+					"end": 124.45,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 124.45,
+					"end": 129.1,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-od-knee-dash-heavy-command-throw",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 129.1,
+					"end": 135.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 135.1,
+					"end": 140.65,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-od-knee-dash-shimmy",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 140.65,
+					"end": 152,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 152,
+					"end": 157.5,
+					"disposition": "unprocessed",
+					"reason": "Counter-Hit jab into medium and Knee remains available; no extra variant authored here."
+				},
+				{
+					"start": 157.5,
+					"end": 157.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 157.65,
+					"end": 165.2,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-close-lights-rush-prowler",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 165.2,
+					"end": 166.45,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 166.45,
+					"end": 172.85,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-far-lights-rush-medium",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 172.85,
+					"end": 173.35,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 173.35,
+					"end": 190.2,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-lights-two-rush-level-three-cashout",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 190.2,
+					"end": 190.7,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 190.7,
+					"end": 208.4,
+					"disposition": "unprocessed",
+					"reason": "Post-Level-3 Rush/low/DI Burnout-stun sequence remains available. Not silently attached to the selected cash-out."
+				},
+				{
+					"start": 208.4,
+					"end": 208.55,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 208.55,
+					"end": 213.6,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-guard-drive-reversal-light-knee",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 213.6,
+					"end": 214.6,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 214.6,
+					"end": 220.65,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-guard-drive-reversal-command-throw",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 220.65,
+					"end": 260,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 260,
+					"end": 314.0,
+					"disposition": "unprocessed",
+					"reason": "Crouching-medium OD/Super-2 variants, including corner repick choices, remain available. The selected held-heavy corner route is a separate source take."
+				},
+				{
+					"start": 314.0,
+					"end": 314.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 314.1,
+					"end": 325.9,
+					"disposition": "unprocessed",
+					"reason": "Target-chain Prowler-roll timing and command-throw branch remain available; only the complete punch-chain conversion is extracted."
+				},
+				{
+					"start": 325.9,
+					"end": 326.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 326.1,
+					"end": 332.85,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-target-prowler-forward-punch-chain",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 332.85,
+					"end": 334,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 334,
+					"end": 355.9,
+					"disposition": "unprocessed",
+					"reason": "Target-chain Prowler MK launch and cross-up LK branches remain available. Full follow-up input/state interpretation is not completed for extraction."
+				},
+				{
+					"start": 355.9,
+					"end": 356.0,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 356.0,
+					"end": 360.65,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-prowler-leap-evades-ryu-od",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 360.65,
+					"end": 370,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 370,
+					"end": 382.9,
+					"disposition": "unprocessed",
+					"reason": "Standalone crouching-heavy Prowler-chain and kick-chain routes remain available."
+				},
+				{
+					"start": 382.9,
+					"end": 396.15,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 396.15,
+					"end": 400.8,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-back-turn-knee-rush-throw",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 400.8,
+					"end": 407.2,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 407.2,
+					"end": 413.45,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-back-turn-knee-rush-shimmy",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 413.45,
+					"end": 420.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 420.1,
+					"end": 425.15,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-back-turn-knee-rush-overhead",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 425.15,
+					"end": 431.4,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 431.4,
+					"end": 437.0,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-back-turn-knee-rush-delayed-low",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 437.0,
+					"end": 457.25,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 457.25,
+					"end": 462.2,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-heavy-punish-crouching-medium-knee",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 462.2,
+					"end": 463.55,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 463.55,
+					"end": 469.55,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-held-heavy-chop-back-throw",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 469.55,
+					"end": 469.6,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 469.6,
+					"end": 478.4,
+					"disposition": "unprocessed",
+					"reason": "OD back-grab forward-hold extension shown as prerequisite evidence. A standalone full combo extraction is not completed; its knockdown branches are separately selected."
+				},
+				{
+					"start": 478.4,
+					"end": 484.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 484.1,
+					"end": 487.6,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-hyper-bomb-jump-kick-guard",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 487.6,
+					"end": 494.05,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 494.05,
+					"end": 499.35,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-hyper-bomb-rush-command-throw",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 499.35,
+					"end": 506.05,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 506.05,
+					"end": 510.9,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-hyper-bomb-rush-throw",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 510.9,
+					"end": 511,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 511,
+					"end": 560.9,
+					"disposition": "unprocessed",
+					"reason": "Additional OD-back-grab shimmy/overhead/low/strike branches remain available. The two selected throws do not exhaust this section."
+				},
+				{
+					"start": 560.9,
+					"end": 562.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 562.1,
+					"end": 575.9,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-held-heavy-od-back-grab-level-two",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 575.9,
+					"end": 577.2,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 577.2,
+					"end": 588.65,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-corner-held-heavy-od-level-two-pickup",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 588.65,
+					"end": 589.75,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 589.75,
+					"end": 596.0,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-heavy-kick-punish-rush-forward-prowler",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 596.0,
+					"end": 596.55,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 596.55,
+					"end": 609.1,
+					"disposition": "unprocessed",
+					"reason": "Other heavy-kick PC pickup and Level-1/oki branches remain available; printed alternatives are not extra references."
+				},
+				{
+					"start": 609.1,
+					"end": 609.2,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 609.2,
+					"end": 620.1,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-near-corner-heavy-kick-level-two-pickup",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 620.1,
+					"end": 621.25,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 621.25,
+					"end": 628.1,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-held-heavy-kick-held-punch-knee",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 628.1,
+					"end": 628.8,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 628.8,
+					"end": 637.2,
+					"disposition": "unprocessed",
+					"reason": "Held-heavy-kick/medium-Axe/Prowler positioning branch remains available."
+				},
+				{
+					"start": 637.2,
+					"end": 637.3,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 637.3,
+					"end": 652.1,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-held-heavy-kick-heavy-chop-level-three",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 652.1,
+					"end": 652.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 652.65,
+					"end": 688.9,
+					"disposition": "unprocessed",
+					"reason": "Near-corner/corner held-heavy-kick Super routes remain available."
+				},
+				{
+					"start": 688.9,
+					"end": 689,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 689,
+					"end": 691.4,
+					"disposition": "excluded",
+					"reason": "Throw-chapter title card."
+				},
+				{
+					"start": 691.4,
+					"end": 702.8,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 702.8,
+					"end": 707.6,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-corner-throw-rush-throw",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 707.6,
+					"end": 710.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 710.65,
+					"end": 712.6,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-corner-throw-rush-whiff-jab-shimmy",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 712.6,
+					"end": 712.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 712.65,
+					"end": 717.15,
+					"disposition": "unprocessed",
+					"reason": "Continuation after the selected Rush/whiff-jab/shimmy punish starter. Not falsely included in the shorter card."
+				},
+				{
+					"start": 717.15,
+					"end": 717.2,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 717.2,
+					"end": 736.4,
+					"disposition": "unprocessed",
+					"reason": "Corner-throw Rush heavy-chain and kick-chain branches remain available."
+				},
+				{
+					"start": 736.4,
+					"end": 736.45,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 736.45,
+					"end": 741.5,
+					"disposition": "excluded",
+					"reason": "Corner-throw dash +6 timing illustration and prerequisite; the actual jab and command-throw branches follow."
+				},
+				{
+					"start": 741.5,
+					"end": 744.25,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 744.25,
+					"end": 748.65,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-corner-throw-dash-jab-light-kick",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 748.65,
+					"end": 752.6,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 752.6,
+					"end": 757.65,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-corner-throw-dash-light-command-throw",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 757.65,
+					"end": 758.4,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 758.4,
+					"end": 784.5,
+					"disposition": "unprocessed",
+					"reason": "Prowler command-throw walk/throw, shimmy and strike continuations remain available."
+				},
+				{
+					"start": 784.5,
+					"end": 784.6,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 784.6,
+					"end": 785.4,
+					"disposition": "excluded",
+					"reason": "Miscellaneous-combo title card."
+				},
+				{
+					"start": 785.4,
+					"end": 785.5,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 785.5,
+					"end": 931.2,
+					"disposition": "unprocessed",
+					"reason": "Additional Prowler/special PC, raw-Rush and conversion chapters remain available. Coarse screening is not completed extraction."
+				},
+				{
+					"start": 931.2,
+					"end": 931.3,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 931.3,
+					"end": 951.3,
+					"disposition": "unprocessed",
+					"reason": "Other DI PC launch and oki choices remain available; selected counter-DI starts with its own jab take."
+				},
+				{
+					"start": 951.3,
+					"end": 951.55,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 951.55,
+					"end": 961.8,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-counter-di-dash-od-knee",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 961.8,
+					"end": 961.85,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 961.85,
+					"end": 975.3,
+					"disposition": "unprocessed",
+					"reason": "Corner counter-DI jump/held-heavy conversion remains available; distinct from the selected normal wall-crush take."
+				},
+				{
+					"start": 975.3,
+					"end": 975.35,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 975.35,
+					"end": 982.4,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-blocked-di-wall-crush-prowler",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 982.4,
+					"end": 982.45,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 982.45,
+					"end": 988,
+					"disposition": "excluded",
+					"reason": "Result hold and closing end card."
+				}
+			]
+		},
+		{
+			"sourceKey": "brian-f-alex-2026",
+			"youtubeId": "L4OjcgYa7-o",
+			"title": "Your Alex sucks. Here's how to fix that.",
+			"creator": "Brian_F",
+			"url": "https://www.youtube.com/watch?v=L4OjcgYa7-o",
+			"publishedUtc": "2026-03-29",
+			"duration": 1397,
+			"recordingSha256": "f85191ae68716cee34d27c3154a4bd8c78d53145b7f5bbbfc808f270abe3fc72",
+			"metadataSha256": "ddfb5d5711a56c29dc2db36d7ba0098c916f4afbf285a1fc1db25333683aac16",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 188,
+					"disposition": "unprocessed",
+					"reason": "Flash Axe and Knee Smash lessons are available; no extraction execution review completed in this expansion."
+				},
+				{
+					"start": 188,
+					"end": 194.4,
+					"disposition": "excluded",
+					"reason": "Previous demonstration, talking head and anti-air chapter transition."
+				},
+				{
+					"start": 194.4,
+					"end": 194.45,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 194.45,
+					"end": 196.9,
+					"disposition": "reviewed",
+					"referenceId": "alex-depth-anti-air-light-knee",
+					"reason": "Actual performed recipe/state/resources, selected prepared moments and original/prepared boundaries reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 196.9,
+					"end": 197.25,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 197.25,
+					"end": 201.1,
+					"disposition": "unprocessed",
+					"reason": "The green sequence follows the completed anti-air knockdown as wake-up pressure. It is not a continuous anti-air combo."
+				},
+				{
+					"start": 201.1,
+					"end": 201.15,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 201.15,
+					"end": 223,
+					"disposition": "duplicate",
+					"reason": "Further successful light-Knee anti-air and its follow-up pressure screened densely. A second near-identical anti-air is not added merely for count."
+				},
+				{
+					"start": 223,
+					"end": 223.05,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 223.05,
+					"end": 278,
+					"disposition": "excluded",
+					"reason": "Controller sponsorship rather than fighting-game execution."
+				},
+				{
+					"start": 278,
+					"end": 278.05,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 278.05,
+					"end": 919,
+					"disposition": "unprocessed",
+					"reason": "Normal, Level-2 and Prowler neutral chapters remain available; not surveyed for full extraction."
+				},
+				{
+					"start": 919,
+					"end": 1227,
+					"disposition": "unprocessed",
+					"reason": "Large Prowler-oki chapter remains available; no exhaustion claim."
+				},
+				{
+					"start": 1227,
+					"end": 1238.9,
+					"disposition": "unprocessed",
+					"reason": "Drive Impact punish chapter remains available."
+				},
+				{
+					"start": 1238.9,
+					"end": 1239,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 1239,
+					"end": 1354,
+					"disposition": "unprocessed",
+					"reason": "Reversal-punish chapter coarsely surveyed only; needs separate exact-input and media review."
+				},
+				{
+					"start": 1354,
+					"end": 1354.05,
+					"disposition": "unprocessed",
+					"reason": "Unselected for extraction; some context/prerequisites were viewed during screening, but no reviewed reference is claimed for this interval."
+				},
+				{
+					"start": 1354.05,
+					"end": 1397,
+					"disposition": "unprocessed",
+					"reason": "Conclusion and unselected closing material; not extracted."
+				}
+			]
+		}
+	],
+	"interpretationDecisions": [
+		{
+			"topic": "Prerequisites and +F",
+			"decision": "The heavy-Knee, OD-Knee, back-turn b.MK, forward-held OD back-grab and normal-throw knockdowns are separate prerequisites. Listed follow-up commands/costs begin afterward. +29/+27/+33/+42/+7/+6/+5 are source advantage readings, not invented wait instructions."
+		},
+		{
+			"topic": "Strength and alternatives",
+			"decision": "Live cyan/light, yellow/medium and red/heavy glyphs and animation govern strength. The 623HP overlay in one back-medium follow-up is contradicted by the actual heavy-kick Knee. Only the demonstrated ender is authored from lines listing normal/OD/Super alternatives."
+		},
+		{
+			"topic": "Actual Rush-link normals",
+			"decision": "The far-light route performs cr.MP despite the shortened MP overlay. The cash-out first Rush link performs cr.HP, not the printed standing-MP alternative; actual direction, strength, animation and damage govern both recipes."
+		},
+		{
+			"topic": "Shimmy links and held-heavy bait",
+			"decision": "The corner-heavy-Knee and OD-Knee dash shimmies both perform two standing medium punches before heavy Knee; neutral yellow-punch glyphs, animation and damage verify the pair. The held-heavy reversal routes include the actual blocked b.MK opener and backward movement before Ryu OD uppercut misses. That context is not omitted or represented as an armor claim."
+		},
+		{
+			"topic": "Back-turned grabs",
+			"decision": "The heavy-Chop turn-around is an actual prerequisite for Power Drop and its OD extensions. The forward-held OD extension and additional-PP Level-2 throw follow-up are different branches. Ambiguous special English names remain command-labeled."
+		},
+		{
+			"topic": "Reversal coverage",
+			"decision": "The Prowler leap evades the recorded Ryu OD uppercut by crossing over. The OD-back-grab jump includes j.HK before landing guard, and only its Ryu OD block is claimed safe. No universal or on-reaction reversal claim is inferred."
+		},
+		{
+			"topic": "Anti-air and wall state",
+			"decision": "Only Brian’s actual grounded 623LK jump interception gets Anti-air. Its subsequent green wake-up approach is not part of the anti-air juggle. Normal blocked-DI wall crush, counter-DI crumple, and Burnout stun are distinct. Near-corner Level-2 carry starts Midscreen and ends in the corner."
+		},
+		{
+			"topic": "Resource cash-out",
+			"decision": "The light-confirm two-DRC/Level-3 route visibly spends six Drive into Burnout and all three Super bars; it receives Cash-out. Other Super use alone does not receive that goal. OD/Rush prerequisites outside setup loops retain separate costs."
+		}
+	],
+	"metadataOnlyCandidates": [
+		{
+			"youtubeId": "TFRb43znmQ0",
+			"url": "https://www.youtube.com/watch?v=TFRb43znmQ0",
+			"title": "5 Things You MUST KNOW About ALEX in Street Fighter 6 (Beginner's Guide)",
+			"creator": "ButtonMashers",
+			"publishedUtc": "2026-03-17",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "e-xXJ-uzIHI",
+			"url": "https://www.youtube.com/watch?v=e-xXJ-uzIHI",
+			"title": "Street Fighter 6 Character Guide | Alex",
+			"creator": "Street Fighter",
+			"publishedUtc": "2026-03-03",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "DKSSlT136cg",
+			"url": "https://www.youtube.com/watch?v=DKSSlT136cg",
+			"title": "So You Want to Learn Alex... | Road to Master",
+			"creator": "Nephew",
+			"publishedUtc": "2026-03-18",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "9f3oMPBgj9Q",
+			"url": "https://www.youtube.com/watch?v=9f3oMPBgj9Q",
+			"title": "Modern Alex Character Guide! Street Fighter 6",
+			"creator": "Hidden Juice Village ASAP Dream",
+			"publishedUtc": "2026-03-04",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "avfZ1dmvvtA",
+			"url": "https://www.youtube.com/watch?v=avfZ1dmvvtA",
+			"title": "How To Play Modern Alex!",
+			"creator": "Hidden Juice Village ASAP Dream",
+			"publishedUtc": "2026-03-17",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "R8ecfhqpvBg",
+			"url": "https://www.youtube.com/watch?v=R8ecfhqpvBg",
+			"title": "Street Fighter 6 - Modern Alex Move List!",
+			"creator": "Hidden Juice Village ASAP Dream",
+			"publishedUtc": "2026-01-30",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "MRHG-bBmKrk",
+			"url": "https://www.youtube.com/watch?v=MRHG-bBmKrk",
+			"title": "STREET FIGHTER 6 - MODERN ALEX | COMBO TRIAL & COMMAND LIST",
+			"creator": "Modern Fighting Games",
+			"publishedUtc": "2026-03-03",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "GEWPCeTQQ-A",
+			"url": "https://www.youtube.com/watch?v=GEWPCeTQQ-A",
+			"title": "SF6 Alex Practical Combo and Okizeme Guide [Street Fighter 6][S3 Ver 20260317]",
+			"creator": "Sea Leaf Dojo",
+			"publishedUtc": "2026-03-21",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "od0MTsrnIpc",
+			"url": "https://www.youtube.com/watch?v=od0MTsrnIpc",
+			"title": "SF6 Alex Combos Guide",
+			"creator": "MC MuraFGC",
+			"publishedUtc": "2026-03-18",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "jlVtI3ybXSY",
+			"url": "https://www.youtube.com/watch?v=jlVtI3ybXSY",
+			"title": "SF6 - Alex Combos and Conversions",
+			"creator": "SoberSalt",
+			"publishedUtc": "2026-03-17",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "E9wpJlohku8",
+			"url": "https://www.youtube.com/watch?v=E9wpJlohku8",
+			"title": "SF6 Classic Alex Day 1 Guide: Essential Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"publishedUtc": "2026-03-18",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "lVKZEkZTgXc",
+			"url": "https://www.youtube.com/watch?v=lVKZEkZTgXc",
+			"title": "Street Fighter 6 Season 3 : Alex - SETUPS",
+			"creator": "ROUBICHL9TAL-YT",
+			"publishedUtc": "2026-03-21",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "Nrp5SLzTKAw",
+			"url": "https://www.youtube.com/watch?v=Nrp5SLzTKAw",
+			"title": "SF6: Alex Tech",
+			"creator": "Killerex100",
+			"publishedUtc": "2026-03-18",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "qT2mhqxQjyc",
+			"url": "https://www.youtube.com/watch?v=qT2mhqxQjyc",
+			"title": "How to Play Alex: Knockdowns and Oki",
+			"creator": "Zach Henke",
+			"publishedUtc": "2026-03-17",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "JvJJCH1PRxY",
+			"url": "https://www.youtube.com/watch?v=JvJJCH1PRxY",
+			"title": "Street Fighter 6 Alex NEW safe jump setup bait reversal SF6",
+			"creator": "Zack Siva",
+			"publishedUtc": "2026-03-18",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		},
+		{
+			"youtubeId": "mXduz9G1cok",
+			"url": "https://www.youtube.com/watch?v=mXduz9G1cok",
+			"title": "Street Fighter 6 Alex day1 safe jump setup SF6",
+			"creator": "Zack Siva",
+			"publishedUtc": "2026-03-17",
+			"status": "metadata-verified; footage not execution-reviewed; not extracted"
+		}
+	],
+	"remainingGaps": [
+		"Most Vesper PC, Rush, special, air-to-air and corner options remain unextracted.",
+		"Joe still contains numerous Prowler mixups, throw-loop alternatives, PC/special, SA1/SA2, raw-Rush, DI and Burnout-stun routes.",
+		"Brian’s large Prowler-oki, neutral and reversal-punish lessons remain available for exact execution review.",
+		"No stock/install requirement is invented. No current-patch gameplay certification is claimed."
+	]
+}

@@ -1,0 +1,1099 @@
+{
+	"characterId": "sagat",
+	"reviewedOn": "2026-11-12",
+	"status": "Partial extraction; source-reviewed, not current-patch game-tested",
+	"baselineCommit": "929ff0b3a73080697e644b976960866c6ec1c781",
+	"originalReferencesPreserved": 13,
+	"newReferences": 39,
+	"newKinds": {
+		"combo": 12,
+		"setup": 19,
+		"response": 8
+	},
+	"screeningNote": "Joe recording screened throughout at eight-second spacing. Dense one-second review of 0–490 and1060–1236, plus finer command/resource probes. Vesper anti-air/air-to-air chapter624–696 reviewed at one-second spacing. Selected intervals and prepared media receive their own review; all remaining intervals explicitly classified.",
+	"sources": [
+		{
+			"sourceKey": "joe-ebios-sagat-march-2026",
+			"youtubeId": "KCw6T5PlLCE",
+			"duration": 1419,
+			"intervals": [
+				{
+					"start": 0,
+					"end": 1.9,
+					"disposition": "excluded",
+					"reason": "Opening title card."
+				},
+				{
+					"start": 1.9,
+					"end": 2.0,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 2.0,
+					"end": 7.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-back-heavy-knee-light-uppercut",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 7.45,
+					"end": 7.75,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 7.75,
+					"end": 16.3,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-light-uppercut-rush-overhead",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 16.3,
+					"end": 16.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 16.65,
+					"end": 26.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-light-uppercut-rush-low",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 26.45,
+					"end": 26.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 26.65,
+					"end": 32.65,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-back-heavy-shot-rush-target",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 32.65,
+					"end": 32.8,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 32.8,
+					"end": 44.55,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-heavy-uppercut-rush-medium",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 44.55,
+					"end": 44.6,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 44.6,
+					"end": 57.7,
+					"disposition": "unprocessed",
+					"reason": "Heavy-uppercut raw-Rush low branch: actual ender requires closer command/strength review before extraction."
+				},
+				{
+					"start": 57.7,
+					"end": 57.75,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 57.75,
+					"end": 69.0,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-heavy-uppercut-rush-throw",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 69.0,
+					"end": 69.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 69.65,
+					"end": 79.65,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-heavy-uppercut-rush-whiff-shimmy",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 79.65,
+					"end": 80.1,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 80.1,
+					"end": 88.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-back-heavy-target-level-one",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 88.45,
+					"end": 88.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 88.5,
+					"end": 100.9,
+					"disposition": "unprocessed",
+					"reason": "Target-combo Level-2 alternative; not selected."
+				},
+				{
+					"start": 100.9,
+					"end": 101,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 101,
+					"end": 107.9,
+					"disposition": "duplicate",
+					"reason": "Heavy-knee knockdown core is already retained as context in the selected jumping-punch/guard response; no standalone padding copy."
+				},
+				{
+					"start": 107.9,
+					"end": 108.1,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 108.1,
+					"end": 116.35,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-heavy-knee-jump-guard",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 116.35,
+					"end": 116.6,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 116.6,
+					"end": 125.9,
+					"disposition": "unprocessed",
+					"reason": "Additional cancel-Rush target/Level-1 route."
+				},
+				{
+					"start": 125.9,
+					"end": 126.1,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 126.1,
+					"end": 135.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-back-heavy-single-kick-held",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 135.45,
+					"end": 135.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 135.5,
+					"end": 158.1,
+					"disposition": "unprocessed",
+					"reason": "Delayed back-heavy knee/medium-uppercut and Level-2 alternatives."
+				},
+				{
+					"start": 158.1,
+					"end": 158.15,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 158.15,
+					"end": 170.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-back-heavy-single-kick-cashout",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 170.45,
+					"end": 170.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 170.5,
+					"end": 209.2,
+					"disposition": "unprocessed",
+					"reason": "Two-cancel-Rush/burnout held-uppercut and Super alternatives."
+				},
+				{
+					"start": 209.2,
+					"end": 209.25,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 209.25,
+					"end": 217.55,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-corner-forward-kick-held",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 217.55,
+					"end": 217.6,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 217.6,
+					"end": 225.6,
+					"disposition": "unprocessed",
+					"reason": "Corner forward-kick delayed knee/medium-uppercut alternative."
+				},
+				{
+					"start": 225.6,
+					"end": 225.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 225.65,
+					"end": 239.4,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-corner-forward-kick-level-two",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 239.4,
+					"end": 239.45,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 239.45,
+					"end": 251.85,
+					"disposition": "unprocessed",
+					"reason": "Corner forward-kick Level-3 alternative."
+				},
+				{
+					"start": 251.85,
+					"end": 251.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 251.9,
+					"end": 257.65,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-corner-shot-forward-kick",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 257.65,
+					"end": 257.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 257.7,
+					"end": 291,
+					"disposition": "unprocessed",
+					"reason": "Meterless-shot forward-kick Super choices and longer corner burnout route."
+				},
+				{
+					"start": 291,
+					"end": 292.8,
+					"disposition": "excluded",
+					"reason": "Light section title."
+				},
+				{
+					"start": 292.8,
+					"end": 297.5,
+					"disposition": "duplicate",
+					"reason": "Basic light-chain/medium-uppercut utility is preserved in the original library."
+				},
+				{
+					"start": 297.5,
+					"end": 297.55,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 297.55,
+					"end": 305.5,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-medium-uppercut-rush-light",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 305.5,
+					"end": 305.55,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 305.55,
+					"end": 314,
+					"disposition": "duplicate",
+					"reason": "Light Nexus/Greedy knockdown core is preserved in the original library and retained in the selected setup contexts."
+				},
+				{
+					"start": 314,
+					"end": 314.05,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 314.05,
+					"end": 322.5,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-greedy-rush-overhead",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 322.5,
+					"end": 322.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 322.65,
+					"end": 332.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-greedy-rush-low",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 332.45,
+					"end": 332.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 332.65,
+					"end": 340.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-greedy-rush-throw",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 340.45,
+					"end": 340.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 340.65,
+					"end": 349.3,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-greedy-rush-shimmy",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 349.3,
+					"end": 349.35,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 349.35,
+					"end": 354,
+					"disposition": "excluded",
+					"reason": "Whiff-medium-knee timing demonstration without a further strike/throw decision; retained in selected follow-up clips."
+				},
+				{
+					"start": 354,
+					"end": 354.05,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 354.05,
+					"end": 362.5,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-greedy-knee-whiff-throw",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 362.5,
+					"end": 362.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 362.65,
+					"end": 371.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-greedy-knee-whiff-shimmy",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 371.45,
+					"end": 371.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 371.65,
+					"end": 379.5,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-greedy-knee-whiff-low",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 379.5,
+					"end": 379.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 379.65,
+					"end": 385.5,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-corner-greedy-light-uppercut",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 385.5,
+					"end": 385.55,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 385.55,
+					"end": 392,
+					"disposition": "excluded",
+					"reason": "Whiff-LK timing-only demonstration; the selected strike/throw/shimmy branches retain the complete timing action."
+				},
+				{
+					"start": 392,
+					"end": 392.05,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 392.05,
+					"end": 402.55,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-corner-uppercut-whiff-light-medium",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 402.55,
+					"end": 402.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 402.7,
+					"end": 411.5,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-corner-uppercut-whiff-light-throw",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 411.5,
+					"end": 411.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 411.7,
+					"end": 421.55,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-corner-uppercut-whiff-light-shimmy",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 421.55,
+					"end": 421.6,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 421.6,
+					"end": 425.6,
+					"disposition": "duplicate",
+					"reason": "Mighty Tiger base confirm is already preserved in the original library and appears as setup prerequisite."
+				},
+				{
+					"start": 425.6,
+					"end": 425.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 425.65,
+					"end": 433.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-mighty-standing-throw",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 433.45,
+					"end": 433.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 433.65,
+					"end": 439.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-mighty-standing-low",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 439.45,
+					"end": 439.75,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 439.75,
+					"end": 444.5,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-counter-jab-medium-uppercut",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 444.5,
+					"end": 444.55,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 444.55,
+					"end": 464,
+					"disposition": "unprocessed",
+					"reason": "Further Counter-Hit jab/Rush/Nexus alternatives."
+				},
+				{
+					"start": 464,
+					"end": 464.05,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 464.05,
+					"end": 470.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-counter-jab-target-level-one",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 470.45,
+					"end": 470.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 470.5,
+					"end": 484.75,
+					"disposition": "unprocessed",
+					"reason": "Counter-Hit Level-2 and alternate light-link choices."
+				},
+				{
+					"start": 484.75,
+					"end": 484.8,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 484.8,
+					"end": 490.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-punish-jab-back-heavy-knee",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 490.45,
+					"end": 490.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 490.5,
+					"end": 1060,
+					"disposition": "unprocessed",
+					"reason": "Substantial jab, medium, heavy, target, Rush, corner and Punish-Counter families. Coarse availability screening only; no extraction/boundary/selected-moment review claimed."
+				},
+				{
+					"start": 1060,
+					"end": 1070.8,
+					"disposition": "unprocessed",
+					"reason": "Heavy-kick Punish-Counter Nexus and ground forward-heavy-kick families."
+				},
+				{
+					"start": 1070.8,
+					"end": 1070.85,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 1070.85,
+					"end": 1080.45,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-guard-od-dp-forward-heavy-level-one",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 1080.45,
+					"end": 1080.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 1080.5,
+					"end": 1109,
+					"disposition": "unprocessed",
+					"reason": "Further forward-heavy-kick Punish-Counter, micro-walk and burnout cash-out alternatives."
+				},
+				{
+					"start": 1109,
+					"end": 1115,
+					"disposition": "duplicate",
+					"reason": "Back-heavy/held-heavy-uppercut anti-air is already preserved in sagat-vesper-anti-air-back-heavy-held."
+				},
+				{
+					"start": 1115,
+					"end": 1115.05,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 1115.05,
+					"end": 1122.55,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-anti-air-back-heavy-shot-rush",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 1122.55,
+					"end": 1122.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 1122.65,
+					"end": 1129.2,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-anti-air-back-heavy-trade-knee",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 1129.2,
+					"end": 1129.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 1129.65,
+					"end": 1141.1,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-anti-air-trade-burnout-cashout",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 1141.1,
+					"end": 1141.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 1141.65,
+					"end": 1209.6,
+					"disposition": "unprocessed",
+					"reason": "Further airborne forward-kick/Rush/corner/Super alternatives and initial throw/Rush-low demonstration."
+				},
+				{
+					"start": 1209.6,
+					"end": 1209.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 1209.65,
+					"end": 1217.65,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-corner-throw-rush-low-throw",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 1217.65,
+					"end": 1217.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 1217.7,
+					"end": 1231,
+					"disposition": "ambiguous",
+					"reason": "Corner throw/Rush-low shimmy take has a longer uncaptioned punish. Exact normal/strength sequence not fully resolved; no guessed extraction."
+				},
+				{
+					"start": 1231,
+					"end": 1256,
+					"disposition": "unprocessed",
+					"reason": "Corner throw/Rush-low medium/jab/Nexus branch and subsequent alternatives."
+				},
+				{
+					"start": 1256,
+					"end": 1360,
+					"disposition": "unprocessed",
+					"reason": "Counter-DI, blocked-DI, corner and raw-Rush alternatives."
+				},
+				{
+					"start": 1360,
+					"end": 1419,
+					"disposition": "unprocessed",
+					"reason": "Directional Level-2 follow-up/juggle alternatives and closing material. Additional direction/state commands require their own focused review."
+				}
+			]
+		},
+		{
+			"sourceKey": "vesperarcade-sagat-2025",
+			"youtubeId": "0P24l4Nu1FE",
+			"duration": 970,
+			"intervals": [
+				{
+					"start": 0,
+					"end": 15.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 15.7,
+					"end": 20.6,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-low-medium-uppercut",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 20.6,
+					"end": 26.8,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 26.8,
+					"end": 31.3,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-low-light-knee",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 31.3,
+					"end": 32.3,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 32.3,
+					"end": 36.1,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-low-nexus-light-follow",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 36.1,
+					"end": 37.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 37.5,
+					"end": 42.1,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-low-nexus-medium-follow",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 42.1,
+					"end": 49.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 49.7,
+					"end": 55.65,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-low-level1",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 55.65,
+					"end": 67.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 67.5,
+					"end": 80.65,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-low-uppercut-level3",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 80.65,
+					"end": 113.6,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 113.6,
+					"end": 118.2,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-medium-od-knee",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 118.2,
+					"end": 119.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 119.7,
+					"end": 126.25,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-medium-od-shot-level1",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 126.25,
+					"end": 143.6,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 143.6,
+					"end": 148.9,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-back-heavy-shot-uppercut",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 148.9,
+					"end": 233.2,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 233.2,
+					"end": 241.15,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-wall-held-uppercut",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 241.15,
+					"end": 242.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 242.5,
+					"end": 249.4,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-wall-heavy-knee-uppercut",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 249.4,
+					"end": 263.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 263.5,
+					"end": 267.7,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-punish-light-heavy-uppercut",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 267.7,
+					"end": 624,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 624,
+					"end": 627.35,
+					"disposition": "excluded",
+					"reason": "Anti-air chapter title transition."
+				},
+				{
+					"start": 627.35,
+					"end": 627.4,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 627.4,
+					"end": 633.1,
+					"disposition": "reused",
+					"referenceId": "sagat-vesper-anti-air-back-heavy-held",
+					"reason": "Preserved original selection, unchanged."
+				},
+				{
+					"start": 633.1,
+					"end": 634.75,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 634.75,
+					"end": 641.55,
+					"disposition": "ambiguous",
+					"reason": "Forward-heavy-kick into DP MP/HP caption lists alternatives; exact performed uppercut strength not independently resolved. No guessed strength authored."
+				},
+				{
+					"start": 641.55,
+					"end": 641.6,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 641.6,
+					"end": 646.75,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-anti-air-forward-heavy-level-one",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 646.75,
+					"end": 647.55,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 647.55,
+					"end": 656.55,
+					"disposition": "unprocessed",
+					"reason": "Two-forward-heavy-kick Level-1 anti-air variation remains available."
+				},
+				{
+					"start": 656.55,
+					"end": 656.6,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 656.6,
+					"end": 663.7,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-anti-air-forward-heavy-rush-held",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 663.7,
+					"end": 665.55,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 665.55,
+					"end": 671.6,
+					"disposition": "ambiguous",
+					"reason": "Jump-medium-punch/DP caption leaves strength dependent on juggle height; exact performed strength unresolved."
+				},
+				{
+					"start": 671.6,
+					"end": 671.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 671.65,
+					"end": 677.3,
+					"disposition": "ambiguous",
+					"reason": "Jump-heavy-kick/DP caption leaves strength dependent on juggle height; exact performed strength unresolved."
+				},
+				{
+					"start": 677.3,
+					"end": 677.35,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 677.35,
+					"end": 687.3,
+					"disposition": "unprocessed",
+					"reason": "Jump-heavy-kick/raw-Rush/back-heavy/held-uppercut air-to-air variation remains available."
+				},
+				{
+					"start": 687.3,
+					"end": 687.35,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; screening does not constitute complete execution extraction."
+				},
+				{
+					"start": 687.35,
+					"end": 694.65,
+					"disposition": "reviewed",
+					"referenceId": "sagat-depth-air-to-air-heavy-od-carry",
+					"reason": "Actual recipe, input order, hit/state/resource result, prepared moments and both excerpt endpoints reviewed."
+				},
+				{
+					"start": 694.65,
+					"end": 970,
+					"disposition": "unprocessed",
+					"reason": "Substantial unselected source material remains available; no complete extraction claim."
+				}
+			]
+		}
+	],
+	"interpretationDecisions": [
+		{
+			"topic": "Distinct target buttons",
+			"decision": "The three selected Level-1 takes at80.1,464.05 and1070.85 use crouching MP into standing HK, confirmed by full input glyphs and kick animation. Other selected crouching-MP target branches visibly use HP; no global button substitution."
+		},
+		{
+			"topic": "Remaining +F and timing whiffs",
+			"decision": "No numeric +F value becomes an invented wait. Intentional LK/cr.LP/medium-knee whiffs appear in copied notation. Only visibly delayed throws and captioned delayed pickups retain unquantified timing cues."
+		},
+		{
+			"topic": "Greedy versus Mighty",
+			"decision": "Greedy setup prerequisites require the standing-only knockdown. Mighty follow-ups leave Ryu standing on hit, so those are Pressure without Oki. No hit sequence is mislabeled as a blocked string."
+		},
+		{
+			"topic": "Safe-jump caption",
+			"decision": "Full-resolution live input at113.5 identifies jumping heavy punch with back direction, then landing guard against recorded Ryu OD Shoryuken. No universal reversal safety."
+		},
+		{
+			"topic": "Seven-bar nominal trade cash-out",
+			"decision": "Full six-bar starting HUD observed at1129.8. One raw Rush plus two cancel Rushes nominally sum to seven; the final cancel spends remaining Drive and enters burnout. No seven-bar gauge capacity or current-patch requirement is invented."
+		},
+		{
+			"topic": "Neutral Level2",
+			"decision": "Source225.65–239.4 keeps the input history neutral after activation. This is distinct from the still-unprocessed directional follow-up routes later in the source."
+		},
+		{
+			"topic": "Actual any ender",
+			"decision": "Corner whiff-LK/medium follow-up resolves the caption’s any to the visible heavy knee and medium uppercut, including the yellow medium-punch glyph at400.0."
+		},
+		{
+			"topic": "Strength ambiguity",
+			"decision": "Vesper f.HK/MP-or-HP DP and air-to-air DP-P alternatives remain excluded/ambiguous rather than guessing a strength."
+		}
+	],
+	"remainingGaps": [
+		"Large Joe medium/heavy/Rush/DI/Level2 branches remain unprocessed.",
+		"Vesper special-move, Level2 and corner chapters remain mostly unprocessed beyond preserved originals.",
+		"A corner throw/Rush-low shimmy extension and three Vesper DP-strength alternatives need closer command evidence before extraction."
+	]
+}

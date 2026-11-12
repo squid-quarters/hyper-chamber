@@ -1,0 +1,1192 @@
+{
+	"characterId": "lily",
+	"reviewedOn": "2026-11-12",
+	"status": "Partial extraction; source-reviewed, not current-patch game-tested",
+	"originalReferencesPreserved": 15,
+	"originalReferenceRevisionCorrections": 1,
+	"newReferences": 57,
+	"newKinds": {
+		"setup": 34,
+		"response": 11,
+		"combo": 12
+	},
+	"newMoments": 292,
+	"sources": [
+		{
+			"sourceKey": "joe-ebios-lily-classic-2026",
+			"youtubeId": "vkfzS1OOP4w",
+			"duration": 944.254,
+			"sourceRecordingSha256": "a740b151f234e1ee02faac4453ffb35250c4081d2ad0ec9da6a7ebb20ce919f1",
+			"surveyedIntervals": [
+				{
+					"start": 0,
+					"end": 944.254,
+					"method": "Eight-second discovery survey across the whole retained source; not full execution extraction."
+				},
+				{
+					"start": 0,
+					"end": 256,
+					"method": "Half-second discovery boards inspected, plus focused input and boundary probes for selected routes."
+				},
+				{
+					"start": 264,
+					"end": 430,
+					"method": "Half-second discovery boards inspected, plus focused execution probes for selected routes."
+				},
+				{
+					"start": 508,
+					"end": 737,
+					"method": "Half-second discovery boards inspected, plus focused execution probes for selected routes."
+				},
+				{
+					"start": 773,
+					"end": 805,
+					"method": "Half-second discovery boards inspected with full-resolution air-to-air input and resource proofs."
+				},
+				{
+					"start": 805,
+					"end": 877,
+					"method": "One-second discovery boards inspected with focused pressure/OD-Spire probes."
+				}
+			],
+			"intervals": [
+				{
+					"start": 0,
+					"end": 2.85,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 2.85,
+					"end": 6.85,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-ebios-lights-medium-buster"],
+					"reason": "Existing first reference corrected to medium-punch Buster in revision 2; original clip and moments retained.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 6.85,
+					"end": 10.75,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 10.75,
+					"end": 14.95,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-buster-rush-back-heavy"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 14.95,
+					"end": 18.85,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 18.85,
+					"end": 23.35,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-buster-rush-typhoon"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 23.35,
+					"end": 27.8,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 27.8,
+					"end": 31.6,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-buster-rush-overhead"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 31.6,
+					"end": 35.7,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 35.7,
+					"end": 38.85,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-buster-rush-guard-reversal"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 38.85,
+					"end": 41.85,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 41.85,
+					"end": 44.55,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-buster-light-wind-stock"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 44.55,
+					"end": 46.85,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 46.85,
+					"end": 52.35,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-lights-wind-spire"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 52.35,
+					"end": 63.15,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 63.15,
+					"end": 67.35,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-wind-spire-jump-throw"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 67.35,
+					"end": 71.8,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 71.8,
+					"end": 76.65,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-wind-medium-jump-heavy-typhoon"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 76.65,
+					"end": 81.15,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 81.15,
+					"end": 87.15,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-wind-medium-jump-shimmy"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 87.15,
+					"end": 91.6,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 91.6,
+					"end": 96.25,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-wind-medium-jump-low-buster"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 96.25,
+					"end": 108.15,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 108.15,
+					"end": 112.4,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-wind-medium-double-dash-delay-throw"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 112.4,
+					"end": 117.1,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 117.1,
+					"end": 122.25,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-wind-medium-double-dash-heavy-typhoon"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 122.25,
+					"end": 126.65,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 126.65,
+					"end": 132.2,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-wind-medium-double-dash-shimmy"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 132.2,
+					"end": 136.6,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 136.6,
+					"end": 140.0,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-wind-medium-double-dash-heavy-wind"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 140.0,
+					"end": 146.35,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 146.35,
+					"end": 150.85,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-corner-wind-medium-stock-low-loop"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 150.85,
+					"end": 158.15,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 158.15,
+					"end": 162.5,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-corner-wind-medium-stock-throw"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 162.5,
+					"end": 165.4,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 165.4,
+					"end": 170.5,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-corner-wind-medium-stock-heavy-typhoon"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 170.5,
+					"end": 170.95,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 170.95,
+					"end": 178.85,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-standing-lights-level-one"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 178.85,
+					"end": 182.1,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 182.1,
+					"end": 188.0,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-standing-lights-od-wind-spire-buster"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 188.0,
+					"end": 188.85,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 188.85,
+					"end": 199.65,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-standing-lights-double-rush-level-three"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 199.65,
+					"end": 200.6,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 200.6,
+					"end": 204.7,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-raw-rush-jab-heavy-wind"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 204.7,
+					"end": 205.45,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 205.45,
+					"end": 209.85,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-raw-rush-jab-heavy-medium-spire"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 209.85,
+					"end": 212.85,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 212.85,
+					"end": 217.2,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-raw-medium-spire-rush-normal-throw"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 217.2,
+					"end": 220.65,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 220.65,
+					"end": 225.3,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-raw-medium-spire-rush-heavy-typhoon"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 225.3,
+					"end": 229.0,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 229.0,
+					"end": 234.2,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-raw-medium-spire-rush-shimmy"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 234.2,
+					"end": 237.9,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 237.9,
+					"end": 242.15,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-raw-medium-spire-rush-heavy-wind"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 242.15,
+					"end": 242.8,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 242.8,
+					"end": 247.65,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-guard-bison-drive-reversal-jab-punish"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 247.65,
+					"end": 250.75,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 250.75,
+					"end": 255.8,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-back-heavy-wind-extra-stock"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 255.8,
+					"end": 256.35,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 256.35,
+					"end": 260.3,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-heavy-medium-wind"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 260.3,
+					"end": 261.1,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 261.1,
+					"end": 263.65,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-anti-air-heavy-wind"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 263.65,
+					"end": 265.65,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 265.65,
+					"end": 267.95,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-blocked-heavy-short-held-wind"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 267.95,
+					"end": 269.5,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 269.5,
+					"end": 275.5,
+					"disposition": "excluded",
+					"reason": "The held-heavy-Wind take visibly loses to the incoming Drive Impact. It is not a successful DI-safe pressure reference."
+				},
+				{
+					"start": 275.5,
+					"end": 276.55,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 276.55,
+					"end": 283.25,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-blocked-heavy-light-wind-counter-impact"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 283.25,
+					"end": 284.55,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 284.55,
+					"end": 289.1,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-counter-heavy-wind"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 289.1,
+					"end": 290.2,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 290.2,
+					"end": 294.9,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-rush-heavy-wind"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 294.9,
+					"end": 295.6,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 295.6,
+					"end": 300.1,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-heavy-wind-spire"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 300.1,
+					"end": 310.05,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 310.05,
+					"end": 314.25,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-heavy-spire-dashes-typhoon"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 314.25,
+					"end": 319.0,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 319.0,
+					"end": 321.85,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-heavy-wind-spire-double-dash-walk-throw"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 321.85,
+					"end": 327.45,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 327.45,
+					"end": 333.05,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-heavy-wind-spire-double-dash-shimmy"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 333.05,
+					"end": 348.25,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 348.25,
+					"end": 353.35,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-corner-heavy-wind-stock-typhoon"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 353.35,
+					"end": 356.35,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 356.35,
+					"end": 359.45,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-corner-heavy-wind-stock-normal-throw"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 359.45,
+					"end": 363.75,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 363.75,
+					"end": 367.45,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-corner-heavy-wind-stock-low-loop"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 367.45,
+					"end": 369.9,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 369.9,
+					"end": 375.35,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-rush-cancel-light-spire"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 375.35,
+					"end": 385.8,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 385.8,
+					"end": 390.95,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-light-spire-dash-microwalk-typhoon"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 390.95,
+					"end": 394.75,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 394.75,
+					"end": 399.2,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-light-spire-dash-microwalk-normal-throw"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 399.2,
+					"end": 402.4,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 402.4,
+					"end": 408.4,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-light-spire-dash-microwalk-shimmy"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 408.4,
+					"end": 409.25,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 409.25,
+					"end": 414.95,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-crouching-heavy-cancel-rush-heavy-buster"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 414.95,
+					"end": 419.0,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 419.0,
+					"end": 423.9,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-cancel-rush-buster-rush-back-heavy"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 423.9,
+					"end": 510.2,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 510.2,
+					"end": 518.8,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-crouching-heavy-rush-medium-level-one"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 518.8,
+					"end": 519.8,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 519.8,
+					"end": 527.0,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-crouching-heavy-double-rush-buster"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 527.0,
+					"end": 527.75,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 527.75,
+					"end": 537.65,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-crouching-heavy-double-rush-level-three"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 537.65,
+					"end": 538.7,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 538.7,
+					"end": 548.5,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-near-corner-heavy-rush-wind-spire-level-one"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 548.5,
+					"end": 564.85,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 564.85,
+					"end": 576.1,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-corner-three-winds-od-buster-dive-level-one"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 576.1,
+					"end": 587.35,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 587.35,
+					"end": 593.25,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-raw-rush-heavy-punish-wind"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 593.25,
+					"end": 596.15,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 596.15,
+					"end": 606.5,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-guard-od-dp-heavy-wind-spire-level-one"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 606.5,
+					"end": 607.15,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 607.15,
+					"end": 618.0,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-guard-od-dp-held-od-wind-level-one"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 618.0,
+					"end": 619.55,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 619.55,
+					"end": 630.75,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-guard-od-dp-raw-rush-double-cancel-level-three"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 630.75,
+					"end": 635.65,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 635.65,
+					"end": 639.5,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-corner-throw-rush-throw"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 639.5,
+					"end": 643.15,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 643.15,
+					"end": 648.6,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-corner-throw-microwalk-light-typhoon"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 648.6,
+					"end": 651.55,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 651.55,
+					"end": 654.1,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-corner-throw-microwalk-blocked-heavy"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 654.1,
+					"end": 657.85,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 657.85,
+					"end": 661.85,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-typhoon-rush-blocked-heavy-wind"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 661.85,
+					"end": 665.5,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 665.5,
+					"end": 669.5,
+					"disposition": "ambiguous",
+					"reason": "The Typhoon/Rush reversal-bait take needs further exact contact and strength review. No safe-bait recipe authored."
+				},
+				{
+					"start": 669.5,
+					"end": 672.55,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 672.55,
+					"end": 680.25,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-impact-heavy-wind"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 680.25,
+					"end": 682.7,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 682.7,
+					"end": 691.15,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-counter-impact-heavy-wind-spire"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 691.15,
+					"end": 692.55,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 692.55,
+					"end": 704.4,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-impact-od-spire-sa1"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 704.4,
+					"end": 707.85,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 707.85,
+					"end": 716.65,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-counter-impact-double-wind-dive"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 716.65,
+					"end": 718.5,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 718.5,
+					"end": 730,
+					"disposition": "ambiguous",
+					"reason": "The next DI/Super route has an unresolved printed jumping-heavy-punch versus live jump-button reading. No guessed execution authored."
+				},
+				{
+					"start": 730,
+					"end": 753.7,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 753.7,
+					"end": 763.55,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-wall-wind-spire-sa1"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 763.55,
+					"end": 774.35,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 774.35,
+					"end": 777.65,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-air-to-air-medium-target-light-buster"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 777.65,
+					"end": 779.65,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 779.65,
+					"end": 784.5,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-air-to-air-medium-target-od-buster-dive"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 784.5,
+					"end": 785.9,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 785.9,
+					"end": 795.15,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-corner-air-to-air-medium-od-dive-level-one"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 795.15,
+					"end": 796.1,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 796.1,
+					"end": 801.25,
+					"disposition": "reused",
+					"referenceIds": ["lily-ebios-blocked-drive-reversal-typhoon"],
+					"reason": "Existing object, revision, related links and media preserved exactly.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 801.25,
+					"end": 809.65,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 809.65,
+					"end": 815.1,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-blocked-od-wind-spire-heavy-typhoon"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 815.1,
+					"end": 816.8,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 816.8,
+					"end": 821.9,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-blocked-od-wind-spire-low-buster"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 821.9,
+					"end": 841,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 841,
+					"end": 850,
+					"disposition": "ambiguous",
+					"reason": "The advertised safe-jump take needs an exact jump-button and defensive-contact review before authoring."
+				},
+				{
+					"start": 850,
+					"end": 865.35,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				},
+				{
+					"start": 865.35,
+					"end": 871.7,
+					"disposition": "reviewed",
+					"referenceIds": ["lily-depth-ordinary-od-spire-double-dash-typhoon"],
+					"reason": "New recipe, input history, resource HUD, all prepared moments and loop boundaries reviewed; source-reviewed, not current-patch game-tested.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 871.7,
+					"end": 944.254,
+					"disposition": "unprocessed",
+					"reason": "Not selected as a reviewed execution. Discovery surveys do not establish exhaustive extraction."
+				}
+			]
+		}
+	],
+	"excludedCandidates": [
+		{
+			"start": 269.5,
+			"end": 275.5,
+			"disposition": "excluded",
+			"reason": "The held-heavy-Wind take visibly loses to the incoming Drive Impact. It is not a successful DI-safe pressure reference."
+		},
+		{
+			"start": 665.5,
+			"end": 669.5,
+			"disposition": "ambiguous",
+			"reason": "The Typhoon/Rush reversal-bait take needs further exact contact and strength review. No safe-bait recipe authored."
+		},
+		{
+			"start": 718.5,
+			"end": 730,
+			"disposition": "ambiguous",
+			"reason": "The next DI/Super route has an unresolved printed jumping-heavy-punch versus live jump-button reading. No guessed execution authored."
+		},
+		{
+			"start": 841,
+			"end": 850,
+			"disposition": "ambiguous",
+			"reason": "The advertised safe-jump take needs an exact jump-button and defensive-contact review before authoring."
+		}
+	],
+	"interpretationDecisions": [
+		{
+			"topic": "Published notation correction",
+			"decision": "The first retained reference changes revision 1 to revision 2: the video prints 623MK, but live history performs yellow medium PUNCH. Its command is 623MP. The ID, original clip bounds and all media remain unchanged; the other 15 original objects remain exact."
+		},
+		{
+			"topic": "Live commands before printed alternatives",
+			"decision": "Near-corner lights are standing LK, LP, LP despite a crouching-light overlay. Raw Rush links crouching HP despite a generic printed HP. Only the performed SA1 ending is authored where an overlay offers SA1 or SA2."
+		},
+		{
+			"topic": "Stocks and spend",
+			"decision": "Wind prerequisites are separate from follow-up costs. The three-Wind corner route spends one stock each on heavy Spire, OD Buster and OD Dive. Ordinary OD air-to-air specials and ordinary OD-Spire oki are explicitly no-Wind variants. Held OD Wind gains the Wind used later in that route."
+		},
+		{
+			"topic": "Guard versus whiff",
+			"decision": "The medium-Buster Rush bait and two shorter OD-DP punish routes visibly block Ryu OD Shoryuken. The longer raw-Rush double-cancel cash-out at619.55 instead punishes an OD Shoryuken that misses at the recorded spacing; its preceding jab/whiffed-low setup is stated separately. Bison Drive Reversal is a guarded Drive Reversal, not an OD special."
+		},
+		{
+			"topic": "Air-to-air target",
+			"decision": "j.MP followed by j.MP is the same-jump target after an initial airborne Counter Hit. The grounded Buster follows after landing. These are tagged Air-to-air, not grounded Anti-air."
+		},
+		{
+			"topic": "Pressure and frame labels",
+			"decision": "Blocked OD wind Spire begins standing pressure, not oki. Source +F labels describe advantage, not a prescribed wait. Exact holds, micro-walk distances and delays are not invented."
+		},
+		{
+			"topic": "Cash-out gauge",
+			"decision": "Raw Rush plus two cancel Rushes has a nominal seven-bar cost; the recording starts with a six-bar gauge and the final cancel enters burnout. It does not imply seven-bar capacity. Normal-health SA3 is distinguished from Critical Art."
+		},
+		{
+			"topic": "Failed and ambiguous takes",
+			"decision": "Held-heavy Wind losing to DI is excluded. The short-hold take records an ordinary parry; it does not prove a universal Perfect-Parry counter. Unresolved safe-jump, reversal and printed/live jump-button candidates remain out of reviewed cards."
+		}
+	]
+}

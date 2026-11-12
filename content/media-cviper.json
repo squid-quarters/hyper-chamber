@@ -1,5 +1,5 @@
 {
-	"sourceIds": ["vesperarcade-cviper-2025"],
+	"sourceIds": ["vesperarcade-cviper-2025", "chris-f-cviper-2025", "killerex-cviper-2025"],
 	"publicationStatus": "private-development",
 	"presentationNote": "Complete source frame retained without crop, including source annotations and game HUD. Original recordings remain outside Git.",
 	"assets": [
@@ -117,6 +117,330 @@
 			"sourceStart": 199.6,
 			"sourceEnd": 204.4,
 			"clip": "/media/cviper/cviper-vesper-heavy-high-jump-air-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-anti-air-heavy-thunder-tracer",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 1185.65,
+			"sourceEnd": 1188.85,
+			"clip": "/media/cviper/cviper-depth-anti-air-heavy-thunder-tracer/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-anti-air-far-standing-heavy-kick",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 143.3,
+			"sourceEnd": 145.85,
+			"clip": "/media/cviper/cviper-depth-anti-air-far-standing-heavy-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-anti-air-heavy-kick-jump-cancel-level-two",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 1204.35,
+			"sourceEnd": 1212.05,
+			"clip": "/media/cviper/cviper-depth-anti-air-heavy-kick-jump-cancel-level-two/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-drive-rush-counter-medium-seismo",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 1268.85,
+			"sourceEnd": 1271.65,
+			"clip": "/media/cviper/cviper-depth-drive-rush-counter-medium-seismo/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-drive-rush-standing-light-kick",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 1282.8,
+			"sourceEnd": 1284.7,
+			"clip": "/media/cviper/cviper-depth-drive-rush-standing-light-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-drive-rush-low-high-jump-seismo",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 1292.65,
+			"sourceEnd": 1296.0,
+			"clip": "/media/cviper/cviper-depth-drive-rush-low-high-jump-seismo/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-far-forward-heavy-light-thunder",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 182.05,
+			"sourceEnd": 186.05,
+			"clip": "/media/cviper/cviper-depth-far-forward-heavy-light-thunder/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-close-forward-heavy-light-chain",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 187.75,
+			"sourceEnd": 192.15,
+			"clip": "/media/cviper/cviper-depth-close-forward-heavy-light-chain/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-crouching-heavy-feint-focus",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 206.05,
+			"sourceEnd": 210.3,
+			"clip": "/media/cviper/cviper-depth-crouching-heavy-feint-focus/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-crouching-heavy-feint-od-seismo",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 211.75,
+			"sourceEnd": 216.9,
+			"clip": "/media/cviper/cviper-depth-crouching-heavy-feint-od-seismo/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-standing-heavy-jump-cancel-feint",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 218.65,
+			"sourceEnd": 222.85,
+			"clip": "/media/cviper/cviper-depth-standing-heavy-jump-cancel-feint/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-far-heavy-kick-punish-light-thunder",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 315.85,
+			"sourceEnd": 319.75,
+			"clip": "/media/cviper/cviper-depth-far-heavy-kick-punish-light-thunder/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-heavy-kick-punish-side-switch",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 321.55,
+			"sourceEnd": 327.6,
+			"clip": "/media/cviper/cviper-depth-heavy-kick-punish-side-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-drive-impact-punish-seismo-air-kick",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 366.25,
+			"sourceEnd": 372.35,
+			"clip": "/media/cviper/cviper-depth-drive-impact-punish-seismo-air-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-crossup-medium-od-seismo-double-od",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 392.3,
+			"sourceEnd": 398.35,
+			"clip": "/media/cviper/cviper-depth-crossup-medium-od-seismo-double-od/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-drive-rush-overhead-focus",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 455.15,
+			"sourceEnd": 459.85,
+			"clip": "/media/cviper/cviper-depth-drive-rush-overhead-focus/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-far-medium-thunder-jab-heavy",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 544.15,
+			"sourceEnd": 548.15,
+			"clip": "/media/cviper/cviper-depth-far-medium-thunder-jab-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-charged-focus-light-seismo-juggle",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 582.7,
+			"sourceEnd": 589.7,
+			"clip": "/media/cviper/cviper-depth-charged-focus-light-seismo-juggle/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-charged-od-focus-all-drive-level-three",
+			"sourceId": "vesperarcade-cviper-2025",
+			"sourceStart": 615.55,
+			"sourceEnd": 634.15,
+			"clip": "/media/cviper/cviper-depth-charged-od-focus-all-drive-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-corner-forward-throw-walk-throw",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 222.65,
+			"sourceEnd": 226.2,
+			"clip": "/media/cviper/cviper-depth-corner-forward-throw-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-corner-forward-throw-shimmy-heavy",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 243.15,
+			"sourceEnd": 245.8,
+			"clip": "/media/cviper/cviper-depth-corner-forward-throw-shimmy-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-blocked-medium-low-walkback-check",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 309.45,
+			"sourceEnd": 313.15,
+			"clip": "/media/cviper/cviper-depth-blocked-medium-low-walkback-check/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-blocked-medium-counter-jab-medium",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 324.1,
+			"sourceEnd": 326.65,
+			"clip": "/media/cviper/cviper-depth-blocked-medium-counter-jab-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-blocked-medium-throw-respect",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 331.1,
+			"sourceEnd": 334.7,
+			"clip": "/media/cviper/cviper-depth-blocked-medium-throw-respect/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-crouching-heavy-feint-spacing-trap",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 363.05,
+			"sourceEnd": 365.85,
+			"clip": "/media/cviper/cviper-depth-crouching-heavy-feint-spacing-trap/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-light-burning-pursuit-walk-throw",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 611.8,
+			"sourceEnd": 617.75,
+			"clip": "/media/cviper/cviper-depth-light-burning-pursuit-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-two-jab-tracer-dash-medium",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 790.65,
+			"sourceEnd": 793.85,
+			"clip": "/media/cviper/cviper-depth-two-jab-tracer-dash-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-two-jab-tracer-dash-backdash-heavy",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 795.85,
+			"sourceEnd": 800.15,
+			"clip": "/media/cviper/cviper-depth-two-jab-tracer-dash-backdash-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-four-light-tracer-dash-walkback",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 830.25,
+			"sourceEnd": 834.75,
+			"clip": "/media/cviper/cviper-depth-four-light-tracer-dash-walkback/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-corner-tracer-whiff-low-medium",
+			"sourceId": "chris-f-cviper-2025",
+			"sourceStart": 900.05,
+			"sourceEnd": 904.15,
+			"clip": "/media/cviper/cviper-depth-corner-tracer-whiff-low-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-grounded-tracer-dash-throw",
+			"sourceId": "killerex-cviper-2025",
+			"sourceStart": 15.15,
+			"sourceEnd": 19.98,
+			"clip": "/media/cviper/cviper-depth-grounded-tracer-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-grounded-burning-pursuit-dash-throw",
+			"sourceId": "killerex-cviper-2025",
+			"sourceStart": 21.4,
+			"sourceEnd": 26.12,
+			"clip": "/media/cviper/cviper-depth-grounded-burning-pursuit-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-air-burning-pursuit-dash-throw",
+			"sourceId": "killerex-cviper-2025",
+			"sourceStart": 27.65,
+			"sourceEnd": 33.15,
+			"clip": "/media/cviper/cviper-depth-air-burning-pursuit-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-juggle-tracer-walk-medium-throw",
+			"sourceId": "killerex-cviper-2025",
+			"sourceStart": 78.85,
+			"sourceEnd": 84.8,
+			"clip": "/media/cviper/cviper-depth-juggle-tracer-walk-medium-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-od-thunder-tracer-jump-land-guard",
+			"sourceId": "killerex-cviper-2025",
+			"sourceStart": 493.7,
+			"sourceEnd": 496.6,
+			"clip": "/media/cviper/cviper-depth-od-thunder-tracer-jump-land-guard/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "cviper-depth-seismo-air-heavy-jump-land-guard",
+			"sourceId": "killerex-cviper-2025",
+			"sourceStart": 498.35,
+			"sourceEnd": 501.15,
+			"clip": "/media/cviper/cviper-depth-seismo-air-heavy-jump-land-guard/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

@@ -1,5 +1,5 @@
 {
-	"sourceIds": ["joe-ebios-kimberly-classic-2026"],
+	"sourceIds": ["joe-ebios-kimberly-classic-2026", "diaphone-kimberly-guide-2023"],
 	"publicationStatus": "private-development",
 	"presentationNote": "Uncropped source frames retain input history, training HUD and source overlays. Full original recording remains local.",
 	"assets": [
@@ -135,6 +135,726 @@
 			"sourceStart": 649.35,
 			"sourceEnd": 654.85,
 			"clip": "/media/kimberly/kimberly-ebios-corner-target-medium-bomb/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-light-edge-standing-throw",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 4.95,
+			"sourceEnd": 7.35,
+			"clip": "/media/kimberly/kimberly-depth-light-edge-standing-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-light-edge-standing-shimmy",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 9.25,
+			"sourceEnd": 14.3,
+			"clip": "/media/kimberly/kimberly-depth-light-edge-standing-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-light-edge-standing-low",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 16.3,
+			"sourceEnd": 18.4,
+			"clip": "/media/kimberly/kimberly-depth-light-edge-standing-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-light-edge-standing-medium-kick",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 20.2,
+			"sourceEnd": 22.4,
+			"clip": "/media/kimberly/kimberly-depth-light-edge-standing-medium-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-light-edge-low-trade-heavy",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 24.75,
+			"sourceEnd": 29.85,
+			"clip": "/media/kimberly/kimberly-depth-light-edge-low-trade-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-target-whiff-medium-dash-throw",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 43.15,
+			"sourceEnd": 46.35,
+			"clip": "/media/kimberly/kimberly-depth-target-whiff-medium-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-target-whiff-medium-dash-shimmy",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 50.1,
+			"sourceEnd": 56.8,
+			"clip": "/media/kimberly/kimberly-depth-target-whiff-medium-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-target-whiff-medium-dash-medium",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 60.1,
+			"sourceEnd": 64.7,
+			"clip": "/media/kimberly/kimberly-depth-target-whiff-medium-dash-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-target-double-dash-delay-throw",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 72.65,
+			"sourceEnd": 76.9,
+			"clip": "/media/kimberly/kimberly-depth-target-double-dash-delay-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-target-double-dash-shimmy",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 80.1,
+			"sourceEnd": 86.75,
+			"clip": "/media/kimberly/kimberly-depth-target-double-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-target-double-dash-heavy-kick",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 90.1,
+			"sourceEnd": 96.6,
+			"clip": "/media/kimberly/kimberly-depth-target-double-dash-heavy-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-arc-knockdown-rush-throw",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 106.25,
+			"sourceEnd": 109.3,
+			"clip": "/media/kimberly/kimberly-depth-arc-knockdown-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-arc-knockdown-rush-jab-shimmy",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 114.0,
+			"sourceEnd": 119.85,
+			"clip": "/media/kimberly/kimberly-depth-arc-knockdown-rush-jab-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-arc-knockdown-rush-heavy-kick",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 124.8,
+			"sourceEnd": 129.85,
+			"clip": "/media/kimberly/kimberly-depth-arc-knockdown-rush-heavy-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-arc-knockdown-rush-back-heavy-kick",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 134.3,
+			"sourceEnd": 139.55,
+			"clip": "/media/kimberly/kimberly-depth-arc-knockdown-rush-back-heavy-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-arc-knockdown-rush-low",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 143.9,
+			"sourceEnd": 149.25,
+			"clip": "/media/kimberly/kimberly-depth-arc-knockdown-rush-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-slide-double-dash-delay-throw",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 162.8,
+			"sourceEnd": 165.95,
+			"clip": "/media/kimberly/kimberly-depth-slide-double-dash-delay-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-slide-double-dash-shimmy",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 170.05,
+			"sourceEnd": 176.1,
+			"clip": "/media/kimberly/kimberly-depth-slide-double-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-slide-double-dash-heavy-kick",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 179.3,
+			"sourceEnd": 183.95,
+			"clip": "/media/kimberly/kimberly-depth-slide-double-dash-heavy-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-bushin-jab-whiff-delay-throw",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 199.7,
+			"sourceEnd": 202.75,
+			"clip": "/media/kimberly/kimberly-depth-bushin-jab-whiff-delay-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-bushin-buff-jab-whiff-walk-shimmy",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 207.7,
+			"sourceEnd": 213.9,
+			"clip": "/media/kimberly/kimberly-depth-bushin-buff-jab-whiff-walk-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-bushin-jab-whiff-backdash-shimmy",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 218.65,
+			"sourceEnd": 224.9,
+			"clip": "/media/kimberly/kimberly-depth-bushin-jab-whiff-backdash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-bushin-jab-whiff-heavy-kick",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 230.15,
+			"sourceEnd": 235.45,
+			"clip": "/media/kimberly/kimberly-depth-bushin-jab-whiff-heavy-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-bushin-jab-whiff-heavy-kick-trade",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 239.7,
+			"sourceEnd": 244.85,
+			"clip": "/media/kimberly/kimberly-depth-bushin-jab-whiff-heavy-kick-trade/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-bushin-jab-whiff-low-medium",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 249.9,
+			"sourceEnd": 255.0,
+			"clip": "/media/kimberly/kimberly-depth-bushin-jab-whiff-low-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-medium-od-arc-launch-light-edge",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 256.65,
+			"sourceEnd": 262.45,
+			"clip": "/media/kimberly/kimberly-depth-medium-od-arc-launch-light-edge/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-od-arc-medium-kick-whiff-delay-throw",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 276.4,
+			"sourceEnd": 279.5,
+			"clip": "/media/kimberly/kimberly-depth-od-arc-medium-kick-whiff-delay-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-od-arc-medium-kick-whiff-shimmy",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 286.25,
+			"sourceEnd": 294.0,
+			"clip": "/media/kimberly/kimberly-depth-od-arc-medium-kick-whiff-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-od-arc-medium-kick-whiff-heavy-kick",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 300.7,
+			"sourceEnd": 307.65,
+			"clip": "/media/kimberly/kimberly-depth-od-arc-medium-kick-whiff-heavy-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-od-arc-medium-kick-whiff-heavy-trade",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 314.35,
+			"sourceEnd": 319.7,
+			"clip": "/media/kimberly/kimberly-depth-od-arc-medium-kick-whiff-heavy-trade/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-od-arc-medium-kick-whiff-low",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 326.4,
+			"sourceEnd": 333.4,
+			"clip": "/media/kimberly/kimberly-depth-od-arc-medium-kick-whiff-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-back-heavy-kick-jab-light-edge",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 377.55,
+			"sourceEnd": 380.7,
+			"clip": "/media/kimberly/kimberly-depth-back-heavy-kick-jab-light-edge/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-corner-back-heavy-kick-jab-heavy-bushin",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 381.65,
+			"sourceEnd": 385.55,
+			"clip": "/media/kimberly/kimberly-depth-corner-back-heavy-kick-jab-heavy-bushin/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-airgrab-corner-dash-throw",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 408.05,
+			"sourceEnd": 410.85,
+			"clip": "/media/kimberly/kimberly-depth-airgrab-corner-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-airgrab-corner-dash-shimmy",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 415.6,
+			"sourceEnd": 421.5,
+			"clip": "/media/kimberly/kimberly-depth-airgrab-corner-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-airgrab-corner-dash-low-medium",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 426.25,
+			"sourceEnd": 429.75,
+			"clip": "/media/kimberly/kimberly-depth-airgrab-corner-dash-low-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-airgrab-corner-dash-medium",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 433.85,
+			"sourceEnd": 438.65,
+			"clip": "/media/kimberly/kimberly-depth-airgrab-corner-dash-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-heavy-od-airgrab-run-light-edge",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 440.15,
+			"sourceEnd": 446.35,
+			"clip": "/media/kimberly/kimberly-depth-heavy-od-airgrab-run-light-edge/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-od-airgrab-knockdown-rush-throw",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 453.35,
+			"sourceEnd": 456.35,
+			"clip": "/media/kimberly/kimberly-depth-od-airgrab-knockdown-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-heavy-od-airgrab-run-level-one",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 458.15,
+			"sourceEnd": 469.35,
+			"clip": "/media/kimberly/kimberly-depth-heavy-od-airgrab-run-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-standing-heavy-kick-target-slide",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 470.65,
+			"sourceEnd": 474.85,
+			"clip": "/media/kimberly/kimberly-depth-standing-heavy-kick-target-slide/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-raw-rush-back-heavy-kick-slide",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 475.75,
+			"sourceEnd": 480.85,
+			"clip": "/media/kimberly/kimberly-depth-raw-rush-back-heavy-kick-slide/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-raw-rush-heavy-kick-od-airgrab",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 482.05,
+			"sourceEnd": 489.4,
+			"clip": "/media/kimberly/kimberly-depth-raw-rush-heavy-kick-od-airgrab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-raw-rush-medium-crouching-medium-slide",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 490.75,
+			"sourceEnd": 495.65,
+			"clip": "/media/kimberly/kimberly-depth-raw-rush-medium-crouching-medium-slide/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-raw-rush-low-heavy-od-airgrab",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 496.65,
+			"sourceEnd": 504.35,
+			"clip": "/media/kimberly/kimberly-depth-raw-rush-low-heavy-od-airgrab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-forward-throw-rush-medium-hit",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 507.95,
+			"sourceEnd": 512.4,
+			"clip": "/media/kimberly/kimberly-depth-forward-throw-rush-medium-hit/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-forward-throw-blocked-rush-medium-throw",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 520.3,
+			"sourceEnd": 523.85,
+			"clip": "/media/kimberly/kimberly-depth-forward-throw-blocked-rush-medium-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-forward-throw-blocked-rush-medium-shimmy",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 527.05,
+			"sourceEnd": 532.85,
+			"clip": "/media/kimberly/kimberly-depth-forward-throw-blocked-rush-medium-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-forward-throw-blocked-rush-medium-low",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 535.85,
+			"sourceEnd": 538.85,
+			"clip": "/media/kimberly/kimberly-depth-forward-throw-blocked-rush-medium-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-forward-throw-blocked-rush-medium-low-link",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 541.25,
+			"sourceEnd": 544.85,
+			"clip": "/media/kimberly/kimberly-depth-forward-throw-blocked-rush-medium-low-link/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-forward-throw-blocked-rush-medium-low-trade",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 547.85,
+			"sourceEnd": 553.75,
+			"clip": "/media/kimberly/kimberly-depth-forward-throw-blocked-rush-medium-low-trade/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-corner-forward-throw-walk-throw",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 557.15,
+			"sourceEnd": 559.85,
+			"clip": "/media/kimberly/kimberly-depth-corner-forward-throw-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-corner-forward-throw-walk-shimmy",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 563.15,
+			"sourceEnd": 568.85,
+			"clip": "/media/kimberly/kimberly-depth-corner-forward-throw-walk-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-corner-forward-throw-walk-heavy-kick",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 572.15,
+			"sourceEnd": 576.95,
+			"clip": "/media/kimberly/kimberly-depth-corner-forward-throw-walk-heavy-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-counter-drive-impact-od-airgrab",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 588.65,
+			"sourceEnd": 598.5,
+			"clip": "/media/kimberly/kimberly-depth-counter-drive-impact-od-airgrab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-corner-drive-impact-od-airgrab",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 606.75,
+			"sourceEnd": 614.45,
+			"clip": "/media/kimberly/kimberly-depth-corner-drive-impact-od-airgrab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-guarded-bison-reversal-light-kick-punish",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 616.55,
+			"sourceEnd": 620.6,
+			"clip": "/media/kimberly/kimberly-depth-guarded-bison-reversal-light-kick-punish/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-blocked-rush-medium-shimmy-od-airgrab",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 639.65,
+			"sourceEnd": 647.9,
+			"clip": "/media/kimberly/kimberly-depth-blocked-rush-medium-shimmy-od-airgrab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-target-slide-medium-bomb-plant",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 655.65,
+			"sourceEnd": 660.08,
+			"clip": "/media/kimberly/kimberly-depth-target-slide-medium-bomb-plant/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-heavy-od-airgrab-heavy-bomb-plant",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 660.65,
+			"sourceEnd": 667.75,
+			"clip": "/media/kimberly/kimberly-depth-heavy-od-airgrab-heavy-bomb-plant/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-od-arc-whiff-jab-launch-heavy-bomb",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 668.5,
+			"sourceEnd": 674.75,
+			"clip": "/media/kimberly/kimberly-depth-od-arc-whiff-jab-launch-heavy-bomb/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-one-bomb-throw-od-airgrab-replant",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 678.15,
+			"sourceEnd": 685.4,
+			"clip": "/media/kimberly/kimberly-depth-one-bomb-throw-od-airgrab-replant/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-one-bomb-backdash-shimmy-teleports",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 688.45,
+			"sourceEnd": 695.5,
+			"clip": "/media/kimberly/kimberly-depth-one-bomb-backdash-shimmy-teleports/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-one-bomb-guard-drive-reversal",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 699.1,
+			"sourceEnd": 704.1,
+			"clip": "/media/kimberly/kimberly-depth-one-bomb-guard-drive-reversal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-one-bomb-blocked-target-stop-throw",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 709.05,
+			"sourceEnd": 713.05,
+			"clip": "/media/kimberly/kimberly-depth-one-bomb-blocked-target-stop-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-one-bomb-blocked-target-overhead",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 717.0,
+			"sourceEnd": 722.25,
+			"clip": "/media/kimberly/kimberly-depth-one-bomb-blocked-target-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-one-bomb-blocked-target-slide",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 725.25,
+			"sourceEnd": 733.25,
+			"clip": "/media/kimberly/kimberly-depth-one-bomb-blocked-target-slide/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-one-bomb-target-hit-light-edge",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 736.5,
+			"sourceEnd": 742.8,
+			"clip": "/media/kimberly/kimberly-depth-one-bomb-target-hit-light-edge/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-two-bomb-guard-drive-reversal",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 747.05,
+			"sourceEnd": 753.15,
+			"clip": "/media/kimberly/kimberly-depth-two-bomb-guard-drive-reversal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-two-bomb-backdash-light-edge-teleports",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 758.75,
+			"sourceEnd": 765.4,
+			"clip": "/media/kimberly/kimberly-depth-two-bomb-backdash-light-edge-teleports/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-two-bomb-blocked-target-slide",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 769.65,
+			"sourceEnd": 776.45,
+			"clip": "/media/kimberly/kimberly-depth-two-bomb-blocked-target-slide/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-two-bomb-blocked-target-back-heavy-kick",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 781.1,
+			"sourceEnd": 789.75,
+			"clip": "/media/kimberly/kimberly-depth-two-bomb-blocked-target-back-heavy-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-two-bomb-target-hit-sweep-teleports",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 792.55,
+			"sourceEnd": 799.5,
+			"clip": "/media/kimberly/kimberly-depth-two-bomb-target-hit-sweep-teleports/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-two-bomb-throw-delay-teleports",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 803.65,
+			"sourceEnd": 810.55,
+			"clip": "/media/kimberly/kimberly-depth-two-bomb-throw-delay-teleports/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-two-bomb-guard-od-dp-auto-punish",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 815.25,
+			"sourceEnd": 821.85,
+			"clip": "/media/kimberly/kimberly-depth-two-bomb-guard-od-dp-auto-punish/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-two-bomb-guard-od-dp-heavy-punish",
+			"sourceId": "joe-ebios-kimberly-classic-2026",
+			"sourceStart": 830.05,
+			"sourceEnd": 835.9,
+			"clip": "/media/kimberly/kimberly-depth-two-bomb-guard-od-dp-heavy-punish/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-diaphone-heavy-senpu-anti-air",
+			"sourceId": "diaphone-kimberly-guide-2023",
+			"sourceStart": 921.65,
+			"sourceEnd": 923.55,
+			"clip": "/media/kimberly/kimberly-depth-diaphone-heavy-senpu-anti-air/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-diaphone-od-senpu-anti-air",
+			"sourceId": "diaphone-kimberly-guide-2023",
+			"sourceStart": 963.95,
+			"sourceEnd": 965.7,
+			"clip": "/media/kimberly/kimberly-depth-diaphone-od-senpu-anti-air/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-diaphone-tiger-knee-light-air-grab",
+			"sourceId": "diaphone-kimberly-guide-2023",
+			"sourceStart": 1118.4,
+			"sourceEnd": 1120.5,
+			"clip": "/media/kimberly/kimberly-depth-diaphone-tiger-knee-light-air-grab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "kimberly-depth-diaphone-neutral-jump-od-air-grab",
+			"sourceId": "diaphone-kimberly-guide-2023",
+			"sourceStart": 1111.7,
+			"sourceEnd": 1114.1,
+			"clip": "/media/kimberly/kimberly-depth-diaphone-neutral-jump-od-air-grab/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

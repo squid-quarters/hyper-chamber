@@ -1107,5 +1107,4029 @@
 			"ingrid-vesper-wall-one-crest-juggle",
 			"ingrid-vesper-low-medium-kick"
 		]
+	},
+	{
+		"id": "ingrid-depth-medium-rise-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Medium Sun Rise: Rush into wake-up throw",
+		"summary": "Start from the three-jab medium-Sun-Rise knockdown and spend one new Drive bar to approach for the throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw knockdown"],
+		"notation": "DR > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: three crouching light punches into medium Sun Rise, with the recorded midscreen knockdown and separation"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F numbers are the source’s reported remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 10.65,
+			"end": 14.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-rush-throw/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-medium-rise-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-medium-rise-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-rush-throw/frame-1.jpg",
+					"at": 0.15,
+					"label": "Context",
+					"alt": "The prerequisite medium Sun Rise has knocked Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-rush-throw/frame-2.jpg",
+					"at": 1.05,
+					"label": "Action",
+					"alt": "Raw Drive Rush closes for the demonstrated wake-up throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-rush-throw/frame-3.jpg",
+					"at": 2.85,
+					"label": "Result",
+					"alt": "The normal throw connects and knocks Ryu down again."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead",
+			"ingrid-depth-medium-rise-rush-heavy-kick"
+		]
+	},
+	{
+		"id": "ingrid-depth-medium-rise-rush-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Medium Sun Rise: Rush shimmy into heavy-kick conversion",
+		"summary": "After the same knockdown, retreat from the recorded wake-up throw before heavy kick; the Rush approach costs one Drive bar.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish counter"],
+		"outcomes": ["Throw bait", "Knockdown"],
+		"notation": "DR > 4 > st.HK > st.MP > st.MK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: three crouching light punches into medium Sun Rise, with the recorded midscreen knockdown and separation",
+			"Ryu attempts the recorded wake-up throw"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F numbers are the source’s reported remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 18.25,
+			"end": 24.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-rush-shimmy/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-medium-rise-rush-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-medium-rise-rush-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-rush-shimmy/frame-1.jpg",
+					"at": 0.3,
+					"label": "Context",
+					"alt": "Ingrid Rushes as the prerequisite knockdown ends."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-rush-shimmy/frame-2.jpg",
+					"at": 1.5,
+					"label": "Action",
+					"alt": "Backward movement baits Ryu’s throw; standing heavy kick scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-rush-shimmy/frame-3.jpg",
+					"at": 3.95,
+					"label": "Result",
+					"alt": "The medium target chain into medium Sun Rise completes the throw-bait conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-dash-walk-shimmy",
+			"ingrid-depth-stored-flare-dash-shimmy",
+			"ingrid-depth-medium-rise-rush-throw"
+		]
+	},
+	{
+		"id": "ingrid-depth-medium-rise-rush-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Medium Sun Rise: Rush overhead into medium target",
+		"summary": "Use the one-bar Rush approach to link the overhead hit into the standing-medium target after medium Sun Rise.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Overhead conversion", "Knockdown"],
+		"notation": "DR > f.MP > st.MP > st.MK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: three crouching light punches into medium Sun Rise, with the recorded midscreen knockdown and separation"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F numbers are the source’s reported remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 28.1,
+			"end": 32.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-rush-overhead/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-medium-rise-rush-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-medium-rise-rush-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-rush-overhead/frame-1.jpg",
+					"at": 0.4,
+					"label": "Context",
+					"alt": "Raw Rush advances after the medium-Sun-Rise knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-rush-overhead/frame-2.jpg",
+					"at": 1.2,
+					"label": "Action",
+					"alt": "Forward medium punch performs the recorded wake-up overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-rush-overhead/frame-3.jpg",
+					"at": 3.7,
+					"label": "Result",
+					"alt": "Standing medium punch, medium kick and medium Sun Rise finish the overhead conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-heavy-kick"
+		]
+	},
+	{
+		"id": "ingrid-depth-medium-rise-rush-heavy-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Medium Sun Rise: Rush heavy kick into medium target",
+		"summary": "Link the medium target from the normal wake-up heavy-kick hit; the separate shimmy version requires Ryu's throw attempt.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up conversion", "Knockdown"],
+		"notation": "DR > st.HK > st.MP > st.MK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: three crouching light punches into medium Sun Rise, with the recorded midscreen knockdown and separation"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F numbers are the source’s reported remaining advantage, not instructions to wait that many frames.",
+			"This is the normal-hit heavy-kick branch; the separately recorded shimmy branch requires the defender’s throw attempt and scores Punish Counter."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 37.15,
+			"end": 42.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-rush-heavy-kick/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-medium-rise-rush-heavy-kick/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-medium-rise-rush-heavy-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-rush-heavy-kick/frame-1.jpg",
+					"at": 0.4,
+					"label": "Context",
+					"alt": "Ingrid Rushes after the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-rush-heavy-kick/frame-2.jpg",
+					"at": 1.25,
+					"label": "Action",
+					"alt": "Standing heavy kick hits Ryu on the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-rush-heavy-kick/frame-3.jpg",
+					"at": 3.55,
+					"label": "Result",
+					"alt": "The medium target chain and medium Sun Rise complete the normal-hit pressure branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-medium-rise-dash-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Medium Sun Rise: dash, walk and throw",
+		"summary": "Use dash then a short forward walk to reach throw range after medium Sun Rise without spending more Drive.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw knockdown"],
+		"notation": "Dash > Walk > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: three crouching light punches into medium Sun Rise, with the recorded midscreen knockdown and separation"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F numbers are the source’s reported remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 46.55,
+			"end": 50.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-throw/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-throw/frame-1.jpg",
+					"at": 0.3,
+					"label": "Context",
+					"alt": "The medium-Sun-Rise knockdown ends at the recorded spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-throw/frame-2.jpg",
+					"at": 1.15,
+					"label": "Action",
+					"alt": "A dash and forward walk close for the normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-throw/frame-3.jpg",
+					"at": 2.95,
+					"label": "Result",
+					"alt": "The throw connects without spending Drive on the follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-medium-rise-dash-walk-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Medium Sun Rise: dash-walk shimmy conversion",
+		"summary": "Keep the forward walk after the dash before retreating from Ryu's throw; the heavy-kick punish adds no Drive cost.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish counter"],
+		"outcomes": ["Throw bait", "Knockdown"],
+		"notation": "Dash > Walk > 4 > st.HK > st.MP > st.MK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: three crouching light punches into medium Sun Rise, with the recorded midscreen knockdown and separation",
+			"Ryu attempts the recorded wake-up throw"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F numbers are the source’s reported remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 54.55,
+			"end": 60.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-shimmy/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-shimmy/frame-1.jpg",
+					"at": 0.35,
+					"label": "Context",
+					"alt": "Ingrid dashes and walks forward after the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-shimmy/frame-2.jpg",
+					"at": 1.25,
+					"label": "Action",
+					"alt": "The backward shimmy baits Ryu’s throw, and standing heavy kick scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-shimmy/frame-3.jpg",
+					"at": 3.65,
+					"label": "Result",
+					"alt": "The medium target chain into medium Sun Rise ends the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-stored-flare-dash-shimmy",
+			"ingrid-depth-medium-rise-rush-throw"
+		]
+	},
+	{
+		"id": "ingrid-depth-medium-rise-dash-walk-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Medium Sun Rise: dash-walk crouching low",
+		"summary": "Dash and walk from the medium-Sun-Rise knockdown before the low-kick confirm, preserving Drive on this follow-up.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Low conversion", "Knockdown"],
+		"notation": "Dash > Walk > cr.LK > cr.LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: three crouching light punches into medium Sun Rise, with the recorded midscreen knockdown and separation"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F numbers are the source’s reported remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 63.85,
+			"end": 68.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-low/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-low/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-low/frame-1.jpg",
+					"at": 0.4,
+					"label": "Context",
+					"alt": "The dash and walk close from the medium-Sun-Rise knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-low/frame-2.jpg",
+					"at": 1.0,
+					"label": "Action",
+					"alt": "Crouching light kick begins the performed low follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-low/frame-3.jpg",
+					"at": 2.45,
+					"label": "Result",
+					"alt": "Crouching light punch cancels into medium Sun Rise."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-corner-medium-rise-whiff-low-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Corner Sun Rise: whiff low into overhead",
+		"summary": "Intentionally miss crouching light kick during the corner knockdown before the overhead; the +22 caption does not prescribe a wait.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Overhead conversion", "Corner knockdown"],
+		"notation": "cr.LK (whiff) > f.MP > st.LP > st.LK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK (whiff)",
+				"label": "Intentionally whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: three crouching light punches into medium Sun Rise against cornered Ryu"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F numbers are the source’s reported remaining advantage, not instructions to wait that many frames.",
+			"The printed 2LK (whiff) +22F identifies remaining advantage after the framekill; no 22-frame wait is inserted."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 72.15,
+			"end": 77.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-corner-medium-rise-whiff-low-overhead/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-corner-medium-rise-whiff-low-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-corner-medium-rise-whiff-low-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-corner-medium-rise-whiff-low-overhead/frame-1.jpg",
+					"at": 0.25,
+					"label": "Context",
+					"alt": "Crouching light kick intentionally whiffs while Ryu finishes the corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-corner-medium-rise-whiff-low-overhead/frame-2.jpg",
+					"at": 0.75,
+					"label": "Action",
+					"alt": "Forward medium punch hits the recorded wake-up as an overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-corner-medium-rise-whiff-low-overhead/frame-3.jpg",
+					"at": 2.85,
+					"label": "Result",
+					"alt": "Standing light punch, light kick and medium Sun Rise finish the corner conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-stored-flare-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Stored Sun Flare knockdown: dash into throw",
+		"summary": "The prerequisite already spent three Drive bars and stored a Crest; dash into throw without another Drive spend.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw knockdown"],
+		"notation": "Dash > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: standing medium kick, Rush-cancel crouching heavy punch, heavy Sun Rise and light Sun Flare; the last action stores a Crest while Ryu is knocked down"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F numbers are the source’s reported remaining advantage, not instructions to wait that many frames.",
+			"The prerequisite Rush cancel spends three Drive bars; the listed dash and throw add none. The live HUD shows three Crests after the prerequisite."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 150.45,
+			"end": 154.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-stored-flare-dash-throw/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-stored-flare-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-stored-flare-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-stored-flare-dash-throw/frame-1.jpg",
+					"at": 0.25,
+					"label": "Context",
+					"alt": "The prerequisite light Sun Flare stores a Crest as Ryu lands."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-stored-flare-dash-throw/frame-2.jpg",
+					"at": 1.35,
+					"label": "Action",
+					"alt": "Ingrid dashes into the normal throw at the recorded wake-up timing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-stored-flare-dash-throw/frame-3.jpg",
+					"at": 2.95,
+					"label": "Result",
+					"alt": "The throw connects and causes another knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-stored-flare-dash-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Stored Sun Flare knockdown: dash shimmy conversion",
+		"summary": "Begin after the heavy-Rise/light-Flare knockdown, then retreat from the recorded throw to use the heavy-kick punish.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish counter"],
+		"outcomes": ["Throw bait", "Knockdown"],
+		"notation": "Dash > 4 > st.HK > st.MP > st.MK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: standing medium kick, Rush-cancel crouching heavy punch, heavy Sun Rise and light Sun Flare; the last action stores a Crest while Ryu is knocked down",
+			"Ryu attempts the recorded wake-up throw"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F numbers are the source’s reported remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 159.5,
+			"end": 165.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-stored-flare-dash-shimmy/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-stored-flare-dash-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-stored-flare-dash-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-stored-flare-dash-shimmy/frame-1.jpg",
+					"at": 0.3,
+					"label": "Context",
+					"alt": "The light-Sun-Flare prerequisite finishes while Ryu falls."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-stored-flare-dash-shimmy/frame-2.jpg",
+					"at": 1.5,
+					"label": "Action",
+					"alt": "The dash shimmy baits Ryu’s throw; standing heavy kick scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-stored-flare-dash-shimmy/frame-3.jpg",
+					"at": 3.65,
+					"label": "Result",
+					"alt": "The medium target chain into medium Sun Rise finishes the throw punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-dash-walk-shimmy",
+			"ingrid-depth-medium-rise-rush-throw"
+		]
+	},
+	{
+		"id": "ingrid-depth-stored-flare-dash-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Stored Sun Flare knockdown: dash into crouching low",
+		"summary": "Retain the short walk after the dash to reach the low-kick confirm; the prerequisite's Rush-cancel cost is separate.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Low conversion", "Knockdown"],
+		"notation": "Dash > Walk > cr.LK > cr.LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: standing medium kick, Rush-cancel crouching heavy punch, heavy Sun Rise and light Sun Flare; the last action stores a Crest while Ryu is knocked down"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F numbers are the source’s reported remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 169.45,
+			"end": 173.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-stored-flare-dash-low/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-stored-flare-dash-low/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-stored-flare-dash-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-stored-flare-dash-low/frame-1.jpg",
+					"at": 0.35,
+					"label": "Context",
+					"alt": "The stored-Flare prerequisite ends with Ryu falling."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-stored-flare-dash-low/frame-2.jpg",
+					"at": 1.4,
+					"label": "Action",
+					"alt": "The dash and short walk lead into crouching light kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-stored-flare-dash-low/frame-3.jpg",
+					"at": 2.75,
+					"label": "Result",
+					"alt": "Crouching light punch and medium Sun Rise finish the recorded low branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-heavy-rain-throw-refill",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Heavy Level-2 rain: throw, refill and OD pickup",
+		"summary": "Start with two Crests for held heavy Level 2, then store two more during the throw sequence before OD Sun Flare.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Pressure"],
+		"outcomes": ["Rain-cover conversion", "Knockdown"],
+		"notation": "st.HK > SA2 (HP hold) > Throw > 214LP (hold) > 214PP > Dash > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "SA2 (HP hold)",
+				"label": "Hold heavy-punch Level 2 for the demonstrated rain cover"
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP (hold)",
+				"label": "Hold light Sun Flare to store the demonstrated two Crests"
+			},
+			{
+				"id": "step-5",
+				"notation": "214PP",
+				"label": "OD Sun Flare with the demonstrated Crest enhancement"
+			},
+			{
+				"id": "step-6",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-7",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"2 Sun Crests visible at the start",
+			"Ryu blocks the initial standing heavy kick",
+			"Two Crests are spent during the held heavy Super, then two are stored before the OD Sun Flare"
+		],
+		"notes": [
+			"The selected Level-2 strength and hold are the ones actually performed. No universal gap, frame-trap or reversal-safety claim is made.",
+			"The Crest count falls during the held Super; the later light Sun Flare stores the Crests used by OD Sun Flare."
+		],
+		"resources": {
+			"drive": "OD Sun Flare (2 Drive bars)",
+			"super": "Held Level 2 (2 Super bars)"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 600.05,
+			"end": 611.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-heavy-rain-throw-refill/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-heavy-rain-throw-refill/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-heavy-rain-throw-refill/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-heavy-rain-throw-refill/frame-1.jpg",
+					"at": 0.45,
+					"label": "Blocked starter",
+					"alt": "Ryu blocks standing heavy kick before the held heavy-punch Level 2."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-heavy-rain-throw-refill/frame-2.jpg",
+					"at": 4.45,
+					"label": "Throw",
+					"alt": "The normal throw connects beneath the delayed rain cover."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-heavy-rain-throw-refill/frame-3.jpg",
+					"at": 7.45,
+					"label": "Crest refill",
+					"alt": "Held light Sun Flare has refilled two Crests; OD Sun Flare begins with both available."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-heavy-rain-throw-refill/frame-4.jpg",
+					"at": 9.45,
+					"label": "Finish",
+					"alt": "A dash into medium Sun Rise finishes the rain-assisted juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-heavy-rain-shimmy-refill",
+			"ingrid-depth-burnout-blocked-heavy-di-stun",
+			"ingrid-depth-medium-rise-rush-throw"
+		]
+	},
+	{
+		"id": "ingrid-depth-corner-heavy-rain-throw-uppercuts",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Corner heavy rain: throw into repeated heavy pickups",
+		"summary": "Keep Ryu cornered and match the two-Crest start; refill after the throw before OD Flare and both heavy pickups.",
+		"kind": "setup",
+		"situations": ["Corner", "Pressure"],
+		"outcomes": ["Rain-cover conversion", "Corner knockdown"],
+		"notation": "st.HK > SA2 (HP hold) > Throw > 214LP (hold) > Dash > 214PP > 236HP > 236HP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "SA2 (HP hold)",
+				"label": "Hold heavy-punch Level 2 for the demonstrated rain cover"
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP (hold)",
+				"label": "Hold light Sun Flare to store the demonstrated two Crests"
+			},
+			{
+				"id": "step-5",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "214PP",
+				"label": "OD Sun Flare with the demonstrated Crest enhancement"
+			},
+			{
+				"id": "step-7",
+				"notation": "236HP",
+				"label": "Heavy Sun Shot"
+			},
+			{
+				"id": "step-8",
+				"notation": "236HP",
+				"label": "Heavy Sun Shot"
+			},
+			{
+				"id": "step-9",
+				"notation": "236LK",
+				"label": "Light Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"2 Sun Crests visible at the start",
+			"Ryu blocks the initial standing heavy kick",
+			"Ryu begins cornered",
+			"Two Crests spent on held Level 2, then two stored before OD Sun Flare"
+		],
+		"notes": [
+			"The selected Level-2 strength and hold are the ones actually performed. No universal gap, frame-trap or reversal-safety claim is made.",
+			"The Crest count falls during the held Super; the later light Sun Flare stores the Crests used by OD Sun Flare."
+		],
+		"resources": {
+			"drive": "OD Sun Flare (2 Drive bars)",
+			"super": "Held Level 2 (2 Super bars)"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 612.65,
+			"end": 625.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-corner-heavy-rain-throw-uppercuts/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-corner-heavy-rain-throw-uppercuts/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-corner-heavy-rain-throw-uppercuts/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-corner-heavy-rain-throw-uppercuts/frame-1.jpg",
+					"at": 0.85,
+					"label": "Blocked starter",
+					"alt": "The initial heavy kick is blocked against cornered Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-corner-heavy-rain-throw-uppercuts/frame-2.jpg",
+					"at": 4.75,
+					"label": "Throw",
+					"alt": "The normal throw connects under held heavy-Level-2 rain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-corner-heavy-rain-throw-uppercuts/frame-3.jpg",
+					"at": 6.35,
+					"label": "Refill and OD",
+					"alt": "Held light Sun Flare stores two Crests before the dash and OD pickup."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-corner-heavy-rain-throw-uppercuts/frame-4.jpg",
+					"at": 9.5,
+					"label": "Heavy pickups",
+					"alt": "Two performed heavy Sun Shots juggle Ryu in the corner."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ingrid/ingrid-depth-corner-heavy-rain-throw-uppercuts/frame-5.jpg",
+					"at": 11.75,
+					"label": "Finish",
+					"alt": "Light Sun Rise ends the corner route."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-corner-light-rain-back-throw-forward-teleport",
+			"ingrid-depth-corner-light-rain-back-throw-heavy-pickups",
+			"ingrid-depth-corner-medium-rise-whiff-low-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-heavy-rain-shimmy-refill",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Heavy Level-2 rain: shimmy heavy kick and refill",
+		"summary": "Retreat from the recorded throw after held heavy Level 2, then use the punish and Crest refill before OD Flare.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Pressure", "Punish counter"],
+		"outcomes": ["Throw bait", "Rain-cover conversion", "Knockdown"],
+		"notation": "st.HK > SA2 (HP hold) > 4 > st.HK > st.MK > 236LK > 214LP (hold) > 214PP > Dash > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "SA2 (HP hold)",
+				"label": "Hold heavy-punch Level 2 for the demonstrated rain cover"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "236LK",
+				"label": "Light Sun Rise"
+			},
+			{
+				"id": "step-7",
+				"notation": "214LP (hold)",
+				"label": "Hold light Sun Flare to store the demonstrated two Crests"
+			},
+			{
+				"id": "step-8",
+				"notation": "214PP",
+				"label": "OD Sun Flare with the demonstrated Crest enhancement"
+			},
+			{
+				"id": "step-9",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-10",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"2 Sun Crests visible at the start",
+			"Ryu blocks the initial standing heavy kick",
+			"Ryu attempts the recorded throw after the Super",
+			"Two Crests spent on held Level 2, then two stored before OD Sun Flare"
+		],
+		"notes": [
+			"The selected Level-2 strength and hold are the ones actually performed. No universal gap, frame-trap or reversal-safety claim is made.",
+			"The Crest count falls during the held Super; the later light Sun Flare stores the Crests used by OD Sun Flare."
+		],
+		"resources": {
+			"drive": "OD Sun Flare (2 Drive bars)",
+			"super": "Held Level 2 (2 Super bars)"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 626.2,
+			"end": 638.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-heavy-rain-shimmy-refill/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-heavy-rain-shimmy-refill/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-heavy-rain-shimmy-refill/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-heavy-rain-shimmy-refill/frame-1.jpg",
+					"at": 0.8,
+					"label": "Blocked starter",
+					"alt": "Ryu blocks the first standing heavy kick before the held heavy rain Super."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-heavy-rain-shimmy-refill/frame-2.jpg",
+					"at": 4.8,
+					"label": "Throw punish",
+					"alt": "The shimmy baits Ryu’s throw; the second heavy kick scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-heavy-rain-shimmy-refill/frame-3.jpg",
+					"at": 7.9,
+					"label": "Refill",
+					"alt": "Standing medium kick and light Sun Rise juggle alongside the rain while held light Sun Flare refills two Crests."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-heavy-rain-shimmy-refill/frame-4.jpg",
+					"at": 8.9,
+					"label": "OD pickup",
+					"alt": "OD Sun Flare spends the refilled Crests and relaunches Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ingrid/ingrid-depth-heavy-rain-shimmy-refill/frame-5.jpg",
+					"at": 10.8,
+					"label": "Finish",
+					"alt": "A dash into medium Sun Rise completes the recorded branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-dash-walk-shimmy",
+			"ingrid-depth-stored-flare-dash-shimmy"
+		]
+	},
+	{
+		"id": "ingrid-depth-corner-light-rain-back-throw-forward-teleport",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Light Level-2 rain: back throw and forward teleport",
+		"summary": "Start with Ingrid near the wall and one Crest; the back throw switches sides before the refill and forward-teleport pickup.",
+		"kind": "setup",
+		"situations": ["Corner", "Pressure"],
+		"outcomes": ["Side switch", "Rain-cover conversion", "Corner knockdown"],
+		"notation": "st.HK > SA2 (LP hold) > Back throw > 214LP > 214PP > 6KKK > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "SA2 (LP hold)",
+				"label": "Hold light-punch Level 2 for the demonstrated rain cover"
+			},
+			{
+				"id": "step-3",
+				"notation": "Back throw",
+				"label": "Backward normal throw"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP",
+				"label": "Light Sun Flare: store a Sun Crest"
+			},
+			{
+				"id": "step-5",
+				"notation": "214PP",
+				"label": "OD Sun Flare with the demonstrated Crest enhancement"
+			},
+			{
+				"id": "step-6",
+				"notation": "6KKK",
+				"label": "Forward Vanishing Sun kick follow-up"
+			},
+			{
+				"id": "step-7",
+				"notation": "236LK",
+				"label": "Light Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"1 Sun Crest visible at the start",
+			"Ryu blocks the initial standing heavy kick",
+			"Ingrid starts with her back near the wall, rather than Ryu starting cornered",
+			"One Crest spent on held Level 2, then one stored before OD Sun Flare"
+		],
+		"notes": [
+			"The selected Level-2 strength and hold are the ones actually performed. No universal gap, frame-trap or reversal-safety claim is made.",
+			"The Crest count falls during the held Super; the later light Sun Flare stores the Crests used by OD Sun Flare."
+		],
+		"resources": {
+			"drive": "OD Sun Flare (2 Drive bars)",
+			"super": "Held Level 2 (2 Super bars)"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 639.65,
+			"end": 650.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-forward-teleport/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-forward-teleport/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-forward-teleport/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-forward-teleport/frame-1.jpg",
+					"at": 0.35,
+					"label": "Blocked starter",
+					"alt": "Ingrid begins with her back near the left corner; Ryu blocks standing heavy kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-forward-teleport/frame-2.jpg",
+					"at": 4.15,
+					"label": "Back throw",
+					"alt": "The back throw switches sides beneath held light-Level-2 rain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-forward-teleport/frame-3.jpg",
+					"at": 6.6,
+					"label": "Crest and OD",
+					"alt": "Light Sun Flare stores one Crest before OD Sun Flare spends it."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-forward-teleport/frame-4.jpg",
+					"at": 8.1,
+					"label": "Forward teleport",
+					"alt": "The forward Vanishing Sun kick connects in the rain-assisted juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-forward-teleport/frame-5.jpg",
+					"at": 9.35,
+					"label": "Finish",
+					"alt": "Light Sun Rise ends the performed conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-corner-heavy-rain-throw-uppercuts",
+			"ingrid-depth-corner-light-rain-back-throw-heavy-pickups",
+			"ingrid-depth-corner-medium-rise-whiff-low-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-corner-light-rain-back-throw-heavy-pickups",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Light Level-2 rain: back throw and heavy pickups",
+		"summary": "Begin with Ingrid's back near the wall and two Crests; after the back throw, store one before OD Flare and repeated heavy pickups.",
+		"kind": "setup",
+		"situations": ["Corner", "Pressure"],
+		"outcomes": ["Side switch", "Rain-cover conversion", "Corner knockdown"],
+		"notation": "st.HK > SA2 (LP hold) > Back throw > 214LP > 214PP > 236HP > 236HP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "SA2 (LP hold)",
+				"label": "Hold light-punch Level 2 for the demonstrated rain cover"
+			},
+			{
+				"id": "step-3",
+				"notation": "Back throw",
+				"label": "Backward normal throw"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP",
+				"label": "Light Sun Flare: store a Sun Crest"
+			},
+			{
+				"id": "step-5",
+				"notation": "214PP",
+				"label": "OD Sun Flare with the demonstrated Crest enhancement"
+			},
+			{
+				"id": "step-6",
+				"notation": "236HP",
+				"label": "Heavy Sun Shot"
+			},
+			{
+				"id": "step-7",
+				"notation": "236HP",
+				"label": "Heavy Sun Shot"
+			},
+			{
+				"id": "step-8",
+				"notation": "236LK",
+				"label": "Light Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"2 Sun Crests visible at the start",
+			"Ryu blocks the initial standing heavy kick",
+			"Ingrid begins with her back near the wall",
+			"Two Crests spent on held Level 2, then one stored before OD Sun Flare"
+		],
+		"notes": [
+			"The selected Level-2 strength and hold are the ones actually performed. No universal gap, frame-trap or reversal-safety claim is made.",
+			"The Crest count falls during the held Super; the later light Sun Flare stores the Crests used by OD Sun Flare."
+		],
+		"resources": {
+			"drive": "OD Sun Flare (2 Drive bars)",
+			"super": "Held Level 2 (2 Super bars)"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 651.65,
+			"end": 663.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-heavy-pickups/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-heavy-pickups/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-heavy-pickups/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-heavy-pickups/frame-1.jpg",
+					"at": 0.85,
+					"label": "Blocked starter",
+					"alt": "With Ingrid’s back near the left wall, Ryu blocks the opening heavy kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-heavy-pickups/frame-2.jpg",
+					"at": 4.55,
+					"label": "Back throw",
+					"alt": "The back throw moves Ryu toward the corner beneath the held light-Level-2 rain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-heavy-pickups/frame-3.jpg",
+					"at": 7.1,
+					"label": "Crest refill",
+					"alt": "Light Sun Flare stores one Crest before the OD pickup."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-heavy-pickups/frame-4.jpg",
+					"at": 7.6,
+					"label": "OD pickup",
+					"alt": "OD Sun Flare spends the stored Crest and relaunches Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-heavy-pickups/frame-5.jpg",
+					"at": 9.1,
+					"label": "Heavy pickups",
+					"alt": "The two performed heavy Sun Shots extend the corner juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-heavy-pickups/frame-6.jpg",
+					"at": 9.65,
+					"label": "Finish",
+					"alt": "Light Sun Rise ends the recorded rain conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-corner-heavy-rain-throw-uppercuts",
+			"ingrid-depth-corner-light-rain-back-throw-forward-teleport",
+			"ingrid-depth-corner-medium-rise-whiff-low-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-anti-air-back-heavy-medium-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Grounded anti-air: back-heavy target into medium Sun Rise",
+		"summary": "Match Ryu's incoming jump range before back heavy punch and its target continuation; the medium-Rise ender spends no Drive.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air"],
+		"outcomes": ["Anti-air knockdown"],
+		"notation": "b.HP > st.HP (target) > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP (target)",
+				"label": "Heavy-punch continuation of the back-heavy target"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the recorded incoming jump at the demonstrated range"
+		],
+		"notes": [
+			"This is a grounded anti-air recording; no reaction test or universal jump coverage is claimed."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 478.65,
+			"end": 482.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-anti-air-back-heavy-medium-rise/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-anti-air-back-heavy-medium-rise/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-anti-air-back-heavy-medium-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-anti-air-back-heavy-medium-rise/frame-1.jpg",
+					"at": 0.4,
+					"label": "Context",
+					"alt": "Ryu jumps toward the grounded Ingrid."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-anti-air-back-heavy-medium-rise/frame-2.jpg",
+					"at": 1.45,
+					"label": "Action",
+					"alt": "Back heavy punch intercepts the jump and continues into the heavy-punch target attack."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-anti-air-back-heavy-medium-rise/frame-3.jpg",
+					"at": 2.95,
+					"label": "Result",
+					"alt": "Medium Sun Rise completes the recorded anti-air juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-anti-air-back-heavy-crest-rush",
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy"
+		]
+	},
+	{
+		"id": "ingrid-depth-anti-air-back-heavy-crest-rush",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Grounded anti-air: Crested Flare and Rush forward heavy",
+		"summary": "Have two Crests for heavy Flare and one Drive bar for the Rush extension; this is not an OD-Flare input.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air"],
+		"outcomes": ["Anti-air knockdown"],
+		"notation": "b.HP > st.HP (target) > 214HP > DR > f.HP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP (target)",
+				"label": "Heavy-punch continuation of the back-heavy target"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Sun Flare with the demonstrated Crest enhancement"
+			},
+			{
+				"id": "step-4",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "f.HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "214MP",
+				"label": "Medium Sun Flare"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Two Sun Crests visible before the heavy Sun Flare; none remain afterward",
+			"Ryu uses the recorded jump at the shown range"
+		],
+		"notes": [
+			"This records the actual two-Crest heavy-Flare extension, not an OD Sun Flare input."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-ingrid-2026",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"published": "2026-05-30",
+			"start": 484.75,
+			"end": 490.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-anti-air-back-heavy-crest-rush/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-anti-air-back-heavy-crest-rush/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-anti-air-back-heavy-crest-rush/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-anti-air-back-heavy-crest-rush/frame-1.jpg",
+					"at": 0.7,
+					"label": "Incoming jump",
+					"alt": "Ryu uses the recorded incoming jump toward grounded Ingrid."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-anti-air-back-heavy-crest-rush/frame-2.jpg",
+					"at": 1.85,
+					"label": "Interception",
+					"alt": "Back heavy punch and its heavy-punch target continuation intercept him."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-anti-air-back-heavy-crest-rush/frame-3.jpg",
+					"at": 3.35,
+					"label": "Crested Flare",
+					"alt": "Heavy Sun Flare uses the two visible Crests to extend the airborne route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-anti-air-back-heavy-crest-rush/frame-4.jpg",
+					"at": 4.6,
+					"label": "Rush pickup",
+					"alt": "Raw Rush forward heavy punch reaches the launched Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ingrid/ingrid-depth-anti-air-back-heavy-crest-rush/frame-5.jpg",
+					"at": 5.65,
+					"label": "Finish",
+					"alt": "Medium Sun Flare finishes the anti-air conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-anti-air-back-heavy-medium-rise",
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy"
+		]
+	},
+	{
+		"id": "ingrid-depth-lights-double-rush-level-three-cashout",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Light confirm: two Rush cancels into Level 3",
+		"summary": "Start with six Drive bars and Level 3; two Rush cancels empty the Drive gauge before the Super finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Cash-out", "Super finish"],
+		"outcomes": ["Resource cash-out", "Hard knockdown"],
+		"notation": "cr.LP > cr.LP > DRC > st.LP > st.MP > st.MK > DRC > st.HK > st.MP > st.MK > 214MP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-10",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-11",
+				"notation": "214MP",
+				"label": "Medium Sun Flare"
+			},
+			{
+				"id": "step-12",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "Six Drive bars and Level 3 available at the start"],
+		"notes": [],
+		"resources": {
+			"drive": "Two Drive Rush cancels (6 bars total; enters Burnout)",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 78.35,
+			"end": 94.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-lights-double-rush-level-three-cashout/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-lights-double-rush-level-three-cashout/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-lights-double-rush-level-three-cashout/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-lights-double-rush-level-three-cashout/frame-1.jpg",
+					"at": 0.65,
+					"label": "Light confirm",
+					"alt": "The two crouching jabs start with full Drive and Level 3 available."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-lights-double-rush-level-three-cashout/frame-2.jpg",
+					"at": 2.7,
+					"label": "Burnout extension",
+					"alt": "The second Rush cancel empties the Drive gauge and visibly enters Burnout."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-lights-double-rush-level-three-cashout/frame-3.jpg",
+					"at": 4.35,
+					"label": "Super cancel",
+					"alt": "The heavy kick and medium target chain cancel through medium Sun Flare into Level 3."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-lights-double-rush-level-three-cashout/frame-4.jpg",
+					"at": 15.05,
+					"label": "Finish",
+					"alt": "The Super completes its hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-vesper-medium-flare-level3",
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy"
+		]
+	},
+	{
+		"id": "ingrid-depth-back-medium-heavy-store-crest",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Back-medium target: heavy punch and Crest storage",
+		"summary": "Use light Flare after the knockdown to store a Crest, taking the shown count from two to three rather than adding a combo hit.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown", "Crest gain"],
+		"notation": "b.MK > st.HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "Light Sun Flare: store a Sun Crest"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The live HUD rises from two Crests to three; the Flare is storage after the knockdown, not a connecting third attack."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 98.15,
+			"end": 101.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-back-medium-heavy-store-crest/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-back-medium-heavy-store-crest/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-back-medium-heavy-store-crest/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-back-medium-heavy-store-crest/frame-1.jpg",
+					"at": 0.75,
+					"label": "Context",
+					"alt": "Back medium kick starts the target chain at the recorded close spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-back-medium-heavy-store-crest/frame-2.jpg",
+					"at": 1.35,
+					"label": "Action",
+					"alt": "The heavy-punch continuation knocks Ryu down."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-back-medium-heavy-store-crest/frame-3.jpg",
+					"at": 1.95,
+					"label": "Result",
+					"alt": "Light Sun Flare stores one Crest during the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-medium-target-flare-store",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Medium target: medium Flare and Crest storage",
+		"summary": "The medium Flare spends no Crest here; the following light Flare stores one after the knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown", "Crest gain"],
+		"notation": "st.MP > st.MK > 214MP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP",
+				"label": "Medium Sun Flare"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP",
+				"label": "Light Sun Flare: store a Sun Crest"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"No Crest is spent on the medium Flare; the visible count rises from two to three after light Sun Flare."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 108.25,
+			"end": 112.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-medium-target-flare-store/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-medium-target-flare-store/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-medium-target-flare-store/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-medium-target-flare-store/frame-1.jpg",
+					"at": 0.7,
+					"label": "Context",
+					"alt": "Standing medium punch links the medium-kick target continuation."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-medium-target-flare-store/frame-2.jpg",
+					"at": 1.75,
+					"label": "Action",
+					"alt": "Medium Sun Flare knocks Ryu away."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-medium-target-flare-store/frame-3.jpg",
+					"at": 2.4,
+					"label": "Result",
+					"alt": "Light Sun Flare stores one Crest while Ryu falls."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-medium-target-od-down-teleport",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Medium target: two-Crest OD Flare and down teleport",
+		"summary": "Begin with exactly two Crests and two Drive bars for OD Flare, then use down teleport before medium Sun Rise.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > st.MK > 214PP > 2KKK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "214PP",
+				"label": "OD Sun Flare with the demonstrated Crest enhancement"
+			},
+			{
+				"id": "step-4",
+				"notation": "2KKK",
+				"label": "Down Vanishing Sun overhead follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Exactly two Sun Crests visible before OD Sun Flare; none remain after it"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "OD Sun Flare (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 113.1,
+			"end": 119.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-medium-target-od-down-teleport/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-medium-target-od-down-teleport/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-medium-target-od-down-teleport/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-medium-target-od-down-teleport/frame-1.jpg",
+					"at": 0.9,
+					"label": "Target confirm",
+					"alt": "The medium target chain starts with two Sun Crests visible."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-medium-target-od-down-teleport/frame-2.jpg",
+					"at": 1.75,
+					"label": "OD Flare",
+					"alt": "OD Sun Flare spends two Drive bars and the two Crests."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-medium-target-od-down-teleport/frame-3.jpg",
+					"at": 2.7,
+					"label": "Down teleport",
+					"alt": "Down Vanishing Sun performs the actual overhead follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-medium-target-od-down-teleport/frame-4.jpg",
+					"at": 4.0,
+					"label": "Finish",
+					"alt": "Medium Sun Rise completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-low-medium-rush-heavy-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Crouching medium kick: Rush heavy-kick target conversion",
+		"summary": "Spend three Drive bars to convert the low medium-kick hit into the heavy-kick target route without using Super.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Low conversion", "Knockdown"],
+		"notation": "cr.MK > DRC > st.HK > st.MP > st.MK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Rush cancel (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 175.25,
+			"end": 181.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-low-medium-rush-heavy-target/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-low-medium-rush-heavy-target/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-low-medium-rush-heavy-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-low-medium-rush-heavy-target/frame-1.jpg",
+					"at": 0.75,
+					"label": "Context",
+					"alt": "Crouching medium kick starts the recorded low confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-low-medium-rush-heavy-target/frame-2.jpg",
+					"at": 1.55,
+					"label": "Action",
+					"alt": "The Rush-cancel standing heavy kick links the medium target chain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-low-medium-rush-heavy-target/frame-3.jpg",
+					"at": 3.8,
+					"label": "Result",
+					"alt": "Medium Sun Rise completes the seven-hit route."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-crouching-medium-crouching-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Crouching-target confirm: medium punch into target chain",
+		"summary": "Use this meterless medium-punch link against the demonstrated crouching defender; the source restricts the target link to that state.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Crouching-target conversion", "Knockdown"],
+		"notation": "cr.MP > st.MP > st.MK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu is crouching; this source explicitly limits the medium-target link to a crouching target"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 188.25,
+			"end": 193.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-crouching-medium-crouching-target/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-crouching-medium-crouching-target/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-crouching-medium-crouching-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-crouching-target/frame-1.jpg",
+					"at": 0.75,
+					"label": "Context",
+					"alt": "Crouching medium punch hits the crouching Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-crouching-target/frame-2.jpg",
+					"at": 1.9,
+					"label": "Action",
+					"alt": "Standing medium punch and medium kick link at the demonstrated crouching-target spacing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-crouching-target/frame-3.jpg",
+					"at": 2.85,
+					"label": "Result",
+					"alt": "Medium Sun Rise ends the meterless confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-crouching-medium-rush-store",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Crouching medium: Rush heavy Rise and Crest storage",
+		"summary": "After the three-bar Rush juggle, use light Flare as storage; the shown Crest count rises from two to three.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown", "Crest gain"],
+		"notation": "cr.MP > DRC > cr.HP > 236HK > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Sun Rise"
+			},
+			{
+				"id": "step-5",
+				"notation": "214LP",
+				"label": "Light Sun Flare: store a Sun Crest"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The source begins with two Crests and ends with three. Light Sun Flare is a storage action after the juggle."
+		],
+		"resources": {
+			"drive": "Drive Rush cancel (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 194.75,
+			"end": 200.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-crouching-medium-rush-store/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-crouching-medium-rush-store/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-crouching-medium-rush-store/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-rush-store/frame-1.jpg",
+					"at": 0.75,
+					"label": "Context",
+					"alt": "Crouching medium punch starts the confirmed hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-rush-store/frame-2.jpg",
+					"at": 1.75,
+					"label": "Action",
+					"alt": "Rush-cancel crouching heavy punch feeds heavy Sun Rise."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-rush-store/frame-3.jpg",
+					"at": 3.8,
+					"label": "Result",
+					"alt": "Light Sun Flare stores a Crest while Ryu is knocked down."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-crouching-medium-two-crest-heavy-flare",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Crouching medium: two-Crest heavy-Flare juggle",
+		"summary": "Have two Crests for the heavy-Flare extension; its intermediate one-Crest HUD does not make this a one-Crest or OD route.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > DRC > cr.HP > 236HK > 214HP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Sun Rise"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Sun Flare with the demonstrated Crest enhancement"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Two Sun Crests before heavy Sun Flare; none remain after the enhanced sequence"
+		],
+		"notes": [
+			"The heavy Flare’s live stock decreases during the animation; the intermediate one-Crest HUD is not authored as a one-Crest route. No OD punch is performed here."
+		],
+		"resources": {
+			"drive": "Drive Rush cancel (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 201.5,
+			"end": 209.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-crouching-medium-two-crest-heavy-flare/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-crouching-medium-two-crest-heavy-flare/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-crouching-medium-two-crest-heavy-flare/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-two-crest-heavy-flare/frame-1.jpg",
+					"at": 0.5,
+					"label": "Crested confirm",
+					"alt": "The crouching-medium confirm starts with two Sun Crests visible."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-two-crest-heavy-flare/frame-2.jpg",
+					"at": 2.65,
+					"label": "Heavy Rise",
+					"alt": "Rush-cancel crouching heavy punch and heavy Sun Rise launch Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-two-crest-heavy-flare/frame-3.jpg",
+					"at": 4.0,
+					"label": "Enhanced Flare",
+					"alt": "Heavy Sun Flare spends the two Crests during its enhanced sequence."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-two-crest-heavy-flare/frame-4.jpg",
+					"at": 4.95,
+					"label": "Finish",
+					"alt": "Medium Sun Rise finishes the two-Crest extension."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-crouching-medium-air-od-forward-teleport",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Crouching medium: heavy-Rise air normal and OD pickup",
+		"summary": "Heavy Sun Rise supplies the airborne state for delayed jump medium; land before the one-Crest grounded OD Flare and forward teleport.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Air-normal extension", "Knockdown", "Crest gain"],
+		"notation": "cr.MP > DRC > cr.HP > 236HK > Wait > j.MP > 214PP > 6KKK > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Sun Rise"
+			},
+			{
+				"id": "step-5",
+				"notation": "Wait",
+				"label": "Delay the airborne medium punch after heavy Sun Rise",
+				"cue": "Heavy Sun Rise already leaves Ingrid airborne. Use the shown height; do not add a separate jump input."
+			},
+			{
+				"id": "step-6",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "214PP",
+				"label": "OD Sun Flare with the demonstrated Crest enhancement"
+			},
+			{
+				"id": "step-8",
+				"notation": "6KKK",
+				"label": "Forward Vanishing Sun kick follow-up"
+			},
+			{
+				"id": "step-9",
+				"notation": "214LP",
+				"label": "Light Sun Flare: store a Sun Crest"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"One Sun Crest available before grounded OD Sun Flare; none remain after it",
+			"Five Drive bars available for the recorded Rush cancel and OD Sun Flare"
+		],
+		"notes": [
+			"Heavy Sun Rise already leaves Ingrid airborne for the delayed j.MP. No separate jump direction is performed.",
+			"Ingrid lands before the OD Sun Flare; the beam is grounded Sun Flare, not air Solar Burst."
+		],
+		"resources": {
+			"drive": "Drive Rush cancel (3 bars) and grounded OD Sun Flare (2): 5 total",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 218.25,
+			"end": 226.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-crouching-medium-air-od-forward-teleport/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-crouching-medium-air-od-forward-teleport/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-crouching-medium-air-od-forward-teleport/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-air-od-forward-teleport/frame-1.jpg",
+					"at": 0.75,
+					"label": "Confirm",
+					"alt": "The crouching-medium confirm starts with one Sun Crest visible."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-air-od-forward-teleport/frame-2.jpg",
+					"at": 3.3,
+					"label": "Heavy Rise",
+					"alt": "Heavy Sun Rise leaves Ingrid airborne before the delayed medium-punch pickup."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-air-od-forward-teleport/frame-3.jpg",
+					"at": 4.75,
+					"label": "Grounded OD",
+					"alt": "After the airborne medium punch, Ingrid lands and uses the one-Crest OD Sun Flare."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-air-od-forward-teleport/frame-4.jpg",
+					"at": 5.75,
+					"label": "Forward teleport",
+					"alt": "The forward Vanishing Sun kick catches the airborne Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ingrid/ingrid-depth-crouching-medium-air-od-forward-teleport/frame-5.jpg",
+					"at": 6.85,
+					"label": "Crest storage",
+					"alt": "Light Sun Flare stores a Crest after the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-heavy-kick-light-links",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Normal-hit heavy kick: light links into medium Sun Rise",
+		"summary": "Use the light-punch/light-kick links on a normal heavy-kick hit; the medium-target link belongs to the Counter-Hit branch.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Normal-hit conversion", "Knockdown"],
+		"notation": "st.HK > st.LP > st.LK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The medium-target link belongs to the separately recorded Counter-Hit branch; it is not substituted here."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 286.95,
+			"end": 292.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-heavy-kick-light-links/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-heavy-kick-light-links/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-heavy-kick-light-links/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-heavy-kick-light-links/frame-1.jpg",
+					"at": 0.85,
+					"label": "Context",
+					"alt": "Standing heavy kick connects without Counter Hit or Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-heavy-kick-light-links/frame-2.jpg",
+					"at": 1.85,
+					"label": "Action",
+					"alt": "The performed standing jab and light kick link after the two-hit heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-heavy-kick-light-links/frame-3.jpg",
+					"at": 3.05,
+					"label": "Result",
+					"alt": "Medium Sun Rise ends the meterless conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-heavy-kick-counter-medium-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Counter-Hit heavy kick: medium target conversion",
+		"summary": "Require standing heavy kick to score Counter Hit before using the medium target, with no Drive or Super spend.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit"],
+		"outcomes": ["Counter-Hit conversion", "Knockdown"],
+		"notation": "st.HK > st.MP > st.MK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Medium Sun Rise"
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy kick scores Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 293.45,
+			"end": 298.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-heavy-kick-counter-medium-target/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-heavy-kick-counter-medium-target/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-heavy-kick-counter-medium-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-heavy-kick-counter-medium-target/frame-1.jpg",
+					"at": 0.55,
+					"label": "Context",
+					"alt": "Standing heavy kick scores the required Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-heavy-kick-counter-medium-target/frame-2.jpg",
+					"at": 1.45,
+					"label": "Action",
+					"alt": "The medium target chain links after the enhanced hitstun."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-heavy-kick-counter-medium-target/frame-3.jpg",
+					"at": 2.7,
+					"label": "Result",
+					"alt": "Medium Sun Rise finishes the Counter-Hit route."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-heavy-punish-forward-heavy-flare",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Heavy-punch punish: forward heavy into medium Flare",
+		"summary": "Use forward heavy after standing heavy punch scores Punish Counter, then end with medium Flare while preserving meter.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Punish conversion", "Knockdown"],
+		"notation": "st.HP > f.HP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP",
+				"label": "Medium Sun Flare"
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy punch scores Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 300.05,
+			"end": 304.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-heavy-punish-forward-heavy-flare/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-heavy-punish-forward-heavy-flare/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-heavy-punish-forward-heavy-flare/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-heavy-punish-forward-heavy-flare/frame-1.jpg",
+					"at": 0.45,
+					"label": "Context",
+					"alt": "Standing heavy punch scores the required Punish Counter and crumples Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-heavy-punish-forward-heavy-flare/frame-2.jpg",
+					"at": 1.45,
+					"label": "Action",
+					"alt": "Forward heavy punch reaches the crumpled target."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-heavy-punish-forward-heavy-flare/frame-3.jpg",
+					"at": 2.15,
+					"label": "Result",
+					"alt": "Medium Sun Flare ends the meterless punish conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-dash-walk-shimmy",
+			"ingrid-depth-stored-flare-dash-shimmy"
+		]
+	},
+	{
+		"id": "ingrid-depth-heavy-punish-raw-rush-store",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Heavy-punch punish: raw Rush heavy and Crest storage",
+		"summary": "After the heavy-punch Punish-Counter crumple, spend one bar on raw Rush and store a Crest after the juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Punish conversion", "Knockdown", "Crest gain"],
+		"notation": "st.HP > DR > cr.HP > 236HK > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Sun Rise"
+			},
+			{
+				"id": "step-5",
+				"notation": "214LP",
+				"label": "Light Sun Flare: store a Sun Crest"
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy punch scores Punish Counter"],
+		"notes": [
+			"The approach is raw Drive Rush after the heavy-punch crumple, not a three-bar cancel. The live gauge confirms the one-bar spend."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 313.85,
+			"end": 319.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-heavy-punish-raw-rush-store/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-heavy-punish-raw-rush-store/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-heavy-punish-raw-rush-store/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-heavy-punish-raw-rush-store/frame-1.jpg",
+					"at": 0.8,
+					"label": "Punish starter",
+					"alt": "Standing heavy punch scores Punish Counter and crumples Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-heavy-punish-raw-rush-store/frame-2.jpg",
+					"at": 1.95,
+					"label": "Rush pickup",
+					"alt": "Raw Rush crouching heavy punch reaches the crumpled target."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-heavy-punish-raw-rush-store/frame-3.jpg",
+					"at": 3.25,
+					"label": "Heavy Rise",
+					"alt": "Heavy Sun Rise completes the damaging juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-heavy-punish-raw-rush-store/frame-4.jpg",
+					"at": 4.25,
+					"label": "Crest storage",
+					"alt": "Light Sun Flare stores a Crest during the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-dash-walk-shimmy",
+			"ingrid-depth-stored-flare-dash-shimmy"
+		]
+	},
+	{
+		"id": "ingrid-depth-crouching-heavy-flare-store",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Crouching heavy: medium Flare and Crest storage",
+		"summary": "Use medium Flare for the knockdown and light Flare for storage; the shown Crest count rises from one to two.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown", "Crest gain"],
+		"notation": "cr.HP > 214MP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214MP",
+				"label": "Medium Sun Flare"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "Light Sun Flare: store a Sun Crest"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The recorded route begins with one Crest and ends with two; it does not require an enhanced heavy or OD Flare."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 350.55,
+			"end": 354.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-crouching-heavy-flare-store/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-crouching-heavy-flare-store/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-crouching-heavy-flare-store/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-crouching-heavy-flare-store/frame-1.jpg",
+					"at": 0.65,
+					"label": "Context",
+					"alt": "Crouching heavy punch hits at the recorded range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-crouching-heavy-flare-store/frame-2.jpg",
+					"at": 1.45,
+					"label": "Action",
+					"alt": "Medium Sun Flare knocks Ryu down."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-crouching-heavy-flare-store/frame-3.jpg",
+					"at": 2.05,
+					"label": "Result",
+					"alt": "Light Sun Flare stores one Crest while Ryu falls."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-forward-heavy-two-crest-walk-pickup",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Forward heavy: two-Crest Flare and walking pickup",
+		"summary": "Spend the two existing Crests on heavy Flare, then use the short forward walk to reach the second forward-heavy pickup.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Crest conversion", "Knockdown"],
+		"notation": "f.HP > 214HP > Walk > f.HP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "f.HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HP",
+				"label": "Heavy Sun Flare with the demonstrated Crest enhancement"
+			},
+			{
+				"id": "step-3",
+				"notation": "Walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-4",
+				"notation": "f.HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP",
+				"label": "Medium Sun Flare"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Two Sun Crests visible before heavy Sun Flare; none remain afterward",
+			"Use the short forward walk at the demonstrated spacing"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 378.25,
+			"end": 383.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-forward-heavy-two-crest-walk-pickup/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-forward-heavy-two-crest-walk-pickup/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-forward-heavy-two-crest-walk-pickup/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-forward-heavy-two-crest-walk-pickup/frame-1.jpg",
+					"at": 0.75,
+					"label": "Starter",
+					"alt": "Forward heavy punch starts with two Sun Crests visible."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-forward-heavy-two-crest-walk-pickup/frame-2.jpg",
+					"at": 1.35,
+					"label": "Crested Flare",
+					"alt": "Heavy Sun Flare spends those Crests to keep the juggle available."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-forward-heavy-two-crest-walk-pickup/frame-3.jpg",
+					"at": 2.25,
+					"label": "Walking pickup",
+					"alt": "A short forward walk lets the second forward heavy punch reach Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-forward-heavy-two-crest-walk-pickup/frame-4.jpg",
+					"at": 3.05,
+					"label": "Finish",
+					"alt": "Medium Sun Flare completes the no-Drive extension."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-medium-rise-rush-throw",
+			"ingrid-depth-medium-rise-rush-shimmy",
+			"ingrid-depth-medium-rise-rush-overhead"
+		]
+	},
+	{
+		"id": "ingrid-depth-burnout-blocked-heavy-di-stun",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Burnout pressure: blocked crouching heavy into DI stun",
+		"summary": "Ryu must already be in Burnout and close enough to the wall; both attacks are blocked before DI causes the recorded stun.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Corner carry", "Pressure", "Burnout"],
+		"outcomes": ["Corner carry", "Burnout stun"],
+		"notation": "cr.HP > DI",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DI",
+				"label": "Drive Impact"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu is already in Burnout",
+			"The near-corner spacing shown allows the blocked DI to reach the wall",
+			"Ryu blocks both recorded attacks"
+		],
+		"notes": [
+			"This is Ingrid’s own blocked DI against a Burnout defender, not counter-Drive-Impact or ordinary wall crush. No forced or inescapable-string claim is made."
+		],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 361.7,
+			"end": 366.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-burnout-blocked-heavy-di-stun/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-burnout-blocked-heavy-di-stun/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-burnout-blocked-heavy-di-stun/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-burnout-blocked-heavy-di-stun/frame-1.jpg",
+					"at": 0.65,
+					"label": "Context",
+					"alt": "Ryu is already in Burnout before he blocks crouching heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-burnout-blocked-heavy-di-stun/frame-2.jpg",
+					"at": 1.75,
+					"label": "Action",
+					"alt": "Ingrid’s Drive Impact drives the blocking Ryu toward the nearby wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-burnout-blocked-heavy-di-stun/frame-3.jpg",
+					"at": 2.95,
+					"label": "Result",
+					"alt": "The Burnout wall impact causes the recorded stun."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-heavy-rain-throw-refill",
+			"ingrid-depth-heavy-rain-shimmy-refill",
+			"ingrid-depth-medium-rise-rush-throw"
+		]
+	},
+	{
+		"id": "ingrid-depth-counter-di-back-heavy-store",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Counter DI: back-heavy target and Crest storage",
+		"summary": "Counter Ryu's DI after the opening jab, then dash into the back-heavy target and store a Crest after medium Flare.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish", "Counter Drive Impact"],
+		"outcomes": ["Counter-DI conversion", "Knockdown", "Crest gain"],
+		"notation": "st.LP > DI > Dash > b.HP > st.HP (target) > 214MP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-3",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-4",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP (target)",
+				"label": "Heavy-punch continuation of the back-heavy target"
+			},
+			{
+				"id": "step-6",
+				"notation": "214MP",
+				"label": "Medium Sun Flare"
+			},
+			{
+				"id": "step-7",
+				"notation": "214LP",
+				"label": "Light Sun Flare: store a Sun Crest"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the recorded Drive Impact after the opening jab",
+			"Ingrid’s counter-DI scores Punish Counter"
+		],
+		"notes": [
+			"This is the recorded counter-DI exchange and conversion; it does not measure reaction time or establish a universal defensive response."
+		],
+		"resources": {
+			"drive": "Counter Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 494.1,
+			"end": 502.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-counter-di-back-heavy-store/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-counter-di-back-heavy-store/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-counter-di-back-heavy-store/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-counter-di-back-heavy-store/frame-1.jpg",
+					"at": 1.2,
+					"label": "Counter DI",
+					"alt": "After the opening jab, Ryu’s DI meets Ingrid’s counter-DI."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-counter-di-back-heavy-store/frame-2.jpg",
+					"at": 2.9,
+					"label": "Crumple",
+					"alt": "The counter-DI scores Punish Counter and crumples Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-counter-di-back-heavy-store/frame-3.jpg",
+					"at": 4.9,
+					"label": "Target pickup",
+					"alt": "A dash and back-heavy target chain feed medium Sun Flare."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-counter-di-back-heavy-store/frame-4.jpg",
+					"at": 6.55,
+					"label": "Crest storage",
+					"alt": "Light Sun Flare stores one Crest during the resulting knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-counter-di-two-crest-teleport",
+			"ingrid-depth-counter-di-forward-heavy-crest",
+			"ingrid-depth-medium-rise-rush-throw"
+		]
+	},
+	{
+		"id": "ingrid-depth-counter-di-two-crest-teleport",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Counter DI: two-Crest heavy Flare and forward teleport",
+		"summary": "Begin with two Crests for the counter-DI juggle; heavy Flare spends both before light Flare restores one after forward teleport.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish", "Counter Drive Impact"],
+		"outcomes": ["Counter-DI conversion", "Knockdown", "Crest gain"],
+		"notation": "st.LP > DI > Dash > b.HP > st.HP (target) > 214HP > 6KKK > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-3",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-4",
+				"notation": "b.HP",
+				"label": "Back heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP (target)",
+				"label": "Heavy-punch continuation of the back-heavy target"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "Heavy Sun Flare with the demonstrated Crest enhancement"
+			},
+			{
+				"id": "step-7",
+				"notation": "6KKK",
+				"label": "Forward Vanishing Sun kick follow-up"
+			},
+			{
+				"id": "step-8",
+				"notation": "214LP",
+				"label": "Light Sun Flare: store a Sun Crest"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the recorded Drive Impact after the opening jab",
+			"Ingrid’s counter-DI scores Punish Counter",
+			"Two Sun Crests visible before heavy Sun Flare; none remain before light Sun Flare restores one"
+		],
+		"notes": [
+			"This is the recorded counter-DI exchange and conversion; it does not measure reaction time or establish a universal defensive response."
+		],
+		"resources": {
+			"drive": "Counter Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 503.15,
+			"end": 512.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-counter-di-two-crest-teleport/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-counter-di-two-crest-teleport/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-counter-di-two-crest-teleport/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-counter-di-two-crest-teleport/frame-1.jpg",
+					"at": 1.4,
+					"label": "Counter DI",
+					"alt": "Ryu’s recorded DI follows Ingrid’s opening jab."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-counter-di-two-crest-teleport/frame-2.jpg",
+					"at": 3.1,
+					"label": "Crumple",
+					"alt": "Ingrid’s counter-DI scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-counter-di-two-crest-teleport/frame-3.jpg",
+					"at": 6.0,
+					"label": "Crested Flare",
+					"alt": "The back-heavy target chain feeds the two-Crest heavy Flare."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-counter-di-two-crest-teleport/frame-4.jpg",
+					"at": 7.35,
+					"label": "Forward teleport",
+					"alt": "Forward Vanishing Sun performs the actual kick pickup."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ingrid/ingrid-depth-counter-di-two-crest-teleport/frame-5.jpg",
+					"at": 8.0,
+					"label": "Crest storage",
+					"alt": "Light Sun Flare stores one Crest after the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-counter-di-back-heavy-store",
+			"ingrid-depth-counter-di-forward-heavy-crest",
+			"ingrid-depth-medium-rise-rush-throw"
+		]
+	},
+	{
+		"id": "ingrid-depth-counter-di-forward-heavy-crest",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ingrid"
+			}
+		],
+		"title": "Counter DI: forward-heavy two-Crest juggle",
+		"summary": "Use the direct forward-heavy pickup after counter DI, spending two Crests on heavy Flare before the second forward-heavy link.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish", "Counter Drive Impact"],
+		"outcomes": ["Counter-DI conversion", "Knockdown"],
+		"notation": "st.LP > DI > f.HP > 214HP > f.HP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-3",
+				"notation": "f.HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Sun Flare with the demonstrated Crest enhancement"
+			},
+			{
+				"id": "step-5",
+				"notation": "f.HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "214MP",
+				"label": "Medium Sun Flare"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the recorded Drive Impact after the opening jab",
+			"Ingrid’s counter-DI scores Punish Counter",
+			"Two Sun Crests visible before heavy Sun Flare; none remain afterward"
+		],
+		"notes": [
+			"This is the recorded counter-DI exchange and conversion; it does not measure reaction time or establish a universal defensive response."
+		],
+		"resources": {
+			"drive": "Counter Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ingrid-2026",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"published": "2026-05-29",
+			"start": 523.15,
+			"end": 532.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ingrid/ingrid-depth-counter-di-forward-heavy-crest/clip.mp4",
+			"poster": "/media/ingrid/ingrid-depth-counter-di-forward-heavy-crest/frame-1.jpg",
+			"descriptionTrack": "/media/ingrid/ingrid-depth-counter-di-forward-heavy-crest/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ingrid/ingrid-depth-counter-di-forward-heavy-crest/frame-1.jpg",
+					"at": 1.45,
+					"label": "Counter DI",
+					"alt": "Ryu uses DI after the opening standing jab."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ingrid/ingrid-depth-counter-di-forward-heavy-crest/frame-2.jpg",
+					"at": 3.25,
+					"label": "Crumple",
+					"alt": "Ingrid’s counter-DI scores Punish Counter and crumples him."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ingrid/ingrid-depth-counter-di-forward-heavy-crest/frame-3.jpg",
+					"at": 5.35,
+					"label": "Crested pickup",
+					"alt": "Forward heavy punch cancels into the two-Crest heavy Flare."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ingrid/ingrid-depth-counter-di-forward-heavy-crest/frame-4.jpg",
+					"at": 6.85,
+					"label": "Finish",
+					"alt": "A second forward heavy punch into medium Sun Flare completes the no-OD pickup."
+				}
+			]
+		},
+		"relatedIds": [
+			"ingrid-depth-counter-di-back-heavy-store",
+			"ingrid-depth-counter-di-two-crest-teleport",
+			"ingrid-depth-medium-rise-rush-throw"
+		]
 	}
 ]

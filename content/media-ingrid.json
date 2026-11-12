@@ -1,5 +1,5 @@
 {
-	"sourceIds": ["vesperarcade-ingrid-2026"],
+	"sourceIds": ["vesperarcade-ingrid-2026", "joe-ebios-ingrid-2026"],
 	"publicationStatus": "private-development",
 	"presentationNote": "Complete source frame retained without crop, including source annotations and game HUD. Original recordings remain outside Git.",
 	"assets": [
@@ -108,6 +108,339 @@
 			"sourceStart": 682.4,
 			"sourceEnd": 686.35,
 			"clip": "/media/ingrid/ingrid-vesper-corner-down-three-kicks/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-medium-rise-rush-throw",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 10.65,
+			"sourceEnd": 14.65,
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-medium-rise-rush-shimmy",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 18.25,
+			"sourceEnd": 24.2,
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-rush-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-medium-rise-rush-overhead",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 28.1,
+			"sourceEnd": 32.85,
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-rush-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-medium-rise-rush-heavy-kick",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 37.15,
+			"sourceEnd": 42.6,
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-rush-heavy-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-medium-rise-dash-walk-throw",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 46.55,
+			"sourceEnd": 50.65,
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-medium-rise-dash-walk-shimmy",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 54.55,
+			"sourceEnd": 60.5,
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-medium-rise-dash-walk-low",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 63.85,
+			"sourceEnd": 68.25,
+			"clip": "/media/ingrid/ingrid-depth-medium-rise-dash-walk-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-corner-medium-rise-whiff-low-overhead",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 72.15,
+			"sourceEnd": 77.15,
+			"clip": "/media/ingrid/ingrid-depth-corner-medium-rise-whiff-low-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-stored-flare-dash-throw",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 150.45,
+			"sourceEnd": 154.55,
+			"clip": "/media/ingrid/ingrid-depth-stored-flare-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-stored-flare-dash-shimmy",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 159.5,
+			"sourceEnd": 165.35,
+			"clip": "/media/ingrid/ingrid-depth-stored-flare-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-stored-flare-dash-low",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 169.45,
+			"sourceEnd": 173.65,
+			"clip": "/media/ingrid/ingrid-depth-stored-flare-dash-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-heavy-rain-throw-refill",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 600.05,
+			"sourceEnd": 611.95,
+			"clip": "/media/ingrid/ingrid-depth-heavy-rain-throw-refill/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-corner-heavy-rain-throw-uppercuts",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 612.65,
+			"sourceEnd": 625.55,
+			"clip": "/media/ingrid/ingrid-depth-corner-heavy-rain-throw-uppercuts/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-heavy-rain-shimmy-refill",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 626.2,
+			"sourceEnd": 638.6,
+			"clip": "/media/ingrid/ingrid-depth-heavy-rain-shimmy-refill/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-corner-light-rain-back-throw-forward-teleport",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 639.65,
+			"sourceEnd": 650.55,
+			"clip": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-forward-teleport/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-corner-light-rain-back-throw-heavy-pickups",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 651.65,
+			"sourceEnd": 663.65,
+			"clip": "/media/ingrid/ingrid-depth-corner-light-rain-back-throw-heavy-pickups/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-anti-air-back-heavy-medium-rise",
+			"sourceId": "vesperarcade-ingrid-2026",
+			"sourceStart": 478.65,
+			"sourceEnd": 482.95,
+			"clip": "/media/ingrid/ingrid-depth-anti-air-back-heavy-medium-rise/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-anti-air-back-heavy-crest-rush",
+			"sourceId": "vesperarcade-ingrid-2026",
+			"sourceStart": 484.75,
+			"sourceEnd": 490.8,
+			"clip": "/media/ingrid/ingrid-depth-anti-air-back-heavy-crest-rush/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-lights-double-rush-level-three-cashout",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 78.35,
+			"sourceEnd": 94.95,
+			"clip": "/media/ingrid/ingrid-depth-lights-double-rush-level-three-cashout/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-back-medium-heavy-store-crest",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 98.15,
+			"sourceEnd": 101.95,
+			"clip": "/media/ingrid/ingrid-depth-back-medium-heavy-store-crest/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-medium-target-flare-store",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 108.25,
+			"sourceEnd": 112.25,
+			"clip": "/media/ingrid/ingrid-depth-medium-target-flare-store/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-medium-target-od-down-teleport",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 113.1,
+			"sourceEnd": 119.55,
+			"clip": "/media/ingrid/ingrid-depth-medium-target-od-down-teleport/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-low-medium-rush-heavy-target",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 175.25,
+			"sourceEnd": 181.6,
+			"clip": "/media/ingrid/ingrid-depth-low-medium-rush-heavy-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-crouching-medium-crouching-target",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 188.25,
+			"sourceEnd": 193.55,
+			"clip": "/media/ingrid/ingrid-depth-crouching-medium-crouching-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-crouching-medium-rush-store",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 194.75,
+			"sourceEnd": 200.15,
+			"clip": "/media/ingrid/ingrid-depth-crouching-medium-rush-store/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-crouching-medium-two-crest-heavy-flare",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 201.5,
+			"sourceEnd": 209.15,
+			"clip": "/media/ingrid/ingrid-depth-crouching-medium-two-crest-heavy-flare/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-crouching-medium-air-od-forward-teleport",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 218.25,
+			"sourceEnd": 226.45,
+			"clip": "/media/ingrid/ingrid-depth-crouching-medium-air-od-forward-teleport/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-heavy-kick-light-links",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 286.95,
+			"sourceEnd": 292.05,
+			"clip": "/media/ingrid/ingrid-depth-heavy-kick-light-links/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-heavy-kick-counter-medium-target",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 293.45,
+			"sourceEnd": 298.7,
+			"clip": "/media/ingrid/ingrid-depth-heavy-kick-counter-medium-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-heavy-punish-forward-heavy-flare",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 300.05,
+			"sourceEnd": 304.35,
+			"clip": "/media/ingrid/ingrid-depth-heavy-punish-forward-heavy-flare/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-heavy-punish-raw-rush-store",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 313.85,
+			"sourceEnd": 319.85,
+			"clip": "/media/ingrid/ingrid-depth-heavy-punish-raw-rush-store/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-crouching-heavy-flare-store",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 350.55,
+			"sourceEnd": 354.15,
+			"clip": "/media/ingrid/ingrid-depth-crouching-heavy-flare-store/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-forward-heavy-two-crest-walk-pickup",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 378.25,
+			"sourceEnd": 383.35,
+			"clip": "/media/ingrid/ingrid-depth-forward-heavy-two-crest-walk-pickup/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-burnout-blocked-heavy-di-stun",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 361.7,
+			"sourceEnd": 366.95,
+			"clip": "/media/ingrid/ingrid-depth-burnout-blocked-heavy-di-stun/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-counter-di-back-heavy-store",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 494.1,
+			"sourceEnd": 502.05,
+			"clip": "/media/ingrid/ingrid-depth-counter-di-back-heavy-store/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-counter-di-two-crest-teleport",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 503.15,
+			"sourceEnd": 512.45,
+			"clip": "/media/ingrid/ingrid-depth-counter-di-two-crest-teleport/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ingrid-depth-counter-di-forward-heavy-crest",
+			"sourceId": "joe-ebios-ingrid-2026",
+			"sourceStart": 523.15,
+			"sourceEnd": 532.15,
+			"clip": "/media/ingrid/ingrid-depth-counter-di-forward-heavy-crest/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

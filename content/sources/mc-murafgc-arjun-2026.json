@@ -1,0 +1,53 @@
+{
+	"id": "YLaJEsawNpU",
+	"sourceKey": "mc-murafgc-arjun-2026",
+	"title": "SF6 Arjun Combos + SETUPS  Guide",
+	"uploader": "MC MuraFGC",
+	"upload_date": "20261013",
+	"timestamp": 1791898381,
+	"duration": 493,
+	"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+	"reviewedOn": "2026-11-12",
+	"currentPatchTested": false,
+	"publicationStatus": "Private development excerpts; public redistribution not assessed.",
+	"sourceRecordingSha256": "72026d91cfba3700206a026ba4178fcd6e612c15fff5aa8b73972825bef88aa5",
+	"extractionStatus": "20 selected demonstrations; substantial unprocessed material remains. See docs/source-ledgers/arjun.json.",
+	"dateNote": "Published reference date derives from this download’s verified raw upload timestamp in UTC.",
+	"chapterMetadataNote": "Abbreviated captions locate families. Comma-separated alternatives are not assumed to be a performed chain. Live command order, strength glyph, target state, resource HUD and hit/block result govern extraction.",
+	"presentationNote": "Full source frame retained; selected silent H264 excerpts, exact JPEGs and canonical VTT. Originals remain local.",
+	"chapters": [
+		{
+			"start_time": 0,
+			"title": "Intro and regular combos",
+			"end_time": 105
+		},
+		{
+			"start_time": 105,
+			"title": "Drive rush combos",
+			"end_time": 144
+		},
+		{
+			"start_time": 144,
+			"title": "counter hit combos",
+			"end_time": 169
+		},
+		{
+			"start_time": 169,
+			"title": "Punish counter combos",
+			"end_time": 246
+		},
+		{
+			"start_time": 246,
+			"title": "Setups and oki",
+			"end_time": 493
+		}
+	],
+	"namingVerification": {
+		"publisher": "Capcom / Street Fighter",
+		"title": "Street Fighter 6 Character Guide | Arjun",
+		"url": "https://www.youtube.com/watch?v=6l9RFvk3fec",
+		"publishedUtc": "2026-10-01",
+		"secondaryOfficialContext": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814454209",
+		"note": "The official guide’s embedded English text and animations were reviewed for Arm of Justice, Cruel Shoulder, Breathing Ring/Shockwave, Divine Pillar, Justice Beyond, Ghastly Interrogation, Indomitable Defense/Moral Breakdown and the three Supers. Justice Beyond automatically grabs and swings the Pillar after Shoulder contact; it is not a command grab on the defender. Pillar hold delays activation. Recoverable gray damage and the command throw’s change with existing gray health are distinct from a stock/install system. Actual practice excerpts use the independent tutorials’ visible commands, HUD and results."
+	}
+}

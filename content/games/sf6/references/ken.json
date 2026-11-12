@@ -1536,5 +1536,4955 @@
 			"ken-ebios-low-rush-light-tatsu-medium-dp",
 			"ken-ebios-low-rush-side-switch"
 		]
+	},
+	{
+		"id": "ken-depth-hp-dp-rush-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Heavy Shoryuken: Rush jab-whiff shimmy",
+		"summary": "Rush close, whiff the jab, then step away from the throw and convert with heavy punch.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Shimmy", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 5LP (whiff) > 4 > 5HP > 2MK > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP (whiff)",
+				"label": "Whiff standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-4",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-7",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy Shoryuken knockdown first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Inputs and resource cost begin after the named prerequisite."],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 15.4,
+			"end": 19.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-hp-dp-rush-shimmy/clip.mp4",
+			"poster": "/media/ken/ken-depth-hp-dp-rush-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-hp-dp-rush-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-hp-dp-rush-shimmy/frame-1.jpg",
+					"at": 0.4,
+					"label": "Rush jab whiff",
+					"alt": "Ken whiffs the Rush jab as Ryu rises."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-hp-dp-rush-shimmy/frame-2.jpg",
+					"at": 0.95,
+					"label": "Heavy-punch punish",
+					"alt": "Heavy punch punishes Ryu’s missed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-hp-dp-rush-shimmy/frame-3.jpg",
+					"at": 1.45,
+					"label": "Low-kick link",
+					"alt": "Crouching medium kick links after the heavy-punch Punish Counter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-hp-dp-rush-shimmy/frame-4.jpg",
+					"at": 2.95,
+					"label": "Running Shoryuken",
+					"alt": "Ken finishes with running Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-near-corner-shimmy",
+			"ken-depth-hp-dp-corner-lk-shimmy",
+			"ken-depth-level-two-corner-medium-shimmy"
+		]
+	},
+	{
+		"id": "ken-depth-hp-dp-rush-jab-strike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Heavy Shoryuken: Rush jab into Chin Buster",
+		"summary": "Use the Rush jab to start the target-combo conversion instead of throwing.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Strike pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 5LP > 5MP > ~HP > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HP",
+				"label": "Chin Buster continuation",
+				"cue": "Press HP as the target follow-up to standing MP."
+			},
+			{
+				"id": "step-5",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-6",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy Shoryuken knockdown first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Inputs and resource cost begin after the named prerequisite."],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 23.8,
+			"end": 28.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-hp-dp-rush-jab-strike/clip.mp4",
+			"poster": "/media/ken/ken-depth-hp-dp-rush-jab-strike/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-hp-dp-rush-jab-strike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-hp-dp-rush-jab-strike/frame-1.jpg",
+					"at": 0.6,
+					"label": "Rush approach",
+					"alt": "Ken rushes toward the rising Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-hp-dp-rush-jab-strike/frame-2.jpg",
+					"at": 1.65,
+					"label": "Chin Buster",
+					"alt": "The target heavy punch launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-hp-dp-rush-jab-strike/frame-3.jpg",
+					"at": 2.7,
+					"label": "Running Shoryuken",
+					"alt": "Ken converts through Quick Dash into Shoryuken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-hp-dp-rush-jab-strike/frame-4.jpg",
+					"at": 3.9,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the strike branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-dash-crouching-medium",
+			"ken-depth-level-one-hadoken-rush-heavy",
+			"ken-depth-run-tatsu-double-dash-strike"
+		]
+	},
+	{
+		"id": "ken-depth-hp-dp-near-corner-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Near-corner Shoryuken: dash and delayed throw",
+		"summary": "Dash from the shown near-corner knockdown and delay the forward throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Near corner", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > Delay > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Match the shown delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy Shoryuken knockdown at the shown near-corner distance",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"The source separately demonstrates that a point-blank dash shimmy can fail. Do not transfer this spacing to every Shoryuken knockdown."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 36.65,
+			"end": 39.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-hp-dp-near-corner-dash-throw/clip.mp4",
+			"poster": "/media/ken/ken-depth-hp-dp-near-corner-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-hp-dp-near-corner-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-hp-dp-near-corner-dash-throw/frame-1.jpg",
+					"at": 0.3,
+					"label": "Recovery spacing",
+					"alt": "Ken recovers as Ryu reaches the floor near the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-hp-dp-near-corner-dash-throw/frame-2.jpg",
+					"at": 0.85,
+					"label": "Throw catch",
+					"alt": "The delayed forward throw catches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-hp-dp-near-corner-dash-throw/frame-3.jpg",
+					"at": 2.15,
+					"label": "Throw finish",
+					"alt": "Ken finishes the throw animation."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-hp-dp-near-corner-dash-throw/frame-4.jpg",
+					"at": 2.6,
+					"label": "Corner knockdown",
+					"alt": "Ryu falls in the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-dash-crouching-medium",
+			"ken-depth-hp-dp-dash-medium-block-drev",
+			"ken-depth-hp-dp-near-corner-shimmy"
+		]
+	},
+	{
+		"id": "ken-depth-hp-dp-near-corner-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Near-corner Shoryuken: dash shimmy",
+		"summary": "Dash, retreat from throw range, then punish the whiff with heavy punch.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Near corner", "Shimmy", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 4 > 5HP > 2MK > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-6",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy Shoryuken knockdown at the demonstrated near-corner spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"This retreat works in the recorded spacing; the adjacent point-blank counterexample is excluded."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 44.15,
+			"end": 48.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-hp-dp-near-corner-shimmy/clip.mp4",
+			"poster": "/media/ken/ken-depth-hp-dp-near-corner-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-hp-dp-near-corner-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-hp-dp-near-corner-shimmy/frame-1.jpg",
+					"at": 0.4,
+					"label": "Throw whiff",
+					"alt": "Ryu attempts a throw as Ken retreats after the dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-hp-dp-near-corner-shimmy/frame-2.jpg",
+					"at": 0.85,
+					"label": "Heavy-punch punish",
+					"alt": "Standing heavy punch scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-hp-dp-near-corner-shimmy/frame-3.jpg",
+					"at": 1.25,
+					"label": "Low-kick link",
+					"alt": "Crouching medium kick follows the heavy-punch punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-hp-dp-near-corner-shimmy/frame-4.jpg",
+					"at": 3.15,
+					"label": "Knockdown",
+					"alt": "Ryu falls after running Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-rush-shimmy",
+			"ken-depth-hp-dp-corner-lk-shimmy",
+			"ken-depth-hp-dp-dash-crouching-medium"
+		]
+	},
+	{
+		"id": "ken-depth-hp-dp-dash-crouching-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Heavy Shoryuken: dash into crouching medium",
+		"summary": "Time the crouching medium after the dash, then confirm through jab and light kick.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Near corner", "Strike pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 2MP > 2LP > 5LK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy Shoryuken knockdown first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Inputs and resource cost begin after the named prerequisite."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 58.85,
+			"end": 62.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-hp-dp-dash-crouching-medium/clip.mp4",
+			"poster": "/media/ken/ken-depth-hp-dp-dash-crouching-medium/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-hp-dp-dash-crouching-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-hp-dp-dash-crouching-medium/frame-1.jpg",
+					"at": 0.45,
+					"label": "Approach timing",
+					"alt": "Ken reaches the recovering Ryu after the dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-hp-dp-dash-crouching-medium/frame-2.jpg",
+					"at": 0.95,
+					"label": "Crouching-medium link",
+					"alt": "Crouching medium punch connects on recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-hp-dp-dash-crouching-medium/frame-3.jpg",
+					"at": 1.5,
+					"label": "Light-kick link",
+					"alt": "Standing light kick follows the crouching jab."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-hp-dp-dash-crouching-medium/frame-4.jpg",
+					"at": 3.05,
+					"label": "Knockdown",
+					"alt": "Ryu falls after heavy Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-dash-medium-block-drev",
+			"ken-depth-hp-dp-near-corner-dash-throw",
+			"ken-depth-hp-dp-near-corner-shimmy"
+		]
+	},
+	{
+		"id": "ken-depth-hp-dp-corner-lk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner Shoryuken: light-kick timing into throw",
+		"summary": "Whiff one light kick after the corner knockdown, then delay the throw.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "5LK (whiff) > Delay > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LK (whiff)",
+				"label": "Whiff standing light kick",
+				"cue": "This kick spends time after the prerequisite knockdown."
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Match the shown delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy Shoryuken knockdown in the corner first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Inputs and resource cost begin after the named prerequisite."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 79.25,
+			"end": 82.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-hp-dp-corner-lk-throw/clip.mp4",
+			"poster": "/media/ken/ken-depth-hp-dp-corner-lk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-hp-dp-corner-lk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-hp-dp-corner-lk-throw/frame-1.jpg",
+					"at": 0.45,
+					"label": "Timing kick",
+					"alt": "Ken whiffs light kick while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-hp-dp-corner-lk-throw/frame-2.jpg",
+					"at": 1.3,
+					"label": "Throw",
+					"alt": "The delayed throw catches Ryu in the corner."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-hp-dp-corner-lk-throw/frame-3.jpg",
+					"at": 2.45,
+					"label": "Throw finish",
+					"alt": "Ryu falls after the throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-level-two-corner-medium-throw",
+			"ken-depth-run-tatsu-corner-two-kicks-throw",
+			"ken-depth-corner-forward-throw-dash-lights"
+		]
+	},
+	{
+		"id": "ken-depth-hp-dp-corner-lk-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner Shoryuken: light-kick timing into shimmy",
+		"summary": "Use the whiffed light kick as timing, retreat, then punish the missed throw.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Shimmy", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "5LK (whiff) > 4 > 5HP > 2MK > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LK (whiff)",
+				"label": "Whiff standing light kick",
+				"cue": "This kick spends time after the prerequisite knockdown."
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-6",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy Shoryuken knockdown in the corner first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Inputs and resource cost begin after the named prerequisite."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 86.5,
+			"end": 90.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-hp-dp-corner-lk-shimmy/clip.mp4",
+			"poster": "/media/ken/ken-depth-hp-dp-corner-lk-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-hp-dp-corner-lk-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-hp-dp-corner-lk-shimmy/frame-1.jpg",
+					"at": 0.5,
+					"label": "Timing kick",
+					"alt": "Ken spends the knockdown time with a whiffed light kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-hp-dp-corner-lk-shimmy/frame-2.jpg",
+					"at": 1.2,
+					"label": "Shimmy punish",
+					"alt": "Heavy punch catches Ryu’s missed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-hp-dp-corner-lk-shimmy/frame-3.jpg",
+					"at": 1.8,
+					"label": "Low link",
+					"alt": "Crouching medium kick continues the punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-hp-dp-corner-lk-shimmy/frame-4.jpg",
+					"at": 3.4,
+					"label": "Knockdown",
+					"alt": "Running Shoryuken finishes in the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-level-two-corner-medium-shimmy",
+			"ken-depth-run-tatsu-corner-two-kicks-shimmy",
+			"ken-depth-hp-dp-near-corner-shimmy"
+		]
+	},
+	{
+		"id": "ken-depth-hp-dp-corner-lk-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner Shoryuken: light-kick timing into medium",
+		"summary": "After the whiffed light kick, link standing medium into crouching medium and running Shoryuken.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Strike pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "5LK (whiff) > 5MP > 2MP > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LK (whiff)",
+				"label": "Whiff standing light kick",
+				"cue": "This kick spends time after the prerequisite knockdown."
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy Shoryuken knockdown in the corner first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Inputs and resource cost begin after the named prerequisite."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 94.7,
+			"end": 98.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-hp-dp-corner-lk-medium/clip.mp4",
+			"poster": "/media/ken/ken-depth-hp-dp-corner-lk-medium/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-hp-dp-corner-lk-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-hp-dp-corner-lk-medium/frame-1.jpg",
+					"at": 0.35,
+					"label": "Timing kick",
+					"alt": "Ken whiffs light kick before Ryu rises."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-hp-dp-corner-lk-medium/frame-2.jpg",
+					"at": 0.8,
+					"label": "Standing medium",
+					"alt": "Standing medium punch catches the recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-hp-dp-corner-lk-medium/frame-3.jpg",
+					"at": 1.3,
+					"label": "Medium link",
+					"alt": "Crouching medium punch links before the run."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-hp-dp-corner-lk-medium/frame-4.jpg",
+					"at": 2.95,
+					"label": "Knockdown",
+					"alt": "Running Shoryuken ends the corner strike branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-corner-forward-throw-dash-lights",
+			"ken-depth-level-two-corner-medium-heavy",
+			"ken-depth-run-tatsu-corner-two-kicks-medium"
+		]
+	},
+	{
+		"id": "ken-depth-run-tatsu-double-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Running Tatsumaki: double-dash throw",
+		"summary": "Use two forward dashes after running Tatsumaki to reach the throw attempt.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 66 > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Running Tatsumaki knockdown first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"The recorded spacing is close enough for the throw. The source’s un-shimmyable caption is not a guarantee against every defensive option.",
+			"The clip opens on the final hits and recovery of the prerequisite Tatsumaki so the complete dash or whiff-kick timing remains visible."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 114.0,
+			"end": 118.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-run-tatsu-double-dash-throw/clip.mp4",
+			"poster": "/media/ken/ken-depth-run-tatsu-double-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-run-tatsu-double-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-run-tatsu-double-dash-throw/frame-1.jpg",
+					"at": 1.55,
+					"label": "Approach spacing",
+					"alt": "Ken has closed the distance while Ryu rises."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-run-tatsu-double-dash-throw/frame-2.jpg",
+					"at": 2.4,
+					"label": "Throw catch",
+					"alt": "The forward throw catches Ryu after the two dashes."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-run-tatsu-double-dash-throw/frame-3.jpg",
+					"at": 3.6,
+					"label": "Throw result",
+					"alt": "Ryu falls after the follow-up throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-near-corner-dash-throw",
+			"ken-ebios-heavy-shoryuken-rush-throw",
+			"ken-depth-blocked-low-rush-jab-throw"
+		]
+	},
+	{
+		"id": "ken-depth-run-tatsu-double-dash-strike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Running Tatsumaki: double-dash jab confirm",
+		"summary": "Choose jab into Chin Buster after the double dash and finish with another running Tatsumaki.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Strike pressure"],
+		"outcomes": ["Knockdown", "Corner carry"],
+		"notation": "66 > 66 > 5LP > 5MP > ~HP > KK > 214K",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "~HP",
+				"label": "Chin Buster continuation",
+				"cue": "Press HP as the target follow-up to standing MP."
+			},
+			{
+				"id": "step-6",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-7",
+				"notation": "214K",
+				"label": "Running Tatsumaki",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Running Tatsumaki knockdown first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"The clip opens on the final hits and recovery of the prerequisite Tatsumaki so the complete dash or whiff-kick timing remains visible."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 122.45,
+			"end": 127.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-run-tatsu-double-dash-strike/clip.mp4",
+			"poster": "/media/ken/ken-depth-run-tatsu-double-dash-strike/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-run-tatsu-double-dash-strike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-run-tatsu-double-dash-strike/frame-1.jpg",
+					"at": 1.55,
+					"label": "Double-dash approach",
+					"alt": "Ken closes in while Ryu recovers."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-run-tatsu-double-dash-strike/frame-2.jpg",
+					"at": 2.05,
+					"label": "Medium-punch link",
+					"alt": "Standing medium punch follows the wake-up jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-run-tatsu-double-dash-strike/frame-3.jpg",
+					"at": 2.9,
+					"label": "Target-combo launch",
+					"alt": "Chin Buster leaves Ryu airborne before the running kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-run-tatsu-double-dash-strike/frame-4.jpg",
+					"at": 4.0,
+					"label": "Tatsumaki carry",
+					"alt": "Running Tatsumaki carries Ryu across the stage."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-dash-crouching-medium",
+			"ken-depth-hp-dp-rush-jab-strike",
+			"ken-depth-level-one-hadoken-rush-heavy"
+		]
+	},
+	{
+		"id": "ken-depth-run-tatsu-corner-two-kicks-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner running Tatsumaki: two-kick throw timing",
+		"summary": "Whiff light kick twice after the corner Tatsumaki knockdown, then attempt the delayed throw.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "5LK (whiff) > 5LK (whiff) > Delay > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LK (whiff)",
+				"label": "Whiff standing light kick",
+				"cue": "This kick spends time after the prerequisite knockdown."
+			},
+			{
+				"id": "step-2",
+				"notation": "5LK (whiff)",
+				"label": "Whiff standing light kick",
+				"cue": "This kick spends time after the prerequisite knockdown."
+			},
+			{
+				"id": "step-3",
+				"notation": "Delay",
+				"label": "Match the shown delay"
+			},
+			{
+				"id": "step-4",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Running Tatsumaki knockdown in the corner first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"The clip opens on the final hits and recovery of the prerequisite Tatsumaki so the complete dash or whiff-kick timing remains visible."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 138.05,
+			"end": 142.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-throw/clip.mp4",
+			"poster": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-throw/frame-1.jpg",
+					"at": 1.6,
+					"label": "First timing kick",
+					"alt": "Ken starts the two light-kick timing sequence."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-throw/frame-2.jpg",
+					"at": 2.3,
+					"label": "Throw catch",
+					"alt": "Ken catches Ryu after the two whiffed kicks."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-throw/frame-3.jpg",
+					"at": 3.65,
+					"label": "Throw result",
+					"alt": "Ryu falls in the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-corner-lk-throw",
+			"ken-depth-level-two-corner-medium-throw",
+			"ken-depth-corner-forward-throw-dash-lights"
+		]
+	},
+	{
+		"id": "ken-depth-run-tatsu-corner-two-kicks-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner running Tatsumaki: two-kick shimmy",
+		"summary": "After two whiffed light kicks, retreat and use heavy punch to punish the throw.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Shimmy", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "5LK (whiff) > 5LK (whiff) > 4 > 5HP > 2MK > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LK (whiff)",
+				"label": "Whiff standing light kick",
+				"cue": "This kick spends time after the prerequisite knockdown."
+			},
+			{
+				"id": "step-2",
+				"notation": "5LK (whiff)",
+				"label": "Whiff standing light kick",
+				"cue": "This kick spends time after the prerequisite knockdown."
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-4",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-7",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Running Tatsumaki knockdown in the corner first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"The clip opens on the final hits and recovery of the prerequisite Tatsumaki so the complete dash or whiff-kick timing remains visible."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 146.55,
+			"end": 151.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-shimmy/clip.mp4",
+			"poster": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-shimmy/frame-1.jpg",
+					"at": 1.1,
+					"label": "Whiffed light kick",
+					"alt": "One of the two timing kicks extends while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-shimmy/frame-2.jpg",
+					"at": 2.3,
+					"label": "Heavy-punch punish",
+					"alt": "Heavy punch scores Punish Counter after the throw misses."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-shimmy/frame-3.jpg",
+					"at": 2.85,
+					"label": "Low link",
+					"alt": "Crouching medium kick links after the punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-shimmy/frame-4.jpg",
+					"at": 4.4,
+					"label": "Knockdown",
+					"alt": "Ryu falls after running Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-corner-lk-shimmy",
+			"ken-depth-level-two-corner-medium-shimmy",
+			"ken-depth-hp-dp-near-corner-shimmy"
+		]
+	},
+	{
+		"id": "ken-depth-run-tatsu-corner-two-kicks-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner running Tatsumaki: two-kick medium strike",
+		"summary": "Use the two light kicks as timing, then link the medium punches into running Shoryuken.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Strike pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "5LK (whiff) > 5LK (whiff) > 5MP > 2MP > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LK (whiff)",
+				"label": "Whiff standing light kick",
+				"cue": "This kick spends time after the prerequisite knockdown."
+			},
+			{
+				"id": "step-2",
+				"notation": "5LK (whiff)",
+				"label": "Whiff standing light kick",
+				"cue": "This kick spends time after the prerequisite knockdown."
+			},
+			{
+				"id": "step-3",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-6",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Running Tatsumaki knockdown in the corner first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"The clip opens on the final hits and recovery of the prerequisite Tatsumaki so the complete dash or whiff-kick timing remains visible."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 155.75,
+			"end": 160.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-medium/clip.mp4",
+			"poster": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-medium/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-medium/frame-1.jpg",
+					"at": 1.1,
+					"label": "Whiffed light kick",
+					"alt": "One of the two timing kicks extends while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-medium/frame-2.jpg",
+					"at": 2.2,
+					"label": "Medium conversion",
+					"alt": "Crouching medium punch links after standing medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-medium/frame-3.jpg",
+					"at": 2.7,
+					"label": "Running-Shoryuken start",
+					"alt": "Ken begins running Shoryuken after the medium link."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-run-tatsu-corner-two-kicks-medium/frame-4.jpg",
+					"at": 4.2,
+					"label": "Knockdown",
+					"alt": "Ryu falls after running Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-corner-forward-throw-dash-lights",
+			"ken-depth-hp-dp-corner-lk-medium",
+			"ken-depth-level-two-corner-medium-heavy"
+		]
+	},
+	{
+		"id": "ken-depth-rush-heavy-pc-low-link",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Rush heavy-punch Punish Counter into low kick",
+		"summary": "The shown Rush heavy punch gets the Punish Counter needed to link crouching medium kick.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 5HP > 2MK > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": ["Classic controls", "The standing heavy punch must score Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-beginner-2026",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"start": 183.8,
+			"end": 188.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-rush-heavy-pc-low-link/clip.mp4",
+			"poster": "/media/ken/ken-depth-rush-heavy-pc-low-link/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-rush-heavy-pc-low-link/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-rush-heavy-pc-low-link/frame-1.jpg",
+					"at": 0.8,
+					"label": "Raw Rush",
+					"alt": "Ken spends Drive on the approach."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-rush-heavy-pc-low-link/frame-2.jpg",
+					"at": 1.55,
+					"label": "Heavy-punch Punish Counter",
+					"alt": "Standing heavy punch scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-rush-heavy-pc-low-link/frame-3.jpg",
+					"at": 2.05,
+					"label": "Low link",
+					"alt": "Crouching medium kick links after the heavy punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-rush-heavy-pc-low-link/frame-4.jpg",
+					"at": 3.7,
+					"label": "Knockdown",
+					"alt": "Running Shoryuken ends the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-heavy-kick-pc-rush-tatsu-carry",
+			"ken-ebios-counter-di-heavy-kick-rush",
+			"ken-ebios-heavy-kick-punish-rush-run-dp"
+		]
+	},
+	{
+		"id": "ken-depth-jab-target-run-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Jab into Chin Buster and running Shoryuken",
+		"summary": "Keep the light conversion on the same side with a running-Shoryuken finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 5MP > ~HP > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~HP",
+				"label": "Chin Buster continuation",
+				"cue": "Press HP as the target follow-up to standing MP."
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for crouching jab into standing medium punch"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 195.4,
+			"end": 199.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-jab-target-run-dp/clip.mp4",
+			"poster": "/media/ken/ken-depth-jab-target-run-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-jab-target-run-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-jab-target-run-dp/frame-1.jpg",
+					"at": 0.4,
+					"label": "Jab starter",
+					"alt": "Crouching light punch starts the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-jab-target-run-dp/frame-2.jpg",
+					"at": 1.35,
+					"label": "Chin Buster",
+					"alt": "The target heavy punch launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-jab-target-run-dp/frame-3.jpg",
+					"at": 2.25,
+					"label": "Running Shoryuken",
+					"alt": "Ken juggles Ryu with running Shoryuken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-jab-target-run-dp/frame-4.jpg",
+					"at": 3.3,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the same-side finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-jab-target-dragonlash-switch",
+			"ken-ebios-light-chin-buster-run-tatsu",
+			"ken-depth-counterhit-jab-medium-run-dp"
+		]
+	},
+	{
+		"id": "ken-depth-jab-target-dragonlash-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Meterless jab confirm into Dragonlash side switch",
+		"summary": "Use the running Dragonlash after Chin Buster, then juggle with heavy Shoryuken from the other side.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Side switch", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 5MP > ~HP > KK > 623K > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~HP",
+				"label": "Chin Buster continuation",
+				"cue": "Press HP as the target follow-up to standing MP."
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "623K",
+				"label": "Running Dragonlash",
+				"cue": "Perform during Quick Dash."
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for the target-combo link"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 201.35,
+			"end": 206.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-jab-target-dragonlash-switch/clip.mp4",
+			"poster": "/media/ken/ken-depth-jab-target-dragonlash-switch/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-jab-target-dragonlash-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-jab-target-dragonlash-switch/frame-1.jpg",
+					"at": 0.5,
+					"label": "Jab starter",
+					"alt": "Ken starts with crouching jab at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-jab-target-dragonlash-switch/frame-2.jpg",
+					"at": 1.4,
+					"label": "Target launch",
+					"alt": "Chin Buster launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-jab-target-dragonlash-switch/frame-3.jpg",
+					"at": 2.4,
+					"label": "Side switch",
+					"alt": "Running Dragonlash moves Ken under the airborne opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-jab-target-dragonlash-switch/frame-4.jpg",
+					"at": 4.2,
+					"label": "Switched knockdown",
+					"alt": "Ryu falls after heavy Shoryuken on the other side."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-jab-dragonlash-level-one",
+			"ken-depth-jab-target-run-dp",
+			"ken-ebios-light-chin-buster-run-tatsu"
+		]
+	},
+	{
+		"id": "ken-depth-jab-dragonlash-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Light confirm: Dragonlash into Level 1",
+		"summary": "Spend one Super stock after the running-Dragonlash side switch.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Side switch", "Super finish", "Stock choice"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 5MP > ~HP > KK > 623K > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~HP",
+				"label": "Chin Buster continuation",
+				"cue": "Press HP as the target follow-up to standing MP."
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "623K",
+				"label": "Running Dragonlash",
+				"cue": "Perform during Quick Dash."
+			},
+			{
+				"id": "step-6",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "At least one Super stock"],
+		"notes": ["The overlay says any Super Art; this take specifically performs Level 1."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 stock)"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 207.55,
+			"end": 215.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-jab-dragonlash-level-one/clip.mp4",
+			"poster": "/media/ken/ken-depth-jab-dragonlash-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-jab-dragonlash-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-jab-dragonlash-level-one/frame-1.jpg",
+					"at": 0.4,
+					"label": "Jab starter",
+					"alt": "Crouching light punch connects at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-jab-dragonlash-level-one/frame-2.jpg",
+					"at": 2.35,
+					"label": "Dragonlash switch",
+					"alt": "Running Dragonlash changes sides beneath Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-jab-dragonlash-level-one/frame-3.jpg",
+					"at": 3.25,
+					"label": "Level 1 activation",
+					"alt": "Ken activates Level 1 after the side switch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-jab-dragonlash-level-one/frame-4.jpg",
+					"at": 6.25,
+					"label": "Hard knockdown",
+					"alt": "Ryu falls into the hard knockdown after Level 1."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-heavy-light-tatsu-level-two",
+			"ken-depth-jab-target-dragonlash-switch",
+			"ken-depth-counter-di-walk-dragonlash-switch"
+		]
+	},
+	{
+		"id": "ken-depth-level-one-hadoken-rush-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Level 1: Hadoken into Rush heavy punch",
+		"summary": "Cover the recovery with a light Hadoken, then Rush behind it and confirm heavy punch into running Shoryuken.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Projectile pressure", "Strike pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "236LP > DR > 5HP > 2MP > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236LP",
+				"label": "Light Hadoken"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-6",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Level 1 hard knockdown at the demonstrated distance",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"The prerequisite Level 1 spends one Super stock; that earlier cost is separate from this follow-up."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 222.7,
+			"end": 228.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-level-one-hadoken-rush-heavy/clip.mp4",
+			"poster": "/media/ken/ken-depth-level-one-hadoken-rush-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-level-one-hadoken-rush-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-level-one-hadoken-rush-heavy/frame-1.jpg",
+					"at": 0.55,
+					"label": "Hadoken coverage",
+					"alt": "Ken sends a light Hadoken toward the rising Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-level-one-hadoken-rush-heavy/frame-2.jpg",
+					"at": 1.55,
+					"label": "Rush behind fireball",
+					"alt": "Ken approaches behind the projectile."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-level-one-hadoken-rush-heavy/frame-3.jpg",
+					"at": 2.15,
+					"label": "Heavy-punch follow-up",
+					"alt": "Drive Rush heavy punch connects after Hadoken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-level-one-hadoken-rush-heavy/frame-4.jpg",
+					"at": 3.6,
+					"label": "Running Shoryuken",
+					"alt": "Ken finishes through crouching medium punch and Quick Dash."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-dash-crouching-medium",
+			"ken-depth-hp-dp-rush-jab-strike",
+			"ken-depth-run-tatsu-double-dash-strike"
+		]
+	},
+	{
+		"id": "ken-depth-level-two-corner-medium-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner Level 2: crouching-medium whiff into throw",
+		"summary": "Whiff crouching medium after Level 2, then delay the corner throw.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP (whiff) > Delay > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP (whiff)",
+				"label": "Whiff crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Match the shown delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Level 2 knockdown in the corner first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"Source captions alternate +13F and +12F for this timing. Follow the demonstrated take; an exact universal frame-advantage claim is not authored.",
+			"The prerequisite Level 2 spends two Super stocks; that earlier cost is separate from this follow-up."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 272.5,
+			"end": 276.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-level-two-corner-medium-throw/clip.mp4",
+			"poster": "/media/ken/ken-depth-level-two-corner-medium-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-level-two-corner-medium-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-level-two-corner-medium-throw/frame-1.jpg",
+					"at": 0.4,
+					"label": "Timing whiff",
+					"alt": "Ken whiffs crouching medium punch while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-level-two-corner-medium-throw/frame-2.jpg",
+					"at": 1.45,
+					"label": "Throw attempt",
+					"alt": "The timed forward throw catches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-level-two-corner-medium-throw/frame-3.jpg",
+					"at": 2.9,
+					"label": "Throw result",
+					"alt": "Ryu falls after the corner throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-corner-lk-throw",
+			"ken-depth-run-tatsu-corner-two-kicks-throw",
+			"ken-depth-corner-forward-throw-dash-lights"
+		]
+	},
+	{
+		"id": "ken-depth-level-two-corner-medium-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner Level 2: crouching-medium whiff into shimmy",
+		"summary": "Use the medium-punch whiff as timing, retreat from the throw, then punish through heavy punch and crouching medium.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Shimmy", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP (whiff) > 4 > 5HP > 2MP > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP (whiff)",
+				"label": "Whiff crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-6",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Level 2 knockdown in the corner first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"The prerequisite Level 2 spends two Super stocks; that earlier cost is separate from this follow-up."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 282.4,
+			"end": 287.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-level-two-corner-medium-shimmy/clip.mp4",
+			"poster": "/media/ken/ken-depth-level-two-corner-medium-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-level-two-corner-medium-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-level-two-corner-medium-shimmy/frame-1.jpg",
+					"at": 0.55,
+					"label": "Timing whiff",
+					"alt": "Ken whiffs crouching medium punch while Ryu recovers."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-level-two-corner-medium-shimmy/frame-2.jpg",
+					"at": 1.4,
+					"label": "Shimmy punish",
+					"alt": "Standing heavy punch scores Punish Counter after the throw misses."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-level-two-corner-medium-shimmy/frame-3.jpg",
+					"at": 1.95,
+					"label": "Crouching-medium link",
+					"alt": "Crouching medium punch links after the heavy-punch punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-level-two-corner-medium-shimmy/frame-4.jpg",
+					"at": 3.95,
+					"label": "Knockdown",
+					"alt": "Ryu falls after running Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-corner-lk-shimmy",
+			"ken-depth-run-tatsu-corner-two-kicks-shimmy",
+			"ken-depth-hp-dp-near-corner-shimmy"
+		]
+	},
+	{
+		"id": "ken-depth-level-two-corner-medium-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner Level 2: crouching-medium whiff into heavy strike",
+		"summary": "Time heavy punch after the medium whiff, then link crouching medium into running Shoryuken.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Strike pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MP (whiff) > 5HP > 2MP > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP (whiff)",
+				"label": "Whiff crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Level 2 knockdown in the corner first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"The prerequisite Level 2 spends two Super stocks; that earlier cost is separate from this follow-up."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 293.35,
+			"end": 298.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-level-two-corner-medium-heavy/clip.mp4",
+			"poster": "/media/ken/ken-depth-level-two-corner-medium-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-level-two-corner-medium-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-level-two-corner-medium-heavy/frame-1.jpg",
+					"at": 0.8,
+					"label": "Timing whiff",
+					"alt": "Ken whiffs crouching medium punch while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-level-two-corner-medium-heavy/frame-2.jpg",
+					"at": 1.45,
+					"label": "Heavy strike",
+					"alt": "Standing heavy punch catches Ryu’s recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-level-two-corner-medium-heavy/frame-3.jpg",
+					"at": 2.05,
+					"label": "Medium link",
+					"alt": "Crouching medium punch continues the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-level-two-corner-medium-heavy/frame-4.jpg",
+					"at": 4.05,
+					"label": "Knockdown",
+					"alt": "Ryu falls after running Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-corner-forward-throw-dash-lights",
+			"ken-depth-hp-dp-corner-lk-medium",
+			"ken-depth-run-tatsu-corner-two-kicks-medium"
+		]
+	},
+	{
+		"id": "ken-depth-level-three-corner-burnout-stun",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Level 3: Rush medium into burnout stun",
+		"summary": "Against the shown burned-out corner opponent, Rush into a blocked crouching medium and cancel into Drive Impact.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Burnout", "Drive Impact"],
+		"outcomes": ["Stun"],
+		"notation": "DR > 2MP > HP+HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "HP+HK",
+				"label": "Drive Impact"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Level 3 hard knockdown with the opponent burned out in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"This demonstrates the recorded block response. It does not test Super, jump or other escape attempts.",
+			"The prerequisite Level 3 spends three Super stocks; that earlier cost is separate from this follow-up."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush plus Drive Impact (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 306.05,
+			"end": 310.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-level-three-corner-burnout-stun/clip.mp4",
+			"poster": "/media/ken/ken-depth-level-three-corner-burnout-stun/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-level-three-corner-burnout-stun/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-level-three-corner-burnout-stun/frame-1.jpg",
+					"at": 0.6,
+					"label": "Rush approach",
+					"alt": "Ken rushes toward the burned-out A.K.I. during knockdown recovery."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-level-three-corner-burnout-stun/frame-2.jpg",
+					"at": 1.6,
+					"label": "Drive Impact",
+					"alt": "Ken cancels the blocked crouching medium into Drive Impact."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-level-three-corner-burnout-stun/frame-3.jpg",
+					"at": 2.55,
+					"label": "Corner stun",
+					"alt": "Drive Impact stuns A.K.I. in the corner."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-level-three-corner-burnout-stun/frame-4.jpg",
+					"at": 4.15,
+					"label": "Stunned opponent",
+					"alt": "The stun state remains visible after the impact."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-corner-forward-throw-dash-lights",
+			"ken-depth-hp-dp-corner-lk-medium",
+			"ken-depth-hp-dp-corner-lk-shimmy"
+		]
+	},
+	{
+		"id": "ken-depth-level-three-rush-jab-aki-reversal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Level 3: Rush jab and block A.K.I.’s reversal",
+		"summary": "After Level 3, recover from the Rush jab in time to block the demonstrated A.K.I. Super reversal.",
+		"kind": "response",
+		"situations": ["Corner", "Oki", "Reversal bait"],
+		"outcomes": ["Blocked reversal"],
+		"notation": "DR > 5LP > 4",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Block",
+				"cue": "Recover before the demonstrated reversal reaches Ken."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Level 3 hard knockdown first",
+			"Opponent performs the recorded A.K.I. Super reversal"
+		],
+		"notes": [
+			"Inputs and cost begin after Level 3. Only the shown A.K.I. response is reviewed; the source’s broader 10F+ safety claim is not adopted.",
+			"The prerequisite Level 3 spends three Super stocks; that earlier cost is separate from this follow-up."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 319.1,
+			"end": 323.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-level-three-rush-jab-aki-reversal/clip.mp4",
+			"poster": "/media/ken/ken-depth-level-three-rush-jab-aki-reversal/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-level-three-rush-jab-aki-reversal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-level-three-rush-jab-aki-reversal/frame-1.jpg",
+					"at": 0.65,
+					"label": "Rush approach",
+					"alt": "Ken rushes toward A.K.I. after Level 3."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-level-three-rush-jab-aki-reversal/frame-2.jpg",
+					"at": 1.55,
+					"label": "Reversal startup",
+					"alt": "A.K.I. activates the recorded Super reversal as Ken jabs."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-level-three-rush-jab-aki-reversal/frame-3.jpg",
+					"at": 2.2,
+					"label": "Blocked reversal",
+					"alt": "Ken blocks the reversal after recovering from the jab."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-level-three-rush-jab-aki-reversal/frame-4.jpg",
+					"at": 3.5,
+					"label": "Recovered Ken",
+					"alt": "Ken remains standing after the demonstrated response."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-run-tatsu-delayed-jump-block",
+			"ken-depth-corner-forward-throw-dash-lights",
+			"ken-depth-forward-throw-rush-jab-bait"
+		]
+	},
+	{
+		"id": "ken-depth-counterhit-jab-medium-run-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Counter-hit jab into crouching medium",
+		"summary": "Use the extra hitstun from a counter-hit crouching jab to reach crouching medium and running Shoryuken.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2MP > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-4",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": ["Classic controls", "The crouching jab must score Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 325.0,
+			"end": 328.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-counterhit-jab-medium-run-dp/clip.mp4",
+			"poster": "/media/ken/ken-depth-counterhit-jab-medium-run-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-counterhit-jab-medium-run-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-counterhit-jab-medium-run-dp/frame-1.jpg",
+					"at": 0.5,
+					"label": "Counter-hit jab",
+					"alt": "Crouching jab scores Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-counterhit-jab-medium-run-dp/frame-2.jpg",
+					"at": 1.1,
+					"label": "Run cancel",
+					"alt": "Ken cancels crouching medium punch into Quick Dash."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-counterhit-jab-medium-run-dp/frame-3.jpg",
+					"at": 1.85,
+					"label": "Running Shoryuken",
+					"alt": "Running Shoryuken converts the counter-hit link."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-counterhit-jab-medium-run-dp/frame-4.jpg",
+					"at": 2.95,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the counter-hit conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-jab-dragonlash-level-one",
+			"ken-depth-jab-target-dragonlash-switch",
+			"ken-depth-jab-target-run-dp"
+		]
+	},
+	{
+		"id": "ken-depth-blocked-low-rush-jab-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Blocked low: Rush jab into throw",
+		"summary": "Cancel the blocked low kick into Rush, make Ryu block the jab, then attempt the throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Block pressure", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 5LP > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching medium kick and the Rush jab are blocked at the shown range"
+		],
+		"notes": ["The blocked strikes and throw are a pressure sequence, not one continuous combo."],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 458.7,
+			"end": 462.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-blocked-low-rush-jab-throw/clip.mp4",
+			"poster": "/media/ken/ken-depth-blocked-low-rush-jab-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-blocked-low-rush-jab-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-blocked-low-rush-jab-throw/frame-1.jpg",
+					"at": 0.5,
+					"label": "Blocked low kick",
+					"alt": "Ryu blocks crouching medium kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-blocked-low-rush-jab-throw/frame-2.jpg",
+					"at": 1.05,
+					"label": "Blocked Rush jab",
+					"alt": "Ken makes the Rush jab contact guard."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-blocked-low-rush-jab-throw/frame-3.jpg",
+					"at": 1.8,
+					"label": "Tick throw",
+					"alt": "Ken catches Ryu with the throw after the blocked jab."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-blocked-low-rush-jab-throw/frame-4.jpg",
+					"at": 3.25,
+					"label": "Throw knockdown",
+					"alt": "Ryu falls after the tick throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-near-corner-dash-throw",
+			"ken-depth-run-tatsu-double-dash-throw",
+			"ken-ebios-heavy-shoryuken-rush-throw"
+		]
+	},
+	{
+		"id": "ken-depth-medium-jab-heavy-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Medium punch into jab and heavy Shoryuken",
+		"summary": "Use the short standing-medium link into jab for a meterless Shoryuken finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MP > 5LP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HP",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for standing medium punch into standing jab"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 533.4,
+			"end": 537.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-medium-jab-heavy-dp/clip.mp4",
+			"poster": "/media/ken/ken-depth-medium-jab-heavy-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-medium-jab-heavy-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-medium-jab-heavy-dp/frame-1.jpg",
+					"at": 0.5,
+					"label": "Medium starter",
+					"alt": "Standing medium punch connects at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-medium-jab-heavy-dp/frame-2.jpg",
+					"at": 1.0,
+					"label": "Jab link",
+					"alt": "Standing jab links after the medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-medium-jab-heavy-dp/frame-3.jpg",
+					"at": 1.8,
+					"label": "Heavy Shoryuken",
+					"alt": "Heavy Shoryuken completes the short confirm."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-medium-jab-heavy-dp/frame-4.jpg",
+					"at": 3.0,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the meterless medium confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-blocked-low-rush-jab-throw",
+			"ken-depth-counter-di-od-jinrai",
+			"ken-depth-counter-di-walk-dragonlash-switch"
+		]
+	},
+	{
+		"id": "ken-depth-medium-target-corner-jinrai",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner medium confirm: delayed Jinrai heavy follow-up",
+		"summary": "Cancel Chin Buster into medium Jinrai, delay its heavy follow-up and finish with heavy Shoryuken.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Target combo", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MP > ~HP > 236MK > ~6HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "~HP",
+				"label": "Chin Buster continuation",
+				"cue": "Press HP as the target follow-up to standing MP."
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Jinrai Kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "~6HK",
+				"label": "Delayed heavy Jinrai follow-up",
+				"cue": "Delay forward + heavy kick to keep the corner juggle aligned."
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Delay Jinrai’s heavy continuation as demonstrated"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 550.9,
+			"end": 556.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-medium-target-corner-jinrai/clip.mp4",
+			"poster": "/media/ken/ken-depth-medium-target-corner-jinrai/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-medium-target-corner-jinrai/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-medium-target-corner-jinrai/frame-1.jpg",
+					"at": 0.4,
+					"label": "Medium starter",
+					"alt": "Standing medium punch starts the corner confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-medium-target-corner-jinrai/frame-2.jpg",
+					"at": 0.9,
+					"label": "Chin Buster",
+					"alt": "The target heavy punch lifts Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-medium-target-corner-jinrai/frame-3.jpg",
+					"at": 2.0,
+					"label": "Delayed follow-up",
+					"alt": "Jinrai’s delayed heavy follow-up juggles Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-medium-target-corner-jinrai/frame-4.jpg",
+					"at": 3.35,
+					"label": "Heavy Shoryuken",
+					"alt": "Ken finishes the corner juggle with heavy Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-corner-double-od-jinrai-level-three",
+			"ken-depth-corner-heavy-double-jinrai",
+			"ken-ebios-corner-counter-di-jinrai"
+		]
+	},
+	{
+		"id": "ken-depth-heavy-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Heavy confirm: one Rush cancel into Level 3",
+		"summary": "Spend one Rush cancel from standing heavy punch, then use the medium-Jinrai launch to reach Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Cash-out"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HP > DRC > 5HP > 2MP > 236MK > ~6HK > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Jinrai Kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "~6HK",
+				"label": "Heavy Jinrai follow-up"
+			},
+			{
+				"id": "step-7",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Enough Drive for one Rush cancel",
+			"Level 3 stock available"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 563.95,
+			"end": 575.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-heavy-rush-level-three/clip.mp4",
+			"poster": "/media/ken/ken-depth-heavy-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-heavy-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-heavy-rush-level-three/frame-1.jpg",
+					"at": 0.35,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-heavy-rush-level-three/frame-2.jpg",
+					"at": 1.35,
+					"label": "Rush heavy punch",
+					"alt": "Ken lands a second heavy punch after the Rush cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-heavy-rush-level-three/frame-3.jpg",
+					"at": 2.85,
+					"label": "Jinrai launch",
+					"alt": "The heavy Jinrai follow-up launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-heavy-rush-level-three/frame-4.jpg",
+					"at": 3.45,
+					"label": "Level 3 activation",
+					"alt": "Ken cancels into Level 3."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ken/ken-depth-heavy-rush-level-three/frame-5.jpg",
+					"at": 10.35,
+					"label": "Super knockdown",
+					"alt": "The Level 3 animation ends in hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-corner-double-od-jinrai-level-three",
+			"ken-depth-heavy-light-tatsu-level-two",
+			"ken-depth-heavy-light-tatsu-medium-dp"
+		]
+	},
+	{
+		"id": "ken-depth-heavy-light-tatsu-medium-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Heavy confirm: light Tatsumaki and medium Shoryuken",
+		"summary": "Use crouching heavy punch directly into the light-Tatsumaki juggle without spending Drive.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HP > 214LK > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214LK",
+				"label": "Light Tatsumaki"
+			},
+			{
+				"id": "step-3",
+				"notation": "623MP",
+				"label": "Medium Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Close crouching-heavy-punch hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 596.15,
+			"end": 600.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-heavy-light-tatsu-medium-dp/clip.mp4",
+			"poster": "/media/ken/ken-depth-heavy-light-tatsu-medium-dp/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-heavy-light-tatsu-medium-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-heavy-light-tatsu-medium-dp/frame-1.jpg",
+					"at": 0.45,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-heavy-light-tatsu-medium-dp/frame-2.jpg",
+					"at": 1.15,
+					"label": "Light Tatsumaki",
+					"alt": "Light Tatsumaki juggles Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-heavy-light-tatsu-medium-dp/frame-3.jpg",
+					"at": 2.35,
+					"label": "Medium Shoryuken",
+					"alt": "Medium Shoryuken catches the airborne opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-heavy-light-tatsu-medium-dp/frame-4.jpg",
+					"at": 3.35,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the meterless heavy confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-corner-double-od-jinrai-level-three",
+			"ken-depth-corner-heavy-double-jinrai",
+			"ken-depth-counter-di-od-jinrai"
+		]
+	},
+	{
+		"id": "ken-depth-heavy-light-tatsu-level-two",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Heavy confirm: light Tatsumaki into Level 2",
+		"summary": "Use two Super stocks after the light-Tatsumaki juggle while preserving Drive.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "Super finish", "Stock choice"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HP > 214LK > SA2",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214LK",
+				"label": "Light Tatsumaki"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA2",
+				"label": "Level 2 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "At least two Super stocks"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 2 (2 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 602.45,
+			"end": 610.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-heavy-light-tatsu-level-two/clip.mp4",
+			"poster": "/media/ken/ken-depth-heavy-light-tatsu-level-two/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-heavy-light-tatsu-level-two/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-heavy-light-tatsu-level-two/frame-1.jpg",
+					"at": 0.4,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch starts the conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-heavy-light-tatsu-level-two/frame-2.jpg",
+					"at": 0.95,
+					"label": "Light Tatsumaki",
+					"alt": "Light Tatsumaki keeps Ryu airborne."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-heavy-light-tatsu-level-two/frame-3.jpg",
+					"at": 1.95,
+					"label": "Level 2 activation",
+					"alt": "Ken activates Level 2 after the Tatsumaki."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-heavy-light-tatsu-level-two/frame-4.jpg",
+					"at": 5.3,
+					"label": "Super juggle",
+					"alt": "Level 2 continues the multi-hit juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ken/ken-depth-heavy-light-tatsu-level-two/frame-5.jpg",
+					"at": 6.9,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the Level 2 finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-jab-dragonlash-level-one",
+			"ken-depth-heavy-light-tatsu-medium-dp",
+			"ken-depth-heavy-rush-level-three"
+		]
+	},
+	{
+		"id": "ken-depth-reversal-punish-runstop-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Reversal punish: run-stop medium into Level 3",
+		"summary": "Punish the recovered OD Shoryuken with crouching heavy punch, stop the run and link medium into the running overhead Super cancel.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter", "Cash-out"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HP > KK > ~LK > 5MP > KK > ~HK > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-3",
+				"notation": "~LK",
+				"label": "Emergency Stop",
+				"cue": "Press LK during Quick Dash."
+			},
+			{
+				"id": "step-4",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-6",
+				"notation": "~HK",
+				"label": "Running overhead kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu’s OD Shoryuken has been blocked before the excerpt",
+			"Level 3 stock available"
+		],
+		"notes": ["The initial blocked reversal is the prerequisite; inputs begin with the punish."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 621.8,
+			"end": 631.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-reversal-punish-runstop-level-three/clip.mp4",
+			"poster": "/media/ken/ken-depth-reversal-punish-runstop-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-reversal-punish-runstop-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-reversal-punish-runstop-level-three/frame-1.jpg",
+					"at": 0.45,
+					"label": "Reversal punish",
+					"alt": "Crouching heavy punch punishes Ryu’s recovered OD Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-reversal-punish-runstop-level-three/frame-2.jpg",
+					"at": 1.0,
+					"label": "Run-stop medium",
+					"alt": "Ken stops Quick Dash and links standing medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-reversal-punish-runstop-level-three/frame-3.jpg",
+					"at": 1.55,
+					"label": "Running overhead",
+					"alt": "The running overhead kick continues the punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-reversal-punish-runstop-level-three/frame-4.jpg",
+					"at": 2.05,
+					"label": "Level 3 activation",
+					"alt": "Ken cancels the overhead into Level 3."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ken/ken-depth-reversal-punish-runstop-level-three/frame-5.jpg",
+					"at": 8.75,
+					"label": "Super knockdown",
+					"alt": "Ryu lands after the Level 3 punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-counter-di-od-jinrai",
+			"ken-depth-counter-di-walk-dragonlash-switch",
+			"ken-depth-heavy-kick-pc-rush-tatsu-carry"
+		]
+	},
+	{
+		"id": "ken-depth-corner-heavy-double-jinrai",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner heavy confirm: heavy and light Jinrai juggles",
+		"summary": "Delay the low follow-up from heavy Jinrai, juggle with light Jinrai and finish with heavy Shoryuken.",
+		"kind": "combo",
+		"situations": ["Corner", "Heavy confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HP > 236HK > ~6LK > 236LK > ~6LK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "Heavy Jinrai Kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "~6LK",
+				"label": "Delayed low Jinrai follow-up",
+				"cue": "Delay the first low continuation as shown."
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK",
+				"label": "Light Jinrai Kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "~6LK",
+				"label": "Low Jinrai follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Delay the first Jinrai low follow-up"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 675.85,
+			"end": 681.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-corner-heavy-double-jinrai/clip.mp4",
+			"poster": "/media/ken/ken-depth-corner-heavy-double-jinrai/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-corner-heavy-double-jinrai/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-corner-heavy-double-jinrai/frame-1.jpg",
+					"at": 0.45,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch connects in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-corner-heavy-double-jinrai/frame-2.jpg",
+					"at": 1.55,
+					"label": "Delayed first low",
+					"alt": "Heavy Jinrai’s low follow-up catches the airborne Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-corner-heavy-double-jinrai/frame-3.jpg",
+					"at": 2.7,
+					"label": "Light Jinrai extension",
+					"alt": "Light Jinrai continues the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-corner-heavy-double-jinrai/frame-4.jpg",
+					"at": 3.8,
+					"label": "Heavy Shoryuken",
+					"alt": "Heavy Shoryuken completes the meterless corner route."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-corner-double-od-jinrai-level-three",
+			"ken-depth-heavy-light-tatsu-medium-dp",
+			"ken-depth-medium-target-corner-jinrai"
+		]
+	},
+	{
+		"id": "ken-depth-run-overhead-counterhit",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Run overhead counter hit into light kick",
+		"summary": "Convert a counter-hit running overhead with standing light kick and heavy Shoryuken.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Overhead"],
+		"outcomes": ["Knockdown"],
+		"notation": "KK > ~HK > 5LK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-2",
+				"notation": "~HK",
+				"label": "Running overhead kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "The running overhead must score Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 705.3,
+			"end": 708.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-run-overhead-counterhit/clip.mp4",
+			"poster": "/media/ken/ken-depth-run-overhead-counterhit/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-run-overhead-counterhit/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-run-overhead-counterhit/frame-1.jpg",
+					"at": 0.55,
+					"label": "Counter-hit overhead",
+					"alt": "The running overhead scores Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-run-overhead-counterhit/frame-2.jpg",
+					"at": 1.2,
+					"label": "Light-kick link",
+					"alt": "Standing light kick links after the overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-run-overhead-counterhit/frame-3.jpg",
+					"at": 1.8,
+					"label": "Heavy Shoryuken",
+					"alt": "Ken cancels the light kick into heavy Shoryuken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-run-overhead-counterhit/frame-4.jpg",
+					"at": 3.05,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the overhead conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-counterhit-jab-medium-run-dp",
+			"ken-depth-blocked-low-rush-jab-throw",
+			"ken-depth-counter-di-od-jinrai"
+		]
+	},
+	{
+		"id": "ken-depth-sweep-pc-run-medium-oki",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Punish-counter sweep: run medium into jab confirm",
+		"summary": "Whiff crouching light kick after the sweep, then use the running medium kick to start a jab and Chin Buster conversion.",
+		"kind": "setup",
+		"situations": ["Oki", "Midscreen", "Strike pressure"],
+		"outcomes": ["Knockdown", "Corner carry"],
+		"notation": "2LK (whiff) > KK > ~MK > 2LP > 5MP > ~HP > KK > 214K",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-3",
+				"notation": "~MK",
+				"label": "Running medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "~HP",
+				"label": "Chin Buster continuation",
+				"cue": "Press HP as the target follow-up to standing MP."
+			},
+			{
+				"id": "step-7",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-8",
+				"notation": "214K",
+				"label": "Running Tatsumaki",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Punish-counter crouching heavy kick sweep knockdown first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Inputs and resource cost begin after the named prerequisite."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 734.05,
+			"end": 739.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-sweep-pc-run-medium-oki/clip.mp4",
+			"poster": "/media/ken/ken-depth-sweep-pc-run-medium-oki/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-sweep-pc-run-medium-oki/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-sweep-pc-run-medium-oki/frame-1.jpg",
+					"at": 0.3,
+					"label": "Timing light kick",
+					"alt": "Ken whiffs crouching light kick after the sweep knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-sweep-pc-run-medium-oki/frame-2.jpg",
+					"at": 1.15,
+					"label": "Running medium strike",
+					"alt": "Quick Dash medium kick catches Ryu’s recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-sweep-pc-run-medium-oki/frame-3.jpg",
+					"at": 2.15,
+					"label": "Jab into target combo",
+					"alt": "Ken continues through crouching jab and Chin Buster."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-sweep-pc-run-medium-oki/frame-4.jpg",
+					"at": 3.7,
+					"label": "Running Tatsumaki",
+					"alt": "Running Tatsumaki finishes the demonstrated carry branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-dash-crouching-medium",
+			"ken-depth-hp-dp-rush-jab-strike",
+			"ken-depth-level-one-hadoken-rush-heavy"
+		]
+	},
+	{
+		"id": "ken-depth-forward-throw-rush-jab-bait",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Forward throw: Rush jab-whiff reversal bait",
+		"summary": "Whiff the Rush jab after forward throw, then block the demonstrated OD Shoryuken.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Reversal bait"],
+		"outcomes": ["Blocked reversal"],
+		"notation": "DR > 5LP (whiff) > 4",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP (whiff)",
+				"label": "Whiff standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Block",
+				"cue": "Recover before the demonstrated reversal reaches Ken."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Forward-throw knockdown first",
+			"Opponent performs the shown OD Shoryuken reversal"
+		],
+		"notes": [
+			"Inputs and cost begin after the throw. The clip ends after the block and does not demonstrate a punish."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 751.8,
+			"end": 755.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-forward-throw-rush-jab-bait/clip.mp4",
+			"poster": "/media/ken/ken-depth-forward-throw-rush-jab-bait/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-forward-throw-rush-jab-bait/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-forward-throw-rush-jab-bait/frame-1.jpg",
+					"at": 0.45,
+					"label": "Rush approach",
+					"alt": "Ken rushes toward the rising Ryu after the throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-forward-throw-rush-jab-bait/frame-2.jpg",
+					"at": 0.9,
+					"label": "Whiffed jab",
+					"alt": "The standing jab misses during Ryu’s reversal startup."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-forward-throw-rush-jab-bait/frame-3.jpg",
+					"at": 1.3,
+					"label": "Blocked reversal",
+					"alt": "Ken recovers in time to block OD Shoryuken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-forward-throw-rush-jab-bait/frame-4.jpg",
+					"at": 2.8,
+					"label": "Recovered opponent",
+					"alt": "Ryu lands after the blocked reversal; no punish is demonstrated."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-dash-medium-block-drev",
+			"ken-depth-hp-dp-dash-crouching-medium",
+			"ken-depth-hp-dp-near-corner-dash-throw"
+		]
+	},
+	{
+		"id": "ken-depth-corner-forward-throw-dash-lights",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner forward throw: dash into light confirm",
+		"summary": "Dash after the corner throw, then confirm crouching jab through standing jab and light kick.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Strike pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 2LP > 5LP > 5LK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Forward-throw knockdown in the corner first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and cost begin after the prerequisite forward throw. The overlay’s dash +1F reports remaining advantage, not a one-frame wait instruction. Current-patch execution has not been tested."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 766.6,
+			"end": 771.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-corner-forward-throw-dash-lights/clip.mp4",
+			"poster": "/media/ken/ken-depth-corner-forward-throw-dash-lights/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-corner-forward-throw-dash-lights/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-corner-forward-throw-dash-lights/frame-1.jpg",
+					"at": 0.35,
+					"label": "Dash after throw",
+					"alt": "Ken dashes toward Ryu after the corner throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-corner-forward-throw-dash-lights/frame-2.jpg",
+					"at": 0.75,
+					"label": "Crouching jab",
+					"alt": "The delayed crouching jab starts the wake-up confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-corner-forward-throw-dash-lights/frame-3.jpg",
+					"at": 1.35,
+					"label": "Light-kick link",
+					"alt": "Standing light kick follows the standing jab."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-corner-forward-throw-dash-lights/frame-4.jpg",
+					"at": 2.45,
+					"label": "Heavy Shoryuken",
+					"alt": "Heavy Shoryuken finishes the light conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-hp-dp-corner-lk-medium",
+			"ken-depth-level-two-corner-medium-heavy",
+			"ken-depth-run-tatsu-corner-two-kicks-medium"
+		]
+	},
+	{
+		"id": "ken-depth-counter-di-od-jinrai",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Counter Drive Impact: jump kick into OD Jinrai",
+		"summary": "After countering Drive Impact, use jump heavy kick and a delayed OD Jinrai juggle instead of a Rush extension.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "HP+HK > j.HK > 236KK > ~6HK > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "HP+HK",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HK",
+				"label": "Jump heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236KK",
+				"label": "Delayed OD Jinrai Kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "~6HK",
+				"label": "Heavy Jinrai follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-6",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drive Impact must counter the opponent’s Drive Impact",
+			"Enough Drive for DI and OD Jinrai"
+		],
+		"notes": [
+			"The opening jab provides context for the opponent’s Drive Impact; listed inputs begin with Ken’s counter Drive Impact."
+		],
+		"resources": {
+			"drive": "Drive Impact plus OD Jinrai (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 785.05,
+			"end": 794.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-counter-di-od-jinrai/clip.mp4",
+			"poster": "/media/ken/ken-depth-counter-di-od-jinrai/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-counter-di-od-jinrai/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-counter-di-od-jinrai/frame-1.jpg",
+					"at": 2.85,
+					"label": "Counter Drive Impact",
+					"alt": "Ken’s counter Drive Impact crumples Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-counter-di-od-jinrai/frame-2.jpg",
+					"at": 4.3,
+					"label": "Jump heavy kick",
+					"alt": "Jump heavy kick connects during the crumple conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-counter-di-od-jinrai/frame-3.jpg",
+					"at": 5.45,
+					"label": "OD Jinrai follow-up",
+					"alt": "The heavy OD Jinrai continuation keeps Ryu airborne."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-counter-di-od-jinrai/frame-4.jpg",
+					"at": 6.95,
+					"label": "Running Shoryuken",
+					"alt": "Ken finishes through Quick Dash into Shoryuken."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ken/ken-depth-counter-di-od-jinrai/frame-5.jpg",
+					"at": 8.75,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the OD conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-ebios-counter-di-heavy-kick-rush",
+			"ken-depth-counter-di-walk-dragonlash-switch",
+			"ken-ebios-corner-counter-di-jinrai"
+		]
+	},
+	{
+		"id": "ken-depth-counter-di-walk-dragonlash-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Counter Drive Impact: walk-up Dragonlash switch",
+		"summary": "Walk forward after the crumple, launch with heavy punch and change sides through running Dragonlash.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter", "Side switch"],
+		"outcomes": ["Knockdown"],
+		"notation": "HP+HK > 6 > 5HP > KK > 623K > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "HP+HK",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "6",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "623K",
+				"label": "Running Dragonlash",
+				"cue": "Perform during Quick Dash."
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Counter Drive Impact crumple",
+			"Walk close enough for heavy punch"
+		],
+		"notes": [
+			"The opening jab provides context for the opponent’s Drive Impact; listed inputs begin with Ken’s counter Drive Impact."
+		],
+		"resources": {
+			"drive": "Drive Impact (1 bar); no additional Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 795.45,
+			"end": 804.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-counter-di-walk-dragonlash-switch/clip.mp4",
+			"poster": "/media/ken/ken-depth-counter-di-walk-dragonlash-switch/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-counter-di-walk-dragonlash-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-counter-di-walk-dragonlash-switch/frame-1.jpg",
+					"at": 2.15,
+					"label": "Counter Drive Impact",
+					"alt": "Ken’s counter Drive Impact crumples Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-counter-di-walk-dragonlash-switch/frame-2.jpg",
+					"at": 4.05,
+					"label": "Walk-up heavy punch",
+					"alt": "Ken walks forward and connects standing heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-counter-di-walk-dragonlash-switch/frame-3.jpg",
+					"at": 5.15,
+					"label": "Dragonlash switch",
+					"alt": "Running Dragonlash carries Ken underneath Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-counter-di-walk-dragonlash-switch/frame-4.jpg",
+					"at": 6.85,
+					"label": "Switched Shoryuken",
+					"alt": "Heavy Shoryuken finishes from the other side."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ken/ken-depth-counter-di-walk-dragonlash-switch/frame-5.jpg",
+					"at": 7.95,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the side-switch conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-counter-di-od-jinrai",
+			"ken-ebios-counter-di-heavy-kick-rush",
+			"ken-depth-heavy-kick-pc-rush-tatsu-carry"
+		]
+	},
+	{
+		"id": "ken-depth-anti-air-heavy-shoryuken",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Anti-air heavy Shoryuken",
+		"summary": "Use heavy Shoryuken to intercept the recorded jump at close range.",
+		"kind": "response",
+		"situations": ["Anti-air", "Jump response"],
+		"outcomes": ["Knockdown"],
+		"notation": "623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "623HP",
+				"label": "Heavy Shoryuken"
+			}
+		],
+		"conditions": ["Classic controls", "Match the shown close jump distance and timing"],
+		"notes": [
+			"The input history records heavy punch. Only the connected anti-air portion of Shoryuken is shown; no full grounded-combo damage claim is made."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "rush-g-ken-anti-air-2023",
+			"title": "SF6 Ken - Anti Air, Tatsu Juggle, Shimmy, Lv2 Punish",
+			"creator": "Rush G",
+			"url": "https://www.youtube.com/watch?v=r5vtM7Kgk4s",
+			"published": "2023-06-17",
+			"start": 127.8,
+			"end": 130.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-anti-air-heavy-shoryuken/clip.mp4",
+			"poster": "/media/ken/ken-depth-anti-air-heavy-shoryuken/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-anti-air-heavy-shoryuken/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-anti-air-heavy-shoryuken/frame-1.jpg",
+					"at": 0.45,
+					"label": "Jump approach",
+					"alt": "Ryu jumps toward Ken at the demonstrated spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-anti-air-heavy-shoryuken/frame-2.jpg",
+					"at": 1.05,
+					"label": "Anti-air contact",
+					"alt": "Heavy Shoryuken intercepts the airborne Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-anti-air-heavy-shoryuken/frame-3.jpg",
+					"at": 1.7,
+					"label": "Airborne result",
+					"alt": "Ryu is knocked away by the anti-air Shoryuken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-anti-air-heavy-shoryuken/frame-4.jpg",
+					"at": 2.3,
+					"label": "Landing",
+					"alt": "Ken recovers after the anti-air."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-anti-air-od-jinrai",
+			"ken-depth-blocked-low-rush-jab-throw",
+			"ken-depth-corner-double-od-jinrai-level-three"
+		]
+	},
+	{
+		"id": "ken-depth-anti-air-od-jinrai",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Anti-air OD Jinrai at the shown range",
+		"summary": "Catch the recorded jump with the first OD Jinrai kick; this take stops without an extra juggle.",
+		"kind": "response",
+		"situations": ["Anti-air", "Jump response"],
+		"outcomes": ["Knockdown"],
+		"notation": "236KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236KK",
+				"label": "OD Jinrai Kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Enough Drive for OD Jinrai",
+			"Match the jump spacing shown in the 2023 recording"
+		],
+		"notes": [
+			"The input display shows quarter-circle forward with multiple kick buttons. This is OD Jinrai, not an OD Shoryuken. No reversal-invulnerability claim is made."
+		],
+		"resources": {
+			"drive": "OD Jinrai (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "rush-g-ken-anti-air-2023",
+			"title": "SF6 Ken - Anti Air, Tatsu Juggle, Shimmy, Lv2 Punish",
+			"creator": "Rush G",
+			"url": "https://www.youtube.com/watch?v=r5vtM7Kgk4s",
+			"published": "2023-06-17",
+			"start": 192.95,
+			"end": 195.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-anti-air-od-jinrai/clip.mp4",
+			"poster": "/media/ken/ken-depth-anti-air-od-jinrai/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-anti-air-od-jinrai/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-anti-air-od-jinrai/frame-1.jpg",
+					"at": 0.9,
+					"label": "Jump approach",
+					"alt": "Ryu approaches from the air at the shown distance."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-anti-air-od-jinrai/frame-2.jpg",
+					"at": 1.3,
+					"label": "OD Jinrai anti-air",
+					"alt": "Ken’s grounded OD Jinrai kick catches Ryu in the air."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-anti-air-od-jinrai/frame-3.jpg",
+					"at": 1.9,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the single OD Jinrai hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-anti-air-od-jinrai/frame-4.jpg",
+					"at": 2.7,
+					"label": "Recovered Ken",
+					"alt": "Ken returns to neutral after the anti-air kick."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-anti-air-heavy-shoryuken",
+			"ken-depth-blocked-low-rush-jab-throw",
+			"ken-depth-corner-double-od-jinrai-level-three"
+		]
+	},
+	{
+		"id": "ken-depth-run-tatsu-delayed-jump-block",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Running Tatsumaki: delayed jump and reversal block",
+		"summary": "Delay the forward jump after the shown corner knockdown, use jump heavy kick and land in time to block OD Shoryuken.",
+		"kind": "response",
+		"situations": ["Corner", "Oki", "Jump pressure", "Reversal bait"],
+		"outcomes": ["Blocked reversal"],
+		"notation": "Delay > 9 j.HK > 4",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Delay",
+				"label": "Match the shown delay"
+			},
+			{
+				"id": "step-2",
+				"notation": "9 j.HK",
+				"label": "Forward-jump heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Block",
+				"cue": "Recover before the demonstrated reversal reaches Ken."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Running Tatsumaki knockdown at the shown corner spacing first",
+			"Ryu performs the demonstrated OD Shoryuken reversal"
+		],
+		"notes": [
+			"Inputs and cost begin after running Tatsumaki. The dated source specifies a one-frame jump delay; current-patch timing and other reversals have not been tested."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 133.55,
+			"end": 136.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-run-tatsu-delayed-jump-block/clip.mp4",
+			"poster": "/media/ken/ken-depth-run-tatsu-delayed-jump-block/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-run-tatsu-delayed-jump-block/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-run-tatsu-delayed-jump-block/frame-1.jpg",
+					"at": 0.3,
+					"label": "Jump approach",
+					"alt": "Ken jumps forward after the running-Tatsumaki knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-run-tatsu-delayed-jump-block/frame-2.jpg",
+					"at": 0.65,
+					"label": "Jump heavy kick",
+					"alt": "Ken brings the jump kick down toward the recovering Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-run-tatsu-delayed-jump-block/frame-3.jpg",
+					"at": 1.1,
+					"label": "Blocked reversal",
+					"alt": "Ken has landed and blocks Ryu’s OD Shoryuken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-run-tatsu-delayed-jump-block/frame-4.jpg",
+					"at": 2.25,
+					"label": "Recovered Ken",
+					"alt": "Ken remains grounded as Ryu lands from the blocked reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-level-three-rush-jab-aki-reversal",
+			"ken-depth-run-tatsu-empty-jump-jab",
+			"ken-depth-corner-forward-throw-dash-lights"
+		]
+	},
+	{
+		"id": "ken-depth-run-tatsu-empty-jump-jab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Running Tatsumaki: empty jump into counter-hit jab",
+		"summary": "Land without an air attack, counter-hit the recorded fuzzy jab, then link crouching medium into running Shoryuken.",
+		"kind": "setup",
+		"situations": ["Oki", "Corner", "Jump pressure", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "9 (empty) > 2LP > 2MP > KK > 623P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9 (empty)",
+				"label": "Forward jump without an air attack"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Running Tatsumaki knockdown at the demonstrated corner spacing first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Inputs and resource cost begin after the named prerequisite.",
+			"The crouching jab scores Counter Hit against the recorded fuzzy-jab response. The medium link is conditional on that counter hit."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 141.45,
+			"end": 145.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-run-tatsu-empty-jump-jab/clip.mp4",
+			"poster": "/media/ken/ken-depth-run-tatsu-empty-jump-jab/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-run-tatsu-empty-jump-jab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-run-tatsu-empty-jump-jab/frame-1.jpg",
+					"at": 0.35,
+					"label": "Empty jump",
+					"alt": "Ken jumps without using an air attack."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-run-tatsu-empty-jump-jab/frame-2.jpg",
+					"at": 0.8,
+					"label": "Counter-hit jab",
+					"alt": "Crouching jab catches Ryu’s attempted fuzzy jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-run-tatsu-empty-jump-jab/frame-3.jpg",
+					"at": 1.3,
+					"label": "Medium link",
+					"alt": "Crouching medium links after the counter-hit jab."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-run-tatsu-empty-jump-jab/frame-4.jpg",
+					"at": 2.55,
+					"label": "Running Shoryuken",
+					"alt": "Ken converts the counter-hit link into running Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-run-tatsu-delayed-jump-block",
+			"ken-depth-corner-forward-throw-dash-lights",
+			"ken-depth-hp-dp-corner-lk-medium"
+		]
+	},
+	{
+		"id": "ken-depth-hp-dp-dash-medium-block-drev",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Heavy Shoryuken: dash medium and block Drive Reversal",
+		"summary": "After the shown near-corner knockdown, recover from the medium punch in time to block wake-up Drive Reversal.",
+		"kind": "response",
+		"situations": ["Midscreen", "Near corner", "Oki", "Reversal bait"],
+		"outcomes": ["Blocked reversal"],
+		"notation": "66 > 5MP > 4",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Block",
+				"cue": "Recover before the demonstrated reversal reaches Ken."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy Shoryuken knockdown at the shown near-corner spacing first",
+			"Opponent performs the recorded wake-up Drive Reversal"
+		],
+		"notes": [
+			"Inputs and Ken’s resource cost begin after Shoryuken. The opponent spends Drive on the demonstrated reversal."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 45.0,
+			"end": 47.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-hp-dp-dash-medium-block-drev/clip.mp4",
+			"poster": "/media/ken/ken-depth-hp-dp-dash-medium-block-drev/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-hp-dp-dash-medium-block-drev/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-hp-dp-dash-medium-block-drev/frame-1.jpg",
+					"at": 0.45,
+					"label": "Dash into medium",
+					"alt": "Ken closes in and attacks after the heavy-Shoryuken knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-hp-dp-dash-medium-block-drev/frame-2.jpg",
+					"at": 0.8,
+					"label": "Wake-up Drive Reversal",
+					"alt": "Ryu starts the recorded wake-up Drive Reversal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-hp-dp-dash-medium-block-drev/frame-3.jpg",
+					"at": 1.25,
+					"label": "Blocked reversal",
+					"alt": "Ken blocks the Drive Reversal after recovering from medium punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-hp-dp-dash-medium-block-drev/frame-4.jpg",
+					"at": 2.0,
+					"label": "Recovered spacing",
+					"alt": "Both characters recover after the blocked response."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-forward-throw-rush-jab-bait",
+			"ken-depth-hp-dp-dash-crouching-medium",
+			"ken-depth-hp-dp-near-corner-dash-throw"
+		]
+	},
+	{
+		"id": "ken-depth-corner-double-od-jinrai-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Corner heavy cash-out: two OD Jinrai extensions",
+		"summary": "Extend the delayed heavy-Jinrai low juggle with two OD Jinrai heavy follow-ups, then cancel running Shoryuken into Level 3.",
+		"kind": "combo",
+		"situations": ["Corner", "Heavy confirm", "Cash-out", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HP > 236HK > ~6LK > 236KK > ~6HK > 236KK > ~6HK > KK > 623P > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "Heavy Jinrai Kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "~6LK",
+				"label": "Delayed low Jinrai follow-up"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "OD Jinrai Kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "~6HK",
+				"label": "Heavy Jinrai follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "236KK",
+				"label": "Second OD Jinrai Kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "~6HK",
+				"label": "Heavy Jinrai follow-up"
+			},
+			{
+				"id": "step-8",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-9",
+				"notation": "623P",
+				"label": "Running Shoryuken",
+				"cue": "Perform during Quick Dash."
+			},
+			{
+				"id": "step-10",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent in the corner",
+			"Enough Drive for two OD Jinrai kicks",
+			"Level 3 stock available"
+		],
+		"notes": [
+			"This recorded route spends four Drive bars and all three Super stocks. The meterless double-Jinrai route is the lower-cost alternative."
+		],
+		"resources": {
+			"drive": "Two OD Jinrai kicks (4 bars)",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 689.65,
+			"end": 703.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-corner-double-od-jinrai-level-three/clip.mp4",
+			"poster": "/media/ken/ken-depth-corner-double-od-jinrai-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-corner-double-od-jinrai-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-corner-double-od-jinrai-level-three/frame-1.jpg",
+					"at": 0.6,
+					"label": "Heavy starter",
+					"alt": "Crouching heavy punch connects in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-corner-double-od-jinrai-level-three/frame-2.jpg",
+					"at": 1.65,
+					"label": "Delayed low follow-up",
+					"alt": "Heavy Jinrai’s delayed low continuation maintains the juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-corner-double-od-jinrai-level-three/frame-3.jpg",
+					"at": 2.55,
+					"label": "First OD extension",
+					"alt": "The first OD Jinrai heavy follow-up extends the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-corner-double-od-jinrai-level-three/frame-4.jpg",
+					"at": 3.65,
+					"label": "Second OD extension",
+					"alt": "The second OD Jinrai heavy follow-up keeps Ryu airborne."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ken/ken-depth-corner-double-od-jinrai-level-three/frame-5.jpg",
+					"at": 4.75,
+					"label": "Running Shoryuken",
+					"alt": "Ken juggles with running Shoryuken before the Super cancel."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/ken/ken-depth-corner-double-od-jinrai-level-three/frame-6.jpg",
+					"at": 5.75,
+					"label": "Level 3 activation",
+					"alt": "Ken activates Level 3 after running Shoryuken."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/ken/ken-depth-corner-double-od-jinrai-level-three/frame-7.jpg",
+					"at": 12.55,
+					"label": "Cash-out result",
+					"alt": "The extended route ends in hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-corner-heavy-double-jinrai",
+			"ken-depth-heavy-light-tatsu-medium-dp",
+			"ken-depth-heavy-rush-level-three"
+		]
+	},
+	{
+		"id": "ken-depth-heavy-kick-pc-rush-tatsu-carry",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ken"
+			}
+		],
+		"title": "Heavy-kick Punish Counter: delayed running Tatsumaki carry",
+		"summary": "Rush after the heavy-kick Punish Counter and choose the delayed running Tatsumaki for travel and its knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Drive Rush"],
+		"outcomes": ["Knockdown", "Corner carry"],
+		"notation": "5HK > DR > 5HP > KK > 214K",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "Quick Dash",
+				"cue": "Two kicks enter Ken’s run."
+			},
+			{
+				"id": "step-5",
+				"notation": "214K",
+				"label": "Delayed running Tatsumaki",
+				"cue": "Delay the Quick Dash continuation as shown."
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy kick must score Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ken-march-2026",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"start": 717.75,
+			"end": 723.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ken/ken-depth-heavy-kick-pc-rush-tatsu-carry/clip.mp4",
+			"poster": "/media/ken/ken-depth-heavy-kick-pc-rush-tatsu-carry/frame-1.jpg",
+			"descriptionTrack": "/media/ken/ken-depth-heavy-kick-pc-rush-tatsu-carry/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ken/ken-depth-heavy-kick-pc-rush-tatsu-carry/frame-1.jpg",
+					"at": 0.5,
+					"label": "Heavy-kick Punish Counter",
+					"alt": "Standing heavy kick launches Ryu on Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ken/ken-depth-heavy-kick-pc-rush-tatsu-carry/frame-2.jpg",
+					"at": 1.55,
+					"label": "Rush conversion",
+					"alt": "Ken uses raw Drive Rush to reach the airborne Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ken/ken-depth-heavy-kick-pc-rush-tatsu-carry/frame-3.jpg",
+					"at": 2.0,
+					"label": "Heavy-punch link",
+					"alt": "Standing heavy punch connects after the Rush."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ken/ken-depth-heavy-kick-pc-rush-tatsu-carry/frame-4.jpg",
+					"at": 3.05,
+					"label": "Tatsumaki carry",
+					"alt": "The delayed running Tatsumaki moves both characters across the stage."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ken/ken-depth-heavy-kick-pc-rush-tatsu-carry/frame-5.jpg",
+					"at": 4.5,
+					"label": "Carry knockdown",
+					"alt": "Ryu lands after the traveling Tatsumaki finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ken-depth-rush-heavy-pc-low-link",
+			"ken-ebios-counter-di-heavy-kick-rush",
+			"ken-ebios-heavy-kick-punish-rush-run-dp"
+		]
 	}
 ]

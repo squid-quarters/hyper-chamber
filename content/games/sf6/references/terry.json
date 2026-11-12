@@ -713,7 +713,7 @@
 	},
 	{
 		"id": "terry-midscreen-heavy-wave-knuckle",
-		"revision": 1,
+		"revision": 2,
 		"gameId": "sf6",
 		"participants": [
 			{
@@ -722,11 +722,11 @@
 			}
 		],
 		"title": "Midscreen heavy route through Power Charge and Round Wave",
-		"summary": "Convert both heavy-punch hits into Power Charge, Round Wave and medium Burning Knuckle.",
+		"summary": "Convert both heavy-punch hits into OD Power Charge, Round Wave and medium Burning Knuckle.",
 		"kind": "combo",
 		"situations": ["Midscreen", "Heavy confirm", "Juggle extension"],
 		"outcomes": ["Knockdown"],
-		"notation": "st.HP > 236HK > 236HP > 214MP",
+		"notation": "st.HP > 236KK > 236HP > 214MP",
 		"inputs": [
 			{
 				"id": "step-1",
@@ -736,9 +736,9 @@
 			},
 			{
 				"id": "step-2",
-				"notation": "236HK",
-				"label": "Heavy Power Charge",
-				"cue": "Quarter-circle forward + heavy kick."
+				"notation": "236KK",
+				"label": "OD Power Charge",
+				"cue": "Quarter-circle forward + two kicks; the recording uses medium and heavy kick together."
 			},
 			{
 				"id": "step-3",
@@ -758,9 +758,11 @@
 			"Midscreen spacing as demonstrated",
 			"Do not substitute the separate corner finish"
 		],
-		"notes": [],
+		"notes": [
+			"Revision 2 corrects the original heavy-Power-Charge transcription to OD Power Charge (236KK), confirmed by the source caption, simultaneous medium/heavy kick input, gold effect and Drive loss. Original clip, stills, cut times and related links are retained."
+		],
 		"resources": {
-			"drive": "No Drive spend",
+			"drive": "2 Drive bars (OD Power Charge)",
 			"super": "No Super spend"
 		},
 		"source": {
@@ -775,7 +777,7 @@
 		"verification": {
 			"status": "source-reviewed",
 			"gameVersion": null,
-			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+			"note": "Revision 2: original recording re-reviewed on 2026-11-12; the caption 236KK, live two-kick input, gold OD effect and Drive loss confirm OD Power Charge. Source-reviewed only; current-patch execution is untested."
 		},
 		"media": {
 			"clip": "/media/terry/terry-midscreen-heavy-wave-knuckle/clip.mp4",
@@ -793,8 +795,8 @@
 					"id": "frame-2",
 					"src": "/media/terry/terry-midscreen-heavy-wave-knuckle/frame-2.jpg",
 					"at": 1.7,
-					"label": "Power Charge",
-					"alt": "Heavy Power Charge launches Ryu."
+					"label": "OD Power Charge",
+					"alt": "OD Power Charge launches Ryu; the gold effect and two-kick input identify the OD version."
 				},
 				{
 					"id": "frame-3",
@@ -820,7 +822,7 @@
 	},
 	{
 		"id": "terry-corner-heavy-medium-crack",
-		"revision": 1,
+		"revision": 2,
 		"gameId": "sf6",
 		"participants": [
 			{
@@ -829,11 +831,11 @@
 			}
 		],
 		"title": "Corner two-hit heavy into medium Crack Shoot",
-		"summary": "Use medium Crack Shoot after heavy Power Charge in the corner, then juggle with heavy Rising Tackle.",
+		"summary": "Use OD Power Charge after both heavy-punch hits, then medium Crack Shoot and heavy Rising Tackle in the corner.",
 		"kind": "combo",
 		"situations": ["Corner", "Heavy confirm", "Juggle extension"],
 		"outcomes": ["Corner knockdown"],
-		"notation": "st.HP > 236HK > 214MK > 623HP",
+		"notation": "st.HP > 236KK > 214MK > 623HP",
 		"inputs": [
 			{
 				"id": "step-1",
@@ -843,9 +845,9 @@
 			},
 			{
 				"id": "step-2",
-				"notation": "236HK",
-				"label": "Heavy Power Charge",
-				"cue": "Quarter-circle forward + heavy kick."
+				"notation": "236KK",
+				"label": "OD Power Charge",
+				"cue": "Quarter-circle forward + two kicks; the recording uses medium and heavy kick together."
 			},
 			{
 				"id": "step-3",
@@ -861,9 +863,11 @@
 			}
 		],
 		"conditions": ["Classic controls", "Opponent at the wall", "Allow both heavy-punch hits"],
-		"notes": [],
+		"notes": [
+			"Revision 2 corrects the original heavy-Power-Charge transcription to OD Power Charge (236KK), confirmed by the source caption, simultaneous medium/heavy kick input, gold effect and Drive loss. Original clip, stills, cut times and related links are retained."
+		],
 		"resources": {
-			"drive": "No Drive spend",
+			"drive": "2 Drive bars (OD Power Charge)",
 			"super": "No Super spend"
 		},
 		"source": {
@@ -878,7 +882,7 @@
 		"verification": {
 			"status": "source-reviewed",
 			"gameVersion": null,
-			"note": "Demonstration action order, input display, conditions and selected moments visually reviewed against Joe Ebios’s 2026-07-07 recording. Not tested in-game on the current patch."
+			"note": "Revision 2: original recording re-reviewed on 2026-11-12; the caption 236KK, live two-kick input, gold OD effect and Drive loss confirm OD Power Charge. Source-reviewed only; current-patch execution is untested."
 		},
 		"media": {
 			"clip": "/media/terry/terry-corner-heavy-medium-crack/clip.mp4",
@@ -896,8 +900,8 @@
 					"id": "frame-2",
 					"src": "/media/terry/terry-corner-heavy-medium-crack/frame-2.jpg",
 					"at": 1.8,
-					"label": "Power Charge",
-					"alt": "Heavy Power Charge launches Ryu."
+					"label": "OD Power Charge",
+					"alt": "OD Power Charge launches Ryu; the gold effect and two-kick input identify the OD version."
 				},
 				{
 					"id": "frame-3",
@@ -1620,6 +1624,4418 @@
 			"terry-corner-low-rush-round-wave",
 			"terry-low-rush-charge-crack-rising",
 			"terry-lights-heavy-rising"
+		]
+	},
+	{
+		"id": "terry-depth-heavy-tackle-rush-jab-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Heavy Tackle: Rush jab kill and shimmy",
+		"summary": "After +27, whiff the Rush jab, retreat from the throw and punish with the heavy Crack Shoot juggle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > st.LP (whiff) > Walk back > 2MP > 236HK > 214HK (delay) > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP (whiff)",
+				"label": "st.LP (whiff)"
+			},
+			{
+				"id": "step-3",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HK (delay)",
+				"label": "Delayed heavy Crack Shoot",
+				"cue": "The delayed Crack Shoot is explicitly performed; the source does not establish an exact delay-frame count."
+			},
+			{
+				"id": "step-7",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.LP > cr.LK > st.LP > 623HP knockdown, captioned +27. Reproduce the shown midscreen recovery spacing; the prerequisite is outside this follow-up loop and its cost."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar (raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 15.7,
+			"end": 21.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-heavy-tackle-rush-jab-shimmy/clip.mp4",
+			"poster": "/media/terry/terry-depth-heavy-tackle-rush-jab-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-heavy-tackle-rush-jab-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-heavy-tackle-rush-jab-shimmy/frame-1.jpg",
+					"at": 0.6,
+					"label": "Jab frame kill",
+					"alt": "The Rush standing jab intentionally misses before the throw bait."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-heavy-tackle-rush-jab-shimmy/frame-2.jpg",
+					"at": 1.3,
+					"label": "Throw punish",
+					"alt": "Crouching medium punch punishes Ryu’s missed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-heavy-tackle-rush-jab-shimmy/frame-3.jpg",
+					"at": 2.8,
+					"label": "Delayed Crack Shoot",
+					"alt": "Delayed heavy Crack Shoot extends the heavy-Power-Charge launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-heavy-tackle-rush-jab-shimmy/frame-4.jpg",
+					"at": 3.8,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle finishes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-medium-knuckle-dash-shimmy",
+			"terry-depth-od-charge-wave-knuckle-rush-shimmy",
+			"terry-depth-passing-sway-dash-shimmy"
+		]
+	},
+	{
+		"id": "terry-depth-heavy-tackle-rush-meaty-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Heavy Tackle: Rush two-hit heavy",
+		"summary": "Rush after the +27 knockdown and let standing heavy hit twice before the normal heavy-Charge juggle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > st.HP > 236HK > 214HK (delay) > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Let both hits connect before the cancel."
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HK (delay)",
+				"label": "Delayed heavy Crack Shoot",
+				"cue": "The delayed Crack Shoot is explicitly performed; the source does not establish an exact delay-frame count."
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.LP > cr.LK > st.LP > 623HP knockdown, captioned +27. Reproduce the shown midscreen recovery spacing; the prerequisite is outside this follow-up loop and its cost."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar (raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 25.2,
+			"end": 31.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-heavy-tackle-rush-meaty-heavy/clip.mp4",
+			"poster": "/media/terry/terry-depth-heavy-tackle-rush-meaty-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-heavy-tackle-rush-meaty-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-heavy-tackle-rush-meaty-heavy/frame-1.jpg",
+					"at": 0.3,
+					"label": "Rush approach",
+					"alt": "Raw Drive Rush closes the knockdown spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-heavy-tackle-rush-meaty-heavy/frame-2.jpg",
+					"at": 1.05,
+					"label": "Two-hit heavy",
+					"alt": "Standing heavy punch connects on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-heavy-tackle-rush-meaty-heavy/frame-3.jpg",
+					"at": 2.3,
+					"label": "Delayed Crack Shoot",
+					"alt": "Heavy Crack Shoot continues after normal heavy Power Charge."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-heavy-tackle-rush-meaty-heavy/frame-4.jpg",
+					"at": 3.8,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle completes the meaty-heavy conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-medium-knuckle-dash-meaty-heavy",
+			"terry-depth-od-charge-wave-knuckle-rush-heavy",
+			"terry-depth-passing-sway-dash-meaty-heavy"
+		]
+	},
+	{
+		"id": "terry-depth-medium-knuckle-dash-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Medium Knuckle: dash and walk throw",
+		"summary": "Use the +30 medium-Knuckle knockdown to dash, walk into range and throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > Walk forward > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.LP > cr.LP > 214MP knockdown, captioned +30. Reproduce the shown midscreen recovery spacing; prerequisite actions are outside this loop."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 41.7,
+			"end": 45.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-medium-knuckle-dash-walk-throw/clip.mp4",
+			"poster": "/media/terry/terry-depth-medium-knuckle-dash-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-medium-knuckle-dash-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-medium-knuckle-dash-walk-throw/frame-1.jpg",
+					"at": 0.35,
+					"label": "Dash approach",
+					"alt": "Terry has closed the knockdown spacing with the demonstrated dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-medium-knuckle-dash-walk-throw/frame-2.jpg",
+					"at": 0.85,
+					"label": "Walk-in throw",
+					"alt": "Terry reaches throw range after the dash."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-medium-knuckle-dash-walk-throw/frame-3.jpg",
+					"at": 2.3,
+					"label": "Throw finish",
+					"alt": "The forward throw knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-od-charge-wave-knuckle-rush-throw",
+			"terry-depth-passing-sway-dash-walk-throw",
+			"terry-heavy-rising-rush-throw"
+		]
+	},
+	{
+		"id": "terry-depth-medium-knuckle-dash-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Medium Knuckle: dash shimmy punish",
+		"summary": "Dash after +30, retreat from Ryu’s throw and convert crouching-medium punish counter into the heavy juggle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > Walk back > 2MP > 236HK > 214HK (delay) > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HK (delay)",
+				"label": "Delayed heavy Crack Shoot",
+				"cue": "The delayed Crack Shoot is explicitly performed; the source does not establish an exact delay-frame count."
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.LP > cr.LP > 214MP knockdown, captioned +30. Reproduce the shown midscreen recovery spacing; prerequisite actions are outside this loop."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 47.7,
+			"end": 54.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-medium-knuckle-dash-shimmy/clip.mp4",
+			"poster": "/media/terry/terry-depth-medium-knuckle-dash-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-medium-knuckle-dash-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-medium-knuckle-dash-shimmy/frame-1.jpg",
+					"at": 0.4,
+					"label": "Dash approach",
+					"alt": "Terry has closed the knockdown spacing with the demonstrated dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-medium-knuckle-dash-shimmy/frame-2.jpg",
+					"at": 0.85,
+					"label": "Throw bait",
+					"alt": "Ryu misses a throw as Terry retreats."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-medium-knuckle-dash-shimmy/frame-3.jpg",
+					"at": 1.3,
+					"label": "Punish counter",
+					"alt": "Crouching medium punch punishes the missed throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-medium-knuckle-dash-shimmy/frame-4.jpg",
+					"at": 3.8,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle completes the Charge and Crack Shoot conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-heavy-tackle-rush-jab-shimmy",
+			"terry-depth-od-charge-wave-knuckle-rush-shimmy",
+			"terry-depth-passing-sway-dash-shimmy"
+		]
+	},
+	{
+		"id": "terry-depth-medium-knuckle-dash-meaty-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Medium Knuckle: dash, walk and two-hit heavy",
+		"summary": "Dash and walk after +30, then connect both heavy-punch hits into another medium Burning Knuckle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > Walk forward > st.HP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Let both hits connect before the cancel."
+			},
+			{
+				"id": "step-4",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.LP > cr.LP > 214MP knockdown, captioned +30. Reproduce the shown midscreen recovery spacing; prerequisite actions are outside this loop."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 56.4,
+			"end": 60.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-medium-knuckle-dash-meaty-heavy/clip.mp4",
+			"poster": "/media/terry/terry-depth-medium-knuckle-dash-meaty-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-medium-knuckle-dash-meaty-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-medium-knuckle-dash-meaty-heavy/frame-1.jpg",
+					"at": 0.4,
+					"label": "Walk after dash",
+					"alt": "Terry advances after the dash to reach heavy-punch range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-medium-knuckle-dash-meaty-heavy/frame-2.jpg",
+					"at": 1.1,
+					"label": "Meaty heavy",
+					"alt": "Standing heavy punch connects twice on Ryu’s wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-medium-knuckle-dash-meaty-heavy/frame-3.jpg",
+					"at": 1.6,
+					"label": "Medium Knuckle",
+					"alt": "Medium Burning Knuckle converts the two-hit heavy."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-medium-knuckle-dash-meaty-heavy/frame-4.jpg",
+					"at": 2.2,
+					"label": "Knockdown",
+					"alt": "Ryu falls after medium Burning Knuckle."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-heavy-tackle-rush-meaty-heavy",
+			"terry-depth-od-charge-wave-knuckle-rush-heavy",
+			"terry-depth-passing-sway-dash-meaty-heavy"
+		]
+	},
+	{
+		"id": "terry-depth-medium-light-charge-jab-knuckle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Medium kick, light kick and light Charge link",
+		"summary": "Link standing medium kick into light kick, then light Charge into crouching jab and medium Knuckle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "BnB", "Light link"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MK > st.LK > 236LK > 2LP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "st.MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LK",
+				"label": "236LK"
+			},
+			{
+				"id": "step-4",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 61.25,
+			"end": 65.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-medium-light-charge-jab-knuckle/clip.mp4",
+			"poster": "/media/terry/terry-depth-medium-light-charge-jab-knuckle/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-medium-light-charge-jab-knuckle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-medium-light-charge-jab-knuckle/frame-1.jpg",
+					"at": 0.55,
+					"label": "Medium starter",
+					"alt": "Standing medium kick connects before standing light kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-medium-light-charge-jab-knuckle/frame-2.jpg",
+					"at": 1.4,
+					"label": "Light Power Charge",
+					"alt": "Light Power Charge follows standing light kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-medium-light-charge-jab-knuckle/frame-3.jpg",
+					"at": 2.15,
+					"label": "Jab link",
+					"alt": "Crouching light punch links after light Power Charge."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-medium-light-charge-jab-knuckle/frame-4.jpg",
+					"at": 2.75,
+					"label": "Medium Knuckle",
+					"alt": "Medium Burning Knuckle finishes the link."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-low-target-medium-wave-knockdown",
+			"terry-depth-first-hit-heavy-medium-charge",
+			"terry-lights-heavy-rising"
+		]
+	},
+	{
+		"id": "terry-depth-corner-light-tackle-kill-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Corner light Tackle: medium-kick kill and throw",
+		"summary": "Whiff standing medium kick after the +34 corner knockdown, then throw on wake-up.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.MK (whiff) > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK (whiff)",
+				"label": "st.MK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner cr.MK > Drive Rush cancel > cr.HP > 236HK > 236HP (Round Wave) > 236MK > 623LP knockdown, captioned +34. The prior Drive Rush cancel is outside this follow-up loop and its cost."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 98.55,
+			"end": 103.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-corner-light-tackle-kill-throw/clip.mp4",
+			"poster": "/media/terry/terry-depth-corner-light-tackle-kill-throw/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-corner-light-tackle-kill-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-throw/frame-1.jpg",
+					"at": 0.35,
+					"label": "Medium-kick frame kill",
+					"alt": "Standing medium kick intentionally misses while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-throw/frame-2.jpg",
+					"at": 0.95,
+					"label": "Wake-up throw",
+					"alt": "The throw catches Ryu after the frame kill."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-throw/frame-3.jpg",
+					"at": 2.45,
+					"label": "Throw finish",
+					"alt": "Terry completes the forward throw at the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-medium-knuckle-dash-walk-throw",
+			"terry-depth-corner-light-tackle-kill-shimmy",
+			"terry-depth-corner-light-tackle-kill-heavy"
+		]
+	},
+	{
+		"id": "terry-depth-corner-light-tackle-kill-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Corner light Tackle: medium-kick kill and shimmy",
+		"summary": "Use the same frame kill, retreat from the throw and punish with the Round Wave corner juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.MK (whiff) > Walk back > 2MP > 236HK > 236HP > 236MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK (whiff)",
+				"label": "st.MK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-7",
+				"notation": "623LP",
+				"label": "623LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner cr.MK > Drive Rush cancel > cr.HP > 236HK > 236HP (Round Wave) > 236MK > 623LP knockdown, captioned +34. The prior Drive Rush cancel is outside this follow-up loop and its cost."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 108.0,
+			"end": 114.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-corner-light-tackle-kill-shimmy/clip.mp4",
+			"poster": "/media/terry/terry-depth-corner-light-tackle-kill-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-corner-light-tackle-kill-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-shimmy/frame-1.jpg",
+					"at": 0.25,
+					"label": "Medium-kick frame kill",
+					"alt": "Standing medium kick intentionally misses during the knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-shimmy/frame-2.jpg",
+					"at": 0.65,
+					"label": "Throw bait",
+					"alt": "Ryu misses his wake-up throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-shimmy/frame-3.jpg",
+					"at": 1.0,
+					"label": "Punish counter",
+					"alt": "Crouching medium punch punishes the throw whiff."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-shimmy/frame-4.jpg",
+					"at": 2.5,
+					"label": "Round Wave",
+					"alt": "Round Wave continues after heavy Power Charge."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-shimmy/frame-5.jpg",
+					"at": 4.0,
+					"label": "Light Rising Tackle",
+					"alt": "Light Rising Tackle finishes after medium Power Charge."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-heavy-tackle-rush-jab-shimmy",
+			"terry-depth-medium-knuckle-dash-shimmy",
+			"terry-depth-od-charge-wave-knuckle-rush-shimmy"
+		]
+	},
+	{
+		"id": "terry-depth-corner-light-tackle-kill-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Corner light Tackle: medium-kick kill into two-hit heavy",
+		"summary": "Whiff medium kick and catch wake-up with both heavy-punch hits, medium Charge and light Tackle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Heavy confirm"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.MK (whiff) > st.HP > 236MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK (whiff)",
+				"label": "st.MK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Let both hits connect before the cancel."
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-4",
+				"notation": "623LP",
+				"label": "623LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner cr.MK > Drive Rush cancel > cr.HP > 236HK > 236HP (Round Wave) > 236MK > 623LP knockdown, captioned +34. The prior Drive Rush cancel is outside this follow-up loop and its cost."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction.",
+			"The caption also offers heavy Rising Tackle; only the performed light-punch version is extracted."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 119.7,
+			"end": 124.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-corner-light-tackle-kill-heavy/clip.mp4",
+			"poster": "/media/terry/terry-depth-corner-light-tackle-kill-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-corner-light-tackle-kill-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-heavy/frame-1.jpg",
+					"at": 0.5,
+					"label": "Medium-kick frame kill",
+					"alt": "Standing medium kick intentionally misses before the heavy starter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-heavy/frame-2.jpg",
+					"at": 1.1,
+					"label": "Two-hit heavy",
+					"alt": "Standing heavy punch connects twice on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-heavy/frame-3.jpg",
+					"at": 1.8,
+					"label": "Medium Power Charge",
+					"alt": "Medium Power Charge follows the heavy-punch hits."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-heavy/frame-4.jpg",
+					"at": 2.7,
+					"label": "Light Rising Tackle",
+					"alt": "The live cyan punch input identifies the performed light Rising Tackle."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-corner-heavy-medium-crack",
+			"terry-depth-heavy-tackle-rush-meaty-heavy",
+			"terry-depth-medium-knuckle-dash-meaty-heavy"
+		]
+	},
+	{
+		"id": "terry-depth-corner-light-tackle-kill-heavy-trade",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Corner light Tackle: heavy trade into low target",
+		"summary": "After the frame kill, heavy punch trades with Ryu; recover into the low Fire Kick target and heavy Tackle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Trade conversion"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.MK (whiff) > st.HP (trade) > 2MK > 2HK > 236HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK (whiff)",
+				"label": "st.MK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP (trade)",
+				"label": "Standing heavy punch trades",
+				"cue": "The recorded trade is required before the low pickup."
+			},
+			{
+				"id": "step-3",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-4",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner cr.MK > Drive Rush cancel > cr.HP > 236HK > 236HP (Round Wave) > 236MK > 623LP knockdown, captioned +34. The prior Drive Rush cancel is outside this follow-up loop and its cost.",
+			"Reproduce the recorded heavy-punch trade against Ryu; this is not the ordinary two-hit-heavy branch."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 129.7,
+			"end": 135.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-corner-light-tackle-kill-heavy-trade/clip.mp4",
+			"poster": "/media/terry/terry-depth-corner-light-tackle-kill-heavy-trade/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-corner-light-tackle-kill-heavy-trade/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-heavy-trade/frame-1.jpg",
+					"at": 0.3,
+					"label": "Medium-kick frame kill",
+					"alt": "Standing medium kick intentionally misses during the knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-heavy-trade/frame-2.jpg",
+					"at": 0.8,
+					"label": "Heavy-punch trade",
+					"alt": "Terry’s heavy punch trades with Ryu’s attack."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-heavy-trade/frame-3.jpg",
+					"at": 1.8,
+					"label": "Fire Kick target",
+					"alt": "Crouching heavy kick follows crouching medium kick as the target sequence."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-corner-light-tackle-kill-heavy-trade/frame-4.jpg",
+					"at": 3.3,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle completes the trade conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-corner-light-tackle-kill-throw",
+			"terry-depth-corner-light-tackle-kill-shimmy",
+			"terry-depth-corner-light-tackle-kill-heavy"
+		]
+	},
+	{
+		"id": "terry-depth-od-charge-wave-knuckle-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "OD Charge–Wave–Knuckle: Rush throw",
+		"summary": "After the +32 midscreen OD route, raw Rush closes the spacing for a wake-up throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: midscreen st.HP (both hits) > 236KK (OD Power Charge) > 236HP (Round Wave) > 214MP knockdown, captioned +32. The prerequisite spends two Drive bars outside this follow-up loop; normal heavy Power Charge is not a substitute."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar in this loop (raw Drive Rush); prerequisite OD Charge excluded",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 149.6,
+			"end": 154.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-throw/clip.mp4",
+			"poster": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-throw/frame-1.jpg",
+					"at": 0.4,
+					"label": "Rush approach",
+					"alt": "Raw Drive Rush closes the midscreen knockdown spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-throw/frame-2.jpg",
+					"at": 1.1,
+					"label": "Wake-up throw",
+					"alt": "Terry throws Ryu after the Rush approach."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-throw/frame-3.jpg",
+					"at": 2.4,
+					"label": "Throw finish",
+					"alt": "The forward throw creates another knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-medium-knuckle-dash-walk-throw",
+			"terry-depth-passing-sway-dash-walk-throw",
+			"terry-heavy-rising-rush-throw"
+		]
+	},
+	{
+		"id": "terry-depth-od-charge-wave-knuckle-rush-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "OD Charge–Wave–Knuckle: Rush shimmy",
+		"summary": "Rush after +32, bait the wake-up throw and punish with crouching medium punch into the heavy juggle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > Walk back > 2MP > 236HK > 214HK (delay) > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HK (delay)",
+				"label": "Delayed heavy Crack Shoot",
+				"cue": "The delayed Crack Shoot is explicitly performed; the source does not establish an exact delay-frame count."
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: midscreen st.HP (both hits) > 236KK (OD Power Charge) > 236HP (Round Wave) > 214MP knockdown, captioned +32. The prerequisite spends two Drive bars outside this follow-up loop; normal heavy Power Charge is not a substitute."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar in this loop (raw Drive Rush); prerequisite OD Charge excluded",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 158.1,
+			"end": 164.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-shimmy/clip.mp4",
+			"poster": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-shimmy/frame-1.jpg",
+					"at": 0.5,
+					"label": "Rush approach",
+					"alt": "Terry closes the gap with raw Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-shimmy/frame-2.jpg",
+					"at": 1.0,
+					"label": "Throw bait",
+					"alt": "Ryu misses a throw as Terry retreats."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-shimmy/frame-3.jpg",
+					"at": 1.4,
+					"label": "Punish counter",
+					"alt": "Crouching medium punch starts the throw-whiff punish."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-shimmy/frame-4.jpg",
+					"at": 3.9,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle finishes the heavy Charge and delayed Crack Shoot route."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-heavy-tackle-rush-jab-shimmy",
+			"terry-depth-medium-knuckle-dash-shimmy",
+			"terry-depth-passing-sway-dash-shimmy"
+		]
+	},
+	{
+		"id": "terry-depth-od-charge-wave-knuckle-rush-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "OD Charge–Wave–Knuckle: Rush two-hit heavy",
+		"summary": "Use the +32 OD-route knockdown to Rush into both heavy-punch hits and the normal heavy-Charge juggle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > st.HP > 236HK > 214HK (delay) > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Let both hits connect before the cancel."
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HK (delay)",
+				"label": "Delayed heavy Crack Shoot",
+				"cue": "The delayed Crack Shoot is explicitly performed; the source does not establish an exact delay-frame count."
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: midscreen st.HP (both hits) > 236KK (OD Power Charge) > 236HP (Round Wave) > 214MP knockdown, captioned +32. The prerequisite spends two Drive bars outside this follow-up loop; normal heavy Power Charge is not a substitute."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar in this loop (raw Drive Rush); prerequisite OD Charge excluded",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 168.7,
+			"end": 175.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-heavy/clip.mp4",
+			"poster": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-heavy/frame-1.jpg",
+					"at": 0.75,
+					"label": "Rush approach",
+					"alt": "Raw Drive Rush brings Terry to the recovering Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-heavy/frame-2.jpg",
+					"at": 1.3,
+					"label": "Two-hit heavy",
+					"alt": "Standing heavy punch connects twice on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-heavy/frame-3.jpg",
+					"at": 2.7,
+					"label": "Delayed Crack Shoot",
+					"alt": "Heavy Crack Shoot extends normal heavy Power Charge."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-heavy/frame-4.jpg",
+					"at": 3.8,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle completes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-heavy-tackle-rush-meaty-heavy",
+			"terry-depth-medium-knuckle-dash-meaty-heavy",
+			"terry-depth-passing-sway-dash-meaty-heavy"
+		]
+	},
+	{
+		"id": "terry-depth-two-hit-heavy-od-charge-crack-tackle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Two-hit heavy into OD Charge and delayed Crack Shoot",
+		"summary": "Spend two Drive to convert both heavy-punch hits into OD Charge, delayed heavy Crack Shoot and heavy Tackle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "OD extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > 236KK > 214HK (delay) > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Let both hits connect before the cancel."
+			},
+			{
+				"id": "step-2",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HK (delay)",
+				"label": "Delayed heavy Crack Shoot",
+				"cue": "The delayed Crack Shoot is explicitly performed; the source does not establish an exact delay-frame count."
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": ["Classic controls", "Near-corner midscreen starting spacing as recorded"],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Power Charge)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 176.2,
+			"end": 182.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-two-hit-heavy-od-charge-crack-tackle/clip.mp4",
+			"poster": "/media/terry/terry-depth-two-hit-heavy-od-charge-crack-tackle/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-two-hit-heavy-od-charge-crack-tackle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-two-hit-heavy-od-charge-crack-tackle/frame-1.jpg",
+					"at": 0.4,
+					"label": "Two-hit heavy",
+					"alt": "Standing heavy punch connects twice."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-two-hit-heavy-od-charge-crack-tackle/frame-2.jpg",
+					"at": 0.9,
+					"label": "OD Power Charge",
+					"alt": "OD Power Charge launches Ryu with the gold effect."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-two-hit-heavy-od-charge-crack-tackle/frame-3.jpg",
+					"at": 2.2,
+					"label": "Delayed Crack Shoot",
+					"alt": "Heavy Crack Shoot catches the OD launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-two-hit-heavy-od-charge-crack-tackle/frame-4.jpg",
+					"at": 3.3,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-two-hit-heavy-knuckle",
+			"terry-midscreen-heavy-wave-knuckle",
+			"terry-depth-heavy-tackle-rush-meaty-heavy"
+		]
+	},
+	{
+		"id": "terry-depth-one-hit-heavy-charge-crack-tackle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "First-hit heavy into meterless Crack Shoot juggle",
+		"summary": "Cancel the first heavy-punch hit into normal heavy Charge, then delay heavy Crack Shoot for heavy Tackle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > 236HK > 214HK (delay) > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, first hit",
+				"cue": "Cancel the first hit into the shown special."
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HK (delay)",
+				"label": "Delayed heavy Crack Shoot",
+				"cue": "The delayed Crack Shoot is explicitly performed; the source does not establish an exact delay-frame count."
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction.",
+			"The delayed Crack Shoot is explicitly performed; the source does not establish an exact delay-frame count.",
+			"The next raw Rush shown later in this take is excluded; this card ends at the juggle knockdown."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 183.3,
+			"end": 187.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-one-hit-heavy-charge-crack-tackle/clip.mp4",
+			"poster": "/media/terry/terry-depth-one-hit-heavy-charge-crack-tackle/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-one-hit-heavy-charge-crack-tackle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-one-hit-heavy-charge-crack-tackle/frame-1.jpg",
+					"at": 0.3,
+					"label": "First-hit cancel",
+					"alt": "The first standing-heavy-punch hit cancels into the special route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-one-hit-heavy-charge-crack-tackle/frame-2.jpg",
+					"at": 1.2,
+					"label": "Heavy Power Charge",
+					"alt": "Normal heavy Power Charge launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-one-hit-heavy-charge-crack-tackle/frame-3.jpg",
+					"at": 1.8,
+					"label": "Delayed Crack Shoot",
+					"alt": "Delayed heavy Crack Shoot continues the launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-one-hit-heavy-charge-crack-tackle/frame-4.jpg",
+					"at": 3.2,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-two-hit-heavy-knuckle",
+			"terry-midscreen-heavy-wave-knuckle",
+			"terry-depth-heavy-tackle-rush-meaty-heavy"
+		]
+	},
+	{
+		"id": "terry-depth-corner-one-hit-heavy-round-wave",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Corner first-hit heavy into Round Wave",
+		"summary": "Cancel the first heavy-punch hit into heavy Charge and use Round Wave, medium Charge and light Tackle at the wall.",
+		"kind": "combo",
+		"situations": ["Corner", "Heavy confirm"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.HP > 236HK > 236HP > 236MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, first hit",
+				"cue": "Cancel the first hit into the shown special."
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-5",
+				"notation": "623LP",
+				"label": "623LP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 195.95,
+			"end": 201.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-corner-one-hit-heavy-round-wave/clip.mp4",
+			"poster": "/media/terry/terry-depth-corner-one-hit-heavy-round-wave/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-corner-one-hit-heavy-round-wave/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-corner-one-hit-heavy-round-wave/frame-1.jpg",
+					"at": 0.3,
+					"label": "First-hit heavy",
+					"alt": "Standing heavy punch cancels after its first hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-corner-one-hit-heavy-round-wave/frame-2.jpg",
+					"at": 1.15,
+					"label": "Heavy Power Charge",
+					"alt": "Heavy Power Charge launches at the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-corner-one-hit-heavy-round-wave/frame-3.jpg",
+					"at": 1.75,
+					"label": "Round Wave",
+					"alt": "Round Wave continues the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-corner-one-hit-heavy-round-wave/frame-4.jpg",
+					"at": 3.05,
+					"label": "Light Rising Tackle",
+					"alt": "Light Rising Tackle follows medium Power Charge."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-corner-heavy-medium-crack",
+			"terry-depth-corner-light-tackle-kill-heavy",
+			"terry-corner-low-rush-round-wave"
+		]
+	},
+	{
+		"id": "terry-depth-spaced-heavy-kick-rush-passing-sway",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Spaced heavy-kick punish into Passing Sway",
+		"summary": "Raw Rush after a long-range heavy-kick punish counter and complete the MP–MK–MP target for +36 knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK > DR > st.MP > st.MK > st.MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "st.MK"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MP",
+				"label": "st.MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Punish counter on standing heavy kick at the shown long range"
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar (raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 209.55,
+			"end": 214.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-spaced-heavy-kick-rush-passing-sway/clip.mp4",
+			"poster": "/media/terry/terry-depth-spaced-heavy-kick-rush-passing-sway/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-spaced-heavy-kick-rush-passing-sway/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-spaced-heavy-kick-rush-passing-sway/frame-1.jpg",
+					"at": 0.45,
+					"label": "Spaced punish counter",
+					"alt": "Standing heavy kick scores punish counter at the demonstrated range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-spaced-heavy-kick-rush-passing-sway/frame-2.jpg",
+					"at": 1.5,
+					"label": "Rush pickup",
+					"alt": "Standing medium punch picks up after raw Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-spaced-heavy-kick-rush-passing-sway/frame-3.jpg",
+					"at": 1.95,
+					"label": "Passing Sway target",
+					"alt": "Standing medium kick continues the target chain."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-spaced-heavy-kick-rush-passing-sway/frame-4.jpg",
+					"at": 2.95,
+					"label": "Target finish",
+					"alt": "The final medium-punch target hit knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-far-heavy-kick-rush-od-crack-level-one",
+			"terry-depth-heavy-tackle-rush-jab-shimmy",
+			"terry-depth-medium-knuckle-dash-shimmy"
+		]
+	},
+	{
+		"id": "terry-depth-passing-sway-dash-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Passing Sway: dash and walk throw",
+		"summary": "Dash after the +36 target knockdown and walk into throw range.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > Walk forward > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: spaced st.HK punish counter > raw Drive Rush > st.MP > st.MK > st.MP Passing Sway target knockdown, captioned +36. The prior raw Rush is outside this follow-up loop and its cost.",
+			"The throw is a punish counter in this source take; an ordinary wake-up throw’s damage and knockdown properties are not established."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction.",
+			"The source displays punish counter on this follow-up without identifying the opponent recovery action that causes it. Reproduce the recorded counter condition; do not assume it on an ordinary wake-up."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 229.45,
+			"end": 234.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-passing-sway-dash-walk-throw/clip.mp4",
+			"poster": "/media/terry/terry-depth-passing-sway-dash-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-passing-sway-dash-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-passing-sway-dash-walk-throw/frame-1.jpg",
+					"at": 0.65,
+					"label": "Dash approach",
+					"alt": "Terry has closed the knockdown spacing with the demonstrated dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-passing-sway-dash-walk-throw/frame-2.jpg",
+					"at": 1.25,
+					"label": "Walk-in throw",
+					"alt": "Walking after the dash brings Terry into throw range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-passing-sway-dash-walk-throw/frame-3.jpg",
+					"at": 3.05,
+					"label": "Throw finish",
+					"alt": "The forward throw knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-medium-knuckle-dash-walk-throw",
+			"terry-depth-od-charge-wave-knuckle-rush-throw",
+			"terry-heavy-rising-rush-throw"
+		]
+	},
+	{
+		"id": "terry-depth-passing-sway-dash-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Passing Sway: dash shimmy punish",
+		"summary": "Use the +36 target knockdown to dash, bait the throw and punish with crouching medium into the heavy juggle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > Walk back > 2MP > 236HK > 214HK (delay) > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HK (delay)",
+				"label": "Delayed heavy Crack Shoot",
+				"cue": "The delayed Crack Shoot is explicitly performed; the source does not establish an exact delay-frame count."
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: spaced st.HK punish counter > raw Drive Rush > st.MP > st.MK > st.MP Passing Sway target knockdown, captioned +36. The prior raw Rush is outside this follow-up loop and its cost."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 237.7,
+			"end": 244.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-passing-sway-dash-shimmy/clip.mp4",
+			"poster": "/media/terry/terry-depth-passing-sway-dash-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-passing-sway-dash-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-passing-sway-dash-shimmy/frame-1.jpg",
+					"at": 0.5,
+					"label": "Dash approach",
+					"alt": "Terry has closed the knockdown spacing with the demonstrated dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-passing-sway-dash-shimmy/frame-2.jpg",
+					"at": 0.9,
+					"label": "Throw bait",
+					"alt": "Ryu’s throw misses as Terry retreats."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-passing-sway-dash-shimmy/frame-3.jpg",
+					"at": 1.3,
+					"label": "Punish counter",
+					"alt": "Crouching medium punch punishes the missed throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-passing-sway-dash-shimmy/frame-4.jpg",
+					"at": 4.3,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle completes the punish conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-heavy-tackle-rush-jab-shimmy",
+			"terry-depth-medium-knuckle-dash-shimmy",
+			"terry-depth-od-charge-wave-knuckle-rush-shimmy"
+		]
+	},
+	{
+		"id": "terry-depth-passing-sway-dash-meaty-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Passing Sway: dash, walk and two-hit heavy",
+		"summary": "Walk after the +36 dash and connect both heavy-punch hits into medium Burning Knuckle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > Walk forward > st.HP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Let both hits connect before the cancel."
+			},
+			{
+				"id": "step-4",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: spaced st.HK punish counter > raw Drive Rush > st.MP > st.MK > st.MP Passing Sway target knockdown, captioned +36. The prior raw Rush is outside this follow-up loop and its cost.",
+			"Standing heavy punch also scores punish counter in this source take; an ordinary wake-up hit is not established as the same link condition."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction.",
+			"The source displays punish counter on this follow-up without identifying the opponent recovery action that causes it. Reproduce the recorded counter condition; do not assume it on an ordinary wake-up."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 248.0,
+			"end": 252.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-passing-sway-dash-meaty-heavy/clip.mp4",
+			"poster": "/media/terry/terry-depth-passing-sway-dash-meaty-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-passing-sway-dash-meaty-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-passing-sway-dash-meaty-heavy/frame-1.jpg",
+					"at": 0.4,
+					"label": "Walk after dash",
+					"alt": "Terry walks into heavy-punch range after dashing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-passing-sway-dash-meaty-heavy/frame-2.jpg",
+					"at": 1.2,
+					"label": "Two-hit heavy",
+					"alt": "Both standing-heavy-punch hits reach Ryu on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-passing-sway-dash-meaty-heavy/frame-3.jpg",
+					"at": 2.0,
+					"label": "Medium Knuckle",
+					"alt": "Medium Burning Knuckle converts the heavy starter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-passing-sway-dash-meaty-heavy/frame-4.jpg",
+					"at": 2.7,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the medium Knuckle finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-heavy-tackle-rush-meaty-heavy",
+			"terry-depth-medium-knuckle-dash-meaty-heavy",
+			"terry-depth-od-charge-wave-knuckle-rush-heavy"
+		]
+	},
+	{
+		"id": "terry-depth-heavy-kick-fire-kick-od-crack-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Heavy-kick punish into OD Crack Shoot and Level 1",
+		"summary": "Use the close punish-counter kick, low Fire Kick target and OD Crack Shoot to reach Buster Wolf.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter", "Super ender"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK > 2MK > 2HK > 214KK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "214KK",
+				"label": "214KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "SA1"
+			}
+		],
+		"conditions": ["Classic controls", "Close-range standing-heavy-kick punish counter"],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Crack Shoot)",
+			"super": "1 Super bar (Buster Wolf)"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 252.8,
+			"end": 260.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-heavy-kick-fire-kick-od-crack-level-one/clip.mp4",
+			"poster": "/media/terry/terry-depth-heavy-kick-fire-kick-od-crack-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-heavy-kick-fire-kick-od-crack-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-heavy-kick-fire-kick-od-crack-level-one/frame-1.jpg",
+					"at": 0.7,
+					"label": "Heavy-kick punish",
+					"alt": "Standing heavy kick scores punish counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-heavy-kick-fire-kick-od-crack-level-one/frame-2.jpg",
+					"at": 1.6,
+					"label": "Fire Kick target",
+					"alt": "Crouching heavy kick follows crouching medium kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-heavy-kick-fire-kick-od-crack-level-one/frame-3.jpg",
+					"at": 2.4,
+					"label": "OD Crack Shoot",
+					"alt": "OD Crack Shoot extends the target launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-heavy-kick-fire-kick-od-crack-level-one/frame-4.jpg",
+					"at": 5.2,
+					"label": "Buster Wolf",
+					"alt": "The Level 1 Super connects after OD Crack Shoot."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-far-heavy-kick-rush-od-crack-level-one",
+			"terry-depth-heavy-tackle-rush-jab-shimmy",
+			"terry-depth-medium-knuckle-dash-shimmy"
+		]
+	},
+	{
+		"id": "terry-depth-far-heavy-kick-rush-od-crack-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Far heavy-kick punish: Rush into Buster Wolf",
+		"summary": "At longer range, raw Rush medium punch reaches OD Crack Shoot and the Level 1 finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter", "Drive Rush", "Super ender"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK > DR > st.MP > 214KK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "214KK",
+				"label": "214KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "SA1"
+			}
+		],
+		"conditions": ["Classic controls", "Long-range standing-heavy-kick punish counter"],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "3 Drive bars (raw Drive Rush and OD Crack Shoot)",
+			"super": "1 Super bar (Buster Wolf)"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 261.3,
+			"end": 268.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-far-heavy-kick-rush-od-crack-level-one/clip.mp4",
+			"poster": "/media/terry/terry-depth-far-heavy-kick-rush-od-crack-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-far-heavy-kick-rush-od-crack-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-far-heavy-kick-rush-od-crack-level-one/frame-1.jpg",
+					"at": 0.5,
+					"label": "Spaced punish counter",
+					"alt": "Standing heavy kick punishes at the demonstrated longer range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-far-heavy-kick-rush-od-crack-level-one/frame-2.jpg",
+					"at": 1.2,
+					"label": "Rush medium pickup",
+					"alt": "Standing medium punch picks up after raw Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-far-heavy-kick-rush-od-crack-level-one/frame-3.jpg",
+					"at": 1.8,
+					"label": "OD Crack Shoot",
+					"alt": "OD Crack Shoot launches for the Super."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-far-heavy-kick-rush-od-crack-level-one/frame-4.jpg",
+					"at": 4.7,
+					"label": "Buster Wolf",
+					"alt": "Buster Wolf completes the punish route."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-spaced-heavy-kick-rush-passing-sway",
+			"terry-depth-heavy-kick-fire-kick-od-crack-level-one",
+			"terry-depth-heavy-tackle-rush-jab-shimmy"
+		]
+	},
+	{
+		"id": "terry-depth-rush-overhead-medium-knuckle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Rush overhead into crouching medium and Knuckle",
+		"summary": "Convert a raw Drive Rush overhead into crouching medium punch and medium Burning Knuckle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Overhead", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 6HP > 2MP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar (raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 269.45,
+			"end": 273.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-rush-overhead-medium-knuckle/clip.mp4",
+			"poster": "/media/terry/terry-depth-rush-overhead-medium-knuckle/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-rush-overhead-medium-knuckle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-rush-overhead-medium-knuckle/frame-1.jpg",
+					"at": 0.55,
+					"label": "Rush approach",
+					"alt": "Raw Drive Rush leads into forward heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-rush-overhead-medium-knuckle/frame-2.jpg",
+					"at": 1.05,
+					"label": "Overhead starter",
+					"alt": "The forward-heavy overhead connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-rush-overhead-medium-knuckle/frame-3.jpg",
+					"at": 1.55,
+					"label": "Crouching-medium link",
+					"alt": "Crouching medium punch links after the Rush overhead."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-rush-overhead-medium-knuckle/frame-4.jpg",
+					"at": 2.05,
+					"label": "Medium Knuckle",
+					"alt": "Medium Burning Knuckle ends the link."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-heavy-rising-rush-throw",
+			"terry-low-rush-charge-crack-rising",
+			"terry-corner-low-cashout-geyser"
+		]
+	},
+	{
+		"id": "terry-depth-corner-medium-punish-round-wave",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Corner crouching-medium punish into Round Wave",
+		"summary": "Use the recorded crouching-medium punish counter for the meterless corner Round Wave finish.",
+		"kind": "combo",
+		"situations": ["Corner", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "2MP > 236HK > 236HP > 236MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-5",
+				"notation": "623LP",
+				"label": "623LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching-medium-punch punish counter; a specific enemy attack is not shown in this take"
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction.",
+			"The caption suggests shimmy or Drive Reversal applications, but this excerpt shows a recorded punish-counter starter rather than the actual defensive interaction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 282.55,
+			"end": 288.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-corner-medium-punish-round-wave/clip.mp4",
+			"poster": "/media/terry/terry-depth-corner-medium-punish-round-wave/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-corner-medium-punish-round-wave/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-corner-medium-punish-round-wave/frame-1.jpg",
+					"at": 0.45,
+					"label": "Crouching-medium punish",
+					"alt": "Crouching medium punch scores the recorded punish counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-corner-medium-punish-round-wave/frame-2.jpg",
+					"at": 1.05,
+					"label": "Heavy Power Charge",
+					"alt": "Heavy Power Charge launches Ryu at the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-corner-medium-punish-round-wave/frame-3.jpg",
+					"at": 1.55,
+					"label": "Round Wave",
+					"alt": "Round Wave continues the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-corner-medium-punish-round-wave/frame-4.jpg",
+					"at": 3.25,
+					"label": "Light Rising Tackle",
+					"alt": "Light Rising Tackle finishes after medium Power Charge."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-corner-light-tackle-kill-shimmy",
+			"terry-depth-corner-counter-impact-round-wave",
+			"terry-depth-corner-od-dp-guard-round-wave"
+		]
+	},
+	{
+		"id": "terry-depth-counter-impact-one-hit-heavy-crack",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Counter Impact: first-hit heavy and delayed Crack Shoot",
+		"summary": "Counter Ryu’s Drive Impact, cancel one heavy-punch hit and finish the normal Charge–Crack Shoot juggle.",
+		"kind": "response",
+		"situations": ["Midscreen", "Drive Impact", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > st.HP > 236HK > 214HK (delay) > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "DI"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, first hit",
+				"cue": "Cancel the first hit into the shown special."
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HK (delay)",
+				"label": "Delayed heavy Crack Shoot",
+				"cue": "The delayed Crack Shoot is explicitly performed; the source does not establish an exact delay-frame count."
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": ["Classic controls", "Recorded counter-Drive-Impact crumple against Ryu"],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Impact)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 289.55,
+			"end": 298.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-counter-impact-one-hit-heavy-crack/clip.mp4",
+			"poster": "/media/terry/terry-depth-counter-impact-one-hit-heavy-crack/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-counter-impact-one-hit-heavy-crack/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-counter-impact-one-hit-heavy-crack/frame-1.jpg",
+					"at": 0.95,
+					"label": "Counter Impact",
+					"alt": "Terry’s Drive Impact absorbs Ryu’s Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-counter-impact-one-hit-heavy-crack/frame-2.jpg",
+					"at": 2.65,
+					"label": "Impact crumple",
+					"alt": "The counter Drive Impact scores punish counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-counter-impact-one-hit-heavy-crack/frame-3.jpg",
+					"at": 3.55,
+					"label": "First-hit heavy",
+					"alt": "Standing heavy punch cancels after one hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-counter-impact-one-hit-heavy-crack/frame-4.jpg",
+					"at": 4.95,
+					"label": "Delayed Crack Shoot",
+					"alt": "Heavy Crack Shoot extends the heavy-Charge launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/terry/terry-depth-counter-impact-one-hit-heavy-crack/frame-5.jpg",
+					"at": 6.45,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle completes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-far-counter-di-dash",
+			"terry-depth-heavy-tackle-rush-jab-shimmy",
+			"terry-depth-medium-knuckle-dash-shimmy"
+		]
+	},
+	{
+		"id": "terry-depth-far-wall-splat-medium-wave-tackle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Far wall splat: medium punch, Wave and heavy Tackle",
+		"summary": "At the farther blocked-Impact spacing, standing medium punch reaches heavy Power Wave and heavy Tackle.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "DI > st.MP > 236HP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "DI"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Normal blocked-Drive-Impact wall splat at the demonstrated farther spacing; not Burnout stun"
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Impact)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 315.1,
+			"end": 320.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-far-wall-splat-medium-wave-tackle/clip.mp4",
+			"poster": "/media/terry/terry-depth-far-wall-splat-medium-wave-tackle/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-far-wall-splat-medium-wave-tackle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-far-wall-splat-medium-wave-tackle/frame-1.jpg",
+					"at": 0.9,
+					"label": "Blocked Impact",
+					"alt": "Ryu blocks Drive Impact near the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-far-wall-splat-medium-wave-tackle/frame-2.jpg",
+					"at": 1.55,
+					"label": "Wall crush",
+					"alt": "The blocked Impact produces a normal wall splat."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-far-wall-splat-medium-wave-tackle/frame-3.jpg",
+					"at": 2.0,
+					"label": "Medium pickup",
+					"alt": "Standing medium punch picks up the farther splat."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-far-wall-splat-medium-wave-tackle/frame-4.jpg",
+					"at": 2.45,
+					"label": "Heavy Power Wave",
+					"alt": "Heavy Power Wave extends the corner juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/terry/terry-depth-far-wall-splat-medium-wave-tackle/frame-5.jpg",
+					"at": 3.55,
+					"label": "Heavy Rising Tackle",
+					"alt": "Heavy Rising Tackle completes the wall-splat conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-wall-splat-crack-rising",
+			"terry-depth-corner-counter-impact-round-wave",
+			"terry-corner-low-rush-round-wave"
+		]
+	},
+	{
+		"id": "terry-depth-corner-counter-impact-round-wave",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Corner counter Impact into Round Wave",
+		"summary": "Counter Ryu’s Impact at the wall and use first-hit heavy, Round Wave and light Tackle.",
+		"kind": "response",
+		"situations": ["Corner", "Drive Impact", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "DI > st.HP > 236HK > 236HP > 236MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "DI"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, first hit",
+				"cue": "Cancel the first hit into the shown special."
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-6",
+				"notation": "623LP",
+				"label": "623LP"
+			}
+		],
+		"conditions": ["Classic controls", "Counter-Drive-Impact crumple with Ryu at the wall"],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Impact)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 322.1,
+			"end": 331.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-corner-counter-impact-round-wave/clip.mp4",
+			"poster": "/media/terry/terry-depth-corner-counter-impact-round-wave/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-corner-counter-impact-round-wave/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-corner-counter-impact-round-wave/frame-1.jpg",
+					"at": 0.9,
+					"label": "Counter Impact",
+					"alt": "Terry counters Ryu’s Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-corner-counter-impact-round-wave/frame-2.jpg",
+					"at": 2.55,
+					"label": "Impact crumple",
+					"alt": "The counter Impact produces the recorded crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-corner-counter-impact-round-wave/frame-3.jpg",
+					"at": 3.5,
+					"label": "First-hit heavy",
+					"alt": "The first heavy-punch hit cancels into heavy Charge."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-corner-counter-impact-round-wave/frame-4.jpg",
+					"at": 5.1,
+					"label": "Round Wave",
+					"alt": "Round Wave extends the corner launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/terry/terry-depth-corner-counter-impact-round-wave/frame-5.jpg",
+					"at": 6.4,
+					"label": "Light Rising Tackle",
+					"alt": "Light Rising Tackle completes the corner conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-corner-light-tackle-kill-shimmy",
+			"terry-depth-corner-medium-punish-round-wave",
+			"terry-depth-counter-impact-one-hit-heavy-crack"
+		]
+	},
+	{
+		"id": "terry-depth-corner-od-dp-guard-round-wave",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Corner OD-DP guard into Round Wave punish",
+		"summary": "Poke with standing jab, guard Ryu’s OD uppercut and punish with both heavy-punch hits into the corner route.",
+		"kind": "response",
+		"situations": ["Corner", "Punish", "Punish counter", "Reversal punish"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.LP > Guard > st.HP > 236HK > 236HP > 236MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-2",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Let both hits connect before the cancel."
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-7",
+				"notation": "623LP",
+				"label": "623LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Recorded Ryu OD-uppercut response after standing jab; not universal reversal safety"
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 340.2,
+			"end": 347.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-corner-od-dp-guard-round-wave/clip.mp4",
+			"poster": "/media/terry/terry-depth-corner-od-dp-guard-round-wave/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-corner-od-dp-guard-round-wave/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-corner-od-dp-guard-round-wave/frame-1.jpg",
+					"at": 0.35,
+					"label": "Jab poke",
+					"alt": "Standing light punch precedes Ryu’s reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-corner-od-dp-guard-round-wave/frame-2.jpg",
+					"at": 1.05,
+					"label": "Guard OD uppercut",
+					"alt": "Terry guards Ryu’s OD uppercut."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-corner-od-dp-guard-round-wave/frame-3.jpg",
+					"at": 2.5,
+					"label": "Two-hit punish",
+					"alt": "Standing heavy punch scores punish counter with both hits."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-corner-od-dp-guard-round-wave/frame-4.jpg",
+					"at": 3.8,
+					"label": "Round Wave",
+					"alt": "Round Wave extends normal heavy Power Charge."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/terry/terry-depth-corner-od-dp-guard-round-wave/frame-5.jpg",
+					"at": 5.3,
+					"label": "Light Rising Tackle",
+					"alt": "Light Rising Tackle finishes the corner punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-corner-light-tackle-kill-shimmy",
+			"terry-depth-corner-medium-punish-round-wave",
+			"terry-depth-corner-counter-impact-round-wave"
+		]
+	},
+	{
+		"id": "terry-depth-corner-od-dp-full-geyser-cashout",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Corner OD-DP punish: full Geyser cash-out",
+		"summary": "Guard the OD uppercut and spend the long Rush, OD Wave and full Geyser route to finish in Burnout.",
+		"kind": "response",
+		"situations": ["Corner", "Punish", "Punish counter", "Cash-out", "Super ender"],
+		"outcomes": ["Corner knockdown", "Cash-out", "Burnout"],
+		"notation": "st.LP > Guard > DR > st.HP > 236HP > 2HP > 236PP > st.MP > DRC > st.HP > 236HK > 236HP > DR > st.HP > 236MK > SA2 > PP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-2",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Let both hits connect before the cancel."
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "2HP",
+				"label": "2HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "236PP",
+				"label": "236PP"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-10",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Let both hits connect before the cancel."
+			},
+			{
+				"id": "step-11",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-12",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-13",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-14",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, both hits",
+				"cue": "Let both hits connect before the cancel."
+			},
+			{
+				"id": "step-15",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-16",
+				"notation": "SA2",
+				"label": "SA2"
+			},
+			{
+				"id": "step-17",
+				"notation": "PP",
+				"label": "Twin Geyser",
+				"cue": "The first follow-up spends Drive."
+			},
+			{
+				"id": "step-18",
+				"notation": "PP",
+				"label": "Triple Geyser",
+				"cue": "The second follow-up spends one additional Super stock."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Recorded Ryu OD-uppercut guard punish",
+			"Full Drive and three Super stocks at the shown start; preserve the recorded route and meter regeneration"
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction.",
+			"Raw Rush, Drive Rush cancel and Geyser continuations are separate costs. The recording enters Burnout on the first Geyser follow-up, then spends the third Super stock on the second."
+		],
+		"resources": {
+			"drive": "2 raw Drive Rushes, OD Power Wave, Drive Rush cancel and Twin Geyser; ends in Burnout",
+			"super": "3 Super bars (Power Geyser and Triple Geyser)"
+		},
+		"source": {
+			"id": "joe-ebios-terry-2026",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"published": "2026-07-07",
+			"start": 348.65,
+			"end": 364.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-corner-od-dp-full-geyser-cashout/clip.mp4",
+			"poster": "/media/terry/terry-depth-corner-od-dp-full-geyser-cashout/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-corner-od-dp-full-geyser-cashout/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-corner-od-dp-full-geyser-cashout/frame-1.jpg",
+					"at": 1.15,
+					"label": "Guard OD uppercut",
+					"alt": "Terry guards Ryu’s OD uppercut after the jab."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-corner-od-dp-full-geyser-cashout/frame-2.jpg",
+					"at": 2.75,
+					"label": "Rush heavy punish",
+					"alt": "Raw Rush standing heavy punch punishes with both hits."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-corner-od-dp-full-geyser-cashout/frame-3.jpg",
+					"at": 4.35,
+					"label": "OD Wave extension",
+					"alt": "OD Power Wave extends the crouching-heavy pickup."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-corner-od-dp-full-geyser-cashout/frame-4.jpg",
+					"at": 7.95,
+					"label": "Second raw Rush",
+					"alt": "A second raw Rush catches the Round Wave juggle with both heavy-punch hits."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/terry/terry-depth-corner-od-dp-full-geyser-cashout/frame-5.jpg",
+					"at": 10.9,
+					"label": "Twin Geyser",
+					"alt": "The first two-punch Geyser follow-up spends Drive and enters Burnout."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/terry/terry-depth-corner-od-dp-full-geyser-cashout/frame-6.jpg",
+					"at": 12.35,
+					"label": "Triple Geyser",
+					"alt": "The final Geyser continuation spends the third Super stock."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-corner-light-tackle-kill-shimmy",
+			"terry-depth-heavy-kick-fire-kick-od-crack-level-one",
+			"terry-depth-far-heavy-kick-rush-od-crack-level-one"
+		]
+	},
+	{
+		"id": "terry-depth-burnout-crouch-jab-double-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Burnout: crouching jab into repeated medium confirm",
+		"summary": "A guarded crouching jab leads to counter-hit crouching medium, another medium and the medium Charge–Tackle route.",
+		"kind": "setup",
+		"situations": ["Corner", "Burnout pressure", "Block pressure", "Counter hit"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "2LP > 2MP > 2MP > 236MK > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-5",
+				"notation": "623MP",
+				"label": "623MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Jamie is already in Burnout with three drinks, cornered at the recorded spacing. The opening normal is guarded; only the later counter-hit portion is a combo."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"This is the specific recorded Burnout pressure interaction, not a universal true-blockstring or reversal-proof guarantee. No numerical gap is inferred from the chapter title."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex100-terry-burnout-2024",
+			"title": "SF6: Utilizing Burnout With Terry",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=Kvf3JDhlX8U",
+			"published": "2024-11-18",
+			"start": 166.2,
+			"end": 169.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-burnout-crouch-jab-double-medium/clip.mp4",
+			"poster": "/media/terry/terry-depth-burnout-crouch-jab-double-medium/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-burnout-crouch-jab-double-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-burnout-crouch-jab-double-medium/frame-1.jpg",
+					"at": 0.4,
+					"label": "Guarded jab",
+					"alt": "Jamie guards the opening crouching light punch in Burnout."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-burnout-crouch-jab-double-medium/frame-2.jpg",
+					"at": 0.8,
+					"label": "Counter-hit medium",
+					"alt": "Crouching medium punch catches Jamie’s attempted response."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-burnout-crouch-jab-double-medium/frame-3.jpg",
+					"at": 1.45,
+					"label": "Second medium",
+					"alt": "A second crouching medium punch links after the counter hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-burnout-crouch-jab-double-medium/frame-4.jpg",
+					"at": 1.9,
+					"label": "Medium Power Charge",
+					"alt": "Medium Power Charge launches the confirmed medium chain."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/terry/terry-depth-burnout-crouch-jab-double-medium/frame-5.jpg",
+					"at": 2.8,
+					"label": "Medium Rising Tackle",
+					"alt": "Medium Rising Tackle finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-burnout-light-kick-light-medium",
+			"terry-depth-burnout-crouch-jab-medium-knuckle",
+			"terry-depth-burnout-jab-od-wave-light-link"
+		]
+	},
+	{
+		"id": "terry-depth-burnout-light-kick-light-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Burnout: light kick into crouching-light counter hit",
+		"summary": "After a guarded standing light kick, crouching light punch catches the response and links medium punch, medium Charge and medium Tackle.",
+		"kind": "setup",
+		"situations": ["Corner", "Burnout pressure", "Block pressure", "Counter hit"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.LK > 2LP > 2MP > 236MK > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-5",
+				"notation": "623MP",
+				"label": "623MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Jamie is already in Burnout with three drinks, cornered at the recorded spacing. The opening normal is guarded; only the later counter-hit portion is a combo."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"This is the specific recorded Burnout pressure interaction, not a universal true-blockstring or reversal-proof guarantee. No numerical gap is inferred from the chapter title."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex100-terry-burnout-2024",
+			"title": "SF6: Utilizing Burnout With Terry",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=Kvf3JDhlX8U",
+			"published": "2024-11-18",
+			"start": 172.7,
+			"end": 176.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-burnout-light-kick-light-medium/clip.mp4",
+			"poster": "/media/terry/terry-depth-burnout-light-kick-light-medium/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-burnout-light-kick-light-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-burnout-light-kick-light-medium/frame-1.jpg",
+					"at": 0.3,
+					"label": "Guarded light kick",
+					"alt": "Jamie guards standing light kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-burnout-light-kick-light-medium/frame-2.jpg",
+					"at": 0.7,
+					"label": "Counter-hit light",
+					"alt": "Crouching light punch catches Jamie’s attempted response."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-burnout-light-kick-light-medium/frame-3.jpg",
+					"at": 1.15,
+					"label": "Medium link",
+					"alt": "Crouching medium punch follows the counter-hit jab."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-burnout-light-kick-light-medium/frame-4.jpg",
+					"at": 1.75,
+					"label": "Medium Power Charge",
+					"alt": "Medium Power Charge launches after crouching medium punch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/terry/terry-depth-burnout-light-kick-light-medium/frame-5.jpg",
+					"at": 2.8,
+					"label": "Medium Rising Tackle",
+					"alt": "Medium Rising Tackle completes the counter-hit route."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-burnout-crouch-jab-double-medium",
+			"terry-depth-burnout-crouch-jab-medium-knuckle",
+			"terry-depth-burnout-jab-od-wave-light-link"
+		]
+	},
+	{
+		"id": "terry-depth-burnout-crouch-jab-medium-knuckle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Burnout: crouching jab into medium Knuckle trap",
+		"summary": "The guarded crouching jab leads to a medium Burning Knuckle counter hit against the recorded response.",
+		"kind": "setup",
+		"situations": ["Corner", "Burnout pressure", "Block pressure", "Counter hit"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "2LP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-2",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Jamie is already in Burnout with three drinks, cornered at the recorded spacing. The opening normal is guarded; only the later counter-hit portion is a combo."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"This is the specific recorded Burnout pressure interaction, not a universal true-blockstring or reversal-proof guarantee. No numerical gap is inferred from the chapter title."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex100-terry-burnout-2024",
+			"title": "SF6: Utilizing Burnout With Terry",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=Kvf3JDhlX8U",
+			"published": "2024-11-18",
+			"start": 177.1,
+			"end": 178.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-burnout-crouch-jab-medium-knuckle/clip.mp4",
+			"poster": "/media/terry/terry-depth-burnout-crouch-jab-medium-knuckle/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-burnout-crouch-jab-medium-knuckle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-burnout-crouch-jab-medium-knuckle/frame-1.jpg",
+					"at": 0.25,
+					"label": "Guarded jab",
+					"alt": "Jamie guards crouching light punch in Burnout."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-burnout-crouch-jab-medium-knuckle/frame-2.jpg",
+					"at": 0.75,
+					"label": "Medium Knuckle counter hit",
+					"alt": "Medium Burning Knuckle catches the recorded response."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-burnout-crouch-jab-medium-knuckle/frame-3.jpg",
+					"at": 1.35,
+					"label": "Knockdown",
+					"alt": "The medium Knuckle counter hit knocks Jamie down."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-burnout-crouch-jab-double-medium",
+			"terry-depth-burnout-light-kick-light-medium",
+			"terry-depth-burnout-jab-od-wave-light-link"
+		]
+	},
+	{
+		"id": "terry-depth-burnout-jab-od-wave-light-link",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Burnout: jab into OD Wave and light confirm",
+		"summary": "After the guarded crouching jab, OD Power Wave catches the response and links crouching jab, standing jab and medium Tackle.",
+		"kind": "setup",
+		"situations": ["Corner", "Burnout pressure", "Block pressure", "Counter hit"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "2LP > 236PP > 2LP > st.LP > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-2",
+				"notation": "236PP",
+				"label": "236PP"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-5",
+				"notation": "623MP",
+				"label": "623MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Jamie is already in Burnout with three drinks, cornered at the recorded spacing. The opening normal is guarded; only the later counter-hit portion is a combo."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"This is the specific recorded Burnout pressure interaction, not a universal true-blockstring or reversal-proof guarantee. No numerical gap is inferred from the chapter title."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Power Wave)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex100-terry-burnout-2024",
+			"title": "SF6: Utilizing Burnout With Terry",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=Kvf3JDhlX8U",
+			"published": "2024-11-18",
+			"start": 183.8,
+			"end": 186.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-burnout-jab-od-wave-light-link/clip.mp4",
+			"poster": "/media/terry/terry-depth-burnout-jab-od-wave-light-link/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-burnout-jab-od-wave-light-link/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-burnout-jab-od-wave-light-link/frame-1.jpg",
+					"at": 0.2,
+					"label": "Guarded crouching jab",
+					"alt": "Jamie guards the opening crouching light punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-burnout-jab-od-wave-light-link/frame-2.jpg",
+					"at": 0.7,
+					"label": "OD Wave counter hit",
+					"alt": "OD Power Wave catches the response with the gold effect."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-burnout-jab-od-wave-light-link/frame-3.jpg",
+					"at": 1.2,
+					"label": "Crouching-jab link",
+					"alt": "Crouching light punch picks up after OD Power Wave."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-burnout-jab-od-wave-light-link/frame-4.jpg",
+					"at": 1.4,
+					"label": "Standing-jab link",
+					"alt": "Standing light punch continues the OD-Wave conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/terry/terry-depth-burnout-jab-od-wave-light-link/frame-5.jpg",
+					"at": 2.05,
+					"label": "Medium Rising Tackle",
+					"alt": "Medium Rising Tackle completes the light chain."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-burnout-crouch-jab-double-medium",
+			"terry-depth-burnout-light-kick-light-medium",
+			"terry-depth-burnout-crouch-jab-medium-knuckle"
+		]
+	},
+	{
+		"id": "terry-depth-burnout-light-kick-od-wave-medium-route",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Burnout: light kick, guarded OD Wave and counter-hit jab",
+		"summary": "Keep Jamie guarding light kick and OD Wave, then confirm the counter-hit crouching jab into the medium route.",
+		"kind": "setup",
+		"situations": ["Corner", "Burnout pressure", "Block pressure", "Counter hit"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.LK > 236PP > 2LP > 2MP > 236MK > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-2",
+				"notation": "236PP",
+				"label": "236PP"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-6",
+				"notation": "623MP",
+				"label": "623MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Jamie is already in Burnout with three drinks, cornered at the recorded spacing. The opening normal is guarded; only the later counter-hit portion is a combo."
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"This is the specific recorded Burnout pressure interaction, not a universal true-blockstring or reversal-proof guarantee. No numerical gap is inferred from the chapter title."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Power Wave)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex100-terry-burnout-2024",
+			"title": "SF6: Utilizing Burnout With Terry",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=Kvf3JDhlX8U",
+			"published": "2024-11-18",
+			"start": 190.65,
+			"end": 195.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-burnout-light-kick-od-wave-medium-route/clip.mp4",
+			"poster": "/media/terry/terry-depth-burnout-light-kick-od-wave-medium-route/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-burnout-light-kick-od-wave-medium-route/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-burnout-light-kick-od-wave-medium-route/frame-1.jpg",
+					"at": 0.35,
+					"label": "Guarded light kick",
+					"alt": "Jamie guards standing light kick in Burnout."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-burnout-light-kick-od-wave-medium-route/frame-2.jpg",
+					"at": 0.85,
+					"label": "Guarded OD Wave",
+					"alt": "OD Power Wave reaches Jamie’s guard."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-burnout-light-kick-od-wave-medium-route/frame-3.jpg",
+					"at": 1.35,
+					"label": "Counter-hit jab",
+					"alt": "Crouching light punch catches the attempted response."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-burnout-light-kick-od-wave-medium-route/frame-4.jpg",
+					"at": 1.85,
+					"label": "Medium link",
+					"alt": "Crouching medium punch follows the counter-hit jab."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/terry/terry-depth-burnout-light-kick-od-wave-medium-route/frame-5.jpg",
+					"at": 2.35,
+					"label": "Medium Power Charge",
+					"alt": "Medium Power Charge launches the confirm."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/terry/terry-depth-burnout-light-kick-od-wave-medium-route/frame-6.jpg",
+					"at": 3.5,
+					"label": "Medium Rising Tackle",
+					"alt": "Medium Rising Tackle completes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-burnout-crouch-jab-double-medium",
+			"terry-depth-burnout-light-kick-light-medium",
+			"terry-depth-burnout-crouch-jab-medium-knuckle"
+		]
+	},
+	{
+		"id": "terry-depth-burnout-jab-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Burnout: guarded jab and walk-in throw",
+		"summary": "After Jamie guards the standing jab, walk into range and throw instead of continuing strikes.",
+		"kind": "setup",
+		"situations": ["Corner", "Burnout pressure", "Block pressure", "Throw"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.LP > Walk forward > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Cornered Jamie is already in Burnout with three drinks; reproduce the shown jab spacing"
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"This is the specific recorded Burnout pressure interaction, not a universal true-blockstring or reversal-proof guarantee. No numerical gap is inferred from the chapter title."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex100-terry-burnout-2024",
+			"title": "SF6: Utilizing Burnout With Terry",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=Kvf3JDhlX8U",
+			"published": "2024-11-18",
+			"start": 283.75,
+			"end": 286.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-burnout-jab-walk-throw/clip.mp4",
+			"poster": "/media/terry/terry-depth-burnout-jab-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-burnout-jab-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-burnout-jab-walk-throw/frame-1.jpg",
+					"at": 0.25,
+					"label": "Guarded standing jab",
+					"alt": "Jamie guards standing light punch in Burnout."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-burnout-jab-walk-throw/frame-2.jpg",
+					"at": 0.75,
+					"label": "Walk-in throw",
+					"alt": "Terry walks forward and starts a normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-burnout-jab-walk-throw/frame-3.jpg",
+					"at": 2.25,
+					"label": "Throw finish",
+					"alt": "The forward throw completes the strike-throw branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-burnout-medium-crack-walk-throw",
+			"terry-depth-burnout-crouch-jab-double-medium",
+			"terry-depth-burnout-light-kick-light-medium"
+		]
+	},
+	{
+		"id": "terry-depth-burnout-medium-crack-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Burnout: guarded medium Crack Shoot into throw",
+		"summary": "Let medium Crack Shoot reach Jamie’s Burnout guard, then walk forward into a normal throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Burnout pressure", "Block pressure", "Throw"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "214MK > Walk forward > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214MK",
+				"label": "214MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Cornered Jamie is already in Burnout with three drinks; match the shown medium-Crack-Shoot spacing"
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"This is the specific recorded Burnout pressure interaction, not a universal true-blockstring or reversal-proof guarantee. No numerical gap is inferred from the chapter title."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex100-terry-burnout-2024",
+			"title": "SF6: Utilizing Burnout With Terry",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=Kvf3JDhlX8U",
+			"published": "2024-11-18",
+			"start": 299.05,
+			"end": 303.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-burnout-medium-crack-walk-throw/clip.mp4",
+			"poster": "/media/terry/terry-depth-burnout-medium-crack-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-burnout-medium-crack-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-burnout-medium-crack-walk-throw/frame-1.jpg",
+					"at": 0.55,
+					"label": "Medium Crack Shoot",
+					"alt": "Terry approaches with medium Crack Shoot."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-burnout-medium-crack-walk-throw/frame-2.jpg",
+					"at": 0.85,
+					"label": "Burnout guard",
+					"alt": "Jamie guards medium Crack Shoot in Burnout."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-burnout-medium-crack-walk-throw/frame-3.jpg",
+					"at": 1.95,
+					"label": "Walk-in throw",
+					"alt": "Terry walks forward and throws after the guarded special."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-burnout-medium-crack-walk-throw/frame-4.jpg",
+					"at": 3.45,
+					"label": "Throw finish",
+					"alt": "The forward throw completes the branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-burnout-jab-walk-throw",
+			"terry-depth-burnout-crouch-jab-double-medium",
+			"terry-depth-burnout-light-kick-light-medium"
+		]
+	},
+	{
+		"id": "terry-depth-low-target-medium-wave-knockdown",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Low Fire Kick target into medium Power Wave",
+		"summary": "Use the low target sequence and medium Power Wave for the source’s +41 knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "BnB"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > 2HK > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "236MP"
+			}
+		],
+		"conditions": ["Classic controls", "Akuma at the recorded midscreen spacing"],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction.",
+			"The heavy-kick input is the target continuation after crouching medium kick, not an unrelated standalone sweep."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "slamugh-terry-oki-2024",
+			"title": "Terry Oki and Frametrap Setups",
+			"creator": "Slamugh",
+			"url": "https://www.youtube.com/watch?v=N0vm6S9RqHs",
+			"published": "2024-10-03",
+			"start": 557.6,
+			"end": 560.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-low-target-medium-wave-knockdown/clip.mp4",
+			"poster": "/media/terry/terry-depth-low-target-medium-wave-knockdown/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-low-target-medium-wave-knockdown/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-low-target-medium-wave-knockdown/frame-1.jpg",
+					"at": 0.25,
+					"label": "Low starter",
+					"alt": "Crouching medium kick starts the low target."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-low-target-medium-wave-knockdown/frame-2.jpg",
+					"at": 0.85,
+					"label": "Fire Kick target",
+					"alt": "Crouching heavy kick follows as the Fire Kick target action."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-low-target-medium-wave-knockdown/frame-3.jpg",
+					"at": 1.3,
+					"label": "Medium Power Wave",
+					"alt": "Medium Power Wave catches Akuma after the target launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-low-target-medium-wave-knockdown/frame-4.jpg",
+					"at": 1.95,
+					"label": "Knockdown",
+					"alt": "Akuma falls; the source frame meter reports +41."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-lights-heavy-rising",
+			"terry-fire-kick-heavy-knuckle",
+			"terry-low-rush-charge-crack-rising"
+		]
+	},
+	{
+		"id": "terry-depth-low-wave-jump-heavy-guard-od",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Low–Wave +41: jump heavy and guard OD DP",
+		"summary": "From the +41 low–Wave knockdown, jump forward with heavy punch and land guarding Akuma’s OD uppercut.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Safe jump", "Reversal bait"],
+		"outcomes": ["Guarded reversal"],
+		"notation": "9 > j.HP > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HP",
+				"label": "j.HP"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.MK > cr.HK target > 236MP knockdown, +41 in this dated Akuma recording",
+			"Akuma performs the shown OD uppercut; this is not a guarantee against every reversal"
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction.",
+			"The loop demonstrates the landing guard only; no punish after the reversal is prescribed."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "slamugh-terry-oki-2024",
+			"title": "Terry Oki and Frametrap Setups",
+			"creator": "Slamugh",
+			"url": "https://www.youtube.com/watch?v=N0vm6S9RqHs",
+			"published": "2024-10-03",
+			"start": 566.1,
+			"end": 568.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-low-wave-jump-heavy-guard-od/clip.mp4",
+			"poster": "/media/terry/terry-depth-low-wave-jump-heavy-guard-od/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-low-wave-jump-heavy-guard-od/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-low-wave-jump-heavy-guard-od/frame-1.jpg",
+					"at": 0.4,
+					"label": "Jump approach",
+					"alt": "Terry jumps forward after the medium-Wave knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-low-wave-jump-heavy-guard-od/frame-2.jpg",
+					"at": 0.85,
+					"label": "Jumping heavy punch",
+					"alt": "Jumping heavy punch is performed before landing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-low-wave-jump-heavy-guard-od/frame-3.jpg",
+					"at": 1.3,
+					"label": "Guard OD uppercut",
+					"alt": "Terry has landed and guards Akuma’s gold OD uppercut."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-low-wave-jump-heavy-guard-od/frame-4.jpg",
+					"at": 2.3,
+					"label": "Guarded recovery",
+					"alt": "Terry remains grounded after the guarded reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-medium-charge-jump-medium-guard-od",
+			"terry-heavy-rising-rush-throw",
+			"terry-depth-heavy-tackle-rush-jab-shimmy"
+		]
+	},
+	{
+		"id": "terry-depth-first-hit-heavy-medium-charge",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "First-hit heavy into medium Charge knockdown",
+		"summary": "Cancel the first heavy-punch hit into medium Power Charge for the source’s +42 knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm", "BnB"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch, first hit",
+				"cue": "Cancel the first hit into the shown special."
+			},
+			{
+				"id": "step-2",
+				"notation": "236MK",
+				"label": "236MK"
+			}
+		],
+		"conditions": ["Classic controls", "Akuma at the recorded midscreen spacing"],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "slamugh-terry-oki-2024",
+			"title": "Terry Oki and Frametrap Setups",
+			"creator": "Slamugh",
+			"url": "https://www.youtube.com/watch?v=N0vm6S9RqHs",
+			"published": "2024-10-03",
+			"start": 574.25,
+			"end": 577.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-first-hit-heavy-medium-charge/clip.mp4",
+			"poster": "/media/terry/terry-depth-first-hit-heavy-medium-charge/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-first-hit-heavy-medium-charge/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-first-hit-heavy-medium-charge/frame-1.jpg",
+					"at": 0.25,
+					"label": "First-hit heavy",
+					"alt": "The first standing-heavy-punch hit connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-first-hit-heavy-medium-charge/frame-2.jpg",
+					"at": 0.75,
+					"label": "Medium Power Charge",
+					"alt": "The yellow kick input identifies medium Power Charge."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-first-hit-heavy-medium-charge/frame-3.jpg",
+					"at": 1.4,
+					"label": "Knockdown",
+					"alt": "Akuma falls after the two-hit route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-first-hit-heavy-medium-charge/frame-4.jpg",
+					"at": 2.35,
+					"label": "Recovery spacing",
+					"alt": "The source frame meter reports +42 at the recorded spacing."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-two-hit-heavy-knuckle",
+			"terry-midscreen-heavy-wave-knuckle",
+			"terry-depth-heavy-tackle-rush-meaty-heavy"
+		]
+	},
+	{
+		"id": "terry-depth-medium-charge-jump-medium-guard-od",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "terry"
+			}
+		],
+		"title": "Medium Charge +42: jump medium and guard OD DP",
+		"summary": "After the first-hit-heavy medium-Charge knockdown, use jumping medium kick and land guarding Akuma’s OD DP.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Safe jump", "Reversal bait"],
+		"outcomes": ["Guarded reversal"],
+		"notation": "9 > j.MK > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.MK",
+				"label": "j.MK"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.HP first-hit cancel > 236MK knockdown, +42 in this dated Akuma recording",
+			"Akuma performs the demonstrated OD uppercut; this is not universal reversal coverage"
+		],
+		"notes": [
+			"Dated training recording; the route and matchup timings have not been retested on the current game patch.",
+			"Source +F values describe remaining advantage, not a wait-frame instruction.",
+			"This is the performed medium-kick branch, identified by the live yellow kick input. No later punish is authored."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "slamugh-terry-oki-2024",
+			"title": "Terry Oki and Frametrap Setups",
+			"creator": "Slamugh",
+			"url": "https://www.youtube.com/watch?v=N0vm6S9RqHs",
+			"published": "2024-10-03",
+			"start": 585.05,
+			"end": 587.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/terry/terry-depth-medium-charge-jump-medium-guard-od/clip.mp4",
+			"poster": "/media/terry/terry-depth-medium-charge-jump-medium-guard-od/frame-1.jpg",
+			"descriptionTrack": "/media/terry/terry-depth-medium-charge-jump-medium-guard-od/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/terry/terry-depth-medium-charge-jump-medium-guard-od/frame-1.jpg",
+					"at": 0.4,
+					"label": "Jump approach",
+					"alt": "Terry jumps forward after medium Power Charge."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/terry/terry-depth-medium-charge-jump-medium-guard-od/frame-2.jpg",
+					"at": 0.9,
+					"label": "Jumping medium kick",
+					"alt": "Terry performs jumping medium kick before landing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/terry/terry-depth-medium-charge-jump-medium-guard-od/frame-3.jpg",
+					"at": 1.15,
+					"label": "Guard OD uppercut",
+					"alt": "Terry lands in time to guard Akuma’s OD uppercut."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/terry/terry-depth-medium-charge-jump-medium-guard-od/frame-4.jpg",
+					"at": 2.4,
+					"label": "Guarded recovery",
+					"alt": "Terry remains grounded as Akuma finishes the reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"terry-depth-low-wave-jump-heavy-guard-od",
+			"terry-heavy-rising-rush-throw",
+			"terry-depth-heavy-tackle-rush-jab-shimmy"
 		]
 	}
 ]

@@ -59,3 +59,63 @@ Names and character-specific resource behavior were checked against [Capcom’s 
 | `SA3`                      | Tiger Vanquisher (Level 3) |
 
 The selected Level 2 take is excluded because the source caption does not establish the Savage Tiger follow-up command. The OD Knee reference is a separate, explicit-strength demonstration.
+
+## Deep expansion
+
+Reviewed 12 November 2026. The collection contains **52 references and 160 selected moments**. All13 original objects, revisions, related links and media remain unchanged.39 additions contain12 combos,19 setups and eight responses.
+
+[Joe Ebios’s March Update guide](https://www.youtube.com/watch?v=KCw6T5PlLCE) was uploaded2026-04-04 UTC, despite its title. Metadata and recording hash are in `content/sources/joe-ebios-sagat-march-2026.json`; exact dispositions for both recordings are in `docs/source-ledgers/sagat.json`.36 additions use this recording and three use the preserved [VesperArcade recording](https://www.youtube.com/watch?v=0P24l4Nu1FE),2025-08-07 UTC. Sources are separately dated; source review is not current-patch gameplay certification.
+
+The additions include a knee/light-uppercut core, shot/raw-Rush target confirms, first-hit heavy-kick cancels, held heavy uppercuts, neutral Level2 and practical Level1/Level3 spending choices. Setups separate light/medium/heavy-uppercut knockdowns, standing-only Greedy Tiger knockdowns, the meterless whiff-medium-knee approach, corner whiff-LK timing and a forward-throw/blocked-Rush-low throw. Overhead, low, throw, shimmy and strike branches each retain their actual prerequisite. The Mighty Tiger branches use standing advantage on hit and are Pressure without an Oki tag. Setup inputs and cost begin after the prerequisite, while the replay retains context.
+
+Eight responses show the actual j.HP/landing-guard result against Ryu OD Shoryuken, a blocked-OD-DP forward-heavy-kick punish, a shot/Rush grounded anti-air, two back-heavy trade conversions, two forward-heavy-kick anti-airs and an air-to-air OD-knee carry. These use recorded opponent actions, not on-reaction or universal safety claims. The costly trade route starts with six Drive bars, performs one raw Rush and two cancel Rushes, and enters burnout; seven is the nominal sum, not starting-gauge capacity. The carry example starts away from the wall and reaches it for OD-knee extension.
+
+Move properties were cross-checked with [Capcom’s character introduction](https://store.steampowered.com/news/posts/?enddate=1752623274&feed=steam_community_announcements): ordinary High Tiger Shot and Greedy Tiger have standing-target restrictions; held heavy uppercut and the four Level2 follow-ups are distinct choices. Footage establishes actual commands, strengths and selected branches. The neutral Level2 take is not silently replaced by a directional follow-up. Three Level1 takes use **cr.MP → st.HK**, confirmed by the actual kick glyph and animation; the other selected target branches use **cr.MP → st.HP**. Numeric +F captions remain dated advantage observations. Intentional framekills include **(whiff)** in compact/copied notation. The jumping-heavy-punch glyph was fine-checked at113.5; the corner medium-uppercut glyph at400.0 resolves an otherwise generic ender caption.
+
+All39 new clips preserve the full1280×720 source, are silent H264 on a zero clock, and use the canonical media helper for exact selected JPEGs and timed VTT descriptions. Every prepared moment and both original clip endpoints are visually reviewed separately from candidate screening; mechanical audit checks full decode, streams, dimensions, clocks, duration, exact JPEG selection and descriptions. Local originals and author tooling remain outside Git.
+
+This is substantial partial extraction. The ledger leaves large medium/heavy/Rush/DI and directional-Level2 sections unprocessed. The uncaptioned corner-throw shimmy extension and Vesper DP-strength alternatives remain ambiguous. No footage-exhaustion claim is made.
+
+### Appended reference index
+
+| Reference                                                                                                           | Type     | Source interval                            |
+| ------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------ |
+| `sagat-depth-back-heavy-knee-light-uppercut` — Back heavy punch into heavy knee and light uppercut                  | combo    | joe-ebios-sagat-march-2026 2.00–7.45       |
+| `sagat-depth-light-uppercut-rush-overhead` — Light-uppercut knockdown: raw Rush overhead                            | setup    | joe-ebios-sagat-march-2026 7.75–16.30      |
+| `sagat-depth-light-uppercut-rush-low` — Light-uppercut knockdown: raw Rush low into knee                            | setup    | joe-ebios-sagat-march-2026 16.65–26.45     |
+| `sagat-depth-back-heavy-shot-rush-target` — Back heavy shot confirm: raw Rush target combo and heavy uppercut       | combo    | joe-ebios-sagat-march-2026 26.65–32.65     |
+| `sagat-depth-heavy-uppercut-rush-medium` — Heavy-uppercut knockdown: Rush medium into back-heavy juggle             | setup    | joe-ebios-sagat-march-2026 32.80–44.55     |
+| `sagat-depth-heavy-uppercut-rush-throw` — Heavy-uppercut knockdown: raw Rush into throw                             | setup    | joe-ebios-sagat-march-2026 57.75–69.00     |
+| `sagat-depth-heavy-uppercut-rush-whiff-shimmy` — Heavy-uppercut knockdown: Rush jab whiff into shimmy               | setup    | joe-ebios-sagat-march-2026 69.65–79.65     |
+| `sagat-depth-back-heavy-target-level-one` — Back-heavy shot/Rush target combo into Level 1                          | combo    | joe-ebios-sagat-march-2026 80.10–88.45     |
+| `sagat-depth-heavy-knee-jump-guard` — Heavy-knee knockdown: jump heavy punch, then guard OD Shoryuken               | response | joe-ebios-sagat-march-2026 108.10–116.35   |
+| `sagat-depth-back-heavy-single-kick-held` — Back heavy Rush confirm: one-hit heavy kick into held uppercut          | combo    | joe-ebios-sagat-march-2026 126.10–135.45   |
+| `sagat-depth-back-heavy-single-kick-cashout` — Back heavy cash-out: delayed Rush pickup into Level 3                | combo    | joe-ebios-sagat-march-2026 158.15–170.45   |
+| `sagat-depth-corner-forward-kick-held` — Corner back heavy: Rush forward heavy kick into held uppercut              | combo    | joe-ebios-sagat-march-2026 209.25–217.55   |
+| `sagat-depth-corner-shot-forward-kick` — Corner shot juggle: forward heavy kick into medium uppercut                | combo    | joe-ebios-sagat-march-2026 251.90–257.65   |
+| `sagat-depth-corner-forward-kick-level-two` — Corner Rush knee route into neutral Level 2                           | combo    | joe-ebios-sagat-march-2026 225.65–239.40   |
+| `sagat-depth-medium-uppercut-rush-light` — Medium-uppercut knockdown: Rush forward light kick                       | setup    | joe-ebios-sagat-march-2026 297.55–305.50   |
+| `sagat-depth-greedy-rush-overhead` — Greedy Tiger knockdown: raw Rush overhead                                      | setup    | joe-ebios-sagat-march-2026 314.05–322.50   |
+| `sagat-depth-greedy-rush-low` — Greedy Tiger knockdown: raw Rush low into back heavy                                | setup    | joe-ebios-sagat-march-2026 322.65–332.45   |
+| `sagat-depth-greedy-rush-throw` — Greedy Tiger knockdown: raw Rush throw                                            | setup    | joe-ebios-sagat-march-2026 332.65–340.45   |
+| `sagat-depth-greedy-rush-shimmy` — Greedy Tiger knockdown: raw Rush shimmy                                          | setup    | joe-ebios-sagat-march-2026 340.65–349.30   |
+| `sagat-depth-greedy-knee-whiff-throw` — Greedy Tiger knockdown: whiff medium knee into throw                        | setup    | joe-ebios-sagat-march-2026 354.05–362.50   |
+| `sagat-depth-greedy-knee-whiff-shimmy` — Greedy Tiger knockdown: whiff medium knee into shimmy                      | setup    | joe-ebios-sagat-march-2026 362.65–371.45   |
+| `sagat-depth-greedy-knee-whiff-low` — Greedy Tiger knockdown: whiff knee into low Nexus confirm                     | setup    | joe-ebios-sagat-march-2026 371.65–379.50   |
+| `sagat-depth-corner-greedy-light-uppercut` — Corner light Nexus confirm into Greedy Tiger and light uppercut        | combo    | joe-ebios-sagat-march-2026 379.65–385.50   |
+| `sagat-depth-corner-uppercut-whiff-light-medium` — Corner light-uppercut knockdown: whiff light kick into medium    | setup    | joe-ebios-sagat-march-2026 392.05–402.55   |
+| `sagat-depth-corner-uppercut-whiff-light-throw` — Corner light-uppercut knockdown: whiff light kick and delay throw | setup    | joe-ebios-sagat-march-2026 402.70–411.50   |
+| `sagat-depth-corner-uppercut-whiff-light-shimmy` — Corner light-uppercut knockdown: whiff light kick into shimmy    | setup    | joe-ebios-sagat-march-2026 411.70–421.55   |
+| `sagat-depth-mighty-standing-throw` — Mighty Tiger standing hit: close throw                                        | setup    | joe-ebios-sagat-march-2026 425.65–433.45   |
+| `sagat-depth-mighty-standing-low` — Mighty Tiger standing hit: low-light Nexus follow-up                            | setup    | joe-ebios-sagat-march-2026 433.65–439.45   |
+| `sagat-depth-counter-jab-medium-uppercut` — Counter-hit crouching jab into medium and heavy uppercut                | combo    | joe-ebios-sagat-march-2026 439.75–444.50   |
+| `sagat-depth-counter-jab-target-level-one` — Counter-hit jab target combo into Level 1                              | combo    | joe-ebios-sagat-march-2026 464.05–470.45   |
+| `sagat-depth-punish-jab-back-heavy-knee` — Point-blank jab Punish Counter into back heavy and knee                  | combo    | joe-ebios-sagat-march-2026 484.80–490.45   |
+| `sagat-depth-anti-air-back-heavy-shot-rush` — Anti-air back heavy: shot into raw-Rush knee conversion               | response | joe-ebios-sagat-march-2026 1115.05–1122.55 |
+| `sagat-depth-anti-air-back-heavy-trade-knee` — Back-heavy anti-air trade: raw-Rush target into heavy knee           | response | joe-ebios-sagat-march-2026 1122.65–1129.20 |
+| `sagat-depth-anti-air-trade-burnout-cashout` — Back-heavy anti-air trade: two Rush cancels into Level 3             | response | joe-ebios-sagat-march-2026 1129.65–1141.10 |
+| `sagat-depth-corner-throw-rush-low-throw` — Corner throw knockdown: Rush low on block into another throw            | setup    | joe-ebios-sagat-march-2026 1209.65–1217.65 |
+| `sagat-depth-anti-air-forward-heavy-level-one` — Anti-air forward heavy kick into Level 1                           | response | vesperarcade-sagat-2025 641.60–646.75      |
+| `sagat-depth-anti-air-forward-heavy-rush-held` — Anti-air forward heavy kick: raw Rush into held uppercut           | response | vesperarcade-sagat-2025 656.60–663.70      |
+| `sagat-depth-air-to-air-heavy-od-carry` — Air-to-air heavy kick: Rush target into OD-knee carry                     | response | vesperarcade-sagat-2025 687.35–694.65      |
+| `sagat-depth-guard-od-dp-forward-heavy-level-one` — Block OD Shoryuken: two forward-heavy kicks into Level 1        | response | joe-ebios-sagat-march-2026 1070.85–1080.45 |

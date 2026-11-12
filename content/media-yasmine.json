@@ -1,5 +1,5 @@
 {
-	"sourceIds": ["vesperarcade-yasmine-2026"],
+	"sourceIds": ["vesperarcade-yasmine-2026", "joe-ebios-yasmine-2026"],
 	"publicationStatus": "private-development",
 	"presentationNote": "Complete source frame retained without crop, including source annotations and game HUD. Original recordings remain outside Git.",
 	"assets": [
@@ -108,6 +108,384 @@
 			"sourceStart": 437.3,
 			"sourceEnd": 442.6,
 			"clip": "/media/yasmine/yasmine-vesper-rush-low-heavy-alon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-medium-alon-walk-throw",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 13.4,
+			"sourceEnd": 20.55,
+			"clip": "/media/yasmine/yasmine-depth-medium-alon-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-medium-alon-shimmy",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 21.2,
+			"sourceEnd": 34.55,
+			"clip": "/media/yasmine/yasmine-depth-medium-alon-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-medium-alon-low-bayani",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 35.3,
+			"sourceEnd": 45.35,
+			"clip": "/media/yasmine/yasmine-depth-medium-alon-low-bayani/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-light-alon-standing-throw",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 51.25,
+			"sourceEnd": 57.3,
+			"clip": "/media/yasmine/yasmine-depth-light-alon-standing-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-light-alon-standing-shimmy",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 57.85,
+			"sourceEnd": 70.35,
+			"clip": "/media/yasmine/yasmine-depth-light-alon-standing-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-light-alon-standing-low-bayani",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 70.8,
+			"sourceEnd": 79.65,
+			"clip": "/media/yasmine/yasmine-depth-light-alon-standing-low-bayani/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-low-od-talim-level-one",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 89.45,
+			"sourceEnd": 97.85,
+			"clip": "/media/yasmine/yasmine-depth-low-od-talim-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-corner-level-one-dash-throw",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 113.9,
+			"sourceEnd": 118.55,
+			"clip": "/media/yasmine/yasmine-depth-corner-level-one-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-corner-level-one-shimmy",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 125.0,
+			"sourceEnd": 136.35,
+			"clip": "/media/yasmine/yasmine-depth-corner-level-one-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-corner-level-one-low",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 143.2,
+			"sourceEnd": 150.15,
+			"clip": "/media/yasmine/yasmine-depth-corner-level-one-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-low-double-od-level-three",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 150.8,
+			"sourceEnd": 167.3,
+			"clip": "/media/yasmine/yasmine-depth-low-double-od-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-corner-od-talim-cover-throw",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 175.2,
+			"sourceEnd": 181.7,
+			"clip": "/media/yasmine/yasmine-depth-corner-od-talim-cover-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-corner-od-talim-cover-medium",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 182.3,
+			"sourceEnd": 188.45,
+			"clip": "/media/yasmine/yasmine-depth-corner-od-talim-cover-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-blocked-medium-heavy-pressure",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 189.25,
+			"sourceEnd": 197.5,
+			"clip": "/media/yasmine/yasmine-depth-blocked-medium-heavy-pressure/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-blocked-medium-delay-throw",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 198.15,
+			"sourceEnd": 206.65,
+			"clip": "/media/yasmine/yasmine-depth-blocked-medium-delay-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-blocked-medium-shimmy-cover",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 207.3,
+			"sourceEnd": 222.15,
+			"clip": "/media/yasmine/yasmine-depth-blocked-medium-shimmy-cover/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-corner-cover-hit-renew",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 222.2,
+			"sourceEnd": 233.3,
+			"clip": "/media/yasmine/yasmine-depth-corner-cover-hit-renew/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-low-rush-heavy-alon",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 233.65,
+			"sourceEnd": 239.65,
+			"clip": "/media/yasmine/yasmine-depth-low-rush-heavy-alon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-heavy-alon-double-dash-throw",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 247.15,
+			"sourceEnd": 255.45,
+			"clip": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-heavy-alon-double-dash-shimmy",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 256.1,
+			"sourceEnd": 271.65,
+			"clip": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-heavy-alon-double-dash-meaty",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 272.15,
+			"sourceEnd": 282.55,
+			"clip": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-meaty/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-raw-rush-overhead-heavy-alon",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 283.45,
+			"sourceEnd": 289.65,
+			"clip": "/media/yasmine/yasmine-depth-raw-rush-overhead-heavy-alon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-low-double-rush-level-three",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 290.2,
+			"sourceEnd": 306.85,
+			"clip": "/media/yasmine/yasmine-depth-low-double-rush-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-guard-drive-reversal-heavy-alon",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 307.65,
+			"sourceEnd": 314.6,
+			"clip": "/media/yasmine/yasmine-depth-guard-drive-reversal-heavy-alon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-heavy-kick-punish-raw-rush",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 324.15,
+			"sourceEnd": 331.45,
+			"clip": "/media/yasmine/yasmine-depth-heavy-kick-punish-raw-rush/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-od-alon-level-two-second-od",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 332.15,
+			"sourceEnd": 344.45,
+			"clip": "/media/yasmine/yasmine-depth-od-alon-level-two-second-od/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-shimmy-heavy-punish-heavy-alon",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 345.85,
+			"sourceEnd": 351.45,
+			"clip": "/media/yasmine/yasmine-depth-shimmy-heavy-punish-heavy-alon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-guard-od-dp-rush-22mp",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 352.25,
+			"sourceEnd": 361.45,
+			"clip": "/media/yasmine/yasmine-depth-guard-od-dp-rush-22mp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-guard-od-dp-22mp-cashout",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 362.25,
+			"sourceEnd": 382.45,
+			"clip": "/media/yasmine/yasmine-depth-guard-od-dp-22mp-cashout/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-bayani-light-alon-knockdown",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 417.45,
+			"sourceEnd": 422.25,
+			"clip": "/media/yasmine/yasmine-depth-bayani-light-alon-knockdown/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-bayani-light-alon-jump-guard",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 422.65,
+			"sourceEnd": 428.65,
+			"clip": "/media/yasmine/yasmine-depth-bayani-light-alon-jump-guard/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-corner-bayani-alon-overhead",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 429.25,
+			"sourceEnd": 438.55,
+			"clip": "/media/yasmine/yasmine-depth-corner-bayani-alon-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-bayani-medium-target-heavy-rise",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 445.7,
+			"sourceEnd": 452.35,
+			"clip": "/media/yasmine/yasmine-depth-bayani-medium-target-heavy-rise/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-bayani-heavy-alon-raw-rush",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 452.75,
+			"sourceEnd": 462.35,
+			"clip": "/media/yasmine/yasmine-depth-bayani-heavy-alon-raw-rush/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-corner-22hp-short-throw",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 473.15,
+			"sourceEnd": 482.45,
+			"clip": "/media/yasmine/yasmine-depth-corner-22hp-short-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-corner-22hp-trade-confirm",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 554.25,
+			"sourceEnd": 565.0,
+			"clip": "/media/yasmine/yasmine-depth-corner-22hp-trade-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-corner-throw-walk-throw",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 572.25,
+			"sourceEnd": 578.55,
+			"clip": "/media/yasmine/yasmine-depth-corner-throw-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-corner-throw-shimmy",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 578.95,
+			"sourceEnd": 586.65,
+			"clip": "/media/yasmine/yasmine-depth-corner-throw-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-corner-throw-low-target",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 587.3,
+			"sourceEnd": 594.65,
+			"clip": "/media/yasmine/yasmine-depth-corner-throw-low-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-counter-di-air-kick-rush",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 597.45,
+			"sourceEnd": 608.35,
+			"clip": "/media/yasmine/yasmine-depth-counter-di-air-kick-rush/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-counter-di-light-kick-side-switch",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 609.35,
+			"sourceEnd": 618.3,
+			"clip": "/media/yasmine/yasmine-depth-counter-di-light-kick-side-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "yasmine-depth-counter-di-dash-medium-talim",
+			"sourceId": "joe-ebios-yasmine-2026",
+			"sourceStart": 618.7,
+			"sourceEnd": 628.35,
+			"clip": "/media/yasmine/yasmine-depth-counter-di-dash-medium-talim/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

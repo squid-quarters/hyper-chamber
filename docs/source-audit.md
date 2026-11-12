@@ -57,6 +57,6 @@ All entries remain source-reviewed with `gameVersion: null`. Later work should v
 
 ## Provenance and publication
 
-The GitHub repository starts private. `content/media.json` records the excerpts as private development assets, with public redistribution not assessed. No media license or creator permission is implied by downloading the user-selected source or by licensing the application code. Keep that publishing decision separate from source review and in-game verification.
+The GitHub repository is public. Prepared-media manifests, including `content/media.json`, label excerpts as private development assets, with public redistribution not assessed. Newly prepared excerpts remain local pending the publication decision. No media license or creator permission is implied by downloading the user-selected source or by licensing the application code. Keep that publishing decision separate from source review and in-game verification.
 
 SF6 Lab remains an outbound resource for guides and broader reference: [Dhalsim overview](https://sf6-lab.net/en/fighters/dhalsim). Its content was not copied into the initial cards.

@@ -1695,5 +1695,2378 @@
 			"ed-medium-blitz-rush-throw",
 			"ed-medium-blitz-rush-crouching-kick"
 		]
+	},
+	{
+		"id": "ed-depth-medium-blitz-rush-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Medium Blitz: Rush shimmy and Chaser conversion",
+		"summary": "After the light-confirm medium-Blitz knockdown, Rush in, retreat from Ryu’s throw and convert heavy-punch punish counter.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "Drive Rush > Walk back > st.HP > KK > 6P (late) > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P (late)",
+				"label": "Kill Switch Chaser",
+				"cue": "Use the late forward-punch follow-up for Kill Switch Chaser; early forward punch selects the different Break follow-up."
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: 2LP > 2LP > st.LP > 214MP, captioned +39. The loop begins after that knockdown, at the shown midscreen spacing."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 15.5,
+			"end": 21.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-medium-blitz-rush-shimmy/clip.mp4",
+			"poster": "/media/ed/ed-depth-medium-blitz-rush-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-medium-blitz-rush-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-medium-blitz-rush-shimmy/frame-1.jpg",
+					"at": 0.65,
+					"label": "Rush and retreat",
+					"alt": "Ed moves in with Drive Rush before retreating from Ryu’s throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-medium-blitz-rush-shimmy/frame-2.jpg",
+					"at": 1.1,
+					"label": "Punish counter",
+					"alt": "Standing heavy punch punishes the missed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-medium-blitz-rush-shimmy/frame-3.jpg",
+					"at": 2.5,
+					"label": "Chaser",
+					"alt": "The late forward-punch follow-up launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-medium-blitz-rush-shimmy/frame-4.jpg",
+					"at": 3.5,
+					"label": "Heavy Blitz",
+					"alt": "Heavy Psycho Blitz finishes the punish conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-heavy-blitz-rush-shimmy",
+			"ed-depth-crouch-medium-blitz-rush-shimmy",
+			"ed-depth-medium-uppercut-rush-shimmy"
+		]
+	},
+	{
+		"id": "ed-depth-corner-medium-blitz-spark-block",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Corner medium Blitz: jab frame kill, blocked Spark",
+		"summary": "Whiff crouching jab after the +39 corner knockdown and time light Psycho Spark into Ryu’s guard.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Block pressure"],
+		"outcomes": ["Block pressure"],
+		"notation": "2LP (whiff) > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP (whiff)",
+				"label": "2LP (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "236LP",
+				"label": "236LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner 2LP > 2LP > st.LP > 214MP knockdown, captioned +39. Begin at the demonstrated recovery spacing."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames.",
+			"Only Spark is executed; the caption’s later throw, shimmy and medium-punch alternatives are not demonstrated here."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 34.25,
+			"end": 37.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-corner-medium-blitz-spark-block/clip.mp4",
+			"poster": "/media/ed/ed-depth-corner-medium-blitz-spark-block/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-corner-medium-blitz-spark-block/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-corner-medium-blitz-spark-block/frame-1.jpg",
+					"at": 0.35,
+					"label": "Frame kill",
+					"alt": "Crouching light punch intentionally misses over the knocked-down Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-corner-medium-blitz-spark-block/frame-2.jpg",
+					"at": 0.8,
+					"label": "Meaty Spark",
+					"alt": "Light Psycho Spark reaches Ryu as he guards."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-corner-medium-blitz-spark-block/frame-3.jpg",
+					"at": 1.15,
+					"label": "Block result",
+					"alt": "The training HUD reports +5 after the blocked Spark."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-corner-crouch-medium-blitz-spark-block",
+			"ed-corner-medium-blitz-heavy-frame-kill-throw",
+			"ed-corner-medium-blitz-meaty-medium"
+		]
+	},
+	{
+		"id": "ed-depth-corner-medium-blitz-spark-hit",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Corner medium Blitz: Spark hit into Chaser uppercut",
+		"summary": "The hit branch after the whiffed jab links standing heavy punch, Chaser and heavy Uppercut.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "2LP (whiff) > 236LP > st.HP > KK > 6P (late) > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP (whiff)",
+				"label": "2LP (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "236LP",
+				"label": "236LP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P (late)",
+				"label": "Kill Switch Chaser",
+				"cue": "Use the late forward-punch follow-up for Kill Switch Chaser; early forward punch selects the different Break follow-up."
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner 2LP > 2LP > st.LP > 214MP knockdown, captioned +39. Begin at the demonstrated recovery spacing."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 40.3,
+			"end": 46.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-corner-medium-blitz-spark-hit/clip.mp4",
+			"poster": "/media/ed/ed-depth-corner-medium-blitz-spark-hit/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-corner-medium-blitz-spark-hit/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-corner-medium-blitz-spark-hit/frame-1.jpg",
+					"at": 0.5,
+					"label": "Jab frame kill",
+					"alt": "Crouching light punch intentionally misses while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-corner-medium-blitz-spark-hit/frame-2.jpg",
+					"at": 1.2,
+					"label": "Spark hits",
+					"alt": "Light Psycho Spark connects on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-corner-medium-blitz-spark-hit/frame-3.jpg",
+					"at": 1.5,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch follows Spark."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-corner-medium-blitz-spark-hit/frame-4.jpg",
+					"at": 3.35,
+					"label": "Uppercut finish",
+					"alt": "Heavy Psycho Uppercut catches the Chaser juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-corner-medium-blitz-heavy-frame-kill-throw",
+			"ed-corner-medium-blitz-meaty-medium",
+			"ed-depth-corner-medium-blitz-spark-block"
+		]
+	},
+	{
+		"id": "ed-depth-corner-medium-blitz-heavy-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Corner medium Blitz: whiff heavy, shimmy and punish",
+		"summary": "Whiff standing heavy punch as the frame kill, retreat from the throw and punish with a second heavy punch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.HP (whiff) > Walk back > st.HP > KK > 6P (late) > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP (whiff)",
+				"label": "st.HP (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P (late)",
+				"label": "Kill Switch Chaser",
+				"cue": "Use the late forward-punch follow-up for Kill Switch Chaser; early forward punch selects the different Break follow-up."
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner 2LP > 2LP > st.LP > 214MP knockdown, captioned +39. Begin at the demonstrated recovery spacing."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 60.35,
+			"end": 66.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-corner-medium-blitz-heavy-shimmy/clip.mp4",
+			"poster": "/media/ed/ed-depth-corner-medium-blitz-heavy-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-corner-medium-blitz-heavy-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-corner-medium-blitz-heavy-shimmy/frame-1.jpg",
+					"at": 0.45,
+					"label": "Frame kill",
+					"alt": "Standing heavy punch intentionally misses during the knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-corner-medium-blitz-heavy-shimmy/frame-2.jpg",
+					"at": 0.95,
+					"label": "Throw bait",
+					"alt": "Ryu misses a throw as Ed retreats."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-corner-medium-blitz-heavy-shimmy/frame-3.jpg",
+					"at": 1.35,
+					"label": "Heavy punish",
+					"alt": "The second standing heavy punch scores punish counter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-corner-medium-blitz-heavy-shimmy/frame-4.jpg",
+					"at": 3.75,
+					"label": "Blitz finish",
+					"alt": "Heavy Psycho Blitz completes the Chaser route."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-medium-blitz-rush-shimmy",
+			"ed-depth-heavy-blitz-rush-shimmy",
+			"ed-depth-crouch-medium-blitz-rush-shimmy"
+		]
+	},
+	{
+		"id": "ed-depth-heavy-blitz-jump-guard-ryu-od",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Heavy Blitz: jump heavy, land and guard Ryu OD DP",
+		"summary": "The +42 target-combo knockdown demonstrates jump heavy punch and a landing block against Ryu’s OD uppercut.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Safe jump", "Reversal bait"],
+		"outcomes": ["Blocked reversal"],
+		"notation": "9 > j.HP > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HP",
+				"label": "j.HP"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.MP > st.HP > 214HP knockdown, captioned +42. The loop begins after that midscreen knockdown.",
+			"Ryu’s OD uppercut is the recorded reversal; no universal reversal or Super safety is implied."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 85.0,
+			"end": 88.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-heavy-blitz-jump-guard-ryu-od/clip.mp4",
+			"poster": "/media/ed/ed-depth-heavy-blitz-jump-guard-ryu-od/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-heavy-blitz-jump-guard-ryu-od/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-heavy-blitz-jump-guard-ryu-od/frame-1.jpg",
+					"at": 0.75,
+					"label": "Jump heavy punch",
+					"alt": "Ed performs the jumping heavy punch toward Ryu’s wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-heavy-blitz-jump-guard-ryu-od/frame-2.jpg",
+					"at": 1.1,
+					"label": "Landing guard",
+					"alt": "Ed has landed and blocks the gold OD uppercut."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-heavy-blitz-jump-guard-ryu-od/frame-3.jpg",
+					"at": 1.7,
+					"label": "Blocked reversal",
+					"alt": "Ryu’s OD uppercut continues while Ed remains grounded."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-medium-blitz-rush-throw",
+			"ed-medium-blitz-rush-crouching-kick",
+			"ed-target-blitz-kill-rush-throw"
+		]
+	},
+	{
+		"id": "ed-depth-heavy-blitz-rush-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Heavy Blitz: Kill Rush shimmy and punish",
+		"summary": "Use Kill Rush after the +42 heavy-Blitz knockdown, retreat from Ryu’s throw and punish with the Chaser route.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "KK > Walk back > st.HP > KK > 6P (late) > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P (late)",
+				"label": "Kill Switch Chaser",
+				"cue": "Use the late forward-punch follow-up for Kill Switch Chaser; early forward punch selects the different Break follow-up."
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.MP > st.HP > 214HP knockdown, captioned +42. The loop begins after that midscreen knockdown."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 102.8,
+			"end": 109.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-heavy-blitz-rush-shimmy/clip.mp4",
+			"poster": "/media/ed/ed-depth-heavy-blitz-rush-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-heavy-blitz-rush-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-heavy-blitz-rush-shimmy/frame-1.jpg",
+					"at": 0.55,
+					"label": "Kill Rush",
+					"alt": "Ed closes distance after the heavy-Blitz knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-heavy-blitz-rush-shimmy/frame-2.jpg",
+					"at": 0.95,
+					"label": "Throw misses",
+					"alt": "Ryu’s throw misses at Ed’s retreat spacing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-heavy-blitz-rush-shimmy/frame-3.jpg",
+					"at": 1.2,
+					"label": "Punish counter",
+					"alt": "Standing heavy punch punishes the throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-heavy-blitz-rush-shimmy/frame-4.jpg",
+					"at": 3.55,
+					"label": "Heavy Blitz",
+					"alt": "Heavy Psycho Blitz finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-medium-blitz-rush-shimmy",
+			"ed-depth-crouch-medium-blitz-rush-shimmy",
+			"ed-depth-medium-uppercut-rush-shimmy"
+		]
+	},
+	{
+		"id": "ed-depth-heavy-blitz-rush-meaty-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Heavy Blitz: Kill Rush heavy into target combo",
+		"summary": "Kill Rush sets up a meaty heavy punch that links the medium-heavy target chain back into heavy Blitz.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "KK > st.HP > st.MP > st.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Meaty heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.MP > st.HP > 214HP knockdown, captioned +42. The loop begins after that midscreen knockdown."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 111.85,
+			"end": 117.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-heavy-blitz-rush-meaty-heavy/clip.mp4",
+			"poster": "/media/ed/ed-depth-heavy-blitz-rush-meaty-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-heavy-blitz-rush-meaty-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-heavy-blitz-rush-meaty-heavy/frame-1.jpg",
+					"at": 0.55,
+					"label": "Close distance",
+					"alt": "Kill Rush brings Ed toward the recovering Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-heavy-blitz-rush-meaty-heavy/frame-2.jpg",
+					"at": 1.15,
+					"label": "Meaty heavy punch",
+					"alt": "Standing heavy punch connects on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-heavy-blitz-rush-meaty-heavy/frame-3.jpg",
+					"at": 2.0,
+					"label": "Target chain",
+					"alt": "The medium-heavy target chain follows the meaty heavy."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-heavy-blitz-rush-meaty-heavy/frame-4.jpg",
+					"at": 2.85,
+					"label": "Heavy Blitz",
+					"alt": "Heavy Psycho Blitz restores the shown knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-medium-blitz-rush-throw",
+			"ed-medium-blitz-rush-crouching-kick",
+			"ed-target-blitz-kill-rush-throw"
+		]
+	},
+	{
+		"id": "ed-depth-crouching-medium-pair-heavy-blitz",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Crouching medium pair into heavy Blitz",
+		"summary": "Crouching medium kick links crouching medium punch and heavy Blitz for the source’s +40 knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "BnB"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > 2MP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames.",
+			"Ed’s crouching medium kick is the shown body-punch animation; the source HUD labels this starter High, so it is not tagged as a low confirm."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 117.65,
+			"end": 121.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-crouching-medium-pair-heavy-blitz/clip.mp4",
+			"poster": "/media/ed/ed-depth-crouching-medium-pair-heavy-blitz/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-crouching-medium-pair-heavy-blitz/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-crouching-medium-pair-heavy-blitz/frame-1.jpg",
+					"at": 0.55,
+					"label": "Crouching starter",
+					"alt": "Crouching medium kick starts the meterless route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-crouching-medium-pair-heavy-blitz/frame-2.jpg",
+					"at": 1.25,
+					"label": "Medium-punch link",
+					"alt": "Crouching medium punch follows the starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-crouching-medium-pair-heavy-blitz/frame-3.jpg",
+					"at": 1.95,
+					"label": "Heavy Blitz",
+					"alt": "Heavy Psycho Blitz launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-crouching-medium-pair-heavy-blitz/frame-4.jpg",
+					"at": 2.45,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the heavy-Blitz ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-medium-light-medium-uppercut",
+			"ed-lights-medium-blitz",
+			"ed-medium-blitz-rush-throw"
+		]
+	},
+	{
+		"id": "ed-depth-crouch-medium-blitz-rush-delay-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Crouching-medium Blitz: Kill Rush, delayed throw",
+		"summary": "After the crouching-medium pair’s +40 knockdown, Kill Rush leads into the demonstrated delayed throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw"],
+		"outcomes": ["Knockdown"],
+		"notation": "KK > Delay > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: 2MK > 2MP > 214HP knockdown, captioned +40. The loop begins after that midscreen knockdown."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames.",
+			"The source explicitly labels this a delayed throw but does not give a verified delay-frame count."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 129.75,
+			"end": 133.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-crouch-medium-blitz-rush-delay-throw/clip.mp4",
+			"poster": "/media/ed/ed-depth-crouch-medium-blitz-rush-delay-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-crouch-medium-blitz-rush-delay-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-crouch-medium-blitz-rush-delay-throw/frame-1.jpg",
+					"at": 0.5,
+					"label": "Kill Rush",
+					"alt": "Ed moves in as Ryu recovers from heavy Blitz."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-crouch-medium-blitz-rush-delay-throw/frame-2.jpg",
+					"at": 1.05,
+					"label": "Throw timing",
+					"alt": "Ed waits briefly before the throw attempt."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-crouch-medium-blitz-rush-delay-throw/frame-3.jpg",
+					"at": 1.75,
+					"label": "Throw connects",
+					"alt": "The forward throw catches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-crouch-medium-blitz-rush-delay-throw/frame-4.jpg",
+					"at": 2.75,
+					"label": "Throw knockdown",
+					"alt": "Ryu is thrown down at midscreen."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-medium-uppercut-rush-delay-throw",
+			"ed-medium-blitz-rush-throw",
+			"ed-medium-blitz-rush-crouching-kick"
+		]
+	},
+	{
+		"id": "ed-depth-crouch-medium-blitz-rush-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Crouching-medium Blitz: Kill Rush shimmy",
+		"summary": "The +40 knockdown has its own Kill Rush retreat spacing before heavy-punch punish counter and Chaser.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "KK > Walk back > st.HP > KK > 6P (late) > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P (late)",
+				"label": "Kill Switch Chaser",
+				"cue": "Use the late forward-punch follow-up for Kill Switch Chaser; early forward punch selects the different Break follow-up."
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: 2MK > 2MP > 214HP knockdown, captioned +40. The loop begins after that midscreen knockdown."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 136.6,
+			"end": 142.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-crouch-medium-blitz-rush-shimmy/clip.mp4",
+			"poster": "/media/ed/ed-depth-crouch-medium-blitz-rush-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-crouch-medium-blitz-rush-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-crouch-medium-blitz-rush-shimmy/frame-1.jpg",
+					"at": 0.5,
+					"label": "Kill Rush",
+					"alt": "Ed closes the knockdown distance."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-crouch-medium-blitz-rush-shimmy/frame-2.jpg",
+					"at": 0.95,
+					"label": "Throw bait",
+					"alt": "Ryu’s throw reaches short as Ed retreats."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-crouch-medium-blitz-rush-shimmy/frame-3.jpg",
+					"at": 1.45,
+					"label": "Punish counter",
+					"alt": "Standing heavy punch punishes the missed throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-crouch-medium-blitz-rush-shimmy/frame-4.jpg",
+					"at": 3.75,
+					"label": "Heavy Blitz",
+					"alt": "The Chaser conversion finishes in heavy Blitz."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-medium-blitz-rush-shimmy",
+			"ed-depth-heavy-blitz-rush-shimmy",
+			"ed-depth-medium-uppercut-rush-shimmy"
+		]
+	},
+	{
+		"id": "ed-depth-crouch-medium-blitz-rush-meaty-crouch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Crouching-medium Blitz: meaty medium into repeat link",
+		"summary": "Kill Rush sets up a late crouching medium kick that links a second crouching medium kick, medium punch and heavy Blitz.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "KK > 2MK > 2MK > 2MP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MK",
+				"label": "Meaty crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: 2MK > 2MP > 214HP knockdown, captioned +40. The loop begins after that midscreen knockdown."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 145.5,
+			"end": 150.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-crouch-medium-blitz-rush-meaty-crouch/clip.mp4",
+			"poster": "/media/ed/ed-depth-crouch-medium-blitz-rush-meaty-crouch/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-crouch-medium-blitz-rush-meaty-crouch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-crouch-medium-blitz-rush-meaty-crouch/frame-1.jpg",
+					"at": 0.6,
+					"label": "Kill Rush",
+					"alt": "Ed approaches during the +40 knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-crouch-medium-blitz-rush-meaty-crouch/frame-2.jpg",
+					"at": 1.15,
+					"label": "Meaty starter",
+					"alt": "The first crouching medium kick connects on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-crouch-medium-blitz-rush-meaty-crouch/frame-3.jpg",
+					"at": 1.65,
+					"label": "Second medium",
+					"alt": "A second crouching medium kick links after the meaty hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-crouch-medium-blitz-rush-meaty-crouch/frame-4.jpg",
+					"at": 2.9,
+					"label": "Blitz ender",
+					"alt": "Heavy Psycho Blitz ends the crouching-medium chain."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-medium-blitz-rush-throw",
+			"ed-medium-blitz-rush-crouching-kick",
+			"ed-target-blitz-kill-rush-throw"
+		]
+	},
+	{
+		"id": "ed-depth-corner-crouch-medium-blitz-spark-block",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Corner crouching-medium Blitz: jab kill into Spark guard",
+		"summary": "The +40 corner knockdown changes the timing of the same jab frame kill and light-Spark pressure check.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Block pressure"],
+		"outcomes": ["Block pressure"],
+		"notation": "2LP (whiff) > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP (whiff)",
+				"label": "2LP (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "236LP",
+				"label": "236LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner 2MK > 2MP > 214HP knockdown, captioned +40. Begin at the shown recovery spacing."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames.",
+			"Only the blocked Spark is shown. Do not treat caption-only throw, shimmy or medium-punch choices as executed follow-ups."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 153.65,
+			"end": 156.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-block/clip.mp4",
+			"poster": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-block/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-block/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-block/frame-1.jpg",
+					"at": 0.45,
+					"label": "Frame kill",
+					"alt": "Crouching light punch intentionally whiffs during the corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-block/frame-2.jpg",
+					"at": 0.85,
+					"label": "Spark guarded",
+					"alt": "Ryu guards light Psycho Spark on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-block/frame-3.jpg",
+					"at": 1.35,
+					"label": "Block result",
+					"alt": "The HUD reports +6 after this blocked Spark timing."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-corner-medium-blitz-spark-block",
+			"ed-corner-medium-blitz-heavy-frame-kill-throw",
+			"ed-corner-medium-blitz-meaty-medium"
+		]
+	},
+	{
+		"id": "ed-depth-corner-crouch-medium-blitz-spark-hit",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Corner crouching-medium Blitz: Spark into Uppercut",
+		"summary": "After the +40 knockdown, the jab frame kill and Spark hit link heavy punch to the Chaser heavy-Uppercut juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "2LP (whiff) > 236LP > st.HP > KK > 6P (late) > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP (whiff)",
+				"label": "2LP (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "236LP",
+				"label": "236LP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P (late)",
+				"label": "Kill Switch Chaser",
+				"cue": "Use the late forward-punch follow-up for Kill Switch Chaser; early forward punch selects the different Break follow-up."
+			},
+			{
+				"id": "step-6",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner 2MK > 2MP > 214HP knockdown, captioned +40. Begin at the shown recovery spacing."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 159.1,
+			"end": 164.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-hit/clip.mp4",
+			"poster": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-hit/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-hit/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-hit/frame-1.jpg",
+					"at": 0.5,
+					"label": "Frame kill",
+					"alt": "Crouching light punch misses while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-hit/frame-2.jpg",
+					"at": 0.9,
+					"label": "Spark hits",
+					"alt": "Light Psycho Spark connects on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-hit/frame-3.jpg",
+					"at": 1.3,
+					"label": "Heavy-punch link",
+					"alt": "Standing heavy punch continues after Spark."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-corner-crouch-medium-blitz-spark-hit/frame-4.jpg",
+					"at": 3.0,
+					"label": "Heavy Uppercut",
+					"alt": "Heavy Psycho Uppercut catches Ryu after Chaser."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-corner-medium-blitz-heavy-frame-kill-throw",
+			"ed-corner-medium-blitz-meaty-medium",
+			"ed-depth-corner-medium-blitz-spark-block"
+		]
+	},
+	{
+		"id": "ed-depth-medium-light-medium-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Medium punch, crouching light kick, medium Uppercut",
+		"summary": "Link crouching light kick after standing medium punch and finish with medium Psycho Uppercut.",
+		"kind": "combo",
+		"situations": ["Midscreen", "BnB"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > 2LK > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LK",
+				"label": "2LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "623MP",
+				"label": "623MP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 165.3,
+			"end": 169.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-medium-light-medium-uppercut/clip.mp4",
+			"poster": "/media/ed/ed-depth-medium-light-medium-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-medium-light-medium-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-medium-light-medium-uppercut/frame-1.jpg",
+					"at": 0.85,
+					"label": "Medium punch",
+					"alt": "Standing medium punch starts the close-range confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-medium-light-medium-uppercut/frame-2.jpg",
+					"at": 1.35,
+					"label": "Crouching light kick",
+					"alt": "Crouching light kick links after the medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-medium-light-medium-uppercut/frame-3.jpg",
+					"at": 1.8,
+					"label": "Medium Uppercut",
+					"alt": "Medium Psycho Uppercut launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-medium-light-medium-uppercut/frame-4.jpg",
+					"at": 2.75,
+					"label": "Knockdown",
+					"alt": "Ryu lands at the +39 knockdown spacing used by the next setups."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-crouching-medium-pair-heavy-blitz",
+			"ed-lights-medium-blitz",
+			"ed-medium-blitz-rush-throw"
+		]
+	},
+	{
+		"id": "ed-depth-medium-uppercut-rush-delay-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Medium Uppercut: Kill Rush delayed throw",
+		"summary": "The medium-Uppercut knockdown uses Kill Rush before the demonstrated delayed throw branch.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw"],
+		"outcomes": ["Knockdown"],
+		"notation": "KK > Delay > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.MP > 2LK > 623MP knockdown, captioned +39. The loop begins after that midscreen knockdown."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames.",
+			"The source labels a delayed throw; no exact delay count is supplied."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 176.8,
+			"end": 180.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-medium-uppercut-rush-delay-throw/clip.mp4",
+			"poster": "/media/ed/ed-depth-medium-uppercut-rush-delay-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-medium-uppercut-rush-delay-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-medium-uppercut-rush-delay-throw/frame-1.jpg",
+					"at": 0.4,
+					"label": "Kill Rush",
+					"alt": "Ed closes distance after medium Psycho Uppercut."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-medium-uppercut-rush-delay-throw/frame-2.jpg",
+					"at": 0.95,
+					"label": "Throw timing",
+					"alt": "Ed reaches the throw spacing as Ryu recovers."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-medium-uppercut-rush-delay-throw/frame-3.jpg",
+					"at": 1.7,
+					"label": "Throw hits",
+					"alt": "The forward throw connects."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-medium-uppercut-rush-delay-throw/frame-4.jpg",
+					"at": 2.8,
+					"label": "Throw knockdown",
+					"alt": "Ryu lands after the throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-crouch-medium-blitz-rush-delay-throw",
+			"ed-medium-blitz-rush-throw",
+			"ed-medium-blitz-rush-crouching-kick"
+		]
+	},
+	{
+		"id": "ed-depth-medium-uppercut-rush-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Medium Uppercut: Kill Rush shimmy conversion",
+		"summary": "Kill Rush after medium Uppercut leads to a throw bait and a heavy-punch Chaser punish.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "KK > Walk back > st.HP > KK > 6P (late) > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P (late)",
+				"label": "Kill Switch Chaser",
+				"cue": "Use the late forward-punch follow-up for Kill Switch Chaser; early forward punch selects the different Break follow-up."
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.MP > 2LK > 623MP knockdown, captioned +39. The loop begins after that midscreen knockdown."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 183.8,
+			"end": 189.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-medium-uppercut-rush-shimmy/clip.mp4",
+			"poster": "/media/ed/ed-depth-medium-uppercut-rush-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-medium-uppercut-rush-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-medium-uppercut-rush-shimmy/frame-1.jpg",
+					"at": 0.45,
+					"label": "Kill Rush",
+					"alt": "Ed approaches as Ryu recovers from medium Uppercut."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-medium-uppercut-rush-shimmy/frame-2.jpg",
+					"at": 0.95,
+					"label": "Throw misses",
+					"alt": "Ryu reaches for a throw as Ed retreats."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-medium-uppercut-rush-shimmy/frame-3.jpg",
+					"at": 1.2,
+					"label": "Punish counter",
+					"alt": "Standing heavy punch punishes the throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-medium-uppercut-rush-shimmy/frame-4.jpg",
+					"at": 3.6,
+					"label": "Heavy Blitz",
+					"alt": "Heavy Psycho Blitz ends the Chaser conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-medium-blitz-rush-shimmy",
+			"ed-depth-heavy-blitz-rush-shimmy",
+			"ed-depth-crouch-medium-blitz-rush-shimmy"
+		]
+	},
+	{
+		"id": "ed-depth-medium-uppercut-rush-meaty-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Medium Uppercut: Kill Rush meaty medium chain",
+		"summary": "Use the Uppercut knockdown to link a meaty medium punch into a second medium punch, heavy target hit and heavy Blitz.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "KK > st.MP > st.MP > st.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Meaty medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.MP > 2LK > 623MP knockdown, captioned +39. The loop begins after that midscreen knockdown."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 192.6,
+			"end": 197.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-medium-uppercut-rush-meaty-medium/clip.mp4",
+			"poster": "/media/ed/ed-depth-medium-uppercut-rush-meaty-medium/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-medium-uppercut-rush-meaty-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-medium-uppercut-rush-meaty-medium/frame-1.jpg",
+					"at": 0.6,
+					"label": "Kill Rush",
+					"alt": "Ed advances during the medium-Uppercut knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-medium-uppercut-rush-meaty-medium/frame-2.jpg",
+					"at": 1.3,
+					"label": "Meaty medium",
+					"alt": "The first standing medium punch catches wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-medium-uppercut-rush-meaty-medium/frame-3.jpg",
+					"at": 1.8,
+					"label": "Second medium",
+					"alt": "The next medium punch begins the medium-heavy target chain."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-medium-uppercut-rush-meaty-medium/frame-4.jpg",
+					"at": 3.0,
+					"label": "Heavy Blitz",
+					"alt": "Heavy Psycho Blitz completes the wake-up conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-medium-blitz-rush-throw",
+			"ed-medium-blitz-rush-crouching-kick",
+			"ed-target-blitz-kill-rush-throw"
+		]
+	},
+	{
+		"id": "ed-depth-target-chaser-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Medium-heavy target: Chaser into Level 1",
+		"summary": "Cancel the medium-heavy target chain into late Chaser and spend one Super on Psycho Storm.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Super ender"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > st.HP > KK > 6P (late) > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-3",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-4",
+				"notation": "6P (late)",
+				"label": "Kill Switch Chaser",
+				"cue": "Use the late forward-punch follow-up for Kill Switch Chaser; early forward punch selects the different Break follow-up."
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "SA1"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "1 Super bar (SA1)"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 198.65,
+			"end": 205.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-target-chaser-level-one/clip.mp4",
+			"poster": "/media/ed/ed-depth-target-chaser-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-target-chaser-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-target-chaser-level-one/frame-1.jpg",
+					"at": 0.35,
+					"label": "Target starter",
+					"alt": "Standing medium punch starts the medium-heavy target chain."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-target-chaser-level-one/frame-2.jpg",
+					"at": 1.35,
+					"label": "Chaser",
+					"alt": "Kill Switch Chaser launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-target-chaser-level-one/frame-3.jpg",
+					"at": 2.35,
+					"label": "Level 1",
+					"alt": "Ed activates Psycho Storm after the launcher."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-target-chaser-level-one/frame-4.jpg",
+					"at": 4.85,
+					"label": "Super finish",
+					"alt": "The Level 1 juggle reaches its final hit."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-od-flicker-heavy-break-level-one",
+			"ed-lights-medium-blitz",
+			"ed-medium-blitz-rush-throw"
+		]
+	},
+	{
+		"id": "ed-depth-od-flicker-heavy-break-blitz",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Heavy punch: OD Flicker, heavy Flicker, Break and Blitz",
+		"summary": "OD Flicker launches for heavy Flicker; cancel into forward Kill Rush and its early Break follow-up before heavy Blitz.",
+		"kind": "combo",
+		"situations": ["Midscreen", "OD conversion"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > 236KK > 236HK > KK > 6P (early) > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P (early)",
+				"label": "Kill Switch Break",
+				"cue": "Use the early forward-punch follow-up, not late Chaser."
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD special)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 218.0,
+			"end": 224.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-od-flicker-heavy-break-blitz/clip.mp4",
+			"poster": "/media/ed/ed-depth-od-flicker-heavy-break-blitz/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-od-flicker-heavy-break-blitz/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-od-flicker-heavy-break-blitz/frame-1.jpg",
+					"at": 0.55,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch connects before OD Psycho Flicker."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-od-flicker-heavy-break-blitz/frame-2.jpg",
+					"at": 1.5,
+					"label": "OD Flicker",
+					"alt": "OD Psycho Flicker pulls Ryu into the launch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-od-flicker-heavy-break-blitz/frame-3.jpg",
+					"at": 2.15,
+					"label": "Heavy Flicker",
+					"alt": "Heavy Psycho Flicker continues the juggle before the Rush cancel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-od-flicker-heavy-break-blitz/frame-4.jpg",
+					"at": 3.55,
+					"label": "Blitz finish",
+					"alt": "Heavy Psycho Blitz follows the early Break launcher."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-od-flicker-heavy-break-level-one",
+			"ed-depth-od-blitz-cannon-double-uppercut",
+			"ed-lights-medium-blitz"
+		]
+	},
+	{
+		"id": "ed-depth-od-flicker-heavy-break-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "OD Flicker: heavy Flicker, Break into Level 1",
+		"summary": "The OD-Flicker heavy-Flicker route replaces Blitz with a Level 1 finish after early Kill Switch Break.",
+		"kind": "combo",
+		"situations": ["Midscreen", "OD conversion", "Super ender"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > 236KK > 236HK > KK > 6P (early) > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P (early)",
+				"label": "Kill Switch Break",
+				"cue": "Use the early forward-punch follow-up."
+			},
+			{
+				"id": "step-6",
+				"notation": "SA1",
+				"label": "SA1"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD special)",
+			"super": "1 Super bar (SA1)"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 224.7,
+			"end": 233.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-od-flicker-heavy-break-level-one/clip.mp4",
+			"poster": "/media/ed/ed-depth-od-flicker-heavy-break-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-od-flicker-heavy-break-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-od-flicker-heavy-break-level-one/frame-1.jpg",
+					"at": 0.75,
+					"label": "OD Flicker",
+					"alt": "OD Psycho Flicker follows standing heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-od-flicker-heavy-break-level-one/frame-2.jpg",
+					"at": 2.2,
+					"label": "Heavy Flicker",
+					"alt": "Heavy Psycho Flicker catches the juggle before the Rush cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-od-flicker-heavy-break-level-one/frame-3.jpg",
+					"at": 2.8,
+					"label": "Early Break",
+					"alt": "The early forward-punch Kill Switch Break launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-od-flicker-heavy-break-level-one/frame-4.jpg",
+					"at": 6.05,
+					"label": "Level 1 finish",
+					"alt": "Psycho Storm reaches the ending hits."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-target-chaser-level-one",
+			"ed-depth-od-flicker-heavy-break-blitz",
+			"ed-depth-od-blitz-cannon-double-uppercut"
+		]
+	},
+	{
+		"id": "ed-depth-counter-di-held-light-flicker",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "Counter Impact: walk, heavy punch and held light Flicker",
+		"summary": "After counter Drive Impact, walk in for heavy punch, hold light Flicker and finish its ground bounce with heavy Blitz.",
+		"kind": "response",
+		"situations": ["Midscreen", "Drive Impact", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > Walk forward > st.HP > 236LK (hold) > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "DI"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK (hold)",
+				"label": "Held light Psycho Flicker"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Successful counter Drive Impact; walking distance and crumple timing match the shown Ryu example."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"Source +F labels report advantage, not an instruction to wait that many frames."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Impact)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 256.9,
+			"end": 265.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-counter-di-held-light-flicker/clip.mp4",
+			"poster": "/media/ed/ed-depth-counter-di-held-light-flicker/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-counter-di-held-light-flicker/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-counter-di-held-light-flicker/frame-1.jpg",
+					"at": 2.6,
+					"label": "Counter Impact",
+					"alt": "Ed’s counter Drive Impact catches the recorded Ryu Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-counter-di-held-light-flicker/frame-2.jpg",
+					"at": 4.6,
+					"label": "Walk-in heavy",
+					"alt": "Standing heavy punch follows the short walk during crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-counter-di-held-light-flicker/frame-3.jpg",
+					"at": 5.5,
+					"label": "Held Flicker",
+					"alt": "Held light Psycho Flicker grounds Ryu for the bounce."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-counter-di-held-light-flicker/frame-4.jpg",
+					"at": 6.6,
+					"label": "Blitz pickup",
+					"alt": "Heavy Psycho Blitz picks up the bounce."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-counter-di-heavy-target",
+			"ed-depth-medium-blitz-rush-shimmy",
+			"ed-depth-heavy-blitz-rush-shimmy"
+		]
+	},
+	{
+		"id": "ed-depth-od-blitz-cannon-double-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ed"
+			}
+		],
+		"title": "OD Blitz: Psycho Cannon and two heavy Uppercuts",
+		"summary": "Cancel OD Blitz into the light Cannon activation, then juggle heavy Uppercut, forward heavy punch and a second heavy Uppercut.",
+		"kind": "combo",
+		"situations": ["Midscreen", "OD conversion", "Level 2 juggle"],
+		"outcomes": ["Knockdown"],
+		"notation": "214PP > SA2 (LP) > 623HP > 6HP > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214PP",
+				"label": "214PP"
+			},
+			{
+				"id": "step-2",
+				"notation": "SA2 (LP)",
+				"label": "Light Psycho Cannon"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HP",
+				"label": "623HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "623HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Use the source’s recorded spacing and light Cannon activation."
+		],
+		"notes": [
+			"Dated Ryu training footage; current-patch execution, recovery choices and reversal matchups have not been tested in-game.",
+			"The caption LSA2 and cyan light-punch input agree on light Psycho Cannon. Use that strength; another projectile speed is not demonstrated here.",
+			"Cannon remains active during the normal and Uppercut pickups; timing is tied to that projectile state."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD special)",
+			"super": "2 Super bars (SA2)"
+		},
+		"source": {
+			"id": "joe-ebios-ed-2026",
+			"title": "SF6 ED Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=NoH1BViQnRU",
+			"published": "2026-06-06",
+			"start": 274.8,
+			"end": 283.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ed/ed-depth-od-blitz-cannon-double-uppercut/clip.mp4",
+			"poster": "/media/ed/ed-depth-od-blitz-cannon-double-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/ed/ed-depth-od-blitz-cannon-double-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ed/ed-depth-od-blitz-cannon-double-uppercut/frame-1.jpg",
+					"at": 1.0,
+					"label": "OD Blitz",
+					"alt": "OD Psycho Blitz connects before the Super cancel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ed/ed-depth-od-blitz-cannon-double-uppercut/frame-2.jpg",
+					"at": 2.65,
+					"label": "Psycho Cannon",
+					"alt": "The Level 2 projectile activates."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ed/ed-depth-od-blitz-cannon-double-uppercut/frame-3.jpg",
+					"at": 4.45,
+					"label": "First Uppercut",
+					"alt": "Heavy Psycho Uppercut juggles while Cannon remains active."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ed/ed-depth-od-blitz-cannon-double-uppercut/frame-4.jpg",
+					"at": 5.7,
+					"label": "Forward heavy punch",
+					"alt": "Forward heavy punch continues the Cannon juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ed/ed-depth-od-blitz-cannon-double-uppercut/frame-5.jpg",
+					"at": 6.5,
+					"label": "Second Uppercut",
+					"alt": "The second heavy Uppercut finishes the demonstrated route."
+				}
+			]
+		},
+		"relatedIds": [
+			"ed-depth-od-flicker-heavy-break-blitz",
+			"ed-depth-od-flicker-heavy-break-level-one",
+			"ed-lights-medium-blitz"
+		]
 	}
 ]

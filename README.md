@@ -22,7 +22,7 @@ pnpm build
 pnpm start
 ```
 
-The local MVP uses the Chamber palette and Hourglass H identity. Choose a character, browse the tile library, filter by situation or your practice status, and open a reference in the dedicated practice view. Inputs sit above the replay. Back/Escape restores the originating tile and scroll position; Previous/Next follows the filtered set, and Ctrl/Cmd+K opens Quick switch. **Copy inputs** copies the authored sequence; if clipboard access is blocked, the selectable text notation opens instead.
+The local MVP uses the Chamber palette and Hourglass H identity. Choose a character, browse the tile library, filter by situation or your practice status, and open a reference in the dedicated practice view. Training goals offer Punishes, Corner carry, Oki, Anti-air and Cash-out, alongside type and advanced situation/outcome/status filters. Filters scroll with the tile library so they do not cover cards in short windows. Inputs sit above the replay. Back/Escape restores the originating tile and scroll position; prominent Previous/Next controls follow the filtered set, and Ctrl/Cmd+K opens Quick switch. **Copy inputs** copies the authored sequence; if clipboard access is blocked, the selectable text notation opens instead.
 
 Tap the video to play or pause. Drag sideways anywhere on the picture to inspect from the current moment; releasing holds that moment. Vertical touch gestures scroll the page. The timestamp and progress line appear during inspection or keyboard focus, with one compact toolbar for playback, replay, looping, speed and **−0.25s / +0.25s** inspection. Looping defaults on and remembers your choice on this browser; playback starts only when requested.
 
@@ -32,7 +32,7 @@ With the video focused, **Space** plays or pauses. With a clip control focused, 
 pnpm verify
 ```
 
-This runs formatting, lint, type checks, unit tests, the static build, and catalog/media validation. Svelte's compiler checks the templates. Build output is in `apps/web/build`.
+This runs formatting, lint, type checks, unit tests, the static build, and catalog/media validation. Svelte's compiler checks the templates. Build output is in `apps/web/build`. Web build artifacts are regenerated without Turborepo caching because their prepared media would otherwise be archived in duplicate. Shared-package builds remain cached.
 
 ## Your library
 
@@ -42,13 +42,13 @@ Practice status is self-reported. Filtering it keeps the selected entry open, in
 
 ## Content and provenance
 
-The [roster coverage index](docs/roster-source-coverage.md) links every character’s selected references, original intervals and deliberate omissions. The 26 newly added character libraries are starting collections, with coverage shaped by reliable source demonstrations. They are not exhaustive guides.
+The [roster coverage index](docs/roster-source-coverage.md) lists 2068 references and 9099 selected moments across 32 characters. All 26 previously thin libraries have been expanded with 1341 independently reviewed demonstrations. Character pages and source ledgers record selected intervals, conditions and remaining unprocessed footage. These are practical selections rather than exhaustive guides.
 
 Each reference records its creator, original video, publication date, interval and review status. Source review confirms what the dated footage demonstrates; it does not establish validity on the current game patch. Charge, stocks, stance, install, poison, medals, drinks and prerequisite knockdowns are stated beside the routes that need them. Media originals and extraction workfiles stay outside Git.
 
 Character-only URLs use the profile ID, for example `?character=ken`, `?character=lily` or `?character=arjun`; existing `?entry=...` links infer their character. Search, Saved counts and Quick switch stay within the active character, while learner backups retain all characters.
 
-This repository starts private. No open-source license or public media redistribution policy has been chosen. Attribution and source records must accompany media; public publication requires a separate asset review.
+GitHub repository visibility is public. Prepared media is labeled private-development in its manifests; no open-source license or public media redistribution policy has been chosen. New excerpts remain local pending the publication decision. Attribution and source records must accompany media.
 
 ## Workspace
 

@@ -1299,5 +1299,3184 @@
 			"arjun-soul-punish-medium-heavy-arm",
 			"arjun-soul-jab-chain-light-arm"
 		]
+	},
+	{
+		"id": "arjun-depth-low-three-lights-arm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Low confirm: crouching kick and two jabs",
+		"summary": "Practice the low-kick and two-jab sequence without Drive spend; stop at the performed light Arm rather than adding another Arm hit.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Low hit confirm"],
+		"notation": "cr.LK > cr.LP > cr.LP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LP",
+				"label": "Light Arm of Justice"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The separate failed second-Arm-hit example is excluded. No unperformed follow-up or knockdown is added."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 26.45,
+			"end": 28.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-low-three-lights-arm/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-low-three-lights-arm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-low-three-lights-arm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-low-three-lights-arm/frame-1.jpg",
+					"at": 0.35,
+					"label": "Starter",
+					"alt": "Crouching light kick begins the low confirm against Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-low-three-lights-arm/frame-2.jpg",
+					"at": 0.85,
+					"label": "Conversion",
+					"alt": "Two crouching jabs chain before the special cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-low-three-lights-arm/frame-3.jpg",
+					"at": 1.7,
+					"label": "Result",
+					"alt": "Light Arm of Justice completes the four-hit confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-low-medium-jab-arm",
+			"arjun-depth-medium-kick-medium-arm",
+			"arjun-depth-medium-kick-od-pillar"
+		]
+	},
+	{
+		"id": "arjun-depth-low-medium-jab-arm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Crouching medium kick: jab into light Arm",
+		"summary": "Link crouching jab from the low medium kick before light Arm; the demonstrated confirm spends no Drive or Super.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Low hit confirm"],
+		"notation": "cr.MK > cr.LP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LP",
+				"label": "Light Arm of Justice"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 32.5,
+			"end": 33.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-low-medium-jab-arm/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-low-medium-jab-arm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-low-medium-jab-arm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-low-medium-jab-arm/frame-1.jpg",
+					"at": 0.45,
+					"label": "Starter",
+					"alt": "Crouching medium kick starts the recorded low link."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-low-medium-jab-arm/frame-2.jpg",
+					"at": 0.9,
+					"label": "Conversion",
+					"alt": "Crouching light punch links after the low."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-low-medium-jab-arm/frame-3.jpg",
+					"at": 1.3,
+					"label": "Result",
+					"alt": "Light Arm of Justice finishes the three-hit confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-medium-kick-medium-arm",
+			"arjun-depth-medium-kick-od-pillar"
+		]
+	},
+	{
+		"id": "arjun-depth-medium-kick-medium-arm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Medium kick: medium Arm ender",
+		"summary": "Choose medium Arm from the source's printed ender alternatives; this take performs only that ender and spends no Drive.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Meterless hit confirm"],
+		"notation": "st.MK > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MP",
+				"label": "Medium Arm of Justice"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The overlay lists alternative enders separated by commas; this excerpt performs only medium Arm, not a sequence of all the listed specials."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 36.35,
+			"end": 38.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-medium-kick-medium-arm/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-medium-kick-medium-arm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-medium-kick-medium-arm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-medium-kick-medium-arm/frame-1.jpg",
+					"at": 0.35,
+					"label": "Starter",
+					"alt": "Standing medium kick connects at the recorded close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-medium-kick-medium-arm/frame-2.jpg",
+					"at": 1.25,
+					"label": "Conversion",
+					"alt": "Medium Arm of Justice follows the cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-medium-kick-medium-arm/frame-3.jpg",
+					"at": 1.95,
+					"label": "Result",
+					"alt": "The two-hit route ends without a follow-up punch."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm",
+			"arjun-depth-medium-kick-od-pillar"
+		]
+	},
+	{
+		"id": "arjun-depth-medium-kick-od-pillar",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Medium kick: OD Pillar knockdown",
+		"summary": "Use two Drive bars to turn the standing-medium-kick hit into the recorded OD-Pillar knockdown, without spending Super.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Pillar knockdown"],
+		"notation": "st.MK > 214MK+HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "214MK+HK",
+				"label": "OD Divine Pillar (medium-plus-heavy kicks)"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "OD Divine Pillar (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 44.4,
+			"end": 47.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-medium-kick-od-pillar/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-medium-kick-od-pillar/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-medium-kick-od-pillar/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-medium-kick-od-pillar/frame-1.jpg",
+					"at": 0.5,
+					"label": "Starter",
+					"alt": "Standing medium kick connects before the OD cancel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-medium-kick-od-pillar/frame-2.jpg",
+					"at": 1.0,
+					"label": "Conversion",
+					"alt": "OD Divine Pillar begins with the visible two-bar Drive spend."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-medium-kick-od-pillar/frame-3.jpg",
+					"at": 2.3,
+					"label": "Result",
+					"alt": "The eruption knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm",
+			"arjun-depth-medium-kick-medium-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-medium-target-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Medium-kick target into Level 1",
+		"summary": "Continue the medium-kick target into Level 1 when spending one Super bar; this route uses no Drive.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Super finish"],
+		"outcomes": ["Super knockdown"],
+		"notation": "st.MK > st.HK (target) > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK (target)",
+				"label": "Heavy-kick target continuation"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 47.9,
+			"end": 52.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-medium-target-level-one/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-medium-target-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-medium-target-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-medium-target-level-one/frame-1.jpg",
+					"at": 0.4,
+					"label": "Starter",
+					"alt": "Standing medium kick starts the target sequence."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-medium-target-level-one/frame-2.jpg",
+					"at": 0.9,
+					"label": "Conversion",
+					"alt": "The heavy-kick continuation cancels into Level 1."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-medium-target-level-one/frame-3.jpg",
+					"at": 3.6,
+					"label": "Result",
+					"alt": "Howling Destruction completes the recorded Super conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-triple-heavy-level-three",
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-medium-pillar",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Standing medium: medium Pillar knockdown",
+		"summary": "Use medium Pillar as the standing-medium-punch ender when preserving both Drive and Super.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Pillar knockdown"],
+		"notation": "st.MP > 214MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214MK",
+				"label": "Medium Divine Pillar"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 66.1,
+			"end": 69.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-medium-pillar/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-medium-pillar/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-medium-pillar/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-medium-pillar/frame-1.jpg",
+					"at": 0.4,
+					"label": "Starter",
+					"alt": "Standing medium punch connects before the Pillar cancel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-medium-pillar/frame-2.jpg",
+					"at": 1.3,
+					"label": "Conversion",
+					"alt": "The live yellow kick glyph identifies medium Divine Pillar."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-medium-pillar/frame-3.jpg",
+					"at": 1.95,
+					"label": "Result",
+					"alt": "The Pillar erupts and knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm",
+			"arjun-depth-medium-kick-medium-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-medium-od-shoulder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Standing medium: OD Shoulder launch",
+		"summary": "Spend two Drive bars on OD Shoulder after standing medium punch for the recorded launch and knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > 623PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "623PP",
+				"label": "OD Cruel Shoulder"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "OD Cruel Shoulder (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 69.9,
+			"end": 72.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-medium-od-shoulder/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-medium-od-shoulder/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-medium-od-shoulder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-medium-od-shoulder/frame-1.jpg",
+					"at": 0.55,
+					"label": "Starter",
+					"alt": "Standing medium punch begins the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-medium-od-shoulder/frame-2.jpg",
+					"at": 1.2,
+					"label": "Conversion",
+					"alt": "OD Cruel Shoulder spends two Drive bars."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-medium-od-shoulder/frame-3.jpg",
+					"at": 2.1,
+					"label": "Result",
+					"alt": "The Shoulder launches Ryu into the recorded knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm",
+			"arjun-depth-medium-kick-medium-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-heavy-target-kick-knockdown",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Heavy target: two punches and kick knockdown",
+		"summary": "Complete the two heavy punches and heavy-kick target continuation for a knockdown without special or meter spend.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Target-chain knockdown"],
+		"notation": "st.HP > st.HP (target) > st.HK (target)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP (target)",
+				"label": "Heavy-punch target continuation"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK (target)",
+				"label": "Heavy-kick target continuation"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 72.7,
+			"end": 75.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-heavy-target-kick-knockdown/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-heavy-target-kick-knockdown/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-heavy-target-kick-knockdown/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-heavy-target-kick-knockdown/frame-1.jpg",
+					"at": 0.7,
+					"label": "Starter",
+					"alt": "Standing heavy punch begins the target chain."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-heavy-target-kick-knockdown/frame-2.jpg",
+					"at": 1.3,
+					"label": "Conversion",
+					"alt": "A second heavy punch continues the chain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-heavy-target-kick-knockdown/frame-3.jpg",
+					"at": 1.95,
+					"label": "Result",
+					"alt": "The heavy-kick target ender knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm",
+			"arjun-depth-medium-kick-medium-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-triple-heavy-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Three-punch target into Level 3",
+		"summary": "Keep all three heavy punches in the target sequence before Level 3; the conversion spends Super without using Drive.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Super finish"],
+		"outcomes": ["Super hard knockdown"],
+		"notation": "st.HP > st.HP (target) > st.HP (target) > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP (target)",
+				"label": "Heavy-punch target continuation"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP (target)",
+				"label": "Heavy-punch target continuation"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 75.45,
+			"end": 88.08
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-triple-heavy-level-three/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-triple-heavy-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-triple-heavy-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-triple-heavy-level-three/frame-1.jpg",
+					"at": 0.75,
+					"label": "Target starter",
+					"alt": "Standing heavy punch starts the three-punch target chain."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-triple-heavy-level-three/frame-2.jpg",
+					"at": 1.65,
+					"label": "Third punch",
+					"alt": "The third heavy punch is the actual target ender before the Super."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-triple-heavy-level-three/frame-3.jpg",
+					"at": 3.4,
+					"label": "Super cancel",
+					"alt": "Level 3 begins after the target chain, spending three Super bars."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-triple-heavy-level-three/frame-4.jpg",
+					"at": 12.55,
+					"label": "Finish",
+					"alt": "Yaksha’s Order finishes with the recorded hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-medium-target-level-one",
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-heavy-kick-punch-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Heavy-kick target into heavy punch",
+		"summary": "Use the heavy-punch target continuation after standing heavy kick for the recorded meterless knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Target-chain knockdown"],
+		"notation": "st.HK > st.HP (target)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP (target)",
+				"label": "Heavy-punch target continuation"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 88.15,
+			"end": 91.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-heavy-kick-punch-target/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-heavy-kick-punch-target/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-heavy-kick-punch-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-heavy-kick-punch-target/frame-1.jpg",
+					"at": 0.4,
+					"label": "Starter",
+					"alt": "Standing heavy kick starts the recorded target chain."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-heavy-kick-punch-target/frame-2.jpg",
+					"at": 1.05,
+					"label": "Conversion",
+					"alt": "The heavy-punch continuation connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-heavy-kick-punch-target/frame-3.jpg",
+					"at": 2.2,
+					"label": "Result",
+					"alt": "The two-hit target knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm",
+			"arjun-depth-medium-kick-medium-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-crouching-heavy-medium-shoulder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Crouching heavy: medium Shoulder ender",
+		"summary": "Select medium Shoulder after crouching heavy punch; the other enders printed in the overlay are alternatives, not further actions.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > 623MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "623MP",
+				"label": "Medium Cruel Shoulder"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The printed overlay also lists two other enders. This take performs medium Shoulder only."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 91.4,
+			"end": 94.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-crouching-heavy-medium-shoulder/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-crouching-heavy-medium-shoulder/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-crouching-heavy-medium-shoulder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-crouching-heavy-medium-shoulder/frame-1.jpg",
+					"at": 0.6,
+					"label": "Starter",
+					"alt": "Crouching heavy punch connects before the special."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-crouching-heavy-medium-shoulder/frame-2.jpg",
+					"at": 1.2,
+					"label": "Conversion",
+					"alt": "The performed yellow punch glyph identifies medium Cruel Shoulder."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-crouching-heavy-medium-shoulder/frame-3.jpg",
+					"at": 2.15,
+					"label": "Result",
+					"alt": "The Shoulder ends the two-hit conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm",
+			"arjun-depth-medium-kick-medium-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-rush-jab-command-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Lights into Rush-cancel jab and command grab",
+		"summary": "Keep all three lights before the Rush cancel; the later jab-to-command-grab link costs three Drive bars, not a one-bar approach.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Command-grab hard knockdown"],
+		"notation": "cr.LK > cr.LP > st.LP > DRC > st.LP > 63214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "63214LP",
+				"label": "Light Ghastly Interrogation"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The abbreviated overlay names the final Rush-jab link. The actual take begins with crouching light kick, crouching jab and standing jab before a three-bar cancel; it is not a one-bar raw-Rush start."
+		],
+		"resources": {
+			"drive": "Drive Rush cancel (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 105.55,
+			"end": 111.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-rush-jab-command-grab/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-rush-jab-command-grab/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-rush-jab-command-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-rush-jab-command-grab/frame-1.jpg",
+					"at": 0.35,
+					"label": "Low starter",
+					"alt": "Crouching light kick begins the recorded low confirm against C. Viper."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-rush-jab-command-grab/frame-2.jpg",
+					"at": 0.95,
+					"label": "Three lights",
+					"alt": "Crouching light punch and standing light punch precede the Rush cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-rush-jab-command-grab/frame-3.jpg",
+					"at": 1.45,
+					"label": "Rush jab",
+					"alt": "The three-bar Rush-cancel jab connects after the three initial lights."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-rush-jab-command-grab/frame-4.jpg",
+					"at": 2.0,
+					"label": "Command grab",
+					"alt": "Light Ghastly Interrogation catches C. Viper after the Rush jab."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/arjun/arjun-depth-rush-jab-command-grab/frame-5.jpg",
+					"at": 5.05,
+					"label": "Finish",
+					"alt": "The command-grab animation finishes the recorded conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm",
+			"arjun-depth-medium-kick-medium-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-medium-rush-heavy-arm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Medium confirm: Rush crouching heavy into heavy Arm",
+		"summary": "Spend three Drive bars to reach crouching heavy from standing medium punch, then retain the heavy-Arm forward-punch follow-up.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > DRC > cr.HP > 236HP > 6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "Heavy Arm of Justice"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HP",
+				"label": "Heavy-punch special follow-up"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Rush cancel (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 124.1,
+			"end": 127.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-medium-rush-heavy-arm/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-medium-rush-heavy-arm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-medium-rush-heavy-arm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-medium-rush-heavy-arm/frame-1.jpg",
+					"at": 0.3,
+					"label": "Medium confirm",
+					"alt": "Standing medium punch begins the confirmed hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-medium-rush-heavy-arm/frame-2.jpg",
+					"at": 1.0,
+					"label": "Rush heavy",
+					"alt": "The three-bar Rush cancel links crouching heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-medium-rush-heavy-arm/frame-3.jpg",
+					"at": 2.3,
+					"label": "Heavy Arm",
+					"alt": "Heavy Arm of Justice launches after the crouching heavy."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-medium-rush-heavy-arm/frame-4.jpg",
+					"at": 2.45,
+					"label": "Follow-up",
+					"alt": "The forward heavy-punch follow-up finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm",
+			"arjun-depth-medium-kick-medium-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-counter-jab-medium-shoulder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Counter-Hit crouching jab: medium kick and light Shoulder",
+		"summary": "Require the opening crouching jab's Counter Hit before linking medium kick; the actual ender is light Shoulder.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > st.MK > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "623LP",
+				"label": "Light Cruel Shoulder"
+			}
+		],
+		"conditions": ["Classic controls", "The opening attack scores the recorded Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 145.0,
+			"end": 148.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-counter-jab-medium-shoulder/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-counter-jab-medium-shoulder/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-counter-jab-medium-shoulder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-counter-jab-medium-shoulder/frame-1.jpg",
+					"at": 0.55,
+					"label": "Starter",
+					"alt": "Crouching light punch scores Counter Hit against Ken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-counter-jab-medium-shoulder/frame-2.jpg",
+					"at": 1.05,
+					"label": "Conversion",
+					"alt": "Standing medium kick links after the Counter-Hit crouching jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-counter-jab-medium-shoulder/frame-3.jpg",
+					"at": 2.2,
+					"label": "Result",
+					"alt": "Light Cruel Shoulder completes the meterless conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-counter-jab-light-kick-arm",
+			"arjun-depth-counter-low-medium-shoulder",
+			"arjun-depth-counter-heavy-heavy-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-counter-jab-light-kick-arm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Counter-Hit jab: light-kick link and light Arm",
+		"summary": "Use the standing-light-kick link when the jab scores Counter Hit, then preserve Drive with light Arm.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit"],
+		"outcomes": ["Counter-Hit confirm"],
+		"notation": "st.LP > st.LK > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LP",
+				"label": "Light Arm of Justice"
+			}
+		],
+		"conditions": ["Classic controls", "The opening attack scores the recorded Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 149.3,
+			"end": 151.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-counter-jab-light-kick-arm/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-counter-jab-light-kick-arm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-counter-jab-light-kick-arm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-counter-jab-light-kick-arm/frame-1.jpg",
+					"at": 0.65,
+					"label": "Starter",
+					"alt": "Standing light punch scores Counter Hit against Ken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-counter-jab-light-kick-arm/frame-2.jpg",
+					"at": 1.1,
+					"label": "Conversion",
+					"alt": "Standing light kick is the actual second normal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-counter-jab-light-kick-arm/frame-3.jpg",
+					"at": 1.65,
+					"label": "Result",
+					"alt": "Light Arm of Justice finishes the three-hit confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-counter-jab-medium-shoulder",
+			"arjun-depth-counter-low-medium-shoulder",
+			"arjun-depth-counter-heavy-heavy-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-counter-low-medium-shoulder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Counter-Hit low: medium target into Level 1",
+		"summary": "The low medium kick must score Counter Hit; continue the medium target into Level 1 rather than substituting a Shoulder ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit"],
+		"outcomes": ["Counter-Hit Super conversion", "Knockdown"],
+		"notation": "cr.MK > st.MK > st.HK (target) > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK (target)",
+				"label": "Heavy-kick target continuation"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "The opening attack scores the recorded Counter Hit"],
+		"notes": [
+			"The source overlay abbreviates this as the low-to-medium link. The take continues through the heavy-kick target into Level 1; no Shoulder is performed."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 152.55,
+			"end": 157.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-counter-low-medium-shoulder/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-counter-low-medium-shoulder/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-counter-low-medium-shoulder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-counter-low-medium-shoulder/frame-1.jpg",
+					"at": 0.3,
+					"label": "Low starter",
+					"alt": "Crouching medium kick scores the required Counter Hit against Ken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-counter-low-medium-shoulder/frame-2.jpg",
+					"at": 0.85,
+					"label": "Target link",
+					"alt": "Standing medium kick links into its heavy-kick target continuation."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-counter-low-medium-shoulder/frame-3.jpg",
+					"at": 1.75,
+					"label": "Super cancel",
+					"alt": "Level 1 begins directly after the heavy-kick target, spending one Super bar."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-counter-low-medium-shoulder/frame-4.jpg",
+					"at": 4.55,
+					"label": "Finish",
+					"alt": "Howling Destruction finishes the performed Counter-Hit conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-counter-jab-medium-shoulder",
+			"arjun-depth-counter-jab-light-kick-arm",
+			"arjun-depth-counter-heavy-heavy-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-counter-heavy-heavy-arm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Counter-Hit crouching heavy into heavy Arm",
+		"summary": "Use heavy Arm and its forward-punch follow-up after the recorded crouching-heavy Counter Hit, with no meter spend.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > 236HP > 6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HP",
+				"label": "Heavy Arm of Justice"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HP",
+				"label": "Heavy-punch special follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "The opening attack scores the recorded Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 157.75,
+			"end": 160.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-counter-heavy-heavy-arm/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-counter-heavy-heavy-arm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-counter-heavy-heavy-arm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-counter-heavy-heavy-arm/frame-1.jpg",
+					"at": 0.45,
+					"label": "Starter",
+					"alt": "Crouching heavy punch scores Counter Hit against Ken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-counter-heavy-heavy-arm/frame-2.jpg",
+					"at": 1.25,
+					"label": "Conversion",
+					"alt": "Heavy Arm of Justice follows the heavy starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-counter-heavy-heavy-arm/frame-3.jpg",
+					"at": 1.95,
+					"label": "Result",
+					"alt": "The performed forward heavy-punch follow-up knocks Ken down."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-counter-jab-medium-shoulder",
+			"arjun-depth-counter-jab-light-kick-arm",
+			"arjun-depth-counter-low-medium-shoulder"
+		]
+	},
+	{
+		"id": "arjun-depth-counter-medium-arm-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Counter-Hit medium Arm into linked Level 1",
+		"summary": "Recognize medium Arm's Counter Hit before linking Level 1; the Super command uses kick, and no Drive is spent.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit"],
+		"outcomes": ["Counter-Hit Super conversion", "Knockdown"],
+		"notation": "236MP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MP",
+				"label": "Medium Arm of Justice"
+			},
+			{
+				"id": "step-2",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "The opening attack scores the recorded Counter Hit"],
+		"notes": [
+			"The initial move is medium-punch Arm of Justice, not Breathing Ring. The following Level-1 command uses kick."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 161.65,
+			"end": 166.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-counter-medium-arm-level-one/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-counter-medium-arm-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-counter-medium-arm-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-counter-medium-arm-level-one/frame-1.jpg",
+					"at": 0.85,
+					"label": "Starter",
+					"alt": "Medium Arm of Justice scores Counter Hit against Ken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-counter-medium-arm-level-one/frame-2.jpg",
+					"at": 1.65,
+					"label": "Conversion",
+					"alt": "Level 1 links after the Counter-Hit Arm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-counter-medium-arm-level-one/frame-3.jpg",
+					"at": 4.15,
+					"label": "Result",
+					"alt": "Howling Destruction completes the recorded knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-counter-jab-medium-shoulder",
+			"arjun-depth-counter-jab-light-kick-arm",
+			"arjun-depth-counter-low-medium-shoulder"
+		]
+	},
+	{
+		"id": "arjun-depth-punish-low-medium-link",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Punish-Counter low: crouching medium-punch link",
+		"summary": "Practice only the two-hit link after crouching medium kick scores Punish Counter; this excerpt does not show a knockdown ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Two-hit punish link"],
+		"notation": "cr.MK > cr.MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching medium kick scores Punish Counter"],
+		"notes": [
+			"A compact punish-link demonstration; no knockdown or unperformed ender is asserted."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 169.6,
+			"end": 171.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-punish-low-medium-link/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-punish-low-medium-link/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-punish-low-medium-link/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-punish-low-medium-link/frame-1.jpg",
+					"at": 0.4,
+					"label": "Starter",
+					"alt": "Crouching medium kick scores Punish Counter against Mai."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-punish-low-medium-link/frame-2.jpg",
+					"at": 1.2,
+					"label": "Conversion",
+					"alt": "Crouching medium punch links after the low."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-punish-low-medium-link/frame-3.jpg",
+					"at": 1.7,
+					"label": "Result",
+					"alt": "The selected take ends after this two-hit link without an added special."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-punish-heavy-rush-pillar-stance",
+			"arjun-depth-arm-pillar-medium-shoulder-parry-grab",
+			"arjun-depth-low-three-lights-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-punish-heavy-rush-pillar-stance",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Heavy-kick punish: raw Rush, Pillar and held stance",
+		"summary": "Use one raw-Rush bar after the heavy-kick punish, then two more for OD Pillar; Justice Beyond swings the Pillar automatically.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Pillar juggle", "Knockdown"],
+		"notation": "st.HK > DR > cr.HP > 214LK+MK > 623HP > 22HK (hold) > 6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LK+MK",
+				"label": "OD Divine Pillar (light-plus-medium kicks)"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HP",
+				"label": "Heavy Cruel Shoulder"
+			},
+			{
+				"id": "step-6",
+				"notation": "22HK (hold)",
+				"label": "Hold heavy-kick Indomitable Defense"
+			},
+			{
+				"id": "step-7",
+				"notation": "6HP",
+				"label": "Heavy-punch special follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy kick scores Punish Counter"],
+		"notes": [
+			"The initial Rush is raw after the heavy-kick launcher, not a three-bar cancel. Justice Beyond automatically grabs and swings the existing Pillar after Shoulder contact; it is not a command grab on the defender."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1) and OD Divine Pillar (2): 3 bars total",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "mc-murafgc-arjun-2026",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"published": "2026-10-13",
+			"start": 179.0,
+			"end": 186.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-punish-heavy-rush-pillar-stance/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-punish-heavy-rush-pillar-stance/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-punish-heavy-rush-pillar-stance/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-punish-heavy-rush-pillar-stance/frame-1.jpg",
+					"at": 0.6,
+					"label": "Punish starter",
+					"alt": "Standing heavy kick scores Punish Counter against Mai."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-punish-heavy-rush-pillar-stance/frame-2.jpg",
+					"at": 1.7,
+					"label": "Rush pickup",
+					"alt": "Raw Rush crouching heavy punch reaches the launched target."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-punish-heavy-rush-pillar-stance/frame-3.jpg",
+					"at": 2.5,
+					"label": "OD Pillar",
+					"alt": "OD Divine Pillar spends two Drive bars after the one-bar raw Rush."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-punish-heavy-rush-pillar-stance/frame-4.jpg",
+					"at": 3.45,
+					"label": "Pillar interaction",
+					"alt": "Heavy Cruel Shoulder contacts the Pillar for the automatic Justice Beyond club strike."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/arjun/arjun-depth-punish-heavy-rush-pillar-stance/frame-5.jpg",
+					"at": 5.2,
+					"label": "Stance finish",
+					"alt": "Held heavy-kick Indomitable Defense leads into the heavy-punch Moral Breakdown finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-punish-low-medium-link",
+			"arjun-depth-arm-pillar-medium-shoulder-parry-grab",
+			"arjun-depth-low-three-lights-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-corner-throw-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Corner forward throw: dash and throw again",
+		"summary": "Dash after the corner forward throw at the shown spacing; the source separately demonstrates a jab interrupt, so this is not an inescapable loop.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner throw knockdown"],
+		"notation": "Dash > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: forward normal throw against the cornered defender at the recorded spacing"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; its final recovery may remain as context.",
+			"Printed +F values report the source’s remaining advantage, not a prescribed number of wait frames.",
+			"The source later demonstrates a jab interruption to this approach. No inescapable throw-loop claim is made."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 881.1,
+			"end": 883.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-corner-throw-dash-throw/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-corner-throw-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-corner-throw-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-corner-throw-dash-throw/frame-1.jpg",
+					"at": 0.2,
+					"label": "Starter",
+					"alt": "Ryu finishes the prerequisite forward-throw knockdown in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-corner-throw-dash-throw/frame-2.jpg",
+					"at": 0.3,
+					"label": "Conversion",
+					"alt": "A forward dash closes for the next normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-corner-throw-dash-throw/frame-3.jpg",
+					"at": 2.0,
+					"label": "Result",
+					"alt": "The next throw connects and returns Ryu to knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-corner-throw-rush-medium",
+			"arjun-depth-corner-throw-rush-feint-od-uppercut",
+			"arjun-depth-justice-od-pillar-command-throw"
+		]
+	},
+	{
+		"id": "arjun-depth-corner-throw-rush-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Corner forward throw: Rush medium and OD Arm",
+		"summary": "Budget three new Drive bars after the corner throw: one for the Rush approach and two for the OD-Arm conversion.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up conversion", "Corner knockdown"],
+		"notation": "DR > st.MP > cr.HP > 236PP > 6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236PP",
+				"label": "OD Arm of Justice"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HP",
+				"label": "Heavy-punch special follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: forward normal throw against the cornered defender at the recorded spacing"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; its final recovery may remain as context.",
+			"Printed +F values report the source’s remaining advantage, not a prescribed number of wait frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1) and OD Arm of Justice (2): 3 bars after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 898.25,
+			"end": 902.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-corner-throw-rush-medium/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-corner-throw-rush-medium/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-corner-throw-rush-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-corner-throw-rush-medium/frame-1.jpg",
+					"at": 0.25,
+					"label": "Prerequisite",
+					"alt": "Ryu falls from the prerequisite corner throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-corner-throw-rush-medium/frame-2.jpg",
+					"at": 0.95,
+					"label": "Rush medium",
+					"alt": "Raw Rush standing medium punch hits the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-corner-throw-rush-medium/frame-3.jpg",
+					"at": 1.5,
+					"label": "Heavy link",
+					"alt": "Crouching heavy punch links after the Rush medium."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-corner-throw-rush-medium/frame-4.jpg",
+					"at": 3.25,
+					"label": "OD follow-up",
+					"alt": "OD Arm of Justice and its forward heavy-punch follow-up connect."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/arjun/arjun-depth-corner-throw-rush-medium/frame-5.jpg",
+					"at": 3.75,
+					"label": "Finish",
+					"alt": "Ryu ends in the corner knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-corner-throw-dash-throw",
+			"arjun-depth-corner-throw-rush-feint-od-uppercut",
+			"arjun-depth-justice-od-pillar-command-throw"
+		]
+	},
+	{
+		"id": "arjun-depth-justice-od-pillar-command-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Justice Beyond knockdown: OD Pillar and command throw",
+		"summary": "Begin after Justice Beyond's club-strike knockdown; the near OD Pillar placement costs two new Drive bars before light command throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Pillar-cover command throw", "Hard knockdown"],
+		"notation": "214LK+MK > 63214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214LK+MK",
+				"label": "OD Divine Pillar (light-plus-medium kicks)"
+			},
+			{
+				"id": "step-2",
+				"notation": "63214LP",
+				"label": "Light Ghastly Interrogation"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the demonstrated automatic Justice Beyond Pillar/Shoulder club strike and knockdown"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; its final recovery may remain as context.",
+			"Printed +F values report the source’s remaining advantage, not a prescribed number of wait frames.",
+			"The source explicitly performs the near light-plus-medium OD placement. Normal command-throw damage depends on the defender’s existing recoverable damage; no fixed damage guarantee is made."
+		],
+		"resources": {
+			"drive": "OD Divine Pillar (2 bars after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 927.0,
+			"end": 932.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-justice-od-pillar-command-throw/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-justice-od-pillar-command-throw/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-justice-od-pillar-command-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-justice-od-pillar-command-throw/frame-1.jpg",
+					"at": 0.25,
+					"label": "Prerequisite",
+					"alt": "Ryu falls from the prerequisite Justice Beyond sequence."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-justice-od-pillar-command-throw/frame-2.jpg",
+					"at": 1.0,
+					"label": "OD Pillar",
+					"alt": "The near OD Divine Pillar is placed during the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-justice-od-pillar-command-throw/frame-3.jpg",
+					"at": 2.2,
+					"label": "Command throw",
+					"alt": "Light Ghastly Interrogation catches Ryu beside the Pillar."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-justice-od-pillar-command-throw/frame-4.jpg",
+					"at": 4.5,
+					"label": "Finish",
+					"alt": "The command throw completes the recorded Pillar-assisted branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-justice-od-pillar-hit-confirm",
+			"arjun-depth-justice-light-pillar-low-arm",
+			"arjun-depth-arm-heavy-pillar-heavy-shoulder"
+		]
+	},
+	{
+		"id": "arjun-depth-justice-od-pillar-hit-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Justice Beyond knockdown: missed grab into Pillar-hit Shoulder and stance",
+		"summary": "If the command grab misses the Pillar-launched defender as recorded, use light Shoulder and the held stance pickup instead.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Pillar-hit contingency", "Knockdown"],
+		"notation": "214LK+MK > 63214LP (whiff) > 623LP > 22HK (hold) > HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214LK+MK",
+				"label": "OD Divine Pillar (light-plus-medium kicks)"
+			},
+			{
+				"id": "step-2",
+				"notation": "63214LP (whiff)",
+				"label": "Attempt light Ghastly Interrogation; the launched defender is missed"
+			},
+			{
+				"id": "step-3",
+				"notation": "623LP",
+				"label": "Light Cruel Shoulder"
+			},
+			{
+				"id": "step-4",
+				"notation": "22HK (hold)",
+				"label": "Hold heavy-kick Indomitable Defense"
+			},
+			{
+				"id": "step-5",
+				"notation": "HP",
+				"label": "Heavy-punch Moral Breakdown from Indomitable Defense"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the demonstrated automatic Justice Beyond Pillar/Shoulder club strike and knockdown"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; its final recovery may remain as context.",
+			"Printed +F values report the source’s remaining advantage, not a prescribed number of wait frames.",
+			"This is the recorded contingency after the command-grab attempt misses the Pillar-launched defender. It is not an Arm of Justice conversion. The actual pickup is 623LP, followed by automatic Justice Beyond and 22HK (hold) > HP. No forward input follows the stance in this take."
+		],
+		"resources": {
+			"drive": "OD Divine Pillar (2 bars after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 938.05,
+			"end": 944.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-justice-od-pillar-hit-confirm/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-justice-od-pillar-hit-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-justice-od-pillar-hit-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-justice-od-pillar-hit-confirm/frame-1.jpg",
+					"at": 0.25,
+					"label": "Prerequisite",
+					"alt": "Ryu falls after the prerequisite Justice Beyond knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-justice-od-pillar-hit-confirm/frame-2.jpg",
+					"at": 1.2,
+					"label": "OD Pillar",
+					"alt": "Light-plus-medium-kick OD Divine Pillar is placed before the wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-justice-od-pillar-hit-confirm/frame-3.jpg",
+					"at": 1.65,
+					"label": "Missed command grab",
+					"alt": "The light Ghastly Interrogation attempt misses as the Pillar launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-justice-od-pillar-hit-confirm/frame-4.jpg",
+					"at": 2.5,
+					"label": "Light Shoulder",
+					"alt": "Light Cruel Shoulder contacts the Pillar while Ryu is airborne."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/arjun/arjun-depth-justice-od-pillar-hit-confirm/frame-5.jpg",
+					"at": 3.0,
+					"label": "Automatic club strike",
+					"alt": "Justice Beyond automatically swings the Pillar after the Shoulder contact."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/arjun/arjun-depth-justice-od-pillar-hit-confirm/frame-6.jpg",
+					"at": 4.15,
+					"label": "Stance follow-up",
+					"alt": "Heavy-kick Indomitable Defense leads into the heavy-punch Moral Breakdown startup."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/arjun/arjun-depth-justice-od-pillar-hit-confirm/frame-7.jpg",
+					"at": 5.35,
+					"label": "Moral Breakdown",
+					"alt": "Moral Breakdown completes the performed stance conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-justice-od-pillar-command-throw",
+			"arjun-depth-justice-light-pillar-low-arm",
+			"arjun-depth-arm-heavy-pillar-heavy-shoulder"
+		]
+	},
+	{
+		"id": "arjun-depth-justice-light-pillar-low-arm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Justice Beyond knockdown: light Pillar, jab and heavy Arm",
+		"summary": "Ryu blocks this light-Pillar branch; practice the jab-to-heavy-Arm pressure without treating it as a connected combo.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Pillar-cover blocked pressure"],
+		"notation": "214LK > cr.LP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214LK",
+				"label": "Light Divine Pillar"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "Heavy Arm of Justice"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the demonstrated automatic Justice Beyond Pillar/Shoulder club strike and knockdown",
+			"Ryu blocks the recorded Pillar pressure"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; its final recovery may remain as context.",
+			"Printed +F values report the source’s remaining advantage, not a prescribed number of wait frames.",
+			"This is the blocked take, not a connected combo. No universal gap or reversal-safety claim is inferred."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 949.25,
+			"end": 951.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-justice-light-pillar-low-arm/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-justice-light-pillar-low-arm/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-justice-light-pillar-low-arm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-justice-light-pillar-low-arm/frame-1.jpg",
+					"at": 0.15,
+					"label": "Prerequisite",
+					"alt": "Ryu falls from the prerequisite Justice Beyond knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-justice-light-pillar-low-arm/frame-2.jpg",
+					"at": 0.7,
+					"label": "Light Pillar",
+					"alt": "Light Divine Pillar begins the meterless follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-justice-light-pillar-low-arm/frame-3.jpg",
+					"at": 1.35,
+					"label": "Jab and Arm",
+					"alt": "Crouching light punch and heavy Arm of Justice contact the blocking Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-justice-light-pillar-low-arm/frame-4.jpg",
+					"at": 1.85,
+					"label": "Follow-up",
+					"alt": "The heavy Arm meets the Pillar’s delayed eruption against Ryu’s guard."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-justice-od-pillar-command-throw",
+			"arjun-depth-justice-od-pillar-hit-confirm",
+			"arjun-depth-arm-heavy-pillar-heavy-shoulder"
+		]
+	},
+	{
+		"id": "arjun-depth-arm-heavy-pillar-heavy-shoulder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Arm knockdown: heavy Pillar into heavy Shoulder",
+		"summary": "Ryu guards this branch after the Arm knockdown; Justice Beyond swings the existing Pillar rather than command-grabbing him.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Pillar-cover blocked pressure"],
+		"notation": "214HK > 623HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214HK",
+				"label": "Heavy Divine Pillar"
+			},
+			{
+				"id": "step-2",
+				"notation": "623HP",
+				"label": "Heavy Cruel Shoulder"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the recorded Arm of Justice punch follow-up knocks the defender away",
+			"Ryu blocks the recorded Pillar/Shoulder branch"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; its final recovery may remain as context.",
+			"Printed +F values report the source’s remaining advantage, not a prescribed number of wait frames.",
+			"Justice Beyond automatically grabs and swings the Pillar; it does not grab the blocking Ryu. This excerpt demonstrates blocked pressure, not a connected throw."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 960.15,
+			"end": 964.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-arm-heavy-pillar-heavy-shoulder/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-arm-heavy-pillar-heavy-shoulder/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-arm-heavy-pillar-heavy-shoulder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-arm-heavy-pillar-heavy-shoulder/frame-1.jpg",
+					"at": 0.1,
+					"label": "Prerequisite",
+					"alt": "The prerequisite Arm follow-up has knocked Ryu away."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-arm-heavy-pillar-heavy-shoulder/frame-2.jpg",
+					"at": 0.95,
+					"label": "Heavy Pillar",
+					"alt": "Heavy Divine Pillar is placed in front of the defender."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-arm-heavy-pillar-heavy-shoulder/frame-3.jpg",
+					"at": 2.05,
+					"label": "Shoulder contact",
+					"alt": "Heavy Cruel Shoulder contacts the Pillar."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-arm-heavy-pillar-heavy-shoulder/frame-4.jpg",
+					"at": 3.05,
+					"label": "Automatic grab",
+					"alt": "Ryu remains standing after guarding the Pillar-assisted heavy-Shoulder branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-justice-od-pillar-command-throw",
+			"arjun-depth-justice-od-pillar-hit-confirm",
+			"arjun-depth-justice-light-pillar-low-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-arm-pillar-held-stance-level-two",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Arm knockdown: Pillar grab and held stance into Level 2",
+		"summary": "After the Arm knockdown, let the Pillar/Shoulder club strike lead into held stance and Level 2 without extra Drive spend.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Pillar juggle", "Super knockdown"],
+		"notation": "214HK > 623HP > 22HK (hold) > HP > SA2",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214HK",
+				"label": "Heavy Divine Pillar"
+			},
+			{
+				"id": "step-2",
+				"notation": "623HP",
+				"label": "Heavy Cruel Shoulder"
+			},
+			{
+				"id": "step-3",
+				"notation": "22HK (hold)",
+				"label": "Hold heavy-kick Indomitable Defense"
+			},
+			{
+				"id": "step-4",
+				"notation": "HP",
+				"label": "Heavy-punch Moral Breakdown from Indomitable Defense"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA2",
+				"label": "Level 2 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the recorded Arm of Justice punch follow-up knocks the defender away"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; its final recovery may remain as context.",
+			"Printed +F values report the source’s remaining advantage, not a prescribed number of wait frames.",
+			"The stance follows the automatic Pillar club strike. No stock or install prerequisite is invented."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "Level 2 (2 bars)"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 971.3,
+			"end": 981.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-arm-pillar-held-stance-level-two/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-arm-pillar-held-stance-level-two/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-arm-pillar-held-stance-level-two/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-arm-pillar-held-stance-level-two/frame-1.jpg",
+					"at": 0.2,
+					"label": "Prerequisite",
+					"alt": "Dhalsim falls after the prerequisite Arm punch follow-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-arm-pillar-held-stance-level-two/frame-2.jpg",
+					"at": 1.45,
+					"label": "Pillar club strike",
+					"alt": "Heavy Pillar and heavy Shoulder produce the automatic Justice Beyond club strike."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-arm-pillar-held-stance-level-two/frame-3.jpg",
+					"at": 2.9,
+					"label": "Held stance",
+					"alt": "Held heavy-kick Indomitable Defense begins while Dhalsim is still crumpling."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-arm-pillar-held-stance-level-two/frame-4.jpg",
+					"at": 3.5,
+					"label": "Moral Breakdown",
+					"alt": "The heavy-punch Moral Breakdown follow-up extends the Pillar conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/arjun/arjun-depth-arm-pillar-held-stance-level-two/frame-5.jpg",
+					"at": 4.5,
+					"label": "Super cancel",
+					"alt": "Level 2 spends two Super bars after the stance follow-up."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/arjun/arjun-depth-arm-pillar-held-stance-level-two/frame-6.jpg",
+					"at": 9.2,
+					"label": "Finish",
+					"alt": "Instant Oblivion completes the demonstrated extension."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-justice-od-pillar-command-throw",
+			"arjun-depth-justice-od-pillar-hit-confirm",
+			"arjun-depth-justice-light-pillar-low-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-arm-pillar-medium-shoulder-parry-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Pillar guard: whiffed Shoulder and parry-punish grab",
+		"summary": "The medium Shoulder misses at this spacing; use light command throw against Dhalsim's following parry attempt.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish counter"],
+		"outcomes": ["Parry punish", "Hard knockdown"],
+		"notation": "214HK > 623MP (whiff) > 63214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214HK",
+				"label": "Heavy Divine Pillar"
+			},
+			{
+				"id": "step-2",
+				"notation": "623MP (whiff)",
+				"label": "Whiff medium Cruel Shoulder at the recorded spacing"
+			},
+			{
+				"id": "step-3",
+				"notation": "63214LP",
+				"label": "Light Ghastly Interrogation"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the recorded Arm of Justice punch follow-up knocks the defender away",
+			"Dhalsim attempts the recorded parry beside the Pillar"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; its final recovery may remain as context.",
+			"Printed +F values report the source’s remaining advantage, not a prescribed number of wait frames.",
+			"Only the Pillar is guarded. Medium Cruel Shoulder whiffs at this recorded spacing, then Dhalsim attempts parry and light Ghastly Interrogation punishes it. The earlier repeat is excluded as a duplicate prefix, not a separate blocked-Shoulder setup."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 988.3,
+			"end": 995.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-arm-pillar-medium-shoulder-parry-grab/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-arm-pillar-medium-shoulder-parry-grab/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-arm-pillar-medium-shoulder-parry-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-arm-pillar-medium-shoulder-parry-grab/frame-1.jpg",
+					"at": 0.25,
+					"label": "Prerequisite",
+					"alt": "Dhalsim falls after the prerequisite Arm follow-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-arm-pillar-medium-shoulder-parry-grab/frame-2.jpg",
+					"at": 1.7,
+					"label": "Pillar guard and Shoulder whiff",
+					"alt": "Dhalsim guards the Pillar while medium Cruel Shoulder whiffs to his left."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-arm-pillar-medium-shoulder-parry-grab/frame-3.jpg",
+					"at": 2.1,
+					"label": "Parry attempt",
+					"alt": "Dhalsim uses the recorded parry attempt."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-arm-pillar-medium-shoulder-parry-grab/frame-4.jpg",
+					"at": 3.0,
+					"label": "Command throw",
+					"alt": "Light Ghastly Interrogation catches the parry with Punish Counter."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/arjun/arjun-depth-arm-pillar-medium-shoulder-parry-grab/frame-5.jpg",
+					"at": 6.2,
+					"label": "Finish",
+					"alt": "The command throw ends with a hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-punish-low-medium-link",
+			"arjun-depth-punish-heavy-rush-pillar-stance",
+			"arjun-depth-justice-od-pillar-command-throw"
+		]
+	},
+	{
+		"id": "arjun-depth-held-pillar-forward-heavy-pressure",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Held Pillar: forward-heavy and crouching-heavy pressure",
+		"summary": "Hold heavy Pillar to change its timing before the forward-heavy pressure; the printed advantage is not a twelve-frame wait.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Delayed-Pillar pressure"],
+		"notation": "214HK (hold) > f.HP > cr.HP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214HK (hold)",
+				"label": "Hold heavy Divine Pillar to delay its activation"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "Medium Arm of Justice"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the recorded Arm of Justice punch follow-up knocks the defender away",
+			"Dhalsim blocks this take"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; its final recovery may remain as context.",
+			"Printed +F values report the source’s remaining advantage, not a prescribed number of wait frames.",
+			"The hold changes Pillar timing. The source’s +12 overlay is reported advantage, not a twelve-frame wait command."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 1001.65,
+			"end": 1005.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-held-pillar-forward-heavy-pressure/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-held-pillar-forward-heavy-pressure/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-held-pillar-forward-heavy-pressure/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-held-pillar-forward-heavy-pressure/frame-1.jpg",
+					"at": 0.15,
+					"label": "Prerequisite",
+					"alt": "The Arm-follow-up prerequisite leaves Dhalsim knocked down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-held-pillar-forward-heavy-pressure/frame-2.jpg",
+					"at": 1.4,
+					"label": "Forward heavy",
+					"alt": "The held heavy Pillar delays its activation before forward heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-held-pillar-forward-heavy-pressure/frame-3.jpg",
+					"at": 1.9,
+					"label": "Crouching heavy",
+					"alt": "Crouching heavy punch follows the blocked forward-heavy overhead."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-held-pillar-forward-heavy-pressure/frame-4.jpg",
+					"at": 2.75,
+					"label": "Medium Arm",
+					"alt": "Medium Arm of Justice completes the selected blocked-pressure string."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-justice-od-pillar-command-throw",
+			"arjun-depth-justice-od-pillar-hit-confirm",
+			"arjun-depth-justice-light-pillar-low-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-held-pillar-overhead-hit-pickup",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Held Pillar: overhead hit and light Shoulder pickup",
+		"summary": "Use the held-Pillar overhead-hit branch, then retain the light-Shoulder pickup after the medium Arm.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Pillar-hit conversion", "Knockdown"],
+		"notation": "214HK (hold) > f.HP > cr.HP > 236MP > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214HK (hold)",
+				"label": "Hold heavy Divine Pillar to delay its activation"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.HP",
+				"label": "Forward heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "Medium Arm of Justice"
+			},
+			{
+				"id": "step-5",
+				"notation": "623LP",
+				"label": "Light Cruel Shoulder"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the recorded Arm of Justice punch follow-up knocks the defender away"
+		],
+		"notes": [
+			"The performed follow-up begins after the named prerequisite; its final recovery may remain as context.",
+			"Printed +F values report the source’s remaining advantage, not a prescribed number of wait frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 1006.75,
+			"end": 1013.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-held-pillar-overhead-hit-pickup/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-held-pillar-overhead-hit-pickup/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-held-pillar-overhead-hit-pickup/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-held-pillar-overhead-hit-pickup/frame-1.jpg",
+					"at": 0.25,
+					"label": "Prerequisite",
+					"alt": "The prerequisite Arm follow-up knocks Dhalsim away."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-held-pillar-overhead-hit-pickup/frame-2.jpg",
+					"at": 1.1,
+					"label": "Overhead",
+					"alt": "The held heavy Pillar and forward heavy punch begin the performed hit branch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-held-pillar-overhead-hit-pickup/frame-3.jpg",
+					"at": 2.45,
+					"label": "Pillar launch",
+					"alt": "Crouching heavy punch and medium Arm extend the launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-held-pillar-overhead-hit-pickup/frame-4.jpg",
+					"at": 4.45,
+					"label": "Shoulder pickup",
+					"alt": "Light Cruel Shoulder picks Dhalsim up after the Pillar-assisted juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/arjun/arjun-depth-held-pillar-overhead-hit-pickup/frame-5.jpg",
+					"at": 5.35,
+					"label": "Finish",
+					"alt": "The pickup finishes the actual hit conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-justice-od-pillar-command-throw",
+			"arjun-depth-justice-od-pillar-hit-confirm",
+			"arjun-depth-justice-light-pillar-low-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-anti-air-crouching-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Grounded anti-air: crouching heavy punch",
+		"summary": "Match Luke's front-jump range for crouching heavy punch; the separately shown cross-up defeats this choice.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air"],
+		"outcomes": ["Jump interception"],
+		"notation": "cr.HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			}
+		],
+		"conditions": ["Classic controls", "Luke uses the shown front jump at this spacing"],
+		"notes": [
+			"The later cross-up example defeats this choice and is excluded from this success card. No universal jump coverage or reaction test is claimed."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 193.3,
+			"end": 195.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-anti-air-crouching-heavy/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-anti-air-crouching-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-anti-air-crouching-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-anti-air-crouching-heavy/frame-1.jpg",
+					"at": 0.05,
+					"label": "Starter",
+					"alt": "Luke jumps toward the grounded Arjun at the recorded range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-anti-air-crouching-heavy/frame-2.jpg",
+					"at": 0.6,
+					"label": "Conversion",
+					"alt": "Crouching heavy punch intercepts Luke’s incoming jump."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-anti-air-crouching-heavy/frame-3.jpg",
+					"at": 1.5,
+					"label": "Result",
+					"alt": "Luke lands after the anti-air hit."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-anti-air-standing-heavy-kick",
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-anti-air-standing-heavy-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Grounded anti-air: far standing heavy kick",
+		"summary": "Use standing heavy kick at the farther jump spacing shown; the recording does not establish coverage of every jump angle.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air"],
+		"outcomes": ["Far-jump interception"],
+		"notation": "st.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			}
+		],
+		"conditions": ["Classic controls", "Luke uses the recorded farther jump"],
+		"notes": ["This is the shown spacing-specific anti-air, not a claim against every jump angle."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 206.55,
+			"end": 208.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-anti-air-standing-heavy-kick/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-anti-air-standing-heavy-kick/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-anti-air-standing-heavy-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-anti-air-standing-heavy-kick/frame-1.jpg",
+					"at": 0.2,
+					"label": "Starter",
+					"alt": "Luke jumps from farther away than the crouching-heavy example."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-anti-air-standing-heavy-kick/frame-2.jpg",
+					"at": 0.95,
+					"label": "Conversion",
+					"alt": "Standing heavy kick reaches the incoming Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-anti-air-standing-heavy-kick/frame-3.jpg",
+					"at": 1.75,
+					"label": "Result",
+					"alt": "The recorded far-jump interception finishes without Drive spend."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-anti-air-crouching-heavy",
+			"arjun-depth-low-three-lights-arm",
+			"arjun-depth-low-medium-jab-arm"
+		]
+	},
+	{
+		"id": "arjun-depth-corner-throw-rush-feint-od-uppercut",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "arjun"
+			}
+		],
+		"title": "Corner throw: Rush jab feint and OD-uppercut guard",
+		"summary": "Keep the intentionally whiffed Rush jab before down-back guard against the recorded OD uppercut; no punish is added here.",
+		"kind": "response",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Recorded OD-reversal guard"],
+		"notation": "DR > st.LP (whiff) > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP (whiff)",
+				"label": "Intentionally whiff standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: forward normal throw against the cornered defender at the recorded spacing",
+			"Ryu uses the recorded OD uppercut"
+		],
+		"notes": [
+			"The feint is an actual intentionally whiffed standing light punch after Rush, followed by down-back guard. The source reports remaining advantage; no numerical delay is inserted. Safety is limited to this recorded Ryu OD-uppercut take, with no universal reversal guarantee or added punish."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "soul-arjun-2026",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"published": "2026-10-18",
+			"start": 915.5,
+			"end": 918.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/arjun/arjun-depth-corner-throw-rush-feint-od-uppercut/clip.mp4",
+			"poster": "/media/arjun/arjun-depth-corner-throw-rush-feint-od-uppercut/frame-1.jpg",
+			"descriptionTrack": "/media/arjun/arjun-depth-corner-throw-rush-feint-od-uppercut/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/arjun/arjun-depth-corner-throw-rush-feint-od-uppercut/frame-1.jpg",
+					"at": 0.2,
+					"label": "Prerequisite",
+					"alt": "Ryu falls from the prerequisite corner forward throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/arjun/arjun-depth-corner-throw-rush-feint-od-uppercut/frame-2.jpg",
+					"at": 0.9,
+					"label": "Whiffed jab feint",
+					"alt": "The Rush standing light punch intentionally whiffs before Ryu’s reversal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/arjun/arjun-depth-corner-throw-rush-feint-od-uppercut/frame-3.jpg",
+					"at": 1.15,
+					"label": "Guard",
+					"alt": "Arjun holds down-back and guards the recorded Ryu OD uppercut."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/arjun/arjun-depth-corner-throw-rush-feint-od-uppercut/frame-4.jpg",
+					"at": 2.0,
+					"label": "OD rise",
+					"alt": "The guarded OD uppercut rises above Arjun while he remains defending."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/arjun/arjun-depth-corner-throw-rush-feint-od-uppercut/frame-5.jpg",
+					"at": 2.8,
+					"label": "Recovery",
+					"alt": "Ryu lands after the guarded reversal; no punish is performed in this excerpt."
+				}
+			]
+		},
+		"relatedIds": [
+			"arjun-depth-corner-throw-dash-throw",
+			"arjun-depth-corner-throw-rush-medium",
+			"arjun-depth-justice-od-pillar-command-throw"
+		]
 	}
 ]

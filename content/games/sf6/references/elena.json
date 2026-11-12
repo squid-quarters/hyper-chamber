@@ -1157,5 +1157,3995 @@
 			"elena-vesper-low-two-level1s",
 			"elena-vesper-low-od-rhino-heavy-wheel"
 		]
+	},
+	{
+		"id": "elena-depth-crouching-heavy-scythe-medium-rhino",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Crouching heavy into heavy Scythe and medium Rhino",
+		"summary": "Practice canceling the crouching-heavy hit into heavy Scythe before the medium-Rhino pickup.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > 214HK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Rhino Horn"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 2.0,
+			"end": 8.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-crouching-heavy-scythe-medium-rhino/clip.mp4",
+			"poster": "/media/elena/elena-depth-crouching-heavy-scythe-medium-rhino/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-crouching-heavy-scythe-medium-rhino/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-crouching-heavy-scythe-medium-rhino/frame-1.jpg",
+					"at": 1.1,
+					"label": "Context",
+					"alt": "Crouching heavy punch begins the close-range confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-crouching-heavy-scythe-medium-rhino/frame-2.jpg",
+					"at": 3.0,
+					"label": "Action",
+					"alt": "Heavy Spinning Scythe supplies the multi-hit launch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-crouching-heavy-scythe-medium-rhino/frame-3.jpg",
+					"at": 4.25,
+					"label": "Result",
+					"alt": "Medium Rhino Horn finishes the meterless knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-crouching-heavy-rush-heavy-rhino",
+			"elena-depth-scythe-od-roll-level-one",
+			"elena-depth-scythe-heavy-rhino-level-three"
+		]
+	},
+	{
+		"id": "elena-depth-medium-rhino-roll-whirl-snap",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Medium-Rhino knockdown: roll, Whirl and Leopard Snap",
+		"summary": "Start from the recorded medium-Rhino knockdown and match the blocked roll follow-up; this does not establish a guaranteed hit.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up pressure", "Blocked follow-up"],
+		"notation": "236LP > 6HP > 6LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236LP",
+				"label": "Light Lynx Song roll"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Lynx Whirl extension"
+			},
+			{
+				"id": "step-3",
+				"notation": "6LK",
+				"label": "Leopard Snap follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.HP → heavy Spinning Scythe → medium Rhino Horn; +37F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames.",
+			"This is the performed blocked branch. No guaranteed hit or universal blockstring is claimed."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 9.0,
+			"end": 15.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-medium-rhino-roll-whirl-snap/clip.mp4",
+			"poster": "/media/elena/elena-depth-medium-rhino-roll-whirl-snap/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-medium-rhino-roll-whirl-snap/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-medium-rhino-roll-whirl-snap/frame-1.jpg",
+					"at": 3.6,
+					"label": "Context",
+					"alt": "Medium Rhino Horn supplies the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-medium-rhino-roll-whirl-snap/frame-2.jpg",
+					"at": 5.0,
+					"label": "Action",
+					"alt": "Lynx Whirl extends the light roll before Leopard Snap."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-medium-rhino-roll-whirl-snap/frame-3.jpg",
+					"at": 5.3,
+					"label": "Result",
+					"alt": "Ryu blocks the extended Leopard Snap; the source reports +1F."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-medium-rhino-rush-medium-glider",
+			"elena-depth-medium-rhino-rush-low-target",
+			"elena-depth-heavy-rhino-roll-whirl-snap"
+		]
+	},
+	{
+		"id": "elena-depth-medium-rhino-snap-trade-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Medium-Rhino knockdown: Snap trade into kick target",
+		"summary": "Use the kick-target pickup only after Leopard Snap trades with the recorded Ryu jab at the demonstrated spacing.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Trade conversion", "Knockdown"],
+		"notation": "236LP > 6HP > 6LK (trade) > st.MK > st.HK > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236LP",
+				"label": "Light Lynx Song roll"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Lynx Whirl extension"
+			},
+			{
+				"id": "step-3",
+				"notation": "6LK (trade)",
+				"label": "Leopard Snap trades"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "236HK",
+				"label": "Heavy Rhino Horn"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.HP → heavy Spinning Scythe → medium Rhino Horn; +37F in this recording",
+			"The recorded trade with Ryu’s crouching jab occurs at the shown timing and spacing"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames.",
+			"Both Counter Hit indicators are visible. This claims only the demonstrated trade and pickup."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 15.95,
+			"end": 25.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-medium-rhino-snap-trade-target/clip.mp4",
+			"poster": "/media/elena/elena-depth-medium-rhino-snap-trade-target/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-medium-rhino-snap-trade-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-medium-rhino-snap-trade-target/frame-1.jpg",
+					"at": 5.0,
+					"label": "Context",
+					"alt": "Leopard Snap trades with Ryu’s recorded crouching jab after the roll and Whirl."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-medium-rhino-snap-trade-target/frame-2.jpg",
+					"at": 6.4,
+					"label": "Action",
+					"alt": "Standing medium kick and heavy-kick target pick up the trade."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-medium-rhino-snap-trade-target/frame-3.jpg",
+					"at": 7.15,
+					"label": "Result",
+					"alt": "Heavy Rhino Horn completes the trade conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-medium-rhino-rush-guard",
+			"elena-depth-medium-rhino-roll-whirl-snap",
+			"elena-depth-medium-rhino-rush-medium-glider"
+		]
+	},
+	{
+		"id": "elena-depth-medium-rhino-rush-guard",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Medium-Rhino knockdown: raw Rush and guard as OD Shoryuken misses",
+		"summary": "Match the raw-Rush stopping point and crouch-guard spacing that make the recorded Ryu OD Shoryuken miss.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Reversal response"],
+		"notation": "DR > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.HP → heavy Spinning Scythe → medium Rhino Horn; +37F in this recording",
+			"Ryu uses the recorded wake-up OD Shoryuken",
+			"Match the shown raw-Rush stopping point and crouch-guard spacing"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames.",
+			"Only this recorded reversal miss at the demonstrated spacing is shown; no blocked contact, universal safety or reaction claim is added."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 25.95,
+			"end": 33.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-medium-rhino-rush-guard/clip.mp4",
+			"poster": "/media/elena/elena-depth-medium-rhino-rush-guard/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-medium-rhino-rush-guard/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-medium-rhino-rush-guard/frame-1.jpg",
+					"at": 3.55,
+					"label": "Context",
+					"alt": "Medium Rhino Horn completes the prerequisite route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-medium-rhino-rush-guard/frame-2.jpg",
+					"at": 4.5,
+					"label": "Action",
+					"alt": "Raw Drive Rush advances before Elena switches to guard."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-medium-rhino-rush-guard/frame-3.jpg",
+					"at": 5.15,
+					"label": "Result",
+					"alt": "Elena holds crouch guard while Ryu’s recorded wake-up OD Shoryuken misses above her."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-medium-rhino-snap-trade-target",
+			"elena-depth-medium-rhino-roll-whirl-snap",
+			"elena-depth-medium-rhino-rush-medium-glider"
+		]
+	},
+	{
+		"id": "elena-depth-medium-rhino-rush-medium-glider",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Medium-Rhino knockdown: Rush medium into Moon Glider",
+		"summary": "Use the medium-Rhino prerequisite before practicing the Rush standing-medium-kick to crouching-medium link.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "DR > st.MK > cr.MP > 214LP > 6LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP",
+				"label": "Light Moon Glider"
+			},
+			{
+				"id": "step-5",
+				"notation": "6LP",
+				"label": "Moon Glider punch follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.HP → heavy Spinning Scythe → medium Rhino Horn; +37F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 33.5,
+			"end": 42.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-medium-rhino-rush-medium-glider/clip.mp4",
+			"poster": "/media/elena/elena-depth-medium-rhino-rush-medium-glider/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-medium-rhino-rush-medium-glider/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-medium-rhino-rush-medium-glider/frame-1.jpg",
+					"at": 3.7,
+					"label": "Context",
+					"alt": "The prerequisite heavy-Scythe/medium-Rhino route knocks Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-medium-rhino-rush-medium-glider/frame-2.jpg",
+					"at": 5.3,
+					"label": "Action",
+					"alt": "Raw Rush standing medium kick links into crouching medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-medium-rhino-rush-medium-glider/frame-3.jpg",
+					"at": 6.5,
+					"label": "Result",
+					"alt": "Light Moon Glider and its punch follow-up finish the confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-medium-rhino-roll-whirl-snap",
+			"elena-depth-medium-rhino-rush-low-target",
+			"elena-depth-heavy-rhino-roll-whirl-snap"
+		]
+	},
+	{
+		"id": "elena-depth-medium-rhino-rush-low-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Medium-Rhino knockdown: Rush low into kick target",
+		"summary": "After the medium-Rhino knockdown, link standing medium kick from the Rush low before completing the kick target.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Low pressure", "Knockdown"],
+		"notation": "DR > cr.MK > st.MK > st.HK > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "Heavy Rhino Horn"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.HP → heavy Spinning Scythe → medium Rhino Horn; +37F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 42.9,
+			"end": 52.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-medium-rhino-rush-low-target/clip.mp4",
+			"poster": "/media/elena/elena-depth-medium-rhino-rush-low-target/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-medium-rhino-rush-low-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-medium-rhino-rush-low-target/frame-1.jpg",
+					"at": 3.6,
+					"label": "Context",
+					"alt": "Medium Rhino Horn completes the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-medium-rhino-rush-low-target/frame-2.jpg",
+					"at": 5.1,
+					"label": "Action",
+					"alt": "Raw Rush crouching medium kick begins the low follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-medium-rhino-rush-low-target/frame-3.jpg",
+					"at": 7.0,
+					"label": "Result",
+					"alt": "Standing medium/heavy-kick target leads into heavy Rhino Horn."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-medium-rhino-roll-whirl-snap",
+			"elena-depth-medium-rhino-rush-medium-glider",
+			"elena-depth-heavy-rhino-roll-whirl-snap"
+		]
+	},
+	{
+		"id": "elena-depth-crouching-heavy-rush-heavy-rhino",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Heavy Scythe launcher: raw Rush into heavy Rhino",
+		"summary": "Practice the raw-Rush crouching-medium pickup after the heavy-Scythe launch before using heavy Rhino.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > 214HK > DR > cr.MP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "Heavy Rhino Horn"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 52.8,
+			"end": 59.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-crouching-heavy-rush-heavy-rhino/clip.mp4",
+			"poster": "/media/elena/elena-depth-crouching-heavy-rush-heavy-rhino/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-crouching-heavy-rush-heavy-rhino/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-crouching-heavy-rush-heavy-rhino/frame-1.jpg",
+					"at": 1.2,
+					"label": "Context",
+					"alt": "Crouching heavy punch and heavy Spinning Scythe launch Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-crouching-heavy-rush-heavy-rhino/frame-2.jpg",
+					"at": 3.55,
+					"label": "Action",
+					"alt": "Raw Drive Rush positions crouching medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-crouching-heavy-rush-heavy-rhino/frame-3.jpg",
+					"at": 4.5,
+					"label": "Result",
+					"alt": "Heavy Rhino Horn finishes the juggle for the shown +40F knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-scythe-od-roll-level-one",
+			"elena-depth-scythe-heavy-rhino-level-three",
+			"elena-depth-guard-od-dp-heavy-target-carry"
+		]
+	},
+	{
+		"id": "elena-depth-heavy-rhino-roll-whirl-snap",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Heavy-Rhino knockdown: roll, Whirl and Leopard Snap",
+		"summary": "Reproduce the heavy-Rhino knockdown route before the roll approach; its timing differs from the medium-Rhino prerequisite.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up pressure", "Blocked follow-up"],
+		"notation": "236LP > 6HP > 6LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236LP",
+				"label": "Light Lynx Song roll"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Lynx Whirl extension"
+			},
+			{
+				"id": "step-3",
+				"notation": "6LK",
+				"label": "Leopard Snap follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.HP → heavy Spinning Scythe → raw Drive Rush → cr.MP → heavy Rhino Horn; +40F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 59.9,
+			"end": 67.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-heavy-rhino-roll-whirl-snap/clip.mp4",
+			"poster": "/media/elena/elena-depth-heavy-rhino-roll-whirl-snap/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-heavy-rhino-roll-whirl-snap/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-heavy-rhino-roll-whirl-snap/frame-1.jpg",
+					"at": 4.3,
+					"label": "Context",
+					"alt": "The raw-Rush heavy-Rhino route supplies the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-heavy-rhino-roll-whirl-snap/frame-2.jpg",
+					"at": 5.6,
+					"label": "Action",
+					"alt": "Lynx Whirl extends the light roll as Ryu rises."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-heavy-rhino-roll-whirl-snap/frame-3.jpg",
+					"at": 6.1,
+					"label": "Result",
+					"alt": "Ryu blocks Leopard Snap; the source reports +1F."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-medium-rhino-roll-whirl-snap",
+			"elena-depth-medium-rhino-rush-medium-glider",
+			"elena-depth-medium-rhino-rush-low-target"
+		]
+	},
+	{
+		"id": "elena-depth-heavy-rhino-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Heavy-Rhino knockdown: raw Rush into throw",
+		"summary": "Budget the follow-up Rush separately from the Rush already used in the heavy-Rhino prerequisite.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "DR > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.HP → heavy Spinning Scythe → raw Drive Rush → cr.MP → heavy Rhino Horn; +40F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 74.5,
+			"end": 84.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-heavy-rhino-rush-throw/clip.mp4",
+			"poster": "/media/elena/elena-depth-heavy-rhino-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-heavy-rhino-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-heavy-rhino-rush-throw/frame-1.jpg",
+					"at": 4.5,
+					"label": "Context",
+					"alt": "Heavy Rhino Horn completes the prerequisite juggle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-heavy-rhino-rush-throw/frame-2.jpg",
+					"at": 6.0,
+					"label": "Action",
+					"alt": "Raw Drive Rush closes the gap for a normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-heavy-rhino-rush-throw/frame-3.jpg",
+					"at": 6.8,
+					"label": "Result",
+					"alt": "The throw connects against Ryu’s recorded wake-up behavior."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-medium-rhino-roll-whirl-snap",
+			"elena-depth-medium-rhino-rush-medium-glider",
+			"elena-depth-medium-rhino-rush-low-target"
+		]
+	},
+	{
+		"id": "elena-depth-heavy-rhino-rush-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Heavy-Rhino knockdown: raw Rush shimmy",
+		"summary": "After the Rush approach, retreat from Ryu’s recorded wake-up throw and punish with crouching medium.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "DR > 4 > cr.MP > 214HK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Rhino Horn"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.HP → heavy Spinning Scythe → raw Drive Rush → cr.MP → heavy Rhino Horn; +40F in this recording",
+			"Ryu attempts the recorded wake-up throw"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 84.65,
+			"end": 96.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-heavy-rhino-rush-shimmy/clip.mp4",
+			"poster": "/media/elena/elena-depth-heavy-rhino-rush-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-heavy-rhino-rush-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-heavy-rhino-rush-shimmy/frame-1.jpg",
+					"at": 4.35,
+					"label": "Context",
+					"alt": "The prerequisite heavy Rhino Horn knocks Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-heavy-rhino-rush-shimmy/frame-2.jpg",
+					"at": 5.85,
+					"label": "Action",
+					"alt": "Elena retreats after raw Drive Rush and Ryu’s throw misses."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-heavy-rhino-rush-shimmy/frame-3.jpg",
+					"at": 6.45,
+					"label": "Result",
+					"alt": "Crouching medium punch punishes the missed throw into heavy Scythe and medium Rhino."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-medium-rhino-roll-whirl-snap",
+			"elena-depth-medium-rhino-rush-medium-glider",
+			"elena-depth-medium-rhino-rush-low-target"
+		]
+	},
+	{
+		"id": "elena-depth-heavy-rhino-rush-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Heavy-Rhino knockdown: Rush overhead into kick target",
+		"summary": "Link standing medium kick after the Rush overhead hit from the demonstrated heavy-Rhino knockdown.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Overhead pressure", "Knockdown"],
+		"notation": "DR > f.MK > st.MK > st.HK > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MK",
+				"label": "Forward medium kick overhead"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "Heavy Rhino Horn"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.HP → heavy Spinning Scythe → raw Drive Rush → cr.MP → heavy Rhino Horn; +40F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 109.25,
+			"end": 119.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-heavy-rhino-rush-overhead/clip.mp4",
+			"poster": "/media/elena/elena-depth-heavy-rhino-rush-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-heavy-rhino-rush-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-heavy-rhino-rush-overhead/frame-1.jpg",
+					"at": 4.55,
+					"label": "Context",
+					"alt": "Heavy Rhino Horn ends the prerequisite juggle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-heavy-rhino-rush-overhead/frame-2.jpg",
+					"at": 6.05,
+					"label": "Action",
+					"alt": "Raw Drive Rush forward medium kick starts the overhead follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-heavy-rhino-rush-overhead/frame-3.jpg",
+					"at": 7.85,
+					"label": "Result",
+					"alt": "The standing medium/heavy-kick target converts into heavy Rhino Horn."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-medium-rhino-roll-whirl-snap",
+			"elena-depth-medium-rhino-rush-medium-glider",
+			"elena-depth-medium-rhino-rush-low-target"
+		]
+	},
+	{
+		"id": "elena-depth-scythe-od-roll-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Heavy Scythe: raw Rush OD roll into Level 1 and heavy Wheel",
+		"summary": "Match the Harvest Circle height before Level 1, then practice the heavy-Wheel pickup after the Super.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > 214HK > DR > cr.MP > 236PP > 6MK > SA1 > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236PP",
+				"label": "OD Lynx Song roll"
+			},
+			{
+				"id": "step-6",
+				"notation": "6MK",
+				"label": "Harvest Circle follow-up"
+			},
+			{
+				"id": "step-7",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			},
+			{
+				"id": "step-8",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": ["Classic controls", "Match the shown Harvest Circle height before Level 1"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush plus OD Lynx Song (3 bars)",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 147.7,
+			"end": 158.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-scythe-od-roll-level-one/clip.mp4",
+			"poster": "/media/elena/elena-depth-scythe-od-roll-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-scythe-od-roll-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-scythe-od-roll-level-one/frame-1.jpg",
+					"at": 2.2,
+					"label": "Context",
+					"alt": "Heavy Scythe launches into a raw-Rush crouching-medium pickup."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-scythe-od-roll-level-one/frame-2.jpg",
+					"at": 4.5,
+					"label": "Action",
+					"alt": "OD Lynx Song and Harvest Circle launch into Meteor Volley."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-scythe-od-roll-level-one/frame-3.jpg",
+					"at": 8.1,
+					"label": "Result",
+					"alt": "Heavy Scratch Wheel adds the actual post-Level-1 juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-crouching-heavy-rush-heavy-rhino",
+			"elena-depth-scythe-heavy-rhino-level-three",
+			"elena-depth-air-to-air-heavy-level-one"
+		]
+	},
+	{
+		"id": "elena-depth-scythe-heavy-rhino-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Heavy Scythe cash-out: raw Rush, heavy Rhino and Level 3",
+		"summary": "With Level 3 available, practice the raw-Rush launcher pickup before canceling the heavy-Rhino route into the Super.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush", "Cash-out"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > 214HK > DR > cr.MP > 236HK > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "Heavy Rhino Horn"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "Level 3 available"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 193.9,
+			"end": 209.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-scythe-heavy-rhino-level-three/clip.mp4",
+			"poster": "/media/elena/elena-depth-scythe-heavy-rhino-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-scythe-heavy-rhino-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-scythe-heavy-rhino-level-three/frame-1.jpg",
+					"at": 1.2,
+					"label": "Context",
+					"alt": "Crouching heavy punch and heavy Scythe begin the cash-out."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-scythe-heavy-rhino-level-three/frame-2.jpg",
+					"at": 4.3,
+					"label": "Action",
+					"alt": "Raw Rush crouching medium leads into heavy Rhino Horn."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-scythe-heavy-rhino-level-three/frame-3.jpg",
+					"at": 13.8,
+					"label": "Result",
+					"alt": "Song of the Grasslands spends all three Super bars and finishes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-crouching-heavy-rush-heavy-rhino",
+			"elena-depth-scythe-od-roll-level-one",
+			"elena-depth-guard-od-dp-heavy-target-carry"
+		]
+	},
+	{
+		"id": "elena-depth-corner-heavy-scythe-light-wheel",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner heavy Scythe: light Rhino into light Wheel",
+		"summary": "Start with the opponent already at the wall and practice the light-Rhino to light-Wheel pickup.",
+		"kind": "combo",
+		"situations": ["Corner"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > 214HK > 236LK > 623LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LK",
+				"label": "Light Rhino Horn"
+			},
+			{
+				"id": "step-4",
+				"notation": "623LK",
+				"label": "Light Scratch Wheel"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent starts in the corner"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 228.0,
+			"end": 235.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-heavy-scythe-light-wheel/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-heavy-scythe-light-wheel/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-heavy-scythe-light-wheel/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-heavy-scythe-light-wheel/frame-1.jpg",
+					"at": 1.1,
+					"label": "Context",
+					"alt": "Crouching heavy punch and heavy Scythe begin at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-heavy-scythe-light-wheel/frame-2.jpg",
+					"at": 3.5,
+					"label": "Action",
+					"alt": "Light Rhino Horn keeps Ryu close enough for the corner juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-heavy-scythe-light-wheel/frame-3.jpg",
+					"at": 4.6,
+					"label": "Result",
+					"alt": "Light Scratch Wheel supplies the source’s +36F knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-corner-wheel-roll-medium-guard",
+			"elena-depth-corner-wheel-roll-medium-throw",
+			"elena-depth-corner-wheel-roll-medium-shimmy"
+		]
+	},
+	{
+		"id": "elena-depth-corner-wheel-roll-medium-guard",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner light-Wheel knockdown: roll medium, then guard Drive Reversal",
+		"summary": "After the corner light-Wheel prerequisite, perform the roll medium and recover to block the recorded Ryu Drive Reversal.",
+		"kind": "response",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Reversal response"],
+		"notation": "236LP > st.MK > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236LP",
+				"label": "Light Lynx Song roll"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.HP → heavy Spinning Scythe → light Rhino Horn → light Scratch Wheel; +36F in this recording",
+			"Ryu uses the recorded wake-up Drive Reversal"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames.",
+			"The source calls this meaty pressure. Safety is limited to the recorded Ryu Drive Reversal."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 242.55,
+			"end": 250.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-wheel-roll-medium-guard/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-wheel-roll-medium-guard/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-wheel-roll-medium-guard/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-medium-guard/frame-1.jpg",
+					"at": 4.6,
+					"label": "Context",
+					"alt": "Light Scratch Wheel supplies the prerequisite corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-medium-guard/frame-2.jpg",
+					"at": 5.65,
+					"label": "Action",
+					"alt": "After light Lynx Song, standing medium kick meets Ryu’s wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-medium-guard/frame-3.jpg",
+					"at": 6.0,
+					"label": "Result",
+					"alt": "Elena recovers and guards Ryu’s recorded wake-up Drive Reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-corner-wheel-whiffs-jab-guard-level-one",
+			"elena-depth-corner-wheel-roll-medium-throw",
+			"elena-depth-corner-wheel-roll-medium-shimmy"
+		]
+	},
+	{
+		"id": "elena-depth-corner-wheel-roll-medium-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner light-Wheel knockdown: roll medium on block, then throw",
+		"summary": "Ryu guards the roll medium before the throw; treat them as separate pressure actions rather than a hit combo.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "236LP > st.MK > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236LP",
+				"label": "Light Lynx Song roll"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.HP → heavy Spinning Scythe → light Rhino Horn → light Scratch Wheel; +36F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames.",
+			"The source reports +4F on block. The strike and throw are separate pressure actions."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 258.65,
+			"end": 268.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-wheel-roll-medium-throw/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-wheel-roll-medium-throw/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-wheel-roll-medium-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-medium-throw/frame-1.jpg",
+					"at": 3.45,
+					"label": "Context",
+					"alt": "Light Scratch Wheel completes the prerequisite corner juggle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-medium-throw/frame-2.jpg",
+					"at": 5.85,
+					"label": "Action",
+					"alt": "Ryu blocks the standing medium kick after light Lynx Song."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-medium-throw/frame-3.jpg",
+					"at": 6.75,
+					"label": "Result",
+					"alt": "The close normal throw connects after the blocked medium."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-corner-wheel-roll-medium-shimmy",
+			"elena-depth-corner-wheel-roll-medium-confirm",
+			"elena-depth-corner-wheel-roll-delay-throw"
+		]
+	},
+	{
+		"id": "elena-depth-corner-wheel-roll-medium-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner light-Wheel knockdown: roll medium on block into shimmy",
+		"summary": "After the roll medium is guarded, retreat from Ryu’s throw before converting the crouching-medium punish.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish"],
+		"outcomes": ["Whiff punish", "Corner knockdown"],
+		"notation": "236LP > st.MK > 4 > cr.MP > 214HK > 236LK > 623LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236LP",
+				"label": "Light Lynx Song roll"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe"
+			},
+			{
+				"id": "step-6",
+				"notation": "236LK",
+				"label": "Light Rhino Horn"
+			},
+			{
+				"id": "step-7",
+				"notation": "623LK",
+				"label": "Light Scratch Wheel"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.HP → heavy Spinning Scythe → light Rhino Horn → light Scratch Wheel; +36F in this recording",
+			"Ryu blocks the medium kick and attempts the recorded throw"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 268.9,
+			"end": 281.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-wheel-roll-medium-shimmy/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-wheel-roll-medium-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-wheel-roll-medium-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-medium-shimmy/frame-1.jpg",
+					"at": 5.85,
+					"label": "Context",
+					"alt": "After the prerequisite light Wheel, Ryu blocks the roll/standing-medium pressure."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-medium-shimmy/frame-2.jpg",
+					"at": 6.3,
+					"label": "Action",
+					"alt": "Elena steps back and Ryu’s throw misses."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-medium-shimmy/frame-3.jpg",
+					"at": 6.7,
+					"label": "Result",
+					"alt": "Crouching medium punch punishes the missed throw and begins the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-heavy-rhino-rush-shimmy",
+			"elena-depth-corner-wheel-roll-medium-throw",
+			"elena-depth-corner-wheel-roll-medium-confirm"
+		]
+	},
+	{
+		"id": "elena-depth-corner-wheel-roll-medium-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner light-Wheel knockdown: roll medium into kick target",
+		"summary": "Keep both standing medium kicks: the first wake-up hit links into the second medium and heavy-kick target.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up pressure", "Corner knockdown"],
+		"notation": "236LP > st.MK > st.MK > st.HK > 236LK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236LP",
+				"label": "Light Lynx Song roll"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "Light Rhino Horn"
+			},
+			{
+				"id": "step-6",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.HP → heavy Spinning Scythe → light Rhino Horn → light Scratch Wheel; +36F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames.",
+			"Both standing medium kicks are performed. The first wake-up strike is followed by the medium/heavy target combo."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 282.3,
+			"end": 293.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-wheel-roll-medium-confirm/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-wheel-roll-medium-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-wheel-roll-medium-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-medium-confirm/frame-1.jpg",
+					"at": 4.7,
+					"label": "Context",
+					"alt": "Light Scratch Wheel finishes the prerequisite corner route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-medium-confirm/frame-2.jpg",
+					"at": 6.15,
+					"label": "Action",
+					"alt": "The first standing medium kick connects after light Lynx Song and links to another standing medium."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-medium-confirm/frame-3.jpg",
+					"at": 8.4,
+					"label": "Result",
+					"alt": "The medium/heavy-kick target, light Rhino and heavy Wheel finish the confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-corner-wheel-roll-medium-throw",
+			"elena-depth-corner-wheel-roll-medium-shimmy",
+			"elena-depth-corner-wheel-roll-delay-throw"
+		]
+	},
+	{
+		"id": "elena-depth-corner-wheel-roll-delay-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner light-Wheel knockdown: empty roll and delayed throw",
+		"summary": "Leave the roll empty and match the visible throw delay; the recorded connection does not establish universal throw coverage.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "236LP > Wait > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236LP",
+				"label": "Light Lynx Song roll"
+			},
+			{
+				"id": "step-2",
+				"notation": "Wait",
+				"label": "Delay before throwing",
+				"cue": "Match the shown short delay after the roll; +8F is remaining advantage, not an eight-frame wait."
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.HP → heavy Spinning Scythe → light Rhino Horn → light Scratch Wheel; +36F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames.",
+			"The source labels this un-shimmyable. Only the recorded throw connection is claimed here."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 293.95,
+			"end": 303.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-wheel-roll-delay-throw/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-wheel-roll-delay-throw/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-wheel-roll-delay-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-delay-throw/frame-1.jpg",
+					"at": 4.6,
+					"label": "Context",
+					"alt": "Light Scratch Wheel supplies the prerequisite corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-delay-throw/frame-2.jpg",
+					"at": 5.5,
+					"label": "Action",
+					"alt": "The empty light roll ends close to the rising Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-wheel-roll-delay-throw/frame-3.jpg",
+					"at": 6.25,
+					"label": "Result",
+					"alt": "The delayed normal throw connects against the recorded wake-up behavior."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-corner-wheel-roll-medium-throw",
+			"elena-depth-corner-wheel-roll-medium-shimmy",
+			"elena-depth-corner-wheel-roll-medium-confirm"
+		]
+	},
+	{
+		"id": "elena-depth-corner-wheel-whiff-low-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner light-Wheel knockdown: whiff light kick into overhead",
+		"summary": "Intentionally miss crouching light kick during the knockdown, then link crouching jab from the overhead hit.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Overhead pressure", "Corner knockdown"],
+		"notation": "cr.LK (whiff) > f.MK > cr.LP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MK",
+				"label": "Forward medium kick overhead"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.HP → heavy Spinning Scythe → light Rhino Horn → light Scratch Wheel; +36F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 304.1,
+			"end": 312.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-wheel-whiff-low-overhead/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-wheel-whiff-low-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-wheel-whiff-low-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-wheel-whiff-low-overhead/frame-1.jpg",
+					"at": 5.25,
+					"label": "Context",
+					"alt": "Crouching light kick deliberately misses after the prerequisite light Wheel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-wheel-whiff-low-overhead/frame-2.jpg",
+					"at": 5.9,
+					"label": "Action",
+					"alt": "Forward medium kick supplies the overhead wake-up strike."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-wheel-whiff-low-overhead/frame-3.jpg",
+					"at": 7.0,
+					"label": "Result",
+					"alt": "Crouching jab and heavy Scratch Wheel complete the confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-corner-wheel-roll-medium-throw",
+			"elena-depth-corner-wheel-roll-medium-shimmy",
+			"elena-depth-corner-wheel-roll-medium-confirm"
+		]
+	},
+	{
+		"id": "elena-depth-corner-wheel-low-standing-jab-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner light-Wheel knockdown: two whiffs into throw",
+		"summary": "Keep both intentional whiffs before the throw; the printed +5 describes the remaining advantage rather than a five-frame wait.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "cr.LK (whiff) > st.LP (whiff) > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP (whiff)",
+				"label": "Whiff standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.HP → heavy Spinning Scythe → light Rhino Horn → light Scratch Wheel; +36F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames.",
+			"The source’s +5F is remaining advantage after the two whiffs, not a five-frame delay."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 321.1,
+			"end": 330.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-wheel-low-standing-jab-throw/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-wheel-low-standing-jab-throw/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-wheel-low-standing-jab-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-wheel-low-standing-jab-throw/frame-1.jpg",
+					"at": 5.25,
+					"label": "Context",
+					"alt": "Crouching light kick deliberately misses while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-wheel-low-standing-jab-throw/frame-2.jpg",
+					"at": 5.5,
+					"label": "Action",
+					"alt": "Standing light punch also intentionally whiffs to complete the framekill."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-wheel-low-standing-jab-throw/frame-3.jpg",
+					"at": 6.4,
+					"label": "Result",
+					"alt": "The normal throw connects after the two whiffs."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-corner-wheel-roll-medium-throw",
+			"elena-depth-corner-wheel-roll-medium-shimmy",
+			"elena-depth-corner-wheel-roll-medium-confirm"
+		]
+	},
+	{
+		"id": "elena-depth-corner-wheel-low-standing-jab-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner light-Wheel knockdown: two whiffs into jab target confirm",
+		"summary": "After the low-kick and standing-jab framekills, link the hitting crouching jab into the kick target.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up pressure", "Corner knockdown"],
+		"notation": "cr.LK (whiff) > st.LP (whiff) > cr.LP > st.MK > st.HK > 236LK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP (whiff)",
+				"label": "Whiff standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "236LK",
+				"label": "Light Rhino Horn"
+			},
+			{
+				"id": "step-7",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.HP → heavy Spinning Scythe → light Rhino Horn → light Scratch Wheel; +36F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 331.5,
+			"end": 342.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-wheel-low-standing-jab-confirm/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-wheel-low-standing-jab-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-wheel-low-standing-jab-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-wheel-low-standing-jab-confirm/frame-1.jpg",
+					"at": 4.95,
+					"label": "Context",
+					"alt": "Crouching light kick intentionally misses after the prerequisite light Wheel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-wheel-low-standing-jab-confirm/frame-2.jpg",
+					"at": 5.2,
+					"label": "Action",
+					"alt": "Standing light punch also deliberately misses before the wake-up jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-wheel-low-standing-jab-confirm/frame-3.jpg",
+					"at": 5.5,
+					"label": "Result",
+					"alt": "Crouching jab connects and links into the standing medium/heavy-kick target."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-corner-wheel-roll-medium-throw",
+			"elena-depth-corner-wheel-roll-medium-shimmy",
+			"elena-depth-corner-wheel-roll-medium-confirm"
+		]
+	},
+	{
+		"id": "elena-depth-corner-wheel-whiffs-jab-guard-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner light-Wheel knockdown: two whiffs, jab, then guard Lily Level 1",
+		"summary": "Keep both framekills and the crouching-jab strike before guarding Lily’s recorded Level 1; broader reversal coverage is untested.",
+		"kind": "response",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Reversal response"],
+		"notation": "cr.LK (whiff) > st.LP (whiff) > cr.LP > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP (whiff)",
+				"label": "Whiff standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.HP → heavy Spinning Scythe → light Rhino Horn → light Scratch Wheel; +36F in this recording",
+			"Lily uses the recorded wake-up Level 1 Super Art"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames.",
+			"The source’s broad 10F+ reversal caption is narrowed here to the actual Lily Level-1 block. No reaction or universal safety claim is made."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 342.7,
+			"end": 352.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-wheel-whiffs-jab-guard-level-one/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-wheel-whiffs-jab-guard-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-wheel-whiffs-jab-guard-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-wheel-whiffs-jab-guard-level-one/frame-1.jpg",
+					"at": 5.5,
+					"label": "Context",
+					"alt": "The prerequisite light Wheel knocks Lily down at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-wheel-whiffs-jab-guard-level-one/frame-2.jpg",
+					"at": 5.7,
+					"label": "Action",
+					"alt": "The two intentional light-button whiffs lead into the crouching jab timing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-wheel-whiffs-jab-guard-level-one/frame-3.jpg",
+					"at": 7.3,
+					"label": "Result",
+					"alt": "Elena recovers from the jab and blocks Lily’s recorded wake-up Level 1."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-corner-wheel-roll-medium-guard",
+			"elena-depth-corner-wheel-roll-medium-throw",
+			"elena-depth-corner-wheel-roll-medium-shimmy"
+		]
+	},
+	{
+		"id": "elena-depth-corner-wheel-low-crouching-jab-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner light-Wheel knockdown: two crouching whiffs into low target",
+		"summary": "Use a crouching jab for the second intentional whiff; the standing-jab framekill belongs to a different timing branch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Low pressure", "Corner knockdown"],
+		"notation": "cr.LK (whiff) > cr.LP (whiff) > cr.MK > st.MK > st.HK > 236LK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP (whiff)",
+				"label": "Whiff crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "236LK",
+				"label": "Light Rhino Horn"
+			},
+			{
+				"id": "step-7",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.HP → heavy Spinning Scythe → light Rhino Horn → light Scratch Wheel; +36F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames.",
+			"This uses a crouching jab framekill. The standing-jab framekill is a different timing branch."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 360.45,
+			"end": 371.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-low/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-low/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-low/frame-1.jpg",
+					"at": 5.2,
+					"label": "Context",
+					"alt": "Crouching light kick deliberately misses after the prerequisite light Wheel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-low/frame-2.jpg",
+					"at": 5.4,
+					"label": "Action",
+					"alt": "Crouching jab also whiffs before the wake-up low."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-low/frame-3.jpg",
+					"at": 5.8,
+					"label": "Result",
+					"alt": "Crouching medium kick connects and links into the medium/heavy-kick target."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-corner-wheel-roll-medium-throw",
+			"elena-depth-corner-wheel-roll-medium-shimmy",
+			"elena-depth-corner-wheel-roll-medium-confirm"
+		]
+	},
+	{
+		"id": "elena-depth-corner-wheel-low-crouching-jab-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner light-Wheel knockdown: two crouching whiffs and delayed throw",
+		"summary": "After both crouching framekills, visually match the additional pause before the throw instead of inventing a frame count.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "cr.LK (whiff) > cr.LP (whiff) > Wait > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP (whiff)",
+				"label": "Whiff crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "Wait",
+				"label": "Delay before throwing",
+				"cue": "Use the shown short delay; +10F is remaining advantage after the whiffs."
+			},
+			{
+				"id": "step-4",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.HP → heavy Spinning Scythe → light Rhino Horn → light Scratch Wheel; +36F in this recording"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 371.95,
+			"end": 381.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-throw/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-throw/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-throw/frame-1.jpg",
+					"at": 5.1,
+					"label": "Context",
+					"alt": "Crouching light kick intentionally misses after the prerequisite light Wheel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-throw/frame-2.jpg",
+					"at": 5.35,
+					"label": "Action",
+					"alt": "Crouching jab also intentionally misses before the delayed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-throw/frame-3.jpg",
+					"at": 6.15,
+					"label": "Result",
+					"alt": "The normal throw connects against the recorded wake-up behavior."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-corner-wheel-roll-medium-throw",
+			"elena-depth-corner-wheel-roll-medium-shimmy",
+			"elena-depth-corner-wheel-roll-medium-confirm"
+		]
+	},
+	{
+		"id": "elena-depth-corner-wheel-low-crouching-jab-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Corner light-Wheel knockdown: two crouching whiffs into shimmy",
+		"summary": "Retreat after the two crouching whiffs and punish Ryu’s recorded wake-up throw with crouching medium.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish"],
+		"outcomes": ["Whiff punish", "Corner knockdown"],
+		"notation": "cr.LK (whiff) > cr.LP (whiff) > 4 > cr.MP > 214HK > 236LK > 623LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP (whiff)",
+				"label": "Whiff crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe"
+			},
+			{
+				"id": "step-6",
+				"notation": "236LK",
+				"label": "Light Rhino Horn"
+			},
+			{
+				"id": "step-7",
+				"notation": "623LK",
+				"label": "Light Scratch Wheel"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After corner cr.HP → heavy Spinning Scythe → light Rhino Horn → light Scratch Wheel; +36F in this recording",
+			"Ryu attempts the recorded wake-up throw"
+		],
+		"notes": [
+			"The clip retains prerequisite context; the listed input sequence and resource cost begin with the follow-up.",
+			"The source’s +F captions describe advantage at that point. They are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 381.95,
+			"end": 394.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-shimmy/clip.mp4",
+			"poster": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-shimmy/frame-1.jpg",
+					"at": 5.1,
+					"label": "Context",
+					"alt": "Crouching light kick intentionally misses; the crouching-jab framekill follows before the retreat."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-shimmy/frame-2.jpg",
+					"at": 5.75,
+					"label": "Action",
+					"alt": "Elena retreats and Ryu’s normal throw misses."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-shimmy/frame-3.jpg",
+					"at": 6.15,
+					"label": "Result",
+					"alt": "Crouching medium punch punishes the throw and leads into the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-corner-wheel-roll-medium-shimmy",
+			"elena-depth-heavy-rhino-rush-shimmy",
+			"elena-depth-corner-wheel-roll-medium-throw"
+		]
+	},
+	{
+		"id": "elena-depth-punish-jab-medium-glider",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Jab Punish Counter: crouching medium into Moon Glider",
+		"summary": "The crouching-jab starter must score Punish Counter before linking into crouching medium and the light Moon Glider follow-up.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.MP > 214LP > 6LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "Light Moon Glider"
+			},
+			{
+				"id": "step-4",
+				"notation": "6LP",
+				"label": "Moon Glider punch follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching jab must score Punish Counter at the demonstrated spacing"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 931.3,
+			"end": 935.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-punish-jab-medium-glider/clip.mp4",
+			"poster": "/media/elena/elena-depth-punish-jab-medium-glider/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-punish-jab-medium-glider/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-punish-jab-medium-glider/frame-1.jpg",
+					"at": 0.2,
+					"label": "Context",
+					"alt": "Crouching jab scores the required Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-punish-jab-medium-glider/frame-2.jpg",
+					"at": 1.2,
+					"label": "Action",
+					"alt": "Crouching medium links into light Moon Glider."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-punish-jab-medium-glider/frame-3.jpg",
+					"at": 1.8,
+					"label": "Result",
+					"alt": "The punch follow-up finishes the meterless conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-punish-close-jab-heavy-scythe",
+			"elena-depth-punish-jab-od-rhino-side-switch",
+			"elena-depth-punish-low-medium-glider"
+		]
+	},
+	{
+		"id": "elena-depth-punish-close-jab-heavy-scythe",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Close jab Punish Counter: heavy Scythe and medium Rhino",
+		"summary": "Start point-blank for the Punish-Counter jab to heavy-punch link; this take performs medium Rhino despite the broader ender caption.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.HP > 214HK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Medium Rhino Horn"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Point-blank crouching-jab Punish Counter, as specified by the source"
+		],
+		"notes": [
+			"The overlay says any ender. This card includes only the medium Rhino Horn actually performed."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 938.0,
+			"end": 943.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-punish-close-jab-heavy-scythe/clip.mp4",
+			"poster": "/media/elena/elena-depth-punish-close-jab-heavy-scythe/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-punish-close-jab-heavy-scythe/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-punish-close-jab-heavy-scythe/frame-1.jpg",
+					"at": 0.2,
+					"label": "Context",
+					"alt": "The point-blank crouching jab scores Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-punish-close-jab-heavy-scythe/frame-2.jpg",
+					"at": 2.2,
+					"label": "Action",
+					"alt": "Crouching heavy punch links into heavy Spinning Scythe."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-punish-close-jab-heavy-scythe/frame-3.jpg",
+					"at": 3.5,
+					"label": "Result",
+					"alt": "The actual medium-Rhino ender completes this take."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-punish-jab-medium-glider",
+			"elena-depth-punish-jab-od-rhino-side-switch",
+			"elena-depth-punish-low-medium-glider"
+		]
+	},
+	{
+		"id": "elena-depth-punish-jab-od-rhino-side-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Jab Punish Counter: kick target into OD-Rhino side switch",
+		"summary": "Match the close Punish-Counter spacing and OD-Rhino crossover before the heavy-Wheel pickup.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Side switch"],
+		"outcomes": ["Side switch", "Knockdown"],
+		"notation": "cr.LP > st.MK > st.HK > 236KK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "OD Rhino Horn",
+				"cue": "The OD Rhino crosses under the airborne opponent as demonstrated."
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close-range crouching-jab Punish Counter",
+			"Match the demonstrated OD-Rhino crossover spacing"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "OD Rhino Horn (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 946.85,
+			"end": 951.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-punish-jab-od-rhino-side-switch/clip.mp4",
+			"poster": "/media/elena/elena-depth-punish-jab-od-rhino-side-switch/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-punish-jab-od-rhino-side-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-punish-jab-od-rhino-side-switch/frame-1.jpg",
+					"at": 0.15,
+					"label": "Context",
+					"alt": "Crouching jab scores Punish Counter at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-punish-jab-od-rhino-side-switch/frame-2.jpg",
+					"at": 1.7,
+					"label": "Action",
+					"alt": "The medium/heavy-kick target leads into OD Rhino Horn and switches sides."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-punish-jab-od-rhino-side-switch/frame-3.jpg",
+					"at": 2.65,
+					"label": "Result",
+					"alt": "Heavy Scratch Wheel catches the juggle after the side switch."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-punish-jab-medium-glider",
+			"elena-depth-punish-close-jab-heavy-scythe",
+			"elena-depth-punish-low-medium-glider"
+		]
+	},
+	{
+		"id": "elena-depth-punish-low-medium-glider",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Low Punish Counter: crouching medium into Moon Glider",
+		"summary": "Use the crouching-medium link only after the low kick scores the demonstrated Punish Counter.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK > cr.MP > 214LP > 6LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "Light Moon Glider"
+			},
+			{
+				"id": "step-4",
+				"notation": "6LP",
+				"label": "Moon Glider punch follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching medium kick must score Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 965.95,
+			"end": 970.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-punish-low-medium-glider/clip.mp4",
+			"poster": "/media/elena/elena-depth-punish-low-medium-glider/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-punish-low-medium-glider/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-punish-low-medium-glider/frame-1.jpg",
+					"at": 0.35,
+					"label": "Context",
+					"alt": "Crouching medium kick scores Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-punish-low-medium-glider/frame-2.jpg",
+					"at": 1.55,
+					"label": "Action",
+					"alt": "Crouching medium punch links into light Moon Glider."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-punish-low-medium-glider/frame-3.jpg",
+					"at": 2.15,
+					"label": "Result",
+					"alt": "The punch follow-up completes the low punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-punish-jab-medium-glider",
+			"elena-depth-punish-close-jab-heavy-scythe",
+			"elena-depth-punish-jab-od-rhino-side-switch"
+		]
+	},
+	{
+		"id": "elena-depth-punish-medium-heavy-scythe",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Crouching-medium Punish Counter into heavy Scythe",
+		"summary": "Begin from a crouching-medium Punish Counter and practice the actual medium-Rhino ender shown after heavy Scythe.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > 214HK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Rhino Horn"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching medium punch must score Punish Counter"],
+		"notes": ["The caption’s any ender is resolved to the actual medium Rhino Horn."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 972.7,
+			"end": 978.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-punish-medium-heavy-scythe/clip.mp4",
+			"poster": "/media/elena/elena-depth-punish-medium-heavy-scythe/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-punish-medium-heavy-scythe/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-punish-medium-heavy-scythe/frame-1.jpg",
+					"at": 0.3,
+					"label": "Context",
+					"alt": "Crouching medium punch scores Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-punish-medium-heavy-scythe/frame-2.jpg",
+					"at": 1.8,
+					"label": "Action",
+					"alt": "Heavy Spinning Scythe converts the medium starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-punish-medium-heavy-scythe/frame-3.jpg",
+					"at": 3.2,
+					"label": "Result",
+					"alt": "Medium Rhino Horn is the actual performed ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-punish-jab-medium-glider",
+			"elena-depth-punish-close-jab-heavy-scythe",
+			"elena-depth-punish-jab-od-rhino-side-switch"
+		]
+	},
+	{
+		"id": "elena-depth-guard-bison-drive-reversal-light-rhino",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Block Bison Drive Reversal: standing light-kick punish",
+		"summary": "Block the recorded Bison Drive Reversal at this spacing, then convert standing light kick while Bison remains standing.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Reversal punish", "Knockdown"],
+		"notation": "Guard > st.LK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Rhino Horn"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Block Bison’s recorded Drive Reversal at the shown spacing",
+			"Bison is standing when medium Rhino Horn connects"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 953.2,
+			"end": 957.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-guard-bison-drive-reversal-light-rhino/clip.mp4",
+			"poster": "/media/elena/elena-depth-guard-bison-drive-reversal-light-rhino/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-guard-bison-drive-reversal-light-rhino/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-guard-bison-drive-reversal-light-rhino/frame-1.jpg",
+					"at": 0.15,
+					"label": "Context",
+					"alt": "Elena guards Bison’s recorded wake-up Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-guard-bison-drive-reversal-light-rhino/frame-2.jpg",
+					"at": 1.25,
+					"label": "Action",
+					"alt": "Standing light kick scores Punish Counter on the recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-guard-bison-drive-reversal-light-rhino/frame-3.jpg",
+					"at": 1.9,
+					"label": "Result",
+					"alt": "Medium Rhino Horn completes the standing-only punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-guard-bison-drive-reversal-od-scythe",
+			"elena-depth-perfect-parry-psycho-di",
+			"elena-depth-perfect-parry-psycho-jab"
+		]
+	},
+	{
+		"id": "elena-depth-guard-bison-drive-reversal-od-scythe",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Block Bison Drive Reversal: light kick into OD Scythe",
+		"summary": "Use the OD-Scythe branch after the light-kick punish, matching the recorded spacing and standing Bison state.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Reversal punish", "Knockdown"],
+		"notation": "Guard > st.LK > 214KK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "214KK",
+				"label": "OD Spinning Scythe"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Medium Rhino Horn"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Block Bison’s recorded Drive Reversal at the shown spacing",
+			"Bison is standing when medium Rhino Horn connects"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "OD Spinning Scythe (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 958.9,
+			"end": 964.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-guard-bison-drive-reversal-od-scythe/clip.mp4",
+			"poster": "/media/elena/elena-depth-guard-bison-drive-reversal-od-scythe/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-guard-bison-drive-reversal-od-scythe/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-guard-bison-drive-reversal-od-scythe/frame-1.jpg",
+					"at": 0.35,
+					"label": "Context",
+					"alt": "Elena blocks Bison’s recorded Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-guard-bison-drive-reversal-od-scythe/frame-2.jpg",
+					"at": 1.2,
+					"label": "Action",
+					"alt": "Standing light kick scores Punish Counter and cancels into OD Spinning Scythe."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-guard-bison-drive-reversal-od-scythe/frame-3.jpg",
+					"at": 3.7,
+					"label": "Result",
+					"alt": "Medium Rhino Horn finishes the OD conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-guard-bison-drive-reversal-light-rhino",
+			"elena-depth-perfect-parry-psycho-di",
+			"elena-depth-perfect-parry-psycho-jab"
+		]
+	},
+	{
+		"id": "elena-depth-air-to-air-heavy-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Air-to-air heavy kick: Level 1 into heavy Wheel",
+		"summary": "Convert the first airborne heavy-kick hit into Level 1 at the demonstrated interception height before heavy Wheel.",
+		"kind": "response",
+		"situations": ["Midscreen", "Air-to-air", "Super finish"],
+		"outcomes": ["Air-to-air conversion", "Knockdown"],
+		"notation": "j.HK (1 hit) > SA1 > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "j.HK (1 hit)",
+				"label": "Jumping heavy kick, first hit only",
+				"cue": "Convert from the first airborne heavy-kick hit as shown."
+			},
+			{
+				"id": "step-2",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Both fighters airborne for the initial heavy-kick hit",
+			"Match the demonstrated interception height and first-hit conversion"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 842.35,
+			"end": 847.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-air-to-air-heavy-level-one/clip.mp4",
+			"poster": "/media/elena/elena-depth-air-to-air-heavy-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-air-to-air-heavy-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-air-to-air-heavy-level-one/frame-1.jpg",
+					"at": 0.55,
+					"label": "Context",
+					"alt": "The first jumping heavy-kick hit intercepts airborne Luke."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-air-to-air-heavy-level-one/frame-2.jpg",
+					"at": 2.9,
+					"label": "Action",
+					"alt": "Meteor Volley picks up the falling opponent after Elena lands."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-air-to-air-heavy-level-one/frame-3.jpg",
+					"at": 4.35,
+					"label": "Result",
+					"alt": "Heavy Scratch Wheel finishes the one-stock air-to-air conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-air-to-air-target-od-side-switch",
+			"elena-depth-scythe-od-roll-level-one",
+			"elena-depth-medium-rhino-snap-trade-target"
+		]
+	},
+	{
+		"id": "elena-depth-air-to-air-target-od-side-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Air-to-air punch target: OD Rhino side switch",
+		"summary": "Match both fighters’ airborne height so the punch target can continue into the OD-Rhino crossover.",
+		"kind": "response",
+		"situations": ["Midscreen", "Air-to-air", "Side switch"],
+		"outcomes": ["Air-to-air conversion", "Side switch", "Knockdown"],
+		"notation": "j.MP > j.HP > 236KK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HP",
+				"label": "Jumping heavy punch target continuation"
+			},
+			{
+				"id": "step-3",
+				"notation": "236KK",
+				"label": "OD Rhino Horn"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Scratch Wheel"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Both fighters airborne for the initial punch target",
+			"Match the shown height and spacing for the OD-Rhino crossover"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "OD Rhino Horn (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-elena-2025",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"published": "2025-06-17",
+			"start": 859.9,
+			"end": 864.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-air-to-air-target-od-side-switch/clip.mp4",
+			"poster": "/media/elena/elena-depth-air-to-air-target-od-side-switch/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-air-to-air-target-od-side-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-air-to-air-target-od-side-switch/frame-1.jpg",
+					"at": 0.95,
+					"label": "Context",
+					"alt": "Jumping medium punch intercepts Luke in the air."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-air-to-air-target-od-side-switch/frame-2.jpg",
+					"at": 1.35,
+					"label": "Action",
+					"alt": "The jumping heavy-punch target continuation adds the second hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-air-to-air-target-od-side-switch/frame-3.jpg",
+					"at": 2.7,
+					"label": "Result",
+					"alt": "OD Rhino crosses under Luke and heavy Scratch Wheel finishes from the other side."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-air-to-air-heavy-level-one",
+			"elena-depth-punish-jab-od-rhino-side-switch",
+			"elena-depth-medium-rhino-snap-trade-target"
+		]
+	},
+	{
+		"id": "elena-depth-perfect-parry-psycho-di",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Perfect Parry OD Psycho Crusher: DI into heavy Scythe",
+		"summary": "Begin from the successful Perfect Parry and retain its damage scaling when practicing the Drive-Impact conversion.",
+		"kind": "response",
+		"situations": ["Midscreen", "Perfect parry", "Punish counter"],
+		"outcomes": ["Reversal punish", "Knockdown"],
+		"notation": "Perfect Parry > DI > cr.HP > 214HK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Perfect Parry",
+				"label": "Perfect Parry"
+			},
+			{
+				"id": "step-2",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Rhino Horn"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Successfully Perfect Parry the recorded Bison OD Psycho Crusher at the shown spacing"
+		],
+		"notes": [
+			"Retain Perfect Parry’s damage scaling. No on-reaction or universal matchup guarantee is claimed."
+		],
+		"resources": {
+			"drive": "Drive Impact (1 bar); the defensive parry is also part of the recorded exchange",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "keib-elena-2025",
+			"title": "【スト6】エレナリリース５日目にしてこの完成度！プロが使う起き攻めとコンボを一挙公開【KEI.B】",
+			"creator": "KEI.B / バンババン",
+			"url": "https://www.youtube.com/watch?v=V0FL4F70d98",
+			"published": "2025-06-09",
+			"start": 1198.15,
+			"end": 1205.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-perfect-parry-psycho-di/clip.mp4",
+			"poster": "/media/elena/elena-depth-perfect-parry-psycho-di/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-perfect-parry-psycho-di/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-perfect-parry-psycho-di/frame-1.jpg",
+					"at": 0.55,
+					"label": "Context",
+					"alt": "Elena Perfect Parries Bison’s recorded OD Psycho Crusher."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-perfect-parry-psycho-di/frame-2.jpg",
+					"at": 2.05,
+					"label": "Action",
+					"alt": "Drive Impact punishes the airborne recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-perfect-parry-psycho-di/frame-3.jpg",
+					"at": 5.65,
+					"label": "Result",
+					"alt": "Crouching heavy, heavy Scythe and medium Rhino complete the scaled punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-perfect-parry-psycho-jab",
+			"elena-depth-perfect-parry-kimberly-run",
+			"elena-depth-guard-bison-drive-reversal-light-rhino"
+		]
+	},
+	{
+		"id": "elena-depth-perfect-parry-psycho-jab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Perfect Parry OD Psycho Crusher: jab into Scythe and Whirl",
+		"summary": "After Perfect Parry, cancel medium Scythe after the two shown hits into Lynx Whirl; this is the jab branch rather than the DI conversion.",
+		"kind": "response",
+		"situations": ["Midscreen", "Perfect parry", "Punish counter"],
+		"outcomes": ["Reversal punish", "Knockdown"],
+		"notation": "Perfect Parry > cr.LP > 214MK > 6LP > 6MK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Perfect Parry",
+				"label": "Perfect Parry"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MK",
+				"label": "Medium Spinning Scythe",
+				"cue": "Cancel after the two demonstrated Scythe hits into Lynx Whirl."
+			},
+			{
+				"id": "step-4",
+				"notation": "6LP",
+				"label": "Lynx Whirl from Scythe"
+			},
+			{
+				"id": "step-5",
+				"notation": "6MK",
+				"label": "Harvest Circle follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Rhino Horn"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Successfully Perfect Parry the recorded Bison OD Psycho Crusher",
+			"Cancel Scythe after the two demonstrated hits into Lynx Whirl"
+		],
+		"notes": [
+			"This is a different conversion from the Drive-Impact branch. The Perfect Parry damage scaling remains visible."
+		],
+		"resources": {
+			"drive": "No attacking Drive spend; defensive parry occurs in the recorded exchange",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "keib-elena-2025",
+			"title": "【スト6】エレナリリース５日目にしてこの完成度！プロが使う起き攻めとコンボを一挙公開【KEI.B】",
+			"creator": "KEI.B / バンババン",
+			"url": "https://www.youtube.com/watch?v=V0FL4F70d98",
+			"published": "2025-06-09",
+			"start": 1209.85,
+			"end": 1215.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-perfect-parry-psycho-jab/clip.mp4",
+			"poster": "/media/elena/elena-depth-perfect-parry-psycho-jab/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-perfect-parry-psycho-jab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-perfect-parry-psycho-jab/frame-1.jpg",
+					"at": 0.55,
+					"label": "Context",
+					"alt": "Elena Perfect Parries Bison’s recorded OD Psycho Crusher."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-perfect-parry-psycho-jab/frame-2.jpg",
+					"at": 1.15,
+					"label": "Action",
+					"alt": "Crouching jab scores Punish Counter against the airborne recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-perfect-parry-psycho-jab/frame-3.jpg",
+					"at": 3.75,
+					"label": "Result",
+					"alt": "Medium Scythe’s early Whirl/Harvest Circle cancel leads into medium Rhino."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-perfect-parry-psycho-di",
+			"elena-depth-perfect-parry-kimberly-run",
+			"elena-depth-guard-bison-drive-reversal-light-rhino"
+		]
+	},
+	{
+		"id": "elena-depth-perfect-parry-kimberly-run",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Perfect Parry Kimberly’s run attack: jab into heavy Scythe",
+		"summary": "Reproduce the recorded run-attack Perfect Parry and cancel heavy Scythe after two hits; other Sprint options are not covered.",
+		"kind": "response",
+		"situations": ["Midscreen", "Perfect parry", "Punish counter"],
+		"outcomes": ["Defensive conversion", "Knockdown"],
+		"notation": "Perfect Parry > cr.LP > 214HK > 6LP > 6MK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Perfect Parry",
+				"label": "Perfect Parry"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe",
+				"cue": "Cancel after the two demonstrated Scythe hits into Lynx Whirl."
+			},
+			{
+				"id": "step-4",
+				"notation": "6LP",
+				"label": "Lynx Whirl from Scythe"
+			},
+			{
+				"id": "step-5",
+				"notation": "6MK",
+				"label": "Harvest Circle follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Rhino Horn"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Successfully Perfect Parry Kimberly’s recorded run attack at the shown height and spacing",
+			"Cancel Scythe after the two demonstrated hits into Lynx Whirl"
+		],
+		"notes": [
+			"Only the recorded run-attack exchange is claimed. No universal response to every Kimberly run option is implied."
+		],
+		"resources": {
+			"drive": "No attacking Drive spend; defensive parry occurs in the recorded exchange",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "keib-elena-2025",
+			"title": "【スト6】エレナリリース５日目にしてこの完成度！プロが使う起き攻めとコンボを一挙公開【KEI.B】",
+			"creator": "KEI.B / バンババン",
+			"url": "https://www.youtube.com/watch?v=V0FL4F70d98",
+			"published": "2025-06-09",
+			"start": 1229.15,
+			"end": 1234.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-perfect-parry-kimberly-run/clip.mp4",
+			"poster": "/media/elena/elena-depth-perfect-parry-kimberly-run/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-perfect-parry-kimberly-run/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-perfect-parry-kimberly-run/frame-1.jpg",
+					"at": 0.1,
+					"label": "Context",
+					"alt": "Elena Perfect Parries Kimberly’s recorded run attack."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-perfect-parry-kimberly-run/frame-2.jpg",
+					"at": 0.45,
+					"label": "Action",
+					"alt": "Crouching jab begins the scaled Punish Counter conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-perfect-parry-kimberly-run/frame-3.jpg",
+					"at": 3.35,
+					"label": "Result",
+					"alt": "Heavy Scythe’s early Whirl/Harvest Circle cancel leads into medium Rhino."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-perfect-parry-psycho-di",
+			"elena-depth-perfect-parry-psycho-jab",
+			"elena-depth-guard-bison-drive-reversal-light-rhino"
+		]
+	},
+	{
+		"id": "elena-depth-counter-jab-kick-target-heavy-rhino",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Counter-hit crouching jab: kick target into heavy Rhino",
+		"summary": "Recognize the starter’s Counter Hit before linking standing medium kick into the kick target and heavy Rhino.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > st.MK > st.HK > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Rhino Horn"
+			}
+		],
+		"conditions": ["Classic controls", "The initial crouching jab must score Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 620.9,
+			"end": 625.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-counter-jab-kick-target-heavy-rhino/clip.mp4",
+			"poster": "/media/elena/elena-depth-counter-jab-kick-target-heavy-rhino/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-counter-jab-kick-target-heavy-rhino/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-counter-jab-kick-target-heavy-rhino/frame-1.jpg",
+					"at": 0.6,
+					"label": "Context",
+					"alt": "Crouching jab scores the required Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-counter-jab-kick-target-heavy-rhino/frame-2.jpg",
+					"at": 1.35,
+					"label": "Action",
+					"alt": "Standing medium kick links into its heavy-kick target continuation."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-counter-jab-kick-target-heavy-rhino/frame-3.jpg",
+					"at": 2.4,
+					"label": "Result",
+					"alt": "Heavy Rhino Horn finishes the meterless counter-hit conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-punish-jab-medium-glider",
+			"elena-depth-punish-close-jab-heavy-scythe",
+			"elena-depth-crouching-heavy-scythe-medium-rhino"
+		]
+	},
+	{
+		"id": "elena-depth-guard-od-dp-heavy-target-carry",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "elena"
+			}
+		],
+		"title": "Block OD Shoryuken: heavy target into raw-Rush carry",
+		"summary": "After blocking the recorded Ryu OD DP, keep both standing-heavy inputs before raw Rush; the route begins away from the wall.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish counter", "Drive Rush"],
+		"outcomes": ["Reversal punish", "Corner carry", "Knockdown"],
+		"notation": "Guard > st.HP > st.HP > DR > cr.HP > 214HK > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Heavy-punch target continuation"
+			},
+			{
+				"id": "step-4",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HK",
+				"label": "Heavy Spinning Scythe"
+			},
+			{
+				"id": "step-7",
+				"notation": "236HK",
+				"label": "Heavy Rhino Horn"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Block Ryu’s recorded OD Shoryuken at the demonstrated spacing"
+		],
+		"notes": [
+			"The demonstration begins away from the wall and visibly advances through the stage. Corner is not a starting-situation tag."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-elena-september-2026",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"published": "2026-09-04",
+			"start": 1117.9,
+			"end": 1126.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/elena/elena-depth-guard-od-dp-heavy-target-carry/clip.mp4",
+			"poster": "/media/elena/elena-depth-guard-od-dp-heavy-target-carry/frame-1.jpg",
+			"descriptionTrack": "/media/elena/elena-depth-guard-od-dp-heavy-target-carry/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/elena/elena-depth-guard-od-dp-heavy-target-carry/frame-1.jpg",
+					"at": 0.35,
+					"label": "Context",
+					"alt": "Elena guards Ryu’s recorded OD Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/elena/elena-depth-guard-od-dp-heavy-target-carry/frame-2.jpg",
+					"at": 1.6,
+					"label": "Action",
+					"alt": "Standing heavy punch scores Punish Counter and follows with the heavy target continuation."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/elena/elena-depth-guard-od-dp-heavy-target-carry/frame-3.jpg",
+					"at": 6.6,
+					"label": "Result",
+					"alt": "Raw Rush crouching heavy, heavy Scythe and heavy Rhino carry the juggle forward."
+				}
+			]
+		},
+		"relatedIds": [
+			"elena-depth-guard-bison-drive-reversal-light-rhino",
+			"elena-depth-guard-bison-drive-reversal-od-scythe",
+			"elena-depth-perfect-parry-psycho-di"
+		]
 	}
 ]

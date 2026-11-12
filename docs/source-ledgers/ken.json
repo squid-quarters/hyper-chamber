@@ -1,0 +1,2503 @@
+{
+	"characterId": "ken",
+	"reviewedOn": "2026-11-12",
+	"baselineCommit": "929ff0b3a73080697e644b976960866c6ec1c781",
+	"baselineReferenceCount": 13,
+	"newReferenceCount": 45,
+	"totalReferenceCount": 58,
+	"kinds": {
+		"combo": 29,
+		"setup": 23,
+		"response": 6
+	},
+	"verification": {
+		"status": "source-reviewed",
+		"gameVersion": null,
+		"currentPatchTested": false
+	},
+	"scopeNote": "A deep practical collection, not a claim that all source alternatives are extracted. Covered rows carry exact catalog intervals; family locators inventory remaining alternatives and explicitly separate detailed review from discovery. No source scarcity or exhaustion claim is made.",
+	"sources": {
+		"joe-ebios-ken-beginner-2026": {
+			"youtubeId": "nHdQV0i1OrY",
+			"title": "SF6 KEN Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=nHdQV0i1OrY",
+			"published": "2026-06-04",
+			"duration": 259,
+			"recordingSha256": "be958f65ed6d9f7fcc0dd326a864656d0d006d972a7cbc7357fbdd643a6174ad",
+			"metadataSha256": "23773da50a5575acfccf509ccd3492040960b98ab89a1f04a758bfa90f1a1d21",
+			"chapters": null,
+			"discoveryReview": {
+				"interval": [0, 259],
+				"method": "All contact-sheet discovery pages visually inspected; approximately 3-second sampling for full/anti-air guides. Not a claim of frame-by-frame execution review."
+			},
+			"extractedReferenceIds": [
+				"ken-ebios-light-heavy-shoryuken",
+				"ken-ebios-heavy-shoryuken-rush-throw",
+				"ken-ebios-light-chin-buster-run-tatsu",
+				"ken-ebios-low-rush-carry",
+				"ken-ebios-low-rush-light-tatsu-medium-dp",
+				"ken-ebios-low-rush-side-switch",
+				"ken-ebios-reversal-crouching-heavy-run-dp",
+				"ken-ebios-heavy-kick-punish-rush-run-dp",
+				"ken-ebios-drive-reversal-medium-run-dp",
+				"ken-ebios-counter-di-heavy-kick-rush",
+				"ken-ebios-corner-counter-di-jinrai",
+				"ken-ebios-wall-splat-jinrai-medium-dp",
+				"ken-ebios-low-double-rush-level-three",
+				"ken-depth-hp-dp-rush-shimmy",
+				"ken-depth-hp-dp-rush-jab-strike",
+				"ken-depth-hp-dp-near-corner-dash-throw",
+				"ken-depth-hp-dp-near-corner-shimmy",
+				"ken-depth-hp-dp-dash-crouching-medium",
+				"ken-depth-hp-dp-corner-lk-throw",
+				"ken-depth-hp-dp-corner-lk-shimmy",
+				"ken-depth-hp-dp-corner-lk-medium",
+				"ken-depth-run-tatsu-double-dash-throw",
+				"ken-depth-run-tatsu-double-dash-strike",
+				"ken-depth-run-tatsu-corner-two-kicks-throw",
+				"ken-depth-run-tatsu-corner-two-kicks-shimmy",
+				"ken-depth-run-tatsu-corner-two-kicks-medium",
+				"ken-depth-rush-heavy-pc-low-link"
+			]
+		},
+		"joe-ebios-ken-march-2026": {
+			"youtubeId": "As_1k7XKPhc",
+			"title": "SF6 Classic KEN Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=As_1k7XKPhc",
+			"published": "2026-04-12",
+			"duration": 839,
+			"recordingSha256": "1bba7fff0dff5050f6badbd46fdef200c6512067fc5f778127bb7bd7aaf834f2",
+			"metadataSha256": "fd0c719dd4b1e4b9fb0624f4d254d36496057f9a35aec251cb47480950e5cc79",
+			"chapters": [
+				{
+					"start_time": 0,
+					"title": "Corner and pressure setups",
+					"end_time": 98
+				},
+				{
+					"start_time": 98,
+					"title": "Dash and throw mixups",
+					"end_time": 200
+				},
+				{
+					"start_time": 200,
+					"title": "Advanced post-SA2 combos",
+					"end_time": 299
+				},
+				{
+					"start_time": 299,
+					"title": "Burnout and stun strategies",
+					"end_time": 405
+				},
+				{
+					"start_time": 405,
+					"title": "Drive rush block strings",
+					"end_time": 509
+				},
+				{
+					"start_time": 509,
+					"title": "Counter hit and punish routes",
+					"end_time": 623
+				},
+				{
+					"start_time": 623,
+					"title": "High-damage execution",
+					"end_time": 741
+				},
+				{
+					"start_time": 741,
+					"title": "Drive impact and throw tech",
+					"end_time": 839
+				}
+			],
+			"discoveryReview": {
+				"interval": [0, 839],
+				"method": "All contact-sheet discovery pages visually inspected; approximately 3-second sampling for full/anti-air guides. Not a claim of frame-by-frame execution review."
+			},
+			"extractedReferenceIds": [
+				"ken-depth-jab-target-run-dp",
+				"ken-depth-jab-target-dragonlash-switch",
+				"ken-depth-jab-dragonlash-level-one",
+				"ken-depth-level-one-hadoken-rush-heavy",
+				"ken-depth-level-two-corner-medium-throw",
+				"ken-depth-level-two-corner-medium-shimmy",
+				"ken-depth-level-two-corner-medium-heavy",
+				"ken-depth-level-three-corner-burnout-stun",
+				"ken-depth-level-three-rush-jab-aki-reversal",
+				"ken-depth-counterhit-jab-medium-run-dp",
+				"ken-depth-blocked-low-rush-jab-throw",
+				"ken-depth-medium-jab-heavy-dp",
+				"ken-depth-medium-target-corner-jinrai",
+				"ken-depth-heavy-rush-level-three",
+				"ken-depth-heavy-light-tatsu-medium-dp",
+				"ken-depth-heavy-light-tatsu-level-two",
+				"ken-depth-reversal-punish-runstop-level-three",
+				"ken-depth-corner-heavy-double-jinrai",
+				"ken-depth-run-overhead-counterhit",
+				"ken-depth-sweep-pc-run-medium-oki",
+				"ken-depth-forward-throw-rush-jab-bait",
+				"ken-depth-corner-forward-throw-dash-lights",
+				"ken-depth-counter-di-od-jinrai",
+				"ken-depth-counter-di-walk-dragonlash-switch",
+				"ken-depth-run-tatsu-delayed-jump-block",
+				"ken-depth-run-tatsu-empty-jump-jab",
+				"ken-depth-hp-dp-dash-medium-block-drev",
+				"ken-depth-corner-double-od-jinrai-level-three",
+				"ken-depth-heavy-kick-pc-rush-tatsu-carry"
+			]
+		},
+		"rush-g-ken-anti-air-2023": {
+			"youtubeId": "r5vtM7Kgk4s",
+			"title": "SF6 Ken - Anti Air, Tatsu Juggle, Shimmy, Lv2 Punish",
+			"creator": "Rush G",
+			"url": "https://www.youtube.com/watch?v=r5vtM7Kgk4s",
+			"published": "2023-06-17",
+			"duration": 448,
+			"recordingSha256": "729963aecc8c74f22663c36da7a471bae69357427f13ed4b4048e12607d796f5",
+			"metadataSha256": "e55a8d4a42cac4bcc088ddd307e72c98145048f4c8e1d45204433870a963735c",
+			"chapters": [
+				{
+					"start_time": 0,
+					"title": "INTRO",
+					"end_time": 81
+				},
+				{
+					"start_time": 81,
+					"title": "CORNER JINRAI ANTI AIR",
+					"end_time": 197
+				},
+				{
+					"start_time": 197,
+					"title": "AIR TATSU JUGGLES",
+					"end_time": 258
+				},
+				{
+					"start_time": 258,
+					"title": "CORNER THROW BAIT PUNISH",
+					"end_time": 371
+				},
+				{
+					"start_time": 371,
+					"title": "LEVEL 2 FOR PUNISHES",
+					"end_time": 448
+				}
+			],
+			"discoveryReview": {
+				"interval": [0, 448],
+				"method": "All contact-sheet discovery pages visually inspected; approximately 3-second sampling for full/anti-air guides. Not a claim of frame-by-frame execution review."
+			},
+			"extractedReferenceIds": [
+				"ken-depth-anti-air-heavy-shoryuken",
+				"ken-depth-anti-air-od-jinrai"
+			]
+		}
+	},
+	"references": [
+		{
+			"id": "ken-ebios-light-heavy-shoryuken",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 0.65,
+			"end": 5.05,
+			"moments": 4
+		},
+		{
+			"id": "ken-ebios-heavy-shoryuken-rush-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 8.05,
+			"end": 12.15,
+			"moments": 4
+		},
+		{
+			"id": "ken-ebios-light-chin-buster-run-tatsu",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 100.05,
+			"end": 105.65,
+			"moments": 4
+		},
+		{
+			"id": "ken-ebios-low-rush-carry",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 162.05,
+			"end": 168.85,
+			"moments": 4
+		},
+		{
+			"id": "ken-ebios-low-rush-light-tatsu-medium-dp",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 169.15,
+			"end": 175.5,
+			"moments": 4
+		},
+		{
+			"id": "ken-ebios-low-rush-side-switch",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 175.75,
+			"end": 183.2,
+			"moments": 4
+		},
+		{
+			"id": "ken-ebios-reversal-crouching-heavy-run-dp",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 190.6,
+			"end": 195.55,
+			"moments": 4
+		},
+		{
+			"id": "ken-ebios-heavy-kick-punish-rush-run-dp",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 196.2,
+			"end": 201.65,
+			"moments": 4
+		},
+		{
+			"id": "ken-ebios-drive-reversal-medium-run-dp",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 202.3,
+			"end": 208.15,
+			"moments": 4
+		},
+		{
+			"id": "ken-ebios-counter-di-heavy-kick-rush",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 209.15,
+			"end": 218.25,
+			"moments": 5
+		},
+		{
+			"id": "ken-ebios-corner-counter-di-jinrai",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 219.15,
+			"end": 229.15,
+			"moments": 5
+		},
+		{
+			"id": "ken-ebios-wall-splat-jinrai-medium-dp",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 230.05,
+			"end": 236.25,
+			"moments": 4
+		},
+		{
+			"id": "ken-ebios-low-double-rush-level-three",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 237.1,
+			"end": 253.2,
+			"moments": 5
+		},
+		{
+			"id": "ken-depth-hp-dp-rush-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 15.4,
+			"end": 19.2,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-hp-dp-rush-jab-strike",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 23.8,
+			"end": 28.15,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-hp-dp-near-corner-dash-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 36.65,
+			"end": 39.5,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-hp-dp-near-corner-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 44.15,
+			"end": 48.0,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-hp-dp-dash-crouching-medium",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 58.85,
+			"end": 62.4,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-hp-dp-corner-lk-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 79.25,
+			"end": 82.25,
+			"moments": 3
+		},
+		{
+			"id": "ken-depth-hp-dp-corner-lk-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 86.5,
+			"end": 90.4,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-hp-dp-corner-lk-medium",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 94.7,
+			"end": 98.0,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-run-tatsu-double-dash-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 114.0,
+			"end": 118.1,
+			"moments": 3
+		},
+		{
+			"id": "ken-depth-run-tatsu-double-dash-strike",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 122.45,
+			"end": 127.8,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-run-tatsu-corner-two-kicks-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 138.05,
+			"end": 142.0,
+			"moments": 3
+		},
+		{
+			"id": "ken-depth-run-tatsu-corner-two-kicks-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 146.55,
+			"end": 151.5,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-run-tatsu-corner-two-kicks-medium",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 155.75,
+			"end": 160.35,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-rush-heavy-pc-low-link",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"start": 183.8,
+			"end": 188.05,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-jab-target-run-dp",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 195.4,
+			"end": 199.15,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-jab-target-dragonlash-switch",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 201.35,
+			"end": 206.45,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-jab-dragonlash-level-one",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 207.55,
+			"end": 215.25,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-level-one-hadoken-rush-heavy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 222.7,
+			"end": 228.05,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-level-two-corner-medium-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 272.5,
+			"end": 276.6,
+			"moments": 3
+		},
+		{
+			"id": "ken-depth-level-two-corner-medium-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 282.4,
+			"end": 287.55,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-level-two-corner-medium-heavy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 293.35,
+			"end": 298.5,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-level-three-corner-burnout-stun",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 306.05,
+			"end": 310.95,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-level-three-rush-jab-aki-reversal",
+			"kind": "response",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 319.1,
+			"end": 323.8,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-counterhit-jab-medium-run-dp",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 325.0,
+			"end": 328.65,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-blocked-low-rush-jab-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 458.7,
+			"end": 462.85,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-medium-jab-heavy-dp",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 533.4,
+			"end": 537.25,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-medium-target-corner-jinrai",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 550.9,
+			"end": 556.45,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-heavy-rush-level-three",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 563.95,
+			"end": 575.05,
+			"moments": 5
+		},
+		{
+			"id": "ken-depth-heavy-light-tatsu-medium-dp",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 596.15,
+			"end": 600.05,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-heavy-light-tatsu-level-two",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 602.45,
+			"end": 610.15,
+			"moments": 5
+		},
+		{
+			"id": "ken-depth-reversal-punish-runstop-level-three",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 621.8,
+			"end": 631.55,
+			"moments": 5
+		},
+		{
+			"id": "ken-depth-corner-heavy-double-jinrai",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 675.85,
+			"end": 681.75,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-run-overhead-counterhit",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 705.3,
+			"end": 708.75,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-sweep-pc-run-medium-oki",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 734.05,
+			"end": 739.75,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-forward-throw-rush-jab-bait",
+			"kind": "response",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 751.8,
+			"end": 755.15,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-corner-forward-throw-dash-lights",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 766.6,
+			"end": 771.15,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-counter-di-od-jinrai",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 785.05,
+			"end": 794.65,
+			"moments": 5
+		},
+		{
+			"id": "ken-depth-counter-di-walk-dragonlash-switch",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 795.45,
+			"end": 804.15,
+			"moments": 5
+		},
+		{
+			"id": "ken-depth-anti-air-heavy-shoryuken",
+			"kind": "response",
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"start": 127.8,
+			"end": 130.4,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-anti-air-od-jinrai",
+			"kind": "response",
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"start": 192.95,
+			"end": 195.7,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-run-tatsu-delayed-jump-block",
+			"kind": "response",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 133.55,
+			"end": 136.1,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-run-tatsu-empty-jump-jab",
+			"kind": "setup",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 141.45,
+			"end": 145.1,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-hp-dp-dash-medium-block-drev",
+			"kind": "response",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 45.0,
+			"end": 47.4,
+			"moments": 4
+		},
+		{
+			"id": "ken-depth-corner-double-od-jinrai-level-three",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 689.65,
+			"end": 703.4,
+			"moments": 7
+		},
+		{
+			"id": "ken-depth-heavy-kick-pc-rush-tatsu-carry",
+			"kind": "combo",
+			"sourceId": "joe-ebios-ken-march-2026",
+			"start": 717.75,
+			"end": 723.55,
+			"moments": 5
+		}
+	],
+	"candidateIntervals": [
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 0.65,
+			"locatorEnd": 5.05,
+			"family": "Low jab and light kick into heavy Shoryuken",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-light-heavy-shoryuken"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 8.05,
+			"locatorEnd": 12.15,
+			"family": "Heavy Shoryuken: Rush into throw",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-heavy-shoryuken-rush-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 100.05,
+			"locatorEnd": 105.65,
+			"family": "Low jab into Chin Buster and running Tatsumaki",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-light-chin-buster-run-tatsu"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 162.05,
+			"locatorEnd": 168.85,
+			"family": "Low confirm: run-stop carry route",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-low-rush-carry"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 169.15,
+			"locatorEnd": 175.5,
+			"family": "Low confirm: light Tatsumaki into medium Shoryuken",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-low-rush-light-tatsu-medium-dp"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 175.75,
+			"locatorEnd": 183.2,
+			"family": "Low confirm: running Dragonlash side switch",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-low-rush-side-switch"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 190.6,
+			"locatorEnd": 195.55,
+			"family": "Blocked reversal: crouching heavy into run Shoryuken",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-reversal-crouching-heavy-run-dp"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 196.2,
+			"locatorEnd": 201.65,
+			"family": "Heavy-kick Punish Counter into raw Rush",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-heavy-kick-punish-rush-run-dp"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 202.3,
+			"locatorEnd": 208.15,
+			"family": "Drive Reversal punish: medium into running Shoryuken",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-drive-reversal-medium-run-dp"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 209.15,
+			"locatorEnd": 218.25,
+			"family": "Counter DI: jumping heavy into Rush and run Shoryuken",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-counter-di-heavy-kick-rush"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 219.15,
+			"locatorEnd": 229.15,
+			"family": "Corner counter DI: jumping heavy into Jinrai",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-corner-counter-di-jinrai"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 230.05,
+			"locatorEnd": 236.25,
+			"family": "Blocked DI wall splat into Jinrai and medium Shoryuken",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-wall-splat-jinrai-medium-dp"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 237.1,
+			"locatorEnd": 253.2,
+			"family": "Low confirm cash-out: two Rush cancels into Level 3",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-ebios-low-double-rush-level-three"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 15.4,
+			"locatorEnd": 19.2,
+			"family": "Heavy Shoryuken: Rush jab-whiff shimmy",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-hp-dp-rush-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 23.8,
+			"locatorEnd": 28.15,
+			"family": "Heavy Shoryuken: Rush jab into Chin Buster",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-hp-dp-rush-jab-strike"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 36.65,
+			"locatorEnd": 39.5,
+			"family": "Near-corner Shoryuken: dash and delayed throw",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-hp-dp-near-corner-dash-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 44.15,
+			"locatorEnd": 48.0,
+			"family": "Near-corner Shoryuken: dash shimmy",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-hp-dp-near-corner-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 58.85,
+			"locatorEnd": 62.4,
+			"family": "Heavy Shoryuken: dash into crouching medium",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-hp-dp-dash-crouching-medium"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 79.25,
+			"locatorEnd": 82.25,
+			"family": "Corner Shoryuken: light-kick timing into throw",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-hp-dp-corner-lk-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 86.5,
+			"locatorEnd": 90.4,
+			"family": "Corner Shoryuken: light-kick timing into shimmy",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-hp-dp-corner-lk-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 94.7,
+			"locatorEnd": 98.0,
+			"family": "Corner Shoryuken: light-kick timing into medium",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-hp-dp-corner-lk-medium"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 114.0,
+			"locatorEnd": 118.1,
+			"family": "Running Tatsumaki: double-dash throw",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-run-tatsu-double-dash-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 122.45,
+			"locatorEnd": 127.8,
+			"family": "Running Tatsumaki: double-dash jab confirm",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-run-tatsu-double-dash-strike"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 138.05,
+			"locatorEnd": 142.0,
+			"family": "Corner running Tatsumaki: two-kick throw timing",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-run-tatsu-corner-two-kicks-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 146.55,
+			"locatorEnd": 151.5,
+			"family": "Corner running Tatsumaki: two-kick shimmy",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-run-tatsu-corner-two-kicks-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 155.75,
+			"locatorEnd": 160.35,
+			"family": "Corner running Tatsumaki: two-kick medium strike",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-run-tatsu-corner-two-kicks-medium"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 183.8,
+			"locatorEnd": 188.05,
+			"family": "Rush heavy-punch Punish Counter into low kick",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-rush-heavy-pc-low-link"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 195.4,
+			"locatorEnd": 199.15,
+			"family": "Jab into Chin Buster and running Shoryuken",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-jab-target-run-dp"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 201.35,
+			"locatorEnd": 206.45,
+			"family": "Meterless jab confirm into Dragonlash side switch",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-jab-target-dragonlash-switch"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 207.55,
+			"locatorEnd": 215.25,
+			"family": "Light confirm: Dragonlash into Level 1",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-jab-dragonlash-level-one"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 222.7,
+			"locatorEnd": 228.05,
+			"family": "Level 1: Hadoken into Rush heavy punch",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-level-one-hadoken-rush-heavy"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 272.5,
+			"locatorEnd": 276.6,
+			"family": "Corner Level 2: crouching-medium whiff into throw",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-level-two-corner-medium-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 282.4,
+			"locatorEnd": 287.55,
+			"family": "Corner Level 2: crouching-medium whiff into shimmy",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-level-two-corner-medium-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 293.35,
+			"locatorEnd": 298.5,
+			"family": "Corner Level 2: crouching-medium whiff into heavy strike",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-level-two-corner-medium-heavy"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 306.05,
+			"locatorEnd": 310.95,
+			"family": "Level 3: Rush medium into burnout stun",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-level-three-corner-burnout-stun"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 319.1,
+			"locatorEnd": 323.8,
+			"family": "Level 3: Rush jab and block A.K.I.’s reversal",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-level-three-rush-jab-aki-reversal"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 325.0,
+			"locatorEnd": 328.65,
+			"family": "Counter-hit jab into crouching medium",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-counterhit-jab-medium-run-dp"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 458.7,
+			"locatorEnd": 462.85,
+			"family": "Blocked low: Rush jab into throw",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-blocked-low-rush-jab-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 533.4,
+			"locatorEnd": 537.25,
+			"family": "Medium punch into jab and heavy Shoryuken",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-medium-jab-heavy-dp"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 550.9,
+			"locatorEnd": 556.45,
+			"family": "Corner medium confirm: delayed Jinrai heavy follow-up",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-medium-target-corner-jinrai"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 563.95,
+			"locatorEnd": 575.05,
+			"family": "Heavy confirm: one Rush cancel into Level 3",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-heavy-rush-level-three"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 596.15,
+			"locatorEnd": 600.05,
+			"family": "Heavy confirm: light Tatsumaki and medium Shoryuken",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-heavy-light-tatsu-medium-dp"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 602.45,
+			"locatorEnd": 610.15,
+			"family": "Heavy confirm: light Tatsumaki into Level 2",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-heavy-light-tatsu-level-two"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 621.8,
+			"locatorEnd": 631.55,
+			"family": "Reversal punish: run-stop medium into Level 3",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-reversal-punish-runstop-level-three"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 675.85,
+			"locatorEnd": 681.75,
+			"family": "Corner heavy confirm: heavy and light Jinrai juggles",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-corner-heavy-double-jinrai"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 705.3,
+			"locatorEnd": 708.75,
+			"family": "Run overhead counter hit into light kick",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-run-overhead-counterhit"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 734.05,
+			"locatorEnd": 739.75,
+			"family": "Punish-counter sweep: run medium into jab confirm",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-sweep-pc-run-medium-oki"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 751.8,
+			"locatorEnd": 755.15,
+			"family": "Forward throw: Rush jab-whiff reversal bait",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-forward-throw-rush-jab-bait"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 766.6,
+			"locatorEnd": 771.15,
+			"family": "Corner forward throw: dash into light confirm",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-corner-forward-throw-dash-lights"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 785.05,
+			"locatorEnd": 794.65,
+			"family": "Counter Drive Impact: jump kick into OD Jinrai",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-counter-di-od-jinrai"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 795.45,
+			"locatorEnd": 804.15,
+			"family": "Counter Drive Impact: walk-up Dragonlash switch",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-counter-di-walk-dragonlash-switch"]
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 127.8,
+			"locatorEnd": 130.4,
+			"family": "Anti-air heavy Shoryuken",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-anti-air-heavy-shoryuken"]
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 192.95,
+			"locatorEnd": 195.7,
+			"family": "Anti-air OD Jinrai at the shown range",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-anti-air-od-jinrai"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 133.55,
+			"locatorEnd": 136.1,
+			"family": "Running Tatsumaki: delayed jump and reversal block",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-run-tatsu-delayed-jump-block"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 141.45,
+			"locatorEnd": 145.1,
+			"family": "Running Tatsumaki: empty jump into counter-hit jab",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-run-tatsu-empty-jump-jab"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 45.0,
+			"locatorEnd": 47.4,
+			"family": "Heavy Shoryuken: dash medium and block Drive Reversal",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-hp-dp-dash-medium-block-drev"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 689.65,
+			"locatorEnd": 703.4,
+			"family": "Corner heavy cash-out: two OD Jinrai extensions",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-corner-double-od-jinrai-level-three"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 717.75,
+			"locatorEnd": 723.55,
+			"family": "Heavy-kick Punish Counter: delayed running Tatsumaki carry",
+			"disposition": "covered",
+			"reason": "Authored extraction; exact reviewed bounds and selected moments are in the catalog.",
+			"referenceIds": ["ken-depth-heavy-kick-pc-rush-tatsu-carry"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 29,
+			"locatorEnd": 36,
+			"family": "Near-corner dash alignment",
+			"disposition": "excluded",
+			"reason": "Bare timing demonstration; practical throw, shimmy and strike follow-ups are authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 48,
+			"locatorEnd": 55,
+			"family": "Point-blank dash-shimmy counterexample",
+			"disposition": "excluded",
+			"reason": "The shown shimmy fails and Ken is hit. This informs spacing conditions; it is not labelled successful oki.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 63,
+			"locatorEnd": 73,
+			"family": "Second crouching-medium meaty conversion",
+			"disposition": "duplicate",
+			"reason": "Alternate normal sequence after the same dash/knockdown; retained one strike branch rather than another near-identical finish.",
+			"referenceIds": ["ken-depth-hp-dp-dash-crouching-medium"]
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 73,
+			"locatorEnd": 79,
+			"family": "Corner whiff-LK timing alignment",
+			"disposition": "excluded",
+			"reason": "Bare timing demonstration; actual throw, shimmy and strike branches are authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 105,
+			"locatorEnd": 111,
+			"family": "Double-dash timing alignment",
+			"disposition": "excluded",
+			"reason": "No standalone follow-up in this alignment segment; the two practical follow-ups include the full dash sequence.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 129,
+			"locatorEnd": 135,
+			"family": "Post-Tatsumaki corner alignment transition",
+			"disposition": "excluded",
+			"reason": "Timing/context between demonstrations; covered by the complete two-kick setup clips.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-beginner-2026",
+			"locatorStart": 253.2,
+			"locatorEnd": 259,
+			"family": "Outro",
+			"disposition": "excluded",
+			"reason": "No additional performed practice action.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 0,
+			"locatorEnd": 7,
+			"family": "Light confirm into HP DP",
+			"disposition": "duplicate",
+			"reason": "Same light route as the preserved beginner reference.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 7,
+			"locatorEnd": 14,
+			"family": "Post-HP-DP Rush throw",
+			"disposition": "duplicate",
+			"reason": "Same knockdown/approach/throw family as the preserved beginner setup.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 14,
+			"locatorEnd": 23,
+			"family": "Post-HP-DP Rush jab strike",
+			"disposition": "duplicate",
+			"reason": "June beginner take selected for the same strike decision.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 23,
+			"locatorEnd": 30,
+			"family": "Near-corner dash alignment",
+			"disposition": "excluded",
+			"reason": "Bare alignment, attached to actual follow-ups.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 30,
+			"locatorEnd": 36,
+			"family": "Near-corner dash throw",
+			"disposition": "duplicate",
+			"reason": "June beginner take selected for this throw branch.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 36,
+			"locatorEnd": 42,
+			"family": "Near-corner blocked standing-medium meaty",
+			"disposition": "excluded",
+			"reason": "Block-contact timing illustration; the complete near-corner strike and Drive-Reversal response are authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 42,
+			"locatorEnd": 49,
+			"family": "Near-corner medium vs wake-up Drive Reversal",
+			"disposition": "covered",
+			"reason": "Complete block/recovery response authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 49,
+			"locatorEnd": 57,
+			"family": "Near-corner standing-medium strike conversion",
+			"disposition": "duplicate",
+			"reason": "Alternate first medium in the same dash strike family; the beginner strike branch is retained.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 57,
+			"locatorEnd": 63,
+			"family": "Corner whiff-LK alignment",
+			"disposition": "excluded",
+			"reason": "No complete follow-up; practical branches retained from June take.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 63,
+			"locatorEnd": 70,
+			"family": "Corner whiff-LK throw",
+			"disposition": "duplicate",
+			"reason": "Same frame-kill/throw branch extracted from June source.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 70,
+			"locatorEnd": 79,
+			"family": "Corner whiff-LK shimmy",
+			"disposition": "duplicate",
+			"reason": "Same frame-kill/shimmy branch extracted from June source.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 79,
+			"locatorEnd": 85,
+			"family": "Corner blocked medium timing",
+			"disposition": "excluded",
+			"reason": "Bare blocked-meaty illustration; no separate conversion decision.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 85,
+			"locatorEnd": 90,
+			"family": "Corner medium vs wake-up Drive Reversal",
+			"disposition": "duplicate",
+			"reason": "Alternate spacing of the block/recovery test; only the authored near-corner test is claimed.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 90,
+			"locatorEnd": 98,
+			"family": "Corner whiff-LK strike",
+			"disposition": "duplicate",
+			"reason": "Same frame-kill/strike branch extracted from June source.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 98,
+			"locatorEnd": 105,
+			"family": "Jab target combo into run Tatsu",
+			"disposition": "duplicate",
+			"reason": "Same meterless carry route as the preserved beginner reference.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 105,
+			"locatorEnd": 111,
+			"family": "Post-Tatsu double-dash alignment",
+			"disposition": "excluded",
+			"reason": "Bare timing context; two practical follow-ups authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 111,
+			"locatorEnd": 121,
+			"family": "Post-Tatsu double-dash strike",
+			"disposition": "duplicate",
+			"reason": "Same complete decision extracted from June source.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 121,
+			"locatorEnd": 129,
+			"family": "Post-Tatsu double-dash throw",
+			"disposition": "duplicate",
+			"reason": "Same complete decision extracted from June source.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 129,
+			"locatorEnd": 137,
+			"family": "Delayed jump and reversal block",
+			"disposition": "covered",
+			"reason": "Jump timing and blocked OD Shoryuken reviewed at 10 fps and in exported moments.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 137,
+			"locatorEnd": 146,
+			"family": "Immediate empty jump vs fuzzy jab",
+			"disposition": "covered",
+			"reason": "Empty jump into counter-hit 2LP, then 2MP/run DP; no target combo inferred from the prior take.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 146,
+			"locatorEnd": 154,
+			"family": "Corner two-LK alignment",
+			"disposition": "excluded",
+			"reason": "Bare timing demonstration; complete branches authored from June source.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 154,
+			"locatorEnd": 162,
+			"family": "Corner two-LK throw",
+			"disposition": "duplicate",
+			"reason": "Same complete decision extracted from June source.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 162,
+			"locatorEnd": 172,
+			"family": "Corner two-LK shimmy",
+			"disposition": "duplicate",
+			"reason": "Same complete decision extracted from June source.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 172,
+			"locatorEnd": 177,
+			"family": "Corner two-LK blocked medium timing",
+			"disposition": "excluded",
+			"reason": "Blocked-meaty alignment illustration, not a new complete practice route.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 177,
+			"locatorEnd": 186,
+			"family": "Corner two-LK medium vs Drive Reversal",
+			"disposition": "duplicate",
+			"reason": "Additional block/recovery test from another frame kill; does not expand the authored near-corner claim.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 186,
+			"locatorEnd": 194,
+			"family": "Corner two-LK medium conversion",
+			"disposition": "duplicate",
+			"reason": "Same strike decision extracted from June source.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 194,
+			"locatorEnd": 201,
+			"family": "Light target/run DP",
+			"disposition": "covered",
+			"reason": "Distinct same-side meterless light finish.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 201,
+			"locatorEnd": 208,
+			"family": "Light target/run Dragonlash/HP DP",
+			"disposition": "covered",
+			"reason": "Drive-free side-switch route.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 208,
+			"locatorEnd": 215,
+			"family": "Light target/run Dragonlash/SA1",
+			"disposition": "covered",
+			"reason": "Actual Level 1 stock choice; overlay any-SA alternatives not invented.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 215,
+			"locatorEnd": 228,
+			"family": "Post-SA1 Hadoken/Rush heavy conversion",
+			"disposition": "covered",
+			"reason": "Actual Rush normal verified as standing HP, followed by 2MP/run DP.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 228,
+			"locatorEnd": 236,
+			"family": "Post-SA2 whiff-HP alignment",
+			"disposition": "excluded",
+			"reason": "Bare timing alternative; practical 2MP-whiff branches selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 236,
+			"locatorEnd": 248,
+			"family": "Post-SA2 whiff-HP throw",
+			"disposition": "duplicate",
+			"reason": "Alternative frame kill for the same Level-2 corner throw decision.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 248,
+			"locatorEnd": 258,
+			"family": "Post-SA2 whiff-HP jab strike",
+			"disposition": "duplicate",
+			"reason": "Alternative frame kill/light starter for the same Level-2 strike decision; no extra count for another run-DP ender.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 258,
+			"locatorEnd": 267,
+			"family": "Post-SA2 whiff-2MP alignment",
+			"disposition": "excluded",
+			"reason": "Timing-only demonstration; complete throw/shimmy/strike follow-ups authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 267,
+			"locatorEnd": 277,
+			"family": "Post-SA2 whiff-2MP throw",
+			"disposition": "covered",
+			"reason": "Follow-up isolated after prerequisite; captions disagree +12/+13F and the disagreement is retained.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 277,
+			"locatorEnd": 288,
+			"family": "Post-SA2 whiff-2MP shimmy",
+			"disposition": "covered",
+			"reason": "Actual conversion is HP into 2MP, unlike June source HP into 2MK.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 288,
+			"locatorEnd": 299,
+			"family": "Post-SA2 whiff-2MP heavy meaty",
+			"disposition": "covered",
+			"reason": "Heavy into 2MP/run DP after the timing whiff.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 299,
+			"locatorEnd": 312,
+			"family": "Post-SA3 burnout stun",
+			"disposition": "covered",
+			"reason": "Burned-out corner opponent blocks 2MP into DI; outcome is stun.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 312,
+			"locatorEnd": 324,
+			"family": "Post-SA3 Rush jab vs reversal",
+			"disposition": "covered",
+			"reason": "Opponent HUD is A.K.I.; only the shown Super-reversal block is claimed, not universal 10F+ safety.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 324,
+			"locatorEnd": 330,
+			"family": "Counter-hit jab into medium/run DP",
+			"disposition": "covered",
+			"reason": "Counter Hit required for the medium link.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 330,
+			"locatorEnd": 336,
+			"family": "Jab/medium/light-Tatsu/medium DP",
+			"disposition": "duplicate",
+			"reason": "Light-prefix variation on the already covered meterless light-Tatsu juggle; omitted as another ender take.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 336,
+			"locatorEnd": 345,
+			"family": "Post-light-Tatsu/MP-DP Rush throw",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; +33F knockdown follow-up has not received detailed extraction review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 345,
+			"locatorEnd": 354,
+			"family": "Post-light-Tatsu/MP-DP Rush shimmy",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact movement and punish inputs remain to be checked in a future extraction.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 354,
+			"locatorEnd": 364,
+			"family": "Post-light-Tatsu/MP-DP Rush medium strike",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; no execution/clip review authored for this additional knockdown family.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 364,
+			"locatorEnd": 372,
+			"family": "Corner crouching-MK timing alignment",
+			"disposition": "excluded",
+			"reason": "Bare timing illustration before the +33F knockdown branches.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 372,
+			"locatorEnd": 379,
+			"family": "Corner +33F whiff-MK throw",
+			"disposition": "unprocessed",
+			"reason": "Discovery only; no exact extraction bounds or frame-kill review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 379,
+			"locatorEnd": 389,
+			"family": "Corner +33F whiff-MK shimmy",
+			"disposition": "unprocessed",
+			"reason": "Discovery only; no exact extraction bounds or punish-route review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 389,
+			"locatorEnd": 399,
+			"family": "Corner +33F whiff-MK jab strike",
+			"disposition": "unprocessed",
+			"reason": "Discovery only; no exact extraction bounds or input review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 399,
+			"locatorEnd": 405,
+			"family": "Jab target into delayed medium Jinrai",
+			"disposition": "duplicate",
+			"reason": "Same corner Jinrai mechanism authored with the medium starter; no extra card for adding a jab prefix.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 405,
+			"locatorEnd": 411,
+			"family": "Raw Rush jab/low/run DP",
+			"disposition": "duplicate",
+			"reason": "Additional grounded-Rush link to the already authored same-side run-DP finish; no extra count for a normal substitution.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 411,
+			"locatorEnd": 417,
+			"family": "Rush low into blocked Jinrai low/overhead",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact performed block branch still requires detailed input and timing review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 417,
+			"locatorEnd": 423,
+			"family": "Counter-hit Jinrai low/dash heavy meaty",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; prerequisite counter-hit knockdown and exact dash timing not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 423,
+			"locatorEnd": 429,
+			"family": "Jinrai low/run-stop alignment",
+			"disposition": "excluded",
+			"reason": "Bare alignment before practical follow-ups.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 429,
+			"locatorEnd": 436,
+			"family": "Jinrai-low knockdown/run-stop throw",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact follow-up and starting spacing not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 436,
+			"locatorEnd": 445,
+			"family": "Jinrai-low knockdown/run-stop jab strike",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact follow-up route not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 445,
+			"locatorEnd": 453,
+			"family": "Close raw Rush jab/target/run DP",
+			"disposition": "duplicate",
+			"reason": "Same strike route as the authored HP-DP Rush-jab branch; no new knockdown/response decision.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 453,
+			"locatorEnd": 459,
+			"family": "Blocked low/Rush jab alignment",
+			"disposition": "covered",
+			"reason": "Pressure prefix included in the complete tick-throw clip.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 459,
+			"locatorEnd": 465,
+			"family": "Blocked low/Rush jab/throw",
+			"disposition": "covered",
+			"reason": "Blocked prefix and throw are a setup, not one uninterrupted combo.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 465,
+			"locatorEnd": 472,
+			"family": "Blocked low/Rush jab/medium strike",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact blocked-to-hit transition and continuation not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 472,
+			"locatorEnd": 478,
+			"family": "Short low/Rush jab/target/run Tatsu",
+			"disposition": "unprocessed",
+			"reason": "Simpler low-confirm alternative; exact inputs and boundaries not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 478,
+			"locatorEnd": 516,
+			"family": "Low run-stop carry/switch/cashout routes",
+			"disposition": "duplicate",
+			"reason": "Preserved beginner references already cover the shown run-stop low-confirm family and stock branches.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 516,
+			"locatorEnd": 520,
+			"family": "Blocked crouching-medium/Rush-medium timing",
+			"disposition": "excluded",
+			"reason": "Block-contact alignment; no distinct follow-up demonstrated in this short locator.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 520,
+			"locatorEnd": 526,
+			"family": "Normal crouching-medium/Rush-heavy conversion",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact ender and starting hit state not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 526,
+			"locatorEnd": 534,
+			"family": "Crouching-medium PC/low/run DP",
+			"disposition": "duplicate",
+			"reason": "Preserved Drive-Reversal punish uses this link family.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 534,
+			"locatorEnd": 538,
+			"family": "Standing medium/jab/HP DP",
+			"disposition": "covered",
+			"reason": "Short meterless normal medium confirm.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 538,
+			"locatorEnd": 544,
+			"family": "Standing medium/target/Dragonlash switch",
+			"disposition": "duplicate",
+			"reason": "Jab-prefix removal from the authored meterless light Dragonlash switch; no duplicate card for this starter simplification.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 544,
+			"locatorEnd": 550,
+			"family": "Standing medium/target/run Tatsu",
+			"disposition": "duplicate",
+			"reason": "Jab-prefix removal from preserved meterless target/run-Tatsu route.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 550,
+			"locatorEnd": 558,
+			"family": "Medium target/corner Jinrai/HP DP",
+			"disposition": "covered",
+			"reason": "Normal medium confirm with delayed corner follow-up.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 558,
+			"locatorEnd": 564,
+			"family": "Blocked heavy/Rush-medium timing",
+			"disposition": "excluded",
+			"reason": "Bare block-pressure illustration with no separate follow-up decision in this locator.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 564,
+			"locatorEnd": 576,
+			"family": "Heavy/Rush-heavy/Jinrai/SA3",
+			"disposition": "covered",
+			"reason": "One Rush cancel plus Level 3 heavy cash-out.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 576,
+			"locatorEnd": 590,
+			"family": "Rush heavy PC into low or medium/run DP",
+			"disposition": "duplicate",
+			"reason": "June raw-Rush HP-PC/2MK conversion authored; alternate medium link not counted separately.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 590,
+			"locatorEnd": 595,
+			"family": "Blocked crouching-heavy into burnout DI stun",
+			"disposition": "duplicate",
+			"reason": "Alternate blocked normal leading to the same DI stun decision; post-SA3 setup retained.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 595,
+			"locatorEnd": 601,
+			"family": "Heavy/light-Tatsu/medium DP",
+			"disposition": "covered",
+			"reason": "Normal heavy confirm preserving all resources.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 601,
+			"locatorEnd": 613,
+			"family": "Heavy/light-Tatsu/SA2",
+			"disposition": "covered",
+			"reason": "Two-stock finish without Drive spend.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 613,
+			"locatorEnd": 619,
+			"family": "Heavy PC/medium/run DP",
+			"disposition": "duplicate",
+			"reason": "Same reversal punish as preserved beginner reference.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 619,
+			"locatorEnd": 633,
+			"family": "Heavy PC/run-stop/medium/run overhead/SA3",
+			"disposition": "covered",
+			"reason": "Meterless-Drive reversal-punish cash-out.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 633,
+			"locatorEnd": 642,
+			"family": "Running-Tatsu PC into target/run DP",
+			"disposition": "unprocessed",
+			"reason": "Unusual punish starter discovered; exact reversal context and juggle sequence not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 642,
+			"locatorEnd": 658,
+			"family": "Rush HP-PC/two Rush cancels/SA3",
+			"disposition": "duplicate",
+			"reason": "High-spend variant of the HP/Jinrai/Level-3 decision; preserved low double-Rush and new one-Rush heavy cash-out cover the resource tradeoff without another repeated extension.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 658,
+			"locatorEnd": 666,
+			"family": "Corner heavy-PC/run-stop/medium/Tatsu/DP",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; actual Rush prefix and resource state require detailed review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 666,
+			"locatorEnd": 675,
+			"family": "Corner heavy-PC/run-stop/target/Jinrai",
+			"disposition": "ambiguous",
+			"reason": "The performed take has a raw-Rush prefix absent from its recipe. No Drive-free claim or unverified command transcription authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 675,
+			"locatorEnd": 684,
+			"family": "Corner heavy/double Jinrai/HP DP",
+			"disposition": "covered",
+			"reason": "Heavy/low then light/low juggle, no Drive spend.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 684,
+			"locatorEnd": 690,
+			"family": "Corner heavy/Jinrai/two light DP ender",
+			"disposition": "duplicate",
+			"reason": "Alternative last juggle to same heavy-Jinrai corner decision; not counted as another near-identical route.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 690,
+			"locatorEnd": 705,
+			"family": "Corner heavy/two OD Jinrai/run DP/SA3",
+			"disposition": "covered",
+			"reason": "Four-Drive-bar corner cash-out, distinct from the meterless option.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 705,
+			"locatorEnd": 711,
+			"family": "Running overhead CH/light kick/HP DP",
+			"disposition": "covered",
+			"reason": "Counter Hit required for light-kick link.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 711,
+			"locatorEnd": 717,
+			"family": "Standing HK-PC/Rush heavy/run DP",
+			"disposition": "duplicate",
+			"reason": "Same as preserved beginner HK-PC conversion.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 717,
+			"locatorEnd": 724,
+			"family": "Standing HK-PC/Rush heavy/run Tatsu",
+			"disposition": "covered",
+			"reason": "Observed travel and delayed running-Tatsu carry choice.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 724,
+			"locatorEnd": 732,
+			"family": "Standing HK-PC/Rush/OD Jinrai/run DP",
+			"disposition": "unprocessed",
+			"reason": "Resource alternative discovered; detailed starting state and input review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 732,
+			"locatorEnd": 741,
+			"family": "PC sweep/run-medium meaty",
+			"disposition": "covered",
+			"reason": "Whiff-2LK frame kill and actual run-Tatsu finish after the target combo.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 741,
+			"locatorEnd": 749,
+			"family": "Forward throw/Rush light or medium meaty",
+			"disposition": "unprocessed",
+			"reason": "Multiple captioned choices; exact performed normal and conversion not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 749,
+			"locatorEnd": 756,
+			"family": "Forward throw/Rush jab whiff/block reversal",
+			"disposition": "covered",
+			"reason": "Actual blocked OD Shoryuken; no punish inferred after the block.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 756,
+			"locatorEnd": 763,
+			"family": "Corner forward throw/walk/throw",
+			"disposition": "unprocessed",
+			"reason": "Tight timing/spacing candidate discovered; no exact input or timing review authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 763,
+			"locatorEnd": 772,
+			"family": "Corner forward throw/dash/light confirm",
+			"disposition": "covered",
+			"reason": "Actual 2LP/5LP/5LK/HP DP conversion reviewed.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 772,
+			"locatorEnd": 784,
+			"family": "Counter DI/jump HK/Rush heavy/run DP",
+			"disposition": "duplicate",
+			"reason": "Same as preserved beginner counter-DI route.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 784,
+			"locatorEnd": 795,
+			"family": "Counter DI/jump HK/OD Jinrai/run DP",
+			"disposition": "covered",
+			"reason": "Non-Rush OD extension and DI cost both recorded.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 795,
+			"locatorEnd": 805,
+			"family": "Counter DI/walk HP/run Dragonlash/HP DP",
+			"disposition": "covered",
+			"reason": "DI-only resource spend, observed side switch.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 805,
+			"locatorEnd": 816,
+			"family": "Counter DI/walk heavy/OD Dragonlash/run DP",
+			"disposition": "unprocessed",
+			"reason": "Additional OD side-switch alternative discovered; exact inputs and boundaries not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 816,
+			"locatorEnd": 823,
+			"family": "Blocked DI wall splat/Jinrai/MP DP",
+			"disposition": "duplicate",
+			"reason": "Same wall-splat state and route as preserved beginner reference.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 823,
+			"locatorEnd": 833,
+			"family": "Corner counter DI/jump HK/Rush heavy/Jinrai",
+			"disposition": "duplicate",
+			"reason": "Same corner counter-DI family as preserved beginner reference.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 833,
+			"locatorEnd": 839,
+			"family": "Outro",
+			"disposition": "excluded",
+			"reason": "No further practice action.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 0,
+			"locatorEnd": 81,
+			"family": "Intro and match excerpts",
+			"disposition": "excluded",
+			"reason": "No bounded instructional example selected from the intro.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 81,
+			"locatorEnd": 126,
+			"family": "Anti-air explanation and repeated jump recordings",
+			"disposition": "excluded",
+			"reason": "Explanation/rehearsal; the clear basic DP take is selected separately.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 130.4,
+			"locatorEnd": 165,
+			"family": "Anti-air practice repetitions",
+			"disposition": "duplicate",
+			"reason": "Repeated anti-air attempts and explanation; not counted as new routes.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 165,
+			"locatorEnd": 172,
+			"family": "OD Jinrai multi-follow-up anti-air juggle",
+			"disposition": "ambiguous",
+			"reason": "Multiple heavy follow-up inputs appear in the history; exact continuation count remains unconfirmed. No guessed recipe authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 172,
+			"locatorEnd": 192.95,
+			"family": "Jinrai anti-air practice repetitions",
+			"disposition": "duplicate",
+			"reason": "Same grounded OD Jinrai mechanism; the clear no-extension take is selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 195.7,
+			"locatorEnd": 197,
+			"family": "Next jump/section transition",
+			"disposition": "excluded",
+			"reason": "Next jump begins after the selected OD-Jinrai take; final clip ends before it.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 197,
+			"locatorEnd": 258,
+			"family": "Air-Tatsumaki juggles",
+			"disposition": "unprocessed",
+			"reason": "Whole section discovery reviewed; exact aerial command/landing conversion not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 258,
+			"locatorEnd": 371,
+			"family": "Corner throw-bait punishes",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; existing newer corner shimmy families cover the practical role, but these exact older routes remain unprocessed.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 371,
+			"locatorEnd": 396,
+			"family": "Level-2 punish explanation and positioning",
+			"disposition": "unprocessed",
+			"reason": "No detailed extraction review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 396,
+			"locatorEnd": 407,
+			"family": "Level 2 after close blocked Guile attack",
+			"disposition": "ambiguous",
+			"reason": "Guile’s triggering attack/charge sequence remains unconfirmed; no anti-projectile or precise punish claim authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 407,
+			"locatorEnd": 448,
+			"family": "Level-2 punish continuation/explanation",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; no exact execution or boundary review authored.",
+			"referenceIds": []
+		}
+	],
+	"unprocessedIntervals": [
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 336,
+			"locatorEnd": 345,
+			"family": "Post-light-Tatsu/MP-DP Rush throw",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; +33F knockdown follow-up has not received detailed extraction review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 345,
+			"locatorEnd": 354,
+			"family": "Post-light-Tatsu/MP-DP Rush shimmy",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact movement and punish inputs remain to be checked in a future extraction.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 354,
+			"locatorEnd": 364,
+			"family": "Post-light-Tatsu/MP-DP Rush medium strike",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; no execution/clip review authored for this additional knockdown family.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 372,
+			"locatorEnd": 379,
+			"family": "Corner +33F whiff-MK throw",
+			"disposition": "unprocessed",
+			"reason": "Discovery only; no exact extraction bounds or frame-kill review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 379,
+			"locatorEnd": 389,
+			"family": "Corner +33F whiff-MK shimmy",
+			"disposition": "unprocessed",
+			"reason": "Discovery only; no exact extraction bounds or punish-route review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 389,
+			"locatorEnd": 399,
+			"family": "Corner +33F whiff-MK jab strike",
+			"disposition": "unprocessed",
+			"reason": "Discovery only; no exact extraction bounds or input review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 411,
+			"locatorEnd": 417,
+			"family": "Rush low into blocked Jinrai low/overhead",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact performed block branch still requires detailed input and timing review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 417,
+			"locatorEnd": 423,
+			"family": "Counter-hit Jinrai low/dash heavy meaty",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; prerequisite counter-hit knockdown and exact dash timing not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 429,
+			"locatorEnd": 436,
+			"family": "Jinrai-low knockdown/run-stop throw",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact follow-up and starting spacing not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 436,
+			"locatorEnd": 445,
+			"family": "Jinrai-low knockdown/run-stop jab strike",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact follow-up route not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 465,
+			"locatorEnd": 472,
+			"family": "Blocked low/Rush jab/medium strike",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact blocked-to-hit transition and continuation not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 472,
+			"locatorEnd": 478,
+			"family": "Short low/Rush jab/target/run Tatsu",
+			"disposition": "unprocessed",
+			"reason": "Simpler low-confirm alternative; exact inputs and boundaries not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 520,
+			"locatorEnd": 526,
+			"family": "Normal crouching-medium/Rush-heavy conversion",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact ender and starting hit state not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 633,
+			"locatorEnd": 642,
+			"family": "Running-Tatsu PC into target/run DP",
+			"disposition": "unprocessed",
+			"reason": "Unusual punish starter discovered; exact reversal context and juggle sequence not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 658,
+			"locatorEnd": 666,
+			"family": "Corner heavy-PC/run-stop/medium/Tatsu/DP",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; actual Rush prefix and resource state require detailed review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 724,
+			"locatorEnd": 732,
+			"family": "Standing HK-PC/Rush/OD Jinrai/run DP",
+			"disposition": "unprocessed",
+			"reason": "Resource alternative discovered; detailed starting state and input review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 741,
+			"locatorEnd": 749,
+			"family": "Forward throw/Rush light or medium meaty",
+			"disposition": "unprocessed",
+			"reason": "Multiple captioned choices; exact performed normal and conversion not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 756,
+			"locatorEnd": 763,
+			"family": "Corner forward throw/walk/throw",
+			"disposition": "unprocessed",
+			"reason": "Tight timing/spacing candidate discovered; no exact input or timing review authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 805,
+			"locatorEnd": 816,
+			"family": "Counter DI/walk heavy/OD Dragonlash/run DP",
+			"disposition": "unprocessed",
+			"reason": "Additional OD side-switch alternative discovered; exact inputs and boundaries not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 197,
+			"locatorEnd": 258,
+			"family": "Air-Tatsumaki juggles",
+			"disposition": "unprocessed",
+			"reason": "Whole section discovery reviewed; exact aerial command/landing conversion not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 258,
+			"locatorEnd": 371,
+			"family": "Corner throw-bait punishes",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; existing newer corner shimmy families cover the practical role, but these exact older routes remain unprocessed.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 371,
+			"locatorEnd": 396,
+			"family": "Level-2 punish explanation and positioning",
+			"disposition": "unprocessed",
+			"reason": "No detailed extraction review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 407,
+			"locatorEnd": 448,
+			"family": "Level-2 punish continuation/explanation",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; no exact execution or boundary review authored.",
+			"referenceIds": []
+		}
+	],
+	"ambiguities": [
+		{
+			"sourceId": "joe-ebios-ken-march-2026",
+			"locatorStart": 666,
+			"locatorEnd": 675,
+			"family": "Corner heavy-PC/run-stop/target/Jinrai",
+			"disposition": "ambiguous",
+			"reason": "The performed take has a raw-Rush prefix absent from its recipe. No Drive-free claim or unverified command transcription authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 165,
+			"locatorEnd": 172,
+			"family": "OD Jinrai multi-follow-up anti-air juggle",
+			"disposition": "ambiguous",
+			"reason": "Multiple heavy follow-up inputs appear in the history; exact continuation count remains unconfirmed. No guessed recipe authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "rush-g-ken-anti-air-2023",
+			"locatorStart": 396,
+			"locatorEnd": 407,
+			"family": "Level 2 after close blocked Guile attack",
+			"disposition": "ambiguous",
+			"reason": "Guile’s triggering attack/charge sequence remains unconfirmed; no anti-projectile or precise punish claim authored.",
+			"referenceIds": []
+		}
+	],
+	"dispositionCounts": {
+		"covered": 88,
+		"excluded": 23,
+		"duplicate": 38,
+		"unprocessed": 23,
+		"ambiguous": 3
+	},
+	"localEvidence": {
+		"draft": ".local/depth/ken/new-references.json",
+		"originals": ".local/depth/sources/ken-{beginner,full,antiair}.mp4",
+		"preparedReview": ".local/depth/ken/prepared-review/index.json",
+		"mechanicalAudit": ".local/depth/ken/media-audit.json",
+		"detailedSourceRanges": [
+			".local/depth/ken/dense/ranges.json",
+			".local/depth/ken/full-dense/ranges.json",
+			".local/depth/ken/extra-dense/ranges.json",
+			".local/depth/ken/jump-dense/ranges.json"
+		]
+	},
+	"mediaVerification": {
+		"newClips": 45,
+		"selectedMoments": 185,
+		"mechanicalAuditPassed": true,
+		"visualReview": "Both boundaries and every selected exported moment inspected. Timing/caption/identity corrections were regenerated before the ready handoff. Source discovery review is separately identified and is not current-patch game testing."
+	}
+}
