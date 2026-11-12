@@ -1782,6 +1782,15 @@ dialog > p {
 	}
 }
 @media (forced-colors: active) {
+	.button.enabled {
+		forced-color-adjust: none;
+		background: Highlight;
+		color: HighlightText;
+		border-color: Highlight;
+	}
+	.button.enabled:focus-visible {
+		outline-color: CanvasText;
+	}
 	.input-explanations > summary::before {
 		forced-color-adjust: none;
 	}
