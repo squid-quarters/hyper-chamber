@@ -17,7 +17,6 @@
 		loadLibrary,
 		persistChanges,
 		mergePending,
-		parseBackup,
 		createBackup,
 		blankEntry,
 		STORAGE_KEY,
@@ -27,18 +26,7 @@
 	import CharacterPicker from '#lib/components/CharacterPicker.svelte';
 	import CharacterPortrait from '#lib/components/CharacterPortrait.svelte';
 	import NotationKey from '#lib/components/NotationKey.svelte';
-	import {
-		ArrowLeft,
-		ArrowRight,
-		ArrowUpRight,
-		BookOpen,
-		Bookmark,
-		Search,
-		Star,
-		X,
-		Download,
-		Upload,
-	} from '@lucide/svelte';
+	import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Search, Star, X } from '@lucide/svelte';
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	import InputSequence from '#lib/components/InputSequence.svelte';
 	import {
@@ -72,8 +60,6 @@
 	let storageError = $state<string | null>(null);
 	let message = $state('');
 	let help: HTMLDialogElement;
-	let backup: HTMLDialogElement;
-	let importInput: HTMLInputElement;
 	let switcher: HTMLDialogElement;
 	let switchSearch: HTMLInputElement;
 	let ready = $state(false);
@@ -209,7 +195,7 @@
 			if (revision !== viewRevision) return;
 		}
 		document.querySelector<HTMLVideoElement>('.practice-view video')?.pause();
-		for (const dialog of [switcher, help, backup]) if (dialog?.open) dialog.close();
+		for (const dialog of [switcher, help]) if (dialog?.open) dialog.close();
 		characterId = id;
 		query = '';
 		kind = 'all';
@@ -293,7 +279,7 @@
 		}
 		viewRevision++;
 		pendingHistory = true;
-		for (const dialog of [switcher, help, backup]) if (dialog?.open) dialog.close();
+		for (const dialog of [switcher, help]) if (dialog?.open) dialog.close();
 	}
 	function finishHashNavigation(event: HashChangeEvent) {
 		const from = new URL(event.oldURL);
@@ -475,23 +461,7 @@
 		a.download = 'hyper-chamber-library.json';
 		a.click();
 		setTimeout(() => URL.revokeObjectURL(url), 1000);
-		message = 'Library backup exported.';
-	}
-	async function importData(event: Event) {
-		const input = event.currentTarget as HTMLInputElement;
-		const file = input.files?.[0];
-		if (!file) return;
-		try {
-			const imported = parseBackup(await file.text());
-			pendingChanges = { ...pendingChanges, ...imported };
-			persistPending();
-			message = storageError
-				? 'Backup loaded for this session. Browser storage could not save it.'
-				: 'Backup imported. Matching entries were updated.';
-		} catch (e) {
-			message = e instanceof Error ? e.message : 'This backup could not be imported.';
-		}
-		input.value = '';
+		message = 'Unsaved notes downloaded.';
 	}
 
 	const time = (seconds: number) =>
@@ -578,9 +548,6 @@
 			<button onclick={() => help.showModal()}
 				><BookOpen size={16} aria-hidden="true" />Notation</button
 			>
-			<button onclick={() => backup.showModal()}
-				><Bookmark size={16} aria-hidden="true" />Backups</button
-			>
 			{#each game.guides as guide}<a
 					class="guide-link"
 					href={guide.url}
@@ -596,7 +563,7 @@
 				{storageError} Your changes remain available in this session.
 				<button class="text-button" onclick={persistPending}>Retry saving</button><button
 					class="text-button"
-					onclick={exportData}>Export session backup</button
+					onclick={exportData}>Download unsaved notes</button
 				>
 			</p>{/if}
 		{#if message}<p class="message-bar" role="status">{message}</p>{/if}
@@ -1119,33 +1086,4 @@
 </dialog>
 <dialog class="notation-dialog" bind:this={help} aria-labelledby="notation-title">
 	<NotationKey {game} character={subjectName} onclose={() => help.close()} />
-</dialog>
-<dialog bind:this={backup} aria-labelledby="backup-title">
-	<div class="dialog-heading">
-		<h2 id="backup-title">Library backup</h2>
-		<button class="button small" onclick={() => backup.close()}
-			><X size={16} aria-hidden="true" />Close</button
-		>
-	</div>
-	<p>
-		Favorites, practice status and notes stay in this browser. Export a backup to keep a copy or
-		move to another device.
-	</p>
-	<div class="backup-actions">
-		<button class="button" onclick={exportData}
-			><Download size={15} aria-hidden="true" />Export backup</button
-		><button class="button" onclick={() => importInput.click()}
-			><Upload size={15} aria-hidden="true" />Import backup</button
-		><input
-			class="sr-only"
-			type="file"
-			accept="application/json,.json"
-			bind:this={importInput}
-			onchange={importData}
-		/>
-	</div>
-	<p class="muted">
-		Import merges your backup into this library. Matching entries use the imported notes and status.
-	</p>
-	{#if message}<p class="notice" role="status">{message}</p>{/if}
 </dialog>

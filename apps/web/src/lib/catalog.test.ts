@@ -6,41 +6,35 @@ import {filterReferences, referenceTagKey} from '@hyper-chamber/reference';
 import {readCharacterLocation, referenceLocation} from './navigation';
 
 describe('authored character libraries', () => {
-	it('provides a source-traceable portrait for every character in the picker', () => {
+	it('provides a high-resolution generated portrait with identity provenance for every character', () => {
 		const value: unknown = JSON.parse(
 			readFileSync(new URL('../../../../docs/character-portraits.json', import.meta.url), 'utf8'),
 		);
 		if (!Array.isArray(value)) throw new Error('Portrait manifest must be an array');
 		expect(value.map(entry => entry.id).sort()).toEqual(collections.map(entry => entry.id).sort());
-		const portraitFiles = readdirSync(new URL('../../static/portraits/', import.meta.url))
+		const files = readdirSync(new URL('../../static/portraits/', import.meta.url))
 			.filter(file => file.endsWith('.webp'))
 			.sort();
-		expect(portraitFiles).toEqual(collections.map(entry => entry.id + '.webp').sort());
+		expect(files).toEqual(collections.map(entry => entry.id + '.webp').sort());
 		for (const entry of value) {
-			const reference = allReferences.find(reference => reference.id === entry.referenceId);
-			if (!reference) throw new Error('Unknown portrait source: ' + entry.referenceId);
-			expect(
-				reference.participants.some(participant => participant.characterId === entry.id),
-				entry.id,
-			).toBe(true);
-			expect(entry.clip, entry.id).toBe(reference.media.clip);
-			expect(entry.sourceURL, entry.id).toBe(reference.source.url);
+			expect(entry.kind).toBe('generated-illustration');
+			expect(new URL(entry.sourcePage).protocol).toBe('https:');
+			expect(new URL(entry.sourceImageUrl).protocol).toBe('https:');
+			expect(entry.reference.width).toBeGreaterThanOrEqual(512);
+			expect(entry.reference.height).toBeGreaterThanOrEqual(512);
+			expect(entry.reference.sha256).toMatch(/^[a-f0-9]{64}$/);
+			expect(entry.generated.tool).toBe('built-in image_gen');
+			expect(entry.generated.styleMaster).toBe('dhalsim');
+			expect(entry.generated.prompt.length).toBeGreaterThan(100);
 			expect(entry.outputPath).toBe('/portraits/' + entry.id + '.webp');
 			const output = readFileSync(new URL('../../static' + entry.outputPath, import.meta.url));
 			expect(output.toString('ascii', 0, 4)).toBe('RIFF');
-			expect(output.toString('ascii', 8, 12)).toBe('WEBP');
+			expect(output.toString('ascii', 8, 16)).toBe('WEBPVP8 ');
+			// Lossy WebP frame dimensions verify the actual asset, not just manifest claims.
+			expect(output.readUInt16LE(26) & 0x3fff, entry.id).toBe(512);
+			expect(output.readUInt16LE(28) & 0x3fff, entry.id).toBe(512);
+			expect(entry.outputDimensions).toEqual({width: 512, height: 512});
 			expect(createHash('sha256').update(output).digest('hex'), entry.id).toBe(entry.outputSha256);
-			const clip = readFileSync(new URL('../../static' + entry.clip, import.meta.url));
-			expect(createHash('sha256').update(clip).digest('hex'), entry.id).toBe(entry.sourceMp4Sha256);
-			expect(entry.clipTime).toBeGreaterThanOrEqual(0);
-			expect(entry.sourceTime).toBeCloseTo(reference.source.start + entry.clipTime, 3);
-			expect(entry.sourceTime).toBeLessThanOrEqual(reference.source.end + 0.05);
-			expect(entry.crop.x).toBeGreaterThanOrEqual(0);
-			expect(entry.crop.y).toBeGreaterThanOrEqual(0);
-			expect(entry.crop.width).toBeGreaterThan(0);
-			expect(entry.crop.height).toBeGreaterThan(0);
-			expect(entry.crop.x + entry.crop.width).toBeLessThanOrEqual(entry.sourceDimensions.width);
-			expect(entry.crop.y + entry.crop.height).toBeLessThanOrEqual(entry.sourceDimensions.height);
 		}
 	});
 

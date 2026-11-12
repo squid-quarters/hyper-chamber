@@ -6,7 +6,7 @@ Hyper Chamber is a practice reference, used beside a fighting game. Put characte
 
 Keep the static Hourglass H, condensed Barlow reference titles and DM Sans interface text. Chamber remains a light palette of ivory, ink and restrained brass. Semantic colors are defined in apps/web/src/app.css; components consume those roles.
 
-Use the canvas for browsing and the footer, white for reference content, and a second neutral surface for grouped controls. Keep the dark masthead and source-video stage. Brass is reserved for a small number of actions and saved state. Footage and portrait crops supply the imagery.
+Use the canvas for browsing and the footer, white for reference content, and a second neutral surface for grouped controls. Keep the dark masthead and source-video stage. Brass is reserved for a small number of actions and saved state. Source footage supplies the demonstrations. Generated character portraits use a consistent ivory-and-brass ink illustration style. A quiet generated stone-chamber backdrop spans wide viewports behind solid content surfaces; the masthead spans the viewport without boxed white side gutters.
 
 Keep controls slightly rounded and tiles rectangular. One border groups a region; repeated outlines and nested cards do not establish hierarchy. Selected controls use a filled surface, weight or a checkmark. A selected keyframe has a toned caption and a short bottom marker. Keyboard focus uses a separate two-pixel outline. Forced-color mode may use the platform highlight outline for selection.
 
@@ -20,7 +20,7 @@ A tile places its title before its source still, then starting conditions, outco
 
 The character trigger shows the current portrait and name. It opens a non-modal searchable roster, with portrait/name rows and a checkmark for the current character. Search accepts names without punctuation. Arrow keys navigate the visible grid, Enter chooses, and Escape dismisses without leaving the current reference. Native popover behavior supplies light dismissal; browsers without it use the same visible picker with an explicit fallback. The roster scrolls independently while its search remains visible.
 
-Portraits are crops of the existing source recordings. Keep their source and crop provenance with the assets. They do not imply new character artwork or a different media license.
+Portraits are 512-pixel generated illustrations based on high-resolution SF6 identity artwork. Preserve online identity-reference URLs, dimensions and hashes, generation prompts and output hashes in docs/character-portraits.json. They are unofficial interface illustrations, not Capcom artwork or gameplay evidence. Keep source downloads and native generation originals out of version control.
 
 ## Practice
 
@@ -32,11 +32,11 @@ Keep inputs, replay and playback controls together in a laptop window. Longer di
 
 ## Notation and supporting content
 
-The notation key pairs a direction pad with the game's button layout, then shows the authored definitions in a readable grid. Character-specific terms stay with the selected character. The direction pad states which way the character faces. Do not infer move timing or resource costs from the presentation.
+The notation key uses three keyboard-accessible sections: Inputs, Sequence and Character. Inputs pairs a direction pad with the game's button layout. Authored definitions appear one to three per page according to viewport space with explicit previous/next controls, keeping a bounded dialog readable on phones and short laptop windows. Retain scrolling as a fallback for zoom and unusually short viewports. Character-specific terms stay with the selected character. The direction pad states which way the character faces. Do not infer move timing or resource costs from the presentation.
 
 Conditions, execution notes, learner notes and source/version information follow the replay. Keep source review distinct from current-patch in-game testing. Use short, factual labels and actionable recovery messages; remove text that only restates the heading.
 
-The page, footer and root share a continuous canvas, including beyond the document's scroll edge. Do not implement a JavaScript scroll trap. Narrow layouts, zoom, reduced motion, forced colors, keyboard use, empty filters and unavailable media are part of verification.
+The page, footer and root share a continuous warm ivory canvas, including beyond the document's scroll edge. Reserve a stable root scrollbar gutter across library, practice and dialog states; never toggle root overflow to lock a modal. Do not implement a JavaScript scroll trap. Narrow layouts, zoom, reduced motion, forced colors, keyboard use, empty filters and unavailable media are part of verification.
 
 ## References
 

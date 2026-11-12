@@ -97,7 +97,7 @@ export function loadLibrary(storage?: ReadableStorage | null): LoadResult {
 		return {
 			library: {},
 			error:
-				'Browser storage is blocked or unavailable. Export a backup to keep any practice changes from this session.',
+				'Browser storage is blocked or unavailable. Download unsaved notes to keep practice changes from this session.',
 		};
 	}
 	if (text === null) return {library: {}, error: null};
@@ -129,7 +129,7 @@ export function saveLibrary(
 		target.setItem(STORAGE_KEY, text);
 		return null;
 	} catch {
-		return 'Practice changes are still available in this session, but browser storage could not save them. Export a backup before closing the page.';
+		return 'Practice changes are still available in this session, but browser storage could not save them. Download unsaved notes before closing the page.';
 	}
 }
 

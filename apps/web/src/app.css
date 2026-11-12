@@ -11,7 +11,7 @@
 	font-synthesis: none;
 	font-size: 14px;
 	line-height: 1.5;
-	--canvas: #f4f4f0;
+	--canvas: #f3f0e7;
 	--surface: #ffffff;
 	--soft: #eaece6;
 	--ink: #252c27;
@@ -40,11 +40,13 @@
 	box-sizing: border-box;
 }
 html {
+	scrollbar-gutter: stable;
 	scroll-padding-top: calc(var(--masthead-height) + var(--practice-nav-height) + 12px);
 	overscroll-behavior-y: none;
 	scrollbar-color: var(--border) var(--canvas);
 }
 body {
+	isolation: isolate;
 	margin: 0;
 	min-block-size: 100svh;
 	background: var(--canvas);
@@ -151,13 +153,16 @@ a > svg {
 	inset-block-start: 12px;
 }
 .app-shell {
-	max-inline-size: 1760px;
+	inline-size: 100%;
 	min-block-size: 100svh;
 	margin-inline: auto;
 	display: flex;
 	flex-direction: column;
 }
 #main-content {
+	inline-size: 100%;
+	max-inline-size: 1600px;
+	margin-inline: auto;
 	flex: 1;
 	min-inline-size: 0;
 }
@@ -169,7 +174,7 @@ a > svg {
 	align-items: center;
 	gap: 32px;
 	min-block-size: var(--masthead-height);
-	padding: 8px 32px;
+	padding: 8px max(32px, calc((100% - 1536px) / 2));
 	background: var(--panel);
 	color: var(--panel-ink);
 }
@@ -1162,6 +1167,8 @@ dialog {
 	overscroll-behavior: contain;
 }
 dialog::backdrop {
+	overflow: hidden;
+	overscroll-behavior: contain;
 	background: #20282288;
 }
 .dialog-heading {
@@ -1190,12 +1197,6 @@ dialog > p {
 	margin-block-start: 5px;
 	color: var(--muted);
 	font-size: 12px;
-}
-.backup-actions {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 12px;
-	margin-block: 24px;
 }
 .quick-switch-dialog {
 	inline-size: min(720px, calc(100% - 32px));
@@ -1389,36 +1390,71 @@ dialog > p {
 	font-size: 13px;
 }
 .notation-dialog {
-	max-inline-size: 800px;
-	padding: 28px;
+	max-inline-size: 620px;
+	block-size: min(520px, calc(100dvh - 24px));
+	padding: 24px;
+}
+.notation-dialog[open] {
+	display: flex;
+	flex-direction: column;
+}
+.notation-dialog .dialog-heading {
+	margin-block-end: 18px;
+}
+.notation-tabs {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 4px;
+	flex: none;
+	padding: 3px;
+	border-radius: 5px;
+	background: var(--soft);
+}
+.notation-tabs button {
+	min-block-size: 44px;
+	padding: 8px;
+	color: var(--muted);
+	font-size: 13px;
+}
+.notation-tabs button[aria-selected='true'] {
+	color: var(--ink);
+	background: var(--surface);
+	font-weight: 600;
+}
+.notation-content:not([hidden]) {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	min-block-size: 0;
+	padding-block-start: 20px;
 }
 .notation-description {
 	color: var(--muted);
+	font-size: 13px;
 }
 .notation-foundations {
 	display: grid;
 	grid-template-columns: auto minmax(0, 1fr);
-	gap: 36px;
-	padding-block: 12px 24px;
+	gap: 32px;
+	padding-block: 20px;
 }
-.notation-foundations h3,
-.notation-terms h3 {
-	margin-block-end: 14px;
-	font-size: 14px;
+.notation-foundations h3 {
+	margin-block-end: 10px;
+	font-size: 13px;
 	font-weight: 600;
 }
 .direction-pad {
 	display: grid;
-	grid-template-columns: repeat(3, 52px);
+	grid-template-columns: repeat(3, 44px);
 	gap: 4px;
 }
 .direction-pad > div {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	gap: 4px;
-	min-block-size: 48px;
-	padding: 8px;
+	gap: 2px;
+	min-block-size: 42px;
+	padding: 6px;
 	border-radius: 4px;
 	background: var(--soft);
 }
@@ -1429,14 +1465,14 @@ dialog > p {
 	align-self: start;
 	color: var(--muted);
 	font:
-		11px ui-monospace,
+		10px ui-monospace,
 		monospace;
 }
 .facing-label {
 	display: flex;
 	align-items: center;
 	justify-content: end;
-	gap: 8px;
+	gap: 6px;
 	margin-block-start: 9px;
 	color: var(--muted);
 	font-size: 11px;
@@ -1449,7 +1485,7 @@ dialog > p {
 }
 .button-key th,
 .button-key td {
-	padding: 6px;
+	padding: 5px 3px;
 	font-weight: 400;
 }
 .button-key th {
@@ -1458,6 +1494,9 @@ dialog > p {
 }
 .button-key th[scope='row'] {
 	text-align: start;
+}
+.button-key abbr {
+	text-decoration: none;
 }
 .button-key td code {
 	display: inline-flex;
@@ -1477,45 +1516,72 @@ dialog > p {
 	border-color: transparent;
 }
 .button-key > p {
-	max-inline-size: 42ch;
-	margin-block-start: 12px;
+	margin-block-start: 10px;
 	color: var(--muted);
 	font-size: 12px;
-	line-height: 1.7;
 }
-.notation-terms {
-	padding-block-start: 20px;
+.notation-example {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 14px 0;
 	border-block-start: 1px solid var(--line);
+	font-size: 13px;
 }
-.notation-terms dl {
+.notation-example code {
+	font-weight: 600;
+}
+.notation-example span {
+	color: var(--muted);
+}
+.notation-glossary {
+	flex: 1;
+}
+.notation-glossary dl {
 	display: grid;
-	grid-template-columns: repeat(2, minmax(0, 1fr));
-	gap: 16px 28px;
+	gap: 18px;
 	margin: 0;
 }
-.notation-terms dl > div {
-	min-inline-size: 0;
+.notation-glossary dt {
+	margin-block-end: 4px;
 }
-.notation-terms dt {
-	margin-block-end: 5px;
-}
-.notation-terms dt code {
+.notation-glossary code {
 	font:
-		600 12px/1.6 ui-monospace,
+		600 13px/1.5 ui-monospace,
 		monospace;
 	overflow-wrap: anywhere;
 }
-.notation-terms dd {
+.notation-glossary dd {
 	margin: 0;
 	color: var(--muted);
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 1.65;
 }
-.notation-footnote {
-	padding-block-start: 16px;
+.notation-pages {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex: none;
+	margin-block-start: 16px;
+	padding-block-start: 10px;
 	border-block-start: 1px solid var(--line);
-	color: var(--muted);
+}
+.notation-pages span {
 	font-size: 12px;
+	color: var(--muted);
+	font-variant-numeric: tabular-nums;
+}
+@media (min-width: 1100px) {
+	body::before {
+		content: '';
+		position: fixed;
+		inset: 0;
+		z-index: -1;
+		pointer-events: none;
+		background:
+			linear-gradient(#f3f0e7a6, #f3f0e7d9),
+			url('/art/chamber.webp') center top / 100% auto no-repeat;
+	}
 }
 .reference-detail.practice-view:has(.practice-filter-recovery) {
 	--practice-nav-height: 112px;
@@ -1715,47 +1781,11 @@ dialog > p {
 		align-items: start;
 		padding-block-start: 8px;
 	}
-	.notation-foundations {
-		gap: 22px;
-	}
-	.direction-pad {
-		grid-template-columns: repeat(3, 46px);
-	}
-	.direction-pad > div {
-		min-block-size: 44px;
-	}
 	.roster-grid {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 }
 @media (max-width: 580px) {
-	.notation-foundations {
-		grid-template-columns: 1fr;
-		gap: 24px;
-	}
-	.direction-key {
-		display: grid;
-		grid-template-columns: auto 1fr;
-		column-gap: 20px;
-		align-items: center;
-	}
-	.direction-key h3 {
-		grid-column: 1 / -1;
-	}
-	.direction-pad {
-		grid-row: 2 / 4;
-		grid-template-columns: repeat(3, 48px);
-	}
-	.facing-label {
-		justify-content: start;
-	}
-	.button-key table {
-		max-inline-size: 360px;
-	}
-	.notation-terms dl {
-		grid-template-columns: 1fr;
-		gap: 16px;
-	}
 	.roster-grid {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
@@ -1811,9 +1841,6 @@ dialog > p {
 	}
 	.roster-choice {
 		gap: 8px;
-	}
-	.notation-dialog {
-		padding: 20px;
 	}
 	.message-bar {
 		padding-inline: 20px;
@@ -1897,4 +1924,57 @@ dialog > p {
 	font:
 		600 12px ui-monospace,
 		monospace;
+}
+
+@media (max-width: 580px) {
+	.notation-dialog {
+		inline-size: calc(100% - 24px);
+		padding: 18px;
+	}
+	.notation-foundations {
+		gap: 16px;
+		padding-block: 20px;
+	}
+	.direction-pad {
+		grid-template-columns: repeat(3, 34px);
+		gap: 3px;
+	}
+	.direction-pad > div {
+		min-block-size: 34px;
+		padding: 4px;
+	}
+	.direction-pad svg {
+		inline-size: 17px;
+		block-size: 17px;
+	}
+	.direction-pad span {
+		font-size: 9px;
+	}
+	.button-key td code {
+		inline-size: 32px;
+		block-size: 32px;
+		font-size: 11px;
+	}
+	.button-key th,
+	.button-key td {
+		padding: 4px 2px;
+	}
+	.button-key th[scope='row'] {
+		font-size: 10px;
+	}
+	.button-key > p {
+		font-size: 11px;
+	}
+}
+@media (max-width: 360px) {
+	.notation-dialog {
+		padding: 16px;
+	}
+	.notation-foundations {
+		gap: 10px;
+	}
+	.button-key td code {
+		inline-size: 28px;
+		block-size: 28px;
+	}
 }

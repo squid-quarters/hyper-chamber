@@ -36,9 +36,9 @@ This runs formatting, lint, type checks, unit tests, the static build, and catal
 
 ## Your library
 
-Saved references, practice status, and notes stay in this browser. Export/import a JSON backup from **Your library** to move them between browsers or keep a copy. Clearing site storage removes local data. Storage failures are shown in the interface; export a backup before closing if changes cannot be saved.
+Saved references, practice status, and notes stay in this browser. The main interface has no backup-management workflow. Clearing site storage removes local data. Storage failures preserve pending edits and offer retry or a download of unsaved notes. Self-hosted SQLite, with one PC serving the app to phones and tablets, is planned; the current static app still uses browser storage. Accounts, login and synchronization remain outside this pass.
 
-Practice status is self-reported. Filtering it keeps the selected entry open, including when that entry no longer matches. Sequential edits from another tab are rebased on current saved data; the browser store does not provide an atomic simultaneous-edit guarantee. Unknown reference IDs in backups are retained so future or temporarily unavailable references do not lose their notes.
+Practice status is self-reported. Filtering it keeps the selected entry open, including when that entry no longer matches. Sequential edits from another tab are rebased on current saved data; the browser store does not provide an atomic simultaneous-edit guarantee. The internal JSON recovery format retains unknown reference IDs so temporarily unavailable references do not lose their notes.
 
 ## Content and provenance
 
@@ -46,7 +46,7 @@ The [roster coverage index](docs/roster-source-coverage.md) lists 2068 reference
 
 Each reference records its creator, original video, publication date, interval and review status. Source review confirms what the dated footage demonstrates; it does not establish validity on the current game patch. Charge, stocks, stance, install, poison, medals, drinks and prerequisite knockdowns are stated beside the routes that need them. Media originals and extraction workfiles stay outside Git.
 
-Character-only URLs use the profile ID, for example `?character=ken`, `?character=lily` or `?character=arjun`; existing `?entry=...` links infer their character. Search, Saved counts and Quick switch stay within the active character, while learner backups retain all characters.
+Character-only URLs use the profile ID, for example `?character=ken`, `?character=lily` or `?character=arjun`; existing `?entry=...` links infer their character. Search, Saved counts and Quick switch stay within the active character, while learner data retains all characters.
 
 GitHub repository visibility is public. The repository owner confirmed public access, including prepared YouTube excerpts, on 12 November 2026; [publication metadata](content/publication.json) records the scope. No open-source license has been chosen. Third-party media licensing, permissions and redistribution rights remain unassessed. Attribution and source records must accompany media.
 
