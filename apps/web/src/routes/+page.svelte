@@ -646,8 +646,8 @@
 	<main id="main-content">
 		{#if storageError}<p class="global-notice" role="alert">
 				{storageError} Your changes remain available in this session.
-				<button class="text-button" onclick={persistPending}>Retry saving</button><button
-					class="text-button"
+				<button class="button button--quiet" onclick={persistPending}>Retry saving</button><button
+					class="button button--quiet"
 					onclick={exportData}>Download unsaved notes</button
 				>
 			</p>{/if}
@@ -697,9 +697,12 @@
 							>
 						</div>
 						<button
-							class="text-button library-quick-switch"
+							class="button quick-switch-trigger library-quick-switch"
+							aria-label="Quick switch"
 							onclick={openSwitcher}
-							aria-keyshortcuts="Control+k Meta+k">Quick switch <kbd>⌘ / Ctrl K</kbd></button
+							aria-keyshortcuts="Control+k Meta+k"
+							><Search size={16} aria-hidden="true" /><span>Quick switch</span>
+							<kbd>⌘ / Ctrl K</kbd></button
 						>
 					</div>
 					<div class="browse-categories">
@@ -733,7 +736,7 @@
 					<div class="filter-bottom">
 						<div class="refinement-toolbar">
 							<button
-								class="refinement-trigger"
+								class="button button--quiet refinement-trigger"
 								class:expanded={refinementsOpen}
 								aria-expanded={refinementsOpen}
 								aria-controls="library-refinements"
@@ -750,9 +753,6 @@
 									<strong>{results.length}</strong>
 									{results.length === 1 ? 'reference' : 'references'}
 								</p>
-								{#if activeFilters.length}<button class="reset-filters" onclick={reset}
-										>Clear filters</button
-									>{/if}
 							</div>
 						</div>
 						<div class="filters" id="library-refinements" hidden={!refinementsOpen}>
@@ -799,20 +799,23 @@
 							/>
 						</div>
 					</div>
-					{#if activeFilters.length}<ul
+					{#if activeFilters.length}<div
 							class="active-filters"
 							aria-label="Active filters"
-							role="list"
+							role="group"
 						>
-							{#each activeFilters as filter (filter.key)}<li>
-									<button
-										class="active-filter"
-										onclick={() => removeFilter(filter.key)}
-										aria-label={`Remove ${filter.label}`}
-										><span>{filter.label}</span><X size={13} aria-hidden="true" /></button
-									>
-								</li>{/each}
-						</ul>{/if}
+							{#each activeFilters as filter (filter.key)}
+								<button
+									class="active-filter"
+									onclick={() => removeFilter(filter.key)}
+									aria-label={`Remove ${filter.label}`}
+									><span>{filter.label}</span><X size={13} aria-hidden="true" /></button
+								>
+							{/each}
+							<button class="button button--quiet reset-filters" onclick={reset}
+								>Clear filters</button
+							>
+						</div>{/if}
 					<p class="sr-only" role="status" aria-atomic="true">{resultAnnouncement}</p>
 				</search>
 				<noscript
@@ -908,7 +911,7 @@
 										size={16}
 										aria-hidden="true"
 									/></button
-								><button class="text-button" onclick={reset}>Browse all references</button
+								><button class="button button--quiet" onclick={reset}>Browse all references</button
 								>{:else}<button class="button primary-button" onclick={reset}
 									>Browse all references<ArrowRight size={16} aria-hidden="true" /></button
 								>{/if}
@@ -918,13 +921,16 @@
 		{:else if selected && personal}
 			<article class="reference-detail practice-view" aria-label="Selected reference">
 				<nav class="practice-nav" aria-label="Practice navigation">
-					<button class="text-button back-library" onclick={returnToLibrary}
+					<button class="button button--quiet back-library" onclick={returnToLibrary}
 						><ArrowLeft size={16} aria-hidden="true" />Back to library <kbd>Esc</kbd></button
 					>
 					<button
-						class="button small quick-switch-trigger"
+						class="button quick-switch-trigger"
+						aria-label="Quick switch"
 						onclick={openSwitcher}
-						aria-keyshortcuts="Control+k Meta+k">Quick switch <kbd>⌘ / Ctrl K</kbd></button
+						aria-keyshortcuts="Control+k Meta+k"
+						><Search size={16} aria-hidden="true" /><span>Quick switch</span>
+						<kbd>⌘ / Ctrl K</kbd></button
 					>
 					<div class="practice-pagination">
 						<button
@@ -1008,7 +1014,7 @@
 									>
 								</div>
 							</header>
-							<section class="notation-panel" aria-label="Input sequence">
+							<section class="notation-panel compact-notation-panel" aria-label="Input sequence">
 								<InputSequence reference={selected} {game} compact />
 							</section>
 						{/snippet}
@@ -1106,7 +1112,7 @@
 <dialog class="quick-switch-dialog" bind:this={switcher} aria-labelledby="switch-title">
 	<div class="dialog-heading">
 		<h2 id="switch-title">Quick switch <span class="switch-character">{subjectName}</span></h2>
-		<button class="button small" onclick={() => switcher.close()}
+		<button class="button button--quiet" onclick={() => switcher.close()}
 			><X size={16} aria-hidden="true" />Close</button
 		>
 	</div>

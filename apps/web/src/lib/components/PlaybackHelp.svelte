@@ -112,7 +112,7 @@
 <button
 	bind:this={trigger}
 	type="button"
-	class="help-trigger"
+	class="button button--quiet help-trigger"
 	class:expanded={open}
 	aria-label="Replay controls"
 	aria-haspopup="dialog"
@@ -140,7 +140,7 @@
 		<h4 id={`${id}-playback-help-title`}>Replay controls</h4>
 		<button
 			type="button"
-			class="close-help"
+			class="icon-button close-help"
 			onclick={() => close(true)}
 			aria-label="Close replay controls"
 		>
@@ -164,26 +164,6 @@
 </div>
 
 <style>
-	.help-trigger {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		gap: 6px;
-		min-block-size: var(--control-size, 40px);
-		padding: 7px 9px;
-		border: 1px solid transparent;
-		font-size: 12px;
-		font-weight: 500;
-	}
-	.help-trigger:hover,
-	.help-trigger.expanded,
-	.close-help:hover {
-		background: var(--soft);
-	}
-	.help-trigger:active,
-	.close-help:active {
-		background: var(--selected);
-	}
 	.help-panel {
 		position: fixed;
 		inset: auto;
@@ -211,7 +191,7 @@
 		justify-content: space-between;
 		gap: 12px;
 		min-block-size: 48px;
-		padding: 4px 6px 4px 18px;
+		padding: 4px 6px 4px 20px;
 		border-bottom: 1px solid var(--line);
 	}
 	h4 {
@@ -219,19 +199,12 @@
 		font-size: 14px;
 		font-weight: 600;
 	}
-	.close-help {
-		display: grid;
-		place-items: center;
-		flex: none;
-		inline-size: 40px;
-		block-size: 40px;
-	}
 	dl {
 		display: grid;
 		gap: 14px;
 		min-block-size: 0;
 		margin: 0;
-		padding: 16px 18px 18px;
+		padding: 20px;
 		font-size: 13px;
 		line-height: 1.5;
 		overflow-y: auto;
@@ -247,15 +220,6 @@
 	dd {
 		margin: 0;
 		color: var(--muted);
-	}
-	@media (max-width: 760px) {
-		.help-trigger {
-			min-block-size: 44px;
-		}
-		.close-help {
-			inline-size: 44px;
-			block-size: 44px;
-		}
 	}
 	@media (forced-colors: active) {
 		.help-panel {

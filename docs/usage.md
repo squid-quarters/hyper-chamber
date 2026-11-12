@@ -2,7 +2,7 @@
 
 ## Finding a reference
 
-Choose a character, browse the tile library, filter by situation or your practice status, and open a reference in the dedicated practice view. Training goals offer Punishes, Corner carry, Oki, Anti-air and Cash-out, alongside reference type. Open **Refine results** for starting situation, outcome and practice status; its count shows active refinements, and selected filters remain visible when collapsed. Filters scroll with the tile library so they do not cover cards in short windows. Inputs sit above the replay. Back/Escape restores the originating tile and scroll position; prominent Previous/Next controls follow the filtered set, and Ctrl/Cmd+K opens Quick switch. **Copy inputs** copies the authored sequence; if clipboard access is blocked, the selectable original sequence appears instead.
+Choose a character, browse the tile library, filter by situation or your practice status, and open a reference in the dedicated practice view. Training goals offer Punishes, Corner carry, Oki, Anti-air and Cash-out, alongside reference type. Open **Refine results** for starting situation, outcome and practice status; its count shows active refinements, and selected filters remain visible when collapsed. Clear filters sits beside those selections. Filters scroll with the tile library so they do not cover cards in short windows. Inputs sit above the replay. Back/Escape restores the originating tile and scroll position; prominent Previous/Next controls follow the filtered set, and Ctrl/Cmd+K opens Quick switch. **Copy inputs** copies the authored sequence; if clipboard access is blocked, the selectable original sequence appears instead.
 
 ## Playback
 

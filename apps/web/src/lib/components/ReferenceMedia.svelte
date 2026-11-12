@@ -324,7 +324,7 @@
 	{#if error}<div class="notice media-error" role="alert">
 			<p>{error}</p>
 			<div>
-				<button class="button small" onclick={retry}>Retry clip</button>
+				<button class="button" onclick={retry}>Retry clip</button>
 				<a href={sourceLink(reference)} target="_blank" rel="noreferrer">Open original source ↗</a>
 			</div>
 		</div>{/if}
@@ -410,7 +410,7 @@
 						<div class="player-toolbar">
 							<div class="transport-controls" role="group" aria-label="Playback">
 								<button
-									class="button small playback-button"
+									class="button playback-button"
 									aria-keyshortcuts={preferences.shortcuts ? 'K' : undefined}
 									onclick={togglePlayback}
 									aria-label={playing ? 'Pause clip' : 'Play clip'}
@@ -423,19 +423,19 @@
 									{playing ? 'Pause' : 'Play'}
 								</button>
 								<button
-									class="button small replay-button"
+									class="button button--quiet replay-button"
 									onclick={replay}
 									aria-keyshortcuts={preferences.shortcuts ? 'R' : undefined}
 									><RotateCcw size={16} aria-hidden="true" />Replay</button
 								>
 								<button
-									class="button small"
+									class="button button--quiet"
 									class:enabled={loop}
 									aria-pressed={loop}
 									onclick={toggleLoop}><Repeat2 size={16} aria-hidden="true" />Loop</button
 								>
 								<button
-									class="button small sound-button"
+									class="button button--quiet sound-button"
 									class:enabled={!muted}
 									aria-label="Sound"
 									aria-pressed={!muted}
@@ -462,7 +462,7 @@
 							<div class="player-utilities">
 								<div class="seek-controls" role="group" aria-label="Inspect clip timing">
 									<button
-										class="button small"
+										class="button button--quiet"
 										disabled={!ready}
 										aria-keyshortcuts={preferences.shortcuts ? 'J ArrowLeft' : 'ArrowLeft'}
 										aria-describedby={`${reference.id}-position`}
@@ -470,7 +470,7 @@
 										aria-label="Back 0.25 seconds">−0.25s</button
 									>
 									<button
-										class="button small"
+										class="button button--quiet"
 										disabled={!ready}
 										aria-keyshortcuts={preferences.shortcuts ? 'L ArrowRight' : 'ArrowRight'}
 										aria-describedby={`${reference.id}-position`}
@@ -731,24 +731,8 @@
 		gap: 8px;
 		margin-inline-start: auto;
 	}
-	.player-toolbar .button {
-		min-block-size: var(--control-size, 40px);
-		padding: 7px 9px;
-		border-color: transparent;
-		background: transparent;
-		gap: 6px;
-		white-space: nowrap;
-	}
-	.player-toolbar .button:hover:not(:disabled) {
-		background: var(--soft);
-	}
-	.player-toolbar .button.enabled {
-		color: var(--accent);
-		background: var(--selected);
-	}
 	.playback-button {
-		min-inline-size: 78px;
-		justify-content: flex-start;
+		min-inline-size: 96px;
 	}
 	.seek-controls {
 		gap: 0;
@@ -786,18 +770,12 @@
 			grid-template-columns: repeat(4, minmax(0, 1fr));
 			gap: 4px;
 		}
-		.player-toolbar .button {
-			min-block-size: 44px;
-			padding: 8px 5px;
-			font-size: 14px;
-		}
 		.playback-button {
 			min-inline-size: 0;
-			justify-content: center;
 		}
 		.player-utilities {
 			display: grid;
-			grid-template-columns: minmax(0, 1fr) auto 44px;
+			grid-template-columns: minmax(0, 1fr) auto var(--control-size);
 			gap: 4px;
 			margin-inline-start: 0;
 		}
@@ -805,17 +783,22 @@
 			padding-inline-start: 0;
 			border-inline-start: 0;
 		}
-		.seek-controls .button {
-			padding-inline: 4px;
-			font-size: 13px;
-		}
 	}
-	@media (max-width: 360px) {
+	@media (max-width: 480px) {
 		.transport-controls .button {
 			flex-direction: column;
 			gap: 3px;
 			min-block-size: 56px;
-			padding: 5px 2px;
+		}
+	}
+	@media (max-width: 360px) {
+		.player-utilities {
+			grid-template-columns: minmax(0, 1fr) var(--control-size);
+		}
+		.seek-controls {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			grid-column: 1 / -1;
 		}
 	}
 	@media (forced-colors: active) {
@@ -824,9 +807,6 @@
 		}
 		.scrub-progress > div {
 			background: Highlight;
-		}
-		.player-toolbar .button.enabled {
-			border-color: Highlight;
 		}
 	}
 </style>
