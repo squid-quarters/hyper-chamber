@@ -1396,5 +1396,3755 @@
 			"ehonda-low-lights-headbutt",
 			"ehonda-lights-medium-smash"
 		]
+	},
+	{
+		"id": "ehonda-depth-headbutt-rush-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Headbutt oki: Rush medium into heavy Headbutt",
+		"summary": "Close the gap after medium Headbutt, then confirm two standing mediums into another knockdown.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > st.MP > st.MP > [4]6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush",
+				"cue": "Parry then dash for a raw Drive Rush."
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "[4]6HP",
+				"label": "Heavy Sumo Headbutt"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the low-light medium Headbutt knockdown, shown as +40F"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 8.65,
+			"end": 13.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-headbutt-rush-medium/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-headbutt-rush-medium/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-headbutt-rush-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-headbutt-rush-medium/frame-1.jpg",
+					"at": 0.35,
+					"label": "Rush approach",
+					"alt": "Honda closes the gap with Drive Rush as Ryu wakes up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-headbutt-rush-medium/frame-2.jpg",
+					"at": 1.35,
+					"label": "Medium pressure",
+					"alt": "The first standing medium punch meets Ryu on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-headbutt-rush-medium/frame-3.jpg",
+					"at": 3.35,
+					"label": "Headbutt ender",
+					"alt": "Heavy Headbutt ends the medium-punch conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-smash-jab-kill-shimmy",
+			"ehonda-smash-jab-kill-oicho",
+			"ehonda-lights-rush-lift-smash"
+		]
+	},
+	{
+		"id": "ehonda-depth-headbutt-corner-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Corner Headbutt oki: frame kill into overhead",
+		"summary": "Whiff light kick, then use the overhead and its heavy-kick conversion.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Overhead"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LK (whiff) > 3HK > st.HK (1 hit) > 236K > 2P > 3HK > [4]6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK (whiff)",
+				"label": "Whiff standing light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "3HK",
+				"label": "Sumo overhead"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK (1 hit)",
+				"label": "First hit of standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-5",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "3HK",
+				"label": "Sumo overhead"
+			},
+			{
+				"id": "step-7",
+				"notation": "[4]6HP",
+				"label": "Heavy Sumo Headbutt"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After low lights into medium Headbutt at the corner, shown as +40F in the source"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 20.65,
+			"end": 25.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-headbutt-corner-overhead/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-headbutt-corner-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-headbutt-corner-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-headbutt-corner-overhead/frame-1.jpg",
+					"at": 1.35,
+					"label": "Overhead conversion",
+					"alt": "Honda links heavy kick after the overhead to continue the corner conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-headbutt-corner-overhead/frame-2.jpg",
+					"at": 2.35,
+					"label": "Sumo Lift",
+					"alt": "Sumo Lift launches Ryu after the heavy-kick cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-headbutt-corner-overhead/frame-3.jpg",
+					"at": 4.35,
+					"label": "Headbutt finish",
+					"alt": "Heavy Headbutt ends the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-corner-headbutt-frame-kill-throw",
+			"ehonda-depth-headbutt-ryu-dp-bait",
+			"ehonda-depth-headbutt-corner-di-reset"
+		]
+	},
+	{
+		"id": "ehonda-depth-headbutt-ryu-dp-bait",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Corner Headbutt oki: make Ryu’s DP miss",
+		"summary": "Make the recorded Ryu DP miss, then land and confirm standing medium into heavy, Sumo Lift and heavy Smash.",
+		"kind": "response",
+		"situations": ["Corner", "Oki", "Reversal bait", "Punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK (whiff) > 3HK > [2]8HK > st.MP > st.HP > 236K > 2P > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "3HK",
+				"label": "Sumo overhead"
+			},
+			{
+				"id": "step-3",
+				"notation": "[2]8HK",
+				"label": "Heavy Sumo Smash, intentionally whiffed",
+				"cue": "Rise over the recorded reversal, then land before punishing; this is not a combo into the bait Smash."
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-7",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-8",
+				"notation": "[2]8HK",
+				"label": "Heavy Sumo Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After low lights into medium Headbutt at the corner, shown as +40F in the source",
+			"Ryu performs the recorded wake-up DP"
+		],
+		"notes": [
+			"The clip demonstrates this Ryu recording. The source separately shows JP hitting the same idea; do not treat the overlay’s all-DP wording as a universal guarantee.",
+			"After the whiffed bait Smash, the recorded punish continues with standing medium, standing heavy, Sumo Dash, Lift and heavy Smash. The punish is a separate interaction after the missed reversal."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 28.55,
+			"end": 34.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-headbutt-ryu-dp-bait/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-headbutt-ryu-dp-bait/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-headbutt-ryu-dp-bait/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-headbutt-ryu-dp-bait/frame-1.jpg",
+					"at": 0.55,
+					"label": "Low-kick frame kill",
+					"alt": "Honda whiffs crouching light kick over Ryu’s knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-headbutt-ryu-dp-bait/frame-2.jpg",
+					"at": 1.25,
+					"label": "Airborne evasion",
+					"alt": "Heavy Sumo Smash avoids the recorded Ryu DP."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-headbutt-ryu-dp-bait/frame-3.jpg",
+					"at": 2.25,
+					"label": "Medium punish",
+					"alt": "Honda lands and punishes Ryu’s recovery with standing medium punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-headbutt-ryu-dp-bait/frame-4.jpg",
+					"at": 3.45,
+					"label": "Lift conversion",
+					"alt": "Sumo Lift extends the medium-heavy punish."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ehonda/ehonda-depth-headbutt-ryu-dp-bait/frame-5.jpg",
+					"at": 4.95,
+					"label": "Smash finish",
+					"alt": "Heavy Sumo Smash completes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-headbutt-shimmy",
+			"ehonda-depth-smash-ryu-dp-bait",
+			"ehonda-corner-headbutt-frame-kill-throw"
+		]
+	},
+	{
+		"id": "ehonda-depth-headbutt-corner-di-reset",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Corner Headbutt oki: light-kick frame kill into DI",
+		"summary": "Practice the timed DI reset after the Headbutt knockdown.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Drive Impact"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LK (whiff) > DI",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK (whiff)",
+				"label": "Whiff standing light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DI",
+				"label": "Drive Impact"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After low lights into medium Headbutt at the corner, shown as +40F in the source"
+		],
+		"notes": [
+			"A reset on the opponent’s wake-up, not a continuous combo from Headbutt. DI can be answered; this clip shows the recorded defender."
+		],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 48.0,
+			"end": 51.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-headbutt-corner-di-reset/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-headbutt-corner-di-reset/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-headbutt-corner-di-reset/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-headbutt-corner-di-reset/frame-1.jpg",
+					"at": 0.2,
+					"label": "Light-kick frame kill",
+					"alt": "Honda whiffs standing light kick before Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-headbutt-corner-di-reset/frame-2.jpg",
+					"at": 0.9,
+					"label": "Drive Impact",
+					"alt": "Drive Impact reaches the waking Ryu at the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-headbutt-corner-di-reset/frame-3.jpg",
+					"at": 2.0,
+					"label": "Wall splat",
+					"alt": "The blocked Drive Impact leaves Ryu wall splatted."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-corner-headbutt-frame-kill-throw",
+			"ehonda-corner-counter-di-lift-headbutt",
+			"ehonda-depth-headbutt-corner-overhead"
+		]
+	},
+	{
+		"id": "ehonda-depth-headbutt-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Corner Headbutt oki: frame kill and shimmy",
+		"summary": "Replace the delayed throw with backward movement, then punish the missed throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Shimmy", "Punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK (whiff) > Walk back > st.HP > 236K > 2P > 3HK > [4]6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK (whiff)",
+				"label": "Whiff crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Make the throw whiff"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-5",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "3HK",
+				"label": "Sumo overhead"
+			},
+			{
+				"id": "step-7",
+				"notation": "[4]6HP",
+				"label": "Heavy Sumo Headbutt"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After low lights into medium Headbutt at the corner, shown as +40F in the source",
+			"Defender attempts the recorded wake-up throw"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 64.55,
+			"end": 72.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-headbutt-shimmy/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-headbutt-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-headbutt-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-headbutt-shimmy/frame-1.jpg",
+					"at": 1.1,
+					"label": "Medium-kick frame kill",
+					"alt": "Honda whiffs crouching medium kick before the shimmy."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-headbutt-shimmy/frame-2.jpg",
+					"at": 1.45,
+					"label": "Throw bait",
+					"alt": "Ryu attempts a throw as Honda steps back."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-headbutt-shimmy/frame-3.jpg",
+					"at": 2.45,
+					"label": "Heavy punish",
+					"alt": "Honda punishes the missed throw with heavy punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-headbutt-shimmy/frame-4.jpg",
+					"at": 5.45,
+					"label": "Headbutt finish",
+					"alt": "Heavy Headbutt ends the corner punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-headbutt-ryu-dp-bait",
+			"ehonda-depth-smash-jab-kill-shimmy",
+			"ehonda-corner-headbutt-frame-kill-throw"
+		]
+	},
+	{
+		"id": "ehonda-depth-headbutt-meaty-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Corner Headbutt oki: meaty medium conversion",
+		"summary": "Use the crouching-medium frame kill to time a standing-medium meaty.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Meaty"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK (whiff) > st.MP > st.HK (1 hit) > 236K > 2P > 3HK > [4]6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK (whiff)",
+				"label": "Whiff crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK (1 hit)",
+				"label": "First hit of standing heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-5",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "3HK",
+				"label": "Sumo overhead"
+			},
+			{
+				"id": "step-7",
+				"notation": "[4]6HP",
+				"label": "Heavy Sumo Headbutt"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After low lights into medium Headbutt at the corner, shown as +40F in the source"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 75.5,
+			"end": 82.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-headbutt-meaty-medium/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-headbutt-meaty-medium/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-headbutt-meaty-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-headbutt-meaty-medium/frame-1.jpg",
+					"at": 0.25,
+					"label": "Medium-kick frame kill",
+					"alt": "Honda whiffs crouching medium kick before the standing-medium meaty."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-headbutt-meaty-medium/frame-2.jpg",
+					"at": 1.1,
+					"label": "Meaty medium",
+					"alt": "Standing medium punch reaches Ryu on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-headbutt-meaty-medium/frame-3.jpg",
+					"at": 1.5,
+					"label": "Heavy-kick link",
+					"alt": "Honda links the first hit of standing heavy kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-headbutt-meaty-medium/frame-4.jpg",
+					"at": 3.5,
+					"label": "Headbutt finish",
+					"alt": "Heavy Headbutt finishes the Lift and overhead conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-headbutt-blocked-meaty-oicho",
+			"ehonda-depth-headbutt-blocked-meaty-low",
+			"ehonda-depth-forward-throw-walk-medium"
+		]
+	},
+	{
+		"id": "ehonda-depth-headbutt-blocked-meaty-oicho",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Corner Headbutt oki: blocked medium into Oicho",
+		"summary": "After the frame kill and blocked meaty, take the command-throw branch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Meaty", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK (whiff) > st.MP > 63214MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK (whiff)",
+				"label": "Whiff crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "63214MK",
+				"label": "Medium Oicho Throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After low lights into medium Headbutt at the corner, shown as +40F in the source",
+			"Defender blocks the meaty medium and then remains throwable"
+		],
+		"notes": [
+			"The source shows the blocked meaty as +4F. This is a dated observation, not a guaranteed throw or current-patch frame claim."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 84.6,
+			"end": 89.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-oicho/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-oicho/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-oicho/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-oicho/frame-1.jpg",
+					"at": 0.75,
+					"label": "Blocked meaty",
+					"alt": "Ryu blocks the standing-medium meaty."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-oicho/frame-2.jpg",
+					"at": 1.4,
+					"label": "Oicho catches",
+					"alt": "Medium Oicho catches the recorded defender after the blocked meaty."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-oicho/frame-3.jpg",
+					"at": 3.4,
+					"label": "Throw finish",
+					"alt": "Oicho finishes with a hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-corner-headbutt-frame-kill-throw",
+			"ehonda-depth-headbutt-meaty-medium",
+			"ehonda-depth-headbutt-blocked-meaty-low"
+		]
+	},
+	{
+		"id": "ehonda-depth-headbutt-blocked-meaty-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Corner Headbutt oki: blocked medium into low lights",
+		"summary": "Choose a low-light confirm after the blocked meaty instead of Oicho.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Meaty", "Low"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK (whiff) > st.MP > cr.LK > cr.LP > [4]6MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK (whiff)",
+				"label": "Whiff crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "[4]6MP",
+				"label": "Medium Sumo Headbutt"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After low lights into medium Headbutt at the corner, shown as +40F in the source",
+			"Defender blocks the meaty and is hit by the following low"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 92.0,
+			"end": 96.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-low/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-low/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-low/frame-1.jpg",
+					"at": 1.2,
+					"label": "Blocked meaty",
+					"alt": "Ryu blocks Honda’s standing-medium meaty after the frame kill."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-low/frame-2.jpg",
+					"at": 2.5,
+					"label": "Headbutt confirm",
+					"alt": "Medium Headbutt converts the following low lights."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-low/frame-3.jpg",
+					"at": 3.0,
+					"label": "Knockdown",
+					"alt": "Ryu is knocked down by the low-light Headbutt confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-headbutt-meaty-medium",
+			"ehonda-depth-headbutt-blocked-meaty-oicho",
+			"ehonda-depth-forward-throw-rush-low"
+		]
+	},
+	{
+		"id": "ehonda-depth-smash-meaty-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Sumo Smash oki: overhead into jab and Smash",
+		"summary": "Use the overhead immediately after the demonstrated Smash knockdown.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Overhead"],
+		"outcomes": ["Knockdown"],
+		"notation": "3HK > cr.LP > [2]8LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "3HK",
+				"label": "Sumo overhead"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "[2]8LK",
+				"label": "Light Sumo Smash",
+				"cue": "Hold down, then up plus light kick; this strength is shown in the original input history."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the standing-opponent low-light light Sumo Smash knockdown, shown as +23F in the source"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 109.35,
+			"end": 113.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-smash-meaty-overhead/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-smash-meaty-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-smash-meaty-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-smash-meaty-overhead/frame-1.jpg",
+					"at": 0.65,
+					"label": "Overhead contact",
+					"alt": "Honda’s overhead catches Ryu as he rises."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-smash-meaty-overhead/frame-2.jpg",
+					"at": 1.65,
+					"label": "Smash conversion",
+					"alt": "The jab conversion rises into another Sumo Smash."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-smash-meaty-overhead/frame-3.jpg",
+					"at": 2.65,
+					"label": "Knockdown",
+					"alt": "The second Sumo Smash knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-smash-jab-kill-oicho",
+			"ehonda-rush-overhead-lights",
+			"ehonda-depth-headbutt-rush-medium"
+		]
+	},
+	{
+		"id": "ehonda-depth-smash-ryu-dp-bait",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Sumo Smash oki: overhead bait against Ryu DP",
+		"summary": "Make the recorded Ryu DP miss, then land and confirm standing medium into heavy, Sumo Lift and heavy Smash.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Reversal bait", "Punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "3HK > [2]8HK > st.MP > st.HP > 236K > 2P > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "3HK",
+				"label": "Sumo overhead"
+			},
+			{
+				"id": "step-2",
+				"notation": "[2]8HK",
+				"label": "Heavy Sumo Smash, intentionally whiffed",
+				"cue": "Rise over the recorded reversal, then land before punishing; this is not a combo into the bait Smash."
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-7",
+				"notation": "[2]8HK",
+				"label": "Heavy Sumo Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the standing-opponent low-light light Sumo Smash knockdown, shown as +23F in the source",
+			"Ryu performs the recorded wake-up DP"
+		],
+		"notes": [
+			"The source also shows JP hitting this idea, and Ed/Cammy examples that recover without a punish. This reference is limited to the displayed Ryu recording.",
+			"After the whiffed bait Smash, the recorded punish continues with standing medium, standing heavy, Sumo Dash, Lift and heavy Smash. The punish is a separate interaction after the missed reversal."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 116.5,
+			"end": 122.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-smash-ryu-dp-bait/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-smash-ryu-dp-bait/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-smash-ryu-dp-bait/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-smash-ryu-dp-bait/frame-1.jpg",
+					"at": 0.4,
+					"label": "Overhead bait",
+					"alt": "Honda uses the overhead as Ryu wakes up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-smash-ryu-dp-bait/frame-2.jpg",
+					"at": 0.9,
+					"label": "Airborne evasion",
+					"alt": "Honda rises into heavy Sumo Smash while Ryu’s DP misses."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-smash-ryu-dp-bait/frame-3.jpg",
+					"at": 1.65,
+					"label": "Medium punish",
+					"alt": "Standing medium punch punishes Ryu’s recovery after Honda lands."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-smash-ryu-dp-bait/frame-4.jpg",
+					"at": 3.9,
+					"label": "Lift conversion",
+					"alt": "Sumo Lift launches Ryu during the punish."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/ehonda/ehonda-depth-smash-ryu-dp-bait/frame-5.jpg",
+					"at": 4.5,
+					"label": "Smash finish",
+					"alt": "Heavy Sumo Smash completes the punish conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-headbutt-ryu-dp-bait",
+			"ehonda-depth-smash-jab-kill-shimmy",
+			"ehonda-smash-jab-kill-oicho"
+		]
+	},
+	{
+		"id": "ehonda-depth-smash-jab-kill-normal-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Sumo Smash oki: jab frame kill into normal throw",
+		"summary": "Use a whiffed crouching jab, then delay the normal throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP (whiff) > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP (whiff)",
+				"label": "Whiff crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the standing-opponent low-light light Sumo Smash knockdown, shown as +23F in the source",
+			"Opponent remains throwable on wake-up"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 143.85,
+			"end": 148.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-smash-jab-kill-normal-throw/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-smash-jab-kill-normal-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-smash-jab-kill-normal-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-smash-jab-kill-normal-throw/frame-1.jpg",
+					"at": 0.15,
+					"label": "Jab frame kill",
+					"alt": "Honda whiffs crouching jab after the Smash knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-smash-jab-kill-normal-throw/frame-2.jpg",
+					"at": 1.15,
+					"label": "Delayed throw",
+					"alt": "Honda catches Ryu with the delayed normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-smash-jab-kill-normal-throw/frame-3.jpg",
+					"at": 3.15,
+					"label": "Throw finish",
+					"alt": "Ryu lands after the normal throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-smash-jab-kill-oicho",
+			"ehonda-depth-delayed-smash-overhead-oicho",
+			"ehonda-corner-headbutt-frame-kill-throw"
+		]
+	},
+	{
+		"id": "ehonda-depth-smash-jab-kill-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Sumo Smash oki: jab frame kill and shimmy",
+		"summary": "Make the recorded throw whiff after the jab timing kill, then convert with heavy punch.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Shimmy", "Punish", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP (whiff) > Walk back > st.HP > DRC > st.HP > 236K > 2P > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP (whiff)",
+				"label": "Whiff crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Make the throw whiff"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-7",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-8",
+				"notation": "[2]8HK",
+				"label": "Heavy Sumo Smash",
+				"cue": "Hold down, then up plus heavy kick; this strength is shown in the original input history."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the standing-opponent low-light light Sumo Smash knockdown, shown as +23F in the source",
+			"Defender attempts the recorded wake-up throw"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "One Drive Rush cancel",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 158.05,
+			"end": 165.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-smash-jab-kill-shimmy/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-smash-jab-kill-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-smash-jab-kill-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-smash-jab-kill-shimmy/frame-1.jpg",
+					"at": 0.225,
+					"label": "Jab frame kill",
+					"alt": "Honda whiffs crouching jab before walking backward."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-smash-jab-kill-shimmy/frame-2.jpg",
+					"at": 1.95,
+					"label": "Rush extension",
+					"alt": "The heavy-punch punish cancels into Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-smash-jab-kill-shimmy/frame-3.jpg",
+					"at": 3.95,
+					"label": "Lift juggle",
+					"alt": "Sumo Lift continues the punish juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-smash-jab-kill-shimmy/frame-4.jpg",
+					"at": 5.95,
+					"label": "Smash finish",
+					"alt": "Heavy Sumo Smash finishes the shimmy punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-headbutt-rush-medium",
+			"ehonda-depth-headbutt-shimmy",
+			"ehonda-depth-smash-ryu-dp-bait"
+		]
+	},
+	{
+		"id": "ehonda-depth-smash-jab-kill-medium-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Sumo Smash oki: jab frame kill into medium and target",
+		"summary": "Use medium punch after the jab timing kill, then the light-medium target and Teppo Triple Slap.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Meaty"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP (whiff) > st.MP > st.LP > st.MP > 236K > P > P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP (whiff)",
+				"label": "Whiff crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "P",
+				"label": "First Teppo Triple Slap follow-up"
+			},
+			{
+				"id": "step-7",
+				"notation": "P",
+				"label": "Second Teppo Triple Slap follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the standing-opponent low-light light Sumo Smash knockdown, shown as +23F in the source"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 168.0,
+			"end": 173.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-smash-jab-kill-medium-target/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-smash-jab-kill-medium-target/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-smash-jab-kill-medium-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-smash-jab-kill-medium-target/frame-1.jpg",
+					"at": 1.0,
+					"label": "Medium connects",
+					"alt": "Honda’s standing medium catches the recorded wake-up action."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-smash-jab-kill-medium-target/frame-2.jpg",
+					"at": 2.0,
+					"label": "Target conversion",
+					"alt": "Honda links the light-medium target sequence."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-smash-jab-kill-medium-target/frame-3.jpg",
+					"at": 3.0,
+					"label": "Dash follow-up",
+					"alt": "Teppo Triple Slap extends the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-smash-jab-kill-medium-target/frame-4.jpg",
+					"at": 4.0,
+					"label": "Knockdown",
+					"alt": "The follow-up knocks Ryu away."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-smash-jab-kill-oicho",
+			"ehonda-depth-headbutt-rush-medium",
+			"ehonda-depth-headbutt-meaty-medium"
+		]
+	},
+	{
+		"id": "ehonda-depth-delayed-smash-overhead-oicho",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Delayed Smash oki: overhead into heavy Oicho",
+		"summary": "Delay the preceding Smash juggle, then use the overhead into a command throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "3HK > 63214HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "3HK",
+				"label": "Sumo overhead"
+			},
+			{
+				"id": "step-2",
+				"notation": "63214HK",
+				"label": "Heavy Oicho Throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After lights into Rush, heavy kick, Sumo Lift and a delayed heavy Smash juggle; the source shows +22F rather than the immediate version’s +23F",
+			"Defender is throwable after blocking the overhead"
+		],
+		"notes": [
+			"The delayed Smash timing is a prerequisite; do not substitute the immediate juggle without checking the setup."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 198.3,
+			"end": 202.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-delayed-smash-overhead-oicho/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-delayed-smash-overhead-oicho/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-delayed-smash-overhead-oicho/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-delayed-smash-overhead-oicho/frame-1.jpg",
+					"at": 0.25,
+					"label": "Overhead timing",
+					"alt": "Honda uses the overhead immediately after the delayed heavy Smash knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-delayed-smash-overhead-oicho/frame-2.jpg",
+					"at": 0.7,
+					"label": "Oicho catches",
+					"alt": "Heavy Oicho catches the recorded defender after the blocked overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-delayed-smash-overhead-oicho/frame-3.jpg",
+					"at": 3.1,
+					"label": "Command-throw finish",
+					"alt": "Oicho finishes with a hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-smash-jab-kill-oicho",
+			"ehonda-depth-smash-jab-kill-normal-throw",
+			"ehonda-corner-headbutt-frame-kill-throw"
+		]
+	},
+	{
+		"id": "ehonda-depth-spirit-target-headbutt",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Sumo Spirit target into heavy Hands and Headbutt",
+		"summary": "Use the light-medium target to spend Sumo Spirit on heavy Hands, then juggle with heavy Headbutt.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Stock use"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > st.MP > 214HP > [4]6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Hundred Hand Slap",
+				"cue": "Requires a Sumo Spirit stock."
+			},
+			{
+				"id": "step-4",
+				"notation": "[4]6HP",
+				"label": "Heavy Sumo Headbutt"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Sumo Spirit stocked before the target sequence",
+			"Back charge ready for Headbutt"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 358.05,
+			"end": 363.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-spirit-target-headbutt/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-spirit-target-headbutt/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-spirit-target-headbutt/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-spirit-target-headbutt/frame-1.jpg",
+					"at": 0.95,
+					"label": "Target starter",
+					"alt": "Honda begins with the light-medium target sequence."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-spirit-target-headbutt/frame-2.jpg",
+					"at": 1.95,
+					"label": "Spirit Hands",
+					"alt": "Enhanced heavy Hands juggles Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-spirit-target-headbutt/frame-3.jpg",
+					"at": 2.95,
+					"label": "Headbutt juggle",
+					"alt": "Heavy Headbutt connects after the enhanced Hands."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-spirit-low-od-hands-target",
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash"
+		]
+	},
+	{
+		"id": "ehonda-depth-pc-jab-medium-smash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Jab Punish Counter into crouching medium and Smash",
+		"summary": "Convert the jab punish into crouching medium punch and Sumo Smash.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "PC cr.LP > cr.MP > [2]8MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "PC cr.LP",
+				"label": "Punish Counter crouching jab"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "[2]8MK",
+				"label": "Medium Sumo Smash",
+				"cue": "Hold down, then up plus medium kick; this strength is shown in the original input history."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The crouching jab lands as Punish Counter",
+			"Down charge ready"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 365.55,
+			"end": 369.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-pc-jab-medium-smash/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-pc-jab-medium-smash/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-pc-jab-medium-smash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-pc-jab-medium-smash/frame-1.jpg",
+					"at": 0.45,
+					"label": "Jab punish",
+					"alt": "Crouching jab hits as Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-pc-jab-medium-smash/frame-2.jpg",
+					"at": 1.45,
+					"label": "Smash conversion",
+					"alt": "Honda converts through crouching medium punch into Smash."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-pc-jab-medium-smash/frame-3.jpg",
+					"at": 2.45,
+					"label": "Knockdown",
+					"alt": "Sumo Smash knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-smash-ryu-dp-bait",
+			"ehonda-depth-smash-jab-kill-shimmy",
+			"ehonda-depth-pc-jab-heavy-lift-smash"
+		]
+	},
+	{
+		"id": "ehonda-depth-pc-jab-heavy-lift-smash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Jab Punish Counter into heavy-kick Lift juggle",
+		"summary": "Use the extra punish advantage to link the first heavy-kick hit into Sumo Lift.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "PC cr.LP > st.HK (1 hit) > 236K > 2P > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "PC cr.LP",
+				"label": "Punish Counter crouching jab"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK (1 hit)",
+				"label": "First hit of standing heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-4",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "[2]8HK",
+				"label": "Heavy Sumo Smash",
+				"cue": "Hold down, then up plus heavy kick; this strength is shown in the original input history."
+			}
+		],
+		"conditions": ["Classic controls", "Crouching jab lands as Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 371.65,
+			"end": 376.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-pc-jab-heavy-lift-smash/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-pc-jab-heavy-lift-smash/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-pc-jab-heavy-lift-smash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-pc-jab-heavy-lift-smash/frame-1.jpg",
+					"at": 0.35,
+					"label": "Jab punish",
+					"alt": "Honda punishes the recorded low with crouching jab."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-pc-jab-heavy-lift-smash/frame-2.jpg",
+					"at": 1.35,
+					"label": "Heavy-kick cancel",
+					"alt": "The heavy-kick link cancels into Sumo Dash."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-pc-jab-heavy-lift-smash/frame-3.jpg",
+					"at": 2.35,
+					"label": "Lift juggle",
+					"alt": "Sumo Lift launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-pc-jab-heavy-lift-smash/frame-4.jpg",
+					"at": 3.35,
+					"label": "Smash finish",
+					"alt": "Sumo Smash finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-smash-ryu-dp-bait",
+			"ehonda-depth-smash-jab-kill-shimmy",
+			"ehonda-depth-pc-jab-medium-smash"
+		]
+	},
+	{
+		"id": "ehonda-depth-low-medium-jab-smash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Low medium into jab and Sumo Smash",
+		"summary": "Convert crouching medium kick into crouching jab and the standing-only Smash route.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low", "Charge"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK > cr.LP > [2]8MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "[2]8MK",
+				"label": "Medium Sumo Smash",
+				"cue": "Hold down, then up plus medium kick; this strength is shown in the original input history."
+			}
+		],
+		"conditions": ["Classic controls", "Opponent standing", "Down charge ready"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 386.05,
+			"end": 390.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-low-medium-jab-smash/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-low-medium-jab-smash/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-low-medium-jab-smash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-low-medium-jab-smash/frame-1.jpg",
+					"at": 0.95,
+					"label": "Low confirm",
+					"alt": "Honda confirms crouching medium kick into crouching jab."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-low-medium-jab-smash/frame-2.jpg",
+					"at": 1.95,
+					"label": "Smash rise",
+					"alt": "Sumo Smash connects against the standing opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-low-medium-jab-smash/frame-3.jpg",
+					"at": 2.95,
+					"label": "Knockdown",
+					"alt": "Ryu is knocked down by the Smash finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho"
+		]
+	},
+	{
+		"id": "ehonda-depth-spirit-low-od-hands-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Sumo Spirit low medium into OD Hands and target",
+		"summary": "Spend Spirit and OD Hands to link the light-medium target into Teppo Triple Slap.",
+		"kind": "combo",
+		"situations": ["Midscreen", "OD conversion", "Stock use"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK > 214PP > st.LP > st.MP > 236K > P > P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "214PP",
+				"label": "OD Hundred Hand Slap",
+				"cue": "Consumes Sumo Spirit in this route."
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "P",
+				"label": "First Teppo Triple Slap follow-up"
+			},
+			{
+				"id": "step-7",
+				"notation": "P",
+				"label": "Second Teppo Triple Slap follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Sumo Spirit stocked before the low starter"],
+		"notes": [],
+		"resources": {
+			"drive": "One OD special",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 394.05,
+			"end": 400.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-spirit-low-od-hands-target/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-spirit-low-od-hands-target/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-spirit-low-od-hands-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-spirit-low-od-hands-target/frame-1.jpg",
+					"at": 0.95,
+					"label": "OD Hands",
+					"alt": "OD Hands converts the low-medium hit using the stocked Spirit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-spirit-low-od-hands-target/frame-2.jpg",
+					"at": 1.95,
+					"label": "Target link",
+					"alt": "Honda links into the light-medium target sequence."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-spirit-low-od-hands-target/frame-3.jpg",
+					"at": 3.95,
+					"label": "Slaps finish",
+					"alt": "The Sumo Dash Teppo Triple Slap follow-ups complete the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-spirit-target-headbutt",
+			"ehonda-depth-medium-od-hands-lights-smash",
+			"ehonda-depth-counter-medium-od-lift"
+		]
+	},
+	{
+		"id": "ehonda-depth-medium-target-slaps",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Standing medium into light-medium target and Teppo Slap",
+		"summary": "Use a meterless medium confirm into the target sequence and Sumo Dash follow-ups.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > st.LP > st.MP > 236K > P > P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-5",
+				"notation": "P",
+				"label": "First Teppo Triple Slap follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "P",
+				"label": "Second Teppo Triple Slap follow-up"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 407.25,
+			"end": 412.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-medium-target-slaps/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-medium-target-slaps/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-medium-target-slaps/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-medium-target-slaps/frame-1.jpg",
+					"at": 0.75,
+					"label": "Medium confirm",
+					"alt": "Standing medium punch links into the light-medium target."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-medium-target-slaps/frame-2.jpg",
+					"at": 2.75,
+					"label": "Dash conversion",
+					"alt": "Honda uses Sumo Dash and its follow-ups."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-medium-target-slaps/frame-3.jpg",
+					"at": 3.75,
+					"label": "Knockdown",
+					"alt": "Teppo Triple Slap knocks Ryu away."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho"
+		]
+	},
+	{
+		"id": "ehonda-depth-medium-od-hands-lights-smash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Standing medium into OD Hands, jabs and Smash",
+		"summary": "Extend the standing medium with OD Hands, two crouching jabs and Sumo Smash.",
+		"kind": "combo",
+		"situations": ["Midscreen", "OD conversion"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > 214PP > cr.LP > cr.LP > [2]8LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214PP",
+				"label": "OD Hundred Hand Slap"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "[2]8LK",
+				"label": "Light Sumo Smash",
+				"cue": "Hold down, then up plus light kick; this strength is shown in the original input history."
+			}
+		],
+		"conditions": ["Classic controls", "Down charge maintained for the Smash finish"],
+		"notes": [],
+		"resources": {
+			"drive": "One OD special",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 413.05,
+			"end": 418.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-medium-od-hands-lights-smash/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-medium-od-hands-lights-smash/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-medium-od-hands-lights-smash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-medium-od-hands-lights-smash/frame-1.jpg",
+					"at": 0.95,
+					"label": "OD Hands",
+					"alt": "Honda converts standing medium into OD Hands."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-medium-od-hands-lights-smash/frame-2.jpg",
+					"at": 1.95,
+					"label": "Jab links",
+					"alt": "Two crouching jabs follow the OD Hands."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-medium-od-hands-lights-smash/frame-3.jpg",
+					"at": 2.95,
+					"label": "Smash finish",
+					"alt": "Sumo Smash completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-spirit-low-od-hands-target",
+			"ehonda-depth-counter-medium-od-lift",
+			"ehonda-low-lights-headbutt"
+		]
+	},
+	{
+		"id": "ehonda-depth-medium-double-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Standing medium double-Rush Level 3 cash-out",
+		"summary": "Spend two Rush cancels to extend the medium confirm, then Headbutt into Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush", "Cash-out"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > DRC > st.MP > st.HP > DRC > st.MP > st.HP > 236K > 2P > [4]6HP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-9",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-10",
+				"notation": "[4]6HP",
+				"label": "Heavy Sumo Headbutt"
+			},
+			{
+				"id": "step-11",
+				"notation": "SA3",
+				"label": "Level 3 Super"
+			}
+		],
+		"conditions": ["Classic controls", "Start with full Drive and three Super stocks"],
+		"notes": [],
+		"resources": {
+			"drive": "Two Drive Rush cancels",
+			"super": "Level 3"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 426.25,
+			"end": 437.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-medium-double-rush-level-three/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-medium-double-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-medium-double-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-medium-double-rush-level-three/frame-1.jpg",
+					"at": 0.75,
+					"label": "First cancel",
+					"alt": "Standing medium punch cancels into the first Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-medium-double-rush-level-three/frame-2.jpg",
+					"at": 2.75,
+					"label": "Second cancel",
+					"alt": "The heavy-punch sequence cancels into a second Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-medium-double-rush-level-three/frame-3.jpg",
+					"at": 4.75,
+					"label": "Lift launcher",
+					"alt": "Sumo Lift launches Ryu before the Headbutt and Super cancel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-medium-double-rush-level-three/frame-4.jpg",
+					"at": 9.75,
+					"label": "Super finish",
+					"alt": "Level 3 completes the cash-out."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-lights-rush-lift-smash",
+			"ehonda-spirit-light-cashout",
+			"ehonda-medium-rush-lift-smash"
+		]
+	},
+	{
+		"id": "ehonda-depth-pc-medium-heavy-lift",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Medium Punish Counter into heavy and Lift",
+		"summary": "Punish the recorded reversal with medium punch, then link heavy punch into Lift and Smash.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "PC st.MP > st.HP > 236K > 2P > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "PC st.MP",
+				"label": "Punish Counter standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-4",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "[2]8HK",
+				"label": "Heavy Sumo Smash"
+			}
+		],
+		"conditions": ["Classic controls", "First standing medium punch lands as Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 458.6,
+			"end": 464.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-pc-medium-heavy-lift/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-pc-medium-heavy-lift/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-pc-medium-heavy-lift/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-pc-medium-heavy-lift/frame-1.jpg",
+					"at": 0.4,
+					"label": "Medium punish",
+					"alt": "Standing medium hits Ryu’s reversal recovery as Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-pc-medium-heavy-lift/frame-2.jpg",
+					"at": 2.4,
+					"label": "Lift juggle",
+					"alt": "Sumo Lift launches Ryu after the heavy-punch link."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-pc-medium-heavy-lift/frame-3.jpg",
+					"at": 3.4,
+					"label": "Heavy Smash",
+					"alt": "Heavy Sumo Smash finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-smash-ryu-dp-bait",
+			"ehonda-depth-smash-jab-kill-shimmy",
+			"ehonda-depth-pc-jab-medium-smash"
+		]
+	},
+	{
+		"id": "ehonda-depth-pc-medium-headbutt",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Medium Punish Counter into another medium and Headbutt",
+		"summary": "Use a second standing medium before the charged heavy Headbutt finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "PC st.MP > st.MP > [4]6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "PC st.MP",
+				"label": "Punish Counter standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "[4]6HP",
+				"label": "Heavy Sumo Headbutt"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"First standing medium lands as Punish Counter",
+			"Back charge ready"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 465.35,
+			"end": 469.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-pc-medium-headbutt/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-pc-medium-headbutt/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-pc-medium-headbutt/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-pc-medium-headbutt/frame-1.jpg",
+					"at": 0.65,
+					"label": "Medium punish",
+					"alt": "Standing medium punch lands as Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-pc-medium-headbutt/frame-2.jpg",
+					"at": 1.65,
+					"label": "Headbutt finish",
+					"alt": "Heavy Headbutt follows the second standing medium."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-pc-medium-headbutt/frame-3.jpg",
+					"at": 2.65,
+					"label": "Knockdown",
+					"alt": "Ryu is knocked away by the Headbutt."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-smash-ryu-dp-bait",
+			"ehonda-depth-smash-jab-kill-shimmy",
+			"ehonda-depth-pc-jab-medium-smash"
+		]
+	},
+	{
+		"id": "ehonda-depth-counter-medium-od-lift",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Counter-hit medium into OD Dash and Lift",
+		"summary": "Spend OD Sumo Dash to convert counter-hit standing medium into Lift, overhead and heavy Smash.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter Hit", "OD conversion"],
+		"outcomes": ["Knockdown"],
+		"notation": "CH st.MP > 236KK > 2P > 3HK > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "CH st.MP",
+				"label": "Counter-hit standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236KK",
+				"label": "OD Sumo Dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-4",
+				"notation": "3HK",
+				"label": "Sumo overhead"
+			},
+			{
+				"id": "step-5",
+				"notation": "[2]8HK",
+				"label": "Heavy Sumo Smash"
+			}
+		],
+		"conditions": ["Classic controls", "Standing medium punch lands as Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "One OD special",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 470.65,
+			"end": 475.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-counter-medium-od-lift/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-counter-medium-od-lift/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-counter-medium-od-lift/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-counter-medium-od-lift/frame-1.jpg",
+					"at": 0.35,
+					"label": "Counter-hit medium",
+					"alt": "Standing medium punch catches Ryu’s recorded attack as Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-counter-medium-od-lift/frame-2.jpg",
+					"at": 1.35,
+					"label": "OD Lift",
+					"alt": "OD Sumo Dash and Lift launch Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-counter-medium-od-lift/frame-3.jpg",
+					"at": 3.35,
+					"label": "Heavy Smash",
+					"alt": "The overhead links into heavy Sumo Smash."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-counter-medium-od-lift/frame-4.jpg",
+					"at": 4.35,
+					"label": "Knockdown",
+					"alt": "Heavy Sumo Smash completes the counter-hit conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-spirit-low-od-hands-target",
+			"ehonda-depth-medium-od-hands-lights-smash",
+			"ehonda-low-lights-headbutt"
+		]
+	},
+	{
+		"id": "ehonda-depth-normal-heavy-lift-smash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Normal-hit heavy punch into Lift and Smash",
+		"summary": "Use the Sumo Dash Lift route from a normal heavy-punch hit.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > 236K > 2P > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-4",
+				"notation": "[2]8HK",
+				"label": "Heavy Sumo Smash"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 480.4,
+			"end": 486.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-normal-heavy-lift-smash/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-normal-heavy-lift-smash/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-normal-heavy-lift-smash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-normal-heavy-lift-smash/frame-1.jpg",
+					"at": 0.6,
+					"label": "Heavy starter",
+					"alt": "Honda starts the route with standing heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-normal-heavy-lift-smash/frame-2.jpg",
+					"at": 2.6,
+					"label": "Lift launcher",
+					"alt": "Sumo Lift sends Ryu into the air."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-normal-heavy-lift-smash/frame-3.jpg",
+					"at": 3.6,
+					"label": "Heavy Smash",
+					"alt": "Heavy Sumo Smash catches the launched opponent."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho"
+		]
+	},
+	{
+		"id": "ehonda-depth-pc-heavy-raw-rush-lift",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Heavy Punish Counter into raw Rush and Lift",
+		"summary": "Use the heavy-punch crumple to add a raw Rush heavy before Sumo Dash.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "PC st.HP > DR > st.HP > 236K > 2P > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "PC st.HP",
+				"label": "Punish Counter standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Drive Rush",
+				"cue": "Parry then dash for a raw Drive Rush."
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-5",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "[2]8HK",
+				"label": "Heavy Sumo Smash"
+			}
+		],
+		"conditions": ["Classic controls", "Heavy punch lands as Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 493.65,
+			"end": 500.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-pc-heavy-raw-rush-lift/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-pc-heavy-raw-rush-lift/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-pc-heavy-raw-rush-lift/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-pc-heavy-raw-rush-lift/frame-1.jpg",
+					"at": 0.35,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch begins the Punish Counter route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-pc-heavy-raw-rush-lift/frame-2.jpg",
+					"at": 1.35,
+					"label": "Raw Rush link",
+					"alt": "Honda follows the crumple with a raw Drive Rush heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-pc-heavy-raw-rush-lift/frame-3.jpg",
+					"at": 3.35,
+					"label": "Lift conversion",
+					"alt": "Sumo Lift launches the opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-pc-heavy-raw-rush-lift/frame-4.jpg",
+					"at": 5.35,
+					"label": "Heavy Smash finish",
+					"alt": "Heavy Sumo Smash ends the raw-Rush extension."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-smash-jab-kill-shimmy",
+			"ehonda-lights-rush-lift-smash",
+			"ehonda-spirit-light-cashout"
+		]
+	},
+	{
+		"id": "ehonda-depth-heavy-kick-lift-smash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "First heavy-kick hit into Lift and Smash",
+		"summary": "Cancel standing heavy kick before its second hit to reach Sumo Dash and Lift.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK (1 hit) > 236K > 2P > [2]8HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK (1 hit)",
+				"label": "First hit of standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-4",
+				"notation": "[2]8HK",
+				"label": "Heavy Sumo Smash"
+			}
+		],
+		"conditions": ["Classic controls", "Cancel the first standing-heavy-kick hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 501.25,
+			"end": 506.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-heavy-kick-lift-smash/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-heavy-kick-lift-smash/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-heavy-kick-lift-smash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-heavy-kick-lift-smash/frame-1.jpg",
+					"at": 0.75,
+					"label": "Heavy kick",
+					"alt": "Honda uses the first hit of standing heavy kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-heavy-kick-lift-smash/frame-2.jpg",
+					"at": 2.75,
+					"label": "Smash rise",
+					"alt": "Heavy Sumo Smash rises to catch the launched Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-heavy-kick-lift-smash/frame-3.jpg",
+					"at": 3.75,
+					"label": "Smash finish",
+					"alt": "Heavy Sumo Smash finishes with a knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho"
+		]
+	},
+	{
+		"id": "ehonda-depth-forward-throw-rush-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Corner forward-throw oki: Rush low",
+		"summary": "Drive Rush after the normal throw and time crouching medium kick on wake-up.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Low", "Drive Rush"],
+		"outcomes": ["Pressure"],
+		"notation": "DR > cr.MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush",
+				"cue": "Parry then dash for a raw Drive Rush."
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			}
+		],
+		"conditions": ["Classic controls", "After the corner forward throw shown in the source"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 755.6,
+			"end": 758.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-forward-throw-rush-low/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-forward-throw-rush-low/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-forward-throw-rush-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-forward-throw-rush-low/frame-1.jpg",
+					"at": 0.4,
+					"label": "Rush approach",
+					"alt": "Honda Drive Rushes after the corner forward throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-forward-throw-rush-low/frame-2.jpg",
+					"at": 1.4,
+					"label": "Low pressure",
+					"alt": "Crouching medium kick reaches Ryu on wake-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-headbutt-blocked-meaty-low",
+			"ehonda-depth-back-throw-rush-throw",
+			"ehonda-corner-headbutt-frame-kill-throw"
+		]
+	},
+	{
+		"id": "ehonda-depth-forward-throw-walk-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Corner forward-throw oki: walk into medium target",
+		"summary": "Walk forward after the throw, then confirm medium into the target and medium Headbutt.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Meaty"],
+		"outcomes": ["Knockdown"],
+		"notation": "Walk forward > st.MP > st.LP > st.MP > [4]6MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Walk forward",
+				"label": "Close the gap after the throw"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "[4]6MP",
+				"label": "Medium Sumo Headbutt"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the corner forward throw shown in the source",
+			"Back charge ready for the Headbutt"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 761.25,
+			"end": 765.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-forward-throw-walk-medium/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-forward-throw-walk-medium/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-forward-throw-walk-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-forward-throw-walk-medium/frame-1.jpg",
+					"at": 0.75,
+					"label": "Walk-in medium",
+					"alt": "Honda walks in and uses standing medium punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-forward-throw-walk-medium/frame-2.jpg",
+					"at": 1.75,
+					"label": "Target conversion",
+					"alt": "The standing light-medium target confirms into medium Headbutt."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-forward-throw-walk-medium/frame-3.jpg",
+					"at": 2.75,
+					"label": "Headbutt finish",
+					"alt": "Medium Headbutt knocks Ryu down in the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-headbutt-meaty-medium",
+			"ehonda-depth-headbutt-blocked-meaty-oicho",
+			"ehonda-depth-headbutt-blocked-meaty-low"
+		]
+	},
+	{
+		"id": "ehonda-depth-back-throw-dash-light-oicho",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Back-throw oki: dash into light Oicho",
+		"summary": "Dash after the back throw, then take the light command-throw branch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "Dash > 63214LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "63214LK",
+				"label": "Light Oicho Throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the back throw into the corner shown in the source",
+			"Opponent remains throwable"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 777.9,
+			"end": 782.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-back-throw-dash-light-oicho/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-back-throw-dash-light-oicho/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-back-throw-dash-light-oicho/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-back-throw-dash-light-oicho/frame-1.jpg",
+					"at": 0.1,
+					"label": "Dash approach",
+					"alt": "Honda dashes forward after the back throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-back-throw-dash-light-oicho/frame-2.jpg",
+					"at": 1.1,
+					"label": "Oicho catches",
+					"alt": "Light Oicho catches Ryu at the corner."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-back-throw-dash-light-oicho/frame-3.jpg",
+					"at": 3.1,
+					"label": "Command-throw finish",
+					"alt": "Oicho finishes with a hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-corner-headbutt-frame-kill-throw",
+			"ehonda-depth-headbutt-blocked-meaty-oicho",
+			"ehonda-depth-back-throw-rush-throw"
+		]
+	},
+	{
+		"id": "ehonda-depth-back-throw-dash-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Back-throw oki: dash into target and Headbutt",
+		"summary": "Use the dash approach but choose the light-medium strike branch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Meaty"],
+		"outcomes": ["Knockdown"],
+		"notation": "Dash > st.LP > st.MP > [4]6MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "[4]6MP",
+				"label": "Medium Sumo Headbutt"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the back throw into the corner shown in the source",
+			"Back charge ready"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 785.1,
+			"end": 788.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-back-throw-dash-target/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-back-throw-dash-target/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-back-throw-dash-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-back-throw-dash-target/frame-1.jpg",
+					"at": 0.4,
+					"label": "Dash strike",
+					"alt": "Honda dashes toward the cornered Ryu and starts the target sequence."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-back-throw-dash-target/frame-2.jpg",
+					"at": 0.9,
+					"label": "Target confirm",
+					"alt": "Standing medium follows the light punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-back-throw-dash-target/frame-3.jpg",
+					"at": 1.9,
+					"label": "Headbutt finish",
+					"alt": "Medium Headbutt finishes the strike branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-headbutt-meaty-medium",
+			"ehonda-depth-headbutt-blocked-meaty-oicho",
+			"ehonda-depth-headbutt-blocked-meaty-low"
+		]
+	},
+	{
+		"id": "ehonda-depth-back-throw-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Back-throw oki: Rush into another normal throw",
+		"summary": "Use Drive Rush to close in after the back throw and attempt the next throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Drive Rush", "Throw pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Drive Rush",
+				"cue": "Parry then dash for a raw Drive Rush."
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the back throw into the corner shown in the source",
+			"Opponent remains throwable"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 791.25,
+			"end": 796.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-back-throw-rush-throw/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-back-throw-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-back-throw-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-back-throw-rush-throw/frame-1.jpg",
+					"at": 0.75,
+					"label": "Rush throw",
+					"alt": "Honda rushes toward Ryu and begins the normal throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-back-throw-rush-throw/frame-2.jpg",
+					"at": 2.75,
+					"label": "Throw result",
+					"alt": "Ryu is knocked down by the follow-up throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-corner-headbutt-frame-kill-throw",
+			"ehonda-depth-headbutt-blocked-meaty-oicho",
+			"ehonda-depth-forward-throw-rush-low"
+		]
+	},
+	{
+		"id": "ehonda-depth-wall-splat-heavy-kick-lift",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Blocked-DI wall splat into heavy kick and Lift",
+		"summary": "Use the blocked-DI wall-splat state, then the first heavy-kick hit into Lift and Headbutt.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > st.HK (1 hit) > 236K > 2P > 3HK > [4]6HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK (1 hit)",
+				"label": "First hit of standing heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236K",
+				"label": "Sumo Dash"
+			},
+			{
+				"id": "step-4",
+				"notation": "2P",
+				"label": "Sumo Lift follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "3HK",
+				"label": "Sumo overhead"
+			},
+			{
+				"id": "step-6",
+				"notation": "[4]6HP",
+				"label": "Heavy Sumo Headbutt"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent blocks Drive Impact against the wall",
+			"Opponent is not in burnout"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 1401.65,
+			"end": 1409.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-wall-splat-heavy-kick-lift/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-wall-splat-heavy-kick-lift/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-wall-splat-heavy-kick-lift/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-wall-splat-heavy-kick-lift/frame-1.jpg",
+					"at": 1.35,
+					"label": "Blocked DI",
+					"alt": "Ryu blocks Drive Impact and is wall splatted."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-wall-splat-heavy-kick-lift/frame-2.jpg",
+					"at": 2.35,
+					"label": "Heavy-kick starter",
+					"alt": "Honda uses the first standing-heavy-kick hit after the wall splat."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-wall-splat-heavy-kick-lift/frame-3.jpg",
+					"at": 3.35,
+					"label": "Lift juggle",
+					"alt": "Sumo Lift launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-wall-splat-heavy-kick-lift/frame-4.jpg",
+					"at": 5.35,
+					"label": "Headbutt ender",
+					"alt": "Heavy Headbutt completes the wall-splat route."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-corner-counter-di-lift-headbutt",
+			"ehonda-depth-headbutt-corner-di-reset",
+			"ehonda-corner-headbutt-frame-kill-throw"
+		]
+	},
+	{
+		"id": "ehonda-depth-drive-reversal-heavy-oicho",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Block Ryu’s Drive Reversal and punish with Oicho",
+		"summary": "Use the blocked reversal recovery to land heavy Oicho Throw.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish", "Drive Reversal"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > Block > 63214HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "Block",
+				"label": "Block the Drive Reversal"
+			},
+			{
+				"id": "step-3",
+				"notation": "63214HK",
+				"label": "Heavy Oicho Throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the recorded Drive Reversal after blocking the jab",
+			"Honda remains close enough for heavy Oicho"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 1411.55,
+			"end": 1416.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-drive-reversal-heavy-oicho/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-drive-reversal-heavy-oicho/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-drive-reversal-heavy-oicho/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-drive-reversal-heavy-oicho/frame-1.jpg",
+					"at": 0.45,
+					"label": "Blocked jab",
+					"alt": "Honda’s standing jab is blocked by Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-drive-reversal-heavy-oicho/frame-2.jpg",
+					"at": 1.45,
+					"label": "Block reversal",
+					"alt": "Honda blocks Ryu’s Drive Reversal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-drive-reversal-heavy-oicho/frame-3.jpg",
+					"at": 2.45,
+					"label": "Oicho punish",
+					"alt": "Heavy Oicho catches the reversal recovery as Punish Counter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-drive-reversal-heavy-oicho/frame-4.jpg",
+					"at": 4.45,
+					"label": "Throw result",
+					"alt": "Ryu is knocked down by Oicho."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-smash-ryu-dp-bait",
+			"ehonda-depth-smash-jab-kill-shimmy",
+			"ehonda-depth-pc-jab-medium-smash"
+		]
+	},
+	{
+		"id": "ehonda-depth-heavy-kick-side-switch-super",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Heavy-kick side switch into Level 1",
+		"summary": "Rush-cancel the heavy-kick launcher into crouching heavy kick, then continue into Hands and Level 1.",
+		"kind": "combo",
+		"situations": ["Corner", "Side switch", "Drive Rush"],
+		"outcomes": ["Side switch", "Knockdown"],
+		"notation": "st.HK > DRC > cr.HK > st.HK > 214HP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HK",
+				"label": "Crouching heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Hundred Hand Slap"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA1",
+				"label": "Level 1 Super"
+			}
+		],
+		"conditions": ["Classic controls", "Corner position as demonstrated"],
+		"notes": [],
+		"resources": {
+			"drive": "One Drive Rush cancel",
+			"super": "Level 1"
+		},
+		"source": {
+			"id": "joe-ebios-ehonda-2026",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"published": "2026-03-28",
+			"start": 1431.35,
+			"end": 1441.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-heavy-kick-side-switch-super/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-heavy-kick-side-switch-super/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-heavy-kick-side-switch-super/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-heavy-kick-side-switch-super/frame-1.jpg",
+					"at": 0.65,
+					"label": "Heavy-kick launch",
+					"alt": "Honda starts with standing heavy kick at the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-heavy-kick-side-switch-super/frame-2.jpg",
+					"at": 2.65,
+					"label": "Side-switch juggle",
+					"alt": "The Rush-cancel crouching heavy kick changes the juggle position."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-heavy-kick-side-switch-super/frame-3.jpg",
+					"at": 5.65,
+					"label": "Hands juggle",
+					"alt": "Heavy Hands continues after the next standing heavy kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/ehonda/ehonda-depth-heavy-kick-side-switch-super/frame-4.jpg",
+					"at": 8.65,
+					"label": "Super finish",
+					"alt": "Level 1 finishes the side-switch sequence."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-depth-forward-throw-rush-low",
+			"ehonda-depth-back-throw-rush-throw",
+			"ehonda-corner-headbutt-frame-kill-throw"
+		]
+	},
+	{
+		"id": "ehonda-depth-anti-air-od-dash-reset",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "ehonda"
+			}
+		],
+		"title": "Anti-air heavy punch into OD Dash reset",
+		"summary": "Cancel the anti-air heavy punch into OD Sumo Dash to meet the opponent as they land.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Air reset"],
+		"outcomes": ["Air reset", "Pressure"],
+		"notation": "st.HP > 236KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch anti-air"
+			},
+			{
+				"id": "step-2",
+				"notation": "236KK",
+				"label": "OD Sumo Dash",
+				"cue": "Let the Dash recover without a punch follow-up in this example."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu jumps into the displayed close-range heavy-punch anti-air",
+			"Have Drive for one OD special"
+		],
+		"notes": [
+			"This is an air reset and approach, not a continuous combo after the anti-air. The creator demonstrates varying advantage with hit height; no fixed frame advantage or guaranteed follow-up is asserted.",
+			"This source has no input-history display. The creator names standing heavy punch and OD Sumo Dash; the matching normal animation, gold OD effect, movement and Drive expenditure support this limited two-action extraction. Additional follow-up buttons are not inferred."
+		],
+		"resources": {
+			"drive": "One OD special",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "ryuapprentice-ehonda-anti-air-2024",
+			"title": "SF6 Honda Guide! How to Convert Your Anti Air into a Mixup Opportunity!",
+			"creator": "RyuApprentice",
+			"url": "https://www.youtube.com/watch?v=s4MheNxmaiA",
+			"published": "2024-02-22",
+			"start": 119.65,
+			"end": 122.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Standing-heavy anti-air and OD Sumo Dash approach reviewed using the visible actions, OD effect/Drive use and creator narration. This recording has no input-history display. No additional commands or fixed frame advantage are asserted; not tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/ehonda/ehonda-depth-anti-air-od-dash-reset/clip.mp4",
+			"poster": "/media/ehonda/ehonda-depth-anti-air-od-dash-reset/frame-1.jpg",
+			"descriptionTrack": "/media/ehonda/ehonda-depth-anti-air-od-dash-reset/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/ehonda/ehonda-depth-anti-air-od-dash-reset/frame-1.jpg",
+					"at": 0.85,
+					"label": "Anti-air contact",
+					"alt": "Honda’s standing heavy punch catches the incoming Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/ehonda/ehonda-depth-anti-air-od-dash-reset/frame-2.jpg",
+					"at": 1.35,
+					"label": "OD approach",
+					"alt": "Gold OD Sumo Dash closes the gap as Ryu falls."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/ehonda/ehonda-depth-anti-air-od-dash-reset/frame-3.jpg",
+					"at": 1.95,
+					"label": "Air-reset position",
+					"alt": "Both characters recover close together after Ryu lands."
+				}
+			]
+		},
+		"relatedIds": [
+			"ehonda-low-lights-headbutt",
+			"ehonda-lights-medium-smash",
+			"ehonda-smash-jab-kill-oicho"
+		]
 	}
 ]

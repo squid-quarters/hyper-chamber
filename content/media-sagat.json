@@ -1,6 +1,6 @@
 {
-	"sourceIds": ["vesperarcade-sagat-2025"],
-	"publicationStatus": "private-development",
+	"sourceIds": ["vesperarcade-sagat-2025", "joe-ebios-sagat-march-2026"],
+	"publicationStatus": "public-repository",
 	"presentationNote": "Complete source frame retained without crop, including source annotations and game HUD. Original recordings remain outside Git.",
 	"assets": [
 		{
@@ -117,6 +117,357 @@
 			"sourceStart": 113.6,
 			"sourceEnd": 118.2,
 			"clip": "/media/sagat/sagat-vesper-medium-od-knee/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-back-heavy-knee-light-uppercut",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 2.0,
+			"sourceEnd": 7.45,
+			"clip": "/media/sagat/sagat-depth-back-heavy-knee-light-uppercut/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-light-uppercut-rush-overhead",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 7.75,
+			"sourceEnd": 16.3,
+			"clip": "/media/sagat/sagat-depth-light-uppercut-rush-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-light-uppercut-rush-low",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 16.65,
+			"sourceEnd": 26.45,
+			"clip": "/media/sagat/sagat-depth-light-uppercut-rush-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-back-heavy-shot-rush-target",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 26.65,
+			"sourceEnd": 32.65,
+			"clip": "/media/sagat/sagat-depth-back-heavy-shot-rush-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-heavy-uppercut-rush-medium",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 32.8,
+			"sourceEnd": 44.55,
+			"clip": "/media/sagat/sagat-depth-heavy-uppercut-rush-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-heavy-uppercut-rush-throw",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 57.75,
+			"sourceEnd": 69.0,
+			"clip": "/media/sagat/sagat-depth-heavy-uppercut-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-heavy-uppercut-rush-whiff-shimmy",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 69.65,
+			"sourceEnd": 79.65,
+			"clip": "/media/sagat/sagat-depth-heavy-uppercut-rush-whiff-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-back-heavy-target-level-one",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 80.1,
+			"sourceEnd": 88.45,
+			"clip": "/media/sagat/sagat-depth-back-heavy-target-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-heavy-knee-jump-guard",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 108.1,
+			"sourceEnd": 116.35,
+			"clip": "/media/sagat/sagat-depth-heavy-knee-jump-guard/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-back-heavy-single-kick-held",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 126.1,
+			"sourceEnd": 135.45,
+			"clip": "/media/sagat/sagat-depth-back-heavy-single-kick-held/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-back-heavy-single-kick-cashout",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 158.15,
+			"sourceEnd": 170.45,
+			"clip": "/media/sagat/sagat-depth-back-heavy-single-kick-cashout/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-corner-forward-kick-held",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 209.25,
+			"sourceEnd": 217.55,
+			"clip": "/media/sagat/sagat-depth-corner-forward-kick-held/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-corner-shot-forward-kick",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 251.9,
+			"sourceEnd": 257.65,
+			"clip": "/media/sagat/sagat-depth-corner-shot-forward-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-corner-forward-kick-level-two",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 225.65,
+			"sourceEnd": 239.4,
+			"clip": "/media/sagat/sagat-depth-corner-forward-kick-level-two/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-medium-uppercut-rush-light",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 297.55,
+			"sourceEnd": 305.5,
+			"clip": "/media/sagat/sagat-depth-medium-uppercut-rush-light/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-greedy-rush-overhead",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 314.05,
+			"sourceEnd": 322.5,
+			"clip": "/media/sagat/sagat-depth-greedy-rush-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-greedy-rush-low",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 322.65,
+			"sourceEnd": 332.45,
+			"clip": "/media/sagat/sagat-depth-greedy-rush-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-greedy-rush-throw",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 332.65,
+			"sourceEnd": 340.45,
+			"clip": "/media/sagat/sagat-depth-greedy-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-greedy-rush-shimmy",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 340.65,
+			"sourceEnd": 349.3,
+			"clip": "/media/sagat/sagat-depth-greedy-rush-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-greedy-knee-whiff-throw",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 354.05,
+			"sourceEnd": 362.5,
+			"clip": "/media/sagat/sagat-depth-greedy-knee-whiff-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-greedy-knee-whiff-shimmy",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 362.65,
+			"sourceEnd": 371.45,
+			"clip": "/media/sagat/sagat-depth-greedy-knee-whiff-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-greedy-knee-whiff-low",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 371.65,
+			"sourceEnd": 379.5,
+			"clip": "/media/sagat/sagat-depth-greedy-knee-whiff-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-corner-greedy-light-uppercut",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 379.65,
+			"sourceEnd": 385.5,
+			"clip": "/media/sagat/sagat-depth-corner-greedy-light-uppercut/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-corner-uppercut-whiff-light-medium",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 392.05,
+			"sourceEnd": 402.55,
+			"clip": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-corner-uppercut-whiff-light-throw",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 402.7,
+			"sourceEnd": 411.5,
+			"clip": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-corner-uppercut-whiff-light-shimmy",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 411.7,
+			"sourceEnd": 421.55,
+			"clip": "/media/sagat/sagat-depth-corner-uppercut-whiff-light-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-mighty-standing-throw",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 425.65,
+			"sourceEnd": 433.45,
+			"clip": "/media/sagat/sagat-depth-mighty-standing-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-mighty-standing-low",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 433.65,
+			"sourceEnd": 439.45,
+			"clip": "/media/sagat/sagat-depth-mighty-standing-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-counter-jab-medium-uppercut",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 439.75,
+			"sourceEnd": 444.5,
+			"clip": "/media/sagat/sagat-depth-counter-jab-medium-uppercut/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-counter-jab-target-level-one",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 464.05,
+			"sourceEnd": 470.45,
+			"clip": "/media/sagat/sagat-depth-counter-jab-target-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-punish-jab-back-heavy-knee",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 484.8,
+			"sourceEnd": 490.45,
+			"clip": "/media/sagat/sagat-depth-punish-jab-back-heavy-knee/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-anti-air-back-heavy-shot-rush",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 1115.05,
+			"sourceEnd": 1122.55,
+			"clip": "/media/sagat/sagat-depth-anti-air-back-heavy-shot-rush/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-anti-air-back-heavy-trade-knee",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 1122.65,
+			"sourceEnd": 1129.2,
+			"clip": "/media/sagat/sagat-depth-anti-air-back-heavy-trade-knee/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-anti-air-trade-burnout-cashout",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 1129.65,
+			"sourceEnd": 1141.1,
+			"clip": "/media/sagat/sagat-depth-anti-air-trade-burnout-cashout/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-corner-throw-rush-low-throw",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 1209.65,
+			"sourceEnd": 1217.65,
+			"clip": "/media/sagat/sagat-depth-corner-throw-rush-low-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-anti-air-forward-heavy-level-one",
+			"sourceId": "vesperarcade-sagat-2025",
+			"sourceStart": 641.6,
+			"sourceEnd": 646.75,
+			"clip": "/media/sagat/sagat-depth-anti-air-forward-heavy-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-anti-air-forward-heavy-rush-held",
+			"sourceId": "vesperarcade-sagat-2025",
+			"sourceStart": 656.6,
+			"sourceEnd": 663.7,
+			"clip": "/media/sagat/sagat-depth-anti-air-forward-heavy-rush-held/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-air-to-air-heavy-od-carry",
+			"sourceId": "vesperarcade-sagat-2025",
+			"sourceStart": 687.35,
+			"sourceEnd": 694.65,
+			"clip": "/media/sagat/sagat-depth-air-to-air-heavy-od-carry/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "sagat-depth-guard-od-dp-forward-heavy-level-one",
+			"sourceId": "joe-ebios-sagat-march-2026",
+			"sourceStart": 1070.85,
+			"sourceEnd": 1080.45,
+			"clip": "/media/sagat/sagat-depth-guard-od-dp-forward-heavy-level-one/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

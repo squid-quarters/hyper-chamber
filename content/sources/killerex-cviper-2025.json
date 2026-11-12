@@ -1,0 +1,46 @@
+{
+	"id": "q6XFnRI9obc",
+	"sourceKey": "killerex-cviper-2025",
+	"title": "SF6: C Viper Tech",
+	"uploader": "Killerex100",
+	"upload_date": "20251016",
+	"timestamp": 1760583600,
+	"duration": 567,
+	"url": "https://www.youtube.com/watch?v=q6XFnRI9obc",
+	"reviewedOn": "2026-11-12",
+	"currentPatchTested": false,
+	"publicationStatus": "Owner-authorized public repository; third-party redistribution rights not assessed.",
+	"sourceRecordingSha256": "026b946ad7caefe8f9b0597cdbd0f10834e0f7f488908c52e4122ccc34182b6f",
+	"extractionStatus": "6 selected demonstrations; substantial unprocessed material remains. See docs/source-ledgers/cviper.json.",
+	"dateNote": "Published reference date uses the verified raw upload timestamp in UTC.",
+	"chapterMetadataNote": "Chapters and captions locate candidates; actual input history, move animation, resource HUD and hit/block results establish selected execution.",
+	"presentationNote": "Complete source frame, canonical silent H264 excerpts and exact selected stills/VTT. Source and preparation clocks remain separate.",
+	"chapters": [
+		{
+			"start_time": 0,
+			"title": "Meaties",
+			"end_time": 491
+		},
+		{
+			"start_time": 491,
+			"title": "Safe Jumps",
+			"end_time": 530
+		},
+		{
+			"start_time": 530,
+			"title": "Side Switches",
+			"end_time": 541
+		},
+		{
+			"start_time": 541,
+			"title": "DI Resets",
+			"end_time": 567
+		}
+	],
+	"namingVerification": {
+		"publisher": "Capcom",
+		"title": "C. Viper will start her experiments on October 15 in Street Fighter 6!",
+		"url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811772772213248",
+		"note": "The archived official article establishes move names, one-bar High Jump and special follow-up costs, and the Level 1 install distinction. Source footage separately establishes performed commands, strengths, input order and actual HUD state. No current frame-data guarantee is inferred."
+	}
+}

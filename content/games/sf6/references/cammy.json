@@ -1632,5 +1632,6426 @@
 			"cammy-ebios-blocked-dp-back-heavy-knuckle-level-one",
 			"cammy-ebios-counter-di-held-arrow-level-one-switch"
 		]
+	},
+	{
+		"id": "cammy-depth-medium-arrow-dash-delayed-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Medium Arrow: dash and delayed throw",
+		"summary": "Dash after the light-confirm knockdown, then delay the forward throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Throw pressure", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > Delay > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Match the demonstrated delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 11.1,
+			"end": 14.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-medium-arrow-dash-delayed-throw/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-medium-arrow-dash-delayed-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-medium-arrow-dash-delayed-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-delayed-throw/frame-1.jpg",
+					"at": 0.5,
+					"label": "Dash approach",
+					"alt": "Cammy dashes toward the recovering Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-delayed-throw/frame-2.jpg",
+					"at": 1.25,
+					"label": "Throw catch",
+					"alt": "The delayed throw catches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-delayed-throw/frame-3.jpg",
+					"at": 3.1,
+					"label": "Throw knockdown",
+					"alt": "Ryu lands after the throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-walk-throw",
+			"cammy-depth-heavy-arrow-dash-delayed-throw",
+			"cammy-depth-sweep-pc-timing-dive-throw"
+		]
+	},
+	{
+		"id": "cammy-depth-medium-arrow-dash-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Medium Arrow: dash shimmy",
+		"summary": "Retreat after the dash and punish the missed throw through heavy Knuckle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Shimmy", "Punish counter", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 4 > 5HP > 214HP > 5LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Quick Spin Knuckle"
+			},
+			{
+				"id": "step-5",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"The recorded defender attempts a wake-up throw."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 17.6,
+			"end": 22.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-medium-arrow-dash-shimmy/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-medium-arrow-dash-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-medium-arrow-dash-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-shimmy/frame-1.jpg",
+					"at": 1.1,
+					"label": "Throw whiff",
+					"alt": "Ryu reaches for a throw as Cammy retreats."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-shimmy/frame-2.jpg",
+					"at": 1.65,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-shimmy/frame-3.jpg",
+					"at": 2.15,
+					"label": "Knuckle link",
+					"alt": "Heavy Knuckle continues into the jab link."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-shimmy/frame-4.jpg",
+					"at": 3.2,
+					"label": "Arrow finish",
+					"alt": "Medium Arrow ends the throw-whiff punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-shimmy",
+			"cammy-depth-heavy-arrow-dash-shimmy",
+			"cammy-depth-sweep-pc-timing-dive-shimmy"
+		]
+	},
+	{
+		"id": "cammy-depth-medium-arrow-dash-medium-block-reversal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Medium Arrow: meaty medium and block Drive Reversal",
+		"summary": "Recover from the dash medium in time to guard Ryu’s recorded Drive Reversal.",
+		"kind": "response",
+		"situations": ["Midscreen", "Meaty", "Drive Reversal", "Oki"],
+		"outcomes": ["Blocked reversal"],
+		"notation": "66 > 5MP > 4",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Block"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"This verifies only the displayed Ryu response; it does not make every dash attack reversal-safe."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 25.7,
+			"end": 28.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-medium-arrow-dash-medium-block-reversal/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-medium-arrow-dash-medium-block-reversal/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-medium-arrow-dash-medium-block-reversal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-medium-block-reversal/frame-1.jpg",
+					"at": 0.5,
+					"label": "Dash approach",
+					"alt": "Cammy closes in after medium Arrow."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-medium-block-reversal/frame-2.jpg",
+					"at": 1.0,
+					"label": "Blocked medium",
+					"alt": "Ryu blocks the standing-medium meaty."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-medium-block-reversal/frame-3.jpg",
+					"at": 1.55,
+					"label": "Reversal blocked",
+					"alt": "Cammy guards the recorded Drive Reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-heavy-reversal",
+			"cammy-depth-heavy-arrow-dash-heavy-reversal",
+			"cammy-depth-air-strike-dash-heavy-target"
+		]
+	},
+	{
+		"id": "cammy-depth-medium-arrow-dash-medium-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Medium Arrow: dash medium into heavy Arrow",
+		"summary": "Choose the standing-medium strike and link heavy punch into heavy Arrow.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Meaty", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 5MP > 5HP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 31.15,
+			"end": 35.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-medium-arrow-dash-medium-heavy/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-medium-arrow-dash-medium-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-medium-arrow-dash-medium-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-medium-heavy/frame-1.jpg",
+					"at": 0.45,
+					"label": "Dash timing",
+					"alt": "Cammy dashes while Ryu recovers from medium Arrow."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-medium-heavy/frame-2.jpg",
+					"at": 1.15,
+					"label": "Meaty medium",
+					"alt": "Standing medium punch connects on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-medium-heavy/frame-3.jpg",
+					"at": 1.65,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch links after the medium."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-medium-heavy/frame-4.jpg",
+					"at": 2.2,
+					"label": "Heavy Arrow",
+					"alt": "Heavy Arrow converts the strike branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-heavy-reversal",
+			"cammy-depth-air-strike-dash-heavy-target",
+			"cammy-depth-heavy-arrow-dash-heavy-confirm"
+		]
+	},
+	{
+		"id": "cammy-depth-medium-arrow-dash-walk-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Medium Arrow: dash, walk and low lights",
+		"summary": "Walk forward after the dash to reach the low-light confirm.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Low confirm", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 6 > 2LK > 5LP > 5LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "6",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 37.9,
+			"end": 41.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-medium-arrow-dash-walk-low/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-medium-arrow-dash-walk-low/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-medium-arrow-dash-walk-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-walk-low/frame-1.jpg",
+					"at": 0.65,
+					"label": "Walk-in spacing",
+					"alt": "Cammy walks close after the dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-walk-low/frame-2.jpg",
+					"at": 1.1,
+					"label": "Low opener",
+					"alt": "Crouching light kick begins the low confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-walk-low/frame-3.jpg",
+					"at": 1.6,
+					"label": "Jab link",
+					"alt": "Standing jabs link before Arrow."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-medium-arrow-dash-walk-low/frame-4.jpg",
+					"at": 2.25,
+					"label": "Arrow finish",
+					"alt": "Medium Arrow returns Ryu to knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-heavy-arrow-dash-walk-low",
+			"cammy-depth-low-rush-light-knuckle-safe-jump",
+			"cammy-depth-low-rush-medium-arrow-safe-jump"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-medium-arrow-low-kill-reversal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner medium Arrow: low-kick timing and reversal block",
+		"summary": "Whiff crouching light kick, make crouching heavy contact guard, then block Drive Reversal.",
+		"kind": "response",
+		"situations": ["Corner", "Frame kill", "Meaty", "Drive Reversal", "Oki"],
+		"outcomes": ["Blocked reversal"],
+		"notation": "2LK (whiff) > 2HP > 4",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Block"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"The +12F caption reports remaining advantage after the whiff, not a wait instruction. Only the shown Ryu response is reviewed."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 49.45,
+			"end": 52.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-reversal/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-reversal/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-reversal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-reversal/frame-1.jpg",
+					"at": 0.5,
+					"label": "Timing kick",
+					"alt": "Cammy whiffs crouching light kick while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-reversal/frame-2.jpg",
+					"at": 1.05,
+					"label": "Blocked meaty",
+					"alt": "Ryu blocks the crouching-heavy meaty."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-reversal/frame-3.jpg",
+					"at": 1.6,
+					"label": "Blocked reversal",
+					"alt": "Cammy guards the recorded Drive Reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-medium-arrow-low-kill-heavy",
+			"cammy-depth-air-strike-dash-heavy-reversal",
+			"cammy-depth-corner-medium-arrow-back-medium-strike"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-medium-arrow-low-kill-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner medium Arrow: low-kick timing into target juggle",
+		"summary": "Time crouching heavy with a whiffed low kick, then use the heavy target combo and Arrow–Spike juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Frame kill", "Meaty", "Target combo", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LK (whiff) > 2HP > 5HP > ~HK > 236LK > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "Light Spiral Arrow"
+			},
+			{
+				"id": "step-6",
+				"notation": "623MK",
+				"label": "Medium Cannon Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 55.15,
+			"end": 60.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-heavy/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-heavy/frame-1.jpg",
+					"at": 0.1,
+					"label": "Timing kick",
+					"alt": "Crouching light kick whiffs over the knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-heavy/frame-2.jpg",
+					"at": 1.1,
+					"label": "Meaty heavy",
+					"alt": "Crouching heavy punch connects as Ryu rises."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-heavy/frame-3.jpg",
+					"at": 1.9,
+					"label": "Target launch",
+					"alt": "The heavy-punch target kick launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-heavy/frame-4.jpg",
+					"at": 3.75,
+					"label": "Spike finish",
+					"alt": "Medium Cannon Spike finishes after light Arrow."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-medium-arrow-low-kill-reversal",
+			"cammy-depth-air-strike-dash-heavy-target",
+			"cammy-depth-corner-medium-arrow-back-medium-strike"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-medium-arrow-low-kill-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner medium Arrow: timing kick into delayed low",
+		"summary": "Delay the low-light branch after the whiffed crouching kick.",
+		"kind": "setup",
+		"situations": ["Corner", "Frame kill", "Low confirm", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LK (whiff) > Delay > 2LK > 5LP > 5LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Match the demonstrated delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 63.55,
+			"end": 67.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-low/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-low/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-low/frame-1.jpg",
+					"at": 0.4,
+					"label": "Timing kick",
+					"alt": "Cammy whiffs the first low kick during knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-low/frame-2.jpg",
+					"at": 0.9,
+					"label": "Delayed low",
+					"alt": "The next crouching light kick connects."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-low/frame-3.jpg",
+					"at": 1.35,
+					"label": "Light links",
+					"alt": "Standing jabs continue the confirm."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-low/frame-4.jpg",
+					"at": 1.9,
+					"label": "Arrow knockdown",
+					"alt": "Medium Arrow ends the low branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-medium-arrow-back-medium-strike",
+			"cammy-depth-corner-medium-arrow-low-kill-heavy",
+			"cammy-depth-corner-medium-arrow-low-kill-reversal"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-medium-arrow-low-kill-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner medium Arrow: timing kick into delayed throw",
+		"summary": "Use the whiffed low kick to time a delayed corner throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Frame kill", "Throw pressure", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LK (whiff) > Delay > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Match the demonstrated delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 69.65,
+			"end": 73.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-throw/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-throw/frame-1.jpg",
+					"at": 0.5,
+					"label": "Timing kick",
+					"alt": "Cammy whiffs crouching light kick before Ryu rises."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-throw/frame-2.jpg",
+					"at": 1.2,
+					"label": "Throw catch",
+					"alt": "The delayed throw catches Ryu in the corner."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-throw/frame-3.jpg",
+					"at": 3.05,
+					"label": "Throw result",
+					"alt": "Ryu falls after the throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-medium-arrow-back-medium-strike",
+			"cammy-depth-corner-medium-arrow-low-kill-heavy",
+			"cammy-depth-corner-medium-arrow-low-kill-low"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-medium-arrow-low-kill-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner medium Arrow: low-kick timing into shimmy",
+		"summary": "Step away from the throw after the timing kick and punish with the heavy target combo.",
+		"kind": "setup",
+		"situations": ["Corner", "Frame kill", "Shimmy", "Punish counter", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LK (whiff) > 4 > 5HP > ~HK > 236LK > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "Light Spiral Arrow"
+			},
+			{
+				"id": "step-6",
+				"notation": "623MK",
+				"label": "Medium Cannon Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"The recorded defender attempts a wake-up throw."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 76.35,
+			"end": 81.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-shimmy/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-shimmy/frame-1.jpg",
+					"at": 0.4,
+					"label": "Timing kick",
+					"alt": "Cammy whiffs crouching light kick while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-shimmy/frame-2.jpg",
+					"at": 0.9,
+					"label": "Throw whiff",
+					"alt": "Ryu attempts a throw as Cammy retreats."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-shimmy/frame-3.jpg",
+					"at": 1.4,
+					"label": "Heavy punish",
+					"alt": "Heavy punch punishes the missed throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-low-kill-shimmy/frame-4.jpg",
+					"at": 3.55,
+					"label": "Spike finish",
+					"alt": "Medium Cannon Spike finishes the target-combo conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-target-arrow-hooligan-kick-shimmy",
+			"cammy-depth-corner-throw-walk-shimmy",
+			"cammy-depth-sweep-pc-timing-dive-shimmy"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-medium-arrow-back-medium-strike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner medium Arrow: back-medium timing into short confirm",
+		"summary": "Use back medium as a timing whiff, then link standing medium into light kick and Arrow.",
+		"kind": "setup",
+		"situations": ["Corner", "Frame kill", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "4MP (whiff) > 5MP > 5LK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "4MP (whiff)",
+				"label": "Whiff back medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"Back-medium +5F is remaining advantage, not a five-frame delay instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 104.1,
+			"end": 107.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-back-medium-strike/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-medium-arrow-back-medium-strike/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-medium-arrow-back-medium-strike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-back-medium-strike/frame-1.jpg",
+					"at": 0.55,
+					"label": "Back-medium whiff",
+					"alt": "Back medium punch spends time over Ryu’s knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-back-medium-strike/frame-2.jpg",
+					"at": 1.1,
+					"label": "Medium strike",
+					"alt": "Standing medium punch catches Ryu’s recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-back-medium-strike/frame-3.jpg",
+					"at": 1.55,
+					"label": "Light-kick link",
+					"alt": "Standing light kick links before Arrow."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-back-medium-strike/frame-4.jpg",
+					"at": 2.1,
+					"label": "Arrow finish",
+					"alt": "Medium Arrow ends the short strike branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-medium-arrow-low-kill-heavy",
+			"cammy-depth-corner-medium-arrow-low-kill-low",
+			"cammy-depth-corner-medium-arrow-low-kill-reversal"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-medium-arrow-di-reset",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner medium Arrow: wake-up DI reset",
+		"summary": "Use the Arrow knockdown to attempt Drive Impact against the recorded guard.",
+		"kind": "setup",
+		"situations": ["Corner", "Drive Impact", "Wall splat", "Oki"],
+		"outcomes": ["Wall splat", "Knockdown"],
+		"notation": "HP+HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "HP+HK",
+				"label": "Drive Impact"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"This is a reset against the displayed block response; no guaranteed DI or continuous combo is claimed."
+		],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 110.45,
+			"end": 114.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-di-reset/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-medium-arrow-di-reset/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-medium-arrow-di-reset/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-di-reset/frame-1.jpg",
+					"at": 0.8,
+					"label": "Drive Impact attempt",
+					"alt": "Cammy uses Drive Impact as Ryu recovers."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-di-reset/frame-2.jpg",
+					"at": 1.35,
+					"label": "Wall splat",
+					"alt": "The blocked impact splats Ryu against the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-di-reset/frame-3.jpg",
+					"at": 2.65,
+					"label": "Knockdown result",
+					"alt": "Ryu falls after the unconverted wall splat."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-wall-splat-knuckle-spike-jab-timing",
+			"cammy-depth-corner-counter-di-held-arrow-spike",
+			"cammy-depth-corner-medium-arrow-back-medium-strike"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-medium-arrow-od-knuckle-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner medium Arrow: OD Knuckle into side-switch reset",
+		"summary": "Cross with OD Knuckle, launch through Lift Combination, then whiff heavy Knuckle to change sides again.",
+		"kind": "setup",
+		"situations": ["Corner", "Side switch", "Reset", "Target combo", "Oki"],
+		"outcomes": ["Side switch", "Knockdown"],
+		"notation": "214PP > 4MP > ~HK > 214HP (whiff)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214PP",
+				"label": "OD Quick Spin Knuckle"
+			},
+			{
+				"id": "step-2",
+				"notation": "4MP",
+				"label": "Back medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP (whiff)",
+				"label": "Whiff heavy Quick Spin Knuckle"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Low lights into medium Spiral Arrow first, shown as +26F at the recorded spacing in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"The OD approach and later juggle are separate from the prerequisite Arrow. No guaranteed left-right mixup is asserted."
+		],
+		"resources": {
+			"drive": "OD Knuckle (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 116.35,
+			"end": 120.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-medium-arrow-od-knuckle-switch/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-medium-arrow-od-knuckle-switch/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-medium-arrow-od-knuckle-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-od-knuckle-switch/frame-1.jpg",
+					"at": 0.9,
+					"label": "OD cross-through",
+					"alt": "Gold OD Knuckle passes through Ryu as he recovers."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-od-knuckle-switch/frame-2.jpg",
+					"at": 1.45,
+					"label": "Lift starter",
+					"alt": "Back medium punch begins Lift Combination."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-od-knuckle-switch/frame-3.jpg",
+					"at": 2.05,
+					"label": "Target launch",
+					"alt": "The target heavy kick launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-medium-arrow-od-knuckle-switch/frame-4.jpg",
+					"at": 2.9,
+					"label": "Whiffed-Knuckle reset",
+					"alt": "The heavy Knuckle whiffs as Cammy changes sides under Ryu."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-medium-arrow-low-kill-heavy",
+			"cammy-depth-corner-target-arrow-hooligan-kick-hit",
+			"cammy-depth-air-strike-dash-heavy-target"
+		]
+	},
+	{
+		"id": "cammy-depth-low-rush-heavy-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Low Rush confirm into heavy Arrow",
+		"summary": "Use the crouching-heavy link after the Rush cancel for a same-side heavy-Arrow finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 2HP > 5HP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "Heavy Spiral Arrow"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching medium kick connects at the demonstrated range"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 121.9,
+			"end": 126.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-low-rush-heavy-arrow/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-low-rush-heavy-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-low-rush-heavy-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-low-rush-heavy-arrow/frame-1.jpg",
+					"at": 0.35,
+					"label": "Low starter",
+					"alt": "Crouching medium kick connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-low-rush-heavy-arrow/frame-2.jpg",
+					"at": 0.95,
+					"label": "Rush-cancel link",
+					"alt": "Crouching heavy punch connects after the cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-low-rush-heavy-arrow/frame-3.jpg",
+					"at": 1.85,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch links into Arrow."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-low-rush-heavy-arrow/frame-4.jpg",
+					"at": 2.5,
+					"label": "Heavy Arrow finish",
+					"alt": "Heavy Arrow carries Ryu into knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-low-double-rush-level-two",
+			"cammy-depth-low-rush-heavy-knuckle-side-switch",
+			"cammy-depth-low-rush-heavy-target-medium-arrow"
+		]
+	},
+	{
+		"id": "cammy-depth-heavy-arrow-dash-heavy-reversal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Heavy Arrow: dash heavy and block Drive Reversal",
+		"summary": "Recover from the crouching-heavy meaty in time to guard the recorded reversal.",
+		"kind": "response",
+		"situations": ["Midscreen", "Meaty", "Drive Reversal", "Oki"],
+		"outcomes": ["Blocked reversal"],
+		"notation": "66 > 2HP > 4",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Block"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching-medium Rush cancel into crouching heavy, standing heavy and heavy Arrow first, shown as +29F; that prerequisite spends one cancel Drive Rush",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"The earlier Rush-cancel cost belongs to the prerequisite combo. Only the displayed Ryu response is verified."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 134.55,
+			"end": 138.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-reversal/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-reversal/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-reversal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-reversal/frame-1.jpg",
+					"at": 0.65,
+					"label": "Dash approach",
+					"alt": "Cammy approaches as Ryu recovers from heavy Arrow."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-reversal/frame-2.jpg",
+					"at": 1.1,
+					"label": "Blocked crouching heavy",
+					"alt": "Ryu blocks the crouching-heavy meaty."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-reversal/frame-3.jpg",
+					"at": 1.7,
+					"label": "Reversal blocked",
+					"alt": "Cammy guards Ryu’s recorded Drive Reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-heavy-reversal",
+			"cammy-depth-medium-arrow-dash-medium-block-reversal",
+			"cammy-depth-air-strike-dash-heavy-target"
+		]
+	},
+	{
+		"id": "cammy-depth-heavy-arrow-dash-heavy-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Heavy Arrow: dash into crouching-heavy confirm",
+		"summary": "Dash after heavy Arrow and repeat the crouching-heavy into heavy-Arrow conversion.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Meaty", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 2HP > 5HP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching-medium Rush cancel into crouching heavy, standing heavy and heavy Arrow first, shown as +29F; that prerequisite spends one cancel Drive Rush",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 141.25,
+			"end": 145.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-confirm/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-confirm/frame-1.jpg",
+					"at": 0.45,
+					"label": "Dash spacing",
+					"alt": "Cammy reaches the rising Ryu after the dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-confirm/frame-2.jpg",
+					"at": 1.05,
+					"label": "Meaty heavy",
+					"alt": "Crouching heavy punch catches Ryu on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-confirm/frame-3.jpg",
+					"at": 1.55,
+					"label": "Standing-heavy link",
+					"alt": "Standing heavy punch continues the conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-heavy-confirm/frame-4.jpg",
+					"at": 2.1,
+					"label": "Arrow finish",
+					"alt": "Heavy Arrow returns Ryu to knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-heavy-reversal",
+			"cammy-depth-air-strike-dash-heavy-target",
+			"cammy-depth-heavy-arrow-dash-heavy-reversal"
+		]
+	},
+	{
+		"id": "cammy-depth-heavy-arrow-dash-walk-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Heavy Arrow: dash and walk into low lights",
+		"summary": "Walk close after the heavy-Arrow dash and choose a low-light confirm.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Low confirm", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 6 > 2LK > 5LP > 5LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "6",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching-medium Rush cancel into crouching heavy, standing heavy and heavy Arrow first, shown as +29F; that prerequisite spends one cancel Drive Rush",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 149.1,
+			"end": 153.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-heavy-arrow-dash-walk-low/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-heavy-arrow-dash-walk-low/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-heavy-arrow-dash-walk-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-walk-low/frame-1.jpg",
+					"at": 0.8,
+					"label": "Walk-in timing",
+					"alt": "Cammy approaches after heavy Arrow."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-walk-low/frame-2.jpg",
+					"at": 1.15,
+					"label": "Low opener",
+					"alt": "Crouching light kick begins the wake-up low branch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-walk-low/frame-3.jpg",
+					"at": 1.65,
+					"label": "Jab links",
+					"alt": "Standing jabs connect before Arrow."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-walk-low/frame-4.jpg",
+					"at": 2.3,
+					"label": "Medium Arrow",
+					"alt": "The lighter Arrow finish establishes its own knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-low-rush-light-knuckle-safe-jump",
+			"cammy-depth-low-rush-medium-arrow-safe-jump",
+			"cammy-depth-medium-arrow-dash-walk-low"
+		]
+	},
+	{
+		"id": "cammy-depth-heavy-arrow-dash-delayed-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Heavy Arrow: dash and delayed throw",
+		"summary": "Reach throw range with the dash, then delay the normal throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Throw pressure", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > Delay > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Match the demonstrated delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching-medium Rush cancel into crouching heavy, standing heavy and heavy Arrow first, shown as +29F; that prerequisite spends one cancel Drive Rush",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 156.65,
+			"end": 160.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-heavy-arrow-dash-delayed-throw/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-heavy-arrow-dash-delayed-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-heavy-arrow-dash-delayed-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-delayed-throw/frame-1.jpg",
+					"at": 0.45,
+					"label": "Dash approach",
+					"alt": "Cammy closes in after heavy Arrow."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-delayed-throw/frame-2.jpg",
+					"at": 1.25,
+					"label": "Throw catch",
+					"alt": "The delayed throw catches the recovering Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-delayed-throw/frame-3.jpg",
+					"at": 3.15,
+					"label": "Throw result",
+					"alt": "Ryu lands after the forward throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-walk-throw",
+			"cammy-depth-medium-arrow-dash-delayed-throw",
+			"cammy-depth-sweep-pc-timing-dive-throw"
+		]
+	},
+	{
+		"id": "cammy-depth-heavy-arrow-dash-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Heavy Arrow: dash shimmy into Knuckle",
+		"summary": "Retreat from the recorded throw after the dash, then convert the heavy-punch punish.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Shimmy", "Punish counter", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 4 > 5HP > 214HP > 5LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Quick Spin Knuckle"
+			},
+			{
+				"id": "step-5",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching-medium Rush cancel into crouching heavy, standing heavy and heavy Arrow first, shown as +29F; that prerequisite spends one cancel Drive Rush",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"The recorded defender attempts a wake-up throw."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 164.15,
+			"end": 169.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-heavy-arrow-dash-shimmy/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-heavy-arrow-dash-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-heavy-arrow-dash-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-shimmy/frame-1.jpg",
+					"at": 1.05,
+					"label": "Throw whiff",
+					"alt": "Ryu reaches for a throw as Cammy retreats."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-shimmy/frame-2.jpg",
+					"at": 1.65,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-shimmy/frame-3.jpg",
+					"at": 2.2,
+					"label": "Knuckle conversion",
+					"alt": "Heavy Knuckle continues into the jab link."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-heavy-arrow-dash-shimmy/frame-4.jpg",
+					"at": 3.2,
+					"label": "Arrow finish",
+					"alt": "Medium Arrow ends the shimmy punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-shimmy",
+			"cammy-depth-medium-arrow-dash-shimmy",
+			"cammy-depth-sweep-pc-timing-dive-shimmy"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-throw-walk-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner throw: walk-in shimmy",
+		"summary": "Walk toward the recovering opponent, retreat from the throw, then use the heavy target-combo punish.",
+		"kind": "setup",
+		"situations": ["Corner", "Throw pressure", "Shimmy", "Punish counter", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "6 > 4 > 5HP > ~HK > 236LK > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "Light Spiral Arrow"
+			},
+			{
+				"id": "step-6",
+				"notation": "623MK",
+				"label": "Medium Cannon Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Forward-throw knockdown in the corner first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"Ryu uses the recorded wake-up throw attempt."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 198.25,
+			"end": 204.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-throw-walk-shimmy/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-throw-walk-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-throw-walk-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-throw-walk-shimmy/frame-1.jpg",
+					"at": 0.6,
+					"label": "Walk-in pressure",
+					"alt": "Cammy steps toward Ryu after the forward throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-throw-walk-shimmy/frame-2.jpg",
+					"at": 1.05,
+					"label": "Throw whiff",
+					"alt": "Ryu attempts a throw while Cammy retreats."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-throw-walk-shimmy/frame-3.jpg",
+					"at": 1.6,
+					"label": "Heavy punish",
+					"alt": "Heavy punch scores Punish Counter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-throw-walk-shimmy/frame-4.jpg",
+					"at": 4.0,
+					"label": "Spike finish",
+					"alt": "Medium Cannon Spike ends the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-medium-arrow-low-kill-shimmy",
+			"cammy-depth-corner-target-arrow-hooligan-kick-shimmy",
+			"cammy-depth-air-strike-dash-shimmy"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-throw-walk-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner throw: walk into medium and light kick",
+		"summary": "Choose the medium strike after walking close, then link light kick into Arrow.",
+		"kind": "setup",
+		"situations": ["Corner", "Throw pressure", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "6 > 5MP > 5LK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Forward-throw knockdown in the corner first",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 207.2,
+			"end": 211.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-throw-walk-medium/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-throw-walk-medium/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-throw-walk-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-throw-walk-medium/frame-1.jpg",
+					"at": 0.65,
+					"label": "Walk-in timing",
+					"alt": "Cammy walks toward Ryu after the throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-throw-walk-medium/frame-2.jpg",
+					"at": 1.1,
+					"label": "Medium strike",
+					"alt": "Standing medium punch connects on recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-throw-walk-medium/frame-3.jpg",
+					"at": 1.6,
+					"label": "Light-kick link",
+					"alt": "Standing light kick links before Arrow."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-throw-walk-medium/frame-4.jpg",
+					"at": 2.2,
+					"label": "Arrow finish",
+					"alt": "Medium Arrow knocks Ryu down in the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-medium-arrow-low-kill-throw",
+			"cammy-depth-corner-target-arrow-hooligan-kick-throw",
+			"cammy-depth-corner-throw-walk-shimmy"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-counter-di-held-arrow-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner counter DI: Lift into held Arrow and heavy Spike",
+		"summary": "Walk into Lift Combination after counter DI and use the short-held heavy-Arrow juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Punish counter", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "HP+HK > 6 > 5MP > 4MP > ~HK > 236HK (short hold) > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "HP+HK",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "6",
+				"label": "Short walk"
+			},
+			{
+				"id": "step-3",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "4MP",
+				"label": "Back medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "236HK (short hold)",
+				"label": "Short-held heavy Spiral Arrow",
+				"cue": "Match the demonstrated short hold before releasing HK."
+			},
+			{
+				"id": "step-7",
+				"notation": "623HK",
+				"label": "Heavy Cannon Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Win the counter-DI exchange beside the wall",
+			"Short walk before the standing-medium link"
+		],
+		"notes": [
+			"The opening jab supplies the incoming-DI context; the listed sequence starts with Cammy’s counter Drive Impact."
+		],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-beginner-2026",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"start": 295.1,
+			"end": 302.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-counter-di-held-arrow-spike/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-counter-di-held-arrow-spike/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-counter-di-held-arrow-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-counter-di-held-arrow-spike/frame-1.jpg",
+					"at": 2.8,
+					"label": "Counter Drive Impact",
+					"alt": "Cammy’s counter impact crumples Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-counter-di-held-arrow-spike/frame-2.jpg",
+					"at": 4.2,
+					"label": "Lift starter",
+					"alt": "Back medium punch follows the walking medium link."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-counter-di-held-arrow-spike/frame-3.jpg",
+					"at": 5.75,
+					"label": "Held-Arrow juggle",
+					"alt": "Short-held heavy Arrow juggles after Lift Combination."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-counter-di-held-arrow-spike/frame-4.jpg",
+					"at": 6.75,
+					"label": "Heavy Spike",
+					"alt": "Heavy Cannon Spike finishes the corner conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-ebios-corner-drive-reversal-target-arrow-spike",
+			"cammy-ebios-counter-di-air-medium-heavy-strike",
+			"cammy-depth-corner-medium-arrow-di-reset"
+		]
+	},
+	{
+		"id": "cammy-depth-crossup-light-lift-air-strike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Cross-up light kick into Lift and air Strike",
+		"summary": "Link the cross-up light kick through jab and Lift Combination, then jump-cancel into medium punch and heavy Strike.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Cross-up", "Target combo", "Side switch"],
+		"outcomes": ["Side switch", "Knockdown"],
+		"notation": "9 j.LK > 5LP > 4MP > ~HK > 9 > j.MP > j.214HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9 j.LK",
+				"label": "Forward-jump light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "4MP",
+				"label": "Back medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "9",
+				"label": "Jump cancel"
+			},
+			{
+				"id": "step-6",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "j.214HK",
+				"label": "Heavy Cannon Strike"
+			}
+		],
+		"conditions": ["Classic controls", "The jump light kick connects as the demonstrated cross-up"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 149.65,
+			"end": 154.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-crossup-light-lift-air-strike/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-crossup-light-lift-air-strike/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-crossup-light-lift-air-strike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-crossup-light-lift-air-strike/frame-1.jpg",
+					"at": 1.0,
+					"label": "Cross-up light kick",
+					"alt": "Jumping light kick connects from behind Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-crossup-light-lift-air-strike/frame-2.jpg",
+					"at": 1.65,
+					"label": "Lift starter",
+					"alt": "Back medium punch follows the standing jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-crossup-light-lift-air-strike/frame-3.jpg",
+					"at": 2.45,
+					"label": "Air medium",
+					"alt": "Jumping medium punch juggles after Lift Combination."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-crossup-light-lift-air-strike/frame-4.jpg",
+					"at": 2.9,
+					"label": "Cannon Strike finish",
+					"alt": "Heavy Cannon Strike knocks Ryu down on the other side."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-heavy-target",
+			"cammy-depth-corner-medium-arrow-od-knuckle-switch",
+			"cammy-depth-heavy-target-hooligan-downward-kick"
+		]
+	},
+	{
+		"id": "cammy-depth-air-strike-dash-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Air Strike: dash, walk and throw",
+		"summary": "Walk into throw range after the dash from the air-Strike knockdown.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Throw pressure", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 6 > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "6",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Lift Combination into jump-cancel medium punch and heavy Cannon Strike first, shown as +30F at the recorded spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 161.15,
+			"end": 165.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-air-strike-dash-walk-throw/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-air-strike-dash-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-air-strike-dash-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-walk-throw/frame-1.jpg",
+					"at": 0.65,
+					"label": "Dash approach",
+					"alt": "Cammy dashes after the air-Strike landing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-walk-throw/frame-2.jpg",
+					"at": 0.9,
+					"label": "Walk-in spacing",
+					"alt": "Cammy walks into throw range as Ryu rises."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-walk-throw/frame-3.jpg",
+					"at": 1.75,
+					"label": "Throw catch",
+					"alt": "The forward throw catches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-walk-throw/frame-4.jpg",
+					"at": 3.75,
+					"label": "Throw result",
+					"alt": "Ryu lands after the follow-up throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-heavy-arrow-dash-delayed-throw",
+			"cammy-depth-medium-arrow-dash-delayed-throw",
+			"cammy-depth-sweep-pc-timing-dive-throw"
+		]
+	},
+	{
+		"id": "cammy-depth-air-strike-dash-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Air Strike: dash shimmy into Knuckle",
+		"summary": "Back out after the dash and convert the recorded throw whiff into heavy Knuckle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Shimmy", "Punish counter", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 4 > 5HP > 214HP > 5LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Quick Spin Knuckle"
+			},
+			{
+				"id": "step-5",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Lift Combination into jump-cancel medium punch and heavy Cannon Strike first, shown as +30F at the recorded spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"The defender uses the recorded wake-up throw."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 168.3,
+			"end": 173.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-air-strike-dash-shimmy/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-air-strike-dash-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-air-strike-dash-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-shimmy/frame-1.jpg",
+					"at": 0.6,
+					"label": "Dash approach",
+					"alt": "Cammy closes in from the air-Strike knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-shimmy/frame-2.jpg",
+					"at": 1.0,
+					"label": "Throw whiff",
+					"alt": "Ryu attempts a throw as Cammy retreats."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-shimmy/frame-3.jpg",
+					"at": 1.5,
+					"label": "Heavy punish",
+					"alt": "Heavy punch punishes the missed throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-shimmy/frame-4.jpg",
+					"at": 3.0,
+					"label": "Arrow finish",
+					"alt": "Medium Arrow ends the Knuckle-and-jab conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-heavy-arrow-dash-shimmy",
+			"cammy-depth-medium-arrow-dash-shimmy",
+			"cammy-depth-sweep-pc-timing-dive-shimmy"
+		]
+	},
+	{
+		"id": "cammy-depth-air-strike-dash-heavy-reversal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Air Strike: crouching-heavy meaty and reversal block",
+		"summary": "Dash from the air-Strike knockdown, make crouching heavy contact guard, and block the recorded reversal.",
+		"kind": "response",
+		"situations": ["Midscreen", "Meaty", "Drive Reversal", "Oki"],
+		"outcomes": ["Blocked reversal"],
+		"notation": "66 > 2HP > 4",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Block"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Lift Combination into jump-cancel medium punch and heavy Cannon Strike first, shown as +30F at the recorded spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"Only the displayed Ryu response is reviewed."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 175.95,
+			"end": 179.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-air-strike-dash-heavy-reversal/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-air-strike-dash-heavy-reversal/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-air-strike-dash-heavy-reversal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-heavy-reversal/frame-1.jpg",
+					"at": 0.4,
+					"label": "Dash timing",
+					"alt": "Cammy dashes while Ryu recovers from Cannon Strike."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-heavy-reversal/frame-2.jpg",
+					"at": 0.85,
+					"label": "Blocked meaty",
+					"alt": "Ryu blocks crouching heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-heavy-reversal/frame-3.jpg",
+					"at": 1.3,
+					"label": "Reversal blocked",
+					"alt": "Cammy guards Ryu’s Drive Reversal after recovering."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-heavy-arrow-dash-heavy-reversal",
+			"cammy-depth-medium-arrow-dash-medium-block-reversal",
+			"cammy-depth-air-strike-dash-heavy-target"
+		]
+	},
+	{
+		"id": "cammy-depth-air-strike-dash-heavy-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Air Strike: dash heavy into corner juggle",
+		"summary": "Use the dash crouching-heavy meaty, then launch through the heavy target combo and Arrow–Spike finish.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Meaty", "Target combo", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 2HP > 5HP > ~HK > 236LK > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "Light Spiral Arrow"
+			},
+			{
+				"id": "step-6",
+				"notation": "623MK",
+				"label": "Medium Cannon Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Lift Combination into jump-cancel medium punch and heavy Cannon Strike first, shown as +30F at the recorded spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"The source caption leaves the finish as “any”; this card records only the shown heavy-target, light-Arrow and medium-Spike take."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 181.5,
+			"end": 187.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-air-strike-dash-heavy-target/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-air-strike-dash-heavy-target/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-air-strike-dash-heavy-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-heavy-target/frame-1.jpg",
+					"at": 1.15,
+					"label": "Meaty crouching heavy",
+					"alt": "Crouching heavy punch connects after the dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-heavy-target/frame-2.jpg",
+					"at": 2.0,
+					"label": "Target kick",
+					"alt": "The heavy-punch target kick launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-heavy-target/frame-3.jpg",
+					"at": 2.9,
+					"label": "Light Arrow juggle",
+					"alt": "Light Arrow catches Ryu after the launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-air-strike-dash-heavy-target/frame-4.jpg",
+					"at": 4.1,
+					"label": "Medium Spike finish",
+					"alt": "Medium Cannon Spike completes the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-heavy-reversal",
+			"cammy-depth-corner-medium-arrow-low-kill-heavy",
+			"cammy-depth-heavy-arrow-dash-heavy-confirm"
+		]
+	},
+	{
+		"id": "cammy-depth-counterhit-jab-medium-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Counter-hit jab into crouching medium and heavy Arrow",
+		"summary": "Use the jab’s Counter Hit to link crouching medium punch before heavy Arrow.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "5LP > 2MP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "Heavy Spiral Arrow"
+			}
+		],
+		"conditions": ["Classic controls", "Standing jab must score Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 195.35,
+			"end": 198.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-counterhit-jab-medium-arrow/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-counterhit-jab-medium-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-counterhit-jab-medium-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-counterhit-jab-medium-arrow/frame-1.jpg",
+					"at": 0.53,
+					"label": "Counter-hit jab",
+					"alt": "Standing light punch scores Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-counterhit-jab-medium-arrow/frame-2.jpg",
+					"at": 0.95,
+					"label": "Medium link",
+					"alt": "Crouching medium punch links after the counter-hit jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-counterhit-jab-medium-arrow/frame-3.jpg",
+					"at": 1.35,
+					"label": "Heavy Arrow",
+					"alt": "Heavy Arrow converts the light starter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-counterhit-jab-medium-arrow/frame-4.jpg",
+					"at": 2.6,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the counter-hit confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-lights-double-rush-level-three",
+			"cammy-depth-target-arrow-rush-heavy-counterhit",
+			"cammy-ebios-light-medium-arrow"
+		]
+	},
+	{
+		"id": "cammy-depth-lights-double-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Light confirm: double-Rush Level 3 cash-out",
+		"summary": "Spend both Rush cancels after the lights and cancel held heavy Spike into Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Drive Rush", "Cash-out"],
+		"outcomes": ["Knockdown"],
+		"notation": "5LP > 5LP > 5LK > DRC > 5LP > 5HP > DRC > 2HP > 5HP > 623HK (hold) > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-10",
+				"notation": "623HK (hold)",
+				"label": "Held heavy Cannon Spike"
+			},
+			{
+				"id": "step-11",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Enough Drive for two cancel Drive Rushes",
+			"Three Super stocks available"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Two cancel Drive Rushes (6 bars)",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 295.25,
+			"end": 310.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-lights-double-rush-level-three/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-lights-double-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-lights-double-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-lights-double-rush-level-three/frame-1.jpg",
+					"at": 0.5,
+					"label": "Light starter",
+					"alt": "Standing jabs begin the light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-lights-double-rush-level-three/frame-2.jpg",
+					"at": 1.6,
+					"label": "First Rush link",
+					"alt": "The cancel-Rush jab links into heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-lights-double-rush-level-three/frame-3.jpg",
+					"at": 3.0,
+					"label": "Second Rush link",
+					"alt": "Crouching heavy punch connects after the second cancel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-lights-double-rush-level-three/frame-4.jpg",
+					"at": 4.0,
+					"label": "Held Spike",
+					"alt": "Held heavy Cannon Spike leads into the Super cancel."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-lights-double-rush-level-three/frame-5.jpg",
+					"at": 12.65,
+					"label": "Level 3 finish",
+					"alt": "Level 3 completes the resource-heavy light conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-medium-super-two-to-one",
+			"cammy-depth-blocked-dp-back-heavy-rush-carry",
+			"cammy-depth-corner-blocked-dp-heavy-rush-spike"
+		]
+	},
+	{
+		"id": "cammy-depth-medium-light-kick-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Standing medium into light kick and medium Arrow",
+		"summary": "Use the light-kick link for a short meterless medium conversion.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "5MP > 5LK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for standing medium into light kick"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 313.65,
+			"end": 315.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-medium-light-kick-arrow/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-medium-light-kick-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-medium-light-kick-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-medium-light-kick-arrow/frame-1.jpg",
+					"at": 0.6,
+					"label": "Medium starter",
+					"alt": "Standing medium punch connects at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-medium-light-kick-arrow/frame-2.jpg",
+					"at": 1.1,
+					"label": "Light-kick link",
+					"alt": "Standing light kick links into Arrow."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-medium-light-kick-arrow/frame-3.jpg",
+					"at": 1.6,
+					"label": "Medium Arrow",
+					"alt": "Medium Arrow ends the short confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-medium-super-two-to-one",
+			"cammy-depth-air-strike-dash-heavy-reversal",
+			"cammy-depth-air-strike-dash-heavy-target"
+		]
+	},
+	{
+		"id": "cammy-depth-standing-low-rush-back-heavy-arrow-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Standing-target low Rush: back heavy into Arrow and Spike",
+		"summary": "Launch the standing target with back heavy kick after the low Rush cancel.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 4HK > 236HK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HK",
+				"label": "Heavy Spiral Arrow"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Cannon Spike"
+			}
+		],
+		"conditions": ["Classic controls", "The opponent is standing when back heavy kick connects"],
+		"notes": [
+			"The source explicitly marks this back-heavy link standing-only and shows no close midscreen oki after this Spike finish."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 317.85,
+			"end": 323.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-standing-low-rush-back-heavy-arrow-spike/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-standing-low-rush-back-heavy-arrow-spike/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-standing-low-rush-back-heavy-arrow-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-standing-low-rush-back-heavy-arrow-spike/frame-1.jpg",
+					"at": 0.45,
+					"label": "Low starter",
+					"alt": "Crouching medium kick connects on the standing Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-standing-low-rush-back-heavy-arrow-spike/frame-2.jpg",
+					"at": 1.15,
+					"label": "Back-heavy launch",
+					"alt": "Back heavy kick launches after the Rush cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-standing-low-rush-back-heavy-arrow-spike/frame-3.jpg",
+					"at": 1.95,
+					"label": "Heavy Arrow juggle",
+					"alt": "Heavy Arrow juggles the standing-target launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-standing-low-rush-back-heavy-arrow-spike/frame-4.jpg",
+					"at": 3.0,
+					"label": "Heavy Spike finish",
+					"alt": "Heavy Cannon Spike ends the midscreen route."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-low-double-rush-level-two",
+			"cammy-depth-low-rush-heavy-arrow",
+			"cammy-depth-low-rush-heavy-knuckle-side-switch"
+		]
+	},
+	{
+		"id": "cammy-depth-low-rush-light-knuckle-safe-jump",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Low Rush: light Knuckle into timing-kick safe jump",
+		"summary": "Finish the standing-target launch with light Knuckle, whiff a low kick, then jump heavy and land blocking the recorded DP.",
+		"kind": "response",
+		"situations": [
+			"Midscreen",
+			"Low confirm",
+			"Drive Rush",
+			"Oki",
+			"Jump pressure",
+			"Reversal bait"
+		],
+		"outcomes": ["Blocked reversal"],
+		"notation": "2MK > DRC > 4HK > 214LP > 2LK (whiff) > 9 j.HK > 4",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP",
+				"label": "Light Quick Spin Knuckle"
+			},
+			{
+				"id": "step-5",
+				"notation": "2LK (whiff)",
+				"label": "Whiff crouching light kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "9 j.HK",
+				"label": "Forward-jump heavy kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "4",
+				"label": "Block"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The opponent is standing for the Rush back-heavy link",
+			"Ryu performs the displayed OD Shoryuken reversal"
+		],
+		"notes": [
+			"The +42F caption is remaining advantage after the timing kick. The demonstrated Ryu response is source-reviewed; current-patch timing and other reversals are untested."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 335.3,
+			"end": 340.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-low-rush-light-knuckle-safe-jump/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-low-rush-light-knuckle-safe-jump/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-low-rush-light-knuckle-safe-jump/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-low-rush-light-knuckle-safe-jump/frame-1.jpg",
+					"at": 0.5,
+					"label": "Low starter",
+					"alt": "Crouching medium kick begins the standing-target conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-low-rush-light-knuckle-safe-jump/frame-2.jpg",
+					"at": 1.95,
+					"label": "Knuckle knockdown",
+					"alt": "Light Knuckle leaves the recorded +56F knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-low-rush-light-knuckle-safe-jump/frame-3.jpg",
+					"at": 2.55,
+					"label": "Timing kick",
+					"alt": "Crouching light kick whiffs before the jump."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-low-rush-light-knuckle-safe-jump/frame-4.jpg",
+					"at": 3.3,
+					"label": "Jump heavy kick",
+					"alt": "Cammy brings heavy kick toward Ryu’s wake-up."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-low-rush-light-knuckle-safe-jump/frame-5.jpg",
+					"at": 3.9,
+					"label": "DP blocked",
+					"alt": "Cammy lands and blocks Ryu’s OD Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-low-rush-medium-arrow-safe-jump",
+			"cammy-depth-heavy-arrow-dash-walk-low",
+			"cammy-depth-low-double-rush-level-two"
+		]
+	},
+	{
+		"id": "cammy-depth-low-rush-knuckle-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Low Rush: back-heavy Knuckle into Level 1",
+		"summary": "Spend one Super stock after the standing-target back-heavy and light-Knuckle juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Stock choice"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 4HK > 214LP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "214LP",
+				"label": "Light Quick Spin Knuckle"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The opponent is standing for back heavy kick",
+			"At least one Super stock available"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "Level 1 (1 stock)"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 353.85,
+			"end": 361.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-low-rush-knuckle-level-one/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-low-rush-knuckle-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-low-rush-knuckle-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-low-rush-knuckle-level-one/frame-1.jpg",
+					"at": 0.4,
+					"label": "Low starter",
+					"alt": "Crouching medium kick starts the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-low-rush-knuckle-level-one/frame-2.jpg",
+					"at": 1.05,
+					"label": "Back-heavy launch",
+					"alt": "Back heavy kick launches after the cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-low-rush-knuckle-level-one/frame-3.jpg",
+					"at": 1.9,
+					"label": "Knuckle juggle",
+					"alt": "Light Knuckle connects before the Super cancel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-low-rush-knuckle-level-one/frame-4.jpg",
+					"at": 2.85,
+					"label": "Level 1 activation",
+					"alt": "Cammy spends one Super stock."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-low-rush-knuckle-level-one/frame-5.jpg",
+					"at": 6.25,
+					"label": "Super knockdown",
+					"alt": "Ryu lands after the Level 1 finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-low-double-rush-level-two",
+			"cammy-depth-low-rush-heavy-arrow",
+			"cammy-depth-low-rush-heavy-knuckle-side-switch"
+		]
+	},
+	{
+		"id": "cammy-depth-low-rush-medium-arrow-safe-jump",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Low Rush: back-heavy medium Arrow into DP-safe jump",
+		"summary": "Choose the medium-Arrow juggle knockdown and jump heavy kick, landing in time to block the recorded DP.",
+		"kind": "response",
+		"situations": [
+			"Midscreen",
+			"Low confirm",
+			"Drive Rush",
+			"Oki",
+			"Jump pressure",
+			"Reversal bait"
+		],
+		"outcomes": ["Blocked reversal"],
+		"notation": "2MK > DRC > 4HK > 236MK > 9 j.HK > 4",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			},
+			{
+				"id": "step-5",
+				"notation": "9 j.HK",
+				"label": "Forward-jump heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "4",
+				"label": "Block"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The opponent is standing for the Rush back-heavy link",
+			"Ryu uses the recorded OD Shoryuken reversal"
+		],
+		"notes": [
+			"The source claims safety against 6F+ reversals; this card records only the displayed Ryu OD Shoryuken test."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 362.25,
+			"end": 368.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-low-rush-medium-arrow-safe-jump/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-low-rush-medium-arrow-safe-jump/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-low-rush-medium-arrow-safe-jump/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-low-rush-medium-arrow-safe-jump/frame-1.jpg",
+					"at": 0.5,
+					"label": "Low starter",
+					"alt": "Crouching medium kick begins the standing-target conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-low-rush-medium-arrow-safe-jump/frame-2.jpg",
+					"at": 2.0,
+					"label": "Medium Arrow juggle",
+					"alt": "Medium Arrow creates the recorded +41F knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-low-rush-medium-arrow-safe-jump/frame-3.jpg",
+					"at": 3.0,
+					"label": "Jump heavy kick",
+					"alt": "Cammy jumps toward Ryu’s wake-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-low-rush-medium-arrow-safe-jump/frame-4.jpg",
+					"at": 3.6,
+					"label": "Reversal blocked",
+					"alt": "Cammy lands and guards the recorded OD Shoryuken."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-low-rush-medium-arrow-safe-jump/frame-5.jpg",
+					"at": 5.0,
+					"label": "Recovered position",
+					"alt": "Cammy remains grounded as the reversal ends."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-low-rush-light-knuckle-safe-jump",
+			"cammy-depth-heavy-arrow-dash-walk-low",
+			"cammy-depth-low-double-rush-level-two"
+		]
+	},
+	{
+		"id": "cammy-depth-low-rush-lift-air-strike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Low Rush: Lift Combination into air Strike",
+		"summary": "Link heavy punch into Lift after the Rush cancel, then jump-cancel the launcher into air medium and Strike.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 5HP > 4MP > ~HK > 9 > j.MP > j.214HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "4MP",
+				"label": "Back medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "9",
+				"label": "Jump cancel"
+			},
+			{
+				"id": "step-7",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.214HK",
+				"label": "Heavy Cannon Strike"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching medium kick connects at the demonstrated range"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 369.15,
+			"end": 372.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-low-rush-lift-air-strike/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-low-rush-lift-air-strike/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-low-rush-lift-air-strike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-low-rush-lift-air-strike/frame-1.jpg",
+					"at": 0.6,
+					"label": "Low Rush cancel",
+					"alt": "Crouching medium kick cancels into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-low-rush-lift-air-strike/frame-2.jpg",
+					"at": 1.6,
+					"label": "Lift starter",
+					"alt": "Back medium punch links after standing heavy."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-low-rush-lift-air-strike/frame-3.jpg",
+					"at": 2.3,
+					"label": "Air medium",
+					"alt": "Jumping medium punch juggles after Lift."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-low-rush-lift-air-strike/frame-4.jpg",
+					"at": 2.8,
+					"label": "Strike finish",
+					"alt": "Heavy Cannon Strike ends the air conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-low-rush-heavy-target-medium-arrow",
+			"cammy-depth-low-double-rush-level-two",
+			"cammy-depth-low-rush-heavy-arrow"
+		]
+	},
+	{
+		"id": "cammy-depth-low-rush-heavy-knuckle-side-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Low Rush: crouching-heavy launch into Knuckle side switch",
+		"summary": "Force the standing launch with crouching heavy, use back heavy kick, and whiff heavy Knuckle beneath the falling opponent.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Side switch"],
+		"outcomes": ["Side switch", "Knockdown"],
+		"notation": "2MK > DRC > 2HP > 4HK > 214HP (whiff)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP (whiff)",
+				"label": "Whiff heavy Quick Spin Knuckle"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching medium kick connects at the shown range"],
+		"notes": [
+			"The overlay omits “whiff” in this take; the hit count remains unchanged through Knuckle, which moves Cammy beneath Ryu."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 380.75,
+			"end": 384.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-low-rush-heavy-knuckle-side-switch/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-low-rush-heavy-knuckle-side-switch/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-low-rush-heavy-knuckle-side-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-low-rush-heavy-knuckle-side-switch/frame-1.jpg",
+					"at": 0.55,
+					"label": "Low starter",
+					"alt": "Crouching medium kick starts the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-low-rush-heavy-knuckle-side-switch/frame-2.jpg",
+					"at": 1.25,
+					"label": "Crouching-heavy link",
+					"alt": "The Rush crouching heavy connects before back heavy."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-low-rush-heavy-knuckle-side-switch/frame-3.jpg",
+					"at": 1.95,
+					"label": "Back-heavy launch",
+					"alt": "Back heavy kick sends Ryu upward."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-low-rush-heavy-knuckle-side-switch/frame-4.jpg",
+					"at": 2.6,
+					"label": "Knuckle side switch",
+					"alt": "Heavy Knuckle passes under Ryu without adding a hit."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-low-double-rush-level-two",
+			"cammy-depth-low-rush-heavy-arrow",
+			"cammy-depth-low-rush-heavy-target-medium-arrow"
+		]
+	},
+	{
+		"id": "cammy-depth-low-rush-heavy-target-medium-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Low Rush: heavy target into medium-Arrow knockdown",
+		"summary": "Use the heavy target kick before medium Arrow for the demonstrated longer knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 2HP > 5HP > ~HK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching medium kick connects at the demonstrated range"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 391.05,
+			"end": 396.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-low-rush-heavy-target-medium-arrow/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-low-rush-heavy-target-medium-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-low-rush-heavy-target-medium-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-low-rush-heavy-target-medium-arrow/frame-1.jpg",
+					"at": 0.7,
+					"label": "Low Rush cancel",
+					"alt": "Crouching medium kick cancels into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-low-rush-heavy-target-medium-arrow/frame-2.jpg",
+					"at": 1.65,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch follows crouching heavy."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-low-rush-heavy-target-medium-arrow/frame-3.jpg",
+					"at": 2.2,
+					"label": "Target kick",
+					"alt": "The target heavy kick launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-low-rush-heavy-target-medium-arrow/frame-4.jpg",
+					"at": 3.25,
+					"label": "Medium Arrow finish",
+					"alt": "Medium Arrow catches the launcher for the recorded +36F knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-low-rush-lift-air-strike",
+			"cammy-depth-low-double-rush-level-two",
+			"cammy-depth-low-rush-heavy-arrow"
+		]
+	},
+	{
+		"id": "cammy-depth-air-medium-super-two-to-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Air-to-air medium: Level 2 into Rush juggles and Level 1",
+		"summary": "Meet the jump with air medium, cancel into airborne Level 2, then carry the juggle through two raw Rushes and a final cancel.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Air-to-air", "Drive Rush", "Cash-out"],
+		"outcomes": ["Knockdown"],
+		"notation": "9 j.MP > j.SA2 > DR > 2HP > DR > 4HK > DRC > 6HK > 236LK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9 j.MP",
+				"label": "Forward-jump medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.SA2",
+				"label": "Airborne Level 2"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "6HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-9",
+				"notation": "236LK",
+				"label": "Light Spiral Arrow"
+			},
+			{
+				"id": "step-10",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu jumps into the displayed air-medium interception",
+			"Three Super stocks and Drive for two raw Rushes plus one cancel available"
+		],
+		"notes": [
+			"This is an air-to-air response, not a grounded anti-air. The recording demonstrates the specific jump spacing and hit height."
+		],
+		"resources": {
+			"drive": "Two raw Rushes plus one cancel (5 bars)",
+			"super": "Level 2 then Level 1 (3 stocks total)"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 697.75,
+			"end": 709.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-air-medium-super-two-to-one/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-air-medium-super-two-to-one/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-air-medium-super-two-to-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-air-medium-super-two-to-one/frame-1.jpg",
+					"at": 0.75,
+					"label": "Air-to-air contact",
+					"alt": "Cammy’s jumping medium punch meets the airborne Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-air-medium-super-two-to-one/frame-2.jpg",
+					"at": 1.2,
+					"label": "Airborne Level 2",
+					"alt": "Cammy cancels the air medium into Level 2."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-air-medium-super-two-to-one/frame-3.jpg",
+					"at": 4.0,
+					"label": "First Rush juggle",
+					"alt": "Raw Rush reaches the airborne opponent for crouching heavy."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-air-medium-super-two-to-one/frame-4.jpg",
+					"at": 5.5,
+					"label": "Second Rush link",
+					"alt": "The back-heavy juggle cancels into another Rush."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-air-medium-super-two-to-one/frame-5.jpg",
+					"at": 7.05,
+					"label": "Level 1 extension",
+					"alt": "Cammy spends her remaining Super stock after light Arrow."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/cammy/cammy-depth-air-medium-super-two-to-one/frame-6.jpg",
+					"at": 10.5,
+					"label": "Finished juggle",
+					"alt": "The extended air conversion ends in knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-lights-double-rush-level-three",
+			"cammy-depth-blocked-dp-back-heavy-rush-carry",
+			"cammy-depth-corner-blocked-dp-heavy-rush-spike"
+		]
+	},
+	{
+		"id": "cammy-depth-target-arrow-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Target Arrow: Rush into throw",
+		"summary": "Close the larger target-Arrow knockdown gap with raw Rush and take the throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Drive Rush", "Throw pressure", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy-punch target combo into medium Arrow first, shown as +36F; the displayed low-confirm prerequisite spends one cancel Drive Rush",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 400.85,
+			"end": 405.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-target-arrow-rush-throw/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-target-arrow-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-target-arrow-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-throw/frame-1.jpg",
+					"at": 0.85,
+					"label": "Rush approach",
+					"alt": "Raw Drive Rush closes the target-Arrow spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-throw/frame-2.jpg",
+					"at": 1.4,
+					"label": "Throw catch",
+					"alt": "Cammy catches Ryu as he rises."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-throw/frame-3.jpg",
+					"at": 3.4,
+					"label": "Throw result",
+					"alt": "Ryu lands after the throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-walk-throw",
+			"cammy-depth-heavy-arrow-dash-delayed-throw",
+			"cammy-depth-low-rush-light-knuckle-safe-jump"
+		]
+	},
+	{
+		"id": "cammy-depth-target-arrow-rush-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Target Arrow: Rush shimmy into Knuckle",
+		"summary": "Retreat from the recorded throw after Rush and convert heavy punch through Knuckle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Drive Rush", "Shimmy", "Punish counter", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 4 > 5HP > 214HP > 5LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Quick Spin Knuckle"
+			},
+			{
+				"id": "step-5",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy-punch target combo into medium Arrow first, shown as +36F; the displayed low-confirm prerequisite spends one cancel Drive Rush",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"Ryu attempts the recorded wake-up throw."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 410.1,
+			"end": 415.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-target-arrow-rush-shimmy/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-target-arrow-rush-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-target-arrow-rush-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-shimmy/frame-1.jpg",
+					"at": 0.6,
+					"label": "Rush approach",
+					"alt": "Cammy rushes toward the recovering Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-shimmy/frame-2.jpg",
+					"at": 1.15,
+					"label": "Throw whiff",
+					"alt": "Ryu throws as Cammy retreats."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-shimmy/frame-3.jpg",
+					"at": 1.65,
+					"label": "Heavy punish",
+					"alt": "Heavy punch punishes the missed throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-shimmy/frame-4.jpg",
+					"at": 2.15,
+					"label": "Knuckle link",
+					"alt": "Heavy Knuckle links into jab."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-shimmy/frame-5.jpg",
+					"at": 3.15,
+					"label": "Arrow finish",
+					"alt": "Medium Arrow ends the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-shimmy",
+			"cammy-depth-heavy-arrow-dash-shimmy",
+			"cammy-depth-medium-arrow-dash-shimmy"
+		]
+	},
+	{
+		"id": "cammy-depth-target-arrow-rush-heavy-counterhit",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Target Arrow: Rush heavy catches wake-up jab",
+		"summary": "Counter-hit the recorded wake-up jab with Rush crouching heavy and convert through the heavy target combo.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Drive Rush", "Counter hit", "Target combo", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 2HP > 5HP > ~HK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy-punch target combo into medium Arrow first, shown as +36F; the displayed low-confirm prerequisite spends one cancel Drive Rush",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"Ryu uses the displayed wake-up jab."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 420.05,
+			"end": 425.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-target-arrow-rush-heavy-counterhit/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-target-arrow-rush-heavy-counterhit/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-target-arrow-rush-heavy-counterhit/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-heavy-counterhit/frame-1.jpg",
+					"at": 0.65,
+					"label": "Rush approach",
+					"alt": "Cammy approaches the rising opponent."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-heavy-counterhit/frame-2.jpg",
+					"at": 1.7,
+					"label": "Counter-hit heavy",
+					"alt": "Crouching heavy punch counter-hits the recorded jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-heavy-counterhit/frame-3.jpg",
+					"at": 2.2,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch continues the counter-hit conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-heavy-counterhit/frame-4.jpg",
+					"at": 2.7,
+					"label": "Target launch",
+					"alt": "The target heavy kick launches Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-target-arrow-rush-heavy-counterhit/frame-5.jpg",
+					"at": 3.7,
+					"label": "Arrow finish",
+					"alt": "Medium Arrow knocks Ryu down again."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-heavy-target",
+			"cammy-depth-low-rush-heavy-target-medium-arrow",
+			"cammy-depth-low-rush-lift-air-strike"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-target-arrow-hooligan-kick-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner target Arrow: blocked Hooligan kick into throw",
+		"summary": "Land from the blocked Hooligan kick and catch the recorded defender with a normal throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Hooligan", "Throw pressure", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "236HP > ~K > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236HP",
+				"label": "Heavy Hooligan Combination"
+			},
+			{
+				"id": "step-2",
+				"notation": "~K",
+				"label": "Hooligan kick follow-up"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy-punch target combo into medium Arrow first, shown as +36F; the displayed low-confirm prerequisite spends one cancel Drive Rush in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"This is a demonstrated reset after a blocked kick, not a continuous combo."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 443.0,
+			"end": 448.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-throw/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-throw/frame-1.jpg",
+					"at": 0.75,
+					"label": "Hooligan approach",
+					"alt": "Heavy Hooligan approaches the corner wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-throw/frame-2.jpg",
+					"at": 1.25,
+					"label": "Kick blocked",
+					"alt": "Ryu blocks the Hooligan kick follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-throw/frame-3.jpg",
+					"at": 2.25,
+					"label": "Ground throw",
+					"alt": "Cammy throws after landing."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-throw/frame-4.jpg",
+					"at": 4.25,
+					"label": "Throw result",
+					"alt": "Ryu lands beside the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-medium-arrow-low-kill-throw",
+			"cammy-depth-corner-target-arrow-hooligan-delayed-throw",
+			"cammy-depth-corner-target-arrow-hooligan-empty-dp"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-target-arrow-hooligan-kick-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner target Arrow: Hooligan kick shimmy",
+		"summary": "Land after the blocked Hooligan kick, retreat from the throw and punish through the corner target combo.",
+		"kind": "setup",
+		"situations": ["Corner", "Hooligan", "Shimmy", "Punish counter", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "236HP > ~K > 4 > 5HP > ~HK > 236LK > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236HP",
+				"label": "Heavy Hooligan Combination"
+			},
+			{
+				"id": "step-2",
+				"notation": "~K",
+				"label": "Hooligan kick follow-up"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-4",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "236LK",
+				"label": "Light Spiral Arrow"
+			},
+			{
+				"id": "step-7",
+				"notation": "623MK",
+				"label": "Medium Cannon Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy-punch target combo into medium Arrow first, shown as +36F; the displayed low-confirm prerequisite spends one cancel Drive Rush in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"Ryu attempts the recorded throw after blocking the kick."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 452.8,
+			"end": 459.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-shimmy/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-shimmy/frame-1.jpg",
+					"at": 0.95,
+					"label": "Kick blocked",
+					"alt": "Ryu blocks the Hooligan kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-shimmy/frame-2.jpg",
+					"at": 1.45,
+					"label": "Throw whiff",
+					"alt": "Cammy retreats from the recorded throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-shimmy/frame-3.jpg",
+					"at": 1.95,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch catches throw recovery."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-shimmy/frame-4.jpg",
+					"at": 3.45,
+					"label": "Arrow juggle",
+					"alt": "Light Arrow follows the target launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-shimmy/frame-5.jpg",
+					"at": 4.45,
+					"label": "Spike finish",
+					"alt": "Medium Cannon Spike finishes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-medium-arrow-low-kill-shimmy",
+			"cammy-depth-corner-throw-walk-shimmy",
+			"cammy-depth-target-hooligan-slide-shimmy"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-target-arrow-hooligan-kick-hit",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner target Arrow: Hooligan kick hit confirm",
+		"summary": "Convert the Hooligan kick hit into the heavy target combo and light-Arrow juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Hooligan", "Target combo", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "236HP > ~K > 5HP > ~HK > 236LK > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236HP",
+				"label": "Heavy Hooligan Combination"
+			},
+			{
+				"id": "step-2",
+				"notation": "~K",
+				"label": "Hooligan kick follow-up"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "Light Spiral Arrow"
+			},
+			{
+				"id": "step-6",
+				"notation": "623MK",
+				"label": "Medium Cannon Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy-punch target combo into medium Arrow first, shown as +36F; the displayed low-confirm prerequisite spends one cancel Drive Rush in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 463.55,
+			"end": 469.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-hit/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-hit/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-hit/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-hit/frame-1.jpg",
+					"at": 0.85,
+					"label": "Hooligan kick hit",
+					"alt": "The kick follow-up connects on Ryu’s recovery."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-hit/frame-2.jpg",
+					"at": 1.7,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch links after the kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-hit/frame-3.jpg",
+					"at": 2.05,
+					"label": "Target launch",
+					"alt": "The target kick launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-hit/frame-4.jpg",
+					"at": 2.7,
+					"label": "Arrow juggle",
+					"alt": "Light Arrow catches the launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-kick-hit/frame-5.jpg",
+					"at": 4.05,
+					"label": "Spike finish",
+					"alt": "Medium Cannon Spike ends the corner conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-medium-arrow-low-kill-heavy",
+			"cammy-depth-corner-medium-arrow-od-knuckle-switch",
+			"cammy-depth-corner-target-arrow-hooligan-delayed-throw"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-target-arrow-hooligan-empty-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner target Arrow: empty Hooligan blocks DP",
+		"summary": "Use Hooligan’s early landing to recover and block the recorded OD Shoryuken.",
+		"kind": "response",
+		"situations": ["Corner", "Hooligan", "Reversal bait", "Oki"],
+		"outcomes": ["Blocked reversal"],
+		"notation": "236HP > ~P > 4",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236HP",
+				"label": "Heavy Hooligan Combination"
+			},
+			{
+				"id": "step-2",
+				"notation": "~P",
+				"label": "Hooligan early landing"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Block"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy-punch target combo into medium Arrow first, shown as +36F; the displayed low-confirm prerequisite spends one cancel Drive Rush in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"Only the shown Ryu OD Shoryuken response is reviewed. No punish is demonstrated in this excerpt."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 473.85,
+			"end": 477.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-empty-dp/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-empty-dp/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-empty-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-empty-dp/frame-1.jpg",
+					"at": 0.7,
+					"label": "Hooligan approach",
+					"alt": "Heavy Hooligan approaches Ryu’s wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-empty-dp/frame-2.jpg",
+					"at": 0.85,
+					"label": "Early landing",
+					"alt": "Cammy cancels Hooligan with the punch early-landing option."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-empty-dp/frame-3.jpg",
+					"at": 1.4,
+					"label": "DP blocked",
+					"alt": "Cammy guards the recorded OD Shoryuken."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-empty-dp/frame-4.jpg",
+					"at": 2.9,
+					"label": "Recovered guard",
+					"alt": "Cammy remains grounded after the reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-target-arrow-hooligan-delayed-throw",
+			"cammy-depth-corner-target-arrow-hooligan-kick-hit",
+			"cammy-depth-corner-target-arrow-hooligan-kick-shimmy"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-target-arrow-hooligan-delayed-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Corner target Arrow: delayed Hooligan command throw",
+		"summary": "Delay the Hooligan throw follow-up to catch the recorded grounded recovery.",
+		"kind": "setup",
+		"situations": ["Corner", "Hooligan", "Command throw", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "236HP > Delay > ~LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236HP",
+				"label": "Heavy Hooligan Combination"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Match the demonstrated delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "~LP+LK",
+				"label": "Hooligan command throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy-punch target combo into medium Arrow first, shown as +36F; the displayed low-confirm prerequisite spends one cancel Drive Rush in the corner",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"The defender is grounded and throwable at the demonstrated timing. This is the Hooligan command throw, not a normal ground throw."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 481.6,
+			"end": 485.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-delayed-throw/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-delayed-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-delayed-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-delayed-throw/frame-1.jpg",
+					"at": 0.65,
+					"label": "Hooligan approach",
+					"alt": "Cammy begins heavy Hooligan over the corner recovery."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-delayed-throw/frame-2.jpg",
+					"at": 1.2,
+					"label": "Command-throw catch",
+					"alt": "The delayed airborne command throw catches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-target-arrow-hooligan-delayed-throw/frame-3.jpg",
+					"at": 2.65,
+					"label": "Throw result",
+					"alt": "Ryu lands from the Hooligan throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-target-arrow-hooligan-empty-dp",
+			"cammy-depth-corner-target-arrow-hooligan-kick-hit",
+			"cammy-depth-corner-target-arrow-hooligan-kick-shimmy"
+		]
+	},
+	{
+		"id": "cammy-depth-low-double-rush-level-two",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Low confirm: double-Rush Level 2 finish",
+		"summary": "Use standing medium after the second Rush cancel and link both crouching punches into Level 2.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Stock choice"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > DRC > 2HP > 5HP > DRC > 5MP > 2HP > 2MP > SA2",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "5MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "2MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA2",
+				"label": "Level 2 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drive for two cancel Rushes",
+			"At least two Super stocks available"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Two cancel Drive Rushes (6 bars)",
+			"super": "Level 2 (2 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 496.8,
+			"end": 506.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-low-double-rush-level-two/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-low-double-rush-level-two/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-low-double-rush-level-two/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-low-double-rush-level-two/frame-1.jpg",
+					"at": 0.6,
+					"label": "Low Rush starter",
+					"alt": "Crouching medium kick cancels into the first Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-low-double-rush-level-two/frame-2.jpg",
+					"at": 1.45,
+					"label": "Heavy extension",
+					"alt": "Heavy punch provides the second Rush cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-low-double-rush-level-two/frame-3.jpg",
+					"at": 2.45,
+					"label": "Medium link",
+					"alt": "Standing medium punch connects after the second cancel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-low-double-rush-level-two/frame-4.jpg",
+					"at": 3.45,
+					"label": "Crouching-medium link",
+					"alt": "Crouching medium punch follows crouching heavy."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-low-double-rush-level-two/frame-5.jpg",
+					"at": 4.0,
+					"label": "Level 2 activation",
+					"alt": "Cammy spends two Super stocks."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/cammy/cammy-depth-low-double-rush-level-two/frame-6.jpg",
+					"at": 9.1,
+					"label": "Super finish",
+					"alt": "The Level 2 conversion ends in knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-low-rush-knuckle-level-one",
+			"cammy-depth-low-rush-heavy-arrow",
+			"cammy-depth-low-rush-heavy-knuckle-side-switch"
+		]
+	},
+	{
+		"id": "cammy-depth-target-hooligan-slide-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Heavy target: Hooligan slide into throw",
+		"summary": "Let medium Hooligan finish with its slide, then throw after the recorded block.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Hooligan", "Throw pressure", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "236MP > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MP",
+				"label": "Medium Hooligan Combination"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing heavy-punch target combo hits first; medium Hooligan then reaches the recorded block timing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"The source reports +2F after the blocked slide. This is block pressure following the target-combo knockdown, not a continuous throw combo."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 731.6,
+			"end": 736.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-target-hooligan-slide-throw/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-target-hooligan-slide-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-target-hooligan-slide-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-target-hooligan-slide-throw/frame-1.jpg",
+					"at": 0.65,
+					"label": "Hooligan approach",
+					"alt": "Medium Hooligan travels after the target launch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-target-hooligan-slide-throw/frame-2.jpg",
+					"at": 1.15,
+					"label": "Slide blocked",
+					"alt": "Ryu blocks the automatic slide follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-target-hooligan-slide-throw/frame-3.jpg",
+					"at": 2.15,
+					"label": "Throw catch",
+					"alt": "Cammy throws after recovering from the slide."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-target-hooligan-slide-throw/frame-4.jpg",
+					"at": 3.65,
+					"label": "Throw result",
+					"alt": "Ryu falls after the pressure reset."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-walk-throw",
+			"cammy-depth-corner-target-arrow-hooligan-kick-throw",
+			"cammy-depth-heavy-arrow-dash-delayed-throw"
+		]
+	},
+	{
+		"id": "cammy-depth-target-hooligan-slide-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Heavy target: blocked Hooligan slide shimmy",
+		"summary": "Walk away after the blocked slide and punish the recorded throw with heavy Knuckle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Hooligan", "Shimmy", "Punish counter", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "236MP > 4 > 5HP > 214HP > 5LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MP",
+				"label": "Medium Hooligan Combination"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Quick Spin Knuckle"
+			},
+			{
+				"id": "step-5",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing heavy-punch target combo hits first; medium Hooligan then reaches the recorded block timing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"Ryu attempts the recorded throw after blocking the slide."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 739.15,
+			"end": 744.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-target-hooligan-slide-shimmy/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-target-hooligan-slide-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-target-hooligan-slide-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-target-hooligan-slide-shimmy/frame-1.jpg",
+					"at": 0.6,
+					"label": "Hooligan approach",
+					"alt": "Medium Hooligan travels over the recovering Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-target-hooligan-slide-shimmy/frame-2.jpg",
+					"at": 1.1,
+					"label": "Slide blocked",
+					"alt": "Ryu blocks the Hooligan slide."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-target-hooligan-slide-shimmy/frame-3.jpg",
+					"at": 1.6,
+					"label": "Throw whiff",
+					"alt": "Ryu attempts a throw as Cammy retreats."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-target-hooligan-slide-shimmy/frame-4.jpg",
+					"at": 2.1,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch scores Punish Counter."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-target-hooligan-slide-shimmy/frame-5.jpg",
+					"at": 3.6,
+					"label": "Arrow finish",
+					"alt": "Medium Arrow ends the heavy-Knuckle conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-shimmy",
+			"cammy-depth-corner-target-arrow-hooligan-kick-shimmy",
+			"cammy-depth-heavy-arrow-dash-shimmy"
+		]
+	},
+	{
+		"id": "cammy-depth-heavy-target-hooligan-downward-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Heavy target: Hooligan downward kick into corner juggle",
+		"summary": "Take the downward kick from medium Hooligan and link another heavy target combo into Arrow and Spike.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Heavy confirm", "Hooligan", "Target combo", "Corner carry"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "5HP > ~HK > 236MP > ~2K > 5HP > ~HK > 236LK > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Hooligan Combination"
+			},
+			{
+				"id": "step-4",
+				"notation": "~2K",
+				"label": "Hooligan downward-kick follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "236LK",
+				"label": "Light Spiral Arrow"
+			},
+			{
+				"id": "step-8",
+				"notation": "623MK",
+				"label": "Medium Cannon Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close-range standing heavy punch hits",
+			"The follow-up kick connects at the recorded Hooligan spacing"
+		],
+		"notes": [
+			"The Hooligan kick and subsequent heavy link form the recorded reset after the initial target combo; no uninterrupted combo is claimed."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 745.2,
+			"end": 753.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-heavy-target-hooligan-downward-kick/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-heavy-target-hooligan-downward-kick/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-heavy-target-hooligan-downward-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-heavy-target-hooligan-downward-kick/frame-1.jpg",
+					"at": 1.05,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch starts the target combo."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-heavy-target-hooligan-downward-kick/frame-2.jpg",
+					"at": 2.05,
+					"label": "Hooligan approach",
+					"alt": "Medium Hooligan follows the target launch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-heavy-target-hooligan-downward-kick/frame-3.jpg",
+					"at": 2.85,
+					"label": "Downward kick",
+					"alt": "The Hooligan downward kick connects on the recovering Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-heavy-target-hooligan-downward-kick/frame-4.jpg",
+					"at": 4.05,
+					"label": "Heavy target link",
+					"alt": "Standing heavy punch links into another target launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-heavy-target-hooligan-downward-kick/frame-5.jpg",
+					"at": 5.05,
+					"label": "Light Arrow",
+					"alt": "Light Arrow catches the second target launch."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/cammy/cammy-depth-heavy-target-hooligan-downward-kick/frame-6.jpg",
+					"at": 6.05,
+					"label": "Medium Spike",
+					"alt": "Medium Cannon Spike finishes the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-heavy-target",
+			"cammy-depth-blocked-dp-back-heavy-rush-carry",
+			"cammy-depth-corner-blocked-dp-heavy-rush-spike"
+		]
+	},
+	{
+		"id": "cammy-depth-standing-heavy-arrow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Standing heavy into heavy Arrow",
+		"summary": "Cancel standing heavy punch directly into heavy Arrow for the meterless heavy knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "5HP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HK",
+				"label": "Heavy Spiral Arrow"
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy punch hits within heavy-Arrow range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 775.1,
+			"end": 777.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-standing-heavy-arrow/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-standing-heavy-arrow/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-standing-heavy-arrow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-standing-heavy-arrow/frame-1.jpg",
+					"at": 0.9,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-standing-heavy-arrow/frame-2.jpg",
+					"at": 1.45,
+					"label": "Arrow cancel",
+					"alt": "Heavy Spiral Arrow cancels the standing heavy."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-standing-heavy-arrow/frame-3.jpg",
+					"at": 2.15,
+					"label": "Arrow knockdown",
+					"alt": "Ryu falls after heavy Arrow."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-heavy-target-hooligan-downward-kick",
+			"cammy-ebios-crouching-heavy-medium-heavy-arrow",
+			"cammy-depth-air-medium-super-two-to-one"
+		]
+	},
+	{
+		"id": "cammy-depth-blocked-dp-back-heavy-rush-carry",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Blocked DP: back-heavy raw-Rush carry",
+		"summary": "Punish the blocked OD DP with crouching heavy, then chase the back-heavy launch with raw Rush and held Arrow.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter", "Drive Rush", "Corner carry"],
+		"outcomes": ["Corner carry", "Knockdown"],
+		"notation": "2HP > 4HK > DR > 4HK > 236HK (short hold) > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK (short hold)",
+				"label": "Short-held heavy Spiral Arrow",
+				"cue": "Match the demonstrated short hold before releasing HK."
+			},
+			{
+				"id": "step-6",
+				"notation": "623MK",
+				"label": "Medium Cannon Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Block Ryu’s displayed OD Shoryuken at the recorded close range",
+			"Crouching heavy must score Punish Counter"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 802.25,
+			"end": 809.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-blocked-dp-back-heavy-rush-carry/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-blocked-dp-back-heavy-rush-carry/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-blocked-dp-back-heavy-rush-carry/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-blocked-dp-back-heavy-rush-carry/frame-1.jpg",
+					"at": 1.0,
+					"label": "OD DP blocked",
+					"alt": "Cammy guards the displayed OD Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-blocked-dp-back-heavy-rush-carry/frame-2.jpg",
+					"at": 2.0,
+					"label": "Crouching-heavy punish",
+					"alt": "Crouching heavy punch scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-blocked-dp-back-heavy-rush-carry/frame-3.jpg",
+					"at": 3.0,
+					"label": "Back-heavy launch",
+					"alt": "Back heavy kick launches before raw Rush."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-blocked-dp-back-heavy-rush-carry/frame-4.jpg",
+					"at": 4.0,
+					"label": "Rush juggle",
+					"alt": "The second back heavy connects during the Rush chase."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-blocked-dp-back-heavy-rush-carry/frame-5.jpg",
+					"at": 4.5,
+					"label": "Held Arrow",
+					"alt": "Short-held heavy Arrow carries Ryu toward the wall."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/cammy/cammy-depth-blocked-dp-back-heavy-rush-carry/frame-6.jpg",
+					"at": 5.5,
+					"label": "Medium Spike finish",
+					"alt": "Medium Cannon Spike finishes the carried juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-corner-blocked-dp-heavy-rush-spike",
+			"cammy-depth-target-arrow-rush-shimmy",
+			"cammy-depth-air-medium-super-two-to-one"
+		]
+	},
+	{
+		"id": "cammy-depth-corner-blocked-dp-heavy-rush-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Blocked DP: heavy link into Arrow and Spike carry",
+		"summary": "Link standing heavy after the crouching-heavy punish, then Rush-cancel into back heavy and carry through Arrow and Spike.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter", "Drive Rush", "Corner carry"],
+		"outcomes": ["Corner carry", "Knockdown"],
+		"notation": "2HP > 5HP > DRC > 4HK > 236HK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "Heavy Spiral Arrow"
+			},
+			{
+				"id": "step-6",
+				"notation": "623HK",
+				"label": "Heavy Cannon Spike"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Block the recorded OD Shoryuken at the displayed spacing",
+			"Crouching heavy scores Punish Counter"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 810.25,
+			"end": 816.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-corner-blocked-dp-heavy-rush-spike/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-corner-blocked-dp-heavy-rush-spike/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-corner-blocked-dp-heavy-rush-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-corner-blocked-dp-heavy-rush-spike/frame-1.jpg",
+					"at": 1.0,
+					"label": "Reversal block",
+					"alt": "Cammy guards Ryu’s OD Shoryuken."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-corner-blocked-dp-heavy-rush-spike/frame-2.jpg",
+					"at": 2.5,
+					"label": "Punish starter",
+					"alt": "Crouching heavy punch scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-corner-blocked-dp-heavy-rush-spike/frame-3.jpg",
+					"at": 3.0,
+					"label": "Standing-heavy link",
+					"alt": "Standing heavy punch connects before the Rush cancel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-corner-blocked-dp-heavy-rush-spike/frame-4.jpg",
+					"at": 4.0,
+					"label": "Back-heavy launch",
+					"alt": "Back heavy kick launches from the Rush."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-corner-blocked-dp-heavy-rush-spike/frame-5.jpg",
+					"at": 4.5,
+					"label": "Arrow juggle",
+					"alt": "Heavy Arrow catches Ryu at the wall."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/cammy/cammy-depth-corner-blocked-dp-heavy-rush-spike/frame-6.jpg",
+					"at": 6.0,
+					"label": "Heavy Spike",
+					"alt": "Heavy Cannon Spike completes the corner punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-blocked-dp-back-heavy-rush-carry",
+			"cammy-depth-target-arrow-rush-shimmy",
+			"cammy-depth-air-medium-super-two-to-one"
+		]
+	},
+	{
+		"id": "cammy-depth-sweep-pc-timing-dive-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "PC sweep: timing jab and dive kick into throw",
+		"summary": "Whiff the timing jab, jump into heavy Strike, then throw after the recorded block.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Frame kill", "Jump pressure", "Throw pressure", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP (whiff) > 9 > j.214HK > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP (whiff)",
+				"label": "Whiff crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-3",
+				"notation": "j.214HK",
+				"label": "Heavy Cannon Strike"
+			},
+			{
+				"id": "step-4",
+				"notation": "LP+LK",
+				"label": "Forward throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Punish-counter crouching heavy kick first, shown as a +43F hard knockdown at this midscreen spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"The +4F caption is the result of the blocked dive kick, not a four-frame wait."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 925.5,
+			"end": 930.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-sweep-pc-timing-dive-throw/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-sweep-pc-timing-dive-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-sweep-pc-timing-dive-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-throw/frame-1.jpg",
+					"at": 0.4,
+					"label": "Timing jab",
+					"alt": "Crouching light punch whiffs during the hard knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-throw/frame-2.jpg",
+					"at": 0.75,
+					"label": "Jump approach",
+					"alt": "Cammy jumps toward the recovering Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-throw/frame-3.jpg",
+					"at": 1.25,
+					"label": "Strike blocked",
+					"alt": "Ryu blocks heavy Cannon Strike."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-throw/frame-4.jpg",
+					"at": 1.75,
+					"label": "Throw catch",
+					"alt": "Cammy throws after landing."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-throw/frame-5.jpg",
+					"at": 3.75,
+					"label": "Throw result",
+					"alt": "Ryu lands from the follow-up throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-sweep-pc-timing-dive-heavy-target",
+			"cammy-depth-sweep-pc-timing-dive-shimmy",
+			"cammy-depth-air-strike-dash-walk-throw"
+		]
+	},
+	{
+		"id": "cammy-depth-sweep-pc-timing-dive-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "PC sweep: blocked dive-kick shimmy",
+		"summary": "Retreat after the blocked heavy Strike and punish the recorded throw through Knuckle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Frame kill", "Jump pressure", "Shimmy", "Punish counter", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP (whiff) > 9 > j.214HK > 4 > 5HP > 214HP > 5LP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP (whiff)",
+				"label": "Whiff crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-3",
+				"notation": "j.214HK",
+				"label": "Heavy Cannon Strike"
+			},
+			{
+				"id": "step-4",
+				"notation": "4",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-5",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "Heavy Quick Spin Knuckle"
+			},
+			{
+				"id": "step-7",
+				"notation": "5LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Punish-counter crouching heavy kick first, shown as a +43F hard knockdown at this midscreen spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": [
+			"Listed inputs and resource spend begin after the prerequisite knockdown.",
+			"Ryu attempts the recorded throw after blocking the dive kick."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 932.35,
+			"end": 937.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-sweep-pc-timing-dive-shimmy/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-sweep-pc-timing-dive-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-sweep-pc-timing-dive-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-shimmy/frame-1.jpg",
+					"at": 0.25,
+					"label": "Timing jab",
+					"alt": "Cammy whiffs crouching light punch over the knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-shimmy/frame-2.jpg",
+					"at": 0.9,
+					"label": "Strike blocked",
+					"alt": "Ryu blocks heavy Cannon Strike."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-shimmy/frame-3.jpg",
+					"at": 1.55,
+					"label": "Throw whiff",
+					"alt": "Cammy retreats from Ryu’s attempted throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-shimmy/frame-4.jpg",
+					"at": 1.9,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch catches throw recovery."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-shimmy/frame-5.jpg",
+					"at": 3.4,
+					"label": "Arrow finish",
+					"alt": "Medium Arrow ends the Knuckle conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-shimmy",
+			"cammy-depth-corner-medium-arrow-low-kill-shimmy",
+			"cammy-depth-heavy-arrow-dash-shimmy"
+		]
+	},
+	{
+		"id": "cammy-depth-sweep-pc-timing-dive-heavy-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "PC sweep: dive-kick hit into heavy target",
+		"summary": "Convert the heavy Strike hit into heavy target combo and medium Arrow.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Frame kill", "Jump pressure", "Target combo", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP (whiff) > 9 > j.214HK > 5HP > ~HK > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP (whiff)",
+				"label": "Whiff crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-3",
+				"notation": "j.214HK",
+				"label": "Heavy Cannon Strike"
+			},
+			{
+				"id": "step-4",
+				"notation": "5HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "~HK",
+				"label": "Target-combo heavy kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Spiral Arrow"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Punish-counter crouching heavy kick first, shown as a +43F hard knockdown at this midscreen spacing",
+			"Match the demonstrated knockdown spacing and recovery timing"
+		],
+		"notes": ["Listed inputs and resource spend begin after the prerequisite knockdown."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 939.45,
+			"end": 944.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-sweep-pc-timing-dive-heavy-target/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-sweep-pc-timing-dive-heavy-target/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-sweep-pc-timing-dive-heavy-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-heavy-target/frame-1.jpg",
+					"at": 0.45,
+					"label": "Timing jab",
+					"alt": "Cammy whiffs crouching light punch during the sweep knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-heavy-target/frame-2.jpg",
+					"at": 1.05,
+					"label": "Strike hit",
+					"alt": "Heavy Cannon Strike connects on recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-heavy-target/frame-3.jpg",
+					"at": 1.8,
+					"label": "Heavy link",
+					"alt": "Standing heavy punch links after the dive kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-heavy-target/frame-4.jpg",
+					"at": 2.3,
+					"label": "Target kick",
+					"alt": "The target heavy kick launches Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-sweep-pc-timing-dive-heavy-target/frame-5.jpg",
+					"at": 3.3,
+					"label": "Medium Arrow",
+					"alt": "Medium Arrow ends the dive-kick conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-sweep-pc-timing-dive-shimmy",
+			"cammy-depth-sweep-pc-timing-dive-throw",
+			"cammy-depth-air-strike-dash-heavy-target"
+		]
+	},
+	{
+		"id": "cammy-depth-forward-heavy-pc-knuckle-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "Forward-heavy PC: light Knuckle into Level 1",
+		"summary": "Use the forward-heavy Punish Counter launch for a meterless-Drive Knuckle and Level 1 conversion.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Stock choice"],
+		"outcomes": ["Knockdown"],
+		"notation": "6HK > 214LP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HK",
+				"label": "Forward heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "214LP",
+				"label": "Light Quick Spin Knuckle"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Forward heavy kick scores Punish Counter",
+			"At least one Super stock available"
+		],
+		"notes": [
+			"The source lists Spike and Level 3 alternatives; only the displayed Level 1 take is extracted here."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 1 (1 stock)"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 949.55,
+			"end": 956.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-forward-heavy-pc-knuckle-level-one/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-forward-heavy-pc-knuckle-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-forward-heavy-pc-knuckle-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-forward-heavy-pc-knuckle-level-one/frame-1.jpg",
+					"at": 1.2,
+					"label": "Punish-counter launch",
+					"alt": "Forward heavy kick scores Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-forward-heavy-pc-knuckle-level-one/frame-2.jpg",
+					"at": 1.7,
+					"label": "Light Knuckle",
+					"alt": "Light Knuckle juggles the launch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-forward-heavy-pc-knuckle-level-one/frame-3.jpg",
+					"at": 2.7,
+					"label": "Level 1 activation",
+					"alt": "Cammy spends one Super stock."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-forward-heavy-pc-knuckle-level-one/frame-4.jpg",
+					"at": 5.2,
+					"label": "Super juggle",
+					"alt": "Level 1 finishes its rising hits."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-forward-heavy-pc-knuckle-level-one/frame-5.jpg",
+					"at": 6.2,
+					"label": "Super knockdown",
+					"alt": "Ryu lands after the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-air-strike-dash-shimmy",
+			"cammy-depth-blocked-dp-back-heavy-rush-carry",
+			"cammy-depth-corner-blocked-dp-heavy-rush-spike"
+		]
+	},
+	{
+		"id": "cammy-depth-od-hooligan-pc-throw-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cammy"
+			}
+		],
+		"title": "OD Hooligan PC throw into Level 3",
+		"summary": "Catch the recorded standing recovery with OD Hooligan’s command throw and spend all three Super stocks.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Hooligan", "Command throw", "Punish counter", "Cash-out"],
+		"outcomes": ["Knockdown"],
+		"notation": "236PP > ~LP+LK > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236PP",
+				"label": "OD Hooligan Combination"
+			},
+			{
+				"id": "step-2",
+				"notation": "~LP+LK",
+				"label": "Hooligan command throw"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The opponent is grounded and throwable",
+			"The recorded Hooligan throw scores Punish Counter",
+			"OD Drive and three Super stocks available"
+		],
+		"notes": [
+			"Only the recorded Punish Counter take is reviewed; a normal-hit throw-to-Super route is not asserted."
+		],
+		"resources": {
+			"drive": "OD Hooligan (2 bars)",
+			"super": "Level 3 (3 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-cammy-indepth-june-2026",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"start": 957.8,
+			"end": 971.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Performed actions, input history, clip boundaries and selected moments reviewed against the dated source footage. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/cammy/cammy-depth-od-hooligan-pc-throw-level-three/clip.mp4",
+			"poster": "/media/cammy/cammy-depth-od-hooligan-pc-throw-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/cammy/cammy-depth-od-hooligan-pc-throw-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cammy/cammy-depth-od-hooligan-pc-throw-level-three/frame-1.jpg",
+					"at": 0.95,
+					"label": "OD Hooligan",
+					"alt": "Gold Hooligan approaches the standing Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cammy/cammy-depth-od-hooligan-pc-throw-level-three/frame-2.jpg",
+					"at": 1.45,
+					"label": "Punish-counter throw",
+					"alt": "The Hooligan command throw scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cammy/cammy-depth-od-hooligan-pc-throw-level-three/frame-3.jpg",
+					"at": 2.45,
+					"label": "Level 3 activation",
+					"alt": "Cammy spends all three Super stocks after the throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cammy/cammy-depth-od-hooligan-pc-throw-level-three/frame-4.jpg",
+					"at": 9.95,
+					"label": "Level 3 cinematic",
+					"alt": "Level 3 continues the throw conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/cammy/cammy-depth-od-hooligan-pc-throw-level-three/frame-5.jpg",
+					"at": 12.45,
+					"label": "Hard knockdown",
+					"alt": "Ryu falls after the Level 3 finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"cammy-depth-target-hooligan-slide-shimmy",
+			"cammy-depth-air-medium-super-two-to-one",
+			"cammy-depth-air-strike-dash-shimmy"
+		]
 	}
 ]

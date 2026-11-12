@@ -1266,5 +1266,6027 @@
 			"mbison-crusher-dash-throw",
 			"mbison-low-lights-backfist"
 		]
+	},
+	{
+		"id": "mbison-depth-light-crusher-dash-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Light Crusher: dash into low light confirm",
+		"summary": "Dash after the +24 light-Crusher knockdown and restart pressure with a low light chain.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > 2LK > 2LP > st.LP > [4]6LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LK",
+				"label": "2LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-5",
+				"notation": "[4]6LP",
+				"label": "[4]6LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: light-confirm light Psycho Crusher knockdown, captioned +24, with no pre-existing mine. Begin at the demonstrated recovery spacing."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 18.05,
+			"end": 22.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-light-crusher-dash-low/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-light-crusher-dash-low/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-light-crusher-dash-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-light-crusher-dash-low/frame-1.jpg",
+					"at": 0.6,
+					"label": "Dash approach",
+					"alt": "Bison dashes toward the recovering Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-light-crusher-dash-low/frame-2.jpg",
+					"at": 0.8,
+					"label": "Low starter",
+					"alt": "Crouching light kick starts the wake-up confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-light-crusher-dash-low/frame-3.jpg",
+					"at": 1.6,
+					"label": "Light chain",
+					"alt": "The crouching and standing light punches continue the hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-light-crusher-dash-low/frame-4.jpg",
+					"at": 2.35,
+					"label": "Light Crusher",
+					"alt": "Light Psycho Crusher ends the light confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-heavy-backfist-rush-low-shadow",
+			"mbison-crusher-dash-throw",
+			"mbison-depth-light-crusher-dash-medium"
+		]
+	},
+	{
+		"id": "mbison-depth-light-crusher-dash-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Light Crusher: dash medium link",
+		"summary": "The same +24 knockdown supports a medium-punch link into medium Psycho Crusher.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "66 > st.MP > 2MP > [4]6MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "[4]6MP",
+				"label": "[4]6MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: light-confirm light Psycho Crusher knockdown, captioned +24, with no pre-existing mine. Begin at the demonstrated recovery spacing."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 24.15,
+			"end": 28.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-light-crusher-dash-medium/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-light-crusher-dash-medium/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-light-crusher-dash-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-light-crusher-dash-medium/frame-1.jpg",
+					"at": 0.85,
+					"label": "Dash approach",
+					"alt": "Bison dashes toward Ryu as he recovers."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-light-crusher-dash-medium/frame-2.jpg",
+					"at": 1.6,
+					"label": "Medium starter",
+					"alt": "Standing medium punch connects on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-light-crusher-dash-medium/frame-3.jpg",
+					"at": 2.1,
+					"label": "Crouching link",
+					"alt": "Crouching medium punch follows."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-light-crusher-dash-medium/frame-4.jpg",
+					"at": 2.85,
+					"label": "Medium Crusher",
+					"alt": "Medium Psycho Crusher finishes the link."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-crusher-dash-throw",
+			"mbison-depth-light-crusher-dash-low",
+			"mbison-depth-heavy-backfist-rush-overhead-shadow"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-crusher-kill-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner light Crusher: light-kick kill and shimmy",
+		"summary": "Whiff standing light kick, retreat from the throw and punish with crouching medium punch into heavy Backfist.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "st.LK (whiff) > Walk back > 2MP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK (whiff)",
+				"label": "st.LK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner light-confirm light Psycho Crusher knockdown, captioned +24, with no pre-existing mine."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 42.0,
+			"end": 46.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-crusher-kill-shimmy/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-crusher-kill-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-crusher-kill-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-crusher-kill-shimmy/frame-1.jpg",
+					"at": 0.8,
+					"label": "Frame kill",
+					"alt": "Standing light kick intentionally misses during Ryu’s knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-crusher-kill-shimmy/frame-2.jpg",
+					"at": 1.2,
+					"label": "Throw bait",
+					"alt": "Ryu misses a throw as Bison retreats."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-crusher-kill-shimmy/frame-3.jpg",
+					"at": 1.7,
+					"label": "Punish counter",
+					"alt": "Crouching medium punch punishes the missed throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-crusher-kill-shimmy/frame-4.jpg",
+					"at": 2.9,
+					"label": "Heavy Backfist",
+					"alt": "Heavy Backfist Combo plants a mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-backfist-kill-shimmy-shadow",
+			"mbison-depth-medium-backfist-block-heavy-shimmy-shadow",
+			"mbison-depth-medium-backfist-block-heavy-shimmy-crusher"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-crusher-kill-mediums",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner light Crusher: light-kick kill, two mediums",
+		"summary": "The whiffed light-kick frame kill leads into two standing mediums, crouching medium punch and medium Backfist.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "st.LK (whiff) > st.MP > st.MP > 2MP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK (whiff)",
+				"label": "st.LK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner light-confirm light Psycho Crusher knockdown, captioned +24, with no pre-existing mine."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 49.0,
+			"end": 54.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-crusher-kill-mediums/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-crusher-kill-mediums/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-crusher-kill-mediums/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-crusher-kill-mediums/frame-1.jpg",
+					"at": 0.65,
+					"label": "Frame kill",
+					"alt": "Standing light kick intentionally misses while Ryu is down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-crusher-kill-mediums/frame-2.jpg",
+					"at": 1.1,
+					"label": "Meaty medium",
+					"alt": "The first standing medium punch catches wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-crusher-kill-mediums/frame-3.jpg",
+					"at": 1.65,
+					"label": "Second medium",
+					"alt": "A second standing medium punch links after the meaty hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-crusher-kill-mediums/frame-4.jpg",
+					"at": 3.0,
+					"label": "Medium Backfist",
+					"alt": "Medium Backfist Combo ends the medium-punch chain."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-corner-crusher-kill-throw",
+			"mbison-depth-corner-crusher-kill-shimmy",
+			"mbison-depth-light-backfist-throw-overhead-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-light-backfist-throw-overhead-mine",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Light Backfist: throw, delayed overhead and mine juggle",
+		"summary": "Whiff crouching light kick, throw, then delay the medium-overhead target chain into the mine and air-target pickup.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw", "Mine conversion"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "2LK (whiff) > LP+LK > Delay > st.MP > 6HP > 9 > j.MP > j.MP (delay) > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "2LK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "Delay",
+				"label": "Delay"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-7",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.MP (delay)",
+				"label": "Delayed second air-target punch",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-9",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner light Backfist Combo knockdown (214LP), captioned +21. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"This is a two-touch wake-up sequence: the throw ends one interaction; the later strike/pressure and mine detonation form a separate interaction. It is not one continuous throw combo.",
+			"The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 67.0,
+			"end": 76.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-light-backfist-throw-overhead-mine/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-light-backfist-throw-overhead-mine/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-light-backfist-throw-overhead-mine/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-overhead-mine/frame-1.jpg",
+					"at": 0.45,
+					"label": "Frame kill",
+					"alt": "Crouching light kick intentionally misses before the throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-overhead-mine/frame-2.jpg",
+					"at": 1.6,
+					"label": "Throw",
+					"alt": "Bison completes the first wake-up throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-overhead-mine/frame-3.jpg",
+					"at": 3.5,
+					"label": "Delayed target chain",
+					"alt": "The medium-overhead target chain reaches the mined Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-overhead-mine/frame-4.jpg",
+					"at": 5.4,
+					"label": "Air target",
+					"alt": "Jumping medium punches pick up the explosion launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-overhead-mine/frame-5.jpg",
+					"at": 7.2,
+					"label": "Backfist finish",
+					"alt": "Forward heavy punch leads into light Backfist Combo."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-backfist-throw-sweep-mine",
+			"mbison-depth-light-backfist-throw-block-overhead",
+			"mbison-depth-light-backfist-throw-low-od-crusher"
+		]
+	},
+	{
+		"id": "mbison-depth-light-backfist-throw-sweep-mine",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Light Backfist: throw, delayed sweep target and mine",
+		"summary": "Use the medium-sweep target branch after the throw, then delay the second air-target punch for the light-Backfist finish.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw", "Mine conversion"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "2LK (whiff) > LP+LK > Delay > st.MP > 2HK > 9 > j.MP > j.MP (delay) > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "2LK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "Delay",
+				"label": "Delay"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-7",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.MP (delay)",
+				"label": "Delayed second air-target punch",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-9",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner light Backfist Combo knockdown (214LP), captioned +21. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"This is a two-touch wake-up sequence: the throw ends one interaction; the later strike/pressure and mine detonation form a separate interaction. It is not one continuous throw combo.",
+			"The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 79.1,
+			"end": 89.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-light-backfist-throw-sweep-mine/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-light-backfist-throw-sweep-mine/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-light-backfist-throw-sweep-mine/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-sweep-mine/frame-1.jpg",
+					"at": 0.5,
+					"label": "Frame kill",
+					"alt": "Crouching light kick whiffs during the mined knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-sweep-mine/frame-2.jpg",
+					"at": 2.0,
+					"label": "Throw",
+					"alt": "The throw creates a second wake-up interaction."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-sweep-mine/frame-3.jpg",
+					"at": 4.15,
+					"label": "Sweep target",
+					"alt": "Crouching heavy kick follows standing medium punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-sweep-mine/frame-4.jpg",
+					"at": 6.05,
+					"label": "Mine pickup",
+					"alt": "The jumping-medium target catches the mine launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-sweep-mine/frame-5.jpg",
+					"at": 8.0,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo restores the mine knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-backfist-throw-overhead-mine",
+			"mbison-depth-light-backfist-throw-block-overhead",
+			"mbison-depth-light-backfist-throw-low-od-crusher"
+		]
+	},
+	{
+		"id": "mbison-depth-light-backfist-throw-block-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Light Backfist: throw, blocked lights and mine overhead",
+		"summary": "After the throw, walk into low-light pressure; the overhead and timed mine turn the guarded sequence into an air-target pickup.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw", "Block pressure", "Mine conversion"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "2LK (whiff) > LP+LK > Walk forward > 2LK > st.LP > 6HP > 9 > j.MP > j.MP (delay) > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "2LK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-4",
+				"notation": "2LK",
+				"label": "2LK"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "j.MP (delay)",
+				"label": "Delayed air-target second punch",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-10",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-11",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner light Backfist Combo knockdown (214LP), captioned +21. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route.",
+			"The recorded defender guards the low-light pressure before the mine conversion; this is not a continuous low-light hit confirm."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"This is a two-touch wake-up sequence: the throw ends one interaction; the later strike/pressure and mine detonation form a separate interaction. It is not one continuous throw combo."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 92.0,
+			"end": 101.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-light-backfist-throw-block-overhead/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-light-backfist-throw-block-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-light-backfist-throw-block-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-block-overhead/frame-1.jpg",
+					"at": 0.25,
+					"label": "Frame kill",
+					"alt": "Crouching light kick intentionally misses."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-block-overhead/frame-2.jpg",
+					"at": 2.0,
+					"label": "Throw recovery",
+					"alt": "Ryu lands after the first throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-block-overhead/frame-3.jpg",
+					"at": 3.4,
+					"label": "Guarded lights",
+					"alt": "The low and standing light punch reach Ryu’s guard."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-block-overhead/frame-4.jpg",
+					"at": 5.4,
+					"label": "Mine conversion",
+					"alt": "The mine launches Ryu into the jumping-medium target."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-block-overhead/frame-5.jpg",
+					"at": 7.7,
+					"label": "Backfist finish",
+					"alt": "Forward heavy punch leads to light Backfist Combo."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-medium-backfist-block-heavy-throw",
+			"mbison-depth-light-backfist-throw-overhead-mine",
+			"mbison-depth-light-backfist-throw-sweep-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-light-backfist-throw-low-od-crusher",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Light Backfist: throw, low lights into mined OD Crusher",
+		"summary": "Walk after the throw and confirm low plus two standing jabs into the mine-enhanced OD Crusher juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw", "Low confirm", "Mine conversion"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "2LK (whiff) > LP+LK > Walk forward > 2LK > st.LP > st.LP > [4]6PP > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "2LK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-4",
+				"notation": "2LK",
+				"label": "2LK"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-7",
+				"notation": "[4]6PP",
+				"label": "[4]6PP"
+			},
+			{
+				"id": "step-8",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-9",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner light Backfist Combo knockdown (214LP), captioned +21. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"This is a two-touch wake-up sequence: the throw ends one interaction; the later strike/pressure and mine detonation form a separate interaction. It is not one continuous throw combo.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time.",
+			"The mine-enhanced OD Crusher camera change is not a Super; this branch spends no Super bar."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Psycho Crusher)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 104.0,
+			"end": 116.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-light-backfist-throw-low-od-crusher/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-light-backfist-throw-low-od-crusher/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-light-backfist-throw-low-od-crusher/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-low-od-crusher/frame-1.jpg",
+					"at": 0.8,
+					"label": "Frame kill",
+					"alt": "Crouching light kick intentionally misses before the throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-low-od-crusher/frame-2.jpg",
+					"at": 2.2,
+					"label": "First throw",
+					"alt": "The throw precedes the next wake-up low."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-low-od-crusher/frame-3.jpg",
+					"at": 4.1,
+					"label": "Low-light confirm",
+					"alt": "The low and two standing jabs connect."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-low-od-crusher/frame-4.jpg",
+					"at": 6.5,
+					"label": "Mine-enhanced OD Crusher",
+					"alt": "OD Psycho Crusher triggers the mine cinematic."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-low-od-crusher/frame-5.jpg",
+					"at": 9.6,
+					"label": "Light Backfist",
+					"alt": "Forward heavy punch and light Backfist complete the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-corner-heavy-backfist-throw-dash-low",
+			"mbison-depth-light-backfist-throw-overhead-mine",
+			"mbison-depth-light-backfist-throw-sweep-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-light-backfist-throw-counter-back-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Light Backfist: throw, counter-hit back heavy and mine",
+		"summary": "Walk after the throw, catch counter hit with back heavy kick and convert the light-Scissors mine launch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw", "Counter hit", "Mine conversion"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "2LK (whiff) > LP+LK > Walk forward > 4HK > 2LP > 236LK > 9 > j.MP > j.MP > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "2LK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "4HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "236LK",
+				"label": "236LK"
+			},
+			{
+				"id": "step-7",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-10",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-11",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner light Backfist Combo knockdown (214LP), captioned +21. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route.",
+			"The back-heavy starter is a counter hit in the recording; the following light link is not claimed for an ordinary hit."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"This is a two-touch wake-up sequence: the throw ends one interaction; the later strike/pressure and mine detonation form a separate interaction. It is not one continuous throw combo."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 118.75,
+			"end": 128.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-light-backfist-throw-counter-back-heavy/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-light-backfist-throw-counter-back-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-light-backfist-throw-counter-back-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-counter-back-heavy/frame-1.jpg",
+					"at": 0.25,
+					"label": "Frame kill",
+					"alt": "Crouching light kick intentionally misses."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-counter-back-heavy/frame-2.jpg",
+					"at": 2.25,
+					"label": "Throw recovery",
+					"alt": "Ryu recovers from the throw before the strike branch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-counter-back-heavy/frame-3.jpg",
+					"at": 3.45,
+					"label": "Counter-hit heavy",
+					"alt": "Back heavy kick scores the recorded counter hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-counter-back-heavy/frame-4.jpg",
+					"at": 5.45,
+					"label": "Air-target pickup",
+					"alt": "Jumping mediums catch the light-Scissors mine launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-counter-back-heavy/frame-5.jpg",
+					"at": 8.05,
+					"label": "Light Backfist",
+					"alt": "The forward-heavy pickup leads to light Backfist Combo."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-corner-heavy-backfist-throw-counter-heavy",
+			"mbison-depth-light-backfist-throw-overhead-mine",
+			"mbison-depth-light-backfist-throw-sweep-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-light-backfist-throw-scissors-pressure",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Light Backfist: throw, back-heavy Scissors block pressure",
+		"summary": "Walk after the throw and keep the mined defender guarding through back heavy kick, jab and light Scissors.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw", "Block pressure"],
+		"outcomes": ["Block pressure"],
+		"notation": "2LK (whiff) > LP+LK > Walk forward > 4HK > 2LP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "2LK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-4",
+				"notation": "4HK",
+				"label": "4HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "236LK",
+				"label": "236LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner light Backfist Combo knockdown (214LP), captioned +21. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"This is a two-touch wake-up sequence: the throw ends one interaction; the later strike/pressure and mine detonation form a separate interaction. It is not one continuous throw combo.",
+			"The source displays +14 for this guarded mine sequence; no guaranteed next attack is demonstrated."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 131.0,
+			"end": 138.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-light-backfist-throw-scissors-pressure/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-light-backfist-throw-scissors-pressure/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-light-backfist-throw-scissors-pressure/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-scissors-pressure/frame-1.jpg",
+					"at": 0.75,
+					"label": "Frame kill",
+					"alt": "Crouching light kick intentionally misses."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-scissors-pressure/frame-2.jpg",
+					"at": 2.0,
+					"label": "First throw",
+					"alt": "The throw establishes the later mined wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-scissors-pressure/frame-3.jpg",
+					"at": 4.05,
+					"label": "Guarded back heavy",
+					"alt": "Ryu guards back heavy kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-light-backfist-throw-scissors-pressure/frame-4.jpg",
+					"at": 5.4,
+					"label": "Mine-covered Scissors",
+					"alt": "Light Scissors and the mine reach Ryu’s guard."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-backfist-throw-block-overhead",
+			"mbison-depth-medium-backfist-block-heavy-throw",
+			"mbison-depth-light-backfist-throw-overhead-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-light-backfist-kill-shimmy-shadow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Light Backfist: light-kick kill, shimmy and Shadow route",
+		"summary": "Whiff crouching light kick, punish the missed throw and extend OD Scissors through the heavy Shadow Rise follow-ups.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "2LK (whiff) > Walk back > 2MP > 236KK > 6HP > 2HK > [2]8HK > HK > HP (delay) > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "2LK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "[2]8HK",
+				"label": "[2]8HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "HK",
+				"label": "HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "HP (delay)",
+				"label": "Delayed heavy-punch air follow-up",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-10",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner light Backfist Combo knockdown (214LP), captioned +21. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Scissors)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 141.0,
+			"end": 150.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-light-backfist-kill-shimmy-shadow/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-light-backfist-kill-shimmy-shadow/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-light-backfist-kill-shimmy-shadow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-shimmy-shadow/frame-1.jpg",
+					"at": 0.3,
+					"label": "Frame kill",
+					"alt": "Crouching light kick intentionally misses."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-shimmy-shadow/frame-2.jpg",
+					"at": 1.15,
+					"label": "Shimmy punish",
+					"alt": "Crouching medium punch scores punish counter on the throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-shimmy-shadow/frame-3.jpg",
+					"at": 3.5,
+					"label": "Overhead extension",
+					"alt": "Forward heavy punch continues after OD Scissors."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-shimmy-shadow/frame-4.jpg",
+					"at": 5.8,
+					"label": "Delayed air follow-up",
+					"alt": "Heavy Shadow Rise and kick lead into the delayed heavy-punch follow-up."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-shimmy-shadow/frame-5.jpg",
+					"at": 7.6,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-corner-crusher-kill-shimmy",
+			"mbison-depth-medium-backfist-block-heavy-shimmy-shadow",
+			"mbison-depth-medium-backfist-block-heavy-shimmy-crusher"
+		]
+	},
+	{
+		"id": "mbison-depth-light-backfist-kill-medium-shadow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Light Backfist: light-kick kill, medium link and Shadow",
+		"summary": "The light-Backfist knockdown links medium punches into OD Scissors, overhead, sweep and the delayed air follow-up.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "2LK (whiff) > st.MP > 2MP > 236KK > 6HP > 2HK > [2]8HK > HK > HP (delay) > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "2LK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "[2]8HK",
+				"label": "[2]8HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "HK",
+				"label": "HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "HP (delay)",
+				"label": "Delayed heavy-punch air follow-up",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-10",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner light Backfist Combo knockdown (214LP), captioned +21. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Scissors)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 153.9,
+			"end": 163.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-light-backfist-kill-medium-shadow/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-light-backfist-kill-medium-shadow/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-light-backfist-kill-medium-shadow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-medium-shadow/frame-1.jpg",
+					"at": 0.25,
+					"label": "Frame kill",
+					"alt": "Crouching light kick intentionally whiffs."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-medium-shadow/frame-2.jpg",
+					"at": 1.15,
+					"label": "Medium link",
+					"alt": "Standing medium punch links crouching medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-medium-shadow/frame-3.jpg",
+					"at": 3.35,
+					"label": "Overhead extension",
+					"alt": "Forward heavy punch follows OD Scissors."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-medium-shadow/frame-4.jpg",
+					"at": 5.75,
+					"label": "Air follow-up",
+					"alt": "The heavy-punch air follow-up is delayed after the kick."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-medium-shadow/frame-5.jpg",
+					"at": 7.6,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo restores the mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-corner-crusher-kill-throw",
+			"mbison-depth-corner-crusher-kill-shimmy",
+			"mbison-depth-corner-crusher-kill-mediums"
+		]
+	},
+	{
+		"id": "mbison-depth-light-backfist-kill-medium-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Light Backfist: light-kick kill into OD Crusher and Level 1",
+		"summary": "Link the wake-up mediums into mined OD Crusher, standing heavy punch and the demonstrated Level 1 finish.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Super ender", "Mine conversion"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "2LK (whiff) > st.MP > 2MP > [4]6PP > st.HP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LK (whiff)",
+				"label": "2LK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "[4]6PP",
+				"label": "[4]6PP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA1",
+				"label": "SA1"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner light Backfist Combo knockdown (214LP), captioned +21. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Psycho Crusher)",
+			"super": "1 Super bar (SA1)"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 166.05,
+			"end": 176.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-light-backfist-kill-medium-level-one/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-light-backfist-kill-medium-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-light-backfist-kill-medium-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-medium-level-one/frame-1.jpg",
+					"at": 0.15,
+					"label": "Frame kill",
+					"alt": "Crouching light kick intentionally misses."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-medium-level-one/frame-2.jpg",
+					"at": 1.2,
+					"label": "Medium link",
+					"alt": "The medium-punch pair reaches Ryu’s wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-medium-level-one/frame-3.jpg",
+					"at": 3.35,
+					"label": "Mine-enhanced Crusher",
+					"alt": "OD Psycho Crusher triggers the planted mine."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-medium-level-one/frame-4.jpg",
+					"at": 5.45,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches the post-cinematic juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-light-backfist-kill-medium-level-one/frame-5.jpg",
+					"at": 8.05,
+					"label": "Level 1",
+					"alt": "The demonstrated Super finish spends one bar."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-corner-heavy-backfist-meaty-od-level-one",
+			"mbison-depth-corner-heavy-backfist-od-air-level-one",
+			"mbison-depth-light-backfist-throw-overhead-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-medium-backfist-meaty-heavy-shadow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Medium Backfist: meaty heavy into Shadow extension",
+		"summary": "The +20 medium-Backfist knockdown supports meaty standing heavy, crouching medium and the OD-Scissors Shadow route.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "st.HP > 2MP > 236KK > 6HP > 2HK > [2]8HK > HK > HP (delay) > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-4",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "[2]8HK",
+				"label": "[2]8HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "HK",
+				"label": "HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "HP (delay)",
+				"label": "Delayed heavy-punch air follow-up",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-9",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner medium Backfist Combo knockdown (214MP), captioned +20. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Scissors)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 191.0,
+			"end": 200.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-medium-backfist-meaty-heavy-shadow/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-medium-backfist-meaty-heavy-shadow/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-medium-backfist-meaty-heavy-shadow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-medium-backfist-meaty-heavy-shadow/frame-1.jpg",
+					"at": 0.5,
+					"label": "Meaty heavy",
+					"alt": "Standing heavy punch catches Ryu’s wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-medium-backfist-meaty-heavy-shadow/frame-2.jpg",
+					"at": 1.6,
+					"label": "Crouching link",
+					"alt": "Crouching medium punch leads into OD Scissors."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-medium-backfist-meaty-heavy-shadow/frame-3.jpg",
+					"at": 4.25,
+					"label": "Sweep extension",
+					"alt": "Crouching heavy kick follows the forward-heavy pickup."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-medium-backfist-meaty-heavy-shadow/frame-4.jpg",
+					"at": 6.3,
+					"label": "Air follow-up",
+					"alt": "The delayed heavy-punch air follow-up continues the Shadow route."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-medium-backfist-meaty-heavy-shadow/frame-5.jpg",
+					"at": 7.7,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo ends the sequence."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-corner-crusher-kill-throw",
+			"mbison-depth-corner-crusher-kill-shimmy",
+			"mbison-depth-corner-crusher-kill-mediums"
+		]
+	},
+	{
+		"id": "mbison-depth-medium-backfist-block-heavy-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Medium Backfist: blocked meaty heavy, throw and mine",
+		"summary": "After Ryu guards the +3 meaty heavy, throw and walk into the medium-overhead mine pickup.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Block pressure", "Throw", "Mine conversion"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "st.HP > LP+LK > Walk forward > st.MP > 6HP > 9 > j.MP > j.MP > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-7",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner medium Backfist Combo knockdown (214MP), captioned +20. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"This is a two-touch wake-up sequence: the throw ends one interaction; the later strike/pressure and mine detonation form a separate interaction. It is not one continuous throw combo.",
+			"The source reports +3 on the blocked meaty heavy. The later throw and mine route are separate interactions."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 204.0,
+			"end": 213.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-medium-backfist-block-heavy-throw/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-medium-backfist-block-heavy-throw/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-medium-backfist-block-heavy-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-throw/frame-1.jpg",
+					"at": 0.65,
+					"label": "Meaty heavy guarded",
+					"alt": "Ryu guards the late standing heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-throw/frame-2.jpg",
+					"at": 2.25,
+					"label": "Throw branch",
+					"alt": "The throw follows the blocked heavy pressure."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-throw/frame-3.jpg",
+					"at": 4.0,
+					"label": "Target-chain mine trigger",
+					"alt": "Standing medium punch and forward heavy punch reach the mined Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-throw/frame-4.jpg",
+					"at": 5.6,
+					"label": "Air-target pickup",
+					"alt": "Jumping medium punches pick up the explosion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-throw/frame-5.jpg",
+					"at": 8.1,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-backfist-throw-block-overhead",
+			"mbison-depth-light-backfist-throw-overhead-mine",
+			"mbison-depth-light-backfist-throw-sweep-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-medium-backfist-block-heavy-shimmy-shadow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Medium Backfist: blocked heavy, shimmy and Scissors juggle",
+		"summary": "Retreat after the blocked meaty heavy and punish the throw with OD Scissors, heavy Scissors and the Shadow follow-ups.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Block pressure", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "st.HP > Walk back > 2MP > 236KK > 236HK > [2]8HK > HK > HP (delay) > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "[2]8HK",
+				"label": "[2]8HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "HK",
+				"label": "HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "HP (delay)",
+				"label": "Delayed heavy-punch air follow-up",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-9",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner medium Backfist Combo knockdown (214MP), captioned +20. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Scissors)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 217.1,
+			"end": 226.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-shadow/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-shadow/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-shadow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-shadow/frame-1.jpg",
+					"at": 0.95,
+					"label": "Blocked heavy",
+					"alt": "Ryu guards the meaty standing heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-shadow/frame-2.jpg",
+					"at": 1.8,
+					"label": "Throw punish",
+					"alt": "Crouching medium punch punishes the missed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-shadow/frame-3.jpg",
+					"at": 3.9,
+					"label": "Heavy Scissors",
+					"alt": "Heavy Scissors extends after OD Scissors."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-shadow/frame-4.jpg",
+					"at": 6.9,
+					"label": "Delayed air follow-up",
+					"alt": "The heavy-punch air follow-up continues the heavy Shadow Rise route."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-shadow/frame-5.jpg",
+					"at": 8.0,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo ends the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-medium-backfist-block-heavy-shimmy-crusher",
+			"mbison-depth-corner-crusher-kill-shimmy",
+			"mbison-depth-light-backfist-kill-shimmy-shadow"
+		]
+	},
+	{
+		"id": "mbison-depth-medium-backfist-block-heavy-shimmy-crusher",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Medium Backfist: blocked heavy, shimmy and OD Crusher",
+		"summary": "Punish the throw after blocked meaty heavy with a mine-enhanced OD Crusher, forward heavy and light Backfist.",
+		"kind": "setup",
+		"situations": [
+			"Corner",
+			"Oki",
+			"Block pressure",
+			"Punish",
+			"Punish counter",
+			"Mine conversion"
+		],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "st.HP > Walk back > 2MP > [4]6PP > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "[4]6PP",
+				"label": "[4]6PP"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner medium Backfist Combo knockdown (214MP), captioned +20. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Psycho Crusher)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 229.25,
+			"end": 237.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-crusher/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-crusher/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-crusher/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-crusher/frame-1.jpg",
+					"at": 0.8,
+					"label": "Blocked heavy",
+					"alt": "Ryu guards the meaty standing heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-crusher/frame-2.jpg",
+					"at": 1.8,
+					"label": "Shimmy punish",
+					"alt": "Crouching medium punch scores punish counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-crusher/frame-3.jpg",
+					"at": 4.25,
+					"label": "Mine-enhanced Crusher",
+					"alt": "OD Psycho Crusher triggers the mine cinematic."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-crusher/frame-4.jpg",
+					"at": 6.1,
+					"label": "Forward-heavy pickup",
+					"alt": "Forward heavy punch catches the launched Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-medium-backfist-block-heavy-shimmy-crusher/frame-5.jpg",
+					"at": 6.95,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo restores the corner mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-medium-backfist-block-heavy-shimmy-shadow",
+			"mbison-depth-corner-heavy-backfist-shimmy-no-drive",
+			"mbison-depth-corner-heavy-backfist-guard-dp-meterless"
+		]
+	},
+	{
+		"id": "mbison-depth-medium-od-scissors-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Medium link: OD Scissors, heavy punch and Level 1",
+		"summary": "Spend two Drive bars and one Super on the medium-link OD-Scissors juggle into standing heavy and Level 1.",
+		"kind": "combo",
+		"situations": ["Midscreen", "BnB", "OD conversion", "Super ender"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > 2MP > 236KK > st.HP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "SA1"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Scissors)",
+			"super": "1 Super bar (SA1)"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 245.7,
+			"end": 254.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-medium-od-scissors-level-one/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-medium-od-scissors-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-medium-od-scissors-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-medium-od-scissors-level-one/frame-1.jpg",
+					"at": 0.5,
+					"label": "Medium starter",
+					"alt": "Standing medium punch starts the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-medium-od-scissors-level-one/frame-2.jpg",
+					"at": 1.75,
+					"label": "OD Scissors",
+					"alt": "OD Double Knee Press launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-medium-od-scissors-level-one/frame-3.jpg",
+					"at": 3.0,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-medium-od-scissors-level-one/frame-4.jpg",
+					"at": 6.1,
+					"label": "Level 1 finish",
+					"alt": "The Level 1 Super continues the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-medium-od-scissors-heavy-backfist",
+			"mbison-depth-heavy-backfist-rush-throw-sweep-level-one",
+			"mbison-depth-heavy-light-light-crusher"
+		]
+	},
+	{
+		"id": "mbison-depth-medium-od-scissors-heavy-backfist",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Medium link: OD Scissors into heavy Backfist",
+		"summary": "Replace the Super finish with heavy Backfist to end the medium-link OD route with a planted mine.",
+		"kind": "combo",
+		"situations": ["Midscreen", "BnB", "OD conversion"],
+		"outcomes": ["Knockdown", "Mine planted"],
+		"notation": "st.MP > 2MP > 236KK > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Scissors)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 255.55,
+			"end": 261.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-medium-od-scissors-heavy-backfist/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-medium-od-scissors-heavy-backfist/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-medium-od-scissors-heavy-backfist/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-medium-od-scissors-heavy-backfist/frame-1.jpg",
+					"at": 0.5,
+					"label": "Medium starter",
+					"alt": "Standing medium punch starts the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-medium-od-scissors-heavy-backfist/frame-2.jpg",
+					"at": 0.9,
+					"label": "Crouching link",
+					"alt": "Crouching medium punch continues."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-medium-od-scissors-heavy-backfist/frame-3.jpg",
+					"at": 2.05,
+					"label": "OD Scissors",
+					"alt": "OD Scissors launches Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-medium-od-scissors-heavy-backfist/frame-4.jpg",
+					"at": 3.85,
+					"label": "Heavy Backfist",
+					"alt": "Heavy Backfist Combo finishes the juggle and plants a mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-medium-od-scissors-level-one",
+			"mbison-depth-heavy-light-light-crusher",
+			"mbison-jabs-light-crusher"
+		]
+	},
+	{
+		"id": "mbison-depth-crouch-medium-rush-heavy-backfist",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Crouching medium: Rush cancel into heavy Backfist",
+		"summary": "Cancel the recorded crouching medium punch into Rush, medium punch and crouching heavy for a heavy-Backfist mine knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush confirm"],
+		"outcomes": ["Knockdown", "Mine planted"],
+		"notation": "2MP > DRC > st.MP > 2HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "2HP",
+				"label": "2HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"The caption offers crouching medium kick as an alternative; this specific demonstration executes crouching medium punch."
+		],
+		"resources": {
+			"drive": "3 Drive bars (Drive Rush Cancel)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 262.25,
+			"end": 266.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-crouch-medium-rush-heavy-backfist/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-crouch-medium-rush-heavy-backfist/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-crouch-medium-rush-heavy-backfist/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-crouch-medium-rush-heavy-backfist/frame-1.jpg",
+					"at": 0.5,
+					"label": "Crouching medium",
+					"alt": "Crouching medium punch is the performed starter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-crouch-medium-rush-heavy-backfist/frame-2.jpg",
+					"at": 1.1,
+					"label": "Rush cancel",
+					"alt": "Drive Rush Cancel carries the confirm forward."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-crouch-medium-rush-heavy-backfist/frame-3.jpg",
+					"at": 1.85,
+					"label": "Heavy link",
+					"alt": "Crouching heavy punch follows standing medium punch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-crouch-medium-rush-heavy-backfist/frame-4.jpg",
+					"at": 3.3,
+					"label": "Heavy Backfist",
+					"alt": "Heavy Backfist Combo plants the mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-low-double-rush-level-three",
+			"mbison-jabs-light-crusher",
+			"mbison-crusher-dash-throw"
+		]
+	},
+	{
+		"id": "mbison-depth-heavy-backfist-rush-overhead-shadow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Heavy Backfist: Rush overhead into Scissors extension",
+		"summary": "Spend a raw Rush on the +31 mine knockdown to link forward heavy punch into crouching medium and the Shadow route.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Overhead", "Corner carry"],
+		"outcomes": ["Knockdown", "Mine planted", "Corner carry"],
+		"notation": "Drive Rush > 6HP > 2MP > 236KK > 236HK > [2]8HK > HK > HP (delay) > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "[2]8HK",
+				"label": "[2]8HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "HK",
+				"label": "HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "HP (delay)",
+				"label": "Delayed heavy-punch air follow-up",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-9",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: midscreen heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time.",
+			"The Scissors and Shadow extension visibly carries Ryu toward the corner from the recorded midscreen start; starting distance can change the resulting position."
+		],
+		"resources": {
+			"drive": "3 Drive bars (raw Rush + OD Scissors)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 271.85,
+			"end": 281.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-heavy-backfist-rush-overhead-shadow/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-heavy-backfist-rush-overhead-shadow/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-heavy-backfist-rush-overhead-shadow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-overhead-shadow/frame-1.jpg",
+					"at": 1.1,
+					"label": "Rush overhead",
+					"alt": "Drive Rush forward heavy punch attacks the mined wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-overhead-shadow/frame-2.jpg",
+					"at": 2.35,
+					"label": "OD Scissors",
+					"alt": "The crouching medium link leads into OD Scissors."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-overhead-shadow/frame-3.jpg",
+					"at": 3.75,
+					"label": "Heavy Scissors",
+					"alt": "Heavy Scissors continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-overhead-shadow/frame-4.jpg",
+					"at": 6.25,
+					"label": "Air follow-up",
+					"alt": "Delayed heavy punch follows the heavy Shadow Rise kick."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-overhead-shadow/frame-5.jpg",
+					"at": 7.45,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo ends the extension."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-heavy-backfist-rush-back-heavy-shadow",
+			"mbison-depth-heavy-backfist-rush-low-shadow",
+			"mbison-depth-heavy-backfist-rush-shimmy-shadow"
+		]
+	},
+	{
+		"id": "mbison-depth-heavy-backfist-rush-back-heavy-shadow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Heavy Backfist: Rush back-heavy medium chain",
+		"summary": "Rush back heavy kick links the standing/crouching medium pair before the OD-Scissors heavy-Scissors extension.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Corner carry"],
+		"outcomes": ["Knockdown", "Mine planted", "Corner carry"],
+		"notation": "Drive Rush > 4HK > st.MP > 2MP > 236KK > 236HK > [2]8HK > HK > HP (delay) > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HK",
+				"label": "4HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-6",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "[2]8HK",
+				"label": "[2]8HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "HK",
+				"label": "HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "HP (delay)",
+				"label": "Delayed heavy-punch air follow-up",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-10",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: midscreen heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time.",
+			"The Scissors and Shadow extension visibly carries Ryu toward the corner from the recorded midscreen start; starting distance can change the resulting position."
+		],
+		"resources": {
+			"drive": "3 Drive bars (raw Rush + OD Scissors)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 286.15,
+			"end": 295.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-heavy-backfist-rush-back-heavy-shadow/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-heavy-backfist-rush-back-heavy-shadow/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-heavy-backfist-rush-back-heavy-shadow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-back-heavy-shadow/frame-1.jpg",
+					"at": 1.05,
+					"label": "Rush back heavy",
+					"alt": "Back heavy kick reaches Ryu after Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-back-heavy-shadow/frame-2.jpg",
+					"at": 2.2,
+					"label": "Medium pair",
+					"alt": "Standing and crouching medium punches link."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-back-heavy-shadow/frame-3.jpg",
+					"at": 4.35,
+					"label": "Heavy Scissors",
+					"alt": "Heavy Scissors extends after the OD version."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-back-heavy-shadow/frame-4.jpg",
+					"at": 6.75,
+					"label": "Delayed air follow-up",
+					"alt": "Heavy punch continues after the heavy Shadow Rise kick."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-back-heavy-shadow/frame-5.jpg",
+					"at": 8.2,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-heavy-backfist-rush-overhead-shadow",
+			"mbison-depth-heavy-backfist-rush-low-shadow",
+			"mbison-depth-heavy-backfist-rush-shimmy-shadow"
+		]
+	},
+	{
+		"id": "mbison-depth-heavy-backfist-rush-low-shadow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Heavy Backfist: Rush low into medium chain",
+		"summary": "Rush crouching light kick opens the low branch before the medium pair and OD-Scissors Shadow extension.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Low confirm", "Corner carry"],
+		"outcomes": ["Knockdown", "Mine planted", "Corner carry"],
+		"notation": "Drive Rush > 2LK > st.MP > 2MP > 236KK > 236HK > [2]8HK > HK > HP (delay) > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LK",
+				"label": "2LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-6",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "[2]8HK",
+				"label": "[2]8HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "HK",
+				"label": "HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "HP (delay)",
+				"label": "Delayed heavy-punch air follow-up",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-10",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: midscreen heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time.",
+			"The Scissors and Shadow extension visibly carries Ryu toward the corner from the recorded midscreen start; starting distance can change the resulting position."
+		],
+		"resources": {
+			"drive": "3 Drive bars (raw Rush + OD Scissors)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 301.15,
+			"end": 310.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-heavy-backfist-rush-low-shadow/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-heavy-backfist-rush-low-shadow/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-heavy-backfist-rush-low-shadow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-low-shadow/frame-1.jpg",
+					"at": 1.05,
+					"label": "Rush low",
+					"alt": "Crouching light kick attacks low from Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-low-shadow/frame-2.jpg",
+					"at": 1.85,
+					"label": "Medium links",
+					"alt": "Standing and crouching medium punches continue."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-low-shadow/frame-3.jpg",
+					"at": 4.15,
+					"label": "Scissors extension",
+					"alt": "Heavy Scissors follows the OD launcher."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-low-shadow/frame-4.jpg",
+					"at": 6.85,
+					"label": "Delayed air follow-up",
+					"alt": "The heavy Shadow Rise sequence continues with delayed heavy punch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-low-shadow/frame-5.jpg",
+					"at": 8.05,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo restores the mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-crusher-dash-low",
+			"mbison-depth-heavy-backfist-rush-overhead-shadow",
+			"mbison-depth-heavy-backfist-rush-back-heavy-shadow"
+		]
+	},
+	{
+		"id": "mbison-depth-heavy-backfist-rush-throw-overhead-mine",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Heavy Backfist: Rush throw, Rush overhead mine pickup",
+		"summary": "Use one Rush for the throw and another for medium-overhead pressure, then juggle the mine explosion without spending Super.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw", "Mine conversion"],
+		"outcomes": ["Knockdown", "Mine planted"],
+		"notation": "Drive Rush > LP+LK > Drive Rush > st.MP > 6HP > 9 > j.MP > j.MP > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-7",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: midscreen heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"This is a two-touch wake-up sequence: the throw ends one interaction; the later strike/pressure and mine detonation form a separate interaction. It is not one continuous throw combo.",
+			"The caption suggests heavy punch into any Super; the performed branch instead uses forward heavy punch into light Backfist. Only that actual branch is listed."
+		],
+		"resources": {
+			"drive": "2 Drive bars (two raw Drive Rushes)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 315.55,
+			"end": 325.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-overhead-mine/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-overhead-mine/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-overhead-mine/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-overhead-mine/frame-1.jpg",
+					"at": 0.95,
+					"label": "Rush throw",
+					"alt": "The first Drive Rush leads into the throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-overhead-mine/frame-2.jpg",
+					"at": 3.95,
+					"label": "Second Rush",
+					"alt": "A second Drive Rush reaches the later wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-overhead-mine/frame-3.jpg",
+					"at": 4.7,
+					"label": "Mine trigger",
+					"alt": "The medium-overhead target chain meets the planted mine."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-overhead-mine/frame-4.jpg",
+					"at": 5.9,
+					"label": "Air-target juggle",
+					"alt": "Jumping medium punches continue the mine launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-overhead-mine/frame-5.jpg",
+					"at": 7.95,
+					"label": "Light Backfist",
+					"alt": "Forward heavy punch and light Backfist complete the actual no-Super finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-heavy-backfist-rush-throw-sweep-level-one",
+			"mbison-depth-light-backfist-throw-overhead-mine",
+			"mbison-depth-light-backfist-throw-sweep-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-heavy-backfist-rush-throw-sweep-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Heavy Backfist: Rush throw, Rush sweep and Level 1",
+		"summary": "After the Rush throw, the second Rush uses the medium-sweep target into the mine, air target and Level 1.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw", "Mine conversion", "Super ender"],
+		"outcomes": ["Knockdown"],
+		"notation": "Drive Rush > LP+LK > Drive Rush > st.MP > 2HK > 9 > j.MP > j.MP > st.HP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-7",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "SA1",
+				"label": "SA1"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: midscreen heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"This is a two-touch wake-up sequence: the throw ends one interaction; the later strike/pressure and mine detonation form a separate interaction. It is not one continuous throw combo.",
+			"The caption offers an overhead or sweep and any Super; this take executes the sweep target and Level 1."
+		],
+		"resources": {
+			"drive": "2 Drive bars (two raw Drive Rushes)",
+			"super": "1 Super bar (SA1)"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 330.55,
+			"end": 342.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-sweep-level-one/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-sweep-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-sweep-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-sweep-level-one/frame-1.jpg",
+					"at": 0.9,
+					"label": "Rush throw",
+					"alt": "The first raw Rush leads into a throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-sweep-level-one/frame-2.jpg",
+					"at": 3.95,
+					"label": "Second Rush target",
+					"alt": "Standing medium punch links the crouching-heavy-kick target branch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-sweep-level-one/frame-3.jpg",
+					"at": 5.55,
+					"label": "Air target",
+					"alt": "Jumping medium punches pick up the mine explosion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-sweep-level-one/frame-4.jpg",
+					"at": 6.7,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch prepares the Super juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-throw-sweep-level-one/frame-5.jpg",
+					"at": 9.25,
+					"label": "Level 1",
+					"alt": "The actual Super finish is Level 1."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-heavy-backfist-rush-throw-overhead-mine",
+			"mbison-depth-light-backfist-throw-overhead-mine",
+			"mbison-depth-light-backfist-throw-sweep-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-heavy-backfist-rush-shimmy-shadow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Heavy Backfist: Rush shimmy medium punish",
+		"summary": "Rush in, retreat from Ryu’s throw and punish with standing medium, crouching medium and the OD-Scissors extension.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish", "Punish counter", "Corner carry"],
+		"outcomes": ["Knockdown", "Mine planted", "Corner carry"],
+		"notation": "Drive Rush > Walk back > st.MP > 2MP > 236KK > 236HK > [2]8HK > HK > HP (delay) > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-6",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "[2]8HK",
+				"label": "[2]8HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "HK",
+				"label": "HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "HP (delay)",
+				"label": "Delayed heavy-punch air follow-up",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-10",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: midscreen heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time.",
+			"The Scissors and Shadow extension visibly carries Ryu toward the corner from the recorded midscreen start; starting distance can change the resulting position."
+		],
+		"resources": {
+			"drive": "3 Drive bars (raw Rush + OD Scissors)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 348.15,
+			"end": 358.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-heavy-backfist-rush-shimmy-shadow/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-heavy-backfist-rush-shimmy-shadow/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-heavy-backfist-rush-shimmy-shadow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-shimmy-shadow/frame-1.jpg",
+					"at": 1.15,
+					"label": "Rush and retreat",
+					"alt": "Bison retreats after the raw Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-shimmy-shadow/frame-2.jpg",
+					"at": 1.85,
+					"label": "Medium punish",
+					"alt": "Standing medium punch scores punish counter on the missed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-shimmy-shadow/frame-3.jpg",
+					"at": 3.15,
+					"label": "OD launcher",
+					"alt": "OD Scissors starts the juggle extension."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-shimmy-shadow/frame-4.jpg",
+					"at": 6.95,
+					"label": "Delayed air follow-up",
+					"alt": "The heavy Shadow Rise air route continues."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-shimmy-shadow/frame-5.jpg",
+					"at": 8.45,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo restores the mine knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-heavy-backfist-rush-guard-od-dp",
+			"mbison-depth-corner-crusher-kill-shimmy",
+			"mbison-depth-light-backfist-kill-shimmy-shadow"
+		]
+	},
+	{
+		"id": "mbison-depth-heavy-backfist-rush-guard-od-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Heavy Backfist: Rush, guard Ryu OD DP, mine punish",
+		"summary": "Stop the Rush to block Ryu’s OD uppercut, then use heavy-kick punish counter and medium Scissors for the mine air-target conversion.",
+		"kind": "response",
+		"situations": [
+			"Midscreen",
+			"Oki",
+			"Punish",
+			"Punish counter",
+			"Reversal bait",
+			"Mine conversion"
+		],
+		"outcomes": ["Knockdown", "Mine planted"],
+		"notation": "Drive Rush > Guard > st.HK > 2MP > 236MK > 9 > j.MP > j.MP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-6",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-7",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: midscreen heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route.",
+			"Ryu’s OD uppercut is the demonstrated reversal; this does not establish universal reversal safety."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "1 Drive bar (raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 363.45,
+			"end": 371.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-heavy-backfist-rush-guard-od-dp/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-heavy-backfist-rush-guard-od-dp/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-heavy-backfist-rush-guard-od-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-guard-od-dp/frame-1.jpg",
+					"at": 1.35,
+					"label": "Guard the reversal",
+					"alt": "Blue guard sparks show Bison blocking Ryu’s gold OD uppercut."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-guard-od-dp/frame-2.jpg",
+					"at": 2.85,
+					"label": "Heavy punish",
+					"alt": "Standing heavy kick punishes the blocked reversal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-guard-od-dp/frame-3.jpg",
+					"at": 4.05,
+					"label": "Medium Scissors",
+					"alt": "Medium Scissors reaches the already mined Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-guard-od-dp/frame-4.jpg",
+					"at": 5.85,
+					"label": "Air-target pickup",
+					"alt": "Jumping medium punches juggle the mine launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-heavy-backfist-rush-guard-od-dp/frame-5.jpg",
+					"at": 7.2,
+					"label": "Heavy Backfist",
+					"alt": "Heavy Backfist Combo replants the mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-corner-heavy-backfist-guard-dp-meterless",
+			"mbison-depth-corner-heavy-backfist-guard-dp-scissors-od",
+			"mbison-depth-medium-backfist-block-heavy-shimmy-crusher"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-heavy-backfist-dash-throw-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner heavy Backfist: dash throw, walking target pickup",
+		"summary": "Dash and delay the throw, then walk into medium-overhead pressure to time the mine air-target juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw", "Mine conversion"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "66 > Delay > LP+LK > Walk forward > st.MP > 6HP > 9 > j.MP > j.MP > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-4",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-6",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-10",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-11",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"This is a two-touch wake-up sequence: the throw ends one interaction; the later strike/pressure and mine detonation form a separate interaction. It is not one continuous throw combo.",
+			"The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 383.25,
+			"end": 392.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-heavy-backfist-dash-throw-overhead/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-heavy-backfist-dash-throw-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-heavy-backfist-dash-throw-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-dash-throw-overhead/frame-1.jpg",
+					"at": 1.35,
+					"label": "Dash throw",
+					"alt": "The dash leads into the delayed throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-dash-throw-overhead/frame-2.jpg",
+					"at": 3.15,
+					"label": "Walk approach",
+					"alt": "Bison walks toward the second wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-dash-throw-overhead/frame-3.jpg",
+					"at": 4.1,
+					"label": "Target-chain trigger",
+					"alt": "The medium-overhead target reaches the planted mine."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-dash-throw-overhead/frame-4.jpg",
+					"at": 4.95,
+					"label": "Air target",
+					"alt": "Jumping medium punches catch the explosion launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-dash-throw-overhead/frame-5.jpg",
+					"at": 7.9,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo ends the mine route."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-backfist-throw-overhead-mine",
+			"mbison-depth-light-backfist-throw-sweep-mine",
+			"mbison-depth-light-backfist-throw-block-overhead"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-heavy-backfist-throw-dash-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner heavy Backfist: throw, dash low and mine",
+		"summary": "After the delayed throw, dash again and confirm low lights into light Scissors and the mine air-target pickup.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw", "Low confirm", "Mine conversion"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "66 > Delay > LP+LK > 66 > 2LK > 2LP > st.LP > 236LK > 9 > j.MP > j.MP > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-4",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-5",
+				"notation": "2LK",
+				"label": "2LK"
+			},
+			{
+				"id": "step-6",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-8",
+				"notation": "236LK",
+				"label": "236LK"
+			},
+			{
+				"id": "step-9",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-10",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-11",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-12",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-13",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"This is a two-touch wake-up sequence: the throw ends one interaction; the later strike/pressure and mine detonation form a separate interaction. It is not one continuous throw combo.",
+			"The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 396.9,
+			"end": 407.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-dash-low/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-dash-low/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-dash-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-dash-low/frame-1.jpg",
+					"at": 1.3,
+					"label": "First throw",
+					"alt": "The first dash and delay lead into the throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-dash-low/frame-2.jpg",
+					"at": 3.4,
+					"label": "Dash low",
+					"alt": "The second dash reaches crouching light kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-dash-low/frame-3.jpg",
+					"at": 4.5,
+					"label": "Light Scissors",
+					"alt": "The light chain cancels into light Scissors."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-dash-low/frame-4.jpg",
+					"at": 5.7,
+					"label": "Mine air target",
+					"alt": "Jumping medium punches pick up the explosion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-dash-low/frame-5.jpg",
+					"at": 8.75,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo finishes the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-backfist-throw-low-od-crusher",
+			"mbison-depth-light-backfist-throw-overhead-mine",
+			"mbison-depth-light-backfist-throw-sweep-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-heavy-backfist-throw-counter-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner heavy Backfist: throw, walking counter-hit heavy",
+		"summary": "Walk after the delayed dash throw and catch counter hit with back heavy kick before the jab-Scissors mine conversion.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw", "Counter hit", "Mine conversion"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "66 > Delay > LP+LK > Walk forward > 4HK > 2LP > 236LK > 9 > j.MP > j.MP > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Delay",
+				"label": "Delay"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-4",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-5",
+				"notation": "4HK",
+				"label": "4HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-7",
+				"notation": "236LK",
+				"label": "236LK"
+			},
+			{
+				"id": "step-8",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-9",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-10",
+				"notation": "j.MP",
+				"label": "j.MP"
+			},
+			{
+				"id": "step-11",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-12",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route.",
+			"Back heavy kick is counter hit; the jab link is not asserted for an ordinary hit."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"This is a two-touch wake-up sequence: the throw ends one interaction; the later strike/pressure and mine detonation form a separate interaction. It is not one continuous throw combo.",
+			"The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 410.9,
+			"end": 421.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-counter-heavy/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-counter-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-counter-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-counter-heavy/frame-1.jpg",
+					"at": 1.4,
+					"label": "Delayed throw",
+					"alt": "The first dash leads into the throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-counter-heavy/frame-2.jpg",
+					"at": 4.1,
+					"label": "Counter-hit heavy",
+					"alt": "Back heavy kick catches the demonstrated counter hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-counter-heavy/frame-3.jpg",
+					"at": 5.4,
+					"label": "Light Scissors",
+					"alt": "Crouching jab links into light Scissors."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-counter-heavy/frame-4.jpg",
+					"at": 6.15,
+					"label": "Air-target juggle",
+					"alt": "Jumping mediums continue the mine launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-throw-counter-heavy/frame-5.jpg",
+					"at": 8.6,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo restores the mine knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-backfist-throw-counter-back-heavy",
+			"mbison-depth-light-backfist-throw-overhead-mine",
+			"mbison-depth-light-backfist-throw-sweep-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-heavy-backfist-shimmy-no-drive",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner heavy Backfist: dash shimmy, meterless Crusher",
+		"summary": "Dash and retreat from the throw, then use crouching-medium punish counter, heavy Crusher and light Backfist without Drive spend.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish", "Punish counter", "Mine conversion"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "66 > Walk back > 2MP > [4]6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "[4]6HP",
+				"label": "[4]6HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 425.0,
+			"end": 430.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-no-drive/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-no-drive/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-no-drive/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-no-drive/frame-1.jpg",
+					"at": 0.65,
+					"label": "Dash retreat",
+					"alt": "Bison retreats after the dash to bait Ryu’s throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-no-drive/frame-2.jpg",
+					"at": 1.7,
+					"label": "Medium punish",
+					"alt": "Crouching medium punch punishes the throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-no-drive/frame-3.jpg",
+					"at": 2.6,
+					"label": "Heavy Crusher",
+					"alt": "Heavy Psycho Crusher detonates the planted mine."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-no-drive/frame-4.jpg",
+					"at": 3.8,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo ends the meterless punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-medium-backfist-block-heavy-shimmy-crusher",
+			"mbison-depth-corner-heavy-backfist-guard-dp-meterless",
+			"mbison-depth-corner-heavy-backfist-guard-dp-scissors-od"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-heavy-backfist-shimmy-shadow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner heavy Backfist: dash shimmy, OD Scissors route",
+		"summary": "Trade two Drive bars for the longer OD-Scissors overhead-sweep and delayed Shadow extension after the throw bait.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "66 > Walk back > 2MP > 236KK > 6HP > 2HK > [2]8HK > HK > HP (delay) > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "[2]8HK",
+				"label": "[2]8HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "HK",
+				"label": "HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "HP (delay)",
+				"label": "Delayed heavy-punch air follow-up",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-10",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Scissors)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 435.0,
+			"end": 444.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-shadow/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-shadow/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-shadow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-shadow/frame-1.jpg",
+					"at": 0.7,
+					"label": "Dash retreat",
+					"alt": "Bison retreats from the throw after the dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-shadow/frame-2.jpg",
+					"at": 1.65,
+					"label": "Crouching punish",
+					"alt": "Crouching medium punch scores punish counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-shadow/frame-3.jpg",
+					"at": 3.5,
+					"label": "Overhead pickup",
+					"alt": "Forward heavy punch follows OD Scissors."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-shadow/frame-4.jpg",
+					"at": 6.1,
+					"label": "Delayed air follow-up",
+					"alt": "Heavy punch continues after the heavy Shadow Rise kick."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-shimmy-shadow/frame-5.jpg",
+					"at": 7.75,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo completes the extension."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-corner-crusher-kill-shimmy",
+			"mbison-depth-light-backfist-kill-shimmy-shadow",
+			"mbison-depth-medium-backfist-block-heavy-shimmy-shadow"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-heavy-backfist-guard-dp-meterless",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner heavy Backfist: dash guard, meterless DP punish",
+		"summary": "Block Ryu’s OD uppercut after the dash and punish with heavy kick, medium punch, heavy Crusher and light Crusher.",
+		"kind": "response",
+		"situations": ["Corner", "Oki", "Punish", "Punish counter", "Reversal bait", "Mine conversion"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "66 > Guard > st.HK > st.MP > [4]6HP > [4]6LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "[4]6HP",
+				"label": "[4]6HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "[4]6LP",
+				"label": "[4]6LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route.",
+			"The recorded reversal is Ryu OD uppercut. No universal reversal or Super safety is implied."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time.",
+			"Both Crushers are normal strengths; the recorded branch spends no Drive."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 447.85,
+			"end": 453.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-meterless/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-meterless/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-meterless/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-meterless/frame-1.jpg",
+					"at": 1.25,
+					"label": "Guard Ryu OD DP",
+					"alt": "Bison blocks the gold OD uppercut."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-meterless/frame-2.jpg",
+					"at": 2.95,
+					"label": "Heavy punish",
+					"alt": "Standing heavy kick starts the punish-counter conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-meterless/frame-3.jpg",
+					"at": 3.55,
+					"label": "Medium link",
+					"alt": "Standing medium punch follows the heavy kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-meterless/frame-4.jpg",
+					"at": 4.6,
+					"label": "Heavy Crusher",
+					"alt": "Heavy Psycho Crusher triggers the existing mine."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-meterless/frame-5.jpg",
+					"at": 5.75,
+					"label": "Light Crusher",
+					"alt": "A second, light Psycho Crusher finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-corner-heavy-backfist-guard-dp-scissors-od",
+			"mbison-depth-medium-backfist-block-heavy-shimmy-crusher",
+			"mbison-depth-heavy-backfist-rush-guard-od-dp"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-heavy-backfist-guard-dp-scissors-od",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner heavy Backfist: guard DP, heavy-Scissors punish",
+		"summary": "Heavy Scissors scores punish counter after the blocked OD uppercut, then crouching medium links the mined OD-Crusher pickup.",
+		"kind": "response",
+		"situations": ["Corner", "Oki", "Punish", "Punish counter", "Reversal bait", "Mine conversion"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "66 > Guard > 236HK > 2MP > [4]6PP > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "[4]6PP",
+				"label": "[4]6PP"
+			},
+			{
+				"id": "step-6",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route.",
+			"Ryu OD uppercut is the recorded blocked reversal."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Psycho Crusher)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 459.9,
+			"end": 469.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-scissors-od/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-scissors-od/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-scissors-od/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-scissors-od/frame-1.jpg",
+					"at": 1.3,
+					"label": "Blocked reversal",
+					"alt": "Bison guards Ryu’s OD uppercut after the dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-scissors-od/frame-2.jpg",
+					"at": 3.2,
+					"label": "Heavy Scissors punish",
+					"alt": "Heavy Scissors starts the punish-counter route."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-scissors-od/frame-3.jpg",
+					"at": 5.2,
+					"label": "Mine-enhanced OD Crusher",
+					"alt": "OD Psycho Crusher triggers the cinematic mine juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-scissors-od/frame-4.jpg",
+					"at": 8.1,
+					"label": "Forward-heavy pickup",
+					"alt": "Forward heavy punch catches the launched Ryu."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-guard-dp-scissors-od/frame-5.jpg",
+					"at": 9.1,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo restores the mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-corner-heavy-backfist-guard-dp-meterless",
+			"mbison-depth-medium-backfist-block-heavy-shimmy-crusher",
+			"mbison-depth-heavy-backfist-rush-guard-od-dp"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-heavy-backfist-meaty-back-heavy-shadow",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner heavy Backfist: dash meaty back-heavy, Shadow",
+		"summary": "Dash from the +31 corner knockdown and link meaty back heavy kick into crouching medium and the OD-Scissors Shadow route.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "66 > 4HK > 2MP > 236KK > 6HP > 2HK > [2]8HK > HK > HP (delay) > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HK",
+				"label": "4HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236KK",
+				"label": "236KK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "[2]8HK",
+				"label": "[2]8HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "HK",
+				"label": "HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "HP (delay)",
+				"label": "Delayed heavy-punch air follow-up",
+				"cue": "The source explicitly demonstrates a delay but does not establish an exact wait-frame count."
+			},
+			{
+				"id": "step-10",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Scissors)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 474.9,
+			"end": 485.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-back-heavy-shadow/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-back-heavy-shadow/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-back-heavy-shadow/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-back-heavy-shadow/frame-1.jpg",
+					"at": 1.35,
+					"label": "Meaty back heavy",
+					"alt": "Back heavy kick catches Ryu’s wake-up after the dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-back-heavy-shadow/frame-2.jpg",
+					"at": 2.25,
+					"label": "OD Scissors",
+					"alt": "Crouching medium punch cancels into OD Scissors."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-back-heavy-shadow/frame-3.jpg",
+					"at": 5.1,
+					"label": "Sweep extension",
+					"alt": "Crouching heavy kick follows the forward-heavy pickup."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-back-heavy-shadow/frame-4.jpg",
+					"at": 7.2,
+					"label": "Air follow-up",
+					"alt": "Delayed heavy punch continues after the Shadow kick."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-back-heavy-shadow/frame-5.jpg",
+					"at": 8.5,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo restores the mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-corner-crusher-kill-throw",
+			"mbison-depth-corner-crusher-kill-shimmy",
+			"mbison-depth-corner-crusher-kill-mediums"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-heavy-backfist-meaty-od-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner heavy Backfist: meaty back-heavy, OD Crusher Level 1",
+		"summary": "Link the dash meaty into mined OD Crusher, standing heavy punch and one-bar Super finish.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Mine conversion", "Super ender"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "66 > 4HK > 2MP > [4]6PP > st.HP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HK",
+				"label": "4HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "[4]6PP",
+				"label": "[4]6PP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA1",
+				"label": "SA1"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Psycho Crusher)",
+			"super": "1 Super bar (SA1)"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 488.9,
+			"end": 500.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-od-level-one/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-od-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-od-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-od-level-one/frame-1.jpg",
+					"at": 1.1,
+					"label": "Meaty back heavy",
+					"alt": "Back heavy kick starts the wake-up conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-od-level-one/frame-2.jpg",
+					"at": 3.4,
+					"label": "Mine-enhanced Crusher",
+					"alt": "OD Psycho Crusher triggers the existing mine."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-od-level-one/frame-3.jpg",
+					"at": 5.4,
+					"label": "Standing-heavy pickup",
+					"alt": "Standing heavy punch catches the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-meaty-od-level-one/frame-4.jpg",
+					"at": 8.5,
+					"label": "Level 1 finish",
+					"alt": "The shown Super finish is Level 1."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-backfist-kill-medium-level-one",
+			"mbison-depth-corner-heavy-backfist-od-air-level-one",
+			"mbison-depth-light-backfist-throw-overhead-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-heavy-backfist-od-air-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner heavy Backfist: OD Crusher, OD air follow-up Level 1",
+		"summary": "Spend extra Drive on the two-kick air follow-up after heavy Shadow Rise, then juggle standing heavy into Level 1.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Mine conversion", "Super ender"],
+		"outcomes": ["Corner knockdown", "Burnout"],
+		"notation": "66 > 4HK > 2MP > [4]6PP > [2]8HK > KK > st.HP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HK",
+				"label": "4HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "[4]6PP",
+				"label": "[4]6PP"
+			},
+			{
+				"id": "step-5",
+				"notation": "[2]8HK",
+				"label": "[2]8HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "SA1",
+				"label": "SA1"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route.",
+			"Have enough Drive for both OD Crusher and the two-kick air follow-up; the recording enters Burnout."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time.",
+			"The rise is heavy Shadow Rise, then the separate KK air follow-up spends two more Drive bars. It is not an OD Shadow Rise input."
+		],
+		"resources": {
+			"drive": "4 Drive bars (OD Crusher + OD air follow-up)",
+			"super": "1 Super bar (SA1)"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 504.6,
+			"end": 516.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-level-one/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-level-one/frame-1.jpg",
+					"at": 0.9,
+					"label": "Meaty back heavy",
+					"alt": "Back heavy kick links crouching medium punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-level-one/frame-2.jpg",
+					"at": 3.4,
+					"label": "Mined OD Crusher",
+					"alt": "OD Psycho Crusher detonates the mine."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-level-one/frame-3.jpg",
+					"at": 5.5,
+					"label": "OD air follow-up",
+					"alt": "A two-kick follow-up after heavy Shadow Rise spends the additional Drive."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-level-one/frame-4.jpg",
+					"at": 6.65,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch prepares the Super finish."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-level-one/frame-5.jpg",
+					"at": 9.2,
+					"label": "Level 1",
+					"alt": "The route ends with Level 1."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-backfist-kill-medium-level-one",
+			"mbison-depth-corner-heavy-backfist-meaty-od-level-one",
+			"mbison-depth-light-backfist-throw-overhead-mine"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-heavy-backfist-od-air-ca",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner heavy Backfist: OD air extension Critical Art cash-out",
+		"summary": "Cash out the mined wake-up conversion with OD Crusher, the OD air follow-up, forward heavy, light Crusher and Critical Art.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Mine conversion", "Cash-out"],
+		"outcomes": ["Corner knockdown", "Burnout"],
+		"notation": "66 > 4HK > 2MP > [4]6PP > [2]8HK > KK > 6HP > [4]6LP > SA3 / CA",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "66"
+			},
+			{
+				"id": "step-2",
+				"notation": "4HK",
+				"label": "4HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "[4]6PP",
+				"label": "[4]6PP"
+			},
+			{
+				"id": "step-5",
+				"notation": "[2]8HK",
+				"label": "[2]8HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "KK",
+				"label": "KK"
+			},
+			{
+				"id": "step-7",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "[4]6LP",
+				"label": "[4]6LP"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA3 / CA",
+				"label": "SA3 / CA"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: corner heavy Backfist Combo knockdown (214HP), captioned +31. The prerequisite Backfist has already planted a Psycho Mine on Ryu. Mine age, knockdown, spacing and recovery must match the recording; an unmined opponent does not reproduce the shown explosion route.",
+			"Critical Art must be available, with three Super bars. The recording spends its remaining Drive into Burnout."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time.",
+			"Heavy Shadow Rise is followed by the separate OD two-kick air follow-up.",
+			"The recording shows the CA indicator in regenerative training settings. It does not establish a visible health threshold; reproduce Critical Art availability rather than substituting ordinary Level 3."
+		],
+		"resources": {
+			"drive": "4 Drive bars (OD Crusher + OD air follow-up)",
+			"super": "3 Super bars (Critical Art)"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 520.85,
+			"end": 538.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-ca/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-ca/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-ca/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-ca/frame-1.jpg",
+					"at": 0.7,
+					"label": "Meaty back heavy",
+					"alt": "Back heavy kick starts the corner wake-up conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-ca/frame-2.jpg",
+					"at": 3.85,
+					"label": "Mine-enhanced Crusher",
+					"alt": "OD Psycho Crusher detonates the mine."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-ca/frame-3.jpg",
+					"at": 5.4,
+					"label": "OD air follow-up",
+					"alt": "The two-kick air follow-up spends the second OD cost."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-ca/frame-4.jpg",
+					"at": 6.45,
+					"label": "Light Crusher pickup",
+					"alt": "Forward heavy punch leads into light Psycho Crusher."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-corner-heavy-backfist-od-air-ca/frame-5.jpg",
+					"at": 13.95,
+					"label": "Critical Art",
+					"alt": "The Critical Art cinematic completes the recorded cash-out."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-backfist-throw-overhead-mine",
+			"mbison-depth-light-backfist-throw-sweep-mine",
+			"mbison-depth-light-backfist-throw-block-overhead"
+		]
+	},
+	{
+		"id": "mbison-depth-heavy-light-light-crusher",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Heavy punch: light-kick link into light Crusher",
+		"summary": "A simple standing-heavy starter links light kick before the meterless light-Crusher finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "BnB"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > st.LK > [4]6LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "[4]6LP",
+				"label": "[4]6LP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 545.05,
+			"end": 548.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-heavy-light-light-crusher/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-heavy-light-light-crusher/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-heavy-light-light-crusher/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-heavy-light-light-crusher/frame-1.jpg",
+					"at": 0.45,
+					"label": "Heavy starter",
+					"alt": "Standing heavy punch starts the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-heavy-light-light-crusher/frame-2.jpg",
+					"at": 1.05,
+					"label": "Light-kick link",
+					"alt": "Standing light kick links after heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-heavy-light-light-crusher/frame-3.jpg",
+					"at": 1.65,
+					"label": "Light Crusher",
+					"alt": "Light Psycho Crusher finishes the meterless route."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-medium-od-scissors-level-one",
+			"mbison-depth-medium-od-scissors-heavy-backfist",
+			"mbison-jabs-light-crusher"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-back-heavy-light-backfist",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner back heavy: light kick into light Backfist",
+		"summary": "The performed back-heavy starter links light kick and light Backfist to plant a corner mine.",
+		"kind": "combo",
+		"situations": ["Corner", "BnB"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "4HK > st.LK > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "4HK",
+				"label": "4HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"The caption also offers standing heavy punch; this specific take performs back heavy kick."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 549.1,
+			"end": 553.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-back-heavy-light-backfist/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-back-heavy-light-backfist/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-back-heavy-light-backfist/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-back-heavy-light-backfist/frame-1.jpg",
+					"at": 0.5,
+					"label": "Back-heavy starter",
+					"alt": "Back heavy kick starts the corner route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-back-heavy-light-backfist/frame-2.jpg",
+					"at": 1.15,
+					"label": "Light link",
+					"alt": "Standing light kick follows the heavy starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-back-heavy-light-backfist/frame-3.jpg",
+					"at": 2.1,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo plants a corner mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-corner-crusher-kill-throw",
+			"mbison-corner-counter-di-heavy-link",
+			"mbison-wall-splat-shadow-hammer"
+		]
+	},
+	{
+		"id": "mbison-depth-punish-heavy-raw-rush-backfist",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Heavy-punch punish: raw Rush into heavy Backfist",
+		"summary": "Use heavy-punch punish counter to raw-Rush into crouching medium, standing medium and heavy Backfist for one Drive bar.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown", "Mine planted"],
+		"notation": "st.HP > Drive Rush > 2MP > st.MP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing heavy punch is punish counter; the raw-Rush link is not asserted for a normal hit."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "1 Drive bar (raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 559.6,
+			"end": 564.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-punish-heavy-raw-rush-backfist/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-punish-heavy-raw-rush-backfist/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-punish-heavy-raw-rush-backfist/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-punish-heavy-raw-rush-backfist/frame-1.jpg",
+					"at": 0.75,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch scores punish counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-punish-heavy-raw-rush-backfist/frame-2.jpg",
+					"at": 1.4,
+					"label": "Raw Rush",
+					"alt": "A raw Drive Rush follows the heavy hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-punish-heavy-raw-rush-backfist/frame-3.jpg",
+					"at": 2.05,
+					"label": "Medium links",
+					"alt": "Crouching and standing medium punches continue."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-punish-heavy-raw-rush-backfist/frame-4.jpg",
+					"at": 3.5,
+					"label": "Heavy Backfist",
+					"alt": "Heavy Backfist Combo plants a mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-heavy-backfist-rush-shimmy-shadow",
+			"mbison-depth-heavy-backfist-rush-guard-od-dp",
+			"mbison-depth-punish-heavy-scissors-medium-crusher"
+		]
+	},
+	{
+		"id": "mbison-depth-counter-medium-scissors-light-crusher",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Medium Scissors counter hit: light kick to Crusher",
+		"summary": "At the recorded spacing, counter-hit medium Scissors links standing light kick and light Psycho Crusher.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "236MK > st.LK > [4]6LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "[4]6LP",
+				"label": "[4]6LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Medium Scissors must score the recorded counter hit at the shown spacing; ordinary-hit link availability is not claimed."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 565.85,
+			"end": 569.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-counter-medium-scissors-light-crusher/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-counter-medium-scissors-light-crusher/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-counter-medium-scissors-light-crusher/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-counter-medium-scissors-light-crusher/frame-1.jpg",
+					"at": 0.65,
+					"label": "Counter-hit Scissors",
+					"alt": "Medium Scissors scores counter hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-counter-medium-scissors-light-crusher/frame-2.jpg",
+					"at": 1.25,
+					"label": "Light-kick link",
+					"alt": "Standing light kick links after the Scissors counter hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-counter-medium-scissors-light-crusher/frame-3.jpg",
+					"at": 1.95,
+					"label": "Light Crusher",
+					"alt": "Light Psycho Crusher completes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-jabs-light-crusher",
+			"mbison-crusher-dash-throw",
+			"mbison-medium-link-backfist"
+		]
+	},
+	{
+		"id": "mbison-depth-punish-heavy-scissors-medium-crusher",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Heavy Scissors punish counter: medium link to Crusher",
+		"summary": "Heavy-Scissors punish counter links crouching medium punch into medium Psycho Crusher.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "236HK > 2MP > [4]6MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236HK",
+				"label": "236HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "[4]6MP",
+				"label": "[4]6MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Heavy Scissors scores punish counter at the recorded spacing."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 570.4,
+			"end": 574.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-punish-heavy-scissors-medium-crusher/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-punish-heavy-scissors-medium-crusher/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-punish-heavy-scissors-medium-crusher/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-punish-heavy-scissors-medium-crusher/frame-1.jpg",
+					"at": 0.85,
+					"label": "Heavy-Scissors punish",
+					"alt": "Heavy Scissors scores punish counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-punish-heavy-scissors-medium-crusher/frame-2.jpg",
+					"at": 1.6,
+					"label": "Medium link",
+					"alt": "Crouching medium punch follows the punish counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-punish-heavy-scissors-medium-crusher/frame-3.jpg",
+					"at": 2.7,
+					"label": "Medium Crusher",
+					"alt": "Medium Psycho Crusher ends the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-heavy-backfist-rush-shimmy-shadow",
+			"mbison-depth-heavy-backfist-rush-guard-od-dp",
+			"mbison-depth-punish-heavy-raw-rush-backfist"
+		]
+	},
+	{
+		"id": "mbison-depth-rush-block-jab-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Rush jab pressure: walk back and punish the throw",
+		"summary": "A guarded Rush jab leads to a retreating throw bait and crouching-medium heavy-Backfist punish.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Block pressure", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown", "Mine planted"],
+		"notation": "Drive Rush > st.LP > Walk back > 2MP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-3",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-4",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "1 Drive bar (raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 600.15,
+			"end": 604.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-rush-block-jab-shimmy/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-rush-block-jab-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-rush-block-jab-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-rush-block-jab-shimmy/frame-1.jpg",
+					"at": 0.6,
+					"label": "Rush jab",
+					"alt": "Bison uses a standing jab from raw Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-rush-block-jab-shimmy/frame-2.jpg",
+					"at": 1.05,
+					"label": "Throw bait",
+					"alt": "Ryu’s throw misses after the guarded jab and retreat."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-rush-block-jab-shimmy/frame-3.jpg",
+					"at": 1.45,
+					"label": "Medium punish",
+					"alt": "Crouching medium punch scores punish counter."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-rush-block-jab-shimmy/frame-4.jpg",
+					"at": 2.5,
+					"label": "Heavy Backfist",
+					"alt": "Heavy Backfist Combo plants a mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-medium-backfist-block-heavy-shimmy-shadow",
+			"mbison-depth-medium-backfist-block-heavy-shimmy-crusher",
+			"mbison-depth-heavy-backfist-rush-shimmy-shadow"
+		]
+	},
+	{
+		"id": "mbison-depth-guard-drive-reversal-medium-punish",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Guard Ryu Drive Reversal: crouching-medium punish",
+		"summary": "Block the recorded Ryu Drive Reversal and punish with crouching medium punch into heavy Backfist.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish", "Punish counter", "Drive Reversal"],
+		"outcomes": ["Knockdown", "Mine planted"],
+		"notation": "Guard > 2MP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu’s Drive Reversal is the recorded response; spacing and recovery follow this demonstration."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 605.45,
+			"end": 609.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-guard-drive-reversal-medium-punish/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-guard-drive-reversal-medium-punish/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-guard-drive-reversal-medium-punish/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-guard-drive-reversal-medium-punish/frame-1.jpg",
+					"at": 0.9,
+					"label": "Guard Drive Reversal",
+					"alt": "Bison guards the recorded Ryu Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-guard-drive-reversal-medium-punish/frame-2.jpg",
+					"at": 1.65,
+					"label": "Medium punish",
+					"alt": "Crouching medium punch scores punish counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-guard-drive-reversal-medium-punish/frame-3.jpg",
+					"at": 2.75,
+					"label": "Heavy Backfist",
+					"alt": "Heavy Backfist Combo finishes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-heavy-backfist-rush-shimmy-shadow",
+			"mbison-depth-heavy-backfist-rush-guard-od-dp",
+			"mbison-depth-punish-heavy-raw-rush-backfist"
+		]
+	},
+	{
+		"id": "mbison-depth-corner-jab-guard-od-dp-target-punish",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Corner jab bait: guard Ryu OD DP, heavy target punish",
+		"summary": "Poke with a standing jab, guard the OD uppercut and punish with heavy kick into the medium-overhead target and light Backfist.",
+		"kind": "response",
+		"situations": ["Corner", "Punish", "Punish counter", "Reversal bait"],
+		"outcomes": ["Corner knockdown", "Mine planted"],
+		"notation": "st.LP > Guard > st.HK > st.MP > 6HP > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-2",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HP",
+				"label": "6HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "214LP",
+				"label": "214LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu OD uppercut is the recorded response to the corner jab; no general reversal-safety claim is made."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 617.85,
+			"end": 624.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-corner-jab-guard-od-dp-target-punish/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-corner-jab-guard-od-dp-target-punish/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-corner-jab-guard-od-dp-target-punish/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-corner-jab-guard-od-dp-target-punish/frame-1.jpg",
+					"at": 0.6,
+					"label": "Jab bait",
+					"alt": "Standing light punch reaches Ryu before the reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-corner-jab-guard-od-dp-target-punish/frame-2.jpg",
+					"at": 1.4,
+					"label": "Guard OD uppercut",
+					"alt": "Bison blocks Ryu’s gold OD uppercut."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-corner-jab-guard-od-dp-target-punish/frame-3.jpg",
+					"at": 2.9,
+					"label": "Heavy punish",
+					"alt": "Standing heavy kick starts the punish-counter conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-corner-jab-guard-od-dp-target-punish/frame-4.jpg",
+					"at": 3.75,
+					"label": "Target combo",
+					"alt": "Standing medium punch leads into forward heavy punch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-corner-jab-guard-od-dp-target-punish/frame-5.jpg",
+					"at": 5.25,
+					"label": "Light Backfist",
+					"alt": "Light Backfist Combo plants the corner mine."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-corner-heavy-backfist-guard-dp-meterless",
+			"mbison-depth-corner-heavy-backfist-guard-dp-scissors-od",
+			"mbison-depth-corner-crusher-kill-shimmy"
+		]
+	},
+	{
+		"id": "mbison-depth-low-double-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mbison"
+			}
+		],
+		"title": "Low cash-out: double Rush cancel into Level 3",
+		"summary": "Spend both Rush cancels from crouching medium kick to reach the heavy-Crusher Level 3 cash-out.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Cash-out", "Drive Rush confirm"],
+		"outcomes": ["Knockdown", "Burnout"],
+		"notation": "2MK > DRC > st.MP > 2HP > DRC > st.HK > 4HK > [4]6HP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "2HP",
+				"label": "2HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "4HK",
+				"label": "4HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "[4]6HP",
+				"label": "[4]6HP"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA3",
+				"label": "SA3"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Have six Drive bars and three Super bars; the recording spends Drive into Burnout."
+		],
+		"notes": [
+			"Dated Ryu training recording; these routes and matchup timings have not been retested on the current game patch.",
+			"Printed +F values describe advantage remaining after an action, not a delay-frame instruction.",
+			"Retain the back/down charges needed by the shown Psycho Crusher and Shadow Rise; the compact motion alone does not supply charge time."
+		],
+		"resources": {
+			"drive": "6 Drive bars (two Drive Rush Cancels)",
+			"super": "3 Super bars (SA3)"
+		},
+		"source": {
+			"id": "joe-ebios-mbison-2026",
+			"title": "SF6 M.Baison Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=6QZiyemClRE",
+			"published": "2026-07-15",
+			"start": 641.15,
+			"end": 655.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/mbison/mbison-depth-low-double-rush-level-three/clip.mp4",
+			"poster": "/media/mbison/mbison-depth-low-double-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/mbison/mbison-depth-low-double-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mbison/mbison-depth-low-double-rush-level-three/frame-1.jpg",
+					"at": 0.5,
+					"label": "Low starter",
+					"alt": "Crouching medium kick starts the cash-out."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mbison/mbison-depth-low-double-rush-level-three/frame-2.jpg",
+					"at": 1.5,
+					"label": "First Rush link",
+					"alt": "Standing medium and crouching heavy punch follow the first Rush cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mbison/mbison-depth-low-double-rush-level-three/frame-3.jpg",
+					"at": 2.65,
+					"label": "Second Rush heavy chain",
+					"alt": "Standing heavy kick links back heavy kick after the second cancel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/mbison/mbison-depth-low-double-rush-level-three/frame-4.jpg",
+					"at": 3.55,
+					"label": "Heavy Crusher",
+					"alt": "Heavy Psycho Crusher prepares the Super cancel."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/mbison/mbison-depth-low-double-rush-level-three/frame-5.jpg",
+					"at": 10.55,
+					"label": "Level 3 finish",
+					"alt": "The Level 3 cinematic completes the cash-out."
+				}
+			]
+		},
+		"relatedIds": [
+			"mbison-depth-light-crusher-dash-low",
+			"mbison-depth-crouch-medium-rush-heavy-backfist",
+			"mbison-depth-heavy-backfist-rush-low-shadow"
+		]
 	}
 ]

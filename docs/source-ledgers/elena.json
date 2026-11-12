@@ -1,0 +1,1105 @@
+{
+	"characterId": "elena",
+	"reviewedOn": "2026-11-12",
+	"status": "Substantial partial extraction; source-reviewed, not current-patch game-tested",
+	"baselineCommit": "929ff0b3a73080697e644b976960866c6ec1c781",
+	"originalReferencesPreserved": 12,
+	"newReferences": 40,
+	"newKinds": {
+		"combo": 11,
+		"setup": 17,
+		"response": 12
+	},
+	"screeningNote": "Joe full1616s screened at8-second spacing; dense0.5-second review1–121 and228–401, selected Super147.7–158.25/193.9–209.1 and punish928–984 material, and0.25-second counter616–628/carry1114–1127 probes. KEI.B full1267s screened at8-second spacing; selected Perfect Parry1188–1234.4 densely reviewed. Additional KEI.B first24–104 and570–722.5 pressure examples were inspected for actual whiffs versus hit/block; this does not imply complete extraction. Vesper air-to-air840–866 densely reviewed. Stoned375s screened at4-second spacing only. All source intervals are explicitly partitioned below.",
+	"sources": [
+		{
+			"sourceKey": "joe-ebios-elena-september-2026",
+			"youtubeId": "53t-H8cqiFo",
+			"title": "SF6 Classic ELENA Complete Combos & Setup Guide (2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=53t-H8cqiFo",
+			"duration": 1616,
+			"intervals": [
+				{
+					"start": 0,
+					"end": 2,
+					"disposition": "excluded",
+					"reason": "Opening black section/title."
+				},
+				{
+					"start": 2.0,
+					"end": 8.85,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-crouching-heavy-scythe-medium-rhino",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 8.85,
+					"end": 9.0,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 9.0,
+					"end": 15.85,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-medium-rhino-roll-whirl-snap",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 15.85,
+					"end": 15.95,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 15.95,
+					"end": 25.75,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-medium-rhino-snap-trade-target",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 25.75,
+					"end": 25.95,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 25.95,
+					"end": 33.35,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-medium-rhino-rush-guard",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 33.35,
+					"end": 33.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 33.5,
+					"end": 42.7,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-medium-rhino-rush-medium-glider",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 42.7,
+					"end": 42.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 42.9,
+					"end": 52.6,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-medium-rhino-rush-low-target",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 52.6,
+					"end": 52.8,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 52.8,
+					"end": 59.7,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-crouching-heavy-rush-heavy-rhino",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 59.7,
+					"end": 59.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 59.9,
+					"end": 67.35,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-heavy-rhino-roll-whirl-snap",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 67.35,
+					"end": 67.4,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 67.4,
+					"end": 74.4,
+					"disposition": "excluded",
+					"reason": "Double-dash timing illustration without a further strike/throw/defensive decision; not padded into a separate reference."
+				},
+				{
+					"start": 74.4,
+					"end": 74.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 74.5,
+					"end": 84.4,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-heavy-rhino-rush-throw",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 84.4,
+					"end": 84.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 84.65,
+					"end": 96.45,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-heavy-rhino-rush-shimmy",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 96.45,
+					"end": 96.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 96.5,
+					"end": 109.2,
+					"disposition": "unprocessed",
+					"reason": "Raw-Rush standing-medium/heavy-Scythe follow-up, including two actual enders. Further extraction remains available."
+				},
+				{
+					"start": 109.2,
+					"end": 109.25,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 109.25,
+					"end": 119.6,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-heavy-rhino-rush-overhead",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 119.6,
+					"end": 119.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 119.7,
+					"end": 147.6,
+					"disposition": "unprocessed",
+					"reason": "Raw-Rush low and OD-roll/Harvest-Circle medium-Rhino routes with subsequent pressure. Available for deeper review."
+				},
+				{
+					"start": 147.6,
+					"end": 147.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 147.7,
+					"end": 158.25,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-scythe-od-roll-level-one",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 158.25,
+					"end": 158.3,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 158.3,
+					"end": 193.8,
+					"disposition": "unprocessed",
+					"reason": "Level-2 and OD Moon-Glider/OD-roll Super alternatives. Healing versus damage continuation needs its own state/input review."
+				},
+				{
+					"start": 193.8,
+					"end": 193.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 193.9,
+					"end": 209.1,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-scythe-heavy-rhino-level-three",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 209.1,
+					"end": 209.2,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 209.2,
+					"end": 227.9,
+					"disposition": "unprocessed",
+					"reason": "OD-roll medium-Rhino Level-3 cash-out alternative."
+				},
+				{
+					"start": 227.9,
+					"end": 228.0,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 228.0,
+					"end": 235.35,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-heavy-scythe-light-wheel",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 235.35,
+					"end": 235.4,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 235.4,
+					"end": 242.5,
+					"disposition": "excluded",
+					"reason": "Empty light-roll timing example; the chosen roll medium/throw/shimmy/guard branches retain the actual roll action."
+				},
+				{
+					"start": 242.5,
+					"end": 242.55,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 242.55,
+					"end": 250.85,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-wheel-roll-medium-guard",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 250.85,
+					"end": 250.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 250.9,
+					"end": 258.6,
+					"disposition": "duplicate",
+					"reason": "Blocked roll/medium illustration is fully represented in the selected throw and shimmy branches."
+				},
+				{
+					"start": 258.6,
+					"end": 258.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 258.65,
+					"end": 268.65,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-wheel-roll-medium-throw",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 268.65,
+					"end": 268.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 268.9,
+					"end": 281.95,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-wheel-roll-medium-shimmy",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 281.95,
+					"end": 282.3,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 282.3,
+					"end": 293.65,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-wheel-roll-medium-confirm",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 293.65,
+					"end": 293.95,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 293.95,
+					"end": 303.85,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-wheel-roll-delay-throw",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 303.85,
+					"end": 304.1,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 304.1,
+					"end": 312.35,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-wheel-whiff-low-overhead",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 312.35,
+					"end": 313.3,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 313.3,
+					"end": 321.0,
+					"disposition": "excluded",
+					"reason": "Two-whiff framekill illustration without a subsequent decision; selected throw and strike branches retain both actual whiffs."
+				},
+				{
+					"start": 321.0,
+					"end": 321.1,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 321.1,
+					"end": 330.85,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-wheel-low-standing-jab-throw",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 330.85,
+					"end": 331.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 331.5,
+					"end": 342.35,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-wheel-low-standing-jab-confirm",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 342.35,
+					"end": 342.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 342.7,
+					"end": 352.85,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-wheel-whiffs-jab-guard-level-one",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 352.85,
+					"end": 352.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 352.9,
+					"end": 360.4,
+					"disposition": "excluded",
+					"reason": "Crouching-light framekill timing illustration; selected low/throw/shimmy branches retain both actual whiffs."
+				},
+				{
+					"start": 360.4,
+					"end": 360.45,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 360.45,
+					"end": 371.65,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-wheel-low-crouching-jab-low",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 371.65,
+					"end": 371.95,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 371.95,
+					"end": 381.65,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-wheel-low-crouching-jab-throw",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 381.65,
+					"end": 381.95,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 381.95,
+					"end": 394.65,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-corner-wheel-low-crouching-jab-shimmy",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 394.65,
+					"end": 394.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 394.7,
+					"end": 620.8,
+					"disposition": "unprocessed",
+					"reason": "Substantial corner Scythe/Super alternatives, light-Rhino knockdown setups, light starters and medium-Wheel pressure families. Availability screening only; no selected-media review claimed."
+				},
+				{
+					"start": 620.8,
+					"end": 620.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 620.9,
+					"end": 625.35,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-counter-jab-kick-target-heavy-rhino",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 625.35,
+					"end": 625.7,
+					"disposition": "excluded",
+					"reason": "Black chapter transition after the counter-hit jab route; removed from the excerpt."
+				},
+				{
+					"start": 625.7,
+					"end": 931.2,
+					"disposition": "unprocessed",
+					"reason": "Overhead-target knockdowns, target-combo, Rush, jump-in and Super routes. Coarse source screening only."
+				},
+				{
+					"start": 931.2,
+					"end": 931.3,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 931.3,
+					"end": 935.45,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-punish-jab-medium-glider",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 935.45,
+					"end": 935.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 935.5,
+					"end": 937.95,
+					"disposition": "excluded",
+					"reason": "Priming kick/opponent action leading to the selected point-blank jab Punish Counter."
+				},
+				{
+					"start": 937.95,
+					"end": 938.0,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 938.0,
+					"end": 943.95,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-punish-close-jab-heavy-scythe",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 943.95,
+					"end": 944.4,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 944.4,
+					"end": 946.6,
+					"disposition": "excluded",
+					"reason": "Priming kick/opponent action for the selected OD-Rhino side-switch punish."
+				},
+				{
+					"start": 946.6,
+					"end": 946.85,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 946.85,
+					"end": 951.25,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-punish-jab-od-rhino-side-switch",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 951.25,
+					"end": 953.1,
+					"disposition": "excluded",
+					"reason": "Priming blocked light kick starts Bison’s recorded wake-up Drive Reversal; selected response starts at the actual defensive exchange."
+				},
+				{
+					"start": 953.1,
+					"end": 953.2,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 953.2,
+					"end": 957.65,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-guard-bison-drive-reversal-light-rhino",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 957.65,
+					"end": 957.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 957.7,
+					"end": 958.8,
+					"disposition": "excluded",
+					"reason": "Priming light-kick trigger for the selected OD-Scythe reversal punish."
+				},
+				{
+					"start": 958.8,
+					"end": 958.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 958.9,
+					"end": 964.95,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-guard-bison-drive-reversal-od-scythe",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 964.95,
+					"end": 965,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 965,
+					"end": 965.9,
+					"disposition": "excluded",
+					"reason": "Spacing and priming opponent normal before the selected low Punish Counter."
+				},
+				{
+					"start": 965.9,
+					"end": 965.95,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 965.95,
+					"end": 970.85,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-punish-low-medium-glider",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 970.85,
+					"end": 970.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 970.9,
+					"end": 972.6,
+					"disposition": "excluded",
+					"reason": "Raw-Rush priming strike and opponent action before the selected medium Punish Counter."
+				},
+				{
+					"start": 972.6,
+					"end": 972.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 972.7,
+					"end": 978.35,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-punish-medium-heavy-scythe",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 978.35,
+					"end": 978.4,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 978.4,
+					"end": 1117.8,
+					"disposition": "unprocessed",
+					"reason": "Additional OD-roll Super conversions, point-blank normal and special Punish Counters, corner routes and heavy-target alternatives."
+				},
+				{
+					"start": 1117.8,
+					"end": 1117.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 1117.9,
+					"end": 1126.85,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-guard-od-dp-heavy-target-carry",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 1126.85,
+					"end": 1126.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 1126.9,
+					"end": 1616,
+					"disposition": "unprocessed",
+					"reason": "Further corner carry/Whirl/OD/Rush/Super branches, corner throw pressure, DI conversions and burnout stun cash-outs remain unprocessed. No complete extraction claim."
+				}
+			]
+		},
+		{
+			"sourceKey": "keib-elena-2025",
+			"youtubeId": "V0FL4F70d98",
+			"title": "【スト6】エレナリリース５日目にしてこの完成度！プロが使う起き攻めとコンボを一挙公開【KEI.B】",
+			"creator": "KEI.B / バンババン",
+			"url": "https://www.youtube.com/watch?v=V0FL4F70d98",
+			"duration": 1267,
+			"intervals": [
+				{
+					"start": 0,
+					"end": 76,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 76,
+					"end": 94,
+					"disposition": "excluded",
+					"reason": "Two standing-jab whiffs/timing discussion and a recorded failure against throw. Not mislabeled as blocked jab pressure."
+				},
+				{
+					"start": 94,
+					"end": 112,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 112,
+					"end": 160,
+					"disposition": "unprocessed",
+					"reason": "Medium-roll neutral-pressure and Super-response illustrations require further exact branch review."
+				},
+				{
+					"start": 160,
+					"end": 616,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 616,
+					"end": 626,
+					"disposition": "excluded",
+					"reason": "Standing-heavy-kick whiff timing illustration without a subsequent useful strike/throw decision."
+				},
+				{
+					"start": 626,
+					"end": 680.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 680.5,
+					"end": 687.4,
+					"disposition": "ambiguous",
+					"reason": "Jumping-heavy-kick/landing-guard demonstration blocks Elena’s recorded Scratch Wheel, but the opponent’s performed strength/OD state is unresolved. Excluded rather than asserting OD reversal safety."
+				},
+				{
+					"start": 687.4,
+					"end": 1198.15,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 1198.15,
+					"end": 1205.55,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-perfect-parry-psycho-di",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 1205.55,
+					"end": 1209.85,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 1209.85,
+					"end": 1215.6,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-perfect-parry-psycho-jab",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 1215.6,
+					"end": 1229.15,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 1229.15,
+					"end": 1234.4,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-perfect-parry-kimberly-run",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 1234.4,
+					"end": 1236,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 1236,
+					"end": 1249.9,
+					"disposition": "unprocessed",
+					"reason": "Lily OD Condor Spire Perfect Parry conversion remains available; wind state and exact prerequisite need focused follow-up."
+				},
+				{
+					"start": 1249.9,
+					"end": 1267,
+					"disposition": "unprocessed",
+					"reason": "Unselected material remains available; no source-exhaustion claim."
+				}
+			]
+		},
+		{
+			"sourceKey": "vesperarcade-elena-2025",
+			"youtubeId": "G_aSayiIcGg",
+			"title": "Street Fighter 6 Elena Combos! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=G_aSayiIcGg",
+			"duration": 1142,
+			"intervals": [
+				{
+					"start": 0,
+					"end": 21.8,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 21.8,
+					"end": 26.2,
+					"disposition": "reused",
+					"referenceId": "elena-vesper-low-light-scythe",
+					"reason": "Original reference object and media preserved exactly."
+				},
+				{
+					"start": 26.2,
+					"end": 27.6,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 27.6,
+					"end": 31.65,
+					"disposition": "reused",
+					"referenceId": "elena-vesper-three-jab-heavy-wheel",
+					"reason": "Original reference object and media preserved exactly."
+				},
+				{
+					"start": 31.65,
+					"end": 33.3,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 33.3,
+					"end": 37.6,
+					"disposition": "reused",
+					"referenceId": "elena-vesper-jab-standing-light-rhino",
+					"reason": "Original reference object and media preserved exactly."
+				},
+				{
+					"start": 37.6,
+					"end": 38.8,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 38.8,
+					"end": 42.95,
+					"disposition": "reused",
+					"referenceId": "elena-vesper-jab-light-kick-heavy-wheel",
+					"reason": "Original reference object and media preserved exactly."
+				},
+				{
+					"start": 42.95,
+					"end": 44.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 44.9,
+					"end": 51.65,
+					"disposition": "reused",
+					"referenceId": "elena-vesper-low-level1-heavy-wheel",
+					"reason": "Original reference object and media preserved exactly."
+				},
+				{
+					"start": 51.65,
+					"end": 52.8,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 52.8,
+					"end": 62.5,
+					"disposition": "reused",
+					"referenceId": "elena-vesper-low-two-level1s",
+					"reason": "Original reference object and media preserved exactly."
+				},
+				{
+					"start": 62.5,
+					"end": 63.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 63.9,
+					"end": 68.85,
+					"disposition": "reused",
+					"referenceId": "elena-vesper-low-od-rhino-heavy-wheel",
+					"reason": "Original reference object and media preserved exactly."
+				},
+				{
+					"start": 68.85,
+					"end": 90.3,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 90.3,
+					"end": 104.3,
+					"disposition": "reused",
+					"referenceId": "elena-vesper-low-scythe-level3",
+					"reason": "Original reference object and media preserved exactly."
+				},
+				{
+					"start": 104.3,
+					"end": 114.75,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 114.75,
+					"end": 119.7,
+					"disposition": "reused",
+					"referenceId": "elena-vesper-medium-lights-light-scythe",
+					"reason": "Original reference object and media preserved exactly."
+				},
+				{
+					"start": 119.7,
+					"end": 313.2,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 313.2,
+					"end": 320.1,
+					"disposition": "reused",
+					"referenceId": "elena-vesper-wall-heavy-target-rhino",
+					"reason": "Original reference object and media preserved exactly."
+				},
+				{
+					"start": 320.1,
+					"end": 377.3,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 377.3,
+					"end": 382.15,
+					"disposition": "reused",
+					"referenceId": "elena-vesper-punish-jab-medium-target",
+					"reason": "Original reference object and media preserved exactly."
+				},
+				{
+					"start": 382.15,
+					"end": 840,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 840,
+					"end": 840.7,
+					"disposition": "excluded",
+					"reason": "Air-to-air chapter title/transition."
+				},
+				{
+					"start": 840.7,
+					"end": 842.35,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 842.35,
+					"end": 847.9,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-air-to-air-heavy-level-one",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 847.9,
+					"end": 849.4,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 849.4,
+					"end": 852.75,
+					"disposition": "reused",
+					"referenceId": "elena-vesper-air-medium-heavy-wheel",
+					"reason": "Original reference object and media preserved exactly."
+				},
+				{
+					"start": 852.75,
+					"end": 852.8,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 852.8,
+					"end": 859.85,
+					"disposition": "unprocessed",
+					"reason": "Jumping medium/heavy target into light Rhino; not extracted as padding beside the selected OD crossover."
+				},
+				{
+					"start": 859.85,
+					"end": 859.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 859.9,
+					"end": 864.4,
+					"disposition": "reviewed",
+					"referenceId": "elena-depth-air-to-air-target-od-side-switch",
+					"reason": "Actual recipe, input history, hit/state/resource result, selected prepared moments and original clip endpoints reviewed."
+				},
+				{
+					"start": 864.4,
+					"end": 864.45,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals. Availability screening is not a completed execution or extraction review."
+				},
+				{
+					"start": 864.45,
+					"end": 877.8,
+					"disposition": "unprocessed",
+					"reason": "Air-to-air target into Level1/Level2 alternative remains available."
+				},
+				{
+					"start": 877.8,
+					"end": 1142,
+					"disposition": "unprocessed",
+					"reason": "Unselected material remains available; no source-exhaustion claim."
+				}
+			]
+		},
+		{
+			"sourceKey": "stoned-prodigy-elena-2025",
+			"youtubeId": "9zt3aTFpWOM",
+			"title": "ELENA COMBO GUIDE! STREET FIGHTER 6",
+			"creator": "StonedProdigyGaming23",
+			"url": "https://www.youtube.com/watch?v=9zt3aTFpWOM",
+			"duration": 375,
+			"intervals": [
+				{
+					"start": 0,
+					"end": 375,
+					"disposition": "unprocessed",
+					"reason": "Unselected material remains available; no source-exhaustion claim."
+				}
+			]
+		}
+	],
+	"interpretationDecisions": [
+		{
+			"topic": "Timing captions and intentional whiffs",
+			"decision": "Numeric +F values report remaining advantage. They are not invented delay durations. All intentional cr.LK/cr.LP/st.LP framekills include (whiff) in compact and copied notation. Actual delayed throws use unquantified visible timing cues."
+		},
+		{
+			"topic": "Uncaptioned shimmy punish",
+			"decision": "Fine input-history probes91.0,275.8–279.8 and388.0–392.0 resolve crouching medium punch, not crouching heavy. Corner branches perform heavy Scythe, light Rhino and light Wheel; midscreen branch performs heavy Scythe and medium Rhino. No generic any ender was guessed."
+		},
+		{
+			"topic": "Prerequisites and resource costs",
+			"decision": "Setup clips retain prerequisite combos, but performed sequence and cost begin after the prerequisite. Heavy-Rhino prerequisite spends one raw Rush, with any additional follow-up raw Rush separately counted."
+		},
+		{
+			"topic": "Moon Glider and Lynx Whirl",
+			"decision": "214LP plus6LP is the performed Moon-Glider punch follow-up. Lynx Song236LP plus6HP extends via Lynx Whirl; the roll follow-up6LK is separate. These are distinct sequences, not an install or charge."
+		},
+		{
+			"topic": "Perfect Parry routes",
+			"decision": "Actual Bison OD Psycho Crusher and Kimberly run-attack Perfect Parries are retained with damage scaling. Early Scythe cancellation after the two observed hits into6LP/6MK is explicit. One Bison branch spends DI; the jab branches spend no attacking Drive. Defensive parry remains part of the exchange."
+		},
+		{
+			"topic": "Reversal safety",
+			"decision": "The raw-Rush/crouch-guard take makes Ryu’s OD Shoryuken miss above Elena; it is not a recorded block. The separate heavy-target carry punish does block Ryu’s OD Shoryuken. Actual blocked reversal claims otherwise refer to Ryu Drive Reversal, Lily Level1 and Bison Drive Reversal. No on-reaction or all-reversal guarantee. KEI.B safe-jump opponent DP strength is unresolved, so that extraction is excluded."
+		},
+		{
+			"topic": "Air-to-air and carry taxonomy",
+			"decision": "The two airborne interceptions are Air-to-air responses, not tagged Anti-air. The heavy-target/Rush carry begins Midscreen and visibly advances through the stage; Corner is not a starting-situation tag."
+		}
+	],
+	"remainingGaps": [
+		"Dedicated grounded anti-air demonstrations remain absent from the appended extraction. Air-to-air responses are separately labeled.",
+		"Large Joe light/medium/target/DI/Rush/Super, corner throw and burnout-stun intervals remain unprocessed.",
+		"KEI.B other knockdown/neutral-pressure routes, Lily wind-state response and unresolved-strength safe jump remain available or ambiguous.",
+		"Vesper special/corner/Super branches beyond originals and two selected air-to-airs remain mostly unprocessed.",
+		"The local Stoned recording is available but has no execution-reviewed extraction."
+	]
+}

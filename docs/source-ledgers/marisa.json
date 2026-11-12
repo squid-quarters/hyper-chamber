@@ -1,0 +1,1394 @@
+{
+	"characterId": "marisa",
+	"reviewedOn": "2026-11-12",
+	"status": "Partial source-reviewed expansion; source screening does not imply complete extraction. Current-patch gameplay untested.",
+	"originalReferencesPreserved": 14,
+	"newReferences": 71,
+	"newKinds": {
+		"setup": 45,
+		"combo": 10,
+		"response": 16
+	},
+	"newMoments": 346,
+	"sources": [
+		{
+			"sourceKey": "joe-ebios-marisa-classic-2026",
+			"youtubeId": "kB_QYkNRvBs",
+			"publishedUtc": "2026-01-31",
+			"reportedUploadDate": "20260131",
+			"duration": 1308.914,
+			"reportedDuration": 1309,
+			"sourceRecordingSha256": "6e14501aa3b33ccf3ac103ca47777bf82fb00ff0106047a92a77eea86440b812",
+			"sourceMetadataSha256": "c6ab52f809da517fd40dfc10ca832febfbc91a267d2bd31268883f0e7d68e3ad",
+			"surveyedIntervals": [
+				{
+					"start": 0,
+					"end": 1308.914,
+					"method": "Four-second discovery survey of the whole retained recording, all 28 sheets inspected; screening is not complete execution extraction."
+				},
+				{
+					"start": 7.5,
+					"end": 34,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 34,
+					"end": 68,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 68,
+					"end": 95.5,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 105,
+					"end": 143,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 149.5,
+					"end": 177.5,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 219,
+					"end": 269,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 314,
+					"end": 350,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 350,
+					"end": 390,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 390,
+					"end": 434,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 470,
+					"end": 514,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 514,
+					"end": 566,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 566,
+					"end": 625,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 651,
+					"end": 746,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 792,
+					"end": 801,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 950,
+					"end": 962,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 1028,
+					"end": 1037,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 1108,
+					"end": 1117,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 1137,
+					"end": 1246,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				},
+				{
+					"start": 1249,
+					"end": 1259,
+					"method": "Half-second action survey, all generated sheets in this interval inspected. Focused finer/native-resolution probes support the selected demonstrations; this survey is not complete extraction."
+				}
+			],
+			"intervals": [
+				{
+					"start": 0,
+					"end": 3.05,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 3.05,
+					"end": 7.3,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-three-jabs-light-dimachaerus"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 7.3,
+					"end": 10.8,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 10.8,
+					"end": 15.3,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-light-knockdown-rush-overhead"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 15.3,
+					"end": 20.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 20.1,
+					"end": 24.8,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-light-knockdown-rush-delayed-low"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 24.8,
+					"end": 28.75,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 28.75,
+					"end": 33.6,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-light-knockdown-rush-command-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 33.6,
+					"end": 42.75,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 42.75,
+					"end": 49.3,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-light-whiff-jab-held-back-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 49.3,
+					"end": 53.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 53.1,
+					"end": 58.6,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-light-whiff-jab-trade-quadriga"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 58.6,
+					"end": 62.25,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 62.25,
+					"end": 66.35,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-light-whiff-jab-command-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 66.35,
+					"end": 75.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 75.65,
+					"end": 78.8,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-light-whiff-medium-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 78.8,
+					"end": 82.55,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 82.55,
+					"end": 88.1,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-light-whiff-medium-shimmy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 88.1,
+					"end": 91.5,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 91.5,
+					"end": 94.65,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-light-whiff-medium-low"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 94.65,
+					"end": 96.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 96.15,
+					"end": 100.3,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-counter-jab-light-kick-dimachaerus"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 100.3,
+					"end": 101.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 101.1,
+					"end": 104.95,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-counter-light-target-medium-dimachaerus"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 104.95,
+					"end": 105.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 105.65,
+					"end": 116.9,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-counter-light-target-two-rush-level-three"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 116.9,
+					"end": 118.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 118.15,
+					"end": 121.95,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-raw-rush-low-light-kick-dimachaerus"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 121.95,
+					"end": 123.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 123.15,
+					"end": 128.95,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-guard-drive-reversal-jab-heavy-punish"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 128.95,
+					"end": 130.55,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 130.55,
+					"end": 136.1,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-raw-rush-low-counter-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 136.1,
+					"end": 137.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 137.15,
+					"end": 142.15,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-raw-rush-jab-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 142.15,
+					"end": 154.2,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 154.2,
+					"end": 158.5,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-heavy-knockdown-empty-jump-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 158.5,
+					"end": 162.25,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 162.25,
+					"end": 166.8,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-heavy-knockdown-dash-walk-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 166.8,
+					"end": 171.85,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 171.85,
+					"end": 178.0,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-heavy-knockdown-dash-held-forward-kick"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 178.0,
+					"end": 223.2,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 223.2,
+					"end": 229.15,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-held-level-one-rush-medium-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 229.15,
+					"end": 234.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 234.15,
+					"end": 238.9,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-held-level-one-rush-heavy-medium-target"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 238.9,
+					"end": 244.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 244.15,
+					"end": 248.95,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-held-level-one-rush-low-medium-target"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 248.95,
+					"end": 253.3,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 253.3,
+					"end": 257.65,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-held-level-one-dash-medium-target"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 257.65,
+					"end": 262.85,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 262.85,
+					"end": 267.85,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-held-level-one-dash-scutum-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 267.85,
+					"end": 318.75,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 318.75,
+					"end": 321.7,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-near-corner-heavy-target-safe-jump"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 321.7,
+					"end": 339.4,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 339.4,
+					"end": 345.5,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-phalanx-dash-held-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 345.5,
+					"end": 357.45,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 357.45,
+					"end": 361.45,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-corner-phalanx-dash-jab-throw"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 361.45,
+					"end": 366.0,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 366.0,
+					"end": 370.35,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-phalanx-dash-whiff-jab-low"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 370.35,
+					"end": 381.7,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 381.7,
+					"end": 388.3,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-phalanx-whiff-medium-held-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 388.3,
+					"end": 393.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 393.15,
+					"end": 398.95,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-phalanx-whiff-medium-trade"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 398.95,
+					"end": 410.4,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 410.4,
+					"end": 414.85,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-phalanx-whiff-low-medium-target"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 414.85,
+					"end": 419.9,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 419.9,
+					"end": 424.85,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-phalanx-whiff-low-scutum-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 424.85,
+					"end": 429.8,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 429.8,
+					"end": 432.3,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-phalanx-safe-jump"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 432.3,
+					"end": 474.25,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 474.25,
+					"end": 478.45,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-medium-knockdown-rush-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 478.45,
+					"end": 482.25,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 482.25,
+					"end": 488.4,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-medium-knockdown-rush-whiff-jab-shimmy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 488.4,
+					"end": 497.2,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 497.2,
+					"end": 501.45,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-medium-knockdown-rush-held-overhead-block-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 501.45,
+					"end": 504.85,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 504.85,
+					"end": 511.75,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-medium-knockdown-rush-held-overhead-block-shimmy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 511.75,
+					"end": 515.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 515.65,
+					"end": 521.0,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-medium-knockdown-rush-held-overhead-hit"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 521.0,
+					"end": 530.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 530.65,
+					"end": 535.35,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-medium-knockdown-rush-held-kick-block-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 535.35,
+					"end": 538.45,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 538.45,
+					"end": 545.0,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-medium-knockdown-rush-held-kick-block-shimmy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 545.0,
+					"end": 548.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 548.65,
+					"end": 555.2,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-medium-knockdown-rush-held-kick-hit-target-ender"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 555.2,
+					"end": 558.7,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 558.7,
+					"end": 563.95,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-medium-knockdown-rush-delayed-scutum"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 563.95,
+					"end": 568.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 568.1,
+					"end": 574.5,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-medium-whiff-jab-held-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 574.5,
+					"end": 578.25,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 578.25,
+					"end": 583.75,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-medium-whiff-jab-scutum"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 583.75,
+					"end": 592.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 592.15,
+					"end": 596.5,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-medium-whiff-jab-rush-low-block-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 596.5,
+					"end": 600.25,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 600.25,
+					"end": 606.95,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-medium-whiff-jab-rush-low-shimmy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 606.95,
+					"end": 610.95,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 610.95,
+					"end": 617.3,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-medium-whiff-jab-rush-low-hit"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 617.3,
+					"end": 620.8,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 620.8,
+					"end": 624.35,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-medium-whiff-forward-medium-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 624.35,
+					"end": 626.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 626.15,
+					"end": 631.95,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-medium-target-od-held-heavy"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 631.95,
+					"end": 633.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 633.1,
+					"end": 638.7,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-corner-medium-rush-quadriga-phalanx"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 638.7,
+					"end": 640.05,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 640.05,
+					"end": 650.9,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-medium-target-double-rush-level-three"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 650.9,
+					"end": 651.95,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 651.95,
+					"end": 658.35,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-crouching-medium-rush-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 658.35,
+					"end": 659.05,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 659.05,
+					"end": 664.05,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-corner-crouching-medium-punish-quadriga"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 664.05,
+					"end": 664.8,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 664.8,
+					"end": 670.35,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-medium-kick-punish-held-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 670.35,
+					"end": 671.05,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 671.05,
+					"end": 675.5,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-overhead-counter-jab-dimachaerus"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 675.5,
+					"end": 676.45,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 676.45,
+					"end": 680.65,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-forward-medium-punish-standing-light-kick"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 680.65,
+					"end": 683.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 683.65,
+					"end": 689.5,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-shimmy-back-heavy-medium-target"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 689.5,
+					"end": 699.2,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 699.2,
+					"end": 705.8,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-rush-low-shimmy-heavy-phalanx"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 705.8,
+					"end": 707.7,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 707.7,
+					"end": 712.3,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-counter-heavy-two-jabs-light-dimachaerus"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 712.3,
+					"end": 712.7,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 712.7,
+					"end": 717.1,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-heavy-punish-medium-target"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 717.1,
+					"end": 724.4,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 724.4,
+					"end": 731.35,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-guard-ryu-od-held-heavy-punish"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 731.35,
+					"end": 731.85,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 731.85,
+					"end": 746.45,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-guard-ryu-od-held-heavy-double-rush-level-three"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 746.45,
+					"end": 791.9,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 791.9,
+					"end": 800.7,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-guard-od-held-heavy-quadriga-level-one"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 800.7,
+					"end": 950.05,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 950.05,
+					"end": 961.7,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-guard-ryu-held-crouching-heavy-rush-level-one"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 961.7,
+					"end": 1028.35,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1028.35,
+					"end": 1035.85,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-heavy-kick-punish-rush-target-sweep"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1035.85,
+					"end": 1108.6,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1108.6,
+					"end": 1115.3,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-near-corner-heavy-kick-rush-od-quadriga"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1115.3,
+					"end": 1141.85,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1141.85,
+					"end": 1148.35,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-forward-throw-rush-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1148.35,
+					"end": 1149.2,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1149.2,
+					"end": 1155.25,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-corner-forward-throw-rush-throw"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 1155.25,
+					"end": 1158.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1158.65,
+					"end": 1162.8,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-back-throw-rush-delayed-throw"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1162.8,
+					"end": 1166.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1166.1,
+					"end": 1172.75,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-back-throw-rush-whiff-jab-shimmy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1172.75,
+					"end": 1175.85,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1175.85,
+					"end": 1182.75,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-corner-back-throw-rush-held-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1182.75,
+					"end": 1187.8,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1187.8,
+					"end": 1193.8,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-enfold-rush-medium-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1193.8,
+					"end": 1198.8,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1198.8,
+					"end": 1205.2,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-enfold-rush-medium-trade-heavy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1205.2,
+					"end": 1210.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1210.15,
+					"end": 1213.2,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-enfold-rush-whiff-throw-ryu-od"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1213.2,
+					"end": 1218.45,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1218.45,
+					"end": 1220.85,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-enfold-rush-od-scutum-juri"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1220.85,
+					"end": 1226.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1226.1,
+					"end": 1228.75,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-enfold-rush-light-gladius-cammy"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1228.75,
+					"end": 1234.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1234.65,
+					"end": 1238.2,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-enfold-rush-held-od-gladius-guile"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1238.2,
+					"end": 1243.2,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1243.2,
+					"end": 1245.2,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-enfold-rush-whiff-jab-ed"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1245.2,
+					"end": 1249.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1249.65,
+					"end": 1259.15,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-midscreen-counter-impact-heavy-juggle"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 1259.15,
+					"end": 1259.9,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1259.9,
+					"end": 1268.5,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-corner-counter-di-held-quadriga"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 1268.5,
+					"end": 1269.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 1269.15,
+					"end": 1276.35,
+					"disposition": "reused",
+					"referenceIds": ["marisa-ebios-wall-splat-od-phalanx-held-kick"],
+					"currentPatchTested": false,
+					"reason": "Existing reference object, revision, related links and media preserved exactly."
+				},
+				{
+					"start": 1276.35,
+					"end": 1308.914,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				}
+			]
+		},
+		{
+			"sourceKey": "izonk-marisa-beginner-2023",
+			"youtubeId": "BZoam-rO1A0",
+			"publishedUtc": "2023-06-07",
+			"reportedUploadDate": "20230607",
+			"duration": 1064.183333,
+			"reportedDuration": 1064,
+			"sourceRecordingSha256": "2aa0767f75ea601ab4804e023edec027bd6e70ebf17b8fc3deb28d3abf4324f8",
+			"sourceMetadataSha256": "2ad8619425a8636808a5c3cc5c90cb2c2d3f0e0bce7e2b8a4fcaa44cdcf49bc2",
+			"surveyedIntervals": [
+				{
+					"start": 43,
+					"end": 130,
+					"method": "Two-second discovery survey of this chapter only; the rest of the guide remains unprocessed."
+				},
+				{
+					"start": 74,
+					"end": 98,
+					"method": "Quarter-second action survey with narration corroboration for the three selected successful jump responses. Input history is hidden; no direction or strength is inferred beyond the corroborated evidence."
+				}
+			],
+			"intervals": [
+				{
+					"start": 0,
+					"end": 74.75,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 74.75,
+					"end": 77.0,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-scutum-grounded-jump-interception"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 77.0,
+					"end": 83.9,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 83.9,
+					"end": 86.35,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-crouching-heavy-jump-interception"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 86.35,
+					"end": 94.4,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				},
+				{
+					"start": 94.4,
+					"end": 96.9,
+					"disposition": "reviewed",
+					"referenceIds": ["marisa-depth-air-to-air-medium-target"],
+					"currentPatchTested": false,
+					"reason": "New recipe, selected moments, resource/response evidence and prepared loop boundaries reviewed against the dated source."
+				},
+				{
+					"start": 96.9,
+					"end": 1064.183333,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected execution intervals. Any discovery survey does not establish full extraction or source exhaustion."
+				}
+			]
+		}
+	],
+	"excludedCandidates": [
+		{
+			"sourceId": "izonk-marisa-beginner-2023",
+			"start": 79,
+			"end": 83.9,
+			"reason": "Unsuccessful/traded/cross-up anti-air attempts were not selected as successful jump defense."
+		}
+	],
+	"discoveryOnly": [
+		"The Joe full-source survey reveals additional maximum-damage and resource permutations; these are available material, not evidence of scarcity.",
+		"Most of the 2023 companion guide is unprocessed; only three corroborated jump-response demonstrations are added."
+	],
+	"interpretationDecisions": [
+		"Raw Drive Rush costs one bar, a cancel costs three, and each OD special costs two; prerequisite knockdown resources are stated separately.",
+		"Printed +31/+35/+36/+42/+47 advantage labels are source results, not added wait commands.",
+		"Timing normals marked whiff are not combo hits. Blocked pressure, throw baits, trades and reversal responses use separate conditions.",
+		"The seven corner Phalanx setups require the recorded light623LP juggle knockdown and spacing; the caption generic623P is not a claim for every strength.",
+		"Safe-jump demonstrations show forward jump9 and jumping HP whiffing before landing guard against the recorded Ryu OD reversal only.",
+		"The Scutum throws shown use normal214LK; a brief gold normal-stance flash does not establish OD spend.",
+		"Enfold versus Ryu evades the recorded OD with throw-recovery posture; Juri/Cammy/Guile examples absorb100/300/300 damage through armor; Ed requires later guard. Other opponents listed only in captions are not claimed as demonstrated.",
+		"Full-resolution neutral+heldHP input histories distinguish standing-heavy juggle enders from the visually crouched holding animation.",
+		"The companion source has no visible input history. Narration plus the performed animation corroborates light-kick Scutum, crouching HP, and the jumping-MP target; the jump direction is unspecified."
+	],
+	"preparedReview": {
+		"newReferences": 71,
+		"selectedMomentsViewed": 346,
+		"actualFirstLastDecodedFramesViewed": 142,
+		"method": "All 71 prepared grids and actual first/last decoded frames visually inspected. Affected loops and moments were regenerated and rechecked after boundary and annotation corrections. Native originals support strengths, held inputs, timing whiffs, guard/armor outcomes and source transitions. Independent review is recorded separately."
+	},
+	"reviewCorrections": [
+		{
+			"referenceId": "marisa-depth-heavy-knockdown-dash-held-forward-kick",
+			"change": "Start at171.85 before the actual dash; select172.10 during its approach, retaining later absolute action moments."
+		},
+		{
+			"referenceId": "marisa-depth-enfold-rush-whiff-jab-ed",
+			"change": "Select the actual whiffed jab at1243.95, then show crouch guard at1244.20 and the later guard at1245.0. Remove the false opening-miss ordering."
+		}
+	]
+}

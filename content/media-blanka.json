@@ -1,6 +1,6 @@
 {
-	"sourceIds": ["orang-blanka-2023"],
-	"publicationStatus": "private-development",
+	"sourceIds": ["orang-blanka-2023", "scorp-fgc-blanka-guide-2023"],
+	"publicationStatus": "public-repository",
 	"presentationNote": "Complete 1280×720 source frames retained without crop, including virtual inputs, meters and source overlays. Full original remains local.",
 	"assets": [
 		{
@@ -108,6 +108,276 @@
 			"sourceStart": 114.65,
 			"sourceEnd": 121.25,
 			"clip": "/media/blanka/blanka-counter-di-wild-lift-vertical/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-blocked-back-medium-low-counter",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 5.75,
+			"sourceEnd": 8.95,
+			"clip": "/media/blanka/blanka-depth-blocked-back-medium-low-counter/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-blocked-od-electric-jab-counter",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 9.65,
+			"sourceEnd": 12.75,
+			"clip": "/media/blanka/blanka-depth-blocked-od-electric-jab-counter/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-low-light-rush-electric",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 16.15,
+			"sourceEnd": 19.85,
+			"clip": "/media/blanka/blanka-depth-low-light-rush-electric/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-triple-jab-light-electric",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 23.95,
+			"sourceEnd": 26.75,
+			"clip": "/media/blanka/blanka-depth-triple-jab-light-electric/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-forward-medium-light-electric",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 57.65,
+			"sourceEnd": 60.15,
+			"clip": "/media/blanka/blanka-depth-forward-medium-light-electric/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-standing-medium-double-rush-vertical",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 60.45,
+			"sourceEnd": 67.35,
+			"clip": "/media/blanka/blanka-depth-standing-medium-double-rush-vertical/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-heavy-od-air-roll",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 76.65,
+			"sourceEnd": 79.8,
+			"clip": "/media/blanka/blanka-depth-heavy-od-air-roll/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-heavy-lift-slide",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 81.7,
+			"sourceEnd": 84.85,
+			"clip": "/media/blanka/blanka-depth-heavy-lift-slide/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-raw-rush-heavy-triple-level-three",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 85.0,
+			"sourceEnd": 101.3,
+			"clip": "/media/blanka/blanka-depth-raw-rush-heavy-triple-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-counter-standing-medium-jab-roll",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 101.65,
+			"sourceEnd": 104.15,
+			"clip": "/media/blanka/blanka-depth-counter-standing-medium-jab-roll/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-counter-forward-medium-od-air",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 109.5,
+			"sourceEnd": 113.4,
+			"clip": "/media/blanka/blanka-depth-counter-forward-medium-od-air/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-counter-di-od-air",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 121.65,
+			"sourceEnd": 128.95,
+			"clip": "/media/blanka/blanka-depth-counter-di-od-air/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-wall-splat-double-vertical",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 129.45,
+			"sourceEnd": 135.45,
+			"clip": "/media/blanka/blanka-depth-wall-splat-double-vertical/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-pc-low-medium-electric",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 138.65,
+			"sourceEnd": 142.45,
+			"clip": "/media/blanka/blanka-depth-pc-low-medium-electric/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-pc-forward-medium-lift-roll",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 142.5,
+			"sourceEnd": 146.25,
+			"clip": "/media/blanka/blanka-depth-pc-forward-medium-lift-roll/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-pc-heavy-kick-od-air",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 146.6,
+			"sourceEnd": 150.9,
+			"clip": "/media/blanka/blanka-depth-pc-heavy-kick-od-air/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-pc-forward-heavy-level-one",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 163.3,
+			"sourceEnd": 168.15,
+			"clip": "/media/blanka/blanka-depth-pc-forward-heavy-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-pc-rush-heavy-carry-slide",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 153.25,
+			"sourceEnd": 162.85,
+			"clip": "/media/blanka/blanka-depth-pc-rush-heavy-carry-slide/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-pc-heavy-double-rush-level-three",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 172.05,
+			"sourceEnd": 187.35,
+			"clip": "/media/blanka/blanka-depth-pc-heavy-double-rush-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-stun-doll-level-three",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 189.85,
+			"sourceEnd": 207.1,
+			"clip": "/media/blanka/blanka-depth-stun-doll-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-back-medium-anti-air",
+			"sourceId": "scorp-fgc-blanka-guide-2023",
+			"sourceStart": 452.1,
+			"sourceEnd": 454.45,
+			"clip": "/media/blanka/blanka-depth-back-medium-anti-air/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-standing-heavy-kick-anti-air",
+			"sourceId": "scorp-fgc-blanka-guide-2023",
+			"sourceStart": 510.45,
+			"sourceEnd": 513.2,
+			"clip": "/media/blanka/blanka-depth-standing-heavy-kick-anti-air/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-light-vertical-neutral-jump",
+			"sourceId": "scorp-fgc-blanka-guide-2023",
+			"sourceStart": 545.65,
+			"sourceEnd": 548.5,
+			"clip": "/media/blanka/blanka-depth-light-vertical-neutral-jump/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-slide-hop-medium-oki",
+			"sourceId": "scorp-fgc-blanka-guide-2023",
+			"sourceStart": 807.1,
+			"sourceEnd": 810.2,
+			"clip": "/media/blanka/blanka-depth-slide-hop-medium-oki/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-slide-hop-throw-oki",
+			"sourceId": "scorp-fgc-blanka-guide-2023",
+			"sourceStart": 814.35,
+			"sourceEnd": 819.5,
+			"clip": "/media/blanka/blanka-depth-slide-hop-throw-oki/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-air-throw-jump-response",
+			"sourceId": "scorp-fgc-blanka-guide-2023",
+			"sourceStart": 600.3,
+			"sourceEnd": 604.15,
+			"clip": "/media/blanka/blanka-depth-air-throw-jump-response/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-corner-doll-low-block-overhead",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 213.55,
+			"sourceEnd": 229.85,
+			"clip": "/media/blanka/blanka-depth-corner-doll-low-block-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-corner-doll-high-block-low",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 235.45,
+			"sourceEnd": 252.25,
+			"clip": "/media/blanka/blanka-depth-corner-doll-high-block-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-corner-doll-grab-mash-counter",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 255.25,
+			"sourceEnd": 272.65,
+			"clip": "/media/blanka/blanka-depth-corner-doll-grab-mash-counter/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "blanka-depth-corner-doll-reversal-block-punish",
+			"sourceId": "orang-blanka-2023",
+			"sourceStart": 275.1,
+			"sourceEnd": 293.85,
+			"clip": "/media/blanka/blanka-depth-corner-doll-reversal-block-punish/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

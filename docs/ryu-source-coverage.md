@@ -28,7 +28,7 @@ Unclear safe-jump follow-ups, an ambiguous Hashogeki strength and an overhead wh
 
 The committed ingestion helper encodes the reviewed intervals and selects the frame actually presented at or before each authored key moment. For the batch, short lossless H.264 intermediates retained the precisely trimmed source frames and zero-based presentation clock before the canonical encoding pass. A decoded-frame comparison of a prepared side-switch clip matched all 174 frames from a direct full-source trim. Originals were not stream-copied into approximate keyframe cuts or passed through lossy proxies.
 
-The source intervals below retain original-video times. Some short oki clips deliberately isolate a single wake-up interaction and stop before unlisted follow-ups. Creator overlays remain visible. `content/media-ryu.json` records the assets as private development excerpts; public redistribution has not been assessed.
+The source intervals below retain original-video times. Some short oki clips deliberately isolate a single wake-up interaction and stop before unlisted follow-ups. Creator overlays remain visible. `content/media-ryu.json` records owner-authorized public-repository excerpts; public redistribution has not been assessed.
 
 ## Reference index
 

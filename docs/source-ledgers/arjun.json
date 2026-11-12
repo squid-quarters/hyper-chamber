@@ -1,0 +1,816 @@
+{
+	"characterId": "arjun",
+	"reviewedOn": "2026-11-12",
+	"baselineCommit": "929ff0b3a73080697e644b976960866c6ec1c781",
+	"originalReferencesPreserved": 13,
+	"newReferences": 33,
+	"newKinds": {
+		"combo": 20,
+		"setup": 10,
+		"response": 3
+	},
+	"status": "Substantial partial extraction; source-reviewed, current-patch gameplay untested",
+	"screeningNote": "Every discovery page across the annotated guide (4-second), MC Mura (3-second) and official guide (4-second) was viewed. MC Mura 26–218 at one second and 246–360 at 0.75 seconds; Soul 876–1016 at 0.75 seconds, 980–1017 at 0.25 seconds, and 190–234 at 0.5 seconds were surveyed densely. Selected starts/ends, commands and state risks received finer 0.05–0.2-second/native probes. Discovery is not completed extraction.",
+	"sources": [
+		{
+			"sourceKey": "soul-arjun-2026",
+			"youtubeId": "dBag9IiElmU",
+			"title": "アルジュンの立ち回りから必須コンボまで！アルジュンの使い方解説【スト6】",
+			"creator": "煌月ソウル【スト6解説】",
+			"url": "https://www.youtube.com/watch?v=dBag9IiElmU",
+			"publishedUtc": "2026-10-18",
+			"duration": 1042.85,
+			"reportedDuration": 1043,
+			"recordingSha256": "e64a8aad58ea9ca1ae13b679d0e42b89aec246f45e803d272da723f5e67aa885",
+			"metadataSha256": "a5512ffb28c37be1b5f0f515fdb0c8e5192b57582f7c75ea349157dcdebc56c9",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 16,
+					"disposition": "excluded",
+					"reason": "Opening commentary/montage, not a new selected practice reference."
+				},
+				{
+					"start": 16,
+					"end": 55,
+					"disposition": "unprocessed",
+					"reason": "Neutral-normal examples surveyed; exact spacing/command and media extraction remains available."
+				},
+				{
+					"start": 55,
+					"end": 169,
+					"disposition": "unprocessed",
+					"reason": "Arm of Justice strength, blocked pressure and DI/Super interaction examples surveyed. No separate exact extraction authored."
+				},
+				{
+					"start": 169,
+					"end": 193.3,
+					"disposition": "unprocessed",
+					"reason": "Ring explanations and initial anti-air context surveyed, not selected as new practice clips."
+				},
+				{
+					"start": 193.3,
+					"end": 195.25,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-anti-air-crouching-heavy",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 195.25,
+					"end": 206.55,
+					"disposition": "excluded",
+					"reason": "The intervening close-cross-up and late-Shoulder examples fail to stop Luke’s jump. They limit the authored successes; no universal anti-air claim."
+				},
+				{
+					"start": 206.55,
+					"end": 208.85,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-anti-air-standing-heavy-kick",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 208.85,
+					"end": 234,
+					"disposition": "unprocessed",
+					"reason": "Breathing Ring/Shockwave jump/projectile examples remain available. Exact complete inputs were not resolved for extraction."
+				},
+				{
+					"start": 234,
+					"end": 409,
+					"disposition": "unprocessed",
+					"reason": "Pillar range/hold, OD interaction, command-throw/parry and stance explanations remain available for dedicated exact extraction."
+				},
+				{
+					"start": 409,
+					"end": 409.18,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 409.18,
+					"end": 411.0,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-jab-chain-light-arm",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 411.0,
+					"end": 432.7,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 432.7,
+					"end": 434.7,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-light-kick-light-arm",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 434.7,
+					"end": 451.05,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 451.05,
+					"end": 454.35,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-medium-od-arm-follow",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 454.35,
+					"end": 469.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 469.65,
+					"end": 471.6,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-medium-light-arm",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 471.6,
+					"end": 482.3,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 482.3,
+					"end": 484.8,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-medium-kick-light-shoulder",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 484.8,
+					"end": 492.0,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 492.0,
+					"end": 495.8,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-crouching-heavy-od-arm",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 495.8,
+					"end": 505.3,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 505.3,
+					"end": 508.85,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-rush-medium-kick-shoulder",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 508.85,
+					"end": 514.8,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 514.8,
+					"end": 518.3,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-rush-low-medium-shoulder",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 518.3,
+					"end": 536.55,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 536.55,
+					"end": 540.85,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-cancel-rush-medium-shoulder",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 540.85,
+					"end": 545.35,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 545.35,
+					"end": 559.65,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-double-cancel-level3",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 559.65,
+					"end": 571.08,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 571.08,
+					"end": 577.5,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-wall-ring-arm-follow",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 577.5,
+					"end": 681.18,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 681.18,
+					"end": 685.2,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-punish-medium-heavy-arm",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 685.2,
+					"end": 691.35,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 691.35,
+					"end": 695.7,
+					"disposition": "reused",
+					"referenceId": "arjun-soul-perfect-parry-low-shoulder",
+					"reason": "Baseline object/source/media retained exactly."
+				},
+				{
+					"start": 695.7,
+					"end": 819,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 819,
+					"end": 876,
+					"disposition": "unprocessed",
+					"reason": "High-damage/back-jump/held-Pillar/Super alternatives remain unextracted. No Cash-out goal is added without a complete resource/command review."
+				},
+				{
+					"start": 876,
+					"end": 881.1,
+					"disposition": "unprocessed",
+					"reason": "Earlier forward-throw/dash repetitions screened; one later complete take selected."
+				},
+				{
+					"start": 881.1,
+					"end": 883.7,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-corner-throw-dash-throw",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 883.7,
+					"end": 898.25,
+					"disposition": "excluded",
+					"reason": "Repeated throw/dash takes include Ryu jab interruptions; source does not prove an inescapable throw loop."
+				},
+				{
+					"start": 898.25,
+					"end": 902.95,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-corner-throw-rush-medium",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 902.95,
+					"end": 915.5,
+					"disposition": "unprocessed",
+					"reason": "Other blocked Rush-medium and defender variants remain available. The selected successful hit and OD-reversal-feint takes do not certify every variation."
+				},
+				{
+					"start": 915.5,
+					"end": 918.85,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-corner-throw-rush-feint-od-uppercut",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 918.85,
+					"end": 927,
+					"disposition": "unprocessed",
+					"reason": "Justice Beyond prerequisite and earlier Pillar/command-throw repetitions screened, without another exact excerpt."
+				},
+				{
+					"start": 927.0,
+					"end": 932.7,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-justice-od-pillar-command-throw",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 932.7,
+					"end": 938.05,
+					"disposition": "excluded",
+					"reason": "The OD-Pillar/command-throw approach loses to the recorded Ryu OD uppercut. This failed branch is not authored as reversal-safe."
+				},
+				{
+					"start": 938.05,
+					"end": 944.35,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-justice-od-pillar-hit-confirm",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 944.35,
+					"end": 949.25,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 949.25,
+					"end": 951.8,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-justice-light-pillar-low-arm",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 951.8,
+					"end": 960.15,
+					"disposition": "unprocessed",
+					"reason": "Further light-Pillar/shimmy/OD-confirm variations remain available."
+				},
+				{
+					"start": 960.15,
+					"end": 964.45,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-arm-heavy-pillar-heavy-shoulder",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 964.45,
+					"end": 971.3,
+					"disposition": "unprocessed",
+					"reason": "Additional heavy-Pillar/Shoulder and parry variations remain available; no duplicate excerpt added."
+				},
+				{
+					"start": 971.3,
+					"end": 981.3,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-arm-pillar-held-stance-level-two",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 981.3,
+					"end": 982.25,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 982.25,
+					"end": 988.3,
+					"disposition": "duplicate",
+					"reason": "Reviewed repeated Pillar-guard/whiffed-medium-Shoulder/parry-grab take. Its truncated prefix was removed rather than counted separately from the complete 988.3–995.5 command-throw branch."
+				},
+				{
+					"start": 988.3,
+					"end": 995.5,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-arm-pillar-medium-shoulder-parry-grab",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 995.5,
+					"end": 1001.65,
+					"disposition": "unprocessed",
+					"reason": "OD-Arm prerequisite and first held-Pillar repetitions remain available. Selected blocked and hit branches begin later."
+				},
+				{
+					"start": 1001.65,
+					"end": 1005.1,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-held-pillar-forward-heavy-pressure",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 1005.1,
+					"end": 1006.75,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 1006.75,
+					"end": 1013.25,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-held-pillar-overhead-hit-pickup",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 1013.25,
+					"end": 1042.85,
+					"disposition": "excluded",
+					"reason": "Closing montage/commentary, not selected practice execution."
+				}
+			]
+		},
+		{
+			"sourceKey": "mc-murafgc-arjun-2026",
+			"youtubeId": "YLaJEsawNpU",
+			"title": "SF6 Arjun Combos + SETUPS  Guide",
+			"creator": "MC MuraFGC",
+			"url": "https://www.youtube.com/watch?v=YLaJEsawNpU",
+			"publishedUtc": "2026-10-13",
+			"duration": 493.314,
+			"reportedDuration": 493,
+			"recordingSha256": "72026d91cfba3700206a026ba4178fcd6e612c15fff5aa8b73972825bef88aa5",
+			"metadataSha256": "07b2769970512705a9e52f06b3111c39b19ff30220d89b2a5f8e98ea23421320",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 26.45,
+					"disposition": "excluded",
+					"reason": "Introductory Super montage and transition; no distinct practice card extracted."
+				},
+				{
+					"start": 26.45,
+					"end": 28.8,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-low-three-lights-arm",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 28.8,
+					"end": 32.5,
+					"disposition": "excluded",
+					"reason": "Separate failed extra Arm-hit attempt. It is not appended to the successful light confirm."
+				},
+				{
+					"start": 32.5,
+					"end": 33.95,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-low-medium-jab-arm",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 33.95,
+					"end": 36.1,
+					"disposition": "excluded",
+					"reason": "Unlisted extra 6P after the clean low/jab/Arm confirm is blocked. The clean clip stops before that separate action."
+				},
+				{
+					"start": 36.1,
+					"end": 36.35,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 36.35,
+					"end": 38.85,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-medium-kick-medium-arm",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 38.85,
+					"end": 44.4,
+					"disposition": "unprocessed",
+					"reason": "The same caption lists alternative Shoulder/Ring enders. These takes were screened but not transcribed as one multi-special chain; exact standalone Ring extraction remains available."
+				},
+				{
+					"start": 44.4,
+					"end": 47.4,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-medium-kick-od-pillar",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 47.4,
+					"end": 47.9,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 47.9,
+					"end": 52.8,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-medium-target-level-one",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 52.8,
+					"end": 66.1,
+					"disposition": "unprocessed",
+					"reason": "Standing-medium alternate Ring/Arm/Shoulder and OD-Arm demonstrations. The OD-Arm recipe duplicates the baseline; no count padding from the alternatives."
+				},
+				{
+					"start": 66.1,
+					"end": 69.15,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-medium-pillar",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 69.15,
+					"end": 69.9,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 69.9,
+					"end": 72.45,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-medium-od-shoulder",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 72.45,
+					"end": 72.7,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 72.7,
+					"end": 75.35,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-heavy-target-kick-knockdown",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 75.35,
+					"end": 75.45,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 75.45,
+					"end": 88.08,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-triple-heavy-level-three",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 88.08,
+					"end": 88.15,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 88.15,
+					"end": 91.3,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-heavy-kick-punch-target",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 91.3,
+					"end": 91.4,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 91.4,
+					"end": 94.5,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-crouching-heavy-medium-shoulder",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 94.5,
+					"end": 105.55,
+					"disposition": "unprocessed",
+					"reason": "Further crouching-heavy OD-Arm/Ring and sweep/Pillar choices remain available. Full exact follow-up review not completed."
+				},
+				{
+					"start": 105.55,
+					"end": 111.8,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-rush-jab-command-grab",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 111.8,
+					"end": 124.1,
+					"disposition": "ambiguous",
+					"reason": "Two abbreviated Rush-caption candidates contain additional opening normals and target/Super continuations. Removed from the draft rather than asserting a raw-Rush starter or incomplete recipe. Exact follow-up extraction remains available."
+				},
+				{
+					"start": 124.1,
+					"end": 127.1,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-medium-rush-heavy-arm",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 127.1,
+					"end": 128.25,
+					"disposition": "excluded",
+					"reason": "Failed additional medium-Shoulder extension after the heavy-Arm/follow-up knockdown; excluded from the clean confirm."
+				},
+				{
+					"start": 128.25,
+					"end": 145.0,
+					"disposition": "unprocessed",
+					"reason": "Repeated Rush/Arm, combined Pillar and Super alternatives remain available. No near-duplicate starter variants appended."
+				},
+				{
+					"start": 145.0,
+					"end": 148.85,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-counter-jab-medium-shoulder",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 148.85,
+					"end": 149.3,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 149.3,
+					"end": 151.1,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-counter-jab-light-kick-arm",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 151.1,
+					"end": 152.35,
+					"disposition": "excluded",
+					"reason": "Unlisted extra 6P after the clean Counter-Hit jab/light-kick/Arm confirm is blocked; excluded from the selected clean route."
+				},
+				{
+					"start": 152.35,
+					"end": 152.55,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 152.55,
+					"end": 157.5,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-counter-low-medium-shoulder",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 157.5,
+					"end": 157.75,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 157.75,
+					"end": 160.1,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-counter-heavy-heavy-arm",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 160.1,
+					"end": 161.35,
+					"disposition": "excluded",
+					"reason": "Additional yellow-kick special after the heavy-Arm/follow-up knockdown is outside the selected clean route."
+				},
+				{
+					"start": 161.35,
+					"end": 161.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected interval; discovery/context screening does not mean completed recipe/media extraction."
+				},
+				{
+					"start": 161.65,
+					"end": 166.3,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-counter-medium-arm-level-one",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 166.3,
+					"end": 169.6,
+					"disposition": "unprocessed",
+					"reason": "PC standing-jab/medium/Shoulder was screened but not fully extracted. It is distinct from the selected Counter-Hit crouching-jab starter; exact follow-up remains available."
+				},
+				{
+					"start": 169.6,
+					"end": 171.75,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-punish-low-medium-link",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 171.75,
+					"end": 179,
+					"disposition": "duplicate",
+					"reason": "Heavy-Arm PC routes overlap preserved or selected Heavy-Arm conversions; no separate card solely for the condition change."
+				},
+				{
+					"start": 179.0,
+					"end": 186.15,
+					"disposition": "reviewed",
+					"referenceId": "arjun-depth-punish-heavy-rush-pillar-stance",
+					"reason": "Actual commands/strength, state/resources, selected moments and source/prepared boundaries reviewed. No current-patch gameplay certification."
+				},
+				{
+					"start": 186.15,
+					"end": 209.3,
+					"disposition": "unprocessed",
+					"reason": "Further heavy-kick/Pillar, ordinary versus OD stance and PC-Arm-crumple/command-throw extensions remain available."
+				},
+				{
+					"start": 209.3,
+					"end": 216.2,
+					"disposition": "duplicate",
+					"reason": "DI wall-splat/Ring/Arm follow-up overlaps the preserved annotated-guide DI route."
+				},
+				{
+					"start": 216.2,
+					"end": 246.6,
+					"disposition": "unprocessed",
+					"reason": "Held heavy-kick target/Pillar/stance/Super alternatives remain available for exact hold/resource review."
+				},
+				{
+					"start": 246.6,
+					"end": 360,
+					"disposition": "unprocessed",
+					"reason": "Command-throw, Pillar/Rush medium, overhead and parry-pressure families were screened at 0.75 seconds. They lack the earlier input-history presentation; exact strength/placement extraction is not complete. No broad safety claim is imported from the captions."
+				},
+				{
+					"start": 360,
+					"end": 428.5,
+					"disposition": "unprocessed",
+					"reason": "Perfect-Parry/command-throw and wake-up jab/Super/jump response families surveyed. Exact defensive reproduction and selected media review remain unprocessed."
+				},
+				{
+					"start": 428.5,
+					"end": 493.314,
+					"disposition": "unprocessed",
+					"reason": "Closing training-room reversal punish/Super demonstrations surveyed, not fully extracted."
+				}
+			]
+		},
+		{
+			"sourceKey": "capcom-arjun-guide-2026",
+			"youtubeId": "6l9RFvk3fec",
+			"title": "Street Fighter 6 Character Guide | Arjun",
+			"creator": "Street Fighter",
+			"url": "https://www.youtube.com/watch?v=6l9RFvk3fec",
+			"publishedUtc": "2026-10-01",
+			"duration": 508.534,
+			"reportedDuration": 509,
+			"recordingSha256": "80a5ff42d6c67c92d07333210b269dd344ef537b4e3205fe358daa9ca8e3da59",
+			"metadataSha256": "36eb369abd137635b4bec70b4bc8f08a6718bb716675881044e3a8b3529763c7",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 508.534,
+					"disposition": "unprocessed",
+					"reason": "Complete four-second discovery survey and embedded English mechanic/name context review. No input-history-backed practice excerpt authored; execution extraction remains available. Automatic English captions contain game voices rather than the explanatory on-screen text."
+				}
+			]
+		}
+	],
+	"primaryContext": {
+		"publisher": "Capcom / Street Fighter",
+		"title": "Street Fighter 6 Character Guide | Arjun",
+		"url": "https://www.youtube.com/watch?v=6l9RFvk3fec",
+		"publishedUtc": "2026-10-01",
+		"secondaryOfficialContext": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842846814454209",
+		"note": "The official guide’s embedded English text and animations were reviewed for Arm of Justice, Cruel Shoulder, Breathing Ring/Shockwave, Divine Pillar, Justice Beyond, Ghastly Interrogation, Indomitable Defense/Moral Breakdown and the three Supers. Justice Beyond automatically grabs and swings the Pillar after Shoulder contact; it is not a command grab on the defender. Pillar hold delays activation. Recoverable gray damage and the command throw’s change with existing gray health are distinct from a stock/install system. Actual practice excerpts use the independent tutorials’ visible commands, HUD and results."
+	},
+	"interpretationDecisions": [
+		{
+			"topic": "Actual execution over abbreviated caption",
+			"decision": "The light-to-command-grab take contains cr.LK, cr.LP, st.LP, a three-bar Rush cancel, st.LP and light command grab. It is not raw Rush. The CH low/medium take continues through st.HK target and Level 1. Commas in other overlays identify alternative specials, not one chain. Two more unclear Rush-caption candidates remain excluded pending exact follow-up."
+		},
+		{
+			"topic": "Strength and follow-up",
+			"decision": "Live cyan/light, yellow/medium and red/heavy button glyphs govern strengths. The printed standing-jab/medium-kick branch actually begins with cr.LP, confirmed by the down-plus-light-punch history and crouching attack animation. Arm follow-ups and the Mura heavy-kick/Pillar stance route preserve their actual 6HP. The Soul stance routes instead perform neutral HP after 22HK (hold), without an invented forward input. Four OD Pillar commands preserve their actual LK+MK or MK+HK pairs; no general pair-to-placement rule is inferred. Initial setup prerequisites/costs are separate from the performed follow-up. No stock/install is inferred."
+		},
+		{
+			"topic": "Justice Beyond versus command throw",
+			"decision": "Shoulder contact with the existing Pillar triggers an automatic club strike: Arjun grabs/swings the Pillar, not the defender. Ghastly Interrogation is a separate 63214LP command grab. Blocked Pillar/Shoulder pressure is not labeled a successful throw."
+		},
+		{
+			"topic": "Hold and frame readings",
+			"decision": "The held heavy Pillar delays activation. Held heavy-kick stance and Moral Breakdown are explicit. Source +F values are reported remaining advantage, not invented numerical wait commands."
+		},
+		{
+			"topic": "Recorded defense and failure examples",
+			"decision": "The two selected grounded anti-airs cover Luke’s shown front/far jumps. The intervening cross-up and late Shoulder examples fail and limit that coverage. The corner Rush/jab-whiff feint guards only the recorded Ryu OD uppercut; the separate OD-Pillar/command-throw approach loses to an OD uppercut and is excluded from safety claims."
+		},
+		{
+			"topic": "Goals and resources",
+			"decision": "Oki tags cover the actual knockdown follow-ups. Anti-air tags belong to the two incoming-jump interceptions. Super use alone does not imply Cash-out. Large full-resource alternatives remain unprocessed, and no carry usefulness is inferred solely from an ender name."
+		}
+	],
+	"remainingGaps": [
+		"Substantial neutral, Arm pressure, Ring/projectile defense, Pillar/stance, DI/PC and full-resource alternatives remain available in the annotated source.",
+		"MC Mura has many additional Pillar/Rush-overhead, parry, reversal and Super examples requiring exact input/strength review; none is claimed exhausted.",
+		"Official context was reviewed, while its input-history-free practice execution remains unextracted.",
+		"No current-patch in-game certification."
+	]
+}

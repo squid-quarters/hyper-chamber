@@ -1,6 +1,6 @@
 {
-	"sourceIds": ["joe-ebios-marisa-classic-2026"],
-	"publicationStatus": "private-development",
+	"sourceIds": ["joe-ebios-marisa-classic-2026", "izonk-marisa-beginner-2023"],
+	"publicationStatus": "public-repository",
 	"presentationNote": "Uncropped source frames retain input history, training HUD and source overlays. Full original recording remains local.",
 	"assets": [
 		{
@@ -126,6 +126,645 @@
 			"sourceStart": 1149.2,
 			"sourceEnd": 1155.25,
 			"clip": "/media/marisa/marisa-ebios-corner-forward-throw-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-light-knockdown-rush-overhead",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 10.8,
+			"sourceEnd": 15.3,
+			"clip": "/media/marisa/marisa-depth-light-knockdown-rush-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-light-knockdown-rush-delayed-low",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 20.1,
+			"sourceEnd": 24.8,
+			"clip": "/media/marisa/marisa-depth-light-knockdown-rush-delayed-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-light-knockdown-rush-command-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 28.75,
+			"sourceEnd": 33.6,
+			"clip": "/media/marisa/marisa-depth-light-knockdown-rush-command-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-light-whiff-jab-held-back-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 42.75,
+			"sourceEnd": 49.3,
+			"clip": "/media/marisa/marisa-depth-corner-light-whiff-jab-held-back-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-light-whiff-jab-trade-quadriga",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 53.1,
+			"sourceEnd": 58.6,
+			"clip": "/media/marisa/marisa-depth-corner-light-whiff-jab-trade-quadriga/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-light-whiff-jab-command-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 62.25,
+			"sourceEnd": 66.35,
+			"clip": "/media/marisa/marisa-depth-corner-light-whiff-jab-command-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-light-whiff-medium-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 75.65,
+			"sourceEnd": 78.8,
+			"clip": "/media/marisa/marisa-depth-corner-light-whiff-medium-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-light-whiff-medium-shimmy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 82.55,
+			"sourceEnd": 88.1,
+			"clip": "/media/marisa/marisa-depth-corner-light-whiff-medium-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-light-whiff-medium-low",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 91.5,
+			"sourceEnd": 94.65,
+			"clip": "/media/marisa/marisa-depth-corner-light-whiff-medium-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-counter-light-target-two-rush-level-three",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 105.65,
+			"sourceEnd": 116.9,
+			"clip": "/media/marisa/marisa-depth-counter-light-target-two-rush-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-raw-rush-low-light-kick-dimachaerus",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 118.15,
+			"sourceEnd": 121.95,
+			"clip": "/media/marisa/marisa-depth-raw-rush-low-light-kick-dimachaerus/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-guard-drive-reversal-jab-heavy-punish",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 123.15,
+			"sourceEnd": 128.95,
+			"clip": "/media/marisa/marisa-depth-guard-drive-reversal-jab-heavy-punish/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-raw-rush-low-counter-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 130.55,
+			"sourceEnd": 136.1,
+			"clip": "/media/marisa/marisa-depth-raw-rush-low-counter-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-raw-rush-jab-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 137.15,
+			"sourceEnd": 142.15,
+			"clip": "/media/marisa/marisa-depth-raw-rush-jab-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-scutum-grounded-jump-interception",
+			"sourceId": "izonk-marisa-beginner-2023",
+			"sourceStart": 74.75,
+			"sourceEnd": 77.0,
+			"clip": "/media/marisa/marisa-depth-scutum-grounded-jump-interception/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-crouching-heavy-jump-interception",
+			"sourceId": "izonk-marisa-beginner-2023",
+			"sourceStart": 83.9,
+			"sourceEnd": 86.35,
+			"clip": "/media/marisa/marisa-depth-crouching-heavy-jump-interception/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-air-to-air-medium-target",
+			"sourceId": "izonk-marisa-beginner-2023",
+			"sourceStart": 94.4,
+			"sourceEnd": 96.9,
+			"clip": "/media/marisa/marisa-depth-air-to-air-medium-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-heavy-knockdown-empty-jump-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 154.2,
+			"sourceEnd": 158.5,
+			"clip": "/media/marisa/marisa-depth-heavy-knockdown-empty-jump-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-heavy-knockdown-dash-walk-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 162.25,
+			"sourceEnd": 166.8,
+			"clip": "/media/marisa/marisa-depth-heavy-knockdown-dash-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-heavy-knockdown-dash-held-forward-kick",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 171.85,
+			"sourceEnd": 178.0,
+			"clip": "/media/marisa/marisa-depth-heavy-knockdown-dash-held-forward-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-held-level-one-rush-medium-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 223.2,
+			"sourceEnd": 229.15,
+			"clip": "/media/marisa/marisa-depth-held-level-one-rush-medium-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-held-level-one-rush-heavy-medium-target",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 234.15,
+			"sourceEnd": 238.9,
+			"clip": "/media/marisa/marisa-depth-held-level-one-rush-heavy-medium-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-held-level-one-rush-low-medium-target",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 244.15,
+			"sourceEnd": 248.95,
+			"clip": "/media/marisa/marisa-depth-held-level-one-rush-low-medium-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-held-level-one-dash-medium-target",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 253.3,
+			"sourceEnd": 257.65,
+			"clip": "/media/marisa/marisa-depth-corner-held-level-one-dash-medium-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-held-level-one-dash-scutum-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 262.85,
+			"sourceEnd": 267.85,
+			"clip": "/media/marisa/marisa-depth-corner-held-level-one-dash-scutum-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-near-corner-heavy-target-safe-jump",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 318.75,
+			"sourceEnd": 321.7,
+			"clip": "/media/marisa/marisa-depth-near-corner-heavy-target-safe-jump/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-phalanx-dash-held-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 339.4,
+			"sourceEnd": 345.5,
+			"clip": "/media/marisa/marisa-depth-corner-phalanx-dash-held-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-phalanx-dash-whiff-jab-low",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 366.0,
+			"sourceEnd": 370.35,
+			"clip": "/media/marisa/marisa-depth-corner-phalanx-dash-whiff-jab-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-phalanx-whiff-medium-held-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 381.7,
+			"sourceEnd": 388.3,
+			"clip": "/media/marisa/marisa-depth-corner-phalanx-whiff-medium-held-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-phalanx-whiff-medium-trade",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 393.15,
+			"sourceEnd": 398.95,
+			"clip": "/media/marisa/marisa-depth-corner-phalanx-whiff-medium-trade/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-phalanx-whiff-low-medium-target",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 410.4,
+			"sourceEnd": 414.85,
+			"clip": "/media/marisa/marisa-depth-corner-phalanx-whiff-low-medium-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-phalanx-whiff-low-scutum-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 419.9,
+			"sourceEnd": 424.85,
+			"clip": "/media/marisa/marisa-depth-corner-phalanx-whiff-low-scutum-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-phalanx-safe-jump",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 429.8,
+			"sourceEnd": 432.3,
+			"clip": "/media/marisa/marisa-depth-corner-phalanx-safe-jump/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-medium-knockdown-rush-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 474.25,
+			"sourceEnd": 478.45,
+			"clip": "/media/marisa/marisa-depth-medium-knockdown-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-medium-knockdown-rush-whiff-jab-shimmy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 482.25,
+			"sourceEnd": 488.4,
+			"clip": "/media/marisa/marisa-depth-medium-knockdown-rush-whiff-jab-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-medium-knockdown-rush-held-overhead-block-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 497.2,
+			"sourceEnd": 501.45,
+			"clip": "/media/marisa/marisa-depth-medium-knockdown-rush-held-overhead-block-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-medium-knockdown-rush-held-overhead-block-shimmy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 504.85,
+			"sourceEnd": 511.75,
+			"clip": "/media/marisa/marisa-depth-medium-knockdown-rush-held-overhead-block-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-medium-knockdown-rush-held-overhead-hit",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 515.65,
+			"sourceEnd": 521.0,
+			"clip": "/media/marisa/marisa-depth-medium-knockdown-rush-held-overhead-hit/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-medium-knockdown-rush-held-kick-block-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 530.65,
+			"sourceEnd": 535.35,
+			"clip": "/media/marisa/marisa-depth-medium-knockdown-rush-held-kick-block-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-medium-knockdown-rush-held-kick-block-shimmy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 538.45,
+			"sourceEnd": 545.0,
+			"clip": "/media/marisa/marisa-depth-medium-knockdown-rush-held-kick-block-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-medium-knockdown-rush-held-kick-hit-target-ender",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 548.65,
+			"sourceEnd": 555.2,
+			"clip": "/media/marisa/marisa-depth-medium-knockdown-rush-held-kick-hit-target-ender/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-medium-knockdown-rush-delayed-scutum",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 558.7,
+			"sourceEnd": 563.95,
+			"clip": "/media/marisa/marisa-depth-medium-knockdown-rush-delayed-scutum/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-medium-whiff-jab-held-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 568.1,
+			"sourceEnd": 574.5,
+			"clip": "/media/marisa/marisa-depth-corner-medium-whiff-jab-held-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-medium-whiff-jab-scutum",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 578.25,
+			"sourceEnd": 583.75,
+			"clip": "/media/marisa/marisa-depth-corner-medium-whiff-jab-scutum/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-medium-whiff-jab-rush-low-block-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 592.15,
+			"sourceEnd": 596.5,
+			"clip": "/media/marisa/marisa-depth-corner-medium-whiff-jab-rush-low-block-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-medium-whiff-jab-rush-low-shimmy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 600.25,
+			"sourceEnd": 606.95,
+			"clip": "/media/marisa/marisa-depth-corner-medium-whiff-jab-rush-low-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-medium-whiff-jab-rush-low-hit",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 610.95,
+			"sourceEnd": 617.3,
+			"clip": "/media/marisa/marisa-depth-corner-medium-whiff-jab-rush-low-hit/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-medium-whiff-forward-medium-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 620.8,
+			"sourceEnd": 624.35,
+			"clip": "/media/marisa/marisa-depth-corner-medium-whiff-forward-medium-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-crouching-medium-rush-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 651.95,
+			"sourceEnd": 658.35,
+			"clip": "/media/marisa/marisa-depth-crouching-medium-rush-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-medium-kick-punish-held-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 664.8,
+			"sourceEnd": 670.35,
+			"clip": "/media/marisa/marisa-depth-medium-kick-punish-held-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-forward-medium-punish-standing-light-kick",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 676.45,
+			"sourceEnd": 680.65,
+			"clip": "/media/marisa/marisa-depth-forward-medium-punish-standing-light-kick/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-rush-low-shimmy-heavy-phalanx",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 699.2,
+			"sourceEnd": 705.8,
+			"clip": "/media/marisa/marisa-depth-corner-rush-low-shimmy-heavy-phalanx/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-counter-heavy-two-jabs-light-dimachaerus",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 707.7,
+			"sourceEnd": 712.3,
+			"clip": "/media/marisa/marisa-depth-counter-heavy-two-jabs-light-dimachaerus/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-guard-ryu-od-held-heavy-punish",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 724.4,
+			"sourceEnd": 731.35,
+			"clip": "/media/marisa/marisa-depth-guard-ryu-od-held-heavy-punish/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-guard-ryu-od-held-heavy-double-rush-level-three",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 731.85,
+			"sourceEnd": 746.45,
+			"clip": "/media/marisa/marisa-depth-guard-ryu-od-held-heavy-double-rush-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-guard-od-held-heavy-quadriga-level-one",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 791.9,
+			"sourceEnd": 800.7,
+			"clip": "/media/marisa/marisa-depth-corner-guard-od-held-heavy-quadriga-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-guard-ryu-held-crouching-heavy-rush-level-one",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 950.05,
+			"sourceEnd": 961.7,
+			"clip": "/media/marisa/marisa-depth-guard-ryu-held-crouching-heavy-rush-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-heavy-kick-punish-rush-target-sweep",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1028.35,
+			"sourceEnd": 1035.85,
+			"clip": "/media/marisa/marisa-depth-heavy-kick-punish-rush-target-sweep/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-near-corner-heavy-kick-rush-od-quadriga",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1108.6,
+			"sourceEnd": 1115.3,
+			"clip": "/media/marisa/marisa-depth-near-corner-heavy-kick-rush-od-quadriga/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-midscreen-counter-impact-heavy-juggle",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1249.65,
+			"sourceEnd": 1259.15,
+			"clip": "/media/marisa/marisa-depth-midscreen-counter-impact-heavy-juggle/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-forward-throw-rush-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1141.85,
+			"sourceEnd": 1148.35,
+			"clip": "/media/marisa/marisa-depth-corner-forward-throw-rush-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-back-throw-rush-delayed-throw",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1158.65,
+			"sourceEnd": 1162.8,
+			"clip": "/media/marisa/marisa-depth-corner-back-throw-rush-delayed-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-back-throw-rush-whiff-jab-shimmy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1166.1,
+			"sourceEnd": 1172.75,
+			"clip": "/media/marisa/marisa-depth-corner-back-throw-rush-whiff-jab-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-corner-back-throw-rush-held-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1175.85,
+			"sourceEnd": 1182.75,
+			"clip": "/media/marisa/marisa-depth-corner-back-throw-rush-held-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-enfold-rush-medium-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1187.8,
+			"sourceEnd": 1193.8,
+			"clip": "/media/marisa/marisa-depth-enfold-rush-medium-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-enfold-rush-medium-trade-heavy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1198.8,
+			"sourceEnd": 1205.2,
+			"clip": "/media/marisa/marisa-depth-enfold-rush-medium-trade-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-enfold-rush-whiff-throw-ryu-od",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1210.15,
+			"sourceEnd": 1213.2,
+			"clip": "/media/marisa/marisa-depth-enfold-rush-whiff-throw-ryu-od/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-enfold-rush-od-scutum-juri",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1218.45,
+			"sourceEnd": 1220.85,
+			"clip": "/media/marisa/marisa-depth-enfold-rush-od-scutum-juri/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-enfold-rush-light-gladius-cammy",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1226.1,
+			"sourceEnd": 1228.75,
+			"clip": "/media/marisa/marisa-depth-enfold-rush-light-gladius-cammy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-enfold-rush-held-od-gladius-guile",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1234.65,
+			"sourceEnd": 1238.2,
+			"clip": "/media/marisa/marisa-depth-enfold-rush-held-od-gladius-guile/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "marisa-depth-enfold-rush-whiff-jab-ed",
+			"sourceId": "joe-ebios-marisa-classic-2026",
+			"sourceStart": 1243.2,
+			"sourceEnd": 1245.2,
+			"clip": "/media/marisa/marisa-depth-enfold-rush-whiff-jab-ed/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

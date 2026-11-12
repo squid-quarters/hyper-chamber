@@ -1163,5 +1163,5444 @@
 			"aki-lights-toxic-wreath",
 			"aki-low-lights-heavy-lash"
 		]
+	},
+	{
+		"id": "aki-depth-light-target-heavy-lash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Four-light target chain to heavy Lash",
+		"summary": "Two crouching jabs lead into the two standing-light target hits and a meterless knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2LP > st.LP > st.LP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 3.1,
+			"end": 6.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-light-target-heavy-lash/clip.mp4",
+			"poster": "/media/aki/aki-depth-light-target-heavy-lash/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-light-target-heavy-lash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-light-target-heavy-lash/frame-1.jpg",
+					"at": 0.5,
+					"label": "Crouching lights",
+					"alt": "A.K.I. connects the crouching-light starter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-light-target-heavy-lash/frame-2.jpg",
+					"at": 1.4,
+					"label": "Standing target chain",
+					"alt": "The standing-light target hits continue the combo."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-light-target-heavy-lash/frame-3.jpg",
+					"at": 2.4,
+					"label": "Heavy Lash",
+					"alt": "Heavy Serpent Lash launches Ryu and applies poison."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-poison-light-target-medium-lash",
+			"aki-depth-counterhit-jab-medium-heavy-lash",
+			"aki-lights-toxic-wreath"
+		]
+	},
+	{
+		"id": "aki-depth-heavy-lash-step-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Heavy Lash: Snake Step into throw",
+		"summary": "Close the +44 knockdown distance with medium Snake Step, then take the throw branch.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw"],
+		"outcomes": ["Knockdown"],
+		"notation": "236MK > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown heavy Serpent Lash (236HP) knockdown, captioned +44. The loop starts after that knockdown; +44 is advantage, not a delay instruction."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 16.55,
+			"end": 20.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-heavy-lash-step-throw/clip.mp4",
+			"poster": "/media/aki/aki-depth-heavy-lash-step-throw/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-heavy-lash-step-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-heavy-lash-step-throw/frame-1.jpg",
+					"at": 0.5,
+					"label": "Close distance",
+					"alt": "Medium Snake Step travels toward the recovering Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-heavy-lash-step-throw/frame-2.jpg",
+					"at": 1.75,
+					"label": "Throw",
+					"alt": "A.K.I. catches Ryu with the forward throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-heavy-lash-step-throw/frame-3.jpg",
+					"at": 3.05,
+					"label": "Knockdown",
+					"alt": "The throw finishes and leaves Ryu knocked down."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-crouch-heavy-walk-throw",
+			"aki-depth-heavy-lash-step-whiff-throw-lash",
+			"aki-depth-heavy-lash-step-shimmy"
+		]
+	},
+	{
+		"id": "aki-depth-heavy-lash-step-whiff-throw-lash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Heavy Lash: whiffed throw into medium Lash",
+		"summary": "A separate spacing branch shows a missed throw followed by medium Lash connecting.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Spacing"],
+		"outcomes": ["Hit"],
+		"notation": "236MK > LP+LK (whiff) > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK (whiff)",
+				"label": "LP+LK (whiff)"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown heavy Serpent Lash (236HP) knockdown, captioned +44. The loop starts after that knockdown; +44 is advantage, not a delay instruction.",
+			"Reproduce the demonstrated recovery and separation; this is not a guaranteed throw follow-up.",
+			"The recording shows Ryu using back recovery; keep that recovery choice and spacing."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 24.05,
+			"end": 28.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-heavy-lash-step-whiff-throw-lash/clip.mp4",
+			"poster": "/media/aki/aki-depth-heavy-lash-step-whiff-throw-lash/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-heavy-lash-step-whiff-throw-lash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-heavy-lash-step-whiff-throw-lash/frame-1.jpg",
+					"at": 0.85,
+					"label": "Snake Step",
+					"alt": "A.K.I. approaches after the heavy-Lash knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-heavy-lash-step-whiff-throw-lash/frame-2.jpg",
+					"at": 1.3,
+					"label": "Throw misses",
+					"alt": "The throw animation misses at the shown separation."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-heavy-lash-step-whiff-throw-lash/frame-3.jpg",
+					"at": 2.15,
+					"label": "Medium Lash",
+					"alt": "Medium Serpent Lash reaches Ryu after the missed throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-throw",
+			"aki-depth-heavy-lash-step-shimmy",
+			"aki-depth-heavy-lash-step-low"
+		]
+	},
+	{
+		"id": "aki-depth-heavy-lash-step-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Heavy Lash: back-recovery shimmy conversion",
+		"summary": "Medium Snake Step and a retreat bait a throw, then punish-counter heavy kick starts a poison extension.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown", "Poison pool"],
+		"notation": "236MK > Walk back > st.HK > 214HK > 2LP > 2LP > st.LP > st.LP > 236MP > st.HK > 214HP > Drive Rush > st.HK > 2PP > P > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HK",
+				"label": "214HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-9",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-10",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-11",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-12",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-13",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-14",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-15",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-16",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown heavy Serpent Lash (236HP) knockdown, captioned +44. The loop starts after that knockdown; +44 is advantage, not a delay instruction.",
+			"The source explicitly limits this shimmy spacing to back recovery."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch.",
+			"Both standing light punches are separate target-chain hits."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 31.75,
+			"end": 43.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-heavy-lash-step-shimmy/clip.mp4",
+			"poster": "/media/aki/aki-depth-heavy-lash-step-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-heavy-lash-step-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-heavy-lash-step-shimmy/frame-1.jpg",
+					"at": 1.75,
+					"label": "Throw punish",
+					"alt": "Standing heavy kick punish-counters the whiffed throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-heavy-lash-step-shimmy/frame-2.jpg",
+					"at": 4.75,
+					"label": "Toxic Blossom",
+					"alt": "Medium Lash bursts the poison and extends the route."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-heavy-lash-step-shimmy/frame-3.jpg",
+					"at": 7.25,
+					"label": "Rush extension",
+					"alt": "Drive Rush brings A.K.I. back in for the heavy-kick extension."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-heavy-lash-step-shimmy/frame-4.jpg",
+					"at": 9.45,
+					"label": "Poison pool",
+					"alt": "The combo finishes with medium Orchid Spring."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-corner-heavy-lash-kill-shimmy",
+			"aki-depth-punish-medium-crouch-heavy",
+			"aki-depth-punish-sweep-rush-light-heavy"
+		]
+	},
+	{
+		"id": "aki-depth-heavy-lash-step-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Heavy Lash: Snake Step low confirm",
+		"summary": "Use the low branch after Snake Step and spend one Rush on the Toxic Blossom juggle.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "236MK > 2MK > st.LK > 236MP > Drive Rush > st.HK > 2PP > P > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-8",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-9",
+				"notation": "236MP",
+				"label": "236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown heavy Serpent Lash (236HP) knockdown, captioned +44. The loop starts after that knockdown; +44 is advantage, not a delay instruction.",
+			"Poison is already active on the defender before the starter; Toxic Blossom routes depend on that state."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 46.45,
+			"end": 54.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-heavy-lash-step-low/clip.mp4",
+			"poster": "/media/aki/aki-depth-heavy-lash-step-low/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-heavy-lash-step-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-heavy-lash-step-low/frame-1.jpg",
+					"at": 1.45,
+					"label": "Low starter",
+					"alt": "Crouching medium kick starts the low branch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-heavy-lash-step-low/frame-2.jpg",
+					"at": 2.15,
+					"label": "Poison burst",
+					"alt": "Medium Lash triggers Toxic Blossom."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-heavy-lash-step-low/frame-3.jpg",
+					"at": 4.05,
+					"label": "Stance follow-up",
+					"alt": "The punch follow-up from Sinister Slide continues the juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-heavy-lash-step-low/frame-4.jpg",
+					"at": 5.15,
+					"label": "Lash ender",
+					"alt": "Medium Lash ends the shown extension."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-throw",
+			"aki-depth-heavy-lash-step-whiff-throw-lash",
+			"aki-depth-heavy-lash-step-shimmy"
+		]
+	},
+	{
+		"id": "aki-depth-heavy-lash-step-heavy-trade",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Heavy Lash: heavy-kick trade pickup",
+		"summary": "After Snake Step, a heavy-kick trade is recovered with a second heavy kick and the stance-kick route.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Trade conversion"],
+		"outcomes": ["Knockdown"],
+		"notation": "236MK > st.HK (trade) > st.HK > 2PP > K > st.LK > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK (trade)",
+				"label": "st.HK (trade)"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-5",
+				"notation": "K",
+				"label": "K"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-7",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown heavy Serpent Lash (236HP) knockdown, captioned +44. The loop starts after that knockdown; +44 is advantage, not a delay instruction.",
+			"The recorded Ryu normal and the shown spacing produce this trade; other wake-up choices are not demonstrated."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 57.55,
+			"end": 63.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-heavy-lash-step-heavy-trade/clip.mp4",
+			"poster": "/media/aki/aki-depth-heavy-lash-step-heavy-trade/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-heavy-lash-step-heavy-trade/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-heavy-lash-step-heavy-trade/frame-1.jpg",
+					"at": 1.45,
+					"label": "Trade",
+					"alt": "A.K.I. and the recorded Ryu normal trade hits."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-heavy-lash-step-heavy-trade/frame-2.jpg",
+					"at": 1.85,
+					"label": "Pickup",
+					"alt": "A second standing heavy kick picks up Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-heavy-lash-step-heavy-trade/frame-3.jpg",
+					"at": 3.15,
+					"label": "Light-kick link",
+					"alt": "Standing light kick follows the stance-kick launcher."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-heavy-lash-step-heavy-trade/frame-4.jpg",
+					"at": 3.65,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash completes the trade conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-throw",
+			"aki-depth-heavy-lash-step-whiff-throw-lash",
+			"aki-depth-heavy-lash-step-shimmy"
+		]
+	},
+	{
+		"id": "aki-depth-heavy-lash-jump-guard-ryu-od",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Heavy Lash: jump kick, land and guard OD DP",
+		"summary": "The heavy-Lash knockdown supports the shown jump-heavy-kick attempt and landing block against Ryu’s OD uppercut.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Reversal bait", "Safe jump"],
+		"outcomes": ["Blocked reversal"],
+		"notation": "9 > j.HK > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HK",
+				"label": "j.HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown heavy Serpent Lash (236HP) knockdown, captioned +44. The loop starts after that knockdown; +44 is advantage, not a delay instruction.",
+			"The defensive example is Ryu’s OD uppercut, not every reversal or Super."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 67.55,
+			"end": 71.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-heavy-lash-jump-guard-ryu-od/clip.mp4",
+			"poster": "/media/aki/aki-depth-heavy-lash-jump-guard-ryu-od/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-heavy-lash-jump-guard-ryu-od/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-heavy-lash-jump-guard-ryu-od/frame-1.jpg",
+					"at": 0.75,
+					"label": "Jump attack",
+					"alt": "A.K.I. performs the jumping heavy kick over Ryu’s wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-heavy-lash-jump-guard-ryu-od/frame-2.jpg",
+					"at": 1.45,
+					"label": "Landing block",
+					"alt": "The gold OD uppercut is blocked after A.K.I. lands."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-heavy-lash-jump-guard-ryu-od/frame-3.jpg",
+					"at": 2.05,
+					"label": "Reversal continues",
+					"alt": "Ryu’s blocked OD uppercut continues upward."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-throw",
+			"aki-depth-heavy-lash-step-whiff-throw-lash",
+			"aki-depth-heavy-lash-step-shimmy"
+		]
+	},
+	{
+		"id": "aki-depth-corner-heavy-lash-kill-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner heavy Lash: whiff forward heavy, throw",
+		"summary": "Use the whiffed forward-heavy-punch frame kill before the corner throw branch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw"],
+		"outcomes": ["Knockdown"],
+		"notation": "6HP (whiff) > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HP (whiff)",
+				"label": "6HP (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: heavy Serpent Lash (236HP) corner knockdown, captioned +44. Start at the shown recovery spacing; +5 after the whiffed normal is remaining advantage, not a five-frame wait."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 80.0,
+			"end": 84.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-corner-heavy-lash-kill-throw/clip.mp4",
+			"poster": "/media/aki/aki-depth-corner-heavy-lash-kill-throw/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-corner-heavy-lash-kill-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-throw/frame-1.jpg",
+					"at": 0.65,
+					"label": "Frame kill",
+					"alt": "Forward heavy punch intentionally misses while Ryu recovers."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-throw/frame-2.jpg",
+					"at": 1.25,
+					"label": "Throw",
+					"alt": "A.K.I. takes the corner throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-throw/frame-3.jpg",
+					"at": 3.1,
+					"label": "Throw knockdown",
+					"alt": "Ryu lands after the forward throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-pool-heavy-kill-walk-throw",
+			"aki-depth-pool-rush-throw",
+			"aki-depth-corner-throw-walk-throw"
+		]
+	},
+	{
+		"id": "aki-depth-corner-heavy-lash-kill-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner heavy Lash: frame kill, shimmy and pool",
+		"summary": "After the whiffed forward heavy, retreat from the throw and convert heavy-kick punish counter into a new pool.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown", "Poison pool"],
+		"notation": "6HP (whiff) > Walk back > st.HK > 2PP > P > st.HK > 214HP > Drive Rush > st.HK > 2PP > P > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HP (whiff)",
+				"label": "6HP (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-5",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-10",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-11",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-12",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: heavy Serpent Lash (236HP) corner knockdown, captioned +44. Start at the shown recovery spacing; +5 after the whiffed normal is remaining advantage, not a five-frame wait.",
+			"Poison is already active on the defender before the starter; Toxic Blossom routes depend on that state."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 88.0,
+			"end": 97.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-corner-heavy-lash-kill-shimmy/clip.mp4",
+			"poster": "/media/aki/aki-depth-corner-heavy-lash-kill-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-corner-heavy-lash-kill-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-shimmy/frame-1.jpg",
+					"at": 0.5,
+					"label": "Retreat",
+					"alt": "A.K.I. moves back after the intentional forward-heavy whiff."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-shimmy/frame-2.jpg",
+					"at": 1.0,
+					"label": "Punish counter",
+					"alt": "Standing heavy kick catches Ryu’s missed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-shimmy/frame-3.jpg",
+					"at": 5.0,
+					"label": "Rush pickup",
+					"alt": "Drive Rush heavy kick continues after the heavy Wreath."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-shimmy/frame-4.jpg",
+					"at": 6.6,
+					"label": "Pool finish",
+					"alt": "Medium Orchid Spring restores a corner poison pool."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-pool-heavy-kill-shimmy",
+			"aki-depth-corner-throw-walk-shimmy",
+			"aki-depth-heavy-lash-step-shimmy"
+		]
+	},
+	{
+		"id": "aki-depth-corner-heavy-lash-kill-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner heavy Lash: frame kill into low conversion",
+		"summary": "The crouching-medium-kick branch uses the corner to link heavy kick after Toxic Blossom without an initial Rush.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Low confirm"],
+		"outcomes": ["Corner knockdown", "Poison pool"],
+		"notation": "6HP (whiff) > 2MK > st.LK > 236MP > st.HK > 214HP > Drive Rush > st.HK > 2PP > P > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HP (whiff)",
+				"label": "6HP (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-10",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-11",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: heavy Serpent Lash (236HP) corner knockdown, captioned +44. Start at the shown recovery spacing; +5 after the whiffed normal is remaining advantage, not a five-frame wait.",
+			"Poison is already active on the defender before the starter; Toxic Blossom routes depend on that state."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 100.7,
+			"end": 109.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-corner-heavy-lash-kill-low/clip.mp4",
+			"poster": "/media/aki/aki-depth-corner-heavy-lash-kill-low/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-corner-heavy-lash-kill-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-low/frame-1.jpg",
+					"at": 0.4,
+					"label": "Frame kill",
+					"alt": "Forward heavy punch misses before the low option."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-low/frame-2.jpg",
+					"at": 1.8,
+					"label": "Toxic Blossom",
+					"alt": "Medium Lash triggers the poison burst after the low confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-low/frame-3.jpg",
+					"at": 4.8,
+					"label": "Rush heavy kick",
+					"alt": "A.K.I. extends after heavy Wreath with Drive Rush heavy kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-low/frame-4.jpg",
+					"at": 6.4,
+					"label": "Pool ender",
+					"alt": "Medium Orchid Spring finishes the corner route."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-corner-poison-pool-ender",
+			"aki-depth-heavy-lash-step-low",
+			"aki-depth-corner-heavy-lash-kill-throw"
+		]
+	},
+	{
+		"id": "aki-depth-corner-heavy-lash-kill-trade",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner heavy Lash: frame kill, heavy-kick trade",
+		"summary": "The frame-kill branch also demonstrates a heavy-kick trade into a meterless heavy-Lash knockdown.",
+		"kind": "response",
+		"situations": ["Corner", "Oki", "Trade conversion"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "6HP (whiff) > st.HK (trade) > st.HK > 2PP > K > st.LK > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HP (whiff)",
+				"label": "6HP (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK (trade)",
+				"label": "st.HK (trade)"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-5",
+				"notation": "K",
+				"label": "K"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-7",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: heavy Serpent Lash (236HP) corner knockdown, captioned +44. Start at the shown recovery spacing; +5 after the whiffed normal is remaining advantage, not a five-frame wait.",
+			"The trade is specific to the recorded Ryu normal and this spacing."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 113.0,
+			"end": 119.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-corner-heavy-lash-kill-trade/clip.mp4",
+			"poster": "/media/aki/aki-depth-corner-heavy-lash-kill-trade/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-corner-heavy-lash-kill-trade/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-trade/frame-1.jpg",
+					"at": 0.6,
+					"label": "Frame kill",
+					"alt": "The forward-heavy whiff sets up the corner interaction."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-trade/frame-2.jpg",
+					"at": 1.15,
+					"label": "Trade",
+					"alt": "Standing heavy kick trades with the recorded Ryu normal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-trade/frame-3.jpg",
+					"at": 2.6,
+					"label": "Stance kick",
+					"alt": "The kick follow-up continues the pickup."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-corner-heavy-lash-kill-trade/frame-4.jpg",
+					"at": 3.8,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash finishes the trade conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-corner-poison-pool-ender",
+			"aki-depth-heavy-lash-step-heavy-trade",
+			"aki-depth-corner-heavy-lash-kill-throw"
+		]
+	},
+	{
+		"id": "aki-depth-poison-light-target-medium-lash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poisoned standing target: lights to medium Lash",
+		"summary": "Replace the heavy-Lash ender with medium Lash against an already poisoned, standing target, then use the heavy-punch target chain.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Poison"],
+		"outcomes": ["Knockdown"],
+		"notation": "2LP > 2LP > st.LP > st.LP > 236MP > st.HP > st.HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "st.HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Poison is already active on the defender before the starter; Toxic Blossom routes depend on that state.",
+			"Standing defender: the next source demonstration shows medium Lash missing against a crouching target."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch.",
+			"The crouching-target failure is excluded from the successful loop."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 121.0,
+			"end": 126.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-poison-light-target-medium-lash/clip.mp4",
+			"poster": "/media/aki/aki-depth-poison-light-target-medium-lash/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-poison-light-target-medium-lash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-poison-light-target-medium-lash/frame-1.jpg",
+					"at": 0.7,
+					"label": "Light confirm",
+					"alt": "The crouching lights connect against the poisoned standing target."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-poison-light-target-medium-lash/frame-2.jpg",
+					"at": 2.1,
+					"label": "Toxic Blossom",
+					"alt": "Medium Lash bursts the existing poison."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-poison-light-target-medium-lash/frame-3.jpg",
+					"at": 3.6,
+					"label": "Heavy target chain",
+					"alt": "The heavy-punch target chain catches the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-light-target-heavy-lash",
+			"aki-depth-counterhit-jab-medium-heavy-lash",
+			"aki-depth-poison-forward-heavy-force-stand"
+		]
+	},
+	{
+		"id": "aki-depth-counterhit-jab-medium-heavy-lash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Counter-hit jab to medium punch and heavy Lash",
+		"summary": "A counter-hit standing jab links into medium punch for a short meterless knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Light confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > st.MP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": ["Classic controls", "Counter-hit standing light punch"],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 133.1,
+			"end": 137.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-counterhit-jab-medium-heavy-lash/clip.mp4",
+			"poster": "/media/aki/aki-depth-counterhit-jab-medium-heavy-lash/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-counterhit-jab-medium-heavy-lash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-counterhit-jab-medium-heavy-lash/frame-1.jpg",
+					"at": 0.4,
+					"label": "Counter hit",
+					"alt": "Standing light punch scores counter hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-counterhit-jab-medium-heavy-lash/frame-2.jpg",
+					"at": 0.9,
+					"label": "Medium link",
+					"alt": "Standing medium punch continues the confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-counterhit-jab-medium-heavy-lash/frame-3.jpg",
+					"at": 1.55,
+					"label": "Heavy Lash",
+					"alt": "Heavy Serpent Lash sends Ryu upward."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-light-target-heavy-lash",
+			"aki-depth-poison-light-target-medium-lash",
+			"aki-depth-counterhit-low-od-lash-target"
+		]
+	},
+	{
+		"id": "aki-depth-low-light-heavy-lash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Low kick, light kick, heavy Lash",
+		"summary": "A compact low starter converts without spending Drive or requiring poison.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > st.LK > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 141.1,
+			"end": 145.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-low-light-heavy-lash/clip.mp4",
+			"poster": "/media/aki/aki-depth-low-light-heavy-lash/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-low-light-heavy-lash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-low-light-heavy-lash/frame-1.jpg",
+					"at": 0.4,
+					"label": "Low starter",
+					"alt": "Crouching medium kick connects low."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-low-light-heavy-lash/frame-2.jpg",
+					"at": 0.9,
+					"label": "Light link",
+					"alt": "Standing light kick continues the low confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-low-light-heavy-lash/frame-3.jpg",
+					"at": 1.6,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash launches Ryu."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-low",
+			"aki-depth-counterhit-low-od-lash-target",
+			"aki-depth-sweep-level-one"
+		]
+	},
+	{
+		"id": "aki-depth-medium-pair-heavy-lash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Medium kick to medium punch and heavy Lash",
+		"summary": "Practice the plain standing-medium route into heavy Lash before adding poison-dependent extensions.",
+		"kind": "combo",
+		"situations": ["Midscreen", "BnB"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MK > st.MP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "st.MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": ["Classic controls", "Defender is not poisoned before the starter."],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 146.6,
+			"end": 150.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-medium-pair-heavy-lash/clip.mp4",
+			"poster": "/media/aki/aki-depth-medium-pair-heavy-lash/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-medium-pair-heavy-lash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-medium-pair-heavy-lash/frame-1.jpg",
+					"at": 0.4,
+					"label": "Medium starter",
+					"alt": "Standing medium kick connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-medium-pair-heavy-lash/frame-2.jpg",
+					"at": 0.9,
+					"label": "Punch link",
+					"alt": "Standing medium punch follows."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-medium-pair-heavy-lash/frame-3.jpg",
+					"at": 1.5,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash launches the unpoisoned target."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-lights-toxic-wreath",
+			"aki-low-lights-heavy-lash",
+			"aki-poison-low-lash-juggle"
+		]
+	},
+	{
+		"id": "aki-depth-counterhit-low-od-lash-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Counter-hit low check: OD Lash into light target chain",
+		"summary": "A counter-hit crouching medium kick links crouching medium punch into OD Lash and a poison-dependent light-target extension.",
+		"kind": "response",
+		"situations": ["Midscreen", "Counter hit", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "2MK > 2MP > 236PP > 2LP > 2LP > st.LP > st.LP > 236MP > st.HP > st.HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "236PP",
+				"label": "236PP"
+			},
+			{
+				"id": "step-4",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-5",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-8",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "st.HP",
+				"label": "st.HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Counter-hit crouching medium kick; the recording uses an approaching Ryu."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD special)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 151.6,
+			"end": 158.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-counterhit-low-od-lash-target/clip.mp4",
+			"poster": "/media/aki/aki-depth-counterhit-low-od-lash-target/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-counterhit-low-od-lash-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-counterhit-low-od-lash-target/frame-1.jpg",
+					"at": 0.9,
+					"label": "Counter-hit low",
+					"alt": "Crouching medium kick interrupts the incoming Ryu approach."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-counterhit-low-od-lash-target/frame-2.jpg",
+					"at": 1.9,
+					"label": "OD Lash",
+					"alt": "OD Serpent Lash applies poison and holds the conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-counterhit-low-od-lash-target/frame-3.jpg",
+					"at": 4.0,
+					"label": "Poison burst",
+					"alt": "Medium Lash triggers Toxic Blossom after the lights."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-counterhit-low-od-lash-target/frame-4.jpg",
+					"at": 5.4,
+					"label": "Heavy target chain",
+					"alt": "The heavy-punch target chain finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-low",
+			"aki-depth-counterhit-jab-medium-heavy-lash",
+			"aki-depth-low-light-heavy-lash"
+		]
+	},
+	{
+		"id": "aki-depth-punish-medium-crouch-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Standing medium punish into crouching-heavy knockdown",
+		"summary": "A punish-counter standing medium kick links into crouching heavy punch and creates the +27 knockdown used by the following oki branches.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MK > 2HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "st.MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2HP",
+				"label": "2HP"
+			}
+		],
+		"conditions": ["Classic controls", "Punish-counter standing medium kick"],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch.",
+			"The source’s +27 is the resulting knockdown advantage, not an added delay."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 160.45,
+			"end": 163.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-punish-medium-crouch-heavy/clip.mp4",
+			"poster": "/media/aki/aki-depth-punish-medium-crouch-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-punish-medium-crouch-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-punish-medium-crouch-heavy/frame-1.jpg",
+					"at": 0.55,
+					"label": "Punish counter",
+					"alt": "Standing medium kick punish-counters the Ryu normal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-punish-medium-crouch-heavy/frame-2.jpg",
+					"at": 1.05,
+					"label": "Low knockdown",
+					"alt": "Crouching heavy punch completes the two-hit route."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-punish-medium-crouch-heavy/frame-3.jpg",
+					"at": 1.95,
+					"label": "Knockdown spacing",
+					"alt": "Ryu is down at the spacing used by the source’s +27 setups."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-shimmy",
+			"aki-depth-punish-sweep-rush-light-heavy",
+			"aki-depth-poison-punish-sweep-two-rush"
+		]
+	},
+	{
+		"id": "aki-depth-crouch-heavy-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Crouching-heavy knockdown: walk into throw",
+		"summary": "After the medium-kick punish-counter knockdown, walk forward and use the throw branch.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Throw"],
+		"outcomes": ["Knockdown"],
+		"notation": "Walk forward > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.MK punish counter into 2HP, captioned +27. Loop begins after the knockdown."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch.",
+			"Walking distance is demonstrated rather than supplied as a universal frame count."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 165.8,
+			"end": 170.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-crouch-heavy-walk-throw/clip.mp4",
+			"poster": "/media/aki/aki-depth-crouch-heavy-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-crouch-heavy-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-crouch-heavy-walk-throw/frame-1.jpg",
+					"at": 0.4,
+					"label": "Walk in",
+					"alt": "A.K.I. advances as Ryu recovers from crouching heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-crouch-heavy-walk-throw/frame-2.jpg",
+					"at": 1.0,
+					"label": "Throw",
+					"alt": "The forward throw catches the recovering Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-crouch-heavy-walk-throw/frame-3.jpg",
+					"at": 2.3,
+					"label": "Throw finish",
+					"alt": "Ryu is thrown back to the floor."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-throw",
+			"aki-depth-heavy-lash-step-whiff-throw-lash",
+			"aki-depth-heavy-lash-step-shimmy"
+		]
+	},
+	{
+		"id": "aki-depth-poison-forward-heavy-force-stand",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poisoned croucher: forward-heavy force-stand route",
+		"summary": "Forward heavy kick forces the crouching target upright so the light target chain can reach medium Lash and the stance-punch juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Poison", "Close range"],
+		"outcomes": ["Knockdown"],
+		"notation": "6HK > 2LP > st.LP > st.LP > 236MP > 2PP > P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-6",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-7",
+				"notation": "P",
+				"label": "P"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Poison is already active on the defender before the starter; Toxic Blossom routes depend on that state.",
+			"Close range; the forward-heavy starter hits a crouching defender in this example."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 195.05,
+			"end": 201.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-poison-forward-heavy-force-stand/clip.mp4",
+			"poster": "/media/aki/aki-depth-poison-forward-heavy-force-stand/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-poison-forward-heavy-force-stand/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-poison-forward-heavy-force-stand/frame-1.jpg",
+					"at": 0.7,
+					"label": "Force stand",
+					"alt": "Forward heavy kick hits the initially crouching, poisoned Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-poison-forward-heavy-force-stand/frame-2.jpg",
+					"at": 2.25,
+					"label": "Light chain",
+					"alt": "The standing-light target chain continues at close range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-poison-forward-heavy-force-stand/frame-3.jpg",
+					"at": 3.7,
+					"label": "Stance pickup",
+					"alt": "Sinister Slide’s punch follow-up catches the Toxic Blossom juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-poison-light-target-medium-lash",
+			"aki-depth-poison-punish-sweep-two-rush",
+			"aki-depth-poison-antiair-heavy-medium"
+		]
+	},
+	{
+		"id": "aki-depth-counterhit-forward-heavy-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Counter-hit forward heavy to medium and Lash",
+		"summary": "The forward-heavy counter hit links directly into standing medium punch and heavy Lash.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "6HK > st.MP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": ["Classic controls", "Counter-hit forward heavy kick"],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 208.05,
+			"end": 212.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-counterhit-forward-heavy-medium/clip.mp4",
+			"poster": "/media/aki/aki-depth-counterhit-forward-heavy-medium/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-counterhit-forward-heavy-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-counterhit-forward-heavy-medium/frame-1.jpg",
+					"at": 0.7,
+					"label": "Forward heavy",
+					"alt": "The forward-heavy kick is the counter-hit starter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-counterhit-forward-heavy-medium/frame-2.jpg",
+					"at": 1.4,
+					"label": "Medium link",
+					"alt": "Standing medium punch links after the counter hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-counterhit-forward-heavy-medium/frame-3.jpg",
+					"at": 2.05,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash launches and applies poison."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-counterhit-jab-medium-heavy-lash",
+			"aki-depth-counterhit-low-od-lash-target",
+			"aki-depth-poison-antiair-heavy-medium"
+		]
+	},
+	{
+		"id": "aki-depth-sweep-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Sweep cancel into Level 1",
+		"summary": "Convert crouching heavy kick directly into the Level 1 actually performed in this take.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Super ender"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "SA1",
+				"label": "SA1"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch.",
+			"The overlay offers other Supers, but this card documents only the demonstrated Level 1."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "1 Super bar (SA1)"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 213.8,
+			"end": 221.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-sweep-level-one/clip.mp4",
+			"poster": "/media/aki/aki-depth-sweep-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-sweep-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-sweep-level-one/frame-1.jpg",
+					"at": 0.85,
+					"label": "Sweep",
+					"alt": "Crouching heavy kick connects low."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-sweep-level-one/frame-2.jpg",
+					"at": 1.45,
+					"label": "Super cancel",
+					"alt": "The Level 1 activation follows the sweep."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-sweep-level-one/frame-3.jpg",
+					"at": 5.2,
+					"label": "Super finish",
+					"alt": "The Level 1 juggle finishes above A.K.I."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-low",
+			"aki-depth-low-light-heavy-lash",
+			"aki-depth-counterhit-low-od-lash-target"
+		]
+	},
+	{
+		"id": "aki-depth-punish-sweep-rush-light-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Punish-counter sweep: Rush light kick to heavy Lash",
+		"summary": "A punish-counter sweep gives time to Rush into light kick and restore a heavy-Lash knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "2HK > Drive Rush > st.LK > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": ["Classic controls", "Punish-counter crouching heavy kick"],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 223.0,
+			"end": 227.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-punish-sweep-rush-light-heavy/clip.mp4",
+			"poster": "/media/aki/aki-depth-punish-sweep-rush-light-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-punish-sweep-rush-light-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-punish-sweep-rush-light-heavy/frame-1.jpg",
+					"at": 0.5,
+					"label": "Punish-counter sweep",
+					"alt": "The sweep launches Ryu on punish counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-punish-sweep-rush-light-heavy/frame-2.jpg",
+					"at": 1.25,
+					"label": "Rush pickup",
+					"alt": "Drive Rush light kick catches the airborne target."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-punish-sweep-rush-light-heavy/frame-3.jpg",
+					"at": 2.0,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-shimmy",
+			"aki-depth-punish-medium-crouch-heavy",
+			"aki-depth-poison-punish-sweep-two-rush"
+		]
+	},
+	{
+		"id": "aki-depth-poison-punish-sweep-two-rush",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poisoned punish-counter sweep: two-Rush extension",
+		"summary": "Use medium Lash to burst existing poison, then spend a second Rush on heavy kick and the stance-punch finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter", "Poison", "Corner carry"],
+		"outcomes": ["Knockdown", "Corner carry"],
+		"notation": "2HK > Drive Rush > st.LK > 236MP > Drive Rush > st.HK > 2PP > P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2HK",
+				"label": "2HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-8",
+				"notation": "P",
+				"label": "P"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Poison is already active on the defender before the starter; Toxic Blossom routes depend on that state.",
+			"Punish-counter crouching heavy kick"
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "2 Drive bars (two Drive Rushes)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 231.7,
+			"end": 237.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-poison-punish-sweep-two-rush/clip.mp4",
+			"poster": "/media/aki/aki-depth-poison-punish-sweep-two-rush/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-poison-punish-sweep-two-rush/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-poison-punish-sweep-two-rush/frame-1.jpg",
+					"at": 0.8,
+					"label": "Punish-counter sweep",
+					"alt": "Crouching heavy kick launches the already poisoned defender."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-poison-punish-sweep-two-rush/frame-2.jpg",
+					"at": 2.3,
+					"label": "Toxic Blossom",
+					"alt": "Medium Lash bursts poison after the Rush light-kick pickup."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-poison-punish-sweep-two-rush/frame-3.jpg",
+					"at": 3.8,
+					"label": "Stance finish",
+					"alt": "The second Rush heavy kick leads into the punch follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-shimmy",
+			"aki-depth-punish-medium-crouch-heavy",
+			"aki-depth-punish-sweep-rush-light-heavy"
+		]
+	},
+	{
+		"id": "aki-depth-heavy-punish-fate-lights",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Heavy-kick punish: heavy Fate into lights",
+		"summary": "Punish-counter heavy kick links heavy Cruel Fate, then four light hits feed a meterless heavy-Lash ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK > 214HK > 2LP > 2LP > st.LP > st.LP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HK",
+				"label": "214HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-4",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-7",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": ["Classic controls", "Punish-counter standing heavy kick"],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 247.0,
+			"end": 253.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-heavy-punish-fate-lights/clip.mp4",
+			"poster": "/media/aki/aki-depth-heavy-punish-fate-lights/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-heavy-punish-fate-lights/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-heavy-punish-fate-lights/frame-1.jpg",
+					"at": 0.5,
+					"label": "Heavy punish",
+					"alt": "Standing heavy kick starts on punish counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-heavy-punish-fate-lights/frame-2.jpg",
+					"at": 1.25,
+					"label": "Heavy Fate",
+					"alt": "Heavy Cruel Fate catches Ryu after the heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-heavy-punish-fate-lights/frame-3.jpg",
+					"at": 2.75,
+					"label": "Light target chain",
+					"alt": "Crouching jabs and the standing-light target hits continue."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-heavy-punish-fate-lights/frame-4.jpg",
+					"at": 4.25,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash finishes the meterless punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-shimmy",
+			"aki-depth-punish-medium-crouch-heavy",
+			"aki-depth-punish-sweep-rush-light-heavy"
+		]
+	},
+	{
+		"id": "aki-depth-corner-heavy-punish-od-pulse",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner heavy punish: OD Pulse and two Lashes",
+		"summary": "The corner permits OD Pulse after the light target hits, followed by heavy Lash and a light-Lash juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.HK > 214HK > 2LP > st.LP > st.LP > 214PP > 236HP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HK",
+				"label": "214HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "214PP",
+				"label": "214PP"
+			},
+			{
+				"id": "step-7",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "236LP",
+				"label": "236LP"
+			}
+		],
+		"conditions": ["Classic controls", "Punish-counter standing heavy kick; defender cornered."],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD special)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 274.75,
+			"end": 282.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-corner-heavy-punish-od-pulse/clip.mp4",
+			"poster": "/media/aki/aki-depth-corner-heavy-punish-od-pulse/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-corner-heavy-punish-od-pulse/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-corner-heavy-punish-od-pulse/frame-1.jpg",
+					"at": 0.5,
+					"label": "Corner punish",
+					"alt": "Standing heavy kick lands as a punish counter near the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-corner-heavy-punish-od-pulse/frame-2.jpg",
+					"at": 2.75,
+					"label": "Light target hits",
+					"alt": "The standing-light target chain precedes OD Pulse."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-corner-heavy-punish-od-pulse/frame-3.jpg",
+					"at": 3.5,
+					"label": "OD Pulse",
+					"alt": "OD Nightshade Pulse connects in the corner."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-corner-heavy-punish-od-pulse/frame-4.jpg",
+					"at": 5.0,
+					"label": "Light Lash finish",
+					"alt": "Light Lash follows the heavy-Lash poison burst."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-corner-heavy-lash-kill-shimmy",
+			"aki-depth-corner-heavy-punish-level-one",
+			"aki-depth-corner-heavy-punish-level-three"
+		]
+	},
+	{
+		"id": "aki-depth-corner-heavy-punish-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner heavy punish: OD Pulse into Level 1",
+		"summary": "Spend one Super after the OD-Pulse heavy-Lash route instead of the light-Lash finish.",
+		"kind": "combo",
+		"situations": ["Corner", "Punish", "Punish counter", "Super ender"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.HK > 214HK > 2LP > st.LP > st.LP > 214PP > 236HP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HK",
+				"label": "214HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "214PP",
+				"label": "214PP"
+			},
+			{
+				"id": "step-7",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "SA1",
+				"label": "SA1"
+			}
+		],
+		"conditions": ["Classic controls", "Punish-counter standing heavy kick; defender cornered."],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch.",
+			"Only Level 1 is executed here although the caption also lists Level 2."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD special)",
+			"super": "1 Super bar (SA1)"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 283.7,
+			"end": 295.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-corner-heavy-punish-level-one/clip.mp4",
+			"poster": "/media/aki/aki-depth-corner-heavy-punish-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-corner-heavy-punish-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-corner-heavy-punish-level-one/frame-1.jpg",
+					"at": 0.55,
+					"label": "Punish starter",
+					"alt": "Standing heavy kick starts the corner punish."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-corner-heavy-punish-level-one/frame-2.jpg",
+					"at": 3.55,
+					"label": "OD Pulse",
+					"alt": "OD Nightshade Pulse extends after the light target hits."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-corner-heavy-punish-level-one/frame-3.jpg",
+					"at": 5.1,
+					"label": "Level 1 cancel",
+					"alt": "A.K.I. activates Level 1 after heavy Lash."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-corner-heavy-punish-level-one/frame-4.jpg",
+					"at": 9.55,
+					"label": "Super finish",
+					"alt": "The Level 1 completes the demonstrated juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-corner-heavy-lash-kill-shimmy",
+			"aki-depth-corner-heavy-punish-od-pulse",
+			"aki-depth-corner-heavy-punish-level-three"
+		]
+	},
+	{
+		"id": "aki-depth-corner-heavy-punish-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner heavy punish: light Lash into Level 3",
+		"summary": "Cash out the corner heavy-kick punish with OD Pulse, heavy-to-light Lash and Level 3.",
+		"kind": "combo",
+		"situations": ["Corner", "Punish", "Punish counter", "Cash-out"],
+		"outcomes": ["Corner hard knockdown"],
+		"notation": "st.HK > 214HK > 2LP > st.LP > st.LP > 214PP > 236HP > 236LP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HK",
+				"label": "214HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "214PP",
+				"label": "214PP"
+			},
+			{
+				"id": "step-7",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "236LP",
+				"label": "236LP"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA3",
+				"label": "SA3"
+			}
+		],
+		"conditions": ["Classic controls", "Punish-counter standing heavy kick; defender cornered."],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD special)",
+			"super": "3 Super bars (SA3)"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 296.55,
+			"end": 314.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-corner-heavy-punish-level-three/clip.mp4",
+			"poster": "/media/aki/aki-depth-corner-heavy-punish-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-corner-heavy-punish-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-corner-heavy-punish-level-three/frame-1.jpg",
+					"at": 0.45,
+					"label": "Punish counter",
+					"alt": "Standing heavy kick starts the corner route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-corner-heavy-punish-level-three/frame-2.jpg",
+					"at": 3.45,
+					"label": "OD extension",
+					"alt": "OD Pulse connects after the light target chain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-corner-heavy-punish-level-three/frame-3.jpg",
+					"at": 5.7,
+					"label": "Level 3",
+					"alt": "Level 3 activates after the two Lash strengths."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-corner-heavy-punish-level-three/frame-4.jpg",
+					"at": 15.55,
+					"label": "Hard knockdown",
+					"alt": "The Level 3 cinematic ends in a hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-corner-heavy-lash-kill-shimmy",
+			"aki-depth-corner-heavy-punish-od-pulse",
+			"aki-depth-corner-heavy-punish-level-one"
+		]
+	},
+	{
+		"id": "aki-depth-pool-heavy-kill-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poison pool: whiff heavy kick, walk and throw",
+		"summary": "After the +38 pool ender, whiff heavy kick and walk into the throw branch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.HK (whiff) > Walk forward > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK (whiff)",
+				"label": "st.HK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner medium Orchid Spring (214MP) ender, captioned +38, with poison active. The loop begins after the prerequisite combo. +38 and +7 are remaining advantage, not delay counts."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 450.7,
+			"end": 455.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-pool-heavy-kill-walk-throw/clip.mp4",
+			"poster": "/media/aki/aki-depth-pool-heavy-kill-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-pool-heavy-kill-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-pool-heavy-kill-walk-throw/frame-1.jpg",
+					"at": 0.9,
+					"label": "Frame kill",
+					"alt": "Standing heavy kick intentionally misses over the knocked-down Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-pool-heavy-kill-walk-throw/frame-2.jpg",
+					"at": 1.7,
+					"label": "Walk and throw",
+					"alt": "A.K.I. closes the gap and starts the throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-pool-heavy-kill-walk-throw/frame-3.jpg",
+					"at": 2.7,
+					"label": "Throw finish",
+					"alt": "Ryu is thrown down in the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-corner-heavy-lash-kill-throw",
+			"aki-depth-pool-rush-throw",
+			"aki-depth-corner-throw-walk-throw"
+		]
+	},
+	{
+		"id": "aki-depth-pool-heavy-kill-mediums",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poison pool: frame kill into medium confirm",
+		"summary": "Whiff heavy kick before the standing-medium branch, then use Toxic Blossom to rebuild the corner pool.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Poison"],
+		"outcomes": ["Corner knockdown", "Poison pool"],
+		"notation": "st.HK (whiff) > st.MK > st.MP > 236MP > st.HK > 214HP > Drive Rush > st.HK > 2PP > P > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK (whiff)",
+				"label": "st.HK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "st.MK"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-10",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-11",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner medium Orchid Spring (214MP) ender, captioned +38, with poison active. The loop begins after the prerequisite combo. +38 and +7 are remaining advantage, not delay counts."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 483.65,
+			"end": 492.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-pool-heavy-kill-mediums/clip.mp4",
+			"poster": "/media/aki/aki-depth-pool-heavy-kill-mediums/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-pool-heavy-kill-mediums/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-pool-heavy-kill-mediums/frame-1.jpg",
+					"at": 0.55,
+					"label": "Frame kill",
+					"alt": "Standing heavy kick misses before the wake-up medium option."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-pool-heavy-kill-mediums/frame-2.jpg",
+					"at": 1.85,
+					"label": "Medium confirm",
+					"alt": "Standing medium punch follows standing medium kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-pool-heavy-kill-mediums/frame-3.jpg",
+					"at": 2.65,
+					"label": "Poison burst",
+					"alt": "Medium Lash bursts the existing poison."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-pool-heavy-kill-mediums/frame-4.jpg",
+					"at": 5.65,
+					"label": "Stance extension",
+					"alt": "The stance-punch extension follows Drive Rush heavy kick."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-corner-poison-pool-ender",
+			"aki-depth-corner-heavy-lash-kill-throw",
+			"aki-depth-corner-heavy-lash-kill-shimmy"
+		]
+	},
+	{
+		"id": "aki-depth-pool-bubble-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poison pool: bubble into overhead conversion",
+		"summary": "Light Nightshade Pulse covers forward heavy kick, then the standing-light-kick link feeds a new poison-pool route.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Overhead"],
+		"outcomes": ["Corner knockdown", "Poison pool"],
+		"notation": "214LP > 6HK > st.LK > 236MP > st.HK > 214HP > Drive Rush > st.HK > 2PP > P > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214LP",
+				"label": "214LP"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-10",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-11",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner medium Orchid Spring (214MP) ender, captioned +38, with poison active. The loop begins after the prerequisite combo. +38 and +7 are remaining advantage, not delay counts."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 501.85,
+			"end": 511.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-pool-bubble-overhead/clip.mp4",
+			"poster": "/media/aki/aki-depth-pool-bubble-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-pool-bubble-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-pool-bubble-overhead/frame-1.jpg",
+					"at": 0.9,
+					"label": "Bubble cover",
+					"alt": "Light Nightshade Pulse travels toward the waking Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-pool-bubble-overhead/frame-2.jpg",
+					"at": 1.65,
+					"label": "Overhead",
+					"alt": "Forward heavy kick hits while the bubble supplies cover."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-pool-bubble-overhead/frame-3.jpg",
+					"at": 3.15,
+					"label": "Toxic Blossom",
+					"alt": "Medium Lash bursts poison after standing light kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-pool-bubble-overhead/frame-4.jpg",
+					"at": 6.25,
+					"label": "Stance finish",
+					"alt": "The Rush extension feeds the punch follow-up and new pool."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-pool-rush-overhead",
+			"aki-depth-corner-throw-walk-overhead",
+			"aki-depth-corner-throw-counterhit-overhead"
+		]
+	},
+	{
+		"id": "aki-depth-pool-bubble-od-step-ryu-super",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poison pool: bubble and OD Step evade Ryu Level 3",
+		"summary": "The bubble branch demonstrates OD Snake Step passing through Ryu’s wake-up Level 3 to the other side.",
+		"kind": "response",
+		"situations": ["Corner", "Oki", "Reversal bait", "Side switch"],
+		"outcomes": ["Reversal whiff", "Side switch"],
+		"notation": "214LP > 236KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214LP",
+				"label": "214LP"
+			},
+			{
+				"id": "step-2",
+				"notation": "236KK",
+				"label": "236KK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner medium Orchid Spring (214MP) ender, captioned +38, with poison active. The loop begins after the prerequisite combo. +38 and +7 are remaining advantage, not delay counts.",
+			"Ryu Level 3 is the recorded reversal; this is not a universal Super escape."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD special)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 520.45,
+			"end": 525.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-pool-bubble-od-step-ryu-super/clip.mp4",
+			"poster": "/media/aki/aki-depth-pool-bubble-od-step-ryu-super/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-pool-bubble-od-step-ryu-super/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-pool-bubble-od-step-ryu-super/frame-1.jpg",
+					"at": 1.05,
+					"label": "Bubble",
+					"alt": "Light Nightshade Pulse covers the corner wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-pool-bubble-od-step-ryu-super/frame-2.jpg",
+					"at": 1.8,
+					"label": "Ryu reversal",
+					"alt": "Ryu activates the recorded Level 3 reversal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-pool-bubble-od-step-ryu-super/frame-3.jpg",
+					"at": 3.3,
+					"label": "Other side",
+					"alt": "A.K.I. is on the opposite side after OD Snake Step and the Super has missed."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-corner-poison-pool-ender",
+			"aki-depth-heavy-lash-jump-guard-ryu-od",
+			"aki-depth-corner-heavy-lash-kill-throw"
+		]
+	},
+	{
+		"id": "aki-depth-pool-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poison pool: Drive Rush throw",
+		"summary": "Spend one Rush to reach the throw option directly after the pool knockdown.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "Drive Rush > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner medium Orchid Spring (214MP) ender, captioned +38, with poison active. The loop begins after the prerequisite combo. +38 and +7 are remaining advantage, not delay counts."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 534.7,
+			"end": 539.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-pool-rush-throw/clip.mp4",
+			"poster": "/media/aki/aki-depth-pool-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-pool-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-pool-rush-throw/frame-1.jpg",
+					"at": 1.05,
+					"label": "Rush in",
+					"alt": "Drive Rush carries A.K.I. into throw range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-pool-rush-throw/frame-2.jpg",
+					"at": 1.8,
+					"label": "Throw",
+					"alt": "A.K.I. starts the corner forward throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-pool-rush-throw/frame-3.jpg",
+					"at": 2.8,
+					"label": "Throw finish",
+					"alt": "The throw puts Ryu down again near the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-corner-heavy-lash-kill-throw",
+			"aki-depth-pool-heavy-kill-walk-throw",
+			"aki-depth-corner-throw-walk-throw"
+		]
+	},
+	{
+		"id": "aki-depth-poison-antiair-heavy-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poison anti-air: heavy Lash into medium Lash",
+		"summary": "When an already poisoned Ryu jumps in, heavy Lash’s Toxic Blossom enables the meterless medium-Lash pickup.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Counter hit", "Poison"],
+		"outcomes": ["Knockdown"],
+		"notation": "236HP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MP",
+				"label": "236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Poison is already active on the defender before the starter; Toxic Blossom routes depend on that state.",
+			"Counter-hit anti-air at the demonstrated separation and height."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 640.35,
+			"end": 644.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-poison-antiair-heavy-medium/clip.mp4",
+			"poster": "/media/aki/aki-depth-poison-antiair-heavy-medium/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-poison-antiair-heavy-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-poison-antiair-heavy-medium/frame-1.jpg",
+					"at": 0.4,
+					"label": "Poisoned jump",
+					"alt": "Ryu is airborne with poison active before the anti-air."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-poison-antiair-heavy-medium/frame-2.jpg",
+					"at": 1.15,
+					"label": "Anti-air burst",
+					"alt": "Heavy Lash counter-hits the jump and bursts the poison."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-poison-antiair-heavy-medium/frame-3.jpg",
+					"at": 2.35,
+					"label": "Medium pickup",
+					"alt": "Medium Lash catches the falling Ryu."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-poison-antiair-rush-heavy-medium",
+			"aki-depth-poison-antiair-rush-stance",
+			"aki-depth-od-pulse-air-hit-rush"
+		]
+	},
+	{
+		"id": "aki-depth-poison-antiair-rush-heavy-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poison anti-air: Rush heavy kick, medium Lash",
+		"summary": "Spend one Rush for the heavy-kick pickup before the medium-Lash finish.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Counter hit", "Poison"],
+		"outcomes": ["Knockdown"],
+		"notation": "236HP > Drive Rush > st.HK > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Poison is already active on the defender before the starter; Toxic Blossom routes depend on that state.",
+			"Counter-hit anti-air; the source warns that Rush heavy kick misses if heavy Lash hits too close."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 646.25,
+			"end": 651.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-poison-antiair-rush-heavy-medium/clip.mp4",
+			"poster": "/media/aki/aki-depth-poison-antiair-rush-heavy-medium/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-poison-antiair-rush-heavy-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-poison-antiair-rush-heavy-medium/frame-1.jpg",
+					"at": 0.55,
+					"label": "Poisoned jump",
+					"alt": "Ryu jumps toward A.K.I. with poison already active."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-poison-antiair-rush-heavy-medium/frame-2.jpg",
+					"at": 1.25,
+					"label": "Heavy-Lash burst",
+					"alt": "The heavy-Lash anti-air triggers Toxic Blossom."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-poison-antiair-rush-heavy-medium/frame-3.jpg",
+					"at": 2.4,
+					"label": "Rush pickup",
+					"alt": "Drive Rush heavy kick catches Ryu in the air."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-poison-antiair-rush-heavy-medium/frame-4.jpg",
+					"at": 2.95,
+					"label": "Medium Lash",
+					"alt": "Medium Lash completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-poison-antiair-heavy-medium",
+			"aki-depth-poison-antiair-rush-stance",
+			"aki-depth-od-pulse-air-hit-rush"
+		]
+	},
+	{
+		"id": "aki-depth-poison-antiair-rush-stance",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poison anti-air: Rush heavy kick, stance punch",
+		"summary": "The higher anti-air pickup can finish with the punch follow-up from Sinister Slide.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Counter hit", "Poison"],
+		"outcomes": ["Knockdown"],
+		"notation": "236HP > Drive Rush > st.HK > 2PP > P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-5",
+				"notation": "P",
+				"label": "P"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Poison is already active on the defender before the starter; Toxic Blossom routes depend on that state.",
+			"Counter-hit anti-air; the source warns that the stance punch misses if heavy Lash hits too low."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 653.6,
+			"end": 658.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-poison-antiair-rush-stance/clip.mp4",
+			"poster": "/media/aki/aki-depth-poison-antiair-rush-stance/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-poison-antiair-rush-stance/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-poison-antiair-rush-stance/frame-1.jpg",
+					"at": 0.65,
+					"label": "High anti-air",
+					"alt": "Heavy Lash meets the poisoned Ryu above A.K.I."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-poison-antiair-rush-stance/frame-2.jpg",
+					"at": 1.4,
+					"label": "Poison burst",
+					"alt": "The anti-air Toxic Blossom lifts Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-poison-antiair-rush-stance/frame-3.jpg",
+					"at": 2.15,
+					"label": "Rush heavy kick",
+					"alt": "The Rush heavy kick connects before Ryu falls."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-poison-antiair-rush-stance/frame-4.jpg",
+					"at": 3.1,
+					"label": "Stance punch",
+					"alt": "The punch follow-up ends the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-poison-antiair-heavy-medium",
+			"aki-depth-poison-antiair-rush-heavy-medium",
+			"aki-depth-od-pulse-air-hit-rush"
+		]
+	},
+	{
+		"id": "aki-depth-pool-heavy-kill-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poison pool: frame kill, shimmy and pool reset",
+		"summary": "Whiff heavy kick, retreat from Ryu’s throw and convert the heavy-kick punish counter into another pool.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown", "Poison pool"],
+		"notation": "st.HK (whiff) > Walk back > st.HK > 2PP > P > st.HK > 214HP > Drive Rush > st.HK > 2PP > P > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK (whiff)",
+				"label": "st.HK (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-5",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-10",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-11",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-12",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner medium Orchid Spring (214MP) ender, captioned +38, with poison active. The loop begins after the prerequisite combo. +38 and +7 are remaining advantage, not delay counts."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 464.65,
+			"end": 474.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-pool-heavy-kill-shimmy/clip.mp4",
+			"poster": "/media/aki/aki-depth-pool-heavy-kill-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-pool-heavy-kill-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-pool-heavy-kill-shimmy/frame-1.jpg",
+					"at": 0.6,
+					"label": "Throw bait",
+					"alt": "Ryu reaches for a throw after A.K.I.’s intentional heavy-kick whiff."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-pool-heavy-kill-shimmy/frame-2.jpg",
+					"at": 1.35,
+					"label": "Punish counter",
+					"alt": "Standing heavy kick catches the missed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-pool-heavy-kill-shimmy/frame-3.jpg",
+					"at": 5.15,
+					"label": "Rush extension",
+					"alt": "Drive Rush heavy kick follows the heavy Wreath."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-pool-heavy-kill-shimmy/frame-4.jpg",
+					"at": 7.15,
+					"label": "Pool restored",
+					"alt": "Medium Orchid Spring ends the stance-punch extension."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-corner-heavy-lash-kill-shimmy",
+			"aki-depth-corner-throw-walk-shimmy",
+			"aki-depth-heavy-lash-step-shimmy"
+		]
+	},
+	{
+		"id": "aki-depth-pool-rush-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Poison pool: Rush overhead into repeat pool",
+		"summary": "The Drive Rush overhead links standing medium punch and a poison conversion back to the pool ender.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Overhead"],
+		"outcomes": ["Corner knockdown", "Poison pool"],
+		"notation": "Drive Rush > 3MP > st.MP > 236MP > st.HK > 214HP > Drive Rush > st.HK > 2PP > P > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "3MP",
+				"label": "3MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-10",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-11",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner medium Orchid Spring (214MP) ender, captioned +38, with poison active. The loop begins after the prerequisite combo. +38 and +7 are remaining advantage, not delay counts."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "2 Drive bars (two Drive Rushes)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 567.25,
+			"end": 576.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-pool-rush-overhead/clip.mp4",
+			"poster": "/media/aki/aki-depth-pool-rush-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-pool-rush-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-pool-rush-overhead/frame-1.jpg",
+					"at": 1.25,
+					"label": "Rush overhead",
+					"alt": "The down-forward medium-punch overhead hits after Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-pool-rush-overhead/frame-2.jpg",
+					"at": 2.35,
+					"label": "Poison burst",
+					"alt": "Medium Lash bursts poison after the medium-punch link."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-pool-rush-overhead/frame-3.jpg",
+					"at": 3.75,
+					"label": "Wreath extension",
+					"alt": "Heavy Wreath continues the corner juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-pool-rush-overhead/frame-4.jpg",
+					"at": 6.05,
+					"label": "Pool reset",
+					"alt": "The second Rush and stance-punch route finish in a new pool."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-pool-bubble-overhead",
+			"aki-depth-corner-throw-walk-overhead",
+			"aki-depth-corner-throw-counterhit-overhead"
+		]
+	},
+	{
+		"id": "aki-depth-corner-throw-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner forward throw: walk and throw again",
+		"summary": "Advance after the first forward throw and take the repeat-throw branch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "Walk forward > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: A.K.I.’s forward throw leaves Ryu in the shown corner knockdown. The loop starts after that throw; the movement is a demonstrated spacing, not a universal frame count."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 791.6,
+			"end": 795.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-corner-throw-walk-throw/clip.mp4",
+			"poster": "/media/aki/aki-depth-corner-throw-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-corner-throw-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-corner-throw-walk-throw/frame-1.jpg",
+					"at": 0.5,
+					"label": "Walk in",
+					"alt": "A.K.I. closes the distance as Ryu recovers."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-corner-throw-walk-throw/frame-2.jpg",
+					"at": 1.15,
+					"label": "Repeat throw",
+					"alt": "The next forward throw catches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-corner-throw-walk-throw/frame-3.jpg",
+					"at": 2.6,
+					"label": "Corner knockdown",
+					"alt": "Ryu is thrown down near the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-corner-heavy-lash-kill-throw",
+			"aki-depth-pool-heavy-kill-walk-throw",
+			"aki-depth-pool-rush-throw"
+		]
+	},
+	{
+		"id": "aki-depth-corner-throw-walk-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner forward throw: walk, shimmy and punish",
+		"summary": "Walk in after the throw, retreat to make Ryu’s throw miss, then use heavy Fate and the light-target route.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "Walk forward > Walk back > st.HK > 214HK > 2LP > 2LP > st.LP > st.LP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk back",
+				"label": "Walk back"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HK",
+				"label": "214HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-9",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: A.K.I.’s forward throw leaves Ryu in the shown corner knockdown. The loop starts after that throw; the movement is a demonstrated spacing, not a universal frame count."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 798.6,
+			"end": 805.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-corner-throw-walk-shimmy/clip.mp4",
+			"poster": "/media/aki/aki-depth-corner-throw-walk-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-corner-throw-walk-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-corner-throw-walk-shimmy/frame-1.jpg",
+					"at": 0.9,
+					"label": "Throw misses",
+					"alt": "Ryu’s throw misses as A.K.I. retreats."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-corner-throw-walk-shimmy/frame-2.jpg",
+					"at": 1.65,
+					"label": "Punish counter",
+					"alt": "Standing heavy kick catches the throw recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-corner-throw-walk-shimmy/frame-3.jpg",
+					"at": 3.9,
+					"label": "Light conversion",
+					"alt": "The light target-chain route follows heavy Cruel Fate."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-corner-throw-walk-shimmy/frame-4.jpg",
+					"at": 4.9,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash completes the corner punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-corner-heavy-lash-kill-shimmy",
+			"aki-depth-pool-heavy-kill-shimmy",
+			"aki-depth-heavy-lash-step-shimmy"
+		]
+	},
+	{
+		"id": "aki-depth-corner-throw-walk-mediums",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner forward throw: walk into medium confirm",
+		"summary": "Use the strike branch after walking into the throw-knockdown spacing.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "Walk forward > st.MK > st.MP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "st.MK"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: A.K.I.’s forward throw leaves Ryu in the shown corner knockdown. The loop starts after that throw; the movement is a demonstrated spacing, not a universal frame count."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 808.7,
+			"end": 813.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-corner-throw-walk-mediums/clip.mp4",
+			"poster": "/media/aki/aki-depth-corner-throw-walk-mediums/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-corner-throw-walk-mediums/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-corner-throw-walk-mediums/frame-1.jpg",
+					"at": 0.5,
+					"label": "Walk in",
+					"alt": "A.K.I. approaches Ryu’s corner wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-corner-throw-walk-mediums/frame-2.jpg",
+					"at": 1.3,
+					"label": "Medium confirm",
+					"alt": "Standing medium kick links into medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-corner-throw-walk-mediums/frame-3.jpg",
+					"at": 2.05,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash turns the medium confirm into another knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-corner-poison-pool-ender",
+			"aki-depth-corner-heavy-lash-kill-throw",
+			"aki-depth-corner-heavy-lash-kill-shimmy"
+		]
+	},
+	{
+		"id": "aki-depth-corner-throw-walk-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner forward throw: overhead and light target chain",
+		"summary": "After the throw, forward heavy kick starts the overhead branch into crouching jab and the two standing-light target hits.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Overhead"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "Walk forward > 6HK > 2LP > st.LP > st.LP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: A.K.I.’s forward throw leaves Ryu in the shown corner knockdown. The loop starts after that throw; the movement is a demonstrated spacing, not a universal frame count."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 815.65,
+			"end": 820.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-corner-throw-walk-overhead/clip.mp4",
+			"poster": "/media/aki/aki-depth-corner-throw-walk-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-corner-throw-walk-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-corner-throw-walk-overhead/frame-1.jpg",
+					"at": 1.1,
+					"label": "Overhead",
+					"alt": "Forward heavy kick hits Ryu on wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-corner-throw-walk-overhead/frame-2.jpg",
+					"at": 1.85,
+					"label": "Light target hits",
+					"alt": "The crouching jab and standing-light target hits continue."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-corner-throw-walk-overhead/frame-3.jpg",
+					"at": 2.85,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash ends the overhead conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-pool-bubble-overhead",
+			"aki-depth-pool-rush-overhead",
+			"aki-depth-corner-throw-counterhit-overhead"
+		]
+	},
+	{
+		"id": "aki-depth-corner-throw-counterhit-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Corner forward throw: counter-hit overhead link",
+		"summary": "The counter-hit overhead branch replaces the light target chain with a direct medium-punch link.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Overhead", "Counter hit"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "Walk forward > 6HK > st.MP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: A.K.I.’s forward throw leaves Ryu in the shown corner knockdown. The loop starts after that throw; the movement is a demonstrated spacing, not a universal frame count.",
+			"Counter-hit forward heavy kick"
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 824.0,
+			"end": 829.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-corner-throw-counterhit-overhead/clip.mp4",
+			"poster": "/media/aki/aki-depth-corner-throw-counterhit-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-corner-throw-counterhit-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-corner-throw-counterhit-overhead/frame-1.jpg",
+					"at": 0.6,
+					"label": "Walk in",
+					"alt": "A.K.I. steps into overhead range after the throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-corner-throw-counterhit-overhead/frame-2.jpg",
+					"at": 1.0,
+					"label": "Counter-hit overhead",
+					"alt": "Forward heavy kick scores counter hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-corner-throw-counterhit-overhead/frame-3.jpg",
+					"at": 1.75,
+					"label": "Medium link",
+					"alt": "Standing medium punch links after the counter hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-corner-throw-counterhit-overhead/frame-4.jpg",
+					"at": 2.5,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash finishes the corner conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-pool-bubble-overhead",
+			"aki-depth-pool-rush-overhead",
+			"aki-depth-corner-throw-walk-overhead"
+		]
+	},
+	{
+		"id": "aki-depth-rush-low-light-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Raw Rush low: crouching light kick to medium punch",
+		"summary": "Drive Rush adds the link needed for crouching light kick into standing medium punch and heavy Lash.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "Drive Rush > 2LK > st.MP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LK",
+				"label": "2LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 838.2,
+			"end": 842.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-rush-low-light-medium/clip.mp4",
+			"poster": "/media/aki/aki-depth-rush-low-light-medium/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-rush-low-light-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-rush-low-light-medium/frame-1.jpg",
+					"at": 0.6,
+					"label": "Rush low",
+					"alt": "A.K.I. approaches with Drive Rush crouching light kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-rush-low-light-medium/frame-2.jpg",
+					"at": 1.3,
+					"label": "Medium link",
+					"alt": "Standing medium punch follows the Rush low."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-rush-low-light-medium/frame-3.jpg",
+					"at": 1.9,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash completes the three-hit route."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-rush-low-stance-target",
+			"aki-depth-heavy-lash-step-low",
+			"aki-depth-low-light-heavy-lash"
+		]
+	},
+	{
+		"id": "aki-depth-rush-low-stance-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Raw Rush medium low: heavy kick and stance-kick lights",
+		"summary": "The Rush crouching-medium-kick starter links heavy kick, then the stance-kick route feeds the light target chain.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "Drive Rush > 2MK > st.HK > 2PP > K > 2LP > st.LP > st.LP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-5",
+				"notation": "K",
+				"label": "K"
+			},
+			{
+				"id": "step-6",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-9",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 849.7,
+			"end": 856.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-rush-low-stance-target/clip.mp4",
+			"poster": "/media/aki/aki-depth-rush-low-stance-target/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-rush-low-stance-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-rush-low-stance-target/frame-1.jpg",
+					"at": 1.0,
+					"label": "Rush low",
+					"alt": "Drive Rush crouching medium kick connects low."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-rush-low-stance-target/frame-2.jpg",
+					"at": 1.8,
+					"label": "Heavy link",
+					"alt": "Standing heavy kick follows the Rush starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-rush-low-stance-target/frame-3.jpg",
+					"at": 3.05,
+					"label": "Light pickup",
+					"alt": "A crouching jab continues after the stance-kick follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-rush-low-stance-target/frame-4.jpg",
+					"at": 4.55,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash ends the light-target extension."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-rush-low-light-medium",
+			"aki-depth-heavy-lash-step-low",
+			"aki-depth-low-light-heavy-lash"
+		]
+	},
+	{
+		"id": "aki-depth-rush-overhead-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Raw Rush overhead: medium punch into heavy Lash",
+		"summary": "A short overhead conversion uses down-forward medium punch from Drive Rush.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Overhead", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "Drive Rush > 3MP > st.MP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "3MP",
+				"label": "3MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 857.65,
+			"end": 862.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-rush-overhead-medium/clip.mp4",
+			"poster": "/media/aki/aki-depth-rush-overhead-medium/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-rush-overhead-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-rush-overhead-medium/frame-1.jpg",
+					"at": 1.0,
+					"label": "Overhead",
+					"alt": "The Drive Rush down-forward medium punch connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-rush-overhead-medium/frame-2.jpg",
+					"at": 1.85,
+					"label": "Medium link",
+					"alt": "Standing medium punch follows the overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-rush-overhead-medium/frame-3.jpg",
+					"at": 2.65,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash completes the short overhead route."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-rush-low-light-medium",
+			"aki-depth-rush-low-stance-target",
+			"aki-lights-toxic-wreath"
+		]
+	},
+	{
+		"id": "aki-depth-od-pulse-air-hit-rush",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "OD Pulse air hit: Rush heavy kick to light Lash",
+		"summary": "OD Nightshade Pulse catches the airborne Ryu; Rush heavy kick and stance punch convert the air hit to light Lash.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "214PP > Drive Rush > st.HK > 2PP > P > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214PP",
+				"label": "214PP"
+			},
+			{
+				"id": "step-2",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-5",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-6",
+				"notation": "236LP",
+				"label": "236LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"OD Pulse hits Ryu in the air on counter hit at the demonstrated spacing."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "3 Drive bars (OD special and Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 872.4,
+			"end": 878.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-od-pulse-air-hit-rush/clip.mp4",
+			"poster": "/media/aki/aki-depth-od-pulse-air-hit-rush/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-od-pulse-air-hit-rush/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-od-pulse-air-hit-rush/frame-1.jpg",
+					"at": 0.7,
+					"label": "OD Pulse",
+					"alt": "A.K.I. sends OD Nightshade Pulse toward the jumping Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-od-pulse-air-hit-rush/frame-2.jpg",
+					"at": 1.35,
+					"label": "Air hit",
+					"alt": "OD Pulse counter-hits Ryu in the air."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-od-pulse-air-hit-rush/frame-3.jpg",
+					"at": 2.85,
+					"label": "Stance pickup",
+					"alt": "The punch follow-up catches the Rush heavy-kick juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-od-pulse-air-hit-rush/frame-4.jpg",
+					"at": 4.1,
+					"label": "Light Lash",
+					"alt": "Light Lash finishes the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-poison-antiair-heavy-medium",
+			"aki-depth-poison-antiair-rush-heavy-medium",
+			"aki-depth-poison-antiair-rush-stance"
+		]
+	},
+	{
+		"id": "aki-depth-counter-di-stance-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Counter Drive Impact: stance kick into light target chain",
+		"summary": "Counter the recorded Drive Impact, then use heavy kick, stance kick and the light target chain to heavy Lash.",
+		"kind": "response",
+		"situations": ["Midscreen", "Drive Impact", "Punish", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > st.HK > 2PP > K > 2LP > st.LP > st.LP > 236HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "DI"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-4",
+				"notation": "K",
+				"label": "K"
+			},
+			{
+				"id": "step-5",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.LP",
+				"label": "st.LP"
+			},
+			{
+				"id": "step-8",
+				"notation": "236HP",
+				"label": "236HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Successful counter Drive Impact; the loop begins after the preceding blocked-Lash probe."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Impact)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 909.35,
+			"end": 917.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-counter-di-stance-target/clip.mp4",
+			"poster": "/media/aki/aki-depth-counter-di-stance-target/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-counter-di-stance-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-counter-di-stance-target/frame-1.jpg",
+					"at": 1.15,
+					"label": "Counter DI",
+					"alt": "A.K.I. answers Ryu’s Drive Impact with her own."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-counter-di-stance-target/frame-2.jpg",
+					"at": 3.4,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy kick begins the crumple conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-counter-di-stance-target/frame-3.jpg",
+					"at": 4.9,
+					"label": "Light target route",
+					"alt": "The crouching jab continues after the stance-kick follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-counter-di-stance-target/frame-4.jpg",
+					"at": 6.4,
+					"label": "Heavy Lash",
+					"alt": "Heavy Lash finishes the counter-DI route."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-heavy-lash-step-shimmy",
+			"aki-depth-punish-medium-crouch-heavy",
+			"aki-depth-punish-sweep-rush-light-heavy"
+		]
+	},
+	{
+		"id": "aki-depth-wall-crush-wreath-pool",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Wall crush: Wreath and Rush into poison pool",
+		"summary": "The ordinary wall-crush route uses heavy Wreath, one Rush and the stance-punch ender to establish a pool.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall crush"],
+		"outcomes": ["Corner knockdown", "Poison pool"],
+		"notation": "DI > st.HK > 214HP > Drive Rush > st.HK > 2PP > P > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "DI"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-7",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-8",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Defender cornered; ordinary wall crush rather than Burnout stun."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "2 Drive bars (Drive Impact and Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 919.1,
+			"end": 927.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-wall-crush-wreath-pool/clip.mp4",
+			"poster": "/media/aki/aki-depth-wall-crush-wreath-pool/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-wall-crush-wreath-pool/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-wall-crush-wreath-pool/frame-1.jpg",
+					"at": 1.15,
+					"label": "Wall crush",
+					"alt": "Drive Impact crushes Ryu against the wall without the stun state."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-wall-crush-wreath-pool/frame-2.jpg",
+					"at": 2.65,
+					"label": "Heavy Wreath",
+					"alt": "Heavy Wreath continues after standing heavy kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-wall-crush-wreath-pool/frame-3.jpg",
+					"at": 4.15,
+					"label": "Stance pickup",
+					"alt": "The Rush heavy-kick route feeds the punch follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-wall-crush-wreath-pool/frame-4.jpg",
+					"at": 5.6,
+					"label": "Poison pool",
+					"alt": "Medium Orchid Spring finishes the wall-crush conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-wall-splat-wreath-level-one",
+			"aki-corner-poison-pool-ender",
+			"aki-depth-corner-heavy-lash-kill-throw"
+		]
+	},
+	{
+		"id": "aki-depth-stun-pool-jump-route",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "aki"
+			}
+		],
+		"title": "Burnout stun: pool, jump kick and repeat pool",
+		"summary": "Use the stun window to apply a poison pool before the jump-in and spend OD Lash plus one Rush on a new pool finish.",
+		"kind": "combo",
+		"situations": ["Corner", "Stun", "Poison"],
+		"outcomes": ["Corner knockdown", "Poison pool"],
+		"notation": "214MP > 9 > j.HK > st.MK > st.MP > 236MP > st.HK > 236PP > 214HP > Drive Rush > st.HK > 2PP > P > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214MP",
+				"label": "214MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-3",
+				"notation": "j.HK",
+				"label": "j.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "st.MK"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.MP",
+				"label": "st.MP"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "236PP",
+				"label": "236PP"
+			},
+			{
+				"id": "step-9",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "Drive Rush",
+				"label": "Drive Rush"
+			},
+			{
+				"id": "step-11",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-12",
+				"notation": "2PP",
+				"label": "2PP"
+			},
+			{
+				"id": "step-13",
+				"notation": "P",
+				"label": "P"
+			},
+			{
+				"id": "step-14",
+				"notation": "214MP",
+				"label": "214MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: Ryu is already stunned by a Burnout wall Impact. The prerequisite DI is outside this loop and its Drive cost is not included."
+		],
+		"notes": [
+			"Footage is a dated Ryu training example; retest spacing and defensive options in the current patch."
+		],
+		"resources": {
+			"drive": "3 Drive bars (OD special and Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-aki-2026",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"published": "2026-05-08",
+			"start": 932.5,
+			"end": 944.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/aki/aki-depth-stun-pool-jump-route/clip.mp4",
+			"poster": "/media/aki/aki-depth-stun-pool-jump-route/frame-1.jpg",
+			"descriptionTrack": "/media/aki/aki-depth-stun-pool-jump-route/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/aki/aki-depth-stun-pool-jump-route/frame-1.jpg",
+					"at": 0.5,
+					"label": "Pool during stun",
+					"alt": "A.K.I. applies medium Orchid Spring while Ryu is stunned."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/aki/aki-depth-stun-pool-jump-route/frame-2.jpg",
+					"at": 1.65,
+					"label": "Jump heavy kick",
+					"alt": "The jump-heavy-kick starter connects on the stunned Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/aki/aki-depth-stun-pool-jump-route/frame-3.jpg",
+					"at": 4.25,
+					"label": "OD Lash extension",
+					"alt": "OD Serpent Lash follows the heavy-kick link."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/aki/aki-depth-stun-pool-jump-route/frame-4.jpg",
+					"at": 8.75,
+					"label": "Stance finish",
+					"alt": "The Rush heavy-kick juggle feeds stance punch and a new pool."
+				}
+			]
+		},
+		"relatedIds": [
+			"aki-depth-pool-heavy-kill-mediums",
+			"aki-wall-splat-wreath-level-one",
+			"aki-corner-poison-pool-ender"
+		]
 	}
 ]

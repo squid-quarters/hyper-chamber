@@ -1,7 +1,7 @@
 {
-	"sourceIds": ["vesperarcade-aki-2023"],
-	"publicationStatus": "private-development",
-	"presentationNote": "Full source frame retained, including poison state and recipe overlay; no input-history display in this recording.",
+	"sourceIds": ["vesperarcade-aki-2023", "joe-ebios-aki-2026"],
+	"publicationStatus": "public-repository",
+	"presentationNote": "Full source frames retain HUD, meters and poison state. Retained Vesper footage has printed recipes without input history; new Joe footage also retains the live input display.",
 	"assets": [
 		{
 			"referenceId": "aki-lights-toxic-wreath",
@@ -108,6 +108,447 @@
 			"sourceStart": 719.88,
 			"sourceEnd": 725.5,
 			"clip": "/media/aki/aki-corner-poison-pool-ender/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-light-target-heavy-lash",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 3.1,
+			"sourceEnd": 6.8,
+			"clip": "/media/aki/aki-depth-light-target-heavy-lash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-heavy-lash-step-throw",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 16.55,
+			"sourceEnd": 20.4,
+			"clip": "/media/aki/aki-depth-heavy-lash-step-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-heavy-lash-step-whiff-throw-lash",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 24.05,
+			"sourceEnd": 28.9,
+			"clip": "/media/aki/aki-depth-heavy-lash-step-whiff-throw-lash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-heavy-lash-step-shimmy",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 31.75,
+			"sourceEnd": 43.4,
+			"clip": "/media/aki/aki-depth-heavy-lash-step-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-heavy-lash-step-low",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 46.45,
+			"sourceEnd": 54.0,
+			"clip": "/media/aki/aki-depth-heavy-lash-step-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-heavy-lash-step-heavy-trade",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 57.55,
+			"sourceEnd": 63.9,
+			"clip": "/media/aki/aki-depth-heavy-lash-step-heavy-trade/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-heavy-lash-jump-guard-ryu-od",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 67.55,
+			"sourceEnd": 71.2,
+			"clip": "/media/aki/aki-depth-heavy-lash-jump-guard-ryu-od/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-corner-heavy-lash-kill-throw",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 80.0,
+			"sourceEnd": 84.4,
+			"clip": "/media/aki/aki-depth-corner-heavy-lash-kill-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-corner-heavy-lash-kill-shimmy",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 88.0,
+			"sourceEnd": 97.35,
+			"clip": "/media/aki/aki-depth-corner-heavy-lash-kill-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-corner-heavy-lash-kill-low",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 100.7,
+			"sourceEnd": 109.8,
+			"clip": "/media/aki/aki-depth-corner-heavy-lash-kill-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-corner-heavy-lash-kill-trade",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 113.0,
+			"sourceEnd": 119.1,
+			"clip": "/media/aki/aki-depth-corner-heavy-lash-kill-trade/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-poison-light-target-medium-lash",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 121.0,
+			"sourceEnd": 126.2,
+			"clip": "/media/aki/aki-depth-poison-light-target-medium-lash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-counterhit-jab-medium-heavy-lash",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 133.1,
+			"sourceEnd": 137.3,
+			"clip": "/media/aki/aki-depth-counterhit-jab-medium-heavy-lash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-low-light-heavy-lash",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 141.1,
+			"sourceEnd": 145.1,
+			"clip": "/media/aki/aki-depth-low-light-heavy-lash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-medium-pair-heavy-lash",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 146.6,
+			"sourceEnd": 150.2,
+			"clip": "/media/aki/aki-depth-medium-pair-heavy-lash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-counterhit-low-od-lash-target",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 151.6,
+			"sourceEnd": 158.9,
+			"clip": "/media/aki/aki-depth-counterhit-low-od-lash-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-punish-medium-crouch-heavy",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 160.45,
+			"sourceEnd": 163.15,
+			"clip": "/media/aki/aki-depth-punish-medium-crouch-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-crouch-heavy-walk-throw",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 165.8,
+			"sourceEnd": 170.1,
+			"clip": "/media/aki/aki-depth-crouch-heavy-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-poison-forward-heavy-force-stand",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 195.05,
+			"sourceEnd": 201.05,
+			"clip": "/media/aki/aki-depth-poison-forward-heavy-force-stand/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-counterhit-forward-heavy-medium",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 208.05,
+			"sourceEnd": 212.6,
+			"clip": "/media/aki/aki-depth-counterhit-forward-heavy-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-sweep-level-one",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 213.8,
+			"sourceEnd": 221.25,
+			"clip": "/media/aki/aki-depth-sweep-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-punish-sweep-rush-light-heavy",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 223.0,
+			"sourceEnd": 227.65,
+			"clip": "/media/aki/aki-depth-punish-sweep-rush-light-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-poison-punish-sweep-two-rush",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 231.7,
+			"sourceEnd": 237.85,
+			"clip": "/media/aki/aki-depth-poison-punish-sweep-two-rush/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-heavy-punish-fate-lights",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 247.0,
+			"sourceEnd": 253.45,
+			"clip": "/media/aki/aki-depth-heavy-punish-fate-lights/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-corner-heavy-punish-od-pulse",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 274.75,
+			"sourceEnd": 282.55,
+			"clip": "/media/aki/aki-depth-corner-heavy-punish-od-pulse/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-corner-heavy-punish-level-one",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 283.7,
+			"sourceEnd": 295.2,
+			"clip": "/media/aki/aki-depth-corner-heavy-punish-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-corner-heavy-punish-level-three",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 296.55,
+			"sourceEnd": 314.65,
+			"clip": "/media/aki/aki-depth-corner-heavy-punish-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-pool-heavy-kill-walk-throw",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 450.7,
+			"sourceEnd": 455.0,
+			"clip": "/media/aki/aki-depth-pool-heavy-kill-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-pool-heavy-kill-mediums",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 483.65,
+			"sourceEnd": 492.95,
+			"clip": "/media/aki/aki-depth-pool-heavy-kill-mediums/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-pool-bubble-overhead",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 501.85,
+			"sourceEnd": 511.85,
+			"clip": "/media/aki/aki-depth-pool-bubble-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-pool-bubble-od-step-ryu-super",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 520.45,
+			"sourceEnd": 525.6,
+			"clip": "/media/aki/aki-depth-pool-bubble-od-step-ryu-super/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-pool-rush-throw",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 534.7,
+			"sourceEnd": 539.3,
+			"clip": "/media/aki/aki-depth-pool-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-poison-antiair-heavy-medium",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 640.35,
+			"sourceEnd": 644.4,
+			"clip": "/media/aki/aki-depth-poison-antiair-heavy-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-poison-antiair-rush-heavy-medium",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 646.25,
+			"sourceEnd": 651.2,
+			"clip": "/media/aki/aki-depth-poison-antiair-rush-heavy-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-poison-antiair-rush-stance",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 653.6,
+			"sourceEnd": 658.85,
+			"clip": "/media/aki/aki-depth-poison-antiair-rush-stance/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-pool-heavy-kill-shimmy",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 464.65,
+			"sourceEnd": 474.7,
+			"clip": "/media/aki/aki-depth-pool-heavy-kill-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-pool-rush-overhead",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 567.25,
+			"sourceEnd": 576.3,
+			"clip": "/media/aki/aki-depth-pool-rush-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-corner-throw-walk-throw",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 791.6,
+			"sourceEnd": 795.9,
+			"clip": "/media/aki/aki-depth-corner-throw-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-corner-throw-walk-shimmy",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 798.6,
+			"sourceEnd": 805.9,
+			"clip": "/media/aki/aki-depth-corner-throw-walk-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-corner-throw-walk-mediums",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 808.7,
+			"sourceEnd": 813.15,
+			"clip": "/media/aki/aki-depth-corner-throw-walk-mediums/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-corner-throw-walk-overhead",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 815.65,
+			"sourceEnd": 820.9,
+			"clip": "/media/aki/aki-depth-corner-throw-walk-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-corner-throw-counterhit-overhead",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 824.0,
+			"sourceEnd": 829.0,
+			"clip": "/media/aki/aki-depth-corner-throw-counterhit-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-rush-low-light-medium",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 838.2,
+			"sourceEnd": 842.65,
+			"clip": "/media/aki/aki-depth-rush-low-light-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-rush-low-stance-target",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 849.7,
+			"sourceEnd": 856.3,
+			"clip": "/media/aki/aki-depth-rush-low-stance-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-rush-overhead-medium",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 857.65,
+			"sourceEnd": 862.4,
+			"clip": "/media/aki/aki-depth-rush-overhead-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-od-pulse-air-hit-rush",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 872.4,
+			"sourceEnd": 878.75,
+			"clip": "/media/aki/aki-depth-od-pulse-air-hit-rush/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-counter-di-stance-target",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 909.35,
+			"sourceEnd": 917.9,
+			"clip": "/media/aki/aki-depth-counter-di-stance-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-wall-crush-wreath-pool",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 919.1,
+			"sourceEnd": 927.1,
+			"clip": "/media/aki/aki-depth-wall-crush-wreath-pool/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "aki-depth-stun-pool-jump-route",
+			"sourceId": "joe-ebios-aki-2026",
+			"sourceStart": 932.5,
+			"sourceEnd": 944.9,
+			"clip": "/media/aki/aki-depth-stun-pool-jump-route/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

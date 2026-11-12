@@ -1,0 +1,767 @@
+{
+	"characterId": "jp",
+	"reviewedOn": "2026-11-12",
+	"baselineReferences": 15,
+	"references": 63,
+	"newReferences": 48,
+	"kinds": {
+		"combo": 32,
+		"setup": 19,
+		"response": 12
+	},
+	"verification": "source-reviewed; current-patch gameplay untested",
+	"sources": [
+		{
+			"sourceId": "joe-ebios-jp-classic-2026",
+			"youtubeId": "-p9-EUoISPc",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"published": "2026-03-07",
+			"duration": 1520,
+			"recordingSha256": "12f65534183b83749e7047f512533833c8036e5a38abb7cc39482fc2960181ea",
+			"metadataSha256": "1fc98566644ae138a7f4e0d6c9dd09e8ce0f67b98ada1803f478ed8e5f8ad78f",
+			"selected": [
+				{
+					"referenceId": "jp-depth-medium-od-stribog-heavy-medium",
+					"start": 19.8,
+					"end": 23.3,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-medium-stribog-jump-heavy-guard",
+					"start": 23.3,
+					"end": 25.85,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-medium-od-stribog-heavy-departure",
+					"start": 27.7,
+					"end": 32.2,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-heavy-departure-rush-throw",
+					"start": 36.15,
+					"end": 40.75,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-heavy-departure-heavy-counterhit",
+					"start": 44.8,
+					"end": 50.75,
+					"kind": "setup",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-heavy-departure-blocked-heavy-throw",
+					"start": 55.3,
+					"end": 59.45,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-heavy-departure-blocked-heavy-overhead",
+					"start": 65.2,
+					"end": 71.6,
+					"kind": "setup",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-heavy-departure-blocked-heavy-low",
+					"start": 76.05,
+					"end": 82.35,
+					"kind": "setup",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-heavy-departure-held-light-throw-reversal",
+					"start": 122.1,
+					"end": 125.45,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-medium-od-stribog-heavy-od-departure",
+					"start": 128.75,
+					"end": 132.35,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-heavy-departure-spike-rush-forward-heavy",
+					"start": 139.45,
+					"end": 146.0,
+					"kind": "setup",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-heavy-departure-guarded-spike-medium-projectile",
+					"start": 150.75,
+					"end": 156.4,
+					"kind": "setup",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-heavy-departure-jab-kill-back-medium-target",
+					"start": 176.2,
+					"end": 182.05,
+					"kind": "setup",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-heavy-departure-jab-kill-guard-reversal",
+					"start": 213.85,
+					"end": 217.8,
+					"kind": "response",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-ebios-medium-double-od-level-three",
+					"start": 404.3,
+					"end": 420.25,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-ebios-lights-light-stribog",
+					"start": 424.05,
+					"end": 425.85,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-ebios-lights-rush-back-medium-target",
+					"start": 429.2,
+					"end": 432.88,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-ebios-drive-reversal-jab-medium-kick",
+					"start": 451.1,
+					"end": 454.55,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-ebios-rush-overhead-medium-stribog",
+					"start": 459.25,
+					"end": 462.67,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-ebios-rush-low-medium-stribog",
+					"start": 466.15,
+					"end": 468.97,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-depth-rush-medium-kick-stribog-portal",
+					"start": 473.25,
+					"end": 477.55,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-rush-medium-counterhit-heavy-target",
+					"start": 479.85,
+					"end": 485.05,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-ebios-medium-od-stribog-heavy-spike",
+					"start": 486.15,
+					"end": 489.27,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-depth-medium-od-spikes-level-two-double-stribog",
+					"start": 492.25,
+					"end": 502.1,
+					"kind": "combo",
+					"selectedMoments": 9,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-corner-medium-od-heavy-spike-od-portal",
+					"start": 503.65,
+					"end": 508.2,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-medium-rush-heavy-projectile-spike-portal",
+					"start": 510.2,
+					"end": 516.25,
+					"kind": "combo",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-medium-rush-od-spikes-heavy-spike",
+					"start": 517.95,
+					"end": 524.85,
+					"kind": "combo",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-medium-rush-dash-rush-light-spike",
+					"start": 526.65,
+					"end": 533.3,
+					"kind": "combo",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-near-corner-medium-double-rush-od-portal",
+					"start": 534.8,
+					"end": 542.6,
+					"kind": "combo",
+					"selectedMoments": 7,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-near-corner-medium-dash-heavy-od-portal",
+					"start": 544.45,
+					"end": 550.2,
+					"kind": "combo",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-near-corner-medium-jump-medium-od-portal",
+					"start": 552.1,
+					"end": 558.35,
+					"kind": "combo",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-corner-medium-rush-two-forward-heavies",
+					"start": 560.6,
+					"end": 567.35,
+					"kind": "combo",
+					"selectedMoments": 7,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-counterhit-crouching-medium-standing-medium",
+					"start": 569.15,
+					"end": 573.25,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-counterhit-low-standing-light-stribog",
+					"start": 574.65,
+					"end": 578.5,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-ebios-low-punish-medium-stribog",
+					"start": 580.05,
+					"end": 582.53,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-ebios-heavy-kick-medium-stribog",
+					"start": 620.15,
+					"end": 622.92,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-ebios-heavy-kick-target-stribog",
+					"start": 626.15,
+					"end": 628.65,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-ebios-heavy-target-rush-launch-spike",
+					"start": 632.15,
+					"end": 637.35,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused-with-approved-title-only-correction"
+				},
+				{
+					"referenceId": "jp-depth-punish-heavy-rush-heavy-projectile-spike",
+					"start": 664.8,
+					"end": 671.1,
+					"kind": "combo",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-guard-od-uppercut-portal-side-switch",
+					"start": 725.05,
+					"end": 733.35,
+					"kind": "response",
+					"selectedMoments": 9,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-guard-ryu-level-one-rush-forward-heavy",
+					"start": 807.65,
+					"end": 816.45,
+					"kind": "response",
+					"selectedMoments": 10,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-ebios-anti-air-forward-kick-medium-spike",
+					"start": 818.1,
+					"end": 821.04,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-depth-antiair-od-spikes",
+					"start": 822.85,
+					"end": 826.9,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-antiair-od-projectile-spike",
+					"start": 828.0,
+					"end": 832.2,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-antiair-od-projectile-level-one",
+					"start": 833.6,
+					"end": 838.45,
+					"kind": "response",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-antiair-rush-heavy-projectile-spike",
+					"start": 839.9,
+					"end": 846.45,
+					"kind": "response",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-corner-throw-delayed-heavy-conversion",
+					"start": 852.25,
+					"end": 859.8,
+					"kind": "setup",
+					"selectedMoments": 7,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-corner-throw-walk-throw",
+					"start": 863.05,
+					"end": 866.55,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-corner-throw-dash-throw",
+					"start": 870.0,
+					"end": 873.7,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-corner-throw-dash-backdash-shimmy",
+					"start": 877.35,
+					"end": 885.4,
+					"kind": "setup",
+					"selectedMoments": 7,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-corner-throw-impact-hit",
+					"start": 889.3,
+					"end": 891.85,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-ebios-corner-throw-od-embrace",
+					"start": 894.15,
+					"end": 901.35,
+					"kind": "setup",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-depth-corner-throw-medium-projectile-target",
+					"start": 905.4,
+					"end": 910.95,
+					"kind": "setup",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-corner-throw-projectile-target-rush",
+					"start": 922.75,
+					"end": 931.85,
+					"kind": "setup",
+					"selectedMoments": 7,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-corner-throw-projectile-trade-target",
+					"start": 936.0,
+					"end": 941.35,
+					"kind": "setup",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-od-amnesia-backthrow-heavy-portal",
+					"start": 952.6,
+					"end": 959.7,
+					"kind": "response",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-od-amnesia-backthrow-light-spike",
+					"start": 962.6,
+					"end": 968.55,
+					"kind": "response",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-amnesia-light-spike-dash-projectile-target",
+					"start": 975.45,
+					"end": 980.75,
+					"kind": "setup",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-ebios-counter-di-walk-heavy-projectile-spike",
+					"start": 1065.2,
+					"end": 1075.25,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-ebios-wall-splat-medium-forward-kick-spike",
+					"start": 1126.65,
+					"end": 1132.05,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "jp-depth-counter-impact-level-two-drive-drain",
+					"start": 1145.35,
+					"end": 1158.55,
+					"kind": "response",
+					"selectedMoments": 10,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-heavy-target-level-two-long-carry",
+					"start": 1206.1,
+					"end": 1218.2,
+					"kind": "combo",
+					"selectedMoments": 11,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "jp-depth-blocked-heavy-target-level-two-walk-throw",
+					"start": 1316.15,
+					"end": 1325.4,
+					"kind": "setup",
+					"selectedMoments": 8,
+					"disposition": "new-reviewed-selection"
+				}
+			],
+			"timelineSurvey": {
+				"start": 0,
+				"end": 1520,
+				"intervalSeconds": 6,
+				"boards": 22,
+				"status": "Every discovery board viewed. Coarse survey is not execution certification of unselected candidates."
+			},
+			"fineReview": {
+				"ranges": [
+					[14, 132],
+					[132, 222],
+					[473, 580],
+					[662, 675],
+					[722, 736],
+					[805, 818],
+					[818, 849],
+					[849, 981],
+					[1143, 1219],
+					[1316, 1328]
+				],
+				"status": "Every frame board in these finer ranges viewed; native full-resolution input/HUD and selected boundary probes resolve risks. This does not certify unselected recipes as authored content."
+			},
+			"unselectedSourceIntervals": [
+				[0, 19.8],
+				[25.85, 27.7],
+				[32.2, 36.15],
+				[40.75, 44.8],
+				[50.75, 55.3],
+				[59.45, 65.2],
+				[71.6, 76.05],
+				[82.35, 122.1],
+				[125.45, 128.75],
+				[132.35, 139.45],
+				[146.0, 150.75],
+				[156.4, 176.2],
+				[182.05, 213.85],
+				[217.8, 404.3],
+				[420.25, 424.05],
+				[425.85, 429.2],
+				[432.88, 451.1],
+				[454.55, 459.25],
+				[462.67, 466.15],
+				[468.97, 473.25],
+				[477.55, 479.85],
+				[485.05, 486.15],
+				[489.27, 492.25],
+				[502.1, 503.65],
+				[508.2, 510.2],
+				[516.25, 517.95],
+				[524.85, 526.65],
+				[533.3, 534.8],
+				[542.6, 544.45],
+				[550.2, 552.1],
+				[558.35, 560.6],
+				[567.35, 569.15],
+				[573.25, 574.65],
+				[578.5, 580.05],
+				[582.53, 620.15],
+				[622.92, 626.15],
+				[628.65, 632.15],
+				[637.35, 664.8],
+				[671.1, 725.05],
+				[733.35, 807.65],
+				[816.45, 818.1],
+				[821.04, 822.85],
+				[826.9, 828.0],
+				[832.2, 833.6],
+				[838.45, 839.9],
+				[846.45, 852.25],
+				[859.8, 863.05],
+				[866.55, 870.0],
+				[873.7, 877.35],
+				[885.4, 889.3],
+				[891.85, 894.15],
+				[901.35, 905.4],
+				[910.95, 922.75],
+				[931.85, 936.0],
+				[941.35, 952.6],
+				[959.7, 962.6],
+				[968.55, 975.45],
+				[980.75, 1065.2],
+				[1075.25, 1126.65],
+				[1132.05, 1145.35],
+				[1158.55, 1206.1],
+				[1218.2, 1316.15],
+				[1325.4, 1520]
+			],
+			"unselectedIntervalStatus": "Exact complement of all selected intervals, including retained baseline references. Gaps include prerequisite prefixes, duplicate branches, negative examples, take margins and unprocessed candidates; no extra recipe is certified here.",
+			"intervalDispositions": [
+				{
+					"start": 0,
+					"end": 14,
+					"status": "excluded-context",
+					"note": "Opening explanation and prerequisite introduction; no new demonstration selected."
+				},
+				{
+					"start": 14,
+					"end": 82.35,
+					"status": "reviewed-curated",
+					"note": "Corner OD-Stribog starters, +42 jump/guard and heavy-Departure +15 branches reviewed in finer footage. Unselected margins and prerequisites are not extra recipes."
+				},
+				{
+					"start": 82.35,
+					"end": 122.1,
+					"status": "excluded-negative-or-duplicate-pressure",
+					"note": "The source shows fake projectile pressure, -6 guarded outcomes and reversals/alternate held-input branches. No universally safe pressure is inferred; selected held-light throw response starts later."
+				},
+				{
+					"start": 122.1,
+					"end": 222,
+					"status": "reviewed-curated",
+					"note": "Held-light reversal response, OD-portal starter and additional heavy-portal branches reviewed. Other strength variants, repeated prerequisites and reset attempts are not extra cards."
+				},
+				{
+					"start": 222,
+					"end": 423,
+					"status": "surveyed-unprocessed-execution-candidates",
+					"note": "Longer portal/combo optimization candidates surveyed at six seconds only; detailed manual commands, automatic hits, strength pairs and branch states still need extraction."
+				},
+				{
+					"start": 423,
+					"end": 473,
+					"status": "baseline-reused-and-unprocessed-candidates",
+					"note": "Existing light, low, overhead and reversal-punish selections retained. Remaining light/pressure variants require finer execution review."
+				},
+				{
+					"start": 473,
+					"end": 580,
+					"status": "reviewed-curated",
+					"note": "Medium/Rush/counter-hit routes reviewed at half-second spacing and selected native glyph/fine input probes. Duplicate alternatives, take margins and prerequisites remain unextracted."
+				},
+				{
+					"start": 580,
+					"end": 632.15,
+					"status": "baseline-reused-and-unprocessed-candidates",
+					"note": "Existing low-PC/heavy-target references retained; additional heavy starter variants remain unprocessed beyond the coarse survey."
+				},
+				{
+					"start": 632.15,
+					"end": 637.35,
+					"status": "baseline-title-correction-reviewed",
+					"note": "Existing stable-ID heavy-target route reviewed directly around636.35s. Live yellow236MK and Overhead/Jump-In HUD confirm medium projectile; only its title changes."
+				},
+				{
+					"start": 637.35,
+					"end": 662,
+					"status": "surveyed-unprocessed-execution-candidates",
+					"note": "Additional heavy-target and optimization variants require detailed extraction."
+				},
+				{
+					"start": 662,
+					"end": 675,
+					"status": "reviewed-curated",
+					"note": "Raw-Rush heavy-punch punish-counter conversion reviewed at quarter-second spacing. Other neighboring PC takes not selected."
+				},
+				{
+					"start": 675,
+					"end": 722,
+					"status": "baseline-reused-and-unprocessed-candidates",
+					"note": "Existing PC/corner choices retained; further PC, OD-spike and target variants remain unprocessed beyond the coarse survey."
+				},
+				{
+					"start": 722,
+					"end": 736,
+					"status": "reviewed-curated",
+					"note": "Actual guarded Ryu OD-uppercut side-switch route reviewed, including LP+HP first OD portal and MP+HP final OD portal. Neighboring recipe starts are excluded."
+				},
+				{
+					"start": 736,
+					"end": 805,
+					"status": "surveyed-unprocessed-execution-candidates",
+					"note": "Other side-switch and full cash-out candidates remain unprocessed; not certified from recipe captions."
+				},
+				{
+					"start": 805,
+					"end": 849,
+					"status": "reviewed-curated",
+					"note": "Actual guarded Ryu SA1 punish and airborne-counter-hit anti-air branches reviewed at quarter-second spacing. Unselected portions are prerequisites, take margins or retained baseline anti-air."
+				},
+				{
+					"start": 849,
+					"end": 981,
+					"status": "reviewed-curated",
+					"note": "Corner forward-throw, shimmy, projectile-hit/trade and actual OD-Amnesia response trees reviewed at half-second spacing with native input probes. Repeated setup prefixes, blocked negative example and unused strength branches are excluded."
+				},
+				{
+					"start": 981,
+					"end": 1143,
+					"status": "baseline-reused-and-unprocessed-candidates",
+					"note": "Additional back-throw/corner/Drive-Impact/stun candidates remain unprocessed beyond the six-second survey; existing baseline selections are retained."
+				},
+				{
+					"start": 1143,
+					"end": 1219,
+					"status": "reviewed-curated",
+					"note": "Counter-Impact Level 2/Level 1 and long-carry Level 2 route reviewed at half-second spacing. Other Level 2 Drive-depletion/side-switch variants are surveyed and not extracted."
+				},
+				{
+					"start": 1219,
+					"end": 1316,
+					"status": "surveyed-unprocessed-execution-candidates",
+					"note": "Additional Level 2 pressure and side-switch recipes remain unprocessed despite coarse survey."
+				},
+				{
+					"start": 1316,
+					"end": 1328,
+					"status": "reviewed-curated",
+					"note": "Guarded heavy-target Level 2 into walk throw reviewed at quarter-second spacing. Next guarded-target take is excluded."
+				},
+				{
+					"start": 1328,
+					"end": 1520,
+					"status": "surveyed-unprocessed-execution-candidates",
+					"note": "Remaining advanced Level 2 block/throw/feint/execution demonstrations need detailed action, gap, strength and resource review. No whole-guide completion claim."
+				}
+			]
+		}
+	],
+	"baselineExceptions": [
+		{
+			"referenceId": "jp-ebios-heavy-target-rush-launch-spike",
+			"change": "Title only: low projectile → medium projectile",
+			"revisionUnchanged": 1,
+			"preserved": "All other object fields, inputs, notes, source cuts, selected times, related IDs and every original media byte are unchanged. The other 14 baseline objects remain exactly equal.",
+			"evidence": "Own baseline632.15–637.35s; native636.35s live yellow236MK + Overhead/Jump-In HUD. Native936.65yellow236MK vs164.0red236HK comparison retained. Parent independently confirmed the baseline frame and approved title-only correction."
+		}
+	],
+	"extractionLimits": [
+		"Main source still has explicitly unprocessed execution candidates. Full character/whole-source completeness is not claimed.",
+		"Printed +F is remaining advantage, never an added wait instruction. Prerequisite OD costs before follow-up loops are named separately.",
+		"Medium 236MK is the recorded overhead projectile; heavy 236HK is the low variant. Do not infer either strength from the generic source or-choice.",
+		"Departure, Amnesia bombs and Level 2 add automatic attacks. Manual commands and actual strength pairs remain explicit without inventing extra button presses for every effect.",
+		"Some source captions label only the post-heavy ender meterless; the complete2MP236PPstHP starter actually spends two Drive bars.",
+		"Ryu OD-uppercut/Drive-Reversal/Level 1 and counter-Impact responses apply to their demonstrated spacing/action only.",
+		"Guarded pressure, throw/trade and counter-hit follow-ups are separate interactions, not universal gapless strings.",
+		"Public redistribution unassessed; originals remain local."
+	]
+}

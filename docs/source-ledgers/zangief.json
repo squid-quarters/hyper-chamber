@@ -1,0 +1,1045 @@
+{
+	"characterId": "zangief",
+	"reviewedOn": "2026-11-12",
+	"baselineReferences": 12,
+	"newReferences": 50,
+	"references": 62,
+	"kinds": {
+		"combo": 24,
+		"setup": 31,
+		"response": 7
+	},
+	"verification": "source-reviewed; current-patch in-game execution untested",
+	"sources": [
+		{
+			"sourceKey": "joe-ebios-zangief-2026",
+			"youtubeId": "LsEr6opeOUE",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"duration": 584,
+			"sourceRecordingSha256": "3031e590f7bbdf57033a22003ba20088639a255c7836628acbee88ecb3685f37",
+			"sourceMetadataSha256": "990e90538d386bd317fa2b9c227cb4c6861fa5a0ba95778bda5a0623183422dc",
+			"timelineSurvey": {
+				"interval": [0, 584],
+				"intervalSeconds": 2,
+				"status": "Entire source surveyed visually; fine action/input review applies to selected demonstrations, not every unselected frame."
+			},
+			"intervals": [
+				{
+					"start": 0,
+					"end": 0.55,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 0.55,
+					"end": 4.85,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-low-lights-od-lariat"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 4.85,
+					"end": 8.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 8.1,
+					"end": 12.65,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-od-lariat-blocked-headbutt-strike"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 12.65,
+					"end": 13.8,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 13.8,
+					"end": 22.3,
+					"disposition": "reused",
+					"referenceIds": ["zangief-od-lariat-blocked-headbutt-grab"],
+					"review": "Baseline object and media preserved unchanged.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 22.3,
+					"end": 25.25,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 25.25,
+					"end": 31.1,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-od-lariat-meaty-headbutts"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 31.1,
+					"end": 34.15,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 34.15,
+					"end": 38.75,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-od-lariat-rush-low"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 38.75,
+					"end": 42.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 42.1,
+					"end": 46.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-od-lariat-jump-medium"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 46.15,
+					"end": 49.15,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 49.15,
+					"end": 53.6,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-od-lariat-jump-block-manon"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 53.6,
+					"end": 56.5,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 56.5,
+					"end": 62.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-od-lariat-rush-medium-spd"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 62.15,
+					"end": 65.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 65.1,
+					"end": 69.6,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-od-lariat-rush-forward-throw"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 69.6,
+					"end": 72.7,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 72.7,
+					"end": 76.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-od-lariat-rush-block-dp"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 76.15,
+					"end": 79.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 79.1,
+					"end": 83.75,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-corner-od-lariat-walk-headbutt"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 83.75,
+					"end": 87.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 87.1,
+					"end": 92.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-corner-od-lariat-walk-heavy-spd"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 92.15,
+					"end": 95.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 95.1,
+					"end": 104.65,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-corner-od-lariat-shimmy"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 104.65,
+					"end": 104.95,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 104.95,
+					"end": 110.2,
+					"disposition": "reused",
+					"referenceIds": ["zangief-low-lights-rush-lariat"],
+					"review": "Baseline object and media preserved unchanged.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 110.2,
+					"end": 114.45,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 114.45,
+					"end": 119.45,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-lariat-rush-target-combo"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 119.45,
+					"end": 123.0,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 123.0,
+					"end": 126.9,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-lariat-rush-sweep"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 126.9,
+					"end": 131.15,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 131.15,
+					"end": 136.2,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-lariat-rush-light-spd"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 136.2,
+					"end": 139.75,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 139.75,
+					"end": 144.75,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-corner-lariat-walk-headbutt"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 144.75,
+					"end": 148.85,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 148.85,
+					"end": 154.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-corner-lariat-heavy-spd"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 154.15,
+					"end": 158.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 158.1,
+					"end": 166.7,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-corner-lariat-shimmy"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 166.7,
+					"end": 167.6,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 167.6,
+					"end": 173.4,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-rush-jab-reset-headbutt"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 173.4,
+					"end": 179.55,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 179.55,
+					"end": 185.65,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-rush-jab-reset-heavy-spd"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 185.65,
+					"end": 186.25,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 186.25,
+					"end": 190.85,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-rush-jab-reset-block-dp"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 190.85,
+					"end": 191.55,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 191.55,
+					"end": 199.5,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-rush-jab-reset-level-one-jump"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 199.5,
+					"end": 200.25,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 200.25,
+					"end": 206.7,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-low-two-rush-cashout"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 206.7,
+					"end": 207.35,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 207.35,
+					"end": 220.85,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-low-rush-od-level-three"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 220.85,
+					"end": 222.15,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 222.15,
+					"end": 226.75,
+					"disposition": "reused",
+					"referenceIds": ["zangief-rush-medium-target"],
+					"review": "Baseline object and media preserved unchanged.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 226.75,
+					"end": 227.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 227.1,
+					"end": 231.9,
+					"disposition": "reused",
+					"referenceIds": ["zangief-headbutt-hellstab-lariat"],
+					"review": "Baseline object and media preserved unchanged.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 231.9,
+					"end": 232.0,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 232.0,
+					"end": 236.75,
+					"disposition": "reused",
+					"referenceIds": ["zangief-headbutt-od-lariat"],
+					"review": "Baseline object and media preserved unchanged.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 236.75,
+					"end": 237.15,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 237.15,
+					"end": 252.45,
+					"disposition": "reused",
+					"referenceIds": ["zangief-headbutt-rush-level-three"],
+					"review": "Baseline object and media preserved unchanged.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 252.45,
+					"end": 253.25,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 253.25,
+					"end": 259.2,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-drive-reversal-heavy-spd"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 259.2,
+					"end": 260.5,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 260.5,
+					"end": 266.35,
+					"disposition": "reused",
+					"referenceIds": ["zangief-dp-punish-wheel-kick"],
+					"review": "Baseline object and media preserved unchanged.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 266.35,
+					"end": 267.2,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 267.2,
+					"end": 276.65,
+					"disposition": "reused",
+					"referenceIds": ["zangief-corner-wheel-kick-air-throw"],
+					"review": "Baseline object and media preserved unchanged.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 276.65,
+					"end": 277.3,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 277.3,
+					"end": 287.55,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-corner-shimmy-od-air-throw"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 287.55,
+					"end": 293.0,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 293.0,
+					"end": 300.35,
+					"disposition": "reused",
+					"referenceIds": ["zangief-forward-throw-dash-hellstab"],
+					"review": "Baseline object and media preserved unchanged.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 300.35,
+					"end": 303.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 303.1,
+					"end": 308.2,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-forward-throw-dash-medium-spd"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 308.2,
+					"end": 311.25,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 311.25,
+					"end": 317.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-forward-throw-rush-headbutts"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 317.15,
+					"end": 320.3,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 320.3,
+					"end": 325.0,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-forward-throw-rush-throw"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 325.0,
+					"end": 328.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 328.1,
+					"end": 333.2,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-forward-throw-rush-heavy-spd"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 333.2,
+					"end": 336.3,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 336.3,
+					"end": 340.1,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-forward-throw-rush-block-dp"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 340.1,
+					"end": 342.75,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 342.75,
+					"end": 347.75,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-pc-forward-throw-headbutt"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 347.75,
+					"end": 350.75,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 350.75,
+					"end": 356.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-pc-forward-throw-heavy-spd"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 356.15,
+					"end": 359.25,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 359.25,
+					"end": 365.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-pc-forward-throw-shimmy-spd"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 365.15,
+					"end": 370.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 370.1,
+					"end": 374.1,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-spd-rush-sweep"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 374.1,
+					"end": 378.0,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 378.0,
+					"end": 382.1,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-spd-rush-wheel-kick"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 382.1,
+					"end": 386.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 386.1,
+					"end": 392.1,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-spd-rush-light-low-confirm"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 392.1,
+					"end": 396.0,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 396.0,
+					"end": 402.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-spd-blocked-light-heavy-spd"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 402.15,
+					"end": 406.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 406.1,
+					"end": 414.1,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-spd-throw-whiff-level-one"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 414.1,
+					"end": 418.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 418.1,
+					"end": 423.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-spd-rush-od-running-grab"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 423.15,
+					"end": 425.25,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 425.25,
+					"end": 431.95,
+					"disposition": "reused",
+					"referenceIds": ["zangief-counter-di-headbutt"],
+					"review": "Baseline object and media preserved unchanged.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 431.95,
+					"end": 433.05,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 433.05,
+					"end": 441.1,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-counter-di-od-lariat"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 441.1,
+					"end": 442.05,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 442.05,
+					"end": 453.1,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-corner-counter-di-air-throw"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 453.1,
+					"end": 453.75,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 453.75,
+					"end": 458.65,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-wall-splat-normal-lariat"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 458.65,
+					"end": 459.15,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 459.15,
+					"end": 467.7,
+					"disposition": "reused",
+					"referenceIds": ["zangief-wall-splat-od-air-throw"],
+					"review": "Baseline object and media preserved unchanged.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 467.7,
+					"end": 468.8,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 468.8,
+					"end": 477.55,
+					"disposition": "reused",
+					"referenceIds": ["zangief-held-level-two-lariat"],
+					"review": "Baseline object and media preserved unchanged.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 477.55,
+					"end": 479.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 479.1,
+					"end": 490.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-held-level-two-air-throw"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 490.15,
+					"end": 490.65,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 490.65,
+					"end": 502.65,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-held-level-two-level-one"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 502.65,
+					"end": 503.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 503.1,
+					"end": 515.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-corner-level-two-air-throw"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 515.15,
+					"end": 516.1,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 516.1,
+					"end": 529.15,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-corner-level-two-level-one"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 529.15,
+					"end": 532.65,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 532.65,
+					"end": 542.65,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-stun-back-jump-air-throw"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 542.65,
+					"end": 544.65,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 544.65,
+					"end": 559.1,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-stun-jump-level-three"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 559.1,
+					"end": 562.65,
+					"disposition": "unprocessed-execution",
+					"reason": "Surveyed gap, transition or repeated prerequisite; not authored and not subjected to full per-frame execution review."
+				},
+				{
+					"start": 562.65,
+					"end": 578.9,
+					"disposition": "reviewed",
+					"referenceIds": ["zangief-depth-stun-rush-level-three"],
+					"review": "Actual command order, relevant input strength and HUD, all selected moments, first authored action and both prepared clip boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 578.9,
+					"end": 584,
+					"disposition": "excluded-outro",
+					"reason": "Completed final route and the source end card; no additional authored demonstration."
+				}
+			],
+			"remainingUnprocessedExecutionWindows": [
+				[0, 0.55],
+				[4.85, 8.1],
+				[12.65, 13.8],
+				[22.3, 25.25],
+				[31.1, 34.15],
+				[38.75, 42.1],
+				[46.15, 49.15],
+				[53.6, 56.5],
+				[62.15, 65.1],
+				[69.6, 72.7],
+				[76.15, 79.1],
+				[83.75, 87.1],
+				[92.15, 95.1],
+				[104.65, 104.95],
+				[110.2, 114.45],
+				[119.45, 123.0],
+				[126.9, 131.15],
+				[136.2, 139.75],
+				[144.75, 148.85],
+				[154.15, 158.1],
+				[166.7, 167.6],
+				[173.4, 179.55],
+				[185.65, 186.25],
+				[190.85, 191.55],
+				[199.5, 200.25],
+				[206.7, 207.35],
+				[220.85, 222.15],
+				[226.75, 227.1],
+				[231.9, 232.0],
+				[236.75, 237.15],
+				[252.45, 253.25],
+				[259.2, 260.5],
+				[266.35, 267.2],
+				[276.65, 277.3],
+				[287.55, 293.0],
+				[300.35, 303.1],
+				[308.2, 311.25],
+				[317.15, 320.3],
+				[325.0, 328.1],
+				[333.2, 336.3],
+				[340.1, 342.75],
+				[347.75, 350.75],
+				[356.15, 359.25],
+				[365.15, 370.1],
+				[374.1, 378.0],
+				[382.1, 386.1],
+				[392.1, 396.0],
+				[402.15, 406.1],
+				[414.1, 418.1],
+				[423.15, 425.25],
+				[431.95, 433.05],
+				[441.1, 442.05],
+				[453.1, 453.75],
+				[458.65, 459.15],
+				[467.7, 468.8],
+				[477.55, 479.1],
+				[490.15, 490.65],
+				[502.65, 503.1],
+				[515.15, 516.1],
+				[529.15, 532.65],
+				[542.65, 544.65],
+				[559.1, 562.65]
+			],
+			"dispositionNotes": [
+				{
+					"interval": [173.5, 179.1],
+					"disposition": "duplicate-recipe-context",
+					"reason": "The Headbutt reset trade take repeats the same command sequence; its trade continuation is noted on the adjacent hit-reset reference rather than counted again."
+				},
+				{
+					"interval": [288, 293],
+					"disposition": "context-only",
+					"reason": "Forward-throw dash-only advantage illustration is not counted separately from the meaningful dash/Hellstab or delayed-SPD follow-ups."
+				},
+				{
+					"interval": [0, 424],
+					"disposition": "repeated-prerequisites",
+					"reason": "Repeated light/Lariat, forward-throw and SPD knockdowns supply setup prerequisites. They are not relabeled as new continuous combos."
+				}
+			],
+			"limits": [
+				"Source printed +38/+27/+6 values describe advantage, not wait counts.",
+				"Only the displayed SA3 is authored where the overlay prints SA2 or SA3.",
+				"Normal and OD Lariat, forward-held spacing, light/medium/heavy SPD, and normal versus punish-counter forward throws remain distinct prerequisites.",
+				"SA1 jump catches are defensive reads after reset gaps, not guaranteed combos.",
+				"Manon SA1 and Ryu OD-DP blocks establish only the recorded matchup interaction.",
+				"No separate carry lesson or general-purpose grounded Lariat anti-air response is claimed."
+			]
+		},
+		{
+			"youtubeId": "tAmiTak1OFU",
+			"title": "Street Fighter 6: Zangief Anti Air guide (Tips and Tricks)",
+			"creator": "Baldy",
+			"url": "https://www.youtube.com/watch?v=tAmiTak1OFU",
+			"duration": 1099,
+			"sourceRecordingSha256": "2bd8e34001548e3920f1df5fbf398ac93588eb509478fb9bdea7d4b2532b8b9d",
+			"selectedReferences": [],
+			"candidateOnly": true,
+			"intervals": [
+				{
+					"start": 0,
+					"end": 52,
+					"disposition": "unprocessed"
+				},
+				{
+					"start": 52,
+					"end": 150,
+					"disposition": "ambiguous-excluded",
+					"reason": "Screened original examples include menus, setup actions and failed/unclear anti-air tests. The left-side input history is absent; the persistent OD-success indicator does not establish which attempt succeeded. No OD-Lariat anti-air recipe inferred from glow alone."
+				},
+				{
+					"start": 150,
+					"end": 213,
+					"disposition": "unprocessed"
+				},
+				{
+					"start": 213,
+					"end": 301,
+					"disposition": "ambiguous-excluded",
+					"reason": "Screened corner and jump tests do not supply a sufficiently clear complete command/strength/success demonstration for an additional reviewed reference."
+				},
+				{
+					"start": 301,
+					"end": 1099,
+					"disposition": "unprocessed"
+				}
+			],
+			"remainingUnprocessedExecutionWindows": [
+				[0, 52],
+				[150, 213],
+				[301, 1099]
+			]
+		}
+	],
+	"reviewEvidence": {
+		"allNewPreparedMomentsAndBothBoundaries": ".local/depth/review/zangief/",
+		"fineActionBoards": ".local/depth/boards/zangief-*",
+		"mechanicalAudit": ".local/depth/zangief-media-audit.json"
+	},
+	"preservation": "All 12 baseline reference objects including IDs, revisions, source data, media and related links remain unchanged. New related links are authored only on appended entries."
+}

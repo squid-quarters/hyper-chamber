@@ -29,7 +29,7 @@ Counter-DI crumple, blocked-DI wall splat and burnout stun are separate states. 
 
 Both recordings present gameplay in a 1024×576 window at x=256, y=0 inside a 1280×720 composition. New clips crop to that complete gameplay window, preserving health, Drive/Super meters, input history, hit counters and frame meters. The surrounding recipe and commentary panels are represented in the authored inputs, conditions and notes. Attribution and exact source links stay visible in the app; full original recordings remain local. `content/media-chunli.json` and both source records document the crop.
 
-Accurate lossless H.264 intermediates apply the reviewed interval and crop before the unchanged canonical ingestion helper encodes silent clips, resets presentation clocks to zero, exports stills and writes WebVTT action descriptions. Key-moment times describe the prepared video timeline, not one-frame SF6 simulation stepping. Every selected still and both endpoints are visually inspected, including repeated takes and crossfades. Assets are private development excerpts; public redistribution has not been assessed.
+Accurate lossless H.264 intermediates apply the reviewed interval and crop before the unchanged canonical ingestion helper encodes silent clips, resets presentation clocks to zero, exports stills and writes WebVTT action descriptions. Key-moment times describe the prepared video timeline, not one-frame SF6 simulation stepping. Every selected still and both endpoints are visually inspected, including repeated takes and crossfades. Prepared excerpts are owner-authorized for this public repository; public redistribution has not been assessed.
 
 ## Reference index
 

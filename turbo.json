@@ -9,6 +9,11 @@
 		"typecheck": {
 			"dependsOn": ["^build"],
 			"outputs": []
+		},
+		"@hyper-chamber/web#build": {
+			"dependsOn": ["^build"],
+			"outputs": ["build/**"],
+			"cache": false
 		}
 	}
 }

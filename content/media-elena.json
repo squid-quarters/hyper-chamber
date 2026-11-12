@@ -1,6 +1,6 @@
 {
-	"sourceIds": ["vesperarcade-elena-2025"],
-	"publicationStatus": "private-development",
+	"sourceIds": ["vesperarcade-elena-2025", "joe-ebios-elena-september-2026", "keib-elena-2025"],
+	"publicationStatus": "public-repository",
 	"presentationNote": "Complete source frame retained without crop, including source annotations and game HUD. Original recordings remain outside Git.",
 	"assets": [
 		{
@@ -108,6 +108,366 @@
 			"sourceStart": 849.4,
 			"sourceEnd": 852.75,
 			"clip": "/media/elena/elena-vesper-air-medium-heavy-wheel/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-crouching-heavy-scythe-medium-rhino",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 2.0,
+			"sourceEnd": 8.85,
+			"clip": "/media/elena/elena-depth-crouching-heavy-scythe-medium-rhino/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-medium-rhino-roll-whirl-snap",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 9.0,
+			"sourceEnd": 15.85,
+			"clip": "/media/elena/elena-depth-medium-rhino-roll-whirl-snap/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-medium-rhino-snap-trade-target",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 15.95,
+			"sourceEnd": 25.75,
+			"clip": "/media/elena/elena-depth-medium-rhino-snap-trade-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-medium-rhino-rush-guard",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 25.95,
+			"sourceEnd": 33.35,
+			"clip": "/media/elena/elena-depth-medium-rhino-rush-guard/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-medium-rhino-rush-medium-glider",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 33.5,
+			"sourceEnd": 42.7,
+			"clip": "/media/elena/elena-depth-medium-rhino-rush-medium-glider/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-medium-rhino-rush-low-target",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 42.9,
+			"sourceEnd": 52.6,
+			"clip": "/media/elena/elena-depth-medium-rhino-rush-low-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-crouching-heavy-rush-heavy-rhino",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 52.8,
+			"sourceEnd": 59.7,
+			"clip": "/media/elena/elena-depth-crouching-heavy-rush-heavy-rhino/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-heavy-rhino-roll-whirl-snap",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 59.9,
+			"sourceEnd": 67.35,
+			"clip": "/media/elena/elena-depth-heavy-rhino-roll-whirl-snap/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-heavy-rhino-rush-throw",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 74.5,
+			"sourceEnd": 84.4,
+			"clip": "/media/elena/elena-depth-heavy-rhino-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-heavy-rhino-rush-shimmy",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 84.65,
+			"sourceEnd": 96.45,
+			"clip": "/media/elena/elena-depth-heavy-rhino-rush-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-heavy-rhino-rush-overhead",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 109.25,
+			"sourceEnd": 119.6,
+			"clip": "/media/elena/elena-depth-heavy-rhino-rush-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-scythe-od-roll-level-one",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 147.7,
+			"sourceEnd": 158.25,
+			"clip": "/media/elena/elena-depth-scythe-od-roll-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-scythe-heavy-rhino-level-three",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 193.9,
+			"sourceEnd": 209.1,
+			"clip": "/media/elena/elena-depth-scythe-heavy-rhino-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-heavy-scythe-light-wheel",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 228.0,
+			"sourceEnd": 235.35,
+			"clip": "/media/elena/elena-depth-corner-heavy-scythe-light-wheel/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-wheel-roll-medium-guard",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 242.55,
+			"sourceEnd": 250.85,
+			"clip": "/media/elena/elena-depth-corner-wheel-roll-medium-guard/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-wheel-roll-medium-throw",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 258.65,
+			"sourceEnd": 268.65,
+			"clip": "/media/elena/elena-depth-corner-wheel-roll-medium-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-wheel-roll-medium-shimmy",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 268.9,
+			"sourceEnd": 281.95,
+			"clip": "/media/elena/elena-depth-corner-wheel-roll-medium-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-wheel-roll-medium-confirm",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 282.3,
+			"sourceEnd": 293.65,
+			"clip": "/media/elena/elena-depth-corner-wheel-roll-medium-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-wheel-roll-delay-throw",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 293.95,
+			"sourceEnd": 303.85,
+			"clip": "/media/elena/elena-depth-corner-wheel-roll-delay-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-wheel-whiff-low-overhead",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 304.1,
+			"sourceEnd": 312.35,
+			"clip": "/media/elena/elena-depth-corner-wheel-whiff-low-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-wheel-low-standing-jab-throw",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 321.1,
+			"sourceEnd": 330.85,
+			"clip": "/media/elena/elena-depth-corner-wheel-low-standing-jab-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-wheel-low-standing-jab-confirm",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 331.5,
+			"sourceEnd": 342.35,
+			"clip": "/media/elena/elena-depth-corner-wheel-low-standing-jab-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-wheel-whiffs-jab-guard-level-one",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 342.7,
+			"sourceEnd": 352.85,
+			"clip": "/media/elena/elena-depth-corner-wheel-whiffs-jab-guard-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-wheel-low-crouching-jab-low",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 360.45,
+			"sourceEnd": 371.65,
+			"clip": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-wheel-low-crouching-jab-throw",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 371.95,
+			"sourceEnd": 381.65,
+			"clip": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-corner-wheel-low-crouching-jab-shimmy",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 381.95,
+			"sourceEnd": 394.65,
+			"clip": "/media/elena/elena-depth-corner-wheel-low-crouching-jab-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-punish-jab-medium-glider",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 931.3,
+			"sourceEnd": 935.45,
+			"clip": "/media/elena/elena-depth-punish-jab-medium-glider/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-punish-close-jab-heavy-scythe",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 938.0,
+			"sourceEnd": 943.95,
+			"clip": "/media/elena/elena-depth-punish-close-jab-heavy-scythe/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-punish-jab-od-rhino-side-switch",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 946.85,
+			"sourceEnd": 951.25,
+			"clip": "/media/elena/elena-depth-punish-jab-od-rhino-side-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-punish-low-medium-glider",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 965.95,
+			"sourceEnd": 970.85,
+			"clip": "/media/elena/elena-depth-punish-low-medium-glider/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-punish-medium-heavy-scythe",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 972.7,
+			"sourceEnd": 978.35,
+			"clip": "/media/elena/elena-depth-punish-medium-heavy-scythe/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-guard-bison-drive-reversal-light-rhino",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 953.2,
+			"sourceEnd": 957.65,
+			"clip": "/media/elena/elena-depth-guard-bison-drive-reversal-light-rhino/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-guard-bison-drive-reversal-od-scythe",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 958.9,
+			"sourceEnd": 964.95,
+			"clip": "/media/elena/elena-depth-guard-bison-drive-reversal-od-scythe/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-air-to-air-heavy-level-one",
+			"sourceId": "vesperarcade-elena-2025",
+			"sourceStart": 842.35,
+			"sourceEnd": 847.9,
+			"clip": "/media/elena/elena-depth-air-to-air-heavy-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-air-to-air-target-od-side-switch",
+			"sourceId": "vesperarcade-elena-2025",
+			"sourceStart": 859.9,
+			"sourceEnd": 864.4,
+			"clip": "/media/elena/elena-depth-air-to-air-target-od-side-switch/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-perfect-parry-psycho-di",
+			"sourceId": "keib-elena-2025",
+			"sourceStart": 1198.15,
+			"sourceEnd": 1205.55,
+			"clip": "/media/elena/elena-depth-perfect-parry-psycho-di/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-perfect-parry-psycho-jab",
+			"sourceId": "keib-elena-2025",
+			"sourceStart": 1209.85,
+			"sourceEnd": 1215.6,
+			"clip": "/media/elena/elena-depth-perfect-parry-psycho-jab/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-perfect-parry-kimberly-run",
+			"sourceId": "keib-elena-2025",
+			"sourceStart": 1229.15,
+			"sourceEnd": 1234.4,
+			"clip": "/media/elena/elena-depth-perfect-parry-kimberly-run/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-counter-jab-kick-target-heavy-rhino",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 620.9,
+			"sourceEnd": 625.35,
+			"clip": "/media/elena/elena-depth-counter-jab-kick-target-heavy-rhino/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "elena-depth-guard-od-dp-heavy-target-carry",
+			"sourceId": "joe-ebios-elena-september-2026",
+			"sourceStart": 1117.9,
+			"sourceEnd": 1126.85,
+			"clip": "/media/elena/elena-depth-guard-od-dp-heavy-target-carry/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

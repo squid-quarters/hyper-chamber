@@ -1,0 +1,860 @@
+{
+	"characterId": "yasmine",
+	"reviewedOn": "2026-11-12",
+	"status": "Partial extraction; source-reviewed, not current-patch game-tested",
+	"originalReferencesPreserved": 12,
+	"newReferences": 42,
+	"newKinds": {
+		"setup": 23,
+		"combo": 14,
+		"response": 5
+	},
+	"screeningNote": "All 642 seconds of the Joe source were screened at six-second spacing, with dense one-second review of candidate families and finer examination where actions or input glyphs required it. Screening is not complete extraction: every unselected interval is explicitly classified below.",
+	"sources": [
+		{
+			"sourceKey": "joe-ebios-yasmine-2026",
+			"duration": 642,
+			"intervals": [
+				{
+					"start": 0,
+					"end": 2.5,
+					"disposition": "excluded",
+					"reason": "Opening transition, no complete demonstration."
+				},
+				{
+					"start": 2.5,
+					"end": 7.4,
+					"disposition": "duplicate",
+					"reason": "Near-duplicate light-target/medium-Alon starter; same utility already represented in the preserved original library."
+				},
+				{
+					"start": 7.4,
+					"end": 13.4,
+					"disposition": "excluded",
+					"reason": "Knockdown into dash without a performed strike/throw/defensive decision; approach context is retained in the selected branches."
+				},
+				{
+					"start": 13.4,
+					"end": 20.55,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-medium-alon-walk-throw"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 20.55,
+					"end": 21.2,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 21.2,
+					"end": 34.55,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-medium-alon-shimmy"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 34.55,
+					"end": 35.3,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 35.3,
+					"end": 45.35,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-medium-alon-low-bayani"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 45.35,
+					"end": 45.5,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 45.5,
+					"end": 51.25,
+					"disposition": "duplicate",
+					"reason": "Ordinary light-Alon base confirm; preserved original covers this utility."
+				},
+				{
+					"start": 51.25,
+					"end": 57.3,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-light-alon-standing-throw"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 57.3,
+					"end": 57.85,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 57.85,
+					"end": 70.35,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-light-alon-standing-shimmy"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 70.35,
+					"end": 70.8,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 70.8,
+					"end": 79.65,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-light-alon-standing-low-bayani"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 79.65,
+					"end": 79.7,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 79.7,
+					"end": 82.5,
+					"disposition": "excluded",
+					"reason": "Section-title transition."
+				},
+				{
+					"start": 82.5,
+					"end": 89.4,
+					"disposition": "duplicate",
+					"reason": "OD Talim/heavy-punch/heavy-rising-kick core conversion already present in the original library."
+				},
+				{
+					"start": 89.4,
+					"end": 89.45,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 89.45,
+					"end": 97.85,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-low-od-talim-level-one"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 97.85,
+					"end": 113.9,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 113.9,
+					"end": 118.55,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-corner-level-one-dash-throw"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 118.55,
+					"end": 125.0,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 125.0,
+					"end": 136.35,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-corner-level-one-shimmy"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 136.35,
+					"end": 143.2,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 143.2,
+					"end": 150.15,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-corner-level-one-low"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 150.15,
+					"end": 150.8,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 150.8,
+					"end": 167.3,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-low-double-od-level-three"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 167.3,
+					"end": 175.2,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 175.2,
+					"end": 181.7,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-corner-od-talim-cover-throw"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 181.7,
+					"end": 182.3,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 182.3,
+					"end": 188.45,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-corner-od-talim-cover-medium"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 188.45,
+					"end": 189.25,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 189.25,
+					"end": 197.5,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-blocked-medium-heavy-pressure"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 197.5,
+					"end": 198.15,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 198.15,
+					"end": 206.65,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-blocked-medium-delay-throw"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 206.65,
+					"end": 207.3,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 207.3,
+					"end": 222.15,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-blocked-medium-shimmy-cover"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 222.15,
+					"end": 222.2,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 222.2,
+					"end": 233.3,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-corner-cover-hit-renew"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 233.3,
+					"end": 233.65,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 233.65,
+					"end": 239.65,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-low-rush-heavy-alon"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 239.65,
+					"end": 247.15,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 247.15,
+					"end": 255.45,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-heavy-alon-double-dash-throw"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 255.45,
+					"end": 256.1,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 256.1,
+					"end": 271.65,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-heavy-alon-double-dash-shimmy"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 271.65,
+					"end": 272.15,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 272.15,
+					"end": 282.55,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-heavy-alon-double-dash-meaty"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 282.55,
+					"end": 283.45,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 283.45,
+					"end": 289.65,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-raw-rush-overhead-heavy-alon"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 289.65,
+					"end": 290.2,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 290.2,
+					"end": 306.85,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-low-double-rush-level-three"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 306.85,
+					"end": 307.65,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 307.65,
+					"end": 314.6,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-guard-drive-reversal-heavy-alon"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 314.6,
+					"end": 324.15,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 324.15,
+					"end": 331.45,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-heavy-kick-punish-raw-rush"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 331.45,
+					"end": 332.15,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 332.15,
+					"end": 344.45,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-od-alon-level-two-second-od"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 344.45,
+					"end": 345.85,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 345.85,
+					"end": 351.45,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-shimmy-heavy-punish-heavy-alon"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 351.45,
+					"end": 352.25,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 352.25,
+					"end": 361.45,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-guard-od-dp-rush-22mp"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 361.45,
+					"end": 362.25,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 362.25,
+					"end": 382.45,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-guard-od-dp-22mp-cashout"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 382.45,
+					"end": 383,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 383,
+					"end": 415.5,
+					"disposition": "unprocessed",
+					"reason": "Distinct two-button 22LPHP/air-medium advanced variations remain unextracted; no boundary or selected-moment review claimed."
+				},
+				{
+					"start": 415.5,
+					"end": 417.4,
+					"disposition": "excluded",
+					"reason": "Bayani section title."
+				},
+				{
+					"start": 417.4,
+					"end": 417.45,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 417.45,
+					"end": 422.25,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-bayani-light-alon-knockdown"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 422.25,
+					"end": 422.65,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 422.65,
+					"end": 428.65,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-bayani-light-alon-jump-guard"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 428.65,
+					"end": 429.25,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 429.25,
+					"end": 438.55,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-corner-bayani-alon-overhead"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 438.55,
+					"end": 439,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 439,
+					"end": 445.7,
+					"disposition": "duplicate",
+					"reason": "Bayani low-light/medium-Alon/light-rising-kick conversion already appears in selected wake-up/pressure branches; no standalone padding copy added."
+				},
+				{
+					"start": 445.7,
+					"end": 452.35,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-bayani-medium-target-heavy-rise"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 452.35,
+					"end": 452.75,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 452.75,
+					"end": 462.35,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-bayani-heavy-alon-raw-rush"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 462.35,
+					"end": 473.15,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 473.15,
+					"end": 482.45,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-corner-22hp-short-throw"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 482.45,
+					"end": 483,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 483,
+					"end": 548.7,
+					"disposition": "unprocessed",
+					"reason": "Additional +2F boomerang-covered blocked-pressure and renewal variations remain unextracted; the selected +5F family is not declared to cover every timing branch."
+				},
+				{
+					"start": 548.7,
+					"end": 554.25,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 554.25,
+					"end": 565.0,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-corner-22hp-trade-confirm"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 565.0,
+					"end": 572.25,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 572.25,
+					"end": 578.55,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-corner-throw-walk-throw"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 578.55,
+					"end": 578.95,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 578.95,
+					"end": 586.65,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-corner-throw-shimmy"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 586.65,
+					"end": 587.3,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 587.3,
+					"end": 594.65,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-corner-throw-low-target"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 594.65,
+					"end": 597.45,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 597.45,
+					"end": 608.35,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-counter-di-air-kick-rush"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 608.35,
+					"end": 609.35,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 609.35,
+					"end": 618.3,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-counter-di-light-kick-side-switch"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 618.3,
+					"end": 618.7,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 618.7,
+					"end": 628.35,
+					"disposition": "reviewed",
+					"referenceIds": ["yasmine-depth-counter-di-dash-medium-talim"],
+					"reason": "Recipe, actual inputs/action order, hit or block result, applicable Bayani/Drive/Super state, selected moments and both boundaries reviewed."
+				},
+				{
+					"start": 628.35,
+					"end": 629.15,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 629.15,
+					"end": 636.6,
+					"disposition": "duplicate",
+					"reason": "Blocked-DI wall-splat core conversion matches the preserved yasmine-vesper-wall-heavy-talim entry."
+				},
+				{
+					"start": 636.6,
+					"end": 642,
+					"disposition": "excluded",
+					"reason": "Outro."
+				}
+			]
+		},
+		{
+			"sourceKey": "vesperarcade-yasmine-2026",
+			"duration": 828,
+			"intervals": [
+				{
+					"start": 0,
+					"end": 24.8,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 24.8,
+					"end": 29.55,
+					"disposition": "reused",
+					"referenceIds": ["yasmine-vesper-low-light-alon"],
+					"reason": "Preserved original reference, revision, media and related links."
+				},
+				{
+					"start": 29.55,
+					"end": 31.2,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 31.2,
+					"end": 35.6,
+					"disposition": "reused",
+					"referenceIds": ["yasmine-vesper-double-low-heavy-dp"],
+					"reason": "Preserved original reference, revision, media and related links."
+				},
+				{
+					"start": 35.6,
+					"end": 37.5,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 37.5,
+					"end": 44.5,
+					"disposition": "reused",
+					"referenceIds": ["yasmine-vesper-low-level1"],
+					"reason": "Preserved original reference, revision, media and related links."
+				},
+				{
+					"start": 44.5,
+					"end": 46.3,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 46.3,
+					"end": 51.5,
+					"disposition": "reused",
+					"referenceIds": ["yasmine-vesper-light-target-medium-alon"],
+					"reason": "Preserved original reference, revision, media and related links."
+				},
+				{
+					"start": 51.5,
+					"end": 97.1,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 97.1,
+					"end": 101.6,
+					"disposition": "reused",
+					"referenceIds": ["yasmine-vesper-medium-jab-heavy-dp"],
+					"reason": "Preserved original reference, revision, media and related links."
+				},
+				{
+					"start": 101.6,
+					"end": 103.9,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 103.9,
+					"end": 108.6,
+					"disposition": "reused",
+					"referenceIds": ["yasmine-vesper-medium-heavy-alon"],
+					"reason": "Preserved original reference, revision, media and related links."
+				},
+				{
+					"start": 108.6,
+					"end": 110.1,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 110.1,
+					"end": 117.6,
+					"disposition": "reused",
+					"referenceIds": ["yasmine-vesper-bayani-medium-heavy-juggle"],
+					"reason": "Preserved original reference, revision, media and related links."
+				},
+				{
+					"start": 117.6,
+					"end": 119.2,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 119.2,
+					"end": 124.55,
+					"disposition": "reused",
+					"referenceIds": ["yasmine-vesper-medium-od-talim-juggle"],
+					"reason": "Preserved original reference, revision, media and related links."
+				},
+				{
+					"start": 124.55,
+					"end": 137.3,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 137.3,
+					"end": 142.5,
+					"disposition": "reused",
+					"referenceIds": ["yasmine-vesper-medium-target-heavy-dp"],
+					"reason": "Preserved original reference, revision, media and related links."
+				},
+				{
+					"start": 142.5,
+					"end": 238.8,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 238.8,
+					"end": 245.6,
+					"disposition": "reused",
+					"referenceIds": ["yasmine-vesper-wall-heavy-talim"],
+					"reason": "Preserved original reference, revision, media and related links."
+				},
+				{
+					"start": 245.6,
+					"end": 287.2,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 287.2,
+					"end": 291.5,
+					"disposition": "reused",
+					"referenceIds": ["yasmine-vesper-punish-jab-low-alon"],
+					"reason": "Preserved original reference, revision, media and related links."
+				},
+				{
+					"start": 291.5,
+					"end": 437.3,
+					"disposition": "unprocessed",
+					"reason": "Candidate-screened only; no complete execution/selected-moment/boundary extraction review claimed."
+				},
+				{
+					"start": 437.3,
+					"end": 442.6,
+					"disposition": "reused",
+					"referenceIds": ["yasmine-vesper-rush-low-heavy-alon"],
+					"reason": "Preserved original reference, revision, media and related links."
+				},
+				{
+					"start": 442.6,
+					"end": 828,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved selections; no new extraction review."
+				}
+			]
+		}
+	],
+	"interpretationDecisions": [
+		{
+			"topic": "Bayani",
+			"decision": "Source recipe marks powered Alon separately. The official introduction says connected Alon/Talim/SA1 can activate Bayani; powered Alon consumes it, while OD Alon and active Level 2 have distinct persistence. No stock quantity is invented."
+		},
+		{
+			"topic": "Covered medium-Alon pickup at 222.2–233.3",
+			"decision": "The source prints neutral 6P. Preserve the exact prerequisite OD-Talim hit, visible blue-knife state and returning 22HP cover. Do not assign the pickup to a specific powered/boomerang effect or transplant it to an uncovered ordinary-Alon route."
+		},
+		{
+			"topic": "22HP/22MP",
+			"decision": "Observed commands and boomerang cover, not an install/charge. Exact command-to-official-name mapping remains an inference; neutral labels used. No unsupported character-resource cost or gain claimed."
+		},
+		{
+			"topic": "+F captions",
+			"decision": "Remaining advantage after the action, not a wait count. Explicit delay throws use unquantified delays only."
+		},
+		{
+			"topic": "Standing-hit/blocked-string pressure versus oki",
+			"decision": "Ordinary light-Alon standing-hit branches and explicitly blocked medium-Daloy branches are Pressure setups without an Oki tag. Wake-up branches require their exact knockdown."
+		},
+		{
+			"topic": "Jump/guard response",
+			"decision": "Full-resolution input-history review identifies forward jump, heavy-kick glyph with back direction, then guard. Actual recorded opponent is Ryu OD Shoryuken; no universal safety claim."
+		},
+		{
+			"topic": "Captioned alternate starters/finishers",
+			"decision": "Only the executed starter/strength/ender is authored. Alternative 22HP/SA1 finishers and two-button boomerang variations are not silently combined."
+		}
+	],
+	"remainingGaps": [
+		"Dedicated grounded anti-air and anti-projectile responses remain unextracted. The library does not imply coverage through tags.",
+		"The original Vesper footage still has substantial unprocessed heavy, jump-in, Level-2 and corner material.",
+		"Advanced two-button 22LPHP variations and the later +2F blocked-pressure family remain available for further extraction."
+	]
+}

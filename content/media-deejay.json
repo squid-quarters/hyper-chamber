@@ -1,6 +1,6 @@
 {
-	"sourceIds": ["joe-ebios-deejay-2026"],
-	"publicationStatus": "private-development",
+	"sourceIds": ["joe-ebios-deejay-2026", "sebastian-rikk-deejay-anti-air-2023"],
+	"publicationStatus": "public-repository",
 	"presentationNote": "Complete 1280×720 source frames retained without crop, including virtual inputs, meters and source overlays. Full original remains local.",
 	"assets": [
 		{
@@ -117,6 +117,420 @@
 			"sourceStart": 455.55,
 			"sourceEnd": 472.1,
 			"clip": "/media/deejay/deejay-double-rush-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-sobat-rush-shimmy",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 12.45,
+			"sourceEnd": 19.0,
+			"clip": "/media/deejay/deejay-depth-sobat-rush-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-sobat-shimmy",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 38.9,
+			"sourceEnd": 46.2,
+			"clip": "/media/deejay/deejay-depth-corner-sobat-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-sobat-heavy-double-knife",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 48.65,
+			"sourceEnd": 54.5,
+			"clip": "/media/deejay/deejay-depth-corner-sobat-heavy-double-knife/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-sobat-medium-uppercut",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 56.0,
+			"sourceEnd": 61.25,
+			"clip": "/media/deejay/deejay-depth-corner-sobat-medium-uppercut/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-sobat-jab-kill-throw",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 68.1,
+			"sourceEnd": 72.4,
+			"clip": "/media/deejay/deejay-depth-corner-sobat-jab-kill-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-sobat-jab-kill-od-slasher",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 79.5,
+			"sourceEnd": 86.5,
+			"clip": "/media/deejay/deejay-depth-corner-sobat-jab-kill-od-slasher/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-standing-medium-light-sobat",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 87.65,
+			"sourceEnd": 91.5,
+			"clip": "/media/deejay/deejay-depth-standing-medium-light-sobat/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-crouching-medium-light-sobat",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 92.3,
+			"sourceEnd": 96.15,
+			"clip": "/media/deejay/deejay-depth-crouching-medium-light-sobat/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-medium-rush-kick-jackknife",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 96.5,
+			"sourceEnd": 101.6,
+			"clip": "/media/deejay/deejay-depth-medium-rush-kick-jackknife/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-jackknife-double-dash-throw",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 112.0,
+			"sourceEnd": 116.4,
+			"clip": "/media/deejay/deejay-depth-jackknife-double-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-jackknife-double-dash-strike",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 120.0,
+			"sourceEnd": 124.15,
+			"clip": "/media/deejay/deejay-depth-jackknife-double-dash-strike/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-jackknife-safe-jump",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 128.0,
+			"sourceEnd": 132.0,
+			"clip": "/media/deejay/deejay-depth-corner-jackknife-safe-jump/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-jackknife-jus-cool-throw",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 141.75,
+			"sourceEnd": 146.5,
+			"clip": "/media/deejay/deejay-depth-jackknife-jus-cool-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-jackknife-jus-cool-shimmy",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 150.8,
+			"sourceEnd": 158.3,
+			"clip": "/media/deejay/deejay-depth-jackknife-jus-cool-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-jackknife-jus-cool-strike",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 161.75,
+			"sourceEnd": 166.05,
+			"clip": "/media/deejay/deejay-depth-jackknife-jus-cool-strike/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-uppercut-rush-throw",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 176.4,
+			"sourceEnd": 181.45,
+			"clip": "/media/deejay/deejay-depth-uppercut-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-uppercut-rush-shimmy",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 186.3,
+			"sourceEnd": 192.15,
+			"clip": "/media/deejay/deejay-depth-uppercut-rush-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-uppercut-rush-overhead",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 197.05,
+			"sourceEnd": 202.5,
+			"clip": "/media/deejay/deejay-depth-uppercut-rush-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-uppercut-kill-throw",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 213.7,
+			"sourceEnd": 217.7,
+			"clip": "/media/deejay/deejay-depth-corner-uppercut-kill-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-uppercut-kill-shimmy",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 222.2,
+			"sourceEnd": 229.3,
+			"clip": "/media/deejay/deejay-depth-corner-uppercut-kill-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-uppercut-kill-strike",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 233.8,
+			"sourceEnd": 237.8,
+			"clip": "/media/deejay/deejay-depth-corner-uppercut-kill-strike/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-uppercut-kill-double-knife",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 242.2,
+			"sourceEnd": 248.5,
+			"clip": "/media/deejay/deejay-depth-corner-uppercut-kill-double-knife/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-heavy-medium-jackknife",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 254.1,
+			"sourceEnd": 258.3,
+			"clip": "/media/deejay/deejay-depth-heavy-medium-jackknife/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-double-knife-back-kick-throw",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 274.05,
+			"sourceEnd": 278.5,
+			"clip": "/media/deejay/deejay-depth-double-knife-back-kick-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-double-knife-back-kick-shimmy",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 282.6,
+			"sourceEnd": 290.3,
+			"clip": "/media/deejay/deejay-depth-double-knife-back-kick-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-double-knife-back-kick-strike",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 293.7,
+			"sourceEnd": 298.55,
+			"clip": "/media/deejay/deejay-depth-double-knife-back-kick-strike/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-double-knife-back-kick-heavy",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 302.35,
+			"sourceEnd": 308.6,
+			"clip": "/media/deejay/deejay-depth-double-knife-back-kick-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-double-knife-heavy-kill-delay-throw",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 318.6,
+			"sourceEnd": 323.0,
+			"clip": "/media/deejay/deejay-depth-double-knife-heavy-kill-delay-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-double-knife-heavy-kill-shimmy",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 327.3,
+			"sourceEnd": 334.45,
+			"clip": "/media/deejay/deejay-depth-double-knife-heavy-kill-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-double-knife-heavy-kill-od-slasher",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 338.7,
+			"sourceEnd": 346.1,
+			"clip": "/media/deejay/deejay-depth-double-knife-heavy-kill-od-slasher/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-pc-heavy-kick-rush-conversion",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 347.1,
+			"sourceEnd": 353.15,
+			"clip": "/media/deejay/deejay-depth-pc-heavy-kick-rush-conversion/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-drive-reversal-heavy-jackknife",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 354.15,
+			"sourceEnd": 359.65,
+			"clip": "/media/deejay/deejay-depth-drive-reversal-heavy-jackknife/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-counter-di-dash-uppercut",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 374.25,
+			"sourceEnd": 383.3,
+			"clip": "/media/deejay/deejay-depth-counter-di-dash-uppercut/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-counter-di-double-knife",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 392.8,
+			"sourceEnd": 402.2,
+			"clip": "/media/deejay/deejay-depth-corner-counter-di-double-knife/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-shimmy-heavy-light-jackknife",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 410.15,
+			"sourceEnd": 416.7,
+			"clip": "/media/deejay/deejay-depth-shimmy-heavy-light-jackknife/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-shimmy-heavy-light-sobat",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 417.1,
+			"sourceEnd": 422.7,
+			"clip": "/media/deejay/deejay-depth-shimmy-heavy-light-sobat/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-shimmy-double-knife",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 423.15,
+			"sourceEnd": 430.7,
+			"clip": "/media/deejay/deejay-depth-corner-shimmy-double-knife/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-dp-punish-od-jus-cool",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 438.25,
+			"sourceEnd": 446.15,
+			"clip": "/media/deejay/deejay-depth-dp-punish-od-jus-cool/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-corner-dp-punish-double-knife",
+			"sourceId": "joe-ebios-deejay-2026",
+			"sourceStart": 447.2,
+			"sourceEnd": 455.25,
+			"clip": "/media/deejay/deejay-depth-corner-dp-punish-double-knife/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-anti-air-medium-knife-heavy-sobat",
+			"sourceId": "sebastian-rikk-deejay-anti-air-2023",
+			"sourceStart": 0.5,
+			"sourceEnd": 5.35,
+			"clip": "/media/deejay/deejay-depth-anti-air-medium-knife-heavy-sobat/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-anti-air-back-heavy-sobat",
+			"sourceId": "sebastian-rikk-deejay-anti-air-2023",
+			"sourceStart": 7.7,
+			"sourceEnd": 10.9,
+			"clip": "/media/deejay/deejay-depth-anti-air-back-heavy-sobat/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-anti-air-medium-knife-level-one",
+			"sourceId": "sebastian-rikk-deejay-anti-air-2023",
+			"sourceStart": 11.85,
+			"sourceEnd": 16.85,
+			"clip": "/media/deejay/deejay-depth-anti-air-medium-knife-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-anti-air-back-heavy-od-sobat-level-one",
+			"sourceId": "sebastian-rikk-deejay-anti-air-2023",
+			"sourceStart": 17.35,
+			"sourceEnd": 22.6,
+			"clip": "/media/deejay/deejay-depth-anti-air-back-heavy-od-sobat-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-anti-air-slide-level-one",
+			"sourceId": "sebastian-rikk-deejay-anti-air-2023",
+			"sourceStart": 35.95,
+			"sourceEnd": 40.5,
+			"clip": "/media/deejay/deejay-depth-anti-air-slide-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-anti-air-slide-level-three",
+			"sourceId": "sebastian-rikk-deejay-anti-air-2023",
+			"sourceStart": 41.3,
+			"sourceEnd": 53.75,
+			"clip": "/media/deejay/deejay-depth-anti-air-slide-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "deejay-depth-anti-air-back-heavy-level-three",
+			"sourceId": "sebastian-rikk-deejay-anti-air-2023",
+			"sourceStart": 54.75,
+			"sourceEnd": 67.3,
+			"clip": "/media/deejay/deejay-depth-anti-air-back-heavy-level-three/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

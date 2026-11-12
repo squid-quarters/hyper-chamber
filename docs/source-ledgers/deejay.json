@@ -1,0 +1,549 @@
+{
+	"characterId": "deejay",
+	"reviewedOn": "2026-11-12",
+	"baselineReferences": 13,
+	"references": 59,
+	"newReferences": 46,
+	"kinds": {
+		"combo": 20,
+		"setup": 28,
+		"response": 11
+	},
+	"verification": "source-reviewed; current-patch gameplay untested",
+	"sources": [
+		{
+			"sourceId": "joe-ebios-deejay-2026",
+			"youtubeId": "9A4QXgyMY68",
+			"url": "https://www.youtube.com/watch?v=9A4QXgyMY68",
+			"title": "SF6 Dee Jay Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"published": "2026-07-03",
+			"duration": 478,
+			"recordingSha256": "8cf9dd4f4575e56701c2ca0571eb27f5f87b532d5b2df412f7a063b9c13f2d7a",
+			"selected": [
+				{
+					"referenceId": "deejay-jabs-medium-sobat",
+					"start": 0.85,
+					"end": 4.2,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-sobat-rush-throw",
+					"start": 6.1,
+					"end": 9.8,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-sobat-rush-sunrise-heel",
+					"start": 21.3,
+					"end": 27.15,
+					"kind": "setup",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "deejay-corner-sobat-kill-throw",
+					"start": 32.75,
+					"end": 36.6,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-medium-rush-uppercut",
+					"start": 166.55,
+					"end": 172.25,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "deejay-heavy-jackknife",
+					"start": 249.15,
+					"end": 253.1,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-corner-double-jackknife",
+					"start": 259.15,
+					"end": 264.0,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "deejay-drive-reversal-uppercut",
+					"start": 360.4,
+					"end": 366.35,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "deejay-corner-drive-reversal-jackknife",
+					"start": 367.1,
+					"end": 373.7,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "deejay-counter-di-heavy-jackknife",
+					"start": 384.05,
+					"end": 391.65,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "deejay-wall-splat-target-jackknife",
+					"start": 402.15,
+					"end": 409.65,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "deejay-dp-punish-double-heavy",
+					"start": 431.25,
+					"end": 437.8,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "deejay-double-rush-level-three",
+					"start": 455.55,
+					"end": 472.1,
+					"kind": "combo",
+					"selectedMoments": 5
+				},
+				{
+					"referenceId": "deejay-depth-sobat-rush-shimmy",
+					"start": 12.45,
+					"end": 19.0,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-corner-sobat-shimmy",
+					"start": 38.9,
+					"end": 46.2,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-corner-sobat-heavy-double-knife",
+					"start": 48.65,
+					"end": 54.5,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-corner-sobat-medium-uppercut",
+					"start": 56.0,
+					"end": 61.25,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-corner-sobat-jab-kill-throw",
+					"start": 68.1,
+					"end": 72.4,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-corner-sobat-jab-kill-od-slasher",
+					"start": 79.5,
+					"end": 86.5,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-standing-medium-light-sobat",
+					"start": 87.65,
+					"end": 91.5,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-crouching-medium-light-sobat",
+					"start": 92.3,
+					"end": 96.15,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-medium-rush-kick-jackknife",
+					"start": 96.5,
+					"end": 101.6,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-jackknife-double-dash-throw",
+					"start": 112.0,
+					"end": 116.4,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-jackknife-double-dash-strike",
+					"start": 120.0,
+					"end": 124.15,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-corner-jackknife-safe-jump",
+					"start": 128.0,
+					"end": 132.0,
+					"kind": "response",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-jackknife-jus-cool-throw",
+					"start": 141.75,
+					"end": 146.5,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-jackknife-jus-cool-shimmy",
+					"start": 150.8,
+					"end": 158.3,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-jackknife-jus-cool-strike",
+					"start": 161.75,
+					"end": 166.05,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-uppercut-rush-throw",
+					"start": 176.4,
+					"end": 181.45,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-uppercut-rush-shimmy",
+					"start": 186.3,
+					"end": 192.15,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-uppercut-rush-overhead",
+					"start": 197.05,
+					"end": 202.5,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-corner-uppercut-kill-throw",
+					"start": 213.7,
+					"end": 217.7,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-corner-uppercut-kill-shimmy",
+					"start": 222.2,
+					"end": 229.3,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-corner-uppercut-kill-strike",
+					"start": 233.8,
+					"end": 237.8,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-corner-uppercut-kill-double-knife",
+					"start": 242.2,
+					"end": 248.5,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-heavy-medium-jackknife",
+					"start": 254.1,
+					"end": 258.3,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-double-knife-back-kick-throw",
+					"start": 274.05,
+					"end": 278.5,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-double-knife-back-kick-shimmy",
+					"start": 282.6,
+					"end": 290.3,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-double-knife-back-kick-strike",
+					"start": 293.7,
+					"end": 298.55,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-double-knife-back-kick-heavy",
+					"start": 302.35,
+					"end": 308.6,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-double-knife-heavy-kill-delay-throw",
+					"start": 318.6,
+					"end": 323.0,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-double-knife-heavy-kill-shimmy",
+					"start": 327.3,
+					"end": 334.45,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-double-knife-heavy-kill-od-slasher",
+					"start": 338.7,
+					"end": 346.1,
+					"kind": "setup",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "deejay-depth-pc-heavy-kick-rush-conversion",
+					"start": 347.1,
+					"end": 353.15,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-drive-reversal-heavy-jackknife",
+					"start": 354.15,
+					"end": 359.65,
+					"kind": "response",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-counter-di-dash-uppercut",
+					"start": 374.25,
+					"end": 383.3,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-corner-counter-di-double-knife",
+					"start": 392.8,
+					"end": 402.2,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-shimmy-heavy-light-jackknife",
+					"start": 410.15,
+					"end": 416.7,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-shimmy-heavy-light-sobat",
+					"start": 417.1,
+					"end": 422.7,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-corner-shimmy-double-knife",
+					"start": 423.15,
+					"end": 430.7,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-dp-punish-od-jus-cool",
+					"start": 438.25,
+					"end": 446.15,
+					"kind": "response",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "deejay-depth-corner-dp-punish-double-knife",
+					"start": 447.2,
+					"end": 455.25,
+					"kind": "response",
+					"selectedMoments": 3
+				}
+			],
+			"timelineSurvey": {
+				"interval": [0, 474],
+				"intervalSeconds": 1,
+				"status": "reviewed contact-sheet survey plus finer action/input/boundary review of selected takes"
+			},
+			"executionReviewWindows": [[0, 474]],
+			"dispositions": [
+				{
+					"interval": [0, 87.6],
+					"status": "reviewed-selection",
+					"note": "Sobat confirm and midscreen/corner Rush, medium-kick and double-jab frame-kill branches. Repeated prerequisite combos are excluded as duplicate demonstrations. Failed shimmy illustration limits the close-throw claim; no universal un-shimmyable claim is authored."
+				},
+				{
+					"interval": [87.6, 172.3],
+					"status": "reviewed-selection",
+					"note": "Normal medium/light confirms, one-cancel heavy-Jackknife route, heavy-Jackknife double dash, corner Jus Cool branches and Ryu OD-DP safe-jump block. The static two-dash spacing test around102–108 and unopposed Jus Cool timing around133–138 are contextual examples rather than extra references."
+				},
+				{
+					"interval": [172.3, 264.9],
+					"status": "reviewed-selection",
+					"note": "Uppercut knockdown Rush throw/shimmy/overhead and corner medium-kick frame-kill branches, plus basic heavy-medium Jackknife routes. Prerequisite routes repeated before each setup are not counted again."
+				},
+				{
+					"interval": [265, 346.2],
+					"status": "reviewed-selection",
+					"note": "Corner double-Jackknife trees use back-heavy-kick or crouching-heavy intentional whiffs. Standalone frame-kill-only takes265–270 and309–314 are not counted separately from their meaningful throw/strike/shimmy branches. The source explicitly delays the crouching-heavy-kill throw; printed +F values are advantage, not wait counts."
+				},
+				{
+					"interval": [346.2, 455.4],
+					"status": "reviewed-selection",
+					"note": "Punish-counter heavy kick, blocked Drive Reversal alternatives, counter-DI/wall routes, standalone throw-whiff conversions and blocked Ryu OD-DP punishes. Midscreen and wall contexts remain distinct."
+				},
+				{
+					"interval": [455.4, 474],
+					"status": "baseline-retained",
+					"note": "The existing two-DRC Level3 cash-out is retained unchanged, not duplicated as a new reference."
+				},
+				{
+					"interval": [474, 478],
+					"status": "excluded-outro",
+					"note": "Ending frame/outro after the completed cash-out, no extra practice interaction."
+				}
+			],
+			"remainingUnprocessedCandidateWindows": [],
+			"remainingNote": "The primary recording has been surveyed throughout and its practical branches selected or dispositioned. This does not imply complete character coverage; it does not show a dedicated low-light starter, SA2 route or standalone carry lesson."
+		},
+		{
+			"sourceId": "sebastian-rikk-deejay-anti-air-2023",
+			"youtubeId": "iAXQURRglP8",
+			"url": "https://www.youtube.com/watch?v=iAXQURRglP8",
+			"title": "SF6: Dee Jay Anti-Air Conversions",
+			"creator": "Sebastian Rikk",
+			"published": "2023-06-07",
+			"duration": 71,
+			"recordingSha256": "bf0ae2bfc7475ff3a4c220b71f3f82180a53bbb91dd7e931f6cc1a1a9c15a3c5",
+			"selected": [
+				{
+					"referenceId": "deejay-depth-anti-air-medium-knife-heavy-sobat",
+					"start": 0.5,
+					"end": 5.35,
+					"kind": "response",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-anti-air-back-heavy-sobat",
+					"start": 7.7,
+					"end": 10.9,
+					"kind": "response",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-anti-air-medium-knife-level-one",
+					"start": 11.85,
+					"end": 16.85,
+					"kind": "response",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "deejay-depth-anti-air-back-heavy-od-sobat-level-one",
+					"start": 17.35,
+					"end": 22.6,
+					"kind": "response",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-anti-air-slide-level-one",
+					"start": 35.95,
+					"end": 40.5,
+					"kind": "response",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-anti-air-slide-level-three",
+					"start": 41.3,
+					"end": 53.75,
+					"kind": "response",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "deejay-depth-anti-air-back-heavy-level-three",
+					"start": 54.75,
+					"end": 67.3,
+					"kind": "response",
+					"selectedMoments": 4
+				}
+			],
+			"timelineSurvey": {
+				"interval": [0, 71],
+				"intervalSeconds": 1,
+				"status": "survey reviewed; selected input and cut windows inspected at original resolution"
+			},
+			"executionReviewWindows": [
+				[0.5, 5.35],
+				[7.7, 10.9],
+				[11.85, 16.85],
+				[17.35, 22.6],
+				[35.95, 40.5],
+				[41.3, 53.75],
+				[54.75, 67.3]
+			],
+			"dispositions": [
+				{
+					"interval": [0, 22.9],
+					"status": "reviewed-selection",
+					"note": "Medium Jackknife into heavy Sobat/SA1; Maximum High into heavy Sobat/OD Sobat SA1. Original-resolution input and move-animation inspection distinguishes back-heavy kick from the crouching slide."
+				},
+				{
+					"interval": [23, 35.5],
+					"status": "unprocessed-execution",
+					"note": "Two additional air-juggle candidates surveyed. Exact OD follow-up/charge timing and action recipe have not received final execution review, so they remain excluded from the reviewed catalog."
+				},
+				{
+					"interval": [35.95, 67.3],
+					"status": "reviewed-selection",
+					"note": "Crouching-heavy slide into SA1/SA3 and Maximum High into SA3. Source dissolves and the next attempt are excluded from clip boundaries."
+				},
+				{
+					"interval": [67.3, 71],
+					"status": "excluded-repeat-outro",
+					"note": "A brief repeated Maximum High example and fade-out, not another distinct conversion."
+				}
+			],
+			"remainingUnprocessedCandidateWindows": [[23, 35.5]],
+			"remainingNote": "June2023 examples are dated Juri/Counter Hit demonstrations, not current-patch execution claims. Two surveyed juggle candidates remain unprocessed."
+		}
+	],
+	"reviewEvidence": {
+		"allNewMomentAndBoundaryBoards": ".local/depth/review/deejay/",
+		"fineFirstActionBoards": ".local/depth/deejay-setup-starts/",
+		"originalResolutionInputs": ".local/depth/deejay-aa-fine/",
+		"mechanicalAudit": ".local/depth/deejay-media-audit.json"
+	},
+	"limits": [
+		"Baseline IDs/revisions/related links/media remain exactly unchanged.",
+		"Source-reported advantage is a dated result, never an invented delay count.",
+		"A prerequisite knockdown is separate from the follow-up setup; throw baits and meaties are not continuous combos.",
+		"The safe-jump response shows blocking Ryu OD Shoryuken, not every reversal.",
+		"Seven anti-air examples come from June2023; juggle rules and timing may differ on the current patch.",
+		"Carry and cash-out tags are not inferred merely from using a Super. No new dedicated carry/SA2 lesson is claimed."
+	]
+}

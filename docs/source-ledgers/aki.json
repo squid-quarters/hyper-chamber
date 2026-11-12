@@ -1,0 +1,845 @@
+{
+	"characterId": "aki",
+	"reviewedOn": "2026-11-12",
+	"baselineReferences": 12,
+	"references": 61,
+	"newReferences": 49,
+	"kinds": {
+		"combo": 31,
+		"setup": 20,
+		"response": 10
+	},
+	"verification": "source-reviewed; current-patch gameplay untested",
+	"sources": [
+		{
+			"sourceId": "vesperarcade-aki-2023",
+			"youtubeId": "Eb6Jx3507eI",
+			"url": "https://www.youtube.com/watch?v=Eb6Jx3507eI",
+			"title": "STREET FIGHTER 6 A.K.I. COMBOS! Starter Combo Guide",
+			"creator": "VesperArcade",
+			"published": "2023-09-28",
+			"duration": 902,
+			"recordingSha256": "00e711c3a2bcc509c3ec7684d704d901348303764f8462adf2e19487750a1f1d",
+			"metadataSha256": "1af111e3b3719ba2815db2baa88106f1d8f79e96ca0a485d5787d0c7f7a9ce2b",
+			"selected": [
+				{
+					"referenceId": "aki-lights-toxic-wreath",
+					"start": 22.35,
+					"end": 27.35,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "aki-low-lights-heavy-lash",
+					"start": 29.1,
+					"end": 33.2,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "aki-poison-low-lash-juggle",
+					"start": 35.95,
+					"end": 40.2,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "aki-low-lights-level-three",
+					"start": 63.15,
+					"end": 76.35,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "aki-medium-pulse-chaser",
+					"start": 81.45,
+					"end": 85.5,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "aki-close-medium-od-pulse",
+					"start": 87.25,
+					"end": 92.3,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "aki-poison-medium-lash-juggle",
+					"start": 95.05,
+					"end": 100.25,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "aki-low-medium-jab-lash",
+					"start": 119.1,
+					"end": 123.7,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "aki-forward-heavy-jabs",
+					"start": 167.3,
+					"end": 172.45,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "aki-heavy-slide-heel-strike",
+					"start": 179.45,
+					"end": 185.55,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "aki-wall-splat-wreath-level-one",
+					"start": 228.2,
+					"end": 238.8,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "aki-corner-poison-pool-ender",
+					"start": 719.88,
+					"end": 725.5,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				}
+			],
+			"timelineSurvey": {
+				"interval": [17, 902],
+				"intervalSeconds": 4,
+				"status": "Whole stated interval contact-sheet survey viewed for discovery; not complete execution review."
+			},
+			"executionReviewWindows": [],
+			"unselectedSourceIntervals": [
+				[0, 22.35],
+				[27.35, 29.1],
+				[33.2, 35.95],
+				[40.2, 63.15],
+				[76.35, 81.45],
+				[85.5, 87.25],
+				[92.3, 95.05],
+				[100.25, 119.1],
+				[123.7, 167.3],
+				[172.45, 179.45],
+				[185.55, 228.2],
+				[238.8, 719.88],
+				[725.5, 902]
+			],
+			"unselectedIntervalStatus": "Not extracted. Grouped dispositions distinguish preserved baseline, repeated prerequisites, exclusions and remaining unprocessed recipe work.",
+			"dispositions": [
+				{
+					"interval": [0, 17],
+					"status": "excluded-introduction",
+					"note": "No new executable selection."
+				},
+				{
+					"interval": [17, 902],
+					"status": "baseline-reused-and-surveyed-unprocessed",
+					"note": "All 12 original references and their objects/media preserved exactly. Full four-second contact-sheet survey viewed; no new clips from this source. Numerous additional PC, Rush and pool routes are not re-authored or certified from the survey. This source has printed recipes but no live input history."
+				}
+			],
+			"remainingUnprocessedCandidateWindows": [[17, 902]]
+		},
+		{
+			"sourceId": "joe-ebios-aki-2026",
+			"youtubeId": "L0CwNWqhc8o",
+			"url": "https://www.youtube.com/watch?v=L0CwNWqhc8o",
+			"title": "SF6 Classic A.K.I. Combos & Setup Guide the March Update 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"published": "2026-05-08",
+			"duration": 998,
+			"recordingSha256": "b7283fb4bb1a6691f4a7221c7a9e24c6120a4cbd57aebc5e616257356aee267e",
+			"metadataSha256": "c5d0a9896e75f49ca267b7a26a1d24d1128bd16da61161e7b20728f6df638c3f",
+			"selected": [
+				{
+					"referenceId": "aki-depth-light-target-heavy-lash",
+					"start": 3.1,
+					"end": 6.8,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-heavy-lash-step-throw",
+					"start": 16.55,
+					"end": 20.4,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-heavy-lash-step-whiff-throw-lash",
+					"start": 24.05,
+					"end": 28.9,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-heavy-lash-step-shimmy",
+					"start": 31.75,
+					"end": 43.4,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-heavy-lash-step-low",
+					"start": 46.45,
+					"end": 54.0,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-heavy-lash-step-heavy-trade",
+					"start": 57.55,
+					"end": 63.9,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-heavy-lash-jump-guard-ryu-od",
+					"start": 67.55,
+					"end": 71.2,
+					"kind": "response",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-corner-heavy-lash-kill-throw",
+					"start": 80.0,
+					"end": 84.4,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-corner-heavy-lash-kill-shimmy",
+					"start": 88.0,
+					"end": 97.35,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-corner-heavy-lash-kill-low",
+					"start": 100.7,
+					"end": 109.8,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-corner-heavy-lash-kill-trade",
+					"start": 113.0,
+					"end": 119.1,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-poison-light-target-medium-lash",
+					"start": 121.0,
+					"end": 126.2,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-counterhit-jab-medium-heavy-lash",
+					"start": 133.1,
+					"end": 137.3,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-low-light-heavy-lash",
+					"start": 141.1,
+					"end": 145.1,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-medium-pair-heavy-lash",
+					"start": 146.6,
+					"end": 150.2,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-counterhit-low-od-lash-target",
+					"start": 151.6,
+					"end": 158.9,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-punish-medium-crouch-heavy",
+					"start": 160.45,
+					"end": 163.15,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-crouch-heavy-walk-throw",
+					"start": 165.8,
+					"end": 170.1,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-poison-forward-heavy-force-stand",
+					"start": 195.05,
+					"end": 201.05,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-counterhit-forward-heavy-medium",
+					"start": 208.05,
+					"end": 212.6,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-sweep-level-one",
+					"start": 213.8,
+					"end": 221.25,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-punish-sweep-rush-light-heavy",
+					"start": 223.0,
+					"end": 227.65,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-poison-punish-sweep-two-rush",
+					"start": 231.7,
+					"end": 237.85,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-heavy-punish-fate-lights",
+					"start": 247.0,
+					"end": 253.45,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-corner-heavy-punish-od-pulse",
+					"start": 274.75,
+					"end": 282.55,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-corner-heavy-punish-level-one",
+					"start": 283.7,
+					"end": 295.2,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-corner-heavy-punish-level-three",
+					"start": 296.55,
+					"end": 314.65,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-pool-heavy-kill-walk-throw",
+					"start": 450.7,
+					"end": 455.0,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-pool-heavy-kill-mediums",
+					"start": 483.65,
+					"end": 492.95,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-pool-bubble-overhead",
+					"start": 501.85,
+					"end": 511.85,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-pool-bubble-od-step-ryu-super",
+					"start": 520.45,
+					"end": 525.6,
+					"kind": "response",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-pool-rush-throw",
+					"start": 534.7,
+					"end": 539.3,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-poison-antiair-heavy-medium",
+					"start": 640.35,
+					"end": 644.4,
+					"kind": "response",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-poison-antiair-rush-heavy-medium",
+					"start": 646.25,
+					"end": 651.2,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-poison-antiair-rush-stance",
+					"start": 653.6,
+					"end": 658.85,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-pool-heavy-kill-shimmy",
+					"start": 464.65,
+					"end": 474.7,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-pool-rush-overhead",
+					"start": 567.25,
+					"end": 576.3,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-corner-throw-walk-throw",
+					"start": 791.6,
+					"end": 795.9,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-corner-throw-walk-shimmy",
+					"start": 798.6,
+					"end": 805.9,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-corner-throw-walk-mediums",
+					"start": 808.7,
+					"end": 813.15,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-corner-throw-walk-overhead",
+					"start": 815.65,
+					"end": 820.9,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-corner-throw-counterhit-overhead",
+					"start": 824.0,
+					"end": 829.0,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-rush-low-light-medium",
+					"start": 838.2,
+					"end": 842.65,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-rush-low-stance-target",
+					"start": 849.7,
+					"end": 856.3,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-rush-overhead-medium",
+					"start": 857.65,
+					"end": 862.4,
+					"kind": "combo",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-od-pulse-air-hit-rush",
+					"start": 872.4,
+					"end": 878.75,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-counter-di-stance-target",
+					"start": 909.35,
+					"end": 917.9,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-wall-crush-wreath-pool",
+					"start": 919.1,
+					"end": 927.1,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "aki-depth-stun-pool-jump-route",
+					"start": 932.5,
+					"end": 944.9,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				}
+			],
+			"timelineSurvey": {
+				"interval": [0, 998],
+				"intervalSeconds": 3,
+				"status": "Whole stated interval contact-sheet survey viewed for discovery; not complete execution review."
+			},
+			"executionReviewWindows": [
+				[3.1, 6.8],
+				[16.55, 20.4],
+				[24.05, 28.9],
+				[31.75, 43.4],
+				[46.45, 54.0],
+				[57.55, 63.9],
+				[67.55, 71.2],
+				[80.0, 84.4],
+				[88.0, 97.35],
+				[100.7, 109.8],
+				[113.0, 119.1],
+				[121.0, 126.2],
+				[133.1, 137.3],
+				[141.1, 145.1],
+				[146.6, 150.2],
+				[151.6, 158.9],
+				[160.45, 163.15],
+				[165.8, 170.1],
+				[195.05, 201.05],
+				[208.05, 212.6],
+				[213.8, 221.25],
+				[223.0, 227.65],
+				[231.7, 237.85],
+				[247.0, 253.45],
+				[274.75, 282.55],
+				[283.7, 295.2],
+				[296.55, 314.65],
+				[450.7, 455.0],
+				[483.65, 492.95],
+				[501.85, 511.85],
+				[520.45, 525.6],
+				[534.7, 539.3],
+				[640.35, 644.4],
+				[646.25, 651.2],
+				[653.6, 658.85],
+				[464.65, 474.7],
+				[567.25, 576.3],
+				[791.6, 795.9],
+				[798.6, 805.9],
+				[808.7, 813.15],
+				[815.65, 820.9],
+				[824.0, 829.0],
+				[838.2, 842.65],
+				[849.7, 856.3],
+				[857.65, 862.4],
+				[872.4, 878.75],
+				[909.35, 917.9],
+				[919.1, 927.1],
+				[932.5, 944.9]
+			],
+			"unselectedSourceIntervals": [
+				[0, 3.1],
+				[6.8, 16.55],
+				[20.4, 24.05],
+				[28.9, 31.75],
+				[43.4, 46.45],
+				[54.0, 57.55],
+				[63.9, 67.55],
+				[71.2, 80.0],
+				[84.4, 88.0],
+				[97.35, 100.7],
+				[109.8, 113.0],
+				[119.1, 121.0],
+				[126.2, 133.1],
+				[137.3, 141.1],
+				[145.1, 146.6],
+				[150.2, 151.6],
+				[158.9, 160.45],
+				[163.15, 165.8],
+				[170.1, 195.05],
+				[201.05, 208.05],
+				[212.6, 213.8],
+				[221.25, 223.0],
+				[227.65, 231.7],
+				[237.85, 247.0],
+				[253.45, 274.75],
+				[282.55, 283.7],
+				[295.2, 296.55],
+				[314.65, 450.7],
+				[455.0, 464.65],
+				[474.7, 483.65],
+				[492.95, 501.85],
+				[511.85, 520.45],
+				[525.6, 534.7],
+				[539.3, 567.25],
+				[576.3, 640.35],
+				[644.4, 646.25],
+				[651.2, 653.6],
+				[658.85, 791.6],
+				[795.9, 798.6],
+				[805.9, 808.7],
+				[813.15, 815.65],
+				[820.9, 824.0],
+				[829.0, 838.2],
+				[842.65, 849.7],
+				[856.3, 857.65],
+				[862.4, 872.4],
+				[878.75, 909.35],
+				[917.9, 919.1],
+				[927.1, 932.5],
+				[944.9, 998]
+			],
+			"unselectedIntervalStatus": "Not extracted. Grouped dispositions distinguish preserved baseline, repeated prerequisites, exclusions and remaining unprocessed recipe work.",
+			"dispositions": [
+				{
+					"interval": [0, 3.1],
+					"status": "excluded-introduction",
+					"note": "Title/initial spacing, before the first light starter."
+				},
+				{
+					"interval": [3.1, 138],
+					"status": "reviewed-selections-with-repeated-prerequisites",
+					"note": "Light target chain; heavy-Lash +44 medium-Snake-Step throw, throw-whiff follow-up, back-recovery-only shimmy, low confirm, trade and Ryu OD-DP block; corner forward-heavy whiff branches. Repeated prerequisite knockdowns and timing-only takes are not separate entries. The crouching-target medium-Lash failure at 127–132 is excluded and becomes the standing-state limit of the successful poison-light route."
+				},
+				{
+					"interval": [138, 189],
+					"status": "reviewed-selections-and-unprocessed-branches",
+					"note": "Current plain low and medium links, counter-hit low/OD-Lash extension, punish-counter medium-kick/crouching-heavy knockdown and its walk-throw branch. Other +27 walk-shimmy/strike branches around 170–187 remain unprocessed."
+				},
+				{
+					"interval": [189, 214],
+					"status": "reviewed-selections-and-unprocessed-alternatives",
+					"note": "Poisoned croucher force-stand target route and counter-hit forward-heavy link selected. Plain forward-heavy/short-light alternatives are not extracted again."
+				},
+				{
+					"interval": [214, 238],
+					"status": "reviewed-selections",
+					"note": "Actual sweep-to-SA1, unpoisoned punish-counter sweep/Rush light kick/heavy Lash and poisoned two-Rush sweep conversion. Only the Super actually performed is authored."
+				},
+				{
+					"interval": [238, 254],
+					"status": "reviewed-selection-and-unprocessed-alternative",
+					"note": "Meterless heavy-kick PC/heavy-Fate/four-light route selected; normal-hit heavy-kick stance-target alternative not extracted."
+				},
+				{
+					"interval": [254, 274],
+					"status": "surveyed-unprocessed-execution",
+					"note": "Long double-cancel/OD cash-out remains unprocessed; no total meter requirement inferred from regenerative training settings."
+				},
+				{
+					"interval": [274, 315],
+					"status": "reviewed-selections",
+					"note": "Three distinct corner heavy-kick PC/OD-Pulse choices: heavy-to-light Lash, actual SA1, or light Lash into SA3. Printed SA2 alternative is not executed in the selected take."
+				},
+				{
+					"interval": [315, 391],
+					"status": "surveyed-unprocessed-execution",
+					"note": "Long corner double-DRC and poison heavy-punish cash-outs remain unprocessed."
+				},
+				{
+					"interval": [391, 430],
+					"status": "surveyed-unprocessed-execution",
+					"note": "Heavy-Lash Toxic-Blossom pickup and near-corner pool conversion examples surveyed/fine-sampled, but full starter prefixes are not authored. Not presented as standalone raw-Lash confirms."
+				},
+				{
+					"interval": [430, 598],
+					"status": "reviewed-selections-with-unprocessed-branches",
+					"note": "Pool +38 whiff-HK/walk throw, shimmy, medium confirm, bubble overhead, specific Ryu-SA3/OD-Step escape, raw-Rush throw and Rush overhead selected. Each starts after its prerequisite pool ender. Repeated prerequisite light/Lash/DR combos are not new entries. Timing-only, alternate shimmy tail and Rush-low branches remain unprocessed."
+				},
+				{
+					"interval": [598, 639],
+					"status": "surveyed-unprocessed-execution",
+					"note": "Near-corner/corner Toxic-Blossom Lash-to-Super and pool alternatives remain unprocessed; not copied from captions."
+				},
+				{
+					"interval": [639, 659],
+					"status": "reviewed-selections",
+					"note": "Three poison-dependent counter-hit heavy-Lash anti-air pickups. Poison is visibly applied before Ryu jumps; Rush heavy-kick separation and stance-punch height limits retained."
+				},
+				{
+					"interval": [659, 789],
+					"status": "surveyed-unprocessed-execution",
+					"note": "Other medium/OD Lash and heavy-punch-target Toxic-Blossom juggles remain unprocessed."
+				},
+				{
+					"interval": [789, 829],
+					"status": "reviewed-selections",
+					"note": "Five forward-throw corner branches: walk throw, shimmy/Fate punish, medium strike, overhead target chain and counter-hit overhead direct medium link. Initial prerequisite throws remain outside each authored loop."
+				},
+				{
+					"interval": [829, 870],
+					"status": "reviewed-selections-and-unprocessed-alternatives",
+					"note": "Raw Rush crouching-light-kick/medium link, crouching-medium-kick/heavy/stance-target route and down-forward-medium-punch overhead selected. Other Rush starters remain unprocessed."
+				},
+				{
+					"interval": [870, 879.75],
+					"status": "reviewed-selection",
+					"note": "OD Pulse counter-hit airborne conversion into Rush heavy kick, stance punch and light Lash. Grounded Pulse confirms are not implied."
+				},
+				{
+					"interval": [879.75, 906],
+					"status": "surveyed-unprocessed-execution",
+					"note": "Unpoisoned/poisoned light-Lash punish-counter and corner follow-up families remain unprocessed."
+				},
+				{
+					"interval": [906, 928],
+					"status": "reviewed-selections-with-prerequisite-context",
+					"note": "Counter-DI and normal wall-crush pool route selected. The preceding blocked light-Lash probe is context, not included in the counter-DI command recipe; normal wall crush is not labeled stun."
+				},
+				{
+					"interval": [928, 945.5],
+					"status": "reviewed-selection",
+					"note": "Burnout stun pool/jump-HK/medium/OD-Lash/Wreath/Rush/stance/pool conversion. Prior wall-DI is a prerequisite; its cost is outside the selected loop."
+				},
+				{
+					"interval": [945.5, 974],
+					"status": "surveyed-unprocessed-execution",
+					"note": "Long stun cash-out with multiple OD/Rush expenditures remains unprocessed."
+				},
+				{
+					"interval": [974, 992],
+					"status": "surveyed-unprocessed-execution",
+					"note": "Burnout meter-building/backdash/bubble sequence remains unprocessed."
+				},
+				{
+					"interval": [992, 998],
+					"status": "excluded-outro",
+					"note": "No further authored execution."
+				}
+			],
+			"remainingUnprocessedCandidateWindows": [
+				[170, 187],
+				[189, 208],
+				[238, 247],
+				[254, 274],
+				[315, 430],
+				[430, 451],
+				[455.5, 464.65],
+				[539.6, 567.25],
+				[576.65, 639],
+				[659, 789],
+				[829, 838.2],
+				[843.35, 849.7],
+				[863, 870],
+				[879.75, 906],
+				[945.5, 992]
+			],
+			"fineReviewEvidence": {
+				"boards": [
+					[0, 138, 0.5],
+					[138, 189, 0.5],
+					[189, 315, 0.75],
+					[391, 599, 0.75],
+					[613, 667, 0.75],
+					[789, 888, 0.75],
+					[906, 951, 0.75]
+				],
+				"note": "Fine-grid footage for candidate selection plus sub-framekill and live-input probes. Not every demonstration within these broad discovery windows has a complete authored recipe."
+			}
+		}
+	],
+	"metadataOnlyCompanions": [
+		{
+			"youtubeId": "1TjpUNM4vGM",
+			"status": "Metadata only; video not downloaded or execution-reviewed."
+		},
+		{
+			"youtubeId": "mqlY63Qq4lI",
+			"status": "Metadata only; video not downloaded or execution-reviewed."
+		}
+	],
+	"reviewEvidence": {
+		"allNewMomentAndBoundaryBoards": ".local/depth/review/aki/",
+		"originalResolutionInputs": [".local/depth/aki-input-proof/", ".local/depth/aki-pool-proof/"],
+		"mechanicalAudit": ".local/depth/aki-media-audit.json"
+	},
+	"limits": [
+		"All 12 baseline reference objects and baseline media remain unchanged.",
+		"Dated 2023/2026 sources; no current-patch in-game validation.",
+		"Poison/Toxic-Blossom, initially standing/crouching targets, corner location, counter-hit and PC conditions are distinct.",
+		"The source shows medium Lash missing after the lights against a crouching defender; successful card explicitly requires standing.",
+		"Intentional whiffs remain in compact/copy notation; +44/+38/+27/+7/+5 are remaining advantage, not wait commands.",
+		"OD-DP and Level3 defensive demonstrations remain Ryu-specific; no universal reversal safety claim.",
+		"All selected Super/resource labels describe actual performed choices, not source any-SA shorthand.",
+		"Every setup starts after its stated knockdown; prior prerequisite actions and cost are outside the selected loop.",
+		"Whole-source and complete-character extraction remain incomplete; unselected interval complements and unprocessed families are explicit."
+	]
+}

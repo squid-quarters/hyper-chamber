@@ -7,7 +7,7 @@ The core unit is an individual reference: a combo, setup, or response. A referen
 ## First version
 
 - Choose a populated character library, then browse and search by notation, move name, situation, and outcome text.
-- Filter type/situation and self-reported practice status, save references, follow related alternatives.
+- Use Punishes, Corner carry, Oki, Anti-air and Cash-out training goals alongside type, starting situation, outcome and self-reported practice status. Save references and follow related alternatives.
 - Keep entry selection and filters in a shareable URL; restore through browser history.
 - Tap a clip to play or pause, drag horizontally to inspect, and release to hold a moment. Loop, slow down, seek from a keyframe, or nudge by 0.25 seconds. Scoped R/J/L and arrow shortcuts work when a clip control has focus; Space activates the focused video button. Loop preference is remembered without autoplaying new references.
 - Copy the authored input sequence, with selectable text when clipboard access is unavailable.
@@ -29,6 +29,6 @@ Test the compendium during actual practice: time to locate a route, effort to re
 
 ## Multiple games
 
-The product structure is game → character or team context → individual reference. SF6 / Dhalsim was the first library; the released SF6 roster now has starting collections; 2XKO and other games are future content interests. Game definitions own vocabulary, notation help, resource labels and guide destinations. Situation and outcome categories are supplied by each library's content.
+The product structure is game → character or team context → individual reference. SF6 / Dhalsim was the first library; the released SF6 roster now has a library for each character with selections and gaps recorded individually; 2XKO and other games are future content interests. Game definitions own vocabulary, notation help, resource labels and guide destinations. Situation and outcome categories are supplied by each library's content.
 
 Long sequences should remain easy to inspect: retain the full ordered execution, then add labeled phases and clear actor changes when a real multi-character reference needs them. A different game should not require a second player, note system or source-review workflow. The exact long-sequence interface remains to be validated with genuine content.

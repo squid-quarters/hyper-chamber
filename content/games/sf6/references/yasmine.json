@@ -1118,5 +1118,4460 @@
 			"yasmine-vesper-double-low-heavy-dp",
 			"yasmine-vesper-light-target-medium-alon"
 		]
+	},
+	{
+		"id": "yasmine-depth-medium-alon-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Medium Alon knockdown: dash, walk and throw",
+		"summary": "After ordinary medium Alon, dash and walk to the recorded wake-up throw spacing without additional Drive.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "Dash > Walk > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the ordinary medium-Daloy/Alon knockdown; +30F before the dash in the source"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 13.4,
+			"end": 20.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-medium-alon-walk-throw/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-medium-alon-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-medium-alon-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-medium-alon-walk-throw/frame-1.jpg",
+					"at": 3.7,
+					"label": "Context",
+					"alt": "The preparatory medium Alon leaves Ryu knocked down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-medium-alon-walk-throw/frame-2.jpg",
+					"at": 3.85,
+					"label": "Conversion",
+					"alt": "Yasmine closes the distance before the walking throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-medium-alon-walk-throw/frame-3.jpg",
+					"at": 5.2,
+					"label": "Result",
+					"alt": "The walking throw catches Ryu on wake-up."
+				}
+			]
+		},
+		"relatedIds": ["yasmine-depth-medium-alon-shimmy", "yasmine-depth-medium-alon-low-bayani"]
+	},
+	{
+		"id": "yasmine-depth-medium-alon-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Medium Alon knockdown: dash into a Bayani shimmy punish",
+		"summary": "Dash after medium Alon and retreat from Ryu's wake-up throw; Bayani Alon and one raw Rush extend the punish.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "Dash > 4 > st.HP > cr.MP > 236HP > 6P (Bayani) > DR > cr.MP > 214HP > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-6",
+				"notation": "6P (Bayani)",
+				"label": "Bayani Alon follow-up"
+			},
+			{
+				"id": "step-7",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "214HP",
+				"label": "Heavy Talim ng Hangin"
+			},
+			{
+				"id": "step-10",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-11",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After ordinary medium Alon; Ryu attempts a wake-up throw",
+			"Bayani state available for the later enhanced Alon follow-up"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 21.2,
+			"end": 34.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-medium-alon-shimmy/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-medium-alon-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-medium-alon-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-medium-alon-shimmy/frame-1.jpg",
+					"at": 3.5,
+					"label": "Context",
+					"alt": "Medium Alon completes the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-medium-alon-shimmy/frame-2.jpg",
+					"at": 4.25,
+					"label": "Conversion",
+					"alt": "Ryu’s throw misses as Yasmine backs away before her heavy-punch punish."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-medium-alon-shimmy/frame-3.jpg",
+					"at": 11.9,
+					"label": "Result",
+					"alt": "Heavy rising kick finishes the Bayani and raw-Rush juggle."
+				}
+			]
+		},
+		"relatedIds": ["yasmine-depth-medium-alon-walk-throw", "yasmine-depth-medium-alon-low-bayani"]
+	},
+	{
+		"id": "yasmine-depth-medium-alon-low-bayani",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Medium Alon knockdown: dash low into Bayani light rising kick",
+		"summary": "After medium Alon, dash into low light kick and two standing jabs; keep Bayani available for the light rising-kick conversion.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "Dash > cr.LK > st.LP > st.LP > 236MP > 6P (Bayani) > 623LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "Jab target continuation",
+				"cue": "Press the second standing LP as the target-combo continuation."
+			},
+			{
+				"id": "step-5",
+				"notation": "236MP",
+				"label": "Medium Daloy ng Tubig"
+			},
+			{
+				"id": "step-6",
+				"notation": "6P (Bayani)",
+				"label": "Bayani Alon follow-up"
+			},
+			{
+				"id": "step-7",
+				"notation": "623LK",
+				"label": "Light Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the ordinary medium-Alon knockdown",
+			"Bayani available for the follow-up conversion"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 35.3,
+			"end": 45.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-medium-alon-low-bayani/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-medium-alon-low-bayani/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-medium-alon-low-bayani/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-medium-alon-low-bayani/frame-1.jpg",
+					"at": 3.8,
+					"label": "Context",
+					"alt": "Ordinary medium Alon knocks Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-medium-alon-low-bayani/frame-2.jpg",
+					"at": 5.3,
+					"label": "Conversion",
+					"alt": "The dash low-light sequence catches the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-medium-alon-low-bayani/frame-3.jpg",
+					"at": 8.0,
+					"label": "Result",
+					"alt": "The Bayani Alon launch allows light Lipad ng Agila."
+				}
+			]
+		},
+		"relatedIds": ["yasmine-depth-medium-alon-walk-throw", "yasmine-depth-medium-alon-shimmy"]
+	},
+	{
+		"id": "yasmine-depth-light-alon-standing-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Light Alon standing hit: close-range throw",
+		"summary": "Follow light Alon's standing +1 result with the recorded close throw; the source warns that a four-frame attack can beat it.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Pressure"],
+		"outcomes": ["Throw pressure"],
+		"notation": "Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.LP → cr.LP → light Daloy → Alon connects and leaves Ryu standing; +1F in the source"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames.",
+			"The source explicitly warns that this throw loses to a four-frame attack. The selected take demonstrates a connected throw, not guaranteed pressure."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 51.25,
+			"end": 57.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-light-alon-standing-throw/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-light-alon-standing-throw/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-light-alon-standing-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-light-alon-standing-throw/frame-1.jpg",
+					"at": 2.4,
+					"label": "Context",
+					"alt": "Ordinary light Alon connects and leaves Ryu standing before the follow-up pressure."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-light-alon-standing-throw/frame-2.jpg",
+					"at": 3.05,
+					"label": "Conversion",
+					"alt": "Yasmine attempts the immediate close throw after light Alon connects and leaves Ryu standing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-light-alon-standing-throw/frame-3.jpg",
+					"at": 3.85,
+					"label": "Result",
+					"alt": "The throw connects against the recorded opponent behavior."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-light-alon-standing-shimmy",
+			"yasmine-depth-light-alon-standing-low-bayani"
+		]
+	},
+	{
+		"id": "yasmine-depth-light-alon-standing-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Light Alon standing hit: back away and punish the throw",
+		"summary": "Retreat from the close throw after light Alon's standing hit, then use Bayani Alon and one raw Rush to extend the punish.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Pressure", "Punish"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "4 > st.HP > cr.MP > 236HP > 6P (Bayani) > DR > cr.MP > 214HP > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P (Bayani)",
+				"label": "Bayani Alon follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-7",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "214HP",
+				"label": "Heavy Talim ng Hangin"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-10",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After ordinary light Alon connects and leaves Ryu standing; opponent attempts a close throw",
+			"Bayani available for the enhanced Alon conversion"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 57.85,
+			"end": 70.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-light-alon-standing-shimmy/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-light-alon-standing-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-light-alon-standing-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-light-alon-standing-shimmy/frame-1.jpg",
+					"at": 2.25,
+					"label": "Context",
+					"alt": "Ordinary light Alon connects and leaves Ryu standing before the follow-up pressure."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-light-alon-standing-shimmy/frame-2.jpg",
+					"at": 3.3,
+					"label": "Conversion",
+					"alt": "Standing heavy punch punishes Ryu’s whiffed throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-light-alon-standing-shimmy/frame-3.jpg",
+					"at": 10.25,
+					"label": "Result",
+					"alt": "The raw-Rush Talim juggle ends in heavy rising kick."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-light-alon-standing-throw",
+			"yasmine-depth-light-alon-standing-low-bayani"
+		]
+	},
+	{
+		"id": "yasmine-depth-light-alon-standing-low-bayani",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Light Alon standing hit: low-light Bayani conversion",
+		"summary": "From light Alon's standing hit, confirm the connected low lights through Bayani medium Alon into light rising kick.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Pressure"],
+		"outcomes": ["Low confirm", "Knockdown"],
+		"notation": "cr.LK > st.LP > st.LP > 236MP > 6P (Bayani) > 623LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Jab target continuation"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "Medium Daloy ng Tubig"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P (Bayani)",
+				"label": "Bayani Alon follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "623LK",
+				"label": "Light Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After ordinary light Alon connects and leaves Ryu standing; the low follow-up connects in this recording",
+			"Bayani active for the enhanced Alon"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 70.8,
+			"end": 79.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-light-alon-standing-low-bayani/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-light-alon-standing-low-bayani/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-light-alon-standing-low-bayani/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-light-alon-standing-low-bayani/frame-1.jpg",
+					"at": 2.3,
+					"label": "Context",
+					"alt": "Ordinary light Alon connects and leaves Ryu standing before the follow-up pressure."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-light-alon-standing-low-bayani/frame-2.jpg",
+					"at": 3.0,
+					"label": "Conversion",
+					"alt": "Crouching light kick starts the follow-up low confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-light-alon-standing-low-bayani/frame-3.jpg",
+					"at": 6.8,
+					"label": "Result",
+					"alt": "Bayani Alon leads into light rising kick."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-light-alon-standing-throw",
+			"yasmine-depth-light-alon-standing-shimmy"
+		]
+	},
+	{
+		"id": "yasmine-depth-low-od-talim-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Low medium into OD Talim, heavy punch and Level 1",
+		"summary": "Start with crouching medium kick, spend two Drive on OD Talim and link standing heavy punch into one-stock Level 1.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK > 214PP > st.HP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "214PP",
+				"label": "OD Talim ng Hangin"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The actual starter is crouching MK; the caption also lists unperformed alternatives"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "OD Talim (2 bars)",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 89.45,
+			"end": 97.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-low-od-talim-level-one/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-low-od-talim-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-low-od-talim-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-low-od-talim-level-one/frame-1.jpg",
+					"at": 0.55,
+					"label": "Context",
+					"alt": "Crouching medium kick starts the low confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-low-od-talim-level-one/frame-2.jpg",
+					"at": 2.05,
+					"label": "Conversion",
+					"alt": "OD Talim launches into standing heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-low-od-talim-level-one/frame-3.jpg",
+					"at": 6.35,
+					"label": "Result",
+					"alt": "Level 1 completes the Super route."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-low-double-od-level-three",
+			"yasmine-depth-low-rush-heavy-alon",
+			"yasmine-depth-low-double-rush-level-three"
+		]
+	},
+	{
+		"id": "yasmine-depth-corner-level-one-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Corner Level 1 knockdown: dash into throw",
+		"summary": "After Level 1 ends in the corner, dash into the recorded wake-up throw without another Super or Drive spend.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "Dash > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After Level 1 ends with Ryu in the corner; +24F before the dash in the source"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames.",
+			"The prerequisite Super spend is separate from the performed dash/throw sequence."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 113.9,
+			"end": 118.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-corner-level-one-dash-throw/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-corner-level-one-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-corner-level-one-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-corner-level-one-dash-throw/frame-1.jpg",
+					"at": 0.3,
+					"label": "Context",
+					"alt": "The last Level-1 hit supplies the prerequisite corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-corner-level-one-dash-throw/frame-2.jpg",
+					"at": 0.65,
+					"label": "Conversion",
+					"alt": "Yasmine dashes back into throw range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-corner-level-one-dash-throw/frame-3.jpg",
+					"at": 1.75,
+					"label": "Result",
+					"alt": "The follow-up normal throw connects."
+				}
+			]
+		},
+		"relatedIds": ["yasmine-depth-corner-level-one-shimmy", "yasmine-depth-corner-level-one-low"]
+	},
+	{
+		"id": "yasmine-depth-corner-level-one-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Corner Level 1 knockdown: dash back into a Bayani punish",
+		"summary": "Dash after the corner Level-1 knockdown and bait Ryu's throw; keep Bayani available for the raw-Rush punish extension.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "Dash > 4 > st.HP > cr.MP > 236HP > 6P (Bayani) > DR > cr.MP > 214HP > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-6",
+				"notation": "6P (Bayani)",
+				"label": "Bayani Alon follow-up"
+			},
+			{
+				"id": "step-7",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "214HP",
+				"label": "Heavy Talim ng Hangin"
+			},
+			{
+				"id": "step-10",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-11",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the corner Level-1 knockdown; Ryu attempts a wake-up throw",
+			"Bayani available for the enhanced Alon conversion"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 125.0,
+			"end": 136.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-corner-level-one-shimmy/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-corner-level-one-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-corner-level-one-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-corner-level-one-shimmy/frame-1.jpg",
+					"at": 0.75,
+					"label": "Context",
+					"alt": "Level 1 ends and Ryu falls into the corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-corner-level-one-shimmy/frame-2.jpg",
+					"at": 1.7,
+					"label": "Conversion",
+					"alt": "The wake-up throw misses and Yasmine starts the heavy-punch punish."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-corner-level-one-shimmy/frame-3.jpg",
+					"at": 9.1,
+					"label": "Result",
+					"alt": "Heavy rising kick finishes the extended Bayani punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-corner-level-one-dash-throw",
+			"yasmine-depth-corner-level-one-low"
+		]
+	},
+	{
+		"id": "yasmine-depth-corner-level-one-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Corner Level 1 knockdown: dash into low target combo",
+		"summary": "Use the corner Level-1 knockdown to dash into low lights, then Bayani medium Alon and light rising kick.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "Dash > cr.LK > st.LP > st.LP > 236MP > 6P (Bayani) > 623LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "Jab target continuation"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MP",
+				"label": "Medium Daloy ng Tubig"
+			},
+			{
+				"id": "step-6",
+				"notation": "6P (Bayani)",
+				"label": "Bayani Alon follow-up"
+			},
+			{
+				"id": "step-7",
+				"notation": "623LK",
+				"label": "Light Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the corner Level-1 knockdown; low kick connects on wake-up",
+			"Bayani available for the follow-up"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 143.2,
+			"end": 150.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-corner-level-one-low/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-corner-level-one-low/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-corner-level-one-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-corner-level-one-low/frame-1.jpg",
+					"at": 0.45,
+					"label": "Context",
+					"alt": "The final Level-1 hit leaves Ryu knocked down in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-corner-level-one-low/frame-2.jpg",
+					"at": 1.0,
+					"label": "Conversion",
+					"alt": "Crouching light kick begins the dash follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-corner-level-one-low/frame-3.jpg",
+					"at": 4.8,
+					"label": "Result",
+					"alt": "Bayani Alon permits the light rising-kick juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-corner-level-one-dash-throw",
+			"yasmine-depth-corner-level-one-shimmy"
+		]
+	},
+	{
+		"id": "yasmine-depth-low-double-od-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Low cash-out: OD Talim and OD Alon into Level 3",
+		"summary": "Commit four Drive to OD Talim and OD Alon, then spend three Super stocks on the low-starting Level-3 finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Cash-out"],
+		"outcomes": ["Super finish", "Cash out"],
+		"notation": "cr.MK > 214PP > st.HP > 236PP > 6P > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "214PP",
+				"label": "OD Talim ng Hangin"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236PP",
+				"label": "OD Daloy ng Tubig"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Two Overdrives (4 bars)",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 150.8,
+			"end": 167.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-low-double-od-level-three/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-low-double-od-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-low-double-od-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-low-double-od-level-three/frame-1.jpg",
+					"at": 1.05,
+					"label": "Context",
+					"alt": "Crouching medium kick starts the low cash-out."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-low-double-od-level-three/frame-2.jpg",
+					"at": 4.0,
+					"label": "Conversion",
+					"alt": "The OD Talim launcher leads through heavy punch and OD Alon."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-low-double-od-level-three/frame-3.jpg",
+					"at": 13.7,
+					"label": "Result",
+					"alt": "Level 3 uses the full Super budget to finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-low-double-rush-level-three",
+			"yasmine-depth-low-od-talim-level-one",
+			"yasmine-depth-low-rush-heavy-alon"
+		]
+	},
+	{
+		"id": "yasmine-depth-corner-od-talim-cover-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "OD Talim knockdown: 22HP cover into throw",
+		"summary": "After the corner OD-Talim/heavy-punch knockdown, throw under 22HP boomerang cover without extra Drive or Super.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "22HP > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "22HP",
+				"label": "Heavy 22HP boomerang cover"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": ["Classic controls", "After the shown corner OD-Talim → standing-HP knockdown"],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames.",
+			"The official introduction describes Pangil sa Likuran as a boomerang whose strength changes its range. The 22HP command mapping is established by the tutorial input history; no Bayani install, stock gain or stock cost is inferred."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 175.2,
+			"end": 181.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-corner-od-talim-cover-throw/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-corner-od-talim-cover-throw/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-corner-od-talim-cover-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-corner-od-talim-cover-throw/frame-1.jpg",
+					"at": 1.9,
+					"label": "Context",
+					"alt": "OD Talim into heavy punch supplies the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-corner-od-talim-cover-throw/frame-2.jpg",
+					"at": 3.05,
+					"label": "Conversion",
+					"alt": "The recorded 22HP action creates delayed boomerang cover."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-corner-od-talim-cover-throw/frame-3.jpg",
+					"at": 4.4,
+					"label": "Result",
+					"alt": "Yasmine throws Ryu after that cover is placed."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-corner-od-talim-cover-medium",
+			"yasmine-depth-corner-cover-hit-renew"
+		]
+	},
+	{
+		"id": "yasmine-depth-corner-od-talim-cover-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "OD Talim knockdown: 22HP into blocked medium pressure",
+		"summary": "Use 22HP cover after the corner knockdown, then practice the guarded crouching medium punch into medium Daloy sequence.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Pressure"],
+		"notation": "22HP > cr.MP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "22HP",
+				"label": "Heavy 22HP boomerang cover"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Daloy ng Tubig"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the shown corner OD-Talim → standing-HP knockdown; Ryu guards on wake-up"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames.",
+			"The source reports +13F after the blocked medium Daloy in this setup; this is the recorded result, not a general safety claim."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 182.3,
+			"end": 188.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-corner-od-talim-cover-medium/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-corner-od-talim-cover-medium/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-corner-od-talim-cover-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-corner-od-talim-cover-medium/frame-1.jpg",
+					"at": 2.15,
+					"label": "Context",
+					"alt": "The OD-Talim/heavy-punch route knocks Ryu down at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-corner-od-talim-cover-medium/frame-2.jpg",
+					"at": 2.95,
+					"label": "Conversion",
+					"alt": "Yasmine performs 22HP as Ryu recovers."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-corner-od-talim-cover-medium/frame-3.jpg",
+					"at": 4.25,
+					"label": "Result",
+					"alt": "Ryu guards crouching medium into medium Daloy; Alon is not added in this take."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-corner-od-talim-cover-throw",
+			"yasmine-depth-corner-cover-hit-renew"
+		]
+	},
+	{
+		"id": "yasmine-depth-blocked-medium-heavy-pressure",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Blocked medium Daloy: heavy into medium Alon pressure",
+		"summary": "After the covered medium Daloy is blocked, continue guarded pressure with crouching heavy into medium Daloy and medium Alon.",
+		"kind": "setup",
+		"situations": ["Corner", "Pressure"],
+		"outcomes": ["Pressure"],
+		"notation": "cr.HP > 236MP > 6MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MP",
+				"label": "Medium Daloy ng Tubig"
+			},
+			{
+				"id": "step-3",
+				"notation": "6MP",
+				"label": "Alon follow-up with medium punch"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the shown covered cr.MP → medium Daloy is blocked in the corner"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames.",
+			"The take shows blocking and Drive loss. It does not establish an inescapable blockstring against every response."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 189.25,
+			"end": 197.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-blocked-medium-heavy-pressure/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-blocked-medium-heavy-pressure/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-blocked-medium-heavy-pressure/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-blocked-medium-heavy-pressure/frame-1.jpg",
+					"at": 4.05,
+					"label": "Context",
+					"alt": "The preparatory covered crouching-medium/Daloy pressure is blocked."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-blocked-medium-heavy-pressure/frame-2.jpg",
+					"at": 5.25,
+					"label": "Conversion",
+					"alt": "Crouching heavy punch continues the corner pressure."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-blocked-medium-heavy-pressure/frame-3.jpg",
+					"at": 5.95,
+					"label": "Result",
+					"alt": "Medium Daloy and its medium-punch Alon follow-up are guarded."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-blocked-medium-delay-throw",
+			"yasmine-depth-blocked-medium-shimmy-cover"
+		]
+	},
+	{
+		"id": "yasmine-depth-blocked-medium-delay-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Blocked medium Daloy: delay into throw",
+		"summary": "Delay the throw after the covered corner medium-Daloy sequence is blocked; follow the shown timing.",
+		"kind": "setup",
+		"situations": ["Corner", "Pressure"],
+		"outcomes": ["Throw pressure"],
+		"notation": "Wait > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Wait",
+				"label": "Delay before throwing",
+				"cue": "Use the delay visibly demonstrated after the blocked special; no numeric wait is inferred."
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the shown corner cr.MP → medium Daloy pressure is blocked"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 198.15,
+			"end": 206.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-blocked-medium-delay-throw/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-blocked-medium-delay-throw/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-blocked-medium-delay-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-blocked-medium-delay-throw/frame-1.jpg",
+					"at": 4.1,
+					"label": "Context",
+					"alt": "Ryu guards the covered crouching-medium/Daloy pressure."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-blocked-medium-delay-throw/frame-2.jpg",
+					"at": 4.55,
+					"label": "Conversion",
+					"alt": "Yasmine delays at close range after the blocked special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-blocked-medium-delay-throw/frame-3.jpg",
+					"at": 5.85,
+					"label": "Result",
+					"alt": "The delayed throw catches the recorded opponent."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-blocked-medium-heavy-pressure",
+			"yasmine-depth-blocked-medium-shimmy-cover"
+		]
+	},
+	{
+		"id": "yasmine-depth-blocked-medium-shimmy-cover",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Blocked medium Daloy: shimmy into a new 22HP cover",
+		"summary": "Retreat from the throw after blocked covered Daloy, then use Bayani Alon and one raw Rush to renew 22HP cover.",
+		"kind": "setup",
+		"situations": ["Corner", "Pressure", "Punish"],
+		"outcomes": ["Whiff punish", "Pressure"],
+		"notation": "4 > st.HP > cr.MP > 236HP > 6P (Bayani) > DR > cr.MP > 214HP > st.HP > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P (Bayani)",
+				"label": "Bayani Alon follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-7",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "214HP",
+				"label": "Heavy Talim ng Hangin"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-10",
+				"notation": "22HP",
+				"label": "Heavy 22HP boomerang cover"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the covered medium-Daloy pressure is blocked; Ryu attempts a throw",
+			"Bayani available for the enhanced Alon in the punish"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 207.3,
+			"end": 222.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-blocked-medium-shimmy-cover/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-blocked-medium-shimmy-cover/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-blocked-medium-shimmy-cover/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-blocked-medium-shimmy-cover/frame-1.jpg",
+					"at": 3.9,
+					"label": "Context",
+					"alt": "Ryu blocks the preparatory medium-Daloy pressure."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-blocked-medium-shimmy-cover/frame-2.jpg",
+					"at": 4.9,
+					"label": "Conversion",
+					"alt": "Heavy punch punishes Ryu’s whiffed throw after the backward step."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-blocked-medium-shimmy-cover/frame-3.jpg",
+					"at": 12.9,
+					"label": "Result",
+					"alt": "The raw-Rush juggle ends with standing heavy punch and new 22HP cover."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-blocked-medium-heavy-pressure",
+			"yasmine-depth-blocked-medium-delay-throw"
+		]
+	},
+	{
+		"id": "yasmine-depth-corner-cover-hit-renew",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Corner 22HP cover: medium Alon into renewed cover",
+		"summary": "Match the recorded blue-knife state and returning 22HP cover after OD Talim, then renew the boomerang after the heavy pickup.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up pressure", "Pressure"],
+		"notation": "22HP > cr.MP > 236MP > 6P > st.HP > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "22HP",
+				"label": "Heavy 22HP boomerang cover"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Daloy ng Tubig"
+			},
+			{
+				"id": "step-4",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "22HP",
+				"label": "Heavy 22HP boomerang cover"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the shown corner OD-Talim/heavy-punch knockdown; the covered follow-up hits",
+			"Match the visible blue-knife state after the prerequisite OD Talim hit; retain the returning 22HP boomerang cover"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames.",
+			"The source prints neutral 6P here. The exact OD-Talim hit, visible blue-knife state and returning 22HP cover are retained as prerequisites; no unsupported claim is made about which effect supplies the heavy-punch pickup. Do not substitute an uncovered ordinary medium-Alon route."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 222.2,
+			"end": 233.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-corner-cover-hit-renew/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-corner-cover-hit-renew/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-corner-cover-hit-renew/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-corner-cover-hit-renew/frame-1.jpg",
+					"at": 3.8,
+					"label": "Context",
+					"alt": "Crouching medium begins the covered follow-up after the prerequisite launcher and 22HP action."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-corner-cover-hit-renew/frame-2.jpg",
+					"at": 6.05,
+					"label": "Conversion",
+					"alt": "The covered medium-Alon follow-up connects and launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-corner-cover-hit-renew/frame-3.jpg",
+					"at": 8.0,
+					"label": "Result",
+					"alt": "Standing heavy punch leads into another 22HP cover action."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-corner-od-talim-cover-throw",
+			"yasmine-depth-corner-od-talim-cover-medium"
+		]
+	},
+	{
+		"id": "yasmine-depth-low-rush-heavy-alon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Low Rush confirm into crouching heavy and heavy Alon",
+		"summary": "Spend one three-bar cancel Rush after crouching medium kick and finish the heavy-Alon route used by the two-dash setups.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK > DRC > cr.HP > cr.MP > 236HP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-6",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The source reports +44F at the ender, supporting the separately demonstrated two-dash oki branches."
+		],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 233.65,
+			"end": 239.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-low-rush-heavy-alon/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-low-rush-heavy-alon/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-low-rush-heavy-alon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-low-rush-heavy-alon/frame-1.jpg",
+					"at": 0.5,
+					"label": "Context",
+					"alt": "Crouching medium kick confirms into cancel Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-low-rush-heavy-alon/frame-2.jpg",
+					"at": 1.95,
+					"label": "Conversion",
+					"alt": "Crouching heavy and crouching medium extend the low confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-low-rush-heavy-alon/frame-3.jpg",
+					"at": 3.55,
+					"label": "Result",
+					"alt": "Heavy Daloy and Alon create the shown knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-heavy-alon-double-dash-throw",
+			"yasmine-depth-heavy-alon-double-dash-shimmy",
+			"yasmine-depth-heavy-alon-double-dash-meaty"
+		]
+	},
+	{
+		"id": "yasmine-depth-heavy-alon-double-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Heavy Alon knockdown: two dashes into delayed throw",
+		"summary": "After the demonstrated heavy-Alon knockdown, use two dashes and a visible delay to time the wake-up throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "Dash > Dash > Wait > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "Wait",
+				"label": "Delay before throwing",
+				"cue": "Delay as shown; +6F is the remaining advantage after the two dashes."
+			},
+			{
+				"id": "step-4",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After cr.MK → cancel Rush → cr.HP → cr.MP → heavy Daloy → Alon; +44F in the source"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 247.15,
+			"end": 255.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-throw/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-throw/frame-1.jpg",
+					"at": 3.45,
+					"label": "Context",
+					"alt": "The preparatory Rush route finishes in heavy Alon."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-throw/frame-2.jpg",
+					"at": 4.35,
+					"label": "Conversion",
+					"alt": "Two dashes close the distance after the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-throw/frame-3.jpg",
+					"at": 5.45,
+					"label": "Result",
+					"alt": "The delayed normal throw catches Ryu on wake-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-low-rush-heavy-alon",
+			"yasmine-depth-heavy-alon-double-dash-shimmy",
+			"yasmine-depth-heavy-alon-double-dash-meaty"
+		]
+	},
+	{
+		"id": "yasmine-depth-heavy-alon-double-dash-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Heavy Alon knockdown: two-dash shimmy conversion",
+		"summary": "Use two dashes after heavy Alon to bait Ryu's wake-up throw; Bayani Alon and one raw Rush extend the punish.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "Dash > Dash > 4 > st.HP > cr.MP > 236HP > 6P (Bayani) > DR > cr.MP > 214HP > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-7",
+				"notation": "6P (Bayani)",
+				"label": "Bayani Alon follow-up"
+			},
+			{
+				"id": "step-8",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-9",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-10",
+				"notation": "214HP",
+				"label": "Heavy Talim ng Hangin"
+			},
+			{
+				"id": "step-11",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-12",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the shown +44F heavy-Alon knockdown; Ryu attempts a wake-up throw",
+			"Bayani available for the enhanced Alon conversion"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 256.1,
+			"end": 271.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-shimmy/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-shimmy/frame-1.jpg",
+					"at": 4.15,
+					"label": "Context",
+					"alt": "Heavy Alon finishes the prerequisite Rush conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-shimmy/frame-2.jpg",
+					"at": 5.35,
+					"label": "Conversion",
+					"alt": "Ryu’s throw whiffs after the two-dash approach and backward step."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-shimmy/frame-3.jpg",
+					"at": 12.3,
+					"label": "Result",
+					"alt": "Heavy rising kick finishes the Bayani and raw-Rush punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-low-rush-heavy-alon",
+			"yasmine-depth-heavy-alon-double-dash-throw",
+			"yasmine-depth-heavy-alon-double-dash-meaty"
+		]
+	},
+	{
+		"id": "yasmine-depth-heavy-alon-double-dash-meaty",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Heavy Alon knockdown: two dashes into medium pressure",
+		"summary": "After heavy Alon, two dashes time crouching medium into two standing jabs; Bayani Alon leads to light rising kick.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "Dash > Dash > cr.MP > st.LP > st.LP > 236MP > 6P (Bayani) > 623LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LP",
+				"label": "Jab target continuation"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MP",
+				"label": "Medium Daloy ng Tubig"
+			},
+			{
+				"id": "step-7",
+				"notation": "6P (Bayani)",
+				"label": "Bayani Alon follow-up"
+			},
+			{
+				"id": "step-8",
+				"notation": "623LK",
+				"label": "Light Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the shown +44F heavy-Alon knockdown; crouching medium connects on wake-up",
+			"Bayani available for the enhanced follow-up"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 272.15,
+			"end": 282.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-meaty/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-meaty/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-meaty/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-meaty/frame-1.jpg",
+					"at": 3.95,
+					"label": "Context",
+					"alt": "Heavy Alon supplies the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-meaty/frame-2.jpg",
+					"at": 5.0,
+					"label": "Conversion",
+					"alt": "Crouching medium starts the two-dash wake-up confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-heavy-alon-double-dash-meaty/frame-3.jpg",
+					"at": 8.25,
+					"label": "Result",
+					"alt": "The jab target combo and Bayani Alon lead into light rising kick."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-low-rush-heavy-alon",
+			"yasmine-depth-heavy-alon-double-dash-throw",
+			"yasmine-depth-heavy-alon-double-dash-shimmy"
+		]
+	},
+	{
+		"id": "yasmine-depth-raw-rush-overhead-heavy-alon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Raw Rush overhead into medium and heavy Alon",
+		"summary": "Raw Rush gives this forward-medium overhead its crouching-medium link; finish with heavy Alon for one Drive bar.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Rush", "Overhead"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > f.MP > cr.MP > 236HP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Rush-enhanced forward-MP link; do not substitute an ordinary overhead"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 283.45,
+			"end": 289.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-raw-rush-overhead-heavy-alon/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-raw-rush-overhead-heavy-alon/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-raw-rush-overhead-heavy-alon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-raw-rush-overhead-heavy-alon/frame-1.jpg",
+					"at": 1.25,
+					"label": "Context",
+					"alt": "The raw-Rush forward medium punch supplies the overhead starter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-raw-rush-overhead-heavy-alon/frame-2.jpg",
+					"at": 2.35,
+					"label": "Conversion",
+					"alt": "Crouching medium links after the Rush overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-raw-rush-overhead-heavy-alon/frame-3.jpg",
+					"at": 4.2,
+					"label": "Result",
+					"alt": "Heavy Alon creates the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-low-rush-heavy-alon",
+			"yasmine-depth-low-double-rush-level-three",
+			"yasmine-depth-heavy-kick-punish-raw-rush"
+		]
+	},
+	{
+		"id": "yasmine-depth-low-double-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Low cash-out: two crouching-heavy Rush extensions",
+		"summary": "Commit two cancel Rushes and three Super stocks, using both crouching heavy punch extensions before light Alon into Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Drive Rush", "Cash-out"],
+		"outcomes": ["Super finish", "Cash out"],
+		"notation": "cr.MK > DRC > cr.HP > cr.MP > DRC > cr.HP > cr.MP > 236LP > 6P > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "236LP",
+				"label": "Light Daloy ng Tubig"
+			},
+			{
+				"id": "step-9",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			},
+			{
+				"id": "step-10",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Two cancel Drive Rushes (6 bars nominal)",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 290.2,
+			"end": 306.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-low-double-rush-level-three/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-low-double-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-low-double-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-low-double-rush-level-three/frame-1.jpg",
+					"at": 1.1,
+					"label": "Context",
+					"alt": "The first cancel Rush extends the low into crouching heavy and medium."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-low-double-rush-level-three/frame-2.jpg",
+					"at": 4.5,
+					"label": "Conversion",
+					"alt": "A second Rush cancel repeats the heavy/medium extension before light Alon."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-low-double-rush-level-three/frame-3.jpg",
+					"at": 13.6,
+					"label": "Result",
+					"alt": "Level 3 finishes the full-Super cash-out."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-low-double-od-level-three",
+			"yasmine-depth-low-rush-heavy-alon",
+			"yasmine-vesper-rush-low-heavy-alon"
+		]
+	},
+	{
+		"id": "yasmine-depth-guard-drive-reversal-heavy-alon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Block Drive Reversal: crouching-medium punish into heavy Alon",
+		"summary": "Guard Ryu's close Drive Reversal, then punish with crouching medium into crouching heavy and heavy Alon without meter.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Reversal punish", "Knockdown"],
+		"notation": "Guard > cr.MP > cr.HP > 236HP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the demonstrated Drive Reversal",
+			"The reversal is blocked at the shown close spacing"
+		],
+		"notes": [
+			"The source’s preparatory crouching medium is blocked before Ryu activates Drive Reversal. The replay retains that trigger; the performed response starts with guarding the reversal."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 307.65,
+			"end": 314.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-guard-drive-reversal-heavy-alon/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-guard-drive-reversal-heavy-alon/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-guard-drive-reversal-heavy-alon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-guard-drive-reversal-heavy-alon/frame-1.jpg",
+					"at": 1.45,
+					"label": "Context",
+					"alt": "Yasmine guards Ryu’s recorded Drive Reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-guard-drive-reversal-heavy-alon/frame-2.jpg",
+					"at": 2.6,
+					"label": "Conversion",
+					"alt": "Crouching medium punishes its recovery and links to crouching heavy."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-guard-drive-reversal-heavy-alon/frame-3.jpg",
+					"at": 4.7,
+					"label": "Result",
+					"alt": "Heavy Alon completes the punish and knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-heavy-kick-punish-raw-rush",
+			"yasmine-depth-shimmy-heavy-punish-heavy-alon",
+			"yasmine-depth-counter-di-air-kick-rush"
+		]
+	},
+	{
+		"id": "yasmine-depth-heavy-kick-punish-raw-rush",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Punish-counter heavy kick into Rush Talim juggle",
+		"summary": "Standing heavy kick must score Punish Counter; one raw Rush reaches the Talim juggle and shown heavy rising kick ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK > DR > cr.MP > 214HP > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Talim ng Hangin"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing HK Punish Counter",
+			"Use the actual heavy rising-kick ender; the caption’s other alternatives are not performed"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 324.15,
+			"end": 331.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-heavy-kick-punish-raw-rush/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-heavy-kick-punish-raw-rush/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-heavy-kick-punish-raw-rush/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-heavy-kick-punish-raw-rush/frame-1.jpg",
+					"at": 0.9,
+					"label": "Context",
+					"alt": "Standing heavy kick launches on Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-heavy-kick-punish-raw-rush/frame-2.jpg",
+					"at": 3.0,
+					"label": "Conversion",
+					"alt": "Raw Rush crouching medium leads into heavy Talim."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-heavy-kick-punish-raw-rush/frame-3.jpg",
+					"at": 5.1,
+					"label": "Result",
+					"alt": "Standing heavy punch and heavy rising kick finish the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-low-rush-heavy-alon",
+			"yasmine-depth-raw-rush-overhead-heavy-alon",
+			"yasmine-depth-low-double-rush-level-three"
+		]
+	},
+	{
+		"id": "yasmine-depth-od-alon-level-two-second-od",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "OD Alon through Level 2 into a second OD Alon",
+		"summary": "Route crouching medium kick through OD Alon and Level 2 into a second OD Alon; the recorded four-Drive route ends in burnout.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Low confirm", "Level 2", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MK > 236PP > 6P > SA2 > 214HP > 236PP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "236PP",
+				"label": "OD Daloy ng Tubig"
+			},
+			{
+				"id": "step-3",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA2",
+				"label": "Level 2 Super Art"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Talim ng Hangin"
+			},
+			{
+				"id": "step-6",
+				"notation": "236PP",
+				"label": "OD Daloy ng Tubig"
+			},
+			{
+				"id": "step-7",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Match the state and timing after the Level-2 activation"],
+		"notes": [
+			"The source ends with Yasmine in Burnout. It is not presented as a free or meter-neutral conversion."
+		],
+		"resources": {
+			"drive": "Two Overdrives (4 bars nominal)",
+			"super": "Level 2 (2 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 332.15,
+			"end": 344.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-od-alon-level-two-second-od/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-od-alon-level-two-second-od/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-od-alon-level-two-second-od/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-od-alon-level-two-second-od/frame-1.jpg",
+					"at": 2.6,
+					"label": "Context",
+					"alt": "OD Daloy and Alon convert the crouching-medium-kick starter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-od-alon-level-two-second-od/frame-2.jpg",
+					"at": 5.0,
+					"label": "Conversion",
+					"alt": "Level 2 interrupts the airborne conversion before heavy Talim."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-od-alon-level-two-second-od/frame-3.jpg",
+					"at": 9.6,
+					"label": "Result",
+					"alt": "A second OD Alon completes the demonstrated route."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-low-od-talim-level-one",
+			"yasmine-depth-low-double-od-level-three",
+			"yasmine-depth-low-rush-heavy-alon"
+		]
+	},
+	{
+		"id": "yasmine-depth-shimmy-heavy-punish-heavy-alon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Shimmy heavy-punch punish into crouching medium and heavy Alon",
+		"summary": "Retreat from the close throw, then punish with heavy punch, crouching medium and heavy Alon without additional Drive.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Shimmy"],
+		"outcomes": ["Knockdown"],
+		"notation": "4 > st.HP > cr.MP > 236HP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-5",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent whiffs the demonstrated close throw"],
+		"notes": [
+			"The replay retains the end of the preceding Rush-pressure bait. The performed sequence begins with backward movement after that prerequisite and the throw-whiff punish; no additional Drive is spent in that sequence."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 345.85,
+			"end": 351.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-shimmy-heavy-punish-heavy-alon/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-shimmy-heavy-punish-heavy-alon/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-shimmy-heavy-punish-heavy-alon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-shimmy-heavy-punish-heavy-alon/frame-1.jpg",
+					"at": 0.35,
+					"label": "Context",
+					"alt": "Ryu’s normal throw misses after Yasmine’s backward movement."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-shimmy-heavy-punish-heavy-alon/frame-2.jpg",
+					"at": 1.4,
+					"label": "Conversion",
+					"alt": "Heavy punch hits as a Punish Counter and links to crouching medium."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-shimmy-heavy-punish-heavy-alon/frame-3.jpg",
+					"at": 3.25,
+					"label": "Result",
+					"alt": "Heavy Alon ends the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-guard-drive-reversal-heavy-alon",
+			"yasmine-depth-heavy-kick-punish-raw-rush",
+			"yasmine-depth-counter-di-air-kick-rush"
+		]
+	},
+	{
+		"id": "yasmine-depth-guard-od-dp-rush-22mp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Block OD Shoryuken: Rush crouching-heavy 22MP conversion",
+		"summary": "At the corner, guard Ryu's OD Shoryuken and raw Rush into two crouching heavies; keep the recorded 22MP boomerang extension.",
+		"kind": "response",
+		"situations": ["Corner", "Punish counter", "Drive Rush"],
+		"outcomes": ["Reversal punish", "Knockdown"],
+		"notation": "Guard > DR > cr.HP > cr.HP > 22MP > cr.MP > 214HP > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "22MP",
+				"label": "Medium 22MP boomerang"
+			},
+			{
+				"id": "step-6",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "Heavy Talim ng Hangin"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Block the recorded Ryu OD Shoryuken at the shown corner spacing",
+			"Use the exact medium-punch 22MP action; the later two-button 22LPHP variation is not substituted"
+		],
+		"notes": [
+			"22MP is the medium-punch boomerang action visible in the input history. It is not labeled as a Bayani install or stock charge.",
+			"The alternative 22HP/Level-1 finishers in the caption are not performed."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 352.25,
+			"end": 361.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-guard-od-dp-rush-22mp/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-guard-od-dp-rush-22mp/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-guard-od-dp-rush-22mp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-guard-od-dp-rush-22mp/frame-1.jpg",
+					"at": 0.85,
+					"label": "Context",
+					"alt": "Yasmine guards Ryu’s recorded OD Shoryuken in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-guard-od-dp-rush-22mp/frame-2.jpg",
+					"at": 3.0,
+					"label": "Conversion",
+					"alt": "After the two crouching heavies, the medium 22MP boomerang continues the Punish Counter conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-guard-od-dp-rush-22mp/frame-3.jpg",
+					"at": 6.95,
+					"label": "Result",
+					"alt": "Heavy Talim, standing heavy punch and heavy rising kick complete the punish."
+				}
+			]
+		},
+		"relatedIds": ["yasmine-depth-guard-od-dp-22mp-cashout"]
+	},
+	{
+		"id": "yasmine-depth-guard-od-dp-22mp-cashout",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Block OD Shoryuken: corner 22MP cash-out",
+		"summary": "Use the corner 22MP punish after guarding Ryu's OD Shoryuken, then spend OD Daloy and Level 3 to finish.",
+		"kind": "response",
+		"situations": ["Corner", "Punish counter", "Cash-out"],
+		"outcomes": ["Reversal punish", "Super finish", "Cash out"],
+		"notation": "Guard > DR > cr.HP > cr.HP > 22MP > cr.MP > 214HP > st.HP > 236PP > 6P > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "22MP",
+				"label": "Medium 22MP boomerang"
+			},
+			{
+				"id": "step-6",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "Heavy Talim ng Hangin"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "236PP",
+				"label": "OD Daloy ng Tubig"
+			},
+			{
+				"id": "step-10",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			},
+			{
+				"id": "step-11",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Block Ryu’s OD Shoryuken at the shown corner spacing",
+			"Use the medium-punch 22MP action in this take"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush plus OD Daloy (3 bars nominal)",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 362.25,
+			"end": 382.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-guard-od-dp-22mp-cashout/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-guard-od-dp-22mp-cashout/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-guard-od-dp-22mp-cashout/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-guard-od-dp-22mp-cashout/frame-1.jpg",
+					"at": 0.85,
+					"label": "Context",
+					"alt": "Ryu’s recorded OD Shoryuken is blocked before the punish."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-guard-od-dp-22mp-cashout/frame-2.jpg",
+					"at": 5.15,
+					"label": "Conversion",
+					"alt": "The 22MP crouching-heavy extension leads through Talim and OD Alon."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-guard-od-dp-22mp-cashout/frame-3.jpg",
+					"at": 16.35,
+					"label": "Result",
+					"alt": "Level 3 finishes the corner cash-out."
+				}
+			]
+		},
+		"relatedIds": ["yasmine-depth-guard-od-dp-rush-22mp"]
+	},
+	{
+		"id": "yasmine-depth-bayani-light-alon-knockdown",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Bayani light Alon: two jabs into the long knockdown",
+		"summary": "Start in Bayani mode: enhanced light Alon after two crouching jabs creates the knockdown used by the jump response.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Bayani"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.LP > 236LP > 6LP (Bayani)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LP",
+				"label": "Light Daloy ng Tubig"
+			},
+			{
+				"id": "step-4",
+				"notation": "6LP (Bayani)",
+				"label": "Bayani Alon with light punch"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Source-labeled Bayani mode active before the light-punch Alon follow-up"
+		],
+		"notes": [
+			"The Bayani branch creates the knockdown used in the separately demonstrated jump/guard response; do not substitute ordinary light Alon. The source edit begins directly at the first jab startup after its title card; earlier neutral lead-in is absent from this take."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 417.45,
+			"end": 422.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-bayani-light-alon-knockdown/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-bayani-light-alon-knockdown/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-bayani-light-alon-knockdown/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-bayani-light-alon-knockdown/frame-1.jpg",
+					"at": 1.0,
+					"label": "Context",
+					"alt": "Two crouching jabs start the Bayani-state confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-bayani-light-alon-knockdown/frame-2.jpg",
+					"at": 2.8,
+					"label": "Conversion",
+					"alt": "The source explicitly marks the light-punch Alon follow-up as Bayani."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-bayani-light-alon-knockdown/frame-3.jpg",
+					"at": 3.8,
+					"label": "Result",
+					"alt": "Ryu falls after the enhanced follow-up; the source reports +42F."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-bayani-light-alon-jump-guard",
+			"yasmine-depth-corner-bayani-alon-overhead"
+		]
+	},
+	{
+		"id": "yasmine-depth-bayani-light-alon-jump-guard",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Bayani light Alon knockdown: jump heavy kick, then guard OD Shoryuken",
+		"summary": "After Bayani light Alon, forward-jump heavy kick and land guarding against the recorded Ryu OD Shoryuken.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Bayani"],
+		"outcomes": ["Reversal response"],
+		"notation": "9 > j.HK > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the source-labeled Bayani light-Alon knockdown; +42F in this recording",
+			"Opponent is Ryu using the recorded wake-up OD Shoryuken"
+		],
+		"notes": [
+			"The replay includes the prerequisite two-jab/Bayani-Alon route; the performed sequence begins at the jump.",
+			"The source calls this a safe jump. The entry records only the shown heavy-kick/guard response against Ryu, not universal reversal coverage."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 422.65,
+			"end": 428.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-bayani-light-alon-jump-guard/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-bayani-light-alon-jump-guard/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-bayani-light-alon-jump-guard/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-bayani-light-alon-jump-guard/frame-1.jpg",
+					"at": 2.7,
+					"label": "Context",
+					"alt": "The Bayani light Alon completes the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-bayani-light-alon-jump-guard/frame-2.jpg",
+					"at": 3.55,
+					"label": "Conversion",
+					"alt": "Yasmine performs the late airborne heavy kick while transitioning to back guard."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-bayani-light-alon-jump-guard/frame-3.jpg",
+					"at": 4.05,
+					"label": "Result",
+					"alt": "Yasmine lands and blocks Ryu’s recorded OD Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-bayani-light-alon-knockdown",
+			"yasmine-depth-corner-bayani-alon-overhead"
+		]
+	},
+	{
+		"id": "yasmine-depth-corner-bayani-alon-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Corner Bayani Alon knockdown: dash overhead into low target combo",
+		"summary": "Use the corner Bayani light Alon knockdown to dash into overhead, then confirm low lights into the ordinary medium Alon branch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "Dash > f.MP > cr.LK > st.LP > st.LP > 236MP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.LP",
+				"label": "Jab target continuation"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MP",
+				"label": "Medium Daloy ng Tubig"
+			},
+			{
+				"id": "step-7",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			}
+		],
+		"conditions": ["Classic controls", "After the shown Bayani light-Alon knockdown in the corner"],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames.",
+			"The prerequisite uses Bayani light Alon; the follow-up medium-Alon recipe is the ordinary branch printed in this take."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 429.25,
+			"end": 438.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-corner-bayani-alon-overhead/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-corner-bayani-alon-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-corner-bayani-alon-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-corner-bayani-alon-overhead/frame-1.jpg",
+					"at": 1.8,
+					"label": "Context",
+					"alt": "Bayani light Alon supplies the prerequisite corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-corner-bayani-alon-overhead/frame-2.jpg",
+					"at": 2.75,
+					"label": "Conversion",
+					"alt": "The dash forward-medium overhead reaches Ryu on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-corner-bayani-alon-overhead/frame-3.jpg",
+					"at": 7.15,
+					"label": "Result",
+					"alt": "The low-light target confirm ends in ordinary medium Alon."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-bayani-light-alon-knockdown",
+			"yasmine-depth-bayani-light-alon-jump-guard"
+		]
+	},
+	{
+		"id": "yasmine-depth-bayani-medium-target-heavy-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Bayani medium target combo into heavy-punch rising-kick juggle",
+		"summary": "Keep Bayani available for the medium target's enhanced Alon, then link standing heavy punch into heavy rising kick without Drive.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Target combo", "Bayani"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > st.MP > 236MP > 6P (Bayani) > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Medium-punch target continuation"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Daloy ng Tubig"
+			},
+			{
+				"id": "step-4",
+				"notation": "6P (Bayani)",
+				"label": "Bayani Alon follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": ["Classic controls", "Bayani available before the enhanced Alon follow-up"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 445.7,
+			"end": 452.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-bayani-medium-target-heavy-rise/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-bayani-medium-target-heavy-rise/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-bayani-medium-target-heavy-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-bayani-medium-target-heavy-rise/frame-1.jpg",
+					"at": 0.95,
+					"label": "Context",
+					"alt": "The standing-medium-punch target combo starts the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-bayani-medium-target-heavy-rise/frame-2.jpg",
+					"at": 2.55,
+					"label": "Conversion",
+					"alt": "Bayani medium Alon launches Ryu for the heavy-punch pickup."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-bayani-medium-target-heavy-rise/frame-3.jpg",
+					"at": 4.5,
+					"label": "Result",
+					"alt": "Heavy rising kick completes the meterless-Drive juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-bayani-light-alon-knockdown",
+			"yasmine-depth-bayani-light-alon-jump-guard",
+			"yasmine-depth-bayani-heavy-alon-raw-rush"
+		]
+	},
+	{
+		"id": "yasmine-depth-bayani-heavy-alon-raw-rush",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Bayani heavy Alon: raw Rush Talim extension",
+		"summary": "Use Bayani heavy Alon's launch for a one-bar raw-Rush pickup, then finish the Talim juggle with heavy rising kick.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Bayani", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > 236HP > 6P (Bayani) > DR > cr.MP > 214HP > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-3",
+				"notation": "6P (Bayani)",
+				"label": "Bayani Alon follow-up"
+			},
+			{
+				"id": "step-4",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "Heavy Talim ng Hangin"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Bayani available for the heavy Alon",
+			"Match the demonstrated raw-Rush airborne pickup"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 452.75,
+			"end": 462.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-bayani-heavy-alon-raw-rush/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-bayani-heavy-alon-raw-rush/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-bayani-heavy-alon-raw-rush/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-bayani-heavy-alon-raw-rush/frame-1.jpg",
+					"at": 1.65,
+					"label": "Context",
+					"alt": "Crouching medium confirms into the Bayani heavy-Alon launch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-bayani-heavy-alon-raw-rush/frame-2.jpg",
+					"at": 3.95,
+					"label": "Conversion",
+					"alt": "Raw Drive Rush crouching medium picks up the airborne opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-bayani-heavy-alon-raw-rush/frame-3.jpg",
+					"at": 6.95,
+					"label": "Result",
+					"alt": "Heavy Talim and heavy punch lead into heavy rising kick."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-vesper-bayani-medium-heavy-juggle",
+			"yasmine-depth-low-rush-heavy-alon",
+			"yasmine-depth-raw-rush-overhead-heavy-alon"
+		]
+	},
+	{
+		"id": "yasmine-depth-corner-22hp-short-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Corner 22HP cover after the Rush route: throw",
+		"summary": "After the corner Bayani-Alon/Rush/Talim route, throw under 22HP cover; this prerequisite gives the source's distinct +2 result.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "22HP > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "22HP",
+				"label": "Heavy 22HP boomerang cover"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the shown corner Bayani-heavy-Alon → raw Rush → cr.MP → heavy Talim → standing-HP route"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames.",
+			"The source reports +2F after 22HP in this route, distinct from the earlier +5F OD-Talim setup. No two-frame wait is prescribed."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 473.15,
+			"end": 482.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-corner-22hp-short-throw/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-corner-22hp-short-throw/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-corner-22hp-short-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-corner-22hp-short-throw/frame-1.jpg",
+					"at": 4.75,
+					"label": "Context",
+					"alt": "The Bayani/Raw-Rush Talim route ends with heavy punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-corner-22hp-short-throw/frame-2.jpg",
+					"at": 5.55,
+					"label": "Conversion",
+					"alt": "Yasmine performs the recorded 22HP cover action as Ryu falls."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-corner-22hp-short-throw/frame-3.jpg",
+					"at": 7.05,
+					"label": "Result",
+					"alt": "The follow-up throw connects in the corner."
+				}
+			]
+		},
+		"relatedIds": ["yasmine-depth-corner-22hp-trade-confirm"]
+	},
+	{
+		"id": "yasmine-depth-corner-22hp-trade-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Corner 22HP pressure: convert the crouching-medium trade",
+		"summary": "From the +2 corner cover, convert the recorded crouching medium punch trade through heavy Alon and one raw Rush into renewed 22HP cover.",
+		"kind": "response",
+		"situations": ["Corner", "Counter hit"],
+		"outcomes": ["Trade conversion", "Pressure"],
+		"notation": "cr.MP (trade) > cr.MP > 236HP > 6P > DR > cr.MP > 214HP > st.HP > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP (trade)",
+				"label": "Crouching medium punch trades"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-4",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "Heavy Talim ng Hangin"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "22HP",
+				"label": "Heavy 22HP boomerang cover"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After the shown +2F corner 22HP setup",
+			"Ryu uses the recorded close attack and both characters take the demonstrated trade"
+		],
+		"notes": [
+			"The first moment shows both Counter Hit indicators. This is the specific recorded trade, not a guarantee against every button.",
+			"The replay retains the prerequisite cover; the input sequence begins with the trading crouching medium."
+		],
+		"resources": {
+			"drive": "One additional raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 554.25,
+			"end": 565.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-corner-22hp-trade-confirm/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-corner-22hp-trade-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-corner-22hp-trade-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-corner-22hp-trade-confirm/frame-1.jpg",
+					"at": 1.65,
+					"label": "Context",
+					"alt": "Crouching medium and Ryu’s attack trade after the shown 22HP setup."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-corner-22hp-trade-confirm/frame-2.jpg",
+					"at": 3.75,
+					"label": "Conversion",
+					"alt": "A second crouching medium and heavy Alon continue the trade conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-corner-22hp-trade-confirm/frame-3.jpg",
+					"at": 8.45,
+					"label": "Result",
+					"alt": "The raw-Rush Talim extension ends in another 22HP cover action."
+				}
+			]
+		},
+		"relatedIds": ["yasmine-depth-corner-22hp-short-throw"]
+	},
+	{
+		"id": "yasmine-depth-corner-throw-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Corner throw: dash, walk and throw",
+		"summary": "After a corner forward throw, dash and walk to the shown throw spacing; +10 reports the advantage after the dash.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "Dash > Walk > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": ["Classic controls", "After a forward normal throw in the corner"],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames.",
+			"The source’s +10F is remaining advantage after the dash, not a ten-frame wait."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 572.25,
+			"end": 578.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-corner-throw-walk-throw/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-corner-throw-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-corner-throw-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-corner-throw-walk-throw/frame-1.jpg",
+					"at": 1.55,
+					"label": "Context",
+					"alt": "The first normal throw knocks Ryu down at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-corner-throw-walk-throw/frame-2.jpg",
+					"at": 1.95,
+					"label": "Conversion",
+					"alt": "Yasmine dashes and walks back into range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-corner-throw-walk-throw/frame-3.jpg",
+					"at": 3.85,
+					"label": "Result",
+					"alt": "The follow-up throw catches Ryu on wake-up."
+				}
+			]
+		},
+		"relatedIds": ["yasmine-depth-corner-throw-shimmy", "yasmine-depth-corner-throw-low-target"]
+	},
+	{
+		"id": "yasmine-depth-corner-throw-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Corner throw: dash shimmy into heavy Alon",
+		"summary": "Dash after the corner throw, retreat from Ryu's wake-up throw and punish into heavy Alon without extra Drive.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "Dash > 4 > st.HP > cr.MP > 236HP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "Heavy Daloy ng Tubig"
+			},
+			{
+				"id": "step-6",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a forward normal throw in the corner; Ryu attempts a wake-up throw"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 578.95,
+			"end": 586.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-corner-throw-shimmy/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-corner-throw-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-corner-throw-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-corner-throw-shimmy/frame-1.jpg",
+					"at": 1.25,
+					"label": "Context",
+					"alt": "The prerequisite throw leaves Ryu knocked down in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-corner-throw-shimmy/frame-2.jpg",
+					"at": 2.2,
+					"label": "Conversion",
+					"alt": "Ryu’s wake-up throw whiffs after Yasmine moves back."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-corner-throw-shimmy/frame-3.jpg",
+					"at": 5.5,
+					"label": "Result",
+					"alt": "The heavy-punch/crouching-medium punish ends in heavy Alon."
+				}
+			]
+		},
+		"relatedIds": ["yasmine-depth-corner-throw-walk-throw", "yasmine-depth-corner-throw-low-target"]
+	},
+	{
+		"id": "yasmine-depth-corner-throw-low-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Corner throw: dash low target combo into medium Alon",
+		"summary": "Dash after the corner forward throw and start the wake-up confirm low, then link two standing jabs into ordinary medium Alon.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "Dash > cr.LK > st.LP > st.LP > 236MP > 6P",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "Jab target continuation"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MP",
+				"label": "Medium Daloy ng Tubig"
+			},
+			{
+				"id": "step-6",
+				"notation": "6P",
+				"label": "Alon follow-up"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a forward normal throw in the corner; crouching LK connects on wake-up"
+		],
+		"notes": [
+			"The replay retains the prerequisite for context. The input sequence begins with the follow-up after that prerequisite.",
+			"Numeric +F captions report the source’s remaining advantage; they are not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 587.3,
+			"end": 594.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-corner-throw-low-target/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-corner-throw-low-target/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-corner-throw-low-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-corner-throw-low-target/frame-1.jpg",
+					"at": 2.0,
+					"label": "Context",
+					"alt": "The normal throw supplies the prerequisite corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-corner-throw-low-target/frame-2.jpg",
+					"at": 2.9,
+					"label": "Conversion",
+					"alt": "Crouching light kick begins the dash low confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-corner-throw-low-target/frame-3.jpg",
+					"at": 5.2,
+					"label": "Result",
+					"alt": "Medium Alon ends the jab-target conversion."
+				}
+			]
+		},
+		"relatedIds": ["yasmine-depth-corner-throw-walk-throw", "yasmine-depth-corner-throw-shimmy"]
+	},
+	{
+		"id": "yasmine-depth-counter-di-air-kick-rush",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Counter DI: jump heavy kick into raw-Rush Talim juggle",
+		"summary": "Counter-DI crumple lets the forward-jump heavy kick connect; spend one raw Rush on the Talim pickup and heavy rising-kick finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 9 > j.HK > DR > cr.MP > 214HP > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-3",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "Heavy Talim ng Hangin"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Counter-DI crumple; not blocked-DI wall splat",
+			"Match the jump-heavy-kick crumple timing"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact plus raw Drive Rush (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 597.45,
+			"end": 608.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-counter-di-air-kick-rush/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-counter-di-air-kick-rush/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-counter-di-air-kick-rush/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-counter-di-air-kick-rush/frame-1.jpg",
+					"at": 3.55,
+					"label": "Context",
+					"alt": "Yasmine counter-impacts Ryu’s recorded Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-counter-di-air-kick-rush/frame-2.jpg",
+					"at": 4.95,
+					"label": "Conversion",
+					"alt": "Jumping heavy kick strikes the crumple before the raw-Rush pickup."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-counter-di-air-kick-rush/frame-3.jpg",
+					"at": 8.8,
+					"label": "Result",
+					"alt": "The Talim/heavy-punch juggle ends in heavy rising kick."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-counter-di-light-kick-side-switch",
+			"yasmine-depth-counter-di-dash-medium-talim"
+		]
+	},
+	{
+		"id": "yasmine-depth-counter-di-light-kick-side-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Counter DI: light-kick special continuation switches sides",
+		"summary": "Use the punch continuation after 236LK to switch sides from the close counter-DI crumple, then finish heavy punch into heavy rising kick.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter", "Side switch"],
+		"outcomes": ["Side switch", "Knockdown"],
+		"notation": "DI > 236LK > P > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "236LK",
+				"label": "Quarter-circle forward + light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "P",
+				"label": "Punch continuation after 236LK"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": ["Classic controls", "Counter-DI crumple at the shown close spacing"],
+		"notes": [
+			"The performed continuation is punch after 236LK. Captioned alternative finishers are not combined into this take."
+		],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 609.35,
+			"end": 618.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-counter-di-light-kick-side-switch/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-counter-di-light-kick-side-switch/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-counter-di-light-kick-side-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-counter-di-light-kick-side-switch/frame-1.jpg",
+					"at": 3.05,
+					"label": "Context",
+					"alt": "The counter Drive Impact crumples Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-counter-di-light-kick-side-switch/frame-2.jpg",
+					"at": 5.25,
+					"label": "Conversion",
+					"alt": "The light-kick special and punch continuation carry Yasmine through to the other side."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-counter-di-light-kick-side-switch/frame-3.jpg",
+					"at": 6.95,
+					"label": "Result",
+					"alt": "Standing heavy punch and heavy rising kick finish after the side switch."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-counter-di-air-kick-rush",
+			"yasmine-depth-counter-di-dash-medium-talim"
+		]
+	},
+	{
+		"id": "yasmine-depth-counter-di-dash-medium-talim",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "yasmine"
+			}
+		],
+		"title": "Counter DI: dash into crouching heavy and medium Talim",
+		"summary": "After counter-DI crumple, dash to crouching heavy punch and use medium Talim before the heavy punch and rising kick juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > Dash > cr.HP > 214MP > st.HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214MP",
+				"label": "Medium Talim ng Hangin"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "623HK",
+				"label": "Heavy Lipad ng Agila"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Counter-DI crumple, distinct from the preserved blocked-DI wall-splat entry",
+			"Use the demonstrated dash pickup"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-yasmine-2026",
+			"title": "Classic YASMINE DAY1 Combos & Setup Guide 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=2oprUYMR4Rk",
+			"published": "2026-08-04",
+			"start": 618.7,
+			"end": 628.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/yasmine/yasmine-depth-counter-di-dash-medium-talim/clip.mp4",
+			"poster": "/media/yasmine/yasmine-depth-counter-di-dash-medium-talim/frame-1.jpg",
+			"descriptionTrack": "/media/yasmine/yasmine-depth-counter-di-dash-medium-talim/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/yasmine/yasmine-depth-counter-di-dash-medium-talim/frame-1.jpg",
+					"at": 3.4,
+					"label": "Context",
+					"alt": "The counter Drive Impact creates the crumple."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/yasmine/yasmine-depth-counter-di-dash-medium-talim/frame-2.jpg",
+					"at": 5.5,
+					"label": "Conversion",
+					"alt": "A forward dash positions crouching heavy and medium Talim."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/yasmine/yasmine-depth-counter-di-dash-medium-talim/frame-3.jpg",
+					"at": 7.4,
+					"label": "Result",
+					"alt": "Standing heavy punch and heavy rising kick finish the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"yasmine-depth-counter-di-air-kick-rush",
+			"yasmine-depth-counter-di-light-kick-side-switch"
+		]
 	}
 ]

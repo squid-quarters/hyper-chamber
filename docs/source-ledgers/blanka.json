@@ -1,0 +1,724 @@
+{
+	"characterId": "blanka",
+	"reviewedOn": "2026-11-12",
+	"status": "Partial extraction; source reviewed, not current-patch game-tested",
+	"originalReferencesPreserved": 12,
+	"newReferences": 30,
+	"newKinds": {
+		"setup": 8,
+		"combo": 18,
+		"response": 4
+	},
+	"newMoments": 136,
+	"sources": [
+		{
+			"sourceKey": "orang-blanka-2023",
+			"youtubeId": "bqMgPmmD1qs",
+			"duration": 333.78345,
+			"sourceRecordingSha256": "5ae59f68a24f0039c1a3463d9489aebbb82faa08eab40635001f2516e0d2d684",
+			"surveyedIntervals": [
+				{
+					"start": 0,
+					"end": 333.78345,
+					"method": "One-second discovery survey across the complete retained recording; selected intervals reviewed densely. Survey is not full execution extraction."
+				}
+			],
+			"intervals": [
+				{
+					"start": 0,
+					"end": 5.75,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 5.75,
+					"end": 8.95,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-blocked-back-medium-low-counter"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 8.95,
+					"end": 9.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 9.65,
+					"end": 12.75,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-blocked-od-electric-jab-counter"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 12.75,
+					"end": 13.4,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 13.4,
+					"end": 16.0,
+					"disposition": "reused",
+					"referenceIds": ["blanka-low-jabs-roll"],
+					"reason": "Original reference object, revision and media preserved without reauthoring.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 16.0,
+					"end": 16.15,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 16.15,
+					"end": 19.85,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-low-light-rush-electric"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 19.85,
+					"end": 20.1,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 20.1,
+					"end": 23.7,
+					"disposition": "reused",
+					"referenceIds": ["blanka-rush-light-heavy-roll"],
+					"reason": "Original reference object, revision and media preserved without reauthoring.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 23.7,
+					"end": 23.95,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 23.95,
+					"end": 26.75,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-triple-jab-light-electric"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 26.75,
+					"end": 26.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 26.9,
+					"end": 29.3,
+					"disposition": "reused",
+					"referenceIds": ["blanka-standing-lights-roll"],
+					"reason": "Original reference object, revision and media preserved without reauthoring.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 29.3,
+					"end": 30.0,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 30.0,
+					"end": 33.65,
+					"disposition": "reused",
+					"referenceIds": ["blanka-back-medium-od-air-roll"],
+					"reason": "Original reference object, revision and media preserved without reauthoring.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 33.65,
+					"end": 34.45,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 34.45,
+					"end": 51.15,
+					"disposition": "reused",
+					"referenceIds": ["blanka-medium-double-rush-level-three"],
+					"reason": "Original reference object, revision and media preserved without reauthoring.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 51.15,
+					"end": 51.3,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 51.3,
+					"end": 53.35,
+					"disposition": "reused",
+					"referenceIds": ["blanka-back-medium-electric"],
+					"reason": "Original reference object, revision and media preserved without reauthoring.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 53.35,
+					"end": 53.9,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 53.9,
+					"end": 57.25,
+					"disposition": "reused",
+					"referenceIds": ["blanka-forward-medium-jabs-roll"],
+					"reason": "Original reference object, revision and media preserved without reauthoring.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 57.25,
+					"end": 57.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 57.65,
+					"end": 60.15,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-forward-medium-light-electric"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 60.15,
+					"end": 60.45,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 60.45,
+					"end": 67.35,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-standing-medium-double-rush-vertical"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 67.35,
+					"end": 67.55,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 67.55,
+					"end": 69.8,
+					"disposition": "reused",
+					"referenceIds": ["blanka-low-medium-jab-roll"],
+					"reason": "Original reference object, revision and media preserved without reauthoring.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 69.8,
+					"end": 70.45,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 70.45,
+					"end": 72.4,
+					"disposition": "reused",
+					"referenceIds": ["blanka-heavy-roll"],
+					"reason": "Original reference object, revision and media preserved without reauthoring.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 72.4,
+					"end": 72.95,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 72.95,
+					"end": 76.2,
+					"disposition": "reused",
+					"referenceIds": ["blanka-heavy-wild-lift-roll"],
+					"reason": "Original reference object, revision and media preserved without reauthoring.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 76.2,
+					"end": 76.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 76.65,
+					"end": 79.8,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-heavy-od-air-roll"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 79.8,
+					"end": 81.7,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 81.7,
+					"end": 84.85,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-heavy-lift-slide"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 84.85,
+					"end": 85.0,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 85.0,
+					"end": 101.3,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-raw-rush-heavy-triple-level-three"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 101.3,
+					"end": 101.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 101.65,
+					"end": 104.15,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-counter-standing-medium-jab-roll"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 104.15,
+					"end": 104.45,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 104.45,
+					"end": 108.6,
+					"disposition": "reused",
+					"referenceIds": ["blanka-counter-back-medium-vertical"],
+					"reason": "Original reference object, revision and media preserved without reauthoring.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 108.6,
+					"end": 109.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 109.5,
+					"end": 113.4,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-counter-forward-medium-od-air"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 113.4,
+					"end": 114.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 114.65,
+					"end": 121.25,
+					"disposition": "reused",
+					"referenceIds": ["blanka-counter-di-wild-lift-vertical"],
+					"reason": "Original reference object, revision and media preserved without reauthoring.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 121.25,
+					"end": 121.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 121.65,
+					"end": 128.95,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-counter-di-od-air"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 128.95,
+					"end": 129.45,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 129.45,
+					"end": 135.45,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-wall-splat-double-vertical"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 135.45,
+					"end": 138.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 138.65,
+					"end": 142.45,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-pc-low-medium-electric"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 142.45,
+					"end": 142.5,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 142.5,
+					"end": 146.25,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-pc-forward-medium-lift-roll"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 146.25,
+					"end": 146.6,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 146.6,
+					"end": 150.9,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-pc-heavy-kick-od-air"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 150.9,
+					"end": 153.25,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 153.25,
+					"end": 162.85,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-pc-rush-heavy-carry-slide"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 162.85,
+					"end": 163.3,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 163.3,
+					"end": 168.15,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-pc-forward-heavy-level-one"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 168.15,
+					"end": 172.05,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 172.05,
+					"end": 187.35,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-pc-heavy-double-rush-level-three"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 187.35,
+					"end": 189.85,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 189.85,
+					"end": 207.1,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-stun-doll-level-three"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 207.1,
+					"end": 213.55,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 213.55,
+					"end": 229.85,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-corner-doll-low-block-overhead"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 229.85,
+					"end": 235.45,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 235.45,
+					"end": 252.25,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-corner-doll-high-block-low"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 252.25,
+					"end": 255.25,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 255.25,
+					"end": 272.65,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-corner-doll-grab-mash-counter"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 272.65,
+					"end": 275.1,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 275.1,
+					"end": 293.85,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-corner-doll-reversal-block-punish"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 293.85,
+					"end": 333.78345,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				}
+			]
+		},
+		{
+			"sourceKey": "scorp-fgc-blanka-guide-2023",
+			"youtubeId": "_SUaCa5MYXQ",
+			"duration": 1575.1,
+			"sourceRecordingSha256": "9ed17e753cbd7c3bae7a7b6509bc5d03863b889d4b17e9e56e0238e6753e389b",
+			"surveyedIntervals": [
+				{
+					"start": 432,
+					"end": 608,
+					"method": "Four-second discovery survey through the anti-air section, with dense original input/action review of the four selected responses."
+				},
+				{
+					"start": 804,
+					"end": 960,
+					"method": "One-second discovery survey through this part of the oki section; selected hop branches and their jump-in/slide prerequisite reviewed densely. The generated 960–987 boards have not been reviewed."
+				}
+			],
+			"intervals": [
+				{
+					"start": 0,
+					"end": 452.1,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 452.1,
+					"end": 454.45,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-back-medium-anti-air"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 454.45,
+					"end": 510.45,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 510.45,
+					"end": 513.2,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-standing-heavy-kick-anti-air"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 513.2,
+					"end": 545.65,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 545.65,
+					"end": 548.5,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-light-vertical-neutral-jump"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 548.5,
+					"end": 600.3,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 600.3,
+					"end": 604.15,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-air-throw-jump-response"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 604.15,
+					"end": 807.1,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 807.1,
+					"end": 810.2,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-slide-hop-medium-oki"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 810.2,
+					"end": 814.35,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				},
+				{
+					"start": 814.35,
+					"end": 819.5,
+					"disposition": "reviewed",
+					"referenceIds": ["blanka-depth-slide-hop-throw-oki"],
+					"reason": "Source recipe, action order, input history, resource HUD, all prepared moments and both loop boundaries reviewed.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 819.5,
+					"end": 1575.1,
+					"disposition": "unprocessed",
+					"reason": "Outside selected intervals; discovery survey does not establish a fully reviewed or extracted execution."
+				}
+			]
+		}
+	],
+	"excludedCandidates": [
+		{
+			"sourceKey": "orang-blanka-2023",
+			"start": 136,
+			"end": 138.65,
+			"disposition": "excluded",
+			"reason": "Intervening practice/failed take before the selected low-medium Punish Counter; not a separate reference."
+		},
+		{
+			"sourceKey": "orang-blanka-2023",
+			"start": 294,
+			"end": 333.78345,
+			"disposition": "unprocessed",
+			"reason": "The SA2/doll juggle chapters were surveyed but exact directional Cannon inputs, action boundaries and costs are not fully execution-reviewed; no guessed SA2 recipe authored."
+		},
+		{
+			"sourceKey": "scorp-fgc-blanka-guide-2023",
+			"start": 584,
+			"end": 594,
+			"disposition": "ambiguous",
+			"reason": "Coward Crouch duck/jump and follow-up demonstrations do not yet have a fully resolved action recipe; excluded from source-reviewed content."
+		},
+		{
+			"sourceKey": "scorp-fgc-blanka-guide-2023",
+			"start": 876.5,
+			"end": 890.5,
+			"disposition": "ambiguous",
+			"reason": "Further Rush/delayed-hop oki probes are incomplete; the demonstrated input variants have not been resolved well enough to publish a recipe."
+		}
+	],
+	"discoveryOnly": [
+		{
+			"url": "https://www.youtube.com/watch?v=y4nWkDdPeAM",
+			"creator": "Killerex100",
+			"published": "2026-01-06",
+			"surveyedStart": 0,
+			"surveyedEnd": 72,
+			"surveyMethod": "Three-second discovery frames only.",
+			"unprocessedStart": 72,
+			"unprocessedEnd": 382,
+			"selectedReferences": 0,
+			"reason": "Potential newer SA2/doll companion; surveyed candidates remain unresolved. Not added as an authored reference source."
+		}
+	],
+	"interpretationDecisions": [
+		{
+			"topic": "Electric Thunder strength",
+			"decision": "The low-light Rush route visibly finishes with medium punch (214MP); the triple-jab and forward-medium routes use light punch. Strengths follow the input glyphs, not the generic 214P chapter caption."
+		},
+		{
+			"topic": "Doll and Backstep inputs",
+			"decision": "Heavy placement in the stun route is 22HP; the four corner reset branches use 22LP. 63214K is Backstep Rolling Attack, not Wild Hunt. All four corner branches visibly use low-health Critical Art and require the corresponding health condition."
+		},
+		{
+			"topic": "Hop oki prerequisite and branches",
+			"decision": "The demonstrated prerequisite is j.HK > cr.HP > 2PP > P > 3HP. Forward hop uses back medium kick, not standing medium kick. The hit branch links crouching jab into light Electricity. The throw branch includes the blocked knee and forward walk."
+		},
+		{
+			"topic": "Throw display limitation",
+			"decision": "Blanka visibly throws Ryu, but the original input display omits the throw-button chord. The authored action is generic Throw; no exact button chord or tick-throw timing is inferred. This limitation is visible in the reference verification note."
+		},
+		{
+			"topic": "Reversal branch",
+			"decision": "Blue block contact confirms guarding the recorded Jamie OD reversal. The recipe explicitly includes Guard and does not claim an unguarded low-profile evasion or universal reversal coverage."
+		},
+		{
+			"topic": "Drive and frame advantage",
+			"decision": "A raw Rush plus two cancel Rushes is a nominal seven-bar spend across a route that starts from the shown gauge and finishes in burnout; no seven-bar gauge capacity is implied. Source +F labels describe advantage, not an invented wait."
+		},
+		{
+			"topic": "Presentation and loop boundaries",
+			"decision": "Source crossfades are retained only when needed to preserve the first action. Unlisted practice jabs, next takes and replay transitions are trimmed out. Full original frame, HUD and input displays remain visible."
+		}
+	]
+}

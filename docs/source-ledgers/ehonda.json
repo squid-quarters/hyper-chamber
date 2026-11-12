@@ -1,0 +1,489 @@
+{
+	"characterId": "ehonda",
+	"reviewedOn": "2026-11-12",
+	"baselineReferences": 13,
+	"references": 50,
+	"newReferences": 37,
+	"kinds": {
+		"combo": 27,
+		"setup": 19,
+		"response": 4
+	},
+	"tagCounts": {
+		"Punish": 11,
+		"Oki": 21,
+		"Anti-air": 1,
+		"Corner": 16,
+		"Drive Impact": 3,
+		"Cash-out": 1,
+		"Side switch": 1
+	},
+	"verification": "source-reviewed; current-patch gameplay untested",
+	"sources": [
+		{
+			"sourceId": "joe-ebios-ehonda-2026",
+			"youtubeId": "-fyURA3Ha94",
+			"url": "https://www.youtube.com/watch?v=-fyURA3Ha94",
+			"title": "Classic HONDA Combos & Setup Guide POST-PATCH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"published": "2026-03-28",
+			"duration": 1556,
+			"recordingSha256": "91239c5c28f4ea798aebfa06796cb7c47d80f06cf0e35cd2c5a218c456069003",
+			"selected": [
+				{
+					"referenceId": "ehonda-low-lights-headbutt",
+					"start": 2.65,
+					"end": 6.25,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-corner-headbutt-frame-kill-throw",
+					"start": 57.75,
+					"end": 62.2,
+					"kind": "setup",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-lights-medium-smash",
+					"start": 97.35,
+					"end": 101.65,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-smash-jab-kill-oicho",
+					"start": 151.35,
+					"end": 155.0,
+					"kind": "setup",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-lights-medium-hands",
+					"start": 174.75,
+					"end": 178.35,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-lights-rush-lift-smash",
+					"start": 178.75,
+					"end": 185.25,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-spirit-light-cashout",
+					"start": 203.35,
+					"end": 219.55,
+					"kind": "combo",
+					"selectedMoments": 5
+				},
+				{
+					"referenceId": "ehonda-low-medium-double-slaps",
+					"start": 380.45,
+					"end": 385.6,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-medium-rush-lift-smash",
+					"start": 419.55,
+					"end": 425.4,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-counter-medium-headbutt",
+					"start": 451.4,
+					"end": 456.65,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-heavy-punish-lift-smash",
+					"start": 487.05,
+					"end": 493.0,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-rush-overhead-lights",
+					"start": 732.1,
+					"end": 738.15,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-corner-counter-di-lift-headbutt",
+					"start": 1390.85,
+					"end": 1400.35,
+					"kind": "combo",
+					"selectedMoments": 5
+				},
+				{
+					"referenceId": "ehonda-depth-headbutt-rush-medium",
+					"start": 8.65,
+					"end": 13.0,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-headbutt-corner-overhead",
+					"start": 20.65,
+					"end": 25.25,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-headbutt-ryu-dp-bait",
+					"start": 28.55,
+					"end": 34.55,
+					"kind": "response",
+					"selectedMoments": 5
+				},
+				{
+					"referenceId": "ehonda-depth-headbutt-corner-di-reset",
+					"start": 48.0,
+					"end": 51.1,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-headbutt-shimmy",
+					"start": 64.55,
+					"end": 72.45,
+					"kind": "setup",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-depth-headbutt-meaty-medium",
+					"start": 75.5,
+					"end": 82.0,
+					"kind": "setup",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-depth-headbutt-blocked-meaty-oicho",
+					"start": 84.6,
+					"end": 89.1,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-headbutt-blocked-meaty-low",
+					"start": 92.0,
+					"end": 96.4,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-smash-meaty-overhead",
+					"start": 109.35,
+					"end": 113.45,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-smash-ryu-dp-bait",
+					"start": 116.5,
+					"end": 122.35,
+					"kind": "response",
+					"selectedMoments": 5
+				},
+				{
+					"referenceId": "ehonda-depth-smash-jab-kill-normal-throw",
+					"start": 143.85,
+					"end": 148.1,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-smash-jab-kill-shimmy",
+					"start": 158.05,
+					"end": 165.2,
+					"kind": "setup",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-depth-smash-jab-kill-medium-target",
+					"start": 168.0,
+					"end": 173.45,
+					"kind": "setup",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-depth-delayed-smash-overhead-oicho",
+					"start": 198.3,
+					"end": 202.9,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-spirit-target-headbutt",
+					"start": 358.05,
+					"end": 363.45,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-pc-jab-medium-smash",
+					"start": 365.55,
+					"end": 369.35,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-pc-jab-heavy-lift-smash",
+					"start": 371.65,
+					"end": 376.5,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-depth-low-medium-jab-smash",
+					"start": 386.05,
+					"end": 390.55,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-spirit-low-od-hands-target",
+					"start": 394.05,
+					"end": 400.65,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-medium-target-slaps",
+					"start": 407.25,
+					"end": 412.65,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-medium-od-hands-lights-smash",
+					"start": 413.05,
+					"end": 418.4,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-medium-double-rush-level-three",
+					"start": 426.25,
+					"end": 437.55,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-depth-pc-medium-heavy-lift",
+					"start": 458.6,
+					"end": 464.55,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-pc-medium-headbutt",
+					"start": 465.35,
+					"end": 469.55,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-counter-medium-od-lift",
+					"start": 470.65,
+					"end": 475.5,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-depth-normal-heavy-lift-smash",
+					"start": 480.4,
+					"end": 486.45,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-pc-heavy-raw-rush-lift",
+					"start": 493.65,
+					"end": 500.55,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-depth-heavy-kick-lift-smash",
+					"start": 501.25,
+					"end": 506.55,
+					"kind": "combo",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-forward-throw-rush-low",
+					"start": 755.6,
+					"end": 758.6,
+					"kind": "setup",
+					"selectedMoments": 2
+				},
+				{
+					"referenceId": "ehonda-depth-forward-throw-walk-medium",
+					"start": 761.25,
+					"end": 765.55,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-back-throw-dash-light-oicho",
+					"start": 777.9,
+					"end": 782.55,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-back-throw-dash-target",
+					"start": 785.1,
+					"end": 788.55,
+					"kind": "setup",
+					"selectedMoments": 3
+				},
+				{
+					"referenceId": "ehonda-depth-back-throw-rush-throw",
+					"start": 791.25,
+					"end": 796.55,
+					"kind": "setup",
+					"selectedMoments": 2
+				},
+				{
+					"referenceId": "ehonda-depth-wall-splat-heavy-kick-lift",
+					"start": 1401.65,
+					"end": 1409.1,
+					"kind": "combo",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-depth-drive-reversal-heavy-oicho",
+					"start": 1411.55,
+					"end": 1416.65,
+					"kind": "response",
+					"selectedMoments": 4
+				},
+				{
+					"referenceId": "ehonda-depth-heavy-kick-side-switch-super",
+					"start": 1431.35,
+					"end": 1441.65,
+					"kind": "combo",
+					"selectedMoments": 4
+				}
+			],
+			"timelineSurvey": {
+				"interval": [0, 1556],
+				"intervalSeconds": 8,
+				"status": "survey-only",
+				"note": "Contact-sheet discovery locators are not evidence that every candidate route has been extracted."
+			},
+			"executionReviewWindows": [
+				[0, 200],
+				[354, 510],
+				[752, 820],
+				[1399, 1444]
+			],
+			"dispositions": [
+				{
+					"interval": [0, 200],
+					"status": "reviewed-selection",
+					"note": "Distinct Headbutt/Smash knockdown, overhead, blocked-meaty, throw, shimmy and Ryu reversal-bait branches selected. Repeated prerequisite combos are not counted again. JP and Ed/Cammy counterexamples are documented as limits rather than safe universal baits."
+				},
+				{
+					"interval": [354, 510],
+					"status": "reviewed-selection",
+					"note": "Spirit, normal/Counter Hit/Punish Counter, light/medium/heavy and resource extensions reviewed. The 475.5–477.8 blocked-Rush test is excluded from combo extraction; its earlier counter-hit medium take is selected instead."
+				},
+				{
+					"interval": [752, 820],
+					"status": "reviewed-selection",
+					"note": "Forward-throw low/medium and back-throw dash-strike/command-throw/Rush-throw branches selected. Back-throw DI and longer shimmy/strike alternatives remain candidate material."
+				},
+				{
+					"interval": [1399, 1444],
+					"status": "reviewed-selection",
+					"note": "Blocked-DI wall splat, blocked Drive Reversal punish and Level1 side switch selected. The1425–1430HP/Walk/Headbutt side-switch sequence is excluded pending precise reset/whiff interpretation."
+				}
+			],
+			"remainingUnprocessedCandidateWindows": [
+				[200, 354],
+				[510, 752],
+				[820, 1399],
+				[1444, 1556]
+			],
+			"remainingNote": "Selected baseline references inside these windows remain retained. Unprocessed means the remaining candidate branches are not yet fully action/boundary-reviewed, not that the source has no useful material."
+		},
+		{
+			"sourceId": "ryuapprentice-ehonda-anti-air-2024",
+			"youtubeId": "s4MheNxmaiA",
+			"url": "https://www.youtube.com/watch?v=s4MheNxmaiA",
+			"title": "SF6 Honda Guide! How to Convert Your Anti Air into a Mixup Opportunity!",
+			"creator": "RyuApprentice",
+			"published": "2024-02-22",
+			"duration": 220,
+			"recordingSha256": "02566adba8dd28fcf8f96581f16ebed6186d5e24dbdc5e51812df27dff6101d3",
+			"selected": [
+				{
+					"referenceId": "ehonda-depth-anti-air-od-dash-reset",
+					"start": 119.65,
+					"end": 122.1,
+					"kind": "response",
+					"selectedMoments": 3
+				}
+			],
+			"timelineSurvey": {
+				"interval": [0, 220],
+				"intervalSeconds": 4,
+				"status": "survey-only"
+			},
+			"executionReviewWindows": [
+				[58, 70],
+				[118, 124],
+				[166, 193]
+			],
+			"dispositions": [
+				{
+					"interval": [0, 58],
+					"status": "excluded-from-new-reference",
+					"note": "Introduction, explanation, menus and introductory demonstrations; avoid duplicating the clearer selected OD approach."
+				},
+				{
+					"interval": [58, 70],
+					"status": "reviewed-not-selected",
+					"note": "Drive-Rush anti-air conversion and follow-up route reviewed as context; lacks input history and exact later Hands strength is not established, so no full recipe is authored."
+				},
+				{
+					"interval": [119.65, 122.1],
+					"status": "selected",
+					"referenceIds": ["ehonda-depth-anti-air-od-dash-reset"],
+					"note": "Only the named standing-heavy anti-air and visibly gold OD Dash approach are extracted. Creator narration plus animation/Drive evidence; no input-history display."
+				},
+				{
+					"interval": [166, 193],
+					"status": "reviewed-not-selected",
+					"note": "Additional low/meaty/throw/command-throw/cross-under branches demonstrated; no button-strength claims inferred from the video lacking input history."
+				}
+			],
+			"remainingUnprocessedCandidateWindows": [
+				[70, 118],
+				[124, 166],
+				[193, 220]
+			],
+			"remainingNote": "Narration/idle repetitions occupy much of these intervals. Only the selected two-action demonstration has reviewed cut boundaries."
+		}
+	],
+	"reviewEvidence": {
+		"allNewMomentAndBoundaryBoards": ".local/depth/review/ehonda/",
+		"inputHistoryStrengthCrops": ".local/depth/honda-inputs/",
+		"mechanicalAudit": ".local/depth/ehonda-media-audit.json"
+	},
+	"limits": [
+		"Counts describe distinct selected practice interactions, not complete source or character coverage.",
+		"All baseline IDs, revisions, related links and media are retained exactly.",
+		"Source overlays leave some kick strengths generic; selected inputs use the displayed strength rather than extending timing claims to every strength.",
+		"Frame advantage and matchup outcomes are dated source observations. Ryu reversal baits are not universal reversal safety."
+	]
+}

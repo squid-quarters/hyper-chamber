@@ -1127,5 +1127,4035 @@
 			"alex-vesper-low-heavy-knee",
 			"alex-vesper-low-level1"
 		]
+	},
+	{
+		"id": "alex-depth-heavy-knee-rush-back-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Heavy Knee: Rush back medium into crouching medium",
+		"summary": "Match the three-light heavy-Knee knockdown first; spend one new Drive bar on the back-medium-kick wake-up conversion.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up conversion", "Knockdown"],
+		"notation": "DR > b.MK > cr.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.LP, cr.LP, cr.LP into heavy Knee Smash, at the demonstrated midscreen separation"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 16.2,
+			"end": 21.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-heavy-knee-rush-back-medium/clip.mp4",
+			"poster": "/media/alex/alex-depth-heavy-knee-rush-back-medium/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-heavy-knee-rush-back-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-heavy-knee-rush-back-medium/frame-1.jpg",
+					"at": 0.6,
+					"label": "Context",
+					"alt": "Alex Rushes toward Ryu as the prior heavy-Knee knockdown ends."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-heavy-knee-rush-back-medium/frame-2.jpg",
+					"at": 0.85,
+					"label": "Action",
+					"alt": "Raw Drive Rush back medium kick connects on the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-heavy-knee-rush-back-medium/frame-3.jpg",
+					"at": 3.4,
+					"label": "Result",
+					"alt": "Crouching medium punch into heavy Knee Smash finishes the three-action follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat",
+			"alex-depth-od-knee-dash-throw"
+		]
+	},
+	{
+		"id": "alex-depth-heavy-knee-blocked-back-medium-command-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Heavy Knee: blocked Rush kick into medium command throw",
+		"summary": "Ryu guards the Rush back medium kick here; use medium command throw for the recorded follow-up rather than treating the blocked kick as a hit.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Post-block throw", "Hard knockdown"],
+		"notation": "DR > b.MK > 63214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "63214MP",
+				"label": "Medium command throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.LP, cr.LP, cr.LP into heavy Knee Smash, at the demonstrated midscreen separation",
+			"Ryu blocks the first back medium kick before the demonstrated throw branch"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 32.6,
+			"end": 38.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-heavy-knee-blocked-back-medium-command-throw/clip.mp4",
+			"poster": "/media/alex/alex-depth-heavy-knee-blocked-back-medium-command-throw/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-heavy-knee-blocked-back-medium-command-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-heavy-knee-blocked-back-medium-command-throw/frame-1.jpg",
+					"at": 0.65,
+					"label": "Context",
+					"alt": "Alex advances after the heavy-Knee knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-heavy-knee-blocked-back-medium-command-throw/frame-2.jpg",
+					"at": 1.4,
+					"label": "Action",
+					"alt": "Ryu blocks the Drive Rush back medium kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-heavy-knee-blocked-back-medium-command-throw/frame-3.jpg",
+					"at": 3.9,
+					"label": "Result",
+					"alt": "The medium command throw catches the recorded post-block response."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat",
+			"alex-depth-od-knee-dash-throw"
+		]
+	},
+	{
+		"id": "alex-depth-heavy-knee-blocked-back-medium-repeat",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Heavy Knee: blocked Rush kick into a second back medium",
+		"summary": "Distinguish the first guarded back medium kick from the second hit, then confirm the lights into heavy Knee.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Post-block conversion", "Knockdown"],
+		"notation": "DR > b.MK > b.MK > cr.LP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.LP, cr.LP, cr.LP into heavy Knee Smash, at the demonstrated midscreen separation",
+			"Ryu blocks the first back medium kick, then is hit by the second"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames.",
+			"The printed 623HP is a source overlay typo in this branch; the live red kick and Knee animation establish performed 623HK."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 43.15,
+			"end": 49.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-heavy-knee-blocked-back-medium-repeat/clip.mp4",
+			"poster": "/media/alex/alex-depth-heavy-knee-blocked-back-medium-repeat/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-heavy-knee-blocked-back-medium-repeat/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-heavy-knee-blocked-back-medium-repeat/frame-1.jpg",
+					"at": 0.95,
+					"label": "Context",
+					"alt": "The raw Rush back medium kick reaches the recovering Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-heavy-knee-blocked-back-medium-repeat/frame-2.jpg",
+					"at": 1.65,
+					"label": "Action",
+					"alt": "After Ryu blocks the first kick, the second back medium kick starts the recorded hit conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-heavy-knee-blocked-back-medium-repeat/frame-3.jpg",
+					"at": 4.25,
+					"label": "Result",
+					"alt": "Crouching jab and heavy Knee Smash end the follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-od-knee-dash-throw"
+		]
+	},
+	{
+		"id": "alex-depth-corner-heavy-knee-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Corner heavy Knee: dash and delayed normal throw",
+		"summary": "Use the corner heavy-Knee knockdown to practice the dash and visible throw delay without another Drive spend.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner throw knockdown"],
+		"notation": "Dash > Wait > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Wait",
+				"label": "Delay before the normal throw",
+				"cue": "Use the demonstrated visual timing; no numerical delay is asserted."
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.LP, cr.LP, cr.LP into heavy Knee Smash against cornered Ryu"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 59.6,
+			"end": 62.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-corner-heavy-knee-dash-throw/clip.mp4",
+			"poster": "/media/alex/alex-depth-corner-heavy-knee-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-corner-heavy-knee-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-corner-heavy-knee-dash-throw/frame-1.jpg",
+					"at": 0.45,
+					"label": "Context",
+					"alt": "The heavy Knee leaves Ryu down in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-corner-heavy-knee-dash-throw/frame-2.jpg",
+					"at": 1.2,
+					"label": "Action",
+					"alt": "Alex dashes and delays the normal throw until the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-corner-heavy-knee-dash-throw/frame-3.jpg",
+					"at": 2.5,
+					"label": "Result",
+					"alt": "The forward throw connects and retains the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-corner-heavy-knee-dash-command-throw",
+			"alex-depth-corner-heavy-knee-dash-shimmy",
+			"alex-depth-corner-heavy-knee-dash-crouching-heavy"
+		]
+	},
+	{
+		"id": "alex-depth-corner-heavy-knee-dash-command-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Corner heavy Knee: dash into medium command throw",
+		"summary": "After the corner heavy-Knee knockdown, dash into medium command throw; this approach adds no Drive cost.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Hard knockdown"],
+		"notation": "Dash > 63214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "63214MP",
+				"label": "Medium command throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.LP, cr.LP, cr.LP into heavy Knee Smash against cornered Ryu"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 67.75,
+			"end": 72.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-corner-heavy-knee-dash-command-throw/clip.mp4",
+			"poster": "/media/alex/alex-depth-corner-heavy-knee-dash-command-throw/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-corner-heavy-knee-dash-command-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-corner-heavy-knee-dash-command-throw/frame-1.jpg",
+					"at": 0.5,
+					"label": "Context",
+					"alt": "Alex closes after the heavy-Knee corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-corner-heavy-knee-dash-command-throw/frame-2.jpg",
+					"at": 1.45,
+					"label": "Action",
+					"alt": "The medium command throw catches the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-corner-heavy-knee-dash-command-throw/frame-3.jpg",
+					"at": 3.75,
+					"label": "Result",
+					"alt": "The command throw completes its hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-corner-heavy-knee-dash-throw",
+			"alex-depth-corner-heavy-knee-dash-shimmy",
+			"alex-depth-corner-heavy-knee-dash-crouching-heavy"
+		]
+	},
+	{
+		"id": "alex-depth-corner-heavy-knee-dash-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Corner heavy Knee: dash shimmy into medium pair",
+		"summary": "Retreat after the dash to make the recorded wake-up throw miss, then use the two-medium-punch punish.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish counter"],
+		"outcomes": ["Throw bait", "Corner knockdown"],
+		"notation": "Dash > 4 > st.MP > st.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.LP, cr.LP, cr.LP into heavy Knee Smash against cornered Ryu",
+			"Ryu attempts the recorded wake-up throw"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 76.6,
+			"end": 82.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-corner-heavy-knee-dash-shimmy/clip.mp4",
+			"poster": "/media/alex/alex-depth-corner-heavy-knee-dash-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-corner-heavy-knee-dash-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-corner-heavy-knee-dash-shimmy/frame-1.jpg",
+					"at": 0.7,
+					"label": "Context",
+					"alt": "Alex dashes after the corner heavy-Knee knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-corner-heavy-knee-dash-shimmy/frame-2.jpg",
+					"at": 1.6,
+					"label": "Action",
+					"alt": "The backward movement baits Ryu’s throw, and standing medium punch scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-corner-heavy-knee-dash-shimmy/frame-3.jpg",
+					"at": 3.8,
+					"label": "Result",
+					"alt": "A second standing medium punch links into heavy Knee Smash and keeps Ryu cornered."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-corner-throw-rush-whiff-jab-shimmy",
+			"alex-depth-corner-heavy-knee-dash-throw",
+			"alex-depth-corner-heavy-knee-dash-command-throw"
+		]
+	},
+	{
+		"id": "alex-depth-corner-heavy-knee-dash-crouching-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Corner heavy Knee: dash crouching heavy into Prowler chain",
+		"summary": "Practice the crouching-heavy pickup after the corner dash, then keep both Prowler punches before the light-kick link.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up conversion", "Corner knockdown"],
+		"notation": "Dash > cr.HP > 2PP > LP (Prowler) > HP (Prowler) > st.LK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2PP",
+				"label": "Enter Prowler Stance"
+			},
+			{
+				"id": "step-4",
+				"notation": "LP (Prowler)",
+				"label": "Prowler light-punch follow-up"
+			},
+			{
+				"id": "step-5",
+				"notation": "HP (Prowler)",
+				"label": "Prowler heavy-punch continuation"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.LP, cr.LP, cr.LP into heavy Knee Smash against cornered Ryu"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 95.1,
+			"end": 101.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-corner-heavy-knee-dash-crouching-heavy/clip.mp4",
+			"poster": "/media/alex/alex-depth-corner-heavy-knee-dash-crouching-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-corner-heavy-knee-dash-crouching-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-corner-heavy-knee-dash-crouching-heavy/frame-1.jpg",
+					"at": 0.55,
+					"label": "Context",
+					"alt": "Ryu finishes the heavy-Knee knockdown before the dash-follow-up conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-corner-heavy-knee-dash-crouching-heavy/frame-2.jpg",
+					"at": 2.1,
+					"label": "Action",
+					"alt": "Crouching heavy punch feeds the performed Prowler punch chain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-corner-heavy-knee-dash-crouching-heavy/frame-3.jpg",
+					"at": 4.4,
+					"label": "Result",
+					"alt": "Standing light kick into heavy Knee Smash completes the wake-up conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-corner-heavy-knee-dash-throw",
+			"alex-depth-corner-heavy-knee-dash-command-throw",
+			"alex-depth-corner-heavy-knee-dash-shimmy"
+		]
+	},
+	{
+		"id": "alex-depth-od-knee-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "OD Knee: dash into normal throw",
+		"summary": "The OD Knee is the prerequisite's two-bar cost; its dash-and-throw follow-up spends no additional Drive.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw knockdown"],
+		"notation": "Dash > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.LP, cr.LP, cr.LP into OD Knee Smash; Ryu has the recorded hard knockdown"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames.",
+			"The prerequisite OD Knee costs two Drive bars; the listed dash and throw add none."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 114.4,
+			"end": 118.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-od-knee-dash-throw/clip.mp4",
+			"poster": "/media/alex/alex-depth-od-knee-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-od-knee-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-od-knee-dash-throw/frame-1.jpg",
+					"at": 0.5,
+					"label": "Context",
+					"alt": "The OD Knee prerequisite leaves Ryu in hard knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-od-knee-dash-throw/frame-2.jpg",
+					"at": 1.5,
+					"label": "Action",
+					"alt": "Alex dashes and catches the demonstrated wake-up with a normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-od-knee-dash-throw/frame-3.jpg",
+					"at": 3.1,
+					"label": "Result",
+					"alt": "The forward throw completes without another Drive spend."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-od-knee-dash-heavy-command-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "OD Knee: dash into heavy command throw",
+		"summary": "Use heavy command throw after the dash in this take; its prior OD-Knee cost is separate from the follow-up.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Hard knockdown"],
+		"notation": "Dash > 63214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "63214HP",
+				"label": "Heavy command throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.LP, cr.LP, cr.LP into OD Knee Smash; Ryu has the recorded hard knockdown"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames.",
+			"This is the heavy-punch command throw actually performed, not an authored medium/OD alternative."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 124.45,
+			"end": 129.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-od-knee-dash-heavy-command-throw/clip.mp4",
+			"poster": "/media/alex/alex-depth-od-knee-dash-heavy-command-throw/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-od-knee-dash-heavy-command-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-od-knee-dash-heavy-command-throw/frame-1.jpg",
+					"at": 0.55,
+					"label": "Context",
+					"alt": "Alex advances after the OD-Knee hard knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-od-knee-dash-heavy-command-throw/frame-2.jpg",
+					"at": 1.75,
+					"label": "Action",
+					"alt": "The performed heavy command throw catches Ryu’s recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-od-knee-dash-heavy-command-throw/frame-3.jpg",
+					"at": 4.15,
+					"label": "Result",
+					"alt": "The throw completes its hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-od-knee-dash-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "OD Knee: dash shimmy into standing-medium pair",
+		"summary": "Keep the dash before retreating from Ryu's recorded throw; the resulting medium-punch punish adds no Drive spend.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish counter"],
+		"outcomes": ["Throw bait", "Knockdown"],
+		"notation": "Dash > 4 > st.MP > st.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: st.LP, cr.LP, cr.LP into OD Knee Smash; Ryu has the recorded hard knockdown",
+			"Ryu attempts the recorded wake-up throw"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 135.1,
+			"end": 140.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-od-knee-dash-shimmy/clip.mp4",
+			"poster": "/media/alex/alex-depth-od-knee-dash-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-od-knee-dash-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-od-knee-dash-shimmy/frame-1.jpg",
+					"at": 0.55,
+					"label": "Context",
+					"alt": "Alex dashes after the recorded OD-Knee hard knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-od-knee-dash-shimmy/frame-2.jpg",
+					"at": 1.75,
+					"label": "Action",
+					"alt": "Backward movement baits Ryu’s throw; standing medium punch starts the Punish-Counter conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-od-knee-dash-shimmy/frame-3.jpg",
+					"at": 3.9,
+					"label": "Result",
+					"alt": "A second standing medium punch into heavy Knee Smash completes the throw punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-back-turn-knee-rush-shimmy",
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw"
+		]
+	},
+	{
+		"id": "alex-depth-back-turn-knee-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Back-turn b.MK knockdown: Rush into normal throw",
+		"summary": "Reproduce the held-heavy/Flash-Chop/back-medium-kick knockdown before spending one Drive bar on the throw approach.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw knockdown"],
+		"notation": "DR > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: held st.HP, heavy Flash Chop and b.MK against the back-turned Ryu"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 396.15,
+			"end": 400.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-back-turn-knee-rush-throw/clip.mp4",
+			"poster": "/media/alex/alex-depth-back-turn-knee-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-back-turn-knee-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-back-turn-knee-rush-throw/frame-1.jpg",
+					"at": 0.6,
+					"label": "Context",
+					"alt": "The prerequisite b.MK grab finishes against the back-turned Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-back-turn-knee-rush-throw/frame-2.jpg",
+					"at": 1.65,
+					"label": "Action",
+					"alt": "Raw Drive Rush closes for the wake-up normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-back-turn-knee-rush-throw/frame-3.jpg",
+					"at": 3.55,
+					"label": "Result",
+					"alt": "The forward throw lands and knocks Ryu down again."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-back-turn-knee-rush-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Back-turn b.MK knockdown: Rush shimmy medium pair",
+		"summary": "From the back-turn knockdown, Rush and retreat from the recorded throw before starting the medium-punch punish.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish counter"],
+		"outcomes": ["Throw bait", "Knockdown"],
+		"notation": "DR > 4 > st.MP > st.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: held st.HP, heavy Flash Chop and b.MK against the back-turned Ryu",
+			"Ryu attempts the recorded wake-up throw"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 407.2,
+			"end": 413.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-back-turn-knee-rush-shimmy/clip.mp4",
+			"poster": "/media/alex/alex-depth-back-turn-knee-rush-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-back-turn-knee-rush-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-back-turn-knee-rush-shimmy/frame-1.jpg",
+					"at": 0.65,
+					"label": "Context",
+					"alt": "Alex starts raw Drive Rush after the b.MK prerequisite."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-back-turn-knee-rush-shimmy/frame-2.jpg",
+					"at": 2.05,
+					"label": "Action",
+					"alt": "The shimmy baits Ryu’s throw; standing medium punch scores Punish Counter and links another medium."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-back-turn-knee-rush-shimmy/frame-3.jpg",
+					"at": 4.4,
+					"label": "Result",
+					"alt": "Heavy Knee Smash completes the meterless conversion after the Rush."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-od-knee-dash-shimmy",
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw"
+		]
+	},
+	{
+		"id": "alex-depth-back-turn-knee-rush-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Back-turn b.MK knockdown: Rush overhead conversion",
+		"summary": "Use the back-turn knockdown's one-bar Rush approach to link the overhead hit into standing medium punch.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Overhead conversion", "Knockdown"],
+		"notation": "DR > f.MP > st.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MP",
+				"label": "Forward medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: held st.HP, heavy Flash Chop and b.MK against the back-turned Ryu"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 420.1,
+			"end": 425.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-back-turn-knee-rush-overhead/clip.mp4",
+			"poster": "/media/alex/alex-depth-back-turn-knee-rush-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-back-turn-knee-rush-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-back-turn-knee-rush-overhead/frame-1.jpg",
+					"at": 0.7,
+					"label": "Context",
+					"alt": "Alex advances from the b.MK grab knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-back-turn-knee-rush-overhead/frame-2.jpg",
+					"at": 1.5,
+					"label": "Action",
+					"alt": "The Rush forward-medium-punch overhead hits on the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-back-turn-knee-rush-overhead/frame-3.jpg",
+					"at": 4.05,
+					"label": "Result",
+					"alt": "Standing medium punch into heavy Knee Smash ends the three-hit follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-back-turn-knee-rush-delayed-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Back-turn b.MK knockdown: delayed Rush low",
+		"summary": "Keep the visible pause after Rush before the low kick; the source does not prescribe a numerical wait.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Low conversion", "Knockdown"],
+		"notation": "DR > Wait > cr.MK > cr.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Wait",
+				"label": "Delay the crouching medium kick",
+				"cue": "The source explicitly calls for a delay; no exact frame count is supplied."
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: held st.HP, heavy Flash Chop and b.MK against the back-turned Ryu"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 431.4,
+			"end": 437.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-back-turn-knee-rush-delayed-low/clip.mp4",
+			"poster": "/media/alex/alex-depth-back-turn-knee-rush-delayed-low/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-back-turn-knee-rush-delayed-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-back-turn-knee-rush-delayed-low/frame-1.jpg",
+					"at": 0.7,
+					"label": "Context",
+					"alt": "Alex uses raw Rush after the b.MK prerequisite."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-back-turn-knee-rush-delayed-low/frame-2.jpg",
+					"at": 1.35,
+					"label": "Action",
+					"alt": "The delayed crouching medium kick begins the recorded low conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-back-turn-knee-rush-delayed-low/frame-3.jpg",
+					"at": 4.3,
+					"label": "Result",
+					"alt": "Crouching medium punch and heavy Knee Smash finish the low branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-hyper-bomb-rush-command-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "OD back-grab follow-up: Rush heavy command throw",
+		"summary": "Begin after the forward-held OD Power Drop extension; budget one new Drive bar for Rush into heavy command throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Hard knockdown"],
+		"notation": "DR > 63214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "63214HP",
+				"label": "Heavy command throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: held st.HP, heavy Flash Chop and OD Power Drop with forward held for the shown extra throw; Ryu has the recorded hard knockdown"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite; prior OD grab costs 2)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 494.05,
+			"end": 499.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-hyper-bomb-rush-command-throw/clip.mp4",
+			"poster": "/media/alex/alex-depth-hyper-bomb-rush-command-throw/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-hyper-bomb-rush-command-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-hyper-bomb-rush-command-throw/frame-1.jpg",
+					"at": 0.85,
+					"label": "Context",
+					"alt": "The forward-held OD back-grab extension leaves Ryu in hard knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-hyper-bomb-rush-command-throw/frame-2.jpg",
+					"at": 1.6,
+					"label": "Action",
+					"alt": "Alex Rushes into the performed heavy command throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-hyper-bomb-rush-command-throw/frame-3.jpg",
+					"at": 4.5,
+					"label": "Result",
+					"alt": "The command throw completes without an additional OD move."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-hyper-bomb-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "OD back-grab follow-up: Rush normal throw",
+		"summary": "The OD throw extension is already complete when this follow-up begins; spend one additional Drive bar on Rush into normal throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw knockdown"],
+		"notation": "DR > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: held st.HP, heavy Flash Chop and OD Power Drop with forward held for the shown extra throw; Ryu has the recorded hard knockdown"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite; prior OD grab costs 2)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 506.05,
+			"end": 510.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-hyper-bomb-rush-throw/clip.mp4",
+			"poster": "/media/alex/alex-depth-hyper-bomb-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-hyper-bomb-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-hyper-bomb-rush-throw/frame-1.jpg",
+					"at": 0.7,
+					"label": "Context",
+					"alt": "The prerequisite OD back-grab extension completes its hard knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-hyper-bomb-rush-throw/frame-2.jpg",
+					"at": 1.5,
+					"label": "Action",
+					"alt": "Alex Rushes forward and uses a normal throw on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-hyper-bomb-rush-throw/frame-3.jpg",
+					"at": 3.5,
+					"label": "Result",
+					"alt": "The normal throw connects and returns Ryu to knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-corner-throw-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Corner throw: Rush into another normal throw",
+		"summary": "Use one Drive bar to approach after the corner forward throw, then repeat the normal throw at the recorded spacing.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner throw knockdown"],
+		"notation": "DR > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the recorded forward normal throw against cornered Ryu"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 702.8,
+			"end": 707.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-corner-throw-rush-throw/clip.mp4",
+			"poster": "/media/alex/alex-depth-corner-throw-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-corner-throw-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-corner-throw-rush-throw/frame-1.jpg",
+					"at": 0.65,
+					"label": "Context",
+					"alt": "The prerequisite forward throw leaves Ryu cornered."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-corner-throw-rush-throw/frame-2.jpg",
+					"at": 1.45,
+					"label": "Action",
+					"alt": "Raw Drive Rush closes for the next normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-corner-throw-rush-throw/frame-3.jpg",
+					"at": 3.45,
+					"label": "Result",
+					"alt": "The second forward throw connects and retains the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-corner-heavy-knee-dash-throw",
+			"alex-depth-corner-heavy-knee-dash-command-throw",
+			"alex-depth-corner-heavy-knee-dash-shimmy"
+		]
+	},
+	{
+		"id": "alex-depth-corner-throw-rush-whiff-jab-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Corner throw: Rush, whiff jab and shimmy starter",
+		"summary": "Keep the intentional jab whiff before retreating from the throw; this excerpt ends at the standing-medium-punch punish starter.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish counter"],
+		"outcomes": ["Throw bait", "Punish Counter starter"],
+		"notation": "DR > st.LP (whiff) > 4 > st.MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP (whiff)",
+				"label": "Intentionally whiff standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the recorded forward normal throw against cornered Ryu",
+			"Ryu attempts the recorded wake-up throw"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames.",
+			"The selected excerpt stops after the confirmed punish starter; the later Knee continuation remains outside this card."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar after the prerequisite)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 710.65,
+			"end": 712.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-corner-throw-rush-whiff-jab-shimmy/clip.mp4",
+			"poster": "/media/alex/alex-depth-corner-throw-rush-whiff-jab-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-corner-throw-rush-whiff-jab-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-corner-throw-rush-whiff-jab-shimmy/frame-1.jpg",
+					"at": 0.65,
+					"label": "Context",
+					"alt": "Alex starts raw Rush after the corner throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-corner-throw-rush-whiff-jab-shimmy/frame-2.jpg",
+					"at": 1.0,
+					"label": "Action",
+					"alt": "The standing jab intentionally whiffs before Alex moves backward."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-corner-throw-rush-whiff-jab-shimmy/frame-3.jpg",
+					"at": 1.85,
+					"label": "Result",
+					"alt": "Standing medium punch Punish Counters Ryu’s whiffed throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-corner-heavy-knee-dash-shimmy",
+			"alex-depth-corner-heavy-knee-dash-throw",
+			"alex-depth-corner-heavy-knee-dash-command-throw"
+		]
+	},
+	{
+		"id": "alex-depth-corner-throw-dash-jab-light-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Corner throw: dash jab into light kick and Knee",
+		"summary": "After the corner throw, practice the dash into crouching jab and standing light kick without spending Drive.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up conversion", "Corner knockdown"],
+		"notation": "Dash > cr.LP > st.LK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the recorded forward normal throw against cornered Ryu"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 744.25,
+			"end": 748.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-corner-throw-dash-jab-light-kick/clip.mp4",
+			"poster": "/media/alex/alex-depth-corner-throw-dash-jab-light-kick/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-corner-throw-dash-jab-light-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-corner-throw-dash-jab-light-kick/frame-1.jpg",
+					"at": 0.5,
+					"label": "Context",
+					"alt": "Alex dashes after the forward throw against cornered Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-corner-throw-dash-jab-light-kick/frame-2.jpg",
+					"at": 1.2,
+					"label": "Action",
+					"alt": "The wake-up crouching jab links standing light kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-corner-throw-dash-jab-light-kick/frame-3.jpg",
+					"at": 3.3,
+					"label": "Result",
+					"alt": "Heavy Knee Smash ends the four-hit follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-corner-heavy-knee-dash-throw",
+			"alex-depth-corner-heavy-knee-dash-command-throw",
+			"alex-depth-corner-heavy-knee-dash-shimmy"
+		]
+	},
+	{
+		"id": "alex-depth-corner-throw-dash-light-command-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Corner throw: dash into light command throw",
+		"summary": "Use light command throw after the corner dash; this branch shares the normal-throw prerequisite and adds no Drive cost.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Hard knockdown"],
+		"notation": "Dash > 63214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "63214LP",
+				"label": "Light command throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the recorded forward normal throw against cornered Ryu"
+		],
+		"notes": [
+			"The complete listed follow-up begins after the named prerequisite; the loop retains its final recovery as context.",
+			"Printed +F values in this dated source are remaining advantage, not instructions to wait that many frames."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 752.6,
+			"end": 757.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-corner-throw-dash-light-command-throw/clip.mp4",
+			"poster": "/media/alex/alex-depth-corner-throw-dash-light-command-throw/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-corner-throw-dash-light-command-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-corner-throw-dash-light-command-throw/frame-1.jpg",
+					"at": 0.55,
+					"label": "Context",
+					"alt": "Alex closes with a dash after the forward corner throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-corner-throw-dash-light-command-throw/frame-2.jpg",
+					"at": 1.45,
+					"label": "Action",
+					"alt": "The light command throw catches Ryu at the demonstrated spacing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-corner-throw-dash-light-command-throw/frame-3.jpg",
+					"at": 4.05,
+					"label": "Result",
+					"alt": "The command throw finishes its hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-corner-heavy-knee-dash-throw",
+			"alex-depth-corner-heavy-knee-dash-command-throw",
+			"alex-depth-corner-heavy-knee-dash-shimmy"
+		]
+	},
+	{
+		"id": "alex-depth-anti-air-light-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Anti-air: light Knee Smash",
+		"summary": "Match Luke's forward jump and the demonstrated distance for light Knee; the later green approach is separate pressure.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air"],
+		"outcomes": ["Anti-air knockdown"],
+		"notation": "623LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "623LK",
+				"label": "Light Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Luke uses the recorded forward jump at the demonstrated range"
+		],
+		"notes": [
+			"The following green approach in the longer source is separate wake-up pressure, not an anti-air juggle. No reaction or universal jump-coverage claim is asserted."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "brian-f-alex-2026",
+			"title": "Your Alex sucks. Here's how to fix that.",
+			"creator": "Brian_F",
+			"url": "https://www.youtube.com/watch?v=L4OjcgYa7-o",
+			"published": "2026-03-29",
+			"start": 194.45,
+			"end": 196.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-anti-air-light-knee/clip.mp4",
+			"poster": "/media/alex/alex-depth-anti-air-light-knee/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-anti-air-light-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-anti-air-light-knee/frame-1.jpg",
+					"at": 0.55,
+					"label": "Context",
+					"alt": "Luke uses the recorded forward jump toward Alex."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-anti-air-light-knee/frame-2.jpg",
+					"at": 1.15,
+					"label": "Action",
+					"alt": "Light Knee Smash intercepts the airborne Luke."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-anti-air-light-knee/frame-3.jpg",
+					"at": 2.15,
+					"label": "Result",
+					"alt": "Both hits connect and Luke is knocked down."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-guard-drive-reversal-light-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Block Drive Reversal: light kick into heavy Knee",
+		"summary": "After Ryu Drive-Reversals the blocked jab, guard first and use standing light kick into heavy Knee at the shown spacing.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish", "Drive Reversal"],
+		"outcomes": ["Reversal punish", "Knockdown"],
+		"notation": "st.LP > Guard > st.LK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the recorded Drive Reversal after blocking standing jab"
+		],
+		"notes": [
+			"Only the performed 623HK ender is authored; the printed OD alternative is not performed here."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 208.55,
+			"end": 213.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-guard-drive-reversal-light-knee/clip.mp4",
+			"poster": "/media/alex/alex-depth-guard-drive-reversal-light-knee/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-guard-drive-reversal-light-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-guard-drive-reversal-light-knee/frame-1.jpg",
+					"at": 1.3,
+					"label": "Context",
+					"alt": "Ryu uses Drive Reversal after blocking Alex’s jab; Alex guards it."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-guard-drive-reversal-light-knee/frame-2.jpg",
+					"at": 1.95,
+					"label": "Action",
+					"alt": "Standing light kick scores Punish Counter on the recorded recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-guard-drive-reversal-light-knee/frame-3.jpg",
+					"at": 3.75,
+					"label": "Result",
+					"alt": "Heavy Knee Smash finishes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-guard-drive-reversal-command-throw",
+			"alex-depth-counter-di-dash-od-knee",
+			"alex-depth-heavy-knee-rush-back-medium"
+		]
+	},
+	{
+		"id": "alex-depth-guard-drive-reversal-command-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Block Drive Reversal: heavy command-throw punish",
+		"summary": "Guard the recorded Drive Reversal before heavy command throw; this take uses no OD input or additional Drive.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish", "Drive Reversal"],
+		"outcomes": ["Reversal punish", "Hard knockdown"],
+		"notation": "st.LP > Guard > 63214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-3",
+				"notation": "63214HP",
+				"label": "Heavy command throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the recorded Drive Reversal after blocking standing jab"
+		],
+		"notes": ["No OD throw is added from the source’s printed alternative."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 214.6,
+			"end": 220.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-guard-drive-reversal-command-throw/clip.mp4",
+			"poster": "/media/alex/alex-depth-guard-drive-reversal-command-throw/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-guard-drive-reversal-command-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-guard-drive-reversal-command-throw/frame-1.jpg",
+					"at": 1.4,
+					"label": "Context",
+					"alt": "Ryu’s Drive Reversal is blocked after the opening jab."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-guard-drive-reversal-command-throw/frame-2.jpg",
+					"at": 2.05,
+					"label": "Action",
+					"alt": "The performed heavy command throw scores Punish Counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-guard-drive-reversal-command-throw/frame-3.jpg",
+					"at": 4.95,
+					"label": "Result",
+					"alt": "The command throw completes its hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-guard-drive-reversal-light-knee",
+			"alex-depth-counter-di-dash-od-knee",
+			"alex-depth-heavy-knee-rush-back-medium"
+		]
+	},
+	{
+		"id": "alex-depth-prowler-leap-evades-ryu-od",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Target chain into Prowler leap: evade Ryu OD uppercut",
+		"summary": "Use the Prowler leap against the recorded Ryu OD uppercut, then guard after the side switch; broader reversal coverage is untested.",
+		"kind": "response",
+		"situations": ["Midscreen", "Reversal bait"],
+		"outcomes": ["Uppercut avoided", "Side switch"],
+		"notation": "st.MP > st.HP > 2PP > 6 (Prowler) > LK (Prowler) > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2PP",
+				"label": "Enter Prowler Stance"
+			},
+			{
+				"id": "step-4",
+				"notation": "6 (Prowler)",
+				"label": "Forward follow-up from Prowler Stance"
+			},
+			{
+				"id": "step-5",
+				"notation": "LK (Prowler)",
+				"label": "Prowler light-kick leap"
+			},
+			{
+				"id": "step-6",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu performs the recorded OD uppercut after the target-chain knockdown and stance approach"
+		],
+		"notes": [
+			"This demonstrates the recorded Ryu OD-uppercut spacing and timing only; it does not establish general invulnerability or safety against every reversal."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 356.0,
+			"end": 360.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-prowler-leap-evades-ryu-od/clip.mp4",
+			"poster": "/media/alex/alex-depth-prowler-leap-evades-ryu-od/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-prowler-leap-evades-ryu-od/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-prowler-leap-evades-ryu-od/frame-1.jpg",
+					"at": 1.45,
+					"label": "Context",
+					"alt": "After the target-chain knockdown, Alex uses Prowler’s forward follow-up before the light-kick leap."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-prowler-leap-evades-ryu-od/frame-2.jpg",
+					"at": 2.0,
+					"label": "Action",
+					"alt": "The leap crosses over the recorded Ryu OD uppercut."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-prowler-leap-evades-ryu-od/frame-3.jpg",
+					"at": 3.15,
+					"label": "Result",
+					"alt": "Alex lands behind Ryu as the OD uppercut misses."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-hyper-bomb-jump-kick-guard",
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw"
+		]
+	},
+	{
+		"id": "alex-depth-hyper-bomb-jump-kick-guard",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "OD back-grab extension: jump heavy kick, then guard Ryu OD",
+		"summary": "Start after the OD throw-extension knockdown and reproduce the jumping heavy kick before guarding the recorded wake-up uppercut.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Reversal bait"],
+		"outcomes": ["Recorded OD reversal blocked"],
+		"notation": "9 > j.HK > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: held st.HP, heavy Flash Chop and OD Power Drop with forward held for the shown extra throw; Ryu has the recorded hard knockdown",
+			"Ryu performs the recorded wake-up OD uppercut"
+		],
+		"notes": [
+			"The listed sequence starts after the OD back-grab prerequisite; its two-Drive cost is separate.",
+			"The source calls this a safe jump, but this card claims safety only against the recorded Ryu OD uppercut. The jump does include a heavy-kick button.",
+			"The printed +42 is remaining advantage after the prerequisite, not a 42-frame delay instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 484.1,
+			"end": 487.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-hyper-bomb-jump-kick-guard/clip.mp4",
+			"poster": "/media/alex/alex-depth-hyper-bomb-jump-kick-guard/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-hyper-bomb-jump-kick-guard/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-hyper-bomb-jump-kick-guard/frame-1.jpg",
+					"at": 0.45,
+					"label": "Context",
+					"alt": "The prerequisite forward-held OD back-grab extension leaves Ryu knocked down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-hyper-bomb-jump-kick-guard/frame-2.jpg",
+					"at": 1.0,
+					"label": "Action",
+					"alt": "Alex performs the actual jumping heavy kick as Ryu wakes."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-hyper-bomb-jump-kick-guard/frame-3.jpg",
+					"at": 1.3,
+					"label": "Result",
+					"alt": "Alex lands and blocks the recorded Ryu OD uppercut."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-counter-di-dash-od-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Counter Drive Impact: dash Prowler pickup into OD Knee",
+		"summary": "Counter the recorded DI before the dash pickup; budget three Drive bars for your DI and OD Knee together.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish", "Counter Drive Impact"],
+		"outcomes": ["Counter-DI conversion", "Hard knockdown"],
+		"notation": "st.LP > DI > Dash > cr.HP > 2PP > 6 (Prowler) > LP (Prowler) > 623KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-3",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "2PP",
+				"label": "Enter Prowler Stance"
+			},
+			{
+				"id": "step-6",
+				"notation": "6 (Prowler)",
+				"label": "Forward follow-up from Prowler Stance"
+			},
+			{
+				"id": "step-7",
+				"notation": "LP (Prowler)",
+				"label": "Prowler light-punch follow-up"
+			},
+			{
+				"id": "step-8",
+				"notation": "623KK",
+				"label": "OD Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the recorded Drive Impact",
+			"Alex’s counter-DI scores Punish Counter"
+		],
+		"notes": [
+			"This is the shown counter-DI/crumple sequence; it is distinct from the separate blocked-DI wall-crush card."
+		],
+		"resources": {
+			"drive": "Drive Impact (1 bar) and OD Knee Smash (2 bars): 3 total",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 951.55,
+			"end": 961.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-counter-di-dash-od-knee/clip.mp4",
+			"poster": "/media/alex/alex-depth-counter-di-dash-od-knee/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-counter-di-dash-od-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-counter-di-dash-od-knee/frame-1.jpg",
+					"at": 1.15,
+					"label": "Counter Drive Impact",
+					"alt": "After the jab, Alex counters Ryu’s recorded Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-counter-di-dash-od-knee/frame-2.jpg",
+					"at": 3.05,
+					"label": "Crumple",
+					"alt": "The counter-Drive-Impact scores Punish Counter and causes crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-counter-di-dash-od-knee/frame-3.jpg",
+					"at": 5.85,
+					"label": "Prowler pickup",
+					"alt": "A dash and crouching heavy punch feed the forward Prowler light-punch pickup."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/alex/alex-depth-counter-di-dash-od-knee/frame-4.jpg",
+					"at": 9.55,
+					"label": "OD finish",
+					"alt": "OD Knee Smash completes the actual extension and hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-guard-drive-reversal-light-knee",
+			"alex-depth-guard-drive-reversal-command-throw",
+			"alex-depth-heavy-knee-rush-back-medium"
+		]
+	},
+	{
+		"id": "alex-depth-close-lights-rush-prowler",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Close lights: Rush cancel into Prowler chain",
+		"summary": "Use the close three-light spacing for the Rush crouching-heavy/Prowler route; the farther-spacing medium-punch version is separate.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > cr.LP > cr.LP > DRC > cr.LP > cr.HP > 2PP > LP (Prowler) > HP (Prowler) > st.LK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "2PP",
+				"label": "Enter Prowler Stance"
+			},
+			{
+				"id": "step-8",
+				"notation": "LP (Prowler)",
+				"label": "Prowler light-punch follow-up"
+			},
+			{
+				"id": "step-9",
+				"notation": "HP (Prowler)",
+				"label": "Prowler heavy-punch continuation"
+			},
+			{
+				"id": "step-10",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-11",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Close spacing as recorded; the source separately uses a shorter medium route from farther away"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Rush cancel (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 157.65,
+			"end": 165.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-close-lights-rush-prowler/clip.mp4",
+			"poster": "/media/alex/alex-depth-close-lights-rush-prowler/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-close-lights-rush-prowler/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-close-lights-rush-prowler/frame-1.jpg",
+					"at": 0.85,
+					"label": "Context",
+					"alt": "Three close light punches establish the opening confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-close-lights-rush-prowler/frame-2.jpg",
+					"at": 2.95,
+					"label": "Action",
+					"alt": "The Rush-cancel crouching jab and heavy punch feed the Prowler punch chain."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-close-lights-rush-prowler/frame-3.jpg",
+					"at": 5.45,
+					"label": "Result",
+					"alt": "Standing light kick and heavy Knee Smash finish the close-range route."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-far-lights-rush-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Far lights: Rush cancel into crouching medium",
+		"summary": "Use crouching medium punch after the Rush jab at the farther three-light spacing; this is the shorter alternative to close Prowler.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > cr.LP > cr.LP > DRC > cr.LP > cr.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": ["Classic controls", "The farther light-confirm spacing shown in the source"],
+		"notes": [
+			"The longer close-range crouching-heavy/Prowler continuation is a separate card.",
+			"The printed MP omits the crouching direction; the live down-back medium-punch input and low elbow animation establish cr.MP."
+		],
+		"resources": {
+			"drive": "Drive Rush cancel (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 166.45,
+			"end": 172.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-far-lights-rush-medium/clip.mp4",
+			"poster": "/media/alex/alex-depth-far-lights-rush-medium/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-far-lights-rush-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-far-lights-rush-medium/frame-1.jpg",
+					"at": 0.8,
+					"label": "Context",
+					"alt": "The three-light confirm begins at the source’s farther spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-far-lights-rush-medium/frame-2.jpg",
+					"at": 2.1,
+					"label": "Action",
+					"alt": "Rush-cancel crouching jab links the performed crouching medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-far-lights-rush-medium/frame-3.jpg",
+					"at": 4.05,
+					"label": "Result",
+					"alt": "Heavy Knee Smash ends the shorter spacing-specific route."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-lights-two-rush-level-three-cashout",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Lights cash-out: two Rush cancels and Level 3",
+		"summary": "Start with six Drive bars and Level 3; both Rush cancels spend the full Drive gauge and enter Burnout.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Cash-out", "Super finish"],
+		"outcomes": ["Resource cash-out", "Hard knockdown"],
+		"notation": "st.LP > cr.LP > cr.LP > DRC > cr.LP > cr.HP > DRC > cr.HP > 236HP > st.LP > cr.LP > cr.LP > 236LP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-8",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-9",
+				"notation": "236HP",
+				"label": "Heavy Flash Chop"
+			},
+			{
+				"id": "step-10",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-11",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-12",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-13",
+				"notation": "236LP",
+				"label": "Light Flash Axe"
+			},
+			{
+				"id": "step-14",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Six Drive bars and Level 3 available at the start",
+			"Crouching heavy punch is the first Rush-cancel choice actually performed"
+		],
+		"notes": [
+			"The printed MP or 2HP alternatives resolve to performed cr.HP: the live red punch with down-back and the 336-damage hit establish the heavy choice. No standing-medium alternative is inserted."
+		],
+		"resources": {
+			"drive": "Two Drive Rush cancels (6 bars total; enters Burnout)",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 173.35,
+			"end": 190.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-lights-two-rush-level-three-cashout/clip.mp4",
+			"poster": "/media/alex/alex-depth-lights-two-rush-level-three-cashout/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-lights-two-rush-level-three-cashout/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-lights-two-rush-level-three-cashout/frame-1.jpg",
+					"at": 1.0,
+					"label": "Light confirm",
+					"alt": "The light confirm begins with six Drive bars and three Super bars available."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-lights-two-rush-level-three-cashout/frame-2.jpg",
+					"at": 3.15,
+					"label": "Burnout extension",
+					"alt": "The second Rush cancel spends the remaining Drive and visibly enters Burnout."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-lights-two-rush-level-three-cashout/frame-3.jpg",
+					"at": 5.65,
+					"label": "Super cancel",
+					"alt": "Heavy Flash Chop turns Ryu around; the light chain and light Flash Axe feed Level 3."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/alex/alex-depth-lights-two-rush-level-three-cashout/frame-4.jpg",
+					"at": 15.15,
+					"label": "Super finish",
+					"alt": "The full Super finish leaves Ryu in hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-held-heavy-kick-heavy-chop-level-three",
+			"alex-vesper-low-level1",
+			"alex-vesper-low-od-axe-level2"
+		]
+	},
+	{
+		"id": "alex-depth-target-prowler-forward-punch-chain",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Medium-heavy target: forward Prowler punch chain",
+		"summary": "Keep the forward Prowler movement and both stance punches before standing light kick; the demonstrated ender is heavy Knee.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > st.HP > 2PP > 6 (Prowler) > LP (Prowler) > HP (Prowler) > st.LK > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "2PP",
+				"label": "Enter Prowler Stance"
+			},
+			{
+				"id": "step-4",
+				"notation": "6 (Prowler)",
+				"label": "Forward follow-up from Prowler Stance"
+			},
+			{
+				"id": "step-5",
+				"notation": "LP (Prowler)",
+				"label": "Prowler light-punch follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "HP (Prowler)",
+				"label": "Prowler heavy-punch continuation"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-8",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Only the actual heavy Knee is selected; the source overlay also lists an OD alternative that this take does not perform."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 326.1,
+			"end": 332.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-target-prowler-forward-punch-chain/clip.mp4",
+			"poster": "/media/alex/alex-depth-target-prowler-forward-punch-chain/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-target-prowler-forward-punch-chain/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-target-prowler-forward-punch-chain/frame-1.jpg",
+					"at": 0.85,
+					"label": "Context",
+					"alt": "The standing medium-heavy target chain hits Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-target-prowler-forward-punch-chain/frame-2.jpg",
+					"at": 2.4,
+					"label": "Action",
+					"alt": "The forward Prowler light-punch and heavy-punch continuation extends the route."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-target-prowler-forward-punch-chain/frame-3.jpg",
+					"at": 5.4,
+					"label": "Result",
+					"alt": "Standing light kick into heavy Knee Smash completes the recorded chain."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-heavy-punish-crouching-medium-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Heavy-punch punish: crouching medium into heavy Knee",
+		"summary": "Use this meterless link when standing heavy punch scores Punish Counter, connecting crouching medium punch before heavy Knee.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Punish conversion", "Knockdown"],
+		"notation": "st.HP > cr.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy punch scores Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 457.25,
+			"end": 462.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-heavy-punish-crouching-medium-knee/clip.mp4",
+			"poster": "/media/alex/alex-depth-heavy-punish-crouching-medium-knee/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-heavy-punish-crouching-medium-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-heavy-punish-crouching-medium-knee/frame-1.jpg",
+					"at": 0.75,
+					"label": "Context",
+					"alt": "Standing heavy punch scores the required Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-heavy-punish-crouching-medium-knee/frame-2.jpg",
+					"at": 1.4,
+					"label": "Action",
+					"alt": "Crouching medium punch links after the heavy-punch recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-heavy-punish-crouching-medium-knee/frame-3.jpg",
+					"at": 3.85,
+					"label": "Result",
+					"alt": "Heavy Knee Smash finishes the performed punish conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-od-knee-dash-shimmy",
+			"alex-depth-back-turn-knee-rush-shimmy",
+			"alex-depth-heavy-kick-punish-rush-forward-prowler"
+		]
+	},
+	{
+		"id": "alex-depth-held-heavy-chop-back-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Held heavy punch: Flash Chop into back-turned grab",
+		"summary": "Hold standing heavy punch before heavy Flash Chop to create the back-turned grab state; the heavy grab switches sides without Drive.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Back-turn conversion", "Side switch", "Hard knockdown"],
+		"notation": "st.HP (hold) > 236HP > 63214HP (back turn)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP (hold)",
+				"label": "Hold standing heavy punch for the demonstrated release"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HP",
+				"label": "Heavy Flash Chop"
+			},
+			{
+				"id": "step-3",
+				"notation": "63214HP (back turn)",
+				"label": "Heavy Power Drop against the turned target"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Hold the first heavy punch as shown",
+			"Heavy Flash Chop must leave the target back-turned at the demonstrated close spacing"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 463.55,
+			"end": 469.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-held-heavy-chop-back-throw/clip.mp4",
+			"poster": "/media/alex/alex-depth-held-heavy-chop-back-throw/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-held-heavy-chop-back-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-held-heavy-chop-back-throw/frame-1.jpg",
+					"at": 0.95,
+					"label": "Context",
+					"alt": "The held standing heavy punch connects before the special cancel."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-held-heavy-chop-back-throw/frame-2.jpg",
+					"at": 1.85,
+					"label": "Action",
+					"alt": "Heavy Flash Chop leaves Ryu facing away from Alex."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-held-heavy-chop-back-throw/frame-3.jpg",
+					"at": 4.1,
+					"label": "Result",
+					"alt": "The heavy back-turned grab completes the side-switching knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-held-heavy-od-back-grab-level-two",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Held heavy punch: OD back-grab into Level 2 follow-up",
+		"summary": "Spend two Drive and two Super bars, then use the recorded PP Super follow-up rather than the forward-held throw extension.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Back-turn conversion", "Hard knockdown"],
+		"notation": "st.HP (hold) > 236HP > 63214PP (back turn) > PP (SA2 follow-up)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP (hold)",
+				"label": "Hold standing heavy punch for the demonstrated release"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HP",
+				"label": "Heavy Flash Chop"
+			},
+			{
+				"id": "step-3",
+				"notation": "63214PP (back turn)",
+				"label": "OD Power Drop against the turned target"
+			},
+			{
+				"id": "step-4",
+				"notation": "PP (SA2 follow-up)",
+				"label": "Level 2 throw follow-up after OD Power Drop"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Back-turned target after the held-heavy/heavy-Chop sequence",
+			"Two Drive bars and two Super bars available"
+		],
+		"notes": [
+			"The extra PP is the specific Super follow-up from OD Power Drop, not a forward-held Hyper-Bomb extension."
+		],
+		"resources": {
+			"drive": "OD Power Drop (2 bars)",
+			"super": "Level 2 follow-up (2 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 562.1,
+			"end": 575.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-held-heavy-od-back-grab-level-two/clip.mp4",
+			"poster": "/media/alex/alex-depth-held-heavy-od-back-grab-level-two/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-held-heavy-od-back-grab-level-two/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-held-heavy-od-back-grab-level-two/frame-1.jpg",
+					"at": 1.1,
+					"label": "Back-turn starter",
+					"alt": "The held heavy punch and heavy Flash Chop leave Ryu back-turned."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-held-heavy-od-back-grab-level-two/frame-2.jpg",
+					"at": 3.2,
+					"label": "OD grab",
+					"alt": "OD Power Drop starts against the turned target."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-held-heavy-od-back-grab-level-two/frame-3.jpg",
+					"at": 6.4,
+					"label": "Super follow-up",
+					"alt": "The additional punch input triggers the performed two-Super-bar throw follow-up."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/alex/alex-depth-held-heavy-od-back-grab-level-two/frame-4.jpg",
+					"at": 12.0,
+					"label": "Finish",
+					"alt": "The Level 2 throw finish leaves Ryu in hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-heavy-knee-rush-back-medium",
+			"alex-depth-heavy-knee-blocked-back-medium-command-throw",
+			"alex-depth-heavy-knee-blocked-back-medium-repeat"
+		]
+	},
+	{
+		"id": "alex-depth-heavy-kick-punish-rush-forward-prowler",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Heavy-kick punish: Rush heavy into forward Prowler pickup",
+		"summary": "After the heavy-kick Punish Counter, use a one-bar raw Rush for the Prowler pickup; the performed ender is medium Knee.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Punish conversion", "Knockdown"],
+		"notation": "st.HK > DR > cr.HP > 2PP > 6 (Prowler) > LP (Prowler) > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "2PP",
+				"label": "Enter Prowler Stance"
+			},
+			{
+				"id": "step-5",
+				"notation": "6 (Prowler)",
+				"label": "Forward follow-up from Prowler Stance"
+			},
+			{
+				"id": "step-6",
+				"notation": "LP (Prowler)",
+				"label": "Prowler light-punch follow-up"
+			},
+			{
+				"id": "step-7",
+				"notation": "623MK",
+				"label": "Medium Knee Smash"
+			}
+		],
+		"conditions": ["Classic controls", "Standing heavy kick scores Punish Counter"],
+		"notes": [
+			"The performed ender is medium Knee Smash. The listed OD and Level 1 alternatives are not authored as additional actions."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 589.75,
+			"end": 596.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-heavy-kick-punish-rush-forward-prowler/clip.mp4",
+			"poster": "/media/alex/alex-depth-heavy-kick-punish-rush-forward-prowler/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-heavy-kick-punish-rush-forward-prowler/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-heavy-kick-punish-rush-forward-prowler/frame-1.jpg",
+					"at": 0.5,
+					"label": "Context",
+					"alt": "Standing heavy kick scores Punish Counter and launches Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-heavy-kick-punish-rush-forward-prowler/frame-2.jpg",
+					"at": 1.75,
+					"label": "Action",
+					"alt": "Raw Rush crouching heavy punch reaches the airborne target."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-heavy-kick-punish-rush-forward-prowler/frame-3.jpg",
+					"at": 4.4,
+					"label": "Result",
+					"alt": "Forward Prowler light punch into medium Knee Smash finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-od-knee-dash-shimmy",
+			"alex-depth-back-turn-knee-rush-shimmy",
+			"alex-depth-heavy-punish-crouching-medium-knee"
+		]
+	},
+	{
+		"id": "alex-depth-near-corner-heavy-kick-level-two-pickup",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Near-corner heavy kick: Level 2 carry and Prowler pickup",
+		"summary": "Match the near-corner heavy-kick punish spacing, then use Level 2 and one raw Rush for the wall-reaching pickup.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Corner carry", "Super extension"],
+		"outcomes": ["Corner carry", "Corner knockdown"],
+		"notation": "st.HK > st.HP > SA2 > DR > cr.HP > 236MP > 2PP > MP (Prowler) > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA2",
+				"label": "Level 2 Super Art"
+			},
+			{
+				"id": "step-4",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-5",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MP",
+				"label": "Medium Flash Axe"
+			},
+			{
+				"id": "step-7",
+				"notation": "2PP",
+				"label": "Enter Prowler Stance"
+			},
+			{
+				"id": "step-8",
+				"notation": "MP (Prowler)",
+				"label": "Prowler medium-punch follow-up"
+			},
+			{
+				"id": "step-9",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Near-corner spacing shown; the demo begins away from the wall",
+			"Standing heavy kick scores Punish Counter"
+		],
+		"notes": [
+			"This starts midscreen near the corner, rather than starting with an already cornered defender."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "Level 2 (2 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 609.2,
+			"end": 620.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-near-corner-heavy-kick-level-two-pickup/clip.mp4",
+			"poster": "/media/alex/alex-depth-near-corner-heavy-kick-level-two-pickup/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-near-corner-heavy-kick-level-two-pickup/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-near-corner-heavy-kick-level-two-pickup/frame-1.jpg",
+					"at": 0.9,
+					"label": "Punish starter",
+					"alt": "Standing heavy kick Punish Counters from the recorded near-corner spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-near-corner-heavy-kick-level-two-pickup/frame-2.jpg",
+					"at": 3.6,
+					"label": "Super carry",
+					"alt": "Standing heavy punch cancels into Level 2, sending Ryu toward the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-near-corner-heavy-kick-level-two-pickup/frame-3.jpg",
+					"at": 5.5,
+					"label": "Wall pickup",
+					"alt": "Raw Rush crouching heavy punch and medium Flash Axe pick up the wall rebound."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/alex/alex-depth-near-corner-heavy-kick-level-two-pickup/frame-4.jpg",
+					"at": 9.3,
+					"label": "Finish",
+					"alt": "Prowler medium punch and heavy Knee Smash complete the corner knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-od-knee-dash-shimmy",
+			"alex-depth-back-turn-knee-rush-shimmy",
+			"alex-depth-heavy-punish-crouching-medium-knee"
+		]
+	},
+	{
+		"id": "alex-depth-held-heavy-kick-held-punch-knee",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Back medium bait: held-heavy punish into Knee",
+		"summary": "Walk back after guarded back medium kick so the recorded OD uppercut misses; hold both heavy attacks for the punish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Punish conversion", "Knockdown"],
+		"notation": "b.MK > 4 > st.HK (hold) > st.HP (hold) > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK (hold)",
+				"label": "Hold standing heavy kick for the demonstrated release"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP (hold)",
+				"label": "Hold standing heavy punch for the demonstrated release"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the recorded OD uppercut after blocking back medium kick",
+			"The demonstrated backward spacing makes that OD uppercut miss before the held-heavy-kick Punish Counter",
+			"Both heavy buttons use the shown holds"
+		],
+		"notes": [
+			"Back medium kick and backward movement are part of the performed sequence. No block of the OD uppercut or universal armor answer to reversals is claimed."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 621.25,
+			"end": 628.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-held-heavy-kick-held-punch-knee/clip.mp4",
+			"poster": "/media/alex/alex-depth-held-heavy-kick-held-punch-knee/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-held-heavy-kick-held-punch-knee/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-held-heavy-kick-held-punch-knee/frame-1.jpg",
+					"at": 0.45,
+					"label": "Blocked poke",
+					"alt": "Ryu blocks back medium kick before Alex holds backward at the recorded spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-held-heavy-kick-held-punch-knee/frame-2.jpg",
+					"at": 2.0,
+					"label": "Punish starter",
+					"alt": "The held heavy kick scores Punish Counter after the recorded Ryu OD uppercut misses."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-held-heavy-kick-held-punch-knee/frame-3.jpg",
+					"at": 2.95,
+					"label": "Held-heavy link",
+					"alt": "The held standing heavy punch follows the launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/alex/alex-depth-held-heavy-kick-held-punch-knee/frame-4.jpg",
+					"at": 5.35,
+					"label": "Finish",
+					"alt": "Heavy Knee Smash ends the held-button conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-od-knee-dash-shimmy",
+			"alex-depth-back-turn-knee-rush-shimmy",
+			"alex-depth-heavy-punish-crouching-medium-knee"
+		]
+	},
+	{
+		"id": "alex-depth-held-heavy-kick-heavy-chop-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Back medium bait: held-heavy punish, Chop and Level 3",
+		"summary": "Make the recorded OD uppercut whiff with the backward walk before holding both heavies and spending Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Super finish"],
+		"outcomes": ["Punish conversion", "Hard knockdown"],
+		"notation": "b.MK > 4 > st.HK (hold) > st.HP (hold) > 236HP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "b.MK",
+				"label": "Back medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK (hold)",
+				"label": "Hold standing heavy kick for the demonstrated release"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP (hold)",
+				"label": "Hold standing heavy punch for the demonstrated release"
+			},
+			{
+				"id": "step-5",
+				"notation": "236HP",
+				"label": "Heavy Flash Chop"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the recorded OD uppercut after blocking back medium kick",
+			"The shown backward spacing makes the OD uppercut miss before the held-heavy-kick Punish Counter",
+			"Level 3 available"
+		],
+		"notes": [
+			"Back medium kick and backward movement are performed before the held-heavy punish. This claims only the recorded Ryu OD-uppercut spacing; no universal armor or reversal answer is inferred."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 637.3,
+			"end": 652.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-held-heavy-kick-heavy-chop-level-three/clip.mp4",
+			"poster": "/media/alex/alex-depth-held-heavy-kick-heavy-chop-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-held-heavy-kick-heavy-chop-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-held-heavy-kick-heavy-chop-level-three/frame-1.jpg",
+					"at": 0.4,
+					"label": "Blocked poke",
+					"alt": "Ryu blocks back medium kick before Alex holds backward at the recorded spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-held-heavy-kick-heavy-chop-level-three/frame-2.jpg",
+					"at": 2.0,
+					"label": "Punish starter",
+					"alt": "Held standing heavy kick Punish Counters after the recorded Ryu OD uppercut misses."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-held-heavy-kick-heavy-chop-level-three/frame-3.jpg",
+					"at": 2.85,
+					"label": "Held-heavy link",
+					"alt": "The held heavy punch links after the launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/alex/alex-depth-held-heavy-kick-heavy-chop-level-three/frame-4.jpg",
+					"at": 4.9,
+					"label": "Super cancel",
+					"alt": "Heavy Flash Chop cancels into the performed Level 3."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/alex/alex-depth-held-heavy-kick-heavy-chop-level-three/frame-5.jpg",
+					"at": 13.4,
+					"label": "Finish",
+					"alt": "The Super finish completes the hard knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-od-knee-dash-shimmy",
+			"alex-depth-back-turn-knee-rush-shimmy",
+			"alex-depth-lights-two-rush-level-three-cashout"
+		]
+	},
+	{
+		"id": "alex-depth-corner-held-heavy-od-level-two-pickup",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Corner held heavy: OD quarter-circle punch and Level 2 pickup",
+		"summary": "Begin in the corner and budget three Drive bars plus Level 2 for the OD special and later raw-Rush pickup.",
+		"kind": "combo",
+		"situations": ["Corner", "Super extension"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.HP (hold) > 236HP > st.LP > 236PP > SA2 > DR > cr.HP > 236MP > 2PP > MP (Prowler) > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP (hold)",
+				"label": "Hold standing heavy punch for the demonstrated release"
+			},
+			{
+				"id": "step-2",
+				"notation": "236HP",
+				"label": "Heavy Flash Chop"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236PP",
+				"label": "OD quarter-circle-forward punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA2",
+				"label": "Level 2 Super Art"
+			},
+			{
+				"id": "step-6",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-7",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "236MP",
+				"label": "Medium Flash Axe"
+			},
+			{
+				"id": "step-9",
+				"notation": "2PP",
+				"label": "Enter Prowler Stance"
+			},
+			{
+				"id": "step-10",
+				"notation": "MP (Prowler)",
+				"label": "Prowler medium-punch follow-up"
+			},
+			{
+				"id": "step-11",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu begins cornered",
+			"Three Drive bars and Level 2 available"
+		],
+		"notes": [
+			"The OD quarter-circle-forward punch remains command-labeled here; no unverified move-name mapping is added."
+		],
+		"resources": {
+			"drive": "OD quarter-circle-forward punch (2 bars) and raw Rush (1): 3 total",
+			"super": "Level 2 (2 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 577.2,
+			"end": 588.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-corner-held-heavy-od-level-two-pickup/clip.mp4",
+			"poster": "/media/alex/alex-depth-corner-held-heavy-od-level-two-pickup/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-corner-held-heavy-od-level-two-pickup/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-corner-held-heavy-od-level-two-pickup/frame-1.jpg",
+					"at": 1.0,
+					"label": "Corner starter",
+					"alt": "Held heavy punch and heavy Flash Chop begin against cornered Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-corner-held-heavy-od-level-two-pickup/frame-2.jpg",
+					"at": 3.3,
+					"label": "OD and Super",
+					"alt": "Standing jab cancels into the actual OD quarter-circle-forward punch and Level 2."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-corner-held-heavy-od-level-two-pickup/frame-3.jpg",
+					"at": 6.4,
+					"label": "Wall pickup",
+					"alt": "Raw Rush crouching heavy punch picks up the corner rebound before medium Flash Axe."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/alex/alex-depth-corner-held-heavy-od-level-two-pickup/frame-4.jpg",
+					"at": 9.9,
+					"label": "Finish",
+					"alt": "Prowler medium punch into heavy Knee Smash finishes the full route."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-corner-heavy-knee-dash-throw",
+			"alex-depth-corner-heavy-knee-dash-command-throw",
+			"alex-depth-corner-heavy-knee-dash-shimmy"
+		]
+	},
+	{
+		"id": "alex-depth-blocked-di-wall-crush-prowler",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "alex"
+			}
+		],
+		"title": "Blocked corner Drive Impact: wall-crush Prowler route",
+		"summary": "Ryu blocks DI at the wall with Drive available; use the ordinary wall-crush pickup, separate from counter DI or Burnout stun.",
+		"kind": "combo",
+		"situations": ["Corner", "Wall crush"],
+		"outcomes": ["Wall-crush conversion", "Corner knockdown"],
+		"notation": "DI > cr.HP > 236MP > 2PP > MP (Prowler) > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "Medium Flash Axe"
+			},
+			{
+				"id": "step-4",
+				"notation": "2PP",
+				"label": "Enter Prowler Stance"
+			},
+			{
+				"id": "step-5",
+				"notation": "MP (Prowler)",
+				"label": "Prowler medium-punch follow-up"
+			},
+			{
+				"id": "step-6",
+				"notation": "623HK",
+				"label": "Heavy Knee Smash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu begins cornered and blocks Drive Impact with Drive still available"
+		],
+		"notes": [
+			"This is Alex’s own blocked Drive Impact producing normal wall crush, not counter-DI or Burnout stun."
+		],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-alex-2026",
+			"title": "SF6 Classic Alex Complete Guide: Updated Combos & Setups【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=8p5NCSvXjbM",
+			"published": "2026-05-19",
+			"start": 975.35,
+			"end": 982.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/alex/alex-depth-blocked-di-wall-crush-prowler/clip.mp4",
+			"poster": "/media/alex/alex-depth-blocked-di-wall-crush-prowler/frame-1.jpg",
+			"descriptionTrack": "/media/alex/alex-depth-blocked-di-wall-crush-prowler/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/alex/alex-depth-blocked-di-wall-crush-prowler/frame-1.jpg",
+					"at": 1.4,
+					"label": "Context",
+					"alt": "Ryu blocks Alex’s Drive Impact at the wall and suffers ordinary wall crush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/alex/alex-depth-blocked-di-wall-crush-prowler/frame-2.jpg",
+					"at": 3.3,
+					"label": "Action",
+					"alt": "Crouching heavy punch and medium Flash Axe feed the Prowler medium-punch pickup."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/alex/alex-depth-blocked-di-wall-crush-prowler/frame-3.jpg",
+					"at": 5.4,
+					"label": "Result",
+					"alt": "Heavy Knee Smash completes the wall-crush conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"alex-depth-corner-heavy-knee-dash-throw",
+			"alex-depth-corner-heavy-knee-dash-command-throw",
+			"alex-depth-corner-heavy-knee-dash-shimmy"
+		]
 	}
 ]

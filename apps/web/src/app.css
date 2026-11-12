@@ -952,9 +952,6 @@ html {
 	font: 600 4.5rem/1 var(--display);
 }
 .library-filters {
-	position: sticky;
-	top: var(--masthead-height);
-	z-index: 5;
 	display: grid;
 	gap: 14px;
 	padding-block: 18px 12px;
@@ -1435,9 +1432,6 @@ html {
 	.library-total strong {
 		display: block;
 		font-size: 3rem;
-	}
-	.library-filters {
-		position: static;
 	}
 	.library-filters .search {
 		flex-basis: 100%;

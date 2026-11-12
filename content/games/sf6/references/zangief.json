@@ -1236,5 +1236,5029 @@
 			"zangief-low-lights-rush-lariat",
 			"zangief-headbutt-hellstab-lariat"
 		]
+	},
+	{
+		"id": "zangief-depth-low-lights-od-lariat",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Low light confirm into close OD Lariat",
+		"summary": "A short low starter that establishes the close OD-Lariat knockdown used by the following oki references.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > st.LP > 6+PPP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "6+PPP",
+				"label": "OD Double Lariat, hold forward",
+				"cue": "Hold forward during the spin to preserve the shown oki spacing."
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [
+			"The source reports +38 for this knockdown; that is advantage, not a wait instruction.",
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "2 Drive bars — OD Double Lariat",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 0.55,
+			"end": 4.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-low-lights-od-lariat/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-low-lights-od-lariat/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-low-lights-od-lariat/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-low-lights-od-lariat/frame-1.jpg",
+					"at": 0.95,
+					"label": "Light confirm",
+					"alt": "Standing light punch continues the low-light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-low-lights-od-lariat/frame-2.jpg",
+					"at": 1.45,
+					"label": "OD Lariat",
+					"alt": "The gold OD Lariat cancels from standing light punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-low-lights-od-lariat/frame-3.jpg",
+					"at": 2.95,
+					"label": "Close knockdown",
+					"alt": "Holding forward keeps Zangief close after OD Lariat."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-low-lights-rush-lariat",
+			"zangief-headbutt-hellstab-lariat",
+			"zangief-headbutt-od-lariat"
+		]
+	},
+	{
+		"id": "zangief-depth-od-lariat-blocked-headbutt-strike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "OD Lariat: blocked Rush Headbutt into strike",
+		"summary": "After OD Lariat, Rush Headbutt is blocked before a second Headbutt confirms into Hellstab and normal Lariat.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 6HP (blocked) > 6HP > 3MP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP (blocked)",
+				"label": "Meaty Headbutt, blocked"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HP",
+				"label": "Headbutt"
+			},
+			{
+				"id": "step-4",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-5",
+				"notation": "PP",
+				"label": "Double Lariat"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > OD Double Lariat, holding forward during Lariat to stay close; source reports +38 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 8.1,
+			"end": 12.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-od-lariat-blocked-headbutt-strike/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-od-lariat-blocked-headbutt-strike/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-od-lariat-blocked-headbutt-strike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-od-lariat-blocked-headbutt-strike/frame-1.jpg",
+					"at": 0.9,
+					"label": "Rush approach",
+					"alt": "Raw Drive Rush carries Zangief toward the waking Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-od-lariat-blocked-headbutt-strike/frame-2.jpg",
+					"at": 1.3,
+					"label": "Blocked Headbutt",
+					"alt": "Ryu blocks the first Headbutt before the next strike."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-od-lariat-blocked-headbutt-strike/frame-3.jpg",
+					"at": 2.4,
+					"label": "Strike continuation",
+					"alt": "A second Headbutt links Hellstab into normal Lariat."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-meaty-headbutts"
+		]
+	},
+	{
+		"id": "zangief-depth-od-lariat-meaty-headbutts",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "OD Lariat: Rush meaty into two Headbutts",
+		"summary": "After OD Lariat, a Rush Headbutt links a second Headbutt, Hellstab and normal Lariat.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 6HP > 6HP > 3MP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Headbutt"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HP",
+				"label": "Headbutt"
+			},
+			{
+				"id": "step-4",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-5",
+				"notation": "PP",
+				"label": "Double Lariat"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > OD Double Lariat, holding forward during Lariat to stay close; source reports +38 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 25.25,
+			"end": 31.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-od-lariat-meaty-headbutts/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-od-lariat-meaty-headbutts/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-od-lariat-meaty-headbutts/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-od-lariat-meaty-headbutts/frame-1.jpg",
+					"at": 0.75,
+					"label": "Rush approach",
+					"alt": "Raw Rush closes the knockdown gap."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-od-lariat-meaty-headbutts/frame-2.jpg",
+					"at": 1.75,
+					"label": "Meaty Headbutt",
+					"alt": "The first Rush Headbutt hits and links another Headbutt."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-od-lariat-meaty-headbutts/frame-3.jpg",
+					"at": 3.75,
+					"label": "Lariat conversion",
+					"alt": "Hellstab cancels into normal Double Lariat."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-od-lariat-rush-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "OD Lariat: Rush low into Lariat",
+		"summary": "After OD Lariat, raw Rush carries crouching medium kick into Hellstab and normal Lariat.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > cr.MK > 3MP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "PP",
+				"label": "Double Lariat"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > OD Double Lariat, holding forward during Lariat to stay close; source reports +38 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 34.15,
+			"end": 38.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-od-lariat-rush-low/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-od-lariat-rush-low/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-od-lariat-rush-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-od-lariat-rush-low/frame-1.jpg",
+					"at": 0.85,
+					"label": "Rush low",
+					"alt": "Drive Rush crouching medium kick hits low on wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-od-lariat-rush-low/frame-2.jpg",
+					"at": 1.85,
+					"label": "Hellstab link",
+					"alt": "Hellstab continues the low conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-od-lariat-rush-low/frame-3.jpg",
+					"at": 2.85,
+					"label": "Lariat finish",
+					"alt": "Normal Double Lariat returns Ryu to knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-od-lariat-jump-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "OD Lariat: jumping medium into Hellstab",
+		"summary": "After OD Lariat, forward-jump medium punch connects before the grounded Hellstab and normal Lariat.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "9 > j.MP > 3MP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "PP",
+				"label": "Double Lariat"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > OD Double Lariat, holding forward during Lariat to stay close; source reports +38 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 42.1,
+			"end": 46.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-od-lariat-jump-medium/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-od-lariat-jump-medium/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-od-lariat-jump-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-od-lariat-jump-medium/frame-1.jpg",
+					"at": 0.5,
+					"label": "Jump approach",
+					"alt": "Zangief jumps forward from the close OD-Lariat knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-od-lariat-jump-medium/frame-2.jpg",
+					"at": 0.9,
+					"label": "Hellstab follow-up",
+					"alt": "The jump-medium hit links into grounded Hellstab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-od-lariat-jump-medium/frame-3.jpg",
+					"at": 1.9,
+					"label": "Lariat finish",
+					"alt": "Double Lariat completes the jump-in conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-od-lariat-jump-block-manon",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "OD Lariat: jump medium and block Manon Level 1",
+		"summary": "After OD Lariat, the jumping-medium attempt lands in time to block the recorded Manon Level 1.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Safe jump", "Reversal"],
+		"outcomes": ["Reversal blocked"],
+		"notation": "9 > j.MP > land + block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "land + block",
+				"label": "Land and block"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Manon Level 1 reversal in the recording",
+			"Prerequisite: cr.LK > st.LP > OD Double Lariat, holding forward during Lariat to stay close; source reports +38 before the setup."
+		],
+		"notes": [
+			"This clip proves the recorded Manon SA1 interaction. The overlay makes a broader reversal-speed claim; other reversals and current-patch timing are not verified here.",
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 49.15,
+			"end": 53.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-od-lariat-jump-block-manon/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-od-lariat-jump-block-manon/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-od-lariat-jump-block-manon/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-od-lariat-jump-block-manon/frame-1.jpg",
+					"at": 0.85,
+					"label": "Jump approach",
+					"alt": "Zangief jumps while Manon is recovering from OD Lariat."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-od-lariat-jump-block-manon/frame-2.jpg",
+					"at": 2.15,
+					"label": "Jump medium",
+					"alt": "Jumping medium punch extends before Zangief lands."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-od-lariat-jump-block-manon/frame-3.jpg",
+					"at": 2.45,
+					"label": "Reversal blocked",
+					"alt": "Grounded guard blocks Manon’s Level 1 reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-od-lariat-rush-block-dp",
+			"zangief-depth-forward-throw-rush-block-dp",
+			"zangief-od-lariat-blocked-headbutt-grab"
+		]
+	},
+	{
+		"id": "zangief-depth-od-lariat-rush-medium-spd",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "OD Lariat: raw Rush into medium SPD",
+		"summary": "After OD Lariat, raw Rush reaches the recorded medium-SPD spacing.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Command throw", "Knockdown"],
+		"notation": "DR > 360MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "360MP",
+				"label": "Medium Screw Piledriver"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > OD Double Lariat, holding forward during Lariat to stay close; source reports +38 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 56.5,
+			"end": 62.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-od-lariat-rush-medium-spd/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-od-lariat-rush-medium-spd/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-od-lariat-rush-medium-spd/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-od-lariat-rush-medium-spd/frame-1.jpg",
+					"at": 0.5,
+					"label": "Rush approach",
+					"alt": "Raw Rush closes the OD-Lariat knockdown gap."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-od-lariat-rush-medium-spd/frame-2.jpg",
+					"at": 1.5,
+					"label": "Medium SPD",
+					"alt": "The yellow medium-punch input starts Screw Piledriver."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-od-lariat-rush-medium-spd/frame-3.jpg",
+					"at": 3.5,
+					"label": "Throw finish",
+					"alt": "Medium SPD completes the wake-up throw branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-od-lariat-rush-forward-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "OD Lariat: raw Rush into forward throw",
+		"summary": "After OD Lariat, raw Rush reaches a forward normal throw without additional Drive cancels.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw", "Knockdown"],
+		"notation": "DR > 3LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "3LP+LK",
+				"label": "Forward normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > OD Double Lariat, holding forward during Lariat to stay close; source reports +38 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 65.1,
+			"end": 69.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-od-lariat-rush-forward-throw/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-od-lariat-rush-forward-throw/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-od-lariat-rush-forward-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-od-lariat-rush-forward-throw/frame-1.jpg",
+					"at": 0.5,
+					"label": "Rush approach",
+					"alt": "Raw Rush brings Zangief into normal-throw range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-od-lariat-rush-forward-throw/frame-2.jpg",
+					"at": 0.9,
+					"label": "Forward throw",
+					"alt": "The forward normal throw catches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-od-lariat-rush-forward-throw/frame-3.jpg",
+					"at": 2.9,
+					"label": "Hard knockdown",
+					"alt": "The throw leaves Ryu knocked down in front."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-od-lariat-rush-block-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "OD Lariat: Rush and block Ryu OD DP",
+		"summary": "After OD Lariat, raw Rush stops in grounded guard against the recorded Ryu OD Shoryuken.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Reversal"],
+		"outcomes": ["Reversal blocked"],
+		"notation": "DR > block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "block",
+				"label": "Block OD Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > OD Double Lariat, holding forward during Lariat to stay close; source reports +38 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 72.7,
+			"end": 76.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-od-lariat-rush-block-dp/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-od-lariat-rush-block-dp/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-od-lariat-rush-block-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-od-lariat-rush-block-dp/frame-1.jpg",
+					"at": 0.5,
+					"label": "Rush approach",
+					"alt": "Zangief approaches without committing to a wake-up strike."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-od-lariat-rush-block-dp/frame-2.jpg",
+					"at": 1.3,
+					"label": "Reversal blocked",
+					"alt": "Ryu’s gold OD Shoryuken meets Zangief’s guard."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-od-lariat-rush-block-dp/frame-3.jpg",
+					"at": 3.0,
+					"label": "Blocked recovery",
+					"alt": "Zangief remains grounded as the reversal descends."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-od-lariat-jump-block-manon",
+			"zangief-depth-forward-throw-rush-block-dp",
+			"zangief-od-lariat-blocked-headbutt-grab"
+		]
+	},
+	{
+		"id": "zangief-depth-corner-od-lariat-walk-headbutt",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Corner OD Lariat: walk into Headbutt conversion",
+		"summary": "After corner OD Lariat, walk forward into Headbutt, Hellstab and normal Lariat.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "walk forward > 6HP > 3MP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "walk forward",
+				"label": "Close the corner gap"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Headbutt"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "PP",
+				"label": "Double Lariat"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > OD Double Lariat, holding forward during Lariat to stay close; source reports +38 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 79.1,
+			"end": 83.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-corner-od-lariat-walk-headbutt/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-corner-od-lariat-walk-headbutt/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-corner-od-lariat-walk-headbutt/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-corner-od-lariat-walk-headbutt/frame-1.jpg",
+					"at": 0.5,
+					"label": "Walk approach",
+					"alt": "Zangief walks forward after the corner OD-Lariat knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-corner-od-lariat-walk-headbutt/frame-2.jpg",
+					"at": 0.9,
+					"label": "Headbutt",
+					"alt": "Headbutt catches the waking Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-corner-od-lariat-walk-headbutt/frame-3.jpg",
+					"at": 2.9,
+					"label": "Lariat finish",
+					"alt": "Hellstab cancels into normal Lariat at the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-corner-od-lariat-walk-heavy-spd",
+			"zangief-depth-corner-od-lariat-shimmy",
+			"zangief-depth-corner-lariat-walk-headbutt"
+		]
+	},
+	{
+		"id": "zangief-depth-corner-od-lariat-walk-heavy-spd",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Corner OD Lariat: walk into heavy SPD",
+		"summary": "After corner OD Lariat, walk into the recorded close heavy-SPD spacing.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Command throw", "Corner knockdown"],
+		"notation": "walk forward > 360HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "walk forward",
+				"label": "Close the corner gap"
+			},
+			{
+				"id": "step-2",
+				"notation": "360HP",
+				"label": "Heavy Screw Piledriver"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > OD Double Lariat, holding forward during Lariat to stay close; source reports +38 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 87.1,
+			"end": 92.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-corner-od-lariat-walk-heavy-spd/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-corner-od-lariat-walk-heavy-spd/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-corner-od-lariat-walk-heavy-spd/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-corner-od-lariat-walk-heavy-spd/frame-1.jpg",
+					"at": 0.4,
+					"label": "Walk approach",
+					"alt": "Zangief closes the small corner gap on foot."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-corner-od-lariat-walk-heavy-spd/frame-2.jpg",
+					"at": 0.9,
+					"label": "Heavy SPD",
+					"alt": "The red heavy-punch input starts the command grab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-corner-od-lariat-walk-heavy-spd/frame-3.jpg",
+					"at": 2.9,
+					"label": "Throw finish",
+					"alt": "Heavy SPD completes the corner wake-up branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-corner-od-lariat-walk-headbutt",
+			"zangief-depth-corner-od-lariat-shimmy",
+			"zangief-depth-corner-lariat-walk-headbutt"
+		]
+	},
+	{
+		"id": "zangief-depth-corner-od-lariat-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Corner OD Lariat: shimmy into OD air throw",
+		"summary": "After corner OD Lariat, retreat from the throw and punish with crouching heavy, Hellstab, OD Lariat and OD air SPD.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish"],
+		"outcomes": ["Throw bait", "Corner knockdown"],
+		"notation": "walk back > cr.HP (PC) > 3MP > PPP > j.360KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "walk back",
+				"label": "Shimmy",
+				"cue": "Retreat outside the recorded throw range."
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP (PC)",
+				"label": "Punish-counter crouching heavy"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "PPP",
+				"label": "OD Double Lariat"
+			},
+			{
+				"id": "step-5",
+				"notation": "j.360KK",
+				"label": "OD Borscht Dynamite"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > OD Double Lariat, holding forward during Lariat to stay close; source reports +38 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "4 Drive bars — OD Double Lariat and OD Borscht Dynamite after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 95.1,
+			"end": 104.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-corner-od-lariat-shimmy/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-corner-od-lariat-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-corner-od-lariat-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-corner-od-lariat-shimmy/frame-1.jpg",
+					"at": 0.9,
+					"label": "Throw bait",
+					"alt": "Zangief retreats as Ryu attempts a normal throw."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-corner-od-lariat-shimmy/frame-2.jpg",
+					"at": 1.9,
+					"label": "Punish heavy",
+					"alt": "Punish-counter crouching heavy links Hellstab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-corner-od-lariat-shimmy/frame-3.jpg",
+					"at": 4.9,
+					"label": "OD air throw",
+					"alt": "OD Lariat launches into OD Borscht Dynamite."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-corner-od-lariat-shimmy/frame-4.jpg",
+					"at": 7.9,
+					"label": "Corner finish",
+					"alt": "The air throw returns Ryu to knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-corner-lariat-shimmy",
+			"zangief-corner-wheel-kick-air-throw",
+			"zangief-depth-corner-od-lariat-walk-headbutt"
+		]
+	},
+	{
+		"id": "zangief-depth-lariat-rush-target-combo",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Normal Lariat: Rush into medium target combo",
+		"summary": "After normal Lariat, raw Rush reaches the three-punch standing-medium target combo.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > st.MP > st.MP > st.MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "First medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Second target-combo punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MP",
+				"label": "Final target-combo punch"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > DRC > cr.LP > Hellstab > Double Lariat, holding forward during Lariat; source reports +27 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 114.45,
+			"end": 119.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-lariat-rush-target-combo/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-lariat-rush-target-combo/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-lariat-rush-target-combo/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-lariat-rush-target-combo/frame-1.jpg",
+					"at": 0.55,
+					"label": "Rush approach",
+					"alt": "Raw Rush reaches Ryu after normal Lariat."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-lariat-rush-target-combo/frame-2.jpg",
+					"at": 1.55,
+					"label": "Medium target",
+					"alt": "Standing medium punch begins the three-part target combo."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-lariat-rush-target-combo/frame-3.jpg",
+					"at": 3.55,
+					"label": "Target knockdown",
+					"alt": "The target combo knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-lariat-rush-sweep",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Normal Lariat: raw Rush into sweep",
+		"summary": "After normal Lariat, raw Rush reaches a crouching-heavy-kick sweep on wake-up.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > cr.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HK",
+				"label": "Crouching heavy-kick sweep"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > DRC > cr.LP > Hellstab > Double Lariat, holding forward during Lariat; source reports +27 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 123.0,
+			"end": 126.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-lariat-rush-sweep/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-lariat-rush-sweep/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-lariat-rush-sweep/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-lariat-rush-sweep/frame-1.jpg",
+					"at": 0.5,
+					"label": "Rush approach",
+					"alt": "Zangief closes the normal-Lariat gap with raw Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-lariat-rush-sweep/frame-2.jpg",
+					"at": 1.0,
+					"label": "Low sweep",
+					"alt": "Drive Rush sweep catches Ryu’s wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-lariat-rush-sweep/frame-3.jpg",
+					"at": 3.0,
+					"label": "Sweep knockdown",
+					"alt": "Ryu falls after the low sweep."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-lariat-rush-light-spd",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Normal Lariat: raw Rush into light SPD",
+		"summary": "After normal Lariat, raw Rush reaches the recorded light-SPD spacing.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Command throw", "Knockdown"],
+		"notation": "DR > 360LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "360LP",
+				"label": "Light Screw Piledriver"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > DRC > cr.LP > Hellstab > Double Lariat, holding forward during Lariat; source reports +27 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 131.15,
+			"end": 136.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-lariat-rush-light-spd/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-lariat-rush-light-spd/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-lariat-rush-light-spd/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-lariat-rush-light-spd/frame-1.jpg",
+					"at": 0.55,
+					"label": "Rush approach",
+					"alt": "Raw Rush reaches the light-SPD spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-lariat-rush-light-spd/frame-2.jpg",
+					"at": 1.45,
+					"label": "Light SPD",
+					"alt": "The blue light-punch input starts Screw Piledriver."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-lariat-rush-light-spd/frame-3.jpg",
+					"at": 2.85,
+					"label": "Throw finish",
+					"alt": "Light SPD completes the wake-up throw branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-corner-lariat-walk-headbutt",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Corner normal Lariat: walk into Headbutt",
+		"summary": "After corner normal Lariat, walk forward into Headbutt, Hellstab and another normal Lariat.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "walk forward > 6HP > 3MP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "walk forward",
+				"label": "Close the corner gap"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Headbutt"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "PP",
+				"label": "Double Lariat"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > DRC > cr.LP > Hellstab > Double Lariat, holding forward during Lariat; source reports +27 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 139.75,
+			"end": 144.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-corner-lariat-walk-headbutt/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-corner-lariat-walk-headbutt/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-corner-lariat-walk-headbutt/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-corner-lariat-walk-headbutt/frame-1.jpg",
+					"at": 0.25,
+					"label": "Knockdown recovery",
+					"alt": "Zangief recovers from the prerequisite normal Lariat."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-corner-lariat-walk-headbutt/frame-2.jpg",
+					"at": 1.25,
+					"label": "Headbutt",
+					"alt": "A short walk brings Headbutt into range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-corner-lariat-walk-headbutt/frame-3.jpg",
+					"at": 3.25,
+					"label": "Lariat conversion",
+					"alt": "Hellstab and normal Lariat finish the strike branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-corner-od-lariat-walk-headbutt",
+			"zangief-depth-corner-od-lariat-walk-heavy-spd",
+			"zangief-depth-corner-od-lariat-shimmy"
+		]
+	},
+	{
+		"id": "zangief-depth-corner-lariat-heavy-spd",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Corner normal Lariat: walk into heavy SPD",
+		"summary": "After corner normal Lariat, walk forward into the close heavy SPD.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Command throw", "Corner knockdown"],
+		"notation": "walk forward > 360HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "walk forward",
+				"label": "Close the corner gap"
+			},
+			{
+				"id": "step-2",
+				"notation": "360HP",
+				"label": "Heavy Screw Piledriver"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > DRC > cr.LP > Hellstab > Double Lariat, holding forward during Lariat; source reports +27 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 148.85,
+			"end": 154.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-corner-lariat-heavy-spd/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-corner-lariat-heavy-spd/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-corner-lariat-heavy-spd/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-corner-lariat-heavy-spd/frame-1.jpg",
+					"at": 0.15,
+					"label": "Corner gap",
+					"alt": "Zangief recovers from normal Lariat with Ryu down at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-corner-lariat-heavy-spd/frame-2.jpg",
+					"at": 1.15,
+					"label": "Heavy SPD",
+					"alt": "The heavy command grab catches Ryu at close range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-corner-lariat-heavy-spd/frame-3.jpg",
+					"at": 3.15,
+					"label": "Throw finish",
+					"alt": "Heavy SPD completes the corner throw branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-corner-od-lariat-walk-headbutt",
+			"zangief-depth-corner-od-lariat-walk-heavy-spd",
+			"zangief-depth-corner-od-lariat-shimmy"
+		]
+	},
+	{
+		"id": "zangief-depth-corner-lariat-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Corner normal Lariat: shimmy into OD air throw",
+		"summary": "After corner normal Lariat, retreat from the throw and punish into OD Lariat and OD air SPD.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish"],
+		"outcomes": ["Throw bait", "Corner knockdown"],
+		"notation": "walk back > cr.HP (PC) > 3MP > PPP > j.360KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "walk back",
+				"label": "Shimmy",
+				"cue": "Retreat outside the recorded throw range."
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP (PC)",
+				"label": "Punish-counter crouching heavy"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "PPP",
+				"label": "OD Double Lariat"
+			},
+			{
+				"id": "step-5",
+				"notation": "j.360KK",
+				"label": "OD Borscht Dynamite"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: cr.LK > st.LP > DRC > cr.LP > Hellstab > Double Lariat, holding forward during Lariat; source reports +27 before the setup."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "4 Drive bars — OD Double Lariat and OD Borscht Dynamite after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 158.1,
+			"end": 166.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-corner-lariat-shimmy/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-corner-lariat-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-corner-lariat-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-corner-lariat-shimmy/frame-1.jpg",
+					"at": 0.5,
+					"label": "Shimmy",
+					"alt": "Zangief retreats from Ryu’s wake-up throw attempt."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-corner-lariat-shimmy/frame-2.jpg",
+					"at": 0.9,
+					"label": "Punish heavy",
+					"alt": "Crouching heavy catches the missed throw as a punish counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-corner-lariat-shimmy/frame-3.jpg",
+					"at": 2.9,
+					"label": "OD launcher",
+					"alt": "Hellstab cancels into OD Lariat."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-corner-lariat-shimmy/frame-4.jpg",
+					"at": 5.9,
+					"label": "OD air throw",
+					"alt": "OD Borscht Dynamite completes the throw punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-corner-od-lariat-shimmy",
+			"zangief-corner-wheel-kick-air-throw",
+			"zangief-depth-corner-od-lariat-walk-headbutt"
+		]
+	},
+	{
+		"id": "zangief-depth-rush-jab-reset-headbutt",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Rush jab reset into Headbutt",
+		"summary": "After the low-light Rush-jab sequence ends, reset pressure with Headbutt into Hellstab and normal Lariat.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Reset", "Pressure"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > st.LP > DRC > cr.LP > reset > 6HP > 3MP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "reset",
+				"label": "Leave the combo/reset gap"
+			},
+			{
+				"id": "step-6",
+				"notation": "6HP",
+				"label": "Headbutt"
+			},
+			{
+				"id": "step-7",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-8",
+				"notation": "PP",
+				"label": "Double Lariat"
+			}
+		],
+		"conditions": ["Classic controls", "The gap is a reset, not a continuous combo"],
+		"notes": [
+			"The adjacent source take shows the Headbutt trading and still continuing into Hellstab; that duplicate recipe is not a separate reference.",
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "3 Drive bars — one Drive Rush cancel",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 167.6,
+			"end": 173.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-rush-jab-reset-headbutt/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-rush-jab-reset-headbutt/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-rush-jab-reset-headbutt/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-headbutt/frame-1.jpg",
+					"at": 1.4,
+					"label": "Rush jab",
+					"alt": "The low-light opener cancels into a Rush crouching jab."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-headbutt/frame-2.jpg",
+					"at": 2.4,
+					"label": "Headbutt reset",
+					"alt": "Headbutt begins a new hit sequence after the jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-headbutt/frame-3.jpg",
+					"at": 4.4,
+					"label": "Lariat finish",
+					"alt": "Hellstab into Lariat completes the reset conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-rush-jab-reset-heavy-spd",
+			"zangief-depth-rush-jab-reset-block-dp",
+			"zangief-depth-rush-jab-reset-level-one-jump"
+		]
+	},
+	{
+		"id": "zangief-depth-rush-jab-reset-heavy-spd",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Rush jab reset into delayed heavy SPD",
+		"summary": "After the low-light Rush-jab sequence, delay a close heavy SPD instead of continuing the strike route.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Reset", "Pressure"],
+		"outcomes": ["Command throw", "Knockdown"],
+		"notation": "cr.LK > st.LP > DRC > cr.LP > delay > 360HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "delay",
+				"label": "Reset delay",
+				"cue": "The source demonstrates a delay without a fixed frame count."
+			},
+			{
+				"id": "step-6",
+				"notation": "360HP",
+				"label": "Heavy Screw Piledriver"
+			}
+		],
+		"conditions": ["Classic controls", "A reset gap permits defensive choices"],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "3 Drive bars — one Drive Rush cancel",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 179.55,
+			"end": 185.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-rush-jab-reset-heavy-spd/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-rush-jab-reset-heavy-spd/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-rush-jab-reset-heavy-spd/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-heavy-spd/frame-1.jpg",
+					"at": 0.45,
+					"label": "Low starter",
+					"alt": "Crouching light kick begins the light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-heavy-spd/frame-2.jpg",
+					"at": 1.45,
+					"label": "Rush jab",
+					"alt": "The Rush crouching jab ends the combo before the throw reset."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-heavy-spd/frame-3.jpg",
+					"at": 2.45,
+					"label": "Heavy SPD",
+					"alt": "The delayed heavy Screw Piledriver grabs Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-heavy-spd/frame-4.jpg",
+					"at": 4.45,
+					"label": "Throw finish",
+					"alt": "The command grab leaves Ryu knocked down."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-rush-jab-reset-headbutt",
+			"zangief-depth-rush-jab-reset-block-dp",
+			"zangief-depth-rush-jab-reset-level-one-jump"
+		]
+	},
+	{
+		"id": "zangief-depth-rush-jab-reset-block-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Rush jab reset: block Ryu OD DP",
+		"summary": "After the low-light Rush-jab sequence, guard the recorded Ryu OD Shoryuken at the pressure reset.",
+		"kind": "response",
+		"situations": ["Midscreen", "Reset", "Reversal"],
+		"outcomes": ["Reversal blocked"],
+		"notation": "cr.LK > st.LP > DRC > cr.LP > block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "block",
+				"label": "Reset into guard"
+			}
+		],
+		"conditions": ["Classic controls", "Ryu OD Shoryuken in the recording"],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "3 Drive bars — one Drive Rush cancel",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 186.25,
+			"end": 190.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-rush-jab-reset-block-dp/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-rush-jab-reset-block-dp/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-rush-jab-reset-block-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-block-dp/frame-1.jpg",
+					"at": 0.75,
+					"label": "Low starter",
+					"alt": "The crouching low begins the same light string."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-block-dp/frame-2.jpg",
+					"at": 1.75,
+					"label": "Rush jab",
+					"alt": "Zangief stops after the Rush crouching jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-block-dp/frame-3.jpg",
+					"at": 2.75,
+					"label": "Reversal blocked",
+					"alt": "Zangief guards Ryu’s gold OD Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-od-lariat-jump-block-manon",
+			"zangief-depth-od-lariat-rush-block-dp",
+			"zangief-depth-rush-jab-reset-headbutt"
+		]
+	},
+	{
+		"id": "zangief-depth-rush-jab-reset-level-one-jump",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Rush jab reset: Level 1 catches the jump",
+		"summary": "After the low-light Rush-jab sequence, Level 1 catches the recorded escape jump at the reset.",
+		"kind": "response",
+		"situations": ["Midscreen", "Reset", "Anti-air"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > st.LP > DRC > cr.LP > reset > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "reset",
+				"label": "Read the defensive jump"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA1",
+				"label": "Aerial Russian Slam"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu jumps after the reset; the super is not a guaranteed combo from jab"
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "3 Drive bars — one Drive Rush cancel",
+			"super": "1 Super bar — SA1"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 191.55,
+			"end": 199.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-rush-jab-reset-level-one-jump/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-rush-jab-reset-level-one-jump/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-rush-jab-reset-level-one-jump/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-level-one-jump/frame-1.jpg",
+					"at": 1.45,
+					"label": "Rush jab",
+					"alt": "Zangief stops the light string after Rush jab."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-level-one-jump/frame-2.jpg",
+					"at": 2.45,
+					"label": "Level 1 read",
+					"alt": "Aerial Russian Slam activates as Ryu leaves the ground."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-level-one-jump/frame-3.jpg",
+					"at": 3.45,
+					"label": "Air catch",
+					"alt": "The Level 1 grabs Ryu in the air."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-rush-jab-reset-level-one-jump/frame-4.jpg",
+					"at": 6.45,
+					"label": "Super knockdown",
+					"alt": "The anti-air super finishes the reset read."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-spd-throw-whiff-level-one",
+			"zangief-depth-rush-jab-reset-headbutt",
+			"zangief-depth-rush-jab-reset-heavy-spd"
+		]
+	},
+	{
+		"id": "zangief-depth-low-two-rush-cashout",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Low starter: two Rush cancels into burnout",
+		"summary": "Spend the remaining Drive gauge on a second Rush extension while preserving the normal-Lariat ender.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Cash-out"],
+		"outcomes": ["Knockdown", "Burnout"],
+		"notation": "cr.LK > st.LP > DRC > cr.LP > 3MP > DRC > cr.MP > 3MP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-6",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-7",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-9",
+				"notation": "PP",
+				"label": "Double Lariat"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Sufficient Drive to start both cancels; the source enters burnout"
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "6 Drive bars — two Drive Rush cancels",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 200.25,
+			"end": 206.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-low-two-rush-cashout/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-low-two-rush-cashout/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-low-two-rush-cashout/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-low-two-rush-cashout/frame-1.jpg",
+					"at": 0.75,
+					"label": "Low starter",
+					"alt": "Crouching light kick begins the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-low-two-rush-cashout/frame-2.jpg",
+					"at": 1.75,
+					"label": "First extension",
+					"alt": "Rush jab links Hellstab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-low-two-rush-cashout/frame-3.jpg",
+					"at": 2.75,
+					"label": "Second Rush cancel",
+					"alt": "The second cancel exhausts the shown Drive gauge."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-low-two-rush-cashout/frame-4.jpg",
+					"at": 4.75,
+					"label": "Lariat finish",
+					"alt": "Crouching medium and Hellstab lead into normal Lariat."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-low-rush-od-level-three",
+			"zangief-low-lights-rush-lariat",
+			"zangief-headbutt-hellstab-lariat"
+		]
+	},
+	{
+		"id": "zangief-depth-low-rush-od-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Low starter: OD Lariat into Level 3",
+		"summary": "Convert the low-light confirm through Rush and OD Lariat into the shown Level 3.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Cash-out"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LK > st.LP > DRC > cr.LP > 3MP > PPP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-6",
+				"notation": "PPP",
+				"label": "OD Double Lariat"
+			},
+			{
+				"id": "step-7",
+				"notation": "SA3",
+				"label": "Bolshoi Storm Buster"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"The overlay lists SA2 or SA3. This clip demonstrates SA3 only.",
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "5 Drive bars — one Rush cancel and OD Lariat",
+			"super": "3 Super bars — SA3"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 207.35,
+			"end": 220.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-low-rush-od-level-three/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-low-rush-od-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-low-rush-od-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-low-rush-od-level-three/frame-1.jpg",
+					"at": 0.65,
+					"label": "Low starter",
+					"alt": "Crouching light kick begins the low-light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-low-rush-od-level-three/frame-2.jpg",
+					"at": 1.65,
+					"label": "Rush extension",
+					"alt": "Rush crouching jab links Hellstab before OD Lariat."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-low-rush-od-level-three/frame-3.jpg",
+					"at": 2.65,
+					"label": "Level 3 cancel",
+					"alt": "The OD launcher cancels into Bolshoi Storm Buster."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-low-rush-od-level-three/frame-4.jpg",
+					"at": 11.65,
+					"label": "Super finish",
+					"alt": "The Level 3 cinematic completes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-low-two-rush-cashout",
+			"zangief-low-lights-rush-lariat",
+			"zangief-headbutt-hellstab-lariat"
+		]
+	},
+	{
+		"id": "zangief-depth-drive-reversal-heavy-spd",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Block Drive Reversal into heavy SPD",
+		"summary": "Block Ryu’s Drive Reversal and punish its recovery with heavy SPD.",
+		"kind": "response",
+		"situations": ["Midscreen", "Punish", "Drive Reversal"],
+		"outcomes": ["Knockdown"],
+		"notation": "block > 360HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "block",
+				"label": "Block Ryu Drive Reversal"
+			},
+			{
+				"id": "step-2",
+				"notation": "360HP",
+				"label": "Heavy Screw Piledriver"
+			}
+		],
+		"conditions": ["Classic controls", "Ryu Drive Reversal in the recording"],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 253.25,
+			"end": 259.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-drive-reversal-heavy-spd/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-drive-reversal-heavy-spd/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-drive-reversal-heavy-spd/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-drive-reversal-heavy-spd/frame-1.jpg",
+					"at": 0.75,
+					"label": "Drive Reversal blocked",
+					"alt": "Ryu’s blue Drive Reversal meets Zangief’s guard."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-drive-reversal-heavy-spd/frame-2.jpg",
+					"at": 1.75,
+					"label": "Heavy SPD punish",
+					"alt": "Heavy Screw Piledriver catches the recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-drive-reversal-heavy-spd/frame-3.jpg",
+					"at": 3.75,
+					"label": "Throw finish",
+					"alt": "The punish completes with a command-throw knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-pc-forward-throw-shimmy-spd",
+			"zangief-depth-counter-di-od-lariat",
+			"zangief-low-lights-rush-lariat"
+		]
+	},
+	{
+		"id": "zangief-depth-corner-shimmy-od-air-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Corner throw-whiff punish into OD air throw",
+		"summary": "Approach with Rush, retreat from the throw and punish with the OD-Lariat air-throw juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Punish", "Shimmy"],
+		"outcomes": ["Corner knockdown", "Throw bait"],
+		"notation": "DR > walk back > cr.HP (PC) > 3MP > PPP > j.360KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "walk back",
+				"label": "Shimmy",
+				"cue": "Retreat outside the recorded throw range."
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP (PC)",
+				"label": "Punish-counter crouching heavy"
+			},
+			{
+				"id": "step-4",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-5",
+				"notation": "PPP",
+				"label": "OD Double Lariat"
+			},
+			{
+				"id": "step-6",
+				"notation": "j.360KK",
+				"label": "OD Borscht Dynamite"
+			}
+		],
+		"conditions": ["Classic controls", "Ryu attempts a normal throw"],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "5 Drive bars — raw Rush, OD Lariat and OD Borscht Dynamite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 277.3,
+			"end": 287.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-corner-shimmy-od-air-throw/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-corner-shimmy-od-air-throw/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-corner-shimmy-od-air-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-corner-shimmy-od-air-throw/frame-1.jpg",
+					"at": 0.7,
+					"label": "Rush approach",
+					"alt": "Raw Drive Rush closes on the cornered Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-corner-shimmy-od-air-throw/frame-2.jpg",
+					"at": 2.7,
+					"label": "Throw punish",
+					"alt": "Crouching heavy punishes Ryu’s missed normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-corner-shimmy-od-air-throw/frame-3.jpg",
+					"at": 4.7,
+					"label": "OD launcher",
+					"alt": "Hellstab cancels into OD Double Lariat."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-corner-shimmy-od-air-throw/frame-4.jpg",
+					"at": 7.7,
+					"label": "OD air throw",
+					"alt": "OD Borscht Dynamite finishes the corner punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-corner-wheel-kick-air-throw",
+			"zangief-depth-corner-od-lariat-shimmy",
+			"zangief-depth-corner-lariat-shimmy"
+		]
+	},
+	{
+		"id": "zangief-depth-forward-throw-dash-medium-spd",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Forward throw: dash into delayed medium SPD",
+		"summary": "After an ordinary forward throw, dash and delay medium SPD at the recorded spacing.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Command throw", "Knockdown"],
+		"notation": "66 > delay > 360MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "delay",
+				"label": "Delay the command grab",
+				"cue": "Use the demonstrated rhythm; no exact wait count is claimed."
+			},
+			{
+				"id": "step-3",
+				"notation": "360MP",
+				"label": "Medium Screw Piledriver"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: the recorded forward normal throw (3LP+LK) knockdown, not back throw."
+		],
+		"notes": [
+			"The source’s dash +6 reports remaining advantage, not a six-frame delay.",
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 303.1,
+			"end": 308.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-forward-throw-dash-medium-spd/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-forward-throw-dash-medium-spd/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-forward-throw-dash-medium-spd/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-forward-throw-dash-medium-spd/frame-1.jpg",
+					"at": 0.4,
+					"label": "Dash approach",
+					"alt": "Zangief dashes after the forward-throw knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-forward-throw-dash-medium-spd/frame-2.jpg",
+					"at": 0.9,
+					"label": "Medium SPD",
+					"alt": "The medium command grab catches the waking Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-forward-throw-dash-medium-spd/frame-3.jpg",
+					"at": 2.9,
+					"label": "Throw finish",
+					"alt": "The command throw completes the delayed throw branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-forward-throw-rush-headbutts",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Forward throw: Rush into two Headbutts",
+		"summary": "After an ordinary forward throw, Rush Headbutt links a second Headbutt, Hellstab and normal Lariat.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 6HP > 6HP > 3MP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Headbutt"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HP",
+				"label": "Headbutt"
+			},
+			{
+				"id": "step-4",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-5",
+				"notation": "PP",
+				"label": "Double Lariat"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: the recorded forward normal throw (3LP+LK) knockdown, not back throw."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 311.25,
+			"end": 317.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-forward-throw-rush-headbutts/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-forward-throw-rush-headbutts/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-forward-throw-rush-headbutts/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-forward-throw-rush-headbutts/frame-1.jpg",
+					"at": 0.75,
+					"label": "Rush approach",
+					"alt": "Raw Rush follows the forward-throw knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-forward-throw-rush-headbutts/frame-2.jpg",
+					"at": 1.75,
+					"label": "Headbutt links",
+					"alt": "The Rush meaty Headbutt links another Headbutt."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-forward-throw-rush-headbutts/frame-3.jpg",
+					"at": 3.75,
+					"label": "Lariat finish",
+					"alt": "Hellstab and normal Lariat complete the wake-up conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-forward-throw-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Forward throw: raw Rush into another forward throw",
+		"summary": "After an ordinary forward throw, raw Rush reaches another forward normal throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw", "Knockdown"],
+		"notation": "DR > 3LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "3LP+LK",
+				"label": "Forward normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: the recorded forward normal throw (3LP+LK) knockdown, not back throw."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 320.3,
+			"end": 325.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-forward-throw-rush-throw/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-forward-throw-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-forward-throw-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-forward-throw-rush-throw/frame-1.jpg",
+					"at": 0.7,
+					"label": "Rush approach",
+					"alt": "Raw Rush reaches Ryu as the first throw knockdown ends."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-forward-throw-rush-throw/frame-2.jpg",
+					"at": 1.7,
+					"label": "Forward throw",
+					"alt": "The forward normal throw catches Ryu again."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-forward-throw-rush-throw/frame-3.jpg",
+					"at": 2.7,
+					"label": "Throw knockdown",
+					"alt": "The second forward throw leaves Ryu knocked down in front."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-forward-throw-rush-heavy-spd",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Forward throw: raw Rush into heavy SPD",
+		"summary": "After an ordinary forward throw, raw Rush reaches a close heavy SPD.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Command throw", "Knockdown"],
+		"notation": "DR > 360HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "360HP",
+				"label": "Heavy Screw Piledriver"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: the recorded forward normal throw (3LP+LK) knockdown, not back throw."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 328.1,
+			"end": 333.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-forward-throw-rush-heavy-spd/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-forward-throw-rush-heavy-spd/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-forward-throw-rush-heavy-spd/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-forward-throw-rush-heavy-spd/frame-1.jpg",
+					"at": 0.4,
+					"label": "Rush approach",
+					"alt": "Raw Rush brings Zangief into heavy-SPD range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-forward-throw-rush-heavy-spd/frame-2.jpg",
+					"at": 0.9,
+					"label": "Heavy SPD",
+					"alt": "Heavy Screw Piledriver catches Ryu on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-forward-throw-rush-heavy-spd/frame-3.jpg",
+					"at": 2.9,
+					"label": "Throw finish",
+					"alt": "The heavy command grab returns Ryu to knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-forward-throw-rush-block-dp",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Forward throw: Rush and block Ryu OD DP",
+		"summary": "After an ordinary forward throw, raw Rush stops in guard against the recorded Ryu OD Shoryuken.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Reversal"],
+		"outcomes": ["Reversal blocked"],
+		"notation": "DR > block",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "block",
+				"label": "Block OD Shoryuken"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: the recorded forward normal throw (3LP+LK) knockdown, not back throw."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 336.3,
+			"end": 340.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-forward-throw-rush-block-dp/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-forward-throw-rush-block-dp/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-forward-throw-rush-block-dp/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-forward-throw-rush-block-dp/frame-1.jpg",
+					"at": 0.7,
+					"label": "Rush approach",
+					"alt": "Zangief approaches without taking the strike or throw branch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-forward-throw-rush-block-dp/frame-2.jpg",
+					"at": 1.7,
+					"label": "Reversal blocked",
+					"alt": "Ryu’s OD Shoryuken meets Zangief’s guard."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-forward-throw-rush-block-dp/frame-3.jpg",
+					"at": 2.7,
+					"label": "Recovery",
+					"alt": "Ryu lands after the blocked reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-od-lariat-jump-block-manon",
+			"zangief-depth-od-lariat-rush-block-dp",
+			"zangief-od-lariat-blocked-headbutt-grab"
+		]
+	},
+	{
+		"id": "zangief-depth-pc-forward-throw-headbutt",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Punish-counter throw: walk into Headbutt",
+		"summary": "After the punish-counter forward throw, walk into Headbutt, Hellstab and normal Lariat.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "walk forward > 6HP > 3MP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "walk forward",
+				"label": "Walk into strike range"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Headbutt"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "PP",
+				"label": "Double Lariat"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: punish-counter forward normal throw (3LP+LK), with the longer knockdown shown; not a normal-hit throw."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 342.75,
+			"end": 347.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-pc-forward-throw-headbutt/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-pc-forward-throw-headbutt/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-pc-forward-throw-headbutt/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-pc-forward-throw-headbutt/frame-1.jpg",
+					"at": 0.25,
+					"label": "Walk approach",
+					"alt": "The longer punish-counter throw knockdown permits a walk approach."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-pc-forward-throw-headbutt/frame-2.jpg",
+					"at": 1.25,
+					"label": "Headbutt",
+					"alt": "Headbutt hits the waking Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-pc-forward-throw-headbutt/frame-3.jpg",
+					"at": 3.25,
+					"label": "Lariat finish",
+					"alt": "Hellstab and normal Lariat complete the strike branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-pc-forward-throw-heavy-spd",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Punish-counter throw: walk into heavy SPD",
+		"summary": "After the punish-counter forward throw, walk into the recorded heavy-SPD spacing.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Command throw", "Knockdown"],
+		"notation": "walk forward > 360HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "walk forward",
+				"label": "Walk into command-throw range"
+			},
+			{
+				"id": "step-2",
+				"notation": "360HP",
+				"label": "Heavy Screw Piledriver"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: punish-counter forward normal throw (3LP+LK), with the longer knockdown shown; not a normal-hit throw."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 350.75,
+			"end": 356.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-pc-forward-throw-heavy-spd/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-pc-forward-throw-heavy-spd/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-pc-forward-throw-heavy-spd/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-pc-forward-throw-heavy-spd/frame-1.jpg",
+					"at": 0.25,
+					"label": "Walk approach",
+					"alt": "Zangief walks forward during the punish-counter throw knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-pc-forward-throw-heavy-spd/frame-2.jpg",
+					"at": 1.25,
+					"label": "Heavy SPD",
+					"alt": "Heavy Screw Piledriver catches Ryu at close range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-pc-forward-throw-heavy-spd/frame-3.jpg",
+					"at": 3.25,
+					"label": "Throw finish",
+					"alt": "The command grab completes the wake-up branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-pc-forward-throw-shimmy-spd",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Punish-counter throw: shimmy into heavy SPD",
+		"summary": "After the punish-counter forward throw, retreat from the next throw attempt and answer with heavy SPD.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish", "Shimmy"],
+		"outcomes": ["Throw bait", "Command throw", "Knockdown"],
+		"notation": "walk back > 360HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "walk back",
+				"label": "Shimmy",
+				"cue": "Retreat outside the recorded throw range."
+			},
+			{
+				"id": "step-2",
+				"notation": "360HP",
+				"label": "Heavy Screw Piledriver"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: punish-counter forward normal throw (3LP+LK), with the longer knockdown shown; not a normal-hit throw."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 359.25,
+			"end": 365.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-pc-forward-throw-shimmy-spd/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-pc-forward-throw-shimmy-spd/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-pc-forward-throw-shimmy-spd/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-pc-forward-throw-shimmy-spd/frame-1.jpg",
+					"at": 0.55,
+					"label": "Retreat",
+					"alt": "Zangief walks back as Ryu starts to rise."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-pc-forward-throw-shimmy-spd/frame-2.jpg",
+					"at": 0.95,
+					"label": "Throw whiff",
+					"alt": "Ryu reaches for a normal throw outside its range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-pc-forward-throw-shimmy-spd/frame-3.jpg",
+					"at": 1.55,
+					"label": "Heavy-SPD punish",
+					"alt": "Heavy Screw Piledriver catches Ryu’s recovery."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-pc-forward-throw-shimmy-spd/frame-4.jpg",
+					"at": 3.75,
+					"label": "Throw finish",
+					"alt": "The command grab completes the throw-whiff punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-spd-rush-sweep",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Heavy SPD: raw Rush into sweep",
+		"summary": "After heavy SPD, raw Rush reaches a crouching-heavy-kick sweep on wake-up.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > cr.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HK",
+				"label": "Crouching heavy-kick sweep"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: the recorded heavy Screw Piledriver (360HP) knockdown and spacing."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 370.1,
+			"end": 374.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-spd-rush-sweep/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-spd-rush-sweep/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-spd-rush-sweep/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-spd-rush-sweep/frame-1.jpg",
+					"at": 0.5,
+					"label": "Rush approach",
+					"alt": "Raw Rush crosses the large heavy-SPD gap."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-spd-rush-sweep/frame-2.jpg",
+					"at": 1.4,
+					"label": "Low sweep",
+					"alt": "The Rush sweep catches the waking Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-spd-rush-sweep/frame-3.jpg",
+					"at": 2.9,
+					"label": "Sweep knockdown",
+					"alt": "Ryu falls after the sweep."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-spd-rush-wheel-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Heavy SPD: raw Rush into Wheel Kick",
+		"summary": "After heavy SPD, raw Rush carries Wheel Kick into the recorded wake-up interaction.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > 6HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HK",
+				"label": "Wheel Kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: the recorded heavy Screw Piledriver (360HP) knockdown and spacing."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — raw Drive Rush after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 378.0,
+			"end": 382.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-spd-rush-wheel-kick/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-spd-rush-wheel-kick/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-spd-rush-wheel-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-spd-rush-wheel-kick/frame-1.jpg",
+					"at": 0.5,
+					"label": "Rush approach",
+					"alt": "Raw Rush closes the heavy-SPD knockdown gap."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-spd-rush-wheel-kick/frame-2.jpg",
+					"at": 1.0,
+					"label": "Wheel Kick",
+					"alt": "Drive Rush Wheel Kick hits Ryu on wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-spd-rush-wheel-kick/frame-3.jpg",
+					"at": 3.0,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the advancing kick."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-spd-rush-light-low-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Heavy SPD: Rush light kick into low conversion",
+		"summary": "After heavy SPD, Rush light kick cancels into another Rush for the low, Hellstab and normal-Lariat conversion.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > st.LK > DRC > cr.MK > 3MP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-6",
+				"notation": "PP",
+				"label": "Double Lariat"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: the recorded heavy Screw Piledriver (360HP) knockdown and spacing."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "4 Drive bars — raw Rush and one Rush cancel after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 386.1,
+			"end": 392.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-spd-rush-light-low-confirm/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-spd-rush-light-low-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-spd-rush-light-low-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-spd-rush-light-low-confirm/frame-1.jpg",
+					"at": 0.9,
+					"label": "Rush light kick",
+					"alt": "The raw-Rush standing light kick reaches Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-spd-rush-light-low-confirm/frame-2.jpg",
+					"at": 1.9,
+					"label": "Cancel extension",
+					"alt": "The light kick cancels into a second Rush and crouching medium kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-spd-rush-light-low-confirm/frame-3.jpg",
+					"at": 3.9,
+					"label": "Lariat finish",
+					"alt": "Hellstab cancels into normal Double Lariat."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-spd-blocked-light-heavy-spd",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Heavy SPD: blocked Rush light into command grab",
+		"summary": "After heavy SPD, blocked Rush light kick cancels into another Rush before the close heavy-SPD reset.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Command throw", "Knockdown"],
+		"notation": "DR > st.LK (blocked) > DRC > 360HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK (blocked)",
+				"label": "Standing light kick, blocked"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-4",
+				"notation": "360HP",
+				"label": "Heavy Screw Piledriver"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: the recorded heavy Screw Piledriver (360HP) knockdown and spacing."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "4 Drive bars — raw Rush and one Rush cancel after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 396.0,
+			"end": 402.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-spd-blocked-light-heavy-spd/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-spd-blocked-light-heavy-spd/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-spd-blocked-light-heavy-spd/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-spd-blocked-light-heavy-spd/frame-1.jpg",
+					"at": 0.5,
+					"label": "Rush approach",
+					"alt": "Zangief approaches after the heavy-SPD knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-spd-blocked-light-heavy-spd/frame-2.jpg",
+					"at": 1.0,
+					"label": "Blocked light kick",
+					"alt": "Ryu blocks the Rush light kick before its cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-spd-blocked-light-heavy-spd/frame-3.jpg",
+					"at": 2.0,
+					"label": "Heavy SPD",
+					"alt": "The Rush-cancel reset leads to heavy Screw Piledriver."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-spd-blocked-light-heavy-spd/frame-4.jpg",
+					"at": 4.0,
+					"label": "Throw finish",
+					"alt": "The command grab completes the blocked-light branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-spd-throw-whiff-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Heavy SPD: throw whiff into Level 1 jump catch",
+		"summary": "After heavy SPD and the blocked Rush-light sequence, an intentional throw whiff leads to Level 1 catching the recorded jump.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Anti-air", "Reset"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > st.LK (blocked) > DRC > 3LP+LK (whiff) > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK (blocked)",
+				"label": "Standing light kick, blocked"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-4",
+				"notation": "3LP+LK (whiff)",
+				"label": "Missed forward throw"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "Aerial Russian Slam"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: the recorded heavy Screw Piledriver (360HP) knockdown and spacing."
+		],
+		"notes": [
+			"This is a defensive-jump read after a reset; the missed throw and SA1 are not a continuous combo.",
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "4 Drive bars — raw Rush and one Rush cancel after prerequisite",
+			"super": "1 Super bar — SA1"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 406.1,
+			"end": 414.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-spd-throw-whiff-level-one/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-spd-throw-whiff-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-spd-throw-whiff-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-spd-throw-whiff-level-one/frame-1.jpg",
+					"at": 0.9,
+					"label": "Blocked light kick",
+					"alt": "Ryu blocks the raw-Rush light kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-spd-throw-whiff-level-one/frame-2.jpg",
+					"at": 1.9,
+					"label": "Throw misses jump",
+					"alt": "The normal throw misses as Ryu leaves the ground."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-spd-throw-whiff-level-one/frame-3.jpg",
+					"at": 3.5,
+					"label": "Level 1 air catch",
+					"alt": "Aerial Russian Slam catches the defensive jump."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-spd-throw-whiff-level-one/frame-4.jpg",
+					"at": 6.9,
+					"label": "Super finish",
+					"alt": "The Level 1 completes the jump read."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-rush-jab-reset-level-one-jump",
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab"
+		]
+	},
+	{
+		"id": "zangief-depth-spd-rush-od-running-grab",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Heavy SPD: raw Rush into OD running grab",
+		"summary": "After heavy SPD, raw Rush leads into OD Siberian Express at the demonstrated spacing.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Command throw", "Knockdown"],
+		"notation": "DR > 63214KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "63214KK",
+				"label": "OD Siberian Express"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu defender in the recording",
+			"Prerequisite: the recorded heavy Screw Piledriver (360HP) knockdown and spacing."
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "3 Drive bars — raw Rush and OD Siberian Express after prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 418.1,
+			"end": 423.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-spd-rush-od-running-grab/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-spd-rush-od-running-grab/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-spd-rush-od-running-grab/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-spd-rush-od-running-grab/frame-1.jpg",
+					"at": 0.9,
+					"label": "OD running approach",
+					"alt": "Zangief transitions from raw Rush into the gold OD running grab."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-spd-rush-od-running-grab/frame-2.jpg",
+					"at": 1.9,
+					"label": "Command grab",
+					"alt": "OD Siberian Express catches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-spd-rush-od-running-grab/frame-3.jpg",
+					"at": 3.9,
+					"label": "Throw finish",
+					"alt": "The running grab completes the wake-up branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-od-lariat-blocked-headbutt-grab",
+			"zangief-forward-throw-dash-hellstab",
+			"zangief-depth-od-lariat-blocked-headbutt-strike"
+		]
+	},
+	{
+		"id": "zangief-depth-counter-di-od-lariat",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Counter-DI: Headbutt into OD Lariat",
+		"summary": "Choose the close OD-Lariat knockdown after winning the midscreen DI exchange.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > 6HP > 3MP > PPP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Counter Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HP",
+				"label": "Headbutt"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "PPP",
+				"label": "OD Double Lariat"
+			}
+		],
+		"conditions": ["Classic controls", "Win the DI exchange"],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "3 Drive bars — DI and OD Lariat",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 433.05,
+			"end": 441.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-counter-di-od-lariat/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-counter-di-od-lariat/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-counter-di-od-lariat/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-counter-di-od-lariat/frame-1.jpg",
+					"at": 0.95,
+					"label": "Counter-DI",
+					"alt": "Zangief answers Ryu’s Drive Impact."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-counter-di-od-lariat/frame-2.jpg",
+					"at": 2.95,
+					"label": "DI connects",
+					"alt": "The winning counter-DI crumples Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-counter-di-od-lariat/frame-3.jpg",
+					"at": 4.95,
+					"label": "OD Lariat",
+					"alt": "Headbutt and Hellstab lead into the OD launcher."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-counter-di-od-lariat/frame-4.jpg",
+					"at": 6.95,
+					"label": "Knockdown",
+					"alt": "The route ends in the OD-Lariat knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-drive-reversal-heavy-spd",
+			"zangief-depth-pc-forward-throw-shimmy-spd",
+			"zangief-depth-corner-counter-di-air-throw"
+		]
+	},
+	{
+		"id": "zangief-depth-corner-counter-di-air-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Corner counter-DI: walk Hellstab into OD air throw",
+		"summary": "Use the corner crumple to walk into Hellstab and spend on the OD air-throw juggle.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Punish"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "DI > walk forward > 3MP > PPP > j.360KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Counter Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "walk forward",
+				"label": "Close the crumple gap"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "PPP",
+				"label": "OD Double Lariat"
+			},
+			{
+				"id": "step-5",
+				"notation": "j.360KK",
+				"label": "OD Borscht Dynamite"
+			}
+		],
+		"conditions": ["Classic controls", "Win the corner DI exchange"],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "5 Drive bars — DI, OD Lariat and OD Borscht Dynamite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 442.05,
+			"end": 453.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-corner-counter-di-air-throw/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-corner-counter-di-air-throw/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-corner-counter-di-air-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-corner-counter-di-air-throw/frame-1.jpg",
+					"at": 0.95,
+					"label": "Counter-DI",
+					"alt": "Zangief answers Ryu’s DI at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-corner-counter-di-air-throw/frame-2.jpg",
+					"at": 3.95,
+					"label": "Hellstab pickup",
+					"alt": "A short walk puts Hellstab in range during the crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-corner-counter-di-air-throw/frame-3.jpg",
+					"at": 6.95,
+					"label": "OD air throw",
+					"alt": "OD Lariat launches into OD Borscht Dynamite."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-corner-counter-di-air-throw/frame-4.jpg",
+					"at": 9.95,
+					"label": "Corner finish",
+					"alt": "The OD air throw completes the corner conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-corner-wheel-kick-air-throw",
+			"zangief-wall-splat-od-air-throw",
+			"zangief-depth-corner-od-lariat-shimmy"
+		]
+	},
+	{
+		"id": "zangief-depth-wall-splat-normal-lariat",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Blocked-DI wall crush into normal Lariat",
+		"summary": "A one-Drive wall-crush route using Hellstab and normal Double Lariat.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Impact", "Wall splat"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "DI > 3MP > PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact, blocked at wall"
+			},
+			{
+				"id": "step-2",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-3",
+				"notation": "PP",
+				"label": "Double Lariat"
+			}
+		],
+		"conditions": ["Classic controls", "Opponent blocks DI close enough to the wall to crush"],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "1 Drive bar — Drive Impact",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 453.75,
+			"end": 458.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-wall-splat-normal-lariat/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-wall-splat-normal-lariat/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-wall-splat-normal-lariat/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-wall-splat-normal-lariat/frame-1.jpg",
+					"at": 1.25,
+					"label": "Wall crush",
+					"alt": "Ryu blocks DI at the wall and is crushed."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-wall-splat-normal-lariat/frame-2.jpg",
+					"at": 2.25,
+					"label": "Hellstab pickup",
+					"alt": "Hellstab reaches the airborne wall-crush opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-wall-splat-normal-lariat/frame-3.jpg",
+					"at": 3.25,
+					"label": "Normal Lariat",
+					"alt": "Normal Double Lariat completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-wall-splat-od-air-throw",
+			"zangief-depth-corner-counter-di-air-throw",
+			"zangief-corner-wheel-kick-air-throw"
+		]
+	},
+	{
+		"id": "zangief-depth-held-level-two-air-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Held Level 2: dash Hellstab into OD air throw",
+		"summary": "After the held launch, dash into Hellstab and jump directly to OD Borscht Dynamite.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "SA2 (hold) > 66 > 3MP > j.360KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "SA2 (hold)",
+				"label": "Held Cyclone Lariat",
+				"cue": "Hold the input to launch rather than using the early release."
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "j.360KK",
+				"label": "OD Borscht Dynamite"
+			}
+		],
+		"conditions": ["Classic controls", "Held SA2 launch"],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "2 Drive bars — OD Borscht Dynamite",
+			"super": "2 Super bars — held SA2"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 479.1,
+			"end": 490.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-held-level-two-air-throw/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-held-level-two-air-throw/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-held-level-two-air-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-held-level-two-air-throw/frame-1.jpg",
+					"at": 0.9,
+					"label": "Held Level 2",
+					"alt": "Cyclone Lariat activates with its held launch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-held-level-two-air-throw/frame-2.jpg",
+					"at": 4.9,
+					"label": "Launch",
+					"alt": "Ryu is launched high after the held super."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-held-level-two-air-throw/frame-3.jpg",
+					"at": 5.9,
+					"label": "Dash Hellstab",
+					"alt": "The forward dash closes the juggle gap for Hellstab."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-held-level-two-air-throw/frame-4.jpg",
+					"at": 7.9,
+					"label": "OD air throw",
+					"alt": "OD Borscht Dynamite completes the juggle without another Lariat."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-low-lights-rush-lariat",
+			"zangief-headbutt-hellstab-lariat",
+			"zangief-headbutt-od-lariat"
+		]
+	},
+	{
+		"id": "zangief-depth-held-level-two-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Held Level 2: dash Hellstab into Level 1",
+		"summary": "Spend the third Super bar on Aerial Russian Slam after the held-Level-2 launch.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "SA2 (hold) > 66 > 3MP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "SA2 (hold)",
+				"label": "Held Cyclone Lariat",
+				"cue": "Hold the input to launch rather than using the early release."
+			},
+			{
+				"id": "step-2",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Aerial Russian Slam"
+			}
+		],
+		"conditions": ["Classic controls", "Held SA2 launch"],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "3 Super bars — held SA2 then SA1"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 490.65,
+			"end": 502.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-held-level-two-level-one/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-held-level-two-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-held-level-two-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-held-level-two-level-one/frame-1.jpg",
+					"at": 1.35,
+					"label": "Held Level 2",
+					"alt": "Cyclone Lariat begins the launch route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-held-level-two-level-one/frame-2.jpg",
+					"at": 5.35,
+					"label": "Hellstab pickup",
+					"alt": "The dash positions Hellstab for the airborne pickup."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-held-level-two-level-one/frame-3.jpg",
+					"at": 7.35,
+					"label": "Level 1 catch",
+					"alt": "Aerial Russian Slam grabs the launched Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-held-level-two-level-one/frame-4.jpg",
+					"at": 10.35,
+					"label": "Super finish",
+					"alt": "The Level 1 finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-low-lights-rush-lariat",
+			"zangief-headbutt-hellstab-lariat",
+			"zangief-headbutt-od-lariat"
+		]
+	},
+	{
+		"id": "zangief-depth-corner-level-two-air-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Corner held Level 2: medium-kill OD air throw",
+		"summary": "Whiff crouching medium to time the corner Hellstab pickup after the held launch.",
+		"kind": "combo",
+		"situations": ["Corner"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "SA2 (hold) > cr.MP (whiff) > 3MP > PPP > j.360KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "SA2 (hold)",
+				"label": "Held Cyclone Lariat",
+				"cue": "Hold the input to launch rather than using the early release."
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP (whiff)",
+				"label": "Crouching-medium frame kill"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "PPP",
+				"label": "OD Double Lariat"
+			},
+			{
+				"id": "step-5",
+				"notation": "j.360KK",
+				"label": "OD Borscht Dynamite"
+			}
+		],
+		"conditions": ["Classic controls", "Held SA2 launch at the wall"],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "4 Drive bars — OD Double Lariat and OD Borscht Dynamite",
+			"super": "2 Super bars — held SA2"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 503.1,
+			"end": 515.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-corner-level-two-air-throw/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-corner-level-two-air-throw/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-corner-level-two-air-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-corner-level-two-air-throw/frame-1.jpg",
+					"at": 0.9,
+					"label": "Held Level 2",
+					"alt": "The held Cyclone Lariat launches at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-corner-level-two-air-throw/frame-2.jpg",
+					"at": 5.2,
+					"label": "Medium frame kill",
+					"alt": "Crouching medium punch whiffs under the launched opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-corner-level-two-air-throw/frame-3.jpg",
+					"at": 5.9,
+					"label": "OD Lariat",
+					"alt": "Hellstab cancels into OD Lariat."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-corner-level-two-air-throw/frame-4.jpg",
+					"at": 8.9,
+					"label": "OD air throw",
+					"alt": "OD Borscht Dynamite completes the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-corner-wheel-kick-air-throw",
+			"zangief-wall-splat-od-air-throw",
+			"zangief-depth-corner-od-lariat-walk-headbutt"
+		]
+	},
+	{
+		"id": "zangief-depth-corner-level-two-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Corner held Level 2: medium kill into Level 1",
+		"summary": "Use the crouching-medium frame kill before Hellstab, OD Lariat and Level 1.",
+		"kind": "combo",
+		"situations": ["Corner"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "SA2 (hold) > cr.MP (whiff) > 3MP > PPP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "SA2 (hold)",
+				"label": "Held Cyclone Lariat",
+				"cue": "Hold the input to launch rather than using the early release."
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP (whiff)",
+				"label": "Crouching-medium frame kill"
+			},
+			{
+				"id": "step-3",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-4",
+				"notation": "PPP",
+				"label": "OD Double Lariat"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "Aerial Russian Slam"
+			}
+		],
+		"conditions": ["Classic controls", "Held SA2 launch at the wall"],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "2 Drive bars — OD Double Lariat",
+			"super": "3 Super bars — held SA2 then SA1"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 516.1,
+			"end": 529.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-corner-level-two-level-one/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-corner-level-two-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-corner-level-two-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-corner-level-two-level-one/frame-1.jpg",
+					"at": 0.9,
+					"label": "Held Level 2",
+					"alt": "Cyclone Lariat activates for the held corner launch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-corner-level-two-level-one/frame-2.jpg",
+					"at": 5.1,
+					"label": "Medium frame kill",
+					"alt": "Crouching medium punch whiffs to time the falling Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-corner-level-two-level-one/frame-3.jpg",
+					"at": 5.9,
+					"label": "OD Lariat",
+					"alt": "Hellstab leads into the OD launcher."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-corner-level-two-level-one/frame-4.jpg",
+					"at": 7.9,
+					"label": "Level 1 cancel",
+					"alt": "Aerial Russian Slam follows the OD Lariat."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/zangief/zangief-depth-corner-level-two-level-one/frame-5.jpg",
+					"at": 11.9,
+					"label": "Super finish",
+					"alt": "The Level 1 ends the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-corner-wheel-kick-air-throw",
+			"zangief-wall-splat-od-air-throw",
+			"zangief-depth-corner-od-lariat-walk-headbutt"
+		]
+	},
+	{
+		"id": "zangief-depth-stun-back-jump-air-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Stun: back-jump spacing into OD air throw",
+		"summary": "Dash and back-jump to space a grounded Lariat, then delay Hellstab for the OD air-throw route.",
+		"kind": "combo",
+		"situations": ["Corner", "Stun", "Punish"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "66 > 7 > land > PP > delay > 3MP > PPP > j.360KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "66",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "7",
+				"label": "Back jump"
+			},
+			{
+				"id": "step-3",
+				"notation": "land",
+				"label": "Land before Lariat"
+			},
+			{
+				"id": "step-4",
+				"notation": "PP",
+				"label": "Double Lariat"
+			},
+			{
+				"id": "step-5",
+				"notation": "delay",
+				"label": "Delay Hellstab",
+				"cue": "Use the shown falling height; the source gives no fixed wait count."
+			},
+			{
+				"id": "step-6",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-7",
+				"notation": "PPP",
+				"label": "OD Double Lariat"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.360KK",
+				"label": "OD Borscht Dynamite"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: DI has already stunned the cornered burned-out Ryu"
+		],
+		"notes": [
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "4 additional Drive bars — OD Lariat and OD Borscht Dynamite; prerequisite DI separate",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 532.65,
+			"end": 542.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-stun-back-jump-air-throw/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-stun-back-jump-air-throw/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-stun-back-jump-air-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-stun-back-jump-air-throw/frame-1.jpg",
+					"at": 0.95,
+					"label": "Back-jump spacing",
+					"alt": "Zangief back-jumps after the dash while Ryu is stunned."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-stun-back-jump-air-throw/frame-2.jpg",
+					"at": 2.15,
+					"label": "Grounded Lariat",
+					"alt": "Normal Lariat hits after Zangief has landed."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-stun-back-jump-air-throw/frame-3.jpg",
+					"at": 3.15,
+					"label": "Delayed Hellstab",
+					"alt": "Hellstab picks up the falling Ryu before OD Lariat."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-stun-back-jump-air-throw/frame-4.jpg",
+					"at": 5.35,
+					"label": "OD air throw",
+					"alt": "OD Borscht Dynamite completes the stun punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-stun-jump-level-three",
+			"zangief-depth-stun-rush-level-three",
+			"zangief-corner-wheel-kick-air-throw"
+		]
+	},
+	{
+		"id": "zangief-depth-stun-jump-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Stun: neutral-jump heavy into Level 3",
+		"summary": "Use the stun window for neutral-jump heavy punch, Headbutt and the OD-Lariat Level-3 cancel.",
+		"kind": "combo",
+		"situations": ["Corner", "Stun", "Punish", "Cash-out"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "8 > j.HP > 6HP > 3MP > PPP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "8",
+				"label": "Neutral jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HP",
+				"label": "Jumping heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HP",
+				"label": "Headbutt"
+			},
+			{
+				"id": "step-4",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-5",
+				"notation": "PPP",
+				"label": "OD Double Lariat"
+			},
+			{
+				"id": "step-6",
+				"notation": "SA3",
+				"label": "Bolshoi Storm Buster"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: DI has already stunned the cornered burned-out Ryu"
+		],
+		"notes": [
+			"The overlay lists SA2 or SA3; only the shown SA3 is authored.",
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "2 additional Drive bars — OD Lariat; prerequisite DI separate",
+			"super": "3 Super bars — SA3"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 544.65,
+			"end": 559.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-stun-jump-level-three/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-stun-jump-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-stun-jump-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-stun-jump-level-three/frame-1.jpg",
+					"at": 1.35,
+					"label": "Neutral-jump heavy",
+					"alt": "Jumping heavy punch hits the stunned Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-stun-jump-level-three/frame-2.jpg",
+					"at": 1.85,
+					"label": "Headbutt link",
+					"alt": "Headbutt continues after the jump-in."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-stun-jump-level-three/frame-3.jpg",
+					"at": 3.35,
+					"label": "Level 3 cancel",
+					"alt": "Hellstab and OD Lariat lead into Bolshoi Storm Buster."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-stun-jump-level-three/frame-4.jpg",
+					"at": 12.35,
+					"label": "Super finish",
+					"alt": "The Level 3 cinematic completes the stun punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-stun-rush-level-three",
+			"zangief-depth-stun-back-jump-air-throw",
+			"zangief-corner-wheel-kick-air-throw"
+		]
+	},
+	{
+		"id": "zangief-depth-stun-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "zangief"
+			}
+		],
+		"title": "Stun: Rush extension into Level 3",
+		"summary": "Add the Rush-cancel medium extension before the OD-Lariat Level-3 finish.",
+		"kind": "combo",
+		"situations": ["Corner", "Stun", "Punish", "Cash-out"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "8 > j.HP > 6HP > 3MP > DRC > cr.MP > 3MP > PPP > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "8",
+				"label": "Neutral jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HP",
+				"label": "Jumping heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HP",
+				"label": "Headbutt"
+			},
+			{
+				"id": "step-4",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Drive Rush cancel"
+			},
+			{
+				"id": "step-6",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-7",
+				"notation": "3MP",
+				"label": "Hellstab"
+			},
+			{
+				"id": "step-8",
+				"notation": "PPP",
+				"label": "OD Double Lariat"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA3",
+				"label": "Bolshoi Storm Buster"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: DI has already stunned the cornered burned-out Ryu"
+		],
+		"notes": [
+			"The overlay lists SA2 or SA3; only SA3 is demonstrated in this take.",
+			"Timing and routes belong to the dated recording; current-patch execution has not been tested in-game."
+		],
+		"resources": {
+			"drive": "5 additional Drive bars — one Rush cancel and OD Lariat; prerequisite DI separate",
+			"super": "3 Super bars — SA3"
+		},
+		"source": {
+			"id": "joe-ebios-zangief-2026",
+			"title": "SF6 Zangief Fundamentals Guide: The ONLY Combos & Setups You Need(2026.08.03 update)",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=LsEr6opeOUE",
+			"published": "2026-08-24",
+			"start": 562.65,
+			"end": 578.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/zangief/zangief-depth-stun-rush-level-three/clip.mp4",
+			"poster": "/media/zangief/zangief-depth-stun-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/zangief/zangief-depth-stun-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/zangief/zangief-depth-stun-rush-level-three/frame-1.jpg",
+					"at": 0.85,
+					"label": "Neutral-jump heavy",
+					"alt": "Jumping heavy punch starts the stun punish."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/zangief/zangief-depth-stun-rush-level-three/frame-2.jpg",
+					"at": 2.35,
+					"label": "Rush extension",
+					"alt": "Hellstab cancels into Drive Rush for crouching medium."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/zangief/zangief-depth-stun-rush-level-three/frame-3.jpg",
+					"at": 4.35,
+					"label": "Level 3 cancel",
+					"alt": "The second Hellstab and OD Lariat lead into SA3."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/zangief/zangief-depth-stun-rush-level-three/frame-4.jpg",
+					"at": 13.35,
+					"label": "Super finish",
+					"alt": "The Level 3 ends the longer stun conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"zangief-depth-stun-jump-level-three",
+			"zangief-depth-stun-back-jump-air-throw",
+			"zangief-corner-wheel-kick-air-throw"
+		]
 	}
 ]

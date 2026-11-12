@@ -1,6 +1,6 @@
 {
 	"sourceIds": ["joe-ebios-lily-classic-2026"],
-	"publicationStatus": "private-development",
+	"publicationStatus": "public-repository",
 	"presentationNote": "Uncropped source frames retain input history, training HUD and source overlays. Full original recording remains local.",
 	"assets": [
 		{
@@ -144,6 +144,519 @@
 			"sourceStart": 796.1,
 			"sourceEnd": 801.25,
 			"clip": "/media/lily/lily-ebios-blocked-drive-reversal-typhoon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-buster-rush-back-heavy",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 10.75,
+			"sourceEnd": 14.95,
+			"clip": "/media/lily/lily-depth-buster-rush-back-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-buster-rush-overhead",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 27.8,
+			"sourceEnd": 31.6,
+			"clip": "/media/lily/lily-depth-buster-rush-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-buster-rush-guard-reversal",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 35.7,
+			"sourceEnd": 38.85,
+			"clip": "/media/lily/lily-depth-buster-rush-guard-reversal/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-buster-light-wind-stock",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 41.85,
+			"sourceEnd": 44.55,
+			"clip": "/media/lily/lily-depth-buster-light-wind-stock/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-wind-medium-jump-heavy-typhoon",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 71.8,
+			"sourceEnd": 76.65,
+			"clip": "/media/lily/lily-depth-wind-medium-jump-heavy-typhoon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-wind-medium-jump-shimmy",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 81.15,
+			"sourceEnd": 87.15,
+			"clip": "/media/lily/lily-depth-wind-medium-jump-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-wind-medium-jump-low-buster",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 91.6,
+			"sourceEnd": 96.25,
+			"clip": "/media/lily/lily-depth-wind-medium-jump-low-buster/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-wind-medium-double-dash-delay-throw",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 108.15,
+			"sourceEnd": 112.4,
+			"clip": "/media/lily/lily-depth-wind-medium-double-dash-delay-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-wind-medium-double-dash-heavy-typhoon",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 117.1,
+			"sourceEnd": 122.25,
+			"clip": "/media/lily/lily-depth-wind-medium-double-dash-heavy-typhoon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-wind-medium-double-dash-shimmy",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 126.65,
+			"sourceEnd": 132.2,
+			"clip": "/media/lily/lily-depth-wind-medium-double-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-wind-medium-double-dash-heavy-wind",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 136.6,
+			"sourceEnd": 140.0,
+			"clip": "/media/lily/lily-depth-wind-medium-double-dash-heavy-wind/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-corner-wind-medium-stock-low-loop",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 146.35,
+			"sourceEnd": 150.85,
+			"clip": "/media/lily/lily-depth-corner-wind-medium-stock-low-loop/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-corner-wind-medium-stock-throw",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 158.15,
+			"sourceEnd": 162.5,
+			"clip": "/media/lily/lily-depth-corner-wind-medium-stock-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-corner-wind-medium-stock-heavy-typhoon",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 165.4,
+			"sourceEnd": 170.5,
+			"clip": "/media/lily/lily-depth-corner-wind-medium-stock-heavy-typhoon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-standing-lights-level-one",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 170.95,
+			"sourceEnd": 178.85,
+			"clip": "/media/lily/lily-depth-standing-lights-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-standing-lights-od-wind-spire-buster",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 182.1,
+			"sourceEnd": 188.0,
+			"clip": "/media/lily/lily-depth-standing-lights-od-wind-spire-buster/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-standing-lights-double-rush-level-three",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 188.85,
+			"sourceEnd": 199.65,
+			"clip": "/media/lily/lily-depth-standing-lights-double-rush-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-raw-rush-jab-heavy-wind",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 200.6,
+			"sourceEnd": 204.7,
+			"clip": "/media/lily/lily-depth-raw-rush-jab-heavy-wind/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-raw-rush-jab-heavy-medium-spire",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 205.45,
+			"sourceEnd": 209.85,
+			"clip": "/media/lily/lily-depth-raw-rush-jab-heavy-medium-spire/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-raw-medium-spire-rush-normal-throw",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 212.85,
+			"sourceEnd": 217.2,
+			"clip": "/media/lily/lily-depth-raw-medium-spire-rush-normal-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-raw-medium-spire-rush-heavy-typhoon",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 220.65,
+			"sourceEnd": 225.3,
+			"clip": "/media/lily/lily-depth-raw-medium-spire-rush-heavy-typhoon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-raw-medium-spire-rush-shimmy",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 229.0,
+			"sourceEnd": 234.2,
+			"clip": "/media/lily/lily-depth-raw-medium-spire-rush-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-raw-medium-spire-rush-heavy-wind",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 237.9,
+			"sourceEnd": 242.15,
+			"clip": "/media/lily/lily-depth-raw-medium-spire-rush-heavy-wind/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-guard-bison-drive-reversal-jab-punish",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 242.8,
+			"sourceEnd": 247.65,
+			"clip": "/media/lily/lily-depth-guard-bison-drive-reversal-jab-punish/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-back-heavy-wind-extra-stock",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 250.75,
+			"sourceEnd": 255.8,
+			"clip": "/media/lily/lily-depth-back-heavy-wind-extra-stock/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-blocked-heavy-short-held-wind",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 265.65,
+			"sourceEnd": 267.95,
+			"clip": "/media/lily/lily-depth-blocked-heavy-short-held-wind/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-blocked-heavy-light-wind-counter-impact",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 276.55,
+			"sourceEnd": 283.25,
+			"clip": "/media/lily/lily-depth-blocked-heavy-light-wind-counter-impact/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-heavy-wind-spire-double-dash-walk-throw",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 319.0,
+			"sourceEnd": 321.85,
+			"clip": "/media/lily/lily-depth-heavy-wind-spire-double-dash-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-heavy-wind-spire-double-dash-shimmy",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 327.45,
+			"sourceEnd": 333.05,
+			"clip": "/media/lily/lily-depth-heavy-wind-spire-double-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-corner-heavy-wind-stock-typhoon",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 348.25,
+			"sourceEnd": 353.35,
+			"clip": "/media/lily/lily-depth-corner-heavy-wind-stock-typhoon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-corner-heavy-wind-stock-normal-throw",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 356.35,
+			"sourceEnd": 359.45,
+			"clip": "/media/lily/lily-depth-corner-heavy-wind-stock-normal-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-corner-heavy-wind-stock-low-loop",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 363.75,
+			"sourceEnd": 367.45,
+			"clip": "/media/lily/lily-depth-corner-heavy-wind-stock-low-loop/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-light-spire-dash-microwalk-typhoon",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 385.8,
+			"sourceEnd": 390.95,
+			"clip": "/media/lily/lily-depth-light-spire-dash-microwalk-typhoon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-light-spire-dash-microwalk-normal-throw",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 394.75,
+			"sourceEnd": 399.2,
+			"clip": "/media/lily/lily-depth-light-spire-dash-microwalk-normal-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-light-spire-dash-microwalk-shimmy",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 402.4,
+			"sourceEnd": 408.4,
+			"clip": "/media/lily/lily-depth-light-spire-dash-microwalk-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-crouching-heavy-cancel-rush-heavy-buster",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 409.25,
+			"sourceEnd": 414.95,
+			"clip": "/media/lily/lily-depth-crouching-heavy-cancel-rush-heavy-buster/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-cancel-rush-buster-rush-back-heavy",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 419.0,
+			"sourceEnd": 423.9,
+			"clip": "/media/lily/lily-depth-cancel-rush-buster-rush-back-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-crouching-heavy-rush-medium-level-one",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 510.2,
+			"sourceEnd": 518.8,
+			"clip": "/media/lily/lily-depth-crouching-heavy-rush-medium-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-crouching-heavy-double-rush-buster",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 519.8,
+			"sourceEnd": 527.0,
+			"clip": "/media/lily/lily-depth-crouching-heavy-double-rush-buster/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-crouching-heavy-double-rush-level-three",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 527.75,
+			"sourceEnd": 537.65,
+			"clip": "/media/lily/lily-depth-crouching-heavy-double-rush-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-near-corner-heavy-rush-wind-spire-level-one",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 538.7,
+			"sourceEnd": 548.5,
+			"clip": "/media/lily/lily-depth-near-corner-heavy-rush-wind-spire-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-corner-three-winds-od-buster-dive-level-one",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 564.85,
+			"sourceEnd": 576.1,
+			"clip": "/media/lily/lily-depth-corner-three-winds-od-buster-dive-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-raw-rush-heavy-punish-wind",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 587.35,
+			"sourceEnd": 593.25,
+			"clip": "/media/lily/lily-depth-raw-rush-heavy-punish-wind/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-guard-od-dp-heavy-wind-spire-level-one",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 596.15,
+			"sourceEnd": 606.5,
+			"clip": "/media/lily/lily-depth-guard-od-dp-heavy-wind-spire-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-guard-od-dp-held-od-wind-level-one",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 607.15,
+			"sourceEnd": 618.0,
+			"clip": "/media/lily/lily-depth-guard-od-dp-held-od-wind-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-guard-od-dp-raw-rush-double-cancel-level-three",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 619.55,
+			"sourceEnd": 630.75,
+			"clip": "/media/lily/lily-depth-guard-od-dp-raw-rush-double-cancel-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-corner-throw-microwalk-light-typhoon",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 643.15,
+			"sourceEnd": 648.6,
+			"clip": "/media/lily/lily-depth-corner-throw-microwalk-light-typhoon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-corner-throw-microwalk-blocked-heavy",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 651.55,
+			"sourceEnd": 654.1,
+			"clip": "/media/lily/lily-depth-corner-throw-microwalk-blocked-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-typhoon-rush-blocked-heavy-wind",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 657.85,
+			"sourceEnd": 661.85,
+			"clip": "/media/lily/lily-depth-typhoon-rush-blocked-heavy-wind/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-counter-impact-heavy-wind-spire",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 682.7,
+			"sourceEnd": 691.15,
+			"clip": "/media/lily/lily-depth-counter-impact-heavy-wind-spire/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-counter-impact-double-wind-dive",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 707.85,
+			"sourceEnd": 716.65,
+			"clip": "/media/lily/lily-depth-counter-impact-double-wind-dive/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-air-to-air-medium-target-light-buster",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 774.35,
+			"sourceEnd": 777.65,
+			"clip": "/media/lily/lily-depth-air-to-air-medium-target-light-buster/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-air-to-air-medium-target-od-buster-dive",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 779.65,
+			"sourceEnd": 784.5,
+			"clip": "/media/lily/lily-depth-air-to-air-medium-target-od-buster-dive/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-corner-air-to-air-medium-od-dive-level-one",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 785.9,
+			"sourceEnd": 795.15,
+			"clip": "/media/lily/lily-depth-corner-air-to-air-medium-od-dive-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-blocked-od-wind-spire-heavy-typhoon",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 809.65,
+			"sourceEnd": 815.1,
+			"clip": "/media/lily/lily-depth-blocked-od-wind-spire-heavy-typhoon/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-blocked-od-wind-spire-low-buster",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 816.8,
+			"sourceEnd": 821.9,
+			"clip": "/media/lily/lily-depth-blocked-od-wind-spire-low-buster/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "lily-depth-ordinary-od-spire-double-dash-typhoon",
+			"sourceId": "joe-ebios-lily-classic-2026",
+			"sourceStart": 865.35,
+			"sourceEnd": 871.7,
+			"clip": "/media/lily/lily-depth-ordinary-od-spire-double-dash-typhoon/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

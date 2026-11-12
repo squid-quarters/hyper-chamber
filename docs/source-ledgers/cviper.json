@@ -1,0 +1,1112 @@
+{
+	"characterId": "cviper",
+	"reviewedOn": "2026-11-12",
+	"status": "Substantial partial extraction; source-reviewed, not current-patch game-tested",
+	"baselineCommit": "929ff0b3a73080697e644b976960866c6ec1c781",
+	"originalReferencesPreserved": 13,
+	"newReferences": 36,
+	"newKinds": {
+		"response": 6,
+		"combo": 13,
+		"setup": 17
+	},
+	"screeningNote": "Vesper 178–651 screened at 2-second spacing, then selected combo intervals at 0.25–0.5 seconds. Killerex full 567 seconds screened every 4 seconds, dense 1–152.6 at 0.5 seconds, selected 13–34/44–60/76–85/491–523.25 at 0.25 seconds and targeted 1280px input probes. Chris_F full 1335 seconds screened every 8 seconds, dense 138–155/220–278/280–345/358–370/600–618/765–930/1175–1214.5/1261–1310, plus fine 1280px command and resource probes. This is availability screening plus selective execution review, not exhaustive extraction.",
+	"sources": [
+		{
+			"sourceKey": "vesperarcade-cviper-2025",
+			"youtubeId": "sD6SaqB9h-M",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"duration": 651,
+			"recordingSha256": "ecb732d6ea4a3f34c745b5be1ba3237c08d2084b6b61f75845124dfef3bd5d7b",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 28,
+					"disposition": "excluded",
+					"reason": "Intro/title, not an execution reference."
+				},
+				{
+					"start": 28,
+					"end": 34.3,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 34.3,
+					"end": 38.3,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-low-heavy-thunder",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 38.3,
+					"end": 39.5,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 39.5,
+					"end": 43.7,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-low-od-kick",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 43.7,
+					"end": 45.4,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 45.4,
+					"end": 49.6,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-low-tracer",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 49.6,
+					"end": 51.6,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 51.6,
+					"end": 56.6,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-low-level1",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 56.6,
+					"end": 58.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 58.1,
+					"end": 67.65,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-low-od-level2",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 67.65,
+					"end": 69.8,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 69.8,
+					"end": 82.45,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-low-thunder-level3",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 82.45,
+					"end": 93.45,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 93.45,
+					"end": 102.45,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-medium-tracer-level3",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 102.45,
+					"end": 115.4,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 115.4,
+					"end": 119.65,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-medium-od-seismo-tracer",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 119.65,
+					"end": 122.0,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 122.0,
+					"end": 127.4,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-medium-od-seismo-level1",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 127.4,
+					"end": 129.4,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 129.4,
+					"end": 139.6,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-medium-two-od-level2",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 139.6,
+					"end": 141.5,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 141.5,
+					"end": 146.45,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-medium-high-jump-air-kick",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 146.45,
+					"end": 182.05,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 182.05,
+					"end": 186.05,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-far-forward-heavy-light-thunder",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 186.05,
+					"end": 187.75,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 187.75,
+					"end": 192.15,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-close-forward-heavy-light-chain",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 192.15,
+					"end": 194.25,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 194.25,
+					"end": 197.8,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-heavy-light-seismo",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 197.8,
+					"end": 199.6,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 199.6,
+					"end": 204.4,
+					"disposition": "reused",
+					"referenceId": "cviper-vesper-heavy-high-jump-air-kick",
+					"reason": "Original object and media preserved exactly."
+				},
+				{
+					"start": 204.4,
+					"end": 206.05,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 206.05,
+					"end": 210.3,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-crouching-heavy-feint-focus",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 210.3,
+					"end": 211.75,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 211.75,
+					"end": 216.9,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-crouching-heavy-feint-od-seismo",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 216.9,
+					"end": 218.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 218.65,
+					"end": 222.85,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-standing-heavy-jump-cancel-feint",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 222.85,
+					"end": 275.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 275.1,
+					"end": 281.2,
+					"disposition": "ambiguous",
+					"reason": "Punish-Counter jab route prints LP/MP Seismo alternatives without input history identifying the performed strength. Not forced into a specific-strength extraction."
+				},
+				{
+					"start": 281.2,
+					"end": 281.3,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 281.3,
+					"end": 287.7,
+					"disposition": "ambiguous",
+					"reason": "Punish-Counter medium route likewise prints LP/MP Seismo; no inferred specific strength."
+				},
+				{
+					"start": 287.7,
+					"end": 315.85,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 315.85,
+					"end": 319.75,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-far-heavy-kick-punish-light-thunder",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 319.75,
+					"end": 321.55,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 321.55,
+					"end": 327.6,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-heavy-kick-punish-side-switch",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 327.6,
+					"end": 366.25,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 366.25,
+					"end": 372.35,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-drive-impact-punish-seismo-air-kick",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 372.35,
+					"end": 392.3,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 392.3,
+					"end": 398.35,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-crossup-medium-od-seismo-double-od",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 398.35,
+					"end": 455.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 455.15,
+					"end": 459.85,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-drive-rush-overhead-focus",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 459.85,
+					"end": 520,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 520,
+					"end": 540,
+					"disposition": "unprocessed",
+					"reason": "Air-to-air chapter remains available; no extraction completed."
+				},
+				{
+					"start": 540,
+					"end": 544.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 544.15,
+					"end": 548.15,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-far-medium-thunder-jab-heavy",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 548.15,
+					"end": 582.7,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 582.7,
+					"end": 589.7,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-charged-focus-light-seismo-juggle",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 589.7,
+					"end": 615.55,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 615.55,
+					"end": 634.15,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-charged-od-focus-all-drive-level-three",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 634.15,
+					"end": 634.2,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 634.2,
+					"end": 651,
+					"disposition": "excluded",
+					"reason": "Final result hold and end screen."
+				}
+			]
+		},
+		{
+			"sourceKey": "killerex-cviper-2025",
+			"youtubeId": "q6XFnRI9obc",
+			"title": "SF6: C Viper Tech",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=q6XFnRI9obc",
+			"duration": 567,
+			"recordingSha256": "026b946ad7caefe8f9b0597cdbd0f10834e0f7f488908c52e4122ccc34182b6f",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 1.7,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 1.7,
+					"end": 13.7,
+					"disposition": "excluded",
+					"reason": "Knockdown/dash timing illustrations without a further strike, throw or guard decision. Not padded into references."
+				},
+				{
+					"start": 13.7,
+					"end": 15.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 15.15,
+					"end": 19.98,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-grounded-tracer-dash-throw",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 19.98,
+					"end": 21.4,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 21.4,
+					"end": 26.12,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-grounded-burning-pursuit-dash-throw",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 26.12,
+					"end": 27.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 27.65,
+					"end": 33.15,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-air-burning-pursuit-dash-throw",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 33.15,
+					"end": 34,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 34,
+					"end": 44.3,
+					"disposition": "excluded",
+					"reason": "Juggle ending/frame-advantage illustrations without a subsequent decision. Actual follow-up branches remain separately available."
+				},
+				{
+					"start": 44.3,
+					"end": 44.4,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 44.4,
+					"end": 59.6,
+					"disposition": "duplicate",
+					"reason": "Two further juggle-to-throw examples screened densely. Similar throw utility already represented by grounded Tracer and grounded/airborne Pursuit branches; not extracted merely to raise count."
+				},
+				{
+					"start": 59.6,
+					"end": 60.4,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 60.4,
+					"end": 76,
+					"disposition": "excluded",
+					"reason": "Juggle timing and strike-spacing illustrations. The selected 78.85–84.8 take contains the actual walk, blocked standing medium punch and throw."
+				},
+				{
+					"start": 76,
+					"end": 78.85,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 78.85,
+					"end": 84.8,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-juggle-tracer-walk-medium-throw",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 84.8,
+					"end": 85,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 85,
+					"end": 152.6,
+					"disposition": "unprocessed",
+					"reason": "Additional medium/meaty, jump and side-switch follow-ups densely surveyed at 0.5 seconds but not fully extracted. Performed branches still need their own exact media/input review."
+				},
+				{
+					"start": 152.6,
+					"end": 491,
+					"disposition": "unprocessed",
+					"reason": "Large remaining meaty/pressure section screened coarsely only. No claim of complete execution review."
+				},
+				{
+					"start": 491,
+					"end": 493.7,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 493.7,
+					"end": 496.6,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-od-thunder-tracer-jump-land-guard",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 496.6,
+					"end": 498.35,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 498.35,
+					"end": 501.15,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-seismo-air-heavy-jump-land-guard",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 501.15,
+					"end": 501.2,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 501.2,
+					"end": 530,
+					"disposition": "duplicate",
+					"reason": "Recovery-in-place and additional jump/guard variations screened. Selected OD-Thunder/Tracer and light-Seismo/air-heavy knockdowns cover two distinct prerequisite families. Opponent reversal strength remains unidentified."
+				},
+				{
+					"start": 530,
+					"end": 541,
+					"disposition": "unprocessed",
+					"reason": "Side-switch chapter remains available."
+				},
+				{
+					"start": 541,
+					"end": 567,
+					"disposition": "unprocessed",
+					"reason": "DI reset chapter remains available; actual gap and opponent response require separate review."
+				}
+			]
+		},
+		{
+			"sourceKey": "chris-f-cviper-2025",
+			"youtubeId": "QnM17vm3S0Y",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"duration": 1335,
+			"recordingSha256": "79dcd77c2e34a567b03b2de0d42f47e58ec95f4c0cade4c508af8605b6fa6344",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 19,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 19,
+					"end": 82,
+					"disposition": "unprocessed",
+					"reason": "High-jump/OD-air-Burning-Kick execution lesson screened; successful timing and failed early-jump contrast not extracted."
+				},
+				{
+					"start": 82,
+					"end": 143.3,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 143.3,
+					"end": 145.85,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-anti-air-far-standing-heavy-kick",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 145.85,
+					"end": 214,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 214,
+					"end": 222.6,
+					"disposition": "unprocessed",
+					"reason": "Corner plan and first forward-throw loop remain available; selected repeat begins at 222.65."
+				},
+				{
+					"start": 222.6,
+					"end": 222.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 222.65,
+					"end": 226.2,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-corner-forward-throw-walk-throw",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 226.2,
+					"end": 226.25,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 226.25,
+					"end": 242.9,
+					"disposition": "unprocessed",
+					"reason": "Dash/delay versus manual corner throw examples. Avoid inferring numeric wait from the reported +7 advantage; selected walk-forward branch already retained."
+				},
+				{
+					"start": 242.9,
+					"end": 243.15,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 243.15,
+					"end": 245.8,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-corner-forward-throw-shimmy-heavy",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 245.8,
+					"end": 245.88,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 245.88,
+					"end": 253,
+					"disposition": "unprocessed",
+					"reason": "Shimmy heavy-kick starter continues through a jump-cancel/SA1 conversion; not silently appended to the selected punish-starter card."
+				},
+				{
+					"start": 253,
+					"end": 280,
+					"disposition": "unprocessed",
+					"reason": "Corner Level-1 install conversion remains available; exact commands/resources require its own extraction."
+				},
+				{
+					"start": 280,
+					"end": 309.45,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 309.45,
+					"end": 313.15,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-blocked-medium-low-walkback-check",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 313.15,
+					"end": 315,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 315,
+					"end": 324,
+					"disposition": "unprocessed",
+					"reason": "Alternative post-block crouching-jab conversion remains available. Selected 324.1 take isolates the clear Counter-Hit jab/medium link."
+				},
+				{
+					"start": 324,
+					"end": 324.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 324.1,
+					"end": 326.65,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-blocked-medium-counter-jab-medium",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 326.65,
+					"end": 326.7,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 326.7,
+					"end": 331,
+					"disposition": "ambiguous",
+					"reason": "Extended Counter-Hit jab/medium special ender requires further exact strength/follow-up interpretation. Kept out of the two-normal confirm card."
+				},
+				{
+					"start": 331,
+					"end": 331.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 331.1,
+					"end": 334.7,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-blocked-medium-throw-respect",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 334.7,
+					"end": 338.5,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 338.5,
+					"end": 344.9,
+					"disposition": "excluded",
+					"reason": "Demonstrated failed immediate throw after blocked standing medium punch loses to Cammy crouching jab. Not mislabeled as successful throw pressure."
+				},
+				{
+					"start": 344.9,
+					"end": 363.05,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 363.05,
+					"end": 365.85,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-crouching-heavy-feint-spacing-trap",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 365.85,
+					"end": 368,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 368,
+					"end": 370,
+					"disposition": "unprocessed",
+					"reason": "Further feint-spacing-trap full conversion remains available; selected take stops at actual crouching-medium-kick Punish Counter."
+				},
+				{
+					"start": 370,
+					"end": 374,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 374,
+					"end": 400,
+					"disposition": "unprocessed",
+					"reason": "Ordinary forward jump versus high-jump OD aerial Burning Kick on block. Separate two-bar/three-bar pressure lesson, not yet extracted."
+				},
+				{
+					"start": 400,
+					"end": 577,
+					"disposition": "unprocessed",
+					"reason": "Further neutral, Seismo/Focus and match-up illustrations screened coarsely only."
+				},
+				{
+					"start": 577,
+					"end": 611.7,
+					"disposition": "unprocessed",
+					"reason": "Heavy Thunder feint execution and grounded light-Burning/Pursuit knockdown lesson reviewed as command/prerequisite evidence, but separate combo extraction not complete."
+				},
+				{
+					"start": 611.7,
+					"end": 611.8,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 611.8,
+					"end": 617.75,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-light-burning-pursuit-walk-throw",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 617.75,
+					"end": 765,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 765,
+					"end": 790.6,
+					"disposition": "unprocessed",
+					"reason": "Two-jab Tracer knockdown examples include failed immediate walk-back versus throw. Selected successful meaty and backdash callout branches retained separately."
+				},
+				{
+					"start": 790.6,
+					"end": 790.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 790.65,
+					"end": 793.85,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-two-jab-tracer-dash-medium",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 793.85,
+					"end": 795.85,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 795.85,
+					"end": 800.15,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-two-jab-tracer-dash-backdash-heavy",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 800.15,
+					"end": 802,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 802,
+					"end": 830.2,
+					"disposition": "unprocessed",
+					"reason": "Four-light spacing explanation and earlier examples remain available. Selected full follow-up take 830.25–834.75 uses the actual four-light prerequisite."
+				},
+				{
+					"start": 830.2,
+					"end": 830.25,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 830.25,
+					"end": 834.75,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-four-light-tracer-dash-walkback",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 834.75,
+					"end": 835,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 835,
+					"end": 900,
+					"disposition": "unprocessed",
+					"reason": "Additional light/DRC/SA1-install conversions and corner Tracer pressure remain available."
+				},
+				{
+					"start": 900,
+					"end": 900.05,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 900.05,
+					"end": 904.15,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-corner-tracer-whiff-low-medium",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 904.15,
+					"end": 904.2,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 904.2,
+					"end": 917.9,
+					"disposition": "unprocessed",
+					"reason": "Corner meaty conversion and separate blocked-medium/throw discussion remain available. Selected whiff-low/medium take stops before the later standalone heavy attack."
+				},
+				{
+					"start": 917.9,
+					"end": 918,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 918,
+					"end": 1134,
+					"disposition": "unprocessed",
+					"reason": "Medium/heavy/corner/Super combo and setup sections screened coarsely only; substantial extraction remains."
+				},
+				{
+					"start": 1134,
+					"end": 1175,
+					"disposition": "unprocessed",
+					"reason": "Forward-heavy-kick chapter screened coarsely only."
+				},
+				{
+					"start": 1175,
+					"end": 1185.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 1185.65,
+					"end": 1188.85,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-anti-air-heavy-thunder-tracer",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 1188.85,
+					"end": 1204.35,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 1204.35,
+					"end": 1212.05,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-anti-air-heavy-kick-jump-cancel-level-two",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 1212.05,
+					"end": 1212.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 1212.1,
+					"end": 1245,
+					"disposition": "unprocessed",
+					"reason": "Additional defense, anti-air spacing and anti-air juggle examples remain available."
+				},
+				{
+					"start": 1245,
+					"end": 1268.8,
+					"disposition": "unprocessed",
+					"reason": "Drive Rush check lesson and earlier normal examples remain available."
+				},
+				{
+					"start": 1268.8,
+					"end": 1268.85,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 1268.85,
+					"end": 1271.65,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-drive-rush-counter-medium-seismo",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 1271.65,
+					"end": 1271.7,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 1271.7,
+					"end": 1282.7,
+					"disposition": "unprocessed",
+					"reason": "Extended crouching-medium Drive Rush check conversion remains available."
+				},
+				{
+					"start": 1282.7,
+					"end": 1282.8,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 1282.8,
+					"end": 1284.7,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-drive-rush-standing-light-kick",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 1284.7,
+					"end": 1284.75,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 1284.75,
+					"end": 1292.6,
+					"disposition": "excluded",
+					"reason": "Standing-light-kick-to-Seismo attempt is explicitly not a true combo. Only the successful single-button approach check is authored."
+				},
+				{
+					"start": 1292.6,
+					"end": 1292.65,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 1292.65,
+					"end": 1296.0,
+					"disposition": "reviewed",
+					"referenceId": "cviper-depth-drive-rush-low-high-jump-seismo",
+					"reason": "Selected source recipe, actual inputs/HUD/result, prepared moments and original/prepared endpoints reviewed."
+				},
+				{
+					"start": 1296.0,
+					"end": 1296.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the selected intervals. Availability screening is not completed execution/extraction review."
+				},
+				{
+					"start": 1296.1,
+					"end": 1335,
+					"disposition": "excluded",
+					"reason": "Recap, dated expectations and closing commentary; no current-patch certification inferred."
+				}
+			]
+		}
+	],
+	"interpretationDecisions": [
+		{
+			"topic": "High jumps and resource counts",
+			"decision": "Each performed high-jump cancel costs one Drive bar with Level 1 inactive. The low Drive-Rush-check route performs two high-jump cancels and ends with aerial medium Burning Kick, not heavy Thunder. The anti-air Level 2 cancel uses up-back in its actual input history."
+		},
+		{
+			"topic": "Thunder feint",
+			"decision": "Chris_F narration and full input history establish 214HP+LK simultaneously. This is distinct from 6PP Tracer and neutral PP Knuckled Pursuit. Generic K in Vesper normal Focus Force is retained without inventing an isolated kick strength."
+		},
+		{
+			"topic": "Cash-out nominal cost and Burnout",
+			"decision": "The OD Focus starter is 214KK, not the normal held 214K. The route has eight nominal Drive cost units across OD Focus, OD Seismo, two high jumps and OD aerial Burning Kick. It starts with six bars, regenerates a fraction during the sequence and spends the remainder into Burnout on the final OD move. It does not require an impossible eight-bar capacity."
+		},
+		{
+			"topic": "Setup prerequisites and waits",
+			"decision": "Knockdown recipes/state stay in conditions, while listed follow-up commands and costs begin afterward. Every intentional whiff is written explicitly in compact/copy notation. Numeric +F is recorded advantage, not a prescribed delay count. Throw timing cues remain unquantified."
+		},
+		{
+			"topic": "Actual pressure branches",
+			"decision": "The juggle-Tracer walk/medium/throw take contains standing medium punch and no crouching-jab framekill. The two-jab dash/walk-back failure is not confused with the successful four-light dash/walk-back spacing. Standing-medium throw pressure is limited to the guarding take and explicitly loses to the separate immediate-jab test."
+		},
+		{
+			"topic": "Landing-guard limits",
+			"decision": "Two ordinary forward-jump/j.HP/guard sequences block Jamie’s recorded rising-kick reversal at three drinks. His exact strength is not identified. Cards claim only those observed landing blocks and explicitly do not certify OD-safe or universal safe jumps."
+		},
+		{
+			"topic": "Goals and response claims",
+			"decision": "Three grounded anti-airs use Anti-air tags; three Drive Rush checks are separate responses without reaction guarantees. A midscreen side switch does not automatically become Corner carry. Only the full-resource OD Focus/Level 3 route receives Cash-out."
+		}
+	],
+	"remainingGaps": [
+		"Substantial Killerex meaty, side-switch and DI-reset material remains unprocessed.",
+		"Chris_F Level 1-install, neutral pressure, defensive alternatives and numerous combo/oki chapters remain available.",
+		"Vesper light/medium/DI/Rush/air-to-air/Super alternatives remain unprocessed; ambiguous LP/MP Seismo recipes remain excluded.",
+		"The unidentified Jamie reversal strength prevents an OD-safe-jump guarantee. No current-patch gameplay certification is claimed."
+	]
+}

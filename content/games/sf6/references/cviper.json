@@ -1248,5 +1248,3493 @@
 			"cviper-vesper-heavy-light-seismo",
 			"cviper-vesper-medium-od-seismo-tracer"
 		]
+	},
+	{
+		"id": "cviper-depth-anti-air-heavy-thunder-tracer",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Close anti-air: heavy Thunder Dash into Tracer",
+		"summary": "Match the close jump-in height before using heavy Thunder Dash and its Tracer follow-up; other jump spacings are not covered.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air"],
+		"outcomes": ["Anti-air knockdown"],
+		"notation": "214HP > 6PP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "6PP",
+				"label": "Tracer Combination"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Mai uses the recorded forward jump at the demonstrated close spacing and height",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": ["No on-reaction, all-jump or current-patch invulnerability guarantee is asserted."],
+		"resources": {
+			"drive": "Tracer Combination (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 1185.65,
+			"end": 1188.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-anti-air-heavy-thunder-tracer/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-anti-air-heavy-thunder-tracer/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-anti-air-heavy-thunder-tracer/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-anti-air-heavy-thunder-tracer/frame-1.jpg",
+					"at": 0.85,
+					"label": "Context",
+					"alt": "Heavy Thunder Dash intercepts the recorded Mai forward jump."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-anti-air-heavy-thunder-tracer/frame-2.jpg",
+					"at": 1.65,
+					"label": "Action",
+					"alt": "Tracer Combination adds the actual one-bar follow-up against airborne Mai."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-anti-air-heavy-thunder-tracer/frame-3.jpg",
+					"at": 2.85,
+					"label": "Result",
+					"alt": "Mai recovers after the demonstrated anti-air knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-anti-air-far-standing-heavy-kick",
+			"cviper-depth-anti-air-heavy-kick-jump-cancel-level-two",
+			"cviper-depth-drive-rush-counter-medium-seismo"
+		]
+	},
+	{
+		"id": "cviper-depth-anti-air-far-standing-heavy-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Far anti-air: standing heavy kick",
+		"summary": "Use the farther Cammy jump spacing shown here; this example contains a single heavy kick without an added conversion.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air"],
+		"outcomes": ["Anti-air knockdown"],
+		"notation": "st.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Cammy uses the recorded forward jump at the demonstrated farther spacing",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"This is the performed single-heavy-kick response; no unperformed follow-up is added."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 143.3,
+			"end": 145.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-anti-air-far-standing-heavy-kick/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-anti-air-far-standing-heavy-kick/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-anti-air-far-standing-heavy-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-anti-air-far-standing-heavy-kick/frame-1.jpg",
+					"at": 0.45,
+					"label": "Context",
+					"alt": "Cammy approaches with the recorded forward jump from farther away."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-anti-air-far-standing-heavy-kick/frame-2.jpg",
+					"at": 0.95,
+					"label": "Action",
+					"alt": "Standing heavy kick intercepts the jump and scores Counter Hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-anti-air-far-standing-heavy-kick/frame-3.jpg",
+					"at": 2.2,
+					"label": "Result",
+					"alt": "Cammy falls away after the meterless anti-air."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-anti-air-heavy-thunder-tracer",
+			"cviper-depth-anti-air-heavy-kick-jump-cancel-level-two",
+			"cviper-depth-drive-rush-counter-medium-seismo"
+		]
+	},
+	{
+		"id": "cviper-depth-anti-air-heavy-kick-jump-cancel-level-two",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Anti-air heavy kick: high-jump cancel into Level 2",
+		"summary": "Practice the high-jump cancel from the anti-air hit at this exact range; the source warns that Level 2 can miss elsewhere.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Super finish"],
+		"outcomes": ["Anti-air conversion", "Hard knockdown"],
+		"notation": "st.HK > 2~7 (SJC) > SA2",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "2~7 (SJC)",
+				"label": "Backward high jump cancel"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA2",
+				"label": "Level 2 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Mai uses the recorded forward jump at the shown height and spacing",
+			"Level 2 available",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The source warns that Level 2 can miss from other ranges. Only this successful recorded spacing is claimed."
+		],
+		"resources": {
+			"drive": "High jump cancel (1 bar)",
+			"super": "Level 2 (2 bars)"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 1204.35,
+			"end": 1212.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-anti-air-heavy-kick-jump-cancel-level-two/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-anti-air-heavy-kick-jump-cancel-level-two/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-anti-air-heavy-kick-jump-cancel-level-two/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-anti-air-heavy-kick-jump-cancel-level-two/frame-1.jpg",
+					"at": 1.0,
+					"label": "Context",
+					"alt": "Standing heavy kick Counter Hits Mai’s recorded jump-in."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-anti-air-heavy-kick-jump-cancel-level-two/frame-2.jpg",
+					"at": 1.35,
+					"label": "Action",
+					"alt": "The high-jump cancel leads into Mission Complete rather than an ordinary airborne attack."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-anti-air-heavy-kick-jump-cancel-level-two/frame-3.jpg",
+					"at": 6.75,
+					"label": "Result",
+					"alt": "Mission Complete finishes the actual anti-air conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-anti-air-heavy-thunder-tracer",
+			"cviper-depth-anti-air-far-standing-heavy-kick",
+			"cviper-depth-drive-rush-counter-medium-seismo"
+		]
+	},
+	{
+		"id": "cviper-depth-drive-rush-counter-medium-seismo",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Stop Juri Drive Rush: crouching-medium Counter Hit into Seismo",
+		"summary": "The crouching-medium starter must score Counter Hit before the light-Seismo conversion shown against Juri’s Rush.",
+		"kind": "response",
+		"situations": ["Midscreen", "Counter hit", "Drive Rush check"],
+		"outcomes": ["Approach check", "Knockdown"],
+		"notation": "cr.MP > 623LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "623LP",
+				"label": "Light Seismic Hammer"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Juri uses the recorded raw Drive Rush approach",
+			"The crouching-medium starter must score Counter Hit",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"No reaction or universal Drive-Rush-stop claim is added. The separate extended take is not silently appended."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 1268.85,
+			"end": 1271.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-drive-rush-counter-medium-seismo/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-drive-rush-counter-medium-seismo/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-drive-rush-counter-medium-seismo/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-drive-rush-counter-medium-seismo/frame-1.jpg",
+					"at": 0.25,
+					"label": "Context",
+					"alt": "Juri starts the recorded raw Drive Rush approach."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-drive-rush-counter-medium-seismo/frame-2.jpg",
+					"at": 0.65,
+					"label": "Action",
+					"alt": "Crouching medium punch scores the required Counter Hit against the approach."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-drive-rush-counter-medium-seismo/frame-3.jpg",
+					"at": 1.65,
+					"label": "Result",
+					"alt": "Light Seismic Hammer completes the actual two-hit meterless conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-drive-rush-standing-light-kick",
+			"cviper-depth-drive-rush-low-high-jump-seismo",
+			"cviper-depth-blocked-medium-counter-jab-medium"
+		]
+	},
+	{
+		"id": "cviper-depth-drive-rush-standing-light-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Stop Juri Drive Rush: standing light-kick check",
+		"summary": "Reproduce the single-button check at the shown Rush spacing; a light-kick-to-Seismo combo is not demonstrated here.",
+		"kind": "response",
+		"situations": ["Midscreen", "Counter hit", "Drive Rush check"],
+		"outcomes": ["Approach check"],
+		"notation": "st.LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Juri uses the recorded raw Drive Rush at the shown spacing",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The source separately demonstrates why a light-kick-to-Seismo attempt is not a true combo. This card contains only the actual single-button check."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 1282.8,
+			"end": 1284.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-drive-rush-standing-light-kick/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-drive-rush-standing-light-kick/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-drive-rush-standing-light-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-drive-rush-standing-light-kick/frame-1.jpg",
+					"at": 0.35,
+					"label": "Context",
+					"alt": "Juri begins the recorded raw Drive Rush approach."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-drive-rush-standing-light-kick/frame-2.jpg",
+					"at": 0.7,
+					"label": "Action",
+					"alt": "Standing light kick Counter Hits Juri at the shown spacing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-drive-rush-standing-light-kick/frame-3.jpg",
+					"at": 1.3,
+					"label": "Result",
+					"alt": "The single light kick checks the approach without a claimed combo or knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-drive-rush-counter-medium-seismo",
+			"cviper-depth-drive-rush-low-high-jump-seismo",
+			"cviper-depth-blocked-medium-counter-jab-medium"
+		]
+	},
+	{
+		"id": "cviper-depth-drive-rush-low-high-jump-seismo",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Stop Juri Drive Rush: low Counter Hit, high-jump cancel and Seismo",
+		"summary": "Cancel high-jump startup into Seismo after the Counter-Hit low, then use a second high-jump cancel for the aerial kick.",
+		"kind": "response",
+		"situations": ["Midscreen", "Counter hit", "Drive Rush check"],
+		"outcomes": ["Approach check", "Knockdown"],
+		"notation": "cr.MK > 2~9 (SJC) > 623LP > 2~9 (SJC) > j.236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "2~9 (SJC)",
+				"label": "Forward high jump cancel"
+			},
+			{
+				"id": "step-3",
+				"notation": "623LP",
+				"label": "Light Seismic Hammer"
+			},
+			{
+				"id": "step-4",
+				"notation": "2~9 (SJC)",
+				"label": "Forward high jump cancel"
+			},
+			{
+				"id": "step-5",
+				"notation": "j.236MK",
+				"label": "Aerial medium Burning Kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Juri uses the recorded raw Drive Rush approach",
+			"The crouching-medium-kick starter must score Counter Hit",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"Cancel the first high-jump startup into Seismic Hammer, then high-jump cancel the Hammer into aerial medium Burning Kick. Each high-jump cancel spends one Drive bar; this is not an ordinary special cancel from crouching medium kick."
+		],
+		"resources": {
+			"drive": "Two high-jump cancels (2 bars total)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 1292.65,
+			"end": 1296.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-drive-rush-low-high-jump-seismo/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-drive-rush-low-high-jump-seismo/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-drive-rush-low-high-jump-seismo/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-drive-rush-low-high-jump-seismo/frame-1.jpg",
+					"at": 0.35,
+					"label": "Context",
+					"alt": "Crouching medium kick Counter Hits the recorded Juri Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-drive-rush-low-high-jump-seismo/frame-2.jpg",
+					"at": 0.95,
+					"label": "Action",
+					"alt": "A high-jump cancel allows light Seismic Hammer after the low starter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-drive-rush-low-high-jump-seismo/frame-3.jpg",
+					"at": 1.45,
+					"label": "Result",
+					"alt": "A second high-jump cancel leads into the actual aerial medium Burning Kick finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-drive-rush-counter-medium-seismo",
+			"cviper-depth-drive-rush-standing-light-kick",
+			"cviper-depth-blocked-medium-counter-jab-medium"
+		]
+	},
+	{
+		"id": "cviper-depth-far-forward-heavy-light-thunder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Far double kick: jab into heavy Thunder Dash",
+		"summary": "Match the far forward-heavy-kick contact before linking standing jab; the close two-kick route uses different lights.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "f.HK > st.LP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "f.HK",
+				"label": "Double Kick (forward heavy kick)"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Forward heavy kick connects from the demonstrated far spacing",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The source marks this as the far f.HK route; the close version uses both kicks and different lights."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 182.05,
+			"end": 186.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-far-forward-heavy-light-thunder/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-far-forward-heavy-light-thunder/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-far-forward-heavy-light-thunder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-far-forward-heavy-light-thunder/frame-1.jpg",
+					"at": 0.45,
+					"label": "Context",
+					"alt": "Forward heavy kick connects from the shown farther spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-far-forward-heavy-light-thunder/frame-2.jpg",
+					"at": 1.45,
+					"label": "Action",
+					"alt": "Standing light punch links after the far double-kick hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-far-forward-heavy-light-thunder/frame-3.jpg",
+					"at": 2.5,
+					"label": "Result",
+					"alt": "Heavy Thunder Dash completes the meterless knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-close-forward-heavy-light-chain",
+			"cviper-depth-crouching-heavy-feint-focus",
+			"cviper-depth-crouching-heavy-feint-od-seismo"
+		]
+	},
+	{
+		"id": "cviper-depth-close-forward-heavy-light-chain",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Close double kick: two crouching jabs into medium Thunder",
+		"summary": "Start close enough for both forward-heavy kicks to connect before chaining the two crouching jabs and standing light kick.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "f.HK > cr.LP > cr.LP > st.LK > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "f.HK",
+				"label": "Double Kick (forward heavy kick)"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LK",
+				"label": "Standing light kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP",
+				"label": "Medium Thunder Dash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Forward heavy kick starts close enough for both kicks to connect",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 187.75,
+			"end": 192.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-close-forward-heavy-light-chain/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-close-forward-heavy-light-chain/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-close-forward-heavy-light-chain/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-close-forward-heavy-light-chain/frame-1.jpg",
+					"at": 0.95,
+					"label": "Context",
+					"alt": "Both forward-heavy-kick hits connect from the close starting spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-close-forward-heavy-light-chain/frame-2.jpg",
+					"at": 2.0,
+					"label": "Action",
+					"alt": "Two crouching light punches lead into standing light kick."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-close-forward-heavy-light-chain/frame-3.jpg",
+					"at": 3.0,
+					"label": "Result",
+					"alt": "Medium Thunder Dash finishes the six-hit meterless route."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-far-forward-heavy-light-thunder",
+			"cviper-depth-crouching-heavy-feint-focus",
+			"cviper-depth-crouching-heavy-feint-od-seismo"
+		]
+	},
+	{
+		"id": "cviper-depth-crouching-heavy-feint-focus",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Crouching heavy: Thunder feint, medium punch and Focus Force",
+		"summary": "Use heavy punch plus light kick for the Thunder feint, then link crouching medium before releasing normal Focus Force.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > 214HP+LK (feint) > cr.MP > 214K (release)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HP+LK (feint)",
+				"label": "Heavy Thunder Dash feint with light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214K (release)",
+				"label": "Normal Focus Force, release without charging"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"Use the heavy-punch-plus-light-kick feint shown in the companion guide, not an added PP follow-up. The source prints a generic K for normal Focus Force."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 206.05,
+			"end": 210.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-crouching-heavy-feint-focus/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-crouching-heavy-feint-focus/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-crouching-heavy-feint-focus/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-crouching-heavy-feint-focus/frame-1.jpg",
+					"at": 0.6,
+					"label": "Context",
+					"alt": "Crouching heavy punch opens the close route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-crouching-heavy-feint-focus/frame-2.jpg",
+					"at": 1.2,
+					"label": "Action",
+					"alt": "The heavy Thunder Dash feint recovers in time to link crouching medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-crouching-heavy-feint-focus/frame-3.jpg",
+					"at": 1.95,
+					"label": "Result",
+					"alt": "The normal Focus Force release produces the recorded two-hit finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-far-forward-heavy-light-thunder",
+			"cviper-depth-close-forward-heavy-light-chain",
+			"cviper-depth-crouching-heavy-feint-od-seismo"
+		]
+	},
+	{
+		"id": "cviper-depth-crouching-heavy-feint-od-seismo",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Crouching heavy feint: OD Seismo and aerial heavy Burning Kick",
+		"summary": "After the feint link and OD Seismo, high-jump cancel into aerial heavy Burning Kick and land before the final Thunder Dash.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > 214HP+LK (feint) > cr.MP > 623PP > 2~9 (SJC) > j.236HK > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HP+LK (feint)",
+				"label": "Heavy Thunder Dash feint with light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "623PP",
+				"label": "OD Seismic Hammer"
+			},
+			{
+				"id": "step-5",
+				"notation": "2~9 (SJC)",
+				"label": "Forward high jump cancel"
+			},
+			{
+				"id": "step-6",
+				"notation": "j.236HK",
+				"label": "Aerial heavy Burning Kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": ["Land before the final heavy Thunder Dash."],
+		"resources": {
+			"drive": "OD Seismic Hammer (2 bars) + high jump (1 bar): 3 bars total",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 211.75,
+			"end": 216.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-crouching-heavy-feint-od-seismo/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-crouching-heavy-feint-od-seismo/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-crouching-heavy-feint-od-seismo/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-crouching-heavy-feint-od-seismo/frame-1.jpg",
+					"at": 0.75,
+					"label": "Context",
+					"alt": "Crouching heavy punch starts the feint-link route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-crouching-heavy-feint-od-seismo/frame-2.jpg",
+					"at": 1.75,
+					"label": "Action",
+					"alt": "OD Seismic Hammer launches after crouching medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-crouching-heavy-feint-od-seismo/frame-3.jpg",
+					"at": 3.05,
+					"label": "Result",
+					"alt": "A high-jump aerial heavy Burning Kick leads into heavy Thunder Dash."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-far-forward-heavy-light-thunder",
+			"cviper-depth-close-forward-heavy-light-chain",
+			"cviper-depth-crouching-heavy-feint-focus"
+		]
+	},
+	{
+		"id": "cviper-depth-standing-heavy-jump-cancel-feint",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Standing heavy: high-jump cancel into Thunder feint and Focus",
+		"summary": "Keep the high-jump cancel after standing heavy punch before the Thunder feint; the crouching-heavy starter follows a different sequence.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > 2~up (SJC) > 214HP+LK (feint) > cr.MP > 214K (release)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "2~up (SJC)",
+				"label": "High jump cancel"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP+LK (feint)",
+				"label": "Heavy Thunder Dash feint with light kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214K (release)",
+				"label": "Normal Focus Force, release without charging"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"This uses a high-jump cancel after standing heavy punch, unlike the meterless crouching-heavy starter. Normal Focus Force is printed as generic K in the source."
+		],
+		"resources": {
+			"drive": "High-jump cancel (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 218.65,
+			"end": 222.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-standing-heavy-jump-cancel-feint/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-standing-heavy-jump-cancel-feint/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-standing-heavy-jump-cancel-feint/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-standing-heavy-jump-cancel-feint/frame-1.jpg",
+					"at": 0.5,
+					"label": "Context",
+					"alt": "Standing heavy punch connects at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-standing-heavy-jump-cancel-feint/frame-2.jpg",
+					"at": 1.15,
+					"label": "Action",
+					"alt": "High-jump startup is canceled into the heavy Thunder Dash feint before crouching medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-standing-heavy-jump-cancel-feint/frame-3.jpg",
+					"at": 2.1,
+					"label": "Result",
+					"alt": "Normal Focus Force releases for the recorded knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-far-forward-heavy-light-thunder",
+			"cviper-depth-close-forward-heavy-light-chain",
+			"cviper-depth-crouching-heavy-feint-focus"
+		]
+	},
+	{
+		"id": "cviper-depth-far-heavy-kick-punish-light-thunder",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Far heavy-kick Punish Counter into light Thunder",
+		"summary": "Use this short conversion only when the far standing heavy kick scores the demonstrated Punish Counter.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK > 214LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "214LP",
+				"label": "Light Thunder Dash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing heavy kick scores Punish Counter at the demonstrated far spacing",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 315.85,
+			"end": 319.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-far-heavy-kick-punish-light-thunder/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-far-heavy-kick-punish-light-thunder/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-far-heavy-kick-punish-light-thunder/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-far-heavy-kick-punish-light-thunder/frame-1.jpg",
+					"at": 0.9,
+					"label": "Context",
+					"alt": "Standing heavy kick scores Punish Counter from the shown far spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-far-heavy-kick-punish-light-thunder/frame-2.jpg",
+					"at": 1.9,
+					"label": "Action",
+					"alt": "Light Thunder Dash links after the heavy-kick stagger."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-far-heavy-kick-punish-light-thunder/frame-3.jpg",
+					"at": 2.55,
+					"label": "Result",
+					"alt": "The two-hit meterless conversion knocks Luke down."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-heavy-kick-punish-side-switch",
+			"cviper-depth-drive-impact-punish-seismo-air-kick",
+			"cviper-depth-crouching-heavy-feint-spacing-trap"
+		]
+	},
+	{
+		"id": "cviper-depth-heavy-kick-punish-side-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Heavy-kick Punish Counter: two high jumps and side-switch juggle",
+		"summary": "Match the close Punish-Counter spacing and include the jumping heavy-kick attack before landing into crouching heavy punch.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Side switch"],
+		"outcomes": ["Side switch", "Knockdown"],
+		"notation": "st.HK > 2~9 (SJC) > j.HK > cr.HP > 623LP > 2~9 (SJC) > j.236HK > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "2~9 (SJC)",
+				"label": "Forward high jump cancel"
+			},
+			{
+				"id": "step-3",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623LP",
+				"label": "Light Seismic Hammer"
+			},
+			{
+				"id": "step-6",
+				"notation": "2~9 (SJC)",
+				"label": "Forward high jump cancel"
+			},
+			{
+				"id": "step-7",
+				"notation": "j.236HK",
+				"label": "Aerial heavy Burning Kick"
+			},
+			{
+				"id": "step-8",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing heavy kick scores Punish Counter at the demonstrated close spacing",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": ["The jump-in is j.HK; it is an actual attack before landing crouching heavy punch."],
+		"resources": {
+			"drive": "Two high jumps (2 bars total)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 321.55,
+			"end": 327.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-heavy-kick-punish-side-switch/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-heavy-kick-punish-side-switch/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-heavy-kick-punish-side-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-heavy-kick-punish-side-switch/frame-1.jpg",
+					"at": 0.45,
+					"label": "Context",
+					"alt": "Standing heavy kick scores the required Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-heavy-kick-punish-side-switch/frame-2.jpg",
+					"at": 2.0,
+					"label": "Action",
+					"alt": "High-jump heavy kick crosses to the other side before crouching heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-heavy-kick-punish-side-switch/frame-3.jpg",
+					"at": 4.0,
+					"label": "Result",
+					"alt": "Light Seismo, a second high jump and aerial heavy Burning Kick lead to heavy Thunder Dash."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-far-heavy-kick-punish-light-thunder",
+			"cviper-depth-drive-impact-punish-seismo-air-kick",
+			"cviper-depth-crouching-heavy-feint-spacing-trap"
+		]
+	},
+	{
+		"id": "cviper-depth-drive-impact-punish-seismo-air-kick",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Drive Impact Punish Counter: light Seismo high-jump juggle",
+		"summary": "Begin from a grounded Drive-Impact Punish Counter, then practice the light-Seismo high-jump pickup into aerial heavy kick.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > cr.HP > 623LP > 2~9 (SJC) > j.236HK > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623LP",
+				"label": "Light Seismic Hammer"
+			},
+			{
+				"id": "step-4",
+				"notation": "2~9 (SJC)",
+				"label": "Forward high jump cancel"
+			},
+			{
+				"id": "step-5",
+				"notation": "j.236HK",
+				"label": "Aerial heavy Burning Kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Drive Impact scores Punish Counter against the grounded opponent",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact (1 bar) + high jump (1 bar): 2 bars total",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 366.25,
+			"end": 372.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-drive-impact-punish-seismo-air-kick/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-drive-impact-punish-seismo-air-kick/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-drive-impact-punish-seismo-air-kick/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-drive-impact-punish-seismo-air-kick/frame-1.jpg",
+					"at": 0.95,
+					"label": "Context",
+					"alt": "Drive Impact scores Punish Counter and crumples Luke."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-drive-impact-punish-seismo-air-kick/frame-2.jpg",
+					"at": 3.05,
+					"label": "Action",
+					"alt": "Crouching heavy punch into light Seismic Hammer launches the crumpled opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-drive-impact-punish-seismo-air-kick/frame-3.jpg",
+					"at": 4.1,
+					"label": "Result",
+					"alt": "High-jump aerial heavy Burning Kick leads into heavy Thunder Dash."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-far-heavy-kick-punish-light-thunder",
+			"cviper-depth-heavy-kick-punish-side-switch",
+			"cviper-depth-crouching-heavy-feint-spacing-trap"
+		]
+	},
+	{
+		"id": "cviper-depth-crossup-medium-od-seismo-double-od",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Cross-up medium kick: OD Seismo into a second OD Burning Kick",
+		"summary": "Reproduce the cross-up hit and land after aerial heavy Burning Kick before performing the final grounded OD Burning Kick.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Cross-up"],
+		"outcomes": ["Knockdown"],
+		"notation": "9 > j.MK > st.MP > cr.MP > 623PP > 2~9 (SJC) > j.236HK > 236KK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.MK",
+				"label": "Jumping medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623PP",
+				"label": "OD Seismic Hammer"
+			},
+			{
+				"id": "step-6",
+				"notation": "2~9 (SJC)",
+				"label": "Forward high jump cancel"
+			},
+			{
+				"id": "step-7",
+				"notation": "j.236HK",
+				"label": "Aerial heavy Burning Kick"
+			},
+			{
+				"id": "step-8",
+				"notation": "236KK",
+				"label": "OD Burning Kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Jumping medium kick lands as the recorded cross-up",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The final OD Burning Kick is performed after landing; no second high-jump cancel is inserted."
+		],
+		"resources": {
+			"drive": "OD Seismic Hammer (2) + high jump (1) + OD Burning Kick (2): 5 bars total",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 392.3,
+			"end": 398.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-crossup-medium-od-seismo-double-od/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-crossup-medium-od-seismo-double-od/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-crossup-medium-od-seismo-double-od/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-crossup-medium-od-seismo-double-od/frame-1.jpg",
+					"at": 0.9,
+					"label": "Context",
+					"alt": "Jumping medium kick visibly crosses up Luke at the demonstrated spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-crossup-medium-od-seismo-double-od/frame-2.jpg",
+					"at": 2.2,
+					"label": "Action",
+					"alt": "Standing medium punch and crouching medium punch lead into OD Seismic Hammer."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-crossup-medium-od-seismo-double-od/frame-3.jpg",
+					"at": 4.2,
+					"label": "Result",
+					"alt": "After high-jump aerial heavy Burning Kick, grounded OD Burning Kick finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-far-forward-heavy-light-thunder",
+			"cviper-depth-close-forward-heavy-light-chain",
+			"cviper-depth-crouching-heavy-feint-focus"
+		]
+	},
+	{
+		"id": "cviper-depth-drive-rush-overhead-focus",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Drive Rush overhead: crouching medium into Focus Force",
+		"summary": "Practice the crouching-medium link from the raw-Rush overhead hit; this take begins from neutral rather than a knockdown.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Overhead"],
+		"outcomes": ["Knockdown"],
+		"notation": "DR > f.MP > cr.MP > 214K (release)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-2",
+				"notation": "f.MP",
+				"label": "Viper Elbow overhead"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214K (release)",
+				"label": "Normal Focus Force, release without charging"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"This begins from neutral rather than a knockdown setup. The source prints generic K for normal Focus Force."
+		],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 455.15,
+			"end": 459.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-drive-rush-overhead-focus/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-drive-rush-overhead-focus/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-drive-rush-overhead-focus/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-drive-rush-overhead-focus/frame-1.jpg",
+					"at": 1.35,
+					"label": "Context",
+					"alt": "Raw Drive Rush reaches the overhead elbow."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-drive-rush-overhead-focus/frame-2.jpg",
+					"at": 1.9,
+					"label": "Action",
+					"alt": "Crouching medium punch links after the Drive Rush overhead."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-drive-rush-overhead-focus/frame-3.jpg",
+					"at": 3.0,
+					"label": "Result",
+					"alt": "The normal Focus Force release completes the four-hit conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-far-forward-heavy-light-thunder",
+			"cviper-depth-close-forward-heavy-light-chain",
+			"cviper-depth-crouching-heavy-feint-focus"
+		]
+	},
+	{
+		"id": "cviper-depth-far-medium-thunder-jab-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Far medium Thunder Dash stagger: jab into heavy Thunder",
+		"summary": "The standing-jab link depends on medium Thunder Dash hitting at the shown far distance and producing its different reaction.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "214MP > st.LP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214MP",
+				"label": "Medium Thunder Dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Medium Thunder Dash must connect at the demonstrated far spacing for its different hit reaction",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The source explicitly distinguishes this far-hit reaction from the close medium Thunder Dash reaction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 544.15,
+			"end": 548.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-far-medium-thunder-jab-heavy/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-far-medium-thunder-jab-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-far-medium-thunder-jab-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-far-medium-thunder-jab-heavy/frame-1.jpg",
+					"at": 0.85,
+					"label": "Context",
+					"alt": "Medium Thunder Dash connects at the demonstrated farther spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-far-medium-thunder-jab-heavy/frame-2.jpg",
+					"at": 1.35,
+					"label": "Action",
+					"alt": "Its far-hit stagger allows the standing-light-punch link."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-far-medium-thunder-jab-heavy/frame-3.jpg",
+					"at": 2.1,
+					"label": "Result",
+					"alt": "Heavy Thunder Dash finishes the spacing-specific three-hit route."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-far-forward-heavy-light-thunder",
+			"cviper-depth-close-forward-heavy-light-chain",
+			"cviper-depth-crouching-heavy-feint-focus"
+		]
+	},
+	{
+		"id": "cviper-depth-charged-focus-light-seismo-juggle",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Charged normal Focus Force: light Seismo high-jump route",
+		"summary": "Hold normal Focus Force until the recorded charged crumple, then practice the crouching-heavy pickup without assuming a fixed hold duration.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Charged starter"],
+		"outcomes": ["Knockdown"],
+		"notation": "214K (hold) > cr.HP > 623LP > 2~9 (SJC) > j.236HK > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214K (hold)",
+				"label": "Hold normal Focus Force for the shown charged release"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623LP",
+				"label": "Light Seismic Hammer"
+			},
+			{
+				"id": "step-4",
+				"notation": "2~9 (SJC)",
+				"label": "Forward high jump cancel"
+			},
+			{
+				"id": "step-5",
+				"notation": "j.236HK",
+				"label": "Aerial heavy Burning Kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Normal Focus Force is held to the shown charged release and hits a grounded opponent",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"Hold until the shown charged crumple; no exact charge-frame count or ability to force this hit through guard is asserted. The normal source recipe uses generic K."
+		],
+		"resources": {
+			"drive": "High jump (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 582.7,
+			"end": 589.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-charged-focus-light-seismo-juggle/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-charged-focus-light-seismo-juggle/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-charged-focus-light-seismo-juggle/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-charged-focus-light-seismo-juggle/frame-1.jpg",
+					"at": 1.95,
+					"label": "Context",
+					"alt": "Held normal Focus Force releases and crumples the standing opponent."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-charged-focus-light-seismo-juggle/frame-2.jpg",
+					"at": 3.55,
+					"label": "Action",
+					"alt": "Crouching heavy punch into light Seismic Hammer launches after the crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-charged-focus-light-seismo-juggle/frame-3.jpg",
+					"at": 4.85,
+					"label": "Result",
+					"alt": "High-jump aerial heavy Burning Kick leads into heavy Thunder Dash."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-charged-od-focus-all-drive-level-three",
+			"cviper-depth-far-forward-heavy-light-thunder",
+			"cviper-depth-close-forward-heavy-light-chain"
+		]
+	},
+	{
+		"id": "cviper-depth-charged-od-focus-all-drive-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Charged OD Focus Force: full-Drive Level 3 cash-out",
+		"summary": "Begin with six Drive bars and three Super bars, and match the juggle timing and regeneration before the final OD move enters Burnout.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Charged starter", "Cash-out"],
+		"outcomes": ["Knockdown"],
+		"notation": "214KK (hold) > cr.HP > 623PP > 2~9 (SJC) > j.236HK > st.HK > 2~9 (SJC) > j.236KK > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "214KK (hold)",
+				"label": "Hold OD Focus Force for the shown charged release"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623PP",
+				"label": "OD Seismic Hammer"
+			},
+			{
+				"id": "step-4",
+				"notation": "2~9 (SJC)",
+				"label": "Forward high jump cancel"
+			},
+			{
+				"id": "step-5",
+				"notation": "j.236HK",
+				"label": "Aerial heavy Burning Kick"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "2~9 (SJC)",
+				"label": "Forward high jump cancel"
+			},
+			{
+				"id": "step-8",
+				"notation": "j.236KK",
+				"label": "OD aerial Burning Kick"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Start with the recorded full six-bar Drive Gauge and three Super bars",
+			"Hold OD Focus Force to the shown charged crumple; reproduce the juggle timing and meter regeneration",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The nominal costs exceed six bars because the final OD move can consume the remaining fraction and enter Burnout. The recording does not start with eight Drive bars.",
+			"This uses OD Focus Force (KK), unlike the separate normal charged-starter route."
+		],
+		"resources": {
+			"drive": "OD Focus Force (2) + OD Seismo (2) + two high jumps (2) + OD Burning Kick (2): 8 bars nominal; starts at 6, regenerates a fraction, then enters Burnout on the final OD move",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "vesperarcade-cviper-2025",
+			"title": "Street Fighter 6 C. Viper Combos Guide, With Annotations!",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=sD6SaqB9h-M",
+			"published": "2025-10-17",
+			"start": 615.55,
+			"end": 634.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-charged-od-focus-all-drive-level-three/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-charged-od-focus-all-drive-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-charged-od-focus-all-drive-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-charged-od-focus-all-drive-level-three/frame-1.jpg",
+					"at": 1.1,
+					"label": "Resources",
+					"alt": "OD Focus Force begins with all six Drive bars and three Super bars visible."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-charged-od-focus-all-drive-level-three/frame-2.jpg",
+					"at": 3.95,
+					"label": "First high jump",
+					"alt": "OD Seismic Hammer and the first high jump extend the charged crumple."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-charged-od-focus-all-drive-level-three/frame-3.jpg",
+					"at": 5.95,
+					"label": "Burnout",
+					"alt": "Standing heavy kick, a second high jump and OD aerial Burning Kick spend the remaining Drive into Burnout."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/cviper/cviper-depth-charged-od-focus-all-drive-level-three/frame-4.jpg",
+					"at": 15.25,
+					"label": "Super finish",
+					"alt": "Hard Luck Rejector completes the twelve-hit Level 3 cash-out."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-charged-focus-light-seismo-juggle",
+			"cviper-depth-far-forward-heavy-light-thunder",
+			"cviper-depth-close-forward-heavy-light-chain"
+		]
+	},
+	{
+		"id": "cviper-depth-corner-forward-throw-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Corner forward throw: walk into another throw",
+		"summary": "Begin after the corner forward-throw prerequisite and match the walking approach; the advantage caption is not a fixed wait count.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Corner throw knockdown"],
+		"notation": "Walk > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown forward normal throw against cornered Cammy",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"Only the performed walk-forward throw loop against this recorded recovery is claimed."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 222.65,
+			"end": 226.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-corner-forward-throw-walk-throw/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-corner-forward-throw-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-corner-forward-throw-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-corner-forward-throw-walk-throw/frame-1.jpg",
+					"at": 0.35,
+					"label": "Context",
+					"alt": "The previous forward throw leaves Cammy knocked down in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-corner-forward-throw-walk-throw/frame-2.jpg",
+					"at": 0.85,
+					"label": "Action",
+					"alt": "Viper walks into the demonstrated wake-up throw spacing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-corner-forward-throw-walk-throw/frame-3.jpg",
+					"at": 2.85,
+					"label": "Result",
+					"alt": "The second forward throw connects and keeps Cammy at the wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-corner-forward-throw-shimmy-heavy",
+			"cviper-depth-corner-tracer-whiff-low-medium",
+			"cviper-depth-light-burning-pursuit-walk-throw"
+		]
+	},
+	{
+		"id": "cviper-depth-corner-forward-throw-shimmy-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Corner throw shimmy: punish the whiffed throw with heavy kick",
+		"summary": "Retreat from Cammy’s recorded throw and confirm the heavy-kick punish; this excerpt stops before the later jump-cancel conversion.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Punish counter"],
+		"outcomes": ["Throw bait", "Punish Counter starter"],
+		"notation": "4 > st.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the recorded forward throw against cornered Cammy",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"The excerpt ends after the confirmed heavy-kick punish starter. The later jump-cancel combo is a separate unprocessed continuation."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 243.15,
+			"end": 245.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-corner-forward-throw-shimmy-heavy/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-corner-forward-throw-shimmy-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-corner-forward-throw-shimmy-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-corner-forward-throw-shimmy-heavy/frame-1.jpg",
+					"at": 1.35,
+					"label": "Context",
+					"alt": "The prerequisite forward throw knocks Cammy down at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-corner-forward-throw-shimmy-heavy/frame-2.jpg",
+					"at": 1.9,
+					"label": "Action",
+					"alt": "Viper walks backward as Cammy attempts the recorded wake-up throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-corner-forward-throw-shimmy-heavy/frame-3.jpg",
+					"at": 2.4,
+					"label": "Result",
+					"alt": "Standing heavy kick scores Punish Counter against the whiffed throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-corner-forward-throw-walk-throw",
+			"cviper-depth-two-jab-tracer-dash-backdash-heavy",
+			"cviper-depth-corner-tracer-whiff-low-medium"
+		]
+	},
+	{
+		"id": "cviper-depth-blocked-medium-low-walkback-check",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Blocked medium punch: low kick catches the walk-back",
+		"summary": "Use the low follow-up against Cammy’s recorded backward walk after she guards standing medium punch.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Pressure"],
+		"outcomes": ["Walk-back check", "Knockdown"],
+		"notation": "st.MP > cr.LK > st.LP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Thunder Dash"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Cammy blocks standing medium punch and then uses the recorded backward walk",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"This is the walking-back branch, not a claimed Counter-Hit interrupt or knockdown setup."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 309.45,
+			"end": 313.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-blocked-medium-low-walkback-check/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-blocked-medium-low-walkback-check/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-blocked-medium-low-walkback-check/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-blocked-medium-low-walkback-check/frame-1.jpg",
+					"at": 0.6,
+					"label": "Context",
+					"alt": "Cammy blocks the opening standing medium punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-blocked-medium-low-walkback-check/frame-2.jpg",
+					"at": 1.25,
+					"label": "Action",
+					"alt": "Crouching light kick catches the recorded backward walk before standing light punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-blocked-medium-low-walkback-check/frame-3.jpg",
+					"at": 2.15,
+					"label": "Result",
+					"alt": "Heavy Thunder Dash finishes the actual three-hit low conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-blocked-medium-counter-jab-medium",
+			"cviper-depth-blocked-medium-throw-respect",
+			"cviper-depth-crouching-heavy-feint-spacing-trap"
+		]
+	},
+	{
+		"id": "cviper-depth-blocked-medium-counter-jab-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Blocked medium punch: Counter-Hit jab links into crouching medium",
+		"summary": "Link crouching medium only after the jab scores the shown Counter Hit; this take stops before any special ender.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Pressure", "Counter hit"],
+		"outcomes": ["Counter-Hit confirm"],
+		"notation": "st.MP > cr.LP > cr.MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Cammy blocks the standing medium punch and presses the recorded button afterward",
+			"The crouching light punch must score Counter Hit",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"This take stops after the two-normal link. No special ender is invented from the different extended demonstration."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 324.1,
+			"end": 326.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-blocked-medium-counter-jab-medium/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-blocked-medium-counter-jab-medium/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-blocked-medium-counter-jab-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-blocked-medium-counter-jab-medium/frame-1.jpg",
+					"at": 0.45,
+					"label": "Context",
+					"alt": "Cammy blocks standing medium punch at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-blocked-medium-counter-jab-medium/frame-2.jpg",
+					"at": 1.0,
+					"label": "Action",
+					"alt": "Crouching light punch scores Counter Hit against the recorded post-block button."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-blocked-medium-counter-jab-medium/frame-3.jpg",
+					"at": 1.45,
+					"label": "Result",
+					"alt": "Crouching medium punch links for the actual two-hit 840-damage confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-blocked-medium-low-walkback-check",
+			"cviper-depth-blocked-medium-throw-respect",
+			"cviper-depth-crouching-heavy-feint-spacing-trap"
+		]
+	},
+	{
+		"id": "cviper-depth-blocked-medium-throw-respect",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Blocked medium punch: throw the guarding opponent",
+		"summary": "Practice the throw against the opponent who keeps guarding; the source separately shows it losing to immediate crouching jab.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Pressure"],
+		"outcomes": ["Throw knockdown"],
+		"notation": "st.MP > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Cammy blocks standing medium punch and continues respecting the pressure",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The source separately shows this loses to an immediate crouching jab. Do not use it as a guaranteed throw against a mashing opponent."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 331.1,
+			"end": 334.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-blocked-medium-throw-respect/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-blocked-medium-throw-respect/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-blocked-medium-throw-respect/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-blocked-medium-throw-respect/frame-1.jpg",
+					"at": 0.45,
+					"label": "Context",
+					"alt": "Cammy blocks standing medium punch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-blocked-medium-throw-respect/frame-2.jpg",
+					"at": 1.1,
+					"label": "Action",
+					"alt": "Viper remains close enough for the performed normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-blocked-medium-throw-respect/frame-3.jpg",
+					"at": 3.0,
+					"label": "Result",
+					"alt": "The throw connects against the guarding opponent."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-blocked-medium-low-walkback-check",
+			"cviper-depth-blocked-medium-counter-jab-medium",
+			"cviper-depth-crouching-heavy-feint-spacing-trap"
+		]
+	},
+	{
+		"id": "cviper-depth-crouching-heavy-feint-spacing-trap",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Blocked crouching heavy feint: make Cammy medium whiff",
+		"summary": "Match the guarded-heavy spacing so Cammy’s crouching medium misses, then use the recorded low punish starter.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Pressure", "Punish counter"],
+		"outcomes": ["Spacing trap", "Whiff punish starter"],
+		"notation": "cr.HP > 214HP+LK (feint) > cr.MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HP+LK (feint)",
+				"label": "Heavy Thunder Dash feint with light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Cammy guards the crouching heavy punch at the demonstrated spacing, then attempts the recorded crouching medium punch",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"This take performs the low punish starter only. No unperformed high-jump or special conversion is added."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 363.05,
+			"end": 365.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-crouching-heavy-feint-spacing-trap/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-crouching-heavy-feint-spacing-trap/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-crouching-heavy-feint-spacing-trap/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-crouching-heavy-feint-spacing-trap/frame-1.jpg",
+					"at": 0.7,
+					"label": "Context",
+					"alt": "Cammy blocks crouching heavy punch before the heavy Thunder Dash feint."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-crouching-heavy-feint-spacing-trap/frame-2.jpg",
+					"at": 1.2,
+					"label": "Action",
+					"alt": "After the feint, the recorded Cammy crouching medium punch misses at this spacing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-crouching-heavy-feint-spacing-trap/frame-3.jpg",
+					"at": 1.5,
+					"label": "Result",
+					"alt": "Crouching medium kick scores Punish Counter on the whiff."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-blocked-medium-low-walkback-check",
+			"cviper-depth-blocked-medium-counter-jab-medium",
+			"cviper-depth-blocked-medium-throw-respect"
+		]
+	},
+	{
+		"id": "cviper-depth-light-burning-pursuit-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Grounded light Burning Kick/Pursuit: walk into wake-up throw",
+		"summary": "Use the grounded light-Burning-Kick/Pursuit knockdown before walking in; the prerequisite’s Drive spend is separate from the throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw knockdown"],
+		"notation": "Walk > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.HP, heavy Thunder Dash feint, cr.MP, grounded light Burning Kick and PP Knuckled Pursuit, at the shown spacing",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"Prerequisite Pursuit spends one Drive bar; the listed walk/throw adds no Drive cost. No exact walking duration is invented."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 611.8,
+			"end": 617.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-light-burning-pursuit-walk-throw/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-light-burning-pursuit-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-light-burning-pursuit-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-light-burning-pursuit-walk-throw/frame-1.jpg",
+					"at": 0.9,
+					"label": "Context",
+					"alt": "Light Burning Kick into Knuckled Pursuit produces the recorded grounded knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-light-burning-pursuit-walk-throw/frame-2.jpg",
+					"at": 1.95,
+					"label": "Action",
+					"alt": "Viper walks into throw range as Cammy wakes."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-light-burning-pursuit-walk-throw/frame-3.jpg",
+					"at": 4.0,
+					"label": "Result",
+					"alt": "The normal throw lands and knocks Cammy down again."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-two-jab-tracer-dash-medium",
+			"cviper-depth-two-jab-tracer-dash-backdash-heavy",
+			"cviper-depth-four-light-tracer-dash-walkback"
+		]
+	},
+	{
+		"id": "cviper-depth-two-jab-tracer-dash-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Two-jab Tracer knockdown: dash into meaty medium punch",
+		"summary": "Preserve the two-jab prerequisite spacing before the dash and strike; its walk-back alternative loses to the recorded wake-up throw.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up Counter Hit"],
+		"notation": "Dash > st.MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.LP ×2, heavy Thunder Dash and 6PP Tracer at the demonstrated midscreen spacing",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"The corresponding two-jab dash/walk-back attempt loses to wake-up throw in the separate source take. This card uses the actual successful strike branch."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 790.65,
+			"end": 793.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-two-jab-tracer-dash-medium/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-two-jab-tracer-dash-medium/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-two-jab-tracer-dash-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-two-jab-tracer-dash-medium/frame-1.jpg",
+					"at": 0.85,
+					"label": "Context",
+					"alt": "The two-crouching-jab heavy Thunder Dash/Tracer prerequisite finishes."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-two-jab-tracer-dash-medium/frame-2.jpg",
+					"at": 1.35,
+					"label": "Action",
+					"alt": "A forward dash closes the recorded knockdown spacing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-two-jab-tracer-dash-medium/frame-3.jpg",
+					"at": 1.85,
+					"label": "Result",
+					"alt": "Standing medium punch Counter Hits Cammy’s wake-up throw attempt."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-light-burning-pursuit-walk-throw",
+			"cviper-depth-two-jab-tracer-dash-backdash-heavy",
+			"cviper-depth-four-light-tracer-dash-walkback"
+		]
+	},
+	{
+		"id": "cviper-depth-two-jab-tracer-dash-backdash-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Two-jab Tracer knockdown: dash, backdash and heavy-kick throw callout",
+		"summary": "Use this as the demonstrated wake-up-throw callout; the creator warns that other wake-up options beat the approach.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki", "Punish counter"],
+		"outcomes": ["Wake-up throw bait", "Punish Counter starter"],
+		"notation": "Dash > Backdash > st.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Backdash",
+				"label": "Backward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.LP ×2, heavy Thunder Dash and 6PP Tracer at the demonstrated midscreen spacing",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"This is a specific throw callout. The creator warns that it loses to other wake-up options; no universal defensive coverage is claimed."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 795.85,
+			"end": 800.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-two-jab-tracer-dash-backdash-heavy/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-two-jab-tracer-dash-backdash-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-two-jab-tracer-dash-backdash-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-two-jab-tracer-dash-backdash-heavy/frame-1.jpg",
+					"at": 0.65,
+					"label": "Context",
+					"alt": "Tracer finishes the two-jab prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-two-jab-tracer-dash-backdash-heavy/frame-2.jpg",
+					"at": 1.4,
+					"label": "Action",
+					"alt": "Viper dashes forward, then backdashes away from Cammy’s wake-up throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-two-jab-tracer-dash-backdash-heavy/frame-3.jpg",
+					"at": 2.15,
+					"label": "Result",
+					"alt": "Standing heavy kick scores Punish Counter after the throw misses."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-corner-forward-throw-shimmy-heavy",
+			"cviper-depth-crouching-heavy-feint-spacing-trap",
+			"cviper-depth-light-burning-pursuit-walk-throw"
+		]
+	},
+	{
+		"id": "cviper-depth-four-light-tracer-dash-walkback",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Four-light Tracer knockdown: dash and walk back from throw",
+		"summary": "Keep the four-light starter’s spacing before dashing and retreating; the shorter two-jab prerequisite does not reproduce this result.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up throw bait"],
+		"notation": "Dash > 4",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.LP ×3, st.LK, heavy Thunder Dash and 6PP Tracer at the exact demonstrated midscreen spacing",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"The four-light starter creates different spacing from the separate two-jab version, where this walk-back fails. No punish attack is performed or added in this take."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 830.25,
+			"end": 834.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-four-light-tracer-dash-walkback/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-four-light-tracer-dash-walkback/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-four-light-tracer-dash-walkback/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-four-light-tracer-dash-walkback/frame-1.jpg",
+					"at": 1.25,
+					"label": "Context",
+					"alt": "The prerequisite ends with standing light kick, heavy Thunder Dash and Tracer."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-four-light-tracer-dash-walkback/frame-2.jpg",
+					"at": 2.3,
+					"label": "Action",
+					"alt": "Viper dashes forward and then walks backward at the recorded farther spacing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-four-light-tracer-dash-walkback/frame-3.jpg",
+					"at": 2.75,
+					"label": "Result",
+					"alt": "Cammy’s immediate wake-up throw misses; Viper has escaped its range."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-light-burning-pursuit-walk-throw",
+			"cviper-depth-two-jab-tracer-dash-medium",
+			"cviper-depth-two-jab-tracer-dash-backdash-heavy"
+		]
+	},
+	{
+		"id": "cviper-depth-corner-tracer-whiff-low-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Corner Tracer knockdown: whiff low kick into meaty medium",
+		"summary": "Intentionally miss the low kick during the corner knockdown, then time standing medium; the printed +10 is remaining advantage.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up Counter Hit"],
+		"notation": "cr.LK (whiff) > st.MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LK (whiff)",
+				"label": "Crouching light kick whiff",
+				"cue": "Intentional framekill before standing medium punch."
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner light-confirm heavy Thunder Dash into 6PP Tracer knockdown",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"The printed +10 after the whiff is remaining advantage, not a ten-frame wait instruction. The later crouching-heavy conversion is a separate take and is not appended."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "chris-f-cviper-2025",
+			"title": "C.Viper 101 - Complete Guide",
+			"creator": "Chris_F",
+			"url": "https://www.youtube.com/watch?v=QnM17vm3S0Y",
+			"published": "2025-10-18",
+			"start": 900.05,
+			"end": 904.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-corner-tracer-whiff-low-medium/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-corner-tracer-whiff-low-medium/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-corner-tracer-whiff-low-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-corner-tracer-whiff-low-medium/frame-1.jpg",
+					"at": 1.1,
+					"label": "Context",
+					"alt": "The light-confirm heavy Thunder Dash/Tracer prerequisite knocks Cammy down in the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-corner-tracer-whiff-low-medium/frame-2.jpg",
+					"at": 1.9,
+					"label": "Action",
+					"alt": "Crouching light kick intentionally whiffs before Cammy’s wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-corner-tracer-whiff-low-medium/frame-3.jpg",
+					"at": 2.45,
+					"label": "Result",
+					"alt": "Standing medium punch Counter Hits the recorded wake-up crouching jab."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-corner-forward-throw-walk-throw",
+			"cviper-depth-corner-forward-throw-shimmy-heavy",
+			"cviper-depth-light-burning-pursuit-walk-throw"
+		]
+	},
+	{
+		"id": "cviper-depth-grounded-tracer-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Grounded heavy Thunder/Tracer: dash into delayed throw",
+		"summary": "Match the grounded Tracer prerequisite and Jamie’s recorded three-drink state before practicing the dash and visible throw delay.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw knockdown"],
+		"notation": "Dash > Wait > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Wait",
+				"label": "Brief visible delay",
+				"cue": "Match the shown throw timing after the dash; no numeric wait count is specified."
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.LP ×3, st.LK, heavy Thunder Dash and 6PP Tracer against grounded Jamie",
+			"Jamie has the recorded three-drink HUD state",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"The prerequisite Tracer costs one Drive bar. The follow-up dash/delay/throw adds no Drive cost."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex-cviper-2025",
+			"title": "SF6: C Viper Tech",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=q6XFnRI9obc",
+			"published": "2025-10-16",
+			"start": 15.15,
+			"end": 19.98
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-grounded-tracer-dash-throw/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-grounded-tracer-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-grounded-tracer-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-grounded-tracer-dash-throw/frame-1.jpg",
+					"at": 0.7,
+					"label": "Context",
+					"alt": "Heavy Thunder Dash into Tracer finishes the grounded light-confirm prerequisite."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-grounded-tracer-dash-throw/frame-2.jpg",
+					"at": 1.65,
+					"label": "Action",
+					"alt": "Viper dashes toward Jamie as he recovers."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-grounded-tracer-dash-throw/frame-3.jpg",
+					"at": 4.35,
+					"label": "Result",
+					"alt": "The delayed forward throw lands at the demonstrated wake-up spacing."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-light-burning-pursuit-walk-throw",
+			"cviper-depth-two-jab-tracer-dash-medium",
+			"cviper-depth-two-jab-tracer-dash-backdash-heavy"
+		]
+	},
+	{
+		"id": "cviper-depth-grounded-burning-pursuit-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Grounded light Burning Kick/Pursuit: dash into throw",
+		"summary": "Use the grounded Pursuit knockdown and dash approach here; the separate walk-forward example has different movement.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw knockdown"],
+		"notation": "Dash > Wait > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Wait",
+				"label": "Visible throw timing",
+				"cue": "Match the shown short timing adjustment; no fixed wait count is asserted."
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.HP, heavy Thunder Dash feint, cr.MP, grounded light Burning Kick and PP Knuckled Pursuit",
+			"Jamie has the recorded three-drink HUD state",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"The prerequisite Pursuit costs one Drive bar. This take uses a dash rather than the separate Chris_F walk-forward branch."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex-cviper-2025",
+			"title": "SF6: C Viper Tech",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=q6XFnRI9obc",
+			"published": "2025-10-16",
+			"start": 21.4,
+			"end": 26.12
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-grounded-burning-pursuit-dash-throw/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-grounded-burning-pursuit-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-grounded-burning-pursuit-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-grounded-burning-pursuit-dash-throw/frame-1.jpg",
+					"at": 0.9,
+					"label": "Context",
+					"alt": "Grounded light Burning Kick into Knuckled Pursuit completes the prerequisite."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-grounded-burning-pursuit-dash-throw/frame-2.jpg",
+					"at": 1.75,
+					"label": "Action",
+					"alt": "Viper dashes into Jamie’s wake-up space."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-grounded-burning-pursuit-dash-throw/frame-3.jpg",
+					"at": 4.2,
+					"label": "Result",
+					"alt": "The forward throw connects against the recorded recovery."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-light-burning-pursuit-walk-throw",
+			"cviper-depth-two-jab-tracer-dash-medium",
+			"cviper-depth-two-jab-tracer-dash-backdash-heavy"
+		]
+	},
+	{
+		"id": "cviper-depth-air-burning-pursuit-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Air Burning Kick/Pursuit juggle: dash into wake-up throw",
+		"summary": "Match the aerial Burning-Kick/Pursuit juggle height before the dash; its knockdown timing differs from the grounded route.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw knockdown"],
+		"notation": "Dash > Wait > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Wait",
+				"label": "Visible throw timing",
+				"cue": "Follow the recorded timing after this airborne Pursuit juggle."
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.HP, light Seismic Hammer, high-jump aerial heavy Burning Kick, then PP Knuckled Pursuit at the recorded juggle height",
+			"Jamie has the recorded three-drink HUD state",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"The prerequisite high jump and Pursuit each spend one Drive bar. This airborne knockdown has different timing from grounded light Burning Kick/Pursuit."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex-cviper-2025",
+			"title": "SF6: C Viper Tech",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=q6XFnRI9obc",
+			"published": "2025-10-16",
+			"start": 27.65,
+			"end": 33.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-air-burning-pursuit-dash-throw/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-air-burning-pursuit-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-air-burning-pursuit-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-air-burning-pursuit-dash-throw/frame-1.jpg",
+					"at": 0.95,
+					"label": "Context",
+					"alt": "The high-jump aerial heavy Burning Kick/Pursuit prerequisite finishes its juggle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-air-burning-pursuit-dash-throw/frame-2.jpg",
+					"at": 1.6,
+					"label": "Action",
+					"alt": "Viper dashes toward Jamie as he rises from the recorded juggle height."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-air-burning-pursuit-dash-throw/frame-3.jpg",
+					"at": 3.95,
+					"label": "Result",
+					"alt": "The forward throw lands and creates another knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-light-burning-pursuit-walk-throw",
+			"cviper-depth-two-jab-tracer-dash-medium",
+			"cviper-depth-two-jab-tracer-dash-backdash-heavy"
+		]
+	},
+	{
+		"id": "cviper-depth-juggle-tracer-walk-medium-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Juggled medium Thunder/Tracer: walk, blocked medium and throw",
+		"summary": "Walk into the guarded standing medium before throwing; the actual sequence contains no crouching-jab framekill.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Blocked strike pressure", "Throw knockdown"],
+		"notation": "Walk > st.MP > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.HP, light Seismo, high-jump aerial heavy Burning Kick, medium Thunder Dash and 6PP Tracer at the shown juggle height",
+			"Jamie has the recorded three-drink HUD state",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"The actual input history contains walking and standing medium punch. No crouching-jab framekill is performed or added."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex-cviper-2025",
+			"title": "SF6: C Viper Tech",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=q6XFnRI9obc",
+			"published": "2025-10-16",
+			"start": 78.85,
+			"end": 84.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-juggle-tracer-walk-medium-throw/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-juggle-tracer-walk-medium-throw/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-juggle-tracer-walk-medium-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-juggle-tracer-walk-medium-throw/frame-1.jpg",
+					"at": 0.8,
+					"label": "Context",
+					"alt": "Medium Thunder Dash into Tracer finishes the shown aerial heavy Burning Kick juggle."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-juggle-tracer-walk-medium-throw/frame-2.jpg",
+					"at": 2.15,
+					"label": "Action",
+					"alt": "Viper walks in and Jamie blocks standing medium punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-juggle-tracer-walk-medium-throw/frame-3.jpg",
+					"at": 4.7,
+					"label": "Result",
+					"alt": "A normal throw catches Jamie after the blocked medium punch."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-light-burning-pursuit-walk-throw",
+			"cviper-depth-two-jab-tracer-dash-medium",
+			"cviper-depth-two-jab-tracer-dash-backdash-heavy"
+		]
+	},
+	{
+		"id": "cviper-depth-od-thunder-tracer-jump-land-guard",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "OD Thunder/Tracer knockdown: jumping heavy punch and land guard",
+		"summary": "After the OD-Thunder/Tracer prerequisite, include jumping heavy punch and land guarding the recorded Jamie reversal; its strength is unidentified.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Jump-in pressure", "Recorded reversal block"],
+		"notation": "9 > j.HP > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HP",
+				"label": "Jumping heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.HP, heavy Thunder Dash feint, cr.MP, OD Thunder Dash and 6PP Tracer at the shown midscreen spacing",
+			"Jamie has the recorded three-drink HUD state",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"Jamie’s reversal strength is not identified in this recording. This documents the performed landing block only; it does not certify an OD-safe or universal safe jump.",
+			"The air attack is j.HP, not an empty jump. The follow-up jump is ordinary and spends no additional Drive."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex-cviper-2025",
+			"title": "SF6: C Viper Tech",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=q6XFnRI9obc",
+			"published": "2025-10-16",
+			"start": 493.7,
+			"end": 496.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-od-thunder-tracer-jump-land-guard/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-od-thunder-tracer-jump-land-guard/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-od-thunder-tracer-jump-land-guard/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-od-thunder-tracer-jump-land-guard/frame-1.jpg",
+					"at": 1.05,
+					"label": "Context",
+					"alt": "OD Thunder Dash into Tracer completes the prerequisite knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-od-thunder-tracer-jump-land-guard/frame-2.jpg",
+					"at": 1.8,
+					"label": "Action",
+					"alt": "Viper attacks with jumping heavy punch before landing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-od-thunder-tracer-jump-land-guard/frame-3.jpg",
+					"at": 2.08,
+					"label": "Result",
+					"alt": "Viper lands and blocks Jamie’s recorded rising-kick reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-light-burning-pursuit-walk-throw",
+			"cviper-depth-two-jab-tracer-dash-medium",
+			"cviper-depth-two-jab-tracer-dash-backdash-heavy"
+		]
+	},
+	{
+		"id": "cviper-depth-seismo-air-heavy-jump-land-guard",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "cviper"
+			}
+		],
+		"title": "Seismo/air heavy Burning Kick: jumping heavy punch and land guard",
+		"summary": "Match Jamie’s backward recovery after the Seismo/aerial-kick prerequisite, then perform jumping heavy punch and the shown landing block.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Jump-in pressure", "Recorded reversal block"],
+		"notation": "9 > j.HP > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HP",
+				"label": "Jumping heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: cr.HP, light Seismic Hammer and high-jump aerial heavy Burning Kick; Jamie uses the shown backward recovery",
+			"Jamie has the recorded three-drink HUD state",
+			"Limit Decoupler is inactive in the recorded starting state"
+		],
+		"notes": [
+			"The clip retains prerequisite context; listed follow-up inputs and costs begin after that prerequisite.",
+			"Numeric +F values report remaining advantage in this dated recording, not instructions to wait that many frames.",
+			"Jamie’s reversal strength is not identified in this recording. This documents the performed landing block only; it does not certify an OD-safe or universal safe jump.",
+			"The air attack is j.HP, not an empty jump. The follow-up jump is ordinary and spends no additional Drive."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "killerex-cviper-2025",
+			"title": "SF6: C Viper Tech",
+			"creator": "Killerex100",
+			"url": "https://www.youtube.com/watch?v=q6XFnRI9obc",
+			"published": "2025-10-16",
+			"start": 498.35,
+			"end": 501.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/cviper/cviper-depth-seismo-air-heavy-jump-land-guard/clip.mp4",
+			"poster": "/media/cviper/cviper-depth-seismo-air-heavy-jump-land-guard/frame-1.jpg",
+			"descriptionTrack": "/media/cviper/cviper-depth-seismo-air-heavy-jump-land-guard/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/cviper/cviper-depth-seismo-air-heavy-jump-land-guard/frame-1.jpg",
+					"at": 0.75,
+					"label": "Context",
+					"alt": "Aerial heavy Burning Kick finishes the light-Seismo/high-jump prerequisite."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/cviper/cviper-depth-seismo-air-heavy-jump-land-guard/frame-2.jpg",
+					"at": 1.4,
+					"label": "Action",
+					"alt": "Viper jumps forward and performs jumping heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/cviper/cviper-depth-seismo-air-heavy-jump-land-guard/frame-3.jpg",
+					"at": 1.65,
+					"label": "Result",
+					"alt": "Viper lands in time to block Jamie’s recorded rising-kick reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"cviper-depth-light-burning-pursuit-walk-throw",
+			"cviper-depth-two-jab-tracer-dash-medium",
+			"cviper-depth-two-jab-tracer-dash-backdash-heavy"
+		]
 	}
 ]

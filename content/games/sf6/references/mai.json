@@ -1140,5 +1140,3850 @@
 			"mai-vesper-punish-jab-heavy-fan",
 			"mai-vesper-punish-medium-heavy-rise"
 		]
+	},
+	{
+		"id": "mai-depth-light-bachi-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Light Bachi knockdown: dash, delay and throw",
+		"summary": "Use the dash after light Bachi, then delay the throw until the opponent rises.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "Dash > Wait > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Wait",
+				"label": "Delay before throwing",
+				"cue": "Delay as demonstrated. The source’s +9F reports the advantage after the dash; it does not prescribe a nine-frame wait."
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a light Hissatsu Shinobi Bachi knockdown; +27F in the source"
+		],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 8.35,
+			"end": 15.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-light-bachi-dash-throw/clip.mp4",
+			"poster": "/media/mai/mai-depth-light-bachi-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-light-bachi-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-light-bachi-dash-throw/frame-1.jpg",
+					"at": 2.45,
+					"label": "Knockdown context",
+					"alt": "Light Shinobi Bachi finishes the preparatory low-light combo."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-light-bachi-dash-throw/frame-2.jpg",
+					"at": 2.75,
+					"label": "Follow-up",
+					"alt": "Mai dashes back into throw range after the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-light-bachi-dash-throw/frame-3.jpg",
+					"at": 4.5,
+					"label": "Result",
+					"alt": "The delayed normal throw catches Ryu on wake-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-light-bachi-shimmy",
+			"mai-depth-light-bachi-back-heavy-meaty",
+			"mai-depth-counter-medium-jab-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-light-bachi-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Light Bachi knockdown: bait the throw",
+		"summary": "After light Bachi, dash in and retreat from the attempted wake-up throw before the heavy-punch punish.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "Dash > 4 > st.HP > 214HP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a light Hissatsu Shinobi Bachi knockdown; opponent attempts a wake-up throw"
+		],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 16.05,
+			"end": 23.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-light-bachi-shimmy/clip.mp4",
+			"poster": "/media/mai/mai-depth-light-bachi-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-light-bachi-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-light-bachi-shimmy/frame-1.jpg",
+					"at": 2.2,
+					"label": "Knockdown context",
+					"alt": "The light Bachi ender knocks Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-light-bachi-shimmy/frame-2.jpg",
+					"at": 3.45,
+					"label": "Follow-up",
+					"alt": "Mai steps away as Ryu attempts a throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-light-bachi-shimmy/frame-3.jpg",
+					"at": 5.55,
+					"label": "Result",
+					"alt": "Standing heavy punch punishes the whiff and leads through heavy Ryuuenbu into light Bachi."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-light-bachi-dash-throw",
+			"mai-depth-light-bachi-back-heavy-meaty",
+			"mai-depth-counter-medium-jab-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-light-bachi-back-heavy-meaty",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Light Bachi knockdown: back-heavy wake-up pressure",
+		"summary": "Dash after light Bachi and time back heavy kick into Ryu's wake-up guard; this take reports +1.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Pressure"],
+		"notation": "Dash > b.HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "b.HK",
+				"label": "Back heavy kick"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a light Hissatsu Shinobi Bachi knockdown; Ryu guards on wake-up"
+		],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee.",
+			"The source labels this blocked meaty +1F. That is a dated training-mode result, not an unconditional property of the button."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 24.55,
+			"end": 29.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-light-bachi-back-heavy-meaty/clip.mp4",
+			"poster": "/media/mai/mai-depth-light-bachi-back-heavy-meaty/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-light-bachi-back-heavy-meaty/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-light-bachi-back-heavy-meaty/frame-1.jpg",
+					"at": 2.0,
+					"label": "Knockdown context",
+					"alt": "Light Bachi creates the shown knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-light-bachi-back-heavy-meaty/frame-2.jpg",
+					"at": 2.9,
+					"label": "Follow-up",
+					"alt": "Back heavy kick reaches Ryu as he rises."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-light-bachi-back-heavy-meaty/frame-3.jpg",
+					"at": 3.8,
+					"label": "Result",
+					"alt": "Ryu blocks the meaty back heavy; the source frame meter shows the pressure result."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-light-bachi-dash-throw",
+			"mai-depth-light-bachi-shimmy",
+			"mai-depth-counter-medium-jab-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-jabs-medium-ryuuenbu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Two standing jabs into medium Ryuuenbu",
+		"summary": "A close two-jab confirm spends no Drive or Super and ends in ordinary medium Ryuuenbu.",
+		"kind": "combo",
+		"situations": ["Midscreen"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > st.LP > 214MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP",
+				"label": "Medium Ryuuenbu"
+			}
+		],
+		"conditions": ["Classic controls", "Close range", "Ordinary special version"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 66.45,
+			"end": 70.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-jabs-medium-ryuuenbu/clip.mp4",
+			"poster": "/media/mai/mai-depth-jabs-medium-ryuuenbu/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-jabs-medium-ryuuenbu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-jabs-medium-ryuuenbu/frame-1.jpg",
+					"at": 0.75,
+					"label": "Starter",
+					"alt": "Mai connects the standing jabs at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-jabs-medium-ryuuenbu/frame-2.jpg",
+					"at": 1.75,
+					"label": "Conversion",
+					"alt": "Medium Ryuuenbu continues the light confirm."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-jabs-medium-ryuuenbu/frame-3.jpg",
+					"at": 2.85,
+					"label": "Finish",
+					"alt": "Ryu recovers after the medium-Ryuuenbu ender."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-medium-ryuuenbu-dash-throw",
+			"mai-depth-medium-ryuuenbu-shimmy",
+			"mai-depth-medium-ryuuenbu-dash-medium"
+		]
+	},
+	{
+		"id": "mai-depth-medium-ryuuenbu-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Medium Ryuuenbu knockdown: dash, walk and throw",
+		"summary": "After medium Ryuuenbu, use a dash and walk to reach the recorded wake-up throw spacing.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "Dash > Walk > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Walk",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": ["Classic controls", "After medium Ryuuenbu hits; +35F in the source"],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 71.15,
+			"end": 76.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-medium-ryuuenbu-dash-throw/clip.mp4",
+			"poster": "/media/mai/mai-depth-medium-ryuuenbu-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-medium-ryuuenbu-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-medium-ryuuenbu-dash-throw/frame-1.jpg",
+					"at": 1.15,
+					"label": "Knockdown context",
+					"alt": "The jab confirm ends in medium Ryuuenbu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-medium-ryuuenbu-dash-throw/frame-2.jpg",
+					"at": 2.15,
+					"label": "Follow-up",
+					"alt": "Mai dashes and walks into range after the knockdown."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-medium-ryuuenbu-dash-throw/frame-3.jpg",
+					"at": 3.55,
+					"label": "Result",
+					"alt": "The walking throw catches Ryu."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-medium-ryuuenbu-shimmy",
+			"mai-depth-medium-ryuuenbu-dash-medium",
+			"mai-depth-jabs-medium-ryuuenbu"
+		]
+	},
+	{
+		"id": "mai-depth-medium-ryuuenbu-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Medium Ryuuenbu knockdown: walk back and punish",
+		"summary": "Dash after medium Ryuuenbu, retreat from the wake-up throw, then punish through heavy Ryuuenbu into light Bachi.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "Dash > 4 > st.HP > 214HP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After medium Ryuuenbu hits; opponent attempts a wake-up throw"
+		],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 77.2,
+			"end": 84.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-medium-ryuuenbu-shimmy/clip.mp4",
+			"poster": "/media/mai/mai-depth-medium-ryuuenbu-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-medium-ryuuenbu-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-medium-ryuuenbu-shimmy/frame-1.jpg",
+					"at": 1.9,
+					"label": "Knockdown context",
+					"alt": "Medium Ryuuenbu completes the preparatory light confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-medium-ryuuenbu-shimmy/frame-2.jpg",
+					"at": 2.9,
+					"label": "Follow-up",
+					"alt": "Ryu whiffs a throw as Mai moves out of range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-medium-ryuuenbu-shimmy/frame-3.jpg",
+					"at": 5.3,
+					"label": "Result",
+					"alt": "Mai punishes with heavy punch, heavy Ryuuenbu and light Bachi."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-medium-ryuuenbu-dash-throw",
+			"mai-depth-medium-ryuuenbu-dash-medium",
+			"mai-depth-jabs-medium-ryuuenbu"
+		]
+	},
+	{
+		"id": "mai-depth-medium-ryuuenbu-dash-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Medium Ryuuenbu knockdown: dash into a medium confirm",
+		"summary": "Use the medium Ryuuenbu knockdown to dash into crouching medium punch, then link crouching jab into light Bachi.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "Dash > cr.MP > cr.LP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After medium Ryuuenbu hits; crouching medium punch connects on wake-up"
+		],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 85.6,
+			"end": 91.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-medium-ryuuenbu-dash-medium/clip.mp4",
+			"poster": "/media/mai/mai-depth-medium-ryuuenbu-dash-medium/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-medium-ryuuenbu-dash-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-medium-ryuuenbu-dash-medium/frame-1.jpg",
+					"at": 1.4,
+					"label": "Knockdown context",
+					"alt": "Medium Ryuuenbu creates the demonstrated knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-medium-ryuuenbu-dash-medium/frame-2.jpg",
+					"at": 3.1,
+					"label": "Follow-up",
+					"alt": "The dash crouching-medium follow-up connects on Ryu’s rise."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-medium-ryuuenbu-dash-medium/frame-3.jpg",
+					"at": 4.7,
+					"label": "Result",
+					"alt": "A crouching jab leads into light Bachi."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-medium-ryuuenbu-dash-throw",
+			"mai-depth-medium-ryuuenbu-shimmy",
+			"mai-depth-jabs-medium-ryuuenbu"
+		]
+	},
+	{
+		"id": "mai-depth-corner-bachi-whiff-medium-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Corner Bachi knockdown: whiff medium, then throw",
+		"summary": "After heavy Ryuuenbu into light Bachi at the corner, whiff crouching medium punch and throw as Ryu rises.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "cr.MP (whiff) > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP (whiff)",
+				"label": "Whiff crouching medium punch",
+				"cue": "Intentionally miss as a timing action. The source’s +4F reports the remaining advantage after this action, not a four-frame wait."
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After heavy Ryuuenbu into light Bachi in the corner; +30F in the source"
+		],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 194.6,
+			"end": 201.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-corner-bachi-whiff-medium-throw/clip.mp4",
+			"poster": "/media/mai/mai-depth-corner-bachi-whiff-medium-throw/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-corner-bachi-whiff-medium-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-corner-bachi-whiff-medium-throw/frame-1.jpg",
+					"at": 2.1,
+					"label": "Knockdown context",
+					"alt": "Heavy Ryuuenbu into light Bachi creates the corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-corner-bachi-whiff-medium-throw/frame-2.jpg",
+					"at": 3.1,
+					"label": "Follow-up",
+					"alt": "Mai whiffs crouching medium punch while Ryu rises."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-corner-bachi-whiff-medium-throw/frame-3.jpg",
+					"at": 4.8,
+					"label": "Result",
+					"alt": "The timed normal throw catches Ryu in the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-corner-bachi-whiff-medium-shimmy",
+			"mai-depth-corner-bachi-jab-guard-reversal",
+			"mai-depth-corner-bachi-meaty-jab-confirm"
+		]
+	},
+	{
+		"id": "mai-depth-corner-bachi-whiff-medium-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Corner Bachi knockdown: frame kill into shimmy",
+		"summary": "Use the crouching medium punch whiff after corner Bachi, then step back to punish the recorded wake-up throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Whiff punish", "Knockdown"],
+		"notation": "cr.MP (whiff) > 4 > st.HP > 214HP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP (whiff)",
+				"label": "Whiff crouching medium punch",
+				"cue": "Intentionally miss as a timing action. +4F is the reported remaining advantage, not an instruction to wait four frames."
+			},
+			{
+				"id": "step-2",
+				"notation": "4",
+				"label": "Walk backward"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After heavy Ryuuenbu into light Bachi in the corner; opponent attempts a wake-up throw"
+		],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 202.2,
+			"end": 209.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-corner-bachi-whiff-medium-shimmy/clip.mp4",
+			"poster": "/media/mai/mai-depth-corner-bachi-whiff-medium-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-corner-bachi-whiff-medium-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-corner-bachi-whiff-medium-shimmy/frame-1.jpg",
+					"at": 2.0,
+					"label": "Knockdown context",
+					"alt": "The preparatory heavy-Ryuuenbu/light-Bachi route ends at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-corner-bachi-whiff-medium-shimmy/frame-2.jpg",
+					"at": 3.8,
+					"label": "Follow-up",
+					"alt": "Ryu’s throw whiffs after Mai’s timing action and backward movement."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-corner-bachi-whiff-medium-shimmy/frame-3.jpg",
+					"at": 6.0,
+					"label": "Result",
+					"alt": "The heavy-punch punish converts through heavy Ryuuenbu and light Bachi."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-corner-bachi-whiff-medium-throw",
+			"mai-depth-corner-bachi-jab-guard-reversal",
+			"mai-depth-corner-bachi-meaty-jab-confirm"
+		]
+	},
+	{
+		"id": "mai-depth-corner-bachi-jab-guard-reversal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Corner Bachi knockdown: jab, then guard Drive Reversal",
+		"summary": "After the corner Bachi ender, whiff crouching medium, jab and guard Ryu's recorded Drive Reversal.",
+		"kind": "response",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Reversal response"],
+		"notation": "cr.MP (whiff) > st.LP > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP (whiff)",
+				"label": "Whiff crouching medium punch",
+				"cue": "Intentionally miss after the prerequisite knockdown. The source’s +4F is the remaining advantage after the whiff, not a four-frame delay."
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After heavy Ryuuenbu into light Bachi; +30F in the source",
+			"Opponent is Ryu using the demonstrated wake-up Drive Reversal"
+		],
+		"notes": [
+			"The sequence starts after the prerequisite knockdown; the replay retains that knockdown for context.",
+			"This entry records the shown Drive Reversal response. The caption’s broader “10F+ reversals” claim is not promoted to universal safety."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 211.25,
+			"end": 216.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-corner-bachi-jab-guard-reversal/clip.mp4",
+			"poster": "/media/mai/mai-depth-corner-bachi-jab-guard-reversal/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-corner-bachi-jab-guard-reversal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-corner-bachi-jab-guard-reversal/frame-1.jpg",
+					"at": 2.1,
+					"label": "Knockdown",
+					"alt": "Light Bachi ends the preparatory corner route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-corner-bachi-jab-guard-reversal/frame-2.jpg",
+					"at": 3.1,
+					"label": "Jab pressure",
+					"alt": "Mai performs the timed jab as Ryu recovers."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-corner-bachi-jab-guard-reversal/frame-3.jpg",
+					"at": 3.6,
+					"label": "Guard reversal",
+					"alt": "Mai blocks Ryu’s recorded wake-up Drive Reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-corner-bachi-whiff-medium-throw",
+			"mai-depth-corner-bachi-whiff-medium-shimmy",
+			"mai-depth-corner-bachi-meaty-jab-confirm"
+		]
+	},
+	{
+		"id": "mai-depth-corner-bachi-meaty-jab-confirm",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Corner Bachi knockdown: timed jab into heavy rising kick",
+		"summary": "Whiff crouching medium punch to time the corner jab, then confirm through heavy Ryuuenbu into heavy rising kick.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "cr.MP (whiff) > st.LP > cr.MP > 214HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP (whiff)",
+				"label": "Whiff crouching medium punch",
+				"cue": "Intentional frame-kill action. +4F reports remaining advantage after the whiff, not a prescribed wait."
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Hishou Ryuuenjin"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After heavy Ryuuenbu into light Bachi in the corner; timed jab connects"
+		],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 224.15,
+			"end": 232.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-corner-bachi-meaty-jab-confirm/clip.mp4",
+			"poster": "/media/mai/mai-depth-corner-bachi-meaty-jab-confirm/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-corner-bachi-meaty-jab-confirm/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-corner-bachi-meaty-jab-confirm/frame-1.jpg",
+					"at": 2.45,
+					"label": "Knockdown context",
+					"alt": "The preparatory heavy Ryuuenbu and light Bachi knock Ryu down."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-corner-bachi-meaty-jab-confirm/frame-2.jpg",
+					"at": 4.15,
+					"label": "Follow-up",
+					"alt": "The timed standing jab and crouching medium catch Ryu’s rise."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-corner-bachi-meaty-jab-confirm/frame-3.jpg",
+					"at": 6.05,
+					"label": "Result",
+					"alt": "Heavy Ryuuenbu leads into heavy Hishou Ryuuenjin."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-corner-bachi-whiff-medium-throw",
+			"mai-depth-corner-bachi-whiff-medium-shimmy",
+			"mai-depth-corner-bachi-jab-guard-reversal"
+		]
+	},
+	{
+		"id": "mai-depth-counter-low-jab-medium-heavy-bachi",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Counter-hit crouching jab into medium and heavy Bachi",
+		"summary": "Crouching jab must counter-hit for this meterless crouching medium punch link into ordinary heavy Bachi.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.MP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "Heavy Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": ["Classic controls", "Crouching light punch Counter Hit", "Ordinary heavy Bachi"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 236.55,
+			"end": 240.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-counter-low-jab-medium-heavy-bachi/clip.mp4",
+			"poster": "/media/mai/mai-depth-counter-low-jab-medium-heavy-bachi/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-counter-low-jab-medium-heavy-bachi/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-counter-low-jab-medium-heavy-bachi/frame-1.jpg",
+					"at": 0.65,
+					"label": "Starter",
+					"alt": "The crouching jab hits as a Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-counter-low-jab-medium-heavy-bachi/frame-2.jpg",
+					"at": 1.2,
+					"label": "Conversion",
+					"alt": "Crouching medium punch follows the counter-hit jab."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-counter-low-jab-medium-heavy-bachi/frame-3.jpg",
+					"at": 2.45,
+					"label": "Finish",
+					"alt": "Heavy Shinobi Bachi knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-heavy-bachi-dash-throw",
+			"mai-depth-lights-rush-heavy-bachi",
+			"mai-depth-counter-kick-low-heavy-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-heavy-bachi-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Heavy Bachi knockdown: dash into throw",
+		"summary": "Dash after heavy Bachi and throw at the shown wake-up spacing; the +4 caption reports the dash's advantage.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "Dash > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After heavy Hissatsu Shinobi Bachi hits; +22F in the source"
+		],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee.",
+			"The source’s “dash +4” describes its timing result, not a backward-direction input.",
+			"The source calls this “Un-shimmyable”; the entry only records its demonstrated throw timing, not a universal guarantee."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 240.85,
+			"end": 247.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-heavy-bachi-dash-throw/clip.mp4",
+			"poster": "/media/mai/mai-depth-heavy-bachi-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-heavy-bachi-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-heavy-bachi-dash-throw/frame-1.jpg",
+					"at": 1.8,
+					"label": "Knockdown context",
+					"alt": "Heavy Bachi completes the prerequisite counter-hit route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-heavy-bachi-dash-throw/frame-2.jpg",
+					"at": 2.45,
+					"label": "Follow-up",
+					"alt": "Mai dashes back into range before Ryu rises."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-heavy-bachi-dash-throw/frame-3.jpg",
+					"at": 4.25,
+					"label": "Result",
+					"alt": "The follow-up normal throw catches Ryu."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-counter-low-jab-medium-heavy-bachi",
+			"mai-depth-lights-rush-heavy-bachi",
+			"mai-depth-counter-kick-low-heavy-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-jab-punish-heavy-fan-light-bachi",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Punish-counter jab into heavy Ryuuenbu and light Bachi",
+		"summary": "Use the standing-jab Punish Counter link against a standing opponent, then finish through heavy Ryuuenbu into light Bachi.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.LP > st.HP > 214HP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing LP Punish Counter",
+			"Opponent standing; the source explicitly restricts this route",
+			"Ordinary special versions"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 254.2,
+			"end": 259.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-jab-punish-heavy-fan-light-bachi/clip.mp4",
+			"poster": "/media/mai/mai-depth-jab-punish-heavy-fan-light-bachi/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-jab-punish-heavy-fan-light-bachi/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-jab-punish-heavy-fan-light-bachi/frame-1.jpg",
+					"at": 0.65,
+					"label": "Starter",
+					"alt": "Standing jab starts the Punish Counter confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-jab-punish-heavy-fan-light-bachi/frame-2.jpg",
+					"at": 2.05,
+					"label": "Conversion",
+					"alt": "Standing heavy punch cancels into heavy Ryuuenbu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-jab-punish-heavy-fan-light-bachi/frame-3.jpg",
+					"at": 3.35,
+					"label": "Finish",
+					"alt": "Light Shinobi Bachi completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-low-medium-punish-heavy-fan-bachi",
+			"mai-depth-heavy-kick-punish-dash-medium-bachi",
+			"mai-depth-heavy-kick-punish-raw-rush"
+		]
+	},
+	{
+		"id": "mai-depth-lights-rush-heavy-bachi",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Crouching jabs through cancel Rush into heavy Bachi",
+		"summary": "Spend one three-bar cancel Rush after the crouching jabs to reach standing jab, heavy punch and heavy Bachi.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Light confirm", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.LP > cr.LP > DRC > st.LP > st.HP > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-6",
+				"notation": "236HK",
+				"label": "Heavy Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": ["Classic controls", "Close enough for standing HP after the Rush jab"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 266.25,
+			"end": 271.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-lights-rush-heavy-bachi/clip.mp4",
+			"poster": "/media/mai/mai-depth-lights-rush-heavy-bachi/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-lights-rush-heavy-bachi/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-lights-rush-heavy-bachi/frame-1.jpg",
+					"at": 0.75,
+					"label": "Starter",
+					"alt": "The crouching jabs confirm against a crouching Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-lights-rush-heavy-bachi/frame-2.jpg",
+					"at": 1.95,
+					"label": "Conversion",
+					"alt": "Cancel Drive Rush leads to standing jab and heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-lights-rush-heavy-bachi/frame-3.jpg",
+					"at": 3.05,
+					"label": "Finish",
+					"alt": "Heavy Bachi finishes the Rush conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-heavy-bachi-dash-throw",
+			"mai-depth-counter-low-jab-medium-heavy-bachi",
+			"mai-depth-counter-kick-low-heavy-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-medium-rush-force-stand-bachi",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Medium Rush confirm: force stand into Ryuuenbu and Bachi",
+		"summary": "Rush-cancel crouching medium, then use back heavy kick to force standing before the heavy-Ryuuenbu conversion.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > DRC > b.HK > cr.MP > 214HP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-6",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The shown back-heavy-kick link forces stand before heavy Ryuuenbu"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 295.5,
+			"end": 301.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-medium-rush-force-stand-bachi/clip.mp4",
+			"poster": "/media/mai/mai-depth-medium-rush-force-stand-bachi/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-medium-rush-force-stand-bachi/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-medium-rush-force-stand-bachi/frame-1.jpg",
+					"at": 0.8,
+					"label": "Starter",
+					"alt": "Crouching medium punch is cancelled into Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-medium-rush-force-stand-bachi/frame-2.jpg",
+					"at": 2.0,
+					"label": "Conversion",
+					"alt": "Back heavy kick forces the crouching opponent to stand before the medium link."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-medium-rush-force-stand-bachi/frame-3.jpg",
+					"at": 4.0,
+					"label": "Finish",
+					"alt": "Heavy Ryuuenbu into light Bachi completes the confirm."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-medium-rush-level-one",
+			"mai-depth-medium-double-rush-level-three",
+			"mai-depth-lights-rush-heavy-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-medium-rush-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Medium Rush confirm into back heavy and Level 1",
+		"summary": "Spend one cancel Rush and one Super stock to convert crouching medium through back heavy kick into Level 1.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Drive Rush", "Super finish"],
+		"outcomes": ["Super finish", "Flame stocks gained"],
+		"notation": "cr.MP > DRC > b.HK > cr.MP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 302.25,
+			"end": 307.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-medium-rush-level-one/clip.mp4",
+			"poster": "/media/mai/mai-depth-medium-rush-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-medium-rush-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-medium-rush-level-one/frame-1.jpg",
+					"at": 1.0,
+					"label": "Starter",
+					"alt": "Crouching medium punch starts the Rush confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-medium-rush-level-one/frame-2.jpg",
+					"at": 1.75,
+					"label": "Conversion",
+					"alt": "Back heavy kick and crouching medium lead into Level 1."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-medium-rush-level-one/frame-3.jpg",
+					"at": 3.95,
+					"label": "Finish",
+					"alt": "Level 1 finishes and grants the visible Flame stocks."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-medium-rush-force-stand-bachi",
+			"mai-depth-medium-double-rush-level-three",
+			"mai-depth-heavy-kick-punish-rush-level-one"
+		]
+	},
+	{
+		"id": "mai-depth-medium-double-rush-level-three",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Medium cash-out: two Rush cancels into Level 3",
+		"summary": "Commit two cancel Rushes and three Super stocks; match the standing heavy kick link before the Bachi-to-Level-3 finish.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Drive Rush", "Cash-out"],
+		"outcomes": ["Super finish", "Cash out"],
+		"notation": "cr.MP > DRC > b.HK > cr.MP > DRC > st.HK > cr.MP > 214HP > 236LK > SA3",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-7",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-8",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-9",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			},
+			{
+				"id": "step-10",
+				"notation": "SA3",
+				"label": "Level 3 Super Art"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Enough Drive for both cancels; match the source’s standing-heavy-kick link"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Two cancel Drive Rushes (6 bars nominal spend)",
+			"super": "Level 3 (3 bars)"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 308.55,
+			"end": 323.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-medium-double-rush-level-three/clip.mp4",
+			"poster": "/media/mai/mai-depth-medium-double-rush-level-three/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-medium-double-rush-level-three/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-medium-double-rush-level-three/frame-1.jpg",
+					"at": 1.05,
+					"label": "Starter",
+					"alt": "The first Rush extension links back heavy kick and crouching medium."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-medium-double-rush-level-three/frame-2.jpg",
+					"at": 3.65,
+					"label": "Conversion",
+					"alt": "The second Rush extension leads through standing heavy kick and heavy Ryuuenbu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-medium-double-rush-level-three/frame-3.jpg",
+					"at": 13.25,
+					"label": "Finish",
+					"alt": "The light-Bachi cancel ends in the Level 3 cinematic."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-medium-rush-force-stand-bachi",
+			"mai-depth-medium-rush-level-one",
+			"mai-depth-lights-rush-heavy-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-corner-medium-rush-heavy-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Corner medium Rush into Ryuuenbu and heavy rising kick",
+		"summary": "Use the corner juggle position to follow heavy Ryuuenbu with heavy rising kick after the Rush-cancel confirm.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > DRC > b.HK > cr.MP > 214HP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "b.HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-6",
+				"notation": "623HK",
+				"label": "Heavy Hishou Ryuuenjin"
+			}
+		],
+		"conditions": ["Classic controls", "Corner juggle position"],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 343.2,
+			"end": 349.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-corner-medium-rush-heavy-rise/clip.mp4",
+			"poster": "/media/mai/mai-depth-corner-medium-rush-heavy-rise/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-corner-medium-rush-heavy-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-corner-medium-rush-heavy-rise/frame-1.jpg",
+					"at": 0.95,
+					"label": "Starter",
+					"alt": "The crouching-medium Rush confirm reaches the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-corner-medium-rush-heavy-rise/frame-2.jpg",
+					"at": 2.4,
+					"label": "Conversion",
+					"alt": "Back heavy kick and crouching medium feed heavy Ryuuenbu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-corner-medium-rush-heavy-rise/frame-3.jpg",
+					"at": 3.95,
+					"label": "Finish",
+					"alt": "Heavy Hishou Ryuuenjin catches the corner juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-corner-bachi-whiff-medium-throw",
+			"mai-depth-corner-bachi-whiff-medium-shimmy",
+			"mai-depth-corner-bachi-jab-guard-reversal"
+		]
+	},
+	{
+		"id": "mai-depth-corner-rush-heavy-target-medium-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Corner Rush: crouching heavy into back-heavy target combo",
+		"summary": "Use Rush crouching heavy punch to reach the back heavy kick target, then end the corner juggle with medium rising kick.",
+		"kind": "combo",
+		"situations": ["Corner", "Drive Rush", "Target combo"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > DRC > cr.HP > b.HK > st.HK > 623MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "Cancel Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "b.HK",
+				"label": "Back heavy kick"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HK",
+				"label": "Heavy-kick target continuation",
+				"cue": "Press HK after back HK as the target-combo follow-up."
+			},
+			{
+				"id": "step-6",
+				"notation": "623MK",
+				"label": "Medium Hishou Ryuuenjin"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Corner position",
+			"The second heavy kick is the target continuation"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Cancel Drive Rush (3 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 357.25,
+			"end": 363.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-corner-rush-heavy-target-medium-rise/clip.mp4",
+			"poster": "/media/mai/mai-depth-corner-rush-heavy-target-medium-rise/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-corner-rush-heavy-target-medium-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-corner-rush-heavy-target-medium-rise/frame-1.jpg",
+					"at": 1.0,
+					"label": "Starter",
+					"alt": "The Rush crouching heavy picks up the corner route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-corner-rush-heavy-target-medium-rise/frame-2.jpg",
+					"at": 2.85,
+					"label": "Conversion",
+					"alt": "Back heavy kick and its heavy-kick target continuation keep Ryu airborne."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-corner-rush-heavy-target-medium-rise/frame-3.jpg",
+					"at": 4.85,
+					"label": "Finish",
+					"alt": "Medium Hishou Ryuuenjin completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-corner-medium-rush-heavy-rise",
+			"mai-depth-corner-heavy-kick-punish-light-rise",
+			"mai-vesper-wall-back-heavy-target"
+		]
+	},
+	{
+		"id": "mai-depth-counter-medium-jab-bachi",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Counter-hit standing medium into jab and light Bachi",
+		"summary": "Counter-hit standing medium links into jab and light Bachi without spending Drive or Super.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > st.LP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LP",
+				"label": "Standing light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": ["Classic controls", "Standing medium punch Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 382.2,
+			"end": 385.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-counter-medium-jab-bachi/clip.mp4",
+			"poster": "/media/mai/mai-depth-counter-medium-jab-bachi/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-counter-medium-jab-bachi/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-counter-medium-jab-bachi/frame-1.jpg",
+					"at": 0.7,
+					"label": "Starter",
+					"alt": "Standing medium punch lands as a Counter Hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-counter-medium-jab-bachi/frame-2.jpg",
+					"at": 1.25,
+					"label": "Conversion",
+					"alt": "Standing jab links after the counter-hit medium."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-counter-medium-jab-bachi/frame-3.jpg",
+					"at": 2.05,
+					"label": "Finish",
+					"alt": "Light Bachi knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-light-bachi-dash-throw",
+			"mai-depth-light-bachi-shimmy",
+			"mai-depth-light-bachi-back-heavy-meaty"
+		]
+	},
+	{
+		"id": "mai-depth-counter-kick-low-heavy-bachi",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Counter-hit medium kick into low medium and heavy Bachi",
+		"summary": "Counter-hit standing medium kick links crouching medium kick into heavy Bachi with no meter spend.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Low confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MK > cr.MK > 236HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MK",
+				"label": "Standing medium kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.MK",
+				"label": "Crouching medium kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "236HK",
+				"label": "Heavy Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": ["Classic controls", "Standing MK Counter Hit"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 386.35,
+			"end": 390.65
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-counter-kick-low-heavy-bachi/clip.mp4",
+			"poster": "/media/mai/mai-depth-counter-kick-low-heavy-bachi/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-counter-kick-low-heavy-bachi/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-counter-kick-low-heavy-bachi/frame-1.jpg",
+					"at": 0.65,
+					"label": "Starter",
+					"alt": "Standing medium kick counter-hits Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-counter-kick-low-heavy-bachi/frame-2.jpg",
+					"at": 1.3,
+					"label": "Conversion",
+					"alt": "Crouching medium kick links from the counter hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-counter-kick-low-heavy-bachi/frame-3.jpg",
+					"at": 2.65,
+					"label": "Finish",
+					"alt": "Heavy Bachi finishes the low-medium conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-heavy-bachi-dash-throw",
+			"mai-depth-counter-low-jab-medium-heavy-bachi",
+			"mai-depth-lights-rush-heavy-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-low-medium-punish-heavy-fan-bachi",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Punish-counter crouching medium into heavy Ryuuenbu",
+		"summary": "Punish the missed throw with crouching medium, link standing heavy punch and keep the opponent standing for heavy Ryuuenbu.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > st.HP > 214HP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching MP Punish Counter after the demonstrated whiffed throw",
+			"Standing opponent for the shown heavy-Ryuuenbu conversion"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 404.8,
+			"end": 409.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-low-medium-punish-heavy-fan-bachi/clip.mp4",
+			"poster": "/media/mai/mai-depth-low-medium-punish-heavy-fan-bachi/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-low-medium-punish-heavy-fan-bachi/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-low-medium-punish-heavy-fan-bachi/frame-1.jpg",
+					"at": 0.4,
+					"label": "Starter",
+					"alt": "Crouching medium punch begins the Punish Counter route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-low-medium-punish-heavy-fan-bachi/frame-2.jpg",
+					"at": 1.75,
+					"label": "Conversion",
+					"alt": "Standing heavy punch leads into heavy Ryuuenbu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-low-medium-punish-heavy-fan-bachi/frame-3.jpg",
+					"at": 3.3,
+					"label": "Finish",
+					"alt": "Light Bachi finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-jab-punish-heavy-fan-light-bachi",
+			"mai-depth-heavy-kick-punish-dash-medium-bachi",
+			"mai-depth-heavy-kick-punish-raw-rush"
+		]
+	},
+	{
+		"id": "mai-depth-crouching-heavy-jab-bachi",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Crouching heavy into crouching jab and light Bachi",
+		"summary": "At close range, link crouching jab after crouching heavy and finish with light Bachi while preserving both gauges.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Heavy confirm"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.HP > cr.LP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.HP",
+				"label": "Crouching heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": ["Classic controls", "Close range"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 420.2,
+			"end": 423.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-crouching-heavy-jab-bachi/clip.mp4",
+			"poster": "/media/mai/mai-depth-crouching-heavy-jab-bachi/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-crouching-heavy-jab-bachi/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-crouching-heavy-jab-bachi/frame-1.jpg",
+					"at": 0.7,
+					"label": "Starter",
+					"alt": "Crouching heavy punch starts the close confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-crouching-heavy-jab-bachi/frame-2.jpg",
+					"at": 1.25,
+					"label": "Conversion",
+					"alt": "Crouching jab links before the special."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-crouching-heavy-jab-bachi/frame-3.jpg",
+					"at": 2.1,
+					"label": "Finish",
+					"alt": "Light Bachi knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-vesper-heavy-jab-heavy-rise",
+			"mai-vesper-punish-back-heavy-force-stand",
+			"mai-depth-light-bachi-dash-throw"
+		]
+	},
+	{
+		"id": "mai-depth-heavy-kick-punish-dash-medium-bachi",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Punish-counter heavy kick: dash into Ryuuenbu",
+		"summary": "After standing heavy kick scores Punish Counter, dash to the crouching-jab pickup and end in medium Bachi.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK > Dash > cr.LP > 214HP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": ["Classic controls", "Standing HK Punish Counter", "Dash pickup spacing"],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 450.25,
+			"end": 455.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-heavy-kick-punish-dash-medium-bachi/clip.mp4",
+			"poster": "/media/mai/mai-depth-heavy-kick-punish-dash-medium-bachi/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-heavy-kick-punish-dash-medium-bachi/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-heavy-kick-punish-dash-medium-bachi/frame-1.jpg",
+					"at": 0.75,
+					"label": "Starter",
+					"alt": "Standing heavy kick launches on Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-heavy-kick-punish-dash-medium-bachi/frame-2.jpg",
+					"at": 2.0,
+					"label": "Conversion",
+					"alt": "Mai dashes in to pick up with crouching jab and heavy Ryuuenbu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-heavy-kick-punish-dash-medium-bachi/frame-3.jpg",
+					"at": 3.9,
+					"label": "Finish",
+					"alt": "Medium Bachi finishes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-heavy-kick-punish-raw-rush",
+			"mai-depth-heavy-kick-punish-rush-level-one",
+			"mai-depth-corner-heavy-kick-punish-light-rise"
+		]
+	},
+	{
+		"id": "mai-depth-heavy-kick-punish-raw-rush",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Punish-counter heavy kick: raw Rush heavy into medium Bachi",
+		"summary": "Use raw Rush for one Drive bar after the heavy kick Punish Counter to reach standing heavy punch and the medium Bachi juggle.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK > DR > st.HP > 214HP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "Medium Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": ["Classic controls", "Standing HK Punish Counter", "Raw Rush juggle timing"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 457.35,
+			"end": 463.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-heavy-kick-punish-raw-rush/clip.mp4",
+			"poster": "/media/mai/mai-depth-heavy-kick-punish-raw-rush/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-heavy-kick-punish-raw-rush/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-heavy-kick-punish-raw-rush/frame-1.jpg",
+					"at": 0.75,
+					"label": "Starter",
+					"alt": "Standing heavy kick begins the Punish Counter launch."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-heavy-kick-punish-raw-rush/frame-2.jpg",
+					"at": 1.9,
+					"label": "Conversion",
+					"alt": "Raw Drive Rush heavy punch catches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-heavy-kick-punish-raw-rush/frame-3.jpg",
+					"at": 4.0,
+					"label": "Finish",
+					"alt": "Heavy Ryuuenbu leads into medium Bachi."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-heavy-kick-punish-dash-medium-bachi",
+			"mai-depth-heavy-kick-punish-rush-level-one",
+			"mai-depth-corner-heavy-kick-punish-light-rise"
+		]
+	},
+	{
+		"id": "mai-depth-heavy-kick-punish-rush-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Punish-counter heavy kick into Rush heavy and Level 1",
+		"summary": "Spend one raw Rush and one Super stock after the heavy-kick Punish Counter; standing heavy punch leads directly to Level 1.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter", "Drive Rush", "Super finish"],
+		"outcomes": ["Super finish", "Flame stocks gained"],
+		"notation": "st.HK > DR > st.HP > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA1",
+				"label": "Level 1 Super Art"
+			}
+		],
+		"conditions": ["Classic controls", "Standing HK Punish Counter"],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "Level 1 (1 bar)"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 471.25,
+			"end": 477.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-heavy-kick-punish-rush-level-one/clip.mp4",
+			"poster": "/media/mai/mai-depth-heavy-kick-punish-rush-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-heavy-kick-punish-rush-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-heavy-kick-punish-rush-level-one/frame-1.jpg",
+					"at": 0.8,
+					"label": "Starter",
+					"alt": "Standing heavy kick launches Ryu on Punish Counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-heavy-kick-punish-rush-level-one/frame-2.jpg",
+					"at": 1.95,
+					"label": "Conversion",
+					"alt": "Raw Rush standing heavy punch connects before the Super cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-heavy-kick-punish-rush-level-one/frame-3.jpg",
+					"at": 4.15,
+					"label": "Finish",
+					"alt": "Level 1 finishes and adds Flame stocks."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-heavy-kick-punish-dash-medium-bachi",
+			"mai-depth-heavy-kick-punish-raw-rush",
+			"mai-depth-corner-heavy-kick-punish-light-rise"
+		]
+	},
+	{
+		"id": "mai-depth-corner-heavy-kick-punish-light-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Corner heavy-kick punish into light rising-kick juggle",
+		"summary": "At the corner, raw Rush after heavy kick Punish Counter and match light Bachi's pickup height for the light rising kick.",
+		"kind": "combo",
+		"situations": ["Corner", "Punish counter", "Drive Rush"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK > DR > st.HP > 214HP > 236LK > 623LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "Standing heavy kick"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "Raw Drive Rush"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			},
+			{
+				"id": "step-6",
+				"notation": "623LK",
+				"label": "Light Hishou Ryuuenjin"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing HK Punish Counter in the corner",
+			"Match the shown light-Bachi pickup height"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Raw Drive Rush (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 545.25,
+			"end": 552.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-corner-heavy-kick-punish-light-rise/clip.mp4",
+			"poster": "/media/mai/mai-depth-corner-heavy-kick-punish-light-rise/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-corner-heavy-kick-punish-light-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-corner-heavy-kick-punish-light-rise/frame-1.jpg",
+					"at": 0.85,
+					"label": "Starter",
+					"alt": "Standing heavy kick starts the corner Punish Counter route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-corner-heavy-kick-punish-light-rise/frame-2.jpg",
+					"at": 2.95,
+					"label": "Conversion",
+					"alt": "Raw Rush heavy punch and heavy Ryuuenbu maintain the juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-corner-heavy-kick-punish-light-rise/frame-3.jpg",
+					"at": 4.8,
+					"label": "Finish",
+					"alt": "Light Bachi leads into light Hishou Ryuuenjin."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-heavy-kick-punish-dash-medium-bachi",
+			"mai-depth-heavy-kick-punish-raw-rush",
+			"mai-depth-heavy-kick-punish-rush-level-one"
+		]
+	},
+	{
+		"id": "mai-depth-heavy-punish-crouching-jab-bachi",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Punish-counter heavy punch into crouching jab and Bachi",
+		"summary": "Standing heavy punch needs Punish Counter and close spacing to link crouching jab before light Bachi.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HP > cr.LP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing HP Punish Counter",
+			"Close enough for crouching jab"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 576.65,
+			"end": 580.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-heavy-punish-crouching-jab-bachi/clip.mp4",
+			"poster": "/media/mai/mai-depth-heavy-punish-crouching-jab-bachi/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-heavy-punish-crouching-jab-bachi/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-heavy-punish-crouching-jab-bachi/frame-1.jpg",
+					"at": 0.7,
+					"label": "Starter",
+					"alt": "Standing heavy punch begins the Punish Counter confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-heavy-punish-crouching-jab-bachi/frame-2.jpg",
+					"at": 1.3,
+					"label": "Conversion",
+					"alt": "Crouching jab links after the heavy-punch hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-heavy-punish-crouching-jab-bachi/frame-3.jpg",
+					"at": 2.45,
+					"label": "Finish",
+					"alt": "Light Bachi completes the punish."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-jab-punish-heavy-fan-light-bachi",
+			"mai-depth-low-medium-punish-heavy-fan-bachi",
+			"mai-depth-heavy-kick-punish-dash-medium-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-corner-throw-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Corner throw: dash into another throw",
+		"summary": "After the corner forward throw, dash into another throw at the demonstrated wake-up timing.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure"],
+		"notation": "Dash > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": ["Classic controls", "After a forward normal throw with Ryu at the wall"],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee.",
+			"The source’s “Un-shimmyable” caption is not asserted as universal throw safety."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 644.85,
+			"end": 651.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-corner-throw-dash-throw/clip.mp4",
+			"poster": "/media/mai/mai-depth-corner-throw-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-corner-throw-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-corner-throw-dash-throw/frame-1.jpg",
+					"at": 1.45,
+					"label": "Knockdown context",
+					"alt": "The prerequisite normal throw leaves Ryu cornered."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-corner-throw-dash-throw/frame-2.jpg",
+					"at": 2.6,
+					"label": "Follow-up",
+					"alt": "Mai dashes back into close range."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-corner-throw-dash-throw/frame-3.jpg",
+					"at": 4.25,
+					"label": "Result",
+					"alt": "The follow-up throw catches Ryu on wake-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-corner-throw-dash-low",
+			"mai-depth-corner-throw-fan-blockstring",
+			"mai-depth-corner-throw-fan-dash-throw"
+		]
+	},
+	{
+		"id": "mai-depth-corner-throw-dash-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Corner throw: dash into low lights",
+		"summary": "Use the dash after a corner forward throw to land low light kick, then chain two crouching jabs into light Bachi.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Wake-up pressure", "Knockdown"],
+		"notation": "Dash > cr.LK > cr.LP > cr.LP > 236LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "cr.LK",
+				"label": "Crouching light kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "cr.LP",
+				"label": "Crouching light punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "Light Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a forward normal throw with Ryu at the wall; low kick connects on wake-up"
+		],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 652.1,
+			"end": 658.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-corner-throw-dash-low/clip.mp4",
+			"poster": "/media/mai/mai-depth-corner-throw-dash-low/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-corner-throw-dash-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-corner-throw-dash-low/frame-1.jpg",
+					"at": 1.55,
+					"label": "Knockdown context",
+					"alt": "The first normal throw creates the corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-corner-throw-dash-low/frame-2.jpg",
+					"at": 3.25,
+					"label": "Follow-up",
+					"alt": "Crouching light kick starts the dash follow-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-corner-throw-dash-low/frame-3.jpg",
+					"at": 5.2,
+					"label": "Result",
+					"alt": "The crouching jabs lead into light Bachi."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-corner-throw-dash-throw",
+			"mai-depth-corner-throw-fan-blockstring",
+			"mai-depth-corner-throw-fan-dash-throw"
+		]
+	},
+	{
+		"id": "mai-depth-corner-throw-fan-blockstring",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Corner throw: OD fan into Ryuuenbu pressure",
+		"summary": "Spend two Drive on OD fan after the corner throw, then practice guarded light Ryuuenbu, heavy punch and light fan pressure.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Pressure"],
+		"notation": "236PP > 214LP > st.HP > 236LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236PP",
+				"label": "OD Kachousen"
+			},
+			{
+				"id": "step-2",
+				"notation": "214LP",
+				"label": "Light Ryuuenbu"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LP",
+				"label": "Light Kachousen"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a forward normal throw in the corner; Ryu guards the projectile pressure"
+		],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee.",
+			"This is a blocked pressure demonstration, not a guaranteed hit combo or a universal string."
+		],
+		"resources": {
+			"drive": "OD Kachousen (2 additional Drive bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 658.85,
+			"end": 665.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-corner-throw-fan-blockstring/clip.mp4",
+			"poster": "/media/mai/mai-depth-corner-throw-fan-blockstring/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-corner-throw-fan-blockstring/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-corner-throw-fan-blockstring/frame-1.jpg",
+					"at": 2.7,
+					"label": "Knockdown context",
+					"alt": "The prerequisite throw leaves Ryu at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-corner-throw-fan-blockstring/frame-2.jpg",
+					"at": 3.9,
+					"label": "Follow-up",
+					"alt": "OD Kachousen covers light Ryuuenbu as Ryu guards."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-corner-throw-fan-blockstring/frame-3.jpg",
+					"at": 5.45,
+					"label": "Result",
+					"alt": "Mai follows with standing heavy punch and light Kachousen."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-corner-throw-dash-throw",
+			"mai-depth-corner-throw-dash-low",
+			"mai-depth-corner-throw-fan-dash-throw"
+		]
+	},
+	{
+		"id": "mai-depth-corner-throw-fan-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Corner throw: OD fan cover into dash throw",
+		"summary": "Use OD fan after the corner throw, then dash and throw in the recorded Ryu Drive-Reversal interaction.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki"],
+		"outcomes": ["Throw pressure", "Reversal response"],
+		"notation": "236PP > Dash > Throw",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236PP",
+				"label": "OD Kachousen"
+			},
+			{
+				"id": "step-2",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "Throw",
+				"label": "Normal throw"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After a forward normal throw in the corner; Ryu attempts the demonstrated wake-up Drive Reversal"
+		],
+		"notes": [
+			"The replay includes the prerequisite knockdown. The input sequence starts with the follow-up after that knockdown, not with the preparatory combo.",
+			"The timing and opponent behavior are properties of this dated demonstration, not a current-patch or universal-safety guarantee."
+		],
+		"resources": {
+			"drive": "OD Kachousen (2 additional Drive bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 666.2,
+			"end": 673.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-corner-throw-fan-dash-throw/clip.mp4",
+			"poster": "/media/mai/mai-depth-corner-throw-fan-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-corner-throw-fan-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-corner-throw-fan-dash-throw/frame-1.jpg",
+					"at": 1.95,
+					"label": "Knockdown context",
+					"alt": "The prerequisite normal throw creates the corner knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-corner-throw-fan-dash-throw/frame-2.jpg",
+					"at": 3.3,
+					"label": "Follow-up",
+					"alt": "Mai sends OD Kachousen and dashes behind its cover."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-corner-throw-fan-dash-throw/frame-3.jpg",
+					"at": 4.95,
+					"label": "Result",
+					"alt": "The normal throw catches the recorded Drive Reversal attempt."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-corner-throw-dash-throw",
+			"mai-depth-corner-throw-dash-low",
+			"mai-depth-corner-throw-fan-blockstring"
+		]
+	},
+	{
+		"id": "mai-depth-od-ryuuenbu-medium-bachi",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Crouching medium through OD Ryuuenbu into medium Bachi",
+		"summary": "Use a single OD Ryuuenbu to convert crouching medium into medium Bachi for two Drive and no Super.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > 214PP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214PP",
+				"label": "OD Ryuuenbu"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "Medium Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [],
+		"resources": {
+			"drive": "Overdrive (2 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 744.85,
+			"end": 749.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-od-ryuuenbu-medium-bachi/clip.mp4",
+			"poster": "/media/mai/mai-depth-od-ryuuenbu-medium-bachi/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-od-ryuuenbu-medium-bachi/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-od-ryuuenbu-medium-bachi/frame-1.jpg",
+					"at": 0.45,
+					"label": "Starter",
+					"alt": "Crouching medium punch confirms at close range."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-od-ryuuenbu-medium-bachi/frame-2.jpg",
+					"at": 1.5,
+					"label": "Conversion",
+					"alt": "OD Ryuuenbu launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-od-ryuuenbu-medium-bachi/frame-3.jpg",
+					"at": 3.35,
+					"label": "Finish",
+					"alt": "Medium Bachi finishes the airborne conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-double-od-air-medium-heavy-rise",
+			"mai-depth-flame-ryuuenbu-triple-special",
+			"mai-depth-medium-rush-force-stand-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-double-od-air-medium-heavy-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "OD Ryuuenbu into OD Bachi, air medium and rising kick",
+		"summary": "Spend four Drive on OD Ryuuenbu and OD Bachi; connect jumping medium, then land before heavy rising kick.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > 214PP > 236KK > j.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214PP",
+				"label": "OD Ryuuenbu"
+			},
+			{
+				"id": "step-3",
+				"notation": "236KK",
+				"label": "OD Hissatsu Shinobi Bachi"
+			},
+			{
+				"id": "step-4",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "623HK",
+				"label": "Heavy Hishou Ryuuenjin"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Match the demonstrated landing before heavy Hishou Ryuuenjin"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Two Overdrives (4 bars)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 749.8,
+			"end": 755.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-double-od-air-medium-heavy-rise/clip.mp4",
+			"poster": "/media/mai/mai-depth-double-od-air-medium-heavy-rise/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-double-od-air-medium-heavy-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-double-od-air-medium-heavy-rise/frame-1.jpg",
+					"at": 1.25,
+					"label": "Starter",
+					"alt": "Crouching medium punch leads into OD Ryuuenbu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-double-od-air-medium-heavy-rise/frame-2.jpg",
+					"at": 2.85,
+					"label": "Conversion",
+					"alt": "OD Bachi launches into a jumping-medium-punch juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-double-od-air-medium-heavy-rise/frame-3.jpg",
+					"at": 4.55,
+					"label": "Finish",
+					"alt": "Heavy Hishou Ryuuenjin catches Ryu after Mai lands."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-od-ryuuenbu-medium-bachi",
+			"mai-depth-flame-ryuuenbu-triple-special",
+			"mai-depth-medium-rush-force-stand-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-counter-di-double-dash",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Counter DI: two dashes into heavy Ryuuenbu and medium Bachi",
+		"summary": "Counter-DI crumple leaves time for two dashes; match that pickup before heavy punch, heavy Ryuuenbu and medium Bachi.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter"],
+		"outcomes": ["Knockdown"],
+		"notation": "DI > Dash > Dash > st.HP > 214HP > 236MK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "Drive Impact"
+			},
+			{
+				"id": "step-2",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-3",
+				"notation": "Dash",
+				"label": "Forward dash"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HP",
+				"label": "Standing heavy punch"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "Heavy Ryuuenbu"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MK",
+				"label": "Medium Hissatsu Shinobi Bachi"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Counter DI crumple; not blocked-DI wall splat",
+			"Use the demonstrated two-dash pickup spacing"
+		],
+		"notes": [],
+		"resources": {
+			"drive": "Drive Impact (1 bar)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 815.35,
+			"end": 823.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-counter-di-double-dash/clip.mp4",
+			"poster": "/media/mai/mai-depth-counter-di-double-dash/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-counter-di-double-dash/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-counter-di-double-dash/frame-1.jpg",
+					"at": 2.55,
+					"label": "Starter",
+					"alt": "Mai’s counter Drive Impact crumples Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-counter-di-double-dash/frame-2.jpg",
+					"at": 5.1,
+					"label": "Conversion",
+					"alt": "Two forward dashes position heavy punch and heavy Ryuuenbu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-counter-di-double-dash/frame-3.jpg",
+					"at": 6.85,
+					"label": "Finish",
+					"alt": "Medium Bachi completes the crumple conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-jab-punish-heavy-fan-light-bachi",
+			"mai-depth-low-medium-punish-heavy-fan-bachi",
+			"mai-depth-heavy-kick-punish-dash-medium-bachi"
+		]
+	},
+	{
+		"id": "mai-depth-flame-medium-heavy-ryuuenbu",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Flame crouching-medium confirm into enhanced heavy Ryuuenbu",
+		"summary": "Keep at least one Flame stock and a standing opponent for crouching medium punch into enhanced heavy Ryuuenbu.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Flame stocks"],
+		"outcomes": ["Knockdown"],
+		"notation": "cr.MP > 214HP*",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "cr.MP",
+				"label": "Crouching medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HP*",
+				"label": "Flame-enhanced heavy Ryuuenbu",
+				"cue": "Quarter-circle back + heavy punch while a Flame stock is available."
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"At least one Flame stock before the special",
+			"Opponent standing; explicitly required by the source"
+		],
+		"notes": ["The asterisk marks Flame enhancement; it is not an extra button input."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 919.65,
+			"end": 921.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-flame-medium-heavy-ryuuenbu/clip.mp4",
+			"poster": "/media/mai/mai-depth-flame-medium-heavy-ryuuenbu/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-flame-medium-heavy-ryuuenbu/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-flame-medium-heavy-ryuuenbu/frame-1.jpg",
+					"at": 0.4,
+					"label": "Starter",
+					"alt": "Crouching medium punch connects against standing Ryu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-flame-medium-heavy-ryuuenbu/frame-2.jpg",
+					"at": 0.9,
+					"label": "Conversion",
+					"alt": "The enhanced heavy Ryuuenbu spends the shown Flame stock."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-flame-medium-heavy-ryuuenbu/frame-3.jpg",
+					"at": 1.45,
+					"label": "Finish",
+					"alt": "Ryu falls after the enhanced special."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-flame-ryuuenbu-triple-special",
+			"mai-depth-flame-knockdown-jump-guard"
+		]
+	},
+	{
+		"id": "mai-depth-flame-ryuuenbu-triple-special",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Three-stock confirm: heavy and medium Ryuuenbu into rising kick",
+		"summary": "Start with three Flame stocks for all three enhanced specials: heavy Ryuuenbu, medium Ryuuenbu and heavy rising kick.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Flame stocks", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.MP > 214HP* > 214MP* > 623HK*",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.MP",
+				"label": "Standing medium punch"
+			},
+			{
+				"id": "step-2",
+				"notation": "214HP*",
+				"label": "Flame-enhanced heavy Ryuuenbu"
+			},
+			{
+				"id": "step-3",
+				"notation": "214MP*",
+				"label": "Flame-enhanced medium Ryuuenbu"
+			},
+			{
+				"id": "step-4",
+				"notation": "623HK*",
+				"label": "Flame-enhanced heavy Hishou Ryuuenjin"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Three Flame stocks available before the three enhanced specials",
+			"Use the shown standing-opponent starter and juggle spacing"
+		],
+		"notes": ["Each asterisk marks a Flame-enhanced special, not a separate follow-up button."],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 935.55,
+			"end": 941.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-flame-ryuuenbu-triple-special/clip.mp4",
+			"poster": "/media/mai/mai-depth-flame-ryuuenbu-triple-special/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-flame-ryuuenbu-triple-special/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-flame-ryuuenbu-triple-special/frame-1.jpg",
+					"at": 0.95,
+					"label": "Starter",
+					"alt": "Standing medium punch leads into enhanced heavy Ryuuenbu."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-flame-ryuuenbu-triple-special/frame-2.jpg",
+					"at": 2.5,
+					"label": "Conversion",
+					"alt": "Enhanced medium Ryuuenbu continues the launch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-flame-ryuuenbu-triple-special/frame-3.jpg",
+					"at": 3.85,
+					"label": "Finish",
+					"alt": "Enhanced heavy Hishou Ryuuenjin completes the three-special route."
+				}
+			]
+		},
+		"relatedIds": ["mai-depth-flame-medium-heavy-ryuuenbu", "mai-depth-flame-knockdown-jump-guard"]
+	},
+	{
+		"id": "mai-depth-flame-knockdown-jump-guard",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Enhanced Ryuuenbu knockdown: jump heavy kick and guard OD Shoryuken",
+		"summary": "After spending two Flame stocks on the enhanced Ryuuenbu knockdown, forward-jump heavy kick and land guarding against Ryu's recorded OD Shoryuken.",
+		"kind": "response",
+		"situations": ["Midscreen", "Oki", "Flame stocks"],
+		"outcomes": ["Reversal response"],
+		"notation": "9 > j.HK > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HK",
+				"label": "Jumping heavy kick"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"After enhanced heavy Ryuuenbu into enhanced medium Ryuuenbu; +42F in the source",
+			"The prerequisite uses two Flame stocks",
+			"Opponent is Ryu using the recorded wake-up OD Shoryuken"
+		],
+		"notes": [
+			"The replay includes the prerequisite enhanced-special route. The input sequence starts at the forward jump.",
+			"The source labels this a safe jump. Fine-frame input review shows the airborne heavy-kick button before landing and guarding. The entry records only the shown response to Ryu’s OD Shoryuken, not universal reversal safety."
+		],
+		"resources": {
+			"drive": "No additional Drive spend after the prerequisite",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-mai-2026",
+			"title": "Classic MAI Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d6A3gZaLKm8",
+			"published": "2026-06-19",
+			"start": 941.65,
+			"end": 947.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-flame-knockdown-jump-guard/clip.mp4",
+			"poster": "/media/mai/mai-depth-flame-knockdown-jump-guard/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-flame-knockdown-jump-guard/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-flame-knockdown-jump-guard/frame-1.jpg",
+					"at": 2.3,
+					"label": "Enhanced knockdown",
+					"alt": "Two Flame-enhanced Ryuuenbu specials create the knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-flame-knockdown-jump-guard/frame-2.jpg",
+					"at": 3.55,
+					"label": "Jumping heavy kick",
+					"alt": "Mai performs jumping heavy kick while holding back before landing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-flame-knockdown-jump-guard/frame-3.jpg",
+					"at": 4.05,
+					"label": "Guard reversal",
+					"alt": "Mai lands and blocks Ryu’s OD Shoryuken."
+				}
+			]
+		},
+		"relatedIds": [
+			"mai-depth-flame-medium-heavy-ryuuenbu",
+			"mai-depth-flame-ryuuenbu-triple-special"
+		]
+	},
+	{
+		"id": "mai-depth-air-to-air-medium-heavy-rise",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "mai"
+			}
+		],
+		"title": "Air-to-air medium punch into heavy rising kick",
+		"summary": "Meet the airborne opponent with forward-jump medium punch, then land before the ordinary heavy rising-kick pickup.",
+		"kind": "response",
+		"situations": ["Midscreen", "Air-to-air", "Anti-air"],
+		"outcomes": ["Air-to-air conversion", "Knockdown"],
+		"notation": "9 > j.MP > 623HK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "Forward jump"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.MP",
+				"label": "Jumping medium punch"
+			},
+			{
+				"id": "step-3",
+				"notation": "623HK",
+				"label": "Heavy Hishou Ryuuenjin"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Opponent airborne at the shown forward-jump spacing",
+			"Land before entering heavy Hishou Ryuuenjin",
+			"Ordinary special version; no Flame stock enhancement"
+		],
+		"notes": [
+			"The source’s actual AIR TO AIR section occurs around 13:20, later than its metadata chapter locator.",
+			"This is an airborne interception and landing pickup, not a grounded invulnerable anti-air claim."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "vesperarcade-mai-2025",
+			"title": "STREET FIGHTER 6 MAI COMBOS! Complete Combo Guide",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=9zJ6H3eORh0",
+			"published": "2025-02-06",
+			"start": 811.1,
+			"end": 814.15
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "The dated source recipe, actual action order, input history, hit results, resource state, selected moments and clip boundaries were visually reviewed. Not re-tested in-game on the current patch."
+		},
+		"media": {
+			"clip": "/media/mai/mai-depth-air-to-air-medium-heavy-rise/clip.mp4",
+			"poster": "/media/mai/mai-depth-air-to-air-medium-heavy-rise/frame-1.jpg",
+			"descriptionTrack": "/media/mai/mai-depth-air-to-air-medium-heavy-rise/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/mai/mai-depth-air-to-air-medium-heavy-rise/frame-1.jpg",
+					"at": 0.85,
+					"label": "Air intercept",
+					"alt": "Mai’s jumping medium punch catches airborne Luke."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/mai/mai-depth-air-to-air-medium-heavy-rise/frame-2.jpg",
+					"at": 1.9,
+					"label": "Landing conversion",
+					"alt": "Mai lands and connects heavy Hishou Ryuuenjin."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/mai/mai-depth-air-to-air-medium-heavy-rise/frame-3.jpg",
+					"at": 2.8,
+					"label": "Knockdown",
+					"alt": "Luke falls after the three-hit air-to-air conversion."
+				}
+			]
+		},
+		"relatedIds": ["mai-vesper-low-od-rush-air-medium", "mai-depth-double-od-air-medium-heavy-rise"]
 	}
 ]

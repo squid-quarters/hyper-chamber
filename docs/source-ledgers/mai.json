@@ -1,0 +1,810 @@
+{
+	"characterId": "mai",
+	"reviewedOn": "2026-11-12",
+	"status": "Partial extraction; source reviewed, not current-patch game-tested",
+	"originalReferencesPreserved": 12,
+	"newReferences": 40,
+	"newKinds": {
+		"setup": 14,
+		"combo": 23,
+		"response": 3
+	},
+	"screeningNote": "The Joe recording was screened throughout at six-second intervals to find candidates. Screening does not constitute full execution review. Selected intervals received dense frame review of the printed recipe, live inputs, hit results and HUD. The explicitly unprocessed intervals remain further extraction opportunities.",
+	"sources": [
+		{
+			"sourceKey": "joe-ebios-mai-2026",
+			"youtubeId": "d6A3gZaLKm8",
+			"duration": 1067,
+			"intervals": [
+				{
+					"start": 0,
+					"end": 8.35,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 8.35,
+					"end": 15.3,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-light-bachi-dash-throw"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 15.3,
+					"end": 16.05,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 16.05,
+					"end": 23.35,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-light-bachi-shimmy"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 23.35,
+					"end": 24.55,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 24.55,
+					"end": 29.1,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-light-bachi-back-heavy-meaty"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 29.1,
+					"end": 66.45,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed.",
+					"excludedCandidates": [
+						{
+							"start": 29.45,
+							"end": 44,
+							"reason": "Ambiguous-strength airborne fan route: not authored."
+						}
+					]
+				},
+				{
+					"start": 66.45,
+					"end": 70.45,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-jabs-medium-ryuuenbu"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 70.45,
+					"end": 71.15,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 71.15,
+					"end": 76.65,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-medium-ryuuenbu-dash-throw"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 76.65,
+					"end": 77.2,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 77.2,
+					"end": 84.7,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-medium-ryuuenbu-shimmy"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 84.7,
+					"end": 85.6,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 85.6,
+					"end": 91.7,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-medium-ryuuenbu-dash-medium"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 91.7,
+					"end": 194.6,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 194.6,
+					"end": 201.5,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-corner-bachi-whiff-medium-throw"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 201.5,
+					"end": 202.2,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 202.2,
+					"end": 209.7,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-corner-bachi-whiff-medium-shimmy"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 209.7,
+					"end": 211.25,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 211.25,
+					"end": 216.8,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-corner-bachi-jab-guard-reversal"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 216.8,
+					"end": 224.15,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 224.15,
+					"end": 232.25,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-corner-bachi-meaty-jab-confirm"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 232.25,
+					"end": 236.55,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 236.55,
+					"end": 240.4,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-counter-low-jab-medium-heavy-bachi"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 240.4,
+					"end": 240.85,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 240.85,
+					"end": 247.2,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-heavy-bachi-dash-throw"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 247.2,
+					"end": 254.2,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 254.2,
+					"end": 259.4,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-jab-punish-heavy-fan-light-bachi"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 259.4,
+					"end": 266.25,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed.",
+					"excludedCandidates": [
+						{
+							"start": 259.4,
+							"end": 266.25,
+							"reason": "Printed grounded recipe says 214HK instead of a punch-strength Ryuuenbu; excluded rather than silently correcting."
+						}
+					]
+				},
+				{
+					"start": 266.25,
+					"end": 271.25,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-lights-rush-heavy-bachi"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 271.25,
+					"end": 295.5,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed.",
+					"excludedCandidates": [
+						{
+							"start": 271.25,
+							"end": 295.5,
+							"reason": "Grounded Ryuuenbu recipe-strength discrepancy; not selected."
+						}
+					]
+				},
+				{
+					"start": 295.5,
+					"end": 301.3,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-medium-rush-force-stand-bachi"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 301.3,
+					"end": 302.25,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 302.25,
+					"end": 307.55,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-medium-rush-level-one"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 307.55,
+					"end": 308.55,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 308.55,
+					"end": 323.5,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-medium-double-rush-level-three"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 323.5,
+					"end": 343.2,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 343.2,
+					"end": 349.05,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-corner-medium-rush-heavy-rise"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 349.05,
+					"end": 357.25,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 357.25,
+					"end": 363.6,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-corner-rush-heavy-target-medium-rise"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 363.6,
+					"end": 382.2,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 382.2,
+					"end": 385.85,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-counter-medium-jab-bachi"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 385.85,
+					"end": 386.35,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 386.35,
+					"end": 390.65,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-counter-kick-low-heavy-bachi"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 390.65,
+					"end": 404.8,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 404.8,
+					"end": 409.4,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-low-medium-punish-heavy-fan-bachi"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 409.4,
+					"end": 420.2,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 420.2,
+					"end": 423.9,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-crouching-heavy-jab-bachi"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 423.9,
+					"end": 450.25,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 450.25,
+					"end": 455.9,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-heavy-kick-punish-dash-medium-bachi"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 455.9,
+					"end": 457.35,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 457.35,
+					"end": 463.55,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-heavy-kick-punish-raw-rush"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 463.55,
+					"end": 471.25,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 471.25,
+					"end": 477.4,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-heavy-kick-punish-rush-level-one"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 477.4,
+					"end": 545.25,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 545.25,
+					"end": 552.35,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-corner-heavy-kick-punish-light-rise"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 552.35,
+					"end": 576.65,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 576.65,
+					"end": 580.75,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-heavy-punish-crouching-jab-bachi"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 580.75,
+					"end": 644.85,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed.",
+					"excludedCandidates": [
+						{
+							"start": 580.75,
+							"end": 591,
+							"reason": "Grounded recipe uses 214HK; explicit strength unresolved, excluded."
+						}
+					]
+				},
+				{
+					"start": 644.85,
+					"end": 651.45,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-corner-throw-dash-throw"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 651.45,
+					"end": 652.1,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 652.1,
+					"end": 658.4,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-corner-throw-dash-low"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 658.4,
+					"end": 658.85,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 658.85,
+					"end": 665.6,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-corner-throw-fan-blockstring"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 665.6,
+					"end": 666.2,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 666.2,
+					"end": 673.4,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-corner-throw-fan-dash-throw"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 673.4,
+					"end": 744.85,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 744.85,
+					"end": 749.3,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-od-ryuuenbu-medium-bachi"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 749.3,
+					"end": 749.8,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 749.8,
+					"end": 755.85,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-double-od-air-medium-heavy-rise"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 755.85,
+					"end": 815.35,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 815.35,
+					"end": 823.7,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-counter-di-double-dash"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 823.7,
+					"end": 919.65,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 919.65,
+					"end": 921.3,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-flame-medium-heavy-ryuuenbu"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 921.3,
+					"end": 935.55,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 935.55,
+					"end": 941.25,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-flame-ryuuenbu-triple-special"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 941.25,
+					"end": 941.65,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				},
+				{
+					"start": 941.65,
+					"end": 947.6,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-flame-knockdown-jump-guard"],
+					"review": "Recipe, action order, live input history, hit result and applicable stock/resource HUD reviewed; all selected moments and both boundaries reviewed separately.",
+					"currentPatchTested": false
+				},
+				{
+					"start": 947.6,
+					"end": 1067,
+					"disposition": "unprocessed",
+					"reason": "Coarse-screened for candidate discovery; not fully extracted or execution-reviewed."
+				}
+			]
+		},
+		{
+			"sourceKey": "vesperarcade-mai-2025",
+			"youtubeId": "9zJ6H3eORh0",
+			"duration": 1102,
+			"intervals": [
+				{
+					"start": 0,
+					"end": 16.6,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 16.6,
+					"end": 20.85,
+					"disposition": "reused",
+					"referenceIds": ["mai-vesper-low-light-kick"],
+					"reason": "Original reference, revision, media and related links preserved exactly."
+				},
+				{
+					"start": 20.85,
+					"end": 21.8,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 21.8,
+					"end": 26.25,
+					"disposition": "reused",
+					"referenceIds": ["mai-vesper-low-heavy-rise"],
+					"reason": "Original reference, revision, media and related links preserved exactly."
+				},
+				{
+					"start": 26.25,
+					"end": 44.7,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 44.7,
+					"end": 50.55,
+					"disposition": "reused",
+					"referenceIds": ["mai-vesper-low-od-rush-air-medium"],
+					"reason": "Original reference, revision, media and related links preserved exactly."
+				},
+				{
+					"start": 50.55,
+					"end": 58.6,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 58.6,
+					"end": 63.5,
+					"disposition": "reused",
+					"referenceIds": ["mai-vesper-low-level1"],
+					"reason": "Original reference, revision, media and related links preserved exactly."
+				},
+				{
+					"start": 63.5,
+					"end": 65.0,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 65.0,
+					"end": 72.1,
+					"disposition": "reused",
+					"referenceIds": ["mai-vesper-low-od-rush-level2"],
+					"reason": "Original reference, revision, media and related links preserved exactly."
+				},
+				{
+					"start": 72.1,
+					"end": 82.25,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 82.25,
+					"end": 95.95,
+					"disposition": "reused",
+					"referenceIds": ["mai-vesper-low-light-rush-level3"],
+					"reason": "Original reference, revision, media and related links preserved exactly."
+				},
+				{
+					"start": 95.95,
+					"end": 193.0,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 193.0,
+					"end": 197.75,
+					"disposition": "reused",
+					"referenceIds": ["mai-vesper-medium-jab-light-rush"],
+					"reason": "Original reference, revision, media and related links preserved exactly."
+				},
+				{
+					"start": 197.75,
+					"end": 198.3,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 198.3,
+					"end": 202.4,
+					"disposition": "reused",
+					"referenceIds": ["mai-vesper-heavy-jab-heavy-rise"],
+					"reason": "Original reference, revision, media and related links preserved exactly."
+				},
+				{
+					"start": 202.4,
+					"end": 309.5,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 309.5,
+					"end": 315.85,
+					"disposition": "reused",
+					"referenceIds": ["mai-vesper-wall-back-heavy-target"],
+					"reason": "Original reference, revision, media and related links preserved exactly."
+				},
+				{
+					"start": 315.85,
+					"end": 373.7,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 373.7,
+					"end": 378.75,
+					"disposition": "reused",
+					"referenceIds": ["mai-vesper-punish-jab-heavy-fan"],
+					"reason": "Original reference, revision, media and related links preserved exactly."
+				},
+				{
+					"start": 378.75,
+					"end": 386.9,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 386.9,
+					"end": 390.2,
+					"disposition": "reused",
+					"referenceIds": ["mai-vesper-punish-medium-heavy-rise"],
+					"reason": "Original reference, revision, media and related links preserved exactly."
+				},
+				{
+					"start": 390.2,
+					"end": 509.6,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 509.6,
+					"end": 515.8,
+					"disposition": "reused",
+					"referenceIds": ["mai-vesper-punish-back-heavy-force-stand"],
+					"reason": "Original reference, revision, media and related links preserved exactly."
+				},
+				{
+					"start": 515.8,
+					"end": 811.1,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				},
+				{
+					"start": 811.1,
+					"end": 814.15,
+					"disposition": "reviewed",
+					"referenceIds": ["mai-depth-air-to-air-medium-heavy-rise"],
+					"reason": "New air-to-air execution, moments and boundaries reviewed."
+				},
+				{
+					"start": 814.15,
+					"end": 1102,
+					"disposition": "unprocessed",
+					"reason": "Outside the preserved original selections; no new execution review in this expansion."
+				}
+			]
+		}
+	],
+	"interpretationDecisions": [
+		{
+			"topic": "Numeric +9F / +4F captions after dash or whiff",
+			"decision": "Reported remaining advantage, not a prescribed nine-/four-frame wait. Removed invented waits; only the explicitly captioned delay throw retains an unquantified delay. Intentional framekill notation includes (whiff) so compact/copied inputs remain unambiguous."
+		},
+		{
+			"topic": "Source safe-jump caption at 941.65–947.60",
+			"decision": "Fine-frame review identifies forward jump, a heavy-kick input at 945.1, then landing guard against the recorded Ryu OD Shoryuken. The selected airborne moment is 945.2; no universal reversal coverage is claimed."
+		},
+		{
+			"topic": "10F+ reversal caption at 211.25–217.50",
+			"decision": "Authored only the actual Ryu Drive Reversal block, without asserting universal reversal coverage."
+		},
+		{
+			"topic": "Dash +4 after heavy Bachi",
+			"decision": "Frame/timing result, not a backward direction; performed sequence is dash then throw."
+		},
+		{
+			"topic": "Flame stocks",
+			"decision": "Enhanced specials explicitly marked and initial stock prerequisites authored separately. No ordinary special is silently substituted with an enhanced version."
+		},
+		{
+			"topic": "Setup replay context",
+			"decision": "Clips retain prerequisite knockdowns; input sequences begin with the follow-up. Prerequisite routes and extra Drive costs are separate."
+		}
+	]
+}

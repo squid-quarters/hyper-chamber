@@ -1,6 +1,6 @@
 {
-	"sourceIds": ["joe-ebios-terry-2026"],
-	"publicationStatus": "private-development",
+	"sourceIds": ["joe-ebios-terry-2026", "killerex100-terry-burnout-2024", "slamugh-terry-oki-2024"],
+	"publicationStatus": "public-repository",
 	"presentationNote": "Complete 1280×720 source frames retained without crop, including virtual inputs, meters and source overlays. Full original remains local.",
 	"assets": [
 		{
@@ -135,6 +135,366 @@
 			"sourceStart": 365.6,
 			"sourceEnd": 375.8,
 			"clip": "/media/terry/terry-corner-low-cashout-geyser/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-heavy-tackle-rush-jab-shimmy",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 15.7,
+			"sourceEnd": 21.25,
+			"clip": "/media/terry/terry-depth-heavy-tackle-rush-jab-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-heavy-tackle-rush-meaty-heavy",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 25.2,
+			"sourceEnd": 31.2,
+			"clip": "/media/terry/terry-depth-heavy-tackle-rush-meaty-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-medium-knuckle-dash-walk-throw",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 41.7,
+			"sourceEnd": 45.65,
+			"clip": "/media/terry/terry-depth-medium-knuckle-dash-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-medium-knuckle-dash-shimmy",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 47.7,
+			"sourceEnd": 54.1,
+			"clip": "/media/terry/terry-depth-medium-knuckle-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-medium-knuckle-dash-meaty-heavy",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 56.4,
+			"sourceEnd": 60.1,
+			"clip": "/media/terry/terry-depth-medium-knuckle-dash-meaty-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-medium-light-charge-jab-knuckle",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 61.25,
+			"sourceEnd": 65.9,
+			"clip": "/media/terry/terry-depth-medium-light-charge-jab-knuckle/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-corner-light-tackle-kill-throw",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 98.55,
+			"sourceEnd": 103.1,
+			"clip": "/media/terry/terry-depth-corner-light-tackle-kill-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-corner-light-tackle-kill-shimmy",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 108.0,
+			"sourceEnd": 114.55,
+			"clip": "/media/terry/terry-depth-corner-light-tackle-kill-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-corner-light-tackle-kill-heavy",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 119.7,
+			"sourceEnd": 124.65,
+			"clip": "/media/terry/terry-depth-corner-light-tackle-kill-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-corner-light-tackle-kill-heavy-trade",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 129.7,
+			"sourceEnd": 135.5,
+			"clip": "/media/terry/terry-depth-corner-light-tackle-kill-heavy-trade/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-od-charge-wave-knuckle-rush-throw",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 149.6,
+			"sourceEnd": 154.1,
+			"clip": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-od-charge-wave-knuckle-rush-shimmy",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 158.1,
+			"sourceEnd": 164.6,
+			"clip": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-od-charge-wave-knuckle-rush-heavy",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 168.7,
+			"sourceEnd": 175.0,
+			"clip": "/media/terry/terry-depth-od-charge-wave-knuckle-rush-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-two-hit-heavy-od-charge-crack-tackle",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 176.2,
+			"sourceEnd": 182.5,
+			"clip": "/media/terry/terry-depth-two-hit-heavy-od-charge-crack-tackle/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-one-hit-heavy-charge-crack-tackle",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 183.3,
+			"sourceEnd": 187.25,
+			"clip": "/media/terry/terry-depth-one-hit-heavy-charge-crack-tackle/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-corner-one-hit-heavy-round-wave",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 195.95,
+			"sourceEnd": 201.65,
+			"clip": "/media/terry/terry-depth-corner-one-hit-heavy-round-wave/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-spaced-heavy-kick-rush-passing-sway",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 209.55,
+			"sourceEnd": 214.7,
+			"clip": "/media/terry/terry-depth-spaced-heavy-kick-rush-passing-sway/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-passing-sway-dash-walk-throw",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 229.45,
+			"sourceEnd": 234.1,
+			"clip": "/media/terry/terry-depth-passing-sway-dash-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-passing-sway-dash-shimmy",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 237.7,
+			"sourceEnd": 244.2,
+			"clip": "/media/terry/terry-depth-passing-sway-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-passing-sway-dash-meaty-heavy",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 248.0,
+			"sourceEnd": 252.1,
+			"clip": "/media/terry/terry-depth-passing-sway-dash-meaty-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-heavy-kick-fire-kick-od-crack-level-one",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 252.8,
+			"sourceEnd": 260.2,
+			"clip": "/media/terry/terry-depth-heavy-kick-fire-kick-od-crack-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-far-heavy-kick-rush-od-crack-level-one",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 261.3,
+			"sourceEnd": 268.45,
+			"clip": "/media/terry/terry-depth-far-heavy-kick-rush-od-crack-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-rush-overhead-medium-knuckle",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 269.45,
+			"sourceEnd": 273.55,
+			"clip": "/media/terry/terry-depth-rush-overhead-medium-knuckle/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-corner-medium-punish-round-wave",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 282.55,
+			"sourceEnd": 288.15,
+			"clip": "/media/terry/terry-depth-corner-medium-punish-round-wave/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-counter-impact-one-hit-heavy-crack",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 289.55,
+			"sourceEnd": 298.0,
+			"clip": "/media/terry/terry-depth-counter-impact-one-hit-heavy-crack/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-far-wall-splat-medium-wave-tackle",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 315.1,
+			"sourceEnd": 320.85,
+			"clip": "/media/terry/terry-depth-far-wall-splat-medium-wave-tackle/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-corner-counter-impact-round-wave",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 322.1,
+			"sourceEnd": 331.15,
+			"clip": "/media/terry/terry-depth-corner-counter-impact-round-wave/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-corner-od-dp-guard-round-wave",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 340.2,
+			"sourceEnd": 347.65,
+			"clip": "/media/terry/terry-depth-corner-od-dp-guard-round-wave/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-corner-od-dp-full-geyser-cashout",
+			"sourceId": "joe-ebios-terry-2026",
+			"sourceStart": 348.65,
+			"sourceEnd": 364.6,
+			"clip": "/media/terry/terry-depth-corner-od-dp-full-geyser-cashout/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-burnout-crouch-jab-double-medium",
+			"sourceId": "killerex100-terry-burnout-2024",
+			"sourceStart": 166.2,
+			"sourceEnd": 169.95,
+			"clip": "/media/terry/terry-depth-burnout-crouch-jab-double-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-burnout-light-kick-light-medium",
+			"sourceId": "killerex100-terry-burnout-2024",
+			"sourceStart": 172.7,
+			"sourceEnd": 176.5,
+			"clip": "/media/terry/terry-depth-burnout-light-kick-light-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-burnout-crouch-jab-medium-knuckle",
+			"sourceId": "killerex100-terry-burnout-2024",
+			"sourceStart": 177.1,
+			"sourceEnd": 178.6,
+			"clip": "/media/terry/terry-depth-burnout-crouch-jab-medium-knuckle/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-burnout-jab-od-wave-light-link",
+			"sourceId": "killerex100-terry-burnout-2024",
+			"sourceStart": 183.8,
+			"sourceEnd": 186.7,
+			"clip": "/media/terry/terry-depth-burnout-jab-od-wave-light-link/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-burnout-light-kick-od-wave-medium-route",
+			"sourceId": "killerex100-terry-burnout-2024",
+			"sourceStart": 190.65,
+			"sourceEnd": 195.2,
+			"clip": "/media/terry/terry-depth-burnout-light-kick-od-wave-medium-route/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-burnout-jab-walk-throw",
+			"sourceId": "killerex100-terry-burnout-2024",
+			"sourceStart": 283.75,
+			"sourceEnd": 286.85,
+			"clip": "/media/terry/terry-depth-burnout-jab-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-burnout-medium-crack-walk-throw",
+			"sourceId": "killerex100-terry-burnout-2024",
+			"sourceStart": 299.05,
+			"sourceEnd": 303.05,
+			"clip": "/media/terry/terry-depth-burnout-medium-crack-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-low-target-medium-wave-knockdown",
+			"sourceId": "slamugh-terry-oki-2024",
+			"sourceStart": 557.6,
+			"sourceEnd": 560.55,
+			"clip": "/media/terry/terry-depth-low-target-medium-wave-knockdown/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-low-wave-jump-heavy-guard-od",
+			"sourceId": "slamugh-terry-oki-2024",
+			"sourceStart": 566.1,
+			"sourceEnd": 568.85,
+			"clip": "/media/terry/terry-depth-low-wave-jump-heavy-guard-od/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-first-hit-heavy-medium-charge",
+			"sourceId": "slamugh-terry-oki-2024",
+			"sourceStart": 574.25,
+			"sourceEnd": 577.1,
+			"clip": "/media/terry/terry-depth-first-hit-heavy-medium-charge/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "terry-depth-medium-charge-jump-medium-guard-od",
+			"sourceId": "slamugh-terry-oki-2024",
+			"sourceStart": 585.05,
+			"sourceEnd": 587.7,
+			"clip": "/media/terry/terry-depth-medium-charge-jump-medium-guard-od/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

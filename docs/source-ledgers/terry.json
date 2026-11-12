@@ -1,0 +1,995 @@
+{
+	"characterId": "terry",
+	"reviewedOn": "2026-11-12",
+	"baselineReferences": 15,
+	"references": 55,
+	"newReferences": 40,
+	"kinds": {
+		"combo": 26,
+		"setup": 23,
+		"response": 6
+	},
+	"verification": "source-reviewed; current-patch gameplay untested",
+	"sources": [
+		{
+			"sourceId": "joe-ebios-terry-2026",
+			"youtubeId": "740x8d6Lpew",
+			"url": "https://www.youtube.com/watch?v=740x8d6Lpew",
+			"title": "SF6 TERRY Fundamentals Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"published": "2026-07-07",
+			"duration": 382,
+			"recordingSha256": "9a982e5ac8dcad7433f6c867743922b05e5d8db773f70746b728b4fbb67799b5",
+			"metadataSha256": "2f22520b10498e60dfb81a49c1824771199fa6a4277ab77dd08ac0e17f5f9d04",
+			"selected": [
+				{
+					"referenceId": "terry-lights-heavy-rising",
+					"start": 1.1,
+					"end": 4.45,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-heavy-rising-rush-throw",
+					"start": 8.05,
+					"end": 11.6,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-crouching-jabs-knuckle",
+					"start": 32.1,
+					"end": 35.1,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-fire-kick-heavy-knuckle",
+					"start": 67.4,
+					"end": 70.65,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-low-rush-charge-crack-rising",
+					"start": 71.95,
+					"end": 78.35,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-corner-low-rush-round-wave",
+					"start": 79.3,
+					"end": 85.05,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-two-hit-heavy-knuckle",
+					"start": 136.3,
+					"end": 139.1,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-midscreen-heavy-wave-knuckle",
+					"start": 140.35,
+					"end": 145.05,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused-with-approved-revision2"
+				},
+				{
+					"referenceId": "terry-corner-heavy-medium-crack",
+					"start": 189.25,
+					"end": 194.35,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused-with-approved-revision2"
+				},
+				{
+					"referenceId": "terry-heavy-kick-punish-fire-kick",
+					"start": 202.6,
+					"end": 206.85,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-drive-reversal-crouching-medium",
+					"start": 274.35,
+					"end": 280.25,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-far-counter-di-dash",
+					"start": 299.25,
+					"end": 306.7,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-wall-splat-crack-rising",
+					"start": 308.25,
+					"end": 314.2,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-dp-punish-two-hit-heavy",
+					"start": 332.25,
+					"end": 338.75,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-corner-low-cashout-geyser",
+					"start": 365.6,
+					"end": 375.8,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "baseline-reused"
+				},
+				{
+					"referenceId": "terry-depth-heavy-tackle-rush-jab-shimmy",
+					"start": 15.7,
+					"end": 21.25,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-heavy-tackle-rush-meaty-heavy",
+					"start": 25.2,
+					"end": 31.2,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-medium-knuckle-dash-walk-throw",
+					"start": 41.7,
+					"end": 45.65,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-medium-knuckle-dash-shimmy",
+					"start": 47.7,
+					"end": 54.1,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-medium-knuckle-dash-meaty-heavy",
+					"start": 56.4,
+					"end": 60.1,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-medium-light-charge-jab-knuckle",
+					"start": 61.25,
+					"end": 65.9,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-corner-light-tackle-kill-throw",
+					"start": 98.55,
+					"end": 103.1,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-corner-light-tackle-kill-shimmy",
+					"start": 108.0,
+					"end": 114.55,
+					"kind": "setup",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-corner-light-tackle-kill-heavy",
+					"start": 119.7,
+					"end": 124.65,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-corner-light-tackle-kill-heavy-trade",
+					"start": 129.7,
+					"end": 135.5,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-od-charge-wave-knuckle-rush-throw",
+					"start": 149.6,
+					"end": 154.1,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-od-charge-wave-knuckle-rush-shimmy",
+					"start": 158.1,
+					"end": 164.6,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-od-charge-wave-knuckle-rush-heavy",
+					"start": 168.7,
+					"end": 175.0,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-two-hit-heavy-od-charge-crack-tackle",
+					"start": 176.2,
+					"end": 182.5,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-one-hit-heavy-charge-crack-tackle",
+					"start": 183.3,
+					"end": 187.25,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-corner-one-hit-heavy-round-wave",
+					"start": 195.95,
+					"end": 201.65,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-spaced-heavy-kick-rush-passing-sway",
+					"start": 209.55,
+					"end": 214.7,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-passing-sway-dash-walk-throw",
+					"start": 229.45,
+					"end": 234.1,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-passing-sway-dash-shimmy",
+					"start": 237.7,
+					"end": 244.2,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-passing-sway-dash-meaty-heavy",
+					"start": 248.0,
+					"end": 252.1,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-heavy-kick-fire-kick-od-crack-level-one",
+					"start": 252.8,
+					"end": 260.2,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-far-heavy-kick-rush-od-crack-level-one",
+					"start": 261.3,
+					"end": 268.45,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-rush-overhead-medium-knuckle",
+					"start": 269.45,
+					"end": 273.55,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-corner-medium-punish-round-wave",
+					"start": 282.55,
+					"end": 288.15,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-counter-impact-one-hit-heavy-crack",
+					"start": 289.55,
+					"end": 298.0,
+					"kind": "response",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-far-wall-splat-medium-wave-tackle",
+					"start": 315.1,
+					"end": 320.85,
+					"kind": "combo",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-corner-counter-impact-round-wave",
+					"start": 322.1,
+					"end": 331.15,
+					"kind": "response",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-corner-od-dp-guard-round-wave",
+					"start": 340.2,
+					"end": 347.65,
+					"kind": "response",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-corner-od-dp-full-geyser-cashout",
+					"start": 348.65,
+					"end": 364.6,
+					"kind": "response",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				}
+			],
+			"timelineSurvey": {
+				"interval": [0, 382],
+				"intervalSeconds": 3,
+				"status": "Every discovery sheet viewed; this coarse whole-timeline survey is not execution certification of unselected actions."
+			},
+			"fineReviewWindows": [
+				[12, 132, 0.5],
+				[130, 136, 0.25],
+				[146, 202, 0.5],
+				[208, 274, 0.5],
+				[281, 365, 0.5],
+				[98.45, 99.15, 0.05],
+				[107.95, 108.6, 0.05],
+				[119.7, 120.35, 0.05],
+				[129.65, 130.25, 0.05]
+			],
+			"executionReviewWindows": [
+				[15.7, 21.25],
+				[25.2, 31.2],
+				[41.7, 45.65],
+				[47.7, 54.1],
+				[56.4, 60.1],
+				[61.25, 65.9],
+				[98.55, 103.1],
+				[108.0, 114.55],
+				[119.7, 124.65],
+				[129.7, 135.5],
+				[149.6, 154.1],
+				[158.1, 164.6],
+				[168.7, 175.0],
+				[176.2, 182.5],
+				[183.3, 187.25],
+				[195.95, 201.65],
+				[209.55, 214.7],
+				[229.45, 234.1],
+				[237.7, 244.2],
+				[248.0, 252.1],
+				[252.8, 260.2],
+				[261.3, 268.45],
+				[269.45, 273.55],
+				[282.55, 288.15],
+				[289.55, 298.0],
+				[315.1, 320.85],
+				[322.1, 331.15],
+				[340.2, 347.65],
+				[348.65, 364.6]
+			],
+			"unselectedSourceIntervals": [
+				[0, 1.1],
+				[4.45, 8.05],
+				[11.6, 15.7],
+				[21.25, 25.2],
+				[31.2, 32.1],
+				[35.1, 41.7],
+				[45.65, 47.7],
+				[54.1, 56.4],
+				[60.1, 61.25],
+				[65.9, 67.4],
+				[70.65, 71.95],
+				[78.35, 79.3],
+				[85.05, 98.55],
+				[103.1, 108.0],
+				[114.55, 119.7],
+				[124.65, 129.7],
+				[135.5, 136.3],
+				[139.1, 140.35],
+				[145.05, 149.6],
+				[154.1, 158.1],
+				[164.6, 168.7],
+				[175.0, 176.2],
+				[182.5, 183.3],
+				[187.25, 189.25],
+				[194.35, 195.95],
+				[201.65, 202.6],
+				[206.85, 209.55],
+				[214.7, 229.45],
+				[234.1, 237.7],
+				[244.2, 248.0],
+				[252.1, 252.8],
+				[260.2, 261.3],
+				[268.45, 269.45],
+				[273.55, 274.35],
+				[280.25, 282.55],
+				[288.15, 289.55],
+				[298.0, 299.25],
+				[306.7, 308.25],
+				[314.2, 315.1],
+				[320.85, 322.1],
+				[331.15, 332.25],
+				[338.75, 340.2],
+				[347.65, 348.65],
+				[364.6, 365.6],
+				[375.8, 382]
+			],
+			"unselectedIntervalStatus": "Not extracted; includes prerequisite prefixes, take margins, duplicates, excluded alternatives and explicit unprocessed candidates. No new recipe is certified in these gaps.",
+			"dispositions": [
+				{
+					"interval": [0, 5.8],
+					"status": "baseline-reused",
+					"note": "Retained light-chain heavy-Tackle confirm; source intro/cut margin not counted."
+				},
+				{
+					"interval": [5.8, 31.8],
+					"status": "baseline-reuse-and-reviewed-selections",
+					"note": "Heavy-Tackle +27: original Rush throw retained; new Rush/jab-whiff shimmy and Rush two-hit heavy/normal heavy-Charge delayed-Crack route. Repeated light-confirm prefixes provide setup state, not additional cards."
+				},
+				{
+					"interval": [31.8, 40],
+					"status": "baseline-reuse-and-excluded-timing-only-repeat",
+					"note": "Original crouching-jab medium-Knuckle confirm retained. Dash +11 remaining-advantage illustration is not a wait11 action or a distinct executed branch."
+				},
+				{
+					"interval": [40, 60.8],
+					"status": "reviewed-selections",
+					"note": "Medium-Knuckle +30 dash/walk throw, dash shimmy, and dash/walk two-hit-heavy medium-Knuckle branches."
+				},
+				{
+					"interval": [60.8, 66.5],
+					"status": "reviewed-selection",
+					"note": "Standing medium kick/light kick/light-Charge crouching-jab medium-Knuckle link."
+				},
+				{
+					"interval": [66.5, 86],
+					"status": "baseline-reused",
+					"note": "Retained low Fire Kick target, midscreen low DRC/Crack/Tackle, and corner low DRC/Round-Wave route."
+				},
+				{
+					"interval": [86, 94.4],
+					"status": "excluded-timing-only-repeat",
+					"note": "Corner +34 medium-kick-whiff +5 illustration supplies context for following branches; not another practice card."
+				},
+				{
+					"interval": [94.4, 135.75],
+					"status": "reviewed-selections-with-repeated-prerequisites",
+					"note": "Corner light-Tackle +34 medium-kick frame kill into throw, shimmy Round-Wave punish, two-hit-heavy medium-Charge light-Tackle, or explicit heavy trade/Fire-Kick-target conversion. Unperformed caption heavy-Tackle alternative after the two-hit branch excluded."
+				},
+				{
+					"interval": [135.75, 145.5],
+					"status": "baseline-reused-with-approved-revision",
+					"note": "Two-hit-heavy medium-Knuckle original retained. Midscreen heavy/Wave/Knuckle source actually uses OD236KK: stable-ID revision2 corrects236HK transcription and Drive cost; old clip/JPEG/cut times retained."
+				},
+				{
+					"interval": [145.5, 149.6],
+					"status": "excluded-timing-only-repeat",
+					"note": "Midscreen OD-route +32 Rush advantage illustration without distinct branch."
+				},
+				{
+					"interval": [149.6, 175.5],
+					"status": "reviewed-selections",
+					"note": "OD-Charge/Round-Wave/medium-Knuckle +32 Rush throw, Rush shimmy and Rush meaty two-hit-heavy branches. Prerequisite two-Drive OD cost is explicitly outside follow-up-loop cost."
+				},
+				{
+					"interval": [175.5, 188.5],
+					"status": "reviewed-selections",
+					"note": "Plain near-corner two-hit-heavy OD-Charge delayed-Crack heavy-Tackle and midscreen first-hit-heavy normal-Charge delayed-Crack heavy-Tackle. Later Rush after the second knockdown excluded."
+				},
+				{
+					"interval": [188.5, 195],
+					"status": "baseline-reused-with-approved-revision",
+					"note": "Corner two-hit-heavy medium-Crack heavy-Tackle stable ID revision2 corrects Power Charge to OD236KK and two-Drive cost. Original clip/JPEG/source interval retained."
+				},
+				{
+					"interval": [195, 202.2],
+					"status": "reviewed-selection",
+					"note": "Corner first-hit-heavy normal-Charge Round-Wave medium-Charge light-Tackle."
+				},
+				{
+					"interval": [202.2, 208.5],
+					"status": "baseline-reused",
+					"note": "Close heavy-kick punish-counter low-target route retained."
+				},
+				{
+					"interval": [208.5, 215.2],
+					"status": "reviewed-selection",
+					"note": "Max-range heavy-kick PC raw-Rush MP–MK–MP Passing-Sway target knockdown. Actual MP branch retained, not invented alternate target."
+				},
+				{
+					"interval": [215.2, 228.8],
+					"status": "excluded-repeated-prerequisite-and-timing-only",
+					"note": "Repeated spaced heavy-kick Passing-Sway prerequisite and dash +17 advantage illustration; no additional distinct authored follow-up."
+				},
+				{
+					"interval": [228.8, 252.6],
+					"status": "reviewed-selections",
+					"note": "Passing-Sway +36 dash/walk throw, dash shimmy and dash/walk heavy/medium-Knuckle branches."
+				},
+				{
+					"interval": [252.6, 269],
+					"status": "reviewed-selections",
+					"note": "Close heavy-kick PC Fire-Kick-target OD-Crack Level1 and separate farther heavy-kick raw-Rush medium OD-Crack Level1. Different spacing and Drive costs."
+				},
+				{
+					"interval": [269, 274],
+					"status": "reviewed-selection",
+					"note": "Raw-Rush forward-heavy overhead, crouching-medium medium-Knuckle confirm."
+				},
+				{
+					"interval": [274, 281.8],
+					"status": "baseline-reused",
+					"note": "Midscreen crouching-medium PC route retained."
+				},
+				{
+					"interval": [281.8, 288.4],
+					"status": "reviewed-selection",
+					"note": "Corner crouching-medium PC Round-Wave route. Caption applications are not promoted into an unseen real Drive-Reversal interaction."
+				},
+				{
+					"interval": [288.4, 298.4],
+					"status": "reviewed-selection",
+					"note": "Actual Ryu counter-DI crumple into first-hit-heavy delayed-Crack heavy-Tackle route."
+				},
+				{
+					"interval": [298.4, 314.5],
+					"status": "baseline-reused",
+					"note": "Retained far counter-DI dash route and close normal wall-splat route."
+				},
+				{
+					"interval": [314.5, 321.2],
+					"status": "reviewed-selection",
+					"note": "Farther normal blocked-DI wall-splat standing-medium heavy-Wave heavy-Tackle. Not Burnout stun."
+				},
+				{
+					"interval": [321.2, 331.4],
+					"status": "reviewed-selection",
+					"note": "Actual corner counter-DI first-hit-heavy Round-Wave light-Tackle route."
+				},
+				{
+					"interval": [331.4, 339.6],
+					"status": "baseline-reused",
+					"note": "Retained midscreen blocked-OD-DP two-hit-heavy punish route."
+				},
+				{
+					"interval": [339.6, 347.9],
+					"status": "reviewed-selection",
+					"note": "Actual corner standing-jab poke/OD-DP guard/two-hit-heavy Round-Wave light-Tackle punish."
+				},
+				{
+					"interval": [347.9, 364.9],
+					"status": "reviewed-selection",
+					"note": "Actual corner OD-DP guard, two raw-Rushes, OD Wave, DRC and full Geyser cash-out; first Geyser follow-up enters Burnout, second spends the third Super stock."
+				},
+				{
+					"interval": [364.9, 378],
+					"status": "baseline-reused",
+					"note": "Retained low-start Geyser cash-out; repeated or unused take margins not separately counted."
+				},
+				{
+					"interval": [378, 382],
+					"status": "excluded-outro",
+					"note": "No additional authored execution."
+				}
+			],
+			"remainingUnprocessedCandidateWindows": [],
+			"wholeSourceExtractionComplete": false
+		},
+		{
+			"sourceId": "killerex100-terry-burnout-2024",
+			"youtubeId": "Kvf3JDhlX8U",
+			"url": "https://www.youtube.com/watch?v=Kvf3JDhlX8U",
+			"title": "SF6: Utilizing Burnout With Terry",
+			"creator": "Killerex100",
+			"published": "2024-11-18",
+			"duration": 314,
+			"recordingSha256": "b95f87959d846d81ec757f0d201fad746a7406a3ba50fbad9b89956373c51a3f",
+			"metadataSha256": "cb5edc57f714018c8f337c1d2f2a3cfd7369ead7fa0ad25cd96d5501c254d21e",
+			"selected": [
+				{
+					"referenceId": "terry-depth-burnout-crouch-jab-double-medium",
+					"start": 166.2,
+					"end": 169.95,
+					"kind": "setup",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-burnout-light-kick-light-medium",
+					"start": 172.7,
+					"end": 176.5,
+					"kind": "setup",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-burnout-crouch-jab-medium-knuckle",
+					"start": 177.1,
+					"end": 178.6,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-burnout-jab-od-wave-light-link",
+					"start": 183.8,
+					"end": 186.7,
+					"kind": "setup",
+					"selectedMoments": 5,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-burnout-light-kick-od-wave-medium-route",
+					"start": 190.65,
+					"end": 195.2,
+					"kind": "setup",
+					"selectedMoments": 6,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-burnout-jab-walk-throw",
+					"start": 283.75,
+					"end": 286.85,
+					"kind": "setup",
+					"selectedMoments": 3,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-burnout-medium-crack-walk-throw",
+					"start": 299.05,
+					"end": 303.05,
+					"kind": "setup",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				}
+			],
+			"timelineSurvey": {
+				"interval": [0, 314],
+				"intervalSeconds": 4,
+				"status": "Every discovery sheet viewed; this coarse whole-timeline survey is not execution certification of unselected actions."
+			},
+			"fineReviewWindows": [
+				[165, 204, 0.5],
+				[279, 314, 0.5],
+				[166, 170, 0.2],
+				[172.6, 176.9, 0.2],
+				[183.6, 187, 0.2],
+				[190.6, 195.5, 0.2]
+			],
+			"executionReviewWindows": [
+				[166.2, 169.95],
+				[172.7, 176.5],
+				[177.1, 178.6],
+				[183.8, 186.7],
+				[190.65, 195.2],
+				[283.75, 286.85],
+				[299.05, 303.05]
+			],
+			"unselectedSourceIntervals": [
+				[0, 166.2],
+				[169.95, 172.7],
+				[176.5, 177.1],
+				[178.6, 183.8],
+				[186.7, 190.65],
+				[195.2, 283.75],
+				[286.85, 299.05],
+				[303.05, 314]
+			],
+			"unselectedIntervalStatus": "Not extracted; includes prerequisite prefixes, take margins, duplicates, excluded alternatives and explicit unprocessed candidates. No new recipe is certified in these gaps.",
+			"dispositions": [
+				{
+					"interval": [0, 165],
+					"status": "surveyed-unprocessed-execution-candidates",
+					"note": "Guarded strings/chip sequences surveyed at4s, but not individually transcribed or execution-certified. Remain available for later fine review; chapter true-string title alone is not validation."
+				},
+				{
+					"interval": [165, 170.2],
+					"status": "reviewed-selection",
+					"note": "Guarded crouching jab/counter-hit crouching medium/second crouching medium/medium-Charge/medium-Tackle branch. Live yellow strengths override coarse animation guesses."
+				},
+				{
+					"interval": [170.2, 172.65],
+					"status": "excluded-shortened-repeat",
+					"note": "Shorter repeated counter-hit medium illustration without the full finish; not another nominal variant."
+				},
+				{
+					"interval": [172.65, 176.7],
+					"status": "reviewed-selection",
+					"note": "Guarded standing light kick/counter-hit crouching jab/crouching medium/medium-Charge/medium-Tackle. Live cyan kick and leg animation identify the opening light kick."
+				},
+				{
+					"interval": [176.7, 178.9],
+					"status": "reviewed-selection",
+					"note": "Guarded crouching jab into medium-Burning-Knuckle counter hit."
+				},
+				{
+					"interval": [178.9, 183.7],
+					"status": "excluded-repeat-and-unprocessed-candidates",
+					"note": "Extra guarded jab/medium-Knuckle repeat and standalone Crack-Shoot counter-hit illustration not extracted. No separate source-reviewed recipe in these gaps."
+				},
+				{
+					"interval": [183.7, 186.8],
+					"status": "reviewed-selection",
+					"note": "Guarded crouching jab, OD Power Wave counter hit, crouching jab, standing jab, medium Tackle. Live two-punch command identifies OD Wave, not OD Charge."
+				},
+				{
+					"interval": [186.8, 190.6],
+					"status": "unprocessed-candidate",
+					"note": "Separate OD/Crack pressure demonstration surveyed but not fully authored; not claimed reviewed execution."
+				},
+				{
+					"interval": [190.6, 195.3],
+					"status": "reviewed-selection",
+					"note": "Guarded standing light kick and OD Wave, counter-hit crouching jab, medium link, medium-Charge and medium-Tackle."
+				},
+				{
+					"interval": [195.3, 279],
+					"status": "surveyed-unprocessed-execution-candidates",
+					"note": "Remaining frame-trap illustrations surveyed; some repeat selected pressure, others need full-strength/state/boundary transcription. No blanket certification from chapter headings."
+				},
+				{
+					"interval": [279, 283.75],
+					"status": "excluded-standalone-throw-and-take-margin",
+					"note": "Opening throw illustration lacks a distinct guarded strike prefix; not counted separately."
+				},
+				{
+					"interval": [283.75, 286.95],
+					"status": "reviewed-selection",
+					"note": "Guarded standing jab, walk and forward throw with Jamie already in Burnout."
+				},
+				{
+					"interval": [286.95, 299.05],
+					"status": "surveyed-unprocessed-execution-candidates",
+					"note": "Additional jab/Rush/throw and OD follow-up illustrations remain unprocessed. Drive cancel versus raw-Rush costs are not guessed."
+				},
+				{
+					"interval": [299.05, 303.3],
+					"status": "reviewed-selection",
+					"note": "Guarded medium Crack Shoot, walk and normal throw. Different guarded-special approach from jab throw."
+				},
+				{
+					"interval": [303.3, 313],
+					"status": "surveyed-unprocessed-execution-candidates",
+					"note": "Further Crack/Rush-overhead/throw illustrations surveyed but not individually certified."
+				},
+				{
+					"interval": [313, 314],
+					"status": "excluded-outro",
+					"note": "Black/outro frames."
+				}
+			],
+			"remainingUnprocessedCandidateWindows": [
+				[0, 165],
+				[178.9, 183.7],
+				[186.8, 190.6],
+				[195.3, 279],
+				[286.95, 299.05],
+				[303.3, 313]
+			],
+			"wholeSourceExtractionComplete": false
+		},
+		{
+			"sourceId": "slamugh-terry-oki-2024",
+			"youtubeId": "N0vm6S9RqHs",
+			"url": "https://www.youtube.com/watch?v=N0vm6S9RqHs",
+			"title": "Terry Oki and Frametrap Setups",
+			"creator": "Slamugh",
+			"published": "2024-10-03",
+			"duration": 680,
+			"recordingSha256": "c8cf450c2fec60607963b0b4770e462e84218a1843a396451ddaec64c15050fc",
+			"metadataSha256": "e636f69996c2cf350320a67e3e12c71e99a52139edabb818e3a06a460eeb9e3a",
+			"selected": [
+				{
+					"referenceId": "terry-depth-low-target-medium-wave-knockdown",
+					"start": 557.6,
+					"end": 560.55,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-low-wave-jump-heavy-guard-od",
+					"start": 566.1,
+					"end": 568.85,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-first-hit-heavy-medium-charge",
+					"start": 574.25,
+					"end": 577.1,
+					"kind": "combo",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				},
+				{
+					"referenceId": "terry-depth-medium-charge-jump-medium-guard-od",
+					"start": 585.05,
+					"end": 587.7,
+					"kind": "response",
+					"selectedMoments": 4,
+					"disposition": "new-reviewed-selection"
+				}
+			],
+			"timelineSurvey": {
+				"interval": [0, 680],
+				"intervalSeconds": 6,
+				"status": "Every discovery sheet viewed; this coarse whole-timeline survey is not execution certification of unselected actions."
+			},
+			"fineReviewWindows": [
+				[557, 588, 0.5],
+				[565.8, 569, 0.1],
+				[584.8, 587.8, 0.1],
+				[557.65, 558.15, 0.05]
+			],
+			"executionReviewWindows": [
+				[557.6, 560.55],
+				[566.1, 568.85],
+				[574.25, 577.1],
+				[585.05, 587.7]
+			],
+			"unselectedSourceIntervals": [
+				[0, 557.6],
+				[560.55, 566.1],
+				[568.85, 574.25],
+				[577.1, 585.05],
+				[587.7, 680]
+			],
+			"unselectedIntervalStatus": "Not extracted; includes prerequisite prefixes, take margins, duplicates, excluded alternatives and explicit unprocessed candidates. No new recipe is certified in these gaps.",
+			"dispositions": [
+				{
+					"interval": [0, 122],
+					"status": "excluded-intro-and-gameplay-montage",
+					"note": "Ranked-play montage and introduction; not isolated reproducible training demonstrations."
+				},
+				{
+					"interval": [122, 557],
+					"status": "surveyed-unprocessed-execution-candidates",
+					"note": "Earlier +14/+22/+25/+27/+29/+30/+33/+37/+40 families surveyed at6s; many overlap Joe prerequisites. Distinct branches need finer execution/input/state review and remain unprocessed rather than claimed exhausted."
+				},
+				{
+					"interval": [557, 560.7],
+					"status": "reviewed-selection",
+					"note": "Actual low Fire-Kick target into medium Power Wave, recorded +41. Selected start widened before first low action, not after hit."
+				},
+				{
+					"interval": [560.7, 564.8],
+					"status": "excluded-duplicate-safejump-take",
+					"note": "Repeated +41 jump-heavy/OD-DP guard take; later clearer full-guard demonstration selected instead."
+				},
+				{
+					"interval": [564.8, 569.1],
+					"status": "reviewed-selection-with-prerequisite-context",
+					"note": "Low/Wave prerequisite plus actual forward-jump heavy punch landing guard against Akuma OD uppercut. Only follow-up jump/guard is authored."
+				},
+				{
+					"interval": [569.1, 573],
+					"status": "unprocessed-hit-branch",
+					"note": "Same +41 prerequisite into a counter-hit jumping-heavy-punch illustration. Not extracted or promoted to universal jump-in guarantee."
+				},
+				{
+					"interval": [573, 577.4],
+					"status": "reviewed-selection",
+					"note": "Standing-heavy first-hit cancel to normal medium Power Charge; recorded +42, no light-jab starter inferred."
+				},
+				{
+					"interval": [577.4, 584],
+					"status": "excluded-repeated-prerequisite-and-guard-take",
+					"note": "Repeated +42 prerequisite and guarded jump-medium-kick illustration. Clear OD-DP-response take selected separately; not counted as extra same-jump variant."
+				},
+				{
+					"interval": [584, 588],
+					"status": "reviewed-selection-with-prerequisite-context",
+					"note": "Actual +42 first-hit-heavy medium-Charge into jumping medium kick and grounded guard against Akuma OD uppercut. Live yellow kick identifies MK."
+				},
+				{
+					"interval": [588, 660],
+					"status": "surveyed-unprocessed-execution-candidates",
+					"note": "+44/+51/+55 families surveyed but not fully transcribed. Potential future oki/side-switch work remains explicit."
+				},
+				{
+					"interval": [660, 680],
+					"status": "excluded-outro",
+					"note": "Closing segment, no authored execution."
+				}
+			],
+			"remainingUnprocessedCandidateWindows": [
+				[122, 557],
+				[569.1, 573],
+				[588, 660]
+			],
+			"wholeSourceExtractionComplete": false
+		}
+	],
+	"approvedBaselineRevisions": [
+		{
+			"referenceId": "terry-midscreen-heavy-wave-knuckle",
+			"fromRevision": 1,
+			"toRevision": 2,
+			"reason": "Caption236KK plus simultaneous yellow/red kick, gold OD effect and Drive loss establish OD Power Charge; original236HK/noDrive was materially incorrect. Root independently confirmed and authorized the narrow revision.",
+			"unchanged": "ID, clip, JPEG bytes, source identity/cuts, selected at times, relatedIds.",
+			"changed": "Revision, PowerCharge notation/step2label/cue, Drive cost, summary, affectedframe2label/alt, verification/revision note, canonical text VTT."
+		},
+		{
+			"referenceId": "terry-corner-heavy-medium-crack",
+			"fromRevision": 1,
+			"toRevision": 2,
+			"reason": "Caption236KK plus simultaneous yellow/red kick, gold OD effect and Drive loss establish OD Power Charge; original236HK/noDrive was materially incorrect. Root independently confirmed and authorized the narrow revision.",
+			"unchanged": "ID, clip, JPEG bytes, source identity/cuts, selected at times, relatedIds.",
+			"changed": "Revision, PowerCharge notation/step2label/cue, Drive cost, summary, affectedframe2label/alt, verification/revision note, canonical text VTT."
+		}
+	],
+	"reviewEvidence": {
+		"allNewMomentAndExactEndpointBoards": ".local/depth/review/terry/",
+		"fullResolutionInputProofs": "/private/tmp/hyper-chamber-terry-glyph-proofs/",
+		"baselineODProofs": "/private/tmp/hyper-chamber-terry-baseline-probes/",
+		"baselinePreservation": ".local/depth/terry-baseline-verification.json",
+		"mechanicalAudit": ".local/depth/terry-media-audit.json"
+	},
+	"limits": [
+		"13 baseline objects remain exact. Two independently approved OD236KK revision2 corrections preserve all old clips/JPEGs/cuts/at/related IDs; only their canonical description text changes. Original Joe source metadata remains exact.",
+		"Knockdown options name exact prior starter/strength/location and advantage. Prior resource spend is excluded from follow-up-loop cost, never silently forgotten.",
+		"Source +F reports remaining advantage, not wait count. Intentional frame kills include whiff notation; genuine Crack-Shoot delays remain nonnumeric.",
+		"Burnout pressure starts against cornered three-drink Jamie in Burnout. Guarded opening actions and later counter-hit combos are distinct phases; no universal true-string or gap claim is inferred.",
+		"Slamugh +41/+42 landing guards are specifically demonstrated against Akuma OD uppercut, from the exact recorded knockdown and spacing; they do not establish universal reversal safety.",
+		"Dedicated neutral anti-air, anti-projectile, side-switch and Burnout-stun references remain gaps. A Tackle inside a ground-start juggle is not anti-air.",
+		"Companions still have explicitly unprocessed execution candidates. Whole-source extraction or full character completeness is not claimed.",
+		"Source review is not current-patch in-game validation. Source originals and review workfiles stay local; public redistribution is unassessed."
+	]
+}

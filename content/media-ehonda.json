@@ -1,6 +1,6 @@
 {
-	"sourceIds": ["joe-ebios-ehonda-2026"],
-	"publicationStatus": "private-development",
+	"sourceIds": ["joe-ebios-ehonda-2026", "ryuapprentice-ehonda-anti-air-2024"],
+	"publicationStatus": "public-repository",
 	"presentationNote": "Complete 1280×720 source frames retained without crop, including virtual inputs, meters and source overlays. Full original remains local.",
 	"assets": [
 		{
@@ -117,6 +117,339 @@
 			"sourceStart": 1390.85,
 			"sourceEnd": 1400.35,
 			"clip": "/media/ehonda/ehonda-corner-counter-di-lift-headbutt/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-headbutt-rush-medium",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 8.65,
+			"sourceEnd": 13.0,
+			"clip": "/media/ehonda/ehonda-depth-headbutt-rush-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-headbutt-corner-overhead",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 20.65,
+			"sourceEnd": 25.25,
+			"clip": "/media/ehonda/ehonda-depth-headbutt-corner-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-headbutt-ryu-dp-bait",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 28.55,
+			"sourceEnd": 34.55,
+			"clip": "/media/ehonda/ehonda-depth-headbutt-ryu-dp-bait/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-headbutt-corner-di-reset",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 48.0,
+			"sourceEnd": 51.1,
+			"clip": "/media/ehonda/ehonda-depth-headbutt-corner-di-reset/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-headbutt-shimmy",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 64.55,
+			"sourceEnd": 72.45,
+			"clip": "/media/ehonda/ehonda-depth-headbutt-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-headbutt-meaty-medium",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 75.5,
+			"sourceEnd": 82.0,
+			"clip": "/media/ehonda/ehonda-depth-headbutt-meaty-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-headbutt-blocked-meaty-oicho",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 84.6,
+			"sourceEnd": 89.1,
+			"clip": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-oicho/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-headbutt-blocked-meaty-low",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 92.0,
+			"sourceEnd": 96.4,
+			"clip": "/media/ehonda/ehonda-depth-headbutt-blocked-meaty-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-smash-meaty-overhead",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 109.35,
+			"sourceEnd": 113.45,
+			"clip": "/media/ehonda/ehonda-depth-smash-meaty-overhead/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-smash-ryu-dp-bait",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 116.5,
+			"sourceEnd": 122.35,
+			"clip": "/media/ehonda/ehonda-depth-smash-ryu-dp-bait/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-smash-jab-kill-normal-throw",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 143.85,
+			"sourceEnd": 148.1,
+			"clip": "/media/ehonda/ehonda-depth-smash-jab-kill-normal-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-smash-jab-kill-shimmy",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 158.05,
+			"sourceEnd": 165.2,
+			"clip": "/media/ehonda/ehonda-depth-smash-jab-kill-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-smash-jab-kill-medium-target",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 168.0,
+			"sourceEnd": 173.45,
+			"clip": "/media/ehonda/ehonda-depth-smash-jab-kill-medium-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-delayed-smash-overhead-oicho",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 198.3,
+			"sourceEnd": 202.9,
+			"clip": "/media/ehonda/ehonda-depth-delayed-smash-overhead-oicho/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-spirit-target-headbutt",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 358.05,
+			"sourceEnd": 363.45,
+			"clip": "/media/ehonda/ehonda-depth-spirit-target-headbutt/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-pc-jab-medium-smash",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 365.55,
+			"sourceEnd": 369.35,
+			"clip": "/media/ehonda/ehonda-depth-pc-jab-medium-smash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-pc-jab-heavy-lift-smash",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 371.65,
+			"sourceEnd": 376.5,
+			"clip": "/media/ehonda/ehonda-depth-pc-jab-heavy-lift-smash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-low-medium-jab-smash",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 386.05,
+			"sourceEnd": 390.55,
+			"clip": "/media/ehonda/ehonda-depth-low-medium-jab-smash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-spirit-low-od-hands-target",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 394.05,
+			"sourceEnd": 400.65,
+			"clip": "/media/ehonda/ehonda-depth-spirit-low-od-hands-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-medium-target-slaps",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 407.25,
+			"sourceEnd": 412.65,
+			"clip": "/media/ehonda/ehonda-depth-medium-target-slaps/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-medium-od-hands-lights-smash",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 413.05,
+			"sourceEnd": 418.4,
+			"clip": "/media/ehonda/ehonda-depth-medium-od-hands-lights-smash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-medium-double-rush-level-three",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 426.25,
+			"sourceEnd": 437.55,
+			"clip": "/media/ehonda/ehonda-depth-medium-double-rush-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-pc-medium-heavy-lift",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 458.6,
+			"sourceEnd": 464.55,
+			"clip": "/media/ehonda/ehonda-depth-pc-medium-heavy-lift/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-pc-medium-headbutt",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 465.35,
+			"sourceEnd": 469.55,
+			"clip": "/media/ehonda/ehonda-depth-pc-medium-headbutt/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-counter-medium-od-lift",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 470.65,
+			"sourceEnd": 475.5,
+			"clip": "/media/ehonda/ehonda-depth-counter-medium-od-lift/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-normal-heavy-lift-smash",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 480.4,
+			"sourceEnd": 486.45,
+			"clip": "/media/ehonda/ehonda-depth-normal-heavy-lift-smash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-pc-heavy-raw-rush-lift",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 493.65,
+			"sourceEnd": 500.55,
+			"clip": "/media/ehonda/ehonda-depth-pc-heavy-raw-rush-lift/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-heavy-kick-lift-smash",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 501.25,
+			"sourceEnd": 506.55,
+			"clip": "/media/ehonda/ehonda-depth-heavy-kick-lift-smash/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-forward-throw-rush-low",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 755.6,
+			"sourceEnd": 758.6,
+			"clip": "/media/ehonda/ehonda-depth-forward-throw-rush-low/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-forward-throw-walk-medium",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 761.25,
+			"sourceEnd": 765.55,
+			"clip": "/media/ehonda/ehonda-depth-forward-throw-walk-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-back-throw-dash-light-oicho",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 777.9,
+			"sourceEnd": 782.55,
+			"clip": "/media/ehonda/ehonda-depth-back-throw-dash-light-oicho/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-back-throw-dash-target",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 785.1,
+			"sourceEnd": 788.55,
+			"clip": "/media/ehonda/ehonda-depth-back-throw-dash-target/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-back-throw-rush-throw",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 791.25,
+			"sourceEnd": 796.55,
+			"clip": "/media/ehonda/ehonda-depth-back-throw-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-wall-splat-heavy-kick-lift",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 1401.65,
+			"sourceEnd": 1409.1,
+			"clip": "/media/ehonda/ehonda-depth-wall-splat-heavy-kick-lift/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-drive-reversal-heavy-oicho",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 1411.55,
+			"sourceEnd": 1416.65,
+			"clip": "/media/ehonda/ehonda-depth-drive-reversal-heavy-oicho/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-heavy-kick-side-switch-super",
+			"sourceId": "joe-ebios-ehonda-2026",
+			"sourceStart": 1431.35,
+			"sourceEnd": 1441.65,
+			"clip": "/media/ehonda/ehonda-depth-heavy-kick-side-switch-super/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "ehonda-depth-anti-air-od-dash-reset",
+			"sourceId": "ryuapprentice-ehonda-anti-air-2024",
+			"sourceStart": 119.65,
+			"sourceEnd": 122.1,
+			"clip": "/media/ehonda/ehonda-depth-anti-air-od-dash-reset/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

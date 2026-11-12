@@ -1,0 +1,2963 @@
+{
+	"characterId": "cammy",
+	"reviewedOn": "2026-11-12",
+	"baselineCommit": "929ff0b3a73080697e644b976960866c6ec1c781",
+	"baselineReferenceCount": 15,
+	"newReferenceCount": 58,
+	"totalReferenceCount": 73,
+	"kinds": {
+		"combo": 29,
+		"setup": 35,
+		"response": 9
+	},
+	"verification": {
+		"status": "source-reviewed",
+		"gameVersion": null,
+		"currentPatchTested": false
+	},
+	"scopeNote": "Deep practical extraction with explicit remaining alternatives. Full discovery review is separate from detailed performed-action and exported-media review. No claim that useful footage is exhausted, and no count cap. Family locators may overlap exact extraction rows.",
+	"sources": {
+		"joe-ebios-cammy-beginner-2026": {
+			"youtubeId": "B6ceWgQ2t3Q",
+			"title": "SF6 CAMMY Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=B6ceWgQ2t3Q",
+			"published": "2026-07-01",
+			"duration": 332,
+			"recordingSha256": "20e4a8e646c1ce00828e8274120f463e896bbf5a948ea26a1bad8323240a3130",
+			"metadataSha256": "9dcb36bda82beb06d0eb74e7b49d6e810440bd7b8183512e71931122b1ba130e",
+			"chapters": null,
+			"availabilityVerified": true,
+			"discoveryReview": {
+				"interval": [0, 332],
+				"method": "Full-guide 3-second contact-sheet survey visually inspected across all 21 pages; starter source inventory plus selected 2-fps review; short anti-air replay inspected at 4 fps. Detailed action review is limited to authored intervals and explicitly listed probes."
+			},
+			"extractedReferenceIds": [
+				"cammy-ebios-light-medium-arrow",
+				"cammy-ebios-low-rush-lift-arrow-spike",
+				"cammy-ebios-crouching-heavy-medium-heavy-arrow",
+				"cammy-ebios-corner-forward-throw-walk-throw",
+				"cammy-ebios-throw-whiff-back-heavy-air-level-one",
+				"cammy-ebios-drive-reversal-medium-heavy-arrow",
+				"cammy-ebios-corner-drive-reversal-target-arrow-spike",
+				"cammy-ebios-heavy-punish-knuckle-jab-arrow",
+				"cammy-ebios-blocked-dp-crouching-heavy-arrow",
+				"cammy-ebios-blocked-dp-back-heavy-knuckle-level-one",
+				"cammy-ebios-corner-blocked-dp-arrow-heavy-spike",
+				"cammy-ebios-counter-di-air-medium-heavy-strike",
+				"cammy-ebios-counter-di-held-arrow-level-one-switch",
+				"cammy-ebios-wall-splat-knuckle-spike-jab-timing",
+				"cammy-ebios-low-double-rush-held-spike-level-three",
+				"cammy-depth-medium-arrow-dash-delayed-throw",
+				"cammy-depth-medium-arrow-dash-shimmy",
+				"cammy-depth-medium-arrow-dash-medium-block-reversal",
+				"cammy-depth-medium-arrow-dash-medium-heavy",
+				"cammy-depth-medium-arrow-dash-walk-low",
+				"cammy-depth-corner-medium-arrow-low-kill-reversal",
+				"cammy-depth-corner-medium-arrow-low-kill-heavy",
+				"cammy-depth-corner-medium-arrow-low-kill-low",
+				"cammy-depth-corner-medium-arrow-low-kill-throw",
+				"cammy-depth-corner-medium-arrow-low-kill-shimmy",
+				"cammy-depth-corner-medium-arrow-back-medium-strike",
+				"cammy-depth-corner-medium-arrow-di-reset",
+				"cammy-depth-corner-medium-arrow-od-knuckle-switch",
+				"cammy-depth-low-rush-heavy-arrow",
+				"cammy-depth-heavy-arrow-dash-heavy-reversal",
+				"cammy-depth-heavy-arrow-dash-heavy-confirm",
+				"cammy-depth-heavy-arrow-dash-walk-low",
+				"cammy-depth-heavy-arrow-dash-delayed-throw",
+				"cammy-depth-heavy-arrow-dash-shimmy",
+				"cammy-depth-corner-throw-walk-shimmy",
+				"cammy-depth-corner-throw-walk-medium",
+				"cammy-depth-corner-counter-di-held-arrow-spike"
+			]
+		},
+		"joe-ebios-cammy-indepth-june-2026": {
+			"youtubeId": "XIZbb7en5RQ",
+			"title": "Classic CAMMY Combos & Setup Guide IN-DEPTH【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=XIZbb7en5RQ",
+			"published": "2026-06-29",
+			"duration": 1094,
+			"recordingSha256": "3f245a273a9e208b17e2664ccaaebd25de59115da4432a23d5630b60ae247888",
+			"metadataSha256": "d370b20927648e1dc9df781f7404f21d1d28d72efe4ede5241357a06fefb1cb7",
+			"chapters": [
+				{
+					"start_time": 0,
+					"title": "Introduction to combos",
+					"end_time": 149
+				},
+				{
+					"start_time": 149,
+					"title": "Mid-range pressure techniques",
+					"end_time": 294
+				},
+				{
+					"start_time": 294,
+					"title": "Drive gauge management",
+					"end_time": 448
+				},
+				{
+					"start_time": 448,
+					"title": "Corner pressure and mixups",
+					"end_time": 644
+				},
+				{
+					"start_time": 644,
+					"title": "Counter-attack and punish",
+					"end_time": 813
+				},
+				{
+					"start_time": 813,
+					"title": "Optimization and mastery",
+					"end_time": 1094
+				}
+			],
+			"availabilityVerified": true,
+			"discoveryReview": {
+				"interval": [0, 1094],
+				"method": "Full-guide 3-second contact-sheet survey visually inspected across all 21 pages; starter source inventory plus selected 2-fps review; short anti-air replay inspected at 4 fps. Detailed action review is limited to authored intervals and explicitly listed probes."
+			},
+			"extractedReferenceIds": [
+				"cammy-depth-crossup-light-lift-air-strike",
+				"cammy-depth-air-strike-dash-walk-throw",
+				"cammy-depth-air-strike-dash-shimmy",
+				"cammy-depth-air-strike-dash-heavy-reversal",
+				"cammy-depth-air-strike-dash-heavy-target",
+				"cammy-depth-counterhit-jab-medium-arrow",
+				"cammy-depth-lights-double-rush-level-three",
+				"cammy-depth-medium-light-kick-arrow",
+				"cammy-depth-standing-low-rush-back-heavy-arrow-spike",
+				"cammy-depth-low-rush-light-knuckle-safe-jump",
+				"cammy-depth-low-rush-knuckle-level-one",
+				"cammy-depth-low-rush-medium-arrow-safe-jump",
+				"cammy-depth-low-rush-lift-air-strike",
+				"cammy-depth-low-rush-heavy-knuckle-side-switch",
+				"cammy-depth-low-rush-heavy-target-medium-arrow",
+				"cammy-depth-air-medium-super-two-to-one",
+				"cammy-depth-target-arrow-rush-throw",
+				"cammy-depth-target-arrow-rush-shimmy",
+				"cammy-depth-target-arrow-rush-heavy-counterhit",
+				"cammy-depth-corner-target-arrow-hooligan-kick-throw",
+				"cammy-depth-corner-target-arrow-hooligan-kick-shimmy",
+				"cammy-depth-corner-target-arrow-hooligan-kick-hit",
+				"cammy-depth-corner-target-arrow-hooligan-empty-dp",
+				"cammy-depth-corner-target-arrow-hooligan-delayed-throw",
+				"cammy-depth-low-double-rush-level-two",
+				"cammy-depth-target-hooligan-slide-throw",
+				"cammy-depth-target-hooligan-slide-shimmy",
+				"cammy-depth-heavy-target-hooligan-downward-kick",
+				"cammy-depth-standing-heavy-arrow",
+				"cammy-depth-blocked-dp-back-heavy-rush-carry",
+				"cammy-depth-corner-blocked-dp-heavy-rush-spike",
+				"cammy-depth-sweep-pc-timing-dive-throw",
+				"cammy-depth-sweep-pc-timing-dive-shimmy",
+				"cammy-depth-sweep-pc-timing-dive-heavy-target",
+				"cammy-depth-forward-heavy-pc-knuckle-level-one",
+				"cammy-depth-od-hooligan-pc-throw-level-three"
+			]
+		},
+		"dillyverde-cammy-anti-air-2024": {
+			"youtubeId": "20mUS0SJhK0",
+			"title": "Cammy Anti-Air Combo",
+			"creator": "dillyVerde",
+			"url": "https://www.youtube.com/watch?v=20mUS0SJhK0",
+			"published": "2024-04-14",
+			"duration": 19,
+			"recordingSha256": "85810bc61a62c75ac9f0b208eb6e7f5fbbbd363203b42a4bc16dcd8397a4f665",
+			"metadataSha256": "0e1983e4274718ef4cff79b260f6dc37cd99707c884a7b20e65eced624042585",
+			"chapters": null,
+			"availabilityVerified": true,
+			"discoveryReview": {
+				"interval": [0, 19],
+				"method": "Full-guide 3-second contact-sheet survey visually inspected across all 21 pages; starter source inventory plus selected 2-fps review; short anti-air replay inspected at 4 fps. Detailed action review is limited to authored intervals and explicitly listed probes."
+			},
+			"extractedReferenceIds": []
+		}
+	},
+	"references": [
+		{
+			"id": "cammy-ebios-light-medium-arrow",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 0.7,
+			"end": 4.65,
+			"moments": 3
+		},
+		{
+			"id": "cammy-ebios-low-rush-lift-arrow-spike",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 170.15,
+			"end": 175.85,
+			"moments": 4
+		},
+		{
+			"id": "cammy-ebios-crouching-heavy-medium-heavy-arrow",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 184.1,
+			"end": 186.95,
+			"moments": 3
+		},
+		{
+			"id": "cammy-ebios-corner-forward-throw-walk-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 189.1,
+			"end": 194.95,
+			"moments": 4
+		},
+		{
+			"id": "cammy-ebios-throw-whiff-back-heavy-air-level-one",
+			"kind": "response",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 215.1,
+			"end": 223.35,
+			"moments": 4
+		},
+		{
+			"id": "cammy-ebios-drive-reversal-medium-heavy-arrow",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 224.25,
+			"end": 228.35,
+			"moments": 4
+		},
+		{
+			"id": "cammy-ebios-corner-drive-reversal-target-arrow-spike",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 230.1,
+			"end": 235.85,
+			"moments": 5
+		},
+		{
+			"id": "cammy-ebios-heavy-punish-knuckle-jab-arrow",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 238.25,
+			"end": 242.4,
+			"moments": 4
+		},
+		{
+			"id": "cammy-ebios-blocked-dp-crouching-heavy-arrow",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 251.3,
+			"end": 255.25,
+			"moments": 4
+		},
+		{
+			"id": "cammy-ebios-blocked-dp-back-heavy-knuckle-level-one",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 257.35,
+			"end": 265.65,
+			"moments": 5
+		},
+		{
+			"id": "cammy-ebios-corner-blocked-dp-arrow-heavy-spike",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 267.2,
+			"end": 272.4,
+			"moments": 4
+		},
+		{
+			"id": "cammy-ebios-counter-di-air-medium-heavy-strike",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 274.25,
+			"end": 281.85,
+			"moments": 5
+		},
+		{
+			"id": "cammy-ebios-counter-di-held-arrow-level-one-switch",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 283.3,
+			"end": 293.9,
+			"moments": 5
+		},
+		{
+			"id": "cammy-ebios-wall-splat-knuckle-spike-jab-timing",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 305.05,
+			"end": 310.45,
+			"moments": 4
+		},
+		{
+			"id": "cammy-ebios-low-double-rush-held-spike-level-three",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 311.15,
+			"end": 326.3,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-medium-arrow-dash-delayed-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 11.1,
+			"end": 14.9,
+			"moments": 3
+		},
+		{
+			"id": "cammy-depth-medium-arrow-dash-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 17.6,
+			"end": 22.7,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-medium-arrow-dash-medium-block-reversal",
+			"kind": "response",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 25.7,
+			"end": 28.5,
+			"moments": 3
+		},
+		{
+			"id": "cammy-depth-medium-arrow-dash-medium-heavy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 31.15,
+			"end": 35.45,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-medium-arrow-dash-walk-low",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 37.9,
+			"end": 41.9,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-corner-medium-arrow-low-kill-reversal",
+			"kind": "response",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 49.45,
+			"end": 52.6,
+			"moments": 3
+		},
+		{
+			"id": "cammy-depth-corner-medium-arrow-low-kill-heavy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 55.15,
+			"end": 60.6,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-corner-medium-arrow-low-kill-low",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 63.55,
+			"end": 67.45,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-corner-medium-arrow-low-kill-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 69.65,
+			"end": 73.85,
+			"moments": 3
+		},
+		{
+			"id": "cammy-depth-corner-medium-arrow-low-kill-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 76.35,
+			"end": 81.9,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-corner-medium-arrow-back-medium-strike",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 104.1,
+			"end": 107.9,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-corner-medium-arrow-di-reset",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 110.45,
+			"end": 114.3,
+			"moments": 3
+		},
+		{
+			"id": "cammy-depth-corner-medium-arrow-od-knuckle-switch",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 116.35,
+			"end": 120.9,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-low-rush-heavy-arrow",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 121.9,
+			"end": 126.35,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-heavy-arrow-dash-heavy-reversal",
+			"kind": "response",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 134.55,
+			"end": 138.05,
+			"moments": 3
+		},
+		{
+			"id": "cammy-depth-heavy-arrow-dash-heavy-confirm",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 141.25,
+			"end": 145.65,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-heavy-arrow-dash-walk-low",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 149.1,
+			"end": 153.2,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-heavy-arrow-dash-delayed-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 156.65,
+			"end": 160.95,
+			"moments": 3
+		},
+		{
+			"id": "cammy-depth-heavy-arrow-dash-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 164.15,
+			"end": 169.5,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-corner-throw-walk-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 198.25,
+			"end": 204.25,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-corner-throw-walk-medium",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 207.2,
+			"end": 211.5,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-corner-counter-di-held-arrow-spike",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"start": 295.1,
+			"end": 302.3,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-crossup-light-lift-air-strike",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 149.65,
+			"end": 154.55,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-air-strike-dash-walk-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 161.15,
+			"end": 165.7,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-air-strike-dash-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 168.3,
+			"end": 173.65,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-air-strike-dash-heavy-reversal",
+			"kind": "response",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 175.95,
+			"end": 179.4,
+			"moments": 3
+		},
+		{
+			"id": "cammy-depth-air-strike-dash-heavy-target",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 181.5,
+			"end": 187.65,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-counterhit-jab-medium-arrow",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 195.35,
+			"end": 198.65,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-lights-double-rush-level-three",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 295.25,
+			"end": 310.9,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-medium-light-kick-arrow",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 313.65,
+			"end": 315.8,
+			"moments": 3
+		},
+		{
+			"id": "cammy-depth-standing-low-rush-back-heavy-arrow-spike",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 317.85,
+			"end": 323.35,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-low-rush-light-knuckle-safe-jump",
+			"kind": "response",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 335.3,
+			"end": 340.9,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-low-rush-knuckle-level-one",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 353.85,
+			"end": 361.45,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-low-rush-medium-arrow-safe-jump",
+			"kind": "response",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 362.25,
+			"end": 368.4,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-low-rush-lift-air-strike",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 369.15,
+			"end": 372.4,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-low-rush-heavy-knuckle-side-switch",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 380.75,
+			"end": 384.8,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-low-rush-heavy-target-medium-arrow",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 391.05,
+			"end": 396.4,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-air-medium-super-two-to-one",
+			"kind": "response",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 697.75,
+			"end": 709.7,
+			"moments": 6
+		},
+		{
+			"id": "cammy-depth-target-arrow-rush-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 400.85,
+			"end": 405.6,
+			"moments": 3
+		},
+		{
+			"id": "cammy-depth-target-arrow-rush-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 410.1,
+			"end": 415.85,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-target-arrow-rush-heavy-counterhit",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 420.05,
+			"end": 425.85,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-corner-target-arrow-hooligan-kick-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 443.0,
+			"end": 448.4,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-corner-target-arrow-hooligan-kick-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 452.8,
+			"end": 459.0,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-corner-target-arrow-hooligan-kick-hit",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 463.55,
+			"end": 469.35,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-corner-target-arrow-hooligan-empty-dp",
+			"kind": "response",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 473.85,
+			"end": 477.65,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-corner-target-arrow-hooligan-delayed-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 481.6,
+			"end": 485.65,
+			"moments": 3
+		},
+		{
+			"id": "cammy-depth-low-double-rush-level-two",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 496.8,
+			"end": 506.95,
+			"moments": 6
+		},
+		{
+			"id": "cammy-depth-target-hooligan-slide-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 731.6,
+			"end": 736.2,
+			"moments": 4
+		},
+		{
+			"id": "cammy-depth-target-hooligan-slide-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 739.15,
+			"end": 744.75,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-heavy-target-hooligan-downward-kick",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 745.2,
+			"end": 753.2,
+			"moments": 6
+		},
+		{
+			"id": "cammy-depth-standing-heavy-arrow",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 775.1,
+			"end": 777.3,
+			"moments": 3
+		},
+		{
+			"id": "cammy-depth-blocked-dp-back-heavy-rush-carry",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 802.25,
+			"end": 809.65,
+			"moments": 6
+		},
+		{
+			"id": "cammy-depth-corner-blocked-dp-heavy-rush-spike",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 810.25,
+			"end": 816.7,
+			"moments": 6
+		},
+		{
+			"id": "cammy-depth-sweep-pc-timing-dive-throw",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 925.5,
+			"end": 930.45,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-sweep-pc-timing-dive-shimmy",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 932.35,
+			"end": 937.95,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-sweep-pc-timing-dive-heavy-target",
+			"kind": "setup",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 939.45,
+			"end": 944.65,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-forward-heavy-pc-knuckle-level-one",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 949.55,
+			"end": 956.75,
+			"moments": 5
+		},
+		{
+			"id": "cammy-depth-od-hooligan-pc-throw-level-three",
+			"kind": "combo",
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"start": 957.8,
+			"end": 971.35,
+			"moments": 5
+		}
+	],
+	"candidateIntervals": [
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 0.7,
+			"locatorEnd": 4.65,
+			"family": "Two jabs and light kick into medium Arrow",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-light-medium-arrow"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 170.15,
+			"locatorEnd": 175.85,
+			"family": "Low Rush: Lift Combination into Arrow and Spike",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-low-rush-lift-arrow-spike"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 184.1,
+			"locatorEnd": 186.95,
+			"family": "Crouching heavy into medium and heavy Arrow",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-crouching-heavy-medium-heavy-arrow"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 189.1,
+			"locatorEnd": 194.95,
+			"family": "Corner throw: walk into another throw attempt",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-corner-forward-throw-walk-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 215.1,
+			"locatorEnd": 223.35,
+			"family": "Throw whiff: back-heavy air catch into Level 1",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-throw-whiff-back-heavy-air-level-one"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 224.25,
+			"locatorEnd": 228.35,
+			"family": "Drive Reversal punish: medium into heavy Arrow",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-drive-reversal-medium-heavy-arrow"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 230.1,
+			"locatorEnd": 235.85,
+			"family": "Corner Drive Reversal punish: target combo into Arrow and Spike",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-corner-drive-reversal-target-arrow-spike"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 238.25,
+			"locatorEnd": 242.4,
+			"family": "Throw-whiff punish: heavy Knuckle into jab and Arrow",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-heavy-punish-knuckle-jab-arrow"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 251.3,
+			"locatorEnd": 255.25,
+			"family": "Blocked reversal: crouching heavy into heavy Arrow",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-blocked-dp-crouching-heavy-arrow"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 257.35,
+			"locatorEnd": 265.65,
+			"family": "Blocked reversal: back-heavy juggle into Level 1",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-blocked-dp-back-heavy-knuckle-level-one"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 267.2,
+			"locatorEnd": 272.4,
+			"family": "Corner reversal punish: back heavy, Arrow and heavy Spike",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-corner-blocked-dp-arrow-heavy-spike"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 274.25,
+			"locatorEnd": 281.85,
+			"family": "Counter DI: Lift Combination into air medium and Strike",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-counter-di-air-medium-heavy-strike"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 283.3,
+			"locatorEnd": 293.9,
+			"family": "Counter DI: held heavy Arrow into Level 1 side switch",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-counter-di-held-arrow-level-one-switch"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 305.05,
+			"locatorEnd": 310.45,
+			"family": "Blocked DI wall splat: Knuckle, Spike and jab timing",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-wall-splat-knuckle-spike-jab-timing"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 311.15,
+			"locatorEnd": 326.3,
+			"family": "Low confirm cash-out: two Rush cancels into Level 3",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-ebios-low-double-rush-held-spike-level-three"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 11.1,
+			"locatorEnd": 14.9,
+			"family": "Medium Arrow: dash and delayed throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-medium-arrow-dash-delayed-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 17.6,
+			"locatorEnd": 22.7,
+			"family": "Medium Arrow: dash shimmy",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-medium-arrow-dash-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 25.7,
+			"locatorEnd": 28.5,
+			"family": "Medium Arrow: meaty medium and block Drive Reversal",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-medium-arrow-dash-medium-block-reversal"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 31.15,
+			"locatorEnd": 35.45,
+			"family": "Medium Arrow: dash medium into heavy Arrow",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-medium-arrow-dash-medium-heavy"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 37.9,
+			"locatorEnd": 41.9,
+			"family": "Medium Arrow: dash, walk and low lights",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-medium-arrow-dash-walk-low"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 49.45,
+			"locatorEnd": 52.6,
+			"family": "Corner medium Arrow: low-kick timing and reversal block",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-medium-arrow-low-kill-reversal"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 55.15,
+			"locatorEnd": 60.6,
+			"family": "Corner medium Arrow: low-kick timing into target juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-medium-arrow-low-kill-heavy"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 63.55,
+			"locatorEnd": 67.45,
+			"family": "Corner medium Arrow: timing kick into delayed low",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-medium-arrow-low-kill-low"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 69.65,
+			"locatorEnd": 73.85,
+			"family": "Corner medium Arrow: timing kick into delayed throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-medium-arrow-low-kill-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 76.35,
+			"locatorEnd": 81.9,
+			"family": "Corner medium Arrow: low-kick timing into shimmy",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-medium-arrow-low-kill-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 104.1,
+			"locatorEnd": 107.9,
+			"family": "Corner medium Arrow: back-medium timing into short confirm",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-medium-arrow-back-medium-strike"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 110.45,
+			"locatorEnd": 114.3,
+			"family": "Corner medium Arrow: wake-up DI reset",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-medium-arrow-di-reset"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 116.35,
+			"locatorEnd": 120.9,
+			"family": "Corner medium Arrow: OD Knuckle into side-switch reset",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-medium-arrow-od-knuckle-switch"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 121.9,
+			"locatorEnd": 126.35,
+			"family": "Low Rush confirm into heavy Arrow",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-low-rush-heavy-arrow"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 134.55,
+			"locatorEnd": 138.05,
+			"family": "Heavy Arrow: dash heavy and block Drive Reversal",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-heavy-arrow-dash-heavy-reversal"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 141.25,
+			"locatorEnd": 145.65,
+			"family": "Heavy Arrow: dash into crouching-heavy confirm",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-heavy-arrow-dash-heavy-confirm"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 149.1,
+			"locatorEnd": 153.2,
+			"family": "Heavy Arrow: dash and walk into low lights",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-heavy-arrow-dash-walk-low"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 156.65,
+			"locatorEnd": 160.95,
+			"family": "Heavy Arrow: dash and delayed throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-heavy-arrow-dash-delayed-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 164.15,
+			"locatorEnd": 169.5,
+			"family": "Heavy Arrow: dash shimmy into Knuckle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-heavy-arrow-dash-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 198.25,
+			"locatorEnd": 204.25,
+			"family": "Corner throw: walk-in shimmy",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-throw-walk-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 207.2,
+			"locatorEnd": 211.5,
+			"family": "Corner throw: walk into medium and light kick",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-throw-walk-medium"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 295.1,
+			"locatorEnd": 302.3,
+			"family": "Corner counter DI: Lift into held Arrow and heavy Spike",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-counter-di-held-arrow-spike"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 149.65,
+			"locatorEnd": 154.55,
+			"family": "Cross-up light kick into Lift and air Strike",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-crossup-light-lift-air-strike"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 161.15,
+			"locatorEnd": 165.7,
+			"family": "Air Strike: dash, walk and throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-air-strike-dash-walk-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 168.3,
+			"locatorEnd": 173.65,
+			"family": "Air Strike: dash shimmy into Knuckle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-air-strike-dash-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 175.95,
+			"locatorEnd": 179.4,
+			"family": "Air Strike: crouching-heavy meaty and reversal block",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-air-strike-dash-heavy-reversal"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 181.5,
+			"locatorEnd": 187.65,
+			"family": "Air Strike: dash heavy into corner juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-air-strike-dash-heavy-target"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 195.35,
+			"locatorEnd": 198.65,
+			"family": "Counter-hit jab into crouching medium and heavy Arrow",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-counterhit-jab-medium-arrow"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 295.25,
+			"locatorEnd": 310.9,
+			"family": "Light confirm: double-Rush Level 3 cash-out",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-lights-double-rush-level-three"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 313.65,
+			"locatorEnd": 315.8,
+			"family": "Standing medium into light kick and medium Arrow",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-medium-light-kick-arrow"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 317.85,
+			"locatorEnd": 323.35,
+			"family": "Standing-target low Rush: back heavy into Arrow and Spike",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-standing-low-rush-back-heavy-arrow-spike"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 335.3,
+			"locatorEnd": 340.9,
+			"family": "Low Rush: light Knuckle into timing-kick safe jump",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-low-rush-light-knuckle-safe-jump"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 353.85,
+			"locatorEnd": 361.45,
+			"family": "Low Rush: back-heavy Knuckle into Level 1",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-low-rush-knuckle-level-one"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 362.25,
+			"locatorEnd": 368.4,
+			"family": "Low Rush: back-heavy medium Arrow into DP-safe jump",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-low-rush-medium-arrow-safe-jump"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 369.15,
+			"locatorEnd": 372.4,
+			"family": "Low Rush: Lift Combination into air Strike",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-low-rush-lift-air-strike"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 380.75,
+			"locatorEnd": 384.8,
+			"family": "Low Rush: crouching-heavy launch into Knuckle side switch",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-low-rush-heavy-knuckle-side-switch"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 391.05,
+			"locatorEnd": 396.4,
+			"family": "Low Rush: heavy target into medium-Arrow knockdown",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-low-rush-heavy-target-medium-arrow"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 697.75,
+			"locatorEnd": 709.7,
+			"family": "Air-to-air medium: Level 2 into Rush juggles and Level 1",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-air-medium-super-two-to-one"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 400.85,
+			"locatorEnd": 405.6,
+			"family": "Target Arrow: Rush into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-target-arrow-rush-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 410.1,
+			"locatorEnd": 415.85,
+			"family": "Target Arrow: Rush shimmy into Knuckle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-target-arrow-rush-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 420.05,
+			"locatorEnd": 425.85,
+			"family": "Target Arrow: Rush heavy catches wake-up jab",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-target-arrow-rush-heavy-counterhit"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 443.0,
+			"locatorEnd": 448.4,
+			"family": "Corner target Arrow: blocked Hooligan kick into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-target-arrow-hooligan-kick-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 452.8,
+			"locatorEnd": 459.0,
+			"family": "Corner target Arrow: Hooligan kick shimmy",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-target-arrow-hooligan-kick-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 463.55,
+			"locatorEnd": 469.35,
+			"family": "Corner target Arrow: Hooligan kick hit confirm",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-target-arrow-hooligan-kick-hit"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 473.85,
+			"locatorEnd": 477.65,
+			"family": "Corner target Arrow: empty Hooligan blocks DP",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-target-arrow-hooligan-empty-dp"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 481.6,
+			"locatorEnd": 485.65,
+			"family": "Corner target Arrow: delayed Hooligan command throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-target-arrow-hooligan-delayed-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 496.8,
+			"locatorEnd": 506.95,
+			"family": "Low confirm: double-Rush Level 2 finish",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-low-double-rush-level-two"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 731.6,
+			"locatorEnd": 736.2,
+			"family": "Heavy target: Hooligan slide into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-target-hooligan-slide-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 739.15,
+			"locatorEnd": 744.75,
+			"family": "Heavy target: blocked Hooligan slide shimmy",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-target-hooligan-slide-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 745.2,
+			"locatorEnd": 753.2,
+			"family": "Heavy target: Hooligan downward kick into corner juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-heavy-target-hooligan-downward-kick"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 775.1,
+			"locatorEnd": 777.3,
+			"family": "Standing heavy into heavy Arrow",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-standing-heavy-arrow"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 802.25,
+			"locatorEnd": 809.65,
+			"family": "Blocked DP: back-heavy raw-Rush carry",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-blocked-dp-back-heavy-rush-carry"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 810.25,
+			"locatorEnd": 816.7,
+			"family": "Blocked DP: heavy link into Arrow and Spike carry",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-corner-blocked-dp-heavy-rush-spike"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 925.5,
+			"locatorEnd": 930.45,
+			"family": "PC sweep: timing jab and dive kick into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-sweep-pc-timing-dive-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 932.35,
+			"locatorEnd": 937.95,
+			"family": "PC sweep: blocked dive-kick shimmy",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-sweep-pc-timing-dive-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 939.45,
+			"locatorEnd": 944.65,
+			"family": "PC sweep: dive-kick hit into heavy target",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-sweep-pc-timing-dive-heavy-target"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 949.55,
+			"locatorEnd": 956.75,
+			"family": "Forward-heavy PC: light Knuckle into Level 1",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-forward-heavy-pc-knuckle-level-one"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 957.8,
+			"locatorEnd": 971.35,
+			"family": "OD Hooligan PC throw into Level 3",
+			"disposition": "covered",
+			"reason": "Exact authored extraction; catalog carries reviewed commands, bounds, conditions and selected moments.",
+			"referenceIds": ["cammy-depth-od-hooligan-pc-throw-level-three"]
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 4.65,
+			"locatorEnd": 11.1,
+			"family": "Medium-Arrow bare dash alignment",
+			"disposition": "excluded",
+			"reason": "Timing-only context before the authored practical branches.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 42,
+			"locatorEnd": 49.45,
+			"family": "Corner whiff-low-kick alignment",
+			"disposition": "excluded",
+			"reason": "Timing-only demonstration; complete reversal/strike/low/throw/shimmy branches are authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 82,
+			"locatorEnd": 104.1,
+			"family": "Corner medium-Arrow back-medium-whiff throw and shimmy alternatives",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact alternative frame-kill and follow-up clips remain unextracted. The back-medium strike is authored separately.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 126.35,
+			"locatorEnd": 134.55,
+			"family": "Heavy-Arrow dash alignment",
+			"disposition": "excluded",
+			"reason": "Bare spacing/timing demonstration; five complete follow-ups are authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 175.85,
+			"locatorEnd": 184.1,
+			"family": "Low Rush/held-Arrow corner timing illustration",
+			"disposition": "unprocessed",
+			"reason": "Preserved combo is retained; the short corner whiff-jab timing illustration is not separately extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 194.95,
+			"locatorEnd": 198.25,
+			"family": "Corner forward-throw transition",
+			"disposition": "excluded",
+			"reason": "Recovery/spacing between the preserved throw branch and new shimmy branch.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 326.3,
+			"locatorEnd": 332,
+			"family": "Outro",
+			"disposition": "excluded",
+			"reason": "No further practice action.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 0,
+			"locatorEnd": 7,
+			"family": "Light confirm into medium Arrow",
+			"disposition": "duplicate",
+			"reason": "Same practical normal-hit light route as preserved starter reference.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 7,
+			"locatorEnd": 11,
+			"family": "Medium-Arrow dash alignment",
+			"disposition": "excluded",
+			"reason": "No complete follow-up; attached to authored starter branches.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 11,
+			"locatorEnd": 23,
+			"family": "Medium-Arrow delayed throw and shimmy",
+			"disposition": "duplicate",
+			"reason": "Same knockdown/approach/decision authored from starter guide.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 23,
+			"locatorEnd": 32,
+			"family": "Medium-Arrow medium vs Drive Reversal",
+			"disposition": "duplicate",
+			"reason": "Same block/recovery response authored from starter guide.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 32,
+			"locatorEnd": 38,
+			"family": "Medium-Arrow medium into target/medium Arrow",
+			"disposition": "unprocessed",
+			"reason": "Different target-Arrow finish discovered; exact performed route and timing not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 38,
+			"locatorEnd": 45,
+			"family": "Medium-Arrow walk-low 2LP/LK variant",
+			"disposition": "unprocessed",
+			"reason": "Starter uses standing-jab links; this distinct low-light sequence is not silently substituted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 45,
+			"locatorEnd": 55,
+			"family": "Medium-Arrow dash/walk Counter-Hit heavy vs fuzzy mash",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact defender recording, delay and conversion need detailed review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 55,
+			"locatorEnd": 61,
+			"family": "Corner medium-Arrow whiff-low-kick alignment",
+			"disposition": "excluded",
+			"reason": "Timing-only illustration; practical branches are selected separately.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 61,
+			"locatorEnd": 68,
+			"family": "Corner low-kick heavy vs Drive Reversal",
+			"disposition": "duplicate",
+			"reason": "Starter take selected for the same block/recovery test.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 68,
+			"locatorEnd": 78,
+			"family": "Corner low-kick heavy-target hit",
+			"disposition": "duplicate",
+			"reason": "Starter take selected for the same complete strike branch.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 78,
+			"locatorEnd": 87,
+			"family": "Corner low-kick delayed-heavy Counter-Hit fuzzy-mash conversion",
+			"disposition": "unprocessed",
+			"reason": "Defender recording, delay and conversion not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 87,
+			"locatorEnd": 93,
+			"family": "Corner low-kick delayed low with 2LP/LK links",
+			"disposition": "unprocessed",
+			"reason": "Different light links from starter; no copied notation substitution.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 93,
+			"locatorEnd": 102,
+			"family": "Corner low-kick delayed throw",
+			"disposition": "duplicate",
+			"reason": "Starter take selected for the same practical throw decision.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 102,
+			"locatorEnd": 109,
+			"family": "Corner low-kick shimmy",
+			"disposition": "duplicate",
+			"reason": "Starter take selected for the same practical shimmy decision.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 109,
+			"locatorEnd": 114,
+			"family": "Back-medium frame-kill alignment",
+			"disposition": "excluded",
+			"reason": "Bare timing illustration; complete practical alternatives are identified below.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 114,
+			"locatorEnd": 122,
+			"family": "Back-medium frame-kill throw",
+			"disposition": "unprocessed",
+			"reason": "Alternative timing whiff discovered; exact follow-up/bounds not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 122,
+			"locatorEnd": 130,
+			"family": "Back-medium frame-kill shimmy",
+			"disposition": "unprocessed",
+			"reason": "Alternative timing whiff discovered; exact punish/bounds not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 130,
+			"locatorEnd": 136,
+			"family": "Back-medium frame-kill medium/light-kick strike",
+			"disposition": "duplicate",
+			"reason": "Starter take selected for this complete strike decision.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 136,
+			"locatorEnd": 142,
+			"family": "Medium-Arrow DI reset",
+			"disposition": "duplicate",
+			"reason": "Starter take selected; explicitly treated as a reset against guard.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 142,
+			"locatorEnd": 149,
+			"family": "Corner OD Knuckle side-switch reset",
+			"disposition": "duplicate",
+			"reason": "Starter take selected; 214PP is Knuckle, not Hooligan.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 149,
+			"locatorEnd": 156,
+			"family": "Cross-up light/Lift/air Strike",
+			"disposition": "covered",
+			"reason": "Authored complete cross-up route with actual jumping light kick.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 156,
+			"locatorEnd": 161,
+			"family": "Air-Strike dash alignment",
+			"disposition": "excluded",
+			"reason": "Timing-only context; practical throw/shimmy/strike/reversal branches authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 161,
+			"locatorEnd": 188,
+			"family": "Air-Strike practical follow-ups",
+			"disposition": "covered",
+			"reason": "Four separately authored throw/shimmy/strike/reversal decisions.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 188,
+			"locatorEnd": 195,
+			"family": "Air-Strike dash/walk low-light confirm",
+			"disposition": "unprocessed",
+			"reason": "Distinct low-light branch from air-Strike prerequisite discovered; exact performed links and bounds not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 195,
+			"locatorEnd": 199,
+			"family": "Counter-Hit jab/medium/Arrow",
+			"disposition": "covered",
+			"reason": "Counter-Hit-specific light link authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 199,
+			"locatorEnd": 220,
+			"family": "Heavy-Arrow dash alignment/throw/shimmy",
+			"disposition": "duplicate",
+			"reason": "Starter takes selected for the same practical decisions.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 220,
+			"locatorEnd": 231,
+			"family": "Heavy-Arrow heavy vs Drive Reversal and strike",
+			"disposition": "duplicate",
+			"reason": "Starter response/strike branches selected; full-guide any-ender caption not invented.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 231,
+			"locatorEnd": 240,
+			"family": "Heavy-Arrow delayed-heavy fuzzy-mash conversion",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; detailed delay and Counter-Hit recording verification pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 240,
+			"locatorEnd": 247,
+			"family": "Heavy-Arrow walk-low 2LP/LK variant",
+			"disposition": "unprocessed",
+			"reason": "Different light links from starter; no copied notation assumption.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 247,
+			"locatorEnd": 251,
+			"family": "Heavy-Arrow standing-LK frame-kill alignment",
+			"disposition": "excluded",
+			"reason": "Timing-only context; remaining practical branches explicitly unprocessed.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 251,
+			"locatorEnd": 258,
+			"family": "Heavy-Arrow standing-LK delayed throw",
+			"disposition": "unprocessed",
+			"reason": "Distinct corner frame-kill family discovered; not given exact extraction review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 258,
+			"locatorEnd": 268,
+			"family": "Heavy-Arrow standing-LK shimmy",
+			"disposition": "unprocessed",
+			"reason": "Distinct corner frame-kill family discovered; exact punish/bounds pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 268,
+			"locatorEnd": 271,
+			"family": "Heavy-Arrow standing-LK heavy vs Drive Reversal",
+			"disposition": "unprocessed",
+			"reason": "Response discovered; exact movement/timing pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 271,
+			"locatorEnd": 280,
+			"family": "Heavy-Arrow standing-LK heavy-target strike",
+			"disposition": "unprocessed",
+			"reason": "Distinct corner frame-kill family, detailed review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 280,
+			"locatorEnd": 288,
+			"family": "Heavy-Arrow standing-LK delayed-heavy fuzzy mash",
+			"disposition": "unprocessed",
+			"reason": "Defender recording, delay and conversion not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 288,
+			"locatorEnd": 294,
+			"family": "Heavy-Arrow standing-LK delayed low",
+			"disposition": "unprocessed",
+			"reason": "Exact frame-kill and low-link review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 294,
+			"locatorEnd": 312,
+			"family": "Light double-Rush Level 3",
+			"disposition": "covered",
+			"reason": "Distinct light-confirm cash-out authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 312,
+			"locatorEnd": 318,
+			"family": "Standing medium/light kick/Arrow",
+			"disposition": "covered",
+			"reason": "Short normal medium confirm authored; trailing dash omitted from clip.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 318,
+			"locatorEnd": 324,
+			"family": "Standing-target back-heavy/Arrow/Spike",
+			"disposition": "covered",
+			"reason": "Standing-only launch condition retained; no midscreen oki claim.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 324,
+			"locatorEnd": 330,
+			"family": "Corner back-heavy/Arrow/Spike timing jab",
+			"disposition": "unprocessed",
+			"reason": "Exact corner timing illustration not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 330,
+			"locatorEnd": 335,
+			"family": "Plain light-Knuckle launch finish",
+			"disposition": "duplicate",
+			"reason": "Same route prefix is included in complete Knuckle safe-jump response.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 335,
+			"locatorEnd": 341,
+			"family": "Light-Knuckle timing-kick safe jump",
+			"disposition": "covered",
+			"reason": "Actual Ryu OD DP block, not a universal reversal claim.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 341,
+			"locatorEnd": 348,
+			"family": "Light Knuckle/heavy Spike route",
+			"disposition": "unprocessed",
+			"reason": "Different Spike ender discovered; exact route/bounds not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 348,
+			"locatorEnd": 354,
+			"family": "Knuckle/Spike corner timing jab",
+			"disposition": "unprocessed",
+			"reason": "Exact timing whiff not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 354,
+			"locatorEnd": 362,
+			"family": "Back-heavy/Knuckle Level 1",
+			"disposition": "covered",
+			"reason": "One-stock choice authored without automatic Cash-out tag.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 362,
+			"locatorEnd": 369,
+			"family": "Medium-Arrow safe jump",
+			"disposition": "covered",
+			"reason": "Actual Ryu OD DP test with source 6F+ claim kept conditional.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 369,
+			"locatorEnd": 374,
+			"family": "Low Rush/Lift/air Strike",
+			"disposition": "covered",
+			"reason": "Complete route authored; trailing dash/next take trimmed.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 374,
+			"locatorEnd": 381,
+			"family": "Low Rush/Lift/heavy-Knuckle whiff side switch",
+			"disposition": "unprocessed",
+			"reason": "Alternative launcher to same switch decision; no detailed extraction review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 381,
+			"locatorEnd": 385,
+			"family": "Low Rush/crouching-heavy/back-heavy Knuckle switch",
+			"disposition": "covered",
+			"reason": "Knuckle intentionally whiffs; hit count and movement reviewed.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 385,
+			"locatorEnd": 391,
+			"family": "Low Rush/crouching-heavy/heavy Arrow",
+			"disposition": "duplicate",
+			"reason": "Starter take selected for same route.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 391,
+			"locatorEnd": 397,
+			"family": "Low Rush/heavy target/medium Arrow",
+			"disposition": "covered",
+			"reason": "Distinct +36F knockdown route authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 397,
+			"locatorEnd": 426,
+			"family": "Target-Arrow raw-Rush throw/shimmy/CH strike",
+			"disposition": "covered",
+			"reason": "Three complete follow-ups authored with separate prior/follow-up Drive costs.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 426,
+			"locatorEnd": 433,
+			"family": "Target-Arrow two-low-kick alignment",
+			"disposition": "excluded",
+			"reason": "Bare timing demonstration with no complete interaction.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 433,
+			"locatorEnd": 441,
+			"family": "Corner target-Arrow Hooligan kick block alignment",
+			"disposition": "excluded",
+			"reason": "Blocked-kick alignment; practical throw/shimmy/strike/empty/command-throw branches authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 441,
+			"locatorEnd": 486,
+			"family": "Corner target-Arrow Hooligan practical branches",
+			"disposition": "covered",
+			"reason": "Five complete Hooligan branches, including recorded OD DP block.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 486,
+			"locatorEnd": 496,
+			"family": "Low double-Rush/Knuckle Level 1",
+			"disposition": "unprocessed",
+			"reason": "Longer Drive extension before the existing one-stock decision; exact alternate execution not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 496,
+			"locatorEnd": 507,
+			"family": "Low double-Rush/medium/crouching punches Level 2",
+			"disposition": "covered",
+			"reason": "Distinct medium-link two-stock route authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 507,
+			"locatorEnd": 525,
+			"family": "Low double-Rush/held Spike Level 3",
+			"disposition": "duplicate",
+			"reason": "Preserved starter cash-out already covers the same route.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 525,
+			"locatorEnd": 538,
+			"family": "Forced-standing low Rush/medium Arrow/Spike",
+			"disposition": "unprocessed",
+			"reason": "Crouching-heavy force-stand variation and corner timing kick discovered; detailed extraction pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 538,
+			"locatorEnd": 544,
+			"family": "Low Rush/light Arrow/sweep knockdown",
+			"disposition": "unprocessed",
+			"reason": "New knockdown family discovered; no detailed execution review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 544,
+			"locatorEnd": 551,
+			"family": "Post-sweep Hooligan blocked-kick alignment",
+			"disposition": "excluded",
+			"reason": "Timing-only illustration; exact practical branches remain unprocessed below.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 551,
+			"locatorEnd": 561,
+			"family": "Post-combo-sweep Hooligan delayed throw",
+			"disposition": "unprocessed",
+			"reason": "Different prerequisite/spacing from target-Arrow Hooligan; not claimed interchangeable.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 561,
+			"locatorEnd": 571,
+			"family": "Post-combo-sweep Hooligan shimmy",
+			"disposition": "unprocessed",
+			"reason": "Different prerequisite/spacing; exact follow-up pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 571,
+			"locatorEnd": 582,
+			"family": "Post-combo-sweep Hooligan hit conversion",
+			"disposition": "unprocessed",
+			"reason": "Different prerequisite/spacing; exact follow-up pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 582,
+			"locatorEnd": 591,
+			"family": "Post-combo-sweep empty Hooligan DP bait",
+			"disposition": "unprocessed",
+			"reason": "Recorded response discovered; exact timing review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 591,
+			"locatorEnd": 598,
+			"family": "Post-combo-sweep Hooligan command throw",
+			"disposition": "unprocessed",
+			"reason": "Different prerequisite/spacing; exact follow-up pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 598,
+			"locatorEnd": 607,
+			"family": "Low Rush/Lift/short-held Arrow/Spike",
+			"disposition": "duplicate",
+			"reason": "Preserved starter low-Rush Lift route selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 607,
+			"locatorEnd": 613,
+			"family": "Post-held-Arrow corner timing jab",
+			"disposition": "unprocessed",
+			"reason": "Bare timing family; exact extraction pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 613,
+			"locatorEnd": 619,
+			"family": "Standing-only double-back-heavy/Arrow/Spike",
+			"disposition": "unprocessed",
+			"reason": "Distinct corner juggle discovered; no detailed extraction review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 619,
+			"locatorEnd": 633,
+			"family": "Double-back-heavy corner timing and failed Drive-Reversal test",
+			"disposition": "excluded",
+			"reason": "Source counterexample loses to Drive Reversal; not authored as safe oki.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 633,
+			"locatorEnd": 642,
+			"family": "Double-back-heavy knockdown meaty target conversion",
+			"disposition": "unprocessed",
+			"reason": "Different prerequisite/timing; exact extraction pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 642,
+			"locatorEnd": 658,
+			"family": "Double-back-heavy/Knuckle/Spike and low-kick timing",
+			"disposition": "unprocessed",
+			"reason": "Distinct juggle and corner frame-kill discovered; detailed execution review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 658,
+			"locatorEnd": 673,
+			"family": "Low confirm/raw-Rush plus two cancels Level 3",
+			"disposition": "unprocessed",
+			"reason": "Optimized resource extension discovered; exact input/cost/bounds not authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 673,
+			"locatorEnd": 679,
+			"family": "Drive-Reversal medium/heavy Arrow punish",
+			"disposition": "duplicate",
+			"reason": "Preserved starter punish selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 679,
+			"locatorEnd": 689,
+			"family": "Drive-Reversal medium/heavy target/medium Arrow",
+			"disposition": "unprocessed",
+			"reason": "Distinct knockdown ender discovered; detailed execution review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 689,
+			"locatorEnd": 697,
+			"family": "Corner medium-PC target/Arrow/Spike",
+			"disposition": "duplicate",
+			"reason": "Preserved starter corner Drive-Reversal punish selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 697,
+			"locatorEnd": 711,
+			"family": "Air-to-air medium/SA2/Rushes/SA1",
+			"disposition": "covered",
+			"reason": "Actual airborne interception authored; explicit Anti-air plus Air-to-air tags.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 711,
+			"locatorEnd": 725,
+			"family": "Forward-throw branches",
+			"disposition": "duplicate",
+			"reason": "Preserved corner throw plus new walk-in strike/shimmy cover same decisions from starter takes.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 725,
+			"locatorEnd": 730,
+			"family": "Heavy target/medium Hooligan slide alignment",
+			"disposition": "excluded",
+			"reason": "Bare blocked-slide illustration; full throw/shimmy follow-ups authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 730,
+			"locatorEnd": 745,
+			"family": "Heavy-target Hooligan slide throw and shimmy",
+			"disposition": "covered",
+			"reason": "Two blocked-slide pressure branches authored after named target prerequisite.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 745,
+			"locatorEnd": 754,
+			"family": "Heavy-target Hooligan downward kick reset",
+			"disposition": "covered",
+			"reason": "Initial target and reset are distinguished; no uninterrupted combo claim.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 754,
+			"locatorEnd": 761,
+			"family": "Plain heavy target/medium Arrow",
+			"disposition": "unprocessed",
+			"reason": "Drive-free +36F route discovered; exact normal-heavy extraction pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 761,
+			"locatorEnd": 769,
+			"family": "Heavy target Level 1",
+			"disposition": "unprocessed",
+			"reason": "One-stock normal-heavy alternative discovered; exact extraction pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 769,
+			"locatorEnd": 775,
+			"family": "Corner heavy target/light Arrow/Spike",
+			"disposition": "duplicate",
+			"reason": "Same ender is already included in multiple complete punish/strike branches; no standalone near-identical take counted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 775,
+			"locatorEnd": 779,
+			"family": "Standing heavy/heavy Arrow",
+			"disposition": "covered",
+			"reason": "Short meterless heavy confirm authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 779,
+			"locatorEnd": 785,
+			"family": "Crouching-heavy/medium/heavy Arrow",
+			"disposition": "duplicate",
+			"reason": "Preserved normal-heavy confirm selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 785,
+			"locatorEnd": 793,
+			"family": "Blocked-DP crouching-heavy/heavy Arrow",
+			"disposition": "duplicate",
+			"reason": "Preserved blocked-DP punish selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 793,
+			"locatorEnd": 802,
+			"family": "Blocked-DP back-heavy/Knuckle Level 1",
+			"disposition": "duplicate",
+			"reason": "Preserved one-stock punish selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 802,
+			"locatorEnd": 810,
+			"family": "Blocked-DP back-heavy/raw-Rush carry",
+			"disposition": "covered",
+			"reason": "Observed travel; raw Rush is distinct from cancel Rush.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 810,
+			"locatorEnd": 819,
+			"family": "Blocked-DP heavy-link cancel-Rush carry",
+			"disposition": "covered",
+			"reason": "Footage starts midscreen despite corner timing caption; trailing timing jab trimmed.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 819,
+			"locatorEnd": 830,
+			"family": "PC Hooligan downward kick/air SA2/Arrow/Spike",
+			"disposition": "ambiguous",
+			"reason": "Caption allows 236MHP; exact performed Hooligan punch strength not established. No guessed strength authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 830,
+			"locatorEnd": 851,
+			"family": "Optimized long PC carry into Level 1/3 alternative",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact performed branch and cumulative resources remain unchecked.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 851,
+			"locatorEnd": 859,
+			"family": "Corner PC medium-Arrow/Spike and low-kick timing",
+			"disposition": "duplicate",
+			"reason": "Preserved starter corner DP punish selected; no extra timing-only card.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 859,
+			"locatorEnd": 868,
+			"family": "Corner PC double-back-heavy juggle",
+			"disposition": "unprocessed",
+			"reason": "Distinct juggle/spacing discovered; exact execution review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 868,
+			"locatorEnd": 887,
+			"family": "Double-back-heavy PC cash-out",
+			"disposition": "unprocessed",
+			"reason": "High-resource extension discovered; no exact extraction review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 887,
+			"locatorEnd": 907,
+			"family": "Optimized PC medium-Knuckle/carry/Level 3",
+			"disposition": "unprocessed",
+			"reason": "Exact command/resource chain not extracted; discovery only.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 907,
+			"locatorEnd": 913,
+			"family": "Standalone heavy-PC Knuckle/jab/Arrow shimmy punish",
+			"disposition": "duplicate",
+			"reason": "Preserved punish plus complete new shimmy setups already cover the performed conversion.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 913,
+			"locatorEnd": 920,
+			"family": "Standalone heavy-target shimmy punish",
+			"disposition": "duplicate",
+			"reason": "Complete new corner shimmy setups include this same conversion.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 920,
+			"locatorEnd": 925,
+			"family": "PC sweep/timing jab/dive block alignment",
+			"disposition": "excluded",
+			"reason": "Bare block-timing context; three complete practical branches authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 925,
+			"locatorEnd": 945,
+			"family": "PC sweep/dive throw, shimmy and strike",
+			"disposition": "covered",
+			"reason": "Three midscreen PC-sweep setup branches authored; prerequisite excluded from listed inputs.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 945,
+			"locatorEnd": 949,
+			"family": "PC sweep/jab/dash alignment",
+			"disposition": "excluded",
+			"reason": "Timing-only demonstration, no complete follow-up.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 949,
+			"locatorEnd": 957,
+			"family": "Forward-heavy PC/Knuckle Level 1",
+			"disposition": "covered",
+			"reason": "Only the performed Level 1 alternative extracted, not every captioned ender.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 957,
+			"locatorEnd": 972,
+			"family": "OD Hooligan PC throw/Level 3",
+			"disposition": "covered",
+			"reason": "Actual Punish Counter throw condition retained.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 972,
+			"locatorEnd": 989,
+			"family": "Corner OD Hooligan/raw-Rush/cancel/Level 3",
+			"disposition": "unprocessed",
+			"reason": "Distinct longer corner command-throw cash-out discovered; exact extraction pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 989,
+			"locatorEnd": 999,
+			"family": "Counter-DI Lift/air Strike",
+			"disposition": "duplicate",
+			"reason": "Preserved starter route selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 999,
+			"locatorEnd": 1011,
+			"family": "Counter-DI held Arrow/Level 1 switch",
+			"disposition": "duplicate",
+			"reason": "Preserved starter one-stock side switch selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 1011,
+			"locatorEnd": 1020,
+			"family": "Counter-DI walking-medium/Lift/held Arrow/Spike",
+			"disposition": "duplicate",
+			"reason": "Starter take selected for new complete counter-DI route; trailing whiff jab omitted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 1020,
+			"locatorEnd": 1028,
+			"family": "Blocked-DI wall-splat Knuckle/Spike/jab timing",
+			"disposition": "duplicate",
+			"reason": "Preserved starter setup selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 1028,
+			"locatorEnd": 1038,
+			"family": "Corner forward throw/walk/throw",
+			"disposition": "duplicate",
+			"reason": "Preserved starter corner throw setup selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 1038,
+			"locatorEnd": 1047,
+			"family": "Corner forward throw/walk/shimmy",
+			"disposition": "duplicate",
+			"reason": "New complete starter shimmy setup selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 1047,
+			"locatorEnd": 1054,
+			"family": "Corner forward throw/walk/medium strike",
+			"disposition": "duplicate",
+			"reason": "New complete starter medium/light-kick strike selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 1054,
+			"locatorEnd": 1067,
+			"family": "Throw-whiff bait/back-heavy/OD Arrow/Level 1",
+			"disposition": "duplicate",
+			"reason": "Preserved starter response selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 1067,
+			"locatorEnd": 1088,
+			"family": "Held-heavy Hooligan downward kick/long Level 3 conversion",
+			"disposition": "unprocessed",
+			"reason": "Distinct held-Hooligan starter and long resource route discovered; exact performed commands and cumulative cost not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 1088,
+			"locatorEnd": 1094,
+			"family": "Outro",
+			"disposition": "excluded",
+			"reason": "No further selected practice action.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "dillyverde-cammy-anti-air-2024",
+			"locatorStart": 0,
+			"locatorEnd": 19,
+			"family": "Ranked-match anti-air conversion",
+			"disposition": "ambiguous",
+			"reason": "The short replay visibly intercepts a jump, but has no input history. Exact special strengths in the full follow-up are not established, so no recipe is guessed.",
+			"referenceIds": []
+		}
+	],
+	"unprocessedIntervals": [
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 82,
+			"locatorEnd": 104.1,
+			"family": "Corner medium-Arrow back-medium-whiff throw and shimmy alternatives",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact alternative frame-kill and follow-up clips remain unextracted. The back-medium strike is authored separately.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-beginner-2026",
+			"locatorStart": 175.85,
+			"locatorEnd": 184.1,
+			"family": "Low Rush/held-Arrow corner timing illustration",
+			"disposition": "unprocessed",
+			"reason": "Preserved combo is retained; the short corner whiff-jab timing illustration is not separately extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 32,
+			"locatorEnd": 38,
+			"family": "Medium-Arrow medium into target/medium Arrow",
+			"disposition": "unprocessed",
+			"reason": "Different target-Arrow finish discovered; exact performed route and timing not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 38,
+			"locatorEnd": 45,
+			"family": "Medium-Arrow walk-low 2LP/LK variant",
+			"disposition": "unprocessed",
+			"reason": "Starter uses standing-jab links; this distinct low-light sequence is not silently substituted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 45,
+			"locatorEnd": 55,
+			"family": "Medium-Arrow dash/walk Counter-Hit heavy vs fuzzy mash",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact defender recording, delay and conversion need detailed review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 78,
+			"locatorEnd": 87,
+			"family": "Corner low-kick delayed-heavy Counter-Hit fuzzy-mash conversion",
+			"disposition": "unprocessed",
+			"reason": "Defender recording, delay and conversion not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 87,
+			"locatorEnd": 93,
+			"family": "Corner low-kick delayed low with 2LP/LK links",
+			"disposition": "unprocessed",
+			"reason": "Different light links from starter; no copied notation substitution.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 114,
+			"locatorEnd": 122,
+			"family": "Back-medium frame-kill throw",
+			"disposition": "unprocessed",
+			"reason": "Alternative timing whiff discovered; exact follow-up/bounds not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 122,
+			"locatorEnd": 130,
+			"family": "Back-medium frame-kill shimmy",
+			"disposition": "unprocessed",
+			"reason": "Alternative timing whiff discovered; exact punish/bounds not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 188,
+			"locatorEnd": 195,
+			"family": "Air-Strike dash/walk low-light confirm",
+			"disposition": "unprocessed",
+			"reason": "Distinct low-light branch from air-Strike prerequisite discovered; exact performed links and bounds not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 231,
+			"locatorEnd": 240,
+			"family": "Heavy-Arrow delayed-heavy fuzzy-mash conversion",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; detailed delay and Counter-Hit recording verification pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 240,
+			"locatorEnd": 247,
+			"family": "Heavy-Arrow walk-low 2LP/LK variant",
+			"disposition": "unprocessed",
+			"reason": "Different light links from starter; no copied notation assumption.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 251,
+			"locatorEnd": 258,
+			"family": "Heavy-Arrow standing-LK delayed throw",
+			"disposition": "unprocessed",
+			"reason": "Distinct corner frame-kill family discovered; not given exact extraction review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 258,
+			"locatorEnd": 268,
+			"family": "Heavy-Arrow standing-LK shimmy",
+			"disposition": "unprocessed",
+			"reason": "Distinct corner frame-kill family discovered; exact punish/bounds pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 268,
+			"locatorEnd": 271,
+			"family": "Heavy-Arrow standing-LK heavy vs Drive Reversal",
+			"disposition": "unprocessed",
+			"reason": "Response discovered; exact movement/timing pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 271,
+			"locatorEnd": 280,
+			"family": "Heavy-Arrow standing-LK heavy-target strike",
+			"disposition": "unprocessed",
+			"reason": "Distinct corner frame-kill family, detailed review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 280,
+			"locatorEnd": 288,
+			"family": "Heavy-Arrow standing-LK delayed-heavy fuzzy mash",
+			"disposition": "unprocessed",
+			"reason": "Defender recording, delay and conversion not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 288,
+			"locatorEnd": 294,
+			"family": "Heavy-Arrow standing-LK delayed low",
+			"disposition": "unprocessed",
+			"reason": "Exact frame-kill and low-link review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 324,
+			"locatorEnd": 330,
+			"family": "Corner back-heavy/Arrow/Spike timing jab",
+			"disposition": "unprocessed",
+			"reason": "Exact corner timing illustration not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 341,
+			"locatorEnd": 348,
+			"family": "Light Knuckle/heavy Spike route",
+			"disposition": "unprocessed",
+			"reason": "Different Spike ender discovered; exact route/bounds not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 348,
+			"locatorEnd": 354,
+			"family": "Knuckle/Spike corner timing jab",
+			"disposition": "unprocessed",
+			"reason": "Exact timing whiff not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 374,
+			"locatorEnd": 381,
+			"family": "Low Rush/Lift/heavy-Knuckle whiff side switch",
+			"disposition": "unprocessed",
+			"reason": "Alternative launcher to same switch decision; no detailed extraction review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 486,
+			"locatorEnd": 496,
+			"family": "Low double-Rush/Knuckle Level 1",
+			"disposition": "unprocessed",
+			"reason": "Longer Drive extension before the existing one-stock decision; exact alternate execution not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 525,
+			"locatorEnd": 538,
+			"family": "Forced-standing low Rush/medium Arrow/Spike",
+			"disposition": "unprocessed",
+			"reason": "Crouching-heavy force-stand variation and corner timing kick discovered; detailed extraction pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 538,
+			"locatorEnd": 544,
+			"family": "Low Rush/light Arrow/sweep knockdown",
+			"disposition": "unprocessed",
+			"reason": "New knockdown family discovered; no detailed execution review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 551,
+			"locatorEnd": 561,
+			"family": "Post-combo-sweep Hooligan delayed throw",
+			"disposition": "unprocessed",
+			"reason": "Different prerequisite/spacing from target-Arrow Hooligan; not claimed interchangeable.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 561,
+			"locatorEnd": 571,
+			"family": "Post-combo-sweep Hooligan shimmy",
+			"disposition": "unprocessed",
+			"reason": "Different prerequisite/spacing; exact follow-up pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 571,
+			"locatorEnd": 582,
+			"family": "Post-combo-sweep Hooligan hit conversion",
+			"disposition": "unprocessed",
+			"reason": "Different prerequisite/spacing; exact follow-up pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 582,
+			"locatorEnd": 591,
+			"family": "Post-combo-sweep empty Hooligan DP bait",
+			"disposition": "unprocessed",
+			"reason": "Recorded response discovered; exact timing review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 591,
+			"locatorEnd": 598,
+			"family": "Post-combo-sweep Hooligan command throw",
+			"disposition": "unprocessed",
+			"reason": "Different prerequisite/spacing; exact follow-up pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 607,
+			"locatorEnd": 613,
+			"family": "Post-held-Arrow corner timing jab",
+			"disposition": "unprocessed",
+			"reason": "Bare timing family; exact extraction pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 613,
+			"locatorEnd": 619,
+			"family": "Standing-only double-back-heavy/Arrow/Spike",
+			"disposition": "unprocessed",
+			"reason": "Distinct corner juggle discovered; no detailed extraction review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 633,
+			"locatorEnd": 642,
+			"family": "Double-back-heavy knockdown meaty target conversion",
+			"disposition": "unprocessed",
+			"reason": "Different prerequisite/timing; exact extraction pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 642,
+			"locatorEnd": 658,
+			"family": "Double-back-heavy/Knuckle/Spike and low-kick timing",
+			"disposition": "unprocessed",
+			"reason": "Distinct juggle and corner frame-kill discovered; detailed execution review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 658,
+			"locatorEnd": 673,
+			"family": "Low confirm/raw-Rush plus two cancels Level 3",
+			"disposition": "unprocessed",
+			"reason": "Optimized resource extension discovered; exact input/cost/bounds not authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 679,
+			"locatorEnd": 689,
+			"family": "Drive-Reversal medium/heavy target/medium Arrow",
+			"disposition": "unprocessed",
+			"reason": "Distinct knockdown ender discovered; detailed execution review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 754,
+			"locatorEnd": 761,
+			"family": "Plain heavy target/medium Arrow",
+			"disposition": "unprocessed",
+			"reason": "Drive-free +36F route discovered; exact normal-heavy extraction pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 761,
+			"locatorEnd": 769,
+			"family": "Heavy target Level 1",
+			"disposition": "unprocessed",
+			"reason": "One-stock normal-heavy alternative discovered; exact extraction pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 830,
+			"locatorEnd": 851,
+			"family": "Optimized long PC carry into Level 1/3 alternative",
+			"disposition": "unprocessed",
+			"reason": "Discovery reviewed; exact performed branch and cumulative resources remain unchecked.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 859,
+			"locatorEnd": 868,
+			"family": "Corner PC double-back-heavy juggle",
+			"disposition": "unprocessed",
+			"reason": "Distinct juggle/spacing discovered; exact execution review pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 868,
+			"locatorEnd": 887,
+			"family": "Double-back-heavy PC cash-out",
+			"disposition": "unprocessed",
+			"reason": "High-resource extension discovered; no exact extraction review yet.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 887,
+			"locatorEnd": 907,
+			"family": "Optimized PC medium-Knuckle/carry/Level 3",
+			"disposition": "unprocessed",
+			"reason": "Exact command/resource chain not extracted; discovery only.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 972,
+			"locatorEnd": 989,
+			"family": "Corner OD Hooligan/raw-Rush/cancel/Level 3",
+			"disposition": "unprocessed",
+			"reason": "Distinct longer corner command-throw cash-out discovered; exact extraction pending.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 1067,
+			"locatorEnd": 1088,
+			"family": "Held-heavy Hooligan downward kick/long Level 3 conversion",
+			"disposition": "unprocessed",
+			"reason": "Distinct held-Hooligan starter and long resource route discovered; exact performed commands and cumulative cost not extracted.",
+			"referenceIds": []
+		}
+	],
+	"ambiguities": [
+		{
+			"sourceId": "joe-ebios-cammy-indepth-june-2026",
+			"locatorStart": 819,
+			"locatorEnd": 830,
+			"family": "PC Hooligan downward kick/air SA2/Arrow/Spike",
+			"disposition": "ambiguous",
+			"reason": "Caption allows 236MHP; exact performed Hooligan punch strength not established. No guessed strength authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "dillyverde-cammy-anti-air-2024",
+			"locatorStart": 0,
+			"locatorEnd": 19,
+			"family": "Ranked-match anti-air conversion",
+			"disposition": "ambiguous",
+			"reason": "The short replay visibly intercepts a jump, but has no input history. Exact special strengths in the full follow-up are not established, so no recipe is guessed.",
+			"referenceIds": []
+		}
+	],
+	"dispositionCounts": {
+		"covered": 97,
+		"excluded": 18,
+		"unprocessed": 44,
+		"duplicate": 34,
+		"ambiguous": 2
+	},
+	"localEvidence": {
+		"draft": ".local/depth/cammy/new-references.json",
+		"originals": ".local/depth/sources/cammy-{beginner,full,antiair}.mp4",
+		"preparedReview": ".local/depth/cammy/prepared-review/index.json",
+		"mechanicalAudit": ".local/depth/cammy/media-audit.json",
+		"detailedSourceRanges": [
+			".local/depth/cammy/source-review/beginner-dense/manifest.json",
+			".local/depth/cammy/source-review/full-dense/ranges.json",
+			".local/depth/cammy/source-review/final-probes/ranges.json"
+		]
+	},
+	"mediaVerification": {
+		"newClips": 58,
+		"selectedMoments": 244,
+		"mechanicalAuditPassed": true,
+		"visualReview": "Every exported selected moment and both boundaries inspected separately from source discovery. Actual action frames, trailing timing actions, next-take boundaries and midscreen/corner labels were corrected and regenerated before handoff."
+	}
+}

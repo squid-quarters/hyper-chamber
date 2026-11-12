@@ -1,0 +1,932 @@
+{
+	"characterId": "ingrid",
+	"reviewedOn": "2026-11-12",
+	"baselineCommit": "929ff0b3a73080697e644b976960866c6ec1c781",
+	"originalReferencesPreserved": 12,
+	"newReferences": 37,
+	"newKinds": {
+		"setup": 17,
+		"response": 5,
+		"combo": 15
+	},
+	"status": "Substantial partial extraction; source-reviewed, current-patch gameplay untested",
+	"screeningNote": "Every four-second discovery board across both complete originals was viewed. Joe 6–78, 78–140, 145–174, 174–228, 286–322, 350–385, 494–514, 524–544 and 598–667 were examined at half-second spacing, with finer full-resolution direction/strength and HUD probes where needed. Vesper 477–494 was examined at half-second spacing for the actual grounded anti-airs. Screening is not completed extraction.",
+	"sources": [
+		{
+			"sourceKey": "vesperarcade-ingrid-2026",
+			"youtubeId": "1o4EPXASNwg",
+			"title": "Street Fighter 6 Ingrid Combo Guide! Annotations & Timestamps",
+			"creator": "VesperArcade",
+			"url": "https://www.youtube.com/watch?v=1o4EPXASNwg",
+			"publishedUtc": "2026-05-30",
+			"duration": 821,
+			"recordingSha256": "a6ac3b7c8f84d361a1bacd4bfdeaf9d225ba682a4cec8d10046d346419935591",
+			"metadataSha256": "dcb04b355ebd842373abca4268687e3483dafdcb82de8aeec37825a3194ebd28",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 20,
+					"disposition": "excluded",
+					"reason": "Introduction and notation legend, including starred enhancement examples; not a new practice demonstration."
+				},
+				{
+					"start": 20,
+					"end": 25.2,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 25.2,
+					"end": 29.55,
+					"disposition": "reused",
+					"referenceId": "ingrid-vesper-low-medium-kick",
+					"reason": "Original reference, manifest entry, source identity and media retained exactly."
+				},
+				{
+					"start": 29.55,
+					"end": 31.6,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 31.6,
+					"end": 36.55,
+					"disposition": "reused",
+					"referenceId": "ingrid-vesper-low-od-rise",
+					"reason": "Original reference, manifest entry, source identity and media retained exactly."
+				},
+				{
+					"start": 36.55,
+					"end": 83.8,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 83.8,
+					"end": 88.4,
+					"disposition": "reused",
+					"referenceId": "ingrid-vesper-medium-target-rise",
+					"reason": "Original reference, manifest entry, source identity and media retained exactly."
+				},
+				{
+					"start": 88.4,
+					"end": 89.8,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 89.8,
+					"end": 94.6,
+					"disposition": "reused",
+					"referenceId": "ingrid-vesper-crouching-medium-light-rise",
+					"reason": "Original reference, manifest entry, source identity and media retained exactly."
+				},
+				{
+					"start": 94.6,
+					"end": 95.8,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 95.8,
+					"end": 100.55,
+					"disposition": "reused",
+					"referenceId": "ingrid-vesper-back-medium-jab-rise",
+					"reason": "Original reference, manifest entry, source identity and media retained exactly."
+				},
+				{
+					"start": 100.55,
+					"end": 102.2,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 102.2,
+					"end": 108.7,
+					"disposition": "reused",
+					"referenceId": "ingrid-vesper-medium-flare-level3",
+					"reason": "Original reference, manifest entry, source identity and media retained exactly."
+				},
+				{
+					"start": 108.7,
+					"end": 135.8,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 135.8,
+					"end": 142.55,
+					"disposition": "reused",
+					"referenceId": "ingrid-vesper-wall-target-rise",
+					"reason": "Original reference, manifest entry, source identity and media retained exactly."
+				},
+				{
+					"start": 142.55,
+					"end": 144.5,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 144.5,
+					"end": 152.1,
+					"disposition": "reused",
+					"referenceId": "ingrid-vesper-wall-one-crest-juggle",
+					"reason": "Original reference, manifest entry, source identity and media retained exactly."
+				},
+				{
+					"start": 152.1,
+					"end": 187.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 187.1,
+					"end": 191.6,
+					"disposition": "reused",
+					"referenceId": "ingrid-vesper-punish-jab-medium-rise",
+					"reason": "Original reference, manifest entry, source identity and media retained exactly."
+				},
+				{
+					"start": 191.6,
+					"end": 334.7,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 334.7,
+					"end": 339.55,
+					"disposition": "reused",
+					"referenceId": "ingrid-vesper-rush-low-target-rise",
+					"reason": "Original reference, manifest entry, source identity and media retained exactly."
+				},
+				{
+					"start": 339.55,
+					"end": 467.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 467.1,
+					"end": 469.65,
+					"disposition": "reused",
+					"referenceId": "ingrid-vesper-air-heavy-light-rise",
+					"reason": "Original reference, manifest entry, source identity and media retained exactly."
+				},
+				{
+					"start": 469.65,
+					"end": 478.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 478.65,
+					"end": 482.95,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-anti-air-back-heavy-medium-rise",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 482.95,
+					"end": 484.75,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 484.75,
+					"end": 490.8,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-anti-air-back-heavy-crest-rush",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 490.8,
+					"end": 682.4,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 682.4,
+					"end": 686.35,
+					"disposition": "reused",
+					"referenceId": "ingrid-vesper-corner-down-three-kicks",
+					"reason": "Original reference, manifest entry, source identity and media retained exactly."
+				},
+				{
+					"start": 686.35,
+					"end": 821,
+					"disposition": "unprocessed",
+					"reason": "Remaining unselected interval; no completed extraction is claimed."
+				}
+			]
+		},
+		{
+			"sourceKey": "joe-ebios-ingrid-2026",
+			"youtubeId": "-4PaFZp7KI4",
+			"title": "SF6 Classic INGRID Combos & Setup Guide DAY1【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-4PaFZp7KI4",
+			"publishedUtc": "2026-05-29",
+			"duration": 669,
+			"recordingSha256": "80a640cbca607f39d90c709f5fd97c5789557dfee8d59b5828979b317389a09e",
+			"metadataSha256": "474690e94933bb1cbeb10313869d003dbe35b6503681409825f7c3ad7a281cc4",
+			"intervals": [
+				{
+					"start": 0,
+					"end": 6,
+					"disposition": "excluded",
+					"reason": "Introduction before the first selected knockdown-pressure family."
+				},
+				{
+					"start": 6,
+					"end": 10.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 10.65,
+					"end": 14.65,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-medium-rise-rush-throw",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 14.65,
+					"end": 18.25,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 18.25,
+					"end": 24.2,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-medium-rise-rush-shimmy",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 24.2,
+					"end": 28.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 28.1,
+					"end": 32.85,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-medium-rise-rush-overhead",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 32.85,
+					"end": 37.15,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 37.15,
+					"end": 42.6,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-medium-rise-rush-heavy-kick",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 42.6,
+					"end": 46.55,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 46.55,
+					"end": 50.65,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-medium-rise-dash-walk-throw",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 50.65,
+					"end": 54.55,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 54.55,
+					"end": 60.5,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-medium-rise-dash-walk-shimmy",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 60.5,
+					"end": 63.85,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 63.85,
+					"end": 68.25,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-medium-rise-dash-walk-low",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 68.25,
+					"end": 72.15,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 72.15,
+					"end": 77.15,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-corner-medium-rise-whiff-low-overhead",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 77.15,
+					"end": 78.35,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 78.35,
+					"end": 94.95,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-lights-double-rush-level-three-cashout",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 94.95,
+					"end": 95.3,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 95.3,
+					"end": 97.4,
+					"disposition": "excluded",
+					"reason": "Medium-combo chapter title card."
+				},
+				{
+					"start": 97.4,
+					"end": 98.15,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 98.15,
+					"end": 101.95,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-back-medium-heavy-store-crest",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 101.95,
+					"end": 102.7,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 102.7,
+					"end": 107.4,
+					"disposition": "duplicate",
+					"reason": "Standing-medium target into medium Sun Rise duplicates the preserved Vesper baseline; not appended for count."
+				},
+				{
+					"start": 107.4,
+					"end": 108.25,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 108.25,
+					"end": 112.25,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-medium-target-flare-store",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 112.25,
+					"end": 113.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 113.1,
+					"end": 119.55,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-medium-target-od-down-teleport",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 119.55,
+					"end": 120.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 120.65,
+					"end": 127.6,
+					"disposition": "unprocessed",
+					"reason": "OD two-Crest dash/back-heavy/forward-teleport/Flare-storage alternative was screened densely but not selected for exact extraction. It remains available."
+				},
+				{
+					"start": 127.6,
+					"end": 128.2,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 128.2,
+					"end": 139.5,
+					"disposition": "ambiguous",
+					"reason": "OD target/Rush/Level-1 branch screened densely, but the exact intermediate Crest state and printed delayed Flare interpretation remain unresolved for reproduction. Excluded from authored references rather than asserting a stock gain from Level 1."
+				},
+				{
+					"start": 139.5,
+					"end": 150.45,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 150.45,
+					"end": 154.55,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-stored-flare-dash-throw",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 154.55,
+					"end": 159.5,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 159.5,
+					"end": 165.35,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-stored-flare-dash-shimmy",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 165.35,
+					"end": 169.45,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 169.45,
+					"end": 173.65,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-stored-flare-dash-low",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 173.65,
+					"end": 175.25,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 175.25,
+					"end": 181.6,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-low-medium-rush-heavy-target",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 181.6,
+					"end": 182.3,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 182.3,
+					"end": 187.6,
+					"disposition": "duplicate",
+					"reason": "Crouching-medium into standing-light-kick/medium-Rise duplicates the preserved baseline."
+				},
+				{
+					"start": 187.6,
+					"end": 188.25,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 188.25,
+					"end": 193.55,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-crouching-medium-crouching-target",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 193.55,
+					"end": 194.75,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 194.75,
+					"end": 200.15,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-crouching-medium-rush-store",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 200.15,
+					"end": 201.5,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 201.5,
+					"end": 209.15,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-crouching-medium-two-crest-heavy-flare",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 209.15,
+					"end": 209.8,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 209.8,
+					"end": 217.6,
+					"disposition": "unprocessed",
+					"reason": "One-Crest OD-Flare alternative reviewed during screening, but not selected as a near-duplicate of the heavy two-Crest route. Exact standalone extraction remains available."
+				},
+				{
+					"start": 217.6,
+					"end": 218.25,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 218.25,
+					"end": 226.45,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-crouching-medium-air-od-forward-teleport",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 226.45,
+					"end": 227,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 227,
+					"end": 286.7,
+					"disposition": "unprocessed",
+					"reason": "Near-corner/corner air-OD, teleport, raw-OD and Super-3 alternatives remain available for exact extraction. Coarse discovery is not completed recipe/media review."
+				},
+				{
+					"start": 286.7,
+					"end": 286.95,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 286.95,
+					"end": 292.05,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-heavy-kick-light-links",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 292.05,
+					"end": 293.45,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 293.45,
+					"end": 298.7,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-heavy-kick-counter-medium-target",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 298.7,
+					"end": 300.05,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 300.05,
+					"end": 304.35,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-heavy-punish-forward-heavy-flare",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 304.35,
+					"end": 304.7,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 304.7,
+					"end": 313.3,
+					"disposition": "unprocessed",
+					"reason": "Heavy-punch PC, forward-heavy, OD two-Crest and raw-Rush alternative screened densely; no separate exact excerpt authored."
+				},
+				{
+					"start": 313.3,
+					"end": 313.85,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 313.85,
+					"end": 319.85,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-heavy-punish-raw-rush-store",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 319.85,
+					"end": 320.3,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 320.3,
+					"end": 350.2,
+					"disposition": "unprocessed",
+					"reason": "Additional heavy-PC and air-Crest conversion branches remain available."
+				},
+				{
+					"start": 350.2,
+					"end": 350.55,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 350.55,
+					"end": 354.15,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-crouching-heavy-flare-store",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 354.15,
+					"end": 354.6,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 354.6,
+					"end": 361.3,
+					"disposition": "unprocessed",
+					"reason": "Crouching-heavy Rush-cancel Crest-storage route screened densely; no extra starter variant appended."
+				},
+				{
+					"start": 361.3,
+					"end": 361.7,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 361.7,
+					"end": 366.95,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-burnout-blocked-heavy-di-stun",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 366.95,
+					"end": 367.4,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 367.4,
+					"end": 373.5,
+					"disposition": "ambiguous",
+					"reason": "Crouching-heavy PC/heavy-Sun-Rise printed “any” ender was screened but no exact terminal action is asserted. Requires a dedicated full-resolution follow-up review."
+				},
+				{
+					"start": 373.5,
+					"end": 373.7,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 373.7,
+					"end": 377.8,
+					"disposition": "unprocessed",
+					"reason": "Normal forward-heavy into medium Flare screened densely; shorter starter variant not selected for extraction."
+				},
+				{
+					"start": 377.8,
+					"end": 378.25,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 378.25,
+					"end": 383.35,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-forward-heavy-two-crest-walk-pickup",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 383.35,
+					"end": 383.8,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 383.8,
+					"end": 493.6,
+					"disposition": "unprocessed",
+					"reason": "Substantial forward-heavy, full-resource, corner and Super branches remain available. Exact resources/stock timing and generated media were not completed for extraction."
+				},
+				{
+					"start": 493.6,
+					"end": 494.1,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 494.1,
+					"end": 502.05,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-counter-di-back-heavy-store",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 502.05,
+					"end": 503.15,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 503.15,
+					"end": 512.45,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-counter-di-two-crest-teleport",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 512.45,
+					"end": 513,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 513,
+					"end": 523.0,
+					"disposition": "unprocessed",
+					"reason": "One-Crest OD counter-DI alternative remains available; not treated as a reviewed reference."
+				},
+				{
+					"start": 523.0,
+					"end": 523.15,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 523.15,
+					"end": 532.15,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-counter-di-forward-heavy-crest",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 532.15,
+					"end": 532.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 532.65,
+					"end": 598.9,
+					"disposition": "unprocessed",
+					"reason": "Raw-Rush, corner DI and hit-confirm Level-2 branches remain available. A separate raw-Rush counter-DI variant was screened densely but not selected."
+				},
+				{
+					"start": 598.9,
+					"end": 600.05,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 600.05,
+					"end": 611.95,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-heavy-rain-throw-refill",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 611.95,
+					"end": 612.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 612.65,
+					"end": 625.55,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-corner-heavy-rain-throw-uppercuts",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 625.55,
+					"end": 626.2,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 626.2,
+					"end": 638.6,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-heavy-rain-shimmy-refill",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 638.6,
+					"end": 639.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 639.65,
+					"end": 650.55,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-corner-light-rain-back-throw-forward-teleport",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 650.55,
+					"end": 651.65,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 651.65,
+					"end": 663.65,
+					"disposition": "reviewed",
+					"referenceId": "ingrid-depth-corner-light-rain-back-throw-heavy-pickups",
+					"reason": "Actual command order/strength, starting state/resources, selected moments and original/prepared endpoints reviewed; no current-patch gameplay test."
+				},
+				{
+					"start": 663.65,
+					"end": 664.3,
+					"disposition": "unprocessed",
+					"reason": "Unselected source interval. Some prerequisite/context was screened, but no completed extraction or source exhaustion is claimed."
+				},
+				{
+					"start": 664.3,
+					"end": 669,
+					"disposition": "excluded",
+					"reason": "Closing end card, not game execution."
+				}
+			]
+		}
+	],
+	"primaryContext": {
+		"publisher": "Capcom",
+		"title": "Ingrid opens a new dimension into Street Fighter 6 on May 28!",
+		"url": "https://steamcommunity.com/games/1364780/announcements/detail/1830797770231820",
+		"archiveEvidence": "The complete official Steam announcement body and article identity were archived locally from Capcom’s announcement feed.",
+		"note": "Capcom describes up to four Sun Crests, light-Sun-Flare storage/hold, up to two-Crest enhancement for heavy/OD Sun Flare, Solar Burst, Sun Shot, Sun Rise and Vanishing Sun. Level-2 strength changes rain placement and held Crest use increases the rain. Actual source inputs, starting HUD and results govern each excerpt. No current-patch gameplay certification is inferred."
+	},
+	"interpretationDecisions": [
+		{
+			"topic": "Knockdown prerequisites and +F",
+			"decision": "Medium-Sun-Rise knockdown and the Rush-cancel/heavy-Rise/light-Flare-storage knockdown are separate prerequisites. Listed setup inputs/costs begin afterward. The printed +38/+25/+5/+22 readings are source-reported advantage, not invented numerical wait instructions. Intentional cr.LK whiff is explicit in compact/copy notation."
+		},
+		{
+			"topic": "Actual strength and target state",
+			"decision": "Cyan/light, yellow/medium and red/heavy input glyphs and performed animation govern strength. The shimmy uses actual st.HK before the medium target chain. The crouching-medium target-chain card requires crouching Ryu; normal-HK light links and Counter-Hit-HK medium links are separate recorded conditions."
+		},
+		{
+			"topic": "Crest accounting",
+			"decision": "Conditions state the visible initial Crests and the observed spend/refill. Heavy/OD Sun Flare uses the recorded enhancement; an intermediate one-Crest HUD during a two-Crest sequence is not mistaken for a one-Crest route. Light Sun Flare storage after knockdown is not described as a connecting attack. Heavy Sun Rise already leaves Ingrid airborne for j.MP; no separate jump input is performed. Ingrid then lands before the one-Crest grounded OD Sun Flare, followed by light-Flare refill."
+		},
+		{
+			"topic": "Level-2 cover",
+			"decision": "Heavy versus light punch and the actual hold are explicit. The source begins with two Crests for the heavy-rain branches, one or two for the distinct light-rain back throws; its later light Sun Flare refills the stock used by OD Sun Flare. Heavy 236HP projectiles are Sun Shot, not Sun Rise kicks. No universal gap/reversal-safety claim is inferred."
+		},
+		{
+			"topic": "Anti-air and defender state",
+			"decision": "Two Vesper grounded back-heavy jump interceptions get Anti-air; neither claims a reaction test. Joe’s opening jab/counter-DI exchanges are responses and keep the actual opening action. Own blocked DI against an already-Burnout near-corner Ryu causes wall stun, distinct from counter-DI and ordinary wall crush; it begins Midscreen and has observed Corner carry."
+		},
+		{
+			"topic": "Cash-out",
+			"decision": "Only the light-confirm route that visibly spends both Rush cancels into Burnout and Level 3 receives Cash-out. Level-2 cover and other Super use alone do not imply the goal."
+		},
+		{
+			"topic": "Unresolved Level 1",
+			"decision": "The printed OD/Rush/delayed-Flare/Level-1 candidate is excluded because its intermediate Crest interpretation is unresolved; no inferred Level-1 stock gain is authored."
+		}
+	],
+	"remainingGaps": [
+		"Most Vesper punish, Rush, Sun-Flare, Super and corner choices remain unextracted.",
+		"Joe still offers air-OD/corner, multiple Super/resource, forward-heavy, raw-Rush and counter-DI alternatives; these intervals remain explicitly unprocessed.",
+		"The Level-1 Crest/state ambiguity and printed “any” ender require clearer follow-up evidence before extraction.",
+		"No current-patch gameplay certification is claimed."
+	]
+}

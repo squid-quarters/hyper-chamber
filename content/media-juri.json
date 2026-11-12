@@ -1,6 +1,11 @@
 {
-	"sourceIds": ["joe-ebios-juri-classic-2026"],
-	"publicationStatus": "private-development",
+	"sourceIds": [
+		"joe-ebios-juri-classic-2026",
+		"joe-ebios-juri-season-three-march-2026",
+		"exo-light-juri-anti-air-december-2024",
+		"venus-juri-anti-air-january-2024"
+	],
+	"publicationStatus": "public-repository",
 	"presentationNote": "Uncropped source frames retain input history, training HUD and source overlays. Full original recording remains local.",
 	"assets": [
 		{
@@ -126,6 +131,1104 @@
 			"sourceStart": 283.15,
 			"sourceEnd": 304.8,
 			"clip": "/media/juri/juri-ebios-reversal-rush-critical-art-cashout/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-heavy-dp-rush-medium",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 14.1,
+			"sourceEnd": 16.45,
+			"clip": "/media/juri/juri-depth-update-heavy-dp-rush-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-heavy-fuha-rush-shimmy",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 36.35,
+			"sourceEnd": 42.65,
+			"clip": "/media/juri/juri-depth-update-heavy-fuha-rush-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-heavy-fuha-rush-medium",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 47.95,
+			"sourceEnd": 50.3,
+			"clip": "/media/juri/juri-depth-update-heavy-fuha-rush-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-double-fuha-dash-shimmy",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 70.35,
+			"sourceEnd": 76.65,
+			"clip": "/media/juri/juri-depth-update-double-fuha-dash-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-double-fuha-dash-medium",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 82.0,
+			"sourceEnd": 84.2,
+			"clip": "/media/juri/juri-depth-update-double-fuha-dash-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-corner-heavy-dp-medium-kill-throw",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 150.1,
+			"sourceEnd": 153.3,
+			"clip": "/media/juri/juri-depth-update-corner-heavy-dp-medium-kill-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-corner-heavy-dp-medium-kill-shimmy",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 158.25,
+			"sourceEnd": 164.7,
+			"clip": "/media/juri/juri-depth-update-corner-heavy-dp-medium-kill-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-corner-heavy-dp-medium-kill-strike",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 169.45,
+			"sourceEnd": 171.5,
+			"clip": "/media/juri/juri-depth-update-corner-heavy-dp-medium-kill-strike/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-corner-medium-back-heavy-double-fuha",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 172.8,
+			"sourceEnd": 178.7,
+			"clip": "/media/juri/juri-depth-update-corner-medium-back-heavy-double-fuha/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-corner-double-fuha-stock-kill-throw",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 191.5,
+			"sourceEnd": 195.25,
+			"clip": "/media/juri/juri-depth-update-corner-double-fuha-stock-kill-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-corner-double-fuha-stock-kill-medium",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 200.5,
+			"sourceEnd": 202.7,
+			"clip": "/media/juri/juri-depth-update-corner-double-fuha-stock-kill-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-corner-double-fuha-jab-medium-kill-throw",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 215.05,
+			"sourceEnd": 218.8,
+			"clip": "/media/juri/juri-depth-update-corner-double-fuha-jab-medium-kill-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-corner-double-fuha-jab-medium-kill-shimmy",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 224.0,
+			"sourceEnd": 230.65,
+			"clip": "/media/juri/juri-depth-update-corner-double-fuha-jab-medium-kill-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-corner-double-fuha-jab-medium-kill-meaty",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 236.3,
+			"sourceEnd": 242.45,
+			"clip": "/media/juri/juri-depth-update-corner-double-fuha-jab-medium-kill-meaty/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-corner-double-fuha-medium-kill-impact",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 247.55,
+			"sourceEnd": 250.45,
+			"clip": "/media/juri/juri-depth-update-corner-double-fuha-medium-kill-impact/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-corner-od-dp-throw",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 265.05,
+			"sourceEnd": 268.25,
+			"clip": "/media/juri/juri-depth-update-corner-od-dp-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-update-corner-od-dp-medium",
+			"sourceId": "joe-ebios-juri-classic-2026",
+			"sourceStart": 273.7,
+			"sourceEnd": 275.5,
+			"clip": "/media/juri/juri-depth-update-corner-od-dp-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-three-lights-light-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 2.9,
+			"sourceEnd": 5.8,
+			"clip": "/media/juri/juri-depth-full-three-lights-light-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-light-dp-dash-walk-throw",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 14.7,
+			"sourceEnd": 18.0,
+			"clip": "/media/juri/juri-depth-full-light-dp-dash-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-light-dp-dash-backrise-shimmy",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 20.75,
+			"sourceEnd": 25.85,
+			"clip": "/media/juri/juri-depth-full-light-dp-dash-backrise-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-light-dp-dash-medium-confirm",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 29.15,
+			"sourceEnd": 32.85,
+			"clip": "/media/juri/juri-depth-full-light-dp-dash-medium-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-light-dp-rush-throw",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 36.15,
+			"sourceEnd": 39.5,
+			"clip": "/media/juri/juri-depth-full-light-dp-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-light-dp-rush-shimmy",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 42.5,
+			"sourceEnd": 48.6,
+			"clip": "/media/juri/juri-depth-full-light-dp-rush-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-light-dp-rush-low-confirm",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 51.25,
+			"sourceEnd": 55.4,
+			"clip": "/media/juri/juri-depth-full-light-dp-rush-low-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-light-dp-rush-overhead-confirm",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 58.35,
+			"sourceEnd": 63.05,
+			"clip": "/media/juri/juri-depth-full-light-dp-rush-overhead-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-light-dp-fuha-kill-throw",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 70.75,
+			"sourceEnd": 74.2,
+			"clip": "/media/juri/juri-depth-full-corner-light-dp-fuha-kill-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-light-dp-fuha-kill-medium",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 77.3,
+			"sourceEnd": 81.4,
+			"clip": "/media/juri/juri-depth-full-corner-light-dp-fuha-kill-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-light-dp-dash-jab-pressure",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 85.05,
+			"sourceEnd": 87.45,
+			"clip": "/media/juri/juri-depth-full-corner-light-dp-dash-jab-pressure/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-light-dp-dash-meaty-jab-confirm",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 90.45,
+			"sourceEnd": 95.55,
+			"clip": "/media/juri/juri-depth-full-corner-light-dp-dash-meaty-jab-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-light-dp-jab-medium-trade",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 105.05,
+			"sourceEnd": 110.6,
+			"clip": "/media/juri/juri-depth-full-corner-light-dp-jab-medium-trade/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-light-dp-low-kill-throw",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 118.2,
+			"sourceEnd": 121.8,
+			"clip": "/media/juri/juri-depth-full-corner-light-dp-low-kill-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-light-dp-low-kill-shimmy",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 124.65,
+			"sourceEnd": 130.55,
+			"clip": "/media/juri/juri-depth-full-corner-light-dp-low-kill-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-light-dp-low-kill-medium-pressure",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 133.65,
+			"sourceEnd": 135.6,
+			"clip": "/media/juri/juri-depth-full-corner-light-dp-low-kill-medium-pressure/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-light-dp-low-kill-meaty-heavy",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 138.4,
+			"sourceEnd": 143.85,
+			"clip": "/media/juri/juri-depth-full-corner-light-dp-low-kill-meaty-heavy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-low-two-lights-light-fuha",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 186.85,
+			"sourceEnd": 190.35,
+			"clip": "/media/juri/juri-depth-full-low-two-lights-light-fuha/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-counterhit-jab-medium-fuha",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 191.65,
+			"sourceEnd": 195.15,
+			"clip": "/media/juri/juri-depth-full-counterhit-jab-medium-fuha/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-rush-check-light-kick-heavy-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 196.35,
+			"sourceEnd": 201.3,
+			"clip": "/media/juri/juri-depth-full-rush-check-light-kick-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-standing-medium-stock-fuha",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 205.35,
+			"sourceEnd": 209.15,
+			"clip": "/media/juri/juri-depth-full-standing-medium-stock-fuha/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-standing-medium-enhanced-go-ohsatsu",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 210.35,
+			"sourceEnd": 214.6,
+			"clip": "/media/juri/juri-depth-full-standing-medium-enhanced-go-ohsatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-standing-medium-light-kick-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 215.3,
+			"sourceEnd": 219.0,
+			"clip": "/media/juri/juri-depth-full-standing-medium-light-kick-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-medium-punish-heavy-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 220.45,
+			"sourceEnd": 225.9,
+			"clip": "/media/juri/juri-depth-full-medium-punish-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-medium-punish-three-fuha-chain",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 227.5,
+			"sourceEnd": 235.8,
+			"clip": "/media/juri/juri-depth-full-medium-punish-three-fuha-chain/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-medium-od-projectile-heavy-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 237.45,
+			"sourceEnd": 242.1,
+			"clip": "/media/juri/juri-depth-full-corner-medium-od-projectile-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-medium-od-projectile-level-one",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 242.65,
+			"sourceEnd": 249.45,
+			"clip": "/media/juri/juri-depth-full-corner-medium-od-projectile-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-medium-od-projectile-level-three",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 250.75,
+			"sourceEnd": 263.1,
+			"clip": "/media/juri/juri-depth-full-corner-medium-od-projectile-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-crouching-medium-light-kick-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 264.65,
+			"sourceEnd": 268.3,
+			"clip": "/media/juri/juri-depth-full-crouching-medium-light-kick-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-counterhit-medium-double-medium-fuha",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 269.55,
+			"sourceEnd": 273.55,
+			"clip": "/media/juri/juri-depth-full-counterhit-medium-double-medium-fuha/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-rush-check-medium-od-go-ohsatsu",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 274.3,
+			"sourceEnd": 278.7,
+			"clip": "/media/juri/juri-depth-full-rush-check-medium-od-go-ohsatsu/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-counterhit-medium-manual-level-one",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 280.35,
+			"sourceEnd": 287.0,
+			"clip": "/media/juri/juri-depth-full-counterhit-medium-manual-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-low-three-fuha-confirm",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 408.35,
+			"sourceEnd": 413.65,
+			"clip": "/media/juri/juri-depth-full-low-three-fuha-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-low-whiff-punish-heavy-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 414.65,
+			"sourceEnd": 418.6,
+			"clip": "/media/juri/juri-depth-full-low-whiff-punish-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-low-whiff-punish-od-two-fuha",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 420.0,
+			"sourceEnd": 426.45,
+			"clip": "/media/juri/juri-depth-full-low-whiff-punish-od-two-fuha/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-standing-heavy-heavy-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 430.65,
+			"sourceEnd": 435.15,
+			"clip": "/media/juri/juri-depth-full-standing-heavy-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-standing-heavy-od-go-stock",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 436.15,
+			"sourceEnd": 440.8,
+			"clip": "/media/juri/juri-depth-full-standing-heavy-od-go-stock/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-standing-heavy-rush-medium-pressure",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 442.85,
+			"sourceEnd": 445.55,
+			"clip": "/media/juri/juri-depth-full-standing-heavy-rush-medium-pressure/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-standing-heavy-rush-build-stock",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 446.85,
+			"sourceEnd": 451.55,
+			"clip": "/media/juri/juri-depth-full-standing-heavy-rush-build-stock/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-standing-heavy-rush-spend-fuha",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 452.45,
+			"sourceEnd": 457.75,
+			"clip": "/media/juri/juri-depth-full-standing-heavy-rush-spend-fuha/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-standing-heavy-rush-three-fuha",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 459.3,
+			"sourceEnd": 466.75,
+			"clip": "/media/juri/juri-depth-full-standing-heavy-rush-three-fuha/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-standing-heavy-rush-target-level-one",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 468.65,
+			"sourceEnd": 477.8,
+			"clip": "/media/juri/juri-depth-full-standing-heavy-rush-target-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-forward-heavy-enhanced-medium-stock",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 479.15,
+			"sourceEnd": 483.65,
+			"clip": "/media/juri/juri-depth-full-forward-heavy-enhanced-medium-stock/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-forward-heavy-od-go-stock",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 484.75,
+			"sourceEnd": 489.25,
+			"clip": "/media/juri/juri-depth-full-forward-heavy-od-go-stock/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-forward-heavy-rush-medium-pressure",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 490.75,
+			"sourceEnd": 493.35,
+			"clip": "/media/juri/juri-depth-full-forward-heavy-rush-medium-pressure/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-forward-heavy-rush-build-stock",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 494.45,
+			"sourceEnd": 499.75,
+			"clip": "/media/juri/juri-depth-full-forward-heavy-rush-build-stock/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-blocked-dp-rush-heavy-meterless",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 501.05,
+			"sourceEnd": 508.4,
+			"clip": "/media/juri/juri-depth-full-blocked-dp-rush-heavy-meterless/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-blocked-dp-rush-three-fuha-level-three",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 510.0,
+			"sourceEnd": 528.35,
+			"clip": "/media/juri/juri-depth-full-blocked-dp-rush-three-fuha-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-blocked-dp-double-rush-three-fuha-cashout",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 530.0,
+			"sourceEnd": 551.45,
+			"clip": "/media/juri/juri-depth-full-blocked-dp-double-rush-three-fuha-cashout/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-close-heavy-kick-punish-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 553.05,
+			"sourceEnd": 557.1,
+			"clip": "/media/juri/juri-depth-full-close-heavy-kick-punish-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-close-heavy-kick-punish-level-one",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 559.55,
+			"sourceEnd": 566.55,
+			"clip": "/media/juri/juri-depth-full-close-heavy-kick-punish-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-counterhit-back-heavy-meterless-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 568.05,
+			"sourceEnd": 573.1,
+			"clip": "/media/juri/juri-depth-full-counterhit-back-heavy-meterless-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-drive-reversal-impact-heavy-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 725.45,
+			"sourceEnd": 733.55,
+			"clip": "/media/juri/juri-depth-full-drive-reversal-impact-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-drive-reversal-impact-forward-heavy-fuha-stock",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 735.05,
+			"sourceEnd": 743.1,
+			"clip": "/media/juri/juri-depth-full-drive-reversal-impact-forward-heavy-fuha-stock/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-wall-crush-medium-fuha-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 744.35,
+			"sourceEnd": 750.05,
+			"clip": "/media/juri/juri-depth-full-corner-wall-crush-medium-fuha-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-wall-crush-double-od-level-one",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 751.7,
+			"sourceEnd": 763.25,
+			"clip": "/media/juri/juri-depth-full-corner-wall-crush-double-od-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-level-one-dash-rush-medium",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 294.45,
+			"sourceEnd": 296.55,
+			"clip": "/media/juri/juri-depth-full-level-one-dash-rush-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-level-one-double-dash-medium",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 303.05,
+			"sourceEnd": 304.55,
+			"clip": "/media/juri/juri-depth-full-level-one-double-dash-medium/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-level-one-near-corner-dash-walk-throw",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 311.35,
+			"sourceEnd": 314.65,
+			"clip": "/media/juri/juri-depth-full-level-one-near-corner-dash-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-counterhit-medium-od-ankensatsu-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 324.65,
+			"sourceEnd": 329.25,
+			"clip": "/media/juri/juri-depth-full-counterhit-medium-od-ankensatsu-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-crouching-medium-rush-medium-pressure",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 331.15,
+			"sourceEnd": 333.35,
+			"clip": "/media/juri/juri-depth-full-crouching-medium-rush-medium-pressure/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-low-rush-jab-pressure",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 335.05,
+			"sourceEnd": 337.45,
+			"clip": "/media/juri/juri-depth-full-low-rush-jab-pressure/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-low-rush-stock-confirm",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 338.85,
+			"sourceEnd": 342.75,
+			"clip": "/media/juri/juri-depth-full-low-rush-stock-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-low-double-rush-level-three-cashout",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 345.15,
+			"sourceEnd": 360.35,
+			"clip": "/media/juri/juri-depth-full-low-double-rush-level-three-cashout/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-level-three-walk-throw",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 362.7,
+			"sourceEnd": 365.55,
+			"clip": "/media/juri/juri-depth-full-level-three-walk-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-level-three-walk-shimmy",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 367.2,
+			"sourceEnd": 372.45,
+			"clip": "/media/juri/juri-depth-full-level-three-walk-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-level-three-walk-medium-confirm",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 374.55,
+			"sourceEnd": 377.65,
+			"clip": "/media/juri/juri-depth-full-level-three-walk-medium-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-critical-art-rush-medium-pressure",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 382.7,
+			"sourceEnd": 384.75,
+			"clip": "/media/juri/juri-depth-full-critical-art-rush-medium-pressure/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-critical-art-rush-jab-reversal-bait",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 388.5,
+			"sourceEnd": 391.25,
+			"clip": "/media/juri/juri-depth-full-critical-art-rush-jab-reversal-bait/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-sweep-empty-jump-throw",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 579.65,
+			"sourceEnd": 583.05,
+			"clip": "/media/juri/juri-depth-full-sweep-empty-jump-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-sweep-heavy-kill-delay-throw",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 594.65,
+			"sourceEnd": 598.0,
+			"clip": "/media/juri/juri-depth-full-sweep-heavy-kill-delay-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-sweep-heavy-kill-meaty-heavy-confirm",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 601.05,
+			"sourceEnd": 605.55,
+			"clip": "/media/juri/juri-depth-full-sweep-heavy-kill-meaty-heavy-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-sweep-light-fuha-delay-throw",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 612.65,
+			"sourceEnd": 615.85,
+			"clip": "/media/juri/juri-depth-full-sweep-light-fuha-delay-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-sweep-light-fuha-shimmy",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 618.15,
+			"sourceEnd": 623.65,
+			"clip": "/media/juri/juri-depth-full-sweep-light-fuha-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-throw-rush-throw",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 636.25,
+			"sourceEnd": 638.65,
+			"clip": "/media/juri/juri-depth-full-throw-rush-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-throw-rush-jab-kill-shimmy",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 642.65,
+			"sourceEnd": 647.65,
+			"clip": "/media/juri/juri-depth-full-throw-rush-jab-kill-shimmy/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-throw-rush-medium-pressure",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 651.65,
+			"sourceEnd": 653.65,
+			"clip": "/media/juri/juri-depth-full-throw-rush-medium-pressure/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-corner-throw-dash-throw",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 661.35,
+			"sourceEnd": 663.85,
+			"clip": "/media/juri/juri-depth-full-corner-throw-dash-throw/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-raw-rush-medium-heavy-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 668.25,
+			"sourceEnd": 672.75,
+			"clip": "/media/juri/juri-depth-full-raw-rush-medium-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-raw-rush-medium-kick-stock",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 674.75,
+			"sourceEnd": 678.65,
+			"clip": "/media/juri/juri-depth-full-raw-rush-medium-kick-stock/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-raw-rush-crouching-medium-stock",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 681.25,
+			"sourceEnd": 685.15,
+			"clip": "/media/juri/juri-depth-full-raw-rush-crouching-medium-stock/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-raw-rush-counterhit-medium-heavy-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 687.25,
+			"sourceEnd": 691.65,
+			"clip": "/media/juri/juri-depth-full-raw-rush-counterhit-medium-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-raw-rush-low-medium-light-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 700.75,
+			"sourceEnd": 704.0,
+			"clip": "/media/juri/juri-depth-full-raw-rush-low-medium-light-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-raw-rush-heavy-kick-light-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 712.75,
+			"sourceEnd": 716.05,
+			"clip": "/media/juri/juri-depth-full-raw-rush-heavy-kick-light-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-raw-rush-counterhit-heavy-stock",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 718.05,
+			"sourceEnd": 721.25,
+			"clip": "/media/juri/juri-depth-full-raw-rush-counterhit-heavy-stock/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-three-lights-heavy-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 145.85,
+			"sourceEnd": 149.15,
+			"clip": "/media/juri/juri-depth-full-three-lights-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-sweep-empty-jump-medium-confirm",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 584.65,
+			"sourceEnd": 588.15,
+			"clip": "/media/juri/juri-depth-full-sweep-empty-jump-medium-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-sweep-light-fuha-delay-medium-confirm",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 626.05,
+			"sourceEnd": 629.65,
+			"clip": "/media/juri/juri-depth-full-sweep-light-fuha-delay-medium-confirm/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-fse-impact-drive-drain",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 825.55,
+			"sourceEnd": 831.75,
+			"clip": "/media/juri/juri-depth-full-fse-impact-drive-drain/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-fse-low-chain-heavy-fuha-knockdown",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 834.05,
+			"sourceEnd": 842.0,
+			"clip": "/media/juri/juri-depth-full-fse-low-chain-heavy-fuha-knockdown/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-fse-knockdown-jump-low-overhead-pressure",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 852.1,
+			"sourceEnd": 858.05,
+			"clip": "/media/juri/juri-depth-full-fse-knockdown-jump-low-overhead-pressure/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-fse-air-chain-medium-dive-carry",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 860.15,
+			"sourceEnd": 869.1,
+			"clip": "/media/juri/juri-depth-full-fse-air-chain-medium-dive-carry/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-fse-delayed-air-rush-medium-dive-carry",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 871.4,
+			"sourceEnd": 882.9,
+			"clip": "/media/juri/juri-depth-full-fse-delayed-air-rush-medium-dive-carry/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-fse-od-go-heavy-chain-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 884.95,
+			"sourceEnd": 893.25,
+			"clip": "/media/juri/juri-depth-full-fse-od-go-heavy-chain-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-od-dive-heavy-dp",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 767.25,
+			"sourceEnd": 771.6,
+			"clip": "/media/juri/juri-depth-full-od-dive-heavy-dp/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-od-dive-level-one",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 773.85,
+			"sourceEnd": 781.55,
+			"clip": "/media/juri/juri-depth-full-od-dive-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-od-dive-unstocked-go-level-one",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 783.25,
+			"sourceEnd": 791.7,
+			"clip": "/media/juri/juri-depth-full-od-dive-unstocked-go-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-od-dive-rush-od-projectile-level-one",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 794.25,
+			"sourceEnd": 802.75,
+			"clip": "/media/juri/juri-depth-full-od-dive-rush-od-projectile-level-one/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-od-dive-rush-level-three-cashout",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 805.65,
+			"sourceEnd": 820.65,
+			"clip": "/media/juri/juri-depth-full-od-dive-rush-level-three-cashout/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-close-low-light-fuha-guard",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 398.85,
+			"sourceEnd": 402.75,
+			"clip": "/media/juri/juri-depth-full-close-low-light-fuha-guard/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-full-spaced-low-medium-fuha-guard",
+			"sourceId": "joe-ebios-juri-season-three-march-2026",
+			"sourceStart": 403.85,
+			"sourceEnd": 407.25,
+			"clip": "/media/juri/juri-depth-full-spaced-low-medium-fuha-guard/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-aa-crouching-heavy-counterhit",
+			"sourceId": "exo-light-juri-anti-air-december-2024",
+			"sourceStart": 249.55,
+			"sourceEnd": 250.55,
+			"clip": "/media/juri/juri-depth-aa-crouching-heavy-counterhit/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-aa-punish-counter-air-medium-od-dive",
+			"sourceId": "exo-light-juri-anti-air-december-2024",
+			"sourceStart": 283.15,
+			"sourceEnd": 288.65,
+			"clip": "/media/juri/juri-depth-aa-punish-counter-air-medium-od-dive/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-aa-punish-counter-full-spend-level-three",
+			"sourceId": "exo-light-juri-anti-air-december-2024",
+			"sourceStart": 384.85,
+			"sourceEnd": 400.5,
+			"clip": "/media/juri/juri-depth-aa-punish-counter-full-spend-level-three/clip.mp4",
+			"silent": true,
+			"currentPatchTested": false
+		},
+		{
+			"referenceId": "juri-depth-aa-forward-heavy-od-level-one",
+			"sourceId": "venus-juri-anti-air-january-2024",
+			"sourceStart": 1.35,
+			"sourceEnd": 9.15,
+			"clip": "/media/juri/juri-depth-aa-forward-heavy-od-level-one/clip.mp4",
 			"silent": true,
 			"currentPatchTested": false
 		}

@@ -1,0 +1,3276 @@
+{
+	"characterId": "luke",
+	"reviewedOn": "2026-11-12",
+	"baselineReferenceCount": 17,
+	"newReferenceCount": 101,
+	"totalReferenceCount": 118,
+	"kinds": {
+		"combo": 49,
+		"setup": 61,
+		"response": 8
+	},
+	"sources": {
+		"joe-ebios-luke-beginner-2026": {
+			"youtubeId": "U-8O4Cg0Qcs",
+			"title": "SF6 LUKE Beginner Guide: The ONLY Combos & Setups You Need",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=U-8O4Cg0Qcs",
+			"published": "2026-06-12",
+			"reportedDuration": 321,
+			"duration": 320.633333,
+			"recordingContainerDuration": 320.654,
+			"recordingSha256": "e2cb1d4f48844b00c583fa13189a7aa9f2ab826f39f5319e7eb6a17c9d7c2da6",
+			"metadataSha256": "e8d553305538604b9ac3e0d35e1781e067c044bf6b5b9735a3ac841f7a155c5c",
+			"chapters": null,
+			"availabilityVerified": true,
+			"discoveryReview": {
+				"interval": [0, 320.633333],
+				"method": "Complete one-second discovery survey, 321 samples in 18 pages; selected baseline/new families then reviewed in dense original action sheets and risky input-history probes. Preserved baseline objects were not reauthored."
+			},
+			"extractedReferenceIds": [
+				"luke-ebios-three-lights-flash-knuckle",
+				"luke-ebios-light-flash-rush-throw",
+				"luke-ebios-corner-lights-flash-uppercut",
+				"luke-ebios-corner-uppercut-whiff-medium-throw",
+				"luke-ebios-medium-light-flash-knuckle",
+				"luke-ebios-low-rush-perfect-knuckles",
+				"luke-ebios-near-corner-low-perfect-medium-uppercut",
+				"luke-ebios-near-corner-air-knuckle-juggle",
+				"luke-ebios-corner-low-sand-blast-uppercut",
+				"luke-ebios-drive-reversal-medium-target-combo",
+				"luke-ebios-heavy-punish-double-perfect-medium",
+				"luke-ebios-corner-heavy-punish-sand-uppercut",
+				"luke-ebios-counter-di-perfect-knuckles",
+				"luke-ebios-corner-counter-di-sand-uppercut",
+				"luke-ebios-wall-splat-sand-uppercut",
+				"luke-ebios-blocked-uppercut-heavy-perfect-knuckles",
+				"luke-ebios-reversal-rush-level-three-cashout",
+				"luke-depth-light-fk-dash-double-impact-guard",
+				"luke-depth-light-fk-rush-shimmy-heavy",
+				"luke-depth-light-fk-rush-medium-perfect",
+				"luke-depth-light-fk-rush-overhead-light",
+				"luke-depth-corner-light-dp-medium-whiff-low",
+				"luke-depth-perfect-heavy-avenger-guard",
+				"luke-depth-perfect-heavy-avenger-throw",
+				"luke-depth-perfect-heavy-avenger-shimmy",
+				"luke-depth-perfect-heavy-rush-throw",
+				"luke-depth-perfect-heavy-rush-shimmy",
+				"luke-depth-perfect-heavy-rush-medium",
+				"luke-depth-perfect-heavy-rush-overhead",
+				"luke-depth-corner-heavy-dp-medium-whiff-throw",
+				"luke-depth-corner-heavy-dp-medium-whiff-low",
+				"luke-depth-target-combo-dash-walk-throw",
+				"luke-depth-target-combo-dash-shimmy-heavy-dp",
+				"luke-depth-target-combo-dash-heavy-meaty"
+			]
+		},
+		"joe-ebios-luke-full-2026": {
+			"youtubeId": "dTGbCMDK8QI",
+			"title": "Classic LUKE Combos & Setup guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=dTGbCMDK8QI",
+			"published": "2026-02-14",
+			"reportedDuration": 1157,
+			"duration": 1156.50535,
+			"recordingContainerDuration": 1156.562721,
+			"recordingSha256": "871f7dd328f112de683bf7949ec2e3cb9ba13dbaaa50ec2027a958a1e51b03d9",
+			"metadataSha256": "4f7188c1b48690db0e98d03c642fab9d15f7401b94e0e8dc62d7ad138fce9cd5",
+			"chapters": [
+				{
+					"start_time": 0,
+					"title": "Introduction to neutral game",
+					"end_time": 93
+				},
+				{
+					"start_time": 93,
+					"title": "Corner pressure and combos",
+					"end_time": 212
+				},
+				{
+					"start_time": 212,
+					"title": "Drive gauge management",
+					"end_time": 354
+				},
+				{
+					"start_time": 354,
+					"title": "Super Art usage",
+					"end_time": 532
+				},
+				{
+					"start_time": 532,
+					"title": "Perfect move optimization",
+					"end_time": 682
+				},
+				{
+					"start_time": 682,
+					"title": "Corner and mid-screen punishes",
+					"end_time": 885
+				},
+				{
+					"start_time": 885,
+					"title": "Counter hit setups",
+					"end_time": 1027
+				},
+				{
+					"start_time": 1027,
+					"title": "Drive Impact and cleanup",
+					"end_time": 1157
+				}
+			],
+			"availabilityVerified": true,
+			"discoveryReview": {
+				"interval": [0, 1156.50535],
+				"method": "Complete three-second discovery survey, 386 samples in 22 pages and all eight supplied chapters; dense practical family/action sheets and native input-history probes establish all 76 additions. Chapters are rough locators, not authoritative gameplay labels."
+			},
+			"extractedReferenceIds": [
+				"luke-depth-light-target-heavy-knuckle",
+				"luke-depth-light-target-rush-heavy-guard",
+				"luke-depth-light-target-rush-heavy-throw",
+				"luke-depth-light-target-rush-heavy-shimmy",
+				"luke-depth-light-target-rush-heavy-low-ch",
+				"luke-depth-light-target-rush-heavy-perfect",
+				"luke-depth-corner-light-dp-jab-whiff-delay-throw",
+				"luke-depth-corner-light-dp-jab-whiff-shimmy",
+				"luke-depth-corner-light-dp-jab-whiff-medium-ch",
+				"luke-depth-corner-light-dp-jab-whiff-heavy-od",
+				"luke-depth-corner-light-dp-standing-medium-whiff-jabs",
+				"luke-depth-low-jab-heavy-uppercut",
+				"luke-depth-low-od-walk-heavy-uppercut",
+				"luke-depth-heavy-uppercut-dash-throw",
+				"luke-depth-od-heavy-uppercut-dash-shimmy",
+				"luke-depth-od-heavy-uppercut-dash-medium-ch",
+				"luke-depth-low-od-regular-medium-knuckle",
+				"luke-depth-corner-low-od-light-blast-uppercut",
+				"luke-depth-corner-medium-whiff-parry-super",
+				"luke-depth-corner-low-od-level-one",
+				"luke-depth-corner-low-od-light-blast-level-two",
+				"luke-depth-corner-level-two-throw",
+				"luke-depth-corner-level-two-shimmy",
+				"luke-depth-corner-level-two-medium-ch-od",
+				"luke-depth-corner-low-fatal-shot-level-one",
+				"luke-depth-corner-low-double-blast-burnout-level-two",
+				"luke-depth-low-od-ddt",
+				"luke-depth-ddt-walk-throw",
+				"luke-depth-ddt-shimmy-perfect-knuckles",
+				"luke-depth-ddt-walk-medium-ch",
+				"luke-depth-heavy-perfect-light-stock-ender",
+				"luke-depth-perfect-light-stock-dash-walk-throw",
+				"luke-depth-perfect-light-stock-dash-shimmy-air-juggle",
+				"luke-depth-perfect-light-stock-dash-medium-ch",
+				"luke-depth-heavy-perfect-medium-avenger",
+				"luke-depth-avenger-ender-dash-walk-throw",
+				"luke-depth-avenger-ender-dash-shimmy",
+				"luke-depth-avenger-ender-dash-heavy",
+				"luke-depth-heavy-perfect-medium-rush-light-avenger",
+				"luke-depth-heavy-rush-perfect-heavy-knuckle",
+				"luke-depth-perfect-heavy-avenger-whiff-walk-throw",
+				"luke-depth-perfect-heavy-avenger-whiff-shimmy-target",
+				"luke-depth-perfect-heavy-avenger-whiff-heavy",
+				"luke-depth-heavy-perfect-knuckles-level-one",
+				"luke-depth-heavy-delayed-rush-cancel-level-one",
+				"luke-depth-heavy-perfect-medium-dash-level-two",
+				"luke-depth-heavy-perfect-knuckles-level-three",
+				"luke-depth-standing-heavy-perfect-light-heavy",
+				"luke-depth-standing-heavy-light-rush-medium-avenger",
+				"luke-depth-near-corner-heavy-double-light-medium-uppercut",
+				"luke-depth-near-corner-heavy-rush-blast-heavy-uppercut",
+				"luke-depth-near-corner-heavy-od-double-uppercut",
+				"luke-depth-near-corner-perfect-heavy-burnout-level-three",
+				"luke-depth-corner-heavy-light-blast-level-one",
+				"luke-depth-corner-heavy-light-air-juggle",
+				"luke-depth-medium-light-od-walk-heavy-uppercut",
+				"luke-depth-medium-rush-standing-heavy-perfect-knuckles",
+				"luke-depth-standing-heavy-rush-back-heavy-perfect-knuckles",
+				"luke-depth-blocked-uppercut-back-heavy-perfect-knuckles",
+				"luke-depth-corner-blocked-uppercut-back-heavy-air-juggle",
+				"luke-depth-raw-rush-guarded-medium-delay-throw",
+				"luke-depth-raw-rush-guarded-medium-shimmy",
+				"luke-depth-raw-rush-guarded-medium-counterhit-medium",
+				"luke-depth-raw-rush-back-heavy-perfect-knuckles",
+				"luke-depth-standing-medium-four-hit-target",
+				"luke-depth-medium-target-dash-heavy-air-juggle",
+				"luke-depth-near-corner-crouching-heavy-medium-air-juggle",
+				"luke-depth-near-corner-crouching-heavy-medium-heavy-uppercut",
+				"luke-depth-corner-heavy-uppercut-jab-whiff-heavy-air-juggle",
+				"luke-depth-drive-reversal-triple-impact-heavy-knuckle",
+				"luke-depth-corner-drive-reversal-triple-impact-blast-uppercut",
+				"luke-depth-forward-throw-rush-medium-guard",
+				"luke-depth-corner-forward-throw-walk-throw",
+				"luke-depth-corner-forward-throw-shimmy-air-juggle",
+				"luke-depth-back-throw-heavy-meaty-od-blast-uppercut",
+				"luke-depth-corner-counter-impact-perfect-light-air-juggle"
+			]
+		},
+		"joe-ebios-luke-update-2026": {
+			"youtubeId": "d3gRKwlCe3s",
+			"title": "Current Patch Luke: Essential Changes & Routes 【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=d3gRKwlCe3s",
+			"published": "2026-06-10",
+			"reportedDuration": 67,
+			"duration": 66.583333,
+			"recordingContainerDuration": 66.66449,
+			"recordingSha256": "1b86590412379b67050b172a4ec1472f518aa4b3a61f0cb932b24197e8684823",
+			"metadataSha256": "9b5a5be560744da026456fcbbcd70c37013b898146b6a9c93f8fe10b1d785ca9",
+			"chapters": null,
+			"availabilityVerified": true,
+			"discoveryReview": {
+				"interval": [0, 66.583333],
+				"method": "Complete two-fps discovery survey, 133 samples in eight pages, plus all 15 fine action pages. The five authored interactions were reviewed against original input history."
+			},
+			"extractedReferenceIds": [
+				"luke-depth-update-corner-lights-light-knuckle-level-two",
+				"luke-depth-update-held-heavy-guard-low-confirm",
+				"luke-depth-update-held-heavy-parry-throw",
+				"luke-depth-update-held-heavy-parry-shimmy",
+				"luke-depth-update-forward-heavy-whiff-punish-perfect-knuckles"
+			]
+		},
+		"2xkairos-luke-guide-2023": {
+			"youtubeId": "9KJ6JRX0DBY",
+			"title": "Must Know Luke Combos for Street Fighter 6",
+			"creator": "2XKairos",
+			"url": "https://www.youtube.com/watch?v=9KJ6JRX0DBY",
+			"published": "2023-06-02",
+			"reportedDuration": 224,
+			"duration": 224.2,
+			"recordingContainerDuration": 224.258322,
+			"recordingSha256": "e04bb801f45a64ff450015b166f6d2248491edf415586654686fec0ae0657a0b",
+			"metadataSha256": "6f739662ae7e65625fe895ba827993059a17b6da02d3ffc9cae843e5b83be3e1",
+			"chapters": null,
+			"availabilityVerified": true,
+			"discoveryReview": {
+				"interval": [0, 224.2],
+				"method": "Complete two-second discovery survey, 112 samples in seven pages, then all 11 fine pages for the two recorded reversal baits and airborne Counter-Hit conversion. Remaining alternatives have not all received exact extraction."
+			},
+			"extractedReferenceIds": [
+				"luke-depth-kairos-corner-wall-splat-jump-heavy-reversal-bait",
+				"luke-depth-kairos-heavy-knuckle-jab-whiff-jump-medium-reversal-bait",
+				"luke-depth-kairos-jump-medium-counterhit-air-knuckle-uppercut"
+			]
+		}
+	},
+	"extractionDispositions": [
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 0.65,
+			"locatorEnd": 4.35,
+			"family": "Three crouching jabs into light Flash Knuckle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-three-lights-flash-knuckle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 13.35,
+			"locatorEnd": 17.75,
+			"family": "Light-Flash knockdown: Rush into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-light-flash-rush-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 45.15,
+			"locatorEnd": 48.15,
+			"family": "Corner lights: light Flash Knuckle into light Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-corner-lights-flash-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 53.05,
+			"locatorEnd": 56.75,
+			"family": "Corner light-Uppercut knockdown: whiff medium into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-corner-uppercut-whiff-medium-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 67.15,
+			"locatorEnd": 70.8,
+			"family": "Crouching medium and light kick into Flash Knuckle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-medium-light-flash-knuckle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 71.65,
+			"locatorEnd": 78.55,
+			"family": "Low Rush: Perfect medium and light Knuckles into heavy",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-low-rush-perfect-knuckles"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 155.15,
+			"locatorEnd": 160.65,
+			"family": "Near-corner low Rush: Perfect medium into heavy Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-near-corner-low-perfect-medium-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 161.65,
+			"locatorEnd": 168.55,
+			"family": "Near-corner extension: air medium into air Knuckle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-near-corner-air-knuckle-juggle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 169.15,
+			"locatorEnd": 175.65,
+			"family": "Corner low Rush: Perfect light, Sand Blast and heavy Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-corner-low-sand-blast-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 197.15,
+			"locatorEnd": 202.55,
+			"family": "Drive Reversal punish: crouching medium into the medium target route",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-drive-reversal-medium-target-combo"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 245.15,
+			"locatorEnd": 251.55,
+			"family": "Throw-whiff heavy punish: two Perfect medium Knuckles",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-heavy-punish-double-perfect-medium"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 252.15,
+			"locatorEnd": 258.95,
+			"family": "Corner heavy punish: Perfect light, Sand Blast and Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-corner-heavy-punish-sand-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 260.05,
+			"locatorEnd": 268.6,
+			"family": "Counter DI: crouching heavy into the Perfect-Knuckle route",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-counter-di-perfect-knuckles"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 269.25,
+			"locatorEnd": 278.3,
+			"family": "Corner counter DI: heavy into Perfect light and Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-corner-counter-di-sand-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 279.15,
+			"locatorEnd": 285.65,
+			"family": "Blocked DI wall splat: Perfect light into Sand Blast and Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-wall-splat-sand-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 286.45,
+			"locatorEnd": 294.55,
+			"family": "Blocked reversal: heavy and crouching heavy into Perfect Knuckles",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-blocked-uppercut-heavy-perfect-knuckles"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 295.15,
+			"locatorEnd": 315.35,
+			"family": "Reversal cash-out: Rush back heavy into Level 3",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-ebios-reversal-rush-level-three-cashout"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 7.4,
+			"locatorEnd": 10.6,
+			"family": "Light Knuckle: dash into Double Impact pressure",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-light-fk-dash-double-impact-guard"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 20.55,
+			"locatorEnd": 26.1,
+			"family": "Light Knuckle: Rush shimmy into heavy punish",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-light-fk-rush-shimmy-heavy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 29.8,
+			"locatorEnd": 35.1,
+			"family": "Light Knuckle: Rush medium into Perfect Knuckles",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-light-fk-rush-medium-perfect"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 39.1,
+			"locatorEnd": 43.3,
+			"family": "Light Knuckle: Rush overhead into lights",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-light-fk-rush-overhead-light"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 61.45,
+			"locatorEnd": 65.8,
+			"family": "Corner light Uppercut: medium whiff into low",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-light-dp-medium-whiff-low"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 84.35,
+			"locatorEnd": 86.65,
+			"family": "Perfect-light ender: Avenger guard pressure",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-heavy-avenger-guard"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 92.4,
+			"locatorEnd": 96.55,
+			"family": "Perfect-light ender: Avenger into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-heavy-avenger-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 102.4,
+			"locatorEnd": 108.6,
+			"family": "Perfect-light ender: Avenger shimmy punish",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-heavy-avenger-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 114.5,
+			"locatorEnd": 118.15,
+			"family": "Perfect-light ender: Rush into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-heavy-rush-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 123.8,
+			"locatorEnd": 129.6,
+			"family": "Perfect-light ender: Rush shimmy into heavy",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-heavy-rush-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 135.45,
+			"locatorEnd": 141.25,
+			"family": "Perfect-light ender: Rush medium conversion",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-heavy-rush-medium"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 147.35,
+			"locatorEnd": 154.15,
+			"family": "Perfect-light ender: Rush overhead into heavy",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-heavy-rush-overhead"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 181.1,
+			"locatorEnd": 184.5,
+			"family": "Corner heavy Uppercut: medium whiff into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-heavy-dp-medium-whiff-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 191.15,
+			"locatorEnd": 195.5,
+			"family": "Corner heavy Uppercut: medium whiff into low",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-heavy-dp-medium-whiff-low"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 213.3,
+			"locatorEnd": 217.7,
+			"family": "Medium target combo: dash, walk, throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-target-combo-dash-walk-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 222.75,
+			"locatorEnd": 227.7,
+			"family": "Medium target combo: dash shimmy into heavy Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-target-combo-dash-shimmy-heavy-dp"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 232.45,
+			"locatorEnd": 238.15,
+			"family": "Medium target combo: dash heavy into Perfect Knuckles",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-target-combo-dash-heavy-meaty"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 2.65,
+			"locatorEnd": 5.75,
+			"family": "Light target combo into heavy Knuckle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-light-target-heavy-knuckle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 49.65,
+			"locatorEnd": 52.15,
+			"family": "Light target ender: delayed Rush heavy pressure",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-light-target-rush-heavy-guard"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 54.55,
+			"locatorEnd": 59.15,
+			"family": "Light target ender: guarded heavy into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-light-target-rush-heavy-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 61.75,
+			"locatorEnd": 67.1,
+			"family": "Light target ender: heavy-kick shimmy into target combo",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-light-target-rush-heavy-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 69.65,
+			"locatorEnd": 74.1,
+			"family": "Light target ender: guarded heavy into counter-hit low",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-light-target-rush-heavy-low-ch"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 77.1,
+			"locatorEnd": 83.4,
+			"family": "Light target ender: Rush heavy into Perfect juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-light-target-rush-heavy-perfect"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 124.15,
+			"locatorEnd": 127.7,
+			"family": "Corner light Uppercut: jab whiff, delayed throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-light-dp-jab-whiff-delay-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 131.75,
+			"locatorEnd": 137.7,
+			"family": "Corner light Uppercut: jab-whiff shimmy punish",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-light-dp-jab-whiff-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 141.6,
+			"locatorEnd": 145.35,
+			"family": "Corner light Uppercut: jab whiff into medium counter hit",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-light-dp-jab-whiff-medium-ch"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 149.35,
+			"locatorEnd": 155.65,
+			"family": "Corner light Uppercut: jab whiff into heavy OD route",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-light-dp-jab-whiff-heavy-od"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 164.55,
+			"locatorEnd": 168.85,
+			"family": "Corner light Uppercut: medium whiff into low and jabs",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-light-dp-standing-medium-whiff-jabs"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 279.35,
+			"locatorEnd": 282.55,
+			"family": "Point-blank low and jab into heavy Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-low-jab-heavy-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 283.3,
+			"locatorEnd": 288.45,
+			"family": "Low lights into OD Knuckle, walk, heavy Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-low-od-walk-heavy-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 291.1,
+			"locatorEnd": 294.75,
+			"family": "Meterless heavy Uppercut: dash into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-heavy-uppercut-dash-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 299.15,
+			"locatorEnd": 305.7,
+			"family": "OD juggle ender: dash shimmy into light Knuckle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-od-heavy-uppercut-dash-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 309.9,
+			"locatorEnd": 313.9,
+			"family": "OD juggle ender: dash medium counter hit",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-od-heavy-uppercut-dash-medium-ch"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 314.55,
+			"locatorEnd": 319.15,
+			"family": "Low lights into OD and regular medium Knuckle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-low-od-regular-medium-knuckle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 320.1,
+			"locatorEnd": 325.5,
+			"family": "Corner low lights into OD, light Blast and Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-low-od-light-blast-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 172.75,
+			"locatorEnd": 176.45,
+			"family": "Corner light Uppercut: medium whiff into Super parry",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-medium-whiff-parry-super"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 326.1,
+			"locatorEnd": 332.65,
+			"family": "Corner low lights into OD Knuckle and level one",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-low-od-level-one"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 333.25,
+			"locatorEnd": 344.85,
+			"family": "Corner low lights into light Blast and level two",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-low-od-light-blast-level-two"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 348.1,
+			"locatorEnd": 352.4,
+			"family": "Corner Eraser: immediate throw pressure",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-level-two-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 355.3,
+			"locatorEnd": 362.5,
+			"family": "Corner Eraser: shimmy into Knuckle and light Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-level-two-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 365.15,
+			"locatorEnd": 371.25,
+			"family": "Corner Eraser: medium counter hit into OD juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-level-two-medium-ch-od"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 392.4,
+			"locatorEnd": 400.0,
+			"family": "Corner low lights: Fatal Shot into level one",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-low-fatal-shot-level-one"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 422.5,
+			"locatorEnd": 435.3,
+			"family": "Corner low lights: double Blast burnout into level two",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-low-double-blast-burnout-level-two"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 436.1,
+			"locatorEnd": 441.15,
+			"family": "Low lights into OD Knuckle and DDT",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-low-od-ddt"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 445.65,
+			"locatorEnd": 449.25,
+			"family": "DDT hard knockdown: walk into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-ddt-walk-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 453.95,
+			"locatorEnd": 459.85,
+			"family": "DDT hard knockdown: shimmy into Perfect Knuckles",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-ddt-shimmy-perfect-knuckles"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 464.55,
+			"locatorEnd": 468.2,
+			"family": "DDT hard knockdown: walk into medium counter hit",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-ddt-walk-medium-ch"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 482.35,
+			"locatorEnd": 486.8,
+			"family": "Crouching heavy: Perfect medium into Perfect light knockdown",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-heavy-perfect-light-stock-ender"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 490.35,
+			"locatorEnd": 494.3,
+			"family": "Perfect-light knockdown: dash, walk, throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-light-stock-dash-walk-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 498.15,
+			"locatorEnd": 504.25,
+			"family": "Perfect-light knockdown: shimmy into air-Knuckle carry",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-light-stock-dash-shimmy-air-juggle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 508.5,
+			"locatorEnd": 512.2,
+			"family": "Perfect-light knockdown: dash medium counter hit",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-light-stock-dash-medium-ch"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 512.65,
+			"locatorEnd": 516.95,
+			"family": "Crouching heavy: Perfect medium into Avenger knockdown",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-heavy-perfect-medium-avenger"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 525.1,
+			"locatorEnd": 528.55,
+			"family": "Avenger knockdown: dash, walk, throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-avenger-ender-dash-walk-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 531.95,
+			"locatorEnd": 536.45,
+			"family": "Avenger knockdown: dash shimmy into another Avenger",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-avenger-ender-dash-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 540.15,
+			"locatorEnd": 544.9,
+			"family": "Avenger knockdown: dash heavy into Perfect medium",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-avenger-ender-dash-heavy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 545.35,
+			"locatorEnd": 551.6,
+			"family": "Crouching heavy: Rush light-Knuckle Avenger juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-heavy-perfect-medium-rush-light-avenger"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 552.2,
+			"locatorEnd": 557.8,
+			"family": "Crouching heavy: Rush into Perfect heavy knockdown",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-heavy-rush-perfect-heavy-knuckle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 568.35,
+			"locatorEnd": 572.35,
+			"family": "Perfect-heavy knockdown: Avenger whiff, walk, throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-heavy-avenger-whiff-walk-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 576.95,
+			"locatorEnd": 581.85,
+			"family": "Perfect-heavy knockdown: Avenger-whiff shimmy into medium target",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-heavy-avenger-whiff-shimmy-target"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 586.2,
+			"locatorEnd": 591.55,
+			"family": "Perfect-heavy knockdown: Avenger whiff into heavy kick",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-perfect-heavy-avenger-whiff-heavy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 592.25,
+			"locatorEnd": 599.6,
+			"family": "Crouching heavy: Perfect Knuckles into level one",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-heavy-perfect-knuckles-level-one"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 600.2,
+			"locatorEnd": 609.0,
+			"family": "Crouching heavy: delayed Rush, cancel extension, level one",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-heavy-delayed-rush-cancel-level-one"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 609.55,
+			"locatorEnd": 619.65,
+			"family": "Crouching heavy: Perfect medium, dash, level two",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-heavy-perfect-medium-dash-level-two"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 620.35,
+			"locatorEnd": 630.25,
+			"family": "Crouching heavy: meterless Knuckles into level three",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-heavy-perfect-knuckles-level-three"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 656.55,
+			"locatorEnd": 660.55,
+			"family": "Standing heavy into Perfect light and heavy Knuckle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-standing-heavy-perfect-light-heavy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 661.5,
+			"locatorEnd": 667.65,
+			"family": "Standing heavy: light Knuckle, Rush heavy, Avenger",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-standing-heavy-light-rush-medium-avenger"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 696.4,
+			"locatorEnd": 701.6,
+			"family": "Near corner: heavy into two light Knuckles and medium Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-near-corner-heavy-double-light-medium-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 702.1,
+			"locatorEnd": 707.75,
+			"family": "Near corner: Rush heavy into heavy Blast and Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-near-corner-heavy-rush-blast-heavy-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 735.85,
+			"locatorEnd": 742.55,
+			"family": "Near corner: OD Knuckle into two Uppercuts",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-near-corner-heavy-od-double-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 788.25,
+			"locatorEnd": 800.15,
+			"family": "Near corner: double-cancel Perfect-heavy burnout into level three",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-near-corner-perfect-heavy-burnout-level-three"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 806.7,
+			"locatorEnd": 813.25,
+			"family": "Corner heavy: Perfect light and medium Blast into level one",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-heavy-light-blast-level-one"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 854.25,
+			"locatorEnd": 859.9,
+			"family": "Corner heavy: Perfect light into air-Knuckle juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-heavy-light-air-juggle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 929.5,
+			"locatorEnd": 934.25,
+			"family": "Medium and light kick: OD Knuckle, walk, heavy Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-medium-light-od-walk-heavy-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 934.7,
+			"locatorEnd": 941.0,
+			"family": "Crouching medium: cancel to standing-heavy Perfect juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-medium-rush-standing-heavy-perfect-knuckles"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 950.35,
+			"locatorEnd": 957.0,
+			"family": "Standing heavy: cancel through back heavy into Perfect Knuckles",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-standing-heavy-rush-back-heavy-perfect-knuckles"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 962.55,
+			"locatorEnd": 969.7,
+			"family": "Blocked Uppercut: back-heavy punish into Perfect Knuckles",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-blocked-uppercut-back-heavy-perfect-knuckles"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 971.0,
+			"locatorEnd": 977.85,
+			"family": "Corner blocked Uppercut: back heavy into air-Knuckle juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-blocked-uppercut-back-heavy-air-juggle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1009.5,
+			"locatorEnd": 1013.9,
+			"family": "Neutral Rush: guarded medium into delayed throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-raw-rush-guarded-medium-delay-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1014.95,
+			"locatorEnd": 1021.65,
+			"family": "Neutral Rush: guarded medium into shimmy punish",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-raw-rush-guarded-medium-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1022.1,
+			"locatorEnd": 1026.5,
+			"family": "Neutral Rush: guarded medium into counter-hit confirm",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-raw-rush-guarded-medium-counterhit-medium"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1026.95,
+			"locatorEnd": 1033.85,
+			"family": "Neutral Rush: back heavy into Perfect Knuckles",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-raw-rush-back-heavy-perfect-knuckles"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 893.55,
+			"locatorEnd": 897.9,
+			"family": "Standing-medium target combo knockdown",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-standing-medium-four-hit-target"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 918.35,
+			"locatorEnd": 924.95,
+			"family": "Medium target ender: dash heavy into air-Knuckle juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-medium-target-dash-heavy-air-juggle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 642.8,
+			"locatorEnd": 648.6,
+			"family": "Near corner: crouching heavy into Perfect-medium air juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-near-corner-crouching-heavy-medium-air-juggle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 649.1,
+			"locatorEnd": 653.85,
+			"family": "Near corner: crouching heavy, Perfect medium, heavy Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-near-corner-crouching-heavy-medium-heavy-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 728.35,
+			"locatorEnd": 734.85,
+			"family": "Corner heavy Uppercut: jab whiff into heavy air-juggle route",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-heavy-uppercut-jab-whiff-heavy-air-juggle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1071.0,
+			"locatorEnd": 1075.85,
+			"family": "Drive Reversal guard: medium punish into Triple Impact",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-drive-reversal-triple-impact-heavy-knuckle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1077.1,
+			"locatorEnd": 1083.15,
+			"family": "Corner Drive Reversal guard: Triple Impact into Blast and Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-drive-reversal-triple-impact-blast-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1087.95,
+			"locatorEnd": 1090.5,
+			"family": "Forward throw: Rush medium into wake-up guard",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-forward-throw-rush-medium-guard"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1093.25,
+			"locatorEnd": 1097.0,
+			"family": "Corner forward throw: walk into another throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-forward-throw-walk-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1100.15,
+			"locatorEnd": 1106.4,
+			"family": "Corner forward throw: shimmy into Perfect-medium air juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-forward-throw-shimmy-air-juggle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1109.75,
+			"locatorEnd": 1115.65,
+			"family": "Back throw into corner: heavy meaty and OD juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-back-throw-heavy-meaty-od-blast-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1129.0,
+			"locatorEnd": 1138.0,
+			"family": "Corner counter Impact: Perfect-light air-Knuckle juggle",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-corner-counter-impact-perfect-light-air-juggle"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 23.35,
+			"locatorEnd": 33.8,
+			"family": "Corner light confirm: regular Knuckle into level two",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-update-corner-lights-light-knuckle-level-two"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 34.6,
+			"locatorEnd": 39.7,
+			"family": "Held heavy Knuckle: guarded approach into low confirm",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-update-held-heavy-guard-low-confirm"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 40.6,
+			"locatorEnd": 46.45,
+			"family": "Held heavy Knuckle: parried approach into throw",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-update-held-heavy-parry-throw"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 46.65,
+			"locatorEnd": 54.1,
+			"family": "Held heavy Knuckle: parry into shimmy punish",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-update-held-heavy-parry-shimmy"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 54.55,
+			"locatorEnd": 61.45,
+			"family": "Forward-heavy whiff punish into Perfect Knuckles",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-update-forward-heavy-whiff-punish-perfect-knuckles"]
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"locatorStart": 70.05,
+			"locatorEnd": 74.35,
+			"family": "Corner wall-splat ender: jump heavy and guard reversal",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-kairos-corner-wall-splat-jump-heavy-reversal-bait"]
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"locatorStart": 91.05,
+			"locatorEnd": 94.2,
+			"family": "Held-heavy ender: jab whiff, jump medium and guard",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-kairos-heavy-knuckle-jab-whiff-jump-medium-reversal-bait"]
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"locatorStart": 98.4,
+			"locatorEnd": 103.2,
+			"family": "Jump-medium anti-air: held air Knuckle into medium Uppercut",
+			"disposition": "covered",
+			"reason": "Exact authored extraction. Commands, recorded opponent/state, resources, source bounds and selected moments are in the catalog.",
+			"referenceIds": ["luke-depth-kairos-jump-medium-counterhit-air-knuckle-uppercut"]
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 0,
+			"locatorEnd": 6,
+			"family": "Triple Impact into heavy Knuckle",
+			"disposition": "covered",
+			"reason": "Light target route extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 6,
+			"locatorEnd": 33,
+			"family": "Target-heavy-Knuckle Avenger guard/throw/shimmy/low",
+			"disposition": "duplicate",
+			"reason": "These decision types are represented in the selected June Perfect-light/heavy-ender family. Different prerequisite is not asserted interchangeable.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 33,
+			"locatorEnd": 49,
+			"family": "Target-heavy-Knuckle raw-Rush throw/shimmy",
+			"disposition": "duplicate",
+			"reason": "Selected June Rush decisions cover the practical throw/bait choice; different prerequisite remains dated context.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 49,
+			"locatorEnd": 84,
+			"family": "Delayed Rush heavy-kick guard/throw/shimmy/low/heavy conversion",
+			"disposition": "covered",
+			"reason": "Five distinct performed decisions extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 84,
+			"locatorEnd": 97,
+			"family": "Rush overhead/low target-ender branches",
+			"disposition": "unprocessed",
+			"reason": "Survey/family reviewed, but exact follow-up route, context and boundaries not separately authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 97,
+			"locatorEnd": 106,
+			"family": "Corner target/Blast/light-DP prerequisite and bare medium-whiff timing",
+			"disposition": "excluded",
+			"reason": "Shared prerequisite or timing-only illustration, not a complete extra decision.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 106,
+			"locatorEnd": 118,
+			"family": "Corner light-DP crouching-medium-whiff throw",
+			"disposition": "duplicate",
+			"reason": "Preserved June baseline covers this practical timing pattern, with its own prerequisite.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 118,
+			"locatorEnd": 128,
+			"family": "Corner light-DP jab-whiff delayed throw",
+			"disposition": "covered",
+			"reason": "Whole intentional jab and delayed throw retained.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 128,
+			"locatorEnd": 138,
+			"family": "Corner light-DP jab-whiff shimmy",
+			"disposition": "covered",
+			"reason": "Actual throw whiff and heavy punish retained.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 138,
+			"locatorEnd": 146,
+			"family": "Corner light-DP jab-whiff medium Counter Hit",
+			"disposition": "covered",
+			"reason": "Counter-Hit medium branch extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 146,
+			"locatorEnd": 156,
+			"family": "Corner light-DP jab-whiff heavy-kick OD conversion",
+			"disposition": "covered",
+			"reason": "Distinct heavy-kick/OD strike choice extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 156,
+			"locatorEnd": 164,
+			"family": "Standing-medium-whiff bare timing",
+			"disposition": "excluded",
+			"reason": "Timing illustration has no complete defender response.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 164,
+			"locatorEnd": 169,
+			"family": "Standing-medium whiff, low kick and two jabs",
+			"disposition": "covered",
+			"reason": "Actual cr.LK before two cr.LPs is retained despite omission from overlay.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 169,
+			"locatorEnd": 177,
+			"family": "Standing-medium timing whiff into Drive Parry and Level 1",
+			"disposition": "covered",
+			"reason": "Actual parry response extracted. A displayed crouching-jab command is not authored as an executed jab.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 177,
+			"locatorEnd": 211,
+			"family": "Old regular-light-Knuckle +32 Avenger decisions",
+			"disposition": "excluded",
+			"reason": "June update changes this knockdown to +36 and shows immediate Avenger whiffing; February timing is not promoted as the June setup.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 211,
+			"locatorEnd": 267,
+			"family": "Old regular-light-Knuckle +32 Rush decisions",
+			"disposition": "duplicate",
+			"reason": "June +36 Rush throw/shimmy/guard/strike choices are separately represented, without assuming identical timing.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 267,
+			"locatorEnd": 279,
+			"family": "Old +32 standing-light-kick whiff into heavy kick",
+			"disposition": "excluded",
+			"reason": "Dated prerequisite timing changed by June update; no matching current recording extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 279,
+			"locatorEnd": 289,
+			"family": "Low/jab heavy Uppercut and OD walk-heavy Uppercut",
+			"disposition": "covered",
+			"reason": "Meterless and OD walk-juggle choices extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 289,
+			"locatorEnd": 314,
+			"family": "Heavy-Uppercut dash throw/shimmy/Counter-Hit medium",
+			"disposition": "covered",
+			"reason": "Three different wake-up decisions, prerequisite costs separate.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 314,
+			"locatorEnd": 326,
+			"family": "Low OD regular-medium and corner light-Blast/light-DP",
+			"disposition": "covered",
+			"reason": "Midscreen and corner-specific finishers extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 326,
+			"locatorEnd": 345,
+			"family": "Low OD Level 1 and light-Blast Level 2",
+			"disposition": "covered",
+			"reason": "Two actually performed Super resources extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 345,
+			"locatorEnd": 372,
+			"family": "Level 2 walk throw/shimmy/Counter-Hit medium OD",
+			"disposition": "covered",
+			"reason": "All three recorded decisions extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 372,
+			"locatorEnd": 392,
+			"family": "OD Knuckle/OD Blast Level 1 and Level 2 alternatives",
+			"disposition": "unprocessed",
+			"reason": "Additional resource branches surveyed; exact recipes/gauge flow not separately authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 392,
+			"locatorEnd": 400,
+			"family": "Low OD Fatal Shot Level 1",
+			"disposition": "covered",
+			"reason": "Actual Fatal Shot extension into Level 1 extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 400,
+			"locatorEnd": 422,
+			"family": "Fatal Shot Level 2 and double-Blast Level 1",
+			"disposition": "unprocessed",
+			"reason": "Alternative resource branches remain without exact authored excerpts.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 422,
+			"locatorEnd": 436,
+			"family": "Double-Blast Burnout Level 2",
+			"disposition": "covered",
+			"reason": "Actual EMPTY/Burnout supports Cash-out tag; nominal spend is not minimum starting gauge.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 436,
+			"locatorEnd": 442,
+			"family": "Low OD DDT",
+			"disposition": "covered",
+			"reason": "DDT resource/knockdown alternative extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 442,
+			"locatorEnd": 469,
+			"family": "DDT walk throw/shimmy/Counter-Hit medium",
+			"disposition": "covered",
+			"reason": "Three distinct recorded responses extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 469,
+			"locatorEnd": 475,
+			"family": "Counter-Hit jab light/OD Knuckle links",
+			"disposition": "unprocessed",
+			"reason": "CH-specific alternatives reviewed for discovery but exact commands and link timing not authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 475,
+			"locatorEnd": 482,
+			"family": "Crouching-heavy Perfect-medium/light/heavy conversion",
+			"disposition": "duplicate",
+			"reason": "Complete heavy-conversion patterns represented elsewhere; this source starter was verified crouching heavy, not inferred from caption.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 482,
+			"locatorEnd": 512,
+			"family": "Crouching-heavy Perfect-light finish and dash/walk decisions",
+			"disposition": "covered",
+			"reason": "Shortened ender plus throw/shimmy/Counter-Hit medium extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 512,
+			"locatorEnd": 517,
+			"family": "Crouching-heavy Perfect-medium Avenger ender",
+			"disposition": "covered",
+			"reason": "Actual No Chaser ender extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 517,
+			"locatorEnd": 523,
+			"family": "Bare Avenger-ender dash timing",
+			"disposition": "excluded",
+			"reason": "Timing context only.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 523,
+			"locatorEnd": 545,
+			"family": "Avenger-ender dash/walk throw/shimmy/heavy kick",
+			"disposition": "covered",
+			"reason": "Three distinct decisions extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 545,
+			"locatorEnd": 558,
+			"family": "Perfect-medium raw-Rush Avenger and Perfect-heavy choices",
+			"disposition": "covered",
+			"reason": "Separate travel/ender branches extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 558,
+			"locatorEnd": 565,
+			"family": "Bare Avenger No Chaser whiff timing",
+			"disposition": "excluded",
+			"reason": "No complete defender response; +F is remaining advantage.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 565,
+			"locatorEnd": 592,
+			"family": "Whiffed-Avenger walk throw/shimmy/heavy kick",
+			"disposition": "covered",
+			"reason": "Intentional whiff included in compact inputs; three observed decisions.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 592,
+			"locatorEnd": 631,
+			"family": "Crouching-heavy Level 1/delayed cancel Level 1/dash Level 2/Level 3",
+			"disposition": "covered",
+			"reason": "Four distinct performed link/resource choices extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 631,
+			"locatorEnd": 642,
+			"family": "Perfect-medium raw-Rush heavy Level 3 alternative",
+			"disposition": "unprocessed",
+			"reason": "Additional resource route not separately extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 642,
+			"locatorEnd": 655,
+			"family": "Near-corner crouching-heavy Perfect-medium air juggle/heavy Uppercut",
+			"disposition": "covered",
+			"reason": "Different timing/ender choices extracted, starts and tails tightened.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 655,
+			"locatorEnd": 668,
+			"family": "Standing-heavy Perfect-light heavy and Rush-medium Avenger",
+			"disposition": "covered",
+			"reason": "Standing-heavy entry and different extension choices extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 668,
+			"locatorEnd": 696,
+			"family": "Avenger-ender dash/walk decisions after standing-heavy extension",
+			"disposition": "duplicate",
+			"reason": "Same selected Avenger decision types, but this different +35 prerequisite is not claimed interchangeable.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 696,
+			"locatorEnd": 708,
+			"family": "Near-corner regular-light medium-DP and Rush heavy-Blast heavy-DP",
+			"disposition": "covered",
+			"reason": "Distinct finishers and Drive choices extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 708,
+			"locatorEnd": 714,
+			"family": "Bare crouching-medium timing whiff",
+			"disposition": "excluded",
+			"reason": "No complete defender response.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 714,
+			"locatorEnd": 723,
+			"family": "Crouching-medium timing whiff throw",
+			"disposition": "duplicate",
+			"reason": "June heavy-DP whiff-medium throw is preserved, with its own prerequisite.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 723,
+			"locatorEnd": 735,
+			"family": "Jab-whiff heavy-kick crouching-heavy air juggle",
+			"disposition": "covered",
+			"reason": "Whole timing whiff, wake-up heavy and air conversion extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 735,
+			"locatorEnd": 743,
+			"family": "Perfect-light OD medium-DP into light-DP",
+			"disposition": "covered",
+			"reason": "Actual two Uppercuts and separate strengths retained.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 743,
+			"locatorEnd": 778,
+			"family": "OD medium-DP Super and OD Avenger Super alternatives",
+			"disposition": "unprocessed",
+			"reason": "Additional resource/ender choices remain without exact extraction.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 778,
+			"locatorEnd": 788,
+			"family": "One-cancel Level 3 alternative",
+			"disposition": "unprocessed",
+			"reason": "Less-Drive alternative not extracted; selected next route intentionally spends to Burnout.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 788,
+			"locatorEnd": 800.2,
+			"family": "Double-cancel Perfect-heavy Burnout Level 3",
+			"disposition": "covered",
+			"reason": "EMPTY/Burnout, carry and full Super spend visibly demonstrated.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 800.2,
+			"locatorEnd": 806,
+			"family": "Corner Perfect-light medium-Blast heavy-DP",
+			"disposition": "duplicate",
+			"reason": "Preserved baseline has the practical Blast/DP family with its own starter context.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 806,
+			"locatorEnd": 814,
+			"family": "Corner Perfect-light medium-Blast Level 1",
+			"disposition": "covered",
+			"reason": "Performed Super choice extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 814,
+			"locatorEnd": 843,
+			"family": "Corner Blast Level 2 and regular-light Super choices",
+			"disposition": "unprocessed",
+			"reason": "Exact alternative resource routes not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 843,
+			"locatorEnd": 854,
+			"family": "Perfect-light heavy Level 3",
+			"disposition": "duplicate",
+			"reason": "Meterless Level-3 ender decision already represented; different launch prerequisite not asserted identical.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 854,
+			"locatorEnd": 860,
+			"family": "Perfect-light air light-Knuckle/light-DP",
+			"disposition": "covered",
+			"reason": "Air juggle timing and light Uppercut extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 860,
+			"locatorEnd": 891,
+			"family": "Air-Knuckle Super alternatives",
+			"disposition": "unprocessed",
+			"reason": "Additional air timing/resource alternatives remain for exact review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 891,
+			"locatorEnd": 898,
+			"family": "Standing-medium four-hit target combo",
+			"disposition": "covered",
+			"reason": "Complete actual four-medium target extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 898,
+			"locatorEnd": 904,
+			"family": "Bare target dash timing",
+			"disposition": "excluded",
+			"reason": "Remaining advantage illustration only.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 904,
+			"locatorEnd": 916,
+			"family": "Normal-target dash/walk throw/shimmy",
+			"disposition": "duplicate",
+			"reason": "June PC-target oki decisions are represented; normal versus PC prerequisite not treated interchangeable.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 916,
+			"locatorEnd": 925,
+			"family": "Target dash-heavy air-juggle carry",
+			"disposition": "covered",
+			"reason": "Actual wake-up heavy and corner travel extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 925,
+			"locatorEnd": 929,
+			"family": "Medium/light-kick regular light Knuckle",
+			"disposition": "duplicate",
+			"reason": "Preserved baseline crouching-medium/light-kick Knuckle pattern covers the practical low-cost conversion.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 929,
+			"locatorEnd": 941,
+			"family": "Medium/light OD walk-DP and medium Rush-heavy conversion",
+			"disposition": "covered",
+			"reason": "Actual OD Knuckle, not OD DP, verified; walk and heavy Uppercut retained.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 941,
+			"locatorEnd": 950,
+			"family": "Medium/medium-kick Rush low-heavy conversions",
+			"disposition": "duplicate",
+			"reason": "Baseline low-Rush conversions retained; overlay alternatives are not extra executed starters.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 950,
+			"locatorEnd": 957,
+			"family": "Standing-heavy Rush-back-heavy Perfect-knuckle conversion",
+			"disposition": "covered",
+			"reason": "All performed links and delayed final heavy contact selected.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 957,
+			"locatorEnd": 962,
+			"family": "Repeated standing-heavy Perfect-light route",
+			"disposition": "duplicate",
+			"reason": "Heavy-route family already extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 962,
+			"locatorEnd": 978,
+			"family": "Blocked OD Uppercut back-heavy midscreen/corner punishes",
+			"disposition": "covered",
+			"reason": "Guard, PC back-heavy and different air/ground finishers verified; final corner Uppercut is light.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 978,
+			"locatorEnd": 997,
+			"family": "Blocked Uppercut raw-Rush Level 3 cash-out",
+			"disposition": "duplicate",
+			"reason": "June baseline full cash-out preserved without mutation.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 997,
+			"locatorEnd": 1006,
+			"family": "Neutral raw-Rush crouching-medium heavy conversion",
+			"disposition": "duplicate",
+			"reason": "Selected June oki-Rush medium has same conversion; separate neutral entry not independently extracted as another card.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1006,
+			"locatorEnd": 1010,
+			"family": "Bare guarded Rush medium",
+			"disposition": "excluded",
+			"reason": "Timing illustration only.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1010,
+			"locatorEnd": 1027,
+			"family": "Guarded Rush-medium delay throw/shimmy/Counter-Hit medium",
+			"disposition": "covered",
+			"reason": "Three performed guard-pressure decisions extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1027,
+			"locatorEnd": 1034,
+			"family": "Raw-Rush back-heavy conversion",
+			"disposition": "covered",
+			"reason": "Actual back-heavy starter and Perfect-knuckle links extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1034,
+			"locatorEnd": 1041,
+			"family": "Raw-Rush overhead",
+			"disposition": "duplicate",
+			"reason": "June oki-overhead decision represented; neutral entry not claimed equivalent or extra.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1041,
+			"locatorEnd": 1071,
+			"family": "Generic PC heavy/medium-target punishes",
+			"disposition": "duplicate",
+			"reason": "Published throw-whiff heavy and June PC-medium-target conversions cover selected conversion patterns; no extra take-count cards.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1071,
+			"locatorEnd": 1084,
+			"family": "Drive-Reversal crouching-medium target punishes midscreen/corner",
+			"disposition": "covered",
+			"reason": "Actual Drive-Reversal guard and distinct finishers verified.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1084,
+			"locatorEnd": 1091,
+			"family": "Forward throw Rush-medium guard",
+			"disposition": "covered",
+			"reason": "Throw prerequisite separate from one-Drive Rush setup.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1091,
+			"locatorEnd": 1107,
+			"family": "Corner forward-throw walk throw/shimmy air conversion",
+			"disposition": "covered",
+			"reason": "Two complete performed decisions extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1107,
+			"locatorEnd": 1116,
+			"family": "Back-throw corner heavy-kick OD conversion",
+			"disposition": "covered",
+			"reason": "Clip starts after side-switch; opponent at left wall, actual corner context retained.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1116,
+			"locatorEnd": 1129,
+			"family": "Counter-DI crouching-heavy conversion",
+			"disposition": "duplicate",
+			"reason": "June baseline counter-DI conversion preserved.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1129,
+			"locatorEnd": 1138,
+			"family": "Corner counter-DI standing-heavy air juggle",
+			"disposition": "covered",
+			"reason": "Incoming DI, counter armor/crumple, actual st.HP and air finish extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1138,
+			"locatorEnd": 1153,
+			"family": "Blocked DI wall-splat branch",
+			"disposition": "duplicate",
+			"reason": "Baseline wall-splat conversion and selected air-juggle family already represented; no copied take for count.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 1153,
+			"locatorEnd": 1157,
+			"family": "Outro",
+			"disposition": "excluded",
+			"reason": "No complete further practice route.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 0,
+			"locatorEnd": 45,
+			"family": "Regular-light +36 Rush decisions",
+			"disposition": "covered",
+			"reason": "Preserved baseline and 17 new exact rows cover selected performed decisions; recovery/prerequisites are not additional references.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 45,
+			"locatorEnd": 67,
+			"family": "Corner light-DP medium-whiff throw/low",
+			"disposition": "covered",
+			"reason": "Preserved baseline and 17 new exact rows cover selected performed decisions; recovery/prerequisites are not additional references.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 67,
+			"locatorEnd": 84,
+			"family": "Medium/low Rush confirms",
+			"disposition": "covered",
+			"reason": "Preserved baseline and 17 new exact rows cover selected performed decisions; recovery/prerequisites are not additional references.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 84,
+			"locatorEnd": 155,
+			"family": "Perfect-light/heavy-ender Avenger and Rush decisions",
+			"disposition": "covered",
+			"reason": "Preserved baseline and 17 new exact rows cover selected performed decisions; recovery/prerequisites are not additional references.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 155,
+			"locatorEnd": 180,
+			"family": "Near-corner carry conversions",
+			"disposition": "covered",
+			"reason": "Preserved baseline and 17 new exact rows cover selected performed decisions; recovery/prerequisites are not additional references.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 180,
+			"locatorEnd": 197,
+			"family": "Heavy-DP medium-whiff throw/low",
+			"disposition": "covered",
+			"reason": "Preserved baseline and 17 new exact rows cover selected performed decisions; recovery/prerequisites are not additional references.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 197,
+			"locatorEnd": 245,
+			"family": "Drive-Reversal medium-target punish and target-dash oki",
+			"disposition": "covered",
+			"reason": "Preserved baseline and 17 new exact rows cover selected performed decisions; recovery/prerequisites are not additional references.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 245,
+			"locatorEnd": 259,
+			"family": "Punish-Counter heavy conversion",
+			"disposition": "covered",
+			"reason": "Preserved baseline and 17 new exact rows cover selected performed decisions; recovery/prerequisites are not additional references.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 259,
+			"locatorEnd": 286,
+			"family": "DI counter and wall-splat",
+			"disposition": "covered",
+			"reason": "Preserved baseline and 17 new exact rows cover selected performed decisions; recovery/prerequisites are not additional references.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 286,
+			"locatorEnd": 316,
+			"family": "Blocked OD-Uppercut punish and full cash-out",
+			"disposition": "covered",
+			"reason": "Preserved baseline and 17 new exact rows cover selected performed decisions; recovery/prerequisites are not additional references.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"locatorStart": 316,
+			"locatorEnd": 321,
+			"family": "Outro",
+			"disposition": "excluded",
+			"reason": "No complete additional practice demonstration.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 0,
+			"locatorEnd": 5,
+			"family": "Regular-light knockdown +32 to +36 comparison",
+			"disposition": "excluded",
+			"reason": "Comparison context, not an additional executable card.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 5,
+			"locatorEnd": 10,
+			"family": "Immediate Avenger whiff after changed knockdown",
+			"disposition": "excluded",
+			"reason": "Failed pressure demonstration; records why old immediate-Avenger timing was not promoted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 10,
+			"locatorEnd": 23,
+			"family": "Regular-light heavy-Uppercut branches",
+			"disposition": "duplicate",
+			"reason": "Current June beginner baseline covers these finishers.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 23,
+			"locatorEnd": 34,
+			"family": "Three lights regular-light Knuckle Level 2",
+			"disposition": "covered",
+			"reason": "All three actual jabs and performed Super retained.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 34,
+			"locatorEnd": 40,
+			"family": "Held-heavy guard into low confirm",
+			"disposition": "covered",
+			"reason": "Actual guarded charge and subsequent low hit extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 40,
+			"locatorEnd": 47,
+			"family": "Held-heavy parried into throw",
+			"disposition": "covered",
+			"reason": "Counter-Hit throw recorded, not Punish Counter.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 47,
+			"locatorEnd": 54,
+			"family": "Held-heavy parried into shimmy",
+			"disposition": "covered",
+			"reason": "Actual Ryu throw whiff and heavy punish extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 54,
+			"locatorEnd": 62,
+			"family": "Forward-heavy crouching-medium-kick whiff punish",
+			"disposition": "covered",
+			"reason": "Actual opponent cr.MK misses before Double Impact/Perfect-knuckle conversion.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"locatorStart": 62,
+			"locatorEnd": 66.7,
+			"family": "End card/outro",
+			"disposition": "excluded",
+			"reason": "No further complete route.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"locatorStart": 0,
+			"locatorEnd": 70,
+			"family": "Ground confirms, wall-splat and prerequisites",
+			"disposition": "duplicate",
+			"reason": "Selected current dated route families cover these practical ground patterns; older prerequisites are not asserted current-patch interchangeable.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"locatorStart": 70,
+			"locatorEnd": 75,
+			"family": "Corner jump-heavy bait versus Juri OD Tensenrin",
+			"disposition": "covered",
+			"reason": "Source-specific recorded 9-frame reversal block; not a universal reversal guarantee.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"locatorStart": 75,
+			"locatorEnd": 91,
+			"family": "Grounded heavy route prerequisite",
+			"disposition": "duplicate",
+			"reason": "Heavy/Perfect-knuckle conversion pattern represented in current dated material.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"locatorStart": 91,
+			"locatorEnd": 95,
+			"family": "Jab-whiff jump-medium bait versus Ryu OD Shoryuken",
+			"disposition": "covered",
+			"reason": "Recorded 6-frame reversal is blocked after the jump; source-specific response.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"locatorStart": 95,
+			"locatorEnd": 98,
+			"family": "Air conversion setup context",
+			"disposition": "excluded",
+			"reason": "Preceding take/setup is not part of the selected airborne Counter-Hit recipe.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"locatorStart": 98,
+			"locatorEnd": 104,
+			"family": "Jump-medium Counter Hit held-air-medium Knuckle medium-DP",
+			"disposition": "covered",
+			"reason": "Actual airborne Blanka, yellow MP and held air Knuckle input verified.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"locatorStart": 104,
+			"locatorEnd": 224,
+			"family": "Remaining intermediate routes, examples and discussion",
+			"disposition": "unprocessed",
+			"reason": "Discovery surveyed; all exact executable alternatives, resources and state have not been separately authored.",
+			"referenceIds": []
+		}
+	],
+	"unprocessedIntervals": [
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 84,
+			"locatorEnd": 97,
+			"family": "Rush overhead/low target-ender branches",
+			"disposition": "unprocessed",
+			"reason": "Survey/family reviewed, but exact follow-up route, context and boundaries not separately authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 372,
+			"locatorEnd": 392,
+			"family": "OD Knuckle/OD Blast Level 1 and Level 2 alternatives",
+			"disposition": "unprocessed",
+			"reason": "Additional resource branches surveyed; exact recipes/gauge flow not separately authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 400,
+			"locatorEnd": 422,
+			"family": "Fatal Shot Level 2 and double-Blast Level 1",
+			"disposition": "unprocessed",
+			"reason": "Alternative resource branches remain without exact authored excerpts.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 469,
+			"locatorEnd": 475,
+			"family": "Counter-Hit jab light/OD Knuckle links",
+			"disposition": "unprocessed",
+			"reason": "CH-specific alternatives reviewed for discovery but exact commands and link timing not authored.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 631,
+			"locatorEnd": 642,
+			"family": "Perfect-medium raw-Rush heavy Level 3 alternative",
+			"disposition": "unprocessed",
+			"reason": "Additional resource route not separately extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 743,
+			"locatorEnd": 778,
+			"family": "OD medium-DP Super and OD Avenger Super alternatives",
+			"disposition": "unprocessed",
+			"reason": "Additional resource/ender choices remain without exact extraction.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 778,
+			"locatorEnd": 788,
+			"family": "One-cancel Level 3 alternative",
+			"disposition": "unprocessed",
+			"reason": "Less-Drive alternative not extracted; selected next route intentionally spends to Burnout.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 814,
+			"locatorEnd": 843,
+			"family": "Corner Blast Level 2 and regular-light Super choices",
+			"disposition": "unprocessed",
+			"reason": "Exact alternative resource routes not extracted.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"locatorStart": 860,
+			"locatorEnd": 891,
+			"family": "Air-Knuckle Super alternatives",
+			"disposition": "unprocessed",
+			"reason": "Additional air timing/resource alternatives remain for exact review.",
+			"referenceIds": []
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"locatorStart": 104,
+			"locatorEnd": 224,
+			"family": "Remaining intermediate routes, examples and discussion",
+			"disposition": "unprocessed",
+			"reason": "Discovery surveyed; all exact executable alternatives, resources and state have not been separately authored.",
+			"referenceIds": []
+		}
+	],
+	"ambiguities": [
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"family": "Overlay shorthand/alternatives",
+			"disposition": "ambiguous",
+			"reason": "Printed any/end-strength alternatives are not executed proofs. Only actual commands/strengths are authored; other choices remain unprocessed rather than assumed valid."
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"family": "Safe-jump generality",
+			"disposition": "ambiguous",
+			"reason": "Only Juri OD Tensenrin and Ryu OD Shoryuken recorded blocks were reviewed. Broader reversal timing/character coverage and present-patch validity are not established."
+		}
+	],
+	"intervalsWithoutAuthoredExcerpt": [
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 0,
+			"end": 0.65,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 4.35,
+			"end": 7.4,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 10.6,
+			"end": 13.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 17.75,
+			"end": 20.55,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 26.1,
+			"end": 29.8,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 35.1,
+			"end": 39.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 43.3,
+			"end": 45.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 48.15,
+			"end": 53.05,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 56.75,
+			"end": 61.45,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 65.8,
+			"end": 67.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 70.8,
+			"end": 71.65,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 78.55,
+			"end": 84.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 86.65,
+			"end": 92.4,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 96.55,
+			"end": 102.4,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 108.6,
+			"end": 114.5,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 118.15,
+			"end": 123.8,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 129.6,
+			"end": 135.45,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 141.25,
+			"end": 147.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 154.15,
+			"end": 155.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 160.65,
+			"end": 161.65,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 168.55,
+			"end": 169.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 175.65,
+			"end": 181.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 184.5,
+			"end": 191.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 195.5,
+			"end": 197.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 202.55,
+			"end": 213.3,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 217.7,
+			"end": 222.75,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 227.7,
+			"end": 232.45,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 238.15,
+			"end": 245.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 251.55,
+			"end": 252.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 258.95,
+			"end": 260.05,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 268.6,
+			"end": 269.25,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 278.3,
+			"end": 279.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 285.65,
+			"end": 286.45,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 294.55,
+			"end": 295.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-beginner-2026",
+			"start": 315.35,
+			"end": 320.633333,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; discovery coverage is not complete executable extraction."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 0,
+			"end": 2.65,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 5.75,
+			"end": 49.65,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 52.15,
+			"end": 54.55,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 59.15,
+			"end": 61.75,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 67.1,
+			"end": 69.65,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 74.1,
+			"end": 77.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 83.4,
+			"end": 124.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 127.7,
+			"end": 131.75,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 137.7,
+			"end": 141.6,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 145.35,
+			"end": 149.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 155.65,
+			"end": 164.55,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 168.85,
+			"end": 172.75,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 176.45,
+			"end": 279.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 282.55,
+			"end": 283.3,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 288.45,
+			"end": 291.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 294.75,
+			"end": 299.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 305.7,
+			"end": 309.9,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 313.9,
+			"end": 314.55,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 319.15,
+			"end": 320.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 325.5,
+			"end": 326.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 332.65,
+			"end": 333.25,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 344.85,
+			"end": 348.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 352.4,
+			"end": 355.3,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 362.5,
+			"end": 365.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 371.25,
+			"end": 392.4,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 400.0,
+			"end": 422.5,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 435.3,
+			"end": 436.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 441.15,
+			"end": 445.65,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 449.25,
+			"end": 453.95,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 459.85,
+			"end": 464.55,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 468.2,
+			"end": 482.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 486.8,
+			"end": 490.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 494.3,
+			"end": 498.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 504.25,
+			"end": 508.5,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 512.2,
+			"end": 512.65,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 516.95,
+			"end": 525.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 528.55,
+			"end": 531.95,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 536.45,
+			"end": 540.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 544.9,
+			"end": 545.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 551.6,
+			"end": 552.2,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 557.8,
+			"end": 568.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 572.35,
+			"end": 576.95,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 581.85,
+			"end": 586.2,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 591.55,
+			"end": 592.25,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 599.6,
+			"end": 600.2,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 609.0,
+			"end": 609.55,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 619.65,
+			"end": 620.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 630.25,
+			"end": 642.8,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 648.6,
+			"end": 649.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 653.85,
+			"end": 656.55,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 660.55,
+			"end": 661.5,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 667.65,
+			"end": 696.4,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 701.6,
+			"end": 702.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 707.75,
+			"end": 728.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 734.85,
+			"end": 735.85,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 742.55,
+			"end": 788.25,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 800.15,
+			"end": 806.7,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 813.25,
+			"end": 854.25,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 859.9,
+			"end": 893.55,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 897.9,
+			"end": 918.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 924.95,
+			"end": 929.5,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 934.25,
+			"end": 934.7,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 941.0,
+			"end": 950.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 957.0,
+			"end": 962.55,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 969.7,
+			"end": 971.0,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 977.85,
+			"end": 1009.5,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 1013.9,
+			"end": 1014.95,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 1021.65,
+			"end": 1022.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 1026.5,
+			"end": 1026.95,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 1033.85,
+			"end": 1071.0,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 1075.85,
+			"end": 1077.1,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 1083.15,
+			"end": 1087.95,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 1090.5,
+			"end": 1093.25,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 1097.0,
+			"end": 1100.15,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 1106.4,
+			"end": 1109.75,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 1115.65,
+			"end": 1129.0,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-full-2026",
+			"start": 1138.0,
+			"end": 1156.50535,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; discovery coverage is not complete executable extraction."
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"start": 0,
+			"end": 23.35,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"start": 33.8,
+			"end": 34.6,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"start": 39.7,
+			"end": 40.6,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"start": 46.45,
+			"end": 46.65,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"start": 54.1,
+			"end": 54.55,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "joe-ebios-luke-update-2026",
+			"start": 61.45,
+			"end": 66.583333,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; discovery coverage is not complete executable extraction."
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"start": 0,
+			"end": 70.05,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"start": 74.35,
+			"end": 91.05,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"start": 94.2,
+			"end": 98.4,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; overlapping family rows distinguish prerequisites, duplicate decisions, exclusions and unprocessed work."
+		},
+		{
+			"sourceId": "2xkairos-luke-guide-2023",
+			"start": 103.2,
+			"end": 224.2,
+			"status": "no-authored-excerpt",
+			"note": "Exact interval not authored; discovery coverage is not complete executable extraction."
+		}
+	],
+	"reviewLimits": [
+		"Source-reviewed; gameVersion null. No current-patch in-game execution is verified.",
+		"Family locator rows overlap exact authored rows and are not extra reference counts. Covered means the stated selected decision, not every caption alternative.",
+		"Discovery of a full recording is separate from detailed executable extraction. Explicit unprocessed resource/CH/air alternatives remain.",
+		"February full-guide regular-light +32 knockdown differs from June +36 footage; old immediate-Avenger timing is excluded and not silently relabeled current.",
+		"The two 2023 reversal baits demonstrate only the recorded Juri/Ryu interactions, not a universal safe-jump guarantee.",
+		"Baseline 17 objects, related links, source identity and media remain unchanged. Source recordings/metadata remain local with complete hashes.",
+		"The repository owner has authorized public access to the prepared excerpts; third-party redistribution rights remain unassessed."
+	],
+	"mediaVerification": {
+		"newClips": 101,
+		"selectedMoments": 521,
+		"mechanicalAuditPassed": true,
+		"visualReview": "Every final exported selected moment and actual first/last decoded frame inspected separately from source discovery. All 41 corrected full directories regenerated and final boards rechecked.",
+		"evidenceIndex": ".local/depth/luke/prepared-review/index.json",
+		"audit": ".local/depth/luke/media-audit.json",
+		"visualReviewRecord": ".local/depth/luke/visual-review-complete.json",
+		"independentCorrection": {
+			"referenceId": "luke-depth-heavy-perfect-medium-rush-light-avenger",
+			"frameId": "frame-3",
+			"originalTime": 547.65,
+			"loopTime": 2.3,
+			"reason": "Independent source review identified HP startup at547.50. The revised selected moment shows actual HP contact,2444damage/fourhits. Complete directory regenerated, all five selected moments and exact endpoints rechecked."
+		}
+	}
+}

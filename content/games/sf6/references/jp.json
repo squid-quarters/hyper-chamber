@@ -851,7 +851,7 @@
 				"characterId": "jp"
 			}
 		],
-		"title": "Heavy-target Rush: heavy launch, low projectile and spike",
+		"title": "Heavy-target Rush: heavy launch, medium projectile and spike",
 		"summary": "Spend a Rush cancel after the heavy target, then juggle through heavy Stribog, medium Torbalan and heavy Triglav.",
 		"kind": "combo",
 		"situations": ["Midscreen", "Heavy confirm", "Target combo", "Drive Rush", "Juggle extension"],
@@ -1503,6 +1503,6184 @@
 			"jp-ebios-medium-od-stribog-heavy-spike",
 			"jp-ebios-heavy-target-rush-launch-spike",
 			"jp-ebios-anti-air-forward-kick-medium-spike"
+		]
+	},
+	{
+		"id": "jp-depth-medium-od-stribog-heavy-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Medium OD Stribog: heavy pickup into medium finish",
+		"summary": "Confirm crouching medium into OD Stribog, pick up with standing heavy and finish with medium Stribog for the recorded +42 knockdown.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Juggle extension"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "2MP > 236PP > st.HP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "236PP",
+				"label": "236PP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"The caption’s meterless label refers to the post-heavy ender. The complete recorded starter actually spends OD Stribog, counted here."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Stribog)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 19.8,
+			"end": 23.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-medium-od-stribog-heavy-medium/clip.mp4",
+			"poster": "/media/jp/jp-depth-medium-od-stribog-heavy-medium/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-medium-od-stribog-heavy-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-medium/frame-1.jpg",
+					"at": 0.75,
+					"label": "Crouching medium",
+					"alt": "Crouching medium punch starts the corner confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-medium/frame-2.jpg",
+					"at": 1.7,
+					"label": "OD Stribog",
+					"alt": "OD Stribog launches Ryu with the gold effect."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-medium/frame-3.jpg",
+					"at": 2.7,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch picks up the airborne opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-medium/frame-4.jpg",
+					"at": 3.25,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog finishes the juggle; the source reports +42."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-medium-od-stribog-heavy-spike",
+			"jp-ebios-wall-splat-medium-forward-kick-spike",
+			"jp-ebios-medium-double-od-level-three"
+		]
+	},
+	{
+		"id": "jp-depth-medium-stribog-jump-heavy-guard",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Medium Stribog +42: jump heavy and guard OD DP",
+		"summary": "Jump forward with heavy kick after the recorded +42 juggle knockdown, then land guarding Ryu’s actual OD uppercut.",
+		"kind": "response",
+		"situations": ["Corner", "Oki", "Safe jump", "Reversal bait"],
+		"outcomes": ["Guarded reversal"],
+		"notation": "9 > j.HK > Guard",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-2",
+				"notation": "j.HK",
+				"label": "j.HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "Guard",
+				"label": "Guard"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: 2MP > 236PP > st.HP air pickup > 236MP, recorded +42. Earlier OD Stribog costs two Drive bars outside this loop.",
+			"Ryu performs the recorded OD uppercut; this does not establish safety against every reversal"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Only jump, kick and landing guard are authored; no later punish is prescribed."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 23.3,
+			"end": 25.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-medium-stribog-jump-heavy-guard/clip.mp4",
+			"poster": "/media/jp/jp-depth-medium-stribog-jump-heavy-guard/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-medium-stribog-jump-heavy-guard/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-medium-stribog-jump-heavy-guard/frame-1.jpg",
+					"at": 0.3,
+					"label": "Forward jump",
+					"alt": "JP jumps after the medium-Stribog knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-medium-stribog-jump-heavy-guard/frame-2.jpg",
+					"at": 0.7,
+					"label": "Jumping heavy kick",
+					"alt": "Jumping heavy kick is performed before landing."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-medium-stribog-jump-heavy-guard/frame-3.jpg",
+					"at": 1.2,
+					"label": "Guard OD uppercut",
+					"alt": "JP lands and guards Ryu’s gold OD uppercut."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-medium-stribog-jump-heavy-guard/frame-4.jpg",
+					"at": 1.95,
+					"label": "Guarded recovery",
+					"alt": "JP remains grounded after the guarded reversal."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-corner-throw-od-embrace",
+			"jp-depth-heavy-departure-rush-throw",
+			"jp-depth-heavy-departure-heavy-counterhit"
+		]
+	},
+	{
+		"id": "jp-depth-medium-od-stribog-heavy-departure",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Medium OD Stribog: heavy pickup into Departure",
+		"summary": "Choose heavy Departure after the standing-heavy juggle pickup to establish the source’s +15 portal knockdown.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Portal setup"],
+		"outcomes": ["Corner knockdown", "Active portal"],
+		"notation": "2MP > 236PP > st.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "236PP",
+				"label": "236PP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"The full starter spends OD Stribog. The source’s meterless label refers to the post-heavy portal ender."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Stribog)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 27.7,
+			"end": 32.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-medium-od-stribog-heavy-departure/clip.mp4",
+			"poster": "/media/jp/jp-depth-medium-od-stribog-heavy-departure/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-medium-od-stribog-heavy-departure/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-departure/frame-1.jpg",
+					"at": 0.3,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-departure/frame-2.jpg",
+					"at": 1.3,
+					"label": "OD Stribog",
+					"alt": "OD Stribog launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-departure/frame-3.jpg",
+					"at": 2.3,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches the airborne opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-departure/frame-4.jpg",
+					"at": 3.3,
+					"label": "Heavy Departure",
+					"alt": "JP places heavy Departure while Ryu falls."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-departure/frame-5.jpg",
+					"at": 4.0,
+					"label": "Portal knockdown",
+					"alt": "The heavy portal remains above the recorded corner knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-medium-od-stribog-heavy-od-departure",
+			"jp-depth-corner-medium-od-heavy-spike-od-portal",
+			"jp-depth-corner-medium-rush-two-forward-heavies"
+		]
+	},
+	{
+		"id": "jp-depth-heavy-departure-rush-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy Departure +15: Rush throw",
+		"summary": "Use raw Drive Rush to close the portal-knockdown spacing and throw; the active portal then supplies its automatic strike.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Drive Rush", "Throw"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "DR > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner 2MP > 236PP > st.HP air juggle > 214HP knockdown, +15 in the source, with heavy Departure active. The earlier OD Stribog spends two Drive bars outside this follow-up loop."
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Departure strikes occur automatically from the existing portal. They are shown in the clip but are not extra button presses. Reproduce its recorded placement and lifetime."
+		],
+		"resources": {
+			"drive": "1 Drive bar (raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 36.15,
+			"end": 40.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-heavy-departure-rush-throw/clip.mp4",
+			"poster": "/media/jp/jp-depth-heavy-departure-rush-throw/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-heavy-departure-rush-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-heavy-departure-rush-throw/frame-1.jpg",
+					"at": 0.45,
+					"label": "Rush approach",
+					"alt": "JP approaches Ryu’s wake-up with raw Drive Rush."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-heavy-departure-rush-throw/frame-2.jpg",
+					"at": 0.85,
+					"label": "Forward throw",
+					"alt": "The forward throw connects after the Rush approach."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-heavy-departure-rush-throw/frame-3.jpg",
+					"at": 2.35,
+					"label": "Portal follow-up",
+					"alt": "The existing heavy portal strikes during the throw sequence."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-heavy-departure-rush-throw/frame-4.jpg",
+					"at": 2.85,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the throw and automatic portal follow-up."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-blocked-heavy-throw",
+			"jp-depth-heavy-departure-held-light-throw-reversal",
+			"jp-depth-heavy-departure-spike-rush-forward-heavy"
+		]
+	},
+	{
+		"id": "jp-depth-heavy-departure-heavy-counterhit",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy Departure +15: delayed heavy counter-hit route",
+		"summary": "A delayed standing heavy kick counter-hits the recorded wake-up response, then crouching medium and a replacement portal keep the conversion going.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Counter hit", "Portal setup"],
+		"outcomes": ["Corner knockdown", "Active portal"],
+		"notation": "st.HK > 2MP > 214HP > 6HK > 236MK > st.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner 2MP > 236PP > st.HP air juggle > 214HP knockdown, +15 in the source, with heavy Departure active. The earlier OD Stribog spends two Drive bars outside this follow-up loop.",
+			"Standing heavy kick scores counter hit in the recording; do not assume the same link on an ordinary hit"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Departure strikes occur automatically from the existing portal. They are shown in the clip but are not extra button presses. Reproduce its recorded placement and lifetime.",
+			"Delay the heavy kick as performed, without inventing an exact wait count."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 44.8,
+			"end": 50.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-heavy-departure-heavy-counterhit/clip.mp4",
+			"poster": "/media/jp/jp-depth-heavy-departure-heavy-counterhit/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-heavy-departure-heavy-counterhit/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-heavy-departure-heavy-counterhit/frame-1.jpg",
+					"at": 0.35,
+					"label": "Heavy counter hit",
+					"alt": "The delayed standing heavy kick scores counter hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-heavy-departure-heavy-counterhit/frame-2.jpg",
+					"at": 1.2,
+					"label": "Medium link",
+					"alt": "Crouching medium punch links after the counter hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-heavy-departure-heavy-counterhit/frame-3.jpg",
+					"at": 1.8,
+					"label": "Replacement portal",
+					"alt": "Heavy Departure is placed while the previous portal supplies a hit."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-heavy-departure-heavy-counterhit/frame-4.jpg",
+					"at": 2.7,
+					"label": "Medium Torbalan",
+					"alt": "Medium Torbalan continues after forward heavy kick."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-heavy-departure-heavy-counterhit/frame-5.jpg",
+					"at": 3.7,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches the juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-heavy-departure-heavy-counterhit/frame-6.jpg",
+					"at": 4.9,
+					"label": "Portal knockdown",
+					"alt": "A new heavy Departure remains as Ryu falls."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-blocked-heavy-overhead",
+			"jp-depth-heavy-departure-blocked-heavy-low",
+			"jp-depth-heavy-departure-spike-rush-forward-heavy"
+		]
+	},
+	{
+		"id": "jp-depth-heavy-departure-blocked-heavy-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy Departure +15: guarded heavy into throw",
+		"summary": "Let Ryu guard the delayed heavy kick, then use the throw branch while Departure stays active.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Block pressure", "Throw"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "st.HK > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner 2MP > 236PP > st.HP air juggle > 214HP knockdown, +15 in the source, with heavy Departure active. The earlier OD Stribog spends two Drive bars outside this follow-up loop.",
+			"Ryu guards the heavy kick; the later throw is a separate interaction, not a continuous combo"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Departure strikes occur automatically from the existing portal. They are shown in the clip but are not extra button presses. Reproduce its recorded placement and lifetime."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 55.3,
+			"end": 59.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-heavy-departure-blocked-heavy-throw/clip.mp4",
+			"poster": "/media/jp/jp-depth-heavy-departure-blocked-heavy-throw/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-heavy-departure-blocked-heavy-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-throw/frame-1.jpg",
+					"at": 0.6,
+					"label": "Guarded heavy kick",
+					"alt": "Ryu guards the delayed standing heavy kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-throw/frame-2.jpg",
+					"at": 1.2,
+					"label": "Throw branch",
+					"alt": "JP changes from the guarded strike to a normal throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-throw/frame-3.jpg",
+					"at": 1.7,
+					"label": "Portal strike",
+					"alt": "The existing portal supplies its automatic strike during the throw."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-throw/frame-4.jpg",
+					"at": 3.2,
+					"label": "Throw knockdown",
+					"alt": "Ryu falls after the strike-throw branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-rush-throw",
+			"jp-depth-heavy-departure-blocked-heavy-overhead",
+			"jp-depth-heavy-departure-blocked-heavy-low"
+		]
+	},
+	{
+		"id": "jp-depth-heavy-departure-blocked-heavy-overhead",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy Departure +15: guarded heavy into overhead",
+		"summary": "After the guarded heavy kick, the forward-medium overhead opens Ryu and the portal converts into a forward-heavy/Stribog juggle.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Block pressure", "Overhead", "Portal setup"],
+		"outcomes": ["Corner knockdown", "Active portal"],
+		"notation": "st.HK > 6MK > 6HK > 236MP > st.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "6MK",
+				"label": "6MK"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner 2MP > 236PP > st.HP air juggle > 214HP knockdown, +15 in the source, with heavy Departure active. The earlier OD Stribog spends two Drive bars outside this follow-up loop.",
+			"The overhead hits after Ryu guards heavy kick; no universal uninterruptible string is established"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Departure strikes occur automatically from the existing portal. They are shown in the clip but are not extra button presses. Reproduce its recorded placement and lifetime."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 65.2,
+			"end": 71.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-heavy-departure-blocked-heavy-overhead/clip.mp4",
+			"poster": "/media/jp/jp-depth-heavy-departure-blocked-heavy-overhead/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-heavy-departure-blocked-heavy-overhead/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-overhead/frame-1.jpg",
+					"at": 0.3,
+					"label": "Guarded heavy kick",
+					"alt": "Ryu guards standing heavy kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-overhead/frame-2.jpg",
+					"at": 1.3,
+					"label": "Overhead opening",
+					"alt": "Forward medium kick hits overhead after the guarded strike."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-overhead/frame-3.jpg",
+					"at": 2.3,
+					"label": "Forward-heavy pickup",
+					"alt": "Forward heavy kick follows the automatic portal launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-overhead/frame-4.jpg",
+					"at": 3.3,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog continues the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-overhead/frame-5.jpg",
+					"at": 4.3,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches Ryu."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-overhead/frame-6.jpg",
+					"at": 5.3,
+					"label": "Portal ender",
+					"alt": "Heavy Departure replaces the portal above the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-blocked-heavy-low",
+			"jp-depth-heavy-departure-guarded-spike-medium-projectile",
+			"jp-depth-heavy-departure-jab-kill-back-medium-target"
+		]
+	},
+	{
+		"id": "jp-depth-heavy-departure-blocked-heavy-low",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy Departure +15: guarded heavy into delayed low",
+		"summary": "Change the guarded-heavy branch to a delayed crouching medium kick, then convert the portal hit into forward heavy and medium Stribog.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Block pressure", "Low confirm", "Portal setup"],
+		"outcomes": ["Corner knockdown", "Active portal"],
+		"notation": "st.HK > 2MK > 6HK > 236MP > st.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner 2MP > 236PP > st.HP air juggle > 214HP knockdown, +15 in the source, with heavy Departure active. The earlier OD Stribog spends two Drive bars outside this follow-up loop.",
+			"The delayed low hits after the guarded heavy; this is not a universal gapless blockstring"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Departure strikes occur automatically from the existing portal. They are shown in the clip but are not extra button presses. Reproduce its recorded placement and lifetime.",
+			"The delay is performed but no numeric wait is inferred."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 76.05,
+			"end": 82.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-heavy-departure-blocked-heavy-low/clip.mp4",
+			"poster": "/media/jp/jp-depth-heavy-departure-blocked-heavy-low/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-heavy-departure-blocked-heavy-low/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-low/frame-1.jpg",
+					"at": 0.45,
+					"label": "Guarded heavy kick",
+					"alt": "Ryu guards standing heavy kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-low/frame-2.jpg",
+					"at": 1.55,
+					"label": "Delayed low",
+					"alt": "Crouching medium kick supplies the low opening."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-low/frame-3.jpg",
+					"at": 2.45,
+					"label": "Forward-heavy pickup",
+					"alt": "Forward heavy kick follows the automatic portal launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-low/frame-4.jpg",
+					"at": 3.45,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog extends the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-low/frame-5.jpg",
+					"at": 4.45,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches Ryu after Stribog."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-heavy-departure-blocked-heavy-low/frame-6.jpg",
+					"at": 5.45,
+					"label": "Portal ender",
+					"alt": "Heavy Departure remains above the new knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-blocked-heavy-overhead",
+			"jp-depth-heavy-departure-guarded-spike-medium-projectile",
+			"jp-depth-heavy-departure-jab-kill-back-medium-target"
+		]
+	},
+	{
+		"id": "jp-depth-heavy-departure-held-light-throw-reversal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy Departure +15: held light input into reversal throw",
+		"summary": "Use the held light Torbalan input, then punish the recorded wake-up Drive Reversal with a normal throw.",
+		"kind": "response",
+		"situations": ["Corner", "Oki", "Drive Reversal punish", "Punish", "Punish counter", "Throw"],
+		"outcomes": ["Corner hard knockdown"],
+		"notation": "236[LK] > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236[LK]",
+				"label": "236[LK]"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner 2MP > 236PP > st.HP air juggle > 214HP knockdown, +15 in the source, with heavy Departure active. The earlier OD Stribog spends two Drive bars outside this follow-up loop.",
+			"Ryu performs the actual Drive Reversal shown; do not generalize this to every wake-up action"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Departure strikes occur automatically from the existing portal. They are shown in the clip but are not extra button presses. Reproduce its recorded placement and lifetime."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 122.1,
+			"end": 125.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-heavy-departure-held-light-throw-reversal/clip.mp4",
+			"poster": "/media/jp/jp-depth-heavy-departure-held-light-throw-reversal/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-heavy-departure-held-light-throw-reversal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-heavy-departure-held-light-throw-reversal/frame-1.jpg",
+					"at": 0.6,
+					"label": "Held light input",
+					"alt": "The live cyan kick identifies the held light Torbalan input."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-heavy-departure-held-light-throw-reversal/frame-2.jpg",
+					"at": 0.9,
+					"label": "Drive Reversal attempt",
+					"alt": "Ryu performs the recorded wake-up Drive Reversal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-heavy-departure-held-light-throw-reversal/frame-3.jpg",
+					"at": 1.4,
+					"label": "Punish-counter throw",
+					"alt": "The normal throw scores punish counter against that attempt."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-heavy-departure-held-light-throw-reversal/frame-4.jpg",
+					"at": 2.9,
+					"label": "Hard knockdown",
+					"alt": "Ryu falls after the punish-counter throw."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-jab-kill-guard-reversal",
+			"jp-depth-corner-throw-dash-backdash-shimmy",
+			"jp-depth-heavy-departure-rush-throw"
+		]
+	},
+	{
+		"id": "jp-depth-medium-od-stribog-heavy-od-departure",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Medium confirm: heavy pickup into OD Departure",
+		"summary": "Spend a second OD special after the standing-heavy pickup to establish the source’s +25 two-portal knockdown.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Portal setup"],
+		"outcomes": ["Corner knockdown", "Two active portals"],
+		"notation": "2MP > 236PP > st.HP > 214MP+HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "236PP",
+				"label": "236PP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "214MP+HP",
+				"label": "214MP+HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"The displayed cost includes OD Stribog and OD Departure, not only the portal ender."
+		],
+		"resources": {
+			"drive": "4 Drive bars (OD Stribog + OD Departure)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 128.75,
+			"end": 132.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-medium-od-stribog-heavy-od-departure/clip.mp4",
+			"poster": "/media/jp/jp-depth-medium-od-stribog-heavy-od-departure/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-medium-od-stribog-heavy-od-departure/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-od-departure/frame-1.jpg",
+					"at": 0.25,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts the corner confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-od-departure/frame-2.jpg",
+					"at": 1.25,
+					"label": "OD Stribog",
+					"alt": "OD Stribog launches the opponent."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-od-departure/frame-3.jpg",
+					"at": 2.0,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches the airborne Ryu."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-od-departure/frame-4.jpg",
+					"at": 2.5,
+					"label": "OD Departure",
+					"alt": "OD Departure creates the recorded pair of portals."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-medium-od-stribog-heavy-od-departure/frame-5.jpg",
+					"at": 2.8,
+					"label": "Portal knockdown",
+					"alt": "The source reports +25 with both portals established."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-medium-od-stribog-heavy-departure",
+			"jp-depth-corner-medium-od-heavy-spike-od-portal",
+			"jp-depth-corner-medium-rush-two-forward-heavies"
+		]
+	},
+	{
+		"id": "jp-depth-heavy-departure-spike-rush-forward-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy Departure +15: spike hit into Rush juggle",
+		"summary": "When heavy Triglav hits the recorded wake-up, convert the active portal with forward heavy, raw Rush and a second forward heavy.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Drive Rush", "Portal setup"],
+		"outcomes": ["Corner knockdown", "Active portal"],
+		"notation": "22HP > 6HK > DR > 6HK > 236MP > st.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-4",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner 2MP > 236PP > st.HP air juggle > 214HP knockdown, +15 in the source, with heavy Departure active. The earlier OD Stribog spends two Drive bars outside this follow-up loop."
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Departure strikes occur automatically from the existing portal. They are shown in the clip but are not extra button presses. Reproduce its recorded placement and lifetime."
+		],
+		"resources": {
+			"drive": "1 Drive bar (raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 139.45,
+			"end": 146.0
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-heavy-departure-spike-rush-forward-heavy/clip.mp4",
+			"poster": "/media/jp/jp-depth-heavy-departure-spike-rush-forward-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-heavy-departure-spike-rush-forward-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-heavy-departure-spike-rush-forward-heavy/frame-1.jpg",
+					"at": 0.55,
+					"label": "Heavy spike hit",
+					"alt": "Heavy Triglav hits the recorded wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-heavy-departure-spike-rush-forward-heavy/frame-2.jpg",
+					"at": 1.55,
+					"label": "Forward-heavy pickup",
+					"alt": "Forward heavy kick follows the portal-assisted launch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-heavy-departure-spike-rush-forward-heavy/frame-3.jpg",
+					"at": 3.05,
+					"label": "Rush forward heavy",
+					"alt": "Raw Drive Rush closes the spacing for another forward heavy kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-heavy-departure-spike-rush-forward-heavy/frame-4.jpg",
+					"at": 3.8,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog continues the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-heavy-departure-spike-rush-forward-heavy/frame-5.jpg",
+					"at": 4.55,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches the juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-heavy-departure-spike-rush-forward-heavy/frame-6.jpg",
+					"at": 5.15,
+					"label": "Heavy Departure",
+					"alt": "Normal heavy Departure replaces the portal above the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-corner-throw-delayed-heavy-conversion",
+			"jp-depth-heavy-departure-rush-throw",
+			"jp-depth-heavy-departure-heavy-counterhit"
+		]
+	},
+	{
+		"id": "jp-depth-heavy-departure-guarded-spike-medium-projectile",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy Departure +15: guarded spike and jab into medium Torbalan",
+		"summary": "After Ryu guards heavy Triglav and crouching jab, medium Torbalan opens him for the forward-heavy juggle and an OD portal ender.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Block pressure", "Portal setup"],
+		"outcomes": ["Corner knockdown", "OD portals"],
+		"notation": "22HP > 2LP > 236MK > 6HK > 236MP > st.HP > 214MP+HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "2LP",
+				"label": "2LP"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-4",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "214MP+HP",
+				"label": "214MP+HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner 2MP > 236PP > st.HP air juggle > 214HP knockdown, +15 in the source, with heavy Departure active. The earlier OD Stribog spends two Drive bars outside this follow-up loop.",
+			"Both opening actions are guarded; the later projectile hit is a separate pressure opening, not one continuous combo"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Departure strikes occur automatically from the existing portal. They are shown in the clip but are not extra button presses. Reproduce its recorded placement and lifetime."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Departure)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 150.75,
+			"end": 156.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-heavy-departure-guarded-spike-medium-projectile/clip.mp4",
+			"poster": "/media/jp/jp-depth-heavy-departure-guarded-spike-medium-projectile/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-heavy-departure-guarded-spike-medium-projectile/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-heavy-departure-guarded-spike-medium-projectile/frame-1.jpg",
+					"at": 0.5,
+					"label": "Guarded heavy spike",
+					"alt": "Ryu guards heavy Triglav after the portal knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-heavy-departure-guarded-spike-medium-projectile/frame-2.jpg",
+					"at": 1.0,
+					"label": "Guarded jab",
+					"alt": "Ryu also guards crouching light punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-heavy-departure-guarded-spike-medium-projectile/frame-3.jpg",
+					"at": 1.75,
+					"label": "Medium Torbalan opening",
+					"alt": "Medium Torbalan and the portal establish the airborne conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-heavy-departure-guarded-spike-medium-projectile/frame-4.jpg",
+					"at": 2.35,
+					"label": "Forward-heavy pickup",
+					"alt": "Forward heavy kick follows the projectile opening."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-heavy-departure-guarded-spike-medium-projectile/frame-5.jpg",
+					"at": 3.25,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog continues the juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-heavy-departure-guarded-spike-medium-projectile/frame-6.jpg",
+					"at": 4.45,
+					"label": "OD Departure",
+					"alt": "The recorded medium-plus-heavy-punch OD Departure replaces the portal."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-blocked-heavy-overhead",
+			"jp-depth-heavy-departure-blocked-heavy-low",
+			"jp-depth-heavy-departure-jab-kill-back-medium-target"
+		]
+	},
+	{
+		"id": "jp-depth-heavy-departure-jab-kill-back-medium-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy Departure +15: jab frame kill into target pressure",
+		"summary": "Whiff crouching jab, have the back-medium target guarded, then convert the medium-Torbalan opening and finish with OD Departure.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Frame kill", "Target combo", "Block pressure", "Portal setup"],
+		"outcomes": ["Corner knockdown", "OD portals"],
+		"notation": "2LP (whiff) > 4MP > ~MP > 236MK > 6HK > 236MP > st.HP > 214MP+HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP (whiff)",
+				"label": "2LP (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "4MP",
+				"label": "4MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "~MP",
+				"label": "~MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "214MP+HP",
+				"label": "214MP+HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner 2MP > 236PP > st.HP air juggle > 214HP knockdown, +15 in the source, with heavy Departure active. The earlier OD Stribog spends two Drive bars outside this follow-up loop.",
+			"Ryu guards the target, then takes medium Torbalan; no universal uninterrupted blockstring is claimed"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Departure strikes occur automatically from the existing portal. They are shown in the clip but are not extra button presses. Reproduce its recorded placement and lifetime."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Departure)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 176.2,
+			"end": 182.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-heavy-departure-jab-kill-back-medium-target/clip.mp4",
+			"poster": "/media/jp/jp-depth-heavy-departure-jab-kill-back-medium-target/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-heavy-departure-jab-kill-back-medium-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-heavy-departure-jab-kill-back-medium-target/frame-1.jpg",
+					"at": 0.1,
+					"label": "Whiffed jab",
+					"alt": "Crouching light punch deliberately whiffs as the frame kill."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-heavy-departure-jab-kill-back-medium-target/frame-2.jpg",
+					"at": 0.6,
+					"label": "Guarded target",
+					"alt": "Ryu guards the back-medium-punch target sequence."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-heavy-departure-jab-kill-back-medium-target/frame-3.jpg",
+					"at": 1.8,
+					"label": "Projectile opening",
+					"alt": "Medium Torbalan opens the guarded sequence with portal support."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-heavy-departure-jab-kill-back-medium-target/frame-4.jpg",
+					"at": 2.5,
+					"label": "Forward-heavy pickup",
+					"alt": "Forward heavy kick converts the projectile opening."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-heavy-departure-jab-kill-back-medium-target/frame-5.jpg",
+					"at": 3.3,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog extends the juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-heavy-departure-jab-kill-back-medium-target/frame-6.jpg",
+					"at": 4.5,
+					"label": "OD portal ender",
+					"alt": "Medium-plus-heavy-punch OD Departure establishes the next portal state."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-blocked-heavy-overhead",
+			"jp-depth-heavy-departure-blocked-heavy-low",
+			"jp-depth-heavy-departure-guarded-spike-medium-projectile"
+		]
+	},
+	{
+		"id": "jp-depth-heavy-departure-jab-kill-guard-reversal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy Departure +15: whiff jab, guard reversal and jump-medium punish",
+		"summary": "Whiff the jab, block Ryu’s actual Drive Reversal, then punish its recovery with jumping medium kick and a walking heavy pickup.",
+		"kind": "response",
+		"situations": [
+			"Corner",
+			"Oki",
+			"Frame kill",
+			"Drive Reversal punish",
+			"Punish",
+			"Punish counter",
+			"Portal setup"
+		],
+		"outcomes": ["Corner knockdown", "Active portal"],
+		"notation": "2LP (whiff) > Guard > 9 > j.MK > Walk forward > st.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2LP (whiff)",
+				"label": "2LP (whiff)"
+			},
+			{
+				"id": "step-2",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-3",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-4",
+				"notation": "j.MK",
+				"label": "j.MK"
+			},
+			{
+				"id": "step-5",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the shown corner 2MP > 236PP > st.HP air juggle > 214HP knockdown, +15 in the source, with heavy Departure active. The earlier OD Stribog spends two Drive bars outside this follow-up loop.",
+			"Ryu performs the shown Drive Reversal; reproduce the portal spacing and actual guard before jumping"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Departure strikes occur automatically from the existing portal. They are shown in the clip but are not extra button presses. Reproduce its recorded placement and lifetime.",
+			"The excerpt stops before the next replayed reversal attempt."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 213.85,
+			"end": 217.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-heavy-departure-jab-kill-guard-reversal/clip.mp4",
+			"poster": "/media/jp/jp-depth-heavy-departure-jab-kill-guard-reversal/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-heavy-departure-jab-kill-guard-reversal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-heavy-departure-jab-kill-guard-reversal/frame-1.jpg",
+					"at": 0.35,
+					"label": "Whiffed jab",
+					"alt": "Crouching light punch deliberately whiffs before the reversal."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-heavy-departure-jab-kill-guard-reversal/frame-2.jpg",
+					"at": 1.15,
+					"label": "Guard Drive Reversal",
+					"alt": "JP guards Ryu’s recorded Drive Reversal."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-heavy-departure-jab-kill-guard-reversal/frame-3.jpg",
+					"at": 2.15,
+					"label": "Jumping-medium punish",
+					"alt": "Jumping medium kick connects during punish-counter recovery."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-heavy-departure-jab-kill-guard-reversal/frame-4.jpg",
+					"at": 3.05,
+					"label": "Walking heavy pickup",
+					"alt": "Walking forward brings standing heavy punch into the portal-assisted juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-heavy-departure-jab-kill-guard-reversal/frame-5.jpg",
+					"at": 3.65,
+					"label": "Heavy Departure",
+					"alt": "Heavy Departure replaces the portal as Ryu falls."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-held-light-throw-reversal",
+			"jp-depth-heavy-departure-jab-kill-back-medium-target",
+			"jp-depth-corner-throw-dash-backdash-shimmy"
+		]
+	},
+	{
+		"id": "jp-depth-corner-throw-delayed-heavy-conversion",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Corner throw: delayed heavy into Rush conversion",
+		"summary": "After the forward throw, delayed heavy kick and crouching medium confirm into the light-projectile juggle, heavy spike and OD Departure.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Drive Rush", "Portal setup"],
+		"outcomes": ["Corner knockdown", "OD portals"],
+		"notation": "st.HK > 2MP > DRC > 6HK > 236LK > 6HK > 236MP > st.HP > 22HP > 214MP+HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-4",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "236LK",
+				"label": "236LK"
+			},
+			{
+				"id": "step-6",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-7",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-8",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-9",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "214MP+HP",
+				"label": "214MP+HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the demonstrated corner forward throw. This follow-up begins after the throw; match its recovery and spacing."
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "5 Drive bars (Rush cancel + OD Departure)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 852.25,
+			"end": 859.8
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-corner-throw-delayed-heavy-conversion/clip.mp4",
+			"poster": "/media/jp/jp-depth-corner-throw-delayed-heavy-conversion/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-corner-throw-delayed-heavy-conversion/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-corner-throw-delayed-heavy-conversion/frame-1.jpg",
+					"at": 0.35,
+					"label": "Delayed heavy kick",
+					"alt": "The delayed standing heavy kick connects on the recorded wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-corner-throw-delayed-heavy-conversion/frame-2.jpg",
+					"at": 1.25,
+					"label": "Medium Rush cancel",
+					"alt": "Crouching medium punch cancels into Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-corner-throw-delayed-heavy-conversion/frame-3.jpg",
+					"at": 2.75,
+					"label": "Light Torbalan",
+					"alt": "Light Torbalan extends after the first forward heavy."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-corner-throw-delayed-heavy-conversion/frame-4.jpg",
+					"at": 3.25,
+					"label": "Second forward heavy",
+					"alt": "Forward heavy kick catches the projectile juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-corner-throw-delayed-heavy-conversion/frame-5.jpg",
+					"at": 4.75,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch follows medium Stribog."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-corner-throw-delayed-heavy-conversion/frame-6.jpg",
+					"at": 5.45,
+					"label": "Heavy Triglav",
+					"alt": "Heavy Triglav finishes the damage route."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/jp/jp-depth-corner-throw-delayed-heavy-conversion/frame-7.jpg",
+					"at": 6.3,
+					"label": "OD Departure",
+					"alt": "Medium-plus-heavy-punch OD Departure is placed after the spike."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-spike-rush-forward-heavy",
+			"jp-depth-heavy-departure-rush-throw",
+			"jp-depth-heavy-departure-heavy-counterhit"
+		]
+	},
+	{
+		"id": "jp-depth-corner-throw-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Corner throw: walk-in throw",
+		"summary": "Walk back into throw range after the corner forward throw and take the recorded second throw.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "Walk forward > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the demonstrated corner forward throw. This follow-up begins after the throw; match its recovery and spacing."
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"The recording displays counter hit on the throw; it does not identify the enemy action responsible or promise that property on every wake-up."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 863.05,
+			"end": 866.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-corner-throw-walk-throw/clip.mp4",
+			"poster": "/media/jp/jp-depth-corner-throw-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-corner-throw-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-corner-throw-walk-throw/frame-1.jpg",
+					"at": 0.25,
+					"label": "Walk-in spacing",
+					"alt": "JP closes the short post-throw distance."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-corner-throw-walk-throw/frame-2.jpg",
+					"at": 0.95,
+					"label": "Second throw",
+					"alt": "The normal throw connects against Ryu’s recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-corner-throw-walk-throw/frame-3.jpg",
+					"at": 2.45,
+					"label": "Throw knockdown",
+					"alt": "The second forward throw knocks Ryu down."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-rush-throw",
+			"jp-depth-heavy-departure-blocked-heavy-throw",
+			"jp-depth-heavy-departure-held-light-throw-reversal"
+		]
+	},
+	{
+		"id": "jp-depth-corner-throw-dash-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Corner throw: dash into throw",
+		"summary": "Replace the walk approach with the demonstrated forward dash, then throw at the recorded wake-up spacing.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Throw"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "Dash > LP+LK",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the demonstrated corner forward throw. This follow-up begins after the throw; match its recovery and spacing."
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"The take displays counter hit on the throw; an ordinary wake-up throw is not guaranteed to gain that flag."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 870.0,
+			"end": 873.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-corner-throw-dash-throw/clip.mp4",
+			"poster": "/media/jp/jp-depth-corner-throw-dash-throw/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-corner-throw-dash-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-corner-throw-dash-throw/frame-1.jpg",
+					"at": 0.25,
+					"label": "Dash approach",
+					"alt": "JP closes the post-throw spacing with a forward dash."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-corner-throw-dash-throw/frame-2.jpg",
+					"at": 1.25,
+					"label": "Second throw",
+					"alt": "The throw connects after the dash approach."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-corner-throw-dash-throw/frame-3.jpg",
+					"at": 2.5,
+					"label": "Throw knockdown",
+					"alt": "The forward throw completes the branch."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-rush-throw",
+			"jp-depth-heavy-departure-blocked-heavy-throw",
+			"jp-depth-heavy-departure-held-light-throw-reversal"
+		]
+	},
+	{
+		"id": "jp-depth-corner-throw-dash-backdash-shimmy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Corner throw: dash/backdash medium-kick shimmy",
+		"summary": "Dash in, backdash out of the shown throw attempt and punish at that spacing with standing medium kick into the OD-Torbalan finish.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Shimmy", "Punish", "Punish counter"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "Dash > Backdash > st.MK > 236LK > 6HK > 236MP > st.HP > 236MK+HK > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "Backdash",
+				"label": "Backdash"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "st.MK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK",
+				"label": "236LK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "236MK+HK",
+				"label": "236MK+HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "22HP",
+				"label": "22HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the demonstrated corner forward throw. This follow-up begins after the throw; match its recovery and spacing.",
+			"Ryu attempts the recorded throw. The source specifically limits the standing-medium-kick punish to this backdash spacing."
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Torbalan)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 877.35,
+			"end": 885.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-corner-throw-dash-backdash-shimmy/clip.mp4",
+			"poster": "/media/jp/jp-depth-corner-throw-dash-backdash-shimmy/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-corner-throw-dash-backdash-shimmy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-corner-throw-dash-backdash-shimmy/frame-1.jpg",
+					"at": 0.65,
+					"label": "Dash approach",
+					"alt": "JP first dashes into the post-throw space."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-corner-throw-dash-backdash-shimmy/frame-2.jpg",
+					"at": 0.85,
+					"label": "Backdash bait",
+					"alt": "The backdash moves outside Ryu’s attempted throw."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-corner-throw-dash-backdash-shimmy/frame-3.jpg",
+					"at": 1.35,
+					"label": "Medium-kick punish",
+					"alt": "Standing medium kick scores punish counter at the backdash spacing."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-corner-throw-dash-backdash-shimmy/frame-4.jpg",
+					"at": 2.65,
+					"label": "Forward-heavy pickup",
+					"alt": "Forward heavy kick follows light Torbalan."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-corner-throw-dash-backdash-shimmy/frame-5.jpg",
+					"at": 4.15,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches the medium-Stribog juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-corner-throw-dash-backdash-shimmy/frame-6.jpg",
+					"at": 4.75,
+					"label": "OD Torbalan",
+					"alt": "Medium-plus-heavy-kick OD Torbalan extends the route."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/jp/jp-depth-corner-throw-dash-backdash-shimmy/frame-7.jpg",
+					"at": 5.65,
+					"label": "Heavy spike finish",
+					"alt": "Heavy Triglav finishes the OD-projectile conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-held-light-throw-reversal",
+			"jp-depth-heavy-departure-jab-kill-guard-reversal",
+			"jp-depth-guard-od-uppercut-portal-side-switch"
+		]
+	},
+	{
+		"id": "jp-depth-corner-throw-impact-hit",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Corner throw: Drive Impact at the wall",
+		"summary": "Use the demonstrated Drive Impact after the forward throw; Ryu takes the wall hit in this source branch.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Drive Impact"],
+		"outcomes": ["Corner wall hit"],
+		"notation": "DI",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "DI"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the demonstrated corner forward throw. This follow-up begins after the throw; match its recovery and spacing.",
+			"Ryu takes the demonstrated Impact hit. This is not proof of an unavoidable wake-up trap or a Burnout stun."
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar (Drive Impact)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 889.3,
+			"end": 891.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-corner-throw-impact-hit/clip.mp4",
+			"poster": "/media/jp/jp-depth-corner-throw-impact-hit/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-corner-throw-impact-hit/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-corner-throw-impact-hit/frame-1.jpg",
+					"at": 0.35,
+					"label": "Drive Impact startup",
+					"alt": "JP begins Drive Impact at the wake-up spacing."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-corner-throw-impact-hit/frame-2.jpg",
+					"at": 0.95,
+					"label": "Impact connects",
+					"alt": "Ryu takes the Drive Impact hit at the wall."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-corner-throw-impact-hit/frame-3.jpg",
+					"at": 2.0,
+					"label": "Wall result",
+					"alt": "The demonstrated Impact result resolves at the corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-corner-throw-od-embrace",
+			"jp-ebios-wall-splat-medium-forward-kick-spike",
+			"jp-depth-medium-stribog-jump-heavy-guard"
+		]
+	},
+	{
+		"id": "jp-depth-corner-throw-medium-projectile-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Corner throw: medium Torbalan into back-medium target",
+		"summary": "Use medium Torbalan at the corner wake-up, then confirm into the back-medium target and medium Stribog.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Target combo", "Projectile setup"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "236MK > 4MP > ~MP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "4MP",
+				"label": "4MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "~MP",
+				"label": "~MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the demonstrated corner forward throw. This follow-up begins after the throw; match its recovery and spacing."
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"A later source example shows this pressure blocked at -6. Do not read the successful hit as universally safe or guaranteed pressure."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 905.4,
+			"end": 910.95
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-corner-throw-medium-projectile-target/clip.mp4",
+			"poster": "/media/jp/jp-depth-corner-throw-medium-projectile-target/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-corner-throw-medium-projectile-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-corner-throw-medium-projectile-target/frame-1.jpg",
+					"at": 0.8,
+					"label": "Medium Torbalan",
+					"alt": "The live yellow kick identifies medium Torbalan."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-corner-throw-medium-projectile-target/frame-2.jpg",
+					"at": 1.2,
+					"label": "Projectile opening",
+					"alt": "Medium Torbalan hits the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-corner-throw-medium-projectile-target/frame-3.jpg",
+					"at": 1.6,
+					"label": "Back-medium target",
+					"alt": "Back medium punch and its medium continuation connect."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-corner-throw-medium-projectile-target/frame-4.jpg",
+					"at": 2.8,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog finishes the target conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-corner-throw-medium-projectile-target/frame-5.jpg",
+					"at": 3.25,
+					"label": "Knockdown",
+					"alt": "The source reports +42 after the finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-amnesia-light-spike-dash-projectile-target",
+			"jp-depth-heavy-departure-jab-kill-back-medium-target",
+			"jp-depth-corner-throw-projectile-target-rush"
+		]
+	},
+	{
+		"id": "jp-depth-corner-throw-projectile-target-rush",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Corner throw: projectile target into extended Rush route",
+		"summary": "Spend a Rush cancel after the medium-Torbalan/back-medium target conversion, then extend with two forward heavies and OD Torbalan.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Target combo", "Drive Rush"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "236MK > 4MP > ~MP > DRC > 6HK > 236LK > 6HK > 236MP > st.HP > 236MK+HK > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "4MP",
+				"label": "4MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "~MP",
+				"label": "~MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "236LK",
+				"label": "236LK"
+			},
+			{
+				"id": "step-7",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "236MK+HK",
+				"label": "236MK+HK"
+			},
+			{
+				"id": "step-11",
+				"notation": "22HP",
+				"label": "22HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the demonstrated corner forward throw. This follow-up begins after the throw; match its recovery and spacing."
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Use this higher-Drive branch only after the projectile/target confirms. The source’s separate blocked example is -6."
+		],
+		"resources": {
+			"drive": "5 Drive bars (Rush cancel + OD Torbalan)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 922.75,
+			"end": 931.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-corner-throw-projectile-target-rush/clip.mp4",
+			"poster": "/media/jp/jp-depth-corner-throw-projectile-target-rush/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-corner-throw-projectile-target-rush/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-corner-throw-projectile-target-rush/frame-1.jpg",
+					"at": 0.45,
+					"label": "Medium Torbalan",
+					"alt": "Medium Torbalan opens the corner wake-up."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-corner-throw-projectile-target-rush/frame-2.jpg",
+					"at": 1.25,
+					"label": "Back-medium target",
+					"alt": "The back-medium target confirms the projectile hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-corner-throw-projectile-target-rush/frame-3.jpg",
+					"at": 1.75,
+					"label": "Target Rush cancel",
+					"alt": "The target continuation cancels into Drive Rush."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-corner-throw-projectile-target-rush/frame-4.jpg",
+					"at": 3.25,
+					"label": "Light projectile juggle",
+					"alt": "Light Torbalan links the two forward-heavy kicks."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-corner-throw-projectile-target-rush/frame-5.jpg",
+					"at": 5.25,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch follows medium Stribog."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-corner-throw-projectile-target-rush/frame-6.jpg",
+					"at": 5.9,
+					"label": "OD Torbalan",
+					"alt": "The performed medium-plus-heavy-kick OD projectile extends the juggle."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/jp/jp-depth-corner-throw-projectile-target-rush/frame-7.jpg",
+					"at": 6.75,
+					"label": "Heavy spike finish",
+					"alt": "Heavy Triglav finishes the extended route."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-rush-throw",
+			"jp-depth-heavy-departure-spike-rush-forward-heavy",
+			"jp-depth-heavy-departure-jab-kill-back-medium-target"
+		]
+	},
+	{
+		"id": "jp-depth-corner-throw-projectile-trade-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Corner throw: medium-Torbalan trade conversion",
+		"summary": "If the recorded wake-up strike trades with medium Torbalan, recover into the back-medium target and medium Stribog.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Trade conversion", "Target combo"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "236MK > 4MP > ~MP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "4MP",
+				"label": "4MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "~MP",
+				"label": "~MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: the demonstrated corner forward throw. This follow-up begins after the throw; match its recovery and spacing.",
+			"Reproduce the actual trade: JP takes counter hit while the projectile scores punish counter. A normal projectile hit does not reproduce this recovery state."
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 936.0,
+			"end": 941.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-corner-throw-projectile-trade-target/clip.mp4",
+			"poster": "/media/jp/jp-depth-corner-throw-projectile-trade-target/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-corner-throw-projectile-trade-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-corner-throw-projectile-trade-target/frame-1.jpg",
+					"at": 0.65,
+					"label": "Recorded trade",
+					"alt": "JP is struck while medium Torbalan hits Ryu; both sides’ hit flags are visible."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-corner-throw-projectile-trade-target/frame-2.jpg",
+					"at": 1.5,
+					"label": "Post-trade target",
+					"alt": "Back medium punch connects after the trade recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-corner-throw-projectile-trade-target/frame-3.jpg",
+					"at": 2.0,
+					"label": "Target continuation",
+					"alt": "The medium-punch target continuation follows."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-corner-throw-projectile-trade-target/frame-4.jpg",
+					"at": 3.0,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog finishes the trade conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-corner-throw-projectile-trade-target/frame-5.jpg",
+					"at": 3.3,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the recorded +42 finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-jab-kill-back-medium-target",
+			"jp-depth-corner-throw-medium-projectile-target",
+			"jp-depth-corner-throw-projectile-target-rush"
+		]
+	},
+	{
+		"id": "jp-depth-od-amnesia-backthrow-heavy-portal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "OD Amnesia: back throw into heavy-portal conversion",
+		"summary": "Answer Ryu’s recorded wake-up strike with OD Amnesia, back throw out of the corner, then juggle the automatic bomb hits into heavy Departure.",
+		"kind": "response",
+		"situations": ["Corner", "Reversal", "Amnesia", "Side switch", "Portal setup"],
+		"outcomes": ["Side switch", "Corner knockdown", "Active portal"],
+		"notation": "22MK+HK > 4LP+LK > 6HK > 236HP > Dash > st.HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "22MK+HK",
+				"label": "22MK+HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "4LP+LK",
+				"label": "4LP+LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "Dash",
+				"label": "Dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"JP starts knocked down in the left corner after Ryu’s recorded low strike; Ryu performs the demonstrated wake-up pressure",
+			"Amnesia bombs activate automatically. Preserve their recorded timing through the back throw."
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"The heavy-Stribog delay is performed; no numeric wait is invented."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Amnesia)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 952.6,
+			"end": 959.7
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-od-amnesia-backthrow-heavy-portal/clip.mp4",
+			"poster": "/media/jp/jp-depth-od-amnesia-backthrow-heavy-portal/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-od-amnesia-backthrow-heavy-portal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-od-amnesia-backthrow-heavy-portal/frame-1.jpg",
+					"at": 0.4,
+					"label": "OD Amnesia response",
+					"alt": "OD Amnesia activates against Ryu’s recorded strike."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-od-amnesia-backthrow-heavy-portal/frame-2.jpg",
+					"at": 1.5,
+					"label": "Back-throw punish",
+					"alt": "The back throw scores punish counter and changes sides."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-od-amnesia-backthrow-heavy-portal/frame-3.jpg",
+					"at": 3.4,
+					"label": "Forward-heavy pickup",
+					"alt": "Forward heavy kick catches Ryu after the automatic Amnesia blasts."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-od-amnesia-backthrow-heavy-portal/frame-4.jpg",
+					"at": 4.4,
+					"label": "Delayed heavy Stribog",
+					"alt": "Heavy Stribog extends after the performed delay."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-od-amnesia-backthrow-heavy-portal/frame-5.jpg",
+					"at": 5.9,
+					"label": "Dash heavy pickup",
+					"alt": "A forward dash brings standing heavy punch into the juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-od-amnesia-backthrow-heavy-portal/frame-6.jpg",
+					"at": 6.4,
+					"label": "Heavy Departure",
+					"alt": "Heavy Departure is placed with Ryu now at the opposite corner."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-od-amnesia-backthrow-light-spike",
+			"jp-depth-guard-od-uppercut-portal-side-switch",
+			"jp-depth-medium-od-stribog-heavy-departure"
+		]
+	},
+	{
+		"id": "jp-depth-od-amnesia-backthrow-light-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "OD Amnesia: back throw into light-spike knockdown",
+		"summary": "Choose forward heavy and light Triglav after the OD-Amnesia/back-throw bomb sequence for the source’s +53 corner knockdown.",
+		"kind": "response",
+		"situations": ["Corner", "Reversal", "Amnesia", "Side switch"],
+		"outcomes": ["Side switch", "Corner knockdown"],
+		"notation": "22MK+HK > 4LP+LK > 6HK > 22LP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "22MK+HK",
+				"label": "22MK+HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "4LP+LK",
+				"label": "4LP+LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "22LP",
+				"label": "22LP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"JP begins knocked down in the left corner; reproduce the recorded meaty strike and automatic-bomb sequence"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"The later dash/projectile pressure is a separate follow-up card, not part of this response loop."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Amnesia)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 962.6,
+			"end": 968.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-od-amnesia-backthrow-light-spike/clip.mp4",
+			"poster": "/media/jp/jp-depth-od-amnesia-backthrow-light-spike/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-od-amnesia-backthrow-light-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-od-amnesia-backthrow-light-spike/frame-1.jpg",
+					"at": 0.4,
+					"label": "OD Amnesia response",
+					"alt": "OD Amnesia catches the recorded wake-up pressure."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-od-amnesia-backthrow-light-spike/frame-2.jpg",
+					"at": 1.5,
+					"label": "Back-throw punish",
+					"alt": "Back throw scores punish counter and changes sides."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-od-amnesia-backthrow-light-spike/frame-3.jpg",
+					"at": 3.3,
+					"label": "Forward-heavy pickup",
+					"alt": "Forward heavy kick catches Ryu after the automatic Amnesia bombs."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-od-amnesia-backthrow-light-spike/frame-4.jpg",
+					"at": 4.4,
+					"label": "Light Triglav",
+					"alt": "Light Triglav finishes at the near placement."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-od-amnesia-backthrow-light-spike/frame-5.jpg",
+					"at": 5.0,
+					"label": "Knockdown spacing",
+					"alt": "Ryu falls at the opposite wall; the source reports +53."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-od-amnesia-backthrow-heavy-portal",
+			"jp-depth-guard-od-uppercut-portal-side-switch",
+			"jp-ebios-corner-throw-od-embrace"
+		]
+	},
+	{
+		"id": "jp-depth-amnesia-light-spike-dash-projectile-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Amnesia light spike +53: dash/projectile target",
+		"summary": "After the back-throw/light-spike Amnesia route, dash into medium Torbalan and confirm the heavy-kick target into medium Stribog.",
+		"kind": "setup",
+		"situations": ["Corner", "Oki", "Target combo", "Projectile setup"],
+		"outcomes": ["Corner knockdown"],
+		"notation": "Dash > 236MK > st.HK > ~HP > 236MP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Dash",
+				"label": "Dash"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HP",
+				"label": "~HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MP",
+				"label": "236MP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Prerequisite: OD Amnesia > back throw > automatic bombs > 6HK > 22LP at the opposite corner, +53 in this source",
+			"The prerequisite spends two Drive bars before this follow-up loop; Ryu takes medium Torbalan in the selected take"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"The source recipe offers medium or heavy Torbalan; the live yellow kick establishes the performed medium branch only."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 975.45,
+			"end": 980.75
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-amnesia-light-spike-dash-projectile-target/clip.mp4",
+			"poster": "/media/jp/jp-depth-amnesia-light-spike-dash-projectile-target/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-amnesia-light-spike-dash-projectile-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-amnesia-light-spike-dash-projectile-target/frame-1.jpg",
+					"at": 0.2,
+					"label": "Dash approach",
+					"alt": "JP dashes after the light-spike knockdown."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-amnesia-light-spike-dash-projectile-target/frame-2.jpg",
+					"at": 0.95,
+					"label": "Medium Torbalan opening",
+					"alt": "Medium Torbalan hits the recorded wake-up."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-amnesia-light-spike-dash-projectile-target/frame-3.jpg",
+					"at": 1.55,
+					"label": "Heavy-kick target",
+					"alt": "Standing heavy kick and its heavy-punch target continuation connect."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-amnesia-light-spike-dash-projectile-target/frame-4.jpg",
+					"at": 2.75,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog completes the pressure conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-amnesia-light-spike-dash-projectile-target/frame-5.jpg",
+					"at": 3.55,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the medium-Stribog finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-corner-throw-medium-projectile-target",
+			"jp-depth-heavy-departure-jab-kill-back-medium-target",
+			"jp-depth-corner-throw-projectile-target-rush"
+		]
+	},
+	{
+		"id": "jp-depth-antiair-od-spikes",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Anti-air forward heavy: OD spikes into heavy spike",
+		"summary": "After forward heavy catches the airborne counter hit, use the near/far OD spike pair and a final heavy Triglav.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "6HK > 22LP+HP > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "22LP+HP",
+				"label": "22LP+HP"
+			},
+			{
+				"id": "step-3",
+				"notation": "22HP",
+				"label": "22HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu performs the recorded jump attack and forward heavy kick scores airborne counter hit; match that jump distance and juggle height"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"The button pair is explicit because OD Triglav placement matters; do not substitute an arbitrary pair."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Triglav)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 822.85,
+			"end": 826.9
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-antiair-od-spikes/clip.mp4",
+			"poster": "/media/jp/jp-depth-antiair-od-spikes/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-antiair-od-spikes/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-antiair-od-spikes/frame-1.jpg",
+					"at": 0.65,
+					"label": "Airborne counter hit",
+					"alt": "Forward heavy kick catches Ryu’s jump attack."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-antiair-od-spikes/frame-2.jpg",
+					"at": 1.4,
+					"label": "OD Triglav pair",
+					"alt": "The live light-plus-heavy-punch pair selects the OD spike placements."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-antiair-od-spikes/frame-3.jpg",
+					"at": 2.15,
+					"label": "Heavy Triglav finish",
+					"alt": "Heavy Triglav catches the remaining juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-antiair-od-spikes/frame-4.jpg",
+					"at": 3.05,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the two-spike conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-anti-air-forward-kick-medium-spike",
+			"jp-depth-antiair-od-projectile-spike",
+			"jp-depth-antiair-od-projectile-level-one"
+		]
+	},
+	{
+		"id": "jp-depth-antiair-od-projectile-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Anti-air forward heavy: OD Torbalan into spike",
+		"summary": "Use OD Torbalan after the airborne counter hit, then finish at range with heavy Triglav.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Counter hit"],
+		"outcomes": ["Knockdown"],
+		"notation": "6HK > 236MK+HK > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MK+HK",
+				"label": "236MK+HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "22HP",
+				"label": "22HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu performs the recorded jump attack and forward heavy kick scores airborne counter hit; match that jump distance and juggle height"
+		],
+		"notes": ["Dated source demonstration; current-patch execution has not been tested in-game."],
+		"resources": {
+			"drive": "2 Drive bars (OD Torbalan)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 828.0,
+			"end": 832.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-antiair-od-projectile-spike/clip.mp4",
+			"poster": "/media/jp/jp-depth-antiair-od-projectile-spike/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-antiair-od-projectile-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-antiair-od-projectile-spike/frame-1.jpg",
+					"at": 0.5,
+					"label": "Airborne counter hit",
+					"alt": "Forward heavy kick catches the jump attack."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-antiair-od-projectile-spike/frame-2.jpg",
+					"at": 0.85,
+					"label": "OD Torbalan",
+					"alt": "The medium-plus-heavy-kick OD projectile extends the airborne hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-antiair-od-projectile-spike/frame-3.jpg",
+					"at": 2.4,
+					"label": "Heavy spike finish",
+					"alt": "Heavy Triglav catches Ryu at the recorded distance."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-antiair-od-projectile-spike/frame-4.jpg",
+					"at": 3.2,
+					"label": "Knockdown",
+					"alt": "Ryu lands after the conversion."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-anti-air-forward-kick-medium-spike",
+			"jp-depth-antiair-od-spikes",
+			"jp-depth-antiair-od-projectile-level-one"
+		]
+	},
+	{
+		"id": "jp-depth-antiair-od-projectile-level-one",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Anti-air forward heavy: OD Torbalan into Level 1",
+		"summary": "Spend one Super stock after OD Torbalan to finish the recorded forward-heavy anti-air conversion.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Counter hit", "Super finish"],
+		"outcomes": ["Knockdown"],
+		"notation": "6HK > 236MK+HK > SA1",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MK+HK",
+				"label": "236MK+HK"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA1",
+				"label": "SA1"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu performs the recorded jump attack and forward heavy kick scores airborne counter hit; match that jump distance and juggle height"
+		],
+		"notes": ["Dated source demonstration; current-patch execution has not been tested in-game."],
+		"resources": {
+			"drive": "2 Drive bars (OD Torbalan)",
+			"super": "Level 1 (1 stock)"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 833.6,
+			"end": 838.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-antiair-od-projectile-level-one/clip.mp4",
+			"poster": "/media/jp/jp-depth-antiair-od-projectile-level-one/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-antiair-od-projectile-level-one/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-antiair-od-projectile-level-one/frame-1.jpg",
+					"at": 0.65,
+					"label": "Airborne counter hit",
+					"alt": "Forward heavy kick catches Ryu’s jump attack."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-antiair-od-projectile-level-one/frame-2.jpg",
+					"at": 1.15,
+					"label": "OD projectile pickup",
+					"alt": "OD Torbalan holds the airborne conversion."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-antiair-od-projectile-level-one/frame-3.jpg",
+					"at": 2.15,
+					"label": "Level 1 activation",
+					"alt": "JP activates Level 1 after the projectile hits."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-antiair-od-projectile-level-one/frame-4.jpg",
+					"at": 3.4,
+					"label": "Level 1 finish",
+					"alt": "Level 1 strikes Ryu at range."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-antiair-od-projectile-level-one/frame-5.jpg",
+					"at": 4.2,
+					"label": "Knockdown",
+					"alt": "Ryu falls after the Super finish."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-anti-air-forward-kick-medium-spike",
+			"jp-depth-antiair-od-spikes",
+			"jp-depth-antiair-od-projectile-spike"
+		]
+	},
+	{
+		"id": "jp-depth-antiair-rush-heavy-projectile-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Anti-air forward heavy: Rush-cancel juggle",
+		"summary": "Rush-cancel the airborne counter hit, use standing heavy into heavy Stribog, then medium Torbalan and heavy Triglav.",
+		"kind": "response",
+		"situations": ["Midscreen", "Anti-air", "Counter hit", "Drive Rush", "Juggle extension"],
+		"outcomes": ["Knockdown"],
+		"notation": "6HK > DRC > st.HP > 236HP > 236MK > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-6",
+				"notation": "22HP",
+				"label": "22HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu performs the recorded jump attack and forward heavy kick scores airborne counter hit; match that jump distance and juggle height"
+		],
+		"notes": ["Dated source demonstration; current-patch execution has not been tested in-game."],
+		"resources": {
+			"drive": "3 Drive bars (Rush cancel)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 839.9,
+			"end": 846.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-antiair-rush-heavy-projectile-spike/clip.mp4",
+			"poster": "/media/jp/jp-depth-antiair-rush-heavy-projectile-spike/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-antiair-rush-heavy-projectile-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-antiair-rush-heavy-projectile-spike/frame-1.jpg",
+					"at": 0.6,
+					"label": "Airborne counter hit",
+					"alt": "Forward heavy kick catches Ryu’s jump attack."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-antiair-rush-heavy-projectile-spike/frame-2.jpg",
+					"at": 1.0,
+					"label": "Rush cancel",
+					"alt": "The anti-air hit cancels into Drive Rush."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-antiair-rush-heavy-projectile-spike/frame-3.jpg",
+					"at": 1.6,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches the airborne opponent."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-antiair-rush-heavy-projectile-spike/frame-4.jpg",
+					"at": 2.35,
+					"label": "Heavy Stribog",
+					"alt": "Heavy Stribog extends the launch."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-antiair-rush-heavy-projectile-spike/frame-5.jpg",
+					"at": 3.7,
+					"label": "Medium Torbalan",
+					"alt": "Medium Torbalan continues at the recorded height."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-antiair-rush-heavy-projectile-spike/frame-6.jpg",
+					"at": 4.3,
+					"label": "Heavy spike finish",
+					"alt": "Heavy Triglav completes the juggle."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-anti-air-forward-kick-medium-spike",
+			"jp-ebios-heavy-target-rush-launch-spike",
+			"jp-depth-antiair-od-spikes"
+		]
+	},
+	{
+		"id": "jp-depth-rush-medium-kick-stribog-portal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Raw Rush medium: standing-medium link and portal",
+		"summary": "Use raw Rush crouching medium to link standing medium kick, finish with medium Stribog and place heavy Departure.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm"],
+		"outcomes": ["Knockdown", "Active portal"],
+		"notation": "DR > 2MP > st.MK > 236MP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.MK",
+				"label": "st.MK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"The source’s +42 belongs to the Stribog knockdown before portal placement; it is not a numeric wait or the advantage after placing Departure."
+		],
+		"resources": {
+			"drive": "1 Drive bar (raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 473.25,
+			"end": 477.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-rush-medium-kick-stribog-portal/clip.mp4",
+			"poster": "/media/jp/jp-depth-rush-medium-kick-stribog-portal/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-rush-medium-kick-stribog-portal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-rush-medium-kick-stribog-portal/frame-1.jpg",
+					"at": 0.9,
+					"label": "Rush medium hit",
+					"alt": "Drive Rush crouching medium punch connects."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-rush-medium-kick-stribog-portal/frame-2.jpg",
+					"at": 1.5,
+					"label": "Standing medium link",
+					"alt": "Standing medium kick links after the Rush hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-rush-medium-kick-stribog-portal/frame-3.jpg",
+					"at": 2.3,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog completes the damage sequence."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-rush-medium-kick-stribog-portal/frame-4.jpg",
+					"at": 3.15,
+					"label": "Heavy Departure",
+					"alt": "Heavy Departure is placed above the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-medium-od-stribog-heavy-spike",
+			"jp-ebios-medium-double-od-level-three",
+			"jp-depth-rush-medium-counterhit-heavy-target"
+		]
+	},
+	{
+		"id": "jp-depth-rush-medium-counterhit-heavy-target",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Raw Rush medium counter hit: heavy target and portal",
+		"summary": "On the recorded Rush-medium counter hit, link the heavy-kick target and medium Stribog before placing heavy Departure.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Counter hit", "Target combo"],
+		"outcomes": ["Knockdown", "Active portal"],
+		"notation": "DR > 2MP > st.HK > ~HP > 236MP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-2",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "~HP",
+				"label": "~HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The initial Rush crouching medium scores counter hit; do not assume the heavy-target link on an ordinary hit"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar (raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 479.85,
+			"end": 485.05
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-rush-medium-counterhit-heavy-target/clip.mp4",
+			"poster": "/media/jp/jp-depth-rush-medium-counterhit-heavy-target/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-rush-medium-counterhit-heavy-target/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-rush-medium-counterhit-heavy-target/frame-1.jpg",
+					"at": 1.15,
+					"label": "Rush counter hit",
+					"alt": "Rush crouching medium punch scores counter hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-rush-medium-counterhit-heavy-target/frame-2.jpg",
+					"at": 1.75,
+					"label": "Heavy-kick target",
+					"alt": "Standing heavy kick and its heavy-punch continuation connect."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-rush-medium-counterhit-heavy-target/frame-3.jpg",
+					"at": 2.65,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog finishes the target route."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-rush-medium-counterhit-heavy-target/frame-4.jpg",
+					"at": 4.25,
+					"label": "Heavy Departure",
+					"alt": "Heavy Departure is placed after the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-counterhit-crouching-medium-standing-medium",
+			"jp-ebios-lights-rush-back-medium-target",
+			"jp-ebios-medium-od-stribog-heavy-spike"
+		]
+	},
+	{
+		"id": "jp-depth-medium-od-spikes-level-two-double-stribog",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Medium confirm: OD launch and spikes into Level 2",
+		"summary": "Use OD Stribog and the medium/far OD spikes to enter Level 2, then place a portal and use the empty-jump/dash double-Stribog route.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Level 2", "Portal setup"],
+		"outcomes": ["Knockdown", "Active portal"],
+		"notation": "2MP > 236MP+HP > 22MP+HP > SA2 (HP) > 214HP > 9 > Dash > 236MP > 236MP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "236MP+HP",
+				"label": "236MP+HP"
+			},
+			{
+				"id": "step-3",
+				"notation": "22MP+HP",
+				"label": "22MP+HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "SA2 (HP)",
+				"label": "SA2 (HP)"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-7",
+				"notation": "Dash",
+				"label": "Dash"
+			},
+			{
+				"id": "step-8",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-10",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"The OD spike pair is MP+HP as actually performed. Level 2 and Departure add automatic hits; their effects are not extra inputs."
+		],
+		"resources": {
+			"drive": "4 Drive bars (OD Stribog + OD Triglav)",
+			"super": "Level 2 (2 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 492.25,
+			"end": 502.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-medium-od-spikes-level-two-double-stribog/clip.mp4",
+			"poster": "/media/jp/jp-depth-medium-od-spikes-level-two-double-stribog/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-medium-od-spikes-level-two-double-stribog/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-medium-od-spikes-level-two-double-stribog/frame-1.jpg",
+					"at": 0.4,
+					"label": "Medium confirm",
+					"alt": "Crouching medium punch starts the conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-medium-od-spikes-level-two-double-stribog/frame-2.jpg",
+					"at": 1.65,
+					"label": "OD Stribog",
+					"alt": "OD Stribog launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-medium-od-spikes-level-two-double-stribog/frame-3.jpg",
+					"at": 2.0,
+					"label": "OD spikes",
+					"alt": "The medium-plus-heavy-punch OD Triglav pair continues the launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-medium-od-spikes-level-two-double-stribog/frame-4.jpg",
+					"at": 3.35,
+					"label": "Level 2",
+					"alt": "The live heavy-punch input activates Level 2."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-medium-od-spikes-level-two-double-stribog/frame-5.jpg",
+					"at": 4.9,
+					"label": "Portal placement",
+					"alt": "Heavy Departure is placed while the Super supplies automatic hits."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-medium-od-spikes-level-two-double-stribog/frame-6.jpg",
+					"at": 5.75,
+					"label": "Empty forward jump",
+					"alt": "JP jumps forward without a jumping attack, then dashes after landing."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/jp/jp-depth-medium-od-spikes-level-two-double-stribog/frame-7.jpg",
+					"at": 7.15,
+					"label": "First medium Stribog",
+					"alt": "Medium Stribog connects during the automatic hits."
+				},
+				{
+					"id": "frame-8",
+					"src": "/media/jp/jp-depth-medium-od-spikes-level-two-double-stribog/frame-8.jpg",
+					"at": 7.9,
+					"label": "Second medium Stribog",
+					"alt": "A second medium Stribog extends the recorded route."
+				},
+				{
+					"id": "frame-9",
+					"src": "/media/jp/jp-depth-medium-od-spikes-level-two-double-stribog/frame-9.jpg",
+					"at": 9.0,
+					"label": "Final portal",
+					"alt": "Heavy Departure is placed at the end."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-near-corner-medium-dash-heavy-od-portal",
+			"jp-depth-near-corner-medium-jump-medium-od-portal",
+			"jp-ebios-medium-od-stribog-heavy-spike"
+		]
+	},
+	{
+		"id": "jp-depth-corner-medium-od-heavy-spike-od-portal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Corner medium: heavy pickup and spike into OD Departure",
+		"summary": "Use the corner OD-Stribog launch, standing-heavy pickup and heavy spike, then spend a second OD special to establish two portals.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Portal setup"],
+		"outcomes": ["Corner knockdown", "OD portals"],
+		"notation": "2MP > 236PP > st.HP > 22HP > 214MP+HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "236PP",
+				"label": "236PP"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "214MP+HP",
+				"label": "214MP+HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"The loop ends before the next take and later automatic portal attack."
+		],
+		"resources": {
+			"drive": "4 Drive bars (OD Stribog + OD Departure)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 503.65,
+			"end": 508.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-corner-medium-od-heavy-spike-od-portal/clip.mp4",
+			"poster": "/media/jp/jp-depth-corner-medium-od-heavy-spike-od-portal/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-corner-medium-od-heavy-spike-od-portal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-corner-medium-od-heavy-spike-od-portal/frame-1.jpg",
+					"at": 0.35,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts the corner confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-corner-medium-od-heavy-spike-od-portal/frame-2.jpg",
+					"at": 1.05,
+					"label": "OD Stribog",
+					"alt": "OD Stribog launches Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-corner-medium-od-heavy-spike-od-portal/frame-3.jpg",
+					"at": 1.85,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches the launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-corner-medium-od-heavy-spike-od-portal/frame-4.jpg",
+					"at": 2.75,
+					"label": "Heavy Triglav",
+					"alt": "Heavy Triglav finishes the juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-corner-medium-od-heavy-spike-od-portal/frame-5.jpg",
+					"at": 3.55,
+					"label": "OD Departure",
+					"alt": "The live medium-plus-heavy-punch input places OD Departure."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-medium-od-stribog-heavy-departure",
+			"jp-depth-medium-od-stribog-heavy-od-departure",
+			"jp-depth-corner-medium-rush-two-forward-heavies"
+		]
+	},
+	{
+		"id": "jp-depth-medium-rush-heavy-projectile-spike-portal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Medium Rush cancel: heavy launch and projectile/spike carry",
+		"summary": "Rush-cancel crouching medium into crouching heavy, then use heavy Stribog, medium Torbalan, heavy Triglav and a portal.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Drive Rush", "Corner carry"],
+		"outcomes": ["Corner carry", "Knockdown", "Active portal"],
+		"notation": "2MP > DRC > 2HP > 236HP > 236MK > 22HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "2HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-6",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "3 Drive bars (Rush cancel)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 510.2,
+			"end": 516.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-medium-rush-heavy-projectile-spike-portal/clip.mp4",
+			"poster": "/media/jp/jp-depth-medium-rush-heavy-projectile-spike-portal/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-medium-rush-heavy-projectile-spike-portal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-medium-rush-heavy-projectile-spike-portal/frame-1.jpg",
+					"at": 0.4,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-medium-rush-heavy-projectile-spike-portal/frame-2.jpg",
+					"at": 0.9,
+					"label": "Rush crouching heavy",
+					"alt": "Crouching heavy punch connects after the Rush cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-medium-rush-heavy-projectile-spike-portal/frame-3.jpg",
+					"at": 1.8,
+					"label": "Heavy Stribog",
+					"alt": "Heavy Stribog launches and pushes Ryu away."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-medium-rush-heavy-projectile-spike-portal/frame-4.jpg",
+					"at": 2.8,
+					"label": "Medium Torbalan",
+					"alt": "Medium Torbalan catches the juggle at range."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-medium-rush-heavy-projectile-spike-portal/frame-5.jpg",
+					"at": 3.8,
+					"label": "Heavy spike",
+					"alt": "Heavy Triglav extends the ranged juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-medium-rush-heavy-projectile-spike-portal/frame-6.jpg",
+					"at": 4.6,
+					"label": "Heavy Departure",
+					"alt": "Heavy Departure is placed after the spike."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-medium-rush-od-spikes-heavy-spike",
+			"jp-depth-medium-rush-dash-rush-light-spike",
+			"jp-depth-near-corner-medium-double-rush-od-portal"
+		]
+	},
+	{
+		"id": "jp-depth-medium-rush-od-spikes-heavy-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Medium Rush cancel: OD medium/far spikes into heavy spike",
+		"summary": "Extend the heavy-launch medium-Torbalan route with the recorded OD spike pair, another heavy spike and a portal.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Drive Rush", "Corner carry"],
+		"outcomes": ["Corner carry", "Knockdown", "Active portal"],
+		"notation": "2MP > DRC > 2HP > 236HP > 236MK > 22MP+HP > 22HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "2HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-6",
+				"notation": "22MP+HP",
+				"label": "22MP+HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "5 Drive bars (Rush cancel + OD Triglav)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 517.95,
+			"end": 524.85
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-medium-rush-od-spikes-heavy-spike/clip.mp4",
+			"poster": "/media/jp/jp-depth-medium-rush-od-spikes-heavy-spike/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-medium-rush-od-spikes-heavy-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-medium-rush-od-spikes-heavy-spike/frame-1.jpg",
+					"at": 0.7,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts the conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-medium-rush-od-spikes-heavy-spike/frame-2.jpg",
+					"at": 1.55,
+					"label": "Rush heavy launch",
+					"alt": "Crouching heavy punch and heavy Stribog launch Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-medium-rush-od-spikes-heavy-spike/frame-3.jpg",
+					"at": 2.65,
+					"label": "Medium Torbalan",
+					"alt": "Medium Torbalan catches the long-range juggle."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-medium-rush-od-spikes-heavy-spike/frame-4.jpg",
+					"at": 3.75,
+					"label": "OD Triglav pair",
+					"alt": "Medium-plus-heavy-punch OD Triglav extends the airborne sequence."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-medium-rush-od-spikes-heavy-spike/frame-5.jpg",
+					"at": 4.8,
+					"label": "Heavy spike",
+					"alt": "A final heavy Triglav catches the juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-medium-rush-od-spikes-heavy-spike/frame-6.jpg",
+					"at": 5.55,
+					"label": "Heavy Departure",
+					"alt": "Heavy Departure is placed above the final knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-medium-rush-heavy-projectile-spike-portal",
+			"jp-depth-medium-rush-dash-rush-light-spike",
+			"jp-depth-near-corner-medium-double-rush-od-portal"
+		]
+	},
+	{
+		"id": "jp-depth-medium-rush-dash-rush-light-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Medium launch: dash/Rush forward heavy into near spike",
+		"summary": "After the heavy launch, dash and raw Rush to close the distance, delay forward heavy and finish with near light Triglav plus a portal.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Medium confirm", "Drive Rush", "Corner carry"],
+		"outcomes": ["Corner carry", "Knockdown", "Active portal"],
+		"notation": "2MP > DRC > 2HP > 236HP > Dash > DR > 6HK > 22LP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "2HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "Dash",
+				"label": "Dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-7",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "22LP",
+				"label": "22LP"
+			},
+			{
+				"id": "step-9",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Delay forward heavy as performed; the source does not supply an exact wait count."
+		],
+		"resources": {
+			"drive": "4 Drive bars (Rush cancel + raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 526.65,
+			"end": 533.3
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-medium-rush-dash-rush-light-spike/clip.mp4",
+			"poster": "/media/jp/jp-depth-medium-rush-dash-rush-light-spike/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-medium-rush-dash-rush-light-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-medium-rush-dash-rush-light-spike/frame-1.jpg",
+					"at": 0.35,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts the conversion."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-medium-rush-dash-rush-light-spike/frame-2.jpg",
+					"at": 1.35,
+					"label": "Heavy launch",
+					"alt": "Crouching heavy punch and heavy Stribog launch Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-medium-rush-dash-rush-light-spike/frame-3.jpg",
+					"at": 2.9,
+					"label": "Dash approach",
+					"alt": "The forward dash covers the first part of the travel."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-medium-rush-dash-rush-light-spike/frame-4.jpg",
+					"at": 3.6,
+					"label": "Rush forward heavy",
+					"alt": "Raw Rush closes the remaining distance for delayed forward heavy kick."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-medium-rush-dash-rush-light-spike/frame-5.jpg",
+					"at": 4.25,
+					"label": "Near light spike",
+					"alt": "Light Triglav catches Ryu at the near placement."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-medium-rush-dash-rush-light-spike/frame-6.jpg",
+					"at": 5.55,
+					"label": "Heavy Departure",
+					"alt": "Heavy Departure is placed after the near-spike knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-medium-rush-heavy-projectile-spike-portal",
+			"jp-depth-medium-rush-od-spikes-heavy-spike",
+			"jp-depth-near-corner-medium-double-rush-od-portal"
+		]
+	},
+	{
+		"id": "jp-depth-near-corner-medium-double-rush-od-portal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Near-corner medium: double Rush into OD Departure",
+		"summary": "Add medium Stribog, a standing-heavy pickup and heavy Triglav after the dash/Rush juggle, then spend the remaining Drive on OD Departure.",
+		"kind": "combo",
+		"situations": [
+			"Midscreen",
+			"Near corner",
+			"Medium confirm",
+			"Drive Rush",
+			"Corner carry",
+			"Cash-out"
+		],
+		"outcomes": ["Corner carry", "Corner knockdown", "OD portals", "Burnout"],
+		"notation": "2MP > DRC > 2HP > 236HP > Dash > DR > 6HK > 236MP > st.HP > 22HP > 214MP+HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "2HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "Dash",
+				"label": "Dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-7",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-11",
+				"notation": "214MP+HP",
+				"label": "214MP+HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Starts near the corner with the shown spacing and full six-bar Drive gauge"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"This is a full-Drive commitment; the recording enters Burnout after OD Departure."
+		],
+		"resources": {
+			"drive": "6 Drive bars (Rush cancel + raw Drive Rush + OD Departure)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 534.8,
+			"end": 542.6
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-near-corner-medium-double-rush-od-portal/clip.mp4",
+			"poster": "/media/jp/jp-depth-near-corner-medium-double-rush-od-portal/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-near-corner-medium-double-rush-od-portal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-near-corner-medium-double-rush-od-portal/frame-1.jpg",
+					"at": 0.6,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts near the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-near-corner-medium-double-rush-od-portal/frame-2.jpg",
+					"at": 1.5,
+					"label": "Heavy launch",
+					"alt": "Rush crouching heavy and heavy Stribog launch Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-near-corner-medium-double-rush-od-portal/frame-3.jpg",
+					"at": 3.2,
+					"label": "Dash and Rush",
+					"alt": "JP dashes then uses raw Drive Rush to follow the launch."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-near-corner-medium-double-rush-od-portal/frame-4.jpg",
+					"at": 3.9,
+					"label": "Delayed forward heavy",
+					"alt": "Forward heavy kick catches the falling opponent."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-near-corner-medium-double-rush-od-portal/frame-5.jpg",
+					"at": 5.25,
+					"label": "Standing heavy pickup",
+					"alt": "Standing heavy punch follows medium Stribog."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-near-corner-medium-double-rush-od-portal/frame-6.jpg",
+					"at": 5.9,
+					"label": "Heavy Triglav",
+					"alt": "Heavy Triglav finishes the damage route."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/jp/jp-depth-near-corner-medium-double-rush-od-portal/frame-7.jpg",
+					"at": 6.9,
+					"label": "OD Departure",
+					"alt": "OD Departure is placed with the Drive gauge exhausted in this recording."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-medium-rush-heavy-projectile-spike-portal",
+			"jp-depth-medium-rush-od-spikes-heavy-spike",
+			"jp-depth-medium-rush-dash-rush-light-spike"
+		]
+	},
+	{
+		"id": "jp-depth-near-corner-medium-dash-heavy-od-portal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Near-corner medium: dash heavy pickup into OD portals",
+		"summary": "Use a forward dash after heavy Stribog to reach standing heavy, then heavy Triglav and OD Departure.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Near corner", "Medium confirm", "Corner carry", "Portal setup"],
+		"outcomes": ["Corner carry", "Corner knockdown", "OD portals"],
+		"notation": "2MP > DRC > 2HP > 236HP > Dash > st.HP > 22HP > 214MP+HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "2HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "Dash",
+				"label": "Dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "214MP+HP",
+				"label": "214MP+HP"
+			}
+		],
+		"conditions": ["Classic controls", "Requires the recorded near-corner starting distance"],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "5 Drive bars (Rush cancel + OD Departure)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 544.45,
+			"end": 550.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-near-corner-medium-dash-heavy-od-portal/clip.mp4",
+			"poster": "/media/jp/jp-depth-near-corner-medium-dash-heavy-od-portal/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-near-corner-medium-dash-heavy-od-portal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-near-corner-medium-dash-heavy-od-portal/frame-1.jpg",
+					"at": 0.55,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts near the corner."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-near-corner-medium-dash-heavy-od-portal/frame-2.jpg",
+					"at": 1.3,
+					"label": "Rush crouching heavy",
+					"alt": "Crouching heavy punch connects after the Rush cancel."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-near-corner-medium-dash-heavy-od-portal/frame-3.jpg",
+					"at": 2.25,
+					"label": "Heavy Stribog",
+					"alt": "Heavy Stribog launches Ryu toward the corner."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-near-corner-medium-dash-heavy-od-portal/frame-4.jpg",
+					"at": 3.55,
+					"label": "Dash heavy pickup",
+					"alt": "Standing heavy punch catches Ryu after a forward dash."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-near-corner-medium-dash-heavy-od-portal/frame-5.jpg",
+					"at": 4.2,
+					"label": "Heavy Triglav",
+					"alt": "Heavy Triglav finishes the juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-near-corner-medium-dash-heavy-od-portal/frame-6.jpg",
+					"at": 4.75,
+					"label": "OD Departure",
+					"alt": "Medium-plus-heavy-punch OD Departure establishes two portals."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-near-corner-medium-jump-medium-od-portal",
+			"jp-depth-near-corner-medium-double-rush-od-portal",
+			"jp-depth-medium-od-spikes-level-two-double-stribog"
+		]
+	},
+	{
+		"id": "jp-depth-near-corner-medium-jump-medium-od-portal",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Near-corner medium: jumping-medium juggle into OD portals",
+		"summary": "Jump forward with medium kick after the heavy launch, then link standing heavy, heavy Triglav and OD Departure.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Near corner", "Medium confirm", "Corner carry", "Portal setup"],
+		"outcomes": ["Corner carry", "Corner knockdown", "OD portals"],
+		"notation": "2MP > DRC > 2HP > 236HP > 9 > j.MK > st.HP > 22HP > 214MP+HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-3",
+				"notation": "2HP",
+				"label": "2HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "9",
+				"label": "9"
+			},
+			{
+				"id": "step-6",
+				"notation": "j.MK",
+				"label": "j.MK"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-9",
+				"notation": "214MP+HP",
+				"label": "214MP+HP"
+			}
+		],
+		"conditions": ["Classic controls", "Reproduce the shown near-corner spacing and jump height"],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "5 Drive bars (Rush cancel + OD Departure)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 552.1,
+			"end": 558.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-near-corner-medium-jump-medium-od-portal/clip.mp4",
+			"poster": "/media/jp/jp-depth-near-corner-medium-jump-medium-od-portal/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-near-corner-medium-jump-medium-od-portal/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-near-corner-medium-jump-medium-od-portal/frame-1.jpg",
+					"at": 0.4,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts the confirm."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-near-corner-medium-jump-medium-od-portal/frame-2.jpg",
+					"at": 1.4,
+					"label": "Rush heavy launch",
+					"alt": "Crouching heavy punch and heavy Stribog launch Ryu."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-near-corner-medium-jump-medium-od-portal/frame-3.jpg",
+					"at": 3.2,
+					"label": "Jumping medium kick",
+					"alt": "JP jumps forward and kicks the airborne opponent with medium kick."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-near-corner-medium-jump-medium-od-portal/frame-4.jpg",
+					"at": 3.9,
+					"label": "Landing heavy pickup",
+					"alt": "Standing heavy punch catches the juggle after landing."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-near-corner-medium-jump-medium-od-portal/frame-5.jpg",
+					"at": 4.9,
+					"label": "Heavy Triglav",
+					"alt": "Heavy Triglav finishes the damage sequence."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-near-corner-medium-jump-medium-od-portal/frame-6.jpg",
+					"at": 5.35,
+					"label": "OD Departure",
+					"alt": "OD Departure is placed using the medium-plus-heavy-punch pair."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-near-corner-medium-dash-heavy-od-portal",
+			"jp-depth-near-corner-medium-double-rush-od-portal",
+			"jp-depth-medium-od-spikes-level-two-double-stribog"
+		]
+	},
+	{
+		"id": "jp-depth-corner-medium-rush-two-forward-heavies",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Corner medium: two forward heavies into OD portals",
+		"summary": "Use forward heavy into light Torbalan, catch with a second forward heavy and extend through heavy spike into OD Departure.",
+		"kind": "combo",
+		"situations": ["Corner", "Medium confirm", "Drive Rush", "Portal setup"],
+		"outcomes": ["Corner knockdown", "OD portals"],
+		"notation": "2MP > DRC > 6HK > 236LK > 6HK > 236MP > st.HP > 22HP > 214MP+HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "DRC",
+				"label": "DRC"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236LK",
+				"label": "236LK"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-9",
+				"notation": "214MP+HP",
+				"label": "214MP+HP"
+			}
+		],
+		"conditions": ["Classic controls"],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "5 Drive bars (Rush cancel + OD Departure)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 560.6,
+			"end": 567.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-corner-medium-rush-two-forward-heavies/clip.mp4",
+			"poster": "/media/jp/jp-depth-corner-medium-rush-two-forward-heavies/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-corner-medium-rush-two-forward-heavies/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-corner-medium-rush-two-forward-heavies/frame-1.jpg",
+					"at": 0.4,
+					"label": "Medium starter",
+					"alt": "Crouching medium punch starts at the wall."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-corner-medium-rush-two-forward-heavies/frame-2.jpg",
+					"at": 1.4,
+					"label": "First forward heavy",
+					"alt": "Rush forward heavy kick begins the corner juggle."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-corner-medium-rush-two-forward-heavies/frame-3.jpg",
+					"at": 2.1,
+					"label": "Light Torbalan",
+					"alt": "Light Torbalan extends the airborne sequence."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-corner-medium-rush-two-forward-heavies/frame-4.jpg",
+					"at": 2.9,
+					"label": "Second forward heavy",
+					"alt": "A second forward heavy kick catches the projectile juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-corner-medium-rush-two-forward-heavies/frame-5.jpg",
+					"at": 4.4,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch follows medium Stribog."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-corner-medium-rush-two-forward-heavies/frame-6.jpg",
+					"at": 5.0,
+					"label": "Heavy spike",
+					"alt": "Heavy Triglav finishes the damage sequence."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/jp/jp-depth-corner-medium-rush-two-forward-heavies/frame-7.jpg",
+					"at": 5.4,
+					"label": "OD Departure",
+					"alt": "OD Departure establishes the two-portal corner state."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-medium-od-stribog-heavy-departure",
+			"jp-depth-medium-od-stribog-heavy-od-departure",
+			"jp-depth-heavy-departure-spike-rush-forward-heavy"
+		]
+	},
+	{
+		"id": "jp-depth-counterhit-crouching-medium-standing-medium",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Counter-hit crouching medium: standing-medium link",
+		"summary": "On the recorded crouching-medium counter hit, link standing medium kick into medium Stribog and place a portal.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Medium confirm"],
+		"outcomes": ["Knockdown", "Active portal"],
+		"notation": "2MP > st.MK > 236MP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.MK",
+				"label": "st.MK"
+			},
+			{
+				"id": "step-3",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Crouching medium punch scores counter hit; the ordinary-hit link is not established"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 569.15,
+			"end": 573.25
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-counterhit-crouching-medium-standing-medium/clip.mp4",
+			"poster": "/media/jp/jp-depth-counterhit-crouching-medium-standing-medium/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-counterhit-crouching-medium-standing-medium/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-counterhit-crouching-medium-standing-medium/frame-1.jpg",
+					"at": 0.35,
+					"label": "Medium counter hit",
+					"alt": "Crouching medium punch scores counter hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-counterhit-crouching-medium-standing-medium/frame-2.jpg",
+					"at": 0.85,
+					"label": "Standing medium link",
+					"alt": "Standing medium kick links after the counter hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-counterhit-crouching-medium-standing-medium/frame-3.jpg",
+					"at": 1.55,
+					"label": "Medium Stribog",
+					"alt": "Medium Stribog finishes the link."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-counterhit-crouching-medium-standing-medium/frame-4.jpg",
+					"at": 2.65,
+					"label": "Heavy Departure",
+					"alt": "Heavy Departure is placed after the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-rush-medium-counterhit-heavy-target",
+			"jp-ebios-medium-od-stribog-heavy-spike",
+			"jp-ebios-anti-air-forward-kick-medium-spike"
+		]
+	},
+	{
+		"id": "jp-depth-counterhit-low-standing-light-stribog",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Counter-hit low: standing-light link into Stribog",
+		"summary": "Confirm the recorded crouching-medium-kick counter hit with standing light kick and light Stribog, then place a portal.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Counter hit", "Low confirm", "Light confirm"],
+		"outcomes": ["Knockdown", "Active portal"],
+		"notation": "2MK > st.LK > 236LP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "2MK",
+				"label": "2MK"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.LK",
+				"label": "st.LK"
+			},
+			{
+				"id": "step-3",
+				"notation": "236LP",
+				"label": "236LP"
+			},
+			{
+				"id": "step-4",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"The crouching-medium-kick starter scores counter hit at the recorded distance"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 574.65,
+			"end": 578.5
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-counterhit-low-standing-light-stribog/clip.mp4",
+			"poster": "/media/jp/jp-depth-counterhit-low-standing-light-stribog/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-counterhit-low-standing-light-stribog/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-counterhit-low-standing-light-stribog/frame-1.jpg",
+					"at": 0.35,
+					"label": "Low counter hit",
+					"alt": "Crouching medium kick scores counter hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-counterhit-low-standing-light-stribog/frame-2.jpg",
+					"at": 0.85,
+					"label": "Standing light link",
+					"alt": "Standing light kick links after the counter hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-counterhit-low-standing-light-stribog/frame-3.jpg",
+					"at": 1.45,
+					"label": "Light Stribog",
+					"alt": "Light Stribog completes the light-strength conversion."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-counterhit-low-standing-light-stribog/frame-4.jpg",
+					"at": 2.45,
+					"label": "Heavy Departure",
+					"alt": "Heavy Departure is placed above the knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-lights-light-stribog",
+			"jp-ebios-lights-rush-back-medium-target",
+			"jp-ebios-rush-low-medium-stribog"
+		]
+	},
+	{
+		"id": "jp-depth-punish-heavy-rush-heavy-projectile-spike",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Punish-counter heavy: raw Rush heavy into ranged finish",
+		"summary": "Use the heavy-punch punish-counter collapse to raw Rush into standing heavy, then heavy Stribog, medium Torbalan, heavy spike and a portal.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Punish", "Punish counter", "Drive Rush", "Corner carry"],
+		"outcomes": ["Corner carry", "Knockdown", "Active portal"],
+		"notation": "st.HP > DR > st.HP > 236HP > 236MK > 22HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-3",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-5",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-6",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Standing heavy punch scores the demonstrated punish counter; the source does not show the punished move in this take"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction."
+		],
+		"resources": {
+			"drive": "1 Drive bar (raw Drive Rush)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 664.8,
+			"end": 671.1
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-punish-heavy-rush-heavy-projectile-spike/clip.mp4",
+			"poster": "/media/jp/jp-depth-punish-heavy-rush-heavy-projectile-spike/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-punish-heavy-rush-heavy-projectile-spike/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-punish-heavy-rush-heavy-projectile-spike/frame-1.jpg",
+					"at": 0.45,
+					"label": "Heavy punish counter",
+					"alt": "Standing heavy punch scores punish counter."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-punish-heavy-rush-heavy-projectile-spike/frame-2.jpg",
+					"at": 1.7,
+					"label": "Rush heavy link",
+					"alt": "Raw Drive Rush reaches standing heavy punch."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-punish-heavy-rush-heavy-projectile-spike/frame-3.jpg",
+					"at": 2.6,
+					"label": "Heavy Stribog",
+					"alt": "Heavy Stribog launches Ryu away."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-punish-heavy-rush-heavy-projectile-spike/frame-4.jpg",
+					"at": 3.95,
+					"label": "Medium Torbalan",
+					"alt": "Medium Torbalan catches the ranged juggle."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-punish-heavy-rush-heavy-projectile-spike/frame-5.jpg",
+					"at": 4.6,
+					"label": "Heavy Triglav",
+					"alt": "Heavy Triglav extends the knockdown route."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-punish-heavy-rush-heavy-projectile-spike/frame-6.jpg",
+					"at": 5.45,
+					"label": "Heavy Departure",
+					"alt": "Heavy Departure is placed afterward."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-medium-rush-heavy-projectile-spike-portal",
+			"jp-depth-medium-rush-od-spikes-heavy-spike",
+			"jp-depth-medium-rush-dash-rush-light-spike"
+		]
+	},
+	{
+		"id": "jp-depth-guard-od-uppercut-portal-side-switch",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Guard OD uppercut: portal side-switch punish",
+		"summary": "Block Ryu’s actual OD uppercut, punish with standing heavy and use the light/far OD-portal pair to route into the opposite corner.",
+		"kind": "response",
+		"situations": [
+			"Corner",
+			"Punish",
+			"Punish counter",
+			"Reversal punish",
+			"Side switch",
+			"Portal setup"
+		],
+		"outcomes": ["Side switch", "Corner knockdown", "OD portals"],
+		"notation": "Guard > st.HP > 214LP+HP > st.MK > 214HP > Dash > 6HK > 236MP > st.HP > 22HP > 214MP+HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-2",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-3",
+				"notation": "214LP+HP",
+				"label": "214LP+HP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "st.MK"
+			},
+			{
+				"id": "step-5",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "Dash",
+				"label": "Dash"
+			},
+			{
+				"id": "step-7",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-11",
+				"notation": "214MP+HP",
+				"label": "214MP+HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu performs the recorded OD uppercut; JP starts backed toward the left corner",
+			"OD portal placements are explicit: LP+HP at the first placement, MP+HP at the end"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"Portal hits are automatic. The repeated 214HP is the actual performed command, not an extra manual hit for each portal impact."
+		],
+		"resources": {
+			"drive": "4 Drive bars (two OD Departure placements)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 725.05,
+			"end": 733.35
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-guard-od-uppercut-portal-side-switch/clip.mp4",
+			"poster": "/media/jp/jp-depth-guard-od-uppercut-portal-side-switch/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-guard-od-uppercut-portal-side-switch/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-guard-od-uppercut-portal-side-switch/frame-1.jpg",
+					"at": 0.45,
+					"label": "Guard OD uppercut",
+					"alt": "JP guards the recorded gold OD uppercut."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-guard-od-uppercut-portal-side-switch/frame-2.jpg",
+					"at": 1.7,
+					"label": "Heavy punish",
+					"alt": "Standing heavy punch scores punish counter on the landing recovery."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-guard-od-uppercut-portal-side-switch/frame-3.jpg",
+					"at": 2.2,
+					"label": "OD Departure pair",
+					"alt": "Light-plus-heavy-punch OD Departure places the recorded portals."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-guard-od-uppercut-portal-side-switch/frame-4.jpg",
+					"at": 2.7,
+					"label": "Medium kick link",
+					"alt": "Standing medium kick connects before the next portal input."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-guard-od-uppercut-portal-side-switch/frame-5.jpg",
+					"at": 3.25,
+					"label": "Heavy portal input",
+					"alt": "The performed heavy portal input continues while the OD portals supply attacks."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-guard-od-uppercut-portal-side-switch/frame-6.jpg",
+					"at": 4.95,
+					"label": "Side-switch forward heavy",
+					"alt": "After dashing under Ryu, forward heavy kick connects facing left."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/jp/jp-depth-guard-od-uppercut-portal-side-switch/frame-7.jpg",
+					"at": 6.2,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches medium Stribog’s juggle."
+				},
+				{
+					"id": "frame-8",
+					"src": "/media/jp/jp-depth-guard-od-uppercut-portal-side-switch/frame-8.jpg",
+					"at": 6.7,
+					"label": "Heavy spike",
+					"alt": "Heavy Triglav continues the conversion."
+				},
+				{
+					"id": "frame-9",
+					"src": "/media/jp/jp-depth-guard-od-uppercut-portal-side-switch/frame-9.jpg",
+					"at": 7.45,
+					"label": "OD portal ender",
+					"alt": "Medium-plus-heavy-punch OD Departure establishes the final portal state."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-jab-kill-guard-reversal",
+			"jp-depth-guard-ryu-level-one-rush-forward-heavy",
+			"jp-depth-heavy-departure-held-light-throw-reversal"
+		]
+	},
+	{
+		"id": "jp-depth-guard-ryu-level-one-rush-forward-heavy",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Guard Ryu Level 1: Rush forward-heavy punish",
+		"summary": "Guard the recorded Level 1 fireball at close range, raw Rush into forward-heavy punish counter, then extend through OD Torbalan, heavy spike and heavy Departure.",
+		"kind": "response",
+		"situations": [
+			"Corner",
+			"Punish",
+			"Punish counter",
+			"Super punish",
+			"Drive Rush",
+			"Portal setup"
+		],
+		"outcomes": ["Corner knockdown", "Active portal"],
+		"notation": "Guard > DR > 6HK > 236MP > 6HK > 236MP > st.HP > 236MK+HK > 22HP > 214HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "Guard",
+				"label": "Guard"
+			},
+			{
+				"id": "step-2",
+				"notation": "DR",
+				"label": "DR"
+			},
+			{
+				"id": "step-3",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-4",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-5",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-6",
+				"notation": "236MP",
+				"label": "236MP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "236MK+HK",
+				"label": "236MK+HK"
+			},
+			{
+				"id": "step-9",
+				"notation": "22HP",
+				"label": "22HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "214HP",
+				"label": "214HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu uses the recorded Level 1 at this close corner spacing; do not assume the same punish from full screen"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"The loop starts at Super activation and omits the preceding whiffed jab.",
+			"The caption leaves the final ender as “any”. Live kick glyphs establish OD Torbalan after standing heavy; the final portal uses a single heavy-punch input, not OD Departure."
+		],
+		"resources": {
+			"drive": "3 Drive bars (raw Drive Rush + OD Torbalan)",
+			"super": "No Super spend"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 807.65,
+			"end": 816.45
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/clip.mp4",
+			"poster": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/frame-1.jpg",
+					"at": 1.25,
+					"label": "Guard Level 1",
+					"alt": "JP guards Ryu’s recorded close-range Level 1 fireball."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/frame-2.jpg",
+					"at": 2.15,
+					"label": "Raw Rush approach",
+					"alt": "JP uses raw Drive Rush after the final guarded hit."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/frame-3.jpg",
+					"at": 2.65,
+					"label": "Forward-heavy punish",
+					"alt": "Forward heavy kick scores punish counter against Super recovery."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/frame-4.jpg",
+					"at": 3.6,
+					"label": "First medium Stribog",
+					"alt": "Medium Stribog continues the conversion."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/frame-5.jpg",
+					"at": 4.35,
+					"label": "Second forward heavy",
+					"alt": "A second forward heavy kick catches the juggle."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/frame-6.jpg",
+					"at": 5.35,
+					"label": "Second medium Stribog",
+					"alt": "Another medium Stribog extends at the corner."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/frame-7.jpg",
+					"at": 5.65,
+					"label": "Heavy pickup",
+					"alt": "Standing heavy punch catches Ryu after the second Stribog."
+				},
+				{
+					"id": "frame-8",
+					"src": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/frame-8.jpg",
+					"at": 5.95,
+					"label": "OD Torbalan",
+					"alt": "The live medium-plus-heavy-kick quarter-circle input performs OD Torbalan."
+				},
+				{
+					"id": "frame-9",
+					"src": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/frame-9.jpg",
+					"at": 6.95,
+					"label": "Heavy spike",
+					"alt": "Heavy Triglav finishes the damage route."
+				},
+				{
+					"id": "frame-10",
+					"src": "/media/jp/jp-depth-guard-ryu-level-one-rush-forward-heavy/frame-10.jpg",
+					"at": 8.0,
+					"label": "Heavy Departure",
+					"alt": "Normal heavy Departure is placed above the final knockdown."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-jab-kill-guard-reversal",
+			"jp-depth-guard-od-uppercut-portal-side-switch",
+			"jp-depth-heavy-departure-held-light-throw-reversal"
+		]
+	},
+	{
+		"id": "jp-depth-counter-impact-level-two-drive-drain",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Counter Impact: Level 2 into second Impact and Level 1",
+		"summary": "Armor Ryu’s actual Drive Impact with a later Impact, then use Level 2, heavy normals and a second Impact before Level 1.",
+		"kind": "response",
+		"situations": ["Midscreen", "Drive Impact", "Punish counter", "Level 2", "Drive depletion"],
+		"outcomes": ["Knockdown", "Opponent Drive loss"],
+		"notation": "DI > SA2 (HP) > 2MP > st.HK > 2HP > 214HP > st.HP > DI > SA1 (LP)",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "DI",
+				"label": "DI"
+			},
+			{
+				"id": "step-2",
+				"notation": "SA2 (HP)",
+				"label": "SA2 (HP)"
+			},
+			{
+				"id": "step-3",
+				"notation": "2MP",
+				"label": "2MP"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-5",
+				"notation": "2HP",
+				"label": "2HP"
+			},
+			{
+				"id": "step-6",
+				"notation": "214HP",
+				"label": "214HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-8",
+				"notation": "DI",
+				"label": "DI"
+			},
+			{
+				"id": "step-9",
+				"notation": "SA1 (LP)",
+				"label": "SA1 (LP)"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu performs the actual Impact; JP absorbs one hit and loses health before the later Impact connects",
+			"Requires the recorded Level 2 timing and automatic attack order"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"The source labels this Drive draining. Opponent Drive loss is visible; no exact drain amount or universal Burnout threshold is prescribed.",
+			"The automatic Super/portal impacts are not extra button presses."
+		],
+		"resources": {
+			"drive": "2 Drive bars (two Drive Impacts)",
+			"super": "Level 2 + Level 1 (3 stocks total)"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 1145.35,
+			"end": 1158.55
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/clip.mp4",
+			"poster": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/frame-1.jpg",
+					"at": 1.15,
+					"label": "Armor Impact",
+					"alt": "JP’s Drive Impact absorbs the recorded incoming Impact hit."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/frame-2.jpg",
+					"at": 2.65,
+					"label": "Impact punish counter",
+					"alt": "The later Impact scores punish counter."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/frame-3.jpg",
+					"at": 3.95,
+					"label": "Level 2",
+					"alt": "The performed heavy-punch Level 2 activates."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/frame-4.jpg",
+					"at": 6.15,
+					"label": "Crouching medium",
+					"alt": "Crouching medium punch connects among the automatic Super hits."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/frame-5.jpg",
+					"at": 6.75,
+					"label": "Standing heavy kick",
+					"alt": "Standing heavy kick extends the sequence."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/frame-6.jpg",
+					"at": 7.55,
+					"label": "Crouching heavy",
+					"alt": "Crouching heavy punch launches after the kick."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/frame-7.jpg",
+					"at": 7.95,
+					"label": "Heavy Departure",
+					"alt": "Heavy Departure is placed during the Super sequence."
+				},
+				{
+					"id": "frame-8",
+					"src": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/frame-8.jpg",
+					"at": 8.65,
+					"label": "Standing heavy",
+					"alt": "Standing heavy punch precedes the second Impact."
+				},
+				{
+					"id": "frame-9",
+					"src": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/frame-9.jpg",
+					"at": 9.65,
+					"label": "Second Impact",
+					"alt": "A second Drive Impact connects during the juggle."
+				},
+				{
+					"id": "frame-10",
+					"src": "/media/jp/jp-depth-counter-impact-level-two-drive-drain/frame-10.jpg",
+					"at": 11.35,
+					"label": "Level 1 finish",
+					"alt": "The performed light-punch Level 1 finishes at range."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-counter-di-walk-heavy-projectile-spike",
+			"jp-ebios-drive-reversal-jab-medium-kick",
+			"jp-ebios-low-punish-medium-stribog"
+		]
+	},
+	{
+		"id": "jp-depth-heavy-target-level-two-long-carry",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Heavy target Level 2: light portal and long carry",
+		"summary": "Use Level 2’s automatic hits to walk the heavy-target conversion through three dashes, light Departure and two medium projectiles.",
+		"kind": "combo",
+		"situations": ["Midscreen", "Target combo", "Level 2", "Corner carry"],
+		"outcomes": ["Corner carry", "Knockdown"],
+		"notation": "st.HK > ~HP > SA2 (HP) > st.MK > Dash > 2HP > 214LP > Dash > st.HP > 236MK > Dash > 6HK > 236HP > 236MK > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "~HP",
+				"label": "~HP"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA2 (HP)",
+				"label": "SA2 (HP)"
+			},
+			{
+				"id": "step-4",
+				"notation": "st.MK",
+				"label": "st.MK"
+			},
+			{
+				"id": "step-5",
+				"notation": "Dash",
+				"label": "Dash"
+			},
+			{
+				"id": "step-6",
+				"notation": "2HP",
+				"label": "2HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "214LP",
+				"label": "214LP"
+			},
+			{
+				"id": "step-8",
+				"notation": "Dash",
+				"label": "Dash"
+			},
+			{
+				"id": "step-9",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-10",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-11",
+				"notation": "Dash",
+				"label": "Dash"
+			},
+			{
+				"id": "step-12",
+				"notation": "6HK",
+				"label": "6HK"
+			},
+			{
+				"id": "step-13",
+				"notation": "236HP",
+				"label": "236HP"
+			},
+			{
+				"id": "step-14",
+				"notation": "236MK",
+				"label": "236MK"
+			},
+			{
+				"id": "step-15",
+				"notation": "22HP",
+				"label": "22HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Match the recorded Level 2 attack order and travel; the long route depends on its automatic hits"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"Printed +F values describe remaining frame advantage in the recording, not a wait instruction.",
+			"No Drive Rush is used; the three approaches are ordinary dashes."
+		],
+		"resources": {
+			"drive": "No Drive spend",
+			"super": "Level 2 (2 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 1206.1,
+			"end": 1218.2
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-heavy-target-level-two-long-carry/clip.mp4",
+			"poster": "/media/jp/jp-depth-heavy-target-level-two-long-carry/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-heavy-target-level-two-long-carry/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-heavy-target-level-two-long-carry/frame-1.jpg",
+					"at": 0.4,
+					"label": "Heavy-kick target",
+					"alt": "Standing heavy kick and its heavy-punch continuation start the route."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-heavy-target-level-two-long-carry/frame-2.jpg",
+					"at": 1.5,
+					"label": "Level 2",
+					"alt": "The live heavy-punch Level 2 activates."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-heavy-target-level-two-long-carry/frame-3.jpg",
+					"at": 3.7,
+					"label": "Standing medium",
+					"alt": "Standing medium kick connects before the first dash."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-heavy-target-level-two-long-carry/frame-4.jpg",
+					"at": 5.0,
+					"label": "Dash crouching heavy",
+					"alt": "Crouching heavy punch launches after the first dash."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-heavy-target-level-two-long-carry/frame-5.jpg",
+					"at": 5.65,
+					"label": "Light Departure",
+					"alt": "Light Departure is placed during the automatic Super hits."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-heavy-target-level-two-long-carry/frame-6.jpg",
+					"at": 6.4,
+					"label": "Second dash heavy",
+					"alt": "Standing heavy punch connects after the second dash."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/jp/jp-depth-heavy-target-level-two-long-carry/frame-7.jpg",
+					"at": 6.9,
+					"label": "First medium Torbalan",
+					"alt": "Medium Torbalan continues the carry."
+				},
+				{
+					"id": "frame-8",
+					"src": "/media/jp/jp-depth-heavy-target-level-two-long-carry/frame-8.jpg",
+					"at": 7.9,
+					"label": "Third dash forward heavy",
+					"alt": "Forward heavy kick connects after another dash."
+				},
+				{
+					"id": "frame-9",
+					"src": "/media/jp/jp-depth-heavy-target-level-two-long-carry/frame-9.jpg",
+					"at": 8.9,
+					"label": "Heavy Stribog",
+					"alt": "Heavy Stribog launches Ryu down the stage."
+				},
+				{
+					"id": "frame-10",
+					"src": "/media/jp/jp-depth-heavy-target-level-two-long-carry/frame-10.jpg",
+					"at": 10.2,
+					"label": "Second medium Torbalan",
+					"alt": "A second medium Torbalan catches the distant juggle."
+				},
+				{
+					"id": "frame-11",
+					"src": "/media/jp/jp-depth-heavy-target-level-two-long-carry/frame-11.jpg",
+					"at": 11.05,
+					"label": "Heavy spike finish",
+					"alt": "Heavy Triglav catches Ryu near the far wall."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-ebios-lights-rush-back-medium-target",
+			"jp-ebios-heavy-kick-target-stribog",
+			"jp-ebios-heavy-target-rush-launch-spike"
+		]
+	},
+	{
+		"id": "jp-depth-blocked-heavy-target-level-two-walk-throw",
+		"revision": 1,
+		"gameId": "sf6",
+		"participants": [
+			{
+				"id": "main",
+				"characterId": "jp"
+			}
+		],
+		"title": "Guarded heavy target Level 2: walk throw conversion",
+		"summary": "After Ryu guards the heavy target and Level 2, walk up to throw, then delay standing heavy into OD Torbalan and heavy spike.",
+		"kind": "setup",
+		"situations": ["Midscreen", "Block pressure", "Level 2", "Throw"],
+		"outcomes": ["Knockdown"],
+		"notation": "st.HK > ~HP > SA2 (HP) > Walk forward > LP+LK > st.HP > 236MK+HK > 22HP",
+		"inputs": [
+			{
+				"id": "step-1",
+				"notation": "st.HK",
+				"label": "st.HK"
+			},
+			{
+				"id": "step-2",
+				"notation": "~HP",
+				"label": "~HP"
+			},
+			{
+				"id": "step-3",
+				"notation": "SA2 (HP)",
+				"label": "SA2 (HP)"
+			},
+			{
+				"id": "step-4",
+				"notation": "Walk forward",
+				"label": "Walk forward"
+			},
+			{
+				"id": "step-5",
+				"notation": "LP+LK",
+				"label": "LP+LK"
+			},
+			{
+				"id": "step-6",
+				"notation": "st.HP",
+				"label": "st.HP"
+			},
+			{
+				"id": "step-7",
+				"notation": "236MK+HK",
+				"label": "236MK+HK"
+			},
+			{
+				"id": "step-8",
+				"notation": "22HP",
+				"label": "22HP"
+			}
+		],
+		"conditions": [
+			"Classic controls",
+			"Ryu guards the target and initial Super pressure, then takes the recorded walk throw; this is a pressure branch, not a guaranteed continuous blockstring"
+		],
+		"notes": [
+			"Dated source demonstration; current-patch execution has not been tested in-game.",
+			"No numeric delay or throw timing is invented. Super impacts happen automatically; the late standing-heavy pickup depends on that recorded attack order."
+		],
+		"resources": {
+			"drive": "2 Drive bars (OD Torbalan)",
+			"super": "Level 2 (2 stocks)"
+		},
+		"source": {
+			"id": "joe-ebios-jp-classic-2026",
+			"title": "Classic JP Combos & Setup Guide season3【STREET FIGHTER 6】",
+			"creator": "Joe Ebios",
+			"url": "https://www.youtube.com/watch?v=-p9-EUoISPc",
+			"published": "2026-03-07",
+			"start": 1316.15,
+			"end": 1325.4
+		},
+		"verification": {
+			"status": "source-reviewed",
+			"gameVersion": null,
+			"note": "Source action order, input history, selected moments and clip boundaries reviewed against the dated recording. Current-patch execution has not been tested in-game."
+		},
+		"media": {
+			"clip": "/media/jp/jp-depth-blocked-heavy-target-level-two-walk-throw/clip.mp4",
+			"poster": "/media/jp/jp-depth-blocked-heavy-target-level-two-walk-throw/frame-1.jpg",
+			"descriptionTrack": "/media/jp/jp-depth-blocked-heavy-target-level-two-walk-throw/clip.vtt",
+			"frames": [
+				{
+					"id": "frame-1",
+					"src": "/media/jp/jp-depth-blocked-heavy-target-level-two-walk-throw/frame-1.jpg",
+					"at": 0.35,
+					"label": "Guarded heavy kick",
+					"alt": "Ryu guards standing heavy kick."
+				},
+				{
+					"id": "frame-2",
+					"src": "/media/jp/jp-depth-blocked-heavy-target-level-two-walk-throw/frame-2.jpg",
+					"at": 0.85,
+					"label": "Guarded target",
+					"alt": "The heavy-punch target continuation is also guarded."
+				},
+				{
+					"id": "frame-3",
+					"src": "/media/jp/jp-depth-blocked-heavy-target-level-two-walk-throw/frame-3.jpg",
+					"at": 1.45,
+					"label": "Level 2",
+					"alt": "JP activates the recorded heavy-punch Level 2 after the guarded target."
+				},
+				{
+					"id": "frame-4",
+					"src": "/media/jp/jp-depth-blocked-heavy-target-level-two-walk-throw/frame-4.jpg",
+					"at": 3.65,
+					"label": "Walk-in throw",
+					"alt": "JP walks forward to throw during the guarded Super pressure."
+				},
+				{
+					"id": "frame-5",
+					"src": "/media/jp/jp-depth-blocked-heavy-target-level-two-walk-throw/frame-5.jpg",
+					"at": 4.85,
+					"label": "Automatic follow-up",
+					"alt": "The Super supplies automatic hits during the throw sequence."
+				},
+				{
+					"id": "frame-6",
+					"src": "/media/jp/jp-depth-blocked-heavy-target-level-two-walk-throw/frame-6.jpg",
+					"at": 6.35,
+					"label": "Delayed heavy pickup",
+					"alt": "Delayed standing heavy punch catches the automatic juggle."
+				},
+				{
+					"id": "frame-7",
+					"src": "/media/jp/jp-depth-blocked-heavy-target-level-two-walk-throw/frame-7.jpg",
+					"at": 6.85,
+					"label": "OD Torbalan",
+					"alt": "Medium-plus-heavy-kick OD Torbalan continues the conversion."
+				},
+				{
+					"id": "frame-8",
+					"src": "/media/jp/jp-depth-blocked-heavy-target-level-two-walk-throw/frame-8.jpg",
+					"at": 7.85,
+					"label": "Heavy Triglav",
+					"alt": "Heavy Triglav finishes the route."
+				}
+			]
+		},
+		"relatedIds": [
+			"jp-depth-heavy-departure-blocked-heavy-throw",
+			"jp-depth-medium-od-spikes-level-two-double-stribog",
+			"jp-depth-counter-impact-level-two-drive-drain"
 		]
 	}
 ]
