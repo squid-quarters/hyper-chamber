@@ -24,6 +24,21 @@
 		type LibraryPatches,
 	} from '#lib/personal';
 	import BrandMark from '#lib/components/BrandMark.svelte';
+	import CharacterPicker from '#lib/components/CharacterPicker.svelte';
+	import CharacterPortrait from '#lib/components/CharacterPortrait.svelte';
+	import NotationKey from '#lib/components/NotationKey.svelte';
+	import {
+		ArrowLeft,
+		ArrowRight,
+		ArrowUpRight,
+		BookOpen,
+		Bookmark,
+		Search,
+		Star,
+		X,
+		Download,
+		Upload,
+	} from '@lucide/svelte';
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	import InputSequence from '#lib/components/InputSequence.svelte';
 	import {
@@ -36,6 +51,9 @@
 	let characterId = $state(collections[0].id);
 	let collection = $derived(collections.find((item) => item.id === characterId) ?? collections[0]);
 	let references = $derived(collection.references);
+	let characterOptions = $derived(
+		collections.map((item) => ({ id: item.id, name: item.name, count: item.references.length })),
+	);
 	let game = $derived(collection.game);
 	let subjectName = $derived(collection.name);
 	let query = $state('');
@@ -357,7 +375,8 @@
 		if (revision === viewRevision) document.getElementById('type-combo')?.focus();
 	}
 	async function openSwitcher() {
-		if (!ready || document.querySelector('dialog[open]')) return;
+		if (!ready || document.querySelector('dialog[open], [data-character-picker-open="true"]'))
+			return;
 		switchOrigin =
 			document.activeElement instanceof Element
 				? (document.activeElement.closest<HTMLAnchorElement>('.reference-card')?.dataset.entryId ??
@@ -398,7 +417,7 @@
 	function shortcuts(event: KeyboardEvent) {
 		if (event.defaultPrevented || event.repeat) return;
 		if ((event.ctrlKey || event.metaKey) && !event.altKey && event.key.toLowerCase() === 'k') {
-			if (document.querySelector('dialog[open]')) return;
+			if (document.querySelector('dialog[open], [data-character-picker-open="true"]')) return;
 			event.preventDefault();
 			void openSwitcher();
 			return;
@@ -406,7 +425,7 @@
 		if (
 			event.key !== 'Escape' ||
 			!practising ||
-			document.querySelector('dialog[open]') ||
+			document.querySelector('dialog[open], [data-character-picker-open="true"]') ||
 			document.fullscreenElement
 		)
 			return;
@@ -547,30 +566,28 @@
 			href={characterId === 'dhalsim' ? '/' : `/?character=${characterId}`}
 			aria-label="Hyper Chamber home"><BrandMark /><span>HYPER<br />CHAMBER</span></a
 		>
-		<div class="masthead-description">
-			A fighting game reference.<br /><span>Less searching. More playing.</span>
-		</div>
-		<label class="character-picker" for="character-picker">
-			<span>Character</span>
-			<select
-				id="character-picker"
-				value={characterId}
-				disabled={!ready}
-				onchange={(event) => changeCharacter(event.currentTarget.value)}
-			>
-				{#each collections as item}<option value={item.id}>{item.name}</option>{/each}
-			</select>
-		</label>
+		<CharacterPicker
+			characters={characterOptions}
+			gameName={game.name}
+			selected={characterId}
+			disabled={!ready}
+			onchange={changeCharacter}
+			onopen={() => document.querySelector<HTMLVideoElement>('.practice-view video')?.pause()}
+		/>
 		<nav class="header-actions" aria-label="Utilities">
-			<button onclick={() => help.showModal()}>Notation <span aria-hidden="true">?</span></button>
+			<button onclick={() => help.showModal()}
+				><BookOpen size={16} aria-hidden="true" />Notation</button
+			>
 			<button onclick={() => backup.showModal()}
-				>Your library <span aria-hidden="true">↗</span></button
+				><Bookmark size={16} aria-hidden="true" />Backups</button
 			>
 			{#each game.guides as guide}<a
 					class="guide-link"
 					href={guide.url}
+					title={guide.label}
+					aria-label={guide.label}
 					target="_blank"
-					rel="noreferrer">{guide.label} ↗</a
+					rel="noreferrer">Guides<ArrowUpRight size={15} aria-hidden="true" /></a
 				>{/each}
 		</nav>
 	</header>
@@ -586,22 +603,23 @@
 		{#if !practising}
 			<section class="library-view" aria-labelledby="library-title">
 				<header class="library-heading">
+					<CharacterPortrait {characterId} size={64} class="library-portrait" />
 					<div>
-						<span class="eyebrow">{game.name.toUpperCase()} / CHARACTER LIBRARY</span>
-						<h1 id="library-title" tabindex="-1">{subjectName}<span class="title-dot">.</span></h1>
-						<p class="library-intro">Find your next route. Take it into practice.</p>
+						<h1 id="library-title" tabindex="-1">{subjectName}</h1>
+						<p class="library-meta">
+							{game.name}<span aria-hidden="true"> · </span>{references.length} references
+						</p>
 					</div>
-					<p class="library-total"><strong>{references.length}</strong><span>references</span></p>
 				</header>
 				<search class="library-filters" aria-label="Reference library">
 					<div class="library-search-row">
 						<div class="library-search-field">
-							<label class="filter-label" for="library-search">Search references</label>
+							<label class="sr-only" for="library-search">Search references</label>
 							<div class="search">
-								<span aria-hidden="true">⌕</span><input
+								<Search size={18} aria-hidden="true" /><input
 									id="library-search"
 									type="search"
-									placeholder="An input, move or situation…"
+									placeholder="Search moves, inputs or situations"
 									bind:value={query}
 									oninput={(event) => {
 										query = event.currentTarget.value;
@@ -660,67 +678,69 @@
 							</div>
 						</fieldset>
 					</div>
-					<p class="goal-note">
-						Goals follow the reference’s situation and outcome tags.{#if goal === 'punishes' && kind !== 'combo'}
-							<button onclick={showPunishCombos}>Show punish combos →</button>{/if}
-					</p>
-					<details class="library-refinements" bind:open={refinementsOpen}>
-						<summary
-							>Situation, outcome &amp; status <span
-								>{refinementCount ? `${refinementCount} active` : 'More filters'}</span
-							></summary
-						>
-						<div class="filters">
-							<label for="situation-filter"
-								>Starting situation<select
-									id="situation-filter"
-									bind:value={situation}
-									onchange={(event) => {
-										situation = event.currentTarget.value;
-										void updateUrl();
-									}}
-									><option value="all">Any situation</option>{#each situations as value}<option
-											{value}>{value}</option
-										>{/each}</select
-								></label
+					{#if goal === 'punishes' && kind !== 'combo'}<p class="goal-note">
+							<button onclick={showPunishCombos}>Show punish combos</button>
+						</p>{/if}
+					<div class="filter-bottom">
+						<details class="library-refinements" bind:open={refinementsOpen}>
+							<summary
+								>Situation, outcome &amp; status <span
+									>{refinementCount ? `${refinementCount} active` : 'More filters'}</span
+								></summary
 							>
-							<label for="outcome-filter"
-								>Outcome<select
-									id="outcome-filter"
-									bind:value={outcome}
-									onchange={(event) => {
-										outcome = event.currentTarget.value;
-										void updateUrl();
-									}}
-									><option value="all">Any outcome</option>{#each outcomes as value}<option {value}
-											>{value}</option
-										>{/each}</select
-								></label
-							>
-							<label for="practice-filter"
-								>Practice status <span>(self-reported)</span><select
-									id="practice-filter"
-									bind:value={practice}
-									onchange={(event) => {
-										practice = event.currentTarget.value;
-										void updateUrl();
-									}}
-									><option value="all">All statuses</option><option value="untried">Untried</option
-									><option value="practising">Practising</option><option value="reliable"
-										>Reliable</option
-									></select
-								></label
-							>
+							<div class="filters">
+								<label for="situation-filter"
+									>Starting situation<select
+										id="situation-filter"
+										bind:value={situation}
+										onchange={(event) => {
+											situation = event.currentTarget.value;
+											void updateUrl();
+										}}
+										><option value="all">Any situation</option>{#each situations as value}<option
+												{value}>{value}</option
+											>{/each}</select
+									></label
+								>
+								<label for="outcome-filter"
+									>Outcome<select
+										id="outcome-filter"
+										bind:value={outcome}
+										onchange={(event) => {
+											outcome = event.currentTarget.value;
+											void updateUrl();
+										}}
+										><option value="all">Any outcome</option>{#each outcomes as value}<option
+												{value}>{value}</option
+											>{/each}</select
+									></label
+								>
+								<label for="practice-filter"
+									>Practice status <span>(self-reported)</span><select
+										id="practice-filter"
+										bind:value={practice}
+										onchange={(event) => {
+											practice = event.currentTarget.value;
+											void updateUrl();
+										}}
+										><option value="all">All statuses</option><option value="untried"
+											>Untried</option
+										><option value="practising">Practising</option><option value="reliable"
+											>Reliable</option
+										></select
+									></label
+								>
+							</div>
+						</details>
+						<div class="results-meta">
+							<p class="result-count">
+								<strong>{results.length}</strong>
+								{results.length === 1 ? 'reference' : 'references'}
+							</p>
+							{#if activeFilters.length}<button class="reset-filters" onclick={reset}
+									>Reset all filters</button
+								>{/if}
 						</div>
-					</details>
-					<div class="results-meta">
-						<p class="result-count">
-							<strong>{results.length}</strong>
-							{results.length === 1 ? 'reference' : 'references'}
-						</p>
-						{#if activeFilters.length}<button class="reset-filters" onclick={reset}
-								>Reset all filters</button
-							>{/if}
 					</div>
 					{#if activeFilters.length}<ul
 							class="active-filters"
@@ -732,7 +752,7 @@
 										class="active-filter"
 										onclick={() => removeFilter(filter.key)}
 										aria-label={`Remove ${filter.label}`}
-										><span>{filter.label}</span><span aria-hidden="true">×</span></button
+										><span>{filter.label}</span><X size={13} aria-hidden="true" /></button
 									>
 								</li>{/each}
 						</ul>{/if}
@@ -741,12 +761,12 @@
 				<noscript
 					><p class="notice">
 						Enable JavaScript to open a practice reference, or <a href={game.guides[0]?.url}
-							>read the Dhalsim guide ↗</a
+							>read the {subjectName} guide</a
 						>.
 					</p></noscript
 				>
 				<ul class="reference-list reference-grid" aria-label="Matching references">
-					{#each results as ref, index (ref.id)}<li>
+					{#each results as ref (ref.id)}<li>
 							<a
 								class="reference-card"
 								href={entryHref(ref.id)}
@@ -763,12 +783,26 @@
 									event.preventDefault();
 									void selectEntry(ref, true);
 								}}
-								><div class="card-top">
+							>
+								<div class="card-top">
 									<span class="kind-label">{ref.kind}</span><span
-										>{library[ref.id]?.saved ? '★ Saved' : String(index + 1).padStart(2, '0')}</span
+										>{#if library[ref.id]?.saved}<Star
+												size={13}
+												fill="currentColor"
+												aria-hidden="true"
+											/>Saved{/if}</span
 									>
 								</div>
 								<h2>{ref.title}</h2>
+								{#if ref.media.poster}<img
+										class="card-preview"
+										src={ref.media.poster}
+										alt=""
+										width="480"
+										height="270"
+										loading="lazy"
+										decoding="async"
+									/>{/if}
 								<dl class="card-facts">
 									<div>
 										<dt>Starts</dt>
@@ -788,13 +822,12 @@
 											: 'inputs'}{#if library[ref.id]?.status && library[ref.id].status !== 'untried'}<span
 												class="card-practice-status">Your status: {library[ref.id].status}</span
 											>{/if}</span
-									><span>Practice ↗</span>
+									><span>Open reference<ArrowUpRight size={15} aria-hidden="true" /></span>
 								</div></a
 							>
 						</li>{/each}
 				</ul>
 				{#if results.length === 0}<div class="empty">
-						<span class="eyebrow">{subjectName.toUpperCase()} LIBRARY</span>
 						<h2>
 							{savedOnly && savedIds.size === 0
 								? 'Nothing saved here yet.'
@@ -813,10 +846,14 @@
 							{#if goal !== 'all' && goalReferences.length > 0}<button
 									class="button primary-button"
 									onclick={() => clearFilters(true)}
-									>Show all {goalLabel.toLowerCase()} <span>{goalReferences.length} →</span></button
+									>Show all {goalLabel.toLowerCase()}
+									<span>{goalReferences.length}</span><ArrowRight
+										size={16}
+										aria-hidden="true"
+									/></button
 								><button class="text-button" onclick={reset}>Browse all references</button
 								>{:else}<button class="button primary-button" onclick={reset}
-									>Browse all references →</button
+									>Browse all references<ArrowRight size={16} aria-hidden="true" /></button
 								>{/if}
 						</div>
 					</div>{/if}
@@ -825,7 +862,7 @@
 			<article class="reference-detail practice-view" aria-label="Selected reference">
 				<nav class="practice-nav" aria-label="Practice navigation">
 					<button class="text-button back-library" onclick={returnToLibrary}
-						>← Back to library <kbd>Esc</kbd></button
+						><ArrowLeft size={16} aria-hidden="true" />Back to library <kbd>Esc</kbd></button
 					>
 					<button
 						class="button small quick-switch-trigger"
@@ -842,7 +879,7 @@
 								? 'Reference is outside these results'
 								: (previousReference?.title ?? 'First reference in these results')}
 						>
-							<span aria-hidden="true">←</span> Previous
+							<ArrowLeft size={18} aria-hidden="true" />Previous
 						</button>
 						<div class="practice-position">
 							<span>{practiceContext}</span>
@@ -861,7 +898,7 @@
 								? 'Reference is outside these results'
 								: (nextReference?.title ?? 'Last reference in these results')}
 						>
-							Next <span aria-hidden="true">→</span>
+							Next<ArrowRight size={18} aria-hidden="true" />
 						</button>
 					</div>
 					{#if selectedIndex < 0}<div class="practice-filter-recovery">
@@ -869,7 +906,10 @@
 							<div>
 								{#if results[0]}<button onclick={() => selectEntry(results[0])}
 										>Return to {results.length}
-										{results.length === 1 ? 'result' : 'results'} →</button
+										{results.length === 1 ? 'result' : 'results'}<ArrowRight
+											size={14}
+											aria-hidden="true"
+										/></button
 									>{/if}<button onclick={reset}>Use all references</button>
 							</div>
 						</div>{/if}
@@ -877,9 +917,10 @@
 				{#key selected.id}<ReferenceMedia reference={selected} layout="practice">
 						{#snippet beforeReplay()}
 							<header class="practice-heading">
-								<span class="eyebrow"
-									>{subjectName.toUpperCase()} / {selected.kind.toUpperCase()}</span
-								>
+								<p class="practice-breadcrumb">
+									{subjectName} <span aria-hidden="true">/</span>
+									{selected.kind}
+								</p>
 								<div class="detail-title-row">
 									<h1 id="reference" tabindex="-1">{selected.title}</h1>
 									<button
@@ -888,7 +929,11 @@
 										aria-pressed={personal.saved}
 										aria-label={personal.saved ? 'Unsave reference' : 'Save reference'}
 										onclick={() => updatePersonal({ saved: !personal?.saved })}
-										>{personal.saved ? '★' : '☆'}</button
+										><Star
+											size={21}
+											fill={personal.saved ? 'currentColor' : 'none'}
+											aria-hidden="true"
+										/></button
 									>
 								</div>
 							</header>
@@ -922,15 +967,14 @@
 							>{/each}{#each selected.outcomes as tag}<span class="outcome">{tag}</span>{/each}
 					</div>
 					<div class="condition-row">
-						<span class="eyebrow">SET THE SCENE</span>
+						<span class="section-label">Conditions</span>
 						<p>{selected.conditions.join(' · ')}</p>
 					</div>
 				</section>
 				<div class="detail-bottom">
 					<section class="reference-notes">
 						<div class="section-heading">
-							<h2>Keep in mind</h2>
-							<span aria-hidden="true">↳</span>
+							<h2>Execution notes</h2>
 						</div>
 						<ul>
 							{#each selected.notes as note}<li>{note}</li>{/each}
@@ -943,8 +987,8 @@
 					</section>
 					<section class="personal-panel">
 						<div class="section-heading">
-							<h2>Your quick notes</h2>
-							<span class="eyebrow">LOCAL ONLY</span>
+							<h2>Your notes</h2>
+							<span class="panel-meta">This browser</span>
 						</div>
 						{#if personal.revision !== selected.revision}<p class="revision-hint">
 								This reference has been updated since your saved notes. Recheck the source; your
@@ -960,7 +1004,7 @@
 							></label
 						><label class="sr-only" for="personal-note">Personal note</label><textarea
 							id="personal-note"
-							placeholder="A timing cue. A reminder. Make it yours."
+							placeholder="Add a timing cue or practice note"
 							value={personal.note}
 							oninput={(e) => updatePersonal({ note: e.currentTarget.value })}
 							maxlength="4000"
@@ -976,10 +1020,11 @@
 				</div>
 				<footer class="source-footer">
 					<div>
-						<span class="eyebrow">FROM THE SOURCE</span><a
+						<span class="section-label">Source</span><a
 							href={sourceLink(selected)}
 							target="_blank"
-							rel="noreferrer">{selected.source.title} ↗</a
+							rel="noreferrer"
+							>{selected.source.title}<ArrowUpRight size={14} aria-hidden="true" /></a
 						>
 						<p>
 							{selected.source.creator} · {time(selected.source.start)}–{time(selected.source.end)}
@@ -993,15 +1038,14 @@
 						>
 						<p>{selected.verification.note}</p>
 						<p>Game version: {selected.verification.gameVersion ?? 'not established'}.</p>
-						<p>Current-patch validity is not established.</p>
 					</div>
 				</footer>
 				{#if selected.relatedIds.length}<section class="related">
-						<h2>Also in the chamber</h2>
+						<h2>Related references</h2>
 						<div>
 							{#each references.filter( (ref) => selected?.relatedIds.includes(ref.id) ) as ref}<button
 									onclick={() => selectEntry(ref)}
-									>{ref.title}<span aria-hidden="true">↗</span></button
+									>{ref.title}<ArrowUpRight size={15} aria-hidden="true" /></button
 								>{/each}
 						</div>
 					</section>{/if}
@@ -1009,15 +1053,16 @@
 		{/if}
 	</main>
 	<footer class="site-footer">
-		<span>HYPER CHAMBER</span>
+		<span>Hyper Chamber</span>
 		<p>Independent reference. Game names and characters belong to their respective owners.</p>
-		<span>Keep it within reach.</span>
 	</footer>
 </div>
 <dialog class="quick-switch-dialog" bind:this={switcher} aria-labelledby="switch-title">
 	<div class="dialog-heading">
 		<h2 id="switch-title">Quick switch <span class="switch-character">{subjectName}</span></h2>
-		<button class="button small" onclick={() => switcher.close()}>Close ×</button>
+		<button class="button small" onclick={() => switcher.close()}
+			><X size={16} aria-hidden="true" />Close</button
+		>
 	</div>
 	<label class="switch-search"
 		>Find a reference<input
@@ -1072,47 +1117,25 @@
 			No matching references. Try another search or choose All references.
 		</p>{/if}
 </dialog>
-<dialog bind:this={help} aria-labelledby="notation-title">
-	<div class="dialog-heading">
-		<h2 id="notation-title">{subjectName} notation</h2>
-		<button class="button small" onclick={() => help.close()}>Close ×</button>
-	</div>
-	<p>{game.notation.description}</p>
-	<div class="notation-help">
-		{#if game.notation.numpad}
-			<div
-				class="numpad"
-				aria-label="Direction notation: 7 up back, 8 up, 9 up forward, 4 back, 5 neutral, 6 forward, 1 down back, 2 down, 3 down forward"
-			>
-				{#each ['7 ↖', '8 ↑', '9 ↗', '4 ←', '5 ·', '6 →', '1 ↙', '2 ↓', '3 ↘'] as key}<span
-						>{key}</span
-					>{/each}
-			</div>
-		{/if}
-		<dl>
-			{#each game.notation.legend as item}
-				<dt>{item.term}</dt>
-				<dd>{item.meaning}</dd>
-			{/each}
-		</dl>
-	</div>
-	<p class="muted">
-		Use each entry’s execution cues alongside the notation. Timing is shown in the source clip.
-	</p>
+<dialog class="notation-dialog" bind:this={help} aria-labelledby="notation-title">
+	<NotationKey {game} character={subjectName} onclose={() => help.close()} />
 </dialog>
 <dialog bind:this={backup} aria-labelledby="backup-title">
 	<div class="dialog-heading">
-		<h2 id="backup-title">Your library</h2>
-		<button class="button small" onclick={() => backup.close()}>Close ×</button>
+		<h2 id="backup-title">Library backup</h2>
+		<button class="button small" onclick={() => backup.close()}
+			><X size={16} aria-hidden="true" />Close</button
+		>
 	</div>
 	<p>
 		Favorites, practice status and notes stay in this browser. Export a backup to keep a copy or
 		move to another device.
 	</p>
 	<div class="backup-actions">
-		<button class="button" onclick={exportData}>Export backup ↓</button><button
-			class="button"
-			onclick={() => importInput.click()}>Import backup ↑</button
+		<button class="button" onclick={exportData}
+			><Download size={15} aria-hidden="true" />Export backup</button
+		><button class="button" onclick={() => importInput.click()}
+			><Upload size={15} aria-hidden="true" />Import backup</button
 		><input
 			class="sr-only"
 			type="file"
