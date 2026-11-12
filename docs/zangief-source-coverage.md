@@ -1,5 +1,7 @@
 # Zangief source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026.
 
 The collection now contains **62 references** (24 combos, 31 setups and 7 responses), expanded from 12. The original references and media remain unchanged; 50 distinct practice demonstrations have been appended. Each has an individual silent replay, selected moments and timed action descriptions.

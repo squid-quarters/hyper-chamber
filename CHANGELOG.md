@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 (2026-11-12)
+
+- Restore original source audio to all 2,068 references while preserving encoded video, timestamps, selected moments and reference revisions. Start muted and remember the sound preference.
+- Replace native playback and filter dropdowns with a shared custom selection component.
+- Group autoplay and keyboard preferences in Playback settings, with readable shortcut rows and a designed single-key toggle. Opening settings keeps the replay in place.
+- Align component spacing, states and touch targets across the library, practice view and dialogs.
+- Preserve audio in future media preparation; add resumable source batches and video-integrity checks for restoration.
+
 ## 0.2.0 (2026-11-12)
 
 - Add Follow playback, Always play and Start paused options for opening references. Preserve loop and speed settings across references.

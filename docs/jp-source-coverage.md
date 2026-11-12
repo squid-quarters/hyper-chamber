@@ -1,5 +1,7 @@
 # JP source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026.
 
 JP now has **63 references** (32 combos, 19 setups and 12 responses), expanded from 15 with 48 distinct additions. The collection deepens medium/Rush confirms, strength-specific portal knockdowns, corner forward-throw branches, actual reversal/Super/Impact responses, four anti-air conversions, OD-Amnesia side switches and Level 2 carry/throw routes. [The machine-readable ledger](source-ledgers/jp.json) records every selected interval, exact unselected complements, evidence and remaining candidates.

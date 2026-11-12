@@ -1,5 +1,7 @@
 # Marisa source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026.
 
 The collection now has **85 references and 405 selected moments**, up from 14 references and 59 moments. The 71 additions comprise 10 combos, 45 setups and 16 responses. The original 14 reference objects, revisions, related links, media and source record are preserved exactly.

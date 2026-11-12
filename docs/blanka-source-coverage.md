@@ -1,5 +1,7 @@
 # Blanka source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026.
 
 42 references: 30 combos, 8 setups and 4 responses, with 178 selected moments. The 12 original references, revisions, related links and original media are preserved exactly. This expansion adds 30 distinct demonstrations and 136 moments; it is a partial practice compendium.

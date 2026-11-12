@@ -1,5 +1,7 @@
 # Ed source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026.
 
 Ed contains **37 references** (16 combos, 19 setups and 2 responses), expanded from 15. The 22 new demonstrations add distinct medium-Blitz, heavy-Blitz and medium-Uppercut wake-up branches, two corner Spark timing families, held-Flicker/Break routes and a Cannon juggle. [The source ledger](source-ledgers/ed.json) records every selected interval and exact unselected gap.

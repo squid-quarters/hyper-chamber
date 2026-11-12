@@ -1,5 +1,7 @@
 # Jamie source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026. **106 references**: 14 preserved and 92 added, with 608 selected moments. Total kinds: 62 combos, 36 setups and 8 responses. The additions contain 49 combos, 35 setups and 8 responses, with 548 new moments. Every original catalog object, revision, related link, media file and beginner source record is preserved exactly.
 
 ## Sources and provenance

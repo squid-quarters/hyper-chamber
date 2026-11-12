@@ -1,5 +1,7 @@
 # Ryu source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 10 November 2026.
 
 The Ryu collection contains 50 selected references: 26 combos, 23 setups and one defensive response, with 246 annotated moments. Each has a silent replay, selected stills and timed action descriptions. This is a curated training collection; repeated cash-out variants and unclear demonstrations are omitted.

@@ -1,5 +1,7 @@
 # Street Fighter 6 roster coverage
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026. Hyper Chamber has **2068 selected references and 9099 annotated moments** across 32 character libraries, using 72 source recordings. This pass adds **1341 demonstrations and 5789 moments** to all 26 previously thin libraries, up from 727 references/3310 moments. The six original libraries retain their earlier counts. Each character page links exact selections, source intervals, execution conditions and remaining gaps.
 
 The roster includes Ingrid, Yasmine and Arjun, whose releases are confirmed in [Capcom's Ingrid announcement](https://www.capcomfrance.fr/ingrid-sf6-sortie/), [Yasmine release news](https://store.steampowered.com/news/app/1364780/view/1839676055894097) and [Arjun announcement](https://press.capcom.com/Street-Fighter-6-Welcomes-Arjun-to-the-Mat-on-October-13). Unreleased characters are excluded. Long-form strategy remains linked through [SF6 Lab](https://sf6-lab.net/en/).

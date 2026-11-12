@@ -20,7 +20,7 @@ Each reference keeps its input sequence and short replay together, with selected
 
 ## Operating Context
 
-Used in a browser beside a running fighting game, often in a short laptop window. Players switch between related routes, filter by a training goal and repeatedly pause, replay or inspect a short silent clip.
+Used in a browser beside a running fighting game, often in a short laptop window. Players switch between related routes, filter by a training goal and repeatedly pause, replay or inspect a short clip with optional source audio.
 
 ## Capabilities and Constraints
 

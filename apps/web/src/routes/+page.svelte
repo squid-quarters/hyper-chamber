@@ -9,7 +9,6 @@
 		type Reference,
 		type PersonalLibrary,
 		type PersonalEntry,
-		type PracticeStatus,
 		type ReferenceGoal,
 	} from '@hyper-chamber/reference';
 	import {
@@ -27,6 +26,7 @@
 	import CharacterPortrait from '#lib/components/CharacterPortrait.svelte';
 	import NotationKey from '#lib/components/NotationKey.svelte';
 	import SourceDetails from '#lib/components/SourceDetails.svelte';
+	import ChoiceField from '#lib/components/ChoiceField.svelte';
 	import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Search, Star, X } from '@lucide/svelte';
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	import InputSequence from '#lib/components/InputSequence.svelte';
@@ -35,6 +35,7 @@
 		savePlaybackPreferences,
 		shouldStartPlayback,
 		type PlaybackPreferences,
+		OPEN_OVERLAY_SELECTOR,
 	} from '../lib/player';
 	import {
 		readLibraryReturn,
@@ -45,6 +46,7 @@
 
 	let playerPreferences = $state<PlaybackPreferences>({
 		autoplay: 'follow',
+		muted: true,
 		shortcuts: true,
 		loop: true,
 		speed: 1,
@@ -402,8 +404,7 @@
 		if (revision === viewRevision) document.getElementById('type-combo')?.focus();
 	}
 	async function openSwitcher() {
-		if (!ready || document.querySelector('dialog[open], [data-character-picker-open="true"]'))
-			return;
+		if (!ready || document.querySelector(OPEN_OVERLAY_SELECTOR)) return;
 		switchOrigin =
 			document.activeElement instanceof Element
 				? (document.activeElement.closest<HTMLAnchorElement>('.reference-card')?.dataset.entryId ??
@@ -445,7 +446,7 @@
 	function shortcuts(event: KeyboardEvent) {
 		if (event.defaultPrevented || event.repeat || event.isComposing) return;
 		if ((event.ctrlKey || event.metaKey) && !event.altKey && event.key.toLowerCase() === 'k') {
-			if (document.querySelector('dialog[open], [data-character-picker-open="true"]')) return;
+			if (document.querySelector(OPEN_OVERLAY_SELECTOR)) return;
 			event.preventDefault();
 			void openSwitcher();
 			return;
@@ -453,8 +454,10 @@
 		const key = event.key.toLowerCase();
 		const editable =
 			event.target instanceof Element &&
-			event.target.closest('input, textarea, select, [contenteditable]');
-		const overlayOpen = document.querySelector('dialog[open], [data-character-picker-open="true"]');
+			event.target.closest(
+				'input, textarea, select, [contenteditable], [role="combobox"], [role="listbox"], [role="option"]',
+			);
+		const overlayOpen = document.querySelector(OPEN_OVERLAY_SELECTOR);
 		if (
 			practising &&
 			playerPreferences.shortcuts &&
@@ -486,13 +489,15 @@
 		if (
 			event.key !== 'Escape' ||
 			!practising ||
-			document.querySelector('dialog[open], [data-character-picker-open="true"]') ||
+			document.querySelector(OPEN_OVERLAY_SELECTOR) ||
 			document.fullscreenElement
 		)
 			return;
 		if (
 			event.target instanceof Element &&
-			event.target.closest('input, textarea, select, [contenteditable]')
+			event.target.closest(
+				'input, textarea, select, [contenteditable], [role="combobox"], [role="listbox"], [role="option"]',
+			)
 		)
 			return;
 		event.preventDefault();
@@ -733,47 +738,48 @@
 								></summary
 							>
 							<div class="filters">
-								<label for="situation-filter"
-									>Starting situation<select
-										id="situation-filter"
-										bind:value={situation}
-										onchange={(event) => {
-											situation = event.currentTarget.value;
-											void updateUrl();
-										}}
-										><option value="all">Any situation</option>{#each situations as value}<option
-												{value}>{value}</option
-											>{/each}</select
-									></label
-								>
-								<label for="outcome-filter"
-									>Outcome<select
-										id="outcome-filter"
-										bind:value={outcome}
-										onchange={(event) => {
-											outcome = event.currentTarget.value;
-											void updateUrl();
-										}}
-										><option value="all">Any outcome</option>{#each outcomes as value}<option
-												{value}>{value}</option
-											>{/each}</select
-									></label
-								>
-								<label for="practice-filter"
-									>Practice status <span>(self-reported)</span><select
-										id="practice-filter"
-										bind:value={practice}
-										onchange={(event) => {
-											practice = event.currentTarget.value;
-											void updateUrl();
-										}}
-										><option value="all">All statuses</option><option value="untried"
-											>Untried</option
-										><option value="practising">Practising</option><option value="reliable"
-											>Reliable</option
-										></select
-									></label
-								>
+								<ChoiceField
+									id="situation-filter"
+									label="Starting situation"
+									value={situation}
+									options={[
+										{ value: 'all', label: 'Any situation' },
+										...situations.map((value) => ({ value, label: value })),
+									]}
+									onchange={(value) => {
+										situation = value;
+										void updateUrl();
+									}}
+								/>
+								<ChoiceField
+									id="outcome-filter"
+									label="Outcome"
+									value={outcome}
+									options={[
+										{ value: 'all', label: 'Any outcome' },
+										...outcomes.map((value) => ({ value, label: value })),
+									]}
+									onchange={(value) => {
+										outcome = value;
+										void updateUrl();
+									}}
+								/>
+								<ChoiceField
+									id="practice-filter"
+									label="Practice status"
+									hint="Self-reported"
+									value={practice}
+									options={[
+										{ value: 'all', label: 'All statuses' },
+										{ value: 'untried', label: 'Untried' },
+										{ value: 'practising', label: 'Practising' },
+										{ value: 'reliable', label: 'Reliable' },
+									]}
+									onchange={(value) => {
+										practice = value;
+										void updateUrl();
+									}}
+								/>
 							</div>
 						</details>
 						<div class="results-meta">
@@ -1046,16 +1052,22 @@
 						{#if personal.revision !== selected.revision}<p class="revision-hint">
 								This reference has been updated since your saved notes. Recheck the source; your
 								practice status is unchanged.
-							</p>{/if}<label class="status-label"
-							>Practice status (self-reported)<select
-								value={personal.status}
-								onchange={(e) =>
-									updatePersonal({ status: e.currentTarget.value as PracticeStatus })}
-								><option value="untried">Untried</option><option value="practising"
-									>Practising</option
-								><option value="reliable">Reliable</option></select
-							></label
-						><label class="sr-only" for="personal-note">Personal note</label><textarea
+							</p>{/if}<ChoiceField
+							id="reference-practice-status"
+							label="Practice status"
+							hint="Self-reported"
+							value={personal.status}
+							options={[
+								{ value: 'untried', label: 'Untried' },
+								{ value: 'practising', label: 'Practising' },
+								{ value: 'reliable', label: 'Reliable' },
+							]}
+							onchange={(value) => {
+								if (value === 'untried' || value === 'practising' || value === 'reliable')
+									updatePersonal({ status: value });
+							}}
+						/>
+						<label class="sr-only" for="personal-note">Personal note</label><textarea
 							id="personal-note"
 							placeholder="Add a timing cue or practice note"
 							value={personal.note}

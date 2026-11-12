@@ -87,7 +87,8 @@
 					"label": "Knockdown spacing",
 					"alt": "Manon and Ryu recover at the spacing left by the heavy Rond-point knockdown."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-wheel-dash-walk-grab",
@@ -188,7 +189,8 @@
 					"label": "Medal gained",
 					"alt": "The command grab finishes, and the medal counter has risen from one to two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-wheel-rush-low",
@@ -314,7 +316,8 @@
 					"label": "Heavy Rond-point",
 					"alt": "Heavy Rond-point converts the light confirm into another knockdown."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-wheel-rush-heavy",
@@ -435,7 +438,8 @@
 					"label": "Medal-building ender",
 					"alt": "Renversé throws Ryu down and raises the medal count from one to two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-wheel-rush-low",
@@ -551,7 +555,8 @@
 					"label": "Medal gained",
 					"alt": "The command grab finishes and the medal counter rises from one to two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-wheel-rush-low",
@@ -672,7 +677,8 @@
 					"label": "Renversé ender",
 					"alt": "Medium Renversé ends the wake-up hit confirm with a medal-building throw."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-wheel-rush-low",
@@ -777,7 +783,8 @@
 					"label": "Medal gained",
 					"alt": "The medal counter rises from two to three after the command grab."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-corner-wheel-neutral-shimmy",
@@ -868,7 +875,8 @@
 					"label": "Throw misses",
 					"alt": "Ryu’s throw has missed, leaving space between the characters."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-fundamentals-corner-wheel-heavy-grab"]
 	},
@@ -979,7 +987,8 @@
 					"label": "Medal gained",
 					"alt": "Ryu falls after Renversé and the medal count has risen from one to two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-corner-wheel-meaty-grab",
@@ -1082,7 +1091,8 @@
 					"label": "Medal gained",
 					"alt": "The command grab finishes with Ryu knocked down and the medal count increased."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-corner-wheel-meaty-confirm",
@@ -1195,7 +1205,8 @@
 					"label": "Medium Dégagé",
 					"alt": "Medium Dégagé converts the medium confirm into another knockdown."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-fundamentals-renverse-rush-throw-bait"]
 	},
@@ -1294,7 +1305,8 @@
 					"label": "Reversal bait",
 					"alt": "Manon holds a crouching guard as Ryu descends from the reversal."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-fundamentals-renverse-rush-medium"]
 	},
@@ -1404,7 +1416,8 @@
 					"label": "Renversé ender",
 					"alt": "Medium Renversé finishes the wake-up confirm and builds a medal."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-light-degage-rush-grab",
@@ -1506,7 +1519,8 @@
 					"label": "Medal gained",
 					"alt": "The medal count has risen from one to two after the grab."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-light-degage-rush-low",
@@ -1608,7 +1622,8 @@
 					"label": "Medal gained",
 					"alt": "The command grab finishes and raises the medal counter from one to two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-corner-wheel-meaty-grab",
@@ -1703,7 +1718,8 @@
 					"label": "Block spacing",
 					"alt": "Both characters recover at the spacing left by the blocked heavy."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-command-grab-rush-jab-bait",
@@ -1805,7 +1821,8 @@
 					"label": "Reversal bait",
 					"alt": "Manon holds a crouching guard as Ryu descends from the reversal."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-command-grab-rush-heavy",
@@ -1964,7 +1981,8 @@
 					"label": "Cashout finish",
 					"alt": "The level-3 animation finishes with Ryu knocked down and Manon still in burnout."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -2069,7 +2087,8 @@
 					"label": "Hold guard",
 					"alt": "Manon remains in guard after the reversal."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-complete-light-degage-rush-dp-block",
@@ -2173,7 +2192,8 @@
 					"label": "Reversal recovered",
 					"alt": "Ryu lands while Manon holds guard."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-complete-light-degage-rush-low-reversal-block",
@@ -2289,7 +2309,8 @@
 					"label": "Medal gained",
 					"alt": "The hit-grab ends in a hard knockdown and Manon’s medal counter shows two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-complete-corner-medium-degage-whiff-medium-command-grab",
@@ -2393,7 +2414,8 @@
 					"label": "Recovery",
 					"alt": "Manon recovers next to the cornered Ryu."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-complete-corner-medium-degage-meaty-heavy-link",
@@ -2513,7 +2535,8 @@
 					"label": "Block confirmed",
 					"alt": "The super has been guarded and both characters recover."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-light-degage-rush-dp-block"]
 	},
@@ -2624,7 +2647,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu falls from medium Dégagé while Manon recovers."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-corner-wheel-meaty-confirm",
@@ -2733,7 +2757,8 @@
 					"label": "Hard knockdown",
 					"alt": "Both characters return to their post-combo spacing."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-crouching-medium-punish-od-extension"]
 	},
@@ -2875,7 +2900,8 @@
 					"label": "Medal knockdown",
 					"alt": "Ryu lands from Renversé and the medal counter shows two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-crouching-medium-punish-renverse"]
 	},
@@ -3005,7 +3031,8 @@
 					"label": "Knockdown",
 					"alt": "Manon recovers as Ryu rises from the low ender."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-raw-rush-low-light-degage"]
 	},
@@ -3114,7 +3141,8 @@
 					"label": "Knockdown recovery",
 					"alt": "Manon recovers as Ryu rises after light Dégagé."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-complete-raw-rush-low-level2",
@@ -3228,7 +3256,8 @@
 					"label": "Super knockdown",
 					"alt": "Ryu lands from the Level 2 finish."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-raw-rush-low-light-degage"]
 	},
@@ -3347,7 +3376,8 @@
 					"label": "Medal gained",
 					"alt": "The hit-grab finish raises Manon from one medal to two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-anti-air-od-rond-medal"]
 	},
@@ -3448,7 +3478,8 @@
 					"label": "Hard knockdown",
 					"alt": "Ryu rises after the hit-grab knockdown."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-punish-counter-target-od-low"]
 	},
@@ -3567,7 +3598,8 @@
 					"label": "Knockdown spacing",
 					"alt": "Manon and Ryu recover at the final spacing."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-counter-hit-target-light-renverse"]
 	},
@@ -3705,7 +3737,8 @@
 					"label": "Medal and knockdown",
 					"alt": "The final hit grab raises Manon from one medal to two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -3819,7 +3852,8 @@
 					"label": "Super recovery",
 					"alt": "Both characters recover after the Level 1 finish."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-punish-heavy-target-side-switch"]
 	},
@@ -3923,7 +3957,8 @@
 					"label": "Landing spacing",
 					"alt": "Manon lands beside Ryu after the side switch."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-punish-heavy-target-level1"]
 	},
@@ -4033,7 +4068,8 @@
 					"label": "Medal gained",
 					"alt": "The command grab raises Manon from one medal to two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -4123,7 +4159,8 @@
 					"label": "Recovery spacing",
 					"alt": "Both characters recover at the final spacing."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -4240,7 +4277,8 @@
 					"label": "Knockdown spacing",
 					"alt": "Ryu recovers after the low ender."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -4345,7 +4383,8 @@
 					"label": "Medal gained",
 					"alt": "The Renversé finish builds another medal."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -4445,7 +4484,8 @@
 					"label": "Medal gained",
 					"alt": "The command grab raises Manon from one medal to two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -4533,7 +4573,8 @@
 					"label": "Guarded recovery",
 					"alt": "Both characters recover after the guarded overhead."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"manon-joe-fundamentals-command-grab-rush-heavy",
@@ -4637,7 +4678,8 @@
 					"label": "Medal gained",
 					"alt": "The hit-grab finish raises Manon from one medal to two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-wall-splat-medal"]
 	},
@@ -4740,7 +4782,8 @@
 					"label": "Medal and knockdown",
 					"alt": "The hit grab raises Manon from one medal to two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-counter-di-medal"]
 	},
@@ -4840,7 +4883,8 @@
 					"label": "Medal gained",
 					"alt": "The hit grab raises Manon from one medal to two."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["manon-joe-complete-anti-air-delayed-target-medal"]
 	},
@@ -4948,7 +4992,8 @@
 					"label": "Super recovery",
 					"alt": "Ryu recovers after the Super finish."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	}

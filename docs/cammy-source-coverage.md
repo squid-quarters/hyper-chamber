@@ -1,5 +1,7 @@
 # Cammy source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026. The collection contains **73 references** (15 preserved, 58 added): 29 combos, 35 setups and 9 responses, with 307 selected moments. The additions contribute 244 moments. All original objects, revisions, related links and media are preserved.
 
 ## Sources and provenance

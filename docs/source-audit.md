@@ -1,5 +1,7 @@
 # Initial Dhalsim source audit
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 3 November 2026.
 
 Source: [DHALSIM COMBO/OKI GUIDE SF6](https://www.youtube.com/watch?v=UW6GlWHKy7o), by **elieatscrayons**, published 4 July 2025, duration 13:28.
