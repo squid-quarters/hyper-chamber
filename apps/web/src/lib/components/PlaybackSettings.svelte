@@ -134,7 +134,6 @@
 	aria-controls={`${id}-playback-settings`}
 	popovertarget={nativePopover ? `${id}-playback-settings` : undefined}
 	onclick={toggle}
-	title="Playback settings"
 >
 	<Settings2 size={16} aria-hidden="true" /><span>Settings</span>
 </button>

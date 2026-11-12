@@ -3,6 +3,7 @@
 	import { Play, Pause, RotateCcw, Repeat2, Volume2, VolumeX, ArrowUpRight } from '@lucide/svelte';
 	import ChoiceField from './ChoiceField.svelte';
 	import PlaybackSettings from './PlaybackSettings.svelte';
+	import PlaybackHelp from './PlaybackHelp.svelte';
 	import { sourceLink, type Reference } from '@hyper-chamber/reference';
 	import {
 		clampTime,
@@ -336,6 +337,7 @@
 		<div class="replay-panel">
 			<div class="section-heading">
 				<h3>Replay reference</h3>
+				{#if enhanced && reference.media.clip}<PlaybackHelp id={reference.id} />{/if}
 			</div>
 
 			{#if reference.media.clip}
@@ -495,8 +497,9 @@
 							</div>
 						</div>
 						{#if autoplayNotice}<p class="playback-notice" role="status">{autoplayNotice}</p>{/if}
-						<p class="player-discovery" id={`${reference.id}-player-hint`}>
-							Tap to play or pause · Drag sideways to inspect
+						<p class="sr-only" id={`${reference.id}-player-hint`}>
+							Click or tap the video to play or pause. Drag left or right to inspect; the clip stays
+							paused.
 						</p>
 					{/if}
 					{@render playbackNotices()}
@@ -755,12 +758,6 @@
 	.seek-controls .button {
 		font-variant-numeric: tabular-nums;
 	}
-	.player-discovery {
-		margin: 5px 0 0;
-		color: var(--muted);
-		font-size: 11px;
-		line-height: 1.5;
-	}
 	.playback-notice {
 		margin-block: 6px;
 		color: var(--muted);
@@ -811,11 +808,6 @@
 		.seek-controls .button {
 			padding-inline: 4px;
 			font-size: 13px;
-		}
-		.player-discovery {
-			margin-block-start: 6px;
-			font-size: 12px;
-			line-height: 1.6;
 		}
 	}
 	@media (max-width: 360px) {

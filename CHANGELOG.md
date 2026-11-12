@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.1 (2026-11-13)
+
+- Simplify secondary filtering to Refine results, with active counts and full-width fields.
+- Move replay gesture instructions into on-demand Controls help, available by mouse, touch and keyboard.
+- Remove duplicate filter actions, status hints and native tooltips from labeled controls.
+
 ## 0.3.0 (2026-11-12)
 
 - Restore original source audio to all 2,068 references while preserving encoded video, timestamps, selected moments and reference revisions. Start muted and remember the sound preference.

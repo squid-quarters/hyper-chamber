@@ -433,21 +433,6 @@ kbd {
 .goal-chip:hover:not([aria-pressed='true']) {
 	background: var(--selected);
 }
-.goal-note {
-	margin-block-start: -6px;
-	color: var(--muted);
-	font-size: 12px;
-}
-.goal-note button {
-	min-block-size: var(--control-size);
-	padding-inline: 3px;
-	text-decoration: underline;
-	color: var(--ink);
-}
-.library-refinements {
-	border-block: 1px solid var(--line);
-}
-.library-refinements > summary,
 .input-explanations > summary {
 	display: flex;
 	align-items: center;
@@ -456,11 +441,9 @@ kbd {
 	padding-block: 10px;
 	list-style: none;
 }
-.library-refinements > summary::-webkit-details-marker,
 .input-explanations > summary::-webkit-details-marker {
 	display: none;
 }
-.library-refinements > summary::before,
 .input-explanations > summary::before {
 	content: '';
 	inline-size: 16px;
@@ -470,24 +453,46 @@ kbd {
 	mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 4 4 4-4 4'/%3E%3C/svg%3E")
 		center / 16px no-repeat;
 }
-.library-refinements[open] > summary::before,
 .input-explanations[open] > summary::before {
 	transform: rotate(90deg);
 }
-.library-refinements > summary {
+.refinement-trigger {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	min-block-size: var(--control-size);
+	padding: 8px 10px;
+	margin-inline-start: -10px;
+	border-radius: 4px;
 	font-size: 12px;
-	cursor: pointer;
 	font-weight: 500;
 }
-.library-refinements > summary > span {
-	font-size: 11px;
+.refinement-trigger:hover,
+.refinement-trigger.expanded {
+	background: var(--soft);
+}
+.refinement-trigger:active {
+	background: var(--selected);
+}
+.refinement-trigger svg {
+	flex: none;
+}
+.refinement-count {
 	color: var(--muted);
+	font-size: 11px;
+	font-variant-numeric: tabular-nums;
+}
+.refinement-trigger.expanded .refinements-chevron {
+	transform: rotate(180deg);
 }
 .filters {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	gap: 14px;
 	padding-block: 6px 16px;
+}
+.filters[hidden] {
+	display: none;
 }
 .filters label {
 	min-inline-size: 0;
@@ -1826,7 +1831,6 @@ dialog > p {
 	}
 }
 @media (forced-colors: active) {
-	.library-refinements > summary::before,
 	.input-explanations > summary::before {
 		forced-color-adjust: none;
 	}
@@ -1850,21 +1854,21 @@ dialog > p {
 	}
 }
 
-/* Keep the result count beside refinements, leaving the references in view. */
+/* Secondary fields use the full library width below their disclosure. */
 .filter-bottom {
-	display: grid;
-	grid-template-columns: minmax(0, 1fr) auto;
-	align-items: start;
-	gap: 16px;
 	border-block: 1px solid var(--line);
 }
-.filter-bottom .library-refinements {
-	border: 0;
+.refinement-toolbar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0 12px;
+	padding-block: 4px;
 }
 .filter-bottom .results-meta {
-	min-block-size: 40px;
+	min-block-size: var(--control-size);
 	margin: 0;
-	padding-block: 8px;
 	gap: 16px;
 }
 .library-filters {
@@ -1882,15 +1886,12 @@ dialog > p {
 	padding: 3px;
 }
 @media (max-width: 760px) {
-	.filter-bottom {
-		gap: 12px;
-	}
 	.filter-bottom .results-meta {
 		gap: 8px;
 		font-size: 11px;
 	}
 	.filter-bottom .results-meta button {
-		min-block-size: 32px;
+		min-block-size: var(--control-size);
 	}
 }
 
@@ -2111,7 +2112,6 @@ dialog > p {
 	.header-actions > button,
 	.header-actions > a,
 	.text-button,
-	.library-refinements > summary,
 	.input-explanations > summary {
 		min-block-size: var(--control-size);
 	}

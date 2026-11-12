@@ -279,7 +279,6 @@
 		aria-expanded={open}
 		aria-controls={`${id}-listbox`}
 		aria-activedescendant={open && activeIndex >= 0 ? optionId(activeIndex) : undefined}
-		title={`${label}: ${selected?.label ?? value}`}
 		onclick={() => (open ? close() : show())}
 		onkeydown={keys}
 		onblur={() => {

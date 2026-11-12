@@ -27,7 +27,17 @@
 	import NotationKey from '#lib/components/NotationKey.svelte';
 	import SourceDetails from '#lib/components/SourceDetails.svelte';
 	import ChoiceField from '#lib/components/ChoiceField.svelte';
-	import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Search, Star, X } from '@lucide/svelte';
+	import {
+		ArrowLeft,
+		ArrowRight,
+		ArrowUpRight,
+		BookOpen,
+		ChevronDown,
+		Search,
+		SlidersHorizontal,
+		Star,
+		X,
+	} from '@lucide/svelte';
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	import InputSequence from '#lib/components/InputSequence.svelte';
 	import {
@@ -396,13 +406,6 @@
 			remaining[Math.min(index, remaining.length - 1)] ?? document.getElementById('library-search')
 		)?.focus();
 	}
-	async function showPunishCombos() {
-		const revision = ++viewRevision;
-		kind = 'combo';
-		await updateUrl();
-		await tick();
-		if (revision === viewRevision) document.getElementById('type-combo')?.focus();
-	}
 	async function openSwitcher() {
 		if (!ready || document.querySelector(OPEN_OVERLAY_SELECTOR)) return;
 		switchOrigin =
@@ -727,69 +730,73 @@
 							</div>
 						</fieldset>
 					</div>
-					{#if goal === 'punishes' && kind !== 'combo'}<p class="goal-note">
-							<button onclick={showPunishCombos}>Show punish combos</button>
-						</p>{/if}
 					<div class="filter-bottom">
-						<details class="library-refinements" bind:open={refinementsOpen}>
-							<summary
-								>Situation, outcome &amp; status <span
-									>{refinementCount ? `${refinementCount} active` : 'More filters'}</span
-								></summary
+						<div class="refinement-toolbar">
+							<button
+								class="refinement-trigger"
+								class:expanded={refinementsOpen}
+								aria-expanded={refinementsOpen}
+								aria-controls="library-refinements"
+								onclick={() => (refinementsOpen = !refinementsOpen)}
 							>
-							<div class="filters">
-								<ChoiceField
-									id="situation-filter"
-									label="Starting situation"
-									value={situation}
-									options={[
-										{ value: 'all', label: 'Any situation' },
-										...situations.map((value) => ({ value, label: value })),
-									]}
-									onchange={(value) => {
-										situation = value;
-										void updateUrl();
-									}}
-								/>
-								<ChoiceField
-									id="outcome-filter"
-									label="Outcome"
-									value={outcome}
-									options={[
-										{ value: 'all', label: 'Any outcome' },
-										...outcomes.map((value) => ({ value, label: value })),
-									]}
-									onchange={(value) => {
-										outcome = value;
-										void updateUrl();
-									}}
-								/>
-								<ChoiceField
-									id="practice-filter"
-									label="Practice status"
-									hint="Self-reported"
-									value={practice}
-									options={[
-										{ value: 'all', label: 'All statuses' },
-										{ value: 'untried', label: 'Untried' },
-										{ value: 'practising', label: 'Practising' },
-										{ value: 'reliable', label: 'Reliable' },
-									]}
-									onchange={(value) => {
-										practice = value;
-										void updateUrl();
-									}}
-								/>
+								<SlidersHorizontal size={16} aria-hidden="true" />
+								Refine results
+								{#if refinementCount}<span class="refinement-count">{refinementCount} active</span
+									>{/if}
+								<ChevronDown class="refinements-chevron" size={16} aria-hidden="true" />
+							</button>
+							<div class="results-meta">
+								<p class="result-count">
+									<strong>{results.length}</strong>
+									{results.length === 1 ? 'reference' : 'references'}
+								</p>
+								{#if activeFilters.length}<button class="reset-filters" onclick={reset}
+										>Clear filters</button
+									>{/if}
 							</div>
-						</details>
-						<div class="results-meta">
-							<p class="result-count">
-								<strong>{results.length}</strong>
-								{results.length === 1 ? 'reference' : 'references'}
-							</p>
-							{#if activeFilters.length}<button class="reset-filters" onclick={reset}
-									>Reset all filters</button
-								>{/if}
+						</div>
+						<div class="filters" id="library-refinements" hidden={!refinementsOpen}>
+							<ChoiceField
+								id="situation-filter"
+								label="Starting situation"
+								value={situation}
+								options={[
+									{ value: 'all', label: 'Any situation' },
+									...situations.map((value) => ({ value, label: value })),
+								]}
+								onchange={(value) => {
+									situation = value;
+									void updateUrl();
+								}}
+							/>
+							<ChoiceField
+								id="outcome-filter"
+								label="Outcome"
+								value={outcome}
+								options={[
+									{ value: 'all', label: 'Any outcome' },
+									...outcomes.map((value) => ({ value, label: value })),
+								]}
+								onchange={(value) => {
+									outcome = value;
+									void updateUrl();
+								}}
+							/>
+							<ChoiceField
+								id="practice-filter"
+								label="Practice status"
+								value={practice}
+								options={[
+									{ value: 'all', label: 'All statuses' },
+									{ value: 'untried', label: 'Untried' },
+									{ value: 'practising', label: 'Practising' },
+									{ value: 'reliable', label: 'Reliable' },
+								]}
+								onchange={(value) => {
+									practice = value;
+									void updateUrl();
+								}}
+							/>
 						</div>
 					</div>
 					{#if activeFilters.length}<ul
@@ -1047,7 +1054,6 @@
 					<section class="personal-panel">
 						<div class="section-heading">
 							<h2>Your notes</h2>
-							<span class="panel-meta">This browser</span>
 						</div>
 						{#if personal.revision !== selected.revision}<p class="revision-hint">
 								This reference has been updated since your saved notes. Recheck the source; your
@@ -1055,7 +1061,6 @@
 							</p>{/if}<ChoiceField
 							id="reference-practice-status"
 							label="Practice status"
-							hint="Self-reported"
 							value={personal.status}
 							options={[
 								{ value: 'untried', label: 'Untried' },
