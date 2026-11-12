@@ -48,7 +48,7 @@ Each reference records its creator, original video, publication date, interval a
 
 Character-only URLs use the profile ID, for example `?character=ken`, `?character=lily` or `?character=arjun`; existing `?entry=...` links infer their character. Search, Saved counts and Quick switch stay within the active character, while learner backups retain all characters.
 
-GitHub repository visibility is public. Prepared media is labeled private-development in its manifests; no open-source license or public media redistribution policy has been chosen. New excerpts remain local pending the publication decision. Attribution and source records must accompany media.
+GitHub repository visibility is public. The repository owner confirmed public access, including prepared YouTube excerpts, on 12 November 2026; [publication metadata](content/publication.json) records the scope. No open-source license has been chosen. Third-party media licensing, permissions and redistribution rights remain unassessed. Attribution and source records must accompany media.
 
 ## Workspace
 

@@ -90,7 +90,7 @@ Ambiguous material omitted from reviewed cards:
 
 The canonical `tools/ingest/prepare_media.py` helper generated silent, uncropped H.264 loops on a zero-based playback clock, full-resolution JPEG moments and matching WebVTT descriptions. Retained source originals were not modified. Every selected exported moment and both clip boundaries were inspected separately from discovery sheets. Complete affected media directories were regenerated after corrections, including actual timing-whiff frames, cross-up/air-normal/held-Spike stills, removal of trailing dash or timing-jab actions, removal of a next-take transition, and accurate starting-position labels.
 
-The deterministic audit decodes every new clip and checks H.264/no audio, 1280×720 dimensions, expected duration, strictly increasing zero-based timestamps, moment bounds and JPEG integrity, exact authored VTT text and asset hashes. Local evidence is in `.local/depth/cammy/prepared-review/index.json`, `.local/depth/cammy/media-audit.json` and `.local/depth/cammy/source-review/`. Raw sources and tooling remain local. Publication wording remains unchanged pending the owner's separate decision.
+The deterministic audit decodes every new clip and checks H.264/no audio, 1280×720 dimensions, expected duration, strictly increasing zero-based timestamps, moment bounds and JPEG integrity, exact authored VTT text and asset hashes. Local evidence is in `.local/depth/cammy/prepared-review/index.json`, `.local/depth/cammy/media-audit.json` and `.local/depth/cammy/source-review/`. Raw sources and tooling remain local. The repository owner has authorized public access to the prepared excerpts; third-party redistribution rights remain unassessed.
 
 ## Reference index
 

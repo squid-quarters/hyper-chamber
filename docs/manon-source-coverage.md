@@ -27,7 +27,7 @@ Independent review found swapped SA1/SA2 captions in the corner OD Rond-point de
 
 The canonical ingestion helper encoded the reviewed intervals, removed audio, reset presentation clocks to zero, exported selected stills and wrote WebVTT action descriptions. Short lossless H.264 intermediates avoided decoding the full tutorial for each excerpt. Key-moment times describe the prepared video timeline, not one-frame SF6 simulation stepping. Clip endpoints and every selected still were inspected, including crossfades between takes.
 
-Creator overlays remain visible. `content/media-manon.json` records these assets as private development excerpts. Public redistribution has not been assessed.
+Creator overlays remain visible. `content/media-manon.json` records their owner-authorized public-repository status. Public redistribution has not been assessed.
 
 ## Reference index
 

@@ -30,7 +30,7 @@ The longer raw-Rush/two-cancel-Rush cash-out punishes an OD Shoryuken that misse
 
 The short-held-heavy-Wind take shows an ordinary parry, despite a caption advertising Perfect-Parry counterplay. The light-Wind counter-DI exchange absorbs recoverable damage with armor. The held-heavy-Wind take that loses to DI is excluded. These outcomes are described as performed.
 
-All 57 prepared demonstrations, all 292 selected moments and both loop boundaries have been visually inspected. Source frames retain HUD/input displays, clips are silent H264 with zero-based clocks, and descriptions match the selected moments. Media publication wording remains pending repository-level clarification; public redistribution has not been assessed.
+All 57 prepared demonstrations, all 292 selected moments and both loop boundaries have been visually inspected. Source frames retain HUD/input displays, clips are silent H264 with zero-based clocks, and descriptions match the selected moments. The repository owner has authorized public access to its prepared excerpts; third-party redistribution rights have not been assessed.
 
 ## Remaining extraction work
 

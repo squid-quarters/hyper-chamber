@@ -23,7 +23,7 @@ Inputs and special strengths follow the visible original glyphs. The low-light R
 
 Source +F captions describe remaining advantage, not a prescribed wait. The raw-Rush/two-cancel-Rush cash-out visibly spends through the gauge and ends in burnout. Charge directions remain character-relative. The air-throw sample is tagged midscreen because that is where the selected demonstration actually begins, despite nearby source discussion of corner use.
 
-Every new annotated moment and both prepared loop boundaries have been visually inspected. Full-frame silent H264 clips retain HUD/input displays, use zero-based playback clocks, and carry canonical timed descriptions. Brief original crossfades remain where removing them would cut the first action. Media publication wording remains pending repository-level clarification; public redistribution has not been assessed.
+Every new annotated moment and both prepared loop boundaries have been visually inspected. Full-frame silent H264 clips retain HUD/input displays, use zero-based playback clocks, and carry canonical timed descriptions. Brief original crossfades remain where removing them would cut the first action. The repository owner has authorized public access to its prepared excerpts; third-party redistribution rights have not been assessed.
 
 ## Remaining extraction work
 

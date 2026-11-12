@@ -68,7 +68,7 @@ Ambiguous intervals excluded from reviewed cards:
 
 The canonical `tools/ingest/prepare_media.py` helper prepares silent, uncropped H.264 clips on a zero-based playback clock, selected full-resolution JPEGs, and matching WebVTT descriptions. Source segments are lossless intermediate trims; retained originals are never modified. Both boundaries and every selected exported moment were inspected separately from discovery sheets. Complete affected media directories were regenerated after timing, caption, opponent-identity and frame-selection corrections.
 
-The mechanical audit covers every new clip: complete decode, H.264/no-audio streams, 1280×720 dimensions, expected duration, strictly increasing zero-based timestamps, still integrity, selected-moment bounds and exact authored VTT text. Local evidence is in `.local/depth/ken/prepared-review/index.json` and `.local/depth/ken/media-audit.json`; source paths and detailed-review ranges are listed in the machine ledger. Full recordings and workfiles remain outside Git. Publication wording remains unchanged pending the owner’s separate decision.
+The mechanical audit covers every new clip: complete decode, H.264/no-audio streams, 1280×720 dimensions, expected duration, strictly increasing zero-based timestamps, still integrity, selected-moment bounds and exact authored VTT text. Local evidence is in `.local/depth/ken/prepared-review/index.json` and `.local/depth/ken/media-audit.json`; source paths and detailed-review ranges are listed in the machine ledger. Full recordings and workfiles remain outside Git. The repository owner has authorized public access to the prepared excerpts; third-party redistribution rights remain unassessed.
 
 ## Reference index
 

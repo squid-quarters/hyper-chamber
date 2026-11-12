@@ -34,7 +34,7 @@ Every entry is `source-reviewed` with `gameVersion: null`. That records review a
 
 Full 1280×720 frames retain HUD, inputs and overlays. Each new reference has a short silent H.264 loop, selected JPEG action moments and canonical WebVTT descriptions on a zero-based presentation clock. All 346 new moments and 142 actual first/last decoded frames were visually inspected; affected loops and moments were regenerated and rechecked to remove source transitions and incorrect action timing. Mechanical decoding, image, duration and description checks are recorded separately. Originals, captions, probes and review sheets stay outside Git.
 
-`content/media-marisa.json` retains private-development provenance. Public redistribution remains unassessed. Long lessons remain external links.
+`content/media-marisa.json` records owner-authorized public-repository status. Public redistribution remains unassessed. Long lessons remain external links.
 
 ## Selected reference index
 

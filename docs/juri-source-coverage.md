@@ -57,7 +57,7 @@ The full guide at 6:33–6:38 also contains a jump-medium/dive “Reversal” in
 
 The canonical `tools/ingest/prepare_media.py` helper generated silent, uncropped H.264 loops on a zero-based playback clock, full-resolution JPEG moments and exact WebVTT descriptions. Every selected exported moment and both boundaries were inspected separately from source discovery. Complete affected directories were regenerated and rechecked after corrections to actual-hit selections, first-action visibility, cinematic starts, training replay restarts, next-take tails and descriptions.
 
-The full deterministic audit decodes every new clip and checks H.264/no audio, 1280×720 dimensions, duration, strictly increasing zero-based timestamps, ordered in-bounds moments, JPEG integrity, exact authored VTT text and asset hashes. Local evidence: `.local/depth/juri/prepared-review/index.json`, `.local/depth/juri/media-audit.json`, `.local/depth/juri/source-review/`, original recordings in `.local/depth/sources/`. Publication wording remains unchanged pending the owner's separate decision.
+The full deterministic audit decodes every new clip and checks H.264/no audio, 1280×720 dimensions, duration, strictly increasing zero-based timestamps, ordered in-bounds moments, JPEG integrity, exact authored VTT text and asset hashes. Local evidence: `.local/depth/juri/prepared-review/index.json`, `.local/depth/juri/media-audit.json`, `.local/depth/juri/source-review/`, original recordings in `.local/depth/sources/`. The repository owner has authorized public access to the prepared excerpts; third-party redistribution rights remain unassessed.
 
 ## Reference index
 

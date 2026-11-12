@@ -58,7 +58,7 @@ The canonical `tools/ingest/prepare_media.py` helper generated silent, uncropped
 
 The deterministic audit decodes all 101 new loops, checks H.264/no audio, 1280×720 dimensions, duration, strict zero-based playback timestamps, ordered in-bounds moments, JPEG integrity, exact VTT text and asset hashes: 101 references / 521 moments, no failures. Endpoint evidence uses `ffprobe nb_frames` and exact decoded frame indices 0 and `nb_frames - 1`, not a near-end time offset.
 
-Local evidence: `.local/depth/luke/prepared-review/index.json`, `.local/depth/luke/visual-review-complete.json`, `.local/depth/luke/media-audit.json`, discovery/fine sheets in `.local/depth/luke/`, and unchanged recordings/metadata in `.local/depth/sources/`. Publication wording is unchanged pending the owner's separate decision.
+Local evidence: `.local/depth/luke/prepared-review/index.json`, `.local/depth/luke/visual-review-complete.json`, `.local/depth/luke/media-audit.json`, discovery/fine sheets in `.local/depth/luke/`, and unchanged recordings/metadata in `.local/depth/sources/`. The repository owner has authorized public access to the prepared excerpts; third-party redistribution rights remain unassessed.
 
 Independent review examined all101 additions,521 exported moments and202 exact endpoints. One selected Rush-heavy moment was moved from original547.50(startup) to547.65(contact); its complete media directory was regenerated and all five moments plus both exact endpoints rechecked. Recipes and clip boundaries remained unchanged.
 

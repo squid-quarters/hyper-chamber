@@ -16,7 +16,7 @@ The October season-4 source has chapter recipes, but the performed action order 
 
 ## Media preparation
 
-Full 1280×720 frames preserve HUD, inputs and overlays. The canonical ingestion helper prepares short silent H.264 clips, selected JPEGs and WebVTT action descriptions on a zero-based presentation clock. Both boundaries and every selected moment are visually reviewed; mechanical audits cover decoding, duration, image integrity and description timing. Originals and review boards stay outside Git. `content/media-kimberly.json` records private-development provenance; public redistribution is not assessed.
+Full 1280×720 frames preserve HUD, inputs and overlays. The canonical ingestion helper prepares short silent H.264 clips, selected JPEGs and WebVTT action descriptions on a zero-based presentation clock. Both boundaries and every selected moment are visually reviewed; mechanical audits cover decoding, duration, image integrity and description timing. Originals and review boards stay outside Git. `content/media-kimberly.json` records owner-authorized public-repository status; public redistribution is not assessed.
 
 ## Selected reference index
 

@@ -33,7 +33,7 @@ Solid Puncher, further matchup-specific loop variations and uncertain extended s
 
 The complete 1280×720 source frames are retained without cropping. This preserves virtual controls, command history, health, Drive/Super meters, frame displays and source overlays. Short accurate lossless excerpts are prepared first; the unchanged canonical ingestion helper encodes silent clips, resets presentation timestamps to zero, selects stills on the prepared playback clock and writes WebVTT action descriptions.
 
-Every selected moment and both clip endpoints are visually reviewed. Mechanical audits check full decode, silent H.264 video, dimensions, duration, monotonic zero-based presentation clocks, JPEG integrity and exact timed descriptions. Original hashes and source intervals are separate from the prepared-media clock. `content/media-guile.json` maps each selected excerpt to its source and records private development status. Public redistribution has not been assessed.
+Every selected moment and both clip endpoints are visually reviewed. Mechanical audits check full decode, silent H.264 video, dimensions, duration, monotonic zero-based presentation clocks, JPEG integrity and exact timed descriptions. Original hashes and source intervals are separate from the prepared-media clock. `content/media-guile.json` maps each selected excerpt to its source and records owner-authorized public-repository status. Public redistribution has not been assessed.
 
 ## Reference index
 

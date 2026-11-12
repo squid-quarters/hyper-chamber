@@ -42,7 +42,7 @@ The canonical `tools/ingest/prepare_media.py` helper produces silent uncropped H
 
 The mechanical audit passes all 92 new references / 548 moments: full decode, H.264/no audio, dimensions, durations, strict zero-based clocks, ordered in-bounds moments, JPEG integrity, canonical VTT and asset hashes. Exact served-directory inventories exclude stale generated extras. Independent review remains a separate required gate.
 
-Local evidence: `.local/depth/jamie/prepared-review/index.json`, `.local/depth/jamie/visual-review-complete.json`, `.local/depth/jamie/media-audit.json`, source/fine sheets in `.local/depth/jamie/`, and retained originals plus metadata in `.local/depth/sources/`. Publication wording remains unchanged pending the owner’s separate decision.
+Local evidence: `.local/depth/jamie/prepared-review/index.json`, `.local/depth/jamie/visual-review-complete.json`, `.local/depth/jamie/media-audit.json`, source/fine sheets in `.local/depth/jamie/`, and retained originals plus metadata in `.local/depth/sources/`. The repository owner has authorized public access to the prepared excerpts; third-party redistribution rights remain unassessed.
 
 ## Reference index
 
