@@ -344,6 +344,7 @@
 <style>
 	.choice-field {
 		display: grid;
+		align-content: start;
 		gap: 7px;
 		min-inline-size: 0;
 		inline-size: 100%;

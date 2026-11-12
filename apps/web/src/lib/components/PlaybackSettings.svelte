@@ -49,7 +49,7 @@
 			viewportLeft + edge,
 			Math.min(anchor.right - bounds.width, viewportLeft + viewportWidth - bounds.width - edge),
 		);
-		panel.style.top = `${Math.max(minTop, top)}px`;
+		panel.style.top = `${Math.max(minTop, Math.min(top, maxTop))}px`;
 		panel.style.left = `${left}px`;
 	}
 
