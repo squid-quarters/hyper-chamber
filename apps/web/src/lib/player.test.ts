@@ -9,6 +9,7 @@ import {
 	AUTOPLAY_STORAGE_KEY,
 	SPEED_STORAGE_KEY,
 	SHORTCUTS_STORAGE_KEY,
+	MUTED_STORAGE_KEY,
 	shouldStartPlayback,
 	readPlaybackPreferences,
 	savePlaybackPreferences,
@@ -116,6 +117,7 @@ describe('reference playback preferences', () => {
 			autoplay: 'follow',
 			shortcuts: true,
 			loop: false,
+			muted: true,
 			speed: 1,
 		});
 		expect(shouldStartPlayback(readPlaybackPreferences().autoplay, false)).toBe(false);
@@ -129,15 +131,22 @@ describe('reference playback preferences', () => {
 				setItem: (key: string, value: string) => values.set(key, value),
 			};
 			vi.stubGlobal('window', {localStorage: storage});
-			savePlaybackPreferences({autoplay, shortcuts: true, loop: false, speed: 0.75});
+			savePlaybackPreferences({autoplay, shortcuts: true, loop: false, muted: true, speed: 0.75});
 			expect(readPlaybackPreferences()).toEqual({
 				autoplay,
 				shortcuts: true,
 				loop: false,
+				muted: true,
 				speed: 0.75,
 			});
 			expect([...values.keys()].sort()).toEqual(
-				[AUTOPLAY_STORAGE_KEY, LOOP_STORAGE_KEY, SPEED_STORAGE_KEY, SHORTCUTS_STORAGE_KEY].sort(),
+				[
+					AUTOPLAY_STORAGE_KEY,
+					LOOP_STORAGE_KEY,
+					SPEED_STORAGE_KEY,
+					SHORTCUTS_STORAGE_KEY,
+					MUTED_STORAGE_KEY,
+				].sort(),
 			);
 		},
 	);
@@ -185,10 +194,17 @@ describe('reference playback preferences', () => {
 				autoplay: 'follow',
 				shortcuts: true,
 				loop: true,
+				muted: true,
 				speed: 1,
 			});
 			expect(() =>
-				savePlaybackPreferences({autoplay: 'always', shortcuts: true, loop: false, speed: 0.5}),
+				savePlaybackPreferences({
+					autoplay: 'always',
+					shortcuts: true,
+					loop: false,
+					muted: false,
+					speed: 0.5,
+				}),
 			).not.toThrow();
 		}
 	});
@@ -203,14 +219,77 @@ describe('single-key shortcut opt-out', () => {
 				setItem: (key: string, value: string) => values.set(key, value),
 			},
 		});
-		savePlaybackPreferences({autoplay: 'follow', loop: true, speed: 1, shortcuts: false});
-		expect(readPlaybackPreferences()).toEqual({
+		savePlaybackPreferences({
 			autoplay: 'follow',
 			loop: true,
+			muted: true,
 			speed: 1,
 			shortcuts: false,
 		});
-		savePlaybackPreferences({autoplay: 'follow', loop: true, speed: 1, shortcuts: true});
+		expect(readPlaybackPreferences()).toEqual({
+			autoplay: 'follow',
+			loop: true,
+			muted: true,
+			speed: 1,
+			shortcuts: false,
+		});
+		savePlaybackPreferences({
+			autoplay: 'follow',
+			loop: true,
+			muted: true,
+			speed: 1,
+			shortcuts: true,
+		});
 		expect(readPlaybackPreferences().shortcuts).toBe(true);
+	});
+});
+
+describe('remembered source audio', () => {
+	it.each([null, '', 'true', 'broken', '{invalid', '0', 'null'])(
+		'keeps the first-open mute default for absent or invalid value %j',
+		value => {
+			vi.stubGlobal('window', {
+				localStorage: {getItem: (key: string) => (key === MUTED_STORAGE_KEY ? value : null)},
+			});
+			expect(readPlaybackPreferences().muted).toBe(true);
+		},
+	);
+	it('remembers an explicit unmute independently of learner data and other player choices', () => {
+		const values = new Map<string, string>([
+			[AUTOPLAY_STORAGE_KEY, 'paused'],
+			[LOOP_STORAGE_KEY, 'false'],
+			[SPEED_STORAGE_KEY, '0.75'],
+			[SHORTCUTS_STORAGE_KEY, 'false'],
+		]);
+		vi.stubGlobal('window', {
+			localStorage: {
+				getItem: (key: string) => values.get(key) ?? null,
+				setItem: (key: string, value: string) => values.set(key, value),
+			},
+		});
+		const original = readPlaybackPreferences();
+		expect(original.muted).toBe(true);
+		savePlaybackPreferences({...original, muted: false});
+		expect(values.get(MUTED_STORAGE_KEY)).toBe('false');
+		expect(readPlaybackPreferences()).toEqual({...original, muted: false});
+		savePlaybackPreferences({...original, muted: true});
+		expect(readPlaybackPreferences()).toEqual(original);
+		expect([...values.keys()].every(key => key.startsWith('hyper-chamber:player-'))).toBe(true);
+	});
+	it('does not overwrite the current sound choice when persistence is blocked', () => {
+		vi.stubGlobal('window', {
+			localStorage: {
+				getItem() {
+					throw new Error('blocked');
+				},
+				setItem() {
+					throw new Error('full');
+				},
+			},
+		});
+		const current = {...readPlaybackPreferences(), muted: false};
+		expect(() => savePlaybackPreferences(current)).not.toThrow();
+		expect(current.muted).toBe(false);
+		expect(readPlaybackPreferences().muted).toBe(true);
 	});
 });

@@ -1,5 +1,7 @@
 # Luke source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026. **118 references** (17 preserved, 101 added): 49 combos, 61 setups and 8 responses, with 593 selected moments. The additions contribute 521 moments: 34 combos, 59 setups and 8 responses. Every original catalog object, revision, related link and media file is preserved.
 
 ## Sources and provenance

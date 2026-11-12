@@ -1,5 +1,7 @@
 # E. Honda source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026.
 
 This collection now contains **50 references** (27 combos, 19 setups and 4 responses), expanded from 13. It covers practical light/medium/heavy confirms, normal and counter-hit conversions, punish routes, Spirit/Drive/Super use, wall splats, side switches and separate Headbutt, Smash and throw-pressure branches. One focused companion supplies an anti-air reset. The remaining source candidates are explicitly listed in [the extraction ledger](source-ledgers/ehonda.json); this count does not imply complete extraction.

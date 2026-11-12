@@ -1,5 +1,7 @@
 # Lily source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026.
 
 73 references: 22 combos, 38 setups and 13 responses, with 361 selected moments. This pass adds 57 distinct demonstrations and 292 moments. It is a partial practice compendium.

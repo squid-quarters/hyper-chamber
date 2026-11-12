@@ -69,6 +69,26 @@ function reference(patch: Partial<Reference> = {}): Reference {
 }
 
 describe('catalog boundaries', () => {
+	it('retains declared source audio while supporting older silent references', () => {
+		const legacy = reference();
+		expect(referenceSchema.parse(legacy).media.hasAudio).toBeUndefined();
+		const audible = {
+			...legacy,
+			media: {...legacy.media, clip: '/media/yoga-test/clip.mp4', hasAudio: true},
+		};
+		expect(referenceSchema.parse(audible).media.hasAudio).toBe(true);
+		expect(
+			referenceSchema.safeParse({...legacy, media: {...legacy.media, hasAudio: true}}).success,
+		).toBe(false);
+	});
+
+	it.each(['true', 1, null])('rejects an ambiguous audio-availability value %j', hasAudio => {
+		const entry = reference();
+		expect(referenceSchema.safeParse({...entry, media: {...entry.media, hasAudio}}).success).toBe(
+			false,
+		);
+	});
+
 	it('accepts references with valid relationships regardless of list order', () => {
 		const first = reference({relatedIds: ['follow-up']});
 		const second = reference({id: 'follow-up'});

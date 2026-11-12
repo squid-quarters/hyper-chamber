@@ -1,5 +1,7 @@
 # Ken source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026. The collection contains **58 references** (13 preserved, 45 added): 29 combos, 23 setups and 6 responses, with 240 selected moments. The additions contribute 185 selected moments. Existing reference objects, revisions, related links and media are preserved.
 
 ## Sources and provenance

@@ -1,5 +1,7 @@
 # Yasmine source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026.
 
 This collection contains 54 references and 162 annotated moments. All 12 original references are preserved unchanged; 42 additions contain 14 combos, 23 setups and five responses. Each reference has a silent individual replay clip, selected stills and timed action descriptions. It is a curated practice collection, not complete tutorial coverage or current-patch certification.

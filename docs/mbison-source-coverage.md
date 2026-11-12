@@ -1,5 +1,7 @@
 # M. Bison source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026.
 
 The library now contains **60 references** (20 combos, 35 setups and 5 responses), expanded from 13. The 47 additions deepen three Backfist knockdown trees, plain confirms, punish-counter links and concrete defensive responses. [The source ledger](source-ledgers/mbison.json) records every selection, exact unselected timeline complement and grouped dispositions.

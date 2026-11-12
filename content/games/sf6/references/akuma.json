@@ -92,7 +92,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu lands after heavy Gou Shoryuken."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -182,7 +183,8 @@
 					"label": "Throw knockdown",
 					"alt": "The forward throw leaves Ryu on the floor."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-beginner-dp-rush-shimmy", "akuma-joe-beginner-dp-rush-forward-medium"]
 	},
@@ -278,7 +280,8 @@
 					"label": "Punish",
 					"alt": "Crouching medium punch punishes the missed throw."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-beginner-dp-rush-throw", "akuma-joe-beginner-dp-rush-forward-medium"]
 	},
@@ -394,7 +397,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu lands after the heavy-Tatsu ender."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-beginner-dp-rush-throw", "akuma-joe-beginner-dp-rush-shimmy"]
 	},
@@ -484,7 +488,8 @@
 					"label": "Corner retained",
 					"alt": "Ryu lands in the corner after the throw."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-beginner-corner-dp-mk-shimmy",
@@ -590,7 +595,8 @@
 					"label": "Punish",
 					"alt": "Crouching medium punch punishes the whiffed throw."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-beginner-corner-dp-mk-throw", "akuma-joe-beginner-corner-dp-mk-meaty"]
 	},
@@ -694,7 +700,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu lands in the corner again."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-beginner-corner-dp-mk-throw",
@@ -790,7 +797,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu lands after the ground-hit heavy Tatsu."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -917,7 +925,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu lands after the Flame follow-up."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -1004,7 +1013,8 @@
 					"label": "Corner retained",
 					"alt": "Ryu lands back in the corner."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-beginner-corner-ground-tatsu-mk-shimmy",
@@ -1103,7 +1113,8 @@
 					"label": "Punish",
 					"alt": "Crouching medium punch punishes the missed throw."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-beginner-corner-ground-tatsu-mk-throw",
@@ -1227,7 +1238,8 @@
 					"label": "Juggle knockdown",
 					"alt": "Ryu lands after the air-hit heavy Tatsu."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-beginner-corner-ground-tatsu-mk-throw",
@@ -1320,7 +1332,8 @@
 					"label": "Corner retained",
 					"alt": "Ryu lands in the corner after the throw."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-beginner-corner-air-tatsu-mk-shimmy"]
 	},
@@ -1416,7 +1429,8 @@
 					"label": "Punish",
 					"alt": "Crouching medium punch punishes the whiffed throw."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-beginner-corner-air-tatsu-mk-throw"]
 	},
@@ -1523,7 +1537,8 @@
 					"label": "Throw knockdown",
 					"alt": "The forward throw leaves Ryu on the floor."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-beginner-flame-double-dash-shimmy"]
 	},
@@ -1624,7 +1639,8 @@
 					"label": "Punish",
 					"alt": "Crouching medium punch punishes the whiffed throw."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-beginner-flame-double-dash-throw"]
 	},
@@ -1744,7 +1760,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu lands after the juggle ender."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -1911,7 +1928,8 @@
 					"label": "Hard knockdown",
 					"alt": "The Level 3 finishes and leaves Ryu in hard knockdown."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -2011,7 +2029,8 @@
 					"label": "Corner knockdown",
 					"alt": "The throw sends Ryu down beside the corner."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-classic-corner-dp-double-jab-meaty"]
 	},
@@ -2139,7 +2158,8 @@
 					"label": "Heavy Tatsu follow-up",
 					"alt": "Heavy Tatsu catches Ryu before the second knockdown."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-classic-corner-dp-double-jab-throw"]
 	},
@@ -2258,7 +2278,8 @@
 					"label": "Hard knockdown",
 					"alt": "Ryu lands after the Super finish."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -2383,7 +2404,8 @@
 					"label": "Throw knockdown",
 					"alt": "The throw sends Ryu back to the floor."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-classic-medium-tatsu-jump-block"]
 	},
@@ -2510,7 +2532,8 @@
 					"label": "Land blocking",
 					"alt": "Akuma has blocked the reversal and remains beside Ryu."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-classic-medium-tatsu-dash-throw"]
 	},
@@ -2605,7 +2628,8 @@
 					"label": "Throw knockdown",
 					"alt": "Ryu falls after the separate wake-up throw."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-classic-corner-light-rush-medium-kill-meaty"]
 	},
@@ -2729,7 +2753,8 @@
 					"label": "Second knockdown",
 					"alt": "Ryu lands after the wake-up conversion."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-classic-corner-light-rush-medium-kill-throw"]
 	},
@@ -2839,7 +2864,8 @@
 					"label": "Corner position",
 					"alt": "Ryu lands beside the corner after the second throw."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-classic-corner-throw-dash-meaty"]
 	},
@@ -2966,7 +2992,8 @@
 					"label": "Second knockdown",
 					"alt": "Heavy Tatsu completes the wake-up conversion."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-classic-corner-throw-rush-jab-throw"]
 	},
@@ -3084,7 +3111,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu lands after the Tatsu ender."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-classic-medium-rush-heavy-flame",
@@ -3206,7 +3234,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu falls at midscreen after the Flame follow-up."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-classic-medium-rush-medium-tatsu",
@@ -3337,7 +3366,8 @@
 					"label": "Corner knockdown",
 					"alt": "Ryu falls close to Akuma after the juggle."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-classic-medium-rush-heavy-flame",
@@ -3434,7 +3464,8 @@
 					"label": "Throw knockdown",
 					"alt": "The throw sends Ryu down beside the corner."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-classic-corner-medium-rush-flame-dp"]
 	},
@@ -3551,7 +3582,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu lands after the low confirm."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": []
 	},
@@ -3646,7 +3678,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu falls after the counter-hit conversion."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-classic-overhead-punish-sweep"]
 	},
@@ -3729,7 +3762,8 @@
 					"label": "Hard knockdown",
 					"alt": "Ryu lands from the sweep."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-classic-overhead-counter-dp"]
 	},
@@ -3852,7 +3886,8 @@
 					"label": "Corner knockdown",
 					"alt": "Ryu recovers beside the corner after the Tatsu ender."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-beginner-corner-od-flame-fireball-tatsu",
@@ -3975,7 +4010,8 @@
 					"label": "Hard knockdown",
 					"alt": "Ryu falls at the end of Level 1."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-beginner-corner-od-flame-fireball-tatsu",
@@ -4099,7 +4135,8 @@
 					"label": "Corner finish",
 					"alt": "Ryu recovers after the Tatsu ender."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-late-corner-sa1", "akuma-joe-late-corner-od-tatsu"]
 	},
@@ -4220,7 +4257,8 @@
 					"label": "Corner finish",
 					"alt": "Ryu recovers in the corner after the punish."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-late-reversal-punish-carry",
@@ -4337,7 +4375,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu recovers after the midscreen conversion."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-late-counter-di-fireball-juggle"]
 	},
@@ -4487,7 +4526,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu recovers in the corner after the Shoryuken ender."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-late-counter-di-medium-tatsu"]
 	},
@@ -4594,7 +4634,8 @@
 					"label": "Corner knockdown",
 					"alt": "Ryu recovers beside the wall after the ender."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-late-wall-splat-od-flame"]
 	},
@@ -4711,7 +4752,8 @@
 					"label": "Corner finish",
 					"alt": "Ryu recovers at the end of the OD Flame route."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-late-wall-splat-fireball",
@@ -4832,7 +4874,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu recovers after the air-to-air conversion."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-late-air-to-air-sa1-tatsu"]
 	},
@@ -4946,7 +4989,8 @@
 					"label": "Corner finish",
 					"alt": "Ryu recovers in the corner after the Tatsu ender."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-late-air-to-air-fireball"]
 	},
@@ -5100,7 +5144,8 @@
 					"label": "Corner reached",
 					"alt": "Ryu recovers beside the corner at the end of the carry route."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": [
 			"akuma-joe-late-reversal-punish-demon-flip",
@@ -5235,7 +5280,8 @@
 					"label": "Knockdown",
 					"alt": "Ryu recovers after the Demon Flip conversion."
 				}
-			]
+			],
+			"hasAudio": true
 		},
 		"relatedIds": ["akuma-joe-late-reversal-punish-carry"]
 	}

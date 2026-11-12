@@ -1,5 +1,7 @@
 # Chun-Li source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 10 November 2026.
 
 The Chun-Li collection contains 52 selected references: 40 combos, 9 setups and 3 defensive responses, with 298 annotated moments. Every reference has a silent looping replay, selected stills and timed action descriptions. This is a curated practice collection rather than an exhaustive character guide or a transcription of every source variation.

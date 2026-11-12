@@ -1,5 +1,7 @@
 # Juri source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026. **136 references** (14 preserved, 122 added): 68 combos, 58 setups and 10 responses, with 611 selected moments. The additions contribute 551 moments. Every original catalog object, revision, related link and media file is preserved.
 
 ## Sources and provenance

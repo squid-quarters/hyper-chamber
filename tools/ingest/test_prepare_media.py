@@ -52,7 +52,7 @@ class PresentationClockTests(unittest.TestCase):
         # The first retained source frame is at 0.2s; blue starts at clip time 0.8s.
         # A second rounded-up seek used to show blue prematurely at 0.79s.
         reference = self.reference(1.04, [0.79, 0.82])
-        media.prepare(reference, self.source, 0)
+        media.prepare(reference, self.source, 0, allow_silent=True)
         clip = media.STATIC / 'media/clock-example/clip.mp4'
         probe = json.loads(subprocess.check_output([
             'ffprobe', '-v', 'error', '-show_entries', 'stream=start_time', '-of', 'json', str(clip),
@@ -67,7 +67,7 @@ class PresentationClockTests(unittest.TestCase):
 
     def test_trimming_before_a_source_cut_excludes_the_next_take(self):
         reference = self.reference(0.99, [0.78])
-        media.prepare(reference, self.source, 0)
+        media.prepare(reference, self.source, 0, allow_silent=True)
         red, blue = self.color(media.STATIC / 'media/clock-example/0.png')
         self.assertGreater(red, 200)
         self.assertLess(blue, 40)

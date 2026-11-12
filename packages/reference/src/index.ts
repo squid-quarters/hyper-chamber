@@ -118,6 +118,7 @@ export const referenceSchema = z
 		}),
 		media: z.object({
 			clip: localMedia.optional(),
+			hasAudio: z.boolean().optional(),
 			descriptionTrack: localMedia.optional(),
 			poster: localMedia,
 			frames: z
@@ -135,6 +136,12 @@ export const referenceSchema = z
 		relatedIds: z.array(z.string()),
 	})
 	.superRefine((r, ctx) => {
+		if (r.media.hasAudio && !r.media.clip)
+			ctx.addIssue({
+				code: 'custom',
+				path: ['media', 'hasAudio'],
+				message: 'Source audio requires a replay clip',
+			});
 		if (r.source.end <= r.source.start)
 			ctx.addIssue({
 				code: 'custom',

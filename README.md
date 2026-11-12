@@ -6,7 +6,7 @@ It started with Dhalsim and now has over 2,000 references across 32 Street Fight
 
 ![Ryu practice view, with the input sequence above a paused combo replay and playback controls.](docs/screenshots/practice.webp)
 
-Loop a demonstration, slow it down or drag anywhere on the video to inspect a transition. Inputs stay above the replay, with selected key moments, execution notes and source details further down. Previous and Next follow your filtered results, and Quick switch lets you find another reference without returning to the library.
+Loop a demonstration, slow it down or drag anywhere on the video to inspect a transition. Source audio is available when you want it; clips start muted and remember your sound preference. Inputs stay above the replay, with selected key moments, execution notes and source details further down. Previous and Next follow your filtered results, and Quick switch lets you find another reference without returning to the library.
 
 ![Dhalsim's library, showing search, training-goal filters and reference cards with gameplay previews.](docs/screenshots/library.webp)
 

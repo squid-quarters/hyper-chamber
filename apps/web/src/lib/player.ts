@@ -1,6 +1,8 @@
 export type DragAxis = 'pending' | 'horizontal' | 'vertical';
 
 export const LOOP_STORAGE_KEY = 'hyper-chamber:player-loop:v1';
+export const OPEN_OVERLAY_SELECTOR =
+	'dialog[open], [data-character-picker-open="true"], [data-overlay-open="true"]';
 
 // Ignore hand jitter, then commit to one axis for the rest of the gesture.
 export function dragAxis(dx: number, dy: number): DragAxis {
@@ -41,11 +43,13 @@ export interface PlaybackPreferences {
 	autoplay: AutoplayMode;
 	shortcuts: boolean;
 	loop: boolean;
+	muted: boolean;
 	speed: PlaybackSpeed;
 }
 export const AUTOPLAY_STORAGE_KEY = 'hyper-chamber:player-autoplay:v1';
 export const SPEED_STORAGE_KEY = 'hyper-chamber:player-speed:v1';
 export const SHORTCUTS_STORAGE_KEY = 'hyper-chamber:player-shortcuts:v1';
+export const MUTED_STORAGE_KEY = 'hyper-chamber:player-muted:v1';
 
 export function isAutoplayMode(value: unknown): value is AutoplayMode {
 	return value === 'follow' || value === 'always' || value === 'paused';
@@ -70,6 +74,8 @@ export function readPlaybackPreferences(): PlaybackPreferences {
 		autoplay: isAutoplayMode(autoplay) ? autoplay : 'follow',
 		shortcuts: readSetting(SHORTCUTS_STORAGE_KEY) !== 'false',
 		loop: readLoopPreference(),
+		// Only an explicit saved unmute overrides the quiet first-open default.
+		muted: readSetting(MUTED_STORAGE_KEY) !== 'false',
 		speed: isPlaybackSpeed(speed) ? speed : 1,
 	};
 }
@@ -79,6 +85,7 @@ export function savePlaybackPreferences(preferences: PlaybackPreferences): void 
 		[AUTOPLAY_STORAGE_KEY, preferences.autoplay],
 		[SPEED_STORAGE_KEY, String(preferences.speed)],
 		[SHORTCUTS_STORAGE_KEY, String(preferences.shortcuts)],
+		[MUTED_STORAGE_KEY, String(preferences.muted)],
 	]) {
 		try {
 			window.localStorage.setItem(key, value);

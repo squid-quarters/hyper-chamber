@@ -1,5 +1,7 @@
 # Terry source coverage and review
 
+> Audio update, 12 November 2026: prepared clips now include their original source audio and start muted in the player. Earlier references to silent clips below describe the original source-review pass. Video, annotations and execution revisions are unchanged; see the [restoration record](../content/audio-restoration.json).
+
 Reviewed on 12 November 2026.
 
 Terry now has **55 references** (26 combos, 23 setups and 6 responses), expanded from 15. The 40 additions deepen heavy-Tackle, medium-Knuckle, corner light-Tackle, midscreen OD-route and Passing-Sway knockdown trees; add distinct punishes, counter-Impact/wall-splat options and a full Geyser cash-out; and introduce Burnout pressure and concrete Akuma landing-guard demonstrations. [The machine-readable source ledger](source-ledgers/terry.json) records all selections, exact unselected complements, duplicate/excluded actions and remaining unprocessed candidates.
