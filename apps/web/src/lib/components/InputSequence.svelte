@@ -293,8 +293,8 @@
 	}
 	.sequence-toolbar h3 {
 		font-size: 0.75rem;
-		letter-spacing: 0.09em;
-		text-transform: uppercase;
+		font-weight: 600;
+
 		color: var(--panel-muted);
 	}
 	.sequence-actions {
@@ -303,7 +303,7 @@
 		gap: 0.25rem 0.75rem;
 	}
 	.sequence-actions button {
-		min-block-size: 28px;
+		min-block-size: 30px;
 		padding: 0.2rem 0;
 		color: var(--panel-ink);
 		font-size: 0.8rem;
@@ -317,7 +317,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
-		gap: 0.35rem 0.7rem;
+		gap: 0.4rem 0.6rem;
 		margin: 0;
 	}
 	.compact .move-step {
@@ -329,15 +329,9 @@
 		padding: 0;
 	}
 	.compact .move-index {
-		display: inline;
-		flex: none;
-		width: auto;
-		height: auto;
-		border: 0;
-		border-radius: 0;
-		font-size: 0.7rem;
-		line-height: 1.6;
+		display: none;
 	}
+
 	.compact .move-content {
 		display: flex;
 		flex-wrap: wrap;
@@ -348,8 +342,12 @@
 		padding: 0;
 	}
 	.compact .move-notation {
-		font-size: 1rem;
-		line-height: 1.6;
+		padding: 2px 7px;
+		border: 1px solid var(--line);
+		border-radius: 3px;
+		background: var(--surface);
+		font-size: 0.95rem;
+		line-height: 1.5;
 	}
 	.compact .move-actor {
 		margin: 0;

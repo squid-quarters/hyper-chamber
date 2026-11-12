@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount, type Snippet } from 'svelte';
+	import { Play, Pause, RotateCcw, ArrowUpRight } from '@lucide/svelte';
 	import { sourceLink, type Reference } from '@hyper-chamber/reference';
 	import {
 		clampTime,
@@ -268,7 +269,6 @@
 		<div class="replay-panel">
 			<div class="section-heading">
 				<h3>Replay reference</h3>
-				<span class="eyebrow">SOURCE FOOTAGE</span>
 			</div>
 
 			{#if reference.media.clip}
@@ -344,11 +344,14 @@
 								onclick={togglePlayback}
 								aria-label={playing ? 'Pause clip' : 'Play clip'}
 							>
-								<span class="playback-symbol" aria-hidden="true">{playing ? 'Ⅱ' : '▶'}</span
-								>{playing ? 'Pause' : 'Play'}
+								{#if playing}<Pause size={13} aria-hidden="true" />{:else}<Play
+										size={13}
+										fill="currentColor"
+										aria-hidden="true"
+									/>{/if}{playing ? 'Pause' : 'Play'}
 							</button>
 							<button class="button small" onclick={replay} aria-keyshortcuts="R"
-								><span aria-hidden="true">↻</span> Replay</button
+								><RotateCcw size={13} aria-hidden="true" />Replay</button
 							>
 							<button
 								class="button small"
@@ -419,7 +422,8 @@
 						Local replay unavailable. <a
 							href={sourceLink(reference)}
 							target="_blank"
-							rel="noreferrer">Open the original source ↗</a
+							rel="noreferrer"
+							>Open the original source<ArrowUpRight size={13} aria-hidden="true" /></a
 						>
 					</p>
 					{@render playbackNotices()}
@@ -595,8 +599,8 @@
 		user-select: none;
 	}
 	.video-surface:focus-visible {
-		outline: 3px solid var(--panel-accent);
-		outline-offset: -3px;
+		outline: 2px solid var(--panel-accent);
+		outline-offset: -2px;
 	}
 	.scrubbing .video-surface {
 		cursor: grabbing;
@@ -653,10 +657,6 @@
 	.playback-button {
 		min-width: 78px;
 		justify-content: flex-start;
-	}
-	.playback-symbol {
-		width: 13px;
-		font-size: 11px;
 	}
 	.speed {
 		gap: 4px;

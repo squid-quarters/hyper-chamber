@@ -872,7 +872,7 @@
 		"summary": "A light starter converted into a full Drive and Level 3 spend.",
 		"kind": "combo",
 		"situations": ["Midscreen"],
-		"outcomes": ["Super finish", "Damage"],
+		"outcomes": ["Super finish", "Damage", "Cash-out"],
 		"notation": "st.LP > cr.LP > DRC > cr.LP > b.MP > DRC > cr.HP > b.MK > H Yoga Blast > SA3",
 		"inputs": [
 			{
@@ -3441,7 +3441,7 @@
 		"summary": "Spend the remaining Drive and Level 3 from the Float heavy starter.",
 		"kind": "combo",
 		"situations": ["Midscreen"],
-		"outcomes": ["Super finish", "Damage"],
+		"outcomes": ["Super finish", "Damage", "Cash-out"],
 		"notation": "Float > j.HP > cr.HP > DRC > cr.HP > b.MK > DRC > cr.HP > b.MK > M Yoga Flame > SA3",
 		"inputs": [
 			{
@@ -4010,7 +4010,7 @@
 		"summary": "Use crouching heavy punch as the punish starter before the cash-out route.",
 		"kind": "combo",
 		"situations": ["Midscreen", "Punish Counter"],
-		"outcomes": ["Super finish", "Damage"],
+		"outcomes": ["Super finish", "Damage", "Cash-out"],
 		"notation": "cr.HP > DRC > cr.HP > b.MK > DRC > cr.HP > b.MK > M Yoga Flame > SA3",
 		"inputs": [
 			{
@@ -4150,7 +4150,7 @@
 		"summary": "The crouching-heavy cash-out applied to the source’s blocked Blanka Ball example.",
 		"kind": "combo",
 		"situations": ["Midscreen", "Punish Counter"],
-		"outcomes": ["Super finish", "Damage"],
+		"outcomes": ["Super finish", "Damage", "Cash-out"],
 		"notation": "cr.HP > DRC > cr.HP > b.MK > DRC > cr.HP > b.MK > M Yoga Flame > SA3",
 		"inputs": [
 			{
@@ -4287,7 +4287,7 @@
 		"summary": "A long blocked-reversal punish using manual Float and an Arch extension.",
 		"kind": "combo",
 		"situations": ["Midscreen", "Punish Counter"],
-		"outcomes": ["Super finish", "Damage"],
+		"outcomes": ["Super finish", "Damage", "Cash-out"],
 		"notation": "DR > st.HK > Float > j.HP > cr.HP > DRC > st.HK > M Yoga Arch > b.MK > DRC > cr.HP > b.MK > H Yoga Blast > SA3",
 		"inputs": [
 			{
@@ -6925,7 +6925,7 @@
 		"summary": "Extend the double-Arch stun route through Drive Rush links into Level 3.",
 		"kind": "combo",
 		"situations": ["Corner", "Stun"],
-		"outcomes": ["Knockdown"],
+		"outcomes": ["Knockdown", "Cash-out"],
 		"notation": "DI > Backdash > L Yoga Arch > Yoga Float > j.HP > cr.HP > H Yoga Arch > b.MP > DR > cr.HP > b.MK > DR > cr.HP > b.MK > H Yoga Blast > SA3",
 		"inputs": [
 			{
@@ -7100,7 +7100,7 @@
 		"summary": "A second demonstration shows the Level 2 finish of the Drive Rush stun route.",
 		"kind": "combo",
 		"situations": ["Corner", "Stun"],
-		"outcomes": ["Knockdown"],
+		"outcomes": ["Knockdown", "Cash-out"],
 		"notation": "DR > cr.HP > b.MK > DR > cr.HP > b.MK > H Yoga Blast > SA2",
 		"inputs": [
 			{
@@ -7492,7 +7492,7 @@
 		"summary": "Spend the remaining Drive on the long Level 2-to-Level 1 stun route.",
 		"kind": "combo",
 		"situations": ["Corner", "Stun"],
-		"outcomes": ["Knockdown"],
+		"outcomes": ["Knockdown", "Cash-out"],
 		"notation": "DI > Dash > Backdash > H SA2 (held) > DR > b.HP > M Yoga Blast > DR > cr.HP > DR > b.HP > DR > b.HP > M Yoga Flame > SA1",
 		"inputs": [
 			{
@@ -14140,8 +14140,8 @@
 	{
 		"id": "dhalsim-full-late-arch-counter-cash-out",
 		"revision": 1,
-		"title": "Light-Arch counter-hit cash-out",
-		"summary": "Use the wake-up slide and delayed Arch hit to reach the Rush heavy-punch cash-out.",
+		"title": "Light-Arch counter hit into Level 3",
+		"summary": "The counter-hit slide and delayed Arch allow Rush back-heavy punches before medium Flame and Level 3.",
 		"kind": "combo",
 		"situations": ["Corner", "Oki"],
 		"outcomes": ["Super finish", "Damage"],

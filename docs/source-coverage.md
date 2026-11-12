@@ -1,8 +1,10 @@
 # Dhalsim source coverage
 
-Reviewed 7 November 2026.
+Source review: 7 November 2026. Cash-out classification review: 12 November 2026.
 
 The library contains **130 individual references** from [elieatscrayons’ July 2025 tutorial](https://www.youtube.com/watch?v=UW6GlWHKy7o). These include combos, setups, defensive examples, edited ender continuations and a clearly labelled spacing failure. They are source-reviewed; current-patch execution has not been tested.
+
+The **Cash-out** goal includes eight excerpts that visibly empty Dhalsim’s Drive gauge: the two-Rush light and Float confirms, three punish routes, two stun enders and the held-Level-2 full-Drive route. The edited Level-2 stun continuation remains labelled as a partial route. A Level-3 ender alone does not make an entry a cash-out: the Light-Arch counter-hit conversion retains Drive and is indexed under Oki and Super finish instead. This is classification of the recorded takes, not a current-patch resource guarantee.
 
 The index follows source order. Chapter metadata groups the rows; each row gives the reviewed excerpt interval. Repeated demonstrations are not multiplied into identical cards. The original short corner double-Blast extension remains alongside its full starter route to preserve existing links and learner notes. An edited continuation only lists actions actually visible in that excerpt.
 
@@ -169,6 +171,6 @@ The opening chapter list and text-only interstitials are context, rather than st
 | 12:57.44–13:00.95 | Heavy Blast into whiffed heavy and Rush kick     | `dhalsim-full-late-heavy-blast-rush-kick`      |
 | 13:00.95–13:07.65 | Rush kick trade into OD Flame and Level 1        | `dhalsim-full-late-rush-kick-trade-conversion` |
 | 13:08.35–13:12.59 | OD Flame into heavy kick and light Arch          | `dhalsim-full-late-od-flame-heavy-kick-arch`   |
-| 13:12.59–13:19.06 | Light-Arch counter-hit cash-out                  | `dhalsim-full-late-arch-counter-cash-out`      |
+| 13:12.59–13:19.06 | Light-Arch counter hit into Level 3              | `dhalsim-full-late-arch-counter-cash-out`      |
 | 13:19.06–13:22.63 | Light Arch against a wake-up parry               | `dhalsim-full-late-arch-parry-read-throw`      |
 | 13:22.63–13:28.08 | Light Arch: guard the wake-up reversal           | `dhalsim-full-late-arch-reversal-guard`        |
