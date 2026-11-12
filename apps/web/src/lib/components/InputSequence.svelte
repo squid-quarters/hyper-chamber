@@ -390,6 +390,33 @@
 	.compact-text-notation code {
 		user-select: all;
 	}
+	@media (max-width: 760px) {
+		.compact .sequence-toolbar {
+			margin-block-end: 10px;
+		}
+		.compact .sequence-toolbar h3 {
+			font-size: 14px;
+		}
+		.compact .sequence-actions {
+			gap: 0 14px;
+		}
+		.compact .sequence-actions button {
+			min-block-size: 44px;
+			font-size: 12px;
+		}
+		.compact .move-flow {
+			gap: 10px 8px;
+		}
+		.compact .move-notation {
+			padding: 5px 9px;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		.compact .move-connection {
+			width: 18px;
+			margin-inline-start: 2px;
+		}
+	}
 	@media (forced-colors: active) {
 		.move-index,
 		.move-cue,

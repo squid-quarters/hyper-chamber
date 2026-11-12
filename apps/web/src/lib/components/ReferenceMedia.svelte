@@ -725,6 +725,31 @@
 			margin-left: 0;
 		}
 	}
+	@media (max-width: 760px) {
+		.practice-media .player-toolbar {
+			gap: 2px 0;
+			padding-block: 6px;
+		}
+		.practice-media .player-toolbar .button {
+			min-block-size: 44px;
+			padding: 8px 10px;
+			font-size: 14px;
+		}
+		.practice-media .speed {
+			font-size: 13px;
+		}
+		.practice-media .speed select {
+			min-block-size: 44px;
+			font-size: 16px;
+		}
+		.practice-media .player-discovery {
+			font-size: 12px;
+			line-height: 1.6;
+		}
+		.practice-media .player-help summary {
+			min-block-size: 44px;
+		}
+	}
 	@media (forced-colors: active) {
 		.video-surface:focus-visible {
 			outline-color: Highlight;

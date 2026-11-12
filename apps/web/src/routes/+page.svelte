@@ -6,7 +6,6 @@
 	import {
 		filterReferences,
 		referenceGoals,
-		sourceLink,
 		type Reference,
 		type PersonalLibrary,
 		type PersonalEntry,
@@ -26,6 +25,7 @@
 	import CharacterPicker from '#lib/components/CharacterPicker.svelte';
 	import CharacterPortrait from '#lib/components/CharacterPortrait.svelte';
 	import NotationKey from '#lib/components/NotationKey.svelte';
+	import SourceDetails from '#lib/components/SourceDetails.svelte';
 	import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Search, Star, X } from '@lucide/svelte';
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	import InputSequence from '#lib/components/InputSequence.svelte';
@@ -464,8 +464,6 @@
 		message = 'Unsaved notes downloaded.';
 	}
 
-	const time = (seconds: number) =>
-		`${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2, '0')}`;
 	afterNavigate((navigation) => {
 		if (
 			!ready ||
@@ -534,7 +532,8 @@
 		<a
 			class="brand"
 			href={characterId === 'dhalsim' ? '/' : `/?character=${characterId}`}
-			aria-label="Hyper Chamber home"><BrandMark /><span>HYPER<br />CHAMBER</span></a
+			aria-label="Hyper Chamber home"
+			><BrandMark /><span class="brand-wordmark"><span>HYPER</span><span>CHAMBER</span></span></a
 		>
 		<CharacterPicker
 			characters={characterOptions}
@@ -545,8 +544,9 @@
 			onopen={() => document.querySelector<HTMLVideoElement>('.practice-view video')?.pause()}
 		/>
 		<nav class="header-actions" aria-label="Utilities">
-			<button onclick={() => help.showModal()}
-				><BookOpen size={16} aria-hidden="true" />Notation</button
+			<button aria-label="Notation" title="Notation" onclick={() => help.showModal()}
+				><BookOpen size={16} aria-hidden="true" /><span class="utility-label">Notation</span
+				></button
 			>
 			{#each game.guides as guide}<a
 					class="guide-link"
@@ -554,7 +554,8 @@
 					title={guide.label}
 					aria-label={guide.label}
 					target="_blank"
-					rel="noreferrer">Guides<ArrowUpRight size={15} aria-hidden="true" /></a
+					rel="noreferrer"
+					><span class="utility-label">Guides</span><ArrowUpRight size={15} aria-hidden="true" /></a
 				>{/each}
 		</nav>
 	</header>
@@ -985,34 +986,13 @@
 						</p>
 					</section>
 				</div>
-				<footer class="source-footer">
-					<div>
-						<span class="section-label">Source</span><a
-							href={sourceLink(selected)}
-							target="_blank"
-							rel="noreferrer"
-							>{selected.source.title}<ArrowUpRight size={14} aria-hidden="true" /></a
-						>
-						<p>
-							{selected.source.creator} · {time(selected.source.start)}–{time(selected.source.end)}
-						</p>
-					</div>
-					<div class="source-review">
-						<strong
-							>{selected.verification.status === 'source-reviewed'
-								? 'Source reviewed'
-								: 'Review pending'}</strong
-						>
-						<p>{selected.verification.note}</p>
-						<p>Game version: {selected.verification.gameVersion ?? 'not established'}.</p>
-					</div>
-				</footer>
+				<SourceDetails reference={selected} />
 				{#if selected.relatedIds.length}<section class="related">
 						<h2>Related references</h2>
 						<div>
 							{#each references.filter( (ref) => selected?.relatedIds.includes(ref.id) ) as ref}<button
 									onclick={() => selectEntry(ref)}
-									>{ref.title}<ArrowUpRight size={15} aria-hidden="true" /></button
+									>{ref.title}<ArrowRight size={15} aria-hidden="true" /></button
 								>{/each}
 						</div>
 					</section>{/if}
@@ -1085,5 +1065,5 @@
 		</p>{/if}
 </dialog>
 <dialog class="notation-dialog" bind:this={help} aria-labelledby="notation-title">
-	<NotationKey {game} character={subjectName} onclose={() => help.close()} />
+	<NotationKey {game} {characterId} character={subjectName} onclose={() => help.close()} />
 </dialog>
