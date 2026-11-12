@@ -24,11 +24,11 @@ Portraits are 512-pixel generated illustrations based on high-resolution SF6 ide
 
 ## Practice
 
-Previous and Next remain the primary actions, with targets at least 48 CSS pixels high, a visible filtered-result position and disabled ends. Back to library and Quick switch stay secondary. Preserve URL state, browser history, saved references, personal notes and the originating library scroll/focus.
+Previous and Next remain the primary actions, with targets at least 48 CSS pixels high, a visible filtered-result position and disabled ends. Back to library and Quick switch stay secondary. Preserve URL state, browser history, saved references, personal notes and the originating library scroll/focus. P/N navigate references, K plays or pauses and R replays; show desktop navigation key hints and keep shortcuts inactive while editing, composing text or using an overlay. Arrow keys remain scoped to clip inspection.
 
-Inputs precede the replay. Compact move nodes wrap in reading order and use SVG connectors for order only. They do not imply a cancel, link, branch or timing window. Authored move labels and execution cues remain in the expanded explanations. Plain-text notation and copy fallback remain available.
+Inputs precede the replay. Compact move nodes wrap in reading order and use SVG connectors for order only. They do not imply a cancel, link, branch or timing window. Authored move labels and execution cues remain in the expanded explanations. The compact input toolbar has one Copy inputs action. Notation help stays in the app bar; selectable original notation is shown automatically if copying fails.
 
-Keep inputs, replay and playback controls together in a laptop window. Longer disclosures and notes grow the page. Phones use natural vertical flow, 56-pixel Previous/Next controls, larger input tokens and 44-pixel playback controls. A compact practice app bar keeps the fighter picker and utility icons available while preserving room for the route and replay. Browsing retains the full wordmark. Playback stays explicit and silent; picture dragging, timing nudges and selected frames retain their existing behavior.
+Keep inputs, replay and playback controls together in a laptop window. Longer disclosures and notes grow the page. Phones use natural vertical flow, 56-pixel Previous/Next controls, larger input tokens and 44-pixel playback controls. A compact practice app bar keeps the fighter picker and utility icons available while preserving room for the route and replay. Browsing retains the full wordmark. Playback is silent. Autoplay offers Follow playback (default), Always play and Start paused for reference changes. Follow playback carries the current play/pause state; Quick switch preserves the state from before its temporary pause. A naturally ended non-looping clip counts as paused. Loop, speed and autoplay preferences persist separately from learner data, and remain usable in memory if storage is blocked. Changing the mode does not interrupt the current clip. Picture dragging, timing nudges and selected frames pause for inspection.
 
 ## Notation and supporting content
 
@@ -43,3 +43,7 @@ The page, footer and root share a continuous warm ivory canvas, including beyond
 The earlier [design exploration](docs/design-system-exploration.md) records the adopted Hourglass H and Chamber identity. [Wrangle](https://mobbin.com/screens/8bf2342f-1b0a-4ebc-843e-eb1a9de59702) and [Delphi](https://mobbin.com/screens/3bd2e734-61a0-40f5-ad42-4447060ec985) provide viewed examples of searchable portrait/name selection. [Duolingo](https://mobbin.com/screens/f11c28b3-230d-4971-9b17-409364020123) provides a viewed example of a visual selection with a toned state. Their structure informed the roster; its placement and Chamber styling are project decisions.
 
 Impeccable's Operate, copy and craft guidance informed this revision. The skill is installed at user scope; it is not vendored into this repository, and no detector hook is required to run the app.
+
+## App footer and version
+
+Display the web app version from apps/web/package.json, linked to the repository changelog. Attribute the app to Squid Quarters and keep only the project repository link accessible in a quiet footer with the small chamber mark. Add the Squid Quarters website only when its destination is ready. These are app versions, separate from each reference's game-version verification.

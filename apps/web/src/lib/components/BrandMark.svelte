@@ -1,5 +1,11 @@
+<script lang="ts">
+	let { size = 40 }: { size?: number } = $props();
+</script>
+
 <svg
 	class="brand-mark"
+	style:width={size + 'px'}
+	style:height={size + 'px'}
 	viewBox="0 0 64 64"
 	fill="currentColor"
 	aria-hidden="true"
@@ -11,8 +17,6 @@
 
 <style>
 	.brand-mark {
-		width: 40px;
-		height: 40px;
 		display: block;
 		flex: none;
 	}

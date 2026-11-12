@@ -114,6 +114,10 @@
 		.source-details {
 			padding: 20px;
 		}
+		.source-review p,
+		dd {
+			font-size: 13px;
+		}
 		.source-columns {
 			grid-template-columns: 1fr;
 			gap: 22px;

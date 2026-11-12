@@ -22,6 +22,7 @@
 		type LibraryPatches,
 	} from '#lib/personal';
 	import BrandMark from '#lib/components/BrandMark.svelte';
+	import AppFooter from '#lib/components/AppFooter.svelte';
 	import CharacterPicker from '#lib/components/CharacterPicker.svelte';
 	import CharacterPortrait from '#lib/components/CharacterPortrait.svelte';
 	import NotationKey from '#lib/components/NotationKey.svelte';
@@ -30,12 +31,30 @@
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	import InputSequence from '#lib/components/InputSequence.svelte';
 	import {
+		readPlaybackPreferences,
+		savePlaybackPreferences,
+		shouldStartPlayback,
+		type PlaybackPreferences,
+	} from '../lib/player';
+	import {
 		readLibraryReturn,
 		readCharacterLocation,
 		referenceLocation,
 		type LibraryReturn,
 	} from '../lib/navigation';
 
+	let playerPreferences = $state<PlaybackPreferences>({ autoplay: 'follow', loop: true, speed: 1 });
+	let startPlaying = $state(false);
+	let referenceVisit = $state(0);
+	let switcherWasPlaying = false;
+	function clipIsPlaying() {
+		const clip = document.querySelector<HTMLVideoElement>('.practice-view video');
+		return !!clip && !clip.paused && !clip.ended;
+	}
+	function updatePlayerPreferences(patch: Partial<PlaybackPreferences>) {
+		playerPreferences = { ...playerPreferences, ...patch };
+		savePlaybackPreferences(playerPreferences);
+	}
 	let characterId = $state(collections[0].id);
 	let collection = $derived(collections.find((item) => item.id === characterId) ?? collections[0]);
 	let references = $derived(collection.references);
@@ -161,7 +180,9 @@
 		return referenceLocation('https://hyper-chamber.invalid/', currentFilters(), id).search;
 	}
 	function readUrl() {
+		const wasPlaying = clipIsPlaying();
 		const next = readCharacterLocation(location.search, collections);
+		const changingReference = !practising || next.entryId !== selectedId;
 		characterId = next.characterId;
 		query = next.query;
 		kind = next.kind;
@@ -174,6 +195,13 @@
 			refinementsOpen = true;
 		practising = next.entryId !== null;
 		selectedId = next.entryId ?? references[0]?.id ?? '';
+		if (changingReference) {
+			startPlaying =
+				!!next.entryId &&
+				!!references.find((item) => item.id === next.entryId)?.media.clip &&
+				shouldStartPlayback(playerPreferences.autoplay, wasPlaying);
+			referenceVisit++;
+		}
 		if (next.invalidCharacter)
 			message = `That character library was not found. Showing ${subjectName}.`;
 		else if (next.invalidEntry)
@@ -252,6 +280,12 @@
 		window.scrollTo({ top: libraryReturn.scrollY, behavior: 'instant' });
 	}
 	async function selectEntry(ref: Reference, fromTile = false) {
+		const playNext =
+			!!ref.media.clip &&
+			shouldStartPlayback(
+				playerPreferences.autoplay,
+				switcher?.open ? switcherWasPlaying : clipIsPlaying(),
+			);
 		const revision = ++viewRevision;
 		if (!practising) {
 			captureLibrary(fromTile ? ref.id : switchOrigin);
@@ -260,6 +294,8 @@
 			await updateUrl();
 			if (revision !== viewRevision) return;
 		}
+		startPlaying = playNext;
+		referenceVisit++;
 		selectedId = ref.id;
 		practising = true;
 		if (switcher?.open) switcher.close();
@@ -368,6 +404,7 @@
 				? (document.activeElement.closest<HTMLAnchorElement>('.reference-card')?.dataset.entryId ??
 					null)
 				: null;
+		switcherWasPlaying = clipIsPlaying();
 		document.querySelector<HTMLVideoElement>('.practice-view video')?.pause();
 		switchQuery = '';
 		switchScope = results.length ? 'results' : 'all';
@@ -401,12 +438,46 @@
 		buttons[next]?.focus();
 	}
 	function shortcuts(event: KeyboardEvent) {
-		if (event.defaultPrevented || event.repeat) return;
+		if (event.defaultPrevented || event.repeat || event.isComposing) return;
 		if ((event.ctrlKey || event.metaKey) && !event.altKey && event.key.toLowerCase() === 'k') {
 			if (document.querySelector('dialog[open], [data-character-picker-open="true"]')) return;
 			event.preventDefault();
 			void openSwitcher();
 			return;
+		}
+		const key = event.key.toLowerCase();
+		const editable =
+			event.target instanceof Element &&
+			event.target.closest('input, textarea, select, [contenteditable]');
+		const overlayOpen = document.querySelector('dialog[open], [data-character-picker-open="true"]');
+		if (
+			practising &&
+			!editable &&
+			!overlayOpen &&
+			!event.ctrlKey &&
+			!event.metaKey &&
+			!event.altKey
+		) {
+			if (key === 'n' || key === 'p') {
+				const target = key === 'n' ? nextReference : previousReference;
+				if (target) {
+					event.preventDefault();
+					void selectEntry(target);
+				}
+				return;
+			}
+			if (key === 'k' || key === 'r') {
+				const control = document.querySelector<HTMLButtonElement>(
+					key === 'k'
+						? '.practice-view .playback-button'
+						: '.practice-view button[aria-keyshortcuts="R"]',
+				);
+				if (control) {
+					event.preventDefault();
+					control.click();
+				}
+				return;
+			}
 		}
 		if (
 			event.key !== 'Escape' ||
@@ -482,6 +553,7 @@
 		}
 	});
 	onMount(() => {
+		playerPreferences = readPlaybackPreferences();
 		const loaded = loadLibrary();
 		library = loaded.library;
 		storageError = loaded.error;
@@ -840,6 +912,7 @@
 					<div class="practice-pagination">
 						<button
 							class="practice-step practice-previous"
+							aria-keyshortcuts="P"
 							disabled={!previousReference}
 							onclick={() => previousReference && selectEntry(previousReference)}
 							aria-label="Previous reference"
@@ -847,7 +920,7 @@
 								? 'Reference is outside these results'
 								: (previousReference?.title ?? 'First reference in these results')}
 						>
-							<ArrowLeft size={18} aria-hidden="true" />Previous
+							<ArrowLeft size={18} aria-hidden="true" />Previous<kbd aria-hidden="true">P</kbd>
 						</button>
 						<div class="practice-position">
 							<span>{practiceContext}</span>
@@ -859,6 +932,7 @@
 						</div>
 						<button
 							class="practice-step practice-next"
+							aria-keyshortcuts="N"
 							disabled={!nextReference}
 							onclick={() => nextReference && selectEntry(nextReference)}
 							aria-label="Next reference"
@@ -866,7 +940,7 @@
 								? 'Reference is outside these results'
 								: (nextReference?.title ?? 'Last reference in these results')}
 						>
-							Next<ArrowRight size={18} aria-hidden="true" />
+							Next<kbd aria-hidden="true">N</kbd><ArrowRight size={18} aria-hidden="true" />
 						</button>
 					</div>
 					{#if selectedIndex < 0}<div class="practice-filter-recovery">
@@ -882,7 +956,13 @@
 							</div>
 						</div>{/if}
 				</nav>
-				{#key selected.id}<ReferenceMedia reference={selected} layout="practice">
+				{#key `${selected.id}:${referenceVisit}`}<ReferenceMedia
+						reference={selected}
+						layout="practice"
+						preferences={playerPreferences}
+						{startPlaying}
+						onpreferencechange={updatePlayerPreferences}
+					>
 						{#snippet beforeReplay()}
 							<header class="practice-heading">
 								<p class="practice-breadcrumb">
@@ -906,12 +986,7 @@
 								</div>
 							</header>
 							<section class="notation-panel" aria-label="Input sequence">
-								<InputSequence
-									reference={selected}
-									{game}
-									compact
-									onNotation={() => help.showModal()}
-								/>
+								<InputSequence reference={selected} {game} compact />
 							</section>
 						{/snippet}
 					</ReferenceMedia>{/key}
@@ -999,10 +1074,7 @@
 			</article>
 		{/if}
 	</main>
-	<footer class="site-footer">
-		<span>Hyper Chamber</span>
-		<p>Independent reference. Game names and characters belong to their respective owners.</p>
-	</footer>
+	<AppFooter />
 </div>
 <dialog class="quick-switch-dialog" bind:this={switcher} aria-labelledby="switch-title">
 	<div class="dialog-heading">

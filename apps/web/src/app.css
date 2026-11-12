@@ -1081,22 +1081,6 @@ kbd {
 .related button:hover {
 	background: var(--soft);
 }
-.site-footer {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	gap: 8px 24px;
-	margin-block-start: auto;
-	padding: 20px 32px;
-	border-block-start: 1px solid var(--line);
-	background: var(--canvas);
-	color: var(--muted);
-	font-size: 11px;
-}
-.site-footer > span {
-	font-weight: 600;
-}
 .notice,
 .global-notice,
 .revision-hint {
@@ -1735,9 +1719,6 @@ dialog > p {
 		grid-template-columns: 1fr;
 		gap: 22px;
 	}
-	.site-footer {
-		padding: 20px;
-	}
 	dialog,
 	.quick-switch-dialog {
 		padding: 20px;
@@ -2060,5 +2041,39 @@ dialog > p {
 	}
 	.practice-view .notation-panel {
 		padding: 14px;
+	}
+}
+
+@media (max-width: 760px) {
+	.practice-nav > .back-library,
+	.practice-nav > .quick-switch-trigger {
+		min-block-size: 44px;
+	}
+	.save-button {
+		inline-size: 44px;
+		block-size: 44px;
+	}
+	.personal-panel textarea,
+	.status-label select {
+		font-size: 16px;
+	}
+}
+
+.practice-step kbd {
+	display: inline-grid;
+	place-items: center;
+	min-inline-size: 18px;
+	min-block-size: 18px;
+	padding: 0 3px;
+	border: 1px solid currentColor;
+	border-radius: 3px;
+	font:
+		10px/1.2 'DM Sans',
+		sans-serif;
+	opacity: 0.7;
+}
+@media (max-width: 760px), (pointer: coarse) {
+	.practice-step kbd {
+		display: none;
 	}
 }
