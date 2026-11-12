@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { GameDefinition, Reference } from '@hyper-chamber/reference';
+	import { Check, Copy } from '@lucide/svelte';
 
 	let {
 		reference,
@@ -52,14 +53,16 @@
 <div class="input-sequence" class:compact>
 	<p class="sr-only">Moves in order. Connections show sequence only, not timing or cancel rules.</p>
 	{#if compact}
-		<div class="sequence-toolbar">
+		<div class="section-heading sequence-toolbar">
 			<h3>Input sequence</h3>
 			{#if showActions}
-				<div class="sequence-actions">
-					<button onclick={copyInputs}
-						>{copyState === 'Input sequence copied.' ? 'Copied' : 'Copy inputs'}</button
-					>
-				</div>
+				<button class="button copy-input-button" type="button" onclick={copyInputs}>
+					{#if copyState === 'Input sequence copied.'}
+						<Check size={16} aria-hidden="true" />Copied
+					{:else}
+						<Copy size={16} aria-hidden="true" />Copy inputs
+					{/if}
+				</button>
 			{/if}
 		</div>
 	{/if}
@@ -107,7 +110,14 @@
 			{/if}
 		{:else}
 			<div class="copy-inputs">
-				<button onclick={copyInputs}>Copy inputs</button><span role="status">{copyState}</span>
+				<button class="button copy-input-button" type="button" onclick={copyInputs}>
+					{#if copyState === 'Input sequence copied.'}
+						<Check size={16} aria-hidden="true" />Copied
+					{:else}
+						<Copy size={16} aria-hidden="true" />Copy inputs
+					{/if}
+				</button>
+				<span role="status">{copyState}</span>
 			</div>
 			{#if copyFallback}<p class="compact-text-notation"><code>{reference.notation}</code></p>{/if}
 		{/if}
@@ -124,11 +134,9 @@
 		font-size: 12px;
 		color: var(--panel-muted);
 	}
-	.copy-inputs button {
-		min-height: 40px;
-		border: 1px solid var(--border);
-		padding: 8px 12px;
-		color: var(--panel-ink);
+	.copy-input-button {
+		flex: none;
+		min-inline-size: 132px;
 	}
 	.input-sequence {
 		container-type: inline-size;
@@ -251,34 +259,7 @@
 		}
 	}
 	.sequence-toolbar {
-		display: flex;
 		flex-wrap: wrap;
-		align-items: center;
-		justify-content: space-between;
-		gap: 0.25rem 1rem;
-		margin-bottom: 0.35rem;
-	}
-	.sequence-toolbar h3 {
-		font-size: 0.75rem;
-		font-weight: 600;
-
-		color: var(--panel-muted);
-	}
-	.sequence-actions {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.25rem 0.75rem;
-	}
-	.sequence-actions button {
-		min-block-size: 30px;
-		padding: 0.2rem 0;
-		color: var(--panel-ink);
-		font-size: 0.8rem;
-		text-decoration: underline;
-		text-underline-offset: 3px;
-	}
-	.sequence-actions button:focus-visible {
-		outline-color: var(--panel-accent);
 	}
 	.compact .move-flow {
 		display: flex;
@@ -286,6 +267,9 @@
 		align-items: center;
 		gap: 0.4rem 0.6rem;
 		margin: 0;
+		padding: 12px 14px;
+		border-radius: 6px;
+		background: var(--soft);
 	}
 	.compact .move-step {
 		display: flex;
@@ -358,19 +342,6 @@
 		user-select: all;
 	}
 	@media (max-width: 760px) {
-		.compact .sequence-toolbar {
-			margin-block-end: 10px;
-		}
-		.compact .sequence-toolbar h3 {
-			font-size: 14px;
-		}
-		.compact .sequence-actions {
-			gap: 0 14px;
-		}
-		.compact .sequence-actions button {
-			min-block-size: 44px;
-			font-size: 12px;
-		}
 		.compact .move-flow {
 			gap: 10px 8px;
 		}

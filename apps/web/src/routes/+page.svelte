@@ -27,7 +27,17 @@
 	import NotationKey from '#lib/components/NotationKey.svelte';
 	import SourceDetails from '#lib/components/SourceDetails.svelte';
 	import ChoiceField from '#lib/components/ChoiceField.svelte';
-	import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, Search, Star, X } from '@lucide/svelte';
+	import {
+		ArrowLeft,
+		ArrowRight,
+		ArrowUpRight,
+		BookOpen,
+		ChevronDown,
+		Search,
+		SlidersHorizontal,
+		Star,
+		X,
+	} from '@lucide/svelte';
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	import InputSequence from '#lib/components/InputSequence.svelte';
 	import {
@@ -396,13 +406,6 @@
 			remaining[Math.min(index, remaining.length - 1)] ?? document.getElementById('library-search')
 		)?.focus();
 	}
-	async function showPunishCombos() {
-		const revision = ++viewRevision;
-		kind = 'combo';
-		await updateUrl();
-		await tick();
-		if (revision === viewRevision) document.getElementById('type-combo')?.focus();
-	}
 	async function openSwitcher() {
 		if (!ready || document.querySelector(OPEN_OVERLAY_SELECTOR)) return;
 		switchOrigin =
@@ -643,8 +646,8 @@
 	<main id="main-content">
 		{#if storageError}<p class="global-notice" role="alert">
 				{storageError} Your changes remain available in this session.
-				<button class="text-button" onclick={persistPending}>Retry saving</button><button
-					class="text-button"
+				<button class="button button--quiet" onclick={persistPending}>Retry saving</button><button
+					class="button button--quiet"
 					onclick={exportData}>Download unsaved notes</button
 				>
 			</p>{/if}
@@ -694,9 +697,12 @@
 							>
 						</div>
 						<button
-							class="text-button library-quick-switch"
+							class="button quick-switch-trigger library-quick-switch"
+							aria-label="Quick switch"
 							onclick={openSwitcher}
-							aria-keyshortcuts="Control+k Meta+k">Quick switch <kbd>⌘ / Ctrl K</kbd></button
+							aria-keyshortcuts="Control+k Meta+k"
+							><Search size={16} aria-hidden="true" /><span>Quick switch</span>
+							<kbd>⌘ / Ctrl K</kbd></button
 						>
 					</div>
 					<div class="browse-categories">
@@ -727,85 +733,89 @@
 							</div>
 						</fieldset>
 					</div>
-					{#if goal === 'punishes' && kind !== 'combo'}<p class="goal-note">
-							<button onclick={showPunishCombos}>Show punish combos</button>
-						</p>{/if}
 					<div class="filter-bottom">
-						<details class="library-refinements" bind:open={refinementsOpen}>
-							<summary
-								>Situation, outcome &amp; status <span
-									>{refinementCount ? `${refinementCount} active` : 'More filters'}</span
-								></summary
+						<div class="refinement-toolbar">
+							<button
+								class="button button--quiet refinement-trigger"
+								class:expanded={refinementsOpen}
+								aria-expanded={refinementsOpen}
+								aria-controls="library-refinements"
+								onclick={() => (refinementsOpen = !refinementsOpen)}
 							>
-							<div class="filters">
-								<ChoiceField
-									id="situation-filter"
-									label="Starting situation"
-									value={situation}
-									options={[
-										{ value: 'all', label: 'Any situation' },
-										...situations.map((value) => ({ value, label: value })),
-									]}
-									onchange={(value) => {
-										situation = value;
-										void updateUrl();
-									}}
-								/>
-								<ChoiceField
-									id="outcome-filter"
-									label="Outcome"
-									value={outcome}
-									options={[
-										{ value: 'all', label: 'Any outcome' },
-										...outcomes.map((value) => ({ value, label: value })),
-									]}
-									onchange={(value) => {
-										outcome = value;
-										void updateUrl();
-									}}
-								/>
-								<ChoiceField
-									id="practice-filter"
-									label="Practice status"
-									hint="Self-reported"
-									value={practice}
-									options={[
-										{ value: 'all', label: 'All statuses' },
-										{ value: 'untried', label: 'Untried' },
-										{ value: 'practising', label: 'Practising' },
-										{ value: 'reliable', label: 'Reliable' },
-									]}
-									onchange={(value) => {
-										practice = value;
-										void updateUrl();
-									}}
-								/>
+								<SlidersHorizontal size={16} aria-hidden="true" />
+								Refine results
+								{#if refinementCount}<span class="refinement-count">{refinementCount} active</span
+									>{/if}
+								<ChevronDown class="refinements-chevron" size={16} aria-hidden="true" />
+							</button>
+							<div class="results-meta">
+								<p class="result-count">
+									<strong>{results.length}</strong>
+									{results.length === 1 ? 'reference' : 'references'}
+								</p>
 							</div>
-						</details>
-						<div class="results-meta">
-							<p class="result-count">
-								<strong>{results.length}</strong>
-								{results.length === 1 ? 'reference' : 'references'}
-							</p>
-							{#if activeFilters.length}<button class="reset-filters" onclick={reset}
-									>Reset all filters</button
-								>{/if}
+						</div>
+						<div class="filters" id="library-refinements" hidden={!refinementsOpen}>
+							<ChoiceField
+								id="situation-filter"
+								label="Starting situation"
+								value={situation}
+								options={[
+									{ value: 'all', label: 'Any situation' },
+									...situations.map((value) => ({ value, label: value })),
+								]}
+								onchange={(value) => {
+									situation = value;
+									void updateUrl();
+								}}
+							/>
+							<ChoiceField
+								id="outcome-filter"
+								label="Outcome"
+								value={outcome}
+								options={[
+									{ value: 'all', label: 'Any outcome' },
+									...outcomes.map((value) => ({ value, label: value })),
+								]}
+								onchange={(value) => {
+									outcome = value;
+									void updateUrl();
+								}}
+							/>
+							<ChoiceField
+								id="practice-filter"
+								label="Practice status"
+								value={practice}
+								options={[
+									{ value: 'all', label: 'All statuses' },
+									{ value: 'untried', label: 'Untried' },
+									{ value: 'practising', label: 'Practising' },
+									{ value: 'reliable', label: 'Reliable' },
+								]}
+								onchange={(value) => {
+									practice = value;
+									void updateUrl();
+								}}
+							/>
 						</div>
 					</div>
-					{#if activeFilters.length}<ul
+					{#if activeFilters.length}<div
 							class="active-filters"
 							aria-label="Active filters"
-							role="list"
+							role="group"
 						>
-							{#each activeFilters as filter (filter.key)}<li>
-									<button
-										class="active-filter"
-										onclick={() => removeFilter(filter.key)}
-										aria-label={`Remove ${filter.label}`}
-										><span>{filter.label}</span><X size={13} aria-hidden="true" /></button
-									>
-								</li>{/each}
-						</ul>{/if}
+							{#each activeFilters as filter (filter.key)}
+								<button
+									class="active-filter"
+									onclick={() => removeFilter(filter.key)}
+									aria-label={`Remove ${filter.label}`}
+									><span>{filter.label}</span><X size={13} aria-hidden="true" /></button
+								>
+							{/each}
+							<button class="button button--quiet reset-filters" onclick={reset}
+								>Clear filters</button
+							>
+						</div>{/if}
 					<p class="sr-only" role="status" aria-atomic="true">{resultAnnouncement}</p>
 				</search>
 				<noscript
@@ -901,7 +911,7 @@
 										size={16}
 										aria-hidden="true"
 									/></button
-								><button class="text-button" onclick={reset}>Browse all references</button
+								><button class="button button--quiet" onclick={reset}>Browse all references</button
 								>{:else}<button class="button primary-button" onclick={reset}
 									>Browse all references<ArrowRight size={16} aria-hidden="true" /></button
 								>{/if}
@@ -911,13 +921,16 @@
 		{:else if selected && personal}
 			<article class="reference-detail practice-view" aria-label="Selected reference">
 				<nav class="practice-nav" aria-label="Practice navigation">
-					<button class="text-button back-library" onclick={returnToLibrary}
+					<button class="button button--quiet back-library" onclick={returnToLibrary}
 						><ArrowLeft size={16} aria-hidden="true" />Back to library <kbd>Esc</kbd></button
 					>
 					<button
-						class="button small quick-switch-trigger"
+						class="button quick-switch-trigger"
+						aria-label="Quick switch"
 						onclick={openSwitcher}
-						aria-keyshortcuts="Control+k Meta+k">Quick switch <kbd>⌘ / Ctrl K</kbd></button
+						aria-keyshortcuts="Control+k Meta+k"
+						><Search size={16} aria-hidden="true" /><span>Quick switch</span>
+						<kbd>⌘ / Ctrl K</kbd></button
 					>
 					<div class="practice-pagination">
 						<button
@@ -1001,7 +1014,7 @@
 									>
 								</div>
 							</header>
-							<section class="notation-panel" aria-label="Input sequence">
+							<section class="notation-panel compact-notation-panel" aria-label="Input sequence">
 								<InputSequence reference={selected} {game} compact />
 							</section>
 						{/snippet}
@@ -1047,7 +1060,6 @@
 					<section class="personal-panel">
 						<div class="section-heading">
 							<h2>Your notes</h2>
-							<span class="panel-meta">This browser</span>
 						</div>
 						{#if personal.revision !== selected.revision}<p class="revision-hint">
 								This reference has been updated since your saved notes. Recheck the source; your
@@ -1055,7 +1067,6 @@
 							</p>{/if}<ChoiceField
 							id="reference-practice-status"
 							label="Practice status"
-							hint="Self-reported"
 							value={personal.status}
 							options={[
 								{ value: 'untried', label: 'Untried' },
@@ -1101,7 +1112,7 @@
 <dialog class="quick-switch-dialog" bind:this={switcher} aria-labelledby="switch-title">
 	<div class="dialog-heading">
 		<h2 id="switch-title">Quick switch <span class="switch-character">{subjectName}</span></h2>
-		<button class="button small" onclick={() => switcher.close()}
+		<button class="button button--quiet" onclick={() => switcher.close()}
 			><X size={16} aria-hidden="true" />Close</button
 		>
 	</div>

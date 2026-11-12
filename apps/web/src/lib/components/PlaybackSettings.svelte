@@ -126,7 +126,7 @@
 
 <button
 	bind:this={trigger}
-	class="settings-trigger"
+	class="button button--quiet settings-trigger"
 	class:expanded={open}
 	aria-label="Playback settings"
 	aria-haspopup="dialog"
@@ -134,7 +134,6 @@
 	aria-controls={`${id}-playback-settings`}
 	popovertarget={nativePopover ? `${id}-playback-settings` : undefined}
 	onclick={toggle}
-	title="Playback settings"
 >
 	<Settings2 size={16} aria-hidden="true" /><span>Settings</span>
 </button>
@@ -151,8 +150,10 @@
 >
 	<header>
 		<h4 id={`${id}-settings-title`}>Playback settings</h4>
-		<button class="close-settings" onclick={() => close(true)} aria-label="Close playback settings"
-			><X size={18} aria-hidden="true" /></button
+		<button
+			class="icon-button close-settings"
+			onclick={() => close(true)}
+			aria-label="Close playback settings"><X size={18} aria-hidden="true" /></button
 		>
 	</header>
 	<div class="settings-body">
@@ -226,21 +227,6 @@
 </div>
 
 <style>
-	.settings-trigger {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		gap: 6px;
-		min-block-size: var(--control-size, 40px);
-		padding: 7px 10px;
-		border: 1px solid transparent;
-		font-size: 12px;
-		font-weight: 500;
-	}
-	.settings-trigger:hover,
-	.settings-trigger.expanded {
-		background: var(--soft);
-	}
 	.settings-panel {
 		position: fixed;
 		inset: auto;
@@ -267,8 +253,8 @@
 		align-items: center;
 		justify-content: space-between;
 		gap: 12px;
-		min-block-size: 56px;
-		padding: 4px 8px 4px 20px;
+		min-block-size: 48px;
+		padding: 4px 6px 4px 20px;
 		border-bottom: 1px solid var(--line);
 	}
 	h4,
@@ -277,19 +263,9 @@
 		font-size: 14px;
 		font-weight: 600;
 	}
-	.close-settings {
-		display: grid;
-		place-items: center;
-		flex: none;
-		inline-size: 44px;
-		block-size: 44px;
-	}
-	.close-settings:hover {
-		background: var(--soft);
-	}
 	.settings-body {
 		min-block-size: 0;
-		padding: 18px 20px 20px;
+		padding: 20px;
 		overflow-y: auto;
 		overscroll-behavior: contain;
 	}
@@ -462,8 +438,7 @@
 	}
 	@media (max-width: 760px) {
 		.settings-trigger {
-			inline-size: 44px;
-			min-block-size: 44px;
+			inline-size: var(--control-size);
 			padding-inline: 0;
 		}
 		.settings-trigger > span {

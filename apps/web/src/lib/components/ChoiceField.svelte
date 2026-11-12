@@ -279,7 +279,6 @@
 		aria-expanded={open}
 		aria-controls={`${id}-listbox`}
 		aria-activedescendant={open && activeIndex >= 0 ? optionId(activeIndex) : undefined}
-		title={`${label}: ${selected?.label ?? value}`}
 		onclick={() => (open ? close() : show())}
 		onkeydown={keys}
 		onblur={() => {
@@ -363,17 +362,20 @@
 		display: grid;
 		grid-template-columns: minmax(0, 1fr) 16px;
 		align-items: center;
-		gap: 8px;
+		gap: var(--control-gap);
 		inline-size: 100%;
 		min-inline-size: 0;
 		min-block-size: var(--control-size, 40px);
-		padding: 8px 12px;
+		padding: 8px var(--control-padding-inline);
 		border: 1px solid var(--border);
-		border-radius: 4px;
+		border-radius: var(--control-radius);
 		background: var(--surface);
 		color: var(--ink);
 		text-align: start;
-		font-size: 12px;
+		font-size: var(--control-font-size);
+	}
+	.compact .choice-label {
+		font-size: inherit;
 	}
 	.compact .choice-trigger {
 		grid-template-columns: auto minmax(0, 1fr) 16px;
@@ -419,10 +421,10 @@
 		align-items: center;
 		gap: 12px;
 		min-block-size: var(--control-size, 40px);
-		padding: 8px 12px;
+		padding: 8px var(--control-padding-inline);
 		border: 1px solid transparent;
 		border-radius: 3px;
-		font-size: 12px;
+		font-size: var(--control-font-size);
 		line-height: 1.45;
 		cursor: pointer;
 	}

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.1 (2026-11-13)
+
+- Unify secondary, quiet and icon actions, heading alignment, popup spacing and responsive playback controls.
+- Make Copy inputs a framed icon button with stable confirmation feedback; align Input sequence and Replay reference on the same content edges.
+- Simplify secondary filtering to Refine results, with active counts and full-width fields; group Clear filters with the applied selections.
+- Move replay gesture instructions into on-demand Controls help, available by mouse, touch and keyboard.
+- Remove duplicate filter actions, status hints and native tooltips from labeled controls.
+
 ## 0.3.0 (2026-11-12)
 
 - Restore original source audio to all 2,068 references while preserving encoded video, timestamps, selected moments and reference revisions. Start muted and remember the sound preference.
