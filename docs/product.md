@@ -12,7 +12,7 @@ The core unit is an individual reference: a combo, setup, or response. A referen
 - Tap a clip to play or pause, drag horizontally to inspect, and release to hold a moment. Loop, slow down, seek from a keyframe, or nudge by 0.25 seconds. Scoped R/J/L and arrow shortcuts work when a clip control has focus; Space activates the focused video button. Loop preference is remembered without autoplaying new references.
 - Copy the authored input sequence, with selectable text when clipboard access is unavailable.
 - A tile library opens a dedicated practice view, with inputs above replay and extra information below. Back restores library position; Previous/Next and Quick switch keep filtered or saved references in reach.
-- Personal status, notes, and favorites live in browser storage with JSON backup. Failed writes preserve pending changes and offer retry/export; failed clips offer retry/source access.
+- Personal status, notes, and favorites currently live in browser storage. The main interface has no backup manager; self-hosted SQLite for shared access from a PC, phone and tablet is planned, not implemented. Failed writes preserve pending changes and offer retry/export; failed clips offer retry/source access.
 - SF6 Lab supplies linked guides and longer explanations. Its organization informs terminology, not copied page layouts or an imported guide database.
 
 ## Boundaries

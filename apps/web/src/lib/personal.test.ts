@@ -168,7 +168,7 @@ describe('merging edits from multiple tabs', () => {
 		});
 		const pending = {'yoga-test': {note: 'Keep this unsaved note'}};
 		const failed = persistChanges(library, pending, storage);
-		expect(failed.error).toMatch(/Export a backup/);
+		expect(failed.error).toMatch(/Download unsaved notes/);
 		expect(failed.pending).toEqual(pending);
 		expect(failed.library['yoga-test'].note).toBe('Keep this unsaved note');
 		expect(loadLibrary(storage).library).toEqual(library);
@@ -319,7 +319,7 @@ describe('browser persistence', () => {
 			}),
 		};
 		expect(loadLibrary(storage).error).toMatch(/blocked or unavailable/);
-		expect(saveLibrary(library, storage)).toMatch(/Export a backup/);
+		expect(saveLibrary(library, storage)).toMatch(/Download unsaved notes/);
 		expect(createBackup(library)).toBe(original);
 	});
 
@@ -333,15 +333,15 @@ describe('browser persistence', () => {
 			}),
 		);
 		expect(loadLibrary().error).toMatch(/blocked or unavailable/);
-		expect(saveLibrary(library)).toMatch(/Export a backup/);
+		expect(saveLibrary(library)).toMatch(/Download unsaved notes/);
 	});
 
 	it('is safe during server rendering and when storage is unavailable', () => {
 		vi.stubGlobal('window', undefined);
 		expect(loadLibrary()).toEqual({library: {}, error: null});
-		expect(saveLibrary(library)).toMatch(/Export a backup/);
+		expect(saveLibrary(library)).toMatch(/Download unsaved notes/);
 		expect(loadLibrary(null).error).toMatch(/unavailable/);
-		expect(saveLibrary(library, null)).toMatch(/Export a backup/);
+		expect(saveLibrary(library, null)).toMatch(/Download unsaved notes/);
 	});
 
 	it('does not write invalid state', () => {

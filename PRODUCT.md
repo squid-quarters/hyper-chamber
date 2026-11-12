@@ -24,7 +24,7 @@ Used in a browser beside a running fighting game, often in a short laptop window
 
 ## Capabilities and Constraints
 
-Street Fighter 6 has populated character libraries. Other fighting games, including tag fighters, are future interests; game definitions own notation and vocabulary. References retain stable IDs, source provenance and explicit verification limits. Saved entries, practice status and notes are local, with JSON backup. There are no accounts, synchronization, gameplay detection or current-patch certification. See [scope and behavior](docs/product.md) for the full boundaries.
+Street Fighter 6 has populated character libraries. Other fighting games, including tag fighters, are future interests; game definitions own notation and vocabulary. References retain stable IDs, source provenance and explicit verification limits. Saved entries, practice status and notes currently remain in browser storage. Self-hosted SQLite, with one PC serving a shared library to phones and tablets, is the next storage direction; it is not implemented in this static app. The main interface has no backup-management workflow. There are no accounts, synchronization, gameplay detection or current-patch certification. See [scope and behavior](docs/product.md) for the full boundaries.
 
 ## Brand Commitments
 
@@ -32,7 +32,7 @@ The name pays homage to the Hyperbolic Time Chamber. Keep the Hourglass H identi
 
 ## Evidence on Hand
 
-Real reference catalogs, replay excerpts and selected source frames live in the repository. Preserve authored commands, constraints and media provenance. Do not invent gameplay results, timings, training progress or new artwork to fill space.
+Real reference catalogs, replay excerpts and selected source frames live in the repository. Preserve authored commands, constraints and media provenance. Do not invent gameplay results, timings or training progress. Character portraits are generated illustrations based on attributed high-resolution identity references; they are interface artwork, not source footage or in-game verification.
 
 ## Product Principles
 
