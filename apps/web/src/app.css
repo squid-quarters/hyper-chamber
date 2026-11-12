@@ -1578,9 +1578,9 @@ dialog > p {
 		inset: 0;
 		z-index: -1;
 		pointer-events: none;
-		background:
-			linear-gradient(#f3f0e7a6, #f3f0e7d9),
-			url('/art/chamber.webp') center top / 100% auto no-repeat;
+		background: url('/art/chamber.webp') center top / 100% auto no-repeat;
+		opacity: 0.38;
+		mask-image: linear-gradient(to bottom, #000 0, #000 10vw, transparent 32vw);
 	}
 }
 .reference-detail.practice-view:has(.practice-filter-recovery) {
