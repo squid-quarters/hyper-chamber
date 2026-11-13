@@ -8,8 +8,9 @@ listener. Both use the same SQLite database and installed reference packs.
 The desktop bundle contains its runtime, server, interface, fonts and three complete
 Dhalsim references. Users of an installed build do not need Node, pnpm, Rust or an AI
 agent to set it up. Additional character content arrives as `.hcpack` archives.
-Version `1.0.0-beta.1` is still unreleased: no installer, signed release, update feed
-or hosted project site has been published by this work.
+Version `1.0.0-beta.1` is still unreleased: no installer, signed release or update
+feed has been published. The static project site is published separately through
+GitHub Pages; it does not host the running application or its library.
 
 ## Responsibilities
 
@@ -179,5 +180,8 @@ isolate a native test from another running instance.
 
 `pnpm verify` covers formatting, lint, TypeScript, tests, non-native builds and media
 validation. `pnpm desktop:check` covers Rust formatting, Clippy and native tests.
-CI performs both and compiles an unsigned macOS app; it has no publishing,
-deployment or artifact-upload step.
+The Verify workflow performs both and compiles an unsigned macOS app without
+publishing it. A separate Project site workflow checks the microsite in pull
+requests and deploys only `apps/site/build` from reviewed `develop` changes or a
+manual run on that branch. Its Pages/OIDC permissions are confined to the deployment
+job; desktop releases, reference packs and learner data are outside that artifact.

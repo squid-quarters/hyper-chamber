@@ -2,6 +2,8 @@
 
 Hyper Chamber is a fighting-game reference from Squid Quarters, built to keep open beside training mode. Each reference brings together an input sequence, a short replay and execution notes, so you can revisit a combo or setup without finding the same moment in a long tutorial.
 
+Visit the [Hyper Chamber website](https://squid-quarters.github.io/hyper-chamber/) for screenshots and desktop beta status.
+
 It started with Dhalsim and now has over 2,000 references across 32 Street Fighter 6 character libraries. The focus is on the things you want to look up while practising; longer guides and lessons stay with the source creators and [SF6 Lab](https://sf6-lab.net/en/).
 
 ![Ryu practice view, with the input sequence above a paused combo replay and playback controls.](docs/screenshots/practice.webp)
@@ -23,7 +25,7 @@ You can browse by character and narrow the list to punishes, corner carry, oki, 
 
 The desktop app bundles its runtime and a small starter library: three complete Dhalsim demonstrations. Additional character packs contain their own references and media. It uses a local SQLite library, with optional access from phones and tablets on the same network. No account is needed.
 
-Version `1.0.0-beta.1` is unreleased. There are no published installers yet; the current desktop builds are local and unsigned. An installed build runs without Node, pnpm or a development setup. See the [desktop architecture and build notes](docs/desktop-architecture.md).
+Version `1.0.0-beta.1` is unreleased. There are no published installers yet; the current desktop builds are local and unsigned. The macOS build has been validated; Windows support has not been tested yet. An installed build runs without Node, pnpm or a development setup. See the [desktop architecture and build notes](docs/desktop-architecture.md).
 
 ## Run from source
 
@@ -54,7 +56,7 @@ The workspace contains the SvelteKit interface in `apps/web`, the SQLite/HTTP se
 pnpm verify
 ```
 
-This checks formatting, lint, types, tests, web/server/site builds and catalog/media validation. Native checks run separately with `pnpm desktop:check`; the [desktop notes](docs/desktop-architecture.md) explain the Rust and platform prerequisites. Changes go through pull requests into `develop`. CI validates both paths and does not publish installers or deploy the project site.
+This checks formatting, lint, types, tests, web/server/site builds and catalog/media validation. Native checks run separately with `pnpm desktop:check`; the [desktop notes](docs/desktop-architecture.md) explain the Rust and platform prerequisites. Changes go through pull requests into `develop`. Pull-request CI validates both paths. The [Pages workflow](.github/workflows/pages.yml) builds and publishes the project site from `apps/site` when its files change on `develop`, or when run manually on that branch. Desktop installer releases remain separate.
 
 Keep the app version and [CHANGELOG.md](CHANGELOG.md) aligned for user-facing changes. The root, web, server and desktop manifests identify this beta; this project does not use Changesets.
 
