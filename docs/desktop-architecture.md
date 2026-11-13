@@ -8,9 +8,11 @@ listener. Both use the same SQLite database and installed reference packs.
 The desktop bundle contains its runtime, server, interface, fonts and three complete
 Dhalsim references. Users of an installed build do not need Node, pnpm, Rust or an AI
 agent to set it up. Additional character content arrives as `.hcpack` archives.
-Version `1.0.0-beta.1` is still unreleased: no installer, signed release or update
-feed has been published. The static project site is published separately through
-GitHub Pages; it does not host the running application or its library.
+Version `1.0.0-beta.1` is the first public beta, distributed through GitHub Releases
+and the Squid Quarters Homebrew tap. Mac installers are ad-hoc signed and not
+notarized; Windows setup is unsigned. No automatic update feed is configured.
+The static project site is published separately through GitHub Pages; it does not
+host the running application or its library.
 
 ## Responsibilities
 
@@ -125,11 +127,14 @@ apply; creating a pack does not grant new redistribution rights.
 
 ## Contributor workflow
 
-Use Node 24, pnpm 10.16.1, Rust and the platform's native build prerequisites. Native
-validation currently targets macOS 13.5 or later with Xcode command-line tools. CI pins Node
-24.14.1 and Rust 1.94.1, including rustfmt and Clippy. Linux runs the web/server checks;
-a macOS job checks and compiles the native app. Other native platforms still need
-their own build and runtime validation.
+Use Node 24.14.1, pnpm 10.16.1, Rust 1.94.1 and the platform's native build
+prerequisites. CI pins those Node and Rust versions, including rustfmt and Clippy.
+Linux runs the web/server checks. The native installer matrix covers Mac Apple
+silicon, Intel Mac and Windows x64 on matching runners. It mounts each Mac disk
+image or installs Windows setup into an isolated directory, then checks the
+packaged app with a disposable library: startup, starter media, compiled interface,
+SQLite notes surviving restart and owned-process cleanup. These are release gates;
+the beta still needs broader testing on physical computers.
 
 ```sh
 pnpm install --frozen-lockfile
@@ -166,7 +171,7 @@ build hook prepares these resources again. Generated resources and native artifa
 stay out of Git. The local `.app` is under
 `apps/desktop/src-tauri/target/release/bundle/macos/`; this command does not sign,
 notarize, upload or publish it. `pnpm desktop:build` additionally builds the configured
-unsigned disk image. Desktop development uses `pnpm desktop:dev`.
+ad-hoc-signed disk image. Desktop development uses `pnpm desktop:dev`.
 
 Create a character archive from existing curated content without changing originals:
 
@@ -185,3 +190,25 @@ publishing it. A separate Project site workflow checks the microsite in pull
 requests and deploys only `apps/site/build` from reviewed `develop` changes or a
 manual run on that branch. Its Pages/OIDC permissions are confined to the deployment
 job; desktop releases, reference packs and learner data are outside that artifact.
+
+## Public beta distribution
+
+The first public beta is `1.0.0-beta.1`. GitHub Releases provides macOS Apple silicon, macOS Intel and Windows 64-bit installers, with checksums and build records. These are beta builds; platform smoke checks do not establish compatibility with every computer or current-patch accuracy for the reference library.
+
+The installed application includes its runtime and a small Dhalsim starter. User installation instructions belong in the root README and project site; source-build prerequisites remain in this document. Homebrew tap details and signing status must match the published release artifacts before their installation commands are advertised.
+
+Publish the release assets and checksums before switching the project site to direct download links. Keep the public-beta label, platform validation limits and first-launch warnings visible. Content-pack availability is a separate distribution decision and must not be inferred from the development library screenshots.
+
+### Installer contract
+
+The release tag is `v1.0.0-beta.1`. Release downloads use these asset names:
+
+- `Hyper-Chamber_1.0.0-beta.1_aarch64.dmg`: macOS Apple silicon, minimum macOS 13.5.
+- `Hyper-Chamber_1.0.0-beta.1_x64.dmg`: macOS Intel, minimum macOS 13.5.
+- `Hyper-Chamber_1.0.0-beta.1_x64-setup.exe`: Windows 10+ x64 with WebView2 included.
+
+Mac builds are ad-hoc signed with the hardened runtime and are not Apple-notarized. The Windows installer is unsigned. Public installation notes must describe these first-launch limits; do not replace them with commands that disable quarantine or operating-system security checks.
+
+The official Homebrew repository is `squid-quarters/homebrew-tap`, with cask token `hyper-chamber@beta`. Advertise `brew install --cask squid-quarters/tap/hyper-chamber@beta` only after the release files and reviewed tap recipe are public. The cask must preserve the user’s library on uninstall.
+
+The release includes one `.hcpack` per Street Fighter 6 character, covering 32 character libraries and 2,068 references. The bundled three-demo starter works without extra packs. Learner notes and progress remain separate from application and content updates.

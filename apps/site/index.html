@@ -4,11 +4,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="color-scheme" content="light" />
+		<meta name="application-version" content="1.0.0-beta.1" />
 		<meta name="theme-color" content="#202822" />
 		<title>Hyper Chamber — fighting-game practice references</title>
 		<meta
 			name="description"
-			content="Combo inputs, short replays and practice notes for Street Fighter 6. A native desktop app with phone and tablet browser access. Beta in development."
+			content="Combo inputs, short replays and practice notes for Street Fighter 6. A native desktop app with phone and tablet browser access. Public beta for macOS and Windows."
 		/>
 		<link rel="canonical" href="https://squid-quarters.github.io/hyper-chamber/" />
 		<link rel="icon" href="./assets/brand-mark.svg" type="image/svg+xml" />
@@ -66,7 +67,8 @@
 						or tablet over your local network.
 					</p>
 					<div class="hero-actions">
-						<a class="button button-primary" href="https://github.com/squid-quarters/hyper-chamber"
+						<a class="button button-primary" href="#downloads">Download beta</a>
+						<a class="text-link github-link" href="https://github.com/squid-quarters/hyper-chamber"
 							><svg
 								xmlns="http://www.w3.org/2000/svg"
 								class="github-mark"
@@ -81,11 +83,8 @@
 								/></svg
 							>View on GitHub</a
 						>
-						<a class="text-link" href="#inside">Inside the app</a>
 					</div>
-					<p class="development-status">
-						Beta in development. Public installers are not available yet.
-					</p>
+					<p class="release-status">Public beta · 1.0.0-beta.1. This is a test release.</p>
 				</div>
 				<figure class="practice-preview">
 					<img
@@ -143,8 +142,8 @@
 							</dd>
 						</div>
 						<div>
-							<dt>Windows <span>Planned</span></dt>
-							<dd>A Windows build has not been tested yet.</dd>
+							<dt>Windows <span>Native app · Beta</span></dt>
+							<dd>For Windows 10 or later, 64-bit. The installer includes the runtime it needs.</dd>
 						</div>
 					</dl>
 				</div>
@@ -158,12 +157,69 @@
 					/>
 				</figure>
 			</section>
+			<section class="download-section" id="downloads" aria-labelledby="download-title">
+				<div class="download-heading">
+					<h2 id="download-title">Install the beta</h2>
+					<p>
+						Hyper Chamber 1.0.0-beta.1 is a test release. It comes with three Dhalsim demonstrations
+						and runs without a development setup.
+					</p>
+				</div>
+				<div class="download-list" aria-label="Desktop installers">
+					<div>
+						<h3>macOS <span>Apple silicon</span></h3>
+						<p>For Macs with an Apple chip, running macOS 13.5 or later.</p>
+						<a
+							class="button"
+							href="https://github.com/squid-quarters/hyper-chamber/releases/download/v1.0.0-beta.1/Hyper-Chamber_1.0.0-beta.1_aarch64.dmg"
+							>Download for Apple silicon</a
+						>
+					</div>
+					<div>
+						<h3>macOS <span>Intel</span></h3>
+						<p>For Intel Macs running macOS 13.5 or later.</p>
+						<a
+							class="button"
+							href="https://github.com/squid-quarters/hyper-chamber/releases/download/v1.0.0-beta.1/Hyper-Chamber_1.0.0-beta.1_x64.dmg"
+							>Download for Intel Mac</a
+						>
+					</div>
+					<div>
+						<h3>Windows <span>64-bit</span></h3>
+						<p>For 64-bit Windows 10 or later. The installer includes WebView2.</p>
+						<a
+							class="button"
+							href="https://github.com/squid-quarters/hyper-chamber/releases/download/v1.0.0-beta.1/Hyper-Chamber_1.0.0-beta.1_x64-setup.exe"
+							>Download for Windows</a
+						>
+					</div>
+				</div>
+				<div class="install-details">
+					<div>
+						<h3>Homebrew on macOS</h3>
+						<p>Install the Mac app from the official Squid Quarters tap:</p>
+						<pre><code>brew install --cask squid-quarters/tap/hyper-chamber@beta</code></pre>
+						<p>Homebrew installs the same app and uses the same first-launch checks.</p>
+					</div>
+					<div>
+						<h3>Before opening the app</h3>
+						<p>
+							The Mac beta is ad-hoc signed and is not notarized by Apple. macOS may block its first
+							launch; follow
+							<a href="https://support.apple.com/en-us/102445"
+								>Apple’s instructions for opening an unnotarized app</a
+							>. The Windows installer is unsigned.
+						</p>
+					</div>
+				</div>
+			</section>
 			<section class="beta-section" id="beta" aria-labelledby="beta-title">
 				<div>
 					<h2 id="beta-title">About the beta</h2>
 					<p>
-						The beta starts with three Dhalsim demonstrations. More references can be added with
-						content packs. The screenshots on this page show the full development collection.
+						The app starts with three Dhalsim demonstrations. Add character content packs from the
+						release page for the rest of the collection. The screenshots on this page show the full
+						development library.
 					</p>
 					<p>
 						Each reference links back to its source, with review notes that distinguish checks
@@ -171,11 +227,14 @@
 					</p>
 				</div>
 				<div class="beta-availability">
-					<p class="beta-state">Downloads</p>
+					<p class="beta-state">Release notes and checksums</p>
 					<p>
-						Installers and setup notes will be published on GitHub Releases when the beta is ready.
+						The GitHub release includes character content packs, installation notes and checksums
+						for every download.
 					</p>
-					<a class="button" href="https://github.com/squid-quarters/hyper-chamber/releases"
+					<a
+						class="button"
+						href="https://github.com/squid-quarters/hyper-chamber/releases/tag/v1.0.0-beta.1"
 						><svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="github-mark"
@@ -188,7 +247,7 @@
 							<path
 								d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656"
 							/></svg
-						>Release status</a
+						>GitHub releases</a
 					>
 				</div>
 			</section>

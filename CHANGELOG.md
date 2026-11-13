@@ -1,13 +1,14 @@
 # Changelog
 
-## 1.0.0-beta.1 (unreleased)
+## 1.0.0-beta.1 (2026-11-13)
 
 - Use B / N for previous / next references and keep training-goal and reference-type controls stationary as filter counts change.
 - Add a Tauri desktop host with a bundled Node runtime and local SQLite library.
 - Share the same library with phones and tablets on the local network, with device access controlled from the desktop app.
 - Load references from content packs, separate from learner data and application updates; include a small complete Dhalsim starter.
 - Transfer existing browser notes without removing the originals. Preserve failed edits and ask before replacing conflicting notes.
-- Prepare a static project site with screenshots and release links. No site or public release is deployed by this change.
+- Publish the project site with screenshots, platform information and release links.
+- Publish macOS and Windows beta installers, character content packs and installation instructions, with an official Homebrew tap for macOS.
 
 ## 0.3.3 (2026-11-13)
 
