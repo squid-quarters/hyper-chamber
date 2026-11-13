@@ -157,6 +157,7 @@ h1 {
 	font-size: clamp(3.6rem, 5.7vw, 5.8rem);
 	line-height: 0.99;
 	letter-spacing: -0.015em;
+	text-wrap: balance;
 }
 .lede {
 	margin-top: 24px;
@@ -205,18 +206,9 @@ h1 {
 	padding-block: 10px;
 }
 .development-status {
-	display: flex;
-	gap: 8px;
-	align-items: center;
 	margin-top: 22px;
 	font-size: 12px;
 	color: var(--muted);
-}
-.development-status > span {
-	width: 6px;
-	height: 6px;
-	background: var(--accent);
-	border-radius: 50%;
 }
 .practice-preview {
 	min-width: 0;
@@ -255,7 +247,7 @@ h2 {
 	line-height: 1.8;
 	margin-top: 22px;
 }
-.practice-section {
+.platform-section {
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) minmax(260px, 390px);
 	gap: 10%;
@@ -263,22 +255,48 @@ h2 {
 	padding: 80px 7%;
 	border-top: 1px solid var(--line);
 }
-.practice-description {
+.platform-description {
 	max-width: 560px;
 }
-.practice-details {
+.platform-details {
 	margin-top: 28px;
 }
-.practice-details > div {
+.platform-details > div {
 	padding: 20px 0;
 	border-top: 1px solid var(--line);
 }
-.practice-details dt {
+.platform-intro {
+	margin-block-start: 22px;
+	color: var(--muted);
 	font-size: 15px;
+	line-height: 1.8;
+	max-inline-size: 51ch;
+}
+.platform-details dt {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 4px 14px;
+	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 8px;
 }
-.practice-details dd {
+.platform-details dt span {
+	font-size: 13px;
+	font-weight: 400;
+	color: var(--muted);
+}
+.github-mark {
+	fill: currentColor;
+	stroke: none;
+}
+.github-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	min-block-size: 44px;
+}
+.platform-details dd {
 	color: var(--muted);
 	font-size: 14px;
 	line-height: 1.8;
@@ -362,7 +380,7 @@ h2 {
 	.library-section {
 		gap: 44px;
 	}
-	.practice-section {
+	.platform-section {
 		gap: 8%;
 		padding-inline: 2%;
 	}
@@ -381,9 +399,6 @@ h2 {
 	}
 	h1 {
 		font-size: clamp(3.4rem, 9vw, 4.8rem);
-	}
-	h1 br:last-child {
-		display: none;
 	}
 	.lede {
 		max-width: 60ch;
@@ -406,7 +421,7 @@ h2 {
 		max-width: 60ch;
 		margin-top: 18px;
 	}
-	.practice-section {
+	.platform-section {
 		grid-template-columns: minmax(0, 1fr) minmax(180px, 250px);
 		padding: 52px 0;
 		gap: 36px;
@@ -432,11 +447,8 @@ h2 {
 		font-size: 19px;
 	}
 	nav {
-		gap: 18px;
+		gap: 14px;
 		font-size: 13px;
-	}
-	nav a:first-child {
-		display: none;
 	}
 	main {
 		padding-inline: 20px;
@@ -447,9 +459,6 @@ h2 {
 	}
 	h1 {
 		font-size: clamp(3.25rem, 13.8vw, 4.5rem);
-	}
-	h1 br:last-child {
-		display: inline;
 	}
 	.lede {
 		font-size: 15px;
@@ -465,14 +474,14 @@ h2 {
 	h2 {
 		font-size: 2.4rem;
 	}
-	.practice-section,
+	.platform-section,
 	.beta-section {
 		grid-template-columns: 1fr;
 	}
-	.practice-section {
+	.platform-section {
 		gap: 32px;
 	}
-	.practice-details {
+	.platform-details {
 		margin-top: 22px;
 	}
 	.phone-preview {
@@ -498,9 +507,6 @@ h2 {
 	}
 }
 @media (forced-colors: active) {
-	.development-status > span {
-		background: CanvasText;
-	}
 	.button {
 		border-color: ButtonText;
 	}
