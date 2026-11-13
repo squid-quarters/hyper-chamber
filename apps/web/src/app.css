@@ -299,7 +299,6 @@ a > svg {
 .library-filters {
 	display: grid;
 	gap: 12px;
-	padding-block: 0 12px;
 	border-block-end: 1px solid var(--line);
 }
 .library-search-row {
@@ -451,9 +450,6 @@ kbd {
 .detail-disclosure[open] > summary::before {
 	transform: rotate(90deg);
 }
-.refinement-trigger {
-	margin-inline-start: calc(-1 * var(--control-padding-inline));
-}
 .refinement-count {
 	color: var(--muted);
 	font-size: 11px;
@@ -481,6 +477,7 @@ kbd {
 	align-items: center;
 	min-block-size: var(--control-size);
 	margin: 0;
+	margin-inline-start: auto;
 	font-size: 12px;
 	color: var(--muted);
 }
@@ -1817,8 +1814,8 @@ dialog > p {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	gap: 0 12px;
-	padding-block: 4px;
+	gap: 4px 12px;
+	padding-block: 8px;
 }
 .roster-panel {
 	overflow: clip;
