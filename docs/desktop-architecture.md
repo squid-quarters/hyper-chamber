@@ -127,11 +127,14 @@ apply; creating a pack does not grant new redistribution rights.
 
 ## Contributor workflow
 
-Use Node 24, pnpm 10.16.1, Rust and the platform's native build prerequisites. Native
-validation currently targets macOS 13.5 or later with Xcode command-line tools. CI pins Node
-24.14.1 and Rust 1.94.1, including rustfmt and Clippy. Linux runs the web/server checks;
-a macOS job checks and compiles the native app. Other native platforms still need
-their own build and runtime validation.
+Use Node 24.14.1, pnpm 10.16.1, Rust 1.94.1 and the platform's native build
+prerequisites. CI pins those Node and Rust versions, including rustfmt and Clippy.
+Linux runs the web/server checks. The native installer matrix covers Mac Apple
+silicon, Intel Mac and Windows x64 on matching runners. It mounts each Mac disk
+image or installs Windows setup into an isolated directory, then checks the
+packaged app with a disposable library: startup, starter media, compiled interface,
+SQLite notes surviving restart and owned-process cleanup. These are release gates;
+the beta still needs broader testing on physical computers.
 
 ```sh
 pnpm install --frozen-lockfile
