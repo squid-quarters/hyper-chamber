@@ -185,3 +185,25 @@ publishing it. A separate Project site workflow checks the microsite in pull
 requests and deploys only `apps/site/build` from reviewed `develop` changes or a
 manual run on that branch. Its Pages/OIDC permissions are confined to the deployment
 job; desktop releases, reference packs and learner data are outside that artifact.
+
+## Public beta distribution
+
+The first public beta is being prepared as `1.0.0-beta.1`. macOS Apple silicon, macOS Intel and Windows 64-bit installers are release targets; available downloads and validation results will be recorded after the platform builds pass. A target listed here is not a claim that its build has been tested or published.
+
+The installed application includes its runtime and a small Dhalsim starter. User installation instructions belong in the root README and project site; source-build prerequisites remain in this document. Homebrew tap details and signing status must match the published release artifacts before their installation commands are advertised.
+
+Publish the release assets and checksums before switching the project site to direct download links. Keep the public-beta label, platform validation limits and first-launch warnings visible. Content-pack availability is a separate distribution decision and must not be inferred from the development library screenshots.
+
+### Installer contract
+
+The release tag is `v1.0.0-beta.1`. Release downloads use these asset names:
+
+- `Hyper-Chamber_1.0.0-beta.1_aarch64.dmg`: macOS Apple silicon, minimum macOS 13.5.
+- `Hyper-Chamber_1.0.0-beta.1_x64.dmg`: macOS Intel, minimum macOS 13.5.
+- `Hyper-Chamber_1.0.0-beta.1_x64-setup.exe`: Windows 10+ x64 with WebView2 included.
+
+Mac builds are ad-hoc signed with the hardened runtime and are not Apple-notarized. The Windows installer is unsigned. Public installation notes must describe these first-launch limits; do not replace them with commands that disable quarantine or operating-system security checks.
+
+The official Homebrew repository is `squid-quarters/homebrew-tap`, with cask token `hyper-chamber@beta`. Advertise `brew install --cask squid-quarters/tap/hyper-chamber@beta` only after the release files and reviewed tap recipe are public. The cask must preserve the user’s library on uninstall.
+
+Additional distribution is planned as one `.hcpack` per Street Fighter 6 character, covering the repository’s 32 character libraries and 2,068 references. The bundled three-demo starter remains available without extra packs. Do not claim the pack assets are downloadable until publication is confirmed.

@@ -7,7 +7,8 @@
 - Share the same library with phones and tablets on the local network, with device access controlled from the desktop app.
 - Load references from content packs, separate from learner data and application updates; include a small complete Dhalsim starter.
 - Transfer existing browser notes without removing the originals. Preserve failed edits and ask before replacing conflicting notes.
-- Prepare a static project site with screenshots and release links. No site or public release is deployed by this change.
+- Publish the project site with screenshots, platform information and release links.
+- Prepare public beta installers and user installation documentation; availability remains pending release validation.
 
 ## 0.3.3 (2026-11-13)
 

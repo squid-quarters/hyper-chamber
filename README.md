@@ -25,7 +25,31 @@ You can browse by character and narrow the list to punishes, corner carry, oki, 
 
 The desktop app bundles its runtime and a small starter library: three complete Dhalsim demonstrations. Additional character packs contain their own references and media. It uses a local SQLite library, with optional access from phones and tablets on the same network. No account is needed.
 
-Version `1.0.0-beta.1` is unreleased. There are no published installers yet; the current desktop builds are local and unsigned. The macOS build has been validated; Windows support has not been tested yet. An installed build runs without Node, pnpm or a development setup. See the [desktop architecture and build notes](docs/desktop-architecture.md).
+Version `1.0.0-beta.1` is unreleased. There are no published installers yet; the current desktop builds are local. The macOS build has been validated; Windows support has not been tested yet. An installed build runs without Node, pnpm or a development setup. See the [desktop architecture and build notes](docs/desktop-architecture.md).
+
+## Install the beta
+
+The first public release is being prepared as `1.0.0-beta.1`. It is a beta, not stable version 1.0. The download links below are release candidates and become available when the release is published.
+
+| Computer                            | Installer                                                                                                                                     |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mac with Apple silicon, macOS 13.5+ | [Apple silicon DMG](https://github.com/squid-quarters/hyper-chamber/releases/download/v1.0.0-beta.1/Hyper-Chamber_1.0.0-beta.1_aarch64.dmg)   |
+| Intel Mac, macOS 13.5+              | [Intel DMG](https://github.com/squid-quarters/hyper-chamber/releases/download/v1.0.0-beta.1/Hyper-Chamber_1.0.0-beta.1_x64.dmg)               |
+| Windows 10+, 64-bit                 | [Windows installer](https://github.com/squid-quarters/hyper-chamber/releases/download/v1.0.0-beta.1/Hyper-Chamber_1.0.0-beta.1_x64-setup.exe) |
+
+On macOS, open the DMG and move Hyper Chamber to Applications. On Windows, run the installer; it includes the WebView2 runtime. The app includes its runtime and three complete Dhalsim demonstrations. You do not need developer tools to use an installed copy.
+
+The Mac beta is ad-hoc signed and is not notarized by Apple. Windows installers are unsigned. macOS may block the first launch; review [Apple’s instructions for opening an unnotarized app](https://support.apple.com/en-us/102445). Homebrew installs the same Mac app and does not remove this first-launch check.
+
+The official Homebrew recipe is being prepared in [Squid Quarters’ tap](https://github.com/squid-quarters/homebrew-tap). Once the release and recipe are published:
+
+```sh
+brew install --cask squid-quarters/tap/hyper-chamber@beta
+```
+
+Additional references and media arrive as content packs, separate from your notes and progress. The [release notes](https://github.com/squid-quarters/hyper-chamber/releases/tag/v1.0.0-beta.1) identify the published files and checksums.
+
+For a phone or tablet, enable device access in the desktop app and open its address in a browser on the same local network. Keep Hyper Chamber running on the computer while you practise.
 
 ## Run from source
 
