@@ -1,6 +1,5 @@
 import {createHash} from 'node:crypto';
 import {constants, createReadStream} from 'node:fs';
-import {once} from 'node:events';
 import {
 	copyFile,
 	mkdir,
@@ -12,13 +11,11 @@ import {
 	unlink,
 	writeFile,
 } from 'node:fs/promises';
-import {createRequire} from 'node:module';
 import {dirname, isAbsolute, join, resolve, sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {finished} from 'node:stream/promises';
+import {crc32} from 'node:zlib';
 
 export const repositoryRoot = fileURLToPath(new URL('../../', import.meta.url));
-const require = createRequire(new URL('../../apps/desktop/package.json', import.meta.url));
 
 export function safePackPath(path) {
 	if (
@@ -153,50 +150,115 @@ export async function writeUnpackedPack(pack, output) {
 }
 
 export async function writePackArchive(pack, output) {
-	const {Zip, ZipPassThrough, strToU8} = require('fflate');
+	const limit = 2 ** 31;
+	const manifest = Buffer.from(`${JSON.stringify(pack.manifest, null, 2)}\n`);
+	const entries = [
+		{path: 'manifest.json', bytes: manifest.length, source: manifest},
+		...[...pack.manifest.files]
+			.sort((a, b) => a.path.localeCompare(b.path, 'en'))
+			.map(file => ({...file, source: pack.sources.get(file.path)})),
+	];
+	if (entries.length > 30000) throw new Error('Content packs support at most 30000 ZIP entries.');
+	const paths = new Set();
+	let archiveBytes = 22;
+	for (const entry of entries) {
+		const path = safePackPath(entry.path);
+		entry.name = Buffer.from(path);
+		if (paths.has(path) || entry.name.length > 65535)
+			throw new Error('Duplicate or oversized content-pack filename.');
+		paths.add(path);
+		if (!Number.isSafeInteger(entry.bytes) || entry.bytes < 0 || entry.bytes >= limit)
+			throw new Error(`Invalid content-pack file size: ${path}`);
+		archiveBytes += 30 + 46 + entry.name.length * 2 + entry.bytes;
+		if (archiveBytes >= limit) throw new Error('Content packs must be smaller than 2 GiB.');
+	}
 	await mkdir(dirname(resolve(output)), {recursive: true});
 	const handle = await open(output, 'wx');
-	const destination = handle.createWriteStream();
-	const completion = finished(destination);
-	completion.catch(() => {});
-	let zipError;
-	const zip = new Zip((error, data, final) => {
-		if (error) {
-			zipError = error;
-			destination.destroy(error);
-			return;
+	let position = 0;
+	const central = [];
+	const date = ((2026 - 1980) << 9) | (1 << 5) | 1;
+	const writeAt = async (chunk, offset) => {
+		let written = 0;
+		while (written < chunk.length) {
+			const {bytesWritten} = await handle.write(
+				chunk,
+				written,
+				chunk.length - written,
+				offset + written,
+			);
+			if (!bytesWritten) throw new Error('The content-pack write made no progress.');
+			written += bytesWritten;
 		}
-		destination.write(data);
-		if (final) destination.end();
-	});
-	// Fixed timestamps and sorted files produce repeatable archives. Media is already compressed.
-	const add = async (path, chunks) => {
-		const entry = new ZipPassThrough(safePackPath(path));
-		entry.mtime = new Date(2026, 0, 1, 0, 0, 0);
-		zip.add(entry);
-		for await (const chunk of chunks) {
-			if (zipError) throw zipError;
-			if (destination.errored) throw destination.errored;
-			entry.push(chunk, false);
-			if (destination.writableNeedDrain) await once(destination, 'drain');
-		}
-		entry.push(new Uint8Array(), true);
+	};
+	const append = async chunk => {
+		await writeAt(chunk, position);
+		position += chunk.length;
 	};
 	try {
-		await add('manifest.json', [strToU8(`${JSON.stringify(pack.manifest, null, 2)}\n`)]);
-		for (const {path} of pack.manifest.files)
-			await add(
-				path,
-				typeof pack.sources.get(path) === 'string'
-					? createReadStream(pack.sources.get(path))
-					: [pack.sources.get(path)],
-			);
-		zip.end();
-		await completion;
+		for (const entry of entries) {
+			const offset = position;
+			const header = Buffer.alloc(30 + entry.name.length);
+			header.writeUInt32LE(0x04034b50, 0);
+			header.writeUInt16LE(20, 4);
+			header.writeUInt16LE(0x0800, 6); // UTF-8 names; known sizes, no data descriptor.
+			header.writeUInt16LE(date, 12);
+			header.writeUInt32LE(entry.bytes, 18);
+			header.writeUInt32LE(entry.bytes, 22);
+			header.writeUInt16LE(entry.name.length, 26);
+			entry.name.copy(header, 30);
+			await append(header);
+			let bytes = 0,
+				checksum = 0;
+			const hash = createHash('sha256');
+			const chunks =
+				typeof entry.source === 'string'
+					? createReadStream(entry.source, {highWaterMark: 64 * 1024})
+					: [entry.source];
+			for await (const chunk of chunks) {
+				if (!(chunk instanceof Uint8Array))
+					throw new Error(`Missing content-pack source: ${entry.path}`);
+				bytes += chunk.length;
+				if (bytes > entry.bytes) throw new Error(`Content-pack source size changed: ${entry.path}`);
+				checksum = crc32(chunk, checksum);
+				hash.update(chunk);
+				await append(chunk);
+			}
+			if (bytes !== entry.bytes) throw new Error(`Content-pack source size changed: ${entry.path}`);
+			if (entry.sha256 && hash.digest('hex') !== entry.sha256)
+				throw new Error(`Content-pack source hash changed: ${entry.path}`);
+			const crc = Buffer.alloc(4);
+			crc.writeUInt32LE(checksum);
+			await writeAt(crc, offset + 14);
+			const directory = Buffer.alloc(46 + entry.name.length);
+			directory.writeUInt32LE(0x02014b50, 0);
+			directory.writeUInt16LE(20, 4);
+			directory.writeUInt16LE(20, 6);
+			directory.writeUInt16LE(0x0800, 8);
+			directory.writeUInt16LE(date, 14);
+			directory.writeUInt32LE(checksum, 16);
+			directory.writeUInt32LE(bytes, 20);
+			directory.writeUInt32LE(bytes, 24);
+			directory.writeUInt16LE(entry.name.length, 28);
+			directory.writeUInt32LE(offset, 42);
+			entry.name.copy(directory, 46);
+			central.push(directory);
+		}
+		const start = position;
+		for (const header of central) await append(header);
+		const end = Buffer.alloc(22);
+		end.writeUInt32LE(0x06054b50, 0);
+		end.writeUInt16LE(entries.length, 8);
+		end.writeUInt16LE(entries.length, 10);
+		end.writeUInt32LE(position - start, 12);
+		end.writeUInt32LE(start, 16);
+		await append(end);
+		await handle.close();
 	} catch (error) {
-		destination.destroy();
-		await completion.catch(() => {});
-		await unlink(output).catch(() => {});
+		await handle.close().catch(() => {});
+		await unlink(output).catch(cleanup => {
+			if (cleanup.code !== 'ENOENT')
+				throw new AggregateError([error, cleanup], 'Could not remove the incomplete content pack.');
+		});
 		throw error;
 	}
 }

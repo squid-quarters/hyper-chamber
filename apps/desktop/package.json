@@ -6,7 +6,7 @@
 	"scripts": {
 		"prepare:resources": "node ../../tools/desktop/prepare.mjs",
 		"dev": "tauri dev --no-watch",
-		"build": "tauri build --no-sign",
+		"build": "tauri build",
 		"typecheck": "cargo check --manifest-path src-tauri/Cargo.toml",
 		"test": "node --test ../../tools/desktop/pack.test.mjs && cargo test --manifest-path src-tauri/Cargo.toml",
 		"format:check": "cargo fmt --manifest-path src-tauri/Cargo.toml -- --check",

@@ -156,6 +156,37 @@ async fn choose_library_folder(
     Ok(json!({"restarting": true}))
 }
 
+// CI smoke keeps startup failures machine-readable instead of waiting on an unattended dialog.
+// This records only bootstrap locations/status, never the host-control token.
+fn startup_diagnostic(event: &str, detail: &str) -> bool {
+    if std::env::var("CI").as_deref() != Ok("true") {
+        return false;
+    }
+    let Some(path) = std::env::var_os("HYPER_CHAMBER_DIAGNOSTICS_PATH") else {
+        return false;
+    };
+    use std::io::Write;
+    if let Ok(mut file) = std::fs::OpenOptions::new()
+        .create(true)
+        .append(true)
+        .open(path)
+    {
+        let _ = writeln!(file, "{}", json!({"event": event, "detail": detail}));
+    }
+    true
+}
+
+fn report_startup_error(app: &tauri::App, title: &str, error: &str) {
+    if startup_diagnostic("error", error) {
+        return;
+    }
+    app.dialog()
+        .message(error)
+        .title(title)
+        .kind(MessageDialogKind::Error)
+        .blocking_show();
+}
+
 pub fn run() {
     let app = tauri::Builder::default()
         .plugin(tauri_plugin_single_instance::init(|app, _, _| {
@@ -187,18 +218,16 @@ pub fn run() {
                             .join("resources")
                     }
                 });
+            startup_diagnostic("resources", &resource_dir.to_string_lossy());
             let library_dir = library::selected_library(
                 &app.path().app_config_dir()?,
                 app.path().app_data_dir()?.join("library"),
                 std::env::var_os("HYPER_CHAMBER_LIBRARY_DIR").map(PathBuf::from),
             )
             .inspect_err(|error| {
-                app.dialog()
-                    .message(error)
-                    .title("Hyper Chamber could not open its library")
-                    .kind(MessageDialogKind::Error)
-                    .blocking_show();
+                report_startup_error(app, "Hyper Chamber could not open its library", error);
             })?;
+            startup_diagnostic("library", &library_dir.to_string_lossy());
             let backend = match Backend::start(
                 &resource_dir,
                 library_dir,
@@ -206,14 +235,11 @@ pub fn run() {
             ) {
                 Ok(backend) => backend,
                 Err(error) => {
-                    app.dialog()
-                        .message(&error)
-                        .title("Hyper Chamber could not start")
-                        .kind(MessageDialogKind::Error)
-                        .blocking_show();
+                    report_startup_error(app, "Hyper Chamber could not start", &error);
                     return Err(error.into());
                 }
             };
+            startup_diagnostic("backend-ready", &backend.url);
             let url = tauri::Url::parse(&backend.url)?;
             let allowed_origin = backend.url.clone();
             let opener = app.handle().clone();
@@ -242,7 +268,10 @@ pub fn run() {
             }
         })
         .build(tauri::generate_context!())
-        .expect("Hyper Chamber could not initialize its desktop shell");
+        .unwrap_or_else(|error| {
+            startup_diagnostic("desktop-error", &error.to_string());
+            panic!("Hyper Chamber could not initialize its desktop shell: {error}");
+        });
     app.run(|app, event| match event {
         tauri::RunEvent::ExitRequested { .. } | tauri::RunEvent::Exit => {
             if let Some(backend) = app.try_state::<Backend>() {

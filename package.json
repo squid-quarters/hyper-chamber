@@ -11,7 +11,7 @@
 		"format": "oxfmt . && pnpm format:svelte",
 		"format:check": "oxfmt --check . && pnpm format:svelte:check",
 		"typecheck": "turbo run typecheck --filter=!@hyper-chamber/desktop && tsc -p tsconfig.tools.json --noEmit",
-		"test": "vitest run && node --test tools/desktop/pack.test.mjs",
+		"test": "vitest run && node --test tools/desktop/pack.test.mjs tools/release/release.test.mjs",
 		"test:watch": "vitest",
 		"content:check": "node --experimental-strip-types tools/check-content.ts",
 		"verify": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm build && pnpm content:check",

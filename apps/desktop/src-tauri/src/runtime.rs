@@ -1,6 +1,7 @@
 use serde::Deserialize;
 use serde_json::Value;
 use std::{
+    ffi::OsString,
     fs::{self, OpenOptions},
     io::{BufRead, BufReader},
     path::{Path, PathBuf},
@@ -41,6 +42,33 @@ fn secret() -> Result<String, String> {
     Ok(bytes.iter().map(|byte| format!("{byte:02x}")).collect())
 }
 
+fn server_arguments(
+    resources: &Path,
+    library_dir: &Path,
+    version: &str,
+    port: &str,
+) -> Vec<OsString> {
+    // Tauri resolves Windows resources to a verbatim path. Node's entrypoint loader
+    // needs the ordinary drive path when it can safely represent the same location.
+    let resources = dunce::simplified(resources);
+    let library_dir = dunce::simplified(library_dir);
+    vec![
+        resources.join("server").join("cli.mjs").into_os_string(),
+        "--library-dir".into(),
+        library_dir.as_os_str().to_owned(),
+        "--web-dir".into(),
+        resources.join("web").into_os_string(),
+        "--seed-dir".into(),
+        resources.join("seed").into_os_string(),
+        "--app-version".into(),
+        version.into(),
+        "--host".into(),
+        "127.0.0.1".into(),
+        "--port".into(),
+        port.into(),
+    ]
+}
+
 impl Backend {
     pub fn start(resources: &Path, library_dir: PathBuf, version: &str) -> Result<Self, String> {
         Self::start_on_port(
@@ -60,7 +88,7 @@ impl Backend {
         fs::create_dir_all(&library_dir)
             .map_err(|e| format!("The library folder could not be opened: {e}"))?;
         let node = resources.join(if cfg!(windows) { "node.exe" } else { "node" });
-        let server = resources.join("server/cli.mjs");
+        let server = resources.join("server").join("cli.mjs");
         let web = resources.join("web");
         let seed = resources.join("seed");
         for path in [&node, &server, &web, &seed] {
@@ -78,14 +106,14 @@ impl Backend {
             .open(library_dir.join("server.log"))
             .map_err(|e| format!("The library log could not be opened: {e}"))?;
         let mut command = Command::new(node);
+        #[cfg(windows)]
+        {
+            use std::os::windows::process::CommandExt;
+            // The owned server is a console executable; it should not create a second window.
+            command.creation_flags(0x0800_0000); // CREATE_NO_WINDOW
+        }
         command
-            .arg(server)
-            .args(["--library-dir", &library_dir.to_string_lossy()])
-            .args(["--web-dir", &web.to_string_lossy()])
-            .args(["--seed-dir", &seed.to_string_lossy()])
-            .args(["--app-version", version])
-            .args(["--host", "127.0.0.1"])
-            .args(["--port", port])
+            .args(server_arguments(resources, &library_dir, version, port))
             .env("HYPER_CHAMBER_ADMIN_TOKEN", &token)
             .env("HYPER_CHAMBER_PARENT_PID", std::process::id().to_string())
             .env_remove("NODE_OPTIONS")
@@ -212,6 +240,56 @@ pub fn is_app_origin(candidate: &tauri::Url, base: &str) -> bool {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn canonicalized_resource_paths_load_the_node_entrypoint() {
+        let scratch =
+            std::env::temp_dir().join(format!("hc-native-node-path-{}", secret().unwrap()));
+        let resources = scratch.join("Hyper Chamber resources");
+        let library = scratch.join("Library café");
+        fs::create_dir_all(resources.join("server")).unwrap();
+        fs::create_dir_all(resources.join("web")).unwrap();
+        fs::create_dir_all(resources.join("seed")).unwrap();
+        fs::create_dir_all(&library).unwrap();
+        fs::write(
+            resources.join("server").join("cli.mjs"),
+            r#"import assert from 'node:assert/strict';
+import {statSync} from 'node:fs';
+import {parseArgs} from 'node:util';
+const {values} = parseArgs({options: Object.fromEntries(
+    ['library-dir','web-dir','seed-dir','app-version','host','port'].map(key => [key, {type:'string'}])
+)});
+for (const key of ['library-dir','web-dir','seed-dir']) assert.ok(statSync(values[key]).isDirectory());
+assert.equal(values['app-version'], '1.0.0-beta.1');
+assert.equal(values.host, '127.0.0.1');
+assert.equal(values.port, '5376');
+console.log('HYPER_CHAMBER_NODE_PATH_PASSED');"#,
+        )
+        .unwrap();
+        // On Windows these are the same verbatim paths supplied by Tauri.
+        let resources = fs::canonicalize(&resources).unwrap();
+        let library = fs::canonicalize(&library).unwrap();
+        let output = Command::new("node")
+            .args(server_arguments(
+                &resources,
+                &library,
+                "1.0.0-beta.1",
+                "5376",
+            ))
+            .env_remove("NODE_OPTIONS")
+            .output()
+            .unwrap();
+        fs::remove_dir_all(scratch).unwrap();
+        assert!(
+            output.status.success(),
+            "Node entrypoint failed: {}",
+            String::from_utf8_lossy(&output.stderr)
+        );
+        assert_eq!(
+            String::from_utf8_lossy(&output.stdout).trim(),
+            "HYPER_CHAMBER_NODE_PATH_PASSED"
+        );
+    }
 
     #[test]
     fn readiness_is_restricted_to_loopback_and_valid_port() {

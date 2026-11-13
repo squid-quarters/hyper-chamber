@@ -24,3 +24,21 @@ export function verifyMacOsRuntime(applicationMinimum, executable = process.exec
 		throw new Error('The bundled Node runtime minimum macOS version could not be identified.');
 	for (const minimum of minimums) assertMacOsMinimum(minimum, applicationMinimum);
 }
+
+export const BUNDLED_NODE_VERSION = 'v24.14.1';
+export function assertNativeRuntime({version, platform, arch}, target = {}) {
+	if (version !== BUNDLED_NODE_VERSION)
+		throw new Error(
+			`Desktop packaging requires official Node ${BUNDLED_NODE_VERSION}; found ${version}.`,
+		);
+	if (
+		!['darwin', 'win32'].includes(platform) ||
+		!['arm64', 'x64'].includes(arch) ||
+		(platform === 'win32' && arch !== 'x64')
+	)
+		throw new Error(`Unsupported desktop runtime: ${platform}-${arch}`);
+	if ((target.platform && target.platform !== platform) || (target.arch && target.arch !== arch))
+		throw new Error(
+			`The bundled Node runtime must match the native build target (${target.platform ?? platform}-${target.arch ?? arch}); use its architecture-native runner.`,
+		);
+}
