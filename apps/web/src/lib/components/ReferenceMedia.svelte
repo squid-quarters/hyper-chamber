@@ -336,7 +336,7 @@
 		{@render beforeReplay?.()}
 		<div class="replay-panel">
 			<div class="section-heading">
-				<h3>Replay reference</h3>
+				<h2>Replay reference</h2>
 				{#if enhanced && reference.media.clip}<PlaybackHelp id={reference.id} />{/if}
 			</div>
 
@@ -527,10 +527,16 @@
 		</div>
 	</div>
 	{#if layout === 'practice'}
-		<details class="key-moments">
-			<summary>Key moments <span>({reference.media.frames.length})</span></summary>
-			<p class="frames-instruction muted">Select a frame to inspect</p>
-			{@render frameList()}
+		<details class="detail-disclosure key-moments">
+			<summary
+				><span
+					>Key moments <span class="disclosure-count">({reference.media.frames.length})</span></span
+				></summary
+			>
+			<div class="disclosure-body">
+				<p class="frames-instruction muted">Select a frame to inspect</p>
+				{@render frameList()}
+			</div>
 		</details>
 	{:else}
 		<div class="section-heading frames-heading">
@@ -586,36 +592,13 @@
 	.practice-media .player-bottom {
 		min-inline-size: 0;
 	}
-	.practice-media .key-moments {
-		margin-inline: 0;
-		border-top: 1px solid var(--line);
-	}
-	.practice-media .key-moments > summary {
-		cursor: pointer;
-		min-block-size: 44px;
-		padding-block: 12px;
-		font-weight: 600;
-	}
-	.practice-media .key-moments > summary > span {
-		margin-inline-start: 6px;
-		color: var(--muted);
-		font-weight: 400;
-	}
 	.practice-media .key-moments .frames-instruction {
 		margin-block: 0 10px;
 		font-size: 12px;
 	}
-	.practice-media .key-moments .filmstrip {
-		margin-bottom: 18px;
-	}
 	/* Expanded guidance grows the page instead of consuming the replay's grid row. */
 	.practice-media
-		.practice-core:has(
-			:global(.compact-text-notation),
-			.media-error,
-			.media-loading,
-			.playback-notice
-		) {
+		.practice-core:has(:global(.copy-fallback), .media-error, .media-loading, .playback-notice) {
 		block-size: auto;
 		min-block-size: 0;
 		grid-template-rows: auto auto auto;
@@ -655,9 +638,6 @@
 		.practice-media .video-stage video {
 			block-size: auto;
 			aspect-ratio: 16 / 9;
-		}
-		.practice-media .key-moments {
-			margin-inline: 0;
 		}
 	}
 	.video-stage {
@@ -717,7 +697,6 @@
 		flex-wrap: wrap;
 		gap: 4px 12px;
 		padding: 5px 0;
-		border-bottom: 1px solid var(--line);
 	}
 	.transport-controls,
 	.player-utilities,

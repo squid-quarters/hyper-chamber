@@ -298,8 +298,8 @@ a > svg {
 }
 .library-filters {
 	display: grid;
-	gap: 16px;
-	padding-block: 0 16px;
+	gap: 12px;
+	padding-block: 0 12px;
 	border-block-end: 1px solid var(--line);
 }
 .library-search-row {
@@ -428,18 +428,18 @@ kbd {
 .goal-chip:hover:not([aria-pressed='true']) {
 	background: var(--selected);
 }
-.input-explanations > summary {
+.detail-disclosure > summary {
 	display: flex;
 	align-items: center;
 	gap: 8px;
-	min-block-size: var(--control-size);
+	min-block-size: max(44px, var(--control-size));
 	padding-block: 10px;
 	list-style: none;
 }
-.input-explanations > summary::-webkit-details-marker {
+.detail-disclosure > summary::-webkit-details-marker {
 	display: none;
 }
-.input-explanations > summary::before {
+.detail-disclosure > summary::before {
 	content: '';
 	inline-size: 16px;
 	block-size: 16px;
@@ -448,7 +448,7 @@ kbd {
 	mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 4 4 4-4 4'/%3E%3C/svg%3E")
 		center / 16px no-repeat;
 }
-.input-explanations[open] > summary::before {
+.detail-disclosure[open] > summary::before {
 	transform: rotate(90deg);
 }
 .refinement-trigger {
@@ -791,32 +791,17 @@ kbd {
 	margin-inline: 6px;
 	color: var(--border);
 }
-.detail-title-row {
-	display: flex;
+.practice-title-row {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto;
 	align-items: center;
-	justify-content: space-between;
-	gap: 20px;
-	min-inline-size: 0;
+	gap: 8px 20px;
 }
 .practice-heading h1 {
 	margin-block-start: 3px;
 	font: 600 2.1rem/1.08 var(--display);
 	overflow-wrap: anywhere;
 	scroll-margin-block-start: var(--practice-header-offset);
-}
-.save-button {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	flex: none;
-	inline-size: 40px;
-	block-size: 40px;
-	color: var(--muted);
-	background: var(--canvas);
-}
-.save-button.saved {
-	background: var(--selected);
-	color: var(--accent);
 }
 .notation-panel {
 	--panel-ink: var(--ink);
@@ -836,21 +821,21 @@ kbd {
 .practice-view .notation-panel:not(.compact-notation-panel) {
 	padding: 10px 14px;
 }
-.input-details {
-	margin-block-start: 16px;
-	border-block: 1px solid var(--line);
+.detail-disclosure {
+	border-block-start: 1px solid var(--line);
 }
-.input-explanations > summary {
-	font-size: 13px;
+.detail-disclosure > summary {
+	font-size: var(--control-font-size);
 	font-weight: 500;
 	cursor: pointer;
 }
-.input-explanations > summary > span {
+.detail-disclosure .disclosure-count {
+	margin-inline-start: 4px;
 	color: var(--muted);
 	font-weight: 400;
 }
-.input-explanations > :not(summary) {
-	margin-block-end: 16px;
+.detail-disclosure > .disclosure-body {
+	padding-block: 2px 18px;
 }
 .reference-context {
 	margin-block-start: 24px;
@@ -990,6 +975,9 @@ kbd {
 	margin-block-start: 28px;
 	border-block-start: 1px solid var(--line);
 }
+.detail-bottom:has(> :only-child) {
+	grid-template-columns: 1fr;
+}
 .reference-notes ul {
 	display: grid;
 	gap: 10px;
@@ -1004,10 +992,12 @@ kbd {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 20px;
-	padding-block-start: 12px;
-	border-block-start: 1px solid var(--line);
 	font-size: 11px;
 	color: var(--muted);
+}
+.reference-notes ul + .resource-line {
+	padding-block-start: 12px;
+	border-block-start: 1px solid var(--line);
 }
 .resource-line strong {
 	display: block;
@@ -1690,6 +1680,9 @@ dialog > p {
 	.quick-switch-trigger kbd {
 		display: none;
 	}
+	.practice-title-row {
+		grid-template-columns: minmax(0, 1fr);
+	}
 	.practice-heading h1 {
 		font-size: 2rem;
 	}
@@ -1791,7 +1784,7 @@ dialog > p {
 	.button.enabled:focus-visible {
 		outline-color: CanvasText;
 	}
-	.input-explanations > summary::before {
+	.detail-disclosure > summary::before {
 		forced-color-adjust: none;
 	}
 	select {
@@ -1816,7 +1809,7 @@ dialog > p {
 
 /* Secondary fields use the full library width below their disclosure. */
 .filter-bottom {
-	border-block: 1px solid var(--line);
+	border-block-start: 1px solid var(--line);
 }
 .refinement-toolbar {
 	display: flex;
@@ -1825,10 +1818,6 @@ dialog > p {
 	justify-content: space-between;
 	gap: 0 12px;
 	padding-block: 4px;
-}
-.library-filters {
-	gap: 12px;
-	padding-block-end: 12px;
 }
 .roster-panel {
 	overflow: clip;
@@ -2022,10 +2011,6 @@ dialog > p {
 	.practice-nav > .quick-switch-trigger {
 		min-block-size: 44px;
 	}
-	.save-button {
-		inline-size: 44px;
-		block-size: 44px;
-	}
 	.personal-panel textarea {
 		font-size: 16px;
 	}
@@ -2056,8 +2041,7 @@ dialog > p {
 		--control-font-size: 14px;
 	}
 	.header-actions > button,
-	.header-actions > a,
-	.input-explanations > summary {
+	.header-actions > a {
 		min-block-size: var(--control-size);
 	}
 	.search input {
