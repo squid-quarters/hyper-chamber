@@ -2,7 +2,11 @@
 	import { onMount, tick, untrack } from 'svelte';
 	import { afterNavigate, goto } from '$app/navigation';
 	import { page } from '$app/state';
-	import { collections } from '#lib/catalog';
+	import type { PageProps } from './$types';
+	import { PracticeClient, type RecoveryChoice } from '#lib/practice-client';
+	import { createLocalId } from '#lib/utils';
+	import HostSettings from '#lib/components/HostSettings.svelte';
+	import type { StoredPersonalEntry } from '@hyper-chamber/reference';
 	import {
 		filterReferences,
 		referenceGoals,
@@ -11,15 +15,7 @@
 		type PersonalEntry,
 		type ReferenceGoal,
 	} from '@hyper-chamber/reference';
-	import {
-		loadLibrary,
-		persistChanges,
-		mergePending,
-		createBackup,
-		blankEntry,
-		STORAGE_KEY,
-		type LibraryPatches,
-	} from '#lib/personal';
+	import { createBackup, blankEntry, type LibraryPatches } from '#lib/personal';
 	import BrandMark from '#lib/components/BrandMark.svelte';
 	import AppFooter from '#lib/components/AppFooter.svelte';
 	import CharacterPicker from '#lib/components/CharacterPicker.svelte';
@@ -55,6 +51,14 @@
 		type LibraryReturn,
 	} from '../lib/navigation';
 
+	let { data }: PageProps = $props();
+	let collections = $derived(data.collections);
+	let practiceClient: PracticeClient | undefined;
+	let connected = $state(false);
+	let saving = $state(false);
+	let libraryNotice = $state('');
+	let conflicts = $state<Record<string, StoredPersonalEntry>>({});
+	let recoveryConflicts = $state<Record<string, RecoveryChoice[]>>({});
 	let playerPreferences = $state<PlaybackPreferences>({
 		autoplay: 'follow',
 		muted: true,
@@ -73,11 +77,16 @@
 		playerPreferences = { ...playerPreferences, ...patch };
 		savePlaybackPreferences(playerPreferences);
 	}
-	let characterId = $state(collections[0].id);
+	let characterId = $state('dhalsim');
 	let collection = $derived(collections.find((item) => item.id === characterId) ?? collections[0]);
 	let references = $derived(collection.references);
 	let characterOptions = $derived(
-		collections.map((item) => ({ id: item.id, name: item.name, count: item.references.length })),
+		collections.map((item) => ({
+			id: item.id,
+			characterId: item.characterId,
+			name: item.name,
+			count: item.references.length,
+		})),
 	);
 	let game = $derived(collection.game);
 	let subjectName = $derived(collection.name);
@@ -278,7 +287,7 @@
 		}
 	}
 	function captureLibrary(origin: string | null) {
-		libraryReturn = { key: crypto.randomUUID(), scrollY: window.scrollY, entryId: origin };
+		libraryReturn = { key: createLocalId(), scrollY: window.scrollY, entryId: origin };
 		libraryReturns.set(libraryReturn.key, libraryReturn);
 		libraryFilterKey = JSON.stringify(currentFilters());
 	}
@@ -508,33 +517,14 @@
 		void returnToLibrary();
 	}
 	function updatePersonal(patch: Partial<PersonalEntry>) {
-		if (!selected || !ready) return;
-		if (patch.status !== undefined) patch = { ...patch, revision: selected.revision };
-		library = {
-			...library,
-			[selected.id]: { ...blankEntry(selected), ...library[selected.id], ...patch },
-		};
-		pendingChanges = {
-			...pendingChanges,
-			[selected.id]: { ...pendingChanges[selected.id], ...patch },
-		};
-		persistPending();
+		if (selected && ready) practiceClient?.update(selected, patch);
 	}
-	function persistPending() {
-		const result = persistChanges(library, pendingChanges);
-		library = result.library;
-		pendingChanges = result.pending;
-		storageError = result.error;
+	function retryLibrary() {
+		void practiceClient?.load();
 	}
-	function syncFromStorage(event: StorageEvent) {
-		if (event.key !== STORAGE_KEY && event.key !== null) return;
-		const loaded = loadLibrary();
-		if (loaded.error) {
-			storageError = loaded.error;
-			return;
-		}
-		library = mergePending(loaded.library, library, pendingChanges);
-		if (Object.keys(pendingChanges).length === 0) storageError = null;
+	async function refreshContent() {
+		await practiceClient?.flush();
+		window.location.reload();
 	}
 	function exportData() {
 		const url = URL.createObjectURL(
@@ -567,9 +557,21 @@
 	});
 	onMount(() => {
 		playerPreferences = readPlaybackPreferences();
-		const loaded = loadLibrary();
-		library = loaded.library;
-		storageError = loaded.error;
+		practiceClient = new PracticeClient({ expectedLibraryId: data.libraryId });
+		const unsubscribe = practiceClient.subscribe((state) => {
+			library = state.library;
+			pendingChanges = state.pending;
+			storageError = state.error;
+			libraryNotice = state.notice;
+			conflicts = state.conflicts;
+			recoveryConflicts = state.recoveryConflicts;
+			saving = state.saving;
+			connected = !!state.libraryId && !state.locked;
+		});
+		void practiceClient.load();
+		const refreshLibrary = () => {
+			void practiceClient?.load();
+		};
 		readUrl();
 		libraryReturn = readLibraryReturn(page.state.libraryReturn, referenceIds) ?? {
 			key: '',
@@ -581,12 +583,16 @@
 		if (practising) void focusPractice(++viewRevision);
 		window.addEventListener('popstate', restoreFromHistory);
 		window.addEventListener('hashchange', finishHashNavigation);
-		window.addEventListener('storage', syncFromStorage);
+		window.addEventListener('focus', refreshLibrary);
+		window.addEventListener('online', refreshLibrary);
 		return () => {
 			viewRevision++;
 			window.removeEventListener('popstate', restoreFromHistory);
 			window.removeEventListener('hashchange', finishHashNavigation);
-			window.removeEventListener('storage', syncFromStorage);
+			window.removeEventListener('focus', refreshLibrary);
+			window.removeEventListener('online', refreshLibrary);
+			unsubscribe();
+			practiceClient?.dispose();
 		};
 	});
 </script>
@@ -629,6 +635,18 @@
 			onopen={() => document.querySelector<HTMLVideoElement>('.practice-view video')?.pause()}
 		/>
 		<nav class="header-actions" aria-label="Utilities">
+			<HostSettings
+				oncontentchange={refreshContent}
+				onbeforemaintenance={async () => {
+					await practiceClient?.flush();
+					if (
+						Object.keys(pendingChanges).length ||
+						Object.keys(conflicts).length ||
+						Object.keys(recoveryConflicts).length
+					)
+						throw new Error('Save or resolve your edits before continuing.');
+				}}
+			/>
 			<button aria-label="Notation" title="Notation" onclick={() => help.showModal()}
 				><BookOpen size={16} aria-hidden="true" /><span class="utility-label">Notation</span
 				></button
@@ -646,17 +664,40 @@
 	</header>
 	<main id="main-content">
 		{#if storageError}<p class="global-notice" role="alert">
-				{storageError} Your changes remain available in this session.
-				<button class="button button--quiet" onclick={persistPending}>Retry saving</button><button
+				{storageError}
+				<button class="button button--quiet" onclick={retryLibrary}>Retry connection</button><button
 					class="button button--quiet"
 					onclick={exportData}>Download unsaved notes</button
 				>
 			</p>{/if}
+		{#if libraryNotice}<p class="message-bar" role="status">{libraryNotice}</p>{/if}
+		{#if Object.keys( { ...conflicts, ...recoveryConflicts } ).length && (!selected || (!conflicts[selected.id] && !recoveryConflicts[selected.id]))}
+			<p class="global-notice" role="status">
+				Saved edits need your review.
+				<button
+					class="button"
+					onclick={() => {
+						const ref = collections
+							.flatMap((item) => item.references)
+							.find((item) => conflicts[item.id] || recoveryConflicts[item.id]);
+						if (ref) {
+							characterId =
+								collections.find((item) => item.referenceIds.has(ref.id))?.id ?? characterId;
+							void selectEntry(ref);
+						}
+					}}>Review edits</button
+				>
+			</p>
+		{/if}
 		{#if message}<p class="message-bar" role="status">{message}</p>{/if}
 		{#if !practising}
 			<section class="library-view" aria-labelledby="library-title">
 				<header class="library-heading">
-					<CharacterPortrait {characterId} size={64} class="library-portrait" />
+					<CharacterPortrait
+						characterId={collection.characterId}
+						size={64}
+						class="library-portrait"
+					/>
 					<div>
 						<h1 id="library-title" tabindex="-1">{subjectName}</h1>
 						<p class="library-meta">
@@ -1004,6 +1045,7 @@
 									<ReferenceActions
 										reference={selected}
 										saved={personal.saved}
+										disabled={!connected || !!(selected && recoveryConflicts[selected.id])}
 										onsave={() => updatePersonal({ saved: !personal?.saved })}
 									/>
 								</div>
@@ -1070,6 +1112,7 @@
 								practice status is unchanged.
 							</p>{/if}<ChoiceField
 							id="reference-practice-status"
+							disabled={!connected || !!(selected && recoveryConflicts[selected.id])}
 							label="Practice status"
 							value={personal.status}
 							options={[
@@ -1084,18 +1127,80 @@
 						/>
 						<label class="sr-only" for="personal-note">Personal note</label><textarea
 							id="personal-note"
+							disabled={!connected || !!(selected && recoveryConflicts[selected.id])}
 							placeholder="Add a timing cue or practice note"
 							value={personal.note}
 							oninput={(e) => updatePersonal({ note: e.currentTarget.value })}
 							maxlength="4000"
 							rows="3"></textarea>
-						<p class="local-hint">
-							{storageError
-								? 'Not saved to this browser.'
-								: ready
-									? 'Saved on this browser as you type.'
-									: 'Loading your library…'}
+						<p class="local-hint" role="status">
+							{!connected
+								? 'Connect to your library to save notes.'
+								: conflicts[selected.id]
+									? 'Your draft is kept below. Choose which edits to save.'
+									: pendingChanges[selected.id]
+										? saving
+											? 'Saving to your library…'
+											: 'Draft not yet saved.'
+										: 'Saved to your library.'}
 						</p>
+						{#if recoveryConflicts[selected.id]}
+							<div class="edit-conflict">
+								<h3>Unsaved versions found</h3>
+								<p>
+									Different browser sessions left edits for this reference. Choose one to keep, or
+									keep the library’s saved version.
+								</p>
+								{#each recoveryConflicts[selected.id] as choice, index}
+									<blockquote>
+										{choice.patch.note ?? 'No note change.'}{choice.patch.status
+											? ` Status: ${choice.patch.status}.`
+											: ''}{choice.patch.saved !== undefined
+											? choice.patch.saved
+												? ' Save reference.'
+												: 'Unsave reference.'
+											: ''}
+									</blockquote>
+									<button
+										class="button"
+										onclick={() =>
+											selected && practiceClient?.resolveRecovery(selected.id, choice.id)}
+										>Keep version {index + 1}</button
+									>
+								{/each}
+								<div class="conflict-actions">
+									<button
+										class="button button--quiet"
+										onclick={() =>
+											selected && practiceClient?.resolveRecovery(selected.id, 'server')}
+										>Keep library version</button
+									>
+								</div>
+							</div>
+						{/if}
+						{#if conflicts[selected.id]}
+							<div class="edit-conflict">
+								<h3>Another device changed this reference</h3>
+								<p>Saved note</p>
+								<blockquote>{conflicts[selected.id].note || 'No note.'}</blockquote>
+								<p>
+									Saved status: {conflicts[selected.id].status}. {conflicts[selected.id].saved
+										? 'Saved reference.'
+										: 'Unsaved reference.'}
+								</p>
+								<div class="conflict-actions">
+									<button
+										class="button"
+										onclick={() => selected && practiceClient?.resolve(selected.id, 'local')}
+										>Keep my edits</button
+									><button
+										class="button button--quiet"
+										onclick={() => selected && practiceClient?.resolve(selected.id, 'server')}
+										>Use saved version</button
+									>
+								</div>
+							</div>
+						{/if}
 					</section>
 				</div>
 				<SourceDetails reference={selected} />
@@ -1176,3 +1281,34 @@
 <dialog class="notation-dialog" bind:this={help} aria-labelledby="notation-title">
 	<NotationKey {game} {characterId} character={subjectName} onclose={() => help.close()} />
 </dialog>
+
+<style>
+	.edit-conflict {
+		margin-block-start: 14px;
+		padding: 16px;
+		border-radius: 6px;
+		background: var(--selected);
+	}
+	.edit-conflict h3 {
+		margin: 0 0 8px;
+		font-size: 14px;
+	}
+	.edit-conflict p {
+		margin-block: 8px;
+		font-size: 12px;
+	}
+	.edit-conflict blockquote {
+		margin: 8px 0;
+		padding-inline-start: 12px;
+		border-inline-start: 2px solid var(--accent);
+		white-space: pre-wrap;
+		overflow-wrap: anywhere;
+		font-size: 13px;
+	}
+	.conflict-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		margin-block-start: 14px;
+	}
+</style>

@@ -16,3 +16,8 @@ skills-lock.json
 
 __pycache__/
 *.pyc
+
+# Native build products and generated pack archives
+apps/desktop/src-tauri/target/
+apps/desktop/src-tauri/gen/
+*.hcpack

@@ -14,18 +14,32 @@ In practice, **P / N** open the previous / next reference, **K** plays or pauses
 
 ## Notes and progress
 
-Saved references, practice status, and notes stay in this browser. Clearing site storage removes local data. Storage failures preserve pending edits and offer retry or a download of unsaved notes. Self-hosted SQLite, with one PC serving the app to phones and tablets, is planned; the current static app still uses browser storage. Accounts, login and synchronization remain outside this pass.
+Saved references, practice status and notes are stored in the running application's SQLite library. The desktop window and connected browsers edit the same data. Playback preferences remain specific to each browser.
 
-Practice status is self-reported. Filtering it keeps the selected entry open, including when that entry no longer matches. Sequential edits from another tab are rebased on current saved data; the browser store does not provide an atomic simultaneous-edit guarantee. The internal JSON recovery format retains unknown reference IDs so temporarily unavailable references do not lose their notes.
+Notes save after a short pause in typing. Pending edits are also kept as browser recovery drafts, tied to the library's identity. If the server cannot be reached, the app keeps the draft and offers retry or a download of unsaved notes. Keep the window open until it reports a successful save if browser recovery storage is unavailable. Clearing browser storage removes drafts and playback preferences; it does not remove notes already saved in SQLite.
+
+Edits carry a row version. Changes to separate fields can be rebased; if another tab or device changed the same field, the app keeps the draft and shows a choice between your edits and the saved version. Conflicting recovered drafts also need a choice. Other-device updates are refreshed when the window regains focus or reconnects; this is not a live collaboration session. Practice status is self-reported, and changing its filter does not close an already selected reference.
+
+When legacy browser notes exist at the current web address, the app imports missing entries without removing the originals. Different existing library values are kept and reported. Browser storage belongs to an address: notes from an older port, hostname or browser are not automatically visible at a new one. Valid reference IDs survive imports and content changes even when their references are temporarily unavailable.
+
+## Library and devices
+
+In the desktop app, **Devices** opens **Library & devices** settings for importing a `.hcpack` content archive, creating a database snapshot, and enabling device access. These controls are available only to the desktop host. Additional packs include reference metadata and media; the starter contains three Dhalsim demonstrations. Installing a pack keeps existing notes and practice status.
+
+Device access starts off. Enable it to show a local-network address, then open that address on a phone or tablet while the computer stays awake and Hyper Chamber is running. The OS firewall must allow the connection. Every connected browser uses the same library and can edit its notes and status; there are no accounts or separate user profiles. Sharing uses local HTTP and is intended for a network you trust. Turning it off closes the network listener without changing the desktop connection.
+
+Closing the desktop window leaves the library running. Use the application's **Quit** command to stop it; reopen the app to restore the window. Moving or copying a library requires quitting first. A database snapshot contains personal entries; copying the whole library folder also preserves the installed packs. The default desktop path on macOS is `~/Library/Application Support/com.squidquarters.hyperchamber/library`.
+
+When running from source, `pnpm dev` uses `.local/dev-library` and serves the interface on port 5173 with its backend on 5376. `pnpm start` serves the built interface directly on port 5376 and uses `.local/library`. Set `HYPER_CHAMBER_LIBRARY_DIR` if both commands should use the same library. `HYPER_CHAMBER_PORT` changes the backend port; `HYPER_CHAMBER_WEB_PORT` changes the development interface port. Browser-only source runs do not expose native host settings.
 
 ## Availability
 
-The library requires JavaScript. Bundled fonts and prepared clips do not need a cloud account, while original source videos and guide links require internet access. There is no service worker or installable offline mode in this version.
+The library requires JavaScript. Installed references, bundled fonts and clips work without an internet connection while the host is running. Original YouTube videos and external guide links need internet access. A phone or tablet still needs a connection to the running host; there is no service worker or independent offline browser installation.
 
 Character-only URLs use the profile ID, for example `?character=ken` or `?character=lily`; existing `?entry=...` links infer their character. Search, Saved counts and Quick switch stay within the active character, while learner data retains all characters.
 
 ## Builds and versions
 
-Build output is in `apps/web/build`. Web build artifacts are regenerated without Turborepo caching because their prepared media would otherwise be archived in duplicate. Shared-package builds remain cached.
+Web build output is in `apps/web/build`; the server bundle is in `apps/server/dist`. Native resources are generated separately from these outputs and exclude the full media directory. Character archives and starter resources are generated from the same authored catalog. See [Desktop architecture](desktop-architecture.md) for the library layout, pack format and native build commands.
 
-Include a version and changelog update in the same PR as a user-facing app change: a minor version for new capabilities, a patch for fixes. Workspace package versions are independent. Documentation-only updates do not change the app version.
+The current beta is unreleased. Version and changelog changes belong in the same PR as user-facing changes. The project site and installers are not published by the validation workflow.

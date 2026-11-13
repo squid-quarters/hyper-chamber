@@ -14,6 +14,11 @@
 			"dependsOn": ["^build"],
 			"outputs": ["build/**"],
 			"cache": false
+		},
+		"@hyper-chamber/desktop#build": {
+			"dependsOn": ["@hyper-chamber/server#build", "@hyper-chamber/web#build"],
+			"cache": false,
+			"outputs": ["src-tauri/target/release/bundle/**"]
 		}
 	}
 }

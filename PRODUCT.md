@@ -20,11 +20,11 @@ Each reference keeps its input sequence and short replay together, with selected
 
 ## Operating Context
 
-Used in a browser beside a running fighting game, often in a short laptop window. Players switch between related routes, filter by a training goal and repeatedly pause, replay or inspect a short clip with optional source audio.
+Used in the desktop app or a browser beside a running fighting game, often in a short laptop window or on a phone connected to the same local library. Players switch between related routes, filter by a training goal and repeatedly pause, replay or inspect a short clip with optional source audio.
 
 ## Capabilities and Constraints
 
-Street Fighter 6 has populated character libraries. Other fighting games, including tag fighters, are future interests; game definitions own notation and vocabulary. References retain stable IDs, source provenance and explicit verification limits. Saved entries, practice status and notes currently remain in browser storage. Self-hosted SQLite, with one PC serving a shared library to phones and tablets, is the next storage direction; it is not implemented in this static app. The main interface has no backup-management workflow. There are no accounts, synchronization, gameplay detection or current-patch certification. See [scope and behavior](docs/product.md) for the full boundaries.
+Street Fighter 6 has populated character libraries. Other fighting games, including tag fighters, are future interests; game definitions own notation and vocabulary. References retain stable IDs, source provenance and explicit verification limits. Saved entries, practice status and notes live in the local SQLite library. The Tauri desktop app bundles its server and can share the same library with phone and tablet browsers on the local network. Browser storage holds playback preferences and recovery drafts. Content packs remain separate from learner data; library controls provide imports, folder selection and database snapshots. There are no accounts, synchronization, gameplay detection or current-patch certification. See [scope and behavior](docs/product.md) for the full boundaries.
 
 ## Brand Commitments
 

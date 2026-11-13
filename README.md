@@ -19,20 +19,26 @@ You can browse by character and narrow the list to punishes, corner carry, oki, 
 
 </details>
 
-## Run locally
+## Desktop beta
 
-Use Node 24 and pnpm 10.16.1. Prepared clips are included in the repository, so allow several gigabytes for the checkout.
+The desktop app bundles its runtime and a small starter library: three complete Dhalsim demonstrations. Additional character packs contain their own references and media. It uses a local SQLite library, with optional access from phones and tablets on the same network. No account is needed.
+
+Version `1.0.0-beta.1` is unreleased. There are no published installers yet; the current desktop builds are local and unsigned. An installed build runs without Node, pnpm or a development setup. See the [desktop architecture and build notes](docs/desktop-architecture.md).
+
+## Run from source
+
+Use Node 24 and pnpm 10.16.1. The repository includes the full reference catalog and prepared media, so allow several gigabytes for the checkout and build.
 
 ```sh
 git clone https://github.com/squid-quarters/hyper-chamber.git
 cd hyper-chamber
 pnpm install --frozen-lockfile
-pnpm dev --host 127.0.0.1 --port 5376
+pnpm dev
 ```
 
-Open http://127.0.0.1:5376. No account is needed. Saved references, notes and practice status stay in this browser; clearing site storage removes them. They are not shared between devices yet. Source and guide links need internet access.
+Open http://127.0.0.1:5173. This starts the web development server and a local SQLite server; saves go into `.local/dev-library`. Stop both with Ctrl+C. For the built web app, run `pnpm build`, then `pnpm start` and open http://127.0.0.1:5376; its default library is `.local/library`.
 
-For a production build, run `pnpm build`, then `pnpm start`. See the [usage notes](docs/usage.md) for playback settings, keyboard shortcuts and storage details.
+Set `HYPER_CHAMBER_LIBRARY_DIR` to use a particular library folder, `HYPER_CHAMBER_PORT` to change the backend port, or `HYPER_CHAMBER_WEB_PORT` to change the development web port. The [usage notes](docs/usage.md) cover playback, keyboard shortcuts, browser-data transfer and backups.
 
 ## About the references
 
@@ -42,14 +48,14 @@ No open-source license has been chosen yet. Third-party media permissions and re
 
 ## Development
 
-The app uses SvelteKit in `apps/web`, shared catalog code in `packages/reference`, curated content in `content/games`, and media preparation tools in `tools/ingest`. Learner notes and progress stay separate from the shared references.
+The workspace contains the SvelteKit interface in `apps/web`, the SQLite/HTTP server in `apps/server`, the Tauri host in `apps/desktop`, and a static project site in `apps/site`. Shared catalog code lives in `packages/reference`; curated content and media tools stay in `content/games` and `tools`. Learner data stays outside the authored references.
 
 ```sh
 pnpm verify
 ```
 
-This runs formatting, lint, type checks, unit tests, the static build and catalog/media validation. Changes go through pull requests into `develop`; CI does not deploy the app.
+This checks formatting, lint, types, tests, web/server/site builds and catalog/media validation. Native checks run separately with `pnpm desktop:check`; the [desktop notes](docs/desktop-architecture.md) explain the Rust and platform prerequisites. Changes go through pull requests into `develop`. CI validates both paths and does not publish installers or deploy the project site.
 
-The app version lives in `apps/web/package.json` and appears in the footer, linked to [CHANGELOG.md](CHANGELOG.md). Update both for user-facing app changes. This project does not use Changesets.
+Keep the app version and [CHANGELOG.md](CHANGELOG.md) aligned for user-facing changes. The root, web, server and desktop manifests identify this beta; this project does not use Changesets.
 
 The [product scope](docs/product.md), [content model](docs/content-model.md) and [design notes](docs/design.md) cover the longer-term decisions.

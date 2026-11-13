@@ -1,1 +1,1 @@
-export {allReferences, collections} from './catalog';
+export {buildCollections, type CharacterCollection} from './catalog';

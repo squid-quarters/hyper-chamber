@@ -11,7 +11,7 @@
 		onchange,
 		onopen,
 	}: {
-		characters: { id: string; name: string; count: number }[];
+		characters: { id: string; characterId?: string; name: string; count: number }[];
 		selected: string;
 		gameName: string;
 		disabled?: boolean;
@@ -153,7 +153,11 @@
 	aria-controls="character-roster"
 	onclick={show}
 >
-	<CharacterPortrait characterId={current.id} size={36} class="trigger-portrait" />
+	<CharacterPortrait
+		characterId={current.characterId ?? current.id}
+		size={36}
+		class="trigger-portrait"
+	/>
 	<span><small>{gameName}</small><strong>{current.name}</strong></span>
 	<ChevronDown size={16} aria-hidden="true" />
 </button>
@@ -197,7 +201,7 @@
 					aria-pressed={character.id === selected}
 					onclick={() => choose(character.id)}
 				>
-					<CharacterPortrait characterId={character.id} size={44} lazy />
+					<CharacterPortrait characterId={character.characterId ?? character.id} size={44} lazy />
 					<span class="roster-identity"
 						><strong>{character.name}</strong><small>{character.count} references</small></span
 					>

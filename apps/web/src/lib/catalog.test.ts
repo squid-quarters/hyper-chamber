@@ -1,7 +1,7 @@
 import {readFileSync, readdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {describe, expect, it} from 'vitest';
-import {allReferences, collections} from './catalog';
+import {allReferences, collections} from './catalog-fixture';
 import {filterReferences, referenceTagKey} from '@hyper-chamber/reference';
 import {readCharacterLocation, referenceLocation} from './navigation';
 

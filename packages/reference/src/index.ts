@@ -330,3 +330,13 @@ export function sourceLink(r: Reference): string {
 	url.searchParams.set('t', String(Math.floor(r.source.start)));
 	return url.href;
 }
+
+export * from './storage.ts';
+
+export const catalogSnapshotSchema = z.strictObject({
+	formatVersion: z.literal(1),
+	games: z.array(gameDefinitionSchema),
+	references: z.array(referenceSchema),
+	libraryId: z.uuid().optional(),
+});
+export type CatalogSnapshot = z.infer<typeof catalogSnapshotSchema>;
