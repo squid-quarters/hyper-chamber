@@ -1,40 +1,15 @@
 <script lang="ts">
 	import type { GameDefinition, Reference } from '@hyper-chamber/reference';
-	import { Check, Copy } from '@lucide/svelte';
 
 	let {
 		reference,
 		game,
 		compact = false,
-		showActions = true,
 	}: {
 		reference: Reference;
 		game: GameDefinition;
 		compact?: boolean;
-		showActions?: boolean;
 	} = $props();
-	let copyState = $state('');
-	let copyFallback = $state(false);
-	$effect(() => {
-		if (!reference.id) return;
-		copyState = '';
-		copyFallback = false;
-	});
-	async function copyInputs() {
-		const referenceId = reference.id;
-		const notation = reference.notation;
-		try {
-			if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
-			await navigator.clipboard.writeText(notation);
-			if (reference.id !== referenceId) return;
-			copyState = 'Input sequence copied.';
-			copyFallback = false;
-		} catch {
-			if (reference.id !== referenceId) return;
-			copyFallback = true;
-			copyState = 'Copy unavailable. Select the sequence below to copy it.';
-		}
-	}
 	function actorName(actorId: string | undefined): string | undefined {
 		if (!actorId || reference.participants.length < 2) return undefined;
 		const participant = reference.participants.find((actor) => actor.id === actorId);
@@ -52,20 +27,7 @@
 
 <div class="input-sequence" class:compact>
 	<p class="sr-only">Moves in order. Connections show sequence only, not timing or cancel rules.</p>
-	{#if compact}
-		<div class="section-heading sequence-toolbar">
-			<h3>Input sequence</h3>
-			{#if showActions}
-				<button class="button copy-input-button" type="button" onclick={copyInputs}>
-					{#if copyState === 'Input sequence copied.'}
-						<Check size={16} aria-hidden="true" />Copied
-					{:else}
-						<Copy size={16} aria-hidden="true" />Copy inputs
-					{/if}
-				</button>
-			{/if}
-		</div>
-	{/if}
+	{#if compact}<div class="section-heading"><h2>Inputs</h2></div>{/if}
 	<ol
 		class="move-flow"
 		class:short-sequence={reference.inputs.length <= 4}
@@ -102,42 +64,9 @@
 			</li>
 		{/each}
 	</ol>
-	{#if showActions}
-		{#if compact}
-			<p class="compact-copy-state" class:sr-only={!copyFallback} role="status">{copyState}</p>
-			{#if copyFallback}
-				<div class="compact-text-notation"><p><code>{reference.notation}</code></p></div>
-			{/if}
-		{:else}
-			<div class="copy-inputs">
-				<button class="button copy-input-button" type="button" onclick={copyInputs}>
-					{#if copyState === 'Input sequence copied.'}
-						<Check size={16} aria-hidden="true" />Copied
-					{:else}
-						<Copy size={16} aria-hidden="true" />Copy inputs
-					{/if}
-				</button>
-				<span role="status">{copyState}</span>
-			</div>
-			{#if copyFallback}<p class="compact-text-notation"><code>{reference.notation}</code></p>{/if}
-		{/if}
-	{/if}
 </div>
 
 <style>
-	.copy-inputs {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 8px;
-		margin-top: 14px;
-		font-size: 12px;
-		color: var(--panel-muted);
-	}
-	.copy-input-button {
-		flex: none;
-		min-inline-size: 132px;
-	}
 	.input-sequence {
 		container-type: inline-size;
 		min-width: 0;
@@ -258,9 +187,6 @@
 			margin: -3px 3px;
 		}
 	}
-	.sequence-toolbar {
-		flex-wrap: wrap;
-	}
 	.compact .move-flow {
 		display: flex;
 		flex-wrap: wrap;
@@ -323,23 +249,6 @@
 		height: 18px;
 		margin: -2px 3px;
 		transform: rotate(-90deg);
-	}
-	.compact-copy-state:not(.sr-only) {
-		margin-top: 0.65rem;
-		font-size: 0.8rem;
-		color: var(--panel-ink);
-	}
-	.compact-text-notation {
-		margin-top: 0.65rem;
-		border-top: 1px solid var(--border);
-		padding-top: 0.65rem;
-		color: var(--panel-ink);
-		font-size: 0.85rem;
-		line-height: 1.8;
-		overflow-wrap: anywhere;
-	}
-	.compact-text-notation code {
-		user-select: all;
 	}
 	@media (max-width: 760px) {
 		.compact .move-flow {

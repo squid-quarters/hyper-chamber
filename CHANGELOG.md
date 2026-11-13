@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.2 (2026-11-13)
+
+- Group Save and Copy inputs beside the reference title, with a shared row on phones.
+- Give Key moments and move explanations one consistent disclosure treatment; remove duplicate playback and library dividers.
+- Omit empty Conditions and Execution notes sections while keeping resource information visible.
+
 ## 0.3.1 (2026-11-13)
 
 - Unify secondary, quiet and icon actions, heading alignment, popup spacing and responsive playback controls.

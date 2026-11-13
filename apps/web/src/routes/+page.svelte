@@ -40,6 +40,7 @@
 	} from '@lucide/svelte';
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	import InputSequence from '#lib/components/InputSequence.svelte';
+	import ReferenceActions from '#lib/components/ReferenceActions.svelte';
 	import {
 		readPlaybackPreferences,
 		savePlaybackPreferences,
@@ -998,20 +999,13 @@
 									{subjectName} <span aria-hidden="true">/</span>
 									{selected.kind}
 								</p>
-								<div class="detail-title-row">
+								<div class="practice-title-row">
 									<h1 id="reference" tabindex="-1">{selected.title}</h1>
-									<button
-										class="save-button"
-										class:saved={personal.saved}
-										aria-pressed={personal.saved}
-										aria-label={personal.saved ? 'Unsave reference' : 'Save reference'}
-										onclick={() => updatePersonal({ saved: !personal?.saved })}
-										><Star
-											size={21}
-											fill={personal.saved ? 'currentColor' : 'none'}
-											aria-hidden="true"
-										/></button
-									>
+									<ReferenceActions
+										reference={selected}
+										saved={personal.saved}
+										onsave={() => updatePersonal({ saved: !personal?.saved })}
+									/>
 								</div>
 							</header>
 							<section class="notation-panel compact-notation-panel" aria-label="Input sequence">
@@ -1019,44 +1013,54 @@
 							</section>
 						{/snippet}
 					</ReferenceMedia>{/key}
-				<section class="input-details">
-					<details class="input-explanations">
-						<summary
-							>Move explanations &amp; timing cues <span
+				<details class="detail-disclosure input-explanations">
+					<summary
+						><span
+							>Move explanations &amp; timing cues <span class="disclosure-count"
 								>({selected.inputs.length}
 								{selected.inputs.length === 1 ? 'input' : 'inputs'})</span
-							></summary
-						>
+							></span
+						></summary
+					>
+					<div class="disclosure-body">
 						<div class="notation-panel">
-							<InputSequence reference={selected} {game} showActions={false} />
+							<InputSequence reference={selected} {game} />
 						</div>
-					</details>
-				</section>
+					</div>
+				</details>
 				<section class="reference-context" aria-label="Reference context">
 					<p>{selected.summary}</p>
 					<div class="tags">
 						{#each selected.situations as tag}<span>{tag}</span
 							>{/each}{#each selected.outcomes as tag}<span class="outcome">{tag}</span>{/each}
 					</div>
-					<div class="condition-row">
-						<span class="section-label">Conditions</span>
-						<p>{selected.conditions.join(' · ')}</p>
-					</div>
+					{#if selected.conditions.length}
+						<div class="condition-row">
+							<span class="section-label">Conditions</span>
+							<p>{selected.conditions.join(' · ')}</p>
+						</div>
+					{/if}
 				</section>
 				<div class="detail-bottom">
-					<section class="reference-notes">
-						<div class="section-heading">
-							<h2>Execution notes</h2>
-						</div>
-						<ul>
-							{#each selected.notes as note}<li>{note}</li>{/each}
-						</ul>
-						<div class="resource-line">
-							{#each Object.entries(selected.resources) as [resource, value]}<span
-									>{game.resourceLabels[resource]} <strong>{value}</strong></span
-								>{/each}
-						</div>
-					</section>
+					{#if selected.notes.length || Object.keys(selected.resources).length}
+						<section class="reference-notes">
+							<div class="section-heading">
+								<h2>{selected.notes.length ? 'Execution notes' : 'Resources'}</h2>
+							</div>
+							{#if selected.notes.length}
+								<ul>
+									{#each selected.notes as note}<li>{note}</li>{/each}
+								</ul>
+							{/if}
+							{#if Object.keys(selected.resources).length}
+								<div class="resource-line">
+									{#each Object.entries(selected.resources) as [resource, value]}<span
+											>{game.resourceLabels[resource]} <strong>{value}</strong></span
+										>{/each}
+								</div>
+							{/if}
+						</section>
+					{/if}
 					<section class="personal-panel">
 						<div class="section-heading">
 							<h2>Your notes</h2>
