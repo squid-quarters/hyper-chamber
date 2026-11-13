@@ -400,6 +400,11 @@ a > svg {
 	margin-inline-start: 6px;
 	font-variant-numeric: tabular-nums;
 }
+.type-options {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	inline-size: min(100%, 24rem);
+}
 .library-quick-switch {
 	flex: none;
 	white-space: nowrap;
@@ -415,8 +420,9 @@ kbd {
 	white-space: nowrap;
 }
 .browse-categories {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+	align-items: start;
 	gap: 16px 28px;
 }
 .browse-categories fieldset {
@@ -434,6 +440,10 @@ kbd {
 	gap: 5px;
 }
 .goal-chip {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 9px;
 	min-block-size: var(--control-size);
 	padding: 8px 13px;
 	background: var(--soft);
@@ -448,7 +458,9 @@ kbd {
 	color: var(--surface);
 }
 .goal-chip span {
-	margin-inline-start: 9px;
+	flex: none;
+	inline-size: var(--goal-count-width);
+	text-align: end;
 	font-variant-numeric: tabular-nums;
 }
 .goal-chip:hover:not([aria-pressed='true']) {
@@ -1730,6 +1742,11 @@ dialog > p {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 }
+@media (max-width: 1100px) {
+	.browse-categories {
+		grid-template-columns: minmax(0, 1fr);
+	}
+}
 @media (max-width: 580px) {
 	.roster-grid {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1753,6 +1770,7 @@ dialog > p {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 	.training-goal-options .goal-chip {
+		gap: 6px;
 		padding-inline: 8px;
 	}
 	.browse-categories,
@@ -1796,6 +1814,12 @@ dialog > p {
 		scroll-behavior: auto !important;
 		transition: none !important;
 		animation: none !important;
+	}
+}
+@media (max-width: 360px) {
+	.training-goal-options,
+	.type-options {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 }
 @media (forced-colors: active) {

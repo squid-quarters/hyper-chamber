@@ -480,7 +480,7 @@
 			!event.metaKey &&
 			!event.altKey
 		) {
-			if (key === 'n' || key === 'p') {
+			if (key === 'n' || key === 'b') {
 				const target = key === 'n' ? nextReference : previousReference;
 				if (target) {
 					event.preventDefault();
@@ -748,7 +748,10 @@
 						>
 					</div>
 					<div class="browse-categories">
-						<fieldset class="training-goals">
+						<fieldset
+							class="training-goals"
+							style:--goal-count-width={`${String(references.length).length}ch`}
+						>
 							<legend class="filter-label">Training goal</legend>
 							<div class="training-goal-options">
 								{#each goalOptions as option}<button
@@ -977,7 +980,7 @@
 					<div class="practice-pagination">
 						<button
 							class="practice-step practice-previous"
-							aria-keyshortcuts={playerPreferences.shortcuts ? 'P' : undefined}
+							aria-keyshortcuts={playerPreferences.shortcuts ? 'B' : undefined}
 							disabled={!previousReference}
 							onclick={() => previousReference && selectEntry(previousReference)}
 							aria-label="Previous reference"
@@ -988,7 +991,7 @@
 							<ArrowLeft
 								size={18}
 								aria-hidden="true"
-							/>Previous{#if playerPreferences.shortcuts}<kbd aria-hidden="true">P</kbd>{/if}
+							/>Previous{#if playerPreferences.shortcuts}<kbd aria-hidden="true">B</kbd>{/if}
 						</button>
 						<div class="practice-position">
 							<span>{practiceContext}</span>
