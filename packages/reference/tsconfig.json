@@ -6,7 +6,8 @@
 		"strict": true,
 		"skipLibCheck": true,
 		"noEmit": true,
-		"types": []
+		"types": [],
+		"allowImportingTsExtensions": true
 	},
 	"include": ["src/**/*.ts"],
 	"exclude": ["src/**/*.test.ts"]

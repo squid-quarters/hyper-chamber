@@ -1,6 +1,6 @@
 {
 	"name": "@hyper-chamber/web",
-	"version": "0.3.3",
+	"version": "1.0.0-beta.1",
 	"private": true,
 	"type": "module",
 	"imports": {
@@ -8,7 +8,8 @@
 		"#lib/*": "./src/lib/*",
 		"#lib/catalog": "./src/lib/catalog.ts",
 		"#lib/personal": "./src/lib/personal.ts",
-		"#lib/utils": "./src/lib/utils.ts"
+		"#lib/utils": "./src/lib/utils.ts",
+		"#lib/practice-client": "./src/lib/practice-client.ts"
 	},
 	"scripts": {
 		"dev": "vite dev",
@@ -22,7 +23,9 @@
 		"@fontsource/dm-sans": "5.3.0",
 		"@hyper-chamber/reference": "workspace:*",
 		"@lucide/svelte": "1.66.0",
+		"@tauri-apps/api": "2.12.4",
 		"clsx": "2.1.1",
+		"qrcode": "1.5.4",
 		"tailwind-merge": "3.7.0",
 		"zod": "4.6.7"
 	},
@@ -31,6 +34,7 @@
 		"@sveltejs/kit": "^3.0.0",
 		"@sveltejs/vite-plugin-svelte": "^7.2.0",
 		"@tailwindcss/vite": "4.3.4",
+		"@types/qrcode": "1.5.6",
 		"svelte": "^5.57.2",
 		"svelte-check": "^4.6.0",
 		"tailwindcss": "4.3.4",

@@ -1,0 +1,29 @@
+[[permission]]
+identifier = "allow-get-host-info"
+description = "Read this desktop host's current library and runtime."
+commands.allow = ["get_host_info"]
+
+[[permission]]
+identifier = "allow-set-sharing-enabled"
+description = "Enable or stop this desktop host's LAN listener."
+commands.allow = ["set_sharing_enabled"]
+
+[[permission]]
+identifier = "allow-import-content-pack"
+description = "Select a content archive using the native file picker and import it."
+commands.allow = ["import_content_pack"]
+
+[[permission]]
+identifier = "allow-create-backup"
+description = "Create a backup of the current library."
+commands.allow = ["create_backup"]
+
+[[permission]]
+identifier = "allow-choose-library-folder"
+description = "Select and validate a library folder using the native folder picker."
+commands.allow = ["choose_library_folder"]
+
+[[permission]]
+identifier = "allow-reveal-library-folder"
+description = "Open the current library folder in the native file manager."
+commands.allow = ["reveal_library_folder"]

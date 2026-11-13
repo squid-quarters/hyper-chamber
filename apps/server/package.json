@@ -1,0 +1,23 @@
+{
+	"name": "@hyper-chamber/server",
+	"version": "1.0.0-beta.1",
+	"private": true,
+	"type": "module",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"scripts": {
+		"build": "tsup --config tsup.config.ts",
+		"typecheck": "tsc --noEmit",
+		"start": "node dist/cli.mjs"
+	},
+	"dependencies": {
+		"@hyper-chamber/reference": "workspace:*",
+		"fflate": "0.8.2",
+		"zod": "4.6.7"
+	},
+	"devDependencies": {
+		"tsup": "9.0.0",
+		"typescript": "6.0.3"
+	}
+}

@@ -9,6 +9,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   verify:
+    name: Web, server and content
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -18,7 +19,42 @@ jobs:
       - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
-          node-version: '24'
+          node-version: '24.14.1'
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm verify
+
+  desktop:
+    name: macOS desktop validation
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 2
+          # Native packaging needs complete starter footage, not the full development library.
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/apps/web/static/media/**
+            /apps/web/static/media/dhalsim/dhalsim-full-early-lights-od-fire/**
+            /apps/web/static/media/dhalsim/dhalsim-full-early-lights-od-fire-sa1/**
+            /apps/web/static/media/dhalsim/dhalsim-light-blast/**
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.14.1'
+          cache: pnpm
+      - name: Install pinned Rust toolchain
+        run: |
+          rustup toolchain install 1.94.1 --profile minimal --component clippy --component rustfmt
+          rustup override set 1.94.1
+      - run: pnpm install --frozen-lockfile
+      - name: Build application resources
+        run: |
+          pnpm --filter @hyper-chamber/server build
+          pnpm --filter @hyper-chamber/web build
+          pnpm --filter @hyper-chamber/desktop prepare:resources
+      - run: pnpm desktop:check
+      - name: Compile unsigned application
+        run: pnpm --filter @hyper-chamber/desktop exec tauri build --no-sign --bundles app

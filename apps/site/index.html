@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="color-scheme" content="light" />
+		<meta name="theme-color" content="#202822" />
+		<title>Hyper Chamber — fighting-game practice references</title>
+		<meta
+			name="description"
+			content="A local fighting-game reference with inputs, short replays and personal practice notes. Hyper Chamber's desktop beta is in development."
+		/>
+		<link rel="icon" href="./assets/brand-mark.svg" type="image/svg+xml" />
+		<link
+			rel="preload"
+			href="./assets/barlow-condensed-latin-600-normal.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+		<link
+			rel="preload"
+			href="./assets/dm-sans-latin-400-normal.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<a class="skip-link" href="#main">Skip to content</a>
+		<header class="masthead">
+			<div class="masthead-inner">
+				<a class="brand" href="./" aria-label="Hyper Chamber home">
+					<img src="./assets/brand-mark.svg" width="44" height="44" alt="" />
+					<span>Hyper<br /><span>Chamber</span></span>
+				</a>
+				<nav aria-label="Project navigation">
+					<a href="#inside">Inside the app</a>
+					<a href="https://github.com/squid-quarters/hyper-chamber"
+						>GitHub<svg
+							viewBox="0 0 24 24"
+							width="16"
+							height="16"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="1.5"
+							aria-hidden="true"
+						>
+							<path d="M7 17 17 7M7 7h10v10" /></svg
+					></a>
+				</nav>
+			</div>
+		</header>
+		<main id="main">
+			<section class="hero" aria-labelledby="hero-title">
+				<div class="hero-copy">
+					<h1 id="hero-title">Combos and setups,<br />with a replay <br />to practise.</h1>
+					<p class="lede">
+						A local training reference for Street Fighter 6. Browse by character and situation, then
+						keep the inputs and a short video open beside training mode.
+					</p>
+					<div class="hero-actions">
+						<a
+							class="button button-primary"
+							href="https://github.com/squid-quarters/hyper-chamber/releases"
+							>View releases<svg
+								viewBox="0 0 24 24"
+								width="18"
+								height="18"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="1.5"
+								aria-hidden="true"
+							>
+								<path d="M5 12h14m-6-6 6 6-6 6" /></svg
+						></a>
+						<a class="text-link" href="#beta">About the beta</a>
+					</div>
+					<p class="development-status"><span aria-hidden="true"></span>Beta in development</p>
+				</div>
+				<figure class="practice-preview">
+					<img
+						src="./assets/practice.webp"
+						width="1280"
+						height="960"
+						alt="Ryu's practice reference, with the input sequence above its paused replay and controls for looping and inspection."
+						fetchpriority="high"
+					/>
+					<figcaption>The browser interface. Desktop packaging is in development.</figcaption>
+				</figure>
+			</section>
+			<section class="library-section" id="inside" aria-labelledby="library-title">
+				<div class="section-copy">
+					<h2 id="library-title">Find a reference<br />by what you want to practise.</h2>
+					<p>
+						Search a move name or input, or narrow the library to punishes, corner carry, oki,
+						anti-air and cash-out routes.
+					</p>
+					<p>
+						The first collection covers Street Fighter 6. Each reference keeps its source,
+						conditions and execution notes alongside the demonstration.
+					</p>
+				</div>
+				<figure class="library-preview">
+					<img
+						src="./assets/library.webp"
+						width="1280"
+						height="960"
+						alt="Dhalsim's reference library, with a character picker, search, training-goal filters and reference tiles."
+						loading="lazy"
+					/>
+					<figcaption>
+						Character libraries keep the search and filters close to the references.
+					</figcaption>
+				</figure>
+			</section>
+			<section class="practice-section" aria-labelledby="practice-title">
+				<div class="practice-description">
+					<h2 id="practice-title">Stay with the part<br />you’re working on.</h2>
+					<dl class="practice-details">
+						<div>
+							<dt>Loop and inspect</dt>
+							<dd>
+								Replay a short demonstration, slow it down or drag across the picture to inspect a
+								transition. Selected key moments give you another way to find the timing.
+							</dd>
+						</div>
+						<div>
+							<dt>Keep the inputs in view</dt>
+							<dd>
+								The sequence sits above the replay. Move explanations and source notes are there
+								when you need more detail.
+							</dd>
+						</div>
+						<div>
+							<dt>Keep your practice notes</dt>
+							<dd>
+								Save routes to return to and add your own timing cues and practice status. Your
+								notes stay separate from the shared material.
+							</dd>
+						</div>
+					</dl>
+				</div>
+				<figure class="phone-preview">
+					<img
+						src="./assets/phone.webp"
+						width="390"
+						height="844"
+						alt="The Ryu practice view on a phone, with Previous and Next controls, wrapped inputs and the replay beneath."
+						loading="lazy"
+					/>
+					<figcaption>The interface also adapts to a phone or tablet.</figcaption>
+				</figure>
+			</section>
+			<section class="beta-section" id="beta" aria-labelledby="beta-title">
+				<div>
+					<h2 id="beta-title">The desktop beta</h2>
+					<p>
+						Windows and macOS are the first desktop targets. The app will manage its local library,
+						so using it will start with an installer rather than a development setup.
+					</p>
+					<p>
+						While the desktop app is running, you’ll be able to open that same library in a phone or
+						tablet browser on your local network.
+					</p>
+				</div>
+				<div class="beta-availability">
+					<p class="beta-state">In development</p>
+					<p>
+						Installers and setup notes will appear in GitHub Releases as the beta becomes available.
+					</p>
+					<a class="button" href="https://github.com/squid-quarters/hyper-chamber/releases"
+						>View releases<svg
+							viewBox="0 0 24 24"
+							width="18"
+							height="18"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="1.5"
+							aria-hidden="true"
+						>
+							<path d="M7 17 17 7M7 7h10v10" /></svg
+					></a>
+				</div>
+			</section>
+		</main>
+		<footer class="site-footer">
+			<div class="footer-main">
+				<a class="footer-brand" href="./"
+					><img src="./assets/brand-mark.svg" width="28" height="28" alt="" /><span
+						>Hyper Chamber</span
+					></a
+				>
+				<p>By Squid Quarters.</p>
+				<a href="https://github.com/squid-quarters/hyper-chamber">GitHub</a>
+			</div>
+			<p class="credits">
+				Independent reference. Game names and characters belong to their respective owners.
+				Screenshots include gameplay from Joe Ebios and elieatscrayons;
+				<a
+					href="https://github.com/squid-quarters/hyper-chamber/blob/develop/docs/screenshots/README.md"
+					>screenshot sources</a
+				>.
+			</p>
+		</footer>
+	</body>
+</html>

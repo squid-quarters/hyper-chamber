@@ -1,6 +1,6 @@
 # Reference content model
 
-The runtime schema in `packages/reference` is shared by the reader and content checks. The curated SF6 catalogs live in `content/games/sf6/references/<characterId>.json`. The reader discovers every direct JSON file in that directory; validation combines them so IDs and related links are checked across files. Adding a populated character requires its catalog, game profile, source records, prepared media manifest/assets and coverage document. The [roster index](roster-source-coverage.md) links the shipped collections.
+The runtime schema in `packages/reference` is shared by the reader and content checks. The curated SF6 catalogs live in `content/games/sf6/references/<characterId>.json`. Source checks combine these JSON files so IDs and related links are checked across files. The runtime reader loads validated catalogs from installed content packs; source-run launchers also support the repository catalog and media directory. Adding a populated character requires its catalog, game profile, source records, prepared media manifest/assets and coverage document. The [roster index](roster-source-coverage.md) links the shipped collections.
 
 - `id` is stable; `revision` changes when execution or its conditions materially change.
 - `kind` describes combo, setup, or response; `situations` describes when it applies; `outcomes` describes what it achieves.
@@ -14,7 +14,7 @@ The runtime schema in `packages/reference` is shared by the reader and content c
 
 A media improvement preserves the entry ID. Source-specific conditions must survive a replacement demonstration. Numerical resource costs and damage/frame values should only be added when the source or a recorded in-game check establishes them.
 
-Browser notes/status/favorites use a separate versioned JSON envelope. Unknown valid reference IDs survive backups so that temporarily unavailable references do not destroy personal notes. A later content-revision workflow should surface reassessment when stored and catalog revisions differ.
+Notes, practice status and saved references use separate SQLite records. Unknown valid reference IDs survive content changes and database snapshots. The legacy browser JSON envelope remains an import and recovery format. A personal entry’s `revision` records the assessed execution revision; `rowVersion` separately detects concurrent edits. The reader surfaces reassessment when the stored execution revision differs from the catalog.
 
 ## Game and participant context
 

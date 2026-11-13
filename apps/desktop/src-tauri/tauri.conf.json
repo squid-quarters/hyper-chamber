@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.tauri.app/config/2",
+	"productName": "Hyper Chamber",
+	"version": "1.0.0-beta.1",
+	"identifier": "com.squidquarters.hyperchamber",
+	"build": {
+		"frontendDist": "bootstrap",
+		"beforeBuildCommand": "node ../../tools/desktop/prepare.mjs",
+		"beforeDevCommand": "node ../../tools/desktop/prepare.mjs"
+	},
+	"app": {
+		"windows": [],
+		"security": {
+			"capabilities": ["main"]
+		}
+	},
+	"bundle": {
+		"active": true,
+		"targets": ["app", "dmg"],
+		"category": "Reference",
+		"shortDescription": "A personal fighting-game training reference",
+		"resources": {
+			"../build/resources/": "resources/"
+		},
+		"icon": ["icons/icon.icns", "icons/icon.ico", "icons/icon.png"],
+		"macOS": {
+			"minimumSystemVersion": "13.5"
+		}
+	}
+}

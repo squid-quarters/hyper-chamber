@@ -1,8 +1,12 @@
 <script lang="ts">
 	import type { Reference } from '@hyper-chamber/reference';
 	import { Check, Copy, Star } from '@lucide/svelte';
-	let { reference, saved, onsave }: { reference: Reference; saved: boolean; onsave: () => void } =
-		$props();
+	let {
+		reference,
+		saved,
+		onsave,
+		disabled = false,
+	}: { reference: Reference; saved: boolean; onsave: () => void; disabled?: boolean } = $props();
 	let copyState = $state('');
 	let copyFallback = $state(false);
 	$effect(() => {
@@ -30,6 +34,7 @@
 <div class="reference-actions" role="group" aria-label="Reference actions">
 	<button
 		class="button save-reference-button"
+		{disabled}
 		class:enabled={saved}
 		aria-pressed={saved}
 		aria-label={saved ? 'Unsave reference' : 'Save reference'}
