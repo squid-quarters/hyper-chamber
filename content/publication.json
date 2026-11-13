@@ -13,5 +13,12 @@
 		"thirdPartyRedistributionRights": "not-assessed"
 	},
 	"originalRecordingsAndTooling": "Original recordings and private extraction/review workfiles remain local and outside Git.",
-	"deploymentAuthorization": "Separate authority required; not granted by this repository-publication confirmation."
+	"deploymentAuthorization": "Public project-site publication and first beta distribution have separate owner authority. No account, synchronization, analytics or general internet hosting authority is implied.",
+	"betaReleasePublication": {
+		"authorization": "repository-owner-requested",
+		"confirmedOn": "2026-11-13",
+		"scope": "Public beta installers and the existing prepared reference library, distributed through GitHub Releases; a Squid Quarters Homebrew tap for macOS installation.",
+		"request": "I think we\u2019re ready for an actual beta release now with installers etc. Can you get that pushed out?",
+		"status": "authorized; release preparation in progress"
+	}
 }

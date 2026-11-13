@@ -1,0 +1,148 @@
+name: Beta installers
+on:
+  pull_request:
+    branches: [develop]
+    paths:
+      - '.github/workflows/beta-installers.yml'
+      - 'apps/desktop/**'
+      - 'apps/server/**'
+      - 'apps/web/**'
+      - 'packages/reference/**'
+      - 'tools/desktop/**'
+      - 'tools/release/**'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: beta-installers-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+defaults:
+  run:
+    shell: bash
+jobs:
+  installers:
+    name: Installer — ${{ matrix.name }}
+    if: github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/develop'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Mac Apple Silicon
+            runner: macos-15
+            platform: darwin
+            arch: arm64
+            artifact: macos-arm64
+            bundles: dmg
+            suffix: aarch64
+          - name: Mac Intel
+            runner: macos-15-intel
+            platform: darwin
+            arch: x64
+            artifact: macos-x64
+            bundles: dmg
+            suffix: x64
+          - name: Windows x64
+            runner: windows-2025
+            platform: win32
+            arch: x64
+            artifact: windows-x64
+            bundles: nsis
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 60
+    env:
+      EXPECTED_PLATFORM: ${{ matrix.platform }}
+      EXPECTED_ARCH: ${{ matrix.arch }}
+      HYPER_CHAMBER_TARGET_PLATFORM: ${{ matrix.platform }}
+      HYPER_CHAMBER_TARGET_ARCH: ${{ matrix.arch }}
+      APPLE_SIGNING_IDENTITY: '-'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/apps/web/static/media/**
+            /apps/web/static/media/dhalsim/dhalsim-full-early-lights-od-fire/**
+            /apps/web/static/media/dhalsim/dhalsim-full-early-lights-od-fire-sa1/**
+            /apps/web/static/media/dhalsim/dhalsim-light-blast/**
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.14.1'
+          architecture: ${{ matrix.arch }}
+          cache: pnpm
+      - name: Check the native build target
+        run: node -e 'if (process.platform !== process.env.EXPECTED_PLATFORM || process.arch !== process.env.EXPECTED_ARCH) throw new Error("Runner and bundled runtime architecture must match");'
+      - name: Install pinned Rust toolchain
+        run: |
+          rustup toolchain install 1.94.1 --profile minimal --component clippy --component rustfmt
+          rustup override set 1.94.1
+      - name: Install pinned workspace dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Check beta version
+        id: version
+        run: node tools/release/check-version.mjs
+      - name: Run tests and native checks
+        run: |
+          pnpm lint
+          pnpm typecheck
+          pnpm test
+          pnpm desktop:check
+      - name: Build the bundled server and interface
+        run: |
+          pnpm --filter @hyper-chamber/server build
+          pnpm --filter @hyper-chamber/web build
+      - name: Build the installer
+        env:
+          BUNDLES: ${{ matrix.bundles }}
+        run: pnpm --filter @hyper-chamber/desktop exec tauri build --bundles "$BUNDLES"
+      - name: Test the application inside the Mac disk image
+        if: runner.os == 'macOS'
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+          SUFFIX: ${{ matrix.suffix }}
+        run: |
+          mount="$RUNNER_TEMP/hyper-chamber-release-image"
+          mkdir -p "$mount" .local
+          trap 'hdiutil detach "$mount"' EXIT
+          hdiutil attach "apps/desktop/src-tauri/target/release/bundle/dmg/Hyper Chamber_${VERSION}_${SUFFIX}.dmg" -readonly -nobrowse -mountpoint "$mount"
+          codesign --verify --deep --strict "$mount/Hyper Chamber.app"
+          node tools/desktop/smoke.mjs --resources "$mount/Hyper Chamber.app/Contents/Resources/resources" --native "$mount/Hyper Chamber.app/Contents/MacOS/hyper-chamber-desktop" --expected-platform "$EXPECTED_PLATFORM" --expected-arch "$EXPECTED_ARCH" --output .local/native-smoke.json
+      - name: Install and test the Windows setup executable
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $installers = @(Get-ChildItem 'apps/desktop/src-tauri/target/release/bundle/nsis/*-setup.exe')
+          if ($installers.Count -ne 1) { throw 'Expected one NSIS installer.' }
+          $installDir = Join-Path $env:RUNNER_TEMP 'hyper-chamber-release-install'
+          if (Test-Path $installDir) { throw 'Isolated installer directory already exists.' }
+          $process = Start-Process -FilePath $installers[0].FullName -ArgumentList "/S /D=$installDir" -Wait -PassThru
+          if ($process.ExitCode -ne 0) { throw "Installer failed with $($process.ExitCode)." }
+          New-Item -ItemType Directory -Force '.local' | Out-Null
+          node tools/desktop/smoke.mjs --resources "$installDir/resources" --native "$installDir/hyper-chamber-desktop.exe" --expected-platform win32 --expected-arch x64 --output .local/native-smoke.json
+          if ($LASTEXITCODE -ne 0) { throw 'Installed Windows app smoke failed.' }
+      - name: Collect the verified installer
+        run: node tools/release/collect-installer.mjs --bundle-dir apps/desktop/src-tauri/target/release/bundle --verification .local/native-smoke.json --output .local/installer
+      - name: Retain installer and verification record
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: beta-installer-${{ matrix.artifact }}
+          path: .local/installer/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
+      - name: Uninstall the isolated Windows test copy
+        if: always() && runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $installDir = Join-Path $env:RUNNER_TEMP 'hyper-chamber-release-install'
+          $uninstaller = Join-Path $installDir 'uninstall.exe'
+          if (Test-Path $uninstaller) {
+            $process = Start-Process -FilePath $uninstaller -ArgumentList '/S' -Wait -PassThru
+            if ($process.ExitCode -ne 0) { throw "Test uninstall failed with $($process.ExitCode)." }
+          }

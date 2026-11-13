@@ -2,7 +2,9 @@
 import {cp, copyFile, chmod, mkdir, readFile, readdir, rm, stat, writeFile} from 'node:fs/promises';
 import {basename, dirname, join, parse, resolve} from 'node:path';
 import {collectPack, repositoryRoot, writeUnpackedPack} from './pack.mjs';
-import {verifyMacOsRuntime} from './runtime.mjs';
+import {assertNativeRuntime, verifyMacOsRuntime} from './runtime.mjs';
+import {createHash} from 'node:crypto';
+import {writeThirdPartyNotices} from './notices.mjs';
 
 const output = resolve(process.argv[2] ?? join(repositoryRoot, 'apps/desktop/build/resources'));
 const server = join(repositoryRoot, 'apps/server/dist');
@@ -14,8 +16,13 @@ for (const path of [join(server, 'cli.mjs'), join(web, 'index.html')]) {
 		);
 	});
 }
-if (Number(process.versions.node.split('.')[0]) !== 24)
-	throw new Error('Desktop packaging requires Node 24 (the bundled runtime).');
+assertNativeRuntime(
+	{version: process.version, platform: process.platform, arch: process.arch},
+	{
+		platform: process.env.HYPER_CHAMBER_TARGET_PLATFORM,
+		arch: process.env.HYPER_CHAMBER_TARGET_ARCH,
+	},
+);
 const version = JSON.parse(
 	await readFile(join(repositoryRoot, 'apps/desktop/package.json'), 'utf8'),
 ).version;
@@ -71,9 +78,24 @@ await cp(web, join(output, 'web'), {
 });
 const pack = await collectPack({starter: true, version});
 await writeUnpackedPack(pack, join(output, 'seed'));
+await writeThirdPartyNotices(output);
 await writeFile(
 	join(output, 'runtime.json'),
-	`${JSON.stringify({node: process.version, platform: process.platform, architecture: process.arch, appVersion: version, starterReferences: pack.referenceCount, starterClips: pack.clipCount}, null, 2)}\n`,
+	`${JSON.stringify(
+		{
+			node: process.version,
+			platform: process.platform,
+			architecture: process.arch,
+			nodeSha256: createHash('sha256')
+				.update(await readFile(node))
+				.digest('hex'),
+			appVersion: version,
+			starterReferences: pack.referenceCount,
+			starterClips: pack.clipCount,
+		},
+		null,
+		2,
+	)}\n`,
 );
 console.log(
 	`Desktop resources prepared: ${pack.referenceCount} catalog references; ${pack.clipCount} starter demonstrations; Node ${process.version} ${process.platform}-${process.arch}.`,

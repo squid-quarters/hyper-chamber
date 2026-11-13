@@ -78,6 +78,12 @@ impl Backend {
             .open(library_dir.join("server.log"))
             .map_err(|e| format!("The library log could not be opened: {e}"))?;
         let mut command = Command::new(node);
+        #[cfg(windows)]
+        {
+            use std::os::windows::process::CommandExt;
+            // The owned server is a console executable; it should not create a second window.
+            command.creation_flags(0x0800_0000); // CREATE_NO_WINDOW
+        }
         command
             .arg(server)
             .args(["--library-dir", &library_dir.to_string_lossy()])
