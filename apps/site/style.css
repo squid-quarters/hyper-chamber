@@ -205,7 +205,7 @@ h1 {
 	font-size: 14px;
 	padding-block: 10px;
 }
-.development-status {
+.release-status {
 	margin-top: 22px;
 	font-size: 12px;
 	color: var(--muted);
@@ -468,7 +468,7 @@ h2 {
 	.hero-actions {
 		gap: 14px 22px;
 	}
-	.development-status {
+	.release-status {
 		margin-top: 18px;
 	}
 	h2 {

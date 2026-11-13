@@ -8,9 +8,11 @@ listener. Both use the same SQLite database and installed reference packs.
 The desktop bundle contains its runtime, server, interface, fonts and three complete
 Dhalsim references. Users of an installed build do not need Node, pnpm, Rust or an AI
 agent to set it up. Additional character content arrives as `.hcpack` archives.
-Version `1.0.0-beta.1` is still unreleased: no installer, signed release or update
-feed has been published. The static project site is published separately through
-GitHub Pages; it does not host the running application or its library.
+Version `1.0.0-beta.1` is the first public beta, distributed through GitHub Releases
+and the Squid Quarters Homebrew tap. Mac installers are ad-hoc signed and not
+notarized; Windows setup is unsigned. No automatic update feed is configured.
+The static project site is published separately through GitHub Pages; it does not
+host the running application or its library.
 
 ## Responsibilities
 
@@ -166,7 +168,7 @@ build hook prepares these resources again. Generated resources and native artifa
 stay out of Git. The local `.app` is under
 `apps/desktop/src-tauri/target/release/bundle/macos/`; this command does not sign,
 notarize, upload or publish it. `pnpm desktop:build` additionally builds the configured
-unsigned disk image. Desktop development uses `pnpm desktop:dev`.
+ad-hoc-signed disk image. Desktop development uses `pnpm desktop:dev`.
 
 Create a character archive from existing curated content without changing originals:
 
@@ -188,7 +190,7 @@ job; desktop releases, reference packs and learner data are outside that artifac
 
 ## Public beta distribution
 
-The first public beta is being prepared as `1.0.0-beta.1`. macOS Apple silicon, macOS Intel and Windows 64-bit installers are release targets; available downloads and validation results will be recorded after the platform builds pass. A target listed here is not a claim that its build has been tested or published.
+The first public beta is `1.0.0-beta.1`. GitHub Releases provides macOS Apple silicon, macOS Intel and Windows 64-bit installers, with checksums and build records. These are beta builds; platform smoke checks do not establish compatibility with every computer or current-patch accuracy for the reference library.
 
 The installed application includes its runtime and a small Dhalsim starter. User installation instructions belong in the root README and project site; source-build prerequisites remain in this document. Homebrew tap details and signing status must match the published release artifacts before their installation commands are advertised.
 
@@ -206,4 +208,4 @@ Mac builds are ad-hoc signed with the hardened runtime and are not Apple-notariz
 
 The official Homebrew repository is `squid-quarters/homebrew-tap`, with cask token `hyper-chamber@beta`. Advertise `brew install --cask squid-quarters/tap/hyper-chamber@beta` only after the release files and reviewed tap recipe are public. The cask must preserve the user’s library on uninstall.
 
-Additional distribution is planned as one `.hcpack` per Street Fighter 6 character, covering the repository’s 32 character libraries and 2,068 references. The bundled three-demo starter remains available without extra packs. Do not claim the pack assets are downloadable until publication is confirmed.
+The release includes one `.hcpack` per Street Fighter 6 character, covering 32 character libraries and 2,068 references. The bundled three-demo starter works without extra packs. Learner notes and progress remain separate from application and content updates.
