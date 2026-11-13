@@ -1786,6 +1786,7 @@ dialog > p {
 	}
 	.detail-disclosure > summary::before {
 		forced-color-adjust: none;
+		background: ButtonText;
 	}
 	select {
 		appearance: auto;
