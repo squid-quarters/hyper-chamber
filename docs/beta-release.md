@@ -30,14 +30,20 @@ node tools/release/build-packs.mjs --output /path/to/packs
 
 This writes an index and one `.hcpack` per populated character, preserving IDs, execution revisions, media hashes and source credits. It runs sequentially and verifies completed entries when resumed. Archives must remain below the application's and GitHub's 2 GiB per-file limit. Publication authority is recorded in `content/publication.json`; it does not establish third-party media licensing or in-game verification.
 
-Before publishing, test pack imports against a disposable library and confirm the expected full reference count. Keep the initial starter and the displayed full-library screenshots clearly distinguished in release copy.
+Before publishing, test the actual archives through the application API in a disposable library:
+
+```sh
+node tools/release/check-packs.mjs --packs /path/to/packs --output /path/to/content-verification.json
+```
+
+This checks imports, unique stable IDs, a clip from each character, and notes/content surviving a server restart. Keep the initial starter and the displayed full-library screenshots clearly distinguished in release copy.
 
 ## Assemble and publish
 
 Use the exact source commit recorded by all three successful canonical builds:
 
 ```sh
-node tools/release/assemble.mjs --installers /path/to/installers --packs /path/to/packs --source-commit COMMIT_SHA --output /path/to/release
+node tools/release/assemble.mjs --installers /path/to/installers --packs /path/to/packs --source-commit COMMIT_SHA --pack-verification /path/to/content-verification.json --output /path/to/release
 ```
 
 Assembly refuses mixed versions, mismatched commits, failed native smokes, changed file hashes and incomplete character indexes. It produces `release-manifest.json` and `SHA256SUMS.txt`, alongside the installers, packs and per-platform build records. Use a fresh output directory; published beta assets must not be silently replaced.

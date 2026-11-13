@@ -64,6 +64,8 @@ let child;
 let knownOwned = [];
 let output = '';
 let interrupted = false;
+let launchNative = !!values.native;
+let backendPreflight = false;
 process.once('SIGINT', () => {
 	interrupted = true;
 });
@@ -144,10 +146,11 @@ async function launch() {
 		HYPER_CHAMBER_LIBRARY_DIR: join(scratch, 'library'),
 		HYPER_CHAMBER_PARENT_PID: String(process.pid),
 		HYPER_CHAMBER_ADMIN_TOKEN: token,
+		HYPER_CHAMBER_DIAGNOSTICS_PATH: join(scratch, 'native-startup.jsonl'),
 	};
 	delete env.HYPER_CHAMBER_RESOURCES_DIR;
 	delete env.NODE_OPTIONS;
-	const args = values.native
+	const args = launchNative
 		? []
 		: [
 				join(resources, 'server/cli.mjs'),
@@ -164,7 +167,7 @@ async function launch() {
 				'--app-version',
 				metadata.appVersion,
 			];
-	child = spawn(values.native ? resolve(values.native) : node, args, {
+	child = spawn(launchNative ? resolve(values.native) : node, args, {
 		env,
 		stdio: ['ignore', 'pipe', 'pipe'],
 		windowsHide: true,
@@ -190,7 +193,7 @@ async function launch() {
 			return false;
 		}
 	}, 'Packaged application did not become ready.');
-	if (values.native) {
+	if (launchNative) {
 		await delay(2000);
 		if (child.exitCode !== null || child.signalCode !== null)
 			throw new Error('Native app exited during window startup.\n' + output);
@@ -202,7 +205,7 @@ async function stop(url) {
 	if (!child) return;
 	const owned = [...new Set([...knownOwned, ...descendants(child.pid), child.pid])];
 	console.log('Owned smoke process IDs: ' + owned.join(', '));
-	if (values.native) child.kill('SIGTERM');
+	if (launchNative) child.kill('SIGTERM');
 	else {
 		const response = await fetch(url + '/api/admin/shutdown', {
 			method: 'POST',
@@ -220,6 +223,18 @@ async function stop(url) {
 	child = undefined;
 }
 try {
+	// First isolate the packaged backend from native bootstrap on the Windows installer runner.
+	if (values.native && process.platform === 'win32') {
+		launchNative = false;
+		const preflightUrl = await launch();
+		const preflight = await (await fetch(preflightUrl + '/api/catalog')).json();
+		assert.equal(preflight.references.length, 3);
+		await stop(preflightUrl);
+		await rm(join(scratch, 'library'), {recursive: true, force: true});
+		backendPreflight = true;
+		launchNative = true;
+		console.log('Installed Windows backend preflight passed.');
+	}
 	let url = await launch();
 	const runtime = await (await fetch(url + '/api/runtime')).json();
 	assert.equal(runtime.appVersion, metadata.appVersion);
@@ -292,6 +307,7 @@ try {
 		node: metadata.node,
 		checks: {
 			nativeBootstrap: !!values.native,
+			...(backendPreflight ? {backendPreflight: true} : {}),
 			runtimePin: true,
 			nodeByteIntegrity: true,
 			cleanLibraryBootstrap: true,
@@ -306,6 +322,32 @@ try {
 	};
 	if (values.output) await writeFile(resolve(values.output), JSON.stringify(proof, null, 2) + '\n');
 	console.log(JSON.stringify(proof));
+} catch (error) {
+	const diagnostics = {};
+	for (const [name, path] of [
+		['nativeStartup', join(scratch, 'native-startup.jsonl')],
+		['serverLog', join(scratch, 'library/server.log')],
+	]) {
+		try {
+			diagnostics[name] = (await readFile(path, 'utf8')).slice(-65536);
+		} catch (readError) {
+			if (readError.code !== 'ENOENT') diagnostics[name] = String(readError);
+		}
+	}
+	const failure = {
+		passed: false,
+		platform: process.platform,
+		arch: process.arch,
+		version: metadata.appVersion,
+		backendPreflight,
+		error: String(error),
+		output: output.slice(-65536),
+		diagnostics,
+	};
+	if (values.output)
+		await writeFile(resolve(values.output), JSON.stringify(failure, null, 2) + '\n');
+	console.error(JSON.stringify(failure, null, 2));
+	throw error;
 } finally {
 	if (child?.pid) {
 		const owned = [...new Set([...knownOwned, ...descendants(child.pid), child.pid])].reverse();
