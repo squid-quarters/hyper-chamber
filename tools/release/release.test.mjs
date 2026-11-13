@@ -1,9 +1,17 @@
 import {test} from 'node:test';
+import {execFileSync, spawnSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
 import assert from 'node:assert/strict';
-import {mkdtemp, writeFile, symlink, rm, mkdir, truncate} from 'node:fs/promises';
+import {mkdtemp, writeFile, symlink, rm, mkdir, truncate, stat} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
-import {betaVersion, installerName, describeAsset, releaseVersion} from './model.mjs';
+import {
+	betaVersion,
+	installerName,
+	describeAsset,
+	releaseVersion,
+	assertReleaseSource,
+} from './model.mjs';
 
 test('release path refuses stable, malformed and path-injecting versions', () => {
 	assert.equal(betaVersion('1.0.0-beta.1'), '1.0.0-beta.1');
@@ -96,6 +104,71 @@ test('asset guard refuses the exact GitHub and content-pack size boundary', asyn
 		await writeFile(payload, '');
 		await truncate(payload, 2 ** 31);
 		await assert.rejects(describeAsset(payload));
+	} finally {
+		await rm(dir, {recursive: true, force: true});
+	}
+});
+
+test('source binding rejects same-version content drift and untracked release inputs', async () => {
+	const dir = await mkdtemp(join(tmpdir(), 'hc-release-source-'));
+	const git = args =>
+		execFileSync(
+			'git',
+			[
+				'-c',
+				'user.name=Hyper Chamber fixture',
+				'-c',
+				'user.email=fixture@example.invalid',
+				...args,
+			],
+			{cwd: dir, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe']},
+		);
+	try {
+		git(['init', '--quiet']);
+		await writeFile(join(dir, 'package.json'), JSON.stringify({version: '1.0.0-beta.1'}));
+		await writeFile(join(dir, 'reference.json'), 'route A');
+		git(['add', 'package.json', 'reference.json']);
+		git(['commit', '--quiet', '-m', 'test: create release fixture']);
+		const sourceA = git(['rev-parse', 'HEAD']).trim();
+		assert.doesNotThrow(() => assertReleaseSource(dir, sourceA));
+		await writeFile(join(dir, 'reference.json'), 'route B');
+		assert.throws(() => assertReleaseSource(dir, sourceA), /clean checkout/);
+		git(['add', 'reference.json']);
+		git(['commit', '--quiet', '-m', 'test: change same-version source fixture']);
+		const sourceB = git(['rev-parse', 'HEAD']).trim();
+		assert.throws(() => assertReleaseSource(dir, sourceA), /source commit/);
+		assert.doesNotThrow(() => assertReleaseSource(dir, sourceB));
+		await writeFile(join(dir, 'new-media.mp4'), 'untracked payload');
+		assert.throws(() => assertReleaseSource(dir, sourceB), /clean checkout/);
+	} finally {
+		await rm(dir, {recursive: true, force: true});
+	}
+});
+
+test('assembly rejects a mismatched checkout before reading or creating release assets', async () => {
+	const dir = await mkdtemp(join(tmpdir(), 'hc-release-cli-'));
+	try {
+		const output = join(dir, 'release');
+		const result = spawnSync(
+			process.execPath,
+			[
+				fileURLToPath(new URL('./assemble.mjs', import.meta.url)),
+				'--installers',
+				join(dir, 'missing-installers'),
+				'--packs',
+				join(dir, 'missing-packs'),
+				'--pack-verification',
+				join(dir, 'missing-proof.json'),
+				'--source-commit',
+				'0'.repeat(40),
+				'--output',
+				output,
+			],
+			{encoding: 'utf8', timeout: 10000},
+		);
+		assert.notEqual(result.status, 0);
+		assert.match(result.stderr, /checkout does not match.*source commit/);
+		await assert.rejects(stat(output), {code: 'ENOENT'});
 	} finally {
 		await rm(dir, {recursive: true, force: true});
 	}

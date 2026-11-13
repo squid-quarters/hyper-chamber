@@ -1,4 +1,5 @@
 import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
 import {createReadStream} from 'node:fs';
 import {readFile, lstat} from 'node:fs/promises';
 import {join, basename} from 'node:path';
@@ -50,4 +51,23 @@ export async function describeAsset(path) {
 	const hash = createHash('sha256');
 	for await (const chunk of createReadStream(path)) hash.update(chunk);
 	return {name: basename(path), bytes: info.size, sha256: hash.digest('hex')};
+}
+
+export function assertReleaseSource(root, expectedCommit) {
+	if (!/^[a-f0-9]{40}$/.test(expectedCommit ?? ''))
+		throw new Error('An exact release source commit is required.');
+	const head = execFileSync('git', ['rev-parse', '--verify', 'HEAD'], {
+		cwd: root,
+		encoding: 'utf8',
+	}).trim();
+	if (head !== expectedCommit)
+		throw new Error('The release checkout does not match the installer source commit.');
+	const changes = execFileSync('git', ['status', '--porcelain=v1', '--untracked-files=all'], {
+		cwd: root,
+		encoding: 'utf8',
+	});
+	if (changes.trim())
+		throw new Error(
+			'Release assembly requires a clean checkout, including untracked source files.',
+		);
 }

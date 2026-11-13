@@ -4,7 +4,7 @@ import {createHash} from 'node:crypto';
 import {constants} from 'node:fs';
 import {copyFile, mkdir, readFile, writeFile, readdir} from 'node:fs/promises';
 import {basename, join, resolve} from 'node:path';
-import {releaseVersion, describeAsset, installerName} from './model.mjs';
+import {releaseVersion, describeAsset, installerName, assertReleaseSource} from './model.mjs';
 import {repositoryRoot, collectPack} from '../desktop/pack.mjs';
 
 const {values} = parseArgs({
@@ -26,6 +26,7 @@ if (
 	throw new Error(
 		'Provide --installers, --packs, --pack-verification, --output and an exact --source-commit.',
 	);
+assertReleaseSource(repositoryRoot, values['source-commit']);
 const version = await releaseVersion(repositoryRoot);
 const output = resolve(values.output);
 await mkdir(output, {recursive: true});

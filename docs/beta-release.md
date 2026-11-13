@@ -46,7 +46,7 @@ Use the exact source commit recorded by all three successful canonical builds:
 node tools/release/assemble.mjs --installers /path/to/installers --packs /path/to/packs --source-commit COMMIT_SHA --pack-verification /path/to/content-verification.json --output /path/to/release
 ```
 
-Assembly refuses mixed versions, mismatched commits, failed native smokes, changed file hashes and incomplete character indexes. It produces `release-manifest.json` and `SHA256SUMS.txt`, alongside the installers, packs and per-platform build records. Use a fresh output directory; published beta assets must not be silently replaced.
+Assembly requires an exact matching source commit and a clean checkout, including untracked files. It refuses mixed versions, failed native smokes, changed file hashes and incomplete character indexes. It produces `release-manifest.json` and `SHA256SUMS.txt`, alongside the installers, packs and per-platform build records. Use a fresh output directory; published beta assets must not be silently replaced.
 
 Create a **draft** GitHub release at that commit, with the matching `v1.0.0-beta.N` tag and explicit prerelease status. Upload files in batches, verify the uploaded names, sizes and digests, then publish the draft as a prerelease with `latest=false`. Never promote it to a stable release automatically. Do not publish from a pull-request merge ref or an unreviewed branch.
 
