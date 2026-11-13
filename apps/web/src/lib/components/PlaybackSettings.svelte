@@ -191,7 +191,7 @@
 			<dl class="shortcut-list" class:single-keys-off={!preferences.shortcuts}>
 				<div class="single-key">
 					<dt>Previous / next reference</dt>
-					<dd><kbd>P</kbd><kbd>N</kbd></dd>
+					<dd><kbd>B</kbd><kbd>N</kbd></dd>
 				</div>
 				<div class="single-key">
 					<dt>Play / pause</dt>

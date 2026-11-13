@@ -2,6 +2,7 @@
 
 ## 1.0.0-beta.1 (unreleased)
 
+- Use B / N for previous / next references and keep training-goal and reference-type controls stationary as filter counts change.
 - Add a Tauri desktop host with a bundled Node runtime and local SQLite library.
 - Share the same library with phones and tablets on the local network, with device access controlled from the desktop app.
 - Load references from content packs, separate from learner data and application updates; include a small complete Dhalsim starter.
