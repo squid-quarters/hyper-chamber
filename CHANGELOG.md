@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.3 (2026-11-13)
+
+- Align the Refine results button with the library controls and tiles, balance its row spacing, and keep wrapped result counts aligned to the right.
+
 ## 0.3.2 (2026-11-13)
 
 - Group Save and Copy inputs beside the reference title, with a shared row on phones.
