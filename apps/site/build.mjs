@@ -12,6 +12,7 @@ await rm(output, {recursive: true, force: true});
 await mkdir(join(output, 'assets'), {recursive: true});
 for (const name of ['index.html', 'style.css']) await cp(join(site, name), join(output, name));
 await cp(join(site, 'assets/brand-mark.svg'), join(output, 'assets/brand-mark.svg'));
+await cp(join(site, 'assets/octicons-LICENSE.txt'), join(output, 'assets/octicons-LICENSE.txt'));
 for (const name of ['practice.webp', 'library.webp', 'phone.webp']) {
 	await cp(join(repo, 'docs/screenshots', name), join(output, 'assets', name));
 }

@@ -8,7 +8,7 @@
 		<title>Hyper Chamber — fighting-game practice references</title>
 		<meta
 			name="description"
-			content="A local fighting-game reference with inputs, short replays and personal practice notes. Hyper Chamber's desktop beta is in development."
+			content="Combo inputs, short replays and practice notes for Street Fighter 6. A native desktop app with phone and tablet browser access. Beta in development."
 		/>
 		<link rel="canonical" href="https://squid-quarters.github.io/hyper-chamber/" />
 		<link rel="icon" href="./assets/brand-mark.svg" type="image/svg+xml" />
@@ -37,46 +37,55 @@
 					<span>Hyper<br /><span>Chamber</span></span>
 				</a>
 				<nav aria-label="Project navigation">
-					<a href="#inside">Inside the app</a>
+					<a href="#platforms">Platforms</a>
 					<a href="https://github.com/squid-quarters/hyper-chamber"
-						>GitHub<svg
-							viewBox="0 0 24 24"
-							width="16"
-							height="16"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="1.5"
+						><svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="github-mark"
+							width="18"
+							height="18"
+							fill="currentColor"
 							aria-hidden="true"
+							viewBox="0 0 16 16"
 						>
-							<path d="M7 17 17 7M7 7h10v10" /></svg
-					></a>
+							<path
+								d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656"
+							/></svg
+						>GitHub</a
+					>
 				</nav>
 			</div>
 		</header>
 		<main id="main">
 			<section class="hero" aria-labelledby="hero-title">
 				<div class="hero-copy">
-					<h1 id="hero-title">Combos and setups,<br />with a replay <br />to practise.</h1>
+					<h1 id="hero-title">Combo references for training mode.</h1>
 					<p class="lede">
-						A local training reference for Street Fighter 6. Browse by character and situation, then
-						keep the inputs and a short video open beside training mode.
+						Hyper Chamber keeps inputs, short replays and execution notes together while you
+						practise Street Fighter 6. Use the native desktop app, or open its library on your phone
+						or tablet over your local network.
 					</p>
 					<div class="hero-actions">
 						<a class="button button-primary" href="https://github.com/squid-quarters/hyper-chamber"
-							>View on GitHub<svg
-								viewBox="0 0 24 24"
+							><svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="github-mark"
 								width="18"
 								height="18"
-								fill="none"
-								stroke="currentColor"
-								stroke-width="1.5"
+								fill="currentColor"
 								aria-hidden="true"
+								viewBox="0 0 16 16"
 							>
-								<path d="M5 12h14m-6-6 6 6-6 6" /></svg
-						></a>
-						<a class="text-link" href="#beta">About the beta</a>
+								<path
+									d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656"
+								/></svg
+							>View on GitHub</a
+						>
+						<a class="text-link" href="#inside">Inside the app</a>
 					</div>
-					<p class="development-status"><span aria-hidden="true"></span>Beta in development</p>
+					<p class="development-status">
+						Beta in development. Public installers are not available yet.
+					</p>
 				</div>
 				<figure class="practice-preview">
 					<img
@@ -86,19 +95,18 @@
 						alt="Ryu's practice reference, with the input sequence above its paused replay and controls for looping and inspection."
 						fetchpriority="high"
 					/>
-					<figcaption>The reference interface, shown with the full development library.</figcaption>
 				</figure>
 			</section>
 			<section class="library-section" id="inside" aria-labelledby="library-title">
 				<div class="section-copy">
-					<h2 id="library-title">Find a reference<br />by what you want to practise.</h2>
+					<h2 id="library-title">Find a route for the situation.</h2>
 					<p>
-						Search a move name or input, or narrow the library to punishes, corner carry, oki,
-						anti-air and cash-out routes.
+						Choose a character, then filter for punishes, corner carry, oki, anti-air or cash-out
+						routes. Search move names or inputs when you know what you’re looking for.
 					</p>
 					<p>
-						The first collection covers Street Fighter 6. Each reference keeps its source,
-						conditions and execution notes alongside the demonstration.
+						Loop a demonstration, slow it down or drag across the picture to inspect a transition.
+						Save routes to return to, add timing notes and keep track of what you’ve practised.
 					</p>
 				</div>
 				<figure class="library-preview">
@@ -109,35 +117,34 @@
 						alt="Dhalsim's reference library, with a character picker, search, training-goal filters and reference tiles."
 						loading="lazy"
 					/>
-					<figcaption>
-						Character libraries keep the search and filters close to the references.
-					</figcaption>
 				</figure>
 			</section>
-			<section class="practice-section" aria-labelledby="practice-title">
-				<div class="practice-description">
-					<h2 id="practice-title">Stay with the part<br />you’re working on.</h2>
-					<dl class="practice-details">
+			<section class="platform-section" id="platforms" aria-labelledby="platform-title">
+				<div class="platform-description">
+					<h2 id="platform-title">Platforms</h2>
+					<p class="platform-intro">
+						The desktop app holds your library. A phone or tablet can access the same references and
+						notes through its browser.
+					</p>
+					<dl class="platform-details">
 						<div>
-							<dt>Loop and inspect</dt>
+							<dt>macOS <span>Native app · Beta</span></dt>
 							<dd>
-								Replay a short demonstration, slow it down or drag across the picture to inspect a
-								transition. Selected key moments give you another way to find the timing.
+								Built and tested on Mac. The app runs locally and keeps your library on your
+								computer.
 							</dd>
 						</div>
 						<div>
-							<dt>Keep the inputs in view</dt>
+							<dt>Phone &amp; tablet <span>Browser access</span></dt>
 							<dd>
-								The sequence sits above the replay. Move explanations and source notes are there
-								when you need more detail.
+								Enable device access in the desktop app, then open its address in your browser on
+								the same local network. Keep Hyper Chamber running on the computer while you
+								practise.
 							</dd>
 						</div>
 						<div>
-							<dt>Keep your practice notes</dt>
-							<dd>
-								Save routes to return to and add your own timing cues and practice status. Your
-								notes stay separate from the shared material.
-							</dd>
+							<dt>Windows <span>Planned</span></dt>
+							<dd>A Windows build has not been tested yet.</dd>
 						</div>
 					</dl>
 				</div>
@@ -146,43 +153,43 @@
 						src="./assets/phone.webp"
 						width="390"
 						height="844"
-						alt="The Ryu practice view on a phone, with Previous and Next controls, wrapped inputs and the replay beneath."
+						alt="Ryu’s practice reference in a phone browser, with inputs and replay beneath the Previous and Next controls."
 						loading="lazy"
 					/>
-					<figcaption>The interface also adapts to a phone or tablet.</figcaption>
 				</figure>
 			</section>
 			<section class="beta-section" id="beta" aria-labelledby="beta-title">
 				<div>
-					<h2 id="beta-title">The desktop beta</h2>
+					<h2 id="beta-title">About the beta</h2>
 					<p>
-						The macOS beta has been built and tested. It bundles its runtime and local library, so
-						an installed build needs no development setup. Windows support is planned and has not
-						been tested yet.
+						The beta starts with three Dhalsim demonstrations. More references can be added with
+						content packs. The screenshots on this page show the full development collection.
 					</p>
 					<p>
-						While the desktop app is running, you can open the same library in a phone or tablet
-						browser on your local network.
+						Each reference links back to its source, with review notes that distinguish checks
+						against the video from testing in-game.
 					</p>
 				</div>
 				<div class="beta-availability">
-					<p class="beta-state">In development</p>
+					<p class="beta-state">Downloads</p>
 					<p>
-						Public installers are not available yet. Installers and setup notes will appear in
-						GitHub Releases when the beta is ready to download.
+						Installers and setup notes will be published on GitHub Releases when the beta is ready.
 					</p>
 					<a class="button" href="https://github.com/squid-quarters/hyper-chamber/releases"
-						>View releases<svg
-							viewBox="0 0 24 24"
+						><svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="github-mark"
 							width="18"
 							height="18"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="1.5"
+							fill="currentColor"
 							aria-hidden="true"
+							viewBox="0 0 16 16"
 						>
-							<path d="M7 17 17 7M7 7h10v10" /></svg
-					></a>
+							<path
+								d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656"
+							/></svg
+						>Release status</a
+					>
 				</div>
 			</section>
 		</main>
@@ -194,7 +201,21 @@
 					></a
 				>
 				<p>By Squid Quarters.</p>
-				<a href="https://github.com/squid-quarters/hyper-chamber">GitHub</a>
+				<a class="github-link" href="https://github.com/squid-quarters/hyper-chamber"
+					><svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="github-mark"
+						width="18"
+						height="18"
+						fill="currentColor"
+						aria-hidden="true"
+						viewBox="0 0 16 16"
+					>
+						<path
+							d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656"
+						/></svg
+					>GitHub</a
+				>
 			</div>
 			<p class="credits">
 				Independent reference. Game names and characters belong to their respective owners.
