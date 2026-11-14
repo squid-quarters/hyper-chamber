@@ -32,6 +32,18 @@ Closing the desktop window leaves the library running. Use the application's **Q
 
 When running from source, `pnpm dev` uses `.local/dev-library` and serves the interface on port 5173 with its backend on 5376. `pnpm start` serves the built interface directly on port 5376 and uses `.local/library`. Set `HYPER_CHAMBER_LIBRARY_DIR` if both commands should use the same library. `HYPER_CHAMBER_PORT` changes the backend port; `HYPER_CHAMBER_WEB_PORT` changes the development interface port. Browser-only source runs do not expose native host settings.
 
+### If a phone or tablet cannot connect
+
+Keep Hyper Chamber running with device access enabled. Check that both devices are on the same local network, then open the full address shown in **Devices**, including `http://` and its port.
+
+On Android, Chrome's **Nearby devices** permission can block the connection even when ordinary websites work. This resolved a reported connection problem on Android 17:
+
+1. Open **Android Settings → Apps → Chrome → Permissions**.
+2. If **Nearby devices** is listed, select it and choose **Allow**.
+3. Return to Chrome and reload the library address.
+
+Chrome can also have a separate site permission. Open **More → Site controls → Permissions** and allow **Local network access** for the library address if that option appears. Available settings vary with the Android and Chrome version. See [Android's local-network permission documentation](https://developer.android.com/privacy-and-security/local-network-permission) and [Chrome's site-permission instructions](https://support.google.com/chrome/answer/114662?co=GENIE.Platform%3DAndroid&hl=en).
+
 ## Availability
 
 The library requires JavaScript. Installed references, bundled fonts and clips work without an internet connection while the host is running. Original YouTube videos and external guide links need internet access. A phone or tablet still needs a connection to the running host; there is no service worker or independent offline browser installation.
@@ -42,4 +54,4 @@ Character-only URLs use the profile ID, for example `?character=ken` or `?charac
 
 Web build output is in `apps/web/build`; the server bundle is in `apps/server/dist`. Native resources are generated separately from these outputs and exclude the full media directory. Character archives and starter resources are generated from the same authored catalog. See [Desktop architecture](desktop-architecture.md) for the library layout, pack format and native build commands.
 
-The current beta is unreleased. Version and changelog changes belong in the same PR as user-facing changes. The project site and installers are not published by the validation workflow.
+The public beta is available from [GitHub Releases](https://github.com/squid-quarters/hyper-chamber/releases). Version and changelog changes belong in the same PR as user-facing changes. The project site and installers are not published by the validation workflow.

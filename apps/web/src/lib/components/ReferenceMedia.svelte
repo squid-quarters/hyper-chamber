@@ -640,6 +640,22 @@
 			aspect-ratio: 16 / 9;
 		}
 	}
+	@media (max-width: 1000px) and (max-height: 420px) {
+		.practice-media .video-stage {
+			block-size: max(120px, calc(100svh - 128px));
+			aspect-ratio: auto;
+		}
+		.practice-media .video-stage video,
+		.practice-media .video-stage .video-poster {
+			block-size: 100%;
+			aspect-ratio: auto;
+		}
+	}
+	@media (max-width: 760px) and (max-height: 420px) {
+		.practice-media .video-stage {
+			block-size: max(96px, calc(100svh - 180px));
+		}
+	}
 	.video-stage {
 		position: relative;
 	}
