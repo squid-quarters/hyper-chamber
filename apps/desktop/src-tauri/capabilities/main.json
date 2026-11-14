@@ -12,6 +12,17 @@
 		"allow-import-content-pack",
 		"allow-create-backup",
 		"allow-choose-library-folder",
-		"allow-reveal-library-folder"
+		"allow-reveal-library-folder",
+		{
+			"identifier": "opener:allow-open-url",
+			"allow": [
+				{
+					"url": "http://*"
+				},
+				{
+					"url": "https://*"
+				}
+			]
+		}
 	]
 }

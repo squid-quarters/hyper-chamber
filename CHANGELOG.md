@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Open Guides, source links and device addresses in the default browser from the desktop app.
+
 - Keep the character selector and Previous/Next controls within their targets on small phones.
 - Fit the character roster to the visible viewport when the on-screen keyboard opens, with a single-column roster on narrow phones.
 - Keep touch-device search and note fields readable in landscape.

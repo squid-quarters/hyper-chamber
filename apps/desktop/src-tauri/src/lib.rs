@@ -1,3 +1,6 @@
+#[cfg(test)]
+mod external_links_tests;
+
 mod library;
 mod runtime;
 
