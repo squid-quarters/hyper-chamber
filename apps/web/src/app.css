@@ -274,6 +274,7 @@ a > svg {
 	border-color: #ffffff52;
 }
 .character-trigger > span {
+	min-inline-size: 0;
 	display: grid;
 	gap: 1px;
 	flex: 1;
@@ -283,6 +284,7 @@ a > svg {
 	font-size: 10px;
 }
 .character-trigger strong {
+	overflow-wrap: anywhere;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 1.2;
@@ -295,8 +297,7 @@ a > svg {
 	border-radius: 3px;
 }
 .trigger-portrait {
-	inline-size: 36px;
-	block-size: 36px;
+	--portrait-size: 36px;
 }
 .library-heading {
 	display: flex;
@@ -305,8 +306,7 @@ a > svg {
 	padding-block-end: 16px;
 }
 .library-portrait {
-	inline-size: 64px;
-	block-size: 64px;
+	--portrait-size: 64px;
 }
 .library-view {
 	padding: 20px 32px 40px;
@@ -1241,7 +1241,7 @@ dialog > p {
 	position: fixed;
 	inset: auto;
 	margin: 0;
-	inline-size: min(624px, calc(100% - 32px));
+	inline-size: var(--roster-width, min(624px, calc(100% - 32px)));
 	max-block-size: var(--roster-height, 480px);
 	padding: 16px;
 	border: 0;
@@ -1254,12 +1254,14 @@ dialog > p {
 	z-index: 20;
 }
 .roster-panel:is(:popover-open, .fallback) {
-	display: block;
+	display: flex;
+	flex-direction: column;
 }
 .roster-panel :focus-visible {
 	outline-color: var(--ink);
 }
 .roster-heading {
+	flex: none;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -1271,6 +1273,7 @@ dialog > p {
 	font-weight: 600;
 }
 .roster-search {
+	flex: none;
 	display: flex;
 	align-items: center;
 	gap: 8px;
@@ -1618,6 +1621,18 @@ dialog > p {
 		--practice-nav-height: 148px;
 	}
 }
+@media (max-width: 1000px) and (max-height: 420px) {
+	html {
+		scroll-padding-top: 12px;
+	}
+	.masthead,
+	.practice-nav {
+		position: static;
+	}
+	.reference-detail.practice-view {
+		--practice-header-offset: 12px;
+	}
+}
 @media (min-width: 761px) and (max-height: 650px) {
 	.reference-detail.practice-view {
 		--practice-core-min-height: 26rem;
@@ -1669,8 +1684,7 @@ dialog > p {
 		font-size: 2.6rem;
 	}
 	.library-portrait {
-		inline-size: 56px;
-		block-size: 56px;
+		--portrait-size: 56px;
 	}
 	.library-filters {
 		gap: 13px;
@@ -1753,6 +1767,28 @@ dialog > p {
 	}
 }
 @media (max-width: 480px) {
+	.in-practice .character-trigger {
+		gap: 8px;
+	}
+	.in-practice .character-trigger small {
+		display: none;
+	}
+	.in-practice .trigger-portrait {
+		--portrait-size: 32px;
+	}
+	.practice-pagination {
+		grid-template-columns: minmax(0, 1fr) 88px minmax(0, 1fr);
+	}
+	.practice-position {
+		min-inline-size: 0;
+	}
+	.practice-position span {
+		max-inline-size: 100%;
+	}
+	.practice-pagination .practice-step {
+		gap: 6px;
+		padding-inline: 8px;
+	}
 	.library-view {
 		padding-inline: 16px;
 	}
@@ -1872,11 +1908,9 @@ dialog > p {
 	gap: 4px 12px;
 	padding-block: 8px;
 }
-.roster-panel {
-	overflow: clip;
-}
 .roster-grid {
-	max-block-size: calc(var(--roster-height, 480px) - 142px);
+	flex: 0 1 auto;
+	min-block-size: 0;
 	overflow-y: auto;
 	overscroll-behavior: contain;
 	scrollbar-gutter: stable;
@@ -2097,12 +2131,38 @@ dialog > p {
 	.header-actions > a {
 		min-block-size: var(--control-size);
 	}
-	.search input {
+	.search input,
+	.switch-search input,
+	.roster-search input,
+	.personal-panel textarea {
 		font-size: 16px;
 	}
 }
 
 @media (max-width: 360px) {
+	.app-shell.in-practice .masthead {
+		gap: 8px;
+		padding-inline: 12px;
+	}
+	.in-practice .brand {
+		min-inline-size: 44px;
+		min-block-size: 44px;
+		justify-content: center;
+	}
+	.in-practice .character-trigger {
+		gap: 6px;
+		padding: 4px;
+	}
+	.in-practice .trigger-portrait {
+		--portrait-size: 28px;
+	}
+	.in-practice .character-trigger > svg,
+	.practice-pagination .practice-step > svg {
+		display: none;
+	}
+	.roster-grid {
+		grid-template-columns: minmax(0, 1fr);
+	}
 	:root {
 		--control-padding-inline: 8px;
 	}

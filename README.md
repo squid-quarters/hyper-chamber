@@ -49,7 +49,7 @@ brew install --cask squid-quarters/tap/hyper-chamber@beta
 
 The [release page](https://github.com/squid-quarters/hyper-chamber/releases/tag/v1.0.0-beta.1) also has a `.hcpack` for each of the 32 Street Fighter 6 characters, covering 2,068 references. Download the characters you want, then open **Devices → Import content pack** in the app. Packs stay separate from your notes and progress. Release checksums cover the installers and packs.
 
-For a phone or tablet, enable device access in the desktop app and open its address in a browser on the same local network. Keep Hyper Chamber running on the computer while you practise.
+For a phone or tablet, enable device access in the desktop app and open its address in a browser on the same local network. Keep Hyper Chamber running on the computer while you practise. If the library will not open, [check the connection and Android Chrome permissions](docs/usage.md#if-a-phone-or-tablet-cannot-connect).
 
 ## Run from source
 

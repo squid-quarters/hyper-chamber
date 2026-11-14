@@ -20,8 +20,8 @@
 
 <span
 	class={'character-face ' + className}
-	style:width={size + 'px'}
-	style:height={size + 'px'}
+	style:width={`var(--portrait-size, ${size}px)`}
+	style:height={`var(--portrait-size, ${size}px)`}
 	aria-hidden="true"
 >
 	{#if !failed}<img

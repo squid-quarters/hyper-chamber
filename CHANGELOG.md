@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Keep the character selector and Previous/Next controls within their targets on small phones.
+- Fit the character roster to the visible viewport when the on-screen keyboard opens, with a single-column roster on narrow phones.
+- Keep touch-device search and note fields readable in landscape.
+- Let the header scroll away in short landscape windows and fit the replay with its playback controls.
+- Document Android Chrome permissions that can block access to a local library.
+
 ## 1.0.0-beta.1 (2026-11-13)
 
 - Use B / N for previous / next references and keep training-goal and reference-type controls stationary as filter counts change.

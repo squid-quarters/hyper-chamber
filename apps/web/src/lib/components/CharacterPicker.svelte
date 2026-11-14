@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { tick } from 'svelte';
+	import { onMount, tick } from 'svelte';
 	import CharacterPortrait from './CharacterPortrait.svelte';
 	import { Check, ChevronDown, Search, X } from '@lucide/svelte';
 
@@ -28,6 +28,7 @@
 	let left = $state(16);
 	let top = $state(72);
 	let availableHeight = $state(480);
+	let availableWidth = $state(624);
 	let current = $derived(characters.find((item) => item.id === selected) ?? characters[0]);
 	function searchKey(value: string) {
 		return value
@@ -45,10 +46,18 @@
 	function position() {
 		if (!trigger || !open) return;
 		const bounds = trigger.getBoundingClientRect();
-		const width = Math.min(624, window.innerWidth - 32);
-		left = Math.max(16, Math.min(bounds.left, window.innerWidth - width - 16));
-		top = Math.min(bounds.bottom + 8, window.innerHeight - 160);
-		availableHeight = Math.max(144, window.innerHeight - top - 16);
+		const viewport = window.visualViewport;
+		const width = viewport?.width ?? window.innerWidth;
+		const height = viewport?.height ?? window.innerHeight;
+		const x = viewport?.offsetLeft ?? 0;
+		const y = viewport?.offsetTop ?? 0;
+		const edge = 16;
+		availableWidth = Math.min(624, Math.max(0, width - edge * 2));
+		left = Math.max(x + edge, Math.min(bounds.left, x + width - availableWidth - edge));
+		const below = Math.max(y + edge, bounds.bottom + 8);
+		const remaining = y + height - below - edge;
+		top = remaining >= Math.min(320, height - edge * 2) ? below : y + edge;
+		availableHeight = Math.max(0, y + height - top - edge);
 	}
 	async function show() {
 		if (!panel || disabled) return;
@@ -63,18 +72,18 @@
 		if (typeof panel.showPopover === 'function') panel.showPopover();
 		else fallback = true;
 		await tick();
-		search?.focus();
+		search?.focus({ preventScroll: true });
 	}
 	function close(restore = true) {
 		if (!panel) return;
 		if (!fallback && typeof panel.hidePopover === 'function') panel.hidePopover();
 		open = false;
 		fallback = false;
-		if (restore) trigger?.focus();
+		if (restore) trigger?.focus({ preventScroll: true });
 	}
 	function toggled(event: ToggleEvent) {
 		open = event.newState === 'open';
-		if (!open && panel?.contains(document.activeElement)) trigger?.focus();
+		if (!open && panel?.contains(document.activeElement)) trigger?.focus({ preventScroll: true });
 	}
 	async function choose(id: string) {
 		close();
@@ -114,9 +123,18 @@
 					: index +
 						({ ArrowDown: columns, ArrowUp: -columns, ArrowLeft: -1, ArrowRight: 1 }[event.key] ??
 							0);
-		if (next < 0 && event.key === 'ArrowUp') search?.focus();
+		if (next < 0 && event.key === 'ArrowUp') search?.focus({ preventScroll: true });
 		else buttons[Math.max(0, Math.min(next, buttons.length - 1))]?.focus();
 	}
+	onMount(() => {
+		const viewport = window.visualViewport;
+		viewport?.addEventListener('resize', position);
+		viewport?.addEventListener('scroll', position);
+		return () => {
+			viewport?.removeEventListener('resize', position);
+			viewport?.removeEventListener('scroll', position);
+		};
+	});
 	$effect(() => {
 		if (!open || !fallback) return;
 		const outside = (event: PointerEvent) => {
@@ -170,7 +188,10 @@
 	role="dialog"
 	aria-labelledby="character-roster-title"
 	data-character-picker-open={open}
-	style={'left: ' + left + 'px; top: ' + top + 'px; --roster-height: ' + availableHeight + 'px'}
+	style:left={`${left}px`}
+	style:top={`${top}px`}
+	style:--roster-width={`${availableWidth}px`}
+	style:--roster-height={`${availableHeight}px`}
 	ontoggle={toggled}
 	onkeydown={keys}
 	tabindex="-1"
