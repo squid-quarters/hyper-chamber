@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 1.0.0 (2026-11-15)
+
+- Publish the first stable Mac and Windows release, with a three-demo Dhalsim starter and 32 optional character packs covering 2,068 references.
+- Remove the repeated Open reference label and arrow from library cards; keep the full tile as the link.
+
 - Open Guides, source links and device addresses in the default browser from the desktop app.
 
 - Keep the character selector and Previous/Next controls within their targets on small phones.
