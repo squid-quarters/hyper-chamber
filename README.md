@@ -2,7 +2,7 @@
 
 Hyper Chamber is a fighting-game reference from Squid Quarters, built to keep open beside training mode. Each reference brings together an input sequence, a short replay and execution notes, so you can revisit a combo or setup without finding the same moment in a long tutorial.
 
-Visit the [Hyper Chamber website](https://squid-quarters.github.io/hyper-chamber/) for screenshots and desktop beta status.
+Visit the [Hyper Chamber website](https://squid-quarters.github.io/hyper-chamber/) for screenshots and downloads.
 
 It started with Dhalsim and now has over 2,000 references across 32 Street Fighter 6 character libraries. The focus is on the things you want to look up while practising; longer guides and lessons stay with the source creators and [SF6 Lab](https://sf6-lab.net/en/).
 
@@ -21,33 +21,35 @@ You can browse by character and narrow the list to punishes, corner carry, oki, 
 
 </details>
 
-## Desktop beta
+## Desktop app
 
 The desktop app bundles its runtime and a small starter library: three complete Dhalsim demonstrations. Additional character packs contain their own references and media. It uses a local SQLite library, with optional access from phones and tablets on the same network. No account is needed.
 
-Version `1.0.0-beta.1` is the first public beta, available for macOS and Windows. Installers and content packs are on [GitHub Releases](https://github.com/squid-quarters/hyper-chamber/releases/tag/v1.0.0-beta.1). See the [desktop architecture and build notes](docs/desktop-architecture.md) for source builds and library details.
+Version `1.0.0` is available for macOS and Windows. Installers and content packs are on [GitHub Releases](https://github.com/squid-quarters/hyper-chamber/releases/tag/v1.0.0). See the [desktop architecture and build notes](docs/desktop-architecture.md) for source builds and library details.
 
-## Install the beta
+## Install Hyper Chamber
 
-Choose the installer for your computer. This is a beta, not stable version 1.0.
+Choose the installer for your computer.
 
-| Computer                            | Installer                                                                                                                                     |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Mac with Apple silicon, macOS 13.5+ | [Apple silicon DMG](https://github.com/squid-quarters/hyper-chamber/releases/download/v1.0.0-beta.1/Hyper-Chamber_1.0.0-beta.1_aarch64.dmg)   |
-| Intel Mac, macOS 13.5+              | [Intel DMG](https://github.com/squid-quarters/hyper-chamber/releases/download/v1.0.0-beta.1/Hyper-Chamber_1.0.0-beta.1_x64.dmg)               |
-| Windows 10+, 64-bit                 | [Windows installer](https://github.com/squid-quarters/hyper-chamber/releases/download/v1.0.0-beta.1/Hyper-Chamber_1.0.0-beta.1_x64-setup.exe) |
+| Computer                            | Installer                                                                                                                       |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Mac with Apple silicon, macOS 13.5+ | [Apple silicon DMG](https://github.com/squid-quarters/hyper-chamber/releases/download/v1.0.0/Hyper-Chamber_1.0.0_aarch64.dmg)   |
+| Intel Mac, macOS 13.5+              | [Intel DMG](https://github.com/squid-quarters/hyper-chamber/releases/download/v1.0.0/Hyper-Chamber_1.0.0_x64.dmg)               |
+| Windows 10+, 64-bit                 | [Windows installer](https://github.com/squid-quarters/hyper-chamber/releases/download/v1.0.0/Hyper-Chamber_1.0.0_x64-setup.exe) |
 
-On macOS, open the DMG and move Hyper Chamber to Applications. On Windows, run the installer; it includes the WebView2 runtime. The app includes its runtime and three complete Dhalsim demonstrations. You do not need developer tools to use an installed copy.
+On macOS, open the DMG and move Hyper Chamber to Applications. On Windows, run the installer; setup downloads WebView2 if it is missing. You do not need developer tools to use an installed copy.
 
-The Mac beta is ad-hoc signed and is not notarized by Apple. Windows installers are unsigned. macOS may block the first launch; review [Apple’s instructions for opening an unnotarized app](https://support.apple.com/en-us/102445). Homebrew installs the same Mac app and does not remove this first-launch check.
+The Mac app is ad-hoc signed and is not notarized by Apple. Windows installers are unsigned. macOS may block the first launch; review [Apple’s instructions for opening an unnotarized app](https://support.apple.com/en-us/102445). Homebrew installs the same Mac app and does not remove this first-launch check.
 
 On macOS, you can also install from [Squid Quarters’ official Homebrew tap](https://github.com/squid-quarters/homebrew-tap):
 
 ```sh
-brew install --cask squid-quarters/tap/hyper-chamber@beta
+brew install --cask squid-quarters/tap/hyper-chamber
 ```
 
-The [release page](https://github.com/squid-quarters/hyper-chamber/releases/tag/v1.0.0-beta.1) also has a `.hcpack` for each of the 32 Street Fighter 6 characters, covering 2,068 references. Download the characters you want, then open **Devices → Import content pack** in the app. Packs stay separate from your notes and progress. Release checksums cover the installers and packs.
+If you installed the beta through Homebrew, quit Hyper Chamber, run `brew uninstall --cask squid-quarters/tap/hyper-chamber@beta`, then install the stable cask above. Your library and settings stay in place.
+
+The [release page](https://github.com/squid-quarters/hyper-chamber/releases/tag/v1.0.0) also has a `.hcpack` for each of the 32 Street Fighter 6 characters, covering 2,068 references. Download the characters you want, then open **Devices → Import content pack** in the app. Packs stay separate from your notes and progress. Release checksums cover the installers and packs.
 
 For a phone or tablet, enable device access in the desktop app and open its address in a browser on the same local network. Keep Hyper Chamber running on the computer while you practise. If the library will not open, [check the connection and Android Chrome permissions](docs/usage.md#if-a-phone-or-tablet-cannot-connect).
 
@@ -82,6 +84,6 @@ pnpm verify
 
 This checks formatting, lint, types, tests, web/server/site builds and catalog/media validation. Native checks run separately with `pnpm desktop:check`; the [desktop notes](docs/desktop-architecture.md) explain the Rust and platform prerequisites. Changes go through pull requests into `develop`. Pull-request CI validates both paths. The [Pages workflow](.github/workflows/pages.yml) builds and publishes the project site from `apps/site` when its files change on `develop`, or when run manually on that branch. Desktop installer releases remain separate.
 
-Keep the app version and [CHANGELOG.md](CHANGELOG.md) aligned for user-facing changes. The root, web, server and desktop manifests identify this beta; this project does not use Changesets.
+Keep the app version and [CHANGELOG.md](CHANGELOG.md) aligned for user-facing changes. The root, web, server and desktop manifests share the application version; this project does not use Changesets.
 
 The [product scope](docs/product.md), [content model](docs/content-model.md) and [design notes](docs/design.md) cover the longer-term decisions.

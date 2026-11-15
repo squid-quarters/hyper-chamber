@@ -8,7 +8,7 @@ listener. Both use the same SQLite database and installed reference packs.
 The desktop bundle contains its runtime, server, interface, fonts and three complete
 Dhalsim references. Users of an installed build do not need Node, pnpm, Rust or an AI
 agent to set it up. Additional character content arrives as `.hcpack` archives.
-Version `1.0.0-beta.1` is the first public beta, distributed through GitHub Releases
+Version `1.0.0` is distributed through GitHub Releases
 and the Squid Quarters Homebrew tap. Mac installers are ad-hoc signed and not
 notarized; Windows setup is unsigned. No automatic update feed is configured.
 The static project site is published separately through GitHub Pages; it does not
@@ -86,7 +86,7 @@ separate from learner data. A `.hcpack` is a ZIP archive with this root manifest
 {
 	"formatVersion": 1,
 	"id": "sf6-dhalsim",
-	"version": "1.0.0-beta.1",
+	"version": "1.0.0",
 	"games": ["games/sf6/game.json"],
 	"catalogs": ["games/sf6/references/dhalsim.json"],
 	"files": [{"path": "games/sf6/game.json", "sha256": "<64 hex characters>", "bytes": 123}]
@@ -133,8 +133,7 @@ Linux runs the web/server checks. The native installer matrix covers Mac Apple
 silicon, Intel Mac and Windows x64 on matching runners. It mounts each Mac disk
 image or installs Windows setup into an isolated directory, then checks the
 packaged app with a disposable library: startup, starter media, compiled interface,
-SQLite notes surviving restart and owned-process cleanup. These are release gates;
-the beta still needs broader testing on physical computers.
+SQLite notes surviving restart and owned-process cleanup. These checks cover the packaged runtime and library flows; they do not establish compatibility with every computer.
 
 ```sh
 pnpm install --frozen-lockfile
@@ -191,24 +190,24 @@ requests and deploys only `apps/site/build` from reviewed `develop` changes or a
 manual run on that branch. Its Pages/OIDC permissions are confined to the deployment
 job; desktop releases, reference packs and learner data are outside that artifact.
 
-## Public beta distribution
+## Public distribution
 
-The first public beta is `1.0.0-beta.1`. GitHub Releases provides macOS Apple silicon, macOS Intel and Windows 64-bit installers, with checksums and build records. These are beta builds; platform smoke checks do not establish compatibility with every computer or current-patch accuracy for the reference library.
+GitHub Releases provides version `1.0.0` for macOS Apple silicon, macOS Intel and Windows 64-bit, with checksums and build records. Platform smoke checks do not establish compatibility with every computer or current-patch accuracy for the reference library.
 
 The installed application includes its runtime and a small Dhalsim starter. User installation instructions belong in the root README and project site; source-build prerequisites remain in this document. Homebrew tap details and signing status must match the published release artifacts before their installation commands are advertised.
 
-Publish the release assets and checksums before switching the project site to direct download links. Keep the public-beta label, platform validation limits and first-launch warnings visible. Content-pack availability is a separate distribution decision and must not be inferred from the development library screenshots.
+Publish the release assets and checksums before switching the project site to direct download links. Keep the application version, platform requirements and first-launch signing limits visible. Content-pack availability is a separate distribution decision and must not be inferred from the development library screenshots.
 
 ### Installer contract
 
-The release tag is `v1.0.0-beta.1`. Release downloads use these asset names:
+The release tag is `v1.0.0`. Release downloads use these asset names:
 
-- `Hyper-Chamber_1.0.0-beta.1_aarch64.dmg`: macOS Apple silicon, minimum macOS 13.5.
-- `Hyper-Chamber_1.0.0-beta.1_x64.dmg`: macOS Intel, minimum macOS 13.5.
-- `Hyper-Chamber_1.0.0-beta.1_x64-setup.exe`: Windows 10+ x64 with WebView2 included.
+- `Hyper-Chamber_1.0.0_aarch64.dmg`: macOS Apple silicon, minimum macOS 13.5.
+- `Hyper-Chamber_1.0.0_x64.dmg`: macOS Intel, minimum macOS 13.5.
+- `Hyper-Chamber_1.0.0_x64-setup.exe`: Windows 10+ x64; setup downloads WebView2 if it is missing.
 
 Mac builds are ad-hoc signed with the hardened runtime and are not Apple-notarized. The Windows installer is unsigned. Public installation notes must describe these first-launch limits; do not replace them with commands that disable quarantine or operating-system security checks.
 
-The official Homebrew repository is `squid-quarters/homebrew-tap`, with cask token `hyper-chamber@beta`. Advertise `brew install --cask squid-quarters/tap/hyper-chamber@beta` only after the release files and reviewed tap recipe are public. The cask must preserve the user’s library on uninstall.
+The official Homebrew repository is `squid-quarters/homebrew-tap`, with stable cask token `hyper-chamber`. Advertise `brew install --cask squid-quarters/tap/hyper-chamber` only after the release files and reviewed tap recipe are public. The cask must preserve the user’s library on uninstall. The separate `hyper-chamber@beta` cask is retained for beta releases; users must uninstall that cask before installing the stable one because both use the same application bundle.
 
 The release includes one `.hcpack` per Street Fighter 6 character, covering 32 character libraries and 2,068 references. The bundled three-demo starter works without extra packs. Learner notes and progress remain separate from application and content updates.
