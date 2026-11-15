@@ -1,4 +1,4 @@
-name: Beta installers
+name: Desktop installers
 on:
   pull_request:
     branches: [develop]
@@ -16,7 +16,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: beta-installers-${{ github.event.pull_request.number || github.ref }}
+  group: desktop-installers-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 defaults:
   run:
@@ -83,7 +83,7 @@ jobs:
           rustup override set 1.94.1
       - name: Install pinned workspace dependencies
         run: pnpm install --frozen-lockfile
-      - name: Check beta version
+      - name: Check application version
         id: version
         run: node tools/release/check-version.mjs
       - name: Run tests and native checks
@@ -131,7 +131,7 @@ jobs:
       - name: Retain installer and verification record
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
-          name: beta-installer-${{ matrix.artifact }}
+          name: installer-${{ matrix.artifact }}
           path: .local/installer/
           if-no-files-found: error
           compression-level: 0

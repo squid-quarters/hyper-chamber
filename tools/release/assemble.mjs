@@ -44,7 +44,7 @@ for (const [id, platform, arch] of [
 	['macos-x64', 'darwin', 'x64'],
 	['windows-x64', 'win32', 'x64'],
 ]) {
-	const directory = join(resolve(values.installers), `beta-installer-${id}`);
+	const directory = join(resolve(values.installers), `installer-${id}`);
 	const info = JSON.parse(await readFile(join(directory, 'build-info.json'), 'utf8'));
 	if (
 		info.sourceCommit !== values['source-commit'] ||
@@ -114,7 +114,7 @@ records.sort((a, b) => a.name.localeCompare(b.name, 'en'));
 const manifestPath = join(output, 'release-manifest.json');
 await writeFile(
 	manifestPath,
-	`${JSON.stringify({formatVersion: 1, version, tag: `v${version}`, prerelease: true, sourceCommit: values['source-commit'], builds, characters: packs.packs.length, references: packs.packs.reduce((sum, pack) => sum + pack.references, 0), files: records}, null, 2)}\n`,
+	`${JSON.stringify({formatVersion: 1, version, tag: `v${version}`, prerelease: version.includes('-beta.'), sourceCommit: values['source-commit'], builds, characters: packs.packs.length, references: packs.packs.reduce((sum, pack) => sum + pack.references, 0), files: records}, null, 2)}\n`,
 	{flag: 'wx'},
 );
 records.push(await describeAsset(manifestPath));
@@ -124,5 +124,5 @@ await writeFile(
 	{flag: 'wx'},
 );
 console.log(
-	`Assembled ${records.length + 1} beta release assets, including ${packs.packs.length} character packs.`,
+	`Assembled ${records.length + 1} release assets, including ${packs.packs.length} character packs.`,
 );

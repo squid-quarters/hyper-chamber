@@ -927,7 +927,7 @@
 											: 'inputs'}{#if library[ref.id]?.status && library[ref.id].status !== 'untried'}<span
 												class="card-practice-status">Your status: {library[ref.id].status}</span
 											>{/if}</span
-									><span>Open reference<ArrowUpRight size={15} aria-hidden="true" /></span>
+									>
 								</div></a
 							>
 						</li>{/each}

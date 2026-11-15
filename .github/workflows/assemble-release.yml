@@ -1,0 +1,243 @@
+name: Stage release draft
+on:
+  pull_request:
+    branches: [develop]
+    paths:
+      - '.github/workflows/assemble-release.yml'
+      - 'tools/release/**'
+  workflow_dispatch:
+    inputs:
+      installer_run_id:
+        description: Successful Desktop installers dispatch run ID
+        required: true
+        type: string
+      source_commit:
+        description: Exact canonical source commit used by that installer run
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: release-staging-${{ github.repository }}
+  cancel-in-progress: false
+defaults:
+  run:
+    shell: bash
+jobs:
+  capacity:
+    name: Release runner capacity
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - name: Reclaim unused SDK space on the ephemeral runner
+        run: |
+          df -h .
+          sudo rm -rf -- /usr/local/lib/android /usr/share/dotnet /opt/ghc
+          df -h .
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.14.1'
+      - name: Check release space after the full checkout
+        run: |
+          df -h .
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import {statfsSync} from 'node:fs';
+          import {execFileSync} from 'node:child_process';
+          const mediaBytes = Number(execFileSync('du', ['-sk', 'apps/web/static/media'], {encoding: 'utf8'}).split(/\s+/)[0]) * 1024;
+          const disk = statfsSync('.');
+          const minimum = mediaBytes * 2 + 2 ** 31;
+          assert.ok(disk.bavail * disk.bsize >= minimum, `Pack verification and assembly need at least ${Math.ceil(minimum / 2 ** 30)} GiB free after checkout.`);
+          NODE
+  stage:
+    name: Verify packs and stage a draft
+    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/develop'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    permissions:
+      actions: read
+      contents: write
+    env:
+      GH_REPO: ${{ github.repository }}
+      INSTALLER_RUN_ID: ${{ inputs.installer_run_id }}
+      SOURCE_COMMIT: ${{ inputs.source_commit }}
+    steps:
+      - name: Reclaim unused SDK space on the ephemeral runner
+        run: |
+          df -h .
+          sudo rm -rf -- /usr/local/lib/android /usr/share/dotnet /opt/ghc
+          df -h .
+      - name: Validate dispatch inputs
+        run: |
+          [[ "$INSTALLER_RUN_ID" =~ ^[1-9][0-9]*$ ]] || { echo 'Provide a numeric installer run ID.' >&2; exit 1; }
+          [[ "$SOURCE_COMMIT" =~ ^[a-f0-9]{40}$ ]] || { echo 'Provide an exact lowercase source commit SHA.' >&2; exit 1; }
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.14.1'
+      - name: Verify the canonical installer run before checking out source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GH_REPO/actions/runs/$INSTALLER_RUN_ID" > "$RUNNER_TEMP/installer-run.json"
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import {readFileSync} from 'node:fs';
+          const run = JSON.parse(readFileSync(process.env.RUNNER_TEMP + '/installer-run.json', 'utf8'));
+          assert.equal(run.status, 'completed');
+          assert.equal(run.conclusion, 'success');
+          assert.equal(run.event, 'workflow_dispatch');
+          assert.equal(run.name, 'Desktop installers');
+          assert.equal(run.path, '.github/workflows/beta-installers.yml');
+          assert.equal(run.head_branch, 'develop');
+          assert.equal(run.head_sha, process.env.SOURCE_COMMIT);
+          assert.equal(run.repository.full_name, process.env.GH_REPO);
+          assert.equal(run.head_repository.full_name, process.env.GH_REPO);
+          NODE
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ inputs.source_commit }}
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+        with:
+          version: '10.16.1'
+      - name: Validate the application version
+        id: version
+        run: node tools/release/check-version.mjs
+      - name: Refuse an existing tag or release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          gh api --paginate --slurp "repos/$GH_REPO/releases?per_page=100" > "$RUNNER_TEMP/releases.json"
+          gh api "repos/$GH_REPO/git/matching-refs/tags/v$VERSION" > "$RUNNER_TEMP/release-tags.json"
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import {readFileSync} from 'node:fs';
+          const tag = 'v' + process.env.VERSION;
+          const releases = JSON.parse(readFileSync(process.env.RUNNER_TEMP + '/releases.json', 'utf8')).flat();
+          const refs = JSON.parse(readFileSync(process.env.RUNNER_TEMP + '/release-tags.json', 'utf8'));
+          assert.ok(!releases.some(release => release.tag_name === tag), `Release or draft ${tag} already exists; inspect it before retrying.`);
+          assert.ok(!refs.some(ref => ref.ref === 'refs/tags/' + tag), `Tag ${tag} already exists.`);
+          NODE
+      - name: Check space and install pinned dependencies
+        run: |
+          df -h .
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import {statfsSync} from 'node:fs';
+          import {execFileSync} from 'node:child_process';
+          const mediaBytes = Number(execFileSync('du', ['-sk', 'apps/web/static/media'], {encoding: 'utf8'}).split(/\s+/)[0]) * 1024;
+          const disk = statfsSync('.');
+          const minimum = mediaBytes * 2 + 2 ** 31;
+          assert.ok(disk.bavail * disk.bsize >= minimum, `Pack verification and assembly need at least ${Math.ceil(minimum / 2 ** 30)} GiB free after checkout.`);
+          NODE
+          pnpm install --frozen-lockfile
+      - name: Build the bundled server and interface
+        run: |
+          pnpm --filter @hyper-chamber/server build
+          pnpm --filter @hyper-chamber/web build
+      - name: Download the verified installers
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download "$INSTALLER_RUN_ID" --pattern 'installer-*' --dir .local/release-installers
+      - name: Build and import-test all character packs
+        run: |
+          node tools/release/build-packs.mjs --output .local/release-packs
+          node tools/release/check-packs.mjs --packs .local/release-packs --output .local/content-verification.json
+      - name: Assemble the exact verified source
+        run: |
+          node tools/release/assemble.mjs --installers .local/release-installers --packs .local/release-packs --pack-verification .local/content-verification.json --source-commit "$SOURCE_COMMIT" --output .local/release
+      - name: Prepare draft notes and payload
+        run: |
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import {readFileSync, writeFileSync} from 'node:fs';
+          const manifest = JSON.parse(readFileSync('.local/release/release-manifest.json', 'utf8'));
+          assert.equal(manifest.sourceCommit, process.env.SOURCE_COMMIT);
+          const lines = readFileSync('CHANGELOG.md', 'utf8').split('\n');
+          const heading = new RegExp('^## ' + manifest.version.replaceAll('.', '\\.') + '(?:\\s|\\()');
+          const start = lines.findIndex(line => heading.test(line));
+          assert.ok(start >= 0, 'The release version needs its own committed changelog section.');
+          let end = lines.findIndex((line, index) => index > start && line.startsWith('## '));
+          if (end < 0) end = lines.length;
+          const changes = lines.slice(start + 1, end).join('\n').trim();
+          assert.ok(changes.length > 0, 'Release notes must not be empty.');
+          const notes = changes + '\n\nThe desktop installers include three complete Dhalsim demonstrations. Separate character packs cover ' + manifest.characters + ' characters and ' + manifest.references.toLocaleString('en') + ' references; existing libraries, notes and progress stay separate from application updates.\n\nDownloads: macOS Apple silicon and Intel (macOS 13.5+), and Windows 10+ x64. Mac builds are ad-hoc signed and are not notarized by Apple. Windows setup is unsigned. Follow the operating system’s first-launch approval flow; the installers do not disable its protections.\n';
+          writeFileSync('.local/release-draft.json', JSON.stringify({tag_name: manifest.tag, target_commitish: manifest.sourceCommit, name: 'Hyper Chamber ' + manifest.version, body: notes, draft: true, prerelease: manifest.prerelease, make_latest: 'false'}));
+          NODE
+      - name: Create a draft and upload verified files sequentially
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          # Creation is atomic and fails if a tag appeared while packs were built.
+          gh api "repos/$GH_REPO/git/refs" --method POST -f "ref=refs/tags/$TAG" -f "sha=$SOURCE_COMMIT" > .local/reserved-tag.json
+          node --input-type=module <<'NODE'
+          import {readFileSync} from 'node:fs';
+          import {assertReleaseTag} from './tools/release/model.mjs';
+          assertReleaseTag(JSON.parse(readFileSync('.local/reserved-tag.json', 'utf8')), process.env.TAG, process.env.SOURCE_COMMIT);
+          NODE
+          gh api "repos/$GH_REPO/releases" --method POST --input .local/release-draft.json > .local/draft-release.json
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import {readFileSync} from 'node:fs';
+          const release = JSON.parse(readFileSync('.local/draft-release.json', 'utf8'));
+          assert.equal(release.draft, true);
+          assert.equal(release.tag_name, process.env.TAG);
+          assert.equal(release.target_commitish, process.env.SOURCE_COMMIT);
+          NODE
+          for asset in .local/release/*; do
+            gh release upload "$TAG" "$asset"
+          done
+      - name: Verify uploaded assets and retain a staging record
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          gh api "repos/$GH_REPO/git/ref/tags/$TAG" > .local/verified-tag.json
+          RELEASE_ID="$(node -p "JSON.parse(require('node:fs').readFileSync('.local/draft-release.json', 'utf8')).id")"
+          gh api "repos/$GH_REPO/releases/$RELEASE_ID" > .local/draft-release-verified.json
+          gh api --paginate --slurp "repos/$GH_REPO/releases/$RELEASE_ID/assets?per_page=100" > .local/uploaded-assets.json
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import {readFileSync, readdirSync, copyFileSync, mkdirSync, writeFileSync, appendFileSync} from 'node:fs';
+          import {describeAsset, assertReleaseTag} from './tools/release/model.mjs';
+          const release = JSON.parse(readFileSync('.local/draft-release-verified.json', 'utf8'));
+          const assets = JSON.parse(readFileSync('.local/uploaded-assets.json', 'utf8')).flat();
+          const manifest = JSON.parse(readFileSync('.local/release/release-manifest.json', 'utf8'));
+          assertReleaseTag(JSON.parse(readFileSync('.local/verified-tag.json', 'utf8')), manifest.tag, process.env.SOURCE_COMMIT);
+          assert.equal(release.draft, true, 'This workflow must leave the release unpublished.');
+          assert.equal(release.tag_name, manifest.tag);
+          assert.equal(release.target_commitish, process.env.SOURCE_COMMIT);
+          assert.equal(release.prerelease, manifest.prerelease);
+          const expected = await Promise.all(readdirSync('.local/release').map(name => describeAsset('.local/release/' + name)));
+          assert.equal(assets.length, expected.length);
+          for (const file of expected) {
+            const matches = assets.filter(asset => asset.name === file.name);
+            assert.equal(matches.length, 1, `Missing or duplicate upload: ${file.name}`);
+            assert.equal(matches[0].state, 'uploaded');
+            assert.equal(matches[0].size, file.bytes);
+            assert.equal(matches[0].digest, 'sha256:' + file.sha256, `Uploaded digest mismatch: ${file.name}`);
+          }
+          mkdirSync('.local/release-metadata');
+          for (const name of readdirSync('.local/release').filter(name => /\.(json|txt)$/.test(name)))
+            copyFileSync('.local/release/' + name, '.local/release-metadata/' + name);
+          const record = {draft: true, tag: manifest.tag, sourceCommit: process.env.SOURCE_COMMIT, installerRunId: Number(process.env.INSTALLER_RUN_ID), releaseId: release.id, releaseUrl: release.html_url, files: expected};
+          writeFileSync('.local/release-metadata/release-staging.json', JSON.stringify(record, null, 2) + '\n');
+          appendFileSync(process.env.GITHUB_STEP_SUMMARY, `Staged **${manifest.tag}** as an unpublished draft with ${expected.length} verified assets. Source: \`${process.env.SOURCE_COMMIT}\`. Publication requires the release operator’s separate final step.\n`);
+          NODE
+      - name: Retain small verification records
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: release-staging-${{ steps.version.outputs.version }}
+          path: .local/release-metadata/
+          if-no-files-found: error
+          retention-days: 1

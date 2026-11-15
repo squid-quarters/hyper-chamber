@@ -4,14 +4,19 @@ import {createReadStream} from 'node:fs';
 import {readFile, lstat} from 'node:fs/promises';
 import {join, basename} from 'node:path';
 
-export function betaVersion(value) {
-	if (typeof value !== 'string' || !/^[0-9]+\.[0-9]+\.[0-9]+-beta\.[1-9][0-9]*$/.test(value))
-		throw new Error('This release path accepts explicit beta versions only.');
+export function applicationVersion(value) {
+	if (
+		typeof value !== 'string' ||
+		!/^(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)(?:-beta\.[1-9][0-9]*)?$/.test(value)
+	)
+		throw new Error(
+			'Use a stable version or an explicit beta version, for example 1.0.0 or 1.0.0-beta.1.',
+		);
 	return value;
 }
 
 export function installerName(version, platform, arch) {
-	betaVersion(version);
+	applicationVersion(version);
 	if (platform === 'darwin' && ['arm64', 'x64'].includes(arch))
 		return `Hyper-Chamber_${version}_${arch === 'arm64' ? 'aarch64' : 'x64'}.dmg`;
 	if (platform === 'win32' && arch === 'x64') return `Hyper-Chamber_${version}_x64-setup.exe`;
@@ -28,7 +33,7 @@ export async function releaseVersion(root) {
 	const versions = await Promise.all(
 		paths.map(async path => JSON.parse(await readFile(join(root, path), 'utf8')).version),
 	);
-	const version = betaVersion(versions[0]);
+	const version = applicationVersion(versions[0]);
 	if (versions.some(value => value !== version))
 		throw new Error('Application package versions must agree before a release.');
 	const tauri = JSON.parse(
@@ -51,6 +56,16 @@ export async function describeAsset(path) {
 	const hash = createHash('sha256');
 	for await (const chunk of createReadStream(path)) hash.update(chunk);
 	return {name: basename(path), bytes: info.size, sha256: hash.digest('hex')};
+}
+
+export function assertReleaseTag(reference, tag, expectedCommit) {
+	if (
+		!/^[a-f0-9]{40}$/.test(expectedCommit ?? '') ||
+		reference?.ref !== `refs/tags/${tag}` ||
+		reference.object?.type !== 'commit' ||
+		reference.object.sha !== expectedCommit
+	)
+		throw new Error('The release tag must point directly to the verified source commit.');
 }
 
 export function assertReleaseSource(root, expectedCommit) {

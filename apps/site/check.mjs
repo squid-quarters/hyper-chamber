@@ -6,20 +6,19 @@ export async function checkSite(directory) {
 	const html = await readFile(resolve(directory, 'index.html'), 'utf8');
 	const css = await readFile(resolve(directory, 'style.css'), 'utf8');
 	if ((html.match(/<h1\b/g) ?? []).length !== 1) throw new Error('The project site needs one h1.');
-	const {version} = JSON.parse(
-		await readFile(new URL('../../package.json', import.meta.url), 'utf8'),
-	);
-	if (!/^[0-9]+\.[0-9]+\.[0-9]+-beta\.[1-9][0-9]*$/.test(version))
-		throw new Error('The project site must identify an explicit beta version.');
+	// The site advertises a published release, which can lag behind application source.
+	const version = /<meta name="application-version" content="([^"]+)"/.exec(html)?.[1];
 	if (
-		!html.includes(`<meta name="application-version" content="${version}"`) ||
-		!html.includes(`Public beta · ${version}`)
+		!/^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)(-beta\.[1-9][0-9]*)?$/.test(version ?? '')
 	)
-		throw new Error('The visible beta version and page metadata must match the application.');
+		throw new Error('The project site must identify an explicit stable or beta version.');
+	const status = version.includes('-beta.') ? `Public beta · ${version}` : `Version ${version}`;
+	if (!html.includes(status))
+		throw new Error('The visible release version and page metadata must agree.');
 	const release = `https://github.com/squid-quarters/hyper-chamber/releases/download/v${version}/`;
 	for (const suffix of ['aarch64.dmg', 'x64.dmg', 'x64-setup.exe']) {
 		if (!html.includes(`href="${release}Hyper-Chamber_${version}_${suffix}"`))
-			throw new Error(`Missing the versioned beta installer: ${suffix}`);
+			throw new Error(`Missing the versioned installer: ${suffix}`);
 	}
 	if (html.includes('Beta in development'))
 		throw new Error('Remove the obsolete development-only state.');
@@ -46,7 +45,7 @@ export async function checkSite(directory) {
 		}
 	}
 	console.log(
-		'Checked site assets, relative project paths, page heading, beta version and installer URLs.',
+		'Checked site assets, relative project paths, page heading, release version and installer URLs.',
 	);
 }
 
