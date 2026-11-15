@@ -30,7 +30,7 @@ The workflow checks out that source, downloads the three installer artifacts, bu
 
 Assembly requires a clean checkout, including untracked files. It refuses mixed versions, failed native smokes, changed hashes and incomplete character indexes. It creates `release-manifest.json`, `SHA256SUMS.txt`, installers, character packs and verification records. All three builds must identify the same exact source commit.
 
-The workflow creates and uploads a **draft** GitHub release. It does not publish it or change the latest public release. Existing release tags and releases are not overwritten. Inspect a partial draft before attempting recovery; published assets must never be silently replaced.
+After verification, the workflow atomically reserves the release tag at the exact source commit, then creates and uploads a **draft** GitHub release. It checks the actual tag reference again after upload. It does not publish it or change the latest public release. Existing release tags and releases are not overwritten. Inspect any reserved tag and partial draft before attempting recovery; published assets must never be silently replaced.
 
 Before publication, check the draft's complete asset inventory, byte sizes and SHA-256 digests against the assembled records. Keep the three-demo starter distinct from the full-library screenshots and the 32 optional character packs.
 

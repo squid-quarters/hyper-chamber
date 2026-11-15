@@ -1,5 +1,10 @@
 name: Stage release draft
 on:
+  pull_request:
+    branches: [develop]
+    paths:
+      - '.github/workflows/assemble-release.yml'
+      - 'tools/release/**'
   workflow_dispatch:
     inputs:
       installer_run_id:
@@ -19,10 +24,42 @@ defaults:
   run:
     shell: bash
 jobs:
+  capacity:
+    name: Release runner capacity
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - name: Reclaim unused SDK space on the ephemeral runner
+        run: |
+          df -h .
+          sudo rm -rf -- /usr/local/lib/android /usr/share/dotnet /opt/ghc
+          df -h .
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.14.1'
+      - name: Check release space after the full checkout
+        run: |
+          df -h .
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import {statfsSync} from 'node:fs';
+          import {execFileSync} from 'node:child_process';
+          const mediaBytes = Number(execFileSync('du', ['-sk', 'apps/web/static/media'], {encoding: 'utf8'}).split(/\s+/)[0]) * 1024;
+          const disk = statfsSync('.');
+          const minimum = mediaBytes * 2 + 2 ** 31;
+          assert.ok(disk.bavail * disk.bsize >= minimum, `Pack verification and assembly need at least ${Math.ceil(minimum / 2 ** 30)} GiB free after checkout.`);
+          NODE
   stage:
     name: Verify packs and stage a draft
     if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/develop'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 90
     permissions:
       actions: read
@@ -32,6 +69,11 @@ jobs:
       INSTALLER_RUN_ID: ${{ inputs.installer_run_id }}
       SOURCE_COMMIT: ${{ inputs.source_commit }}
     steps:
+      - name: Reclaim unused SDK space on the ephemeral runner
+        run: |
+          df -h .
+          sudo rm -rf -- /usr/local/lib/android /usr/share/dotnet /opt/ghc
+          df -h .
       - name: Validate dispatch inputs
         run: |
           [[ "$INSTALLER_RUN_ID" =~ ^[1-9][0-9]*$ ]] || { echo 'Provide a numeric installer run ID.' >&2; exit 1; }
@@ -136,6 +178,13 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ steps.version.outputs.tag }}
         run: |
+          # Creation is atomic and fails if a tag appeared while packs were built.
+          gh api "repos/$GH_REPO/git/refs" --method POST -f "ref=refs/tags/$TAG" -f "sha=$SOURCE_COMMIT" > .local/reserved-tag.json
+          node --input-type=module <<'NODE'
+          import {readFileSync} from 'node:fs';
+          import {assertReleaseTag} from './tools/release/model.mjs';
+          assertReleaseTag(JSON.parse(readFileSync('.local/reserved-tag.json', 'utf8')), process.env.TAG, process.env.SOURCE_COMMIT);
+          NODE
           gh api "repos/$GH_REPO/releases" --method POST --input .local/release-draft.json > .local/draft-release.json
           node --input-type=module <<'NODE'
           import assert from 'node:assert/strict';
@@ -151,17 +200,20 @@ jobs:
       - name: Verify uploaded assets and retain a staging record
         env:
           GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.version.outputs.tag }}
         run: |
+          gh api "repos/$GH_REPO/git/ref/tags/$TAG" > .local/verified-tag.json
           RELEASE_ID="$(node -p "JSON.parse(require('node:fs').readFileSync('.local/draft-release.json', 'utf8')).id")"
           gh api "repos/$GH_REPO/releases/$RELEASE_ID" > .local/draft-release-verified.json
           gh api --paginate --slurp "repos/$GH_REPO/releases/$RELEASE_ID/assets?per_page=100" > .local/uploaded-assets.json
           node --input-type=module <<'NODE'
           import assert from 'node:assert/strict';
           import {readFileSync, readdirSync, copyFileSync, mkdirSync, writeFileSync, appendFileSync} from 'node:fs';
-          import {describeAsset} from './tools/release/model.mjs';
+          import {describeAsset, assertReleaseTag} from './tools/release/model.mjs';
           const release = JSON.parse(readFileSync('.local/draft-release-verified.json', 'utf8'));
           const assets = JSON.parse(readFileSync('.local/uploaded-assets.json', 'utf8')).flat();
           const manifest = JSON.parse(readFileSync('.local/release/release-manifest.json', 'utf8'));
+          assertReleaseTag(JSON.parse(readFileSync('.local/verified-tag.json', 'utf8')), manifest.tag, process.env.SOURCE_COMMIT);
           assert.equal(release.draft, true, 'This workflow must leave the release unpublished.');
           assert.equal(release.tag_name, manifest.tag);
           assert.equal(release.target_commitish, process.env.SOURCE_COMMIT);

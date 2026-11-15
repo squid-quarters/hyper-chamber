@@ -58,6 +58,16 @@ export async function describeAsset(path) {
 	return {name: basename(path), bytes: info.size, sha256: hash.digest('hex')};
 }
 
+export function assertReleaseTag(reference, tag, expectedCommit) {
+	if (
+		!/^[a-f0-9]{40}$/.test(expectedCommit ?? '') ||
+		reference?.ref !== `refs/tags/${tag}` ||
+		reference.object?.type !== 'commit' ||
+		reference.object.sha !== expectedCommit
+	)
+		throw new Error('The release tag must point directly to the verified source commit.');
+}
+
 export function assertReleaseSource(root, expectedCommit) {
 	if (!/^[a-f0-9]{40}$/.test(expectedCommit ?? ''))
 		throw new Error('An exact release source commit is required.');

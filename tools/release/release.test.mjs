@@ -12,6 +12,7 @@ import {
 	stat,
 	readFile,
 	copyFile,
+	readdir,
 } from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
@@ -23,6 +24,7 @@ import {
 	describeAsset,
 	releaseVersion,
 	assertReleaseSource,
+	assertReleaseTag,
 } from './model.mjs';
 
 test('release path accepts stable and explicit beta versions, rejecting malformed inputs', () => {
@@ -44,6 +46,20 @@ test('release path accepts stable and explicit beta versions, rejecting malforme
 		'../beta.1',
 	])
 		assert.throws(() => applicationVersion(version));
+});
+
+test('release tag binding rejects a raced or redirected tag', () => {
+	const source = 'a'.repeat(40);
+	const tag = 'v1.0.0';
+	const reference = {ref: `refs/tags/${tag}`, object: {type: 'commit', sha: source}};
+	assert.doesNotThrow(() => assertReleaseTag(reference, tag, source));
+	for (const changed of [
+		{...reference, object: {type: 'commit', sha: 'b'.repeat(40)}},
+		{...reference, object: {type: 'tag', sha: source}},
+		{...reference, ref: 'refs/tags/v1.0.1'},
+		undefined,
+	])
+		assert.throws(() => assertReleaseTag(changed, tag, source), /verified source commit/);
 });
 
 test('release target selection rejects unbuilt architectures', () => {
@@ -206,7 +222,7 @@ for (const [version, prerelease] of [
 		const source = join(dir, 'source');
 		const installers = join(dir, 'installers');
 		const packs = join(dir, 'packs');
-		const output = join(dir, 'release');
+		const output = join(dir, '.local/release');
 		const git = args =>
 			execFileSync(
 				'git',
@@ -337,6 +353,69 @@ for (const [version, prerelease] of [
 			assert.equal(manifest.sourceCommit, commit);
 			assert.equal(manifest.builds.length, 3);
 			assert.equal(manifest.references, 1);
+
+			const workflow = await readFile(
+				new URL('../../.github/workflows/assemble-release.yml', import.meta.url),
+				'utf8',
+			);
+			const verification = workflow
+				.replace(/\r\n/g, '\n')
+				.split('name: Verify uploaded assets and retain a staging record')[1]
+				?.split('\n      - ')[0];
+			const code = /<<'NODE'\n([\s\S]+?)\n\s*NODE/.exec(verification ?? '')?.[1];
+			assert.ok(code, 'Exercise the actual workflow upload verification.');
+			await mkdir(join(dir, 'tools/release'), {recursive: true});
+			await copyFile(join(source, 'tools/release/model.mjs'), join(dir, 'tools/release/model.mjs'));
+			const uploaded = await Promise.all(
+				(await readdir(output)).map(async name => {
+					const asset = await describeAsset(join(output, name));
+					return {name, size: asset.bytes, state: 'uploaded', digest: `sha256:${asset.sha256}`};
+				}),
+			);
+			await writeFile(join(dir, '.local/uploaded-assets.json'), JSON.stringify([uploaded]));
+			await writeFile(
+				join(dir, '.local/draft-release-verified.json'),
+				JSON.stringify({
+					id: 1,
+					draft: true,
+					tag_name: manifest.tag,
+					target_commitish: commit,
+					prerelease,
+				}),
+			);
+			const tagPath = join(dir, '.local/verified-tag.json');
+			await writeFile(
+				tagPath,
+				JSON.stringify({
+					ref: `refs/tags/${manifest.tag}`,
+					object: {type: 'commit', sha: 'b'.repeat(40)},
+				}),
+			);
+			const verifyUpload = () =>
+				spawnSync(process.execPath, ['--input-type=module', '-'], {
+					input: code,
+					cwd: dir,
+					encoding: 'utf8',
+					timeout: 10000,
+					env: {
+						...process.env,
+						SOURCE_COMMIT: commit,
+						INSTALLER_RUN_ID: '123',
+						GITHUB_STEP_SUMMARY: join(dir, 'summary.md'),
+					},
+				});
+			const rejectedTag = verifyUpload();
+			assert.notEqual(rejectedTag.status, 0, 'Workflow must reject a mismatched actual tag.');
+			assert.match(
+				rejectedTag.stderr,
+				/release tag must point directly to the verified source commit/,
+			);
+			await writeFile(
+				tagPath,
+				JSON.stringify({ref: `refs/tags/${manifest.tag}`, object: {type: 'commit', sha: commit}}),
+			);
+			const verifiedUpload = verifyUpload();
+			assert.equal(verifiedUpload.status, 0, verifiedUpload.stderr);
 			await writeFile(packPath, 'tampered archive payload');
 			const tampered = run(join(dir, 'tampered-release'));
 			assert.notEqual(tampered.status, 0);
