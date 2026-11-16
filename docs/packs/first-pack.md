@@ -1,71 +1,58 @@
 # Make your first pack
 
-Requires the Hyper Chamber 1.1.0 development build. These controls are not in the
-published 1.0.0 installers yet.
+Requires the 1.1.0 development build. Published installers are still 1.0.0.
 
-## Create a workspace
+## 1. Create a workspace
 
-Open **Pack creator** in the desktop app. Enter a pack title and your name or
-handle, then choose **New workspace** and select an empty folder.
+Open **Pack creator**, enter a pack title and your name or handle, then choose
+**New workspace** and an empty folder. Keep this folder for later edits.
 
-The folder holds your editable references and media. **Open workspace** returns
-to it later. To adapt someone else's exported pack, choose **Fork a pack**;
-that makes an independent collection and retains the original attribution.
+Use **Open workspace** to return to it, or **Fork a pack** to adapt an exported
+pack with independent IDs and its original attribution.
 
-## Add a short recording
+## 2. Add a clip
 
-New workspaces start with the supplied Street Fighter 6 profile. Add a reference,
-choose its character, and give it a title and short summary. Opened workspaces
-and forked packs keep their game profile. Choose an already-trimmed MP4 or WebM clip. You can record a single
-attempt directly or shorten a longer recording in your usual video editor first.
+Add a reference, choose its character, and enter a title and short summary.
+New workspaces use Street Fighter 6; opened workspaces and forks keep their game
+profile.
 
-The clip is copied into the workspace. Your original recording stays in place.
-Play it in the editor to check the recording. If it has audio you want available
-in the replay, enable **Clip includes audio** after checking the soundtrack.
-New and replacement clips start with this unchecked.
+Choose an already-trimmed MP4 or WebM. Trim longer footage in your usual video
+editor first; the creator copies your chosen clip into the workspace.
+Play it to check the recording. Enable **Clip includes audio** if you want its
+soundtrack in the replay; new and replacement clips start unchecked.
 
-## Capture key moments
+## 3. Capture key moments
 
-Pause at a useful moment and choose **Capture moment**. Capture at least one;
-the first also supplies the poster. Give each moment a short label explaining
-what to look for. Times are relative to the short clip, not the full source video.
+Pause at a useful point and choose **Capture moment**. Capture at least one;
+the first becomes the poster. Label each moment with what to watch for.
+Times are relative to the short clip.
 
-You do not need a still for every animation frame. Pick the positions, transitions
-or timing cues that make the sequence easier to practise.
+## 4. Add inputs and source details
 
-## Enter the reference
+Enter each input as a step with a readable move label. Add starting situations,
+outcomes, conditions and short execution notes.
 
-Add each input as a separate step, with its notation and a readable move label.
-Use the game's notation key consistently. Enter starting situations, outcomes and
-any important conditions; these fields help people find the reference later.
-Keep notes about execution short and specific.
+Choose **Own recording** for footage you made. For YouTube excerpts, enter the
+original video title, creator, URL and excerpt start time.
 
-Choose **Own recording** for footage you made. For a YouTube excerpt, preserve its
-creator, title, URL and original start time. Do not substitute a made-up tutorial
-URL for an original recording.
+Leave uncertain annotations as drafts. Mark source review after checking them
+against the recording. Current-patch verification requires testing in-game.
 
-Leave the reference as a draft while inputs or timing are uncertain. Mark source
-review only after checking the annotations against the recording. That does not
-mean it has been tested in-game on the current patch.
+## 5. Preview and export
 
-## Save and export
+Choose **Save reference**, then **Preview saved reference** to check inputs,
+replay, moments and source details together. **Discard** leaves the saved version
+unchanged.
 
-Choose **Save reference**, then **Preview saved reference** to check its input
-sequence, replay, captured moments and source details together. **Discard** leaves
-the saved reference unchanged.
+Choose **Export pack** to save a `.hcpack`. To practise it, use
+**Library & devices → Installed packs → Import pack**. Exporting alone does not
+install or publish it.
 
-When the collection is ready, choose **Export pack** and save the `.hcpack` file.
-Export checks the references, file paths and required media. Import the file from
-**Library & devices → Installed packs → Import pack** to use it in your library.
-Exporting by itself does not install or publish anything.
+## Later edits
 
-## Make a later edition
+Reopen the same workspace to keep its IDs and reconnect learner notes. The editor
+advances the pack edition after exported content changes; material execution
+changes also advance the reference revision. Copy edits keep that revision.
 
-Open the same workspace and keep its existing IDs. The editor advances the pack
-edition after changes to exported content. Material execution changes also receive
-a new reference revision; wording changes alone keep that revision.
-
-Export a new file and import it to preview the update. Notes and progress remain
-associated with the stable reference IDs. A changed execution asks the learner to
-reassess it. If an AI agent edited the same workspace meanwhile, reload before
-saving; the tools reject stale saves instead of replacing the newer edit.
+If another editor or AI agent changed the workspace, reload and reconcile before
+saving. See [pack updates](manage-packs.md) for the import preview and recovery.
