@@ -75,6 +75,29 @@ usual increment. An advanced author can set a deliberate semantic edition.
 
 ## JSON tool protocol
 
+On an installed Mac build:
+
+```sh
+"/Applications/Hyper Chamber.app/Contents/MacOS/hyper-chamber-desktop" --pack --json < request.json
+```
+
+On Windows, use `hyper-chamber-desktop.exe` from the installed app's location.
+These commands run without opening the window or library and need no separate
+Node installation or repository checkout.
+
+For a source checkout:
+
+```sh
+pnpm --filter @hyper-chamber/authoring build
+node packages/authoring/dist/cli.mjs --json < request.json
+```
+
+Start by requesting the shipped game profiles:
+
+```json
+{"command": "profiles"}
+```
+
 Run the installed app with `--pack --json`, send one UTF-8 JSON request on standard
 input, and wait for the process to finish. A successful response is
 `{"ok":true,"result":...}`. An error returns `ok:false`, an error message and a
