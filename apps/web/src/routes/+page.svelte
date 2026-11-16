@@ -3,6 +3,7 @@
 	import { afterNavigate, goto } from '$app/navigation';
 	import { page } from '$app/state';
 	import type { PageProps } from './$types';
+	import type { CharacterCollection } from '#lib/catalog';
 	import { PracticeClient, type RecoveryChoice } from '#lib/practice-client';
 	import { createLocalId } from '#lib/utils';
 	import HostSettings from '#lib/components/HostSettings.svelte';
@@ -29,6 +30,7 @@
 		ArrowUpRight,
 		BookOpen,
 		ChevronDown,
+		FilePlus2,
 		Search,
 		SlidersHorizontal,
 		Star,
@@ -78,7 +80,19 @@
 		savePlaybackPreferences(playerPreferences);
 	}
 	let characterId = $state('dhalsim');
-	let collection = $derived(collections.find((item) => item.id === characterId) ?? collections[0]);
+	let collection = $derived<CharacterCollection>(
+		collections.find((item) => item.id === characterId) ??
+			collections[0] ?? {
+				id: 'empty',
+				characterId: '',
+				name: 'Library',
+				references: [],
+				referenceIds: new Set<string>(),
+				situations: [],
+				outcomes: [],
+				game: data.fallbackGame,
+			},
+	);
 	let references = $derived(collection.references);
 	let characterOptions = $derived(
 		collections.map((item) => ({
@@ -104,6 +118,29 @@
 	let library = $state<PersonalLibrary>({});
 	let pendingChanges = $state<LibraryPatches>({});
 	let storageError = $state<string | null>(null);
+	let requiresReload = $state(false);
+	let contentChanged = $state(false);
+	let availableIds = $derived(new Set(collections.flatMap((item) => [...item.referenceIds])));
+	let unavailableNotes = $derived(
+		[
+			...new Set([
+				...Object.keys(library),
+				...Object.keys(conflicts),
+				...Object.keys(recoveryConflicts),
+			]),
+		]
+			.filter(
+				(id) =>
+					!availableIds.has(id) &&
+					(conflicts[id] ||
+						recoveryConflicts[id] ||
+						library[id]?.note ||
+						library[id]?.saved ||
+						(library[id] && library[id].status !== 'untried')),
+			)
+			.map((id) => [id, library[id]] as const),
+	);
+	let unavailablePanel = $state<HTMLDetailsElement>();
 	let message = $state('');
 	let help: HTMLDialogElement;
 	let switcher: HTMLDialogElement;
@@ -207,6 +244,12 @@
 		return referenceLocation('https://hyper-chamber.invalid/', currentFilters(), id).search;
 	}
 	function readUrl() {
+		if (!collections.length) {
+			practising = false;
+			selectedId = '';
+			characterId = '';
+			return;
+		}
 		const wasPlaying = clipIsPlaying();
 		const next = readCharacterLocation(location.search, collections);
 		const changingReference = !practising || next.entryId !== selectedId;
@@ -289,6 +332,7 @@
 	function captureLibrary(origin: string | null) {
 		libraryReturn = { key: createLocalId(), scrollY: window.scrollY, entryId: origin };
 		libraryReturns.set(libraryReturn.key, libraryReturn);
+		if (libraryReturns.size > 128) libraryReturns.delete(libraryReturns.keys().next().value!);
 		libraryFilterKey = JSON.stringify(currentFilters());
 	}
 	async function focusPractice(revision: number) {
@@ -519,11 +563,37 @@
 	function updatePersonal(patch: Partial<PersonalEntry>) {
 		if (selected && ready) practiceClient?.update(selected, patch);
 	}
+	async function reviewEdits() {
+		const reference = collections
+			.flatMap((item) => item.references)
+			.find((item) => conflicts[item.id] || recoveryConflicts[item.id]);
+		if (reference) {
+			characterId =
+				collections.find((item) => item.referenceIds.has(reference.id))?.id ?? characterId;
+			await selectEntry(reference);
+			return;
+		}
+		if (!unavailablePanel) return;
+		unavailablePanel.open = true;
+		await tick();
+		const action = unavailablePanel.querySelector<HTMLButtonElement>(
+			'[data-conflict="true"] button',
+		);
+		action?.focus();
+		action?.scrollIntoView({ block: 'center' });
+	}
 	function retryLibrary() {
 		void practiceClient?.load();
 	}
-	async function refreshContent() {
+	async function refreshContent(notice?: string) {
 		await practiceClient?.flush();
+		if (notice) {
+			try {
+				sessionStorage.setItem(`hyper-chamber.content-notice:${data.libraryId}`, notice);
+			} catch {
+				/* The completed change does not depend on browser storage. */
+			}
+		}
 		window.location.reload();
 	}
 	function exportData() {
@@ -556,6 +626,16 @@
 		}
 	});
 	onMount(() => {
+		try {
+			const key = `hyper-chamber.content-notice:${data.libraryId}`;
+			const notice = sessionStorage.getItem(key);
+			if (notice) {
+				message = notice;
+				sessionStorage.removeItem(key);
+			}
+		} catch {
+			/* Status notices are optional. */
+		}
 		playerPreferences = readPlaybackPreferences();
 		practiceClient = new PracticeClient({ expectedLibraryId: data.libraryId });
 		const unsubscribe = practiceClient.subscribe((state) => {
@@ -567,11 +647,33 @@
 			recoveryConflicts = state.recoveryConflicts;
 			saving = state.saving;
 			connected = !!state.libraryId && !state.locked;
+			requiresReload = state.locked;
 		});
 		void practiceClient.load();
+		const controller = new AbortController();
+		let checking = false;
+		const checkContent = async () => {
+			if (checking || document.hidden) return;
+			checking = true;
+			try {
+				const response = await fetch('/api/runtime', { signal: controller.signal });
+				if (response.ok) {
+					const runtime = await response.json();
+					contentChanged = runtime.content?.generation !== data.generation;
+				}
+			} catch {
+				/* A sleeping host is handled by the practice client's reconnect flow. */
+			} finally {
+				checking = false;
+			}
+		};
 		const refreshLibrary = () => {
 			void practiceClient?.load();
+			void checkContent();
 		};
+		const timer = window.setInterval(() => {
+			void checkContent();
+		}, 15000);
 		readUrl();
 		libraryReturn = readLibraryReturn(page.state.libraryReturn, referenceIds) ?? {
 			key: '',
@@ -587,6 +689,8 @@
 		window.addEventListener('online', refreshLibrary);
 		return () => {
 			viewRevision++;
+			controller.abort();
+			window.clearInterval(timer);
 			window.removeEventListener('popstate', restoreFromHistory);
 			window.removeEventListener('hashchange', finishHashNavigation);
 			window.removeEventListener('focus', refreshLibrary);
@@ -596,6 +700,69 @@
 		};
 	});
 </script>
+
+{#snippet conflictControls(id: string)}
+	{#if recoveryConflicts[id]}
+		<div class="edit-conflict">
+			<h3>Unsaved versions found</h3>
+			<p>
+				Different browser sessions left edits for this reference. Choose one to keep, or keep the
+				library’s saved version.
+			</p>
+			{#each recoveryConflicts[id] as choice, index}
+				<blockquote>
+					{choice.patch.note ?? 'No note change.'}{choice.patch.status
+						? ` Status: ${choice.patch.status}.`
+						: ''}{choice.patch.saved !== undefined
+						? choice.patch.saved
+							? ' Save reference.'
+							: 'Unsave reference.'
+						: ''}
+				</blockquote>
+				<button
+					type="button"
+					disabled={!connected}
+					class="button"
+					onclick={() => practiceClient?.resolveRecovery(id, choice.id)}
+					>Keep version {index + 1}</button
+				>
+			{/each}
+			<div class="conflict-actions">
+				<button
+					type="button"
+					disabled={!connected}
+					class="button button--quiet"
+					onclick={() => practiceClient?.resolveRecovery(id, 'server')}>Keep library version</button
+				>
+			</div>
+		</div>
+	{/if}
+	{#if conflicts[id]}
+		<div class="edit-conflict">
+			<h3>Another device changed this reference</h3>
+			<p>Saved note</p>
+			<blockquote>{conflicts[id].note || 'No note.'}</blockquote>
+			<p>
+				Saved status: {conflicts[id].status}. {conflicts[id].saved
+					? 'Saved reference.'
+					: 'Unsaved reference.'}
+			</p>
+			<div class="conflict-actions">
+				<button
+					type="button"
+					disabled={!connected}
+					class="button"
+					onclick={() => practiceClient?.resolve(id, 'local')}>Keep my edits</button
+				><button
+					type="button"
+					disabled={!connected}
+					class="button button--quiet"
+					onclick={() => practiceClient?.resolve(id, 'server')}>Use saved version</button
+				>
+			</div>
+		</div>
+	{/if}
+{/snippet}
 
 <svelte:window onkeydown={shortcuts} />
 <svelte:head>
@@ -626,15 +793,19 @@
 			aria-label="Hyper Chamber home"
 			><BrandMark /><span class="brand-wordmark"><span>HYPER</span><span>CHAMBER</span></span></a
 		>
-		<CharacterPicker
-			characters={characterOptions}
-			gameName={game.name}
-			selected={characterId}
-			disabled={!ready}
-			onchange={changeCharacter}
-			onopen={() => document.querySelector<HTMLVideoElement>('.practice-view video')?.pause()}
-		/>
+		{#if collections.length}<CharacterPicker
+				characters={characterOptions}
+				gameName={game.name}
+				selected={characterId}
+				disabled={!ready}
+				onchange={changeCharacter}
+				onopen={() => document.querySelector<HTMLVideoElement>('.practice-view video')?.pause()}
+			/>{/if}
 		<nav class="header-actions" aria-label="Utilities">
+			<a class="guide-link" href="/create" aria-label="Create reference packs"
+				><FilePlus2 size={16} aria-hidden="true" /><span class="utility-label">Create packs</span
+				></a
+			>
 			<HostSettings
 				oncontentchange={refreshContent}
 				onbeforemaintenance={async () => {
@@ -665,32 +836,36 @@
 	<main id="main-content">
 		{#if storageError}<p class="global-notice" role="alert">
 				{storageError}
-				<button class="button button--quiet" onclick={retryLibrary}>Retry connection</button><button
+				<button
 					class="button button--quiet"
-					onclick={exportData}>Download unsaved notes</button
+					onclick={() => (requiresReload ? window.location.reload() : retryLibrary())}
+					>{requiresReload ? 'Reload application' : 'Retry connection'}</button
+				><button class="button button--quiet" onclick={exportData}>Download unsaved notes</button>
+			</p>{/if}
+		{#if contentChanged}<p class="message-bar" role="status">
+				Installed content changed. Your current replay is kept until you reload. <button
+					class="button"
+					onclick={() => refreshContent()}>Reload library</button
 				>
 			</p>{/if}
 		{#if libraryNotice}<p class="message-bar" role="status">{libraryNotice}</p>{/if}
 		{#if Object.keys( { ...conflicts, ...recoveryConflicts } ).length && (!selected || (!conflicts[selected.id] && !recoveryConflicts[selected.id]))}
 			<p class="global-notice" role="status">
 				Saved edits need your review.
-				<button
-					class="button"
-					onclick={() => {
-						const ref = collections
-							.flatMap((item) => item.references)
-							.find((item) => conflicts[item.id] || recoveryConflicts[item.id]);
-						if (ref) {
-							characterId =
-								collections.find((item) => item.referenceIds.has(ref.id))?.id ?? characterId;
-							void selectEntry(ref);
-						}
-					}}>Review edits</button
-				>
+				<button class="button" onclick={reviewEdits}>Review edits</button>
 			</p>
 		{/if}
 		{#if message}<p class="message-bar" role="status">{message}</p>{/if}
-		{#if !practising}
+		{#if !collections.length}
+			<section class="empty-pack-library" aria-labelledby="library-title">
+				<h1 id="library-title" tabindex="-1">No packs installed</h1>
+				<p>
+					Open Library &amp; devices to import a reference pack. Your saved notes and progress are
+					kept separately.
+				</p>
+				<a class="button" href="/create">Create a reference pack</a>
+			</section>
+		{:else if !practising}
 			<section class="library-view" aria-labelledby="library-title">
 				<header class="library-heading">
 					<CharacterPortrait
@@ -1147,63 +1322,7 @@
 											: 'Draft not yet saved.'
 										: 'Saved to your library.'}
 						</p>
-						{#if recoveryConflicts[selected.id]}
-							<div class="edit-conflict">
-								<h3>Unsaved versions found</h3>
-								<p>
-									Different browser sessions left edits for this reference. Choose one to keep, or
-									keep the library’s saved version.
-								</p>
-								{#each recoveryConflicts[selected.id] as choice, index}
-									<blockquote>
-										{choice.patch.note ?? 'No note change.'}{choice.patch.status
-											? ` Status: ${choice.patch.status}.`
-											: ''}{choice.patch.saved !== undefined
-											? choice.patch.saved
-												? ' Save reference.'
-												: 'Unsave reference.'
-											: ''}
-									</blockquote>
-									<button
-										class="button"
-										onclick={() =>
-											selected && practiceClient?.resolveRecovery(selected.id, choice.id)}
-										>Keep version {index + 1}</button
-									>
-								{/each}
-								<div class="conflict-actions">
-									<button
-										class="button button--quiet"
-										onclick={() =>
-											selected && practiceClient?.resolveRecovery(selected.id, 'server')}
-										>Keep library version</button
-									>
-								</div>
-							</div>
-						{/if}
-						{#if conflicts[selected.id]}
-							<div class="edit-conflict">
-								<h3>Another device changed this reference</h3>
-								<p>Saved note</p>
-								<blockquote>{conflicts[selected.id].note || 'No note.'}</blockquote>
-								<p>
-									Saved status: {conflicts[selected.id].status}. {conflicts[selected.id].saved
-										? 'Saved reference.'
-										: 'Unsaved reference.'}
-								</p>
-								<div class="conflict-actions">
-									<button
-										class="button"
-										onclick={() => selected && practiceClient?.resolve(selected.id, 'local')}
-										>Keep my edits</button
-									><button
-										class="button button--quiet"
-										onclick={() => selected && practiceClient?.resolve(selected.id, 'server')}
-										>Use saved version</button
-									>
-								</div>
-							</div>
-						{/if}
+						{@render conflictControls(selected.id)}
 					</section>
 				</div>
 				<SourceDetails reference={selected} />
@@ -1218,6 +1337,22 @@
 					</section>{/if}
 			</article>
 		{/if}
+		{#if unavailableNotes.length}<details class="unavailable-notes" bind:this={unavailablePanel}>
+				<summary>Notes for unavailable references ({unavailableNotes.length})</summary>
+				<p>
+					These references are not installed. Reimport their packs to reconnect your notes and
+					progress.
+				</p>
+				{#each unavailableNotes as [id, entry] (id)}<article
+						data-conflict={!!(conflicts[id] || recoveryConflicts[id])}
+					>
+						<h3>Reference ID</h3>
+						<code>{id}</code>
+						{#if entry}<p>{entry.saved ? 'Saved · ' : ''}{entry.status}</p>
+							{#if entry.note}<p class="retained-note">{entry.note}</p>{/if}{/if}
+						{@render conflictControls(id)}
+					</article>{/each}
+			</details>{/if}
 	</main>
 	<AppFooter />
 </div>
@@ -1286,6 +1421,42 @@
 </dialog>
 
 <style>
+	.empty-pack-library {
+		padding: 48px 24px;
+		min-height: 360px;
+		background: var(--surface);
+		border-radius: 6px;
+	}
+	.empty-pack-library p {
+		max-width: 58ch;
+		margin: 16px 0 24px;
+		color: var(--muted);
+	}
+	.unavailable-notes {
+		margin: 28px 0;
+		padding: 20px 0;
+		border-top: 1px solid var(--line);
+	}
+	.unavailable-notes summary {
+		cursor: pointer;
+		font-weight: 600;
+	}
+	.unavailable-notes article {
+		padding: 18px 0;
+		border-bottom: 1px solid var(--line);
+	}
+	.unavailable-notes h3 {
+		font-size: 12px;
+		color: var(--muted);
+	}
+	.unavailable-notes code {
+		font-size: 12px;
+		overflow-wrap: anywhere;
+	}
+	.retained-note {
+		white-space: pre-wrap;
+	}
+
 	.edit-conflict {
 		margin-block-start: 14px;
 		padding: 16px;

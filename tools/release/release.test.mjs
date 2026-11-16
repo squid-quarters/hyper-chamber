@@ -243,6 +243,7 @@ for (const [version, prerelease] of [
 			for (const path of [
 				'tools/release/assemble.mjs',
 				'tools/release/model.mjs',
+				'tools/release/pack-editions.mjs',
 				'tools/desktop/pack.mjs',
 			])
 				await copyFile(
@@ -270,6 +271,11 @@ for (const [version, prerelease] of [
 				JSON.stringify([{id: 'ryu-reference', media: {clip: '/media/ryu/clip.mp4'}}]),
 			);
 			await writeFile(join(source, 'apps/web/static/media/ryu/clip.mp4'), 'fixture clip');
+			const edition = '1.0.0';
+			await writeFile(
+				join(source, 'content/pack-editions.json'),
+				JSON.stringify({formatVersion: 1, editions: {sf6: {ryu: edition}}}),
+			);
 			git(['init', '--quiet']);
 			git(['add', '.']);
 			git(['commit', '--quiet', '-m', 'test: stable source fixture']);
@@ -292,12 +298,15 @@ for (const [version, prerelease] of [
 						platform,
 						arch,
 						asset,
-						verification: {passed: true, checks: {nativeBootstrap: true}},
+						verification: {
+							passed: true,
+							checks: {nativeBootstrap: true, upgradeFromV1: true, packAuthoringCli: true},
+						},
 					}),
 				);
 			}
-			const pack = await collectPack({sourceRoot: source, characterId: 'ryu', version});
-			const packPath = join(packs, `sf6-ryu_${version}.hcpack`);
+			const pack = await collectPack({sourceRoot: source, characterId: 'ryu', version: edition});
+			const packPath = join(packs, `sf6-ryu_${edition}.hcpack`);
 			await writeFile(packPath, 'fixture archive payload');
 			const indexPath = join(packs, 'content-packs.json');
 			await writeFile(
@@ -308,6 +317,7 @@ for (const [version, prerelease] of [
 						{
 							...(await describeAsset(packPath)),
 							character: 'ryu',
+							version: edition,
 							references: 1,
 							demonstrations: 1,
 							manifestSha256: createHash('sha256')
@@ -344,6 +354,29 @@ for (const [version, prerelease] of [
 					],
 					{encoding: 'utf8', timeout: 10000},
 				);
+			const buildInfoPath = join(installers, 'installer-macos-arm64/build-info.json');
+			const originalBuildInfo = await readFile(buildInfoPath, 'utf8');
+			const withoutUpgradeProof = JSON.parse(originalBuildInfo);
+			delete withoutUpgradeProof.verification.checks.upgradeFromV1;
+			await writeFile(buildInfoPath, JSON.stringify(withoutUpgradeProof));
+			const unverifiedUpgrade = run(join(dir, '.local/unverified-upgrade'));
+			assert.notEqual(
+				unverifiedUpgrade.status,
+				0,
+				'Passing fresh-install smoke cannot replace upgrade verification.',
+			);
+			assert.match(unverifiedUpgrade.stderr, /unverified|verification/i);
+			const withoutAuthoringProof = JSON.parse(originalBuildInfo);
+			delete withoutAuthoringProof.verification.checks.packAuthoringCli;
+			await writeFile(buildInfoPath, JSON.stringify(withoutAuthoringProof));
+			const unverifiedAuthoring = run(join(dir, '.local/unverified-authoring'));
+			assert.notEqual(
+				unverifiedAuthoring.status,
+				0,
+				'Installer publication requires its packaged authoring CLI to be tested.',
+			);
+			assert.match(unverifiedAuthoring.stderr, /unverified|verification/i);
+			await writeFile(buildInfoPath, originalBuildInfo);
 			const assembled = run(output);
 			assert.equal(assembled.status, 0, assembled.stderr);
 			const manifest = JSON.parse(await readFile(join(output, 'release-manifest.json'), 'utf8'));

@@ -6,7 +6,7 @@
 		game,
 		compact = false,
 	}: {
-		reference: Reference;
+		reference: Pick<Reference, 'id' | 'inputs' | 'participants'>;
 		game: GameDefinition;
 		compact?: boolean;
 	} = $props();

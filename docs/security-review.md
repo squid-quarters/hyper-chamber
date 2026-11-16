@@ -67,9 +67,10 @@ writes, JSON/body limits, traversal, native tokens and library identity. Manual
 review also covered prepared SQL statements, escaped rendering, passive-media
 containment, process arguments, navigation restrictions and release provenance.
 The built interface loads direct reference URLs, plays clips and saves literal
-notes with the new headers. A tile-navigation failure was reproduced with both
-the new headers and those headers removed; that existing behavior is outside
-this security patch.
+notes with the new headers. A later controlled check corrected the earlier tile-navigation finding: the
+automation clicked an off-screen card centre rather than its visible content.
+Clicking the visible heading opens the reference correctly; no app navigation bug
+was reproduced.
 
 Semgrep OSS security-audit rules scanned 77 tracked source/tooling files with no
 findings. A bounded credential-pattern scan covered 351 current tracked text

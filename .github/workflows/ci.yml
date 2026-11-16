@@ -23,6 +23,8 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm verify
+      - name: Check repeated media requests and resource cleanup
+        run: node tools/performance/server-soak.mjs --iterations 30 --output .local/performance.json
 
   desktop:
     name: macOS desktop validation

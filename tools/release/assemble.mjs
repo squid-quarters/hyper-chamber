@@ -5,6 +5,7 @@ import {constants} from 'node:fs';
 import {copyFile, mkdir, readFile, writeFile, readdir} from 'node:fs/promises';
 import {basename, join, resolve} from 'node:path';
 import {releaseVersion, describeAsset, installerName, assertReleaseSource} from './model.mjs';
+import {packEdition} from './pack-editions.mjs';
 import {repositoryRoot, collectPack} from '../desktop/pack.mjs';
 
 const {values} = parseArgs({
@@ -52,7 +53,9 @@ for (const [id, platform, arch] of [
 		info.platform !== platform ||
 		info.arch !== arch ||
 		info.verification?.passed !== true ||
-		info.verification?.checks?.nativeBootstrap !== true
+		info.verification?.checks?.nativeBootstrap !== true ||
+		info.verification?.checks?.upgradeFromV1 !== true ||
+		info.verification?.checks?.packAuthoringCli !== true
 	)
 		throw new Error(`Unverified or mismatched installer build: ${id}`);
 	const file = join(directory, installerName(version, platform, arch));
@@ -84,9 +87,16 @@ if (
 )
 	throw new Error('Release must include the complete, current character-pack index.');
 for (const entry of packs.packs) {
-	if (entry.name !== `sf6-${entry.character}_${version}.hcpack`)
+	const edition = await packEdition(repositoryRoot, 'sf6', entry.character);
+	if ((entry.version ?? packs.version) !== edition)
+		throw new Error('Pack edition differs from its source record.');
+	if (entry.name !== `sf6-${entry.character}_${edition}.hcpack`)
 		throw new Error('Unexpected character-pack filename.');
-	const current = await collectPack({gameId: 'sf6', characterId: entry.character, version});
+	const current = await collectPack({
+		gameId: 'sf6',
+		characterId: entry.character,
+		version: edition,
+	});
 	const currentManifest = createHash('sha256')
 		.update(JSON.stringify(current.manifest))
 		.digest('hex');

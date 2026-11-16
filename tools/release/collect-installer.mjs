@@ -30,7 +30,14 @@ if (
 	verification.version !== version
 )
 	throw new Error('The smoke verification does not match this installer target/version.');
-if (verification.passed !== true) throw new Error('Packaged smoke verification did not pass.');
+if (
+	verification.passed !== true ||
+	verification.checks?.upgradeFromV1 !== true ||
+	verification.checks?.packAuthoringCli !== true
+)
+	throw new Error(
+		'Packaged smoke, v1.0.0 upgrade and pack-authoring CLI verification must all pass.',
+	);
 const directory = resolve(values.output);
 await mkdir(directory, {recursive: true});
 const destination = join(directory, expected);

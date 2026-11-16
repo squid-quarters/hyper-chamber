@@ -42,6 +42,8 @@ try {
 			'Content-Type': 'application/json',
 			Origin: app.url,
 			'X-Hyper-Chamber-Library': runtime.libraryId,
+			'X-Hyper-Chamber-Maintenance': String(runtime.maintenanceRevision),
+			'X-Hyper-Chamber-Protocol': String(runtime.protocolVersion),
 		},
 		body: JSON.stringify({
 			expectedVersion: 0,
@@ -66,7 +68,7 @@ try {
 		const result = await response.json();
 		assert.equal(response.status, 200, JSON.stringify(result));
 		assert.equal(result.id, pack.packId);
-		assert.equal(result.version, version);
+		assert.equal(result.version, pack.version ?? index.version);
 		imported.push({character: pack.character, references: pack.references, sha256: pack.sha256});
 		console.log(`Imported ${pack.character}: ${result.references} total references.`);
 	}

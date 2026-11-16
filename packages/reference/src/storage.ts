@@ -42,6 +42,7 @@ export const legacyLibrarySchema = z.strictObject({
 });
 export const practiceSnapshotSchema = z.strictObject({
 	libraryId: z.uuid(),
+	maintenanceRevision: z.number().int().nonnegative().safe().default(0),
 	entries: z.record(referenceIdSchema, storedPersonalEntrySchema),
 });
 export type PracticeSnapshot = z.infer<typeof practiceSnapshotSchema>;
@@ -50,9 +51,51 @@ export interface PracticeImportResult {
 	unchanged: number;
 	conflicts: string[];
 }
+export const libraryProtocolVersion = 2;
 export interface LibraryRuntime {
+	protocolVersion: number;
+	maintenanceRevision: number;
 	appVersion: string;
 	libraryId: string;
 	sharing: {enabled: boolean; addresses: string[]};
-	content: {references: number; packs: number};
+	content: {references: number; packs: number; generation: number};
+}
+
+export interface InstalledPackInfo {
+	id: string;
+	title: string;
+	author?: string;
+	version: string;
+	formatVersion: number;
+	bytes: number;
+	retainedBytes: number;
+	problem?: string;
+	references: number;
+	installedAt: number;
+}
+export interface PackInventory {
+	generation: number;
+	packs: InstalledPackInfo[];
+	cleanupWarning?: string;
+}
+export interface PackChangePreview {
+	token: string;
+	generation: number;
+	action: 'install' | 'update' | 'remove' | 'identical';
+	pack: InstalledPackInfo;
+	added: string[];
+	changed: string[];
+	removed: string[];
+	fallbacks: string[];
+	conflicts: string[];
+	warnings: string[];
+	requiresConfirmation: boolean;
+	downgrade: boolean;
+	referenceTitles: Record<string, string>;
+}
+export interface LibraryBackupInfo {
+	file: string;
+	createdAt: string;
+	bytes: number;
+	migration: boolean;
 }

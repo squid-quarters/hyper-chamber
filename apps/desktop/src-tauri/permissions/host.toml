@@ -27,3 +27,23 @@ commands.allow = ["choose_library_folder"]
 identifier = "allow-reveal-library-folder"
 description = "Open the current library folder in the native file manager."
 commands.allow = ["reveal_library_folder"]
+
+[[permission]]
+identifier = "allow-open-authoring-workspace"
+description = "Choose an editable pack workspace with native file dialogs."
+commands.allow = ["open_authoring_workspace"]
+
+[[permission]]
+identifier = "allow-authoring-action"
+description = "Run fixed pack tools inside the currently chosen workspace."
+commands.allow = ["authoring_action"]
+
+[[permission]]
+identifier = "allow-close-authoring-workspace"
+description = "Close this host's workspace preview without deleting its files."
+commands.allow = ["close_authoring_workspace"]
+
+[[permission]]
+identifier = "allow-manage-content"
+description = "Preview and manage installed reference packs and recover learner data through fixed host actions."
+commands.allow = ["manage_content"]

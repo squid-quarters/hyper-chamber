@@ -1,9 +1,20 @@
 import {createHash, randomUUID} from 'node:crypto';
-import {createReadStream, closeSync, mkdirSync, openSync, writeSync, renameSync} from 'node:fs';
-import {cp, lstat, mkdir, readFile, readdir, realpath, rm, stat, writeFile} from 'node:fs/promises';
+import {createReadStream} from 'node:fs';
+import {
+	cp,
+	lstat,
+	mkdir,
+	readFile,
+	readdir,
+	realpath,
+	rm,
+	stat,
+	statfs,
+	writeFile,
+} from 'node:fs/promises';
 import {basename, dirname, isAbsolute, join, relative, resolve, sep} from 'node:path';
-import {Unzip, UnzipInflate} from 'fflate';
-import {z} from 'zod';
+import {unpackPackArchive} from '@hyper-chamber/authoring/archive';
+import {PracticeStore, type RegistryPack} from './store';
 import {
 	gameDefinitionSchema,
 	parseCatalog,
@@ -11,62 +22,19 @@ import {
 	type CatalogSnapshot,
 	type GameDefinition,
 	type Reference,
+	packManifestSchema,
+	packPathSchema,
+	MAX_PACK_BYTES,
+	comparePackVersions,
+	type PackManifest,
+	type PackInventory,
+	type InstalledPackInfo,
+	type PackChangePreview,
 } from '@hyper-chamber/reference';
 
-const MAX_FILE_BYTES = 2 * 1024 ** 3;
-const MAX_PACK_BYTES = 20 * 1024 ** 3;
-const MAX_PACK_FILES = 30000;
-const safePathSchema = z
-	.string()
-	.min(1)
-	.max(512)
-	.refine(value => {
-		const segments = value.split('/');
-		return (
-			/^[a-zA-Z0-9_/.-]+$/.test(value) &&
-			!isAbsolute(value) &&
-			segments.length <= 20 &&
-			segments.every(segment => segment !== '' && !segment.startsWith('.'))
-		);
-	}, 'Pack paths must be relative files without traversal');
-export const packManifestSchema = z
-	.strictObject({
-		formatVersion: z.literal(1),
-		id: z
-			.string()
-			.regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/)
-			.max(100),
-		version: z.string().min(1).max(100),
-		games: z.array(safePathSchema).min(1).max(100),
-		catalogs: z.array(safePathSchema).min(1).max(1000),
-		files: z
-			.array(
-				z.strictObject({
-					path: safePathSchema,
-					sha256: z.string().regex(/^[a-f0-9]{64}$/),
-					bytes: z.number().int().nonnegative().max(MAX_FILE_BYTES),
-				}),
-			)
-			.max(MAX_PACK_FILES),
-	})
-	.superRefine((manifest, context) => {
-		const paths = new Set(manifest.files.map(file => file.path));
-		if (paths.size !== manifest.files.length || paths.has('manifest.json')) {
-			context.addIssue({
-				code: 'custom',
-				path: ['files'],
-				message: 'Pack file paths must be unique; manifest.json is not a payload file',
-			});
-		}
-		for (const path of [...manifest.games, ...manifest.catalogs]) {
-			if (!paths.has(path))
-				context.addIssue({code: 'custom', message: `Missing manifest file: ${path}`});
-		}
-		if (manifest.files.reduce((sum, file) => sum + file.bytes, 0) > MAX_PACK_BYTES) {
-			context.addIssue({code: 'custom', message: 'Content pack exceeds the unpacked size limit'});
-		}
-	});
-export type PackManifest = z.infer<typeof packManifestSchema>;
+export {packManifestSchema} from '@hyper-chamber/reference';
+const safePathSchema = packPathSchema;
+export type {PackManifest} from '@hyper-chamber/reference';
 /** Validate manifest byte totals before allocating or parsing candidate JSON catalogs. */
 export function assertCatalogJsonBudget(manifests: readonly PackManifest[]): void {
 	let gameBytes = 0;
@@ -85,6 +53,8 @@ interface InstalledPack {
 	root: string;
 	manifest: PackManifest;
 	installedAt: number;
+	references?: Reference[];
+	games?: GameDefinition[];
 }
 export interface MediaFile {
 	root: string;
@@ -158,7 +128,17 @@ function mediaPaths(reference: Reference): string[] {
 		...reference.media.frames.map(frame => frame.src),
 	].filter((path): path is string => !!path);
 }
+async function readPackGames(pack: InstalledPack): Promise<GameDefinition[]> {
+	if (pack.games) return pack.games;
+	pack.games = await Promise.all(
+		pack.manifest.games.map(async path =>
+			gameDefinitionSchema.parse(await jsonFile(join(pack.root, path))),
+		),
+	);
+	return pack.games;
+}
 async function readPackReferences(pack: InstalledPack): Promise<Reference[]> {
+	if (pack.references) return pack.references;
 	const references: Reference[] = [];
 	const ids = new Set<string>();
 	for (const path of pack.manifest.catalogs) {
@@ -166,6 +146,8 @@ async function readPackReferences(pack: InstalledPack): Promise<Reference[]> {
 		if (!Array.isArray(value)) throw new Error('A reference catalog must be a JSON array.');
 		for (const rawReference of value) {
 			const reference = referenceSchema.parse(rawReference);
+			if (pack.manifest.formatVersion === 1 && reference.source.kind === 'recording')
+				throw new Error('Own recordings require a format-2 content pack.');
 			if (ids.has(reference.id))
 				throw new Error('A content pack contains duplicate reference IDs.');
 			if (mediaPaths(reference).some(path => !isPassiveMediaPath(path)))
@@ -174,6 +156,7 @@ async function readPackReferences(pack: InstalledPack): Promise<Reference[]> {
 			references.push(reference);
 		}
 	}
+	pack.references = references;
 	return references;
 }
 async function readPackCatalog(packs: readonly InstalledPack[]): Promise<{
@@ -188,10 +171,7 @@ async function readPackCatalog(packs: readonly InstalledPack[]): Promise<{
 	for (const pack of [...packs].sort(
 		(a, b) => a.installedAt - b.installedAt || a.manifest.id.localeCompare(b.manifest.id),
 	)) {
-		for (const path of pack.manifest.games) {
-			const game = gameDefinitionSchema.parse(await jsonFile(join(pack.root, path)));
-			gamesById.set(game.id, game);
-		}
+		for (const game of await readPackGames(pack)) gamesById.set(game.id, game);
 		const items = await readPackReferences(pack);
 		packReferences.set(pack, items);
 		for (const reference of items) {
@@ -228,9 +208,7 @@ async function readPackCatalog(packs: readonly InstalledPack[]): Promise<{
 	}
 	const games = [...gamesById.values()].sort((a, b) => a.id.localeCompare(b.id));
 	const references = parseCatalog([...referencesById.values()], games);
-	if (!games.length || !references.length)
-		throw new Error('The library has no installed reference catalog.');
-	return {snapshot: {formatVersion: 1, games, references}, media};
+	return {snapshot: {formatVersion: 1, generation: 0, games, references}, media};
 }
 
 async function copyRawSeed(source: string, target: string): Promise<void> {
@@ -269,96 +247,33 @@ async function copyRawSeed(source: string, target: string): Promise<void> {
 	);
 }
 
-/** ZIP extraction writes regular files only, with bounded actual decompression and no path traversal. */
-async function unpackArchive(archive: string, target: string): Promise<void> {
-	const archiveStat = await stat(archive);
-	if (!archiveStat.isFile() || archiveStat.size > MAX_FILE_BYTES)
-		throw new Error('Choose a content pack file under 2 GiB.');
-	const seen = new Set<string>();
-	const openFiles = new Set<number>();
-	let entryCount = 0;
-	let totalBytes = 0;
-	let failure: Error | null = null;
-	const fail = (error: unknown) => {
-		failure = error instanceof Error ? error : new Error('Could not extract the content pack.');
-	};
-	const unzip = new Unzip(file => {
-		if (failure) return;
-		try {
-			if (++entryCount > MAX_PACK_FILES + 1)
-				throw new Error('Duplicate or excessive archive files.');
-			for (const size of [file.size, file.originalSize]) {
-				if (
-					size !== undefined &&
-					(!Number.isSafeInteger(size) || size < 0 || size > MAX_FILE_BYTES)
-				)
-					throw new Error('An archive entry exceeds the size limit.');
-			}
-			if (file.name.endsWith('/')) {
-				safePathSchema.parse(file.name.slice(0, -1));
-				if (file.originalSize !== undefined && file.originalSize !== 0)
-					throw new Error('Archive directory entries must be empty.');
-				file.ondata = (error, chunk) => {
-					if (error) fail(error);
-					else if (chunk.byteLength) fail(new Error('Archive directory entries must be empty.'));
-				};
-				// Unstarted entries retain compressed chunks inside the decoder.
-				file.start();
-				return;
-			}
-			const name = safePathSchema.parse(file.name);
-			if (seen.has(name)) throw new Error('Duplicate archive files.');
-			seen.add(name);
-			const path = join(target, name);
-			mkdirSync(dirname(path), {recursive: true});
-			const fd = openSync(path, 'wx', 0o600);
-			openFiles.add(fd);
-			let bytes = 0;
-			file.ondata = (error, chunk, final) => {
-				if (failure) return;
-				try {
-					if (error) throw error;
-					bytes += chunk.byteLength;
-					totalBytes += chunk.byteLength;
-					if (bytes > MAX_FILE_BYTES || totalBytes > MAX_PACK_BYTES)
-						throw new Error('The unpacked content pack exceeds the size limit.');
-					let written = 0;
-					while (written < chunk.byteLength) written += writeSync(fd, chunk, written);
-					if (final) {
-						closeSync(fd);
-						openFiles.delete(fd);
-					}
-				} catch (error) {
-					fail(error);
-				}
-			};
-			file.start();
-		} catch (error) {
-			fail(error);
-		}
-	});
-	unzip.register(UnzipInflate);
-	try {
-		for await (const chunk of createReadStream(archive, {highWaterMark: 64 * 1024})) {
-			unzip.push(new Uint8Array(chunk));
-			if (failure) throw failure;
-		}
-		unzip.push(new Uint8Array(), true);
-		if (failure) throw failure;
-		if (openFiles.size) throw new Error('The content pack is truncated.');
-		const manifest = packManifestSchema.parse(await jsonFile(join(target, 'manifest.json')));
-		const expected = new Set(['manifest.json', ...manifest.files.map(file => file.path)]);
-		if (seen.size !== expected.size || [...seen].some(path => !expected.has(path)))
-			throw new Error('The archive contains files outside its manifest.');
-	} finally {
-		for (const fd of openFiles) closeSync(fd);
-	}
+interface PreparedChange {
+	preview: PackChangePreview;
+	stage?: string;
+	pack?: InstalledPack;
+	candidate: InstalledPack[];
+	data: Awaited<ReturnType<typeof readPackCatalog>>;
+	expiresAt: number;
+	repair?: boolean;
 }
-
 export class LibraryCatalog {
 	private packs: InstalledPack[] = [];
+	private problems = new Map<string, string>();
+	private quarantinedPaths = new Set<string>();
 	private data: Awaited<ReturnType<typeof readPackCatalog>> | undefined;
 	private importing = false;
+	private operationTask: Promise<unknown> | undefined;
+	private closeTask: Promise<void> | undefined;
+	private stages = new Set<string>();
+	private closed = false;
+	private prepared: PreparedChange | undefined;
+	private previewTimer: ReturnType<typeof setTimeout> | undefined;
+	private history = new Map<number, Map<string, MediaFile>>();
+	private leases = new Map<string, number>();
+	private cleanupTask: Promise<void> | undefined;
+	private cleanupWarning: string | undefined;
+	private cleanupPending = true;
+	readonly store!: PracticeStore;
 	private constructor(
 		readonly libraryDir: string,
 		private readonly fallbackMediaDir?: string,
@@ -370,37 +285,174 @@ export class LibraryCatalog {
 		mediaDir?: string;
 	}): Promise<LibraryCatalog> {
 		const catalog = new LibraryCatalog(options.libraryDir, options.mediaDir);
-		await mkdir(options.libraryDir, {recursive: true});
-		await catalog.ensurePacksDirectory();
-		await catalog.recoverInterruptedReplacement();
-		const installed = (
-			await readdir(join(options.libraryDir, 'packs'), {withFileTypes: true})
-		).some(entry => entry.isDirectory() && !entry.name.startsWith('.'));
-		if (!installed && options.seedDir) await catalog.seed(options.seedDir);
-		await catalog.reload();
-		return catalog;
+		let seedRoot: string | undefined;
+		try {
+			const store = await PracticeStore.open(options.libraryDir, {
+				bootstrap: async () => {
+					await catalog.ensurePacksDirectory();
+					const found = await catalog.legacyPacks();
+					let packs = found.packs;
+					if (!packs.length && options.seedDir) {
+						seedRoot = await catalog.generationDirectory();
+						await catalog.copySeed(options.seedDir, seedRoot);
+						packs = [await inspectPack(seedRoot, true)];
+					}
+					await readPackCatalog(packs);
+					return {packs: packs.map(pack => catalog.record(pack)), garbage: found.garbage};
+				},
+			});
+			Object.defineProperty(catalog, 'store', {value: store});
+			await catalog.ensurePacksDirectory();
+			await catalog.reload();
+			if (seedRoot) catalog.stages.delete(seedRoot);
+			await catalog.cleanup();
+			return catalog;
+		} catch (error) {
+			if (catalog.store) catalog.store.close();
+			else if (seedRoot) await rm(seedRoot, {recursive: true, force: true});
+			throw error;
+		}
 	}
-
 	get snapshot(): CatalogSnapshot {
 		if (!this.data) throw new Error('The catalog has not been loaded.');
 		return this.data.snapshot;
 	}
 	get packCount(): number {
-		return this.packs.length;
+		return this.packs.length + this.problems.size;
+	}
+	get generation(): number {
+		return this.store.catalogGeneration;
 	}
 	revision(id: string): number {
 		return this.snapshot.references.find(reference => reference.id === id)?.revision ?? 1;
 	}
-	media(path: string): MediaFile | undefined {
+	media(path: string, generation?: number): MediaFile | undefined {
+		if (generation !== undefined && generation !== this.generation)
+			return this.history.get(generation)?.get(path);
 		const installed = this.data?.media.get(path);
 		if (installed) return installed;
+		if (this.quarantinedPaths.has(path)) return undefined;
 		return this.fallbackMediaDir && path.startsWith('/media/')
 			? {root: this.fallbackMediaDir, path: path.slice('/media/'.length)}
 			: undefined;
 	}
+	holdMedia(path: string, generation?: number): {file: MediaFile; release: () => void} | undefined {
+		const file = this.media(path, generation);
+		if (!file) return;
+		this.leases.set(file.root, (this.leases.get(file.root) ?? 0) + 1);
+		let released = false;
+		return {
+			file,
+			release: () => {
+				if (released) return;
+				released = true;
+				const next = (this.leases.get(file.root) ?? 1) - 1;
+				if (next) this.leases.set(file.root, next);
+				else this.leases.delete(file.root);
+				if (this.cleanupPending) void this.cleanup();
+			},
+		};
+	}
+	private relativeRoot(root: string): string {
+		return relative(this.libraryDir, root).split(sep).join('/');
+	}
+	private async resolveRoot(root: string): Promise<string> {
+		if (!/^packs\/(?:[a-z0-9-]+|\.previous-[a-z0-9-]+|\.generations\/[a-f0-9-]+)$/.test(root))
+			throw new Error('The installed pack registry has an unsafe directory.');
+		const path = join(this.libraryDir, ...root.split('/'));
+		const boundary = await realpath(join(this.libraryDir, 'packs'));
+		const actual = await realpath(path);
+		const inside = relative(boundary, actual);
+		if (
+			!inside ||
+			inside === '..' ||
+			inside.startsWith(`..${sep}`) ||
+			isAbsolute(inside) ||
+			!(await lstat(path)).isDirectory()
+		)
+			throw new Error('The installed pack directory must stay inside the library.');
+		return path;
+	}
+	private record(pack: InstalledPack, previous?: RegistryPack): RegistryPack {
+		return {
+			id: pack.manifest.id,
+			root: this.relativeRoot(pack.root),
+			manifestJson: JSON.stringify(pack.manifest),
+			installedAt: pack.installedAt,
+			...(previous
+				? {
+						previousRoot: previous.root,
+						previousManifestJson: previous.manifestJson,
+						previousInstalledAt: previous.installedAt,
+					}
+				: {}),
+		};
+	}
 
-	// The chosen root may be aliased; its fixed packs child must not redirect writes.
-	// This rejects pre-existing links, not concurrent changes by another same-user process.
+	private async currentPacks(): Promise<InstalledPack[]> {
+		const packs: InstalledPack[] = [];
+		this.problems.clear();
+		this.quarantinedPaths.clear();
+		for (const record of this.store.registry()) {
+			try {
+				const root = await this.resolveRoot(record.root);
+				const pack = await inspectPack(root, false);
+				if (pack.manifest.id !== record.id || JSON.stringify(pack.manifest) !== record.manifestJson)
+					throw new Error('The installed files differ from the registered pack.');
+				pack.installedAt = record.installedAt;
+				packs.push(pack);
+			} catch (error) {
+				this.problems.set(
+					record.id,
+					error instanceof Error ? error.message : 'This pack could not be read.',
+				);
+				this.quarantine(record);
+			}
+		}
+		return packs;
+	}
+	private quarantine(record: RegistryPack): void {
+		const manifest = packManifestSchema.safeParse(
+			(() => {
+				try {
+					return JSON.parse(record.manifestJson);
+				} catch {
+					return null;
+				}
+			})(),
+		);
+		if (manifest.success)
+			for (const file of manifest.data.files)
+				if (file.path.startsWith('media/')) this.quarantinedPaths.add(`/${file.path}`);
+	}
+
+	private async reload(): Promise<void> {
+		const packs = await this.currentPacks();
+		try {
+			this.data = await readPackCatalog(packs);
+			this.packs = packs;
+		} catch {
+			// A damaged dependency/profile must not make every healthy pack inaccessible.
+			this.packs = [];
+			this.data = await readPackCatalog([]);
+			for (const pack of packs) {
+				try {
+					const candidate = await readPackCatalog([...this.packs, pack]);
+					this.packs.push(pack);
+					this.data = candidate;
+				} catch (error) {
+					this.problems.set(
+						pack.manifest.id,
+						error instanceof Error ? error.message : 'This pack conflicts with installed content.',
+					);
+					const record = this.store.registry().find(record => record.id === pack.manifest.id);
+					if (record) this.quarantine(record);
+				}
+			}
+		}
+		this.data.snapshot.generation = this.generation;
+	}
+
 	private async ensurePacksDirectory(): Promise<void> {
 		const root = join(this.libraryDir, 'packs');
 		await mkdir(root).catch(error => {
@@ -409,153 +461,596 @@ export class LibraryCatalog {
 		if (!(await lstat(root)).isDirectory())
 			throw new Error('The library packs path must be an ordinary directory.');
 	}
+	private async generationDirectory(): Promise<string> {
+		await this.ensurePacksDirectory();
+		const root = join(this.libraryDir, 'packs', '.generations');
+		await mkdir(root).catch(error => {
+			if (error.code !== 'EEXIST') throw error;
+		});
+		if (!(await lstat(root)).isDirectory())
+			throw new Error('Pack generations must use an ordinary directory.');
+		const target = join(root, randomUUID());
+		await mkdir(target);
+		this.stages.add(target);
+		return target;
+	}
 
-	private async recoverInterruptedReplacement(): Promise<void> {
+	private async legacyPacks(): Promise<{packs: InstalledPack[]; garbage: string[]}> {
 		const root = join(this.libraryDir, 'packs');
-		const candidates: InstalledPack[] = [];
+		const active = new Map<string, InstalledPack>();
+		const retired: InstalledPack[] = [];
+		const garbage: string[] = [];
 		for (const entry of await readdir(root, {withFileTypes: true})) {
-			if (!entry.isDirectory() || !entry.name.startsWith('.previous-')) continue;
-			try {
-				const retired = join(root, entry.name);
-				const manifest = packManifestSchema.parse(await jsonFile(join(retired, 'manifest.json')));
-				const active = await lstat(join(root, manifest.id)).catch(error => {
-					if (error.code === 'ENOENT') return null;
-					throw error;
-				});
-				if (!active) candidates.push(await inspectPack(retired, false));
-			} catch {
-				// Retired copies are recovery aids; corrupt old copies cannot disable a valid active pack.
+			if (
+				!entry.isDirectory() ||
+				(entry.name.startsWith('.') && !entry.name.startsWith('.previous-'))
+			)
+				continue;
+			const path = join(root, entry.name);
+			if (entry.name.startsWith('.previous-')) {
+				try {
+					retired.push(await inspectPack(path, false));
+				} catch {
+					garbage.push(this.relativeRoot(path));
+				}
+			} else {
+				const pack = await inspectPack(path, false);
+				if (pack.manifest.id !== entry.name)
+					throw new Error('Installed pack directory does not match its manifest.');
+				active.set(pack.manifest.id, pack);
 			}
 		}
-		for (const prior of candidates.sort((a, b) => b.installedAt - a.installedAt)) {
-			const target = join(root, prior.manifest.id);
-			const present = await lstat(target).catch(error => {
-				if (error.code === 'ENOENT') return null;
+		for (const prior of retired.sort((a, b) => b.installedAt - a.installedAt))
+			if (!active.has(prior.manifest.id)) active.set(prior.manifest.id, prior);
+		if (!active.size && garbage.length)
+			throw new Error(
+				'The legacy library has no readable active or recovery pack. Restore its content before upgrading.',
+			);
+		const retained = new Set([...active.values()].map(pack => pack.root));
+		return {
+			packs: [...active.values()],
+			garbage: [
+				...garbage,
+				...retired
+					.filter(pack => !retained.has(pack.root))
+					.map(pack => this.relativeRoot(pack.root)),
+			],
+		};
+	}
+
+	private async copySeed(source: string, target: string): Promise<void> {
+		const isPack = await stat(join(source, 'manifest.json'))
+			.then(() => true)
+			.catch(error => {
+				if (error.code === 'ENOENT') return false;
 				throw error;
 			});
-			if (!present) renameSync(prior.root, target);
-		}
+		if (isPack) {
+			const seed = await inspectPack(source, true);
+			for (const file of ['manifest.json', ...seed.manifest.files.map(file => file.path)]) {
+				await mkdir(dirname(join(target, file)), {recursive: true});
+				await cp(join(source, file), join(target, file));
+			}
+		} else await copyRawSeed(source, target);
 	}
-	private async currentPacks(): Promise<InstalledPack[]> {
-		const root = join(this.libraryDir, 'packs');
-		const packs: InstalledPack[] = [];
-		for (const entry of await readdir(root, {withFileTypes: true})) {
-			if (!entry.isDirectory() || entry.name.startsWith('.')) continue;
-			const pack = await inspectPack(join(root, entry.name), false);
-			if (pack.manifest.id !== entry.name)
-				throw new Error('Installed pack directory does not match its manifest.');
-			packs.push(pack);
-		}
-		return packs;
+	private async info(
+		pack: InstalledPack,
+		record = this.store.registry().find(record => record.id === pack.manifest.id),
+	): Promise<InstalledPackInfo> {
+		const prior = record?.previousManifestJson;
+		const manifest = pack.manifest;
+		const references = await readPackReferences(pack);
+		const games = await readPackGames(pack);
+		const characterIds = new Set(
+			references.flatMap(reference =>
+				reference.participants.map(participant => participant.characterId),
+			),
+		);
+		const names = [
+			...new Set(
+				games.flatMap(game =>
+					game.characters
+						.filter(character => characterIds.has(character.id))
+						.map(character => character.name),
+				),
+			),
+		];
+		const legacyTitle =
+			names.length === 1 && games.length === 1
+				? `${games[0].name} · ${names[0]}`
+				: manifest.id.replace(/^hyper-chamber-/, '').replaceAll('-', ' ');
+		return {
+			id: manifest.id,
+			title: 'title' in manifest ? manifest.title : legacyTitle,
+			...('author' in manifest ? {author: manifest.author} : {}),
+			version: manifest.version,
+			formatVersion: manifest.formatVersion,
+			bytes: manifest.files.reduce((sum, file) => sum + file.bytes, 0),
+			retainedBytes: prior
+				? packManifestSchema
+						.parse(JSON.parse(prior))
+						.files.reduce((sum, file) => sum + file.bytes, 0)
+				: 0,
+			references: references.length,
+			installedAt: pack.installedAt,
+		};
 	}
-	private async reload(): Promise<void> {
-		const packs = await this.currentPacks();
-		const data = await readPackCatalog(packs);
-		this.packs = packs;
-		this.data = data;
-	}
-	private async activate(stage: string, pack: InstalledPack): Promise<void> {
-		const root = join(this.libraryDir, 'packs');
-		const target = join(root, pack.manifest.id);
-		const retired = join(root, `.previous-${pack.manifest.id}-${randomUUID()}`);
-		const existing = await stat(target).catch(error => {
-			if (error.code === 'ENOENT') return null;
-			throw error;
-		});
-		await writeFile(join(stage, '.installed.json'), JSON.stringify({installedAt: Date.now()}));
-		if (existing) renameSync(target, retired);
+
+	private brokenInfo(record: RegistryPack): InstalledPackInfo {
+		let manifest: PackManifest | undefined;
 		try {
-			renameSync(stage, target);
-			await this.reload();
+			manifest = packManifestSchema.parse(JSON.parse(record.manifestJson));
+		} catch {
+			/* Registry damage is reported without trusting its payload. */
+		}
+		return {
+			id: record.id,
+			title:
+				manifest && 'title' in manifest
+					? manifest.title
+					: record.id.replace(/^hyper-chamber-/, '').replaceAll('-', ' '),
+			...(manifest && 'author' in manifest ? {author: manifest.author} : {}),
+			version: manifest?.version ?? 'Unknown',
+			formatVersion: manifest?.formatVersion ?? 0,
+			bytes: manifest?.files.reduce((sum, file) => sum + file.bytes, 0) ?? 0,
+			retainedBytes: 0,
+			references: 0,
+			installedAt: record.installedAt,
+			problem: this.problems.get(record.id) ?? 'This pack is unavailable.',
+		};
+	}
+	async inventory(): Promise<PackInventory> {
+		const healthy = new Map(this.packs.map(pack => [pack.manifest.id, pack]));
+		return {
+			generation: this.generation,
+			packs: await Promise.all(
+				this.store.registry().map(record => {
+					const pack = healthy.get(record.id);
+					return pack ? this.info(pack, record) : this.brokenInfo(record);
+				}),
+			),
+			...(this.cleanupWarning ? {cleanupWarning: this.cleanupWarning} : {}),
+		};
+	}
+
+	private compare(
+		candidate: Awaited<ReturnType<typeof readPackCatalog>>,
+	): Pick<PackChangePreview, 'added' | 'changed' | 'removed' | 'fallbacks'> {
+		const before = new Map(this.snapshot.references.map(reference => [reference.id, reference]));
+		const after = new Map(
+			candidate.snapshot.references.map(reference => [reference.id, reference]),
+		);
+		return {
+			added: [...after.keys()].filter(id => !before.has(id)),
+			changed: [...after]
+				.filter(
+					([id, reference]) =>
+						before.has(id) && JSON.stringify(before.get(id)) !== JSON.stringify(reference),
+				)
+				.map(([id]) => id),
+			removed: [...before.keys()].filter(id => !after.has(id)),
+			fallbacks: [...after]
+				.filter(
+					([id, reference]) => before.has(id) && reference.revision < before.get(id)!.revision,
+				)
+				.map(([id]) => id),
+		};
+	}
+	private referenceTitles(
+		candidate: Awaited<ReturnType<typeof readPackCatalog>>,
+	): Record<string, string> {
+		const changes = this.compare(candidate);
+		const affected = new Set([
+			...changes.added,
+			...changes.changed,
+			...changes.removed,
+			...changes.fallbacks,
+		]);
+		return Object.fromEntries(
+			[...this.snapshot.references, ...candidate.snapshot.references]
+				.filter(reference => affected.has(reference.id))
+				.map(reference => [reference.id, reference.title]),
+		);
+	}
+	private async clearPreview(): Promise<void> {
+		if (this.previewTimer) clearTimeout(this.previewTimer);
+		this.previewTimer = undefined;
+		const prepared = this.prepared;
+		this.prepared = undefined;
+		if (prepared?.stage) {
+			// Failed deletion must remain eligible for the normal, warning-reporting GC.
+			this.stages.delete(prepared.stage);
+			this.cleanupPending = true;
+			await rm(prepared.stage, {recursive: true, force: true});
+		}
+	}
+	private savePreview(prepared: PreparedChange): PackChangePreview {
+		this.prepared = prepared;
+		this.previewTimer = setTimeout(
+			() => {
+				void this.expirePreview(prepared);
+			},
+			10 * 60 * 1000,
+		);
+		this.previewTimer.unref();
+		return prepared.preview;
+	}
+
+	private async expirePreview(prepared: PreparedChange): Promise<void> {
+		try {
+			// Expiry can coincide with another maintenance action. Never delete a
+			// stage while that action is using it, or clear a replacement preview.
+			await this.operationTask?.catch(() => undefined);
+			if (this.closed || this.prepared !== prepared) return;
+			await this.exclusive(async () => {
+				if (this.prepared === prepared) await this.clearPreview();
+			});
 		} catch (error) {
-			await rm(target, {recursive: true, force: true});
-			if (existing) renameSync(retired, target);
-			throw error;
-		}
-		// A prior pack is retained for recovery; replacing content never deletes learner entries.
-	}
-	private async seed(source: string): Promise<void> {
-		const stage = join(this.libraryDir, 'packs', `.seed-${randomUUID()}`);
-		await mkdir(stage, {recursive: true});
-		try {
-			const isPack = await stat(join(source, 'manifest.json'))
-				.then(() => true)
-				.catch(error => {
-					if (error.code === 'ENOENT') return false;
-					throw error;
-				});
-			if (isPack) {
-				const seed = await inspectPack(source, true);
-				for (const file of ['manifest.json', ...seed.manifest.files.map(file => file.path)]) {
-					await mkdir(dirname(join(stage, file)), {recursive: true});
-					await cp(join(source, file), join(stage, file));
-				}
-			} else await copyRawSeed(source, stage);
-			const pack = await inspectPack(stage, true);
-			await readPackCatalog([pack]);
-			await this.activate(stage, pack);
-		} finally {
-			await rm(stage, {recursive: true, force: true});
+			this.cleanupWarning =
+				error instanceof Error
+					? error.message
+					: 'An expired preview could not be removed. Its files will be retried later.';
 		}
 	}
 
-	async importArchive(path: string): Promise<{id: string; version: string; references: number}> {
+	private async exclusive<T>(action: () => Promise<T>): Promise<T> {
+		if (this.closed) throw new Error('The library is closing.');
 		if (this.importing)
-			throw new Error('Another content pack is being installed. Try again when it finishes.');
-		if (!isAbsolute(path) || !basename(path).toLowerCase().endsWith('.hcpack'))
-			throw new Error('Choose a .hcpack archive file.');
+			throw new Error('Another content operation is in progress. Try again when it finishes.');
 		this.importing = true;
-		const stage = join(this.libraryDir, 'packs', `.import-${randomUUID()}`);
-		let stageCreated = false;
+		const task = (async () => {
+			await this.cleanupTask;
+			return action();
+		})();
+		this.operationTask = task;
 		try {
+			return await task;
+		} finally {
+			this.operationTask = undefined;
+			this.importing = false;
+			await this.cleanup();
+		}
+	}
+
+	async previewArchive(path: string): Promise<PackChangePreview> {
+		return this.exclusive(async () => {
+			await this.clearPreview();
 			await this.ensurePacksDirectory();
-			await mkdir(stage);
-			stageCreated = true;
-			await unpackArchive(path, stage);
-			const pack = await inspectPack(stage, true);
-			const existing = await this.currentPacks();
-			assertCatalogJsonBudget([
-				...existing
-					.filter(item => item.manifest.id !== pack.manifest.id)
-					.map(item => item.manifest),
-				pack.manifest,
-			]);
-			const prior = existing.find(item => item.manifest.id === pack.manifest.id);
-			if (prior?.manifest.version === pack.manifest.version) {
-				if (JSON.stringify(prior.manifest) !== JSON.stringify(pack.manifest))
+			if (!isAbsolute(path) || !basename(path).toLowerCase().endsWith('.hcpack'))
+				throw new Error('Choose a .hcpack archive file.');
+			const space = await statfs(this.libraryDir);
+			const free = space.bavail * space.bsize;
+			// ZIPs may expand substantially; the decoder enforces actual limits as well.
+			if (
+				free <
+				Math.min((await stat(path)).size * 2 + 64 * 1024 ** 2, MAX_PACK_BYTES + 64 * 1024 ** 2)
+			)
+				throw new Error('There is not enough free space to stage this content pack.');
+			const stage = await this.generationDirectory();
+			let saved = false;
+			try {
+				await unpackPackArchive(path, stage, {
+					maxUnpackedBytes: Math.max(0, Math.floor(free - 64 * 1024 ** 2)),
+				});
+				const pack = await inspectPack(stage, true);
+				pack.installedAt =
+					this.store
+						.registry()
+						.reduce((latest, record) => Math.max(latest, record.installedAt), Date.now()) + 1;
+				const existing = this.packs;
+				const prior = existing.find(item => item.manifest.id === pack.manifest.id);
+				const priorRecord = this.store.registry().find(record => record.id === pack.manifest.id);
+				const knownManifest = priorRecord
+					? packManifestSchema.parse(JSON.parse(priorRecord.manifestJson))
+					: undefined;
+				const sameManifest =
+					!!knownManifest && JSON.stringify(knownManifest) === JSON.stringify(pack.manifest);
+				let identical = !!prior && sameManifest;
+				if (identical)
+					try {
+						await inspectPack(prior!.root, true);
+					} catch {
+						identical = false;
+					}
+				if (knownManifest?.version === pack.manifest.version && !sameManifest)
 					throw new Error(
 						'This pack version is already installed with different files. Use a new version.',
 					);
-				return {
-					id: pack.manifest.id,
-					version: pack.manifest.version,
-					references: this.snapshot.references.length,
-				};
-			}
-
-			pack.installedAt = Date.now();
-			const candidate = await readPackCatalog([
-				...existing.filter(item => item.manifest.id !== pack.manifest.id),
-				pack,
-			]);
-			const currentRevisions = new Map(
-				this.snapshot.references.map(reference => [reference.id, reference.revision]),
-			);
-			for (const reference of candidate.snapshot.references) {
-				if (reference.revision < (currentRevisions.get(reference.id) ?? 0))
-					throw new Error(
-						`Cannot lower an installed reference's execution revision: ${reference.id}`,
+				const candidate = [...existing.filter(item => item.manifest.id !== pack.manifest.id), pack];
+				const data = await readPackCatalog(candidate);
+				const changes = this.compare(data);
+				const conflicts: string[] = [];
+				const incomingRefs = await readPackReferences(pack);
+				const others = await readPackCatalog(
+					existing.filter(item => item.manifest.id !== pack.manifest.id),
+				);
+				const othersById = new Map(
+					others.snapshot.references.map(reference => [reference.id, reference]),
+				);
+				for (const reference of incomingRefs) {
+					const other = othersById.get(reference.id);
+					if (other && JSON.stringify(other) !== JSON.stringify(reference))
+						conflicts.push(`Reference ${reference.id} is also provided by another pack.`);
+				}
+				for (const path of pack.manifest.games) {
+					const game = gameDefinitionSchema.parse(await jsonFile(join(pack.root, path)));
+					const other = others.snapshot.games.find(item => item.id === game.id);
+					if (other && JSON.stringify(other) !== JSON.stringify(game))
+						conflicts.push(`Game profile ${game.id} differs from another installed pack.`);
+				}
+				const warnings: string[] = [];
+				const repair = !!priorRecord && sameManifest && !identical;
+				if (repair)
+					warnings.push(
+						'This reinstalls a damaged pack using its registered edition and preserves your notes.',
 					);
+				if (prior && prior.manifest.version !== pack.manifest.version) {
+					const order = comparePackVersions(pack.manifest.version, prior.manifest.version);
+					warnings.push(
+						order === null
+							? `Replace legacy edition ${prior.manifest.version} with ${pack.manifest.version}; its order cannot be inferred.`
+							: order < 0
+								? `This rolls back edition ${prior.manifest.version} to ${pack.manifest.version}.`
+								: `Replace edition ${prior.manifest.version} with ${pack.manifest.version}.`,
+					);
+				}
+				if (changes.fallbacks.length)
+					warnings.push('Some references would use an older execution revision.');
+				const downgrade =
+					!!changes.fallbacks.length ||
+					!!(
+						prior && (comparePackVersions(pack.manifest.version, prior.manifest.version) ?? 0) < 0
+					);
+				const preview: PackChangePreview = {
+					token: randomUUID(),
+					generation: this.generation,
+					action: identical ? 'identical' : priorRecord ? 'update' : 'install',
+					pack: await this.info(pack),
+					...changes,
+					conflicts,
+					warnings,
+					downgrade,
+					referenceTitles: this.referenceTitles(data),
+					requiresConfirmation: !!(
+						conflicts.length ||
+						changes.removed.length ||
+						changes.fallbacks.length ||
+						downgrade
+					),
+				};
+				saved = true;
+				return this.savePreview({
+					preview,
+					stage,
+					pack,
+					candidate,
+					data,
+					expiresAt: Date.now() + 10 * 60 * 1000,
+					repair,
+				});
+			} finally {
+				if (!saved) {
+					await rm(stage, {recursive: true, force: true});
+					this.stages.delete(stage);
+				}
 			}
-			await this.activate(stage, pack);
-			return {
-				id: pack.manifest.id,
-				version: pack.manifest.version,
-				references: this.snapshot.references.length,
+		});
+	}
+
+	async previewRemoval(packId: string): Promise<PackChangePreview> {
+		return this.exclusive(async () => {
+			await this.clearPreview();
+			const record = this.store.registry().find(record => record.id === packId);
+			if (!record) throw new Error('This content pack is not installed.');
+			const pack = this.packs.find(item => item.manifest.id === packId);
+			const candidate = this.packs.filter(item => item.manifest.id !== packId);
+			const data = await readPackCatalog(candidate);
+			const changes = this.compare(data);
+			const preview: PackChangePreview = {
+				token: randomUUID(),
+				generation: this.generation,
+				action: 'remove',
+				pack: pack ? await this.info(pack) : this.brokenInfo(record),
+				...changes,
+				conflicts: [],
+				downgrade: !!changes.fallbacks.length,
+				referenceTitles: this.referenceTitles(data),
+				warnings: changes.fallbacks.length
+					? ['Some references would fall back to an older execution revision.']
+					: [],
+				requiresConfirmation: true,
 			};
-		} finally {
-			this.importing = false;
-			if (stageCreated) await rm(stage, {recursive: true, force: true});
+			return this.savePreview({preview, candidate, data, expiresAt: Date.now() + 10 * 60 * 1000});
+		});
+	}
+
+	async commitPreview(
+		token: string,
+		options: {expectedGeneration: number; allowConflicts?: boolean; allowDowngrade?: boolean},
+	): Promise<{id: string; version: string; references: number; generation: number}> {
+		return this.exclusive(async () => {
+			const prepared = this.prepared;
+			if (!prepared || prepared.preview.token !== token || prepared.expiresAt < Date.now())
+				throw new Error('This preview expired. Choose the pack and review it again.');
+			if (
+				options.expectedGeneration !== this.generation ||
+				prepared.preview.generation !== this.generation
+			)
+				throw new Error('Installed content changed. Review this operation again.');
+			if (prepared.preview.conflicts.length && !options.allowConflicts)
+				throw new Error('Review and confirm the overlapping content before importing.');
+			if (
+				(prepared.preview.fallbacks.length ||
+					(prepared.pack &&
+						this.packs.some(
+							pack =>
+								pack.manifest.id === prepared.pack!.manifest.id &&
+								(comparePackVersions(prepared.pack!.manifest.version, pack.manifest.version) ?? 0) <
+									0,
+						))) &&
+				!options.allowDowngrade
+			)
+				throw new Error(
+					'Review and confirm the older pack edition or execution revisions before continuing.',
+				);
+			if (prepared.preview.action === 'identical') {
+				const result = {
+					id: prepared.preview.pack.id,
+					version: prepared.preview.pack.version,
+					references: this.snapshot.references.length,
+					generation: this.generation,
+				};
+				await this.clearPreview();
+				return result;
+			}
+			const oldGeneration = this.generation;
+			const oldData = this.data!;
+			const records = this.store.registry();
+			const next =
+				prepared.preview.action === 'remove'
+					? records.filter(record => record.id !== prepared.preview.pack.id)
+					: [
+							...records.filter(record => record.id !== prepared.preview.pack.id),
+							this.record(
+								prepared.pack!,
+								prepared.repair
+									? undefined
+									: records.find(record => record.id === prepared.preview.pack.id),
+							),
+						];
+			const generation = this.store.replaceRegistry(next, oldGeneration);
+			this.cleanupPending = true;
+			if (this.previewTimer) clearTimeout(this.previewTimer);
+			this.previewTimer = undefined;
+			this.prepared = undefined;
+			if (prepared.stage) this.stages.delete(prepared.stage);
+			this.history.set(oldGeneration, oldData.media);
+			while (this.history.size > 1) this.history.delete(this.history.keys().next().value!);
+			this.packs = prepared.candidate;
+			this.problems.delete(prepared.preview.pack.id);
+			this.quarantinedPaths.clear();
+			for (const record of next) if (this.problems.has(record.id)) this.quarantine(record);
+			this.data = prepared.data;
+			this.data.snapshot.generation = generation;
+			// A removal must never keep its content addressable through a stale catalog.
+			if (prepared.preview.action === 'remove') this.history.clear();
+			await this.cleanup();
+			return {
+				id: prepared.preview.pack.id,
+				version: prepared.preview.pack.version,
+				references: this.snapshot.references.length,
+				generation,
+			};
+		});
+	}
+	async discardPreview(token: string): Promise<void> {
+		return this.exclusive(async () => {
+			if (this.prepared?.preview.token === token) await this.clearPreview();
+		});
+	}
+	async restoreNotes(
+		file: string,
+		revision: number,
+	): Promise<{restored: number; maintenanceRevision: number}> {
+		return this.exclusive(() => this.store.restoreNotes(file, revision));
+	}
+	async importArchive(
+		path: string,
+	): Promise<{id: string; version: string; references: number; generation: number}> {
+		const preview = await this.previewArchive(path);
+		// Existing internal/CLI callers retain a direct path; overlap confirmation is a GUI concern.
+		if (preview.fallbacks.length) {
+			await this.clearPreview();
+			throw new Error(
+				`Cannot lower an installed reference's execution revision: ${preview.fallbacks[0]}`,
+			);
 		}
+		return this.commitPreview(preview.token, {
+			expectedGeneration: preview.generation,
+			allowConflicts: true,
+		});
+	}
+	async removePack(
+		packId: string,
+		expectedGeneration: number,
+		allowFallback = false,
+	): Promise<PackInventory> {
+		const preview = await this.previewRemoval(packId);
+		await this.commitPreview(preview.token, {expectedGeneration, allowDowngrade: allowFallback});
+		return this.inventory();
+	}
+	async cleanup(): Promise<void> {
+		if (this.closed || this.importing || !this.cleanupPending) return;
+		if (this.cleanupTask) return this.cleanupTask;
+		this.cleanupTask = (async () => {
+			try {
+				const retained = new Set(
+					this.store
+						.registry()
+						.flatMap(record => [
+							record.root,
+							...(record.previousRoot ? [record.previousRoot] : []),
+						]),
+				);
+				let blocked = false;
+				const roots = new Set(this.store.garbageRoots());
+				const generations = join(this.libraryDir, 'packs', '.generations');
+				const entries = await readdir(generations, {withFileTypes: true}).catch(error => {
+					if (error.code === 'ENOENT') return [];
+					throw error;
+				});
+				for (const entry of entries)
+					if (entry.isDirectory() && /^[a-f0-9-]+$/.test(entry.name))
+						roots.add(`packs/.generations/${entry.name}`);
+				for (const root of roots) {
+					if (retained.has(root) || this.stages.has(join(this.libraryDir, ...root.split('/'))))
+						continue;
+					const path = join(this.libraryDir, ...root.split('/'));
+					if (this.leases.get(path)) {
+						blocked = true;
+						continue;
+					}
+					// Stale generation maps are retired before their bytes are reclaimed.
+					for (const [generation, files] of this.history)
+						if ([...files.values()].some(file => file.root === path))
+							this.history.delete(generation);
+					const existing = await lstat(path).catch(error => {
+						if (error.code === 'ENOENT') return null;
+						throw error;
+					});
+					if (existing) {
+						await this.resolveRoot(root);
+						await rm(path, {recursive: true, force: true});
+					}
+					this.store.forgetGarbage(root);
+				}
+				this.cleanupWarning = undefined;
+				this.cleanupPending = blocked;
+			} catch (error) {
+				this.cleanupPending = true;
+				this.cleanupWarning =
+					error instanceof Error
+						? error.message
+						: 'Some retired content could not be reclaimed. Retry after closing its replay.';
+			}
+		})().finally(() => {
+			this.cleanupTask = undefined;
+		});
+		return this.cleanupTask;
+	}
+	async close(): Promise<void> {
+		if (this.closeTask) return this.closeTask;
+		this.closed = true;
+		this.closeTask = (async () => {
+			try {
+				await this.operationTask?.catch(() => undefined);
+				await this.clearPreview();
+				await this.cleanupTask;
+			} finally {
+				this.history.clear();
+				this.store.close();
+			}
+		})();
+		return this.closeTask;
 	}
 }

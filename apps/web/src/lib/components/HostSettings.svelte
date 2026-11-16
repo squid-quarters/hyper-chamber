@@ -1,13 +1,18 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { MonitorSmartphone, X, ArrowUpRight, FolderInput } from '@lucide/svelte';
-	import type { LibraryRuntime } from '@hyper-chamber/reference';
+	import { goto } from '$app/navigation';
+	import PackManager from './PackManager.svelte';
+	import { MonitorSmartphone, X, ArrowUpRight, RotateCcw, Save } from '@lucide/svelte';
+	import type { LibraryRuntime, LibraryBackupInfo } from '@hyper-chamber/reference';
 	import QRCode from 'qrcode';
 
 	let {
 		oncontentchange,
 		onbeforemaintenance,
-	}: { oncontentchange: () => Promise<void>; onbeforemaintenance?: () => Promise<void> } = $props();
+	}: {
+		oncontentchange: (notice?: string) => Promise<void>;
+		onbeforemaintenance?: () => Promise<void>;
+	} = $props();
 	let dialog: HTMLDialogElement;
 	let runtime = $state<LibraryRuntime | null>(null);
 	let desktop = $state(false);
@@ -17,6 +22,51 @@
 	let message = $state('');
 	let qr = $state('');
 	let selectedAddress = $state('');
+	let opened = $state(false);
+	let contentBusy = $state(false);
+	let refreshRevision = $state(0);
+	let snapshots = $state<LibraryBackupInfo[] | null>(null);
+	let snapshotRevision = $state(0);
+	let selectedSnapshot = $state<LibraryBackupInfo | null>(null);
+	let restoreConfirmed = $state(false);
+	let controlsBusy = $derived(busy || contentBusy);
+	let maintenanceStatus = $state('');
+	async function manage<T>(request: Record<string, unknown>) {
+		return invoke<T>('manage_content', { request });
+	}
+	function close() {
+		opened = false;
+		snapshots = null;
+		selectedSnapshot = null;
+		restoreConfirmed = false;
+	}
+	function date(value: string) {
+		const parsed = new Date(value);
+		return Number.isNaN(parsed.getTime())
+			? value
+			: new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' }).format(
+					parsed,
+				);
+	}
+	function size(value: number) {
+		return value < 1024 ** 2
+			? `${Math.max(1, Math.round(value / 1024))}\u00a0KB`
+			: `${(value / 1024 ** 2).toFixed(1)}\u00a0MB`;
+	}
+	async function contentChanged(notice?: string) {
+		await oncontentchange(notice);
+		try {
+			await refresh();
+		} catch {
+			// The committed change is already reported. Reopening retries host information.
+		}
+	}
+	async function createPack() {
+		await onbeforemaintenance?.();
+		const currentDialog = dialog;
+		await goto('/create');
+		currentDialog.close();
+	}
 	async function invoke<T>(command: string, args?: Record<string, unknown>) {
 		const { invoke } = await import('@tauri-apps/api/core');
 		return invoke<T>(command, args);
@@ -34,11 +84,13 @@
 		selectedAddress = runtime?.sharing.addresses.includes(selectedAddress)
 			? selectedAddress
 			: (runtime?.sharing.addresses[0] ?? '');
+		refreshRevision++;
 	}
 	async function show() {
 		error = '';
 		message = '';
 		dialog.showModal();
+		opened = true;
 		busy = true;
 		try {
 			await refresh();
@@ -46,6 +98,7 @@
 			error = reason instanceof Error ? reason.message : String(reason);
 		} finally {
 			busy = false;
+			maintenanceStatus = '';
 		}
 	}
 	async function setSharing(enabled: boolean) {
@@ -59,22 +112,7 @@
 			error = String(reason);
 		} finally {
 			busy = false;
-		}
-	}
-	async function importPack() {
-		busy = true;
-		error = '';
-		message = '';
-		try {
-			const result = await invoke<{ cancelled?: boolean }>('import_content_pack');
-			if (!result.cancelled) {
-				await refresh();
-				await oncontentchange();
-			}
-		} catch (reason) {
-			error = String(reason);
-		} finally {
-			busy = false;
+			maintenanceStatus = '';
 		}
 	}
 	async function chooseLibrary() {
@@ -88,6 +126,7 @@
 			error = String(reason);
 		} finally {
 			busy = false;
+			maintenanceStatus = '';
 		}
 	}
 	async function revealLibrary() {
@@ -101,18 +140,73 @@
 
 	async function backup() {
 		busy = true;
+		maintenanceStatus = 'Saving backup…';
 		error = '';
 		message = '';
 		try {
 			await onbeforemaintenance?.();
-			const result = await invoke<{ file: string }>('create_backup');
-			message = `Library backup created: ${result.file}`;
+			await invoke<{ file: string }>('create_backup');
+			message = 'Your notes and progress are backed up.';
+			if (snapshots) await readSnapshots();
 		} catch (reason) {
 			error = String(reason);
 		} finally {
 			busy = false;
+			maintenanceStatus = '';
 		}
 	}
+	async function readSnapshots() {
+		const result = await manage<{ snapshots: LibraryBackupInfo[]; maintenanceRevision: number }>({
+			command: 'backups',
+		});
+		if (!opened) return;
+		snapshots = result.snapshots;
+		snapshotRevision = result.maintenanceRevision;
+		selectedSnapshot = null;
+		restoreConfirmed = false;
+	}
+	async function showSnapshots() {
+		busy = true;
+		maintenanceStatus = 'Loading backups…';
+		error = '';
+		message = '';
+		try {
+			await readSnapshots();
+		} catch (cause) {
+			error = cause instanceof Error ? cause.message : String(cause);
+		} finally {
+			busy = false;
+			maintenanceStatus = '';
+		}
+	}
+	async function restore() {
+		const selected = selectedSnapshot;
+		if (!selected || !restoreConfirmed || !runtime) return;
+		busy = true;
+		maintenanceStatus = 'Restoring notes and progress…';
+		error = '';
+		message = '';
+		try {
+			await onbeforemaintenance?.();
+			const result = await manage<{ restored: number; maintenanceRevision: number }>({
+				command: 'restore',
+				file: selected.file,
+				expectedMaintenanceRevision: snapshotRevision,
+			});
+			selectedSnapshot = null;
+			restoreConfirmed = false;
+			snapshots = null;
+			message = `Restored notes and progress for ${result.restored.toLocaleString()} ${result.restored === 1 ? 'reference' : 'references'}. Installed packs are unchanged.`;
+			await contentChanged(message);
+		} catch (cause) {
+			error = cause instanceof Error ? cause.message : String(cause);
+			restoreConfirmed = false;
+		} finally {
+			busy = false;
+			maintenanceStatus = '';
+		}
+	}
+
 	$effect(() => {
 		const address = selectedAddress;
 		qr = '';
@@ -137,6 +231,7 @@
 </script>
 
 <button
+	type="button"
 	class="host-trigger"
 	aria-label="Library and devices"
 	title="Library and devices"
@@ -144,38 +239,42 @@
 >
 	<MonitorSmartphone size={18} aria-hidden="true" /><span class="utility-label">Devices</span>
 </button>
-<dialog class="host-dialog" bind:this={dialog} aria-labelledby="host-title">
+<dialog class="host-dialog" bind:this={dialog} aria-labelledby="host-title" onclose={close}>
 	<header>
 		<div>
-			<p class="eyebrow">Hyper Chamber</p>
 			<h2 id="host-title">Library &amp; devices</h2>
 		</div>
 		<button
+			type="button"
 			class="icon-button"
 			onclick={() => dialog.close()}
 			aria-label="Close library and devices"><X size={20} aria-hidden="true" /></button
 		>
 	</header>
-	<div class="host-body" aria-busy={busy}>
+	<div class="host-body" aria-busy={controlsBusy}>
 		{#if error}<p class="host-error" role="alert">{error}</p>
-			<button class="button" disabled={busy} onclick={show}>Retry connection</button>{/if}
+			<button type="button" class="button" disabled={controlsBusy} onclick={show}
+				>Retry connection</button
+			>{/if}
 		{#if !runtime && !error}<p class="loading" role="status">Connecting to your library…</p>{/if}
 		{#if runtime}
-			<section class="library-summary" aria-labelledby="installed-title">
-				<div class="section-title">
-					<h3 id="installed-title">Installed content</h3>
-					<span>{runtime.content.references.toLocaleString()} references</span>
-				</div>
-				<p>
-					{runtime.content.packs}
-					{runtime.content.packs === 1 ? 'content pack' : 'content packs'}. Your notes and progress
-					are stored separately.
-				</p>
-				{#if desktop}<button class="button import-button" disabled={busy} onclick={importPack}
-						><FolderInput size={16} aria-hidden="true" />Import content pack</button
-					>
-					<p class="helper">Choose a .hcpack file to add or update a collection.</p>{/if}
-			</section>
+			{#if desktop}<div class="content-controls" inert={busy}>
+					<PackManager
+						active={opened}
+						{refreshRevision}
+						{onbeforemaintenance}
+						oncontentchange={contentChanged}
+						onbusychange={(value) => (contentBusy = value)}
+						oncreate={createPack}
+					/>
+				</div>{:else}<section class="library-summary">
+					<h3>Installed content</h3>
+					<p>
+						{runtime.content.references.toLocaleString()} references in {runtime.content.packs}
+						{runtime.content.packs === 1 ? 'pack' : 'packs'}.
+					</p>
+					<p class="helper">Import, create or remove packs in the desktop app.</p>
+				</section>{/if}
 			<section class="device-section" aria-labelledby="device-title">
 				<div class="section-title">
 					<h3 id="device-title">Use on another device</h3>
@@ -184,7 +283,7 @@
 								type="checkbox"
 								role="switch"
 								checked={runtime.sharing.enabled}
-								disabled={busy}
+								disabled={controlsBusy}
 								onchange={(event) => setSharing(event.currentTarget.checked)}
 							/><span aria-hidden="true"></span></label
 						>{/if}
@@ -231,23 +330,106 @@
 					</p>
 				{/if}
 			</section>
-			{#if desktop}<section class="storage-section" aria-labelledby="storage-title">
+			{#if desktop}<section class="recovery-section">
+					<details>
+						<summary>Notes and progress recovery</summary>
+						<p class="helper">
+							Backups restore your personal entries while keeping installed packs as they are.
+						</p>
+						<div class="recovery-actions">
+							<button
+								type="button"
+								class="button button--quiet"
+								disabled={controlsBusy}
+								onclick={backup}><Save size={15} aria-hidden="true" />Back up notes</button
+							><button
+								type="button"
+								class="button button--quiet"
+								disabled={controlsBusy}
+								onclick={showSnapshots}
+								><RotateCcw size={15} aria-hidden="true" />Restore notes…</button
+							>
+						</div>
+						{#if snapshots}{#if snapshots.length}<fieldset
+									class="snapshot-list"
+									disabled={controlsBusy}
+								>
+									<legend>Choose a backup</legend>{#each snapshots as snapshot}<label
+											class="snapshot-row"
+											><input
+												type="radio"
+												name="restore-snapshot"
+												checked={selectedSnapshot?.file === snapshot.file}
+												onchange={() => {
+													selectedSnapshot = snapshot;
+													restoreConfirmed = false;
+												}}
+											/><span
+												><strong>{date(snapshot.createdAt)}</strong><small
+													>{snapshot.migration ? 'Before a library upgrade' : 'Manual backup'} · {size(
+														snapshot.bytes,
+													)}</small
+												></span
+											></label
+										>{/each}
+								</fieldset>{:else}<p class="helper">
+									No backups are available yet. Create one with Back up notes.
+								</p>{/if}{/if}
+						{#if selectedSnapshot}<div class="restore-confirmation">
+								<p>
+									Restore the notes and progress saved on <strong
+										>{date(selectedSnapshot.createdAt)}</strong
+									>? This replaces newer personal edits. A backup of the current data is saved
+									first.
+								</p>
+								<label
+									><input
+										type="checkbox"
+										bind:checked={restoreConfirmed}
+										disabled={controlsBusy}
+									/><span>Replace my current notes and progress</span></label
+								>
+								<div class="recovery-actions">
+									<button
+										type="button"
+										class="button primary-button"
+										disabled={controlsBusy || !restoreConfirmed}
+										onclick={restore}>Restore notes and progress</button
+									><button
+										type="button"
+										class="button button--quiet"
+										disabled={controlsBusy}
+										onclick={() => {
+											selectedSnapshot = null;
+											restoreConfirmed = false;
+										}}>Cancel</button
+									>
+								</div>
+							</div>{/if}
+					</details>
+				</section>
+				<section class="storage-section" aria-labelledby="storage-title">
 					<h3 id="storage-title">Library folder</h3>
 					<p class="library-path">{libraryDir}</p>
 					<p class="helper">
 						This folder contains your database and installed content. Quit the app before moving it.
 					</p>
 					<div class="storage-actions">
-						<button class="button button--quiet" disabled={busy} onclick={revealLibrary}
-							>Show folder</button
-						><button class="button button--quiet" disabled={busy} onclick={chooseLibrary}
-							>Choose library folder</button
-						><button class="button button--quiet" disabled={busy} onclick={backup}
-							>Create database backup</button
+						<button
+							type="button"
+							class="button button--quiet"
+							disabled={controlsBusy}
+							onclick={revealLibrary}>Show folder</button
+						><button
+							type="button"
+							class="button button--quiet"
+							disabled={controlsBusy}
+							onclick={chooseLibrary}>Choose library folder</button
 						>
 					</div>
 				</section>{/if}
 		{/if}
+		{#if maintenanceStatus}<p class="maintenance-status" role="status">{maintenanceStatus}</p>{/if}
 		{#if message}<p class="host-message" role="status">{message}</p>{/if}
 	</div>
 </dialog>
@@ -259,7 +441,7 @@
 		gap: 8px;
 	}
 	.host-dialog {
-		width: min(620px, calc(100vw - 32px));
+		width: min(720px, calc(100vw - 32px));
 		max-height: calc(100dvh - 32px);
 		padding: 0;
 		border: 0;
@@ -267,6 +449,10 @@
 		background: var(--surface);
 		color: var(--ink);
 		box-shadow: 0 24px 80px #18231e40;
+	}
+	.host-dialog[open] {
+		display: flex;
+		flex-direction: column;
 	}
 	.host-dialog::backdrop {
 		background: #18231e80;
@@ -278,11 +464,7 @@
 		gap: 24px;
 		padding: 24px 24px 20px;
 		border-bottom: 1px solid var(--line);
-	}
-	.eyebrow {
-		margin: 0 0 4px;
-		color: var(--muted);
-		font-size: 11px;
+		flex: none;
 	}
 	h2 {
 		margin: 0;
@@ -291,8 +473,17 @@
 	}
 	.host-body {
 		padding: 24px;
+		min-block-size: 0;
+		overflow-y: auto;
+		overscroll-behavior: contain;
+		scrollbar-width: thin;
+		scrollbar-color: var(--border) transparent;
 	}
-	section + section {
+	.content-controls[inert] {
+		opacity: 0.6;
+	}
+	section + section,
+	.content-controls + section {
 		margin-top: 24px;
 		padding-top: 24px;
 		border-top: 1px solid var(--line);
@@ -308,10 +499,6 @@
 		font-size: 15px;
 		font-weight: 600;
 	}
-	.section-title > span {
-		color: var(--muted);
-		font-size: 12px;
-	}
 	p {
 		margin: 10px 0 0;
 		font-size: 13px;
@@ -320,9 +507,6 @@
 	.helper {
 		color: var(--muted);
 		font-size: 12px;
-	}
-	.import-button {
-		margin-top: 16px;
 	}
 	.sharing-switch {
 		position: relative;
@@ -423,6 +607,11 @@
 		margin-top: 12px;
 		padding-inline-start: 0;
 	}
+	.maintenance-status {
+		color: var(--muted);
+		font-size: 12px;
+		margin-block-start: 16px;
+	}
 	.host-error,
 	.host-message {
 		padding: 12px;
@@ -432,6 +621,84 @@
 	}
 	.host-error + .button {
 		margin-top: 10px;
+	}
+	.recovery-section summary {
+		cursor: pointer;
+		min-block-size: 44px;
+		padding-block: 10px;
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.recovery-actions {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 8px;
+		margin-block-start: 10px;
+	}
+	.snapshot-list {
+		border: 0;
+		padding: 0;
+		margin: 18px 0 0;
+		max-block-size: 18rem;
+		overflow: auto;
+	}
+	.snapshot-list legend {
+		font-size: 13px;
+		font-weight: 600;
+		margin-block-end: 8px;
+	}
+	.snapshot-row {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		min-block-size: 54px;
+		padding-block: 10px;
+		border-block-end: 1px solid var(--line);
+		cursor: pointer;
+	}
+	.snapshot-row input {
+		flex: none;
+		margin: 0;
+		accent-color: var(--ink);
+		inline-size: 18px;
+		block-size: 18px;
+	}
+	.snapshot-row strong {
+		font-size: 12px;
+		font-weight: 500;
+	}
+	.snapshot-row small {
+		display: block;
+		color: var(--muted);
+		font-size: 11px;
+		margin-block-start: 3px;
+	}
+	.restore-confirmation {
+		margin-block-start: 16px;
+		padding: 16px;
+		background: var(--soft);
+		border-radius: 4px;
+	}
+	.restore-confirmation > p {
+		margin-block-start: 0;
+	}
+	.restore-confirmation > label {
+		display: flex;
+		align-items: start;
+		gap: 10px;
+		min-block-size: 44px;
+		padding-block: 12px;
+		font-size: 13px;
+		line-height: 1.5;
+		cursor: pointer;
+	}
+	.restore-confirmation > label input {
+		inline-size: 18px;
+		block-size: 18px;
+		margin: 2px 0 0;
+		flex: none;
+		accent-color: var(--ink);
 	}
 	@media (max-width: 520px) {
 		header,
@@ -446,9 +713,6 @@
 		.connection-qr {
 			width: 176px;
 			height: 176px;
-		}
-		.section-title > span {
-			text-align: end;
 		}
 	}
 	@media (forced-colors: active) {

@@ -37,6 +37,7 @@
 	let loop = $derived(preferences.loop);
 	let speed = $derived(preferences.speed);
 	let hasAudio = $derived(reference.media.hasAudio === true);
+	let originalUrl = $derived(sourceLink(reference));
 	let muted = $derived(preferences.muted || !hasAudio);
 	let autoplayNotice = $state('');
 	let playAttempt = 0;
@@ -74,6 +75,10 @@
 			disposed = true;
 			playAttempt++;
 			mountedVideo?.pause();
+			// Pausing a detached video can leave its transfer and decoder alive until GC.
+			// Reset the resource selection now; pending play promises are already invalidated.
+			mountedVideo?.removeAttribute('src');
+			mountedVideo?.load();
 		};
 	});
 
@@ -158,7 +163,9 @@
 				autoplayNotice = 'Autoplay was blocked. Select Play to start.';
 				return;
 			}
-			error = 'Playback could not start. Retry the clip or open the original source.';
+			error = originalUrl
+				? 'Playback could not start. Retry the clip or open the original source.'
+				: 'Playback could not start. Retry the clip.';
 		}
 	}
 	function togglePlayback() {
@@ -325,7 +332,9 @@
 			<p>{error}</p>
 			<div>
 				<button class="button" onclick={retry}>Retry clip</button>
-				<a href={sourceLink(reference)} target="_blank" rel="noreferrer">Open original source ↗</a>
+				{#if originalUrl}<a href={originalUrl} target="_blank" rel="noreferrer"
+						>Open original source ↗</a
+					>{/if}
 			</div>
 		</div>{/if}
 	{#if retrying}<p class="muted media-loading" role="status">Loading clip…</p>{/if}
@@ -369,7 +378,9 @@
 							ready = false;
 							playing = false;
 							retrying = false;
-							error = 'This clip could not load. Retry it or open the original source.';
+							error = originalUrl
+								? 'This clip could not load. Retry it or open the original source.'
+								: 'This clip could not load. Retry it or reimport its pack.';
 						}}
 					>
 						{#if reference.media.descriptionTrack}
@@ -514,12 +525,12 @@
 				</div>
 				<div class="player-bottom">
 					<p class="notice">
-						Local replay unavailable. <a
-							href={sourceLink(reference)}
-							target="_blank"
-							rel="noreferrer"
-							>Open the original source<ArrowUpRight size={13} aria-hidden="true" /></a
-						>
+						Local replay unavailable. {#if originalUrl}<a
+								href={originalUrl}
+								target="_blank"
+								rel="noreferrer"
+								>Open the original source<ArrowUpRight size={13} aria-hidden="true" /></a
+							>{:else}Reimport its pack to restore the clip.{/if}
 					</p>
 					{@render playbackNotices()}
 				</div>

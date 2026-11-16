@@ -8,9 +8,10 @@ listener. Both use the same SQLite database and installed reference packs.
 The desktop bundle contains its runtime, server, interface, fonts and three complete
 Dhalsim references. Users of an installed build do not need Node, pnpm, Rust or an AI
 agent to set it up. Additional character content arrives as `.hcpack` archives.
-Version `1.0.0` is distributed through GitHub Releases
-and the Squid Quarters Homebrew tap. Mac installers are ad-hoc signed and not
-notarized; Windows setup is unsigned. No automatic update feed is configured.
+The published stable version is `1.0.0`, distributed through GitHub Releases
+and the Squid Quarters Homebrew tap. The source tree targets `1.1.0`; its registry,
+recovery controls and creator are development features until new installers ship.
+Mac installers are ad-hoc signed and not notarized; Windows setup is unsigned. No automatic update feed is configured.
 The static project site is published separately through GitHub Pages; it does not
 host the running application or its library.
 
@@ -20,7 +21,8 @@ host the running application or its library.
 | -------------------- | ------------------------------------------------------------------------------- |
 | `apps/desktop`       | Native window, owned server process, content picker, backups and device access  |
 | `apps/server`        | SQLite, library identity, validated JSON catalogs, media streaming and HTTP API |
-| `apps/web`           | Library, practice view and browser recovery drafts                              |
+| `apps/web`           | Library, practice view, native pack creator and browser recovery drafts         |
+| `packages/authoring` | Shared editable-workspace, validation, media-copy and export tools              |
 | `packages/reference` | Reference model, catalog validation and storage protocol schemas                |
 | `content/games`      | Authored references and source provenance                                       |
 | `tools/desktop`      | Resource preparation, content archives and source-run launcher                  |
@@ -47,29 +49,50 @@ macOS, the default desktop location is:
 ```text
 ~/Library/Application Support/com.squidquarters.hyperchamber/library/
   hyper-chamber.sqlite
-  packs/<pack-id>/
+  packs/
+    <legacy-pack-id>/
+    .generations/<generation-id>/
   snapshots/
   server.log
 ```
 
 SQLite's WAL files can accompany the database while it is open. Quit before copying
 or moving the folder. A whole-folder copy includes personal entries and installed
-content; a database snapshot alone contains personal entries. `HYPER_CHAMBER_LIBRARY_DIR`
-selects another folder before launch. Devices → Choose library folder validates an existing or empty folder, saves the choice and restarts the app. This opens a separate library; it does not move the previous folder. The default directory for the standalone
-server CLI differs from the native app; source launchers pass an explicit directory.
+content. A database snapshot contains database state, not the video files; the
+supported restore copies only personal entries and keeps the current pack registry.
+`HYPER_CHAMBER_LIBRARY_DIR` selects another folder before launch. **Library & devices
+→ Choose library folder** validates an existing or empty folder, saves the choice
+and restarts the app. This opens a separate library; it does not move the previous
+folder. The standalone server CLI has a different default location; source
+launchers pass an explicit directory.
 
-The database is authoritative for saved references, notes and self-reported practice
-status. It has a persistent UUID and a schema version. An existing schema is backed
-up before an upgrade; failed migrations roll back, and newer or foreign databases
-are refused. Removed or temporarily unavailable references do not cascade-delete
-personal entries.
+The development reader uses SQLite schema **2** and API protocol **2**. The database
+records personal entries, library UUID, active pack pointers, catalog generation
+and maintenance revision. Before changing it, startup checks database compatibility
+and validates legacy packs. A consistent SQLite snapshot precedes migration; SQL
+and the legacy registry backfill commit together. Existing pack paths are adopted
+in place, without copying videos. A failed backup or migration stops startup.
+Newer or foreign databases are refused rather than replaced with an empty library.
+
+One host owns a library through a separate SQLite OS lock. App updates remain
+manual: **Quit**, replace the bundle and reopen the same library. Closing the window
+only hides it. Released `1.0.0` does not provide the new preflight guarantees and
+must not open an upgraded library; rollback needs a compatible whole-library copy.
+Migration snapshots are retained. They are not a complete rollback of historical
+media after older generations have been reclaimed.
+
+**Restore notes and progress** validates a snapshot from the same library, snapshots
+the current database, then replaces personal entries in a transaction while keeping
+the active pack registry. It preserves the library UUID, advances row versions and
+the maintenance revision, and requires connected clients to reload before saving.
+It replaces newer personal edits; it never silently restores on startup.
 
 Each personal entry has an independent `rowVersion` for optimistic concurrency.
-Its existing `revision` records which execution revision the learner assessed.
-Those values have different purposes. Field patches carry an expected row version;
-a conflicting save returns the current entry so the interface can preserve the draft
-and ask which value to keep. Browsers include the expected library UUID in mutations,
-preventing a stale page from writing to another library restarted at the same address.
+Its `revision` records which execution revision the learner assessed. Field patches
+carry the expected row version; conflicts preserve the draft and expose the current
+entry. Writes also require the expected library UUID and maintenance revision.
+Protocol compatibility, catalog generation and maintenance revision are separate
+checks: an app restart, a content update and a notes restore are different events.
 
 Browser storage holds playback preferences and unsaved recovery drafts, scoped to
 the library UUID. It is not the permanent notes database. Legacy browser entries are
@@ -79,51 +102,57 @@ Changing web addresses does not transfer that address's browser storage automati
 
 ## Reference packs
 
-Each installed pack contains reviewed JSON catalogs and ordinary media files,
-separate from learner data. A `.hcpack` is a ZIP archive with this root manifest:
+A `.hcpack` contains JSON catalogs and passive media, separate from learner data.
+Format **1** remains readable; new authoring exports use format **2**, with creator
+metadata, semantic editions and original-recording provenance. Legacy
+YouTube sources and edition strings stay readable. The [format guide](packs/format.md)
+contains the manifest and tool contract. Author labels and SHA-256 checksums do
+not prove publisher identity. Packs cannot contain executable migrations or plugins.
 
-```json
-{
-	"formatVersion": 1,
-	"id": "sf6-dhalsim",
-	"version": "1.0.0",
-	"games": ["games/sf6/game.json"],
-	"catalogs": ["games/sf6/references/dhalsim.json"],
-	"files": [{"path": "games/sf6/game.json", "sha256": "<64 hex characters>", "bytes": 123}]
-}
-```
+SQLite's active-pack registry is authoritative. Imports stage and validate files,
+paths, hashes, storage limits and the combined catalog before committing a pointer
+to a complete immutable generation. A failed preview/import leaves the prior
+selection active. An identical healthy edition and manifest is a no-op; changed content
+needs a new edition. The manager previews overlaps, disappearing references and
+older-edition/execution fallbacks and requires the relevant confirmation.
 
-The example is abbreviated; every payload file is listed, including the catalog and
-media. The manifest itself is excluded from `files`. Authored `/media/...` URLs map
-to relative `media/...` paths inside the pack; catalog responses contain no absolute
-filesystem paths. Generated character packs retain authored IDs, execution revisions,
-source attribution and verification notes. Related links are limited to references
-included in that archive.
+Removal commits absence before reclaiming media, including retained editions.
+Initialization is recorded separately, so an intentionally empty library stays
+empty. Notes, saved flags and practice status are never cascade-deleted; unavailable
+references stay accessible in a notes list and reconnect when the same IDs return.
+A missing or damaged registered pack is reported for reimport/removal while healthy
+content remains usable. Do not manage installations by deleting folders.
 
-Imports extract directly into a staging directory, validate paths, sizes, SHA-256
-hashes and the combined catalog, then activate the pack. Traversal, unexpected files,
-duplicate paths and duplicate reference IDs within a pack are rejected. Archives
-are limited to 2 GiB compressed, 20 GiB unpacked and 30,000 payload files. Before
-parsing, combined installed JSON is limited to 128 MiB of reference catalogs and
-16 MiB of game profiles. Referenced media accepts passive video, raster images and
-VTT; media responses are sandboxed. Reimporting
-the same version and manifest is idempotent; different files require a new pack
-version. A previous pack is retained for recovery after replacement.
+The reader retains at most one prior edition per installed pack. Cleanup is
+serialized with maintenance and waits for active media readers; generation-qualified
+media URLs prevent a replay from silently receiving a replacement edition's bytes.
+An obsolete generation can become unavailable and require reload. These transaction
+boundaries do not promise survival of every filesystem or power failure.
 
-Overlapping packs can improve a stable reference ID. The highest execution revision
-wins; at equal revisions, the most recently installed definition wins. Media must
-belong to the selected execution revision, so an older pack cannot silently replace
-newer footage. Replacing a pack cannot lower an existing reference execution
-revision. Different references sharing a media URL must agree on its file hash.
-The format permits metadata without installed media, but the bundled
-starter and generated character packs contain complete demonstrations. Seeding runs
-only for an empty pack library and does not overwrite an existing library on an
-application upgrade.
+App versions, pack editions and reference execution revisions are independent.
+An app update does not refresh existing packs or reinstall the starter. Official
+character pack editions change when their exported content changes; keep IDs and
+unchanged media stable. The bundled starter seeds only an uninitialized library.
 
-Content remains a source-based reference. “Source reviewed” describes review against
-the credited recording, not in-game verification or a current-patch guarantee. The
-repository's existing publication record and third-party media limitations still
-apply; creating a pack does not grant new redistribution rights.
+## Pack creator and tools
+
+The development desktop app edits separate workspace folders; drafts never modify
+installed content. Its first creator accepts already-trimmed MP4/WebM recordings,
+captures selected moments/posters, edits inputs and provenance, previews a saved
+reference and exports a `.hcpack`. It does not trim/transcode long videos or require
+a separately installed ffmpeg. The installed app bundles its tools.
+
+`packages/authoring` serves both the editor and the packaged `--pack --json` CLI.
+Workspaces have stable generated IDs, edit revisions for stale-write detection and
+an export-edition ledger. Editing your own workspace preserves identities; forking
+a pack creates independent IDs and records its origin. Export does not install or
+publish content. Publication and third-party media rights remain separate choices.
+Technical validation does not establish combo validity or current-patch accuracy.
+
+The [pack guides](packs/index.md) cover manual creation, the portable
+[AI skill](packs/ai.md), updates and recovery. Their canonical Markdown is rendered
+into the project's GitHub Pages documentation. The guides clearly separate
+development `1.1.0` tools from the published `1.0.0` download.
 
 ## Contributor workflow
 
@@ -178,12 +207,14 @@ Create a character archive from existing curated content without changing origin
 pnpm desktop:pack --character dhalsim --output /path/to/dhalsim.hcpack
 ```
 
-In the desktop app, open **Devices** and choose **Import content pack**. `HYPER_CHAMBER_PORT`,
+In the development desktop app, open **Library & devices → Installed packs → Import pack**. Published `1.0.0` uses **Devices → Import content pack**. `HYPER_CHAMBER_PORT`,
 `HYPER_CHAMBER_LIBRARY_DIR` and the developer-only `HYPER_CHAMBER_RESOURCES_DIR` can
 isolate a native test from another running instance.
 
 `pnpm verify` covers formatting, lint, TypeScript, tests, non-native builds and media
 validation. `pnpm desktop:check` covers Rust formatting, Clippy and native tests.
+The [performance checks](performance.md) use disposable libraries and report resource
+cleanup and bounded workloads without telemetry or a leak-free claim.
 The Verify workflow performs both and compiles an unsigned macOS app without
 publishing it. A separate Project site workflow checks the microsite in pull
 requests and deploys only `apps/site/build` from reviewed `develop` changes or a

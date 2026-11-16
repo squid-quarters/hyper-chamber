@@ -1,5 +1,5 @@
 import {createHash} from 'node:crypto';
-import {mkdtemp, mkdir, readFile, readdir, rename, rm, symlink, writeFile} from 'node:fs/promises';
+import {mkdtemp, mkdir, readFile, readdir, rm, symlink, writeFile} from 'node:fs/promises';
 import {request as httpRequest} from 'node:http';
 import {join} from 'node:path';
 import {tmpdir} from 'node:os';
@@ -102,8 +102,35 @@ async function fixture(
 	resources.push(() => app.close());
 	return {app, root, seed, library};
 }
+
+function activePackIds(library: string): string[] {
+	const db = new DatabaseSync(join(library, 'hyper-chamber.sqlite'), {readOnly: true});
+	try {
+		return db
+			.prepare('SELECT id FROM installed_packs ORDER BY id')
+			.all()
+			.map(row => String(row.id));
+	} finally {
+		db.close();
+	}
+}
+function activePackRoot(library: string, id: string): string {
+	const db = new DatabaseSync(join(library, 'hyper-chamber.sqlite'), {readOnly: true});
+	try {
+		const root = db.prepare('SELECT root FROM installed_packs WHERE id=?').get(id)?.root;
+		if (typeof root !== 'string') throw new Error('Missing installed pack');
+		return join(library, root);
+	} finally {
+		db.close();
+	}
+}
+
 function headers(app: LibraryServer) {
-	return {'Content-Type': 'application/json', 'X-Hyper-Chamber-Library': app.libraryId};
+	return {
+		'Content-Type': 'application/json',
+		'X-Hyper-Chamber-Library': app.libraryId,
+		'X-Hyper-Chamber-Maintenance': String(app.runtime().maintenanceRevision),
+	};
 }
 async function patch(app: LibraryServer, body: unknown, id = reference.id) {
 	return fetch(`${app.url}/api/practice/${id}`, {
@@ -342,7 +369,7 @@ describe('external media and local network boundary', () => {
 		expect((await fetch(`${app.url}/training/route`)).status).toBe(200);
 		expect((await raw(app.url, '/media/%2e%2e/hyper-chamber.sqlite')).status).toBe(400);
 		await writeFile(join(root, 'secret.mp4'), 'secret');
-		const symlinkPath = join(library, 'packs/starter', clipPath);
+		const symlinkPath = join(activePackRoot(library, 'starter'), clipPath);
 		await rm(symlinkPath);
 		await symlink(join(root, 'secret.mp4'), symlinkPath);
 		expect((await fetch(url)).status).toBe(404);
@@ -433,9 +460,7 @@ describe('portable content packs', () => {
 		expect(await (await fetch(`${app.url}/${clipPath}`)).text()).toBe('new-media');
 		expect((await (await fetch(`${app.url}/api/catalog`)).json()).references).toHaveLength(1);
 		expect((await admin(app, 'content/import', {path: archive})).status).toBe(200);
-		expect(
-			(await readdir(join(library, 'packs'))).filter(path => path.startsWith('.previous')),
-		).toHaveLength(0);
+		expect(activePackIds(library).filter(path => path.startsWith('.previous'))).toHaveLength(0);
 		await app.close();
 		await writeFile(join(seed, 'references.json'), 'a broken app upgrade seed');
 		const reopened = await startLibraryServer({libraryDir: library, seedDir: seed, port: 0});
@@ -462,7 +487,7 @@ describe('portable content packs', () => {
 		});
 		await writeFile(archive, zipSync(duplicate.archive));
 		expect((await admin(app, 'content/import', {path: archive})).status).toBe(400);
-		expect((await readdir(join(library, 'packs'))).sort()).toEqual(['starter']);
+		expect(activePackIds(library)).toEqual(['starter']);
 	});
 
 	it('keeps newer execution footage when an older revision is imported later', async () => {
@@ -496,7 +521,7 @@ describe('portable content packs', () => {
 		});
 		expect((await (await fetch(`${app.url}/api/catalog`)).json()).references[0].revision).toBe(3);
 		expect(await (await fetch(`${app.url}/${clipPath}`)).text()).toBe('revision-3-footage');
-		expect(await readdir(join(library, 'packs'))).toEqual(['starter']);
+		expect(activePackIds(library)).toEqual(['starter']);
 	});
 
 	it('rejects a pack replacement that exposes a lower fallback revision by omitting the current winner', async () => {
@@ -539,7 +564,7 @@ describe('portable content packs', () => {
 			{id: reference.id, revision: 3},
 		]);
 		expect(await (await fetch(`${app.url}/${clipPath}`)).text()).toBe('winning-revision-3');
-		expect((await readdir(join(library, 'packs'))).sort()).toEqual(['fallback', 'starter']);
+		expect(activePackIds(library)).toEqual(['fallback', 'starter']);
 	});
 
 	it('rejects conflicting media bytes shared by different winning reference IDs', async () => {
@@ -564,7 +589,7 @@ describe('portable content packs', () => {
 		});
 		expect((await (await fetch(`${app.url}/api/catalog`)).json()).references).toHaveLength(1);
 		expect(await (await fetch(`${app.url}/${clipPath}`)).text()).toBe('original-footage');
-		expect(await readdir(join(library, 'packs'))).toEqual(['starter']);
+		expect(activePackIds(library)).toEqual(['starter']);
 	});
 
 	it('permits identical shared media while rejecting active documents in data packs', async () => {
@@ -592,16 +617,17 @@ describe('portable content packs', () => {
 		expect(clip.headers.get('content-security-policy')).toContain('sandbox');
 	});
 
-	it('recovers the prior pack when replacement was interrupted between directory renames', async () => {
-		const {app, library} = await fixture({media: 'original'});
-		await app.close();
-		await rename(
-			join(library, 'packs/starter'),
+	it('adopts a legacy prior pack when an old replacement stopped between renames', async () => {
+		const root = await directory();
+		const library = join(root, 'legacy-library');
+		await pack(join(library, 'packs/.previous-starter-interrupted'), {clip: 'original'});
+		const recovered = await LibraryCatalog.open({libraryDir: library});
+		resources.push(() => recovered.close());
+		expect(recovered.snapshot.references[0].id).toBe(reference.id);
+		expect(activePackIds(library)).toEqual(['starter']);
+		expect(activePackRoot(library, 'starter')).toBe(
 			join(library, 'packs/.previous-starter-interrupted'),
 		);
-		const recovered = await LibraryCatalog.open({libraryDir: library});
-		expect(recovered.snapshot.references[0].id).toBe(reference.id);
-		expect(await readdir(join(library, 'packs'))).toEqual(['starter']);
 	});
 });
 
@@ -617,13 +643,13 @@ describe('safe database upgrades', () => {
 				migrateDatabase(db, root, [
 					...databaseMigrations,
 					{
-						version: 2,
+						version: 3,
 						name: 'Broken test migration',
 						sql: 'CREATE TABLE should_rollback(id TEXT); INVALID SQL',
 					},
 				]),
 			).rejects.toThrow();
-			expect(db.prepare('PRAGMA user_version').get()?.user_version).toBe(1);
+			expect(db.prepare('PRAGMA user_version').get()?.user_version).toBe(2);
 			expect(
 				db.prepare("SELECT name FROM sqlite_schema WHERE name = 'should_rollback'").get(),
 			).toBeUndefined();

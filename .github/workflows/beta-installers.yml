@@ -8,6 +8,8 @@ on:
       - 'apps/server/**'
       - 'apps/web/**'
       - 'packages/reference/**'
+      - 'packages/authoring/**'
+      - 'content/**'
       - 'tools/desktop/**'
       - 'tools/release/**'
       - 'package.json'

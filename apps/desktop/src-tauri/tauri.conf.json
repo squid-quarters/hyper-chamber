@@ -1,12 +1,12 @@
 {
 	"$schema": "https://schema.tauri.app/config/2",
 	"productName": "Hyper Chamber",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"identifier": "com.squidquarters.hyperchamber",
 	"build": {
 		"frontendDist": "bootstrap",
-		"beforeBuildCommand": "node ../../tools/desktop/prepare.mjs",
-		"beforeDevCommand": "node ../../tools/desktop/prepare.mjs"
+		"beforeBuildCommand": "pnpm prepare:resources",
+		"beforeDevCommand": "pnpm prepare:resources"
 	},
 	"app": {
 		"windows": [],

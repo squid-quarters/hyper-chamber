@@ -1,6 +1,6 @@
 {
 	"name": "hyper-chamber",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"private": true,
 	"type": "module",
 	"scripts": {
@@ -11,7 +11,7 @@
 		"format": "oxfmt . && pnpm format:svelte",
 		"format:check": "oxfmt --check . && pnpm format:svelte:check",
 		"typecheck": "turbo run typecheck --filter=!@hyper-chamber/desktop && tsc -p tsconfig.tools.json --noEmit",
-		"test": "vitest run && node --test tools/desktop/pack.test.mjs tools/release/release.test.mjs",
+		"test": "vitest run && node --test tools/desktop/pack.test.mjs tools/release/release.test.mjs apps/site/docs.test.mjs",
 		"test:watch": "vitest",
 		"content:check": "node --experimental-strip-types tools/check-content.ts",
 		"verify": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm build && pnpm content:check",
@@ -21,7 +21,10 @@
 		"desktop:build": "pnpm --filter @hyper-chamber/server build && pnpm --filter @hyper-chamber/web build && pnpm --filter @hyper-chamber/desktop build",
 		"desktop:dev": "pnpm --filter @hyper-chamber/server build && pnpm --filter @hyper-chamber/web build && pnpm --filter @hyper-chamber/desktop dev",
 		"desktop:pack": "node tools/desktop/create-pack.mjs",
-		"desktop:check": "pnpm --filter @hyper-chamber/desktop format:check && pnpm --filter @hyper-chamber/desktop lint && pnpm --filter @hyper-chamber/desktop test"
+		"desktop:check": "pnpm --filter @hyper-chamber/desktop format:check && pnpm --filter @hyper-chamber/desktop lint && pnpm --filter @hyper-chamber/desktop test",
+		"pack:tools": "pnpm --filter @hyper-chamber/authoring build && node packages/authoring/dist/cli.mjs",
+		"perf:server": "pnpm --filter @hyper-chamber/server build && node tools/performance/server-soak.mjs",
+		"perf:browser": "node tools/performance/browser-soak.mjs"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "21.2.4",

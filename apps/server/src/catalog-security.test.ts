@@ -16,7 +16,9 @@ const original = referenceSchema.parse(
 	JSON.parse(await readFile(join(content, 'games/sf6/references/dhalsim.json'), 'utf8'))[0],
 );
 const roots: string[] = [];
+const catalogs: LibraryCatalog[] = [];
 afterEach(async () => {
+	for (const catalog of catalogs.splice(0)) await catalog.close();
 	for (const root of roots.splice(0)) await rm(root, {recursive: true, force: true});
 });
 
@@ -52,6 +54,7 @@ async function fixture() {
 		await writeFile(join(seed, path), bytes);
 	const library = join(root, 'library');
 	const catalog = await LibraryCatalog.open({libraryDir: library, seedDir: seed});
+	catalogs.push(catalog);
 	return {root, library, catalog};
 }
 
@@ -64,7 +67,8 @@ describe('content archive resource boundaries', () => {
 			zipSync({'ignored/': new Uint8Array(8192).fill(65), ...payload('incoming')}),
 		);
 		await expect(catalog.importArchive(archive)).rejects.toThrow(/directory.*empty/i);
-		expect(await readdir(join(library, 'packs'))).toEqual(['starter']);
+		expect((await catalog.inventory()).packs.map(pack => pack.id)).toEqual(['starter']);
+		expect(await readdir(join(library, 'packs', '.generations'))).toHaveLength(1);
 		expect(catalog.snapshot.references.map(reference => reference.id)).toEqual([original.id]);
 	});
 
@@ -76,7 +80,8 @@ describe('content archive resource boundaries', () => {
 		const archive = join(root, 'excess-directories.hcpack');
 		await writeFile(archive, zipSync({...directories, ...payload('incoming')}, {level: 0}));
 		await expect(catalog.importArchive(archive)).rejects.toThrow(/excessive archive/i);
-		expect(await readdir(join(library, 'packs'))).toEqual(['starter']);
+		expect((await catalog.inventory()).packs.map(pack => pack.id)).toEqual(['starter']);
+		expect(await readdir(join(library, 'packs', '.generations'))).toHaveLength(1);
 	});
 
 	it('rejects an advertised file size above the per-entry bound', async () => {
@@ -90,7 +95,8 @@ describe('content archive resource boundaries', () => {
 		const archive = join(root, 'oversized-header.hcpack');
 		await writeFile(archive, bytes);
 		await expect(catalog.importArchive(archive)).rejects.toThrow(/entry.*size limit/i);
-		expect(await readdir(join(library, 'packs'))).toEqual(['starter']);
+		expect((await catalog.inventory()).packs.map(pack => pack.id)).toEqual(['starter']);
+		expect(await readdir(join(library, 'packs', '.generations'))).toHaveLength(1);
 	});
 
 	it('accepts empty directories at the total entry boundary', async () => {
@@ -114,7 +120,8 @@ describe('content archive resource boundaries', () => {
 		const archive = join(root, 'forged-empty-directory.hcpack');
 		await writeFile(archive, bytes);
 		await expect(catalog.importArchive(archive)).rejects.toThrow(/directory.*empty/i);
-		expect(await readdir(join(library, 'packs'))).toEqual(['starter']);
+		expect((await catalog.inventory()).packs.map(pack => pack.id)).toEqual(['starter']);
+		expect(await readdir(join(library, 'packs', '.generations'))).toHaveLength(1);
 	});
 
 	it('accepts empty directories and files using streaming data descriptors', async () => {
@@ -193,6 +200,7 @@ describe('portable library pack directory', () => {
 		await symlink(target, alias, process.platform === 'win32' ? 'junction' : 'dir');
 		const libraryDir = kind === 'chosen root' ? alias : join(alias, 'library');
 		const catalog = await LibraryCatalog.open({libraryDir});
+		catalogs.push(catalog);
 		expect(catalog.snapshot.references.map(reference => reference.id)).toEqual([original.id]);
 	});
 });

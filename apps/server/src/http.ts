@@ -100,13 +100,17 @@ export async function serveFile(
 	path: string,
 	options: {hash?: string; media?: boolean} = {},
 ): Promise<boolean> {
+	if (response.destroyed || response.writableEnded) return true;
 	if (options.media && !isPassiveMediaPath(path)) return false;
 	const resolved = await containedFile(root, path);
 	if (!resolved) return false;
+	if (response.destroyed || response.writableEnded) return true;
 	const file = await open(resolved, 'r');
 	let streamOwnsFile = false;
 	try {
+		if (response.destroyed || response.writableEnded) return true;
 		const info = await file.stat();
+		if (response.destroyed || response.writableEnded) return true;
 		const etag = options.hash
 			? `"${options.hash}"`
 			: `W/"${info.size}-${Math.floor(info.mtimeMs)}"`;
@@ -160,8 +164,11 @@ export async function serveFile(
 		const stream = file.createReadStream(range);
 		streamOwnsFile = true;
 		stream.once('error', error => response.destroy(error));
-		response.once('close', () => stream.destroy());
-		stream.pipe(response);
+		const disconnect = () => stream.destroy();
+		response.once('close', disconnect);
+		stream.once('close', () => response.removeListener('close', disconnect));
+		if (response.destroyed) stream.destroy();
+		else stream.pipe(response);
 		return true;
 	} finally {
 		if (!streamOwnsFile) await file.close();

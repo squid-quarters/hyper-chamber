@@ -6,10 +6,15 @@
 	"scripts": {
 		"build": "node build.mjs",
 		"check": "node check.mjs",
-		"typecheck": "node --check build.mjs && node --check check.mjs"
+		"typecheck": "node --check build.mjs && node --check check.mjs && node --check docs.mjs && node --check docs.test.mjs",
+		"test": "node --test docs.test.mjs"
 	},
 	"devDependencies": {
 		"@fontsource/barlow-condensed": "5.3.0",
-		"@fontsource/dm-sans": "5.3.0"
+		"@fontsource/dm-sans": "5.3.0",
+		"@hyper-chamber/authoring": "workspace:*",
+		"@hyper-chamber/reference": "workspace:*",
+		"fflate": "0.8.3",
+		"marked": "18.2.0"
 	}
 }

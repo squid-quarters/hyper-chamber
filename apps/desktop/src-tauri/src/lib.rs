@@ -1,6 +1,11 @@
 #[cfg(test)]
 mod external_links_tests;
 
+mod authoring;
+mod content_management;
+pub use authoring::run_pack_cli;
+use authoring::{authoring_action, close_authoring_workspace, open_authoring_workspace};
+use content_management::manage_content;
 mod library;
 mod runtime;
 
@@ -192,6 +197,8 @@ fn report_startup_error(app: &tauri::App, title: &str, error: &str) {
 
 pub fn run() {
     let app = tauri::Builder::default()
+        .manage(authoring::AuthoringState::default())
+        .manage(content_management::ContentManagementState::default())
         .plugin(tauri_plugin_single_instance::init(|app, _, _| {
             if let Some(window) = app.get_webview_window("main") {
                 let _ = window.show();
@@ -206,7 +213,11 @@ pub fn run() {
             import_content_pack,
             create_backup,
             choose_library_folder,
-            reveal_library_folder
+            reveal_library_folder,
+            open_authoring_workspace,
+            authoring_action,
+            close_authoring_workspace,
+            manage_content
         ])
         .setup(|app| {
             let resource_dir = std::env::var_os("HYPER_CHAMBER_RESOURCES_DIR")

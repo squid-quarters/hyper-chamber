@@ -1,0 +1,23 @@
+{
+	"name": "@hyper-chamber/authoring",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"exports": {
+		".": "./src/index.ts",
+		"./archive": "./src/archive.ts"
+	},
+	"scripts": {
+		"build": "tsup --config tsup.config.ts",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@hyper-chamber/reference": "workspace:*",
+		"fflate": "0.8.3",
+		"zod": "4.6.7"
+	},
+	"devDependencies": {
+		"tsup": "9.0.0",
+		"typescript": "6.0.3"
+	}
+}

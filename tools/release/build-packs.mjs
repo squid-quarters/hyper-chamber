@@ -4,6 +4,7 @@ import {createHash} from 'node:crypto';
 import {readFile, readdir, mkdir, writeFile} from 'node:fs/promises';
 import {join, resolve} from 'node:path';
 import {collectPack, repositoryRoot, writePackArchive} from '../desktop/pack.mjs';
+import {packEdition} from './pack-editions.mjs';
 import {releaseVersion, describeAsset} from './model.mjs';
 
 const {values} = parseArgs({options: {output: {type: 'string'}, character: {type: 'string'}}});
@@ -27,13 +28,14 @@ const catalogs = (await readdir(join(repositoryRoot, 'content/games/sf6/referenc
 	.sort();
 if (values.character && !catalogs.includes(values.character)) throw new Error('Unknown character.');
 for (const character of values.character ? [values.character] : catalogs) {
-	const pack = await collectPack({gameId: 'sf6', characterId: character, version});
+	const edition = await packEdition(repositoryRoot, 'sf6', character);
+	const pack = await collectPack({gameId: 'sf6', characterId: character, version: edition});
 	if (pack.clipCount !== pack.referenceCount || pack.referenceCount === 0)
 		throw new Error(`Character pack has incomplete demonstrations: ${character}`);
 	if (pack.manifest.files.reduce((sum, file) => sum + file.bytes, 0) >= 2 ** 31)
 		throw new Error(`Character needs smaller packs to meet the 2 GiB limit: ${character}`);
 	const manifestSha256 = createHash('sha256').update(JSON.stringify(pack.manifest)).digest('hex');
-	const name = `sf6-${character}_${version}.hcpack`;
+	const name = `sf6-${character}_${edition}.hcpack`;
 	const previous = index.packs.find(entry => entry.character === character);
 	if (previous) {
 		const current = await describeAsset(join(directory, previous.name));
@@ -49,6 +51,7 @@ for (const character of values.character ? [values.character] : catalogs) {
 	index.packs.push({
 		...asset,
 		character,
+		version: edition,
 		packId: pack.manifest.id,
 		references: pack.referenceCount,
 		demonstrations: pack.clipCount,
