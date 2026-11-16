@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount, onDestroy, tick } from 'svelte';
 	import { beforeNavigate } from '$app/navigation';
 	import {
 		ArrowLeft,
@@ -28,7 +28,15 @@
 	import ReferenceMedia from '#lib/components/ReferenceMedia.svelte';
 	import SourceDetails from '#lib/components/SourceDetails.svelte';
 	import type { PlaybackPreferences } from '../../lib/player';
-	import { mediaForClip, nextPackEdition } from '../../lib/creator';
+	import {
+		mediaForClip,
+		nextPackEdition,
+		participantsForCharacter,
+		publicationForSource,
+		sameSourceIdentity,
+		sourceFieldsForKind,
+		sourceForReference,
+	} from '../../lib/creator';
 
 	const defaultGame = gameDefinitionSchema.parse(sf6);
 	type Step = { id: string; notation: string; label: string; cue?: string };
@@ -69,6 +77,7 @@
 	let baseline = $state('');
 	let busy = $state(false);
 	let error = $state('');
+	let errorNotice = $state<HTMLDivElement>();
 	let message = $state('');
 	let video = $state<HTMLVideoElement>();
 	let showPreview = $state(false);
@@ -140,6 +149,9 @@
 			await action();
 		} catch (reason) {
 			error = reason instanceof Error ? reason.message : String(reason);
+			await tick();
+			errorNotice?.focus({ preventScroll: true });
+			errorNotice?.scrollIntoView({ block: 'center', behavior: 'instant' });
 		} finally {
 			busy = false;
 		}
@@ -289,24 +301,23 @@
 			throw new Error('Choose a playable, already-trimmed video clip.');
 		if (!draft.frames.length) throw new Error('Capture at least one key moment from the clip.');
 		const original = workspace.references.find((item) => item.id === draft!.id);
-		const source = {
+		const source = sourceForReference(draft, {
 			id: original?.source.id ?? `${draft.id}-recording`,
-			title: draft.sourceTitle.trim() || draft.title,
-			creator: draft.sourceCreator.trim() || author,
-			published: original?.source.published ?? '',
+			title: draft.title.trim(),
+			creator: author,
+			published: publicationForSource(original, draft, draft.clip),
 			start: draft.sourceStart,
 			end: draft.sourceStart + draft.duration,
-		};
+		});
 		return referenceSchema.parse({
 			...original,
 			id: draft.id,
 			revision: original?.revision ?? 1,
 			gameId: draft.gameId,
-			participants:
-				original?.gameId === draft.gameId &&
-				original.participants[0].characterId === draft.characterId
-					? original.participants
-					: [{ id: 'main', characterId: draft.characterId }],
+			participants: participantsForCharacter(
+				original?.gameId === draft.gameId ? original.participants : undefined,
+				draft.characterId,
+			),
 			title: draft.title.trim(),
 			summary: draft.summary.trim(),
 			kind: draft.kind,
@@ -324,12 +335,10 @@
 			conditions: lines(draft.conditions),
 			notes: lines(draft.notes),
 			resources: original?.resources ?? {},
-			source:
-				draft.sourceKind === 'youtube'
-					? { ...source, kind: 'youtube', url: draft.sourceUrl }
-					: { ...source, kind: 'recording', ...(draft.sourceUrl ? { url: draft.sourceUrl } : {}) },
+			source,
 			verification:
 				original &&
+				sameSourceIdentity(original, draft, draft.clip) &&
 				original.verification.status === (draft.reviewed ? 'source-reviewed' : 'draft') &&
 				original.verification.gameVersion === (draft.gameVersion.trim() || null)
 					? original.verification
@@ -534,7 +543,9 @@
 				onclick={exportPack}><Download size={16} aria-hidden="true" />Export pack</button
 			>{/if}
 	</header>
-	{#if error}<div class="notice" role="alert">{error}</div>{/if}
+	{#if error}<div class="notice" role="alert" tabindex="-1" bind:this={errorNotice}>
+			{error}
+		</div>{/if}
 	{#if message}<p class="notice success" role="status">{message}</p>{/if}
 	{#if !desktop}<section class="desktop-required">
 			<h2>Open the desktop app to create packs</h2>
@@ -915,15 +926,25 @@
 												{ value: 'youtube', label: 'YouTube excerpt' },
 											]}
 											onchange={(value) => {
-												if (draft) draft.sourceKind = value as 'recording' | 'youtube';
+												if (draft) {
+													Object.assign(
+														draft,
+														sourceFieldsForKind(draft, value as 'recording' | 'youtube', author),
+													);
+													draft.reviewed = false;
+												}
 											}}
 										/>
 									</div>
 									<label>Creator<input bind:value={draft.sourceCreator} /></label><label
 										class="wide"
-										>Source title<input
+										>{draft.sourceKind === 'youtube'
+											? 'Original video title'
+											: 'Source title'}<input
 											bind:value={draft.sourceTitle}
-											placeholder={draft.title}
+											placeholder={draft.sourceKind === 'youtube'
+												? 'Title as published on YouTube'
+												: draft.title}
 										/></label
 									><label class="wide"
 										>{draft.sourceKind === 'youtube'
@@ -931,6 +952,9 @@
 											: 'Source link (optional)'}<input
 											type="url"
 											bind:value={draft.sourceUrl}
+											oninput={() => {
+												if (draft) draft.reviewed = false;
+											}}
 											placeholder={draft.sourceKind === 'youtube'
 												? 'https://www.youtube.com/watch?v=…'
 												: 'https://…'}
