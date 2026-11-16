@@ -69,6 +69,40 @@ fn server_arguments(
     ]
 }
 
+fn open_server_log(library_dir: &Path) -> std::io::Result<fs::File> {
+    let mut options = OpenOptions::new();
+    options.create(true).append(true);
+    // Inspect the opened object, without following a final symlink. Nonblocking
+    // mode also lets Unix reject a FIFO instead of waiting for a reader.
+    #[cfg(unix)]
+    {
+        use std::os::unix::fs::OpenOptionsExt;
+        options.custom_flags(libc::O_NOFOLLOW | libc::O_NONBLOCK);
+    }
+    #[cfg(windows)]
+    {
+        use std::os::windows::fs::OpenOptionsExt;
+        use windows_sys::Win32::Storage::FileSystem::FILE_FLAG_OPEN_REPARSE_POINT;
+        options.custom_flags(FILE_FLAG_OPEN_REPARSE_POINT);
+    }
+    let log = options.open(library_dir.join("server.log"))?;
+    let metadata = log.metadata()?;
+    let regular = metadata.is_file();
+    #[cfg(windows)]
+    let regular = {
+        use std::os::windows::fs::MetadataExt;
+        use windows_sys::Win32::Storage::FileSystem::FILE_ATTRIBUTE_REPARSE_POINT;
+        regular && metadata.file_attributes() & FILE_ATTRIBUTE_REPARSE_POINT == 0
+    };
+    if !regular {
+        return Err(std::io::Error::new(
+            std::io::ErrorKind::InvalidInput,
+            "The library log must be a regular file.",
+        ));
+    }
+    Ok(log)
+}
+
 impl Backend {
     pub fn start(resources: &Path, library_dir: PathBuf, version: &str) -> Result<Self, String> {
         Self::start_on_port(
@@ -100,10 +134,7 @@ impl Backend {
             }
         }
         let token = secret()?;
-        let log = OpenOptions::new()
-            .create(true)
-            .append(true)
-            .open(library_dir.join("server.log"))
+        let log = open_server_log(&library_dir)
             .map_err(|e| format!("The library log could not be opened: {e}"))?;
         let mut command = Command::new(node);
         #[cfg(windows)]
@@ -289,6 +320,97 @@ console.log('HYPER_CHAMBER_NODE_PATH_PASSED');"#,
             String::from_utf8_lossy(&output.stdout).trim(),
             "HYPER_CHAMBER_NODE_PATH_PASSED"
         );
+    }
+
+    fn log_fixture() -> PathBuf {
+        let path = std::env::temp_dir().join(format!("hc-native-log-{}", secret().unwrap()));
+        fs::create_dir_all(&path).unwrap();
+        path
+    }
+
+    #[test]
+    fn server_logs_create_and_append_to_regular_files() {
+        use std::io::Write;
+        let library = log_fixture();
+        open_server_log(&library)
+            .unwrap()
+            .write_all(b"first\n")
+            .unwrap();
+        open_server_log(&library)
+            .unwrap()
+            .write_all(b"second\n")
+            .unwrap();
+        let observed = fs::read(library.join("server.log")).unwrap();
+        fs::remove_dir_all(library).unwrap();
+        assert_eq!(observed, b"first\nsecond\n");
+    }
+
+    #[test]
+    fn server_logs_reject_directories() {
+        let library = log_fixture();
+        fs::create_dir(library.join("server.log")).unwrap();
+        let rejected = open_server_log(&library).is_err();
+        fs::remove_dir_all(library).unwrap();
+        assert!(rejected, "A log directory must not be opened for output");
+    }
+
+    #[cfg(unix)]
+    #[test]
+    fn server_logs_reject_fifos_without_waiting_for_a_reader() {
+        use std::os::unix::fs::OpenOptionsExt;
+        let library = log_fixture();
+        let path = library.join("server.log");
+        assert!(Command::new("mkfifo")
+            .arg(&path)
+            .status()
+            .unwrap()
+            .success());
+        let (sender, receiver) = mpsc::sync_channel(1);
+        let worker_library = library.clone();
+        let worker = thread::spawn(move || {
+            let _ = sender.send(open_server_log(&worker_library).is_err());
+        });
+        let result = receiver.recv_timeout(Duration::from_secs(2));
+        // Unblock our writer on regression so the test never leaves a thread
+        // waiting on its disposable FIFO.
+        let reader = OpenOptions::new()
+            .read(true)
+            .custom_flags(libc::O_NONBLOCK)
+            .open(&path)
+            .unwrap();
+        worker.join().unwrap();
+        drop(reader);
+        fs::remove_dir_all(library).unwrap();
+        assert_eq!(
+            result,
+            Ok(true),
+            "A log FIFO must be rejected without blocking"
+        );
+    }
+
+    #[cfg(unix)]
+    #[test]
+    fn server_logs_reject_symlinks_without_changing_the_target() {
+        use std::io::Write;
+        use std::os::unix::fs::symlink;
+
+        let scratch = log_fixture();
+        let library = scratch.join("library");
+        fs::create_dir(&library).unwrap();
+        let target = scratch.join("outside-library.txt");
+        fs::write(&target, b"untouched\n").unwrap();
+        symlink(&target, library.join("server.log")).expect(
+            "The symlink regression requires permission to create a disposable file symlink",
+        );
+        let result = open_server_log(&library);
+        let rejected = result.is_err();
+        if let Ok(mut log) = result {
+            log.write_all(b"unexpected log output\n").unwrap();
+        }
+        let observed = fs::read(&target).unwrap();
+        fs::remove_dir_all(scratch).unwrap();
+        assert!(rejected, "The server log must reject a symlink");
+        assert_eq!(observed, b"untouched\n");
     }
 
     #[test]

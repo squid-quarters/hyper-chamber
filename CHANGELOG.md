@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Bound every ZIP entry during content-pack import, including directory entries, and reject payloads hidden in directories.
+- Prevent other websites from embedding the application in a frame.
+- Reject symlinks at the desktop log and library packs paths.
+- Update the bundled Node runtime to 24.22.3 and fflate to 0.8.3.
+
 ## 1.0.0 (2026-11-15)
 
 - Publish the first stable Mac and Windows release, with a three-demo Dhalsim starter and 32 optional character packs covering 2,068 references.

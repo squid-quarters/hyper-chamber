@@ -112,20 +112,20 @@ test(
 test('desktop runtime pin and native target reject mismatched builds', () => {
 	assert.doesNotThrow(() =>
 		assertNativeRuntime(
-			{version: 'v24.14.1', platform: 'darwin', arch: 'arm64'},
+			{version: 'v24.22.3', platform: 'darwin', arch: 'arm64'},
 			{platform: 'darwin', arch: 'arm64'},
 		),
 	);
 	assert.doesNotThrow(() =>
-		assertNativeRuntime({version: 'v24.14.1', platform: 'win32', arch: 'x64'}),
+		assertNativeRuntime({version: 'v24.22.3', platform: 'win32', arch: 'x64'}),
 	);
 	assert.throws(() =>
-		assertNativeRuntime({version: 'v24.15.0', platform: 'darwin', arch: 'arm64'}),
+		assertNativeRuntime({version: 'v24.14.1', platform: 'darwin', arch: 'arm64'}),
 	);
 	assert.throws(() =>
-		assertNativeRuntime({version: 'v24.14.1', platform: 'darwin', arch: 'arm64'}, {arch: 'x64'}),
+		assertNativeRuntime({version: 'v24.22.3', platform: 'darwin', arch: 'arm64'}, {arch: 'x64'}),
 	);
-	assert.throws(() => assertNativeRuntime({version: 'v24.14.1', platform: 'win32', arch: 'arm64'}));
+	assert.throws(() => assertNativeRuntime({version: 'v24.22.3', platform: 'win32', arch: 'arm64'}));
 });
 
 test('streaming readers preserve binary ZIP signatures across arbitrary chunk boundaries', async () => {

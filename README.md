@@ -55,7 +55,7 @@ For a phone or tablet, enable device access in the desktop app and open its addr
 
 ## Run from source
 
-Use Node 24 and pnpm 10.16.1. The repository includes the full reference catalog and prepared media, so allow several gigabytes for the checkout and build.
+Use Node 24.22.3 and pnpm 10.16.1. The repository includes the full reference catalog and prepared media, so allow several gigabytes for the checkout and build.
 
 ```sh
 git clone https://github.com/squid-quarters/hyper-chamber.git
@@ -83,6 +83,8 @@ pnpm verify
 ```
 
 This checks formatting, lint, types, tests, web/server/site builds and catalog/media validation. Native checks run separately with `pnpm desktop:check`; the [desktop notes](docs/desktop-architecture.md) explain the Rust and platform prerequisites. Changes go through pull requests into `develop`. Pull-request CI validates both paths. The [Pages workflow](.github/workflows/pages.yml) builds and publishes the project site from `apps/site` when its files change on `develop`, or when run manually on that branch. Desktop installer releases remain separate.
+
+The [security review](docs/security-review.md) records the local trust boundaries, fixes and remaining limits. Device sharing is for a trusted local network; clients can edit the same personal library.
 
 Keep the app version and [CHANGELOG.md](CHANGELOG.md) aligned for user-facing changes. The root, web, server and desktop manifests share the application version; this project does not use Changesets.
 

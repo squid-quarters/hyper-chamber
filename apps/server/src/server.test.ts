@@ -285,6 +285,28 @@ describe('authoritative personal library', () => {
 });
 
 describe('external media and local network boundary', () => {
+	it('prevents untrusted pages from framing app documents without changing media isolation', async () => {
+		const {app} = await fixture({media: 'passive-video'});
+		const index = await fetch(`${app.url}/`);
+		const requests = [
+			index,
+			await fetch(`${app.url}/`, {method: 'HEAD'}),
+			await fetch(`${app.url}/training/route`),
+			await fetch(`${app.url}/index.html`, {headers: {Range: 'bytes=0-15'}}),
+			await fetch(`${app.url}/`, {headers: {'If-None-Match': index.headers.get('etag')!}}),
+		];
+		expect(requests.map(response => response.status)).toEqual([200, 200, 200, 206, 304]);
+		for (const response of requests) {
+			expect(response.headers.get('x-frame-options')).toBe('DENY');
+			const policy = response.headers.get('content-security-policy');
+			expect(policy).toContain("frame-ancestors 'none'");
+			expect(policy).toContain("base-uri 'none'");
+			expect(policy).toContain("object-src 'none'");
+		}
+		const clip = await fetch(`${app.url}/${clipPath}`);
+		expect(clip.headers.get('content-security-policy')).toBe("sandbox; default-src 'none'");
+	});
+
 	it('serves bounded media ranges, HEAD, cache validation and SPA routes without exposing arbitrary files', async () => {
 		const {app, root, library} = await fixture({media: '0123456789'});
 		const url = `${app.url}/${clipPath}`;

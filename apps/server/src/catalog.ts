@@ -276,6 +276,7 @@ async function unpackArchive(archive: string, target: string): Promise<void> {
 		throw new Error('Choose a content pack file under 2 GiB.');
 	const seen = new Set<string>();
 	const openFiles = new Set<number>();
+	let entryCount = 0;
 	let totalBytes = 0;
 	let failure: Error | null = null;
 	const fail = (error: unknown) => {
@@ -284,13 +285,29 @@ async function unpackArchive(archive: string, target: string): Promise<void> {
 	const unzip = new Unzip(file => {
 		if (failure) return;
 		try {
+			if (++entryCount > MAX_PACK_FILES + 1)
+				throw new Error('Duplicate or excessive archive files.');
+			for (const size of [file.size, file.originalSize]) {
+				if (
+					size !== undefined &&
+					(!Number.isSafeInteger(size) || size < 0 || size > MAX_FILE_BYTES)
+				)
+					throw new Error('An archive entry exceeds the size limit.');
+			}
 			if (file.name.endsWith('/')) {
 				safePathSchema.parse(file.name.slice(0, -1));
+				if (file.originalSize !== undefined && file.originalSize !== 0)
+					throw new Error('Archive directory entries must be empty.');
+				file.ondata = (error, chunk) => {
+					if (error) fail(error);
+					else if (chunk.byteLength) fail(new Error('Archive directory entries must be empty.'));
+				};
+				// Unstarted entries retain compressed chunks inside the decoder.
+				file.start();
 				return;
 			}
 			const name = safePathSchema.parse(file.name);
-			if (seen.has(name) || seen.size >= MAX_PACK_FILES + 1)
-				throw new Error('Duplicate or excessive archive files.');
+			if (seen.has(name)) throw new Error('Duplicate archive files.');
 			seen.add(name);
 			const path = join(target, name);
 			mkdirSync(dirname(path), {recursive: true});
@@ -353,7 +370,8 @@ export class LibraryCatalog {
 		mediaDir?: string;
 	}): Promise<LibraryCatalog> {
 		const catalog = new LibraryCatalog(options.libraryDir, options.mediaDir);
-		await mkdir(join(options.libraryDir, 'packs'), {recursive: true});
+		await mkdir(options.libraryDir, {recursive: true});
+		await catalog.ensurePacksDirectory();
 		await catalog.recoverInterruptedReplacement();
 		const installed = (
 			await readdir(join(options.libraryDir, 'packs'), {withFileTypes: true})
@@ -379,6 +397,17 @@ export class LibraryCatalog {
 		return this.fallbackMediaDir && path.startsWith('/media/')
 			? {root: this.fallbackMediaDir, path: path.slice('/media/'.length)}
 			: undefined;
+	}
+
+	// The chosen root may be aliased; its fixed packs child must not redirect writes.
+	// This rejects pre-existing links, not concurrent changes by another same-user process.
+	private async ensurePacksDirectory(): Promise<void> {
+		const root = join(this.libraryDir, 'packs');
+		await mkdir(root).catch(error => {
+			if (error.code !== 'EEXIST') throw error;
+		});
+		if (!(await lstat(root)).isDirectory())
+			throw new Error('The library packs path must be an ordinary directory.');
 	}
 
 	private async recoverInterruptedReplacement(): Promise<void> {
@@ -477,8 +506,11 @@ export class LibraryCatalog {
 			throw new Error('Choose a .hcpack archive file.');
 		this.importing = true;
 		const stage = join(this.libraryDir, 'packs', `.import-${randomUUID()}`);
+		let stageCreated = false;
 		try {
-			await mkdir(stage, {recursive: true});
+			await this.ensurePacksDirectory();
+			await mkdir(stage);
+			stageCreated = true;
 			await unpackArchive(path, stage);
 			const pack = await inspectPack(stage, true);
 			const existing = await this.currentPacks();
@@ -523,7 +555,7 @@ export class LibraryCatalog {
 			};
 		} finally {
 			this.importing = false;
-			await rm(stage, {recursive: true, force: true});
+			if (stageCreated) await rm(stage, {recursive: true, force: true});
 		}
 	}
 }

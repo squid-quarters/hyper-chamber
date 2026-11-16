@@ -25,7 +25,7 @@ export function verifyMacOsRuntime(applicationMinimum, executable = process.exec
 	for (const minimum of minimums) assertMacOsMinimum(minimum, applicationMinimum);
 }
 
-export const BUNDLED_NODE_VERSION = 'v24.14.1';
+export const BUNDLED_NODE_VERSION = 'v24.22.3';
 export function assertNativeRuntime({version, platform, arch}, target = {}) {
 	if (version !== BUNDLED_NODE_VERSION)
 		throw new Error(
