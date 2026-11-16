@@ -3,6 +3,7 @@ import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {spawnSync} from 'node:child_process';
 import {DatabaseSync} from 'node:sqlite';
+import {fileURLToPath} from 'node:url';
 import {unzipSync, zipSync} from 'fflate';
 import {afterEach, describe, expect, it} from 'vitest';
 import {
@@ -256,7 +257,7 @@ describe('portable authoring workspaces', () => {
 	it('runs the JSON CLI independently of the current working directory', async () => {
 		const {root, directory} = await fixture();
 		const cli = new URL('./cli.ts', import.meta.url);
-		const result = spawnSync(process.execPath, [cli.pathname, '--json'], {
+		const result = spawnSync(process.execPath, [fileURLToPath(cli), '--json'], {
 			cwd: root,
 			input: JSON.stringify({
 				command: 'create',

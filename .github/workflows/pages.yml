@@ -66,7 +66,7 @@ jobs:
           node-version: '24.22.3'
           cache: pnpm
       - name: Install site dependencies
-        run: pnpm --filter @hyper-chamber/site install --frozen-lockfile --ignore-scripts
+        run: pnpm --filter @hyper-chamber/site... install --frozen-lockfile --ignore-scripts
       - name: Check and build static site
         run: |
           pnpm --filter @hyper-chamber/site typecheck

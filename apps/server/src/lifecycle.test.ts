@@ -24,7 +24,7 @@ vi.mock('node:fs/promises', async importOriginal => {
 	return {
 		...actual,
 		rm: async (...args: Parameters<typeof actual.rm>) => {
-			if (disk.failStageCleanup && String(args[0]).includes('.generations/'))
+			if (disk.failStageCleanup && String(args[0]).replaceAll('\\', '/').includes('.generations/'))
 				throw new Error('Simulated preview cleanup EPERM');
 			return actual.rm(...args);
 		},
