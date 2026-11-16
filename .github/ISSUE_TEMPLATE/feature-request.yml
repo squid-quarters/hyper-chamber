@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest an improvement to Hyper Chamber.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: Describe the change or addition.
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Why would this help?
+      description: What are you trying to do, or what gets in your way?

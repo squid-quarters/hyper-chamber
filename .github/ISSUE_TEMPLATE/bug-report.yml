@@ -1,0 +1,26 @@
+name: Bug report
+description: Report an app problem or a correction to a reference.
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What went wrong?
+      description: Describe what happened and what you expected. If a reference seems wrong, include the character and reference name or link.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Share the steps if you can reproduce the problem.
+  - type: input
+    id: environment
+    attributes:
+      label: App and device
+      description: App version (in the footer), operating system, and browser if relevant.
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else?
+      description: You can attach a screenshot or recording, paste an error message, or link a source video.
