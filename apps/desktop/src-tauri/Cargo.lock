@@ -1551,6 +1551,7 @@ dependencies = [
  "dunce",
  "getrandom 0.3.4",
  "glob",
+ "libc",
  "serde",
  "serde_json",
  "tauri",
@@ -1559,6 +1560,7 @@ dependencies = [
  "tauri-plugin-opener",
  "tauri-plugin-single-instance",
  "ureq",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]

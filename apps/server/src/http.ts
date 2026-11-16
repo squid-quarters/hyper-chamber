@@ -118,6 +118,11 @@ export async function serveFile(
 			'X-Content-Type-Options': 'nosniff',
 		};
 		if (options.media) headers['Content-Security-Policy'] = "sandbox; default-src 'none'";
+		else if (extname(resolved).toLowerCase() === '.html') {
+			headers['Content-Security-Policy'] =
+				"frame-ancestors 'none'; base-uri 'none'; object-src 'none'";
+			headers['X-Frame-Options'] = 'DENY';
+		}
 		if (
 			request.headers['if-none-match']
 				?.split(',')

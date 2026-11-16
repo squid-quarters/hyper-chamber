@@ -43,7 +43,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
-          node-version: '24.14.1'
+          node-version: '24.22.3'
       - name: Check release space after the full checkout
         run: |
           df -h .
@@ -80,7 +80,7 @@ jobs:
           [[ "$SOURCE_COMMIT" =~ ^[a-f0-9]{40}$ ]] || { echo 'Provide an exact lowercase source commit SHA.' >&2; exit 1; }
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
-          node-version: '24.14.1'
+          node-version: '24.22.3'
       - name: Verify the canonical installer run before checking out source
         env:
           GH_TOKEN: ${{ github.token }}
