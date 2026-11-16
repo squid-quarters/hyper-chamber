@@ -5,7 +5,7 @@ The runtime schema in `packages/reference` is shared by the reader and content c
 - `id` is stable; `revision` changes when execution or its conditions materially change.
 - `kind` describes combo, setup, or response; `situations` describes when it applies; `outcomes` describes what it achieves.
 - `notation`, ordered `inputs`, `conditions`, and short `notes` stay with each entry.
-- `source` preserves creator, video URL/date, and start/end seconds in the original video.
+- `source` preserves creator, source title/date, and start/end seconds in the original recording. YouTube excerpts retain the actual video URL; `kind: "recording"` supports original footage without a fabricated URL.
 - `media.frames[].at` is relative to the prepared clip; `alt` describes the observed action and `label` supplies a short execution cue.
 - Clips prepared with the current helper start at presentation time zero. Still extraction selects the frame presented at or before the authored clip time, rather than rounding another seek forward. Source intervals retain original-video bounds; choosing the first retained source frame can quantize the clip's duration by a fraction of a video frame. The original reference assets remain preserved.
 - Frame IDs are unique within a reference, and frame times strictly increase. These invariants keep selection/descriptions unambiguous and produce valid WebVTT intervals.
@@ -13,6 +13,8 @@ The runtime schema in `packages/reference` is shared by the reader and content c
 - `relatedIds` links canonical alternatives without copying the same entry into several categories.
 
 A media improvement preserves the entry ID. Source-specific conditions must survive a replacement demonstration. Numerical resource costs and damage/frame values should only be added when the source or a recorded in-game check establishes them.
+
+Pack editions are separate from application versions and reference execution revisions. The [pack guides](packs/index.md) describe editable workspaces, independent forks and format-2 exports; legacy format-1 packs remain readable.
 
 Notes, practice status and saved references use separate SQLite records. Unknown valid reference IDs survive content changes and database snapshots. The legacy browser JSON envelope remains an import and recovery format. A personal entry’s `revision` records the assessed execution revision; `rowVersion` separately detects concurrent edits. The reader surfaces reassessment when the stored execution revision differs from the catalog.
 

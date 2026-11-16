@@ -8,7 +8,7 @@ export default defineConfig({
 	removeNodeProtocol: false,
 	outDir: 'dist',
 	outExtension: () => ({js: '.mjs'}),
-	noExternal: ['@hyper-chamber/reference', 'fflate', 'zod'],
+	noExternal: ['@hyper-chamber/reference', '@hyper-chamber/authoring', 'fflate', 'zod'],
 	splitting: false,
 	clean: true,
 });

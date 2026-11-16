@@ -13,6 +13,10 @@
 		"allow-create-backup",
 		"allow-choose-library-folder",
 		"allow-reveal-library-folder",
+		"allow-open-authoring-workspace",
+		"allow-authoring-action",
+		"allow-close-authoring-workspace",
+		"allow-manage-content",
 		{
 			"identifier": "opener:allow-open-url",
 			"allow": [

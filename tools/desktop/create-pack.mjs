@@ -2,6 +2,7 @@
 import {parseArgs} from 'node:util';
 import {resolve} from 'node:path';
 import {readFile} from 'node:fs/promises';
+import {packEdition} from '../release/pack-editions.mjs';
 import {collectPack, repositoryRoot, writePackArchive} from './pack.mjs';
 
 const {values} = parseArgs({
@@ -20,9 +21,10 @@ if ((!values.character && !values.starter) || !values.output) {
 } else {
 	if (!values.output.endsWith('.hcpack'))
 		throw new Error('Choose an output filename ending in .hcpack.');
-	const version = JSON.parse(
-		await readFile(resolve(repositoryRoot, 'apps/desktop/package.json'), 'utf8'),
-	).version;
+	const version = values.starter
+		? JSON.parse(await readFile(resolve(repositoryRoot, 'apps/desktop/package.json'), 'utf8'))
+				.version
+		: await packEdition(repositoryRoot, values.game, values.character);
 	const pack = await collectPack({
 		gameId: values.game,
 		characterId: values.character,

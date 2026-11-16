@@ -1,6 +1,6 @@
 {
 	"name": "@hyper-chamber/server",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"private": true,
 	"type": "module",
 	"exports": {
@@ -12,6 +12,7 @@
 		"start": "node dist/cli.mjs"
 	},
 	"dependencies": {
+		"@hyper-chamber/authoring": "workspace:*",
 		"@hyper-chamber/reference": "workspace:*",
 		"fflate": "0.8.3",
 		"zod": "4.6.7"

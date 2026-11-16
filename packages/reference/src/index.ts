@@ -1,5 +1,7 @@
 import {z} from 'zod';
 
+export * from './pack.ts';
+
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const slug = z.string().regex(slugPattern);
 const guideSchema = z.object({
@@ -102,15 +104,28 @@ export const referenceSchema = z
 			},
 			z.record(z.string(), z.string()),
 		),
-		source: z.object({
-			id: z.string(),
-			title: z.string(),
-			creator: z.string(),
-			url: z.url({protocol: /^https$/, hostname: /^www\.youtube\.com$/}),
-			published: z.string(),
-			start: z.number().nonnegative(),
-			end: z.number().positive(),
-		}),
+		source: z.union([
+			z.object({
+				kind: z.literal('youtube').optional(),
+				id: z.string(),
+				title: z.string(),
+				creator: z.string(),
+				url: z.url({protocol: /^https$/, hostname: /^www\.youtube\.com$/}),
+				published: z.string(),
+				start: z.number().nonnegative(),
+				end: z.number().positive(),
+			}),
+			z.object({
+				kind: z.literal('recording'),
+				id: z.string().min(1),
+				title: z.string().min(1),
+				creator: z.string().min(1),
+				url: z.url({protocol: /^https$/}).optional(),
+				published: z.string(),
+				start: z.number().nonnegative(),
+				end: z.number().positive(),
+			}),
+		]),
 		verification: z.object({
 			status: z.enum(['draft', 'source-reviewed']),
 			gameVersion: z.string().nullable(),
@@ -325,8 +340,10 @@ export function filterReferences(
 		return tokens.every(t => text.includes(t));
 	});
 }
-export function sourceLink(r: Reference): string {
+export function sourceLink(r: Reference): string | undefined {
+	if (!r.source.url) return undefined;
 	const url = new URL(r.source.url);
+	if (r.source.kind === 'recording') return url.href;
 	url.searchParams.set('t', String(Math.floor(r.source.start)));
 	return url.href;
 }
@@ -335,6 +352,8 @@ export * from './storage.ts';
 
 export const catalogSnapshotSchema = z.strictObject({
 	formatVersion: z.literal(1),
+	generation: z.number().int().nonnegative().default(0),
+	protocolVersion: z.number().int().positive().optional(),
 	games: z.array(gameDefinitionSchema),
 	references: z.array(referenceSchema),
 	libraryId: z.uuid().optional(),

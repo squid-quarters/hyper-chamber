@@ -25,7 +25,9 @@ You can browse by character and narrow the list to punishes, corner carry, oki, 
 
 The desktop app bundles its runtime and a small starter library: three complete Dhalsim demonstrations. Additional character packs contain their own references and media. It uses a local SQLite library, with optional access from phones and tablets on the same network. No account is needed.
 
-Version `1.0.0` is available for macOS and Windows. Installers and content packs are on [GitHub Releases](https://github.com/squid-quarters/hyper-chamber/releases/tag/v1.0.0). See the [desktop architecture and build notes](docs/desktop-architecture.md) for source builds and library details.
+The published stable release is `1.0.0` for macOS and Windows. Installers and content packs are on [GitHub Releases](https://github.com/squid-quarters/hyper-chamber/releases/tag/v1.0.0). See the [desktop architecture and build notes](docs/desktop-architecture.md) for source builds and library details.
+
+The source tree is developing `1.1.0`, with installed-pack management, notes recovery and a desktop pack creator. Those controls are not in the published `1.0.0` installers yet. The [pack guides](docs/packs/index.md) cover the editor, portable AI skill, format and update workflow. The first editor accepts already-trimmed MP4/WebM clips; it does not trim longer videos.
 
 ## Install Hyper Chamber
 
@@ -49,11 +51,15 @@ brew install --cask squid-quarters/tap/hyper-chamber
 
 If you installed the beta through Homebrew, quit Hyper Chamber, run `brew uninstall --cask squid-quarters/tap/hyper-chamber@beta`, then install the stable cask above. Your library and settings stay in place.
 
+To update, **Quit Hyper Chamber** before replacing it; closing the window only hides it. Install the newer app over the old one or update the Homebrew cask. Keep the same library folder; application updates do not replace notes or require unchanged packs to be downloaded again. There is no automatic updater.
+
 The [release page](https://github.com/squid-quarters/hyper-chamber/releases/tag/v1.0.0) also has a `.hcpack` for each of the 32 Street Fighter 6 characters, covering 2,068 references. Download the characters you want, then open **Devices → Import content pack** in the app. Packs stay separate from your notes and progress. Release checksums cover the installers and packs.
 
 For a phone or tablet, enable device access in the desktop app and open its address in a browser on the same local network. Keep Hyper Chamber running on the computer while you practise. If the library will not open, [check the connection and Android Chrome permissions](docs/usage.md#if-a-phone-or-tablet-cannot-connect).
 
 ## Run from source
+
+**Compatibility:** development `1.1.0` upgrades libraries to SQLite schema 2 and uses API protocol 2. Quit every older host first. Do not reopen an upgraded library with `1.0.0`; use a matching whole-library backup for a deliberate rollback. Source runs use separate development folders by default.
 
 Use Node 24.22.3 and pnpm 10.16.1. The repository includes the full reference catalog and prepared media, so allow several gigabytes for the checkout and build.
 
@@ -70,13 +76,13 @@ Set `HYPER_CHAMBER_LIBRARY_DIR` to use a particular library folder, `HYPER_CHAMB
 
 ## About the references
 
-Each reference credits its creator and links to the original video and timestamp. “Source reviewed” means the annotations were checked against that recording, not re-tested in the game on the current patch. The [coverage index](docs/roster-source-coverage.md) records the selections and gaps for each character.
+YouTube excerpts credit their creator and link to the original video and timestamp. The new pack format also supports your own recordings without a tutorial URL. “Source reviewed” means the annotations were checked against that recording, not re-tested in the game on the current patch. The [coverage index](docs/roster-source-coverage.md) records the selections and gaps for each character.
 
 No open-source license has been chosen yet. Third-party media permissions and redistribution rights remain unassessed; attribution and source records must accompany the media. The [publication record](content/publication.json) describes the repository's current public scope. [Screenshot sources](docs/screenshots/README.md) are recorded separately.
 
 ## Development
 
-The workspace contains the SvelteKit interface in `apps/web`, the SQLite/HTTP server in `apps/server`, the Tauri host in `apps/desktop`, and a static project site in `apps/site`. Shared catalog code lives in `packages/reference`; curated content and media tools stay in `content/games` and `tools`. Learner data stays outside the authored references.
+The workspace contains the SvelteKit interface in `apps/web`, the SQLite/HTTP server in `apps/server`, the Tauri host in `apps/desktop`, and a static project site in `apps/site`. Shared catalog code lives in `packages/reference`, and workspace validation/export in `packages/authoring`; curated content and media tools stay in `content/games` and `tools`. Learner data stays outside the authored references.
 
 ```sh
 pnpm verify
@@ -84,8 +90,8 @@ pnpm verify
 
 This checks formatting, lint, types, tests, web/server/site builds and catalog/media validation. Native checks run separately with `pnpm desktop:check`; the [desktop notes](docs/desktop-architecture.md) explain the Rust and platform prerequisites. Changes go through pull requests into `develop`. Pull-request CI validates both paths. The [Pages workflow](.github/workflows/pages.yml) builds and publishes the project site from `apps/site` when its files change on `develop`, or when run manually on that branch. Desktop installer releases remain separate.
 
-The [security review](docs/security-review.md) records the local trust boundaries, fixes and remaining limits. Device sharing is for a trusted local network; clients can edit the same personal library.
+The [performance checks](docs/performance.md) exercise disposable libraries and replay cleanup without adding telemetry. The [security review](docs/security-review.md) records the local trust boundaries, fixes and remaining limits. Device sharing is for a trusted local network; clients can edit the same personal library.
 
 Keep the app version and [CHANGELOG.md](CHANGELOG.md) aligned for user-facing changes. The root, web, server and desktop manifests share the application version; this project does not use Changesets.
 
-The [product scope](docs/product.md), [content model](docs/content-model.md) and [design notes](docs/design.md) cover the longer-term decisions.
+The [product scope](docs/product.md), [content model](docs/content-model.md), [design notes](docs/design.md) and [library/authoring decision](docs/adr/0005-library-and-authoring.md) cover the longer-term decisions.

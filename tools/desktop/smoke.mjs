@@ -2,12 +2,13 @@
 import assert from 'node:assert/strict';
 import {spawn, execFileSync} from 'node:child_process';
 import {createHash, randomUUID} from 'node:crypto';
-import {mkdir, mkdtemp, readFile, rm, writeFile} from 'node:fs/promises';
+import {cp, mkdir, mkdtemp, readFile, readdir, rm, stat, writeFile} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {dirname, join, resolve} from 'node:path';
 import {createServer} from 'node:net';
 import {setTimeout as delay} from 'node:timers/promises';
 import {parseArgs} from 'node:util';
+import {fileURLToPath} from 'node:url';
 import {assertNativeRuntime} from './runtime.mjs';
 
 const {values} = parseArgs({
@@ -66,6 +67,7 @@ let output = '';
 let interrupted = false;
 let launchNative = !!values.native;
 let backendPreflight = false;
+let activeLibrary = join(scratch, 'library');
 process.once('SIGINT', () => {
 	interrupted = true;
 });
@@ -88,6 +90,8 @@ function descendants(pid) {
 		const rows = JSON.parse(
 			execFileSync('powershell.exe', ['-NoProfile', '-NonInteractive', '-Command', script], {
 				encoding: 'utf8',
+				timeout: 10000,
+				windowsHide: true,
 			}),
 		);
 		const found = [],
@@ -102,7 +106,7 @@ function descendants(pid) {
 		}
 		return found;
 	}
-	const rows = execFileSync('ps', ['-axo', 'pid=,ppid='], {encoding: 'utf8'})
+	const rows = execFileSync('ps', ['-axo', 'pid=,ppid='], {encoding: 'utf8', timeout: 10000})
 		.trim()
 		.split('\n')
 		.map(row => row.trim().split(/\s+/).map(Number));
@@ -118,6 +122,15 @@ function descendants(pid) {
 	}
 	return found;
 }
+
+function signalOwned(pid, signal) {
+	try {
+		process.kill(pid, signal);
+	} catch (error) {
+		if (error.code !== 'ESRCH') throw error;
+	}
+}
+
 async function waitFor(test, message, timeout = 45000) {
 	const until = Date.now() + timeout;
 	while (Date.now() < until) {
@@ -137,13 +150,14 @@ async function freePort() {
 	await new Promise(ok => server.close(ok));
 	return port;
 }
-async function launch() {
+async function launch(library = join(scratch, 'library')) {
+	activeLibrary = library;
 	const port = await freePort(),
 		url = `http://127.0.0.1:${port}`;
 	const env = {
 		...process.env,
 		HYPER_CHAMBER_PORT: String(port),
-		HYPER_CHAMBER_LIBRARY_DIR: join(scratch, 'library'),
+		HYPER_CHAMBER_LIBRARY_DIR: library,
 		HYPER_CHAMBER_PARENT_PID: String(process.pid),
 		HYPER_CHAMBER_ADMIN_TOKEN: token,
 		HYPER_CHAMBER_DIAGNOSTICS_PATH: join(scratch, 'native-startup.jsonl'),
@@ -222,7 +236,281 @@ async function stop(url) {
 	);
 	child = undefined;
 }
+
+/** Exercise the real bundle's JSON stdin/stdout, including Windows GUI-subsystem binaries. */
+async function packCommand(request) {
+	const input = Buffer.from(JSON.stringify(request));
+	assert.ok(input.length <= 2 * 1024 ** 2, 'Installer authoring input exceeds its smoke limit.');
+	const env = {...process.env, HYPER_CHAMBER_PARENT_PID: String(process.pid)};
+	delete env.NODE_OPTIONS;
+	delete env.HYPER_CHAMBER_RESOURCES_DIR;
+	const started = Date.now();
+	const tool = spawn(
+		values.native ? resolve(values.native) : node,
+		values.native ? ['--pack', '--json'] : [join(resources, 'authoring/cli.mjs'), '--json'],
+		{env, cwd: scratch, stdio: ['pipe', 'pipe', 'pipe'], windowsHide: true},
+	);
+	const owned = new Set();
+	if (tool.pid) owned.add(tool.pid);
+	let stdout = Buffer.alloc(0),
+		stderr = Buffer.alloc(0),
+		failure,
+		finished = false,
+		code,
+		signal;
+	const collect = (current, chunk, limit) => {
+		if (current.length + chunk.length > limit) {
+			failure ??= new Error('Pack CLI smoke output exceeded its bounded limit.');
+			return current;
+		}
+		return Buffer.concat([current, chunk]);
+	};
+	tool.stdout.on('data', chunk => {
+		stdout = collect(stdout, chunk, 4 * 1024 ** 2);
+	});
+	tool.stderr.on('data', chunk => {
+		stderr = collect(stderr, chunk, 64 * 1024);
+	});
+	tool.once('error', error => {
+		failure = error;
+	});
+	tool.stdin.once('error', error => {
+		failure ??= error;
+	});
+	tool.once('close', (exitCode, exitSignal) => {
+		finished = true;
+		code = exitCode;
+		signal = exitSignal;
+	});
+	tool.stdin.end(input);
+	let sampleAt = started;
+	try {
+		while (!finished) {
+			if (failure) throw failure;
+			if (interrupted) throw new Error('Packaged authoring smoke was interrupted.');
+			if (Date.now() - started > 45000)
+				throw new Error('Packaged authoring CLI exceeded its 45-second deadline.');
+			if (tool.pid && Date.now() >= sampleAt) {
+				for (const pid of descendants(tool.pid)) owned.add(pid);
+				sampleAt = Date.now() + 500;
+			}
+			await delay(20);
+		}
+		if (failure) throw failure;
+		assert.equal(signal, null, 'The authoring CLI exited from a signal.');
+		assert.equal(
+			code,
+			0,
+			`The authoring CLI failed: ${stderr.toString('utf8')}\n${stdout.toString('utf8')}`,
+		);
+		const result = JSON.parse(stdout.toString('utf8'));
+		assert.equal(result.ok, true, `The authoring CLI rejected ${request.command}.`);
+		return result.result;
+	} finally {
+		let enumerationError;
+		if (tool.pid && alive(tool.pid)) {
+			try {
+				for (const pid of descendants(tool.pid)) owned.add(pid);
+			} catch (error) {
+				// Still stop the exact child and previously observed descendants if
+				// process inventory failed; never report an unverified cleanup green.
+				enumerationError = error;
+			}
+		}
+		const running = [...owned].reverse().filter(alive);
+		if (running.length) {
+			console.log('Owned pack CLI process IDs: ' + running.join(', '));
+			for (const pid of running) {
+				signalOwned(pid, 'SIGTERM');
+			}
+			let deadline = Date.now() + 2500;
+			while (running.some(alive) && Date.now() < deadline) await delay(25);
+			for (const pid of running.filter(alive)) {
+				signalOwned(pid, 'SIGKILL');
+			}
+			deadline = Date.now() + 2500;
+			while (running.some(alive) && Date.now() < deadline) await delay(25);
+			assert.ok(
+				running.every(pid => !alive(pid)),
+				'An owned pack CLI process survived cleanup.',
+			);
+		}
+		assert.equal(enumerationError, undefined, 'Pack CLI descendants could not be fully inspected.');
+	}
+}
+async function verifyPackAuthoringCli() {
+	const profiles = await packCommand({command: 'profiles'});
+	assert.ok(
+		Array.isArray(profiles) && profiles.length > 0,
+		'The packaged profiles must be present.',
+	);
+	const profile = profiles[0];
+	assert.ok(typeof profile.id === 'string' && profile.characters.length > 0);
+	assert.ok(
+		Array.isArray(profile.notation.legend),
+		'The profile must include usable notation metadata.',
+	);
+	const directory = join(scratch, 'pack authoring', 'empty workspace');
+	const created = await packCommand({
+		command: 'create',
+		directory,
+		title: 'Installer CLI workspace',
+		author: 'Smoke test',
+		games: [profile],
+	});
+	const opened = await packCommand({command: 'read', directory});
+	assert.equal(opened.workspace.id, created.workspace.id);
+	assert.equal(opened.workspace.games[0].id, profile.id);
+	assert.deepEqual(opened.workspace.references, []);
+	const empty = await packCommand({command: 'validate', directory});
+	assert.equal(empty.valid, false, 'An empty workspace must not be exported as a complete pack.');
+	assert.ok(empty.errors.length > 0);
+	const sample = join(scratch, 'pack authoring', 'sample workspace');
+	await cp(fileURLToPath(new URL('../../docs/packs/sample/', import.meta.url)), sample, {
+		recursive: true,
+	});
+	const report = await packCommand({command: 'validate', directory: sample});
+	assert.equal(report.valid, true);
+	assert.equal(report.referenceCount, 1);
+	const archive = join(scratch, 'pack authoring', 'exported sample.hcpack');
+	const exported = await packCommand({command: 'export', directory: sample, output: archive});
+	assert.equal(exported.manifest.formatVersion, 2);
+	assert.equal(exported.referenceCount, 1);
+	assert.ok((await stat(archive)).size > 0);
+	const forkDirectory = join(scratch, 'pack authoring', 'fork workspace');
+	const fork = await packCommand({
+		command: 'fork',
+		directory: forkDirectory,
+		archive,
+		author: 'CLI fork creator',
+	});
+	assert.notEqual(fork.workspace.id, exported.manifest.id);
+	assert.equal(fork.workspace.derivedFrom.id, exported.manifest.id);
+	assert.equal(fork.workspace.references[0].verification.status, 'draft');
+	assert.equal((await packCommand({command: 'validate', directory: forkDirectory})).valid, true);
+	return {
+		mode: values.native ? 'native' : 'bundled-node',
+		profiles: profiles.length,
+		exportedReferences: 1,
+		forkedReferences: 1,
+	};
+}
+
+async function verifyReleasedLibraryUpgrade() {
+	const library = join(scratch, 'released-v1-library');
+	const seed = JSON.parse(await readFile(join(resources, 'seed/manifest.json'), 'utf8'));
+	const legacy = {
+		formatVersion: 1,
+		id: seed.id,
+		version: '1.0.0',
+		games: seed.games,
+		catalogs: seed.catalogs,
+		files: seed.files,
+	};
+	const packRoot = join(library, 'packs', legacy.id);
+	await cp(join(resources, 'seed'), packRoot, {recursive: true});
+	const manifest = JSON.stringify(legacy, null, 2) + '\n';
+	await writeFile(join(packRoot, 'manifest.json'), manifest);
+	await writeFile(join(packRoot, '.installed.json'), JSON.stringify({installedAt: 1794700800000}));
+	const fixture = fileURLToPath(
+		new URL('../../apps/server/src/test-fixtures/v1.0.0.sql', import.meta.url),
+	);
+	execFileSync(
+		node,
+		[
+			'--input-type=module',
+			'-e',
+			`import {DatabaseSync} from 'node:sqlite';import{readFileSync}from'node:fs';const db=new DatabaseSync(process.argv[1]);db.exec(readFileSync(process.argv[2],'utf8'));db.close();`,
+			join(library, 'hyper-chamber.sqlite'),
+			fixture,
+		],
+		{encoding: 'utf8'},
+	);
+	const query = () =>
+		JSON.parse(
+			execFileSync(
+				node,
+				[
+					'--input-type=module',
+					'-e',
+					`import{DatabaseSync}from'node:sqlite';const db=new DatabaseSync(process.argv[1],{readOnly:true});console.log(JSON.stringify({schema:db.prepare('PRAGMA user_version').get().user_version,packs:db.prepare('SELECT id,root FROM installed_packs ORDER BY id').all()}));db.close();`,
+					join(library, 'hyper-chamber.sqlite'),
+				],
+				{encoding: 'utf8'},
+			),
+		);
+	const hashes = new Map();
+	for (const file of legacy.files)
+		hashes.set(
+			file.path,
+			createHash('sha256')
+				.update(await readFile(join(packRoot, file.path)))
+				.digest('hex'),
+		);
+	const expectedId = '6e1b9675-e60a-4e04-8ae7-d6a93d219380';
+	let address = await launch(library);
+	const runtime = await (await fetch(address + '/api/runtime')).json();
+	assert.equal(
+		runtime.appVersion,
+		metadata.appVersion,
+		'The candidate app version is independent of a v1 library.',
+	);
+	assert.equal(runtime.protocolVersion, 2);
+	assert.equal(runtime.libraryId, expectedId);
+	assert.equal(runtime.content.packs, 1);
+	const entries = (await (await fetch(address + '/api/practice')).json()).entries;
+	assert.deepEqual(entries['dhalsim-full-early-lights-od-fire'], {
+		saved: true,
+		status: 'reliable',
+		note: 'Keep this released-library note.',
+		revision: 3,
+		rowVersion: 3,
+		updatedAt: '2026-11-15T00:00:00.000Z',
+	});
+	assert.equal(entries['temporarily-unavailable'].note, 'Keep unavailable references too.');
+	const state = query();
+	assert.equal(state.schema, 2);
+	assert.deepEqual(state.packs, [{id: legacy.id, root: `packs/${legacy.id}`}]);
+	assert.equal(
+		await readFile(join(packRoot, 'manifest.json'), 'utf8'),
+		manifest,
+		'Upgrading must not rewrite legacy pack metadata.',
+	);
+	for (const [path, hash] of hashes)
+		assert.equal(
+			createHash('sha256')
+				.update(await readFile(join(packRoot, path)))
+				.digest('hex'),
+			hash,
+			`Upgrading changed legacy pack bytes: ${path}`,
+		);
+	const catalog = await (await fetch(address + '/api/catalog')).json();
+	assert.equal(catalog.references.length, 3);
+	const clip = await fetch(address + catalog.references[0].media.clip, {
+		headers: {Range: 'bytes=0-127'},
+	});
+	assert.equal(clip.status, 206);
+	assert.equal((await clip.arrayBuffer()).byteLength, 128);
+	const snapshots = await readdir(join(library, 'snapshots'));
+	assert.equal(snapshots.length, 1);
+	assert.match(snapshots[0], /^before-schema-1-/);
+	await stop(address);
+	address = await launch(library);
+	const repeated = await (await fetch(address + '/api/practice')).json();
+	assert.equal(repeated.libraryId, expectedId);
+	assert.deepEqual(repeated.entries, entries);
+	assert.deepEqual(query(), state);
+	assert.deepEqual(
+		await readdir(join(library, 'snapshots')),
+		snapshots,
+		'Reopening a migrated library must not create another migration snapshot.',
+	);
+	await stop(address);
+	return {from: '1.0.0', schema: 2, legacyPacks: 1, preservedEntries: Object.keys(entries).length};
+}
+
 try {
+	const packAuthoring = await verifyPackAuthoringCli();
 	// First isolate the packaged backend from native bootstrap on the Windows installer runner.
 	if (values.native && process.platform === 'win32') {
 		launchNative = false;
@@ -280,6 +568,8 @@ try {
 			'Content-Type': 'application/json',
 			Origin: url,
 			'X-Hyper-Chamber-Library': runtime.libraryId,
+			'X-Hyper-Chamber-Maintenance': String(runtime.maintenanceRevision),
+			'X-Hyper-Chamber-Protocol': String(runtime.protocolVersion),
 		},
 		body: JSON.stringify({
 			expectedVersion: 0,
@@ -299,8 +589,11 @@ try {
 	assert.equal(stored.entries[reference.id].note, 'Installer smoke persistence.');
 	assert.equal(stored.entries[reference.id].saved, true);
 	await stop(url);
+	const upgrade = await verifyReleasedLibraryUpgrade();
 	const proof = {
 		passed: true,
+		upgrade,
+		packAuthoring,
 		platform: process.platform,
 		arch: process.arch,
 		version: metadata.appVersion,
@@ -316,6 +609,8 @@ try {
 			uiAssets: assets.length,
 			sqliteSave: true,
 			persistenceAfterRestart: true,
+			upgradeFromV1: true,
+			packAuthoringCli: true,
 			ownedProcessesStopped: true,
 			thirdPartyNotices: true,
 		},
@@ -326,7 +621,7 @@ try {
 	const diagnostics = {};
 	for (const [name, path] of [
 		['nativeStartup', join(scratch, 'native-startup.jsonl')],
-		['serverLog', join(scratch, 'library/server.log')],
+		['serverLog', join(activeLibrary, 'server.log')],
 	]) {
 		try {
 			diagnostics[name] = (await readFile(path, 'utf8')).slice(-65536);

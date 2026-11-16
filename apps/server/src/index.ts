@@ -3,10 +3,15 @@ import {networkInterfaces} from 'node:os';
 import {extname} from 'node:path';
 import {timingSafeEqual} from 'node:crypto';
 import {z, ZodError} from 'zod';
-import {referenceIdSchema, type LibraryRuntime} from '@hyper-chamber/reference';
+import {
+	referenceIdSchema,
+	libraryProtocolVersion,
+	type LibraryRuntime,
+} from '@hyper-chamber/reference';
 import {LibraryCatalog} from './catalog';
 import {HttpError, readJson, sendJson, serveFile} from './http';
-import {PracticeConflict, PracticeStore} from './store';
+import {PracticeConflict, acquireLibraryOwnership} from './store';
+import {AuthoringMedia} from './authoring-media';
 
 export {LibraryCatalog, packManifestSchema} from './catalog';
 export {PracticeStore, PracticeConflict, migrateDatabase, databaseMigrations} from './store';
@@ -83,8 +88,17 @@ export async function startLibraryServer(options: ServerOptions): Promise<Librar
 	const host = options.host ?? '127.0.0.1';
 	if (!['127.0.0.1', '::1'].includes(host))
 		throw new Error('The primary server must listen on loopback. Use sharing for network access.');
-	const catalog = await LibraryCatalog.open(options);
-	const store = await PracticeStore.open(options.libraryDir);
+	const releaseOwnership = await acquireLibraryOwnership(options.libraryDir);
+	let catalog: LibraryCatalog;
+	try {
+		catalog = await LibraryCatalog.open(options);
+	} catch (error) {
+		releaseOwnership();
+		throw error;
+	}
+	const store = catalog.store;
+	const authoringMedia = new AuthoringMedia();
+	let maintenance = false;
 	let lan: Server | undefined;
 	let closed = false;
 	let closing: Promise<void> | undefined;
@@ -97,10 +111,16 @@ export async function startLibraryServer(options: ServerOptions): Promise<Librar
 		addresses: lan?.listening ? networkAddresses(portOf(lan)) : [],
 	});
 	const runtime = (): LibraryRuntime => ({
-		appVersion: options.appVersion ?? '1.0.0-beta.1',
+		protocolVersion: libraryProtocolVersion,
+		maintenanceRevision: store.maintenanceRevision,
+		appVersion: options.appVersion ?? '1.1.0',
 		libraryId: store.libraryId,
 		sharing: sharing(),
-		content: {references: catalog.snapshot.references.length, packs: catalog.packCount},
+		content: {
+			references: catalog.snapshot.references.length,
+			packs: catalog.packCount,
+			generation: catalog.generation,
+		},
 	});
 
 	const assertHost = (request: IncomingMessage, server: Server): URL => {
@@ -135,11 +155,23 @@ export async function startLibraryServer(options: ServerOptions): Promise<Librar
 		}
 	};
 	const requireLibrary = (request: IncomingMessage): void => {
+		if (maintenance)
+			throw new HttpError(
+				503,
+				'maintenance',
+				'The library is being restored. Your draft has been kept; reload before saving.',
+			);
 		if (request.headers['x-hyper-chamber-library'] !== store.libraryId)
 			throw new HttpError(
 				409,
 				'library_changed',
 				'The active library has changed. Reload the application before saving.',
+			);
+		if (request.headers['x-hyper-chamber-maintenance'] !== String(store.maintenanceRevision))
+			throw new HttpError(
+				409,
+				'maintenance_changed',
+				'The library was updated or restored. Reload before saving; your draft has been kept.',
 			);
 	};
 	const requireAdmin = (request: IncomingMessage, server: Server): void => {
@@ -188,7 +220,8 @@ export async function startLibraryServer(options: ServerOptions): Promise<Librar
 			if (path === '/api/health' && method === 'GET') {
 				sendJson(response, 200, {
 					app: 'hyper-chamber',
-					protocolVersion: 1,
+					protocolVersion: libraryProtocolVersion,
+					maintenanceRevision: store.maintenanceRevision,
 					libraryId: store.libraryId,
 				});
 				return;
@@ -198,7 +231,12 @@ export async function startLibraryServer(options: ServerOptions): Promise<Librar
 				return;
 			}
 			if (path === '/api/catalog' && method === 'GET') {
-				sendJson(response, 200, {...catalog.snapshot, libraryId: store.libraryId});
+				sendJson(response, 200, {
+					...catalog.snapshot,
+					generation: catalog.generation,
+					protocolVersion: libraryProtocolVersion,
+					libraryId: store.libraryId,
+				});
 				return;
 			}
 			if (path === '/api/practice' && method === 'GET') {
@@ -207,13 +245,17 @@ export async function startLibraryServer(options: ServerOptions): Promise<Librar
 			}
 			if (path === '/api/practice/import' && method === 'POST') {
 				requireLibrary(request);
-				sendJson(response, 200, store.importLegacy(await readJson(request, 16 * 1024 ** 2)));
+				const value = await readJson(request, 16 * 1024 ** 2);
+				requireLibrary(request);
+				sendJson(response, 200, store.importLegacy(value));
 				return;
 			}
 			if (path.startsWith('/api/practice/') && method === 'PATCH') {
 				requireLibrary(request);
 				const id = referenceIdSchema.parse(path.slice('/api/practice/'.length));
-				const entry = store.patch(id, await readJson(request, 32 * 1024), catalog.revision(id));
+				const value = await readJson(request, 32 * 1024);
+				requireLibrary(request);
+				const entry = store.patch(id, value, catalog.revision(id));
 				sendJson(response, 200, {entry});
 				return;
 			}
@@ -226,18 +268,134 @@ export async function startLibraryServer(options: ServerOptions): Promise<Librar
 					sendJson(response, 200, await app.setSharing(value.enabled));
 					return;
 				}
-				if (path === '/api/admin/content/import') {
-					const value = z
-						.strictObject({path: z.string().min(1).max(4096)})
-						.parse(await readJson(request, 8192));
+
+				if (path.startsWith('/api/admin/content/')) {
 					try {
-						sendJson(response, 200, await catalog.importArchive(value.path));
+						if (path === '/api/admin/content/list') {
+							sendJson(response, 200, await catalog.inventory());
+							return;
+						}
+						if (path === '/api/admin/content/preview') {
+							const value = z
+								.strictObject({path: z.string().min(1).max(4096)})
+								.parse(await readJson(request, 8192));
+							sendJson(response, 200, await catalog.previewArchive(value.path));
+							return;
+						}
+						if (path === '/api/admin/content/remove-preview') {
+							const value = z
+								.strictObject({packId: referenceIdSchema})
+								.parse(await readJson(request, 4096));
+							sendJson(response, 200, await catalog.previewRemoval(value.packId));
+							return;
+						}
+						if (path === '/api/admin/content/discard') {
+							const value = z.strictObject({token: z.uuid()}).parse(await readJson(request, 4096));
+							await catalog.discardPreview(value.token);
+							sendJson(response, 200, {discarded: true});
+							return;
+						}
+						if (path === '/api/admin/content/import' || path === '/api/admin/content/commit') {
+							const value = z
+								.union([
+									z.strictObject({path: z.string().min(1).max(4096)}),
+									z.strictObject({
+										token: z.uuid(),
+										expectedGeneration: z.number().int().nonnegative().safe(),
+										allowConflicts: z.boolean().optional(),
+										allowDowngrade: z.boolean().optional(),
+									}),
+								])
+								.parse(await readJson(request, 8192));
+							sendJson(
+								response,
+								200,
+								'path' in value
+									? await catalog.importArchive(value.path)
+									: await catalog.commitPreview(value.token, value),
+							);
+							return;
+						}
+						if (path === '/api/admin/content/remove') {
+							const value = z
+								.strictObject({
+									packId: referenceIdSchema,
+									expectedGeneration: z.number().int().nonnegative().safe(),
+									allowFallback: z.boolean().optional(),
+								})
+								.parse(await readJson(request, 4096));
+							sendJson(
+								response,
+								200,
+								await catalog.removePack(
+									value.packId,
+									value.expectedGeneration,
+									value.allowFallback,
+								),
+							);
+							return;
+						}
 					} catch (error) {
+						if (error instanceof ZodError) throw error;
 						throw new HttpError(
 							400,
 							'invalid_pack',
-							error instanceof Error ? error.message : 'The content pack could not be installed.',
+							error instanceof Error
+								? error.message
+								: 'The content operation could not be completed.',
 						);
+					}
+				}
+				if (path === '/api/admin/authoring/preview') {
+					const value = z
+						.strictObject({directory: z.string().min(1).max(4096)})
+						.parse(await readJson(request, 8192));
+					sendJson(response, 200, await authoringMedia.register(value.directory));
+					return;
+				}
+				if (path === '/api/admin/authoring/release') {
+					const value = z
+						.strictObject({token: z.string().regex(/^[a-f0-9]{64}$/)})
+						.parse(await readJson(request, 4096));
+					authoringMedia.release(value.token);
+					sendJson(response, 200, {released: true});
+					return;
+				}
+				if (path === '/api/admin/backup/list') {
+					sendJson(response, 200, {
+						snapshots: await store.listBackups(),
+						maintenanceRevision: store.maintenanceRevision,
+					});
+					return;
+				}
+				if (path === '/api/admin/backup/restore') {
+					const value = z
+						.strictObject({
+							file: z.string().min(1).max(200),
+							expectedMaintenanceRevision: z.number().int().nonnegative().safe(),
+						})
+						.parse(await readJson(request, 4096));
+					if (maintenance)
+						throw new HttpError(
+							503,
+							'maintenance',
+							'The library is already being restored. Wait for it to finish.',
+						);
+					maintenance = true;
+					try {
+						sendJson(
+							response,
+							200,
+							await catalog.restoreNotes(value.file, value.expectedMaintenanceRevision),
+						);
+					} catch (error) {
+						throw new HttpError(
+							400,
+							'invalid_backup',
+							error instanceof Error ? error.message : 'The notes could not be restored.',
+						);
+					} finally {
+						maintenance = false;
 					}
 					return;
 				}
@@ -253,26 +411,53 @@ export async function startLibraryServer(options: ServerOptions): Promise<Librar
 					return;
 				}
 			}
+			if (path.startsWith('/api/authoring/media/') && (method === 'GET' || method === 'HEAD')) {
+				if (server !== primary || !localAddress(request.socket.remoteAddress))
+					throw new HttpError(
+						403,
+						'host_only',
+						'Workspace media is available only on this computer.',
+					);
+				if (await authoringMedia.serve(request, response, path)) return;
+			}
 			if (path.startsWith('/api/'))
 				throw new HttpError(404, 'not_found', 'This application endpoint was not found.');
 			if (method !== 'GET' && method !== 'HEAD')
 				throw new HttpError(405, 'method_not_allowed', 'This resource is read-only.');
+
 			if (path.startsWith('/media/')) {
-				const file = catalog.media(path);
+				const rawGeneration = new URL(request.url ?? '/', origin).searchParams.get('generation');
+				const generation = rawGeneration === null ? undefined : Number(rawGeneration);
 				if (
-					file &&
-					(await serveFile(request, response, file.root, file.path, {
-						hash: file.sha256,
-						media: true,
-					}))
+					generation !== undefined &&
+					(!/^\d+$/.test(rawGeneration!) || !Number.isSafeInteger(generation))
 				)
-					return;
+					throw new HttpError(400, 'invalid_generation', 'The media generation is invalid.');
+				const held = catalog.holdMedia(path, generation);
+				if (held) {
+					const release = held.release;
+					response.once('close', release);
+					response.once('finish', release);
+					try {
+						const served = await serveFile(request, response, held.file.root, held.file.path, {
+							hash: held.file.sha256,
+							media: true,
+						});
+						if (response.destroyed || response.writableEnded) release();
+						if (served) return;
+					} catch (error) {
+						release();
+						throw error;
+					}
+					release();
+				}
 				throw new HttpError(
-					404,
+					generation !== undefined && generation !== catalog.generation ? 410 : 404,
 					'media_unavailable',
-					'This clip or frame is not installed. Import its character pack to view it.',
+					'This clip or frame is not installed or its edition changed. Reload the library to continue.',
 				);
 			}
+
 			if (options.webDir) {
 				const localPath = path === '/' ? 'index.html' : path.slice(1);
 				if (
@@ -373,7 +558,12 @@ export async function startLibraryServer(options: ServerOptions): Promise<Librar
 				await sharingTask?.catch(() => undefined);
 				await Promise.all([stop(primary), lan ? stop(lan) : Promise.resolve()]);
 				await Promise.allSettled(handlers);
-				store.close();
+				authoringMedia.close();
+				try {
+					await catalog.close();
+				} finally {
+					releaseOwnership();
+				}
 			})();
 			return closing;
 		},
@@ -381,7 +571,12 @@ export async function startLibraryServer(options: ServerOptions): Promise<Librar
 	try {
 		await listen(primary, options.port ?? 5376, host);
 	} catch (error) {
-		store.close();
+		authoringMedia.close();
+		try {
+			await catalog.close();
+		} finally {
+			releaseOwnership();
+		}
 		throw error;
 	}
 	return app;

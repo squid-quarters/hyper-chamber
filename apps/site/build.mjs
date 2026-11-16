@@ -3,6 +3,7 @@ import {createRequire} from 'node:module';
 import {fileURLToPath} from 'node:url';
 import {dirname, join, resolve} from 'node:path';
 import {checkSite} from './check.mjs';
+import {buildGuides} from './docs.mjs';
 
 const site = dirname(fileURLToPath(import.meta.url));
 const repo = resolve(site, '../..');
@@ -32,5 +33,6 @@ for (const [name, file] of fontFiles) {
 await writeFile(join(output, 'assets/font-licenses.txt'), licenses.join('\n\n'));
 await cp(join(repo, 'docs/screenshots/README.md'), join(output, 'assets/screenshot-sources.md'));
 await writeFile(join(output, '.nojekyll'), '');
+await buildGuides(repo, output);
 await checkSite(output);
 console.log('Built the static project site in apps/site/build. No publication was performed.');

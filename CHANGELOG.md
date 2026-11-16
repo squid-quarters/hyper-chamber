@@ -1,7 +1,13 @@
 # Changelog
 
-## Unreleased
+## Unreleased — 1.1.0 development
 
+- Add an installed-pack manager with change previews, explicit overlap/rollback approval, removal and reimport repair. Keep notes and progress when content is removed, including the last pack.
+- Migrate libraries to SQLite schema 2 with an active-pack registry, pre-migration snapshots and one host per library. Use API protocol 2 and reject stale writes after notes recovery.
+- Restore notes and progress from a same-library snapshot while keeping installed packs. Preserve current data before restoration and prompt connected clients to reload.
+- Add a native pack creator for already-trimmed MP4/WebM clips, captured moments, inputs and provenance, with saved-reference preview and local export. Share its tools with a packaged JSON CLI and portable AI skill.
+- Read legacy format-1 packs and export format 2 with creator metadata, independent editions and original-recording sources. Publish pack-authoring guides and an attributed synthetic example with the project-site build.
+- Release media handles when requests disconnect and unload detached replay elements. Add bounded local server/browser performance checks without telemetry.
 - Bound every ZIP entry during content-pack import, including directory entries, and reject payloads hidden in directories.
 - Prevent other websites from embedding the application in a frame.
 - Reject symlinks at the desktop log and library packs paths.

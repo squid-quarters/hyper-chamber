@@ -1,0 +1,93 @@
+{
+	"workspaceVersion": 1,
+	"editRevision": 0,
+	"id": "community-demo-placeholder",
+	"version": "1.0.0",
+	"title": "Synthetic authoring example",
+	"author": "Squid Quarters",
+	"games": [
+		{
+			"id": "demo-arena",
+			"name": "Demo Arena (synthetic)",
+			"resourceLabels": {},
+			"notation": {
+				"description": "This sample is a file-format example, not gameplay. Replace its recording and annotations.",
+				"numpad": false,
+				"legend": [
+					{
+						"term": "DEMO",
+						"meaning": "Synthetic authoring marker; not a fighting-game input."
+					}
+				]
+			},
+			"guides": [],
+			"characters": [
+				{
+					"id": "demo-marker",
+					"name": "Demo marker"
+				}
+			]
+		}
+	],
+	"references": [
+		{
+			"id": "community-demo-placeholder-example",
+			"gameId": "demo-arena",
+			"participants": [
+				{
+					"id": "main",
+					"characterId": "demo-marker"
+				}
+			],
+			"revision": 1,
+			"title": "Replace this demo with your recording",
+			"summary": "A synthetic recording for trying the pack editor. This is not a gameplay demonstration.",
+			"kind": "response",
+			"situations": ["Authoring example"],
+			"outcomes": ["Replace the sample"],
+			"notation": "DEMO",
+			"inputs": [
+				{
+					"id": "demo-input",
+					"notation": "DEMO",
+					"label": "Synthetic marker, not a game input"
+				}
+			],
+			"conditions": [],
+			"notes": [
+				"Replace this recording and every gameplay annotation before using this workspace for a real reference.",
+				"Original synthetic sample by Squid Quarters, 2026. The sample files may be reused under 0BSD; see https://squid-quarters.github.io/hyper-chamber/create-packs/sample/COPYING. This permission does not cover the rest of Hyper Chamber or third-party media."
+			],
+			"resources": {},
+			"source": {
+				"kind": "recording",
+				"id": "synthetic-demo-20261116",
+				"title": "Hyper Chamber synthetic authoring example",
+				"creator": "Squid Quarters",
+				"published": "2026-11-16",
+				"start": 0,
+				"end": 4
+			},
+			"verification": {
+				"status": "draft",
+				"gameVersion": null,
+				"note": "Synthetic authoring example. No game, move, input sequence or timing has been verified."
+			},
+			"media": {
+				"clip": "/media/demo-placeholder/clip.mp4",
+				"hasAudio": false,
+				"poster": "/media/demo-placeholder/poster.jpg",
+				"frames": [
+					{
+						"id": "demo-start",
+						"src": "/media/demo-placeholder/poster.jpg",
+						"at": 0.5,
+						"label": "Synthetic example",
+						"alt": "A gold marker on a dark canvas, labeled Demo footage — replace with your recording and Not gameplay."
+					}
+				]
+			},
+			"relatedIds": []
+		}
+	]
+}

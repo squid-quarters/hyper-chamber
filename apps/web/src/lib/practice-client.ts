@@ -1,5 +1,6 @@
 import {z} from 'zod';
 import {
+	libraryProtocolVersion,
 	legacyLibrarySchema,
 	personalEntrySchema,
 	personalPatchSchema,
@@ -86,6 +87,7 @@ function parseDrafts(raw: string): Record<string, Draft> {
 /** One server library is authoritative. Browser storage holds recovery drafts only. */
 export class PracticeClient {
 	private libraryId: string | null = null;
+	private maintenanceRevision: number | null = null;
 	private readonly expectedLibraryId: string | undefined;
 	private server: Record<string, StoredPersonalEntry> = {};
 	private drafts: Record<string, Draft> = {};
@@ -104,12 +106,15 @@ export class PracticeClient {
 	private running: Promise<void> | null = null;
 	private disposed = false;
 	private restored = false;
+	private readonly controller = new AbortController();
+	private loading: Promise<void> | null = null;
 	private readonly request: typeof fetch;
 	private readonly storage: DraftStorage | null;
 	constructor(
 		options: {fetch?: typeof fetch; storage?: DraftStorage | null; expectedLibraryId?: string} = {},
 	) {
-		this.request = options.fetch ?? fetch;
+		const send = options.fetch ?? fetch;
+		this.request = (input, init) => send(input, {...init, signal: this.controller.signal});
 		this.expectedLibraryId =
 			options.expectedLibraryId === undefined
 				? undefined
@@ -165,20 +170,41 @@ export class PracticeClient {
 		if (!this.server[entryId] || this.server[entryId].rowVersion <= entry.rowVersion)
 			this.server[entryId] = entry;
 	}
-	private lock(): never {
+	private lock(reason = IDENTITY_ERROR): never {
 		this.locked = true;
-		this.error = IDENTITY_ERROR;
+		this.error = reason;
 		if (this.timer) {
 			clearTimeout(this.timer);
 			this.timer = undefined;
 		}
-		throw new Error(IDENTITY_ERROR);
+		throw new Error(reason);
 	}
 	private async checkIdentityResponse(response: Response) {
 		if (this.locked) throw new Error(IDENTITY_ERROR);
-		if (response.status === 412) this.lock();
+		if (response.status === 412) {
+			const reason: unknown = await response
+				.clone()
+				.json()
+				.catch(() => null);
+			const identityChanged = z
+				.object({error: z.object({code: z.literal('library_changed')})})
+				.safeParse(reason).success;
+			this.lock(
+				identityChanged
+					? IDENTITY_ERROR
+					: 'The library was updated or restored. Reload before editing; your unsaved drafts are kept.',
+			);
+		}
 		if (response.status === 409) {
 			const data: unknown = await response.clone().json();
+			if (
+				z
+					.object({error: z.object({code: z.enum(['maintenance_changed', 'protocol_changed'])})})
+					.safeParse(data).success
+			)
+				this.lock(
+					'The library was updated or restored. Reload before editing; your unsaved drafts are kept.',
+				);
 			if (
 				z.object({error: z.object({code: z.literal('library_changed')})}).safeParse(data).success ||
 				(data && typeof data === 'object' && 'code' in data && data.code === 'library_changed')
@@ -188,9 +214,21 @@ export class PracticeClient {
 	}
 	private headers(): Record<string, string> {
 		if (!this.libraryId || this.locked) throw new Error(IDENTITY_ERROR);
-		return {'Content-Type': 'application/json', 'X-Hyper-Chamber-Library': this.libraryId};
+		return {
+			'Content-Type': 'application/json',
+			'X-Hyper-Chamber-Library': this.libraryId,
+			'X-Hyper-Chamber-Protocol': String(libraryProtocolVersion),
+			'X-Hyper-Chamber-Maintenance': String(this.maintenanceRevision ?? 0),
+		};
 	}
 	private async readSnapshot() {
+		const health = await this.request('/api/health');
+		if (!health.ok) throw new Error('Your library could not be reached.');
+		const protocol = z.object({protocolVersion: z.number().int()}).parse(await health.json());
+		if (protocol.protocolVersion !== libraryProtocolVersion)
+			this.lock(
+				'The application was updated. Reload before editing; your unsaved drafts are kept.',
+			);
 		const response = await this.request('/api/practice');
 		await this.checkIdentityResponse(response);
 		if (!response.ok) throw new Error('Your library could not be loaded. Retry the connection.');
@@ -200,13 +238,25 @@ export class PracticeClient {
 			(this.libraryId && this.libraryId !== value.libraryId)
 		)
 			this.lock();
+		if (this.maintenanceRevision !== null && this.maintenanceRevision !== value.maintenanceRevision)
+			this.lock('Notes were restored. Reload before editing; your unsaved drafts are kept.');
+		this.maintenanceRevision = value.maintenanceRevision;
 		this.libraryId = value.libraryId;
 		for (const [id, entry] of Object.entries(value.entries)) this.accept(id, entry);
 	}
-	async load(): Promise<void> {
+	load(): Promise<void> {
+		if (this.locked || this.disposed) return Promise.resolve();
+		if (this.loading) return this.loading;
+		this.loading = this.loadCurrent().finally(() => {
+			this.loading = null;
+		});
+		return this.loading;
+	}
+	private async loadCurrent(): Promise<void> {
 		if (this.locked || this.disposed) return;
 		try {
 			await this.readSnapshot();
+			if (this.disposed) return;
 			if (!this.restored) {
 				this.restored = true;
 				await this.transferBrowserData();
@@ -216,7 +266,7 @@ export class PracticeClient {
 			this.emit();
 			if (Object.keys(this.drafts).length) await this.flush();
 		} catch (error) {
-			this.error = this.locked ? IDENTITY_ERROR : failure(error);
+			this.error = this.locked ? (this.error ?? IDENTITY_ERROR) : failure(error);
 			this.emit();
 		}
 	}
@@ -490,7 +540,7 @@ export class PracticeClient {
 			}
 		} catch (error) {
 			this.error = this.locked
-				? IDENTITY_ERROR
+				? (this.error ?? IDENTITY_ERROR)
 				: `Could not save to your library. ${failure(error)}`;
 			this.persistDrafts();
 		} finally {
@@ -501,6 +551,7 @@ export class PracticeClient {
 
 	dispose() {
 		this.disposed = true;
+		this.controller.abort();
 		if (this.timer) clearTimeout(this.timer);
 		this.listeners.clear();
 	}

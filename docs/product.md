@@ -4,6 +4,10 @@ Hyper Chamber is a fast, visual fighting-game compendium. Its Street Fighter 6 l
 
 The core unit is an individual reference: a combo, setup, or response. A reference combines conditions, persistent notation, selected visual moments, a dedicated replayable clip, and short notes. Search and filters should answer “I remember a route starting with this move; help me find and inspect it.”
 
+The first-version behavior below describes published `1.0.0`. Development `1.1.0`
+adds native pack creation, installed-pack management and selective notes recovery;
+see the [pack guides](packs/index.md) for availability and limits.
+
 ## First version
 
 - Choose a populated character library, then browse and search by notation, move name, situation, and outcome text.

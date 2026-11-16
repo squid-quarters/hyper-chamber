@@ -56,7 +56,11 @@ function memoryStorage(initial: Record<string, string> = {}) {
 }
 
 function client(request: typeof fetch, storage = memoryStorage(), expectedLibraryId?: string) {
-	const value = new PracticeClient({fetch: request, storage, expectedLibraryId});
+	const compatibleFetch: typeof fetch = (input, init) =>
+		input === '/api/health'
+			? Promise.resolve(Response.json({protocolVersion: 2}))
+			: request(input, init);
+	const value = new PracticeClient({fetch: compatibleFetch, storage, expectedLibraryId});
 	clients.push(value);
 	return value;
 }
@@ -93,6 +97,89 @@ afterEach(() => {
 });
 
 describe('SQLite practice client', () => {
+	it('keeps unsaved drafts and blocks writes when the restarted host changes protocol', async () => {
+		let protocol = 2;
+		const storage = memoryStorage();
+		const request = vi.fn<typeof fetch>(async input =>
+			input === '/api/health' ? Response.json({protocolVersion: protocol}) : snapshot(),
+		);
+		const value = new PracticeClient({fetch: request, storage});
+		clients.push(value);
+		await value.load();
+		value.update(reference, {note: 'Keep my unsaved draft'});
+		protocol = 99;
+		await value.load();
+		expect(value.snapshot.locked).toBe(true);
+		expect(value.snapshot.error).toMatch(/reload/i);
+		expect(value.snapshot.pending[reference.id].note).toBe('Keep my unsaved draft');
+		expect(patchRequests(request)).toEqual([]);
+		expect([...storage.values.values()].some(text => text.includes('Keep my unsaved draft'))).toBe(
+			true,
+		);
+	});
+
+	it('requires a reload after a notes restore instead of rebasing drafts onto restored data', async () => {
+		const storage = memoryStorage();
+		const request = vi
+			.fn<typeof fetch>()
+			.mockResolvedValueOnce(
+				Response.json({
+					libraryId: LIBRARY_A,
+					maintenanceRevision: 0,
+					entries: {[reference.id]: row()},
+				}),
+			)
+			.mockResolvedValueOnce(
+				Response.json({
+					libraryId: LIBRARY_A,
+					maintenanceRevision: 1,
+					entries: {[reference.id]: row({note: 'Restored note', rowVersion: 4})},
+				}),
+			);
+		const value = client(request, storage);
+		await value.load();
+		value.update(reference, {note: 'Pending before restore'});
+		await value.load();
+		expect(value.snapshot.locked).toBe(true);
+		expect(value.snapshot.pending[reference.id].note).toBe('Pending before restore');
+		expect(patchRequests(request)).toEqual([]);
+	});
+
+	it('locks on a maintenance response while retaining an in-flight draft', async () => {
+		const request = vi
+			.fn<typeof fetch>()
+			.mockResolvedValueOnce(snapshot())
+			.mockResolvedValueOnce(Response.json({error: {code: 'maintenance_changed'}}, {status: 409}));
+		const value = client(request);
+		await value.load();
+		value.update(reference, {note: 'Draft before a restore'});
+		await value.flush();
+		expect(value.snapshot.locked).toBe(true);
+		expect(value.snapshot.pending[reference.id].note).toBe('Draft before a restore');
+		expect(value.snapshot.error).toMatch(/reload/i);
+	});
+
+	it('coalesces repeated reconnects and aborts its own pending request on disposal', async () => {
+		let pendingSignal: AbortSignal | null | undefined;
+		const request = vi.fn<typeof fetch>(
+			(_input, init) =>
+				new Promise((_resolve, reject) => {
+					pendingSignal = init?.signal;
+					pendingSignal?.addEventListener('abort', () => reject(new Error('Disposed request')), {
+						once: true,
+					});
+				}),
+		);
+		const value = client(request);
+		const first = value.load();
+		const second = value.load();
+		await vi.waitFor(() => expect(request).toHaveBeenCalledTimes(1));
+		expect(pendingSignal).toBeInstanceOf(AbortSignal);
+		value.dispose();
+		expect(pendingSignal?.aborted).toBe(true);
+		await Promise.all([first, second]);
+	});
+
 	it('loads the server snapshot and transfers unknown legacy IDs without changing the browser originals', async () => {
 		const unknown = {
 			...original,
@@ -393,6 +480,7 @@ describe('SQLite practice client', () => {
 		const value = client(request);
 		await value.load();
 		const loading = value.load();
+		await vi.waitFor(() => expect(request).toHaveBeenCalledTimes(2));
 		value.update(reference, {note: 'Acknowledged new note'});
 		await value.flush();
 

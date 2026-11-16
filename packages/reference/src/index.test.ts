@@ -69,6 +69,21 @@ function reference(patch: Partial<Reference> = {}): Reference {
 }
 
 describe('catalog boundaries', () => {
+	it('represents an original recording without fabricating a tutorial URL', () => {
+		const original = reference();
+		const {url: _url, ...metadata} = original.source;
+		const own = referenceSchema.parse({...original, source: {...metadata, kind: 'recording'}});
+		expect(own.source.kind).toBe('recording');
+		expect(sourceLink(own)).toBeUndefined();
+		expect(referenceSchema.safeParse({...original, source: metadata}).success).toBe(false);
+		expect(
+			referenceSchema.safeParse({
+				...original,
+				source: {...metadata, kind: 'recording', url: 'file:///private/video.mp4'},
+			}).success,
+		).toBe(false);
+	});
+
 	it('retains declared source audio while supporting older silent references', () => {
 		const legacy = reference();
 		expect(referenceSchema.parse(legacy).media.hasAudio).toBeUndefined();

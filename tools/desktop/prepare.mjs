@@ -9,7 +9,8 @@ import {writeThirdPartyNotices} from './notices.mjs';
 const output = resolve(process.argv[2] ?? join(repositoryRoot, 'apps/desktop/build/resources'));
 const server = join(repositoryRoot, 'apps/server/dist');
 const web = join(repositoryRoot, 'apps/web/build');
-for (const path of [join(server, 'cli.mjs'), join(web, 'index.html')]) {
+const authoring = join(repositoryRoot, 'packages/authoring/dist');
+for (const path of [join(server, 'cli.mjs'), join(web, 'index.html'), join(authoring, 'cli.mjs')]) {
 	await stat(path).catch(() => {
 		throw new Error(
 			`Build the server and web app before preparing desktop resources. Missing: ${path}`,
@@ -72,6 +73,7 @@ if (!licenseCopied)
 		'The installed Node distribution license was not found; package with an official Node 24 distribution that includes its LICENSE.',
 	);
 await cp(server, join(output, 'server'), {recursive: true});
+await cp(authoring, join(output, 'authoring'), {recursive: true});
 await cp(web, join(output, 'web'), {
 	recursive: true,
 	filter: source => source !== join(web, 'media'),

@@ -1,10 +1,10 @@
 {
 	"name": "@hyper-chamber/desktop",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"prepare:resources": "node ../../tools/desktop/prepare.mjs",
+		"prepare:resources": "pnpm --filter @hyper-chamber/authoring build && node ../../tools/desktop/prepare.mjs",
 		"dev": "tauri dev --no-watch",
 		"build": "tauri build",
 		"typecheck": "cargo check --manifest-path src-tauri/Cargo.toml",
@@ -13,6 +13,7 @@
 		"lint": "cargo clippy --manifest-path src-tauri/Cargo.toml --all-targets -- -D warnings"
 	},
 	"dependencies": {
+		"@hyper-chamber/authoring": "workspace:*",
 		"fflate": "0.8.3"
 	},
 	"devDependencies": {

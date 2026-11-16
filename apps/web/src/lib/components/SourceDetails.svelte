@@ -10,9 +10,14 @@
 	<h2 id={reference.id + '-source-title'}>Source &amp; review</h2>
 	<div class="source-columns">
 		<div class="source-record">
-			<a class="source-title" href={sourceLink(reference)} target="_blank" rel="noreferrer">
-				<span>{reference.source.title}</span><ArrowUpRight size={16} aria-hidden="true" />
-			</a>
+			{#if sourceLink(reference)}
+				<a class="source-title" href={sourceLink(reference)} target="_blank" rel="noreferrer">
+					<span>{reference.source.title}</span><ArrowUpRight size={16} aria-hidden="true" />
+				</a>
+			{:else}
+				<p class="source-title">{reference.source.title}</p>
+				<p class="recording-label">Original recording</p>
+			{/if}
 			<dl class="source-metadata">
 				<div>
 					<dt>Creator</dt>

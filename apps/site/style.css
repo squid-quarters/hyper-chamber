@@ -604,3 +604,294 @@ h2 {
 	margin-top: 20px;
 	justify-self: start;
 }
+
+/* Creator documentation shares the app's restrained ink, ivory and brass. */
+.creator-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+	border-top: 1px solid var(--line);
+	padding-block: 64px 80px;
+}
+.creator-section > div {
+	max-inline-size: 64ch;
+}
+.creator-section p {
+	color: var(--muted);
+	margin-block-start: 20px;
+}
+.creator-section .creator-status {
+	font-size: 13px;
+	margin-block-start: 14px;
+}
+.creator-section .button {
+	flex: none;
+}
+.guide-layout {
+	display: grid;
+	grid-template-columns: 240px minmax(0, 76ch);
+	gap: 64px;
+	max-inline-size: 1248px;
+	margin-inline: auto;
+	padding: 56px 48px 88px;
+	align-items: start;
+}
+.guide-mobile-nav {
+	display: none;
+}
+.guide-sidebar {
+	position: sticky;
+	inset-block-start: 24px;
+}
+.guide-sidebar nav {
+	display: grid;
+	gap: 3px;
+	font-size: 14px;
+}
+.guide-sidebar nav > p {
+	font-weight: 600;
+	padding: 8px 12px;
+}
+.guide-sidebar nav > a {
+	padding: 9px 12px;
+	border-radius: 3px;
+	line-height: 1.5;
+}
+.guide-sidebar nav > a:hover {
+	background: #e9e9df;
+	color: var(--ink);
+}
+.guide-sidebar nav > a[aria-current='page'] {
+	background: var(--panel);
+	color: #f3f5ef;
+}
+.guide-source {
+	display: inline-flex;
+	align-items: center;
+	min-block-size: 44px;
+	margin: 18px 12px 0;
+	font-size: 12px;
+	color: var(--muted);
+}
+.guide-article {
+	padding: 0;
+	margin: 0;
+	max-inline-size: none;
+	min-inline-size: 0;
+	overflow-wrap: anywhere;
+}
+.guide-article h1 {
+	font-size: clamp(2.8rem, 4.8vw, 4rem);
+	line-height: 1.04;
+	margin-block-end: 28px;
+}
+.guide-article h2 {
+	font-size: 2rem;
+	margin-block: 44px 16px;
+	line-height: 1.15;
+}
+.guide-article h3 {
+	font-size: 1.15rem;
+	margin-block: 32px 12px;
+}
+.guide-article p {
+	text-wrap: pretty;
+}
+.guide-article p,
+.guide-article ul,
+.guide-article ol {
+	margin-block: 18px;
+}
+.guide-article ul,
+.guide-article ol {
+	padding-inline-start: 24px;
+}
+.guide-article li + li {
+	margin-block-start: 10px;
+}
+.guide-article li::marker {
+	color: var(--muted);
+}
+.guide-article a {
+	text-decoration-thickness: 1px;
+}
+.guide-article a:hover {
+	color: var(--accent);
+}
+.guide-article strong {
+	font-weight: 600;
+}
+.guide-article code {
+	font-size: 0.88em;
+	background: #e8e9df;
+	border-radius: 3px;
+	padding: 2px 4px;
+	overflow-wrap: anywhere;
+}
+.guide-article pre {
+	margin-block: 24px;
+	padding: 20px 24px;
+	border: 1px solid var(--line);
+	background: var(--surface);
+	border-radius: 4px;
+	overflow-x: auto;
+	font-size: 14px;
+	line-height: 1.65;
+	tab-size: 2;
+}
+.guide-article pre code {
+	padding: 0;
+	background: transparent;
+	font-size: inherit;
+	overflow-wrap: normal;
+}
+.guide-article pre:focus-visible,
+.guide-table:focus-visible {
+	outline: 2px solid var(--accent);
+	outline-offset: 3px;
+}
+.guide-table {
+	overflow-x: auto;
+	margin-block: 24px;
+}
+.guide-table table {
+	inline-size: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+	background: var(--surface);
+}
+.guide-table th,
+.guide-table td {
+	text-align: start;
+	padding: 12px 14px;
+	border-bottom: 1px solid var(--line);
+	vertical-align: top;
+}
+.guide-table th {
+	font-weight: 600;
+	background: #e8e9df;
+}
+.guide-table td:first-child {
+	white-space: nowrap;
+}
+.guide-pagination {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 24px;
+	border-top: 1px solid var(--line);
+	margin-block-start: 48px;
+	padding-block-start: 20px;
+	font-size: 15px;
+}
+.guide-pagination a {
+	display: grid;
+	align-content: start;
+	gap: 4px;
+	min-block-size: 64px;
+	text-decoration: none;
+	font-weight: 600;
+}
+.guide-pagination a:last-child {
+	text-align: end;
+}
+.guide-pagination span {
+	color: var(--muted);
+	font-size: 12px;
+	font-weight: 400;
+}
+@media (max-width: 960px) {
+	.guide-layout {
+		grid-template-columns: 200px minmax(0, 1fr);
+		gap: 32px;
+		padding: 40px 24px 64px;
+	}
+	.creator-section {
+		display: grid;
+		gap: 24px;
+	}
+	.creator-section .button {
+		justify-self: start;
+	}
+}
+@media (max-width: 680px) {
+	.masthead-inner {
+		flex-wrap: wrap;
+		gap: 8px 24px;
+	}
+	.masthead-inner > nav {
+		flex-basis: 100%;
+		justify-content: space-between;
+		gap: 12px;
+	}
+	.guide-layout {
+		display: block;
+		padding: 24px 20px 56px;
+	}
+	.guide-article h1 {
+		font-size: 3rem;
+	}
+	.guide-article h2 {
+		margin-block-start: 36px;
+	}
+	.guide-article pre {
+		padding: 16px;
+		font-size: 13px;
+	}
+	.guide-pagination {
+		gap: 20px;
+	}
+	.creator-section {
+		padding-block: 48px 56px;
+	}
+}
+
+@media (max-width: 680px) {
+	.guide-sidebar {
+		display: none;
+	}
+	.guide-mobile-nav {
+		display: block;
+		border-bottom: 1px solid var(--line);
+		padding-block-end: 20px;
+		margin-block-end: 32px;
+	}
+	.guide-mobile-nav summary {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		cursor: pointer;
+		list-style: none;
+		min-block-size: 44px;
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.guide-mobile-nav summary::-webkit-details-marker {
+		display: none;
+	}
+	.guide-mobile-nav summary:focus-visible {
+		outline: 2px solid var(--accent);
+		outline-offset: 3px;
+	}
+	.guide-mobile-nav[open] summary svg {
+		transform: rotate(180deg);
+	}
+	.guide-mobile-nav nav {
+		display: grid;
+		gap: 4px;
+		font-size: 14px;
+		margin-block-start: 12px;
+	}
+	.guide-mobile-nav nav a {
+		padding: 8px 12px;
+		border-radius: 3px;
+	}
+	.guide-mobile-nav nav a[aria-current='page'] {
+		background: var(--panel);
+		color: #f3f5ef;
+	}
+	.guide-mobile-nav nav a:hover {
+		color: var(--ink);
+		background: #e9e9df;
+	}
+}
