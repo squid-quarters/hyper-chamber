@@ -1,9 +1,9 @@
-# Create packs with an AI agent
+# Create Packs with an AI Agent
 
 Requires the 1.1.0 pack tools. Published 1.0.0 does not include them; use a
 development build until the new installers ship.
 
-## Install the skill
+## Install the Skill
 
 Download the [pack-authoring skill](https://squid-quarters.github.io/hyper-chamber/create-packs/downloads/hyper-chamber-packs.zip)
 and extract its `hyper-chamber-packs` folder.
@@ -14,7 +14,7 @@ See the [Codex skill guide](https://learn.chatgpt.com/docs/build-skills).
 Other agents can use their skill installation method or read `SKILL.md` directly;
 the download follows the [Agent Skills format](https://agentskills.io/specification).
 
-## Give it your footage
+## Give It Your Footage
 
 Provide recordings or a tutorial source and the section you want to use. Name the
 game and characters, choose a workspace folder, and say whether you are making a
@@ -31,7 +31,7 @@ app to inspect or edit the result. The installed pack tools need no separate Nod
 installation or source checkout; [tool access and commands](format.md#json-tool-protocol)
 are in the reference guide.
 
-## Review the result
+## Review the Result
 
 Check inputs, clip boundaries, moment times, conditions and attribution.
 YouTube excerpts need the original creator, URL and excerpt time; original

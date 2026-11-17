@@ -243,8 +243,7 @@ h2 {
 	line-height: 1.08;
 	letter-spacing: -0.01em;
 }
-.section-copy p,
-.beta-section > div > p {
+.section-copy p {
 	max-width: 51ch;
 	color: var(--muted);
 	font-size: 15px;
@@ -315,30 +314,36 @@ h2 {
 	border-radius: 6px;
 	background: var(--surface);
 }
-.beta-section {
+.resource-section {
 	display: grid;
 	grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
-	gap: 15%;
-	padding: 72px 0 80px;
+	gap: var(--feature-gap);
+	align-items: start;
+	padding-block: 64px;
 	border-top: 1px solid var(--line);
 }
-.beta-section h2 {
-	font-size: 2.75rem;
-}
-.beta-availability {
-	align-self: end;
-}
-.beta-availability .beta-state {
-	margin-top: 0;
+.resource-copy p,
+.resource-action p {
+	color: var(--muted);
 	font-size: 15px;
+	line-height: 1.8;
+}
+.resource-copy p {
+	max-inline-size: 58ch;
+	margin-block-start: 22px;
+}
+.resource-action h3 {
+	margin: 0;
+	font-size: 18px;
 	font-weight: 600;
-	color: var(--ink);
+	line-height: 1.5;
 }
-.beta-availability > p + p {
-	margin-top: 10px;
+.resource-action p {
+	max-inline-size: 40ch;
+	margin-block-start: 12px;
 }
-.beta-availability .button {
-	margin-top: 24px;
+.resource-action .button {
+	margin-block-start: 24px;
 }
 .site-footer {
 	background: var(--panel);
@@ -425,9 +430,10 @@ h2 {
 		padding: 52px 0;
 		gap: 36px;
 	}
-	.beta-section {
-		gap: 36px;
-		padding: 52px 0;
+	.resource-section {
+		grid-template-columns: 1fr;
+		gap: 28px;
+		padding-block: 52px;
 	}
 	.site-footer {
 		padding-block: 28px;
@@ -473,8 +479,7 @@ h2 {
 	h2 {
 		font-size: 2.4rem;
 	}
-	.platform-section,
-	.beta-section {
+	.platform-section {
 		grid-template-columns: 1fr;
 	}
 	.platform-section {
@@ -485,12 +490,6 @@ h2 {
 	}
 	.phone-preview {
 		max-width: 280px;
-	}
-	.beta-section {
-		gap: 30px;
-	}
-	.beta-section h2 {
-		font-size: 2.4rem;
 	}
 	.footer-main {
 		grid-template-columns: 1fr auto;
@@ -618,28 +617,6 @@ h2 {
 }
 
 /* Creator documentation shares the app's restrained ink, ivory and brass. */
-.creator-section {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: 40px;
-	border-top: 1px solid var(--line);
-	padding-block: 64px 80px;
-}
-.creator-section > div {
-	max-inline-size: 64ch;
-}
-.creator-section p {
-	color: var(--muted);
-	margin-block-start: 20px;
-}
-.creator-section .creator-status {
-	font-size: 13px;
-	margin-block-start: 14px;
-}
-.creator-section .button {
-	flex: none;
-}
 .guide-layout {
 	display: grid;
 	grid-template-columns: 240px minmax(0, 76ch);
@@ -819,13 +796,6 @@ h2 {
 		gap: 32px;
 		padding-block: 40px 64px;
 	}
-	.creator-section {
-		display: grid;
-		gap: 24px;
-	}
-	.creator-section .button {
-		justify-self: start;
-	}
 }
 @media (max-width: 680px) {
 	.masthead-inner {
@@ -853,9 +823,6 @@ h2 {
 	}
 	.guide-pagination {
 		gap: 20px;
-	}
-	.creator-section {
-		padding-block: 48px 56px;
 	}
 }
 

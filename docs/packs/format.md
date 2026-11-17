@@ -1,9 +1,9 @@
-# Pack format and tool reference
+# Pack Format and Tool Reference
 
 This reference describes the Hyper Chamber 1.1.0 development tools. Legacy packs
 from 1.0.0 remain readable. Older applications do not understand format-2 packs.
 
-## Editable workspace
+## Editable Workspace
 
 A workspace is a folder containing `workspace.json` and its referenced media:
 
@@ -29,7 +29,7 @@ namespace. Keep those IDs when editing your own collection. Forking remaps IDs
 and asset paths and records `derivedFrom`; it does not silently override a pack
 someone else installed.
 
-## Distributed pack
+## Distributed Pack
 
 A `.hcpack` is a ZIP containing a root `manifest.json`, JSON catalogs and ordinary
 media files. Format 2 extends the legacy layout with descriptive creator metadata:
@@ -59,7 +59,7 @@ editions and supports original-recording provenance. A source marked
 `kind: "recording"` has a creator and segment times without needing a YouTube URL.
 Legacy YouTube sources retain their URL and excerpt times.
 
-## Four different changes
+## Four Different Changes
 
 - Application version changes when a desktop build ships.
 - Pack edition changes when that collection's exported content changes.
@@ -73,7 +73,7 @@ and return the saved workspace. Reload that result before making a later edit.
 A change after export needs a new pack edition; the manual editor handles the
 usual increment. An advanced author can set a deliberate semantic edition.
 
-## JSON tool protocol
+## JSON Tool Protocol
 
 On an installed Mac build:
 

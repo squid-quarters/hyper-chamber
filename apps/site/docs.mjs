@@ -6,11 +6,11 @@ import {zipSync} from 'fflate';
 import {exportWorkspace, validateWorkspace} from '@hyper-chamber/authoring';
 
 export const guidePages = [
-	{file: 'index', title: 'Create reference packs'},
-	{file: 'first-pack', title: 'Make your first pack'},
-	{file: 'manage-packs', title: 'Manage packs and updates'},
-	{file: 'ai', title: 'Use an AI agent'},
-	{file: 'format', title: 'Format and tool reference'},
+	{file: 'index', title: 'Create Reference Packs'},
+	{file: 'first-pack', title: 'Make Your First Pack'},
+	{file: 'manage-packs', title: 'Manage Packs and Updates'},
+	{file: 'ai', title: 'Use an AI Agent'},
+	{file: 'format', title: 'Format and Tool Reference'},
 ];
 const guideFiles = new Set(guidePages.map(page => `${page.file}.md`));
 const publicDownloads = 'https://squid-quarters.github.io/hyper-chamber/create-packs/downloads/';
@@ -89,9 +89,9 @@ function guideDocument(page, rendered, index) {
 <html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="color-scheme" content="light" /><meta name="theme-color" content="#202822" />
 <title>${escape(page.title)} · Hyper Chamber</title><meta name="description" content="Create, edit and maintain local Hyper Chamber reference packs. Manual editor and AI authoring guides for the 1.1.0 development build." />
 <link rel="canonical" href="https://squid-quarters.github.io/hyper-chamber/create-packs/${page.file === 'index' ? '' : `${page.file}.html`}" /><link rel="icon" href="../assets/brand-mark.svg" type="image/svg+xml" /><link rel="stylesheet" href="../style.css" /></head>
-<body class="guide-page"><a class="skip-link" href="#main">Skip to content</a>
-<header class="masthead"><div class="masthead-inner"><a class="brand" href="../" aria-label="Hyper Chamber home"><img src="../assets/brand-mark.svg" width="44" height="44" alt="" /><span>Hyper<br /><span>Chamber</span></span></a><nav aria-label="Project navigation"><a href="../#downloads">Downloads</a><a href="./" aria-current="true">Create packs</a><a href="https://github.com/squid-quarters/hyper-chamber">${github}GitHub</a></nav></div></header>
-<div class="guide-layout"><details class="guide-mobile-nav"><summary>Creator guides <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></summary><nav aria-label="Creator guides">${guidePages.map(item => `<a href="${item.file}.html"${item.file === page.file ? ' aria-current="page"' : ''}>${escape(item.title)}</a>`).join('')}</nav></details><aside class="guide-sidebar"><nav aria-label="Creator guides"><p>Pack authoring</p>${guidePages.map(item => `<a href="${item.file}.html"${item.file === page.file ? ' aria-current="page"' : ''}>${escape(item.title)}</a>`).join('')}</nav><a class="guide-source" href="https://github.com/squid-quarters/hyper-chamber/blob/develop/docs/packs/${page.file}.md">View this guide on GitHub</a></aside>
+<body class="guide-page"><a class="skip-link" href="#main">Skip to Content</a>
+<header class="masthead"><div class="masthead-inner"><a class="brand" href="../" aria-label="Hyper Chamber home"><img src="../assets/brand-mark.svg" width="44" height="44" alt="" /><span>Hyper<br /><span>Chamber</span></span></a><nav aria-label="Project navigation"><a href="../#downloads">Downloads</a><a href="./" aria-current="true">Create Packs</a><a href="https://github.com/squid-quarters/hyper-chamber">${github}GitHub</a></nav></div></header>
+<div class="guide-layout"><details class="guide-mobile-nav"><summary>Creator Guides <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></summary><nav aria-label="Creator guides">${guidePages.map(item => `<a href="${item.file}.html"${item.file === page.file ? ' aria-current="page"' : ''}>${escape(item.title)}</a>`).join('')}</nav></details><aside class="guide-sidebar"><nav aria-label="Creator guides"><p>Pack Authoring</p>${guidePages.map(item => `<a href="${item.file}.html"${item.file === page.file ? ' aria-current="page"' : ''}>${escape(item.title)}</a>`).join('')}</nav><a class="guide-source" href="https://github.com/squid-quarters/hyper-chamber/blob/develop/docs/packs/${page.file}.md">View Guide on GitHub</a></aside>
 <main id="main" class="guide-article">${rendered.html}<nav class="guide-pagination" aria-label="Adjacent guides">${previous ? `<a href="${previous.file}.html"><span>Previous</span>${escape(previous.title)}</a>` : '<span></span>'}${next ? `<a href="${next.file}.html"><span>Next</span>${escape(next.title)}</a>` : '<span></span>'}</nav></main></div>
 <footer class="site-footer"><div class="footer-main"><a class="footer-brand" href="../"><img src="../assets/brand-mark.svg" width="28" height="28" alt="" /><span>Hyper Chamber</span></a><p>By Squid Quarters.</p><a class="github-link" href="https://github.com/squid-quarters/hyper-chamber">${github}GitHub</a></div></footer></body></html>\n`;
 }
