@@ -222,7 +222,7 @@
 				type="button"
 				class="button button--quiet"
 				disabled={busy}
-				onclick={preview ? () => cancel() : load}>{preview ? 'Close preview' : 'Retry'}</button
+				onclick={preview ? () => cancel() : load}>{preview ? 'Close Preview' : 'Retry'}</button
 			>
 		</div>{/if}
 	{#if preview}
@@ -230,14 +230,14 @@
 			type="button"
 			class="button button--quiet preview-back"
 			disabled={busy}
-			onclick={() => cancel()}><ArrowLeft size={15} aria-hidden="true" />Installed packs</button
+			onclick={() => cancel()}><ArrowLeft size={15} aria-hidden="true" />Installed Packs</button
 		>
 		<h3 class="preview-title" tabindex="-1" bind:this={previewHeading}>
 			{preview.action === 'remove'
-				? 'Remove pack'
+				? 'Remove Pack'
 				: preview.action === 'update'
-					? 'Update pack'
-					: 'Install pack'}
+					? 'Update Pack'
+					: 'Install Pack'}
 		</h3>
 		<p class="preview-name">{preview.pack.title}</p>
 		<p class="pack-meta">
@@ -256,11 +256,11 @@
 					<dd>{references(preview.changed.length)}</dd>
 				</div>{/if}
 			{#if preview.removed.length}<div>
-					<dt>Unavailable after this change</dt>
+					<dt>Unavailable After This Change</dt>
 					<dd>{references(preview.removed.length)}</dd>
 				</div>{/if}
 			{#if preview.fallbacks.length}<div>
-					<dt>Older executions</dt>
+					<dt>Older Executions</dt>
 					<dd>{references(preview.fallbacks.length)}</dd>
 				</div>{/if}
 		</dl>
@@ -273,7 +273,7 @@
 				{#each preview.warnings as warning}<li>{warning}</li>{/each}
 			</ul>{/if}
 		{#if changes.length}<details class="change-details">
-				<summary>View reference changes</summary>
+				<summary>View Reference Changes</summary>
 				<ul>
 					{#each changes.slice(0, changeLimit) as change}<li>
 							<span>{preview.referenceTitles[change.id] ?? change.id}</span><small
@@ -285,7 +285,7 @@
 						type="button"
 						class="button button--quiet"
 						onclick={() => (changeLimit += 40)}
-						>Show {Math.min(40, changes.length - changeLimit)} more</button
+						>Show {Math.min(40, changes.length - changeLimit)} More</button
 					>{/if}
 			</details>{/if}
 		{#if preview.conflicts.length}<div class="consent-group">
@@ -313,17 +313,17 @@
 					(preview.downgrade && !allowDowngrade)}
 				onclick={commit}
 				>{preview.action === 'remove'
-					? 'Remove pack'
+					? 'Remove Pack'
 					: preview.action === 'update'
-						? 'Update pack'
-						: 'Install pack'}</button
+						? 'Update Pack'
+						: 'Install Pack'}</button
 			><button type="button" class="button button--quiet" disabled={busy} onclick={() => cancel()}
 				>Cancel</button
 			>
 		</div>
 	{:else}
 		<div class="pack-heading">
-			<h3 tabindex="-1" bind:this={heading}>Installed packs</h3>
+			<h3 tabindex="-1" bind:this={heading}>Installed Packs</h3>
 			{#if inventory}<span
 					>{inventory.packs.length.toLocaleString()}
 					{inventory.packs.length === 1 ? 'pack' : 'packs'}</span
@@ -333,7 +333,7 @@
 				Loading installed content…
 			</p>{:else if inventory}
 			{#if inventory.packs.length > 6}<label class="pack-search-label" for="installed-pack-search"
-					>Search packs</label
+					>Search Packs</label
 				><input
 					class="pack-search"
 					id="installed-pack-search"
@@ -377,7 +377,7 @@
 				</ul>
 				{#if !visiblePacks.length}<p class="empty-packs">No packs match this search.</p>
 					<button type="button" class="button button--quiet" onclick={() => (query = '')}
-						>Clear search</button
+						>Clear Search</button
 					>{/if}{:else}<p class="empty-packs">
 					No packs installed. Import a pack to browse its references, or create your own.
 				</p>{/if}
@@ -385,9 +385,9 @@
 		{/if}
 		<div class="pack-actions">
 			<button type="button" class="button" disabled={busy} onclick={choose}
-				><FolderInput size={16} aria-hidden="true" />Import pack</button
+				><FolderInput size={16} aria-hidden="true" />Import Pack</button
 			><button type="button" class="button button--quiet" disabled={busy} onclick={create}
-				><FilePlus2 size={16} aria-hidden="true" />Create pack</button
+				><FilePlus2 size={16} aria-hidden="true" />Create Pack</button
 			>
 		</div>
 		<p class="pack-helper">Import a .hcpack file to add content or update an existing edition.</p>

@@ -5,7 +5,7 @@ not have the installed-pack manager or removal controls.
 
 ## Import or Update a Pack
 
-Open **Library & devices → Installed packs → Import pack** and select a `.hcpack`.
+Open **Library & Devices → Installed Packs → Import Pack** and select a `.hcpack`.
 Review the references being added, changed or made unavailable, then confirm.
 Older editions and overlapping collections need extra review.
 
@@ -39,7 +39,7 @@ requires a matching saved library and app version.
 ## Recover Notes and Progress
 
 In **Notes and progress recovery**, choose **Back up notes** before a substantial
-change. **Restore notes…** keeps the currently installed packs and replaces learner
+change. **Restore Notes…** keeps the currently installed packs and replaces learner
 edits made after the selected snapshot. Check its date before confirming.
 The app backs up the current database first and asks connected clients to reload.
 

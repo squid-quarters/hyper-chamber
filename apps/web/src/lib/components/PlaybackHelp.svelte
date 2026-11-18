@@ -114,7 +114,7 @@
 	type="button"
 	class="button button--quiet help-trigger"
 	class:expanded={open}
-	aria-label="Replay controls"
+	aria-label="Replay Controls"
 	aria-haspopup="dialog"
 	aria-expanded={open}
 	aria-controls={`${id}-playback-help`}
@@ -137,27 +137,27 @@
 	ontoggle={syncPopover}
 >
 	<header>
-		<h4 id={`${id}-playback-help-title`}>Replay controls</h4>
+		<h4 id={`${id}-playback-help-title`}>Replay Controls</h4>
 		<button
 			type="button"
 			class="icon-button close-help"
 			onclick={() => close(true)}
-			aria-label="Close replay controls"
+			aria-label="Close Replay Controls"
 		>
 			<X size={18} aria-hidden="true" />
 		</button>
 	</header>
 	<dl id={`${id}-playback-help-details`}>
 		<div>
-			<dt>Play or pause</dt>
+			<dt>Play or Pause</dt>
 			<dd>Click or tap the video.</dd>
 		</div>
 		<div>
-			<dt>Inspect a moment</dt>
+			<dt>Inspect a Moment</dt>
 			<dd>Drag left or right. The clip stays paused.</dd>
 		</div>
 		<div>
-			<dt>Fine adjustment</dt>
+			<dt>Fine Adjustment</dt>
 			<dd>Use −0.25s / +0.25s.</dd>
 		</div>
 	</dl>

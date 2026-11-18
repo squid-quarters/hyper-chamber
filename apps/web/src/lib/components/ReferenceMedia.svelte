@@ -331,9 +331,9 @@
 	{#if error}<div class="notice media-error" role="alert">
 			<p>{error}</p>
 			<div>
-				<button class="button" onclick={retry}>Retry clip</button>
+				<button class="button" onclick={retry}>Retry Clip</button>
 				{#if originalUrl}<a href={originalUrl} target="_blank" rel="noreferrer"
-						>Open original source ↗</a
+						>Open Original Source ↗</a
 					>{/if}
 			</div>
 		</div>{/if}
@@ -345,7 +345,7 @@
 		{@render beforeReplay?.()}
 		<div class="replay-panel">
 			<div class="section-heading">
-				<h2>Replay reference</h2>
+				<h2>Replay Reference</h2>
 				{#if enhanced && reference.media.clip}<PlaybackHelp id={reference.id} />{/if}
 			</div>
 
@@ -424,7 +424,7 @@
 									class="button playback-button"
 									aria-keyshortcuts={preferences.shortcuts ? 'K' : undefined}
 									onclick={togglePlayback}
-									aria-label={playing ? 'Pause clip' : 'Play clip'}
+									aria-label={playing ? 'Pause Clip' : 'Play Clip'}
 								>
 									{#if playing}<Pause size={16} aria-hidden="true" />{:else}<Play
 											size={16}
@@ -462,7 +462,7 @@
 									{#if muted}<VolumeX size={16} aria-hidden="true" />{:else}<Volume2
 											size={16}
 											aria-hidden="true"
-										/>{/if}{hasAudio ? 'Sound' : 'No audio'}
+										/>{/if}{hasAudio ? 'Sound' : 'No Audio'}
 								</button>
 							</div>
 							<span class="sr-only" id={`${reference.id}-sound-description`}
@@ -471,14 +471,14 @@
 									: 'This reference has no source audio.'}</span
 							>
 							<div class="player-utilities">
-								<div class="seek-controls" role="group" aria-label="Inspect clip timing">
+								<div class="seek-controls" role="group" aria-label="Inspect Clip Timing">
 									<button
 										class="button button--quiet"
 										disabled={!ready}
 										aria-keyshortcuts={preferences.shortcuts ? 'J ArrowLeft' : 'ArrowLeft'}
 										aria-describedby={`${reference.id}-position`}
 										onclick={() => video && seek(video.currentTime - 0.25)}
-										aria-label="Back 0.25 seconds">−0.25s</button
+										aria-label="Back 0.25 Seconds">−0.25s</button
 									>
 									<button
 										class="button button--quiet"
@@ -486,7 +486,7 @@
 										aria-keyshortcuts={preferences.shortcuts ? 'L ArrowRight' : 'ArrowRight'}
 										aria-describedby={`${reference.id}-position`}
 										onclick={() => video && seek(video.currentTime + 0.25)}
-										aria-label="Forward 0.25 seconds">+0.25s</button
+										aria-label="Forward 0.25 Seconds">+0.25s</button
 									>
 								</div>
 								<ChoiceField
@@ -529,7 +529,7 @@
 								href={originalUrl}
 								target="_blank"
 								rel="noreferrer"
-								>Open the original source<ArrowUpRight size={13} aria-hidden="true" /></a
+								>Open Original Source<ArrowUpRight size={13} aria-hidden="true" /></a
 							>{:else}Reimport its pack to restore the clip.{/if}
 					</p>
 					{@render playbackNotices()}
@@ -541,7 +541,7 @@
 		<details class="detail-disclosure key-moments">
 			<summary
 				><span
-					>Key moments <span class="disclosure-count">({reference.media.frames.length})</span></span
+					>Key Moments <span class="disclosure-count">({reference.media.frames.length})</span></span
 				></summary
 			>
 			<div class="disclosure-body">
@@ -551,7 +551,7 @@
 		</details>
 	{:else}
 		<div class="section-heading frames-heading">
-			<h3>Key moments</h3>
+			<h3>Key Moments</h3>
 			<span class="muted">Select a frame to inspect</span>
 		</div>
 		{@render frameList()}

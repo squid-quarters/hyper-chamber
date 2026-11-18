@@ -16,11 +16,11 @@
 	const modes: { value: AutoplayMode; label: string; description: string }[] = [
 		{
 			value: 'follow',
-			label: 'Follow playback',
+			label: 'Follow Playback',
 			description: 'Keep the current play or pause state.',
 		},
-		{ value: 'always', label: 'Always play', description: 'Play each reference automatically.' },
-		{ value: 'paused', label: 'Start paused', description: 'Open each reference paused.' },
+		{ value: 'always', label: 'Always Play', description: 'Play each reference automatically.' },
+		{ value: 'paused', label: 'Start Paused', description: 'Open each reference paused.' },
 	];
 	let trigger: HTMLButtonElement;
 	let panel: HTMLDivElement;
@@ -128,7 +128,7 @@
 	bind:this={trigger}
 	class="button button--quiet settings-trigger"
 	class:expanded={open}
-	aria-label="Playback settings"
+	aria-label="Playback Settings"
 	aria-haspopup="dialog"
 	aria-expanded={open}
 	aria-controls={`${id}-playback-settings`}
@@ -149,16 +149,16 @@
 	ontoggle={syncPopover}
 >
 	<header>
-		<h4 id={`${id}-settings-title`}>Playback settings</h4>
+		<h4 id={`${id}-settings-title`}>Playback Settings</h4>
 		<button
 			class="icon-button close-settings"
 			onclick={() => close(true)}
-			aria-label="Close playback settings"><X size={18} aria-hidden="true" /></button
+			aria-label="Close Playback Settings"><X size={18} aria-hidden="true" /></button
 		>
 	</header>
 	<div class="settings-body">
 		<fieldset class="autoplay-options">
-			<legend>On reference change</legend>
+			<legend>On Reference Change</legend>
 			{#each modes as mode}
 				<label class="mode-row" class:chosen={preferences.autoplay === mode.value}>
 					<input
@@ -177,7 +177,7 @@
 		<section class="keyboard-settings" aria-labelledby={`${id}-keyboard-title`}>
 			<h5 id={`${id}-keyboard-title`}>Keyboard</h5>
 			<label class="shortcut-switch">
-				<span>Single-key shortcuts</span>
+				<span>Single-Key Shortcuts</span>
 				<span class="switch-control">
 					<input
 						type="checkbox"
@@ -190,11 +190,11 @@
 			</label>
 			<dl class="shortcut-list" class:single-keys-off={!preferences.shortcuts}>
 				<div class="single-key">
-					<dt>Previous / next reference</dt>
+					<dt>Previous / Next Reference</dt>
 					<dd><kbd>B</kbd><kbd>N</kbd></dd>
 				</div>
 				<div class="single-key">
-					<dt>Play / pause</dt>
+					<dt>Play / Pause</dt>
 					<dd><kbd>K</kbd></dd>
 				</div>
 				<div class="single-key">
@@ -202,7 +202,7 @@
 					<dd><kbd>R</kbd></dd>
 				</div>
 				<div>
-					<dt>Nudge clip<span>Clip controls focused</span></dt>
+					<dt>Nudge Clip<span>Clip controls focused</span></dt>
 					<dd>
 						<span class="shortcut-pair single-key"><kbd>J</kbd><kbd>L</kbd></span><span
 							class="shortcut-pair"><kbd>←</kbd><kbd>→</kbd></span
@@ -210,11 +210,11 @@
 					</dd>
 				</div>
 				<div>
-					<dt>Quick switch</dt>
+					<dt>Quick Switch</dt>
 					<dd><kbd>⌘ / Ctrl</kbd><kbd>K</kbd></dd>
 				</div>
 				<div>
-					<dt>Play / pause with video focused</dt>
+					<dt>Play / Pause with Video Focused</dt>
 					<dd><kbd>Space</kbd></dd>
 				</div>
 			</dl>

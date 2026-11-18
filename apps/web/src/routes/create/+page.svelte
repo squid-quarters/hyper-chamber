@@ -473,7 +473,7 @@
 				{ request: { command: 'export' } },
 			);
 			if (!result.cancelled) {
-				message = `Exported ${result.path}. Import it from Library & devices when you are ready to practise.`;
+				message = `Exported ${result.path}. Import it from Library & Devices when you are ready to practise.`;
 				accept(await invoke('authoring_action', { request: { command: 'read' } }));
 			}
 		});
@@ -515,13 +515,13 @@
 </script>
 
 <svelte:head
-	><title>Pack creator · Hyper Chamber</title><meta
+	><title>Pack Creator · Hyper Chamber</title><meta
 		name="description"
 		content="Create, edit and export local Hyper Chamber reference packs."
 	/></svelte:head
 >
 <header class="creator-top">
-	<a class="creator-brand" href="/" aria-label="Hyper Chamber library"
+	<a class="creator-brand" href="/" aria-label="Hyper Chamber Library"
 		><BrandMark /><span>HYPER CHAMBER</span></a
 	>
 	<a class="button back" href="/"><ArrowLeft size={16} aria-hidden="true" />Library</a>
@@ -529,7 +529,7 @@
 <main class="creator-page">
 	<header class="creator-heading">
 		<div>
-			<h1>Pack creator</h1>
+			<h1>Pack Creator</h1>
 			<p>
 				{workspace
 					? workspace.title
@@ -538,9 +538,9 @@
 		</div>
 		{#if workspace}<button
 				type="button"
-				class="button export-button"
+				class="button primary-button export-button"
 				disabled={busy}
-				onclick={exportPack}><Download size={16} aria-hidden="true" />Export pack</button
+				onclick={exportPack}><Download size={16} aria-hidden="true" />Export Pack</button
 			>{/if}
 	</header>
 	{#if error}<div class="notice" role="alert" tabindex="-1" bind:this={errorNotice}>
@@ -548,23 +548,23 @@
 		</div>{/if}
 	{#if message}<p class="notice success" role="status">{message}</p>{/if}
 	{#if !desktop}<section class="desktop-required">
-			<h2>Open the desktop app to create packs</h2>
+			<h2>Open the Desktop App to Create Packs</h2>
 			<p>
 				Workspaces and video files stay on your computer. You can browse the installed library from
 				this device.
 			</p>
-			<a class="button" href="/">Return to library</a>
+			<a class="button" href="/">Return to Library</a>
 		</section>
 	{:else if !workspace}
 		<section class="start-workspace" aria-labelledby="workspace-title">
-			<h2 id="workspace-title">Start a workspace</h2>
+			<h2 id="workspace-title">Start a Workspace</h2>
 			<p>
 				Choose an empty folder for a new pack. Existing workspaces can be opened and edited at any
 				time.
 			</p>
 			<div class="start-fields">
 				<label
-					>Pack title<input
+					>Pack Title<input
 						disabled={busy}
 						bind:value={title}
 						placeholder="My Dhalsim references"
@@ -580,12 +580,15 @@
 				>
 			</div>
 			<div class="workspace-actions">
-				<button type="button" class="button primary" disabled={busy} onclick={() => open('new')}
-					><Plus size={16} aria-hidden="true" />New workspace</button
+				<button
+					type="button"
+					class="button primary-button"
+					disabled={busy}
+					onclick={() => open('new')}><Plus size={16} aria-hidden="true" />New Workspace</button
 				><button type="button" class="button" disabled={busy} onclick={() => open('open')}
-					><FolderOpen size={16} aria-hidden="true" />Open workspace</button
+					><FolderOpen size={16} aria-hidden="true" />Open Workspace</button
 				><button type="button" class="button" disabled={busy} onclick={() => open('fork')}
-					><Copy size={16} aria-hidden="true" />Fork a pack</button
+					><Copy size={16} aria-hidden="true" />Fork a Pack</button
 				>
 			</div>
 			<p class="help">Forking makes an independent copy and preserves the original attribution.</p>
@@ -593,7 +596,7 @@
 	{:else}
 		<details class="workspace-settings">
 			<summary
-				>Pack details <span
+				>Pack Details <span
 					>{edition} · {workspace.references.length}
 					{workspace.references.length === 1 ? 'reference' : 'references'}</span
 				></summary
@@ -613,7 +616,7 @@
 						task(async () => {
 							await saveWorkspace();
 							message = 'Pack details saved.';
-						})}>Save details</button
+						})}>Save Details</button
 				>
 			</div>
 			<p class="workspace-path">{directory}</p>
@@ -629,16 +632,16 @@
 							edition = workspace.version;
 							error = '';
 						}
-					}}>Discard detail changes</button
+					}}>Discard Detail Changes</button
 				>
 				<button type="button" class="button" disabled={busy} onclick={reloadWorkspace}
-					>Reload workspace</button
+					>Reload Workspace</button
 				><button type="button" class="button" disabled={busy} onclick={() => open('open')}
-					>Open another workspace</button
+					>Open Another Workspace</button
 				><button type="button" class="button" disabled={busy} onclick={() => open('new')}
-					>New workspace</button
+					>New Workspace</button
 				><button type="button" class="button" disabled={busy} onclick={() => open('fork')}
-					>Fork a pack</button
+					>Fork a Pack</button
 				>
 			</div>
 		</details>
@@ -670,7 +673,7 @@
 			<div class="editor-main">
 				<form
 					class="reference-editor"
-					aria-label="Reference editor"
+					aria-label="Reference Editor"
 					onsubmit={(event) => {
 						event.preventDefault();
 						void saveReference();
@@ -679,7 +682,7 @@
 					{#if draft}<fieldset disabled={busy}>
 							<div class="editor-toolbar">
 								<h2>
-									{selected ? 'Edit reference' : 'New reference'}{#if dirty}<span class="unsaved"
+									{selected ? 'Edit Reference' : 'New Reference'}{#if dirty}<span class="unsaved"
 											>Unsaved</span
 										>{/if}
 								</h2>
@@ -696,8 +699,8 @@
 										class="button button--quiet"
 										disabled={busy}
 										onclick={discard}>Discard</button
-									><button type="submit" class="button primary" disabled={busy}
-										><Save size={16} aria-hidden="true" />Save reference</button
+									><button type="submit" class="button primary-button" disabled={busy}
+										><Save size={16} aria-hidden="true" />Save Reference</button
 									>
 								</div>
 							</div>
@@ -721,13 +724,13 @@
 													baseline = '';
 													confirmDelete = false;
 													message = 'Reference removed from the workspace.';
-												})}>Remove reference</button
+												})}>Remove Reference</button
 										><button
 											type="button"
 											class="button button--quiet"
 											onclick={() => {
 												confirmDelete = false;
-											}}>Keep reference</button
+											}}>Keep Reference</button
 										>
 									</div>
 								</div>{/if}
@@ -754,7 +757,7 @@
 								<div class="creator-choice">
 									<ChoiceField
 										id="creator-kind"
-										label="Reference type"
+										label="Reference Type"
 										options={[
 											{ value: 'combo', label: 'Combo' },
 											{ value: 'setup', label: 'Setup' },
@@ -767,13 +770,13 @@
 									/>
 								</div>
 								<label class="wide"
-									>Quick note<textarea
+									>Quick Note<textarea
 										bind:value={draft.summary}
 										rows="2"
 										placeholder="When to use this route, or what to watch for."
 										required></textarea></label
 								><label
-									>Starting situations<input
+									>Starting Situations<input
 										bind:value={draft.situations}
 										placeholder="Punish Counter, Corner"
 									/><small>Separate with commas.</small></label
@@ -797,27 +800,27 @@
 													...draft.steps,
 													{ id: `step-${crypto.randomUUID()}`, notation: '', label: '' },
 												];
-										}}><Plus size={15} aria-hidden="true" />Add step</button
+										}}><Plus size={15} aria-hidden="true" />Add Step</button
 									>
 								</div>
 								<div class="input-labels" aria-hidden="true">
-									<span>Notation</span><span>Move / action</span>
+									<span>Notation</span><span>Move / Action</span>
 								</div>
 								{#each draft.steps as step, index (step.id)}<div class="input-row">
 										<input
-											aria-label={`Step ${index + 1} notation`}
+											aria-label={`Step ${index + 1} Notation`}
 											bind:value={step.notation}
 											placeholder="2LP"
 											spellcheck="false"
 										/><input
-											aria-label={`Step ${index + 1} move or action`}
+											aria-label={`Step ${index + 1} Move or Action`}
 											bind:value={step.label}
 											placeholder="Crouching light punch"
 										/><button
 											type="button"
 											class="icon-button"
 											disabled={busy || draft.steps.length === 1}
-											aria-label={`Remove step ${index + 1}`}
+											aria-label={`Remove Step ${index + 1}`}
 											onclick={() => {
 												if (draft) draft.steps = draft.steps.filter((item) => item.id !== step.id);
 											}}><X size={16} aria-hidden="true" /></button
@@ -841,8 +844,8 @@
 									</div>
 									<button type="button" class="button" disabled={busy} onclick={chooseClip}
 										><FolderOpen size={16} aria-hidden="true" />{draft.clip
-											? 'Replace clip'
-											: 'Choose clip'}</button
+											? 'Replace Clip'
+											: 'Choose Clip'}</button
 									>
 								</div>
 								{#if draft.clip}<video
@@ -851,7 +854,7 @@
 										controls
 										playsinline
 										preload="metadata"
-										aria-label="Reference recording"
+										aria-label="Reference Recording"
 										onplay={() => {
 											showPreview = false;
 										}}
@@ -876,11 +879,11 @@
 											class="button"
 											disabled={busy}
 											onclick={captureMoment}
-											><Camera size={16} aria-hidden="true" />Capture moment</button
+											><Camera size={16} aria-hidden="true" />Capture Moment</button
 										>
 									</div>{/if}
 								<label class="review-check audio-check"
-									><input type="checkbox" bind:checked={draft.hasAudio} />Clip includes audio</label
+									><input type="checkbox" bind:checked={draft.hasAudio} />Clip Includes Audio</label
 								>
 								{#if draft.frames.length}<ul class="moment-list">
 										{#each draft.frames as frame, index (frame.id)}<li>
@@ -901,7 +904,7 @@
 													type="button"
 													class="icon-button"
 													disabled={busy}
-													aria-label={`Remove moment ${index + 1}`}
+													aria-label={`Remove Moment ${index + 1}`}
 													onclick={() => {
 														if (draft) {
 															draft.frames = draft.frames.filter((item) => item.id !== frame.id);
@@ -914,16 +917,16 @@
 									</ul>{/if}
 							</section>
 							<details class="editor-section">
-								<summary>Source and review</summary>
+								<summary>Source and Review</summary>
 								<div class="reference-fields">
 									<div class="creator-choice">
 										<ChoiceField
 											id="creator-source"
-											label="Recording source"
+											label="Recording Source"
 											value={draft.sourceKind}
 											options={[
-												{ value: 'recording', label: 'Own recording' },
-												{ value: 'youtube', label: 'YouTube excerpt' },
+												{ value: 'recording', label: 'Own Recording' },
+												{ value: 'youtube', label: 'YouTube Excerpt' },
 											]}
 											onchange={(value) => {
 												if (draft) {
@@ -939,8 +942,8 @@
 									<label>Creator<input bind:value={draft.sourceCreator} /></label><label
 										class="wide"
 										>{draft.sourceKind === 'youtube'
-											? 'Original video title'
-											: 'Source title'}<input
+											? 'Original Video Title'
+											: 'Source Title'}<input
 											bind:value={draft.sourceTitle}
 											placeholder={draft.sourceKind === 'youtube'
 												? 'Title as published on YouTube'
@@ -949,7 +952,7 @@
 									><label class="wide"
 										>{draft.sourceKind === 'youtube'
 											? 'YouTube URL'
-											: 'Source link (optional)'}<input
+											: 'Source Link (Optional)'}<input
 											type="url"
 											bind:value={draft.sourceUrl}
 											oninput={() => {
@@ -961,13 +964,13 @@
 											spellcheck="false"
 										/></label
 									><label
-										>Excerpt start (seconds)<input
+										>Excerpt Start (Seconds)<input
 											type="number"
 											min="0"
 											step="0.001"
 											bind:value={draft.sourceStart}
 										/></label
-									><label>Game version (optional)<input bind:value={draft.gameVersion} /></label
+									><label>Game Version (Optional)<input bind:value={draft.gameVersion} /></label
 									><label class="wide review-check"
 										><input type="checkbox" bind:checked={draft.reviewed} />I checked the inputs and
 										notes against this recording.</label
@@ -978,7 +981,7 @@
 								</p>
 							</details>
 							<details class="editor-section">
-								<summary>Conditions and execution notes</summary>
+								<summary>Conditions and Execution Notes</summary>
 								<div class="reference-fields">
 									<label
 										>Conditions<textarea
@@ -986,7 +989,7 @@
 											bind:value={draft.conditions}
 											placeholder="One condition per line"></textarea></label
 									><label
-										>Execution notes<textarea
+										>Execution Notes<textarea
 											rows="3"
 											bind:value={draft.notes}
 											placeholder="One note per line"></textarea></label
@@ -994,8 +997,8 @@
 								</div>
 							</details>
 							<div class="editor-bottom">
-								<button type="submit" class="button primary" disabled={busy}
-									><Save size={16} aria-hidden="true" />Save reference</button
+								<button type="submit" class="button primary-button" disabled={busy}
+									><Save size={16} aria-hidden="true" />Save Reference</button
 								><button
 									type="button"
 									class="button"
@@ -1005,20 +1008,20 @@
 										showPreview = !showPreview;
 									}}
 									><Play size={16} aria-hidden="true" />{showPreview
-										? 'Hide preview'
-										: 'Preview saved reference'}</button
+										? 'Hide Preview'
+										: 'Preview Saved Reference'}</button
 								>
 							</div>
 						</fieldset>
 					{:else}<div class="empty-reference">
-							<h2>Select or add a reference</h2>
+							<h2>Select or Add a Reference</h2>
 							<button type="button" class="button" onclick={newReference}
-								><Plus size={16} aria-hidden="true" />Add reference</button
+								><Plus size={16} aria-hidden="true" />Add Reference</button
 							>
 						</div>{/if}
 				</form>
 				{#if showPreview && previewReference}
-					<section class="practice-preview" aria-label="Saved reference preview">
+					<section class="practice-preview" aria-label="Saved Reference Preview">
 						<header>
 							<h2>{previewReference.title}</h2>
 							<button
@@ -1026,7 +1029,7 @@
 								class="button button--quiet"
 								onclick={() => {
 									showPreview = false;
-								}}>Close preview</button
+								}}>Close Preview</button
 							>
 						</header>
 						<p>{previewReference.summary}</p>
@@ -1045,8 +1048,8 @@
 				{/if}
 			</div>
 		</div>
-		{#if validation}<section class="validation" aria-label="Pack validation">
-				<h2>{validation.valid ? 'Pack is ready to export' : 'Workspace needs attention'}</h2>
+		{#if validation}<section class="validation" aria-label="Pack Validation">
+				<h2>{validation.valid ? 'Pack Is Ready to Export' : 'Workspace Needs Attention'}</h2>
 				{#each [...validation.errors, ...validation.warnings] as issue}<p>{issue}</p>{/each}
 			</section>{/if}
 	{/if}
@@ -1083,6 +1086,11 @@
 		background: transparent;
 		color: var(--panel-ink);
 		border-color: var(--panel-muted);
+	}
+	.back:hover,
+	.back:active {
+		background: var(--panel-ink);
+		color: var(--panel);
 	}
 	.creator-page {
 		max-width: 1280px;
@@ -1134,12 +1142,6 @@
 	small {
 		display: block;
 		margin-top: 4px;
-	}
-	.primary,
-	.export-button {
-		background: var(--ink);
-		color: var(--surface);
-		border-color: var(--ink);
 	}
 	.notice {
 		padding: 14px 18px;
@@ -1307,6 +1309,7 @@
 	}
 	.editor-toolbar > div {
 		display: flex;
+		flex-wrap: wrap;
 		gap: 8px;
 	}
 	.unsaved {
@@ -1326,14 +1329,14 @@
 	}
 	.input-labels {
 		display: grid;
-		grid-template-columns: 120px 1fr;
+		grid-template-columns: 120px minmax(0, 1fr) var(--control-size);
 		gap: 10px;
 		font-size: 12px;
 		color: var(--muted);
 	}
 	.input-row {
 		display: grid;
-		grid-template-columns: 120px 1fr 36px;
+		grid-template-columns: 120px minmax(0, 1fr) var(--control-size);
 		gap: 10px;
 		align-items: center;
 		margin-top: 8px;
@@ -1372,7 +1375,7 @@
 	}
 	.moment-list li {
 		display: grid;
-		grid-template-columns: 120px minmax(0, 1fr) 36px;
+		grid-template-columns: 120px minmax(0, 1fr) var(--control-size);
 		align-items: center;
 		gap: 14px;
 		padding: 12px 0;
@@ -1525,19 +1528,17 @@
 		}
 		.input-labels,
 		.input-row {
-			grid-template-columns: 84px minmax(0, 1fr) 32px;
+			grid-template-columns: 84px minmax(0, 1fr) var(--control-size);
 		}
+		.input-labels,
 		.input-row {
 			gap: 7px;
-		}
-		.input-labels {
-			grid-template-columns: 84px 1fr;
 		}
 		.input-row input {
 			padding: 9px 8px;
 		}
 		.moment-list li {
-			grid-template-columns: 84px minmax(0, 1fr) 32px;
+			grid-template-columns: 84px minmax(0, 1fr) var(--control-size);
 			gap: 10px;
 		}
 		.moment-list img {
