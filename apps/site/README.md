@@ -10,7 +10,7 @@ The site’s advertised version is read from its page metadata rather than the a
 
 The build copies the existing README screenshots from `docs/screenshots/` without retouching them. Their capture routes, app version and original-video sources are recorded in [the screenshot README](../../docs/screenshots/README.md), which also accompanies the generated assets as `assets/screenshot-sources.md`. The page identifies screenshots of the full development library; the desktop starter and public installer availability are described separately. It copies the app's existing Fontsource Barlow Condensed and DM Sans files, together with their licenses. The Hourglass H mark is the same geometry as `apps/web/src/lib/components/BrandMark.svelte`.
 
-Use Title Case for headings, navigation and buttons, with sentence case for prose. Keep copy plain and factual. Related text-and-action sections share column positions and top alignment; preserve the common page gutters on desktop and mobile.
+Use Title Case for headings, navigation and buttons, with sentence case for prose. Keep copy plain and factual. Related text-and-action sections share column positions and top alignment; preserve the common page gutters on desktop and mobile. Keep type responsive to reader font preferences and let controls wrap. Stack installer options before their labels become cramped; preserve the active guide on hover and in forced colors.
 
 ## Publishing
 
