@@ -31,13 +31,13 @@
 	}
 </script>
 
-<div class="reference-actions" role="group" aria-label="Reference actions">
+<div class="reference-actions" role="group" aria-label="Reference Actions">
 	<button
 		class="button save-reference-button"
 		{disabled}
 		class:enabled={saved}
 		aria-pressed={saved}
-		aria-label={saved ? 'Unsave reference' : 'Save reference'}
+		aria-label={saved ? 'Unsave Reference' : 'Save Reference'}
 		onclick={onsave}
 	>
 		<Star size={16} fill={saved ? 'currentColor' : 'none'} aria-hidden="true" />{saved
@@ -48,7 +48,7 @@
 		{#if copyState === 'Input sequence copied.'}<Check
 				size={16}
 				aria-hidden="true"
-			/>Copied{:else}<Copy size={16} aria-hidden="true" />Copy inputs{/if}
+			/>Copied{:else}<Copy size={16} aria-hidden="true" />Copy Inputs{/if}
 	</button>
 </div>
 <p class="copy-feedback" class:sr-only={!copyFallback} role="status">{copyState}</p>

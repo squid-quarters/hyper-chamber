@@ -4,10 +4,10 @@ Requires the 1.1.0 development build. Published installers are still 1.0.0.
 
 ## 1. Create a Workspace
 
-Open **Pack creator**, enter a pack title and your name or handle, then choose
-**New workspace** and an empty folder. Keep this folder for later edits.
+Open **Pack Creator**, enter a pack title and your name or handle, then choose
+**New Workspace** and an empty folder. Keep this folder for later edits.
 
-Use **Open workspace** to return to it, or **Fork a pack** to adapt an exported
+Use **Open Workspace** to return to it, or **Fork a Pack** to adapt an exported
 pack with independent IDs and its original attribution.
 
 ## 2. Add a Clip
@@ -23,7 +23,7 @@ soundtrack in the replay; new and replacement clips start unchecked.
 
 ## 3. Capture Key Moments
 
-Pause at a useful point and choose **Capture moment**. Capture at least one;
+Pause at a useful point and choose **Capture Moment**. Capture at least one;
 the first becomes the poster. Label each moment with what to watch for.
 Times are relative to the short clip.
 
@@ -40,12 +40,12 @@ against the recording. Current-patch verification requires testing in-game.
 
 ## 5. Preview and Export
 
-Choose **Save reference**, then **Preview saved reference** to check inputs,
+Choose **Save Reference**, then **Preview Saved Reference** to check inputs,
 replay, moments and source details together. **Discard** leaves the saved version
 unchanged.
 
-Choose **Export pack** to save a `.hcpack`. To practise it, use
-**Library & devices → Installed packs → Import pack**. Exporting alone does not
+Choose **Export Pack** to save a `.hcpack`. To practise it, use
+**Library & Devices → Installed Packs → Import Pack**. Exporting alone does not
 install or publish it.
 
 ## Later Edits

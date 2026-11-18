@@ -2,6 +2,9 @@
 
 ## Unreleased — 1.1.0 development
 
+- Keep masthead tools, character names and library controls within narrow screens; group secondary tools under More Tools on phones and tablets.
+- Keep Quick Switch controls visible above scrolling results, align key-moment stills and creator actions, and standardize interface labels.
+
 - Add an installed-pack manager with change previews, explicit overlap/rollback approval, removal and reimport repair. Keep notes and progress when content is removed, including the last pack.
 - Migrate libraries to SQLite schema 2 with an active-pack registry, pre-migration snapshots and one host per library. Use API protocol 2 and reject stale writes after notes recovery.
 - Restore notes and progress from a same-library snapshot while keeping installed packs. Preserve current data before restoration and prompt connected clients to reload.

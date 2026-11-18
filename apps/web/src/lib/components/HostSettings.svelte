@@ -233,8 +233,8 @@
 <button
 	type="button"
 	class="host-trigger"
-	aria-label="Library and devices"
-	title="Library and devices"
+	aria-label="Library and Devices"
+	title="Library and Devices"
 	onclick={show}
 >
 	<MonitorSmartphone size={18} aria-hidden="true" /><span class="utility-label">Devices</span>
@@ -242,19 +242,19 @@
 <dialog class="host-dialog" bind:this={dialog} aria-labelledby="host-title" onclose={close}>
 	<header>
 		<div>
-			<h2 id="host-title">Library &amp; devices</h2>
+			<h2 id="host-title">Library &amp; Devices</h2>
 		</div>
 		<button
 			type="button"
 			class="icon-button"
 			onclick={() => dialog.close()}
-			aria-label="Close library and devices"><X size={20} aria-hidden="true" /></button
+			aria-label="Close Library and Devices"><X size={20} aria-hidden="true" /></button
 		>
 	</header>
 	<div class="host-body" aria-busy={controlsBusy}>
 		{#if error}<p class="host-error" role="alert">{error}</p>
 			<button type="button" class="button" disabled={controlsBusy} onclick={show}
-				>Retry connection</button
+				>Retry Connection</button
 			>{/if}
 		{#if !runtime && !error}<p class="loading" role="status">Connecting to your library…</p>{/if}
 		{#if runtime}
@@ -268,7 +268,7 @@
 						oncreate={createPack}
 					/>
 				</div>{:else}<section class="library-summary">
-					<h3>Installed content</h3>
+					<h3>Installed Content</h3>
 					<p>
 						{runtime.content.references.toLocaleString()} references in {runtime.content.packs}
 						{runtime.content.packs === 1 ? 'pack' : 'packs'}.
@@ -277,7 +277,7 @@
 				</section>{/if}
 			<section class="device-section" aria-labelledby="device-title">
 				<div class="section-title">
-					<h3 id="device-title">Use on another device</h3>
+					<h3 id="device-title">Use on Another Device</h3>
 					{#if desktop}<label class="sharing-switch"
 							><span class="sr-only">Allow devices on the same network</span><input
 								type="checkbox"
@@ -332,7 +332,7 @@
 			</section>
 			{#if desktop}<section class="recovery-section">
 					<details>
-						<summary>Notes and progress recovery</summary>
+						<summary>Notes and Progress Recovery</summary>
 						<p class="helper">
 							Backups restore your personal entries while keeping installed packs as they are.
 						</p>
@@ -341,20 +341,20 @@
 								type="button"
 								class="button button--quiet"
 								disabled={controlsBusy}
-								onclick={backup}><Save size={15} aria-hidden="true" />Back up notes</button
+								onclick={backup}><Save size={15} aria-hidden="true" />Back Up Notes</button
 							><button
 								type="button"
 								class="button button--quiet"
 								disabled={controlsBusy}
 								onclick={showSnapshots}
-								><RotateCcw size={15} aria-hidden="true" />Restore notes…</button
+								><RotateCcw size={15} aria-hidden="true" />Restore Notes…</button
 							>
 						</div>
 						{#if snapshots}{#if snapshots.length}<fieldset
 									class="snapshot-list"
 									disabled={controlsBusy}
 								>
-									<legend>Choose a backup</legend>{#each snapshots as snapshot}<label
+									<legend>Choose a Backup</legend>{#each snapshots as snapshot}<label
 											class="snapshot-row"
 											><input
 												type="radio"
@@ -373,7 +373,7 @@
 											></label
 										>{/each}
 								</fieldset>{:else}<p class="helper">
-									No backups are available yet. Create one with Back up notes.
+									No backups are available yet. Create one with Back Up Notes.
 								</p>{/if}{/if}
 						{#if selectedSnapshot}<div class="restore-confirmation">
 								<p>
@@ -394,7 +394,7 @@
 										type="button"
 										class="button primary-button"
 										disabled={controlsBusy || !restoreConfirmed}
-										onclick={restore}>Restore notes and progress</button
+										onclick={restore}>Restore Notes and Progress</button
 									><button
 										type="button"
 										class="button button--quiet"
@@ -409,7 +409,7 @@
 					</details>
 				</section>
 				<section class="storage-section" aria-labelledby="storage-title">
-					<h3 id="storage-title">Library folder</h3>
+					<h3 id="storage-title">Library Folder</h3>
 					<p class="library-path">{libraryDir}</p>
 					<p class="helper">
 						This folder contains your database and installed content. Quit the app before moving it.
@@ -419,12 +419,12 @@
 							type="button"
 							class="button button--quiet"
 							disabled={controlsBusy}
-							onclick={revealLibrary}>Show folder</button
+							onclick={revealLibrary}>Show Folder</button
 						><button
 							type="button"
 							class="button button--quiet"
 							disabled={controlsBusy}
-							onclick={chooseLibrary}>Choose library folder</button
+							onclick={chooseLibrary}>Choose Library Folder</button
 						>
 					</div>
 				</section>{/if}

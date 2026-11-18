@@ -6,7 +6,7 @@
 	import type { CharacterCollection } from '#lib/catalog';
 	import { PracticeClient, type RecoveryChoice } from '#lib/practice-client';
 	import { createLocalId } from '#lib/utils';
-	import HostSettings from '#lib/components/HostSettings.svelte';
+	import AppUtilities from '#lib/components/AppUtilities.svelte';
 	import type { StoredPersonalEntry } from '@hyper-chamber/reference';
 	import {
 		filterReferences,
@@ -27,10 +27,7 @@
 	import {
 		ArrowLeft,
 		ArrowRight,
-		ArrowUpRight,
-		BookOpen,
 		ChevronDown,
-		FilePlus2,
 		Search,
 		SlidersHorizontal,
 		Star,
@@ -176,20 +173,33 @@
 		}).filter((ref) => practice === 'all' || (library[ref.id]?.status ?? 'untried') === practice),
 	);
 	let results = $derived(filterReferences(matchingReferences, { goal }));
+	const goalLabels: Record<ReferenceGoal, string> = {
+		punishes: 'Punishes',
+		'corner-carry': 'Corner Carry',
+		oki: 'Oki',
+		'anti-air': 'Anti-Air',
+		'cash-out': 'Cash-Out',
+	};
+	const kindLabels: Record<Reference['kind'], string> = {
+		combo: 'Combo',
+		setup: 'Setup',
+		response: 'Response',
+	};
 	let goalOptions = $derived([
-		{ id: 'all' as const, label: 'All goals', count: matchingReferences.length },
+		{ id: 'all' as const, label: 'All Goals', count: matchingReferences.length },
 		...referenceGoals.map((item) => ({
 			...item,
+			label: goalLabels[item.id],
 			count: filterReferences(matchingReferences, { goal: item.id }).length,
 		})),
 	]);
-	let goalLabel = $derived(goalOptions.find((item) => item.id === goal)?.label ?? 'All goals');
+	let goalLabel = $derived(goalOptions.find((item) => item.id === goal)?.label ?? 'All Goals');
 	let goalReferences = $derived(filterReferences(references, { goal }));
 	let refinementCount = $derived(
 		Number(situation !== 'all') + Number(outcome !== 'all') + Number(practice !== 'all'),
 	);
 	const typeOptions = [
-		{ value: 'all', label: 'All types' },
+		{ value: 'all', label: 'All Types' },
 		{ value: 'combo', label: 'Combos' },
 		{ value: 'setup', label: 'Setups' },
 		{ value: 'response', label: 'Responses' },
@@ -223,7 +233,7 @@
 			...(savedOnly ? ['Saved'] : []),
 			...(goal !== 'all' ? [goalLabel] : []),
 			...(kind !== 'all' ? [typeOptions.find((item) => item.value === kind)?.label] : []),
-		].join(' · ') || 'Current results',
+		].join(' · ') || 'Current Results',
 	);
 	let selectedIndex = $derived(results.findIndex((ref) => ref.id === selectedId));
 	let previousReference = $derived(selectedIndex > 0 ? results[selectedIndex - 1] : undefined);
@@ -757,7 +767,7 @@
 					type="button"
 					disabled={!connected}
 					class="button button--quiet"
-					onclick={() => practiceClient?.resolve(id, 'server')}>Use saved version</button
+					onclick={() => practiceClient?.resolve(id, 'server')}>Use Saved Version</button
 				>
 			</div>
 		</div>
@@ -801,37 +811,20 @@
 				onchange={changeCharacter}
 				onopen={() => document.querySelector<HTMLVideoElement>('.practice-view video')?.pause()}
 			/>{/if}
-		<nav class="header-actions" aria-label="Utilities">
-			<a class="guide-link" href="/create" aria-label="Create reference packs"
-				><FilePlus2 size={16} aria-hidden="true" /><span class="utility-label">Create packs</span
-				></a
-			>
-			<HostSettings
-				oncontentchange={refreshContent}
-				onbeforemaintenance={async () => {
-					await practiceClient?.flush();
-					if (
-						Object.keys(pendingChanges).length ||
-						Object.keys(conflicts).length ||
-						Object.keys(recoveryConflicts).length
-					)
-						throw new Error('Save or resolve your edits before continuing.');
-				}}
-			/>
-			<button aria-label="Notation" title="Notation" onclick={() => help.showModal()}
-				><BookOpen size={16} aria-hidden="true" /><span class="utility-label">Notation</span
-				></button
-			>
-			{#each game.guides as guide}<a
-					class="guide-link"
-					href={guide.url}
-					title={guide.label}
-					aria-label={guide.label}
-					target="_blank"
-					rel="noreferrer"
-					><span class="utility-label">Guides</span><ArrowUpRight size={15} aria-hidden="true" /></a
-				>{/each}
-		</nav>
+		<AppUtilities
+			guides={game.guides}
+			onnotation={() => help.showModal()}
+			oncontentchange={refreshContent}
+			onbeforemaintenance={async () => {
+				await practiceClient?.flush();
+				if (
+					Object.keys(pendingChanges).length ||
+					Object.keys(conflicts).length ||
+					Object.keys(recoveryConflicts).length
+				)
+					throw new Error('Save or resolve your edits before continuing.');
+			}}
+		/>
 	</header>
 	<main id="main-content">
 		{#if storageError}<p class="global-notice" role="alert">
@@ -839,31 +832,31 @@
 				<button
 					class="button button--quiet"
 					onclick={() => (requiresReload ? window.location.reload() : retryLibrary())}
-					>{requiresReload ? 'Reload application' : 'Retry connection'}</button
-				><button class="button button--quiet" onclick={exportData}>Download unsaved notes</button>
+					>{requiresReload ? 'Reload Application' : 'Retry Connection'}</button
+				><button class="button button--quiet" onclick={exportData}>Download Unsaved Notes</button>
 			</p>{/if}
 		{#if contentChanged}<p class="message-bar" role="status">
 				Installed content changed. Your current replay is kept until you reload. <button
 					class="button"
-					onclick={() => refreshContent()}>Reload library</button
+					onclick={() => refreshContent()}>Reload Library</button
 				>
 			</p>{/if}
 		{#if libraryNotice}<p class="message-bar" role="status">{libraryNotice}</p>{/if}
 		{#if Object.keys( { ...conflicts, ...recoveryConflicts } ).length && (!selected || (!conflicts[selected.id] && !recoveryConflicts[selected.id]))}
 			<p class="global-notice" role="status">
 				Saved edits need your review.
-				<button class="button" onclick={reviewEdits}>Review edits</button>
+				<button class="button" onclick={reviewEdits}>Review Edits</button>
 			</p>
 		{/if}
 		{#if message}<p class="message-bar" role="status">{message}</p>{/if}
 		{#if !collections.length}
 			<section class="empty-pack-library" aria-labelledby="library-title">
-				<h1 id="library-title" tabindex="-1">No packs installed</h1>
+				<h1 id="library-title" tabindex="-1">No Packs Installed</h1>
 				<p>
-					Open Library &amp; devices to import a reference pack. Your saved notes and progress are
+					Open Library &amp; Devices to import a reference pack. Your saved notes and progress are
 					kept separately.
 				</p>
-				<a class="button" href="/create">Create a reference pack</a>
+				<a class="button" href="/create">Create a Reference Pack</a>
 			</section>
 		{:else if !practising}
 			<section class="library-view" aria-labelledby="library-title">
@@ -888,7 +881,7 @@
 								<Search size={18} aria-hidden="true" /><input
 									id="library-search"
 									type="search"
-									placeholder="Search moves, inputs or situations"
+									placeholder="Search moves or inputs"
 									bind:value={query}
 									oninput={(event) => {
 										query = event.currentTarget.value;
@@ -903,7 +896,9 @@
 								onclick={() => {
 									savedOnly = false;
 									void updateUrl();
-								}}>All references</button
+								}}
+								aria-label="All References"
+								>All <span class="collection-label-detail">References</span></button
 							>
 							<button
 								aria-pressed={savedOnly}
@@ -915,10 +910,10 @@
 						</div>
 						<button
 							class="button quick-switch-trigger library-quick-switch"
-							aria-label="Quick switch"
+							aria-label="Quick Switch"
 							onclick={openSwitcher}
 							aria-keyshortcuts="Control+k Meta+k"
-							><Search size={16} aria-hidden="true" /><span>Quick switch</span>
+							><Search size={16} aria-hidden="true" /><span>Quick Switch</span>
 							<kbd>⌘ / Ctrl K</kbd></button
 						>
 					</div>
@@ -927,7 +922,7 @@
 							class="training-goals"
 							style:--goal-count-width={`${String(references.length).length}ch`}
 						>
-							<legend class="filter-label">Training goal</legend>
+							<legend class="filter-label">Training Goal</legend>
 							<div class="training-goal-options">
 								{#each goalOptions as option}<button
 										class="goal-chip"
@@ -935,12 +930,15 @@
 										onclick={() => {
 											goal = option.id;
 											void updateUrl();
-										}}>{option.label} <span>{option.count}</span></button
+										}}
+										><span class="goal-label">{option.label}</span><span class="goal-count"
+											>{option.count}</span
+										></button
 									>{/each}
 							</div>
 						</fieldset>
 						<fieldset class="reference-types">
-							<legend class="filter-label">Reference type</legend>
+							<legend class="filter-label">Reference Type</legend>
 							<div class="type-options">
 								{#each typeOptions as option}<button
 										id={`type-${option.value}`}
@@ -963,7 +961,7 @@
 								onclick={() => (refinementsOpen = !refinementsOpen)}
 							>
 								<SlidersHorizontal size={16} aria-hidden="true" />
-								Refine results
+								Refine Results
 								{#if refinementCount}<span class="refinement-count">{refinementCount} active</span
 									>{/if}
 								<ChevronDown class="refinements-chevron" size={16} aria-hidden="true" />
@@ -978,10 +976,10 @@
 						<div class="filters" id="library-refinements" hidden={!refinementsOpen}>
 							<ChoiceField
 								id="situation-filter"
-								label="Starting situation"
+								label="Starting Situation"
 								value={situation}
 								options={[
-									{ value: 'all', label: 'Any situation' },
+									{ value: 'all', label: 'Any Situation' },
 									...situations.map((value) => ({ value, label: value })),
 								]}
 								onchange={(value) => {
@@ -994,7 +992,7 @@
 								label="Outcome"
 								value={outcome}
 								options={[
-									{ value: 'all', label: 'Any outcome' },
+									{ value: 'all', label: 'Any Outcome' },
 									...outcomes.map((value) => ({ value, label: value })),
 								]}
 								onchange={(value) => {
@@ -1004,10 +1002,10 @@
 							/>
 							<ChoiceField
 								id="practice-filter"
-								label="Practice status"
+								label="Practice Status"
 								value={practice}
 								options={[
-									{ value: 'all', label: 'All statuses' },
+									{ value: 'all', label: 'All Statuses' },
 									{ value: 'untried', label: 'Untried' },
 									{ value: 'practising', label: 'Practising' },
 									{ value: 'reliable', label: 'Reliable' },
@@ -1033,7 +1031,7 @@
 								>
 							{/each}
 							<button class="button button--quiet reset-filters" onclick={reset}
-								>Clear filters</button
+								>Clear Filters</button
 							>
 						</div>{/if}
 					<p class="sr-only" role="status" aria-atomic="true">{resultAnnouncement}</p>
@@ -1065,7 +1063,7 @@
 								}}
 							>
 								<div class="card-top">
-									<span class="kind-label">{ref.kind}</span><span
+									<span class="kind-label">{kindLabels[ref.kind]}</span><span
 										>{#if library[ref.id]?.saved}<Star
 												size={13}
 												fill="currentColor"
@@ -1110,14 +1108,14 @@
 				{#if results.length === 0}<div class="empty">
 						<h2>
 							{savedOnly && savedIds.size === 0
-								? 'Nothing saved here yet.'
+								? 'Nothing Saved Yet'
 								: goal !== 'all' && goalReferences.length === 0
 									? `No ${goalLabel.toLowerCase()} references tagged yet.`
-									: 'No matching references.'}
+									: 'No Matching References'}
 						</h2>
 						<p>
 							{savedOnly && savedIds.size === 0
-								? 'Open a reference and use the star to save it for practice.'
+								? 'Open a reference and select Save.'
 								: goal !== 'all' && goalReferences.length === 0
 									? 'This character library has no references tagged for this goal yet. Try another goal or browse the full library.'
 									: 'Your filters have no matches. Remove an active filter above to broaden the results.'}
@@ -1131,9 +1129,9 @@
 										size={16}
 										aria-hidden="true"
 									/></button
-								><button class="button button--quiet" onclick={reset}>Browse all references</button
+								><button class="button button--quiet" onclick={reset}>Browse All References</button
 								>{:else}<button class="button primary-button" onclick={reset}
-									>Browse all references<ArrowRight size={16} aria-hidden="true" /></button
+									>Browse All References<ArrowRight size={16} aria-hidden="true" /></button
 								>{/if}
 						</div>
 					</div>{/if}
@@ -1141,15 +1139,20 @@
 		{:else if selected && personal}
 			<article class="reference-detail practice-view" aria-label="Selected reference">
 				<nav class="practice-nav" aria-label="Practice navigation">
-					<button class="button button--quiet back-library" onclick={returnToLibrary}
-						><ArrowLeft size={16} aria-hidden="true" />Back to library <kbd>Esc</kbd></button
+					<button
+						class="button button--quiet back-library"
+						aria-label="Back to Library"
+						onclick={returnToLibrary}
+						><ArrowLeft size={16} aria-hidden="true" /><span
+							><span class="back-library-detail">Back to </span>Library</span
+						><kbd>Esc</kbd></button
 					>
 					<button
 						class="button quick-switch-trigger"
-						aria-label="Quick switch"
+						aria-label="Quick Switch"
 						onclick={openSwitcher}
 						aria-keyshortcuts="Control+k Meta+k"
-						><Search size={16} aria-hidden="true" /><span>Quick switch</span>
+						><Search size={16} aria-hidden="true" /><span>Quick Switch</span>
 						<kbd>⌘ / Ctrl K</kbd></button
 					>
 					<div class="practice-pagination">
@@ -1201,7 +1204,7 @@
 											size={14}
 											aria-hidden="true"
 										/></button
-									>{/if}<button onclick={reset}>Use all references</button>
+									>{/if}<button onclick={reset}>Use All References</button>
 							</div>
 						</div>{/if}
 				</nav>
@@ -1216,7 +1219,7 @@
 							<header class="practice-heading">
 								<p class="practice-breadcrumb">
 									{subjectName} <span aria-hidden="true">/</span>
-									{selected.kind}
+									{kindLabels[selected.kind]}
 								</p>
 								<div class="practice-title-row">
 									<h1 id="reference" tabindex="-1">{selected.title}</h1>
@@ -1236,7 +1239,7 @@
 				<details class="detail-disclosure input-explanations">
 					<summary
 						><span
-							>Move explanations &amp; timing cues <span class="disclosure-count"
+							>Move Explanations &amp; Timing Cues <span class="disclosure-count"
 								>({selected.inputs.length}
 								{selected.inputs.length === 1 ? 'input' : 'inputs'})</span
 							></span
@@ -1265,7 +1268,7 @@
 					{#if selected.notes.length || Object.keys(selected.resources).length}
 						<section class="reference-notes">
 							<div class="section-heading">
-								<h2>{selected.notes.length ? 'Execution notes' : 'Resources'}</h2>
+								<h2>{selected.notes.length ? 'Execution Notes' : 'Resources'}</h2>
 							</div>
 							{#if selected.notes.length}
 								<ul>
@@ -1283,7 +1286,7 @@
 					{/if}
 					<section class="personal-panel">
 						<div class="section-heading">
-							<h2>Your notes</h2>
+							<h2>Your Notes</h2>
 						</div>
 						{#if personal.revision !== selected.revision}<p class="revision-hint">
 								This reference has been updated since your saved notes. Recheck the source; your
@@ -1291,7 +1294,7 @@
 							</p>{/if}<ChoiceField
 							id="reference-practice-status"
 							disabled={!connected || !!(selected && recoveryConflicts[selected.id])}
-							label="Practice status"
+							label="Practice Status"
 							value={personal.status}
 							options={[
 								{ value: 'untried', label: 'Untried' },
@@ -1327,7 +1330,7 @@
 				</div>
 				<SourceDetails reference={selected} />
 				{#if selected.relatedIds.length}<section class="related">
-						<h2>Related references</h2>
+						<h2>Related References</h2>
 						<div>
 							{#each references.filter( (ref) => selected?.relatedIds.includes(ref.id) ) as ref}<button
 									onclick={() => selectEntry(ref)}
@@ -1338,7 +1341,7 @@
 			</article>
 		{/if}
 		{#if unavailableNotes.length}<details class="unavailable-notes" bind:this={unavailablePanel}>
-				<summary>Notes for unavailable references ({unavailableNotes.length})</summary>
+				<summary>Notes for Unavailable References ({unavailableNotes.length})</summary>
 				<p>
 					These references are not installed. Reimport their packs to reconnect your notes and
 					progress.
@@ -1358,27 +1361,27 @@
 </div>
 <dialog class="quick-switch-dialog" bind:this={switcher} aria-labelledby="switch-title">
 	<div class="dialog-heading">
-		<h2 id="switch-title">Quick switch <span class="switch-character">{subjectName}</span></h2>
+		<h2 id="switch-title">Quick Switch <span class="switch-character">{subjectName}</span></h2>
 		<button class="button button--quiet" onclick={() => switcher.close()}
 			><X size={16} aria-hidden="true" />Close</button
 		>
 	</div>
 	<label class="switch-search"
-		>Find a reference<input
+		><span class="switch-search-label">Find a Reference</span><input
 			type="search"
 			bind:this={switchSearch}
 			bind:value={switchQuery}
 			onkeydown={switcherKeys}
-			placeholder="Type a move, input or situation…"
+			placeholder="Search references"
 		/></label
 	>
-	<div class="switch-scopes" aria-label="Quick switch collection">
+	<div class="switch-scopes" role="group" aria-label="Quick Switch collection">
 		<button
 			aria-pressed={switchScope === 'results'}
 			onclick={() => {
 				switchScope = 'results';
 				switchSearch.focus();
-			}}>Current results <span>{results.length}</span></button
+			}}>Current Results <span>{results.length}</span></button
 		><button
 			aria-pressed={switchScope === 'saved'}
 			onclick={() => {
@@ -1390,7 +1393,7 @@
 			onclick={() => {
 				switchScope = 'all';
 				switchSearch.focus();
-			}}>All references <span>{references.length}</span></button
+			}}>All References <span>{references.length}</span></button
 		>
 	</div>
 	<p class="switch-count" role="status">
@@ -1404,7 +1407,7 @@
 					aria-current={practising && ref.id === selectedId ? 'true' : undefined}
 					onclick={() => selectEntry(ref)}
 					onkeydown={switcherKeys}
-					><span class="kind-label">{ref.kind}</span><strong>{ref.title}</strong><small
+					><span class="kind-label">{kindLabels[ref.kind]}</span><strong>{ref.title}</strong><small
 						>{ref.situations.join(' · ')}{practising && ref.id === selectedId
 							? ' · Current reference'
 							: ''}</small
@@ -1413,7 +1416,7 @@
 			</li>{/each}
 	</ul>
 	{#if switchResults.length === 0}<p class="empty-switch">
-			No matching references. Try another search or choose All references.
+			No matching references. Try another search or choose All References.
 		</p>{/if}
 </dialog>
 <dialog class="notation-dialog" bind:this={help} aria-labelledby="notation-title">

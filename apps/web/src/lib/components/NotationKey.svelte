@@ -24,8 +24,8 @@
 	});
 	const sections = [
 		{ id: 'inputs', label: 'Inputs' },
-		{ id: 'sequence', label: 'Game terms' },
-		{ id: 'character', label: 'Fighter terms' },
+		{ id: 'sequence', label: 'Game Terms' },
+		{ id: 'character', label: 'Fighter Terms' },
 	];
 	const characterTerms = $derived(
 		game.characters.find((item) => item.id === characterId)?.notationLegend ?? [],
@@ -78,11 +78,11 @@
 		<h2 id="notation-title">Notation</h2>
 		<p class="dialog-context">{game.name}</p>
 	</div>
-	<button class="icon-button" aria-label="Close notation" onclick={onclose}
+	<button class="icon-button" aria-label="Close Notation" onclick={onclose}
 		><X size={20} aria-hidden="true" /></button
 	>
 </div>
-<div class="notation-tabs" role="tablist" aria-label="Notation sections">
+<div class="notation-tabs" role="tablist" aria-label="Notation Sections">
 	{#each sections as item, index}
 		<button
 			id={'notation-tab-' + item.id}
@@ -170,7 +170,7 @@
 			{#if item.id === 'character'}
 				<div class="notation-fighter-scope" id="notation-fighter-scope">
 					<CharacterPortrait {characterId} size={32} />
-					<p><span>Selected fighter</span><strong>{character}</strong></p>
+					<p><span>Selected Fighter</span><strong>{character}</strong></p>
 				</div>
 			{/if}
 			<div class="notation-glossary" aria-live="polite" aria-atomic="true">
@@ -181,17 +181,17 @@
 							</div>{/each}
 					</dl>{:else}<p>No additional fighter terms.</p>{/if}
 			</div>
-			{#if pageCount > 1}<nav class="notation-pages" aria-label="Notation pages">
+			{#if pageCount > 1}<nav class="notation-pages" aria-label="Notation Pages">
 					<button
 						class="icon-button"
-						aria-label="Previous notation page"
+						aria-label="Previous Notation Page"
 						disabled={glossaryPage === 0}
 						onclick={() => glossaryPage--}><ArrowLeft size={18} aria-hidden="true" /></button
 					>
 					<span>{glossaryPage + 1} / {pageCount}</span>
 					<button
 						class="icon-button"
-						aria-label="Next notation page"
+						aria-label="Next Notation Page"
 						disabled={glossaryPage >= pageCount - 1}
 						onclick={() => glossaryPage++}><ArrowRight size={18} aria-hidden="true" /></button
 					>

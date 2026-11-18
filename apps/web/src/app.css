@@ -222,6 +222,7 @@ a > svg {
 	color: var(--panel-ink);
 }
 .brand {
+	flex: none;
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -236,6 +237,8 @@ a > svg {
 	outline-color: var(--panel-accent);
 }
 .header-actions {
+	flex: none;
+	min-inline-size: 0;
 	display: flex;
 	align-items: center;
 	gap: 8px;
@@ -253,7 +256,7 @@ a > svg {
 	text-decoration: none;
 	border-radius: 4px;
 }
-.header-actions > :hover {
+.header-actions > :is(button, a):hover {
 	background: #ffffff12;
 }
 .character-trigger {
@@ -284,7 +287,9 @@ a > svg {
 	font-size: 10px;
 }
 .character-trigger strong {
-	overflow-wrap: anywhere;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 1.2;
@@ -396,7 +401,7 @@ a > svg {
 	color: var(--ink);
 	font-weight: 600;
 }
-.collection-switch span {
+.collection-switch button > span:not(.collection-label-detail) {
 	margin-inline-start: 6px;
 	font-variant-numeric: tabular-nums;
 }
@@ -457,7 +462,7 @@ kbd {
 	background: var(--ink);
 	color: var(--surface);
 }
-.goal-chip span {
+.goal-chip .goal-count {
 	flex: none;
 	inline-size: var(--goal-count-width);
 	text-align: end;
@@ -602,7 +607,6 @@ kbd {
 	gap: 5px;
 }
 .kind-label {
-	text-transform: capitalize;
 	font-size: 11px;
 	font-weight: 500;
 }
@@ -610,6 +614,7 @@ kbd {
 	margin: 9px 0 12px;
 	min-block-size: 2.25em;
 	font: 600 1.65rem/1.12 var(--display);
+	text-wrap: balance;
 	overflow-wrap: anywhere;
 }
 .card-facts {
@@ -942,7 +947,9 @@ kbd {
 	margin: 0;
 }
 .frame {
-	display: block;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
 	inline-size: 100%;
 	block-size: 100%;
 	padding: 0;
@@ -960,6 +967,8 @@ kbd {
 	box-shadow: inset 0 -2px var(--accent);
 }
 .frame-image {
+	inline-size: 100%;
+	flex: none;
 	position: relative;
 }
 .frame img {
@@ -1617,7 +1626,9 @@ dialog > p {
 	html {
 		scroll-padding-top: 12px;
 	}
-	.masthead,
+	.masthead {
+		position: relative;
+	}
 	.practice-nav {
 		position: static;
 	}
@@ -1642,26 +1653,29 @@ dialog > p {
 		scroll-padding-top: 12px;
 	}
 	.masthead {
-		position: static;
-		flex-wrap: wrap;
-		gap: 10px;
-		padding: 10px 16px;
+		position: relative;
+		display: grid;
+		grid-template-columns: auto minmax(0, 1fr);
+		gap: 8px 10px;
+		padding: 8px 16px;
 	}
 	.brand {
 		font-size: 20px;
 	}
 	.character-trigger {
 		min-inline-size: 0;
-		flex: 0 1 194px;
-		margin-inline-start: auto;
+		inline-size: 100%;
+		margin-inline-start: 0;
 	}
 	.header-actions {
+		grid-column: 1 / -1;
 		inline-size: 100%;
 		justify-content: end;
 		gap: 4px;
 	}
 	.header-actions > button,
 	.header-actions > a {
+		min-inline-size: var(--control-size);
 		min-block-size: var(--control-size);
 		padding-inline: 10px;
 	}
@@ -1807,7 +1821,7 @@ dialog > p {
 	}
 	.type-options {
 		display: grid;
-		grid-template-columns: repeat(4, minmax(0, 1fr));
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 	.type-options button {
 		padding-inline: 7px;
@@ -1844,12 +1858,6 @@ dialog > p {
 		animation: none !important;
 	}
 }
-@media (max-width: 360px) {
-	.training-goal-options,
-	.type-options {
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-}
 @media (forced-colors: active) {
 	html {
 		scrollbar-width: auto;
@@ -1877,6 +1885,7 @@ dialog > p {
 	.type-options button[aria-pressed='true'],
 	.collection-switch button[aria-pressed='true'],
 	.roster-choice[aria-pressed='true'],
+	.switch-scopes button[aria-pressed='true'],
 	.switch-result[aria-current='true'],
 	.frame.active {
 		outline: 2px solid Highlight;
@@ -2041,7 +2050,7 @@ dialog > p {
 
 @media (max-width: 760px) {
 	.app-shell.in-practice .masthead {
-		flex-wrap: nowrap;
+		grid-template-columns: auto minmax(0, 1fr) auto;
 		gap: 10px;
 		min-block-size: 64px;
 		padding: 8px 16px;
@@ -2059,6 +2068,7 @@ dialog > p {
 		margin-inline-start: 0;
 	}
 	.in-practice .header-actions {
+		grid-column: auto;
 		inline-size: auto;
 		flex: none;
 		gap: 0;
@@ -2070,7 +2080,7 @@ dialog > p {
 		min-block-size: 44px;
 		padding-inline: 12px;
 	}
-	.in-practice .header-actions .utility-label {
+	.in-practice .header-actions > :is(button, a) .utility-label {
 		display: none;
 	}
 	.practice-pagination .practice-step {
@@ -2096,6 +2106,7 @@ dialog > p {
 }
 
 .practice-step kbd {
+	color: inherit;
 	display: inline-grid;
 	place-items: center;
 	min-inline-size: 18px;
@@ -2106,7 +2117,7 @@ dialog > p {
 	font:
 		10px/1.2 'DM Sans',
 		sans-serif;
-	opacity: 0.7;
+	opacity: 0.9;
 }
 @media (max-width: 760px), (pointer: coarse) {
 	.practice-step kbd {
@@ -2142,11 +2153,11 @@ dialog > p {
 		justify-content: center;
 	}
 	.in-practice .character-trigger {
-		gap: 6px;
+		gap: 4px;
 		padding: 4px;
 	}
 	.in-practice .trigger-portrait {
-		--portrait-size: 28px;
+		--portrait-size: 24px;
 	}
 	.in-practice .character-trigger > svg,
 	.practice-pagination .practice-step > svg {
@@ -2158,13 +2169,80 @@ dialog > p {
 	:root {
 		--control-padding-inline: 8px;
 	}
-	.masthead .brand > span,
-	.quick-switch-trigger > span {
+	.back-library-detail {
 		display: none;
 	}
-	.quick-switch-trigger {
-		inline-size: var(--control-size);
-		min-inline-size: var(--control-size);
-		padding-inline: 0;
+	.masthead .brand > span,
+	.header-actions > :is(button, a) .utility-label {
+		display: none;
+	}
+}
+
+/* Short switchers keep their controls above one flexible results region. */
+.quick-switch-dialog[open] {
+	display: flex;
+	flex-direction: column;
+	block-size: min(720px, calc(100dvh - 32px));
+}
+.quick-switch-dialog > :not(.switch-results) {
+	flex: none;
+}
+.quick-switch-dialog .switch-results {
+	flex: 1 1 auto;
+	min-block-size: 90px;
+	max-block-size: none;
+}
+@media (761px <= width <= 1000px) {
+	.header-actions > :is(button, a) .utility-label {
+		display: none;
+	}
+	.header-actions > button,
+	.header-actions > a {
+		min-inline-size: 44px;
+		min-block-size: 44px;
+	}
+}
+@media (max-width: 480px) {
+	.collection-label-detail {
+		display: none;
+	}
+	.reference-card h2 {
+		min-block-size: 0;
+	}
+	.training-goal-options .goal-chip {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) var(--goal-count-width);
+		min-inline-size: 0;
+		text-align: start;
+	}
+	.goal-label {
+		min-inline-size: 0;
+		line-height: 1.3;
+	}
+}
+@media (max-height: 480px) {
+	.quick-switch-dialog .dialog-heading {
+		margin-block-end: 8px;
+	}
+	.quick-switch-dialog .switch-search {
+		gap: 0;
+	}
+	.switch-search-label {
+		position: absolute;
+		inline-size: 1px;
+		block-size: 1px;
+		overflow: hidden;
+		clip-path: inset(50%);
+		white-space: nowrap;
+	}
+	.quick-switch-dialog .switch-scopes {
+		margin-block-start: 8px;
+	}
+	.quick-switch-dialog .switch-count {
+		margin-block: 8px 0;
+	}
+	.quick-switch-dialog .switch-result {
+		min-block-size: 60px;
+		padding-block: 8px;
 	}
 }

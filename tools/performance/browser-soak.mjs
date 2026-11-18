@@ -92,14 +92,14 @@ async function cycle() {
 	// Clicking a partly visible large card's centre may hit outside the viewport.
 	await browser(['scrollintoview', 'a.reference-card h2']);
 	await browser(['click', 'a.reference-card h2']);
-	await browser(['wait', '--text', 'Replay reference']);
+	await browser(['wait', '--text', 'Replay Reference']);
 	await browser(['wait', '--fn', 'document.querySelector("video")?.readyState >= 2']);
 	assert.equal(await evaluate('document.querySelectorAll("video").length'), 1);
 	const entry = await evaluate('new URL(location.href).searchParams.get("entry")');
 	const paused = await evaluate('document.querySelector("video").paused');
 	if (paused) {
-		await browser(['scrollintoview', '[aria-label="Play clip"]']);
-		await browser(['click', '[aria-label="Play clip"]']);
+		await browser(['scrollintoview', '[aria-label="Play Clip"]']);
+		await browser(['click', '[aria-label="Play Clip"]']);
 	}
 	await browser([
 		'wait',
@@ -118,14 +118,24 @@ async function cycle() {
 		'--fn',
 		`new URL(location.href).searchParams.get('entry') === ${JSON.stringify(entry)}`,
 	]);
-	await browser(['scrollintoview', '[aria-label="Playback settings"]']);
-	await browser(['click', '[aria-label="Playback settings"]']);
+	await browser(['scrollintoview', '[aria-label="Playback Settings"]']);
+	await browser(['click', '[aria-label="Playback Settings"]']);
 	await browser(['wait', '--fn', 'document.querySelector("[data-overlay-open=true]") !== null']);
 	await browser(['press', 'Escape']);
 	await browser(['scrollintoview', '.back-library']);
 	await browser(['click', '.back-library']);
-	await browser(['wait', '--text', 'All references']);
+	await browser(['wait', '--text', 'All References']);
 	await browser(['wait', '--fn', 'document.querySelectorAll("video").length === 0']);
+	await browser(['set', 'viewport', '390', '844']);
+	await browser(['click', '[aria-label="More Tools"]']);
+	await browser([
+		'wait',
+		'--fn',
+		'document.querySelector(".tools-panel[data-overlay-open=true]") !== null',
+	]);
+	await browser(['press', 'Escape']);
+	await browser(['set', 'viewport', '1280', '800']);
+	await browser(['wait', '--fn', 'document.querySelector(".more-tools-trigger") === null']);
 	return performance.now() - started;
 }
 await writeReport(values.output, {passed: false, status: 'running', session});
@@ -134,7 +144,7 @@ try {
 	browserStarted = true;
 	await browser(['open', fixture.url]);
 	await browser(['set', 'viewport', '1280', '800']);
-	await browser(['wait', '--text', 'All references']);
+	await browser(['wait', '--text', 'All References']);
 	await evaluate(instrumentation);
 	for (let i = 0; i < 3; i++) await cycle();
 	samples.push(await evaluate('window.__hcPerformance.read()'));

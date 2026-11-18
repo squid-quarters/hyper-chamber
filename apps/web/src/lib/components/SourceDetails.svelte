@@ -7,7 +7,7 @@
 </script>
 
 <section class="source-details" aria-labelledby={reference.id + '-source-title'}>
-	<h2 id={reference.id + '-source-title'}>Source &amp; review</h2>
+	<h2 id={reference.id + '-source-title'}>Source &amp; Review</h2>
 	<div class="source-columns">
 		<div class="source-record">
 			{#if sourceLink(reference)}
@@ -16,7 +16,7 @@
 				</a>
 			{:else}
 				<p class="source-title">{reference.source.title}</p>
-				<p class="recording-label">Original recording</p>
+				<p class="recording-label">Original Recording</p>
 			{/if}
 			<dl class="source-metadata">
 				<div>
@@ -31,12 +31,12 @@
 		</div>
 		<div class="source-review">
 			<h3>
-				{reference.verification.status === 'source-reviewed' ? 'Source reviewed' : 'Review pending'}
+				{reference.verification.status === 'source-reviewed' ? 'Source Reviewed' : 'Review Pending'}
 			</h3>
 			<p>{reference.verification.note}</p>
 			<dl class="source-metadata">
 				<div>
-					<dt>Game version</dt>
+					<dt>Game Version</dt>
 					<dd>{reference.verification.gameVersion ?? 'Not established'}</dd>
 				</div>
 			</dl>
